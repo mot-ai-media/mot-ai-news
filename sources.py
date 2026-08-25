@@ -1,0 +1,105 @@
+"""AI関連ニュースをRSSから収集する。"""
+
+from __future__ import annotations
+
+import html
+import re
+import urllib.parse
+import urllib.request
+from dataclasses import dataclass
+
+import feedparser
+
+_OG_IMAGE_RE = re.compile(
+    r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', re.IGNORECASE
+)
+
+# 検索ワードはここを編集すれば変更できる
+JP_QUERY = (
+    "生成AI OR ChatGPT OR LLM OR OpenAI OR Anthropic OR Claude OR Gemini OR AIエージェント "
+    "OR Copilot OR \"Meta AI\" OR Perplexity OR xAI OR Grok OR DeepSeek OR Mistral OR Sora OR NotebookLM "
+    "OR 人工知能 OR 機械学習 OR ディープラーニング OR 基盤モデル OR \"AI規制\""
+)
+JP_GOOGLE_NEWS_RSS = (
+    f"https://news.google.com/rss/search?q={urllib.parse.quote(JP_QUERY)}&hl=ja&gl=JP&ceid=JP:ja"
+)
+ITMEDIA_AI_RSS = "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml"
+AINOW_RSS = "https://ainow.ai/feed/"  # AI専門メディア。直リンクなので実画像(og:image)が取れる
+
+# フィードを追加/削除したい場合はこのリストを編集する
+FEEDS = [
+    JP_GOOGLE_NEWS_RSS,
+    ITMEDIA_AI_RSS,
+    AINOW_RSS,
+]
+
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+@dataclass
+class Article:
+    title: str
+    link: str
+    summary: str
+    source: str
+    published: str
+    source_domain: str | None = None
+
+
+def _clean_text(raw: str) -> str:
+    text = _TAG_RE.sub("", raw or "")
+    return html.unescape(text).strip()
+
+
+def fetch_candidates(limit_per_feed: int = 15) -> list[Article]:
+    """全フィードから記事を取得し、正規化して返す。取得失敗フィードは無視する。"""
+    articles: list[Article] = []
+    for url in FEEDS:
+        try:
+            parsed = feedparser.parse(url)
+        except Exception:
+            continue
+        feed_title = getattr(parsed.feed, "title", url)
+        for entry in parsed.entries[:limit_per_feed]:
+            link = getattr(entry, "link", None)
+            title = _clean_text(getattr(entry, "title", ""))
+            summary = _clean_text(getattr(entry, "summary", ""))
+            published = getattr(entry, "published", "")
+            # Google News RSSは<source>に本来の発行元(例: ITmedia)とその実ドメインが入る
+            entry_source = getattr(entry, "source", None)
+            source = entry_source.get("title") if entry_source else None
+            source = source or feed_title
+            source_domain = entry_source.get("href") if entry_source else None
+            if not source_domain:
+                source_domain = urllib.parse.urlsplit(link).netloc or None
+            if not link or not title:
+                continue
+            articles.append(
+                Article(
+                    title=title,
+                    link=link,
+                    summary=summary,
+                    source=source,
+                    published=published,
+                    source_domain=source_domain,
+                )
+            )
+    return articles
+
+
+def filter_unposted(articles: list[Article], posted_links: set[str]) -> list[Article]:
+    return [a for a in articles if a.link not in posted_links]
+
+
+def fetch_og_image(url: str, timeout: int = 8) -> str | None:
+    """記事ページのog:imageメタタグだけを軽量に取得する(本文はスクレイピングしない)。"""
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; AiNewsSiteBot/1.0)"})
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as resp:
+            # og:imageは通常<head>内にあるため、先頭部分だけ読めば十分
+            chunk = resp.read(65536).decode("utf-8", errors="ignore")
+    except Exception:
+        return None
+
+    match = _OG_IMAGE_RE.search(chunk)
+    return html.unescape(match.group(1)) if match else None

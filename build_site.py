@@ -1,0 +1,934 @@
+"""AIニュースまとめサイトのプロトタイプ生成スクリプト。
+
+RSSからAI関連記事を集め、Claudeでキャッチーな見出し・要約を生成し、
+静的サイト(output/)として書き出す。
+
+サイト構造(docsフォルダ = GitHub Pagesの公開対象):
+  docs/index.html          一覧ページ(最新記事のカード。カードは自サイトの記事ページへリンク)
+  docs/articles/<slug>.html  記事ごとの詳細ページ(広告枠あり。下部に元記事へのリンク)
+  docs/style.css           共通スタイル
+
+過去に生成した記事メタ情報は articles_data.json に蓄積し、一覧ページは
+その蓄積データから最新分を表示する(実行のたびに一覧が全部入れ替わらないようにするため)。
+
+実際のネット公開・広告コードの挿入はここでは行わない(手動で行う)。
+"""
+
+from __future__ import annotations
+
+import hashlib
+import html as html_lib
+import json
+import logging
+import urllib.parse
+from datetime import datetime
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+import generator
+import sources
+import state
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logger = logging.getLogger(__name__)
+
+OUTPUT_DIR = Path(__file__).parent / "docs"  # GitHub Pagesの "/docs" 公開設定に合わせたフォルダ名
+ARTICLES_DIR = OUTPUT_DIR / "articles"
+INDEX_PATH = OUTPUT_DIR / "index.html"
+STYLE_PATH = OUTPUT_DIR / "style.css"
+ABOUT_PATH = OUTPUT_DIR / "about.html"
+ROBOTS_PATH = OUTPUT_DIR / "robots.txt"
+SITEMAP_PATH = OUTPUT_DIR / "sitemap.xml"
+ARTICLES_DATA_PATH = Path(__file__).parent / "articles_data.json"
+
+MAX_NEW_ARTICLES = 5  # 1回の生成で新規に追加する記事数
+MAX_INDEX_ARTICLES = 20  # 一覧ページに表示する件数(蓄積データの中から新しい順)
+MAX_STORED_ARTICLES = 300  # articles_data.jsonに保持する上限(古いものから削除)
+MAX_RELATED_ARTICLES = 3  # 記事ページ下部に出す関連記事の件数
+MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読み込みする最大件数
+
+# 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
+SITE_BASE_URL = ""
+
+FAVICON_DATA_URI = (
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E"
+    "%3Crect width='100' height='100' rx='20' fill='%231a1a2e'/%3E"
+    "%3Ctext x='50' y='68' font-size='48' font-family='Arial,sans-serif' font-weight='bold' "
+    "fill='white' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E"
+)
+
+
+def _abs_url(path: str) -> str:
+    """SITE_BASE_URLが未設定の間は相対パスのまま返す(ローカル確認用)。"""
+    if SITE_BASE_URL:
+        return f"{SITE_BASE_URL.rstrip('/')}/{path.lstrip('/')}"
+    return path
+
+
+def _safe_http_url(url: str | None) -> str | None:
+    """http/https以外のスキーム(javascript:等)を弾く。
+    外部RSS・スクレイピング結果はそのままhref/srcに埋め込むと危険なため、
+    HTMLエスケープとは別にスキーム自体を検証する。"""
+    if not url:
+        return None
+    scheme = urllib.parse.urlsplit(url).scheme.lower()
+    if scheme not in ("http", "https"):
+        return None
+    return url
+
+
+# 実画像が無い記事の背景グラデーション配色(見出しを白文字で重ねるので暗めに統一)
+FALLBACK_GRADIENTS = [
+    ("#1a1a2e", "#3a3a68"),
+    ("#0f2027", "#2c5364"),
+    ("#232526", "#414345"),
+    ("#16222a", "#3a6073"),
+    ("#302b63", "#0f0c29"),
+    ("#1e3c32", "#2d6a4f"),
+]
+
+
+def _pick_gradient(source: str) -> tuple[str, str]:
+    palette_index = int(hashlib.md5(source.encode("utf-8")).hexdigest(), 16) % len(FALLBACK_GRADIENTS)
+    return FALLBACK_GRADIENTS[palette_index]
+
+
+STYLE_CSS = """
+body {
+  font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+  background: #f5f6fa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 24px 16px;
+  text-align: center;
+}
+header h1 {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+}
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+header p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.card {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.badge-new {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background: #ff3b30;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.03em;
+}
+#scroll-sentinel {
+  height: 1px;
+}
+#load-status {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+  padding: 12px 0;
+}
+.thumb-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.thumb-link .thumb {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.thumb-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 55%, transparent 100%);
+}
+.thumb-overlay-text {
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.4;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.card-body {
+  padding: 12px 18px 16px;
+}
+.meta {
+  font-size: 0.76rem;
+  color: #888;
+  margin: 0 0 8px;
+}
+.summary {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+}
+.ad-slot {
+  margin-top: 10px;
+  padding: 6px;
+  font-size: 0.7rem;
+  color: #bbb;
+  border: 1px dashed #ddd;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #999;
+  padding: 24px;
+}
+footer a {
+  color: #778;
+}
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 18px 0;
+}
+.share-btn {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+.share-x {
+  background: #000;
+}
+.share-line {
+  background: #06c755;
+}
+.related {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e5e5;
+}
+.related h2 {
+  font-size: 1rem;
+  margin: 0 0 10px;
+}
+.related ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.related li {
+  margin-bottom: 8px;
+}
+.related a {
+  color: #1a1a2e;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.related a:hover {
+  text-decoration: underline;
+}
+.next-up {
+  margin-top: 24px;
+}
+.next-up-label {
+  font-size: 0.8rem;
+  color: #888;
+  font-weight: bold;
+  margin: 0 0 8px;
+}
+.next-up-card {
+  display: block;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  aspect-ratio: 16 / 8;
+  background: #1a1a2e;
+}
+.next-up-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.55;
+}
+.next-up-headline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 16px;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: bold;
+  line-height: 1.4;
+  background: linear-gradient(transparent, rgba(0,0,0,0.75));
+}
+.reactions {
+  display: flex;
+  gap: 8px;
+  margin: 18px 0;
+}
+.reaction-btn {
+  flex: 1;
+  padding: 10px 4px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.12s, background 0.12s, border-color 0.12s;
+}
+.reaction-btn:hover {
+  background: #f7f7f7;
+}
+.reaction-btn.active {
+  background: #fff3cd;
+  border-color: #ffcc00;
+  transform: scale(1.08);
+}
+
+/* 記事詳細ページ用 */
+.article-page main {
+  max-width: 640px;
+}
+.article-page .thumb-link {
+  border-radius: 12px;
+  margin-bottom: 16px;
+  pointer-events: none; /* 記事ページ内では画像はリンクにしない */
+}
+.article-page h1.headline {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+.article-page .summary {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.ad-slot-large {
+  margin: 20px 0;
+  padding: 24px;
+  font-size: 0.8rem;
+  color: #bbb;
+  border: 1px dashed #ddd;
+  text-align: center;
+  border-radius: 8px;
+}
+.source-link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 18px;
+  background: #1a1a2e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+.source-link:hover {
+  background: #33335c;
+}
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #667;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+"""
+
+INDEX_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI最新ニュースまとめ</title>
+<link rel="icon" href="{favicon}">
+<link rel="stylesheet" href="style.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI最新ニュースまとめ">
+<meta property="og:description" content="生成AI・LLM関連の最新ニュースをキャッチーな見出しでまとめてお届け">
+<meta property="og:url" content="{page_url}">
+<meta name="twitter:card" content="summary">
+</head>
+<body>
+<header>
+  <h1>AI最新ニュースまとめ</h1>
+  <p>最終更新: {generated_at}</p>
+</header>
+<main>
+{cards}
+<div id="scroll-sentinel"></div>
+<p id="load-status"></p>
+</main>
+<footer>
+  各記事の詳細・引用元は見出しのリンク先をご確認ください。<br>
+  <a href="about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script type="application/json" id="more-articles-data">{more_articles_json}</script>
+<script>
+(function() {{
+  var dataEl = document.getElementById("more-articles-data");
+  var queue = JSON.parse(dataEl.textContent || "[]");
+  var main = document.querySelector("main");
+  var sentinel = document.getElementById("scroll-sentinel");
+  var status = document.getElementById("load-status");
+  var BATCH = 8;
+
+  function renderCard(item) {{
+    var article = document.createElement("article");
+    article.className = "card";
+
+    if (item.is_new) {{
+      var badge = document.createElement("span");
+      badge.className = "badge-new";
+      badge.textContent = "NEW";
+      article.appendChild(badge);
+    }}
+
+    var thumbLink = document.createElement("a");
+    thumbLink.className = "thumb-link";
+    thumbLink.href = "articles/" + item.slug + ".html";
+    if (item.image_kind === "real" && item.image_url) {{
+      var img = document.createElement("img");
+      img.className = "thumb";
+      img.loading = "lazy";
+      img.alt = "";
+      img.src = item.image_url;
+      thumbLink.appendChild(img);
+    }} else if (item.g1 && item.g2) {{
+      thumbLink.style.background = "linear-gradient(135deg, " + item.g1 + ", " + item.g2 + ")";
+    }}
+    var overlay = document.createElement("div");
+    overlay.className = "thumb-overlay";
+    var overlayText = document.createElement("span");
+    overlayText.className = "thumb-overlay-text";
+    overlayText.textContent = item.headline;
+    overlay.appendChild(overlayText);
+    thumbLink.appendChild(overlay);
+    article.appendChild(thumbLink);
+
+    var body = document.createElement("div");
+    body.className = "card-body";
+
+    var h2 = document.createElement("h2");
+    h2.className = "sr-only";
+    var titleLink = document.createElement("a");
+    titleLink.href = "articles/" + item.slug + ".html";
+    titleLink.textContent = item.headline;
+    h2.appendChild(titleLink);
+    body.appendChild(h2);
+
+    var meta = document.createElement("p");
+    meta.className = "meta";
+    meta.textContent = "出典: " + item.source;
+    body.appendChild(meta);
+
+    var summary = document.createElement("p");
+    summary.className = "summary";
+    summary.textContent = item.summary;
+    body.appendChild(summary);
+
+    var adSlot = document.createElement("div");
+    adSlot.className = "ad-slot";
+    body.appendChild(adSlot);
+
+    article.appendChild(body);
+    return article;
+  }}
+
+  function loadMore() {{
+    if (queue.length === 0) {{
+      status.textContent = "すべての記事を表示しました";
+      observer.disconnect();
+      return;
+    }}
+    var batch = queue.splice(0, BATCH);
+    batch.forEach(function(item) {{
+      main.insertBefore(renderCard(item), sentinel);
+    }});
+  }}
+
+  var observer = new IntersectionObserver(function(entries) {{
+    if (entries[0].isIntersecting) {{
+      loadMore();
+    }}
+  }});
+  observer.observe(sentinel);
+}})();
+</script>
+</body>
+</html>
+"""
+
+CARD_TEMPLATE = """<article class="card">
+  {new_badge}{thumbnail}
+  <div class="card-body">
+    <h2 class="sr-only"><a href="articles/{slug}.html">{headline}</a></h2>
+    <p class="meta">出典: {source}</p>
+    <p class="summary">{summary}</p>
+    <div class="ad-slot"><!-- アフィリエイト広告枠(未設定) --></div>
+  </div>
+</article>
+"""
+
+NEW_BADGE_HTML = '<span class="badge-new">NEW</span>'
+NEW_BADGE_HOURS = 13  # この時間以内に生成された記事にNEWバッジを付ける(1日2回更新運用に合わせた余裕)
+
+ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{headline} | AI最新ニュースまとめ</title>
+<link rel="icon" href="{favicon}">
+<link rel="stylesheet" href="../style.css">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{headline}">
+<meta property="og:description" content="{summary}">
+<meta property="og:image" content="{og_image}">
+<meta property="og:url" content="{page_url}">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body class="article-page">
+<header>
+  <h1><a href="../index.html">AI最新ニュースまとめ</a></h1>
+</header>
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  {thumbnail}
+  <h1 class="headline">{headline}</h1>
+  <p class="meta">出典: {source} / {generated_at}</p>
+  <p class="summary">{body}</p>
+  <div class="ad-slot-large"><!-- アフィリエイト広告枠(未設定) --></div>
+  <p><a class="source-link" href="{link}" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a></p>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text={share_text}&url={share_url}" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url={share_url}&text={share_text}" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+  </div>
+  <div class="reactions" id="reactions" data-slug="{slug}">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  {next_up}
+  {related}
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {{
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try {{ saved = localStorage.getItem(key); }} catch (e) {{}}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {{
+    if (btn.getAttribute("data-emoji") === saved) {{
+      btn.classList.add("active");
+    }}
+    btn.addEventListener("click", function() {{
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) {{ b.classList.remove("active"); }});
+      try {{
+        if (isActive) {{
+          localStorage.removeItem(key);
+        }} else {{
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }}
+      }} catch (e) {{}}
+    }});
+  }});
+}})();
+</script>
+</body>
+</html>
+"""
+
+NEXT_UP_TEMPLATE = """<div class="next-up">
+  <p class="next-up-label">次に読む記事</p>
+  <a class="next-up-card" href="{slug}.html">
+    {image_tag}
+    <span class="next-up-headline">{headline}</span>
+  </a>
+</div>"""
+
+RELATED_TEMPLATE = """<div class="related">
+  <h2>その他の関連記事</h2>
+  <ul>
+{items}
+  </ul>
+</div>"""
+
+RELATED_ITEM_TEMPLATE = '    <li><a href="{slug}.html">{headline}</a></li>'
+
+# サムネイルは画像(実写 or グラデーション背景)の上に見出しを直接重ねて表示する。
+# 一覧ページ用(自サイトのarticles/へリンク)と記事ページ用(画像はリンクなし表示)でhrefの扱いが違うため分けている
+THUMBNAIL_TEMPLATE = (
+    '<a class="thumb-link" href="articles/{slug}.html" style="{bg_style}">{img_tag}'
+    '<div class="thumb-overlay"><span class="thumb-overlay-text">{headline}</span></div></a>'
+)
+ARTICLE_THUMBNAIL_TEMPLATE = (
+    '<div class="thumb-link" style="{bg_style}">{img_tag}'
+    '<div class="thumb-overlay"><span class="thumb-overlay-text">{headline}</span></div></div>'
+)
+
+
+ABOUT_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>運営者情報・プライバシーポリシー | AI最新ニュースまとめ</title>
+<link rel="icon" href="{favicon}">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="article-page">
+<header>
+  <h1><a href="index.html">AI最新ニュースまとめ</a></h1>
+</header>
+<main>
+  <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
+  <h1 class="headline">このサイトについて</h1>
+
+  <h2>サイト概要</h2>
+  <p class="summary">当サイトは、生成AI・LLM関連の国内外ニュースをAIが要約し、見出し・記事としてまとめて紹介するニュースキュレーションサイトです。</p>
+
+  <h2>運営者情報</h2>
+  <p class="summary">運営者名: (未設定)<br>連絡先: (未設定・お問い合わせフォーム等を設置予定)</p>
+
+  <h2>免責事項</h2>
+  <p class="summary">
+    当サイトの記事は、各ニュースサイトが公開した情報をもとにAIが要約・作成したものであり、内容の正確性・完全性を保証するものではありません。
+    各記事の詳細・一次情報は、記事ページ内の「元記事を読む」リンク先をご確認ください。
+    当サイトの情報を利用したことにより生じたいかなる損害についても、運営者は責任を負いかねます。
+  </p>
+
+  <h2>著作権について</h2>
+  <p class="summary">
+    各記事の見出し画像・引用元情報の著作権は、それぞれの発行元に帰属します。当サイトでは元記事の要点を独自の言葉で要約し、
+    必ず元記事へのリンクを掲載しています。著作権に関するお問い合わせは上記連絡先までご連絡ください。
+  </p>
+
+  <h2>プライバシーポリシー</h2>
+  <p class="summary">
+    当サイトでは、広告配信のためにCookie等を使用する場合があります。Cookieを使用することで、当サイトはお客様のコンピュータを識別できるようになりますが、
+    お客様個人を特定できるものではありません。アクセス解析のためにアクセス解析ツールを使用する場合があります。
+  </p>
+
+  <h2>お問い合わせ</h2>
+  <p class="summary">(未設定・お問い合わせフォーム等を設置予定)</p>
+</main>
+<footer>
+  <a href="index.html">&laquo; トップへ戻る</a>
+</footer>
+</body>
+</html>
+"""
+
+
+def _load_articles_data() -> list[dict]:
+    if not ARTICLES_DATA_PATH.exists():
+        return []
+    try:
+        return json.loads(ARTICLES_DATA_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
+def _save_articles_data(entries: list[dict]) -> None:
+    ARTICLES_DATA_PATH.write_text(json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _make_slug(link: str) -> str:
+    return hashlib.sha1(link.encode("utf-8")).hexdigest()[:12]
+
+
+def _is_new(generated_at: str) -> bool:
+    try:
+        generated = datetime.strptime(generated_at, "%Y-%m-%d %H:%M")
+    except ValueError:
+        return False
+    return (datetime.now() - generated).total_seconds() < NEW_BADGE_HOURS * 3600
+
+
+def build() -> None:
+    posted_links = state.get_posted_links()
+    articles = sources.fetch_candidates()
+    candidates = sources.filter_unposted(articles, posted_links)
+
+    if not candidates:
+        logger.info("下書き候補となる新規記事がありませんでした。")
+        return
+
+    ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
+    articles_data = _load_articles_data()
+    new_entries: list[dict] = []
+
+    for article in candidates:
+        if len(new_entries) >= MAX_NEW_ARTICLES:
+            break
+
+        safe_link = _safe_http_url(article.link)
+        if not safe_link:
+            logger.warning("記事リンクがhttp/https以外のためスキップ: %r", article.link)
+            state.record_posted(article.link)
+            continue
+
+        try:
+            result = generator.generate_headline_and_summary(article)
+        except Exception:
+            logger.exception("記事の生成に失敗したためスキップ: %s", article.link)
+            continue
+
+        slug = _make_slug(safe_link)
+        image_url = _safe_http_url(sources.fetch_og_image(article.link))
+        image_kind = "real" if image_url else "fallback"
+
+        entry = {
+            "slug": slug,
+            "link": safe_link,
+            "headline": result["headline"],
+            "summary": result["summary"],
+            "body": result["body"],
+            "source": article.source,
+            "image_url": image_url,
+            "image_kind": image_kind,
+            "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        }
+        articles_data.append(entry)
+        new_entries.append(entry)
+        state.record_posted(article.link)
+        logger.info("記事生成成功: %s -> articles/%s.html", article.link, slug)
+
+    if not new_entries:
+        logger.info("生成できた記事がありませんでした。")
+        return
+
+    # 関連記事を選べるよう、articles_dataが確定してから各記事ページを書き出す
+    for entry in new_entries:
+        _write_article_page(entry, articles_data)
+
+    # 保持上限を超えたら古いものから削除(ページファイルも削除)
+    if len(articles_data) > MAX_STORED_ARTICLES:
+        overflow = articles_data[: len(articles_data) - MAX_STORED_ARTICLES]
+        articles_data = articles_data[len(articles_data) - MAX_STORED_ARTICLES :]
+        for old in overflow:
+            old_path = ARTICLES_DIR / f"{old['slug']}.html"
+            old_path.unlink(missing_ok=True)
+
+    _save_articles_data(articles_data)
+
+    # 一覧ページはサーバー側で最新MAX_INDEX_ARTICLES件を描画し、
+    # それ以降(最大MAX_INFINITE_SCROLL_ARTICLES件)はJSでスクロール時に追加読み込みする
+    all_latest = list(reversed(articles_data))
+    initial = all_latest[:MAX_INDEX_ARTICLES]
+    more = all_latest[MAX_INDEX_ARTICLES : MAX_INDEX_ARTICLES + MAX_INFINITE_SCROLL_ARTICLES]
+
+    cards_html = []
+    for entry in initial:
+        thumbnail = _render_thumbnail(
+            entry["image_url"], entry["image_kind"], entry["source"], entry["slug"], entry["headline"],
+            for_article_page=False,
+        )
+        cards_html.append(
+            CARD_TEMPLATE.format(
+                new_badge=NEW_BADGE_HTML if _is_new(entry["generated_at"]) else "",
+                thumbnail=thumbnail,
+                slug=entry["slug"],
+                headline=html_lib.escape(entry["headline"]),
+                source=html_lib.escape(entry["source"]),
+                summary=html_lib.escape(entry["summary"]),
+            )
+        )
+
+    def _more_entry(e: dict) -> dict:
+        data = {
+            "slug": e["slug"],
+            "headline": e["headline"],
+            "source": e["source"],
+            "summary": e["summary"],
+            "image_url": e["image_url"],
+            "image_kind": e["image_kind"],
+            "is_new": _is_new(e["generated_at"]),
+        }
+        if e["image_kind"] != "real":
+            data["g1"], data["g2"] = _pick_gradient(e["source"])
+        return data
+
+    more_articles_json = json.dumps(
+        [_more_entry(e) for e in more], ensure_ascii=False
+    ).replace("</", "<\\/")  # </script>によるタグ混入対策
+
+    index_html = INDEX_TEMPLATE.format(
+        generated_at=datetime.now().strftime("%Y-%m-%d %H:%M"),
+        cards="".join(cards_html),
+        favicon=FAVICON_DATA_URI,
+        page_url=_abs_url("index.html"),
+        more_articles_json=more_articles_json,
+    )
+    INDEX_PATH.write_text(index_html, encoding="utf-8")
+    STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
+    ABOUT_PATH.write_text(ABOUT_TEMPLATE.format(favicon=FAVICON_DATA_URI), encoding="utf-8")
+    _write_robots_and_sitemap(articles_data)
+
+    logger.info(
+        "サイト生成完了: 新規%d件 / 一覧表示%d件 (%s)", len(new_entries), len(cards_html), INDEX_PATH
+    )
+
+
+def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
+    thumb_for_article = _render_thumbnail(
+        entry["image_url"], entry["image_kind"], entry["source"], entry["slug"], entry["headline"],
+        for_article_page=True,
+    )
+
+    others = [e for e in reversed(articles_data) if e["slug"] != entry["slug"]]
+    next_up_html = ""
+    if others:
+        next_entry = others[0]
+        next_image = _safe_http_url(next_entry.get("image_url"))
+        if next_image:
+            image_tag = f'<img src="{html_lib.escape(next_image)}" alt="" loading="lazy">'
+        else:
+            image_tag = ""
+        next_up_html = NEXT_UP_TEMPLATE.format(
+            slug=next_entry["slug"],
+            headline=html_lib.escape(next_entry["headline"]),
+            image_tag=image_tag,
+        )
+
+    remaining = others[1 : 1 + MAX_RELATED_ARTICLES]
+    related_html = ""
+    if remaining:
+        items = "\n".join(
+            RELATED_ITEM_TEMPLATE.format(slug=o["slug"], headline=html_lib.escape(o["headline"]))
+            for o in remaining
+        )
+        related_html = RELATED_TEMPLATE.format(items=items)
+
+    page_url = _abs_url(f"articles/{entry['slug']}.html")
+    share_text = urllib.parse.quote(entry["headline"])
+    share_url = urllib.parse.quote(page_url)
+    og_image = (_safe_http_url(entry["image_url"]) if entry["image_kind"] == "real" else "") or ""
+    safe_link = _safe_http_url(entry["link"]) or "#"
+
+    article_html = ARTICLE_PAGE_TEMPLATE.format(
+        headline=html_lib.escape(entry["headline"]),
+        favicon=FAVICON_DATA_URI,
+        thumbnail=thumb_for_article,
+        source=html_lib.escape(entry["source"]),
+        generated_at=entry["generated_at"],
+        body=html_lib.escape(entry["body"]),
+        summary=html_lib.escape(entry["summary"]),
+        link=html_lib.escape(safe_link),
+        page_url=html_lib.escape(page_url),
+        og_image=html_lib.escape(og_image),
+        share_text=share_text,
+        share_url=share_url,
+        slug=entry["slug"],
+        next_up=next_up_html,
+        related=related_html,
+    )
+    (ARTICLES_DIR / f"{entry['slug']}.html").write_text(article_html, encoding="utf-8")
+
+
+def _write_robots_and_sitemap(articles_data: list[dict]) -> None:
+    urls = [_abs_url("index.html"), _abs_url("about.html")]
+    urls += [_abs_url(f"articles/{e['slug']}.html") for e in articles_data]
+
+    sitemap_entries = "\n".join(f"  <url><loc>{html_lib.escape(u)}</loc></url>" for u in urls)
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"{sitemap_entries}\n"
+        "</urlset>\n"
+    )
+    SITEMAP_PATH.write_text(sitemap, encoding="utf-8")
+
+    sitemap_line = f"Sitemap: {_abs_url('sitemap.xml')}\n" if SITE_BASE_URL else ""
+    robots = f"User-agent: *\nAllow: /\n{sitemap_line}"
+    ROBOTS_PATH.write_text(robots, encoding="utf-8")
+
+
+def _render_thumbnail(
+    image_url: str | None, image_kind: str | None, source: str, slug: str, headline: str, *, for_article_page: bool
+) -> str:
+    safe_image_url = _safe_http_url(image_url)
+    if image_kind == "real" and safe_image_url:
+        bg_style = ""
+        img_tag = f'<img class="thumb" src="{html_lib.escape(safe_image_url)}" alt="" loading="lazy">'
+    else:
+        color1, color2 = _pick_gradient(source)
+        bg_style = f"background: linear-gradient(135deg, {color1}, {color2});"
+        img_tag = ""
+
+    template = ARTICLE_THUMBNAIL_TEMPLATE if for_article_page else THUMBNAIL_TEMPLATE
+    return template.format(
+        slug=slug,
+        bg_style=bg_style,
+        img_tag=img_tag,
+        headline=html_lib.escape(headline),
+    )
+
+
+if __name__ == "__main__":
+    load_dotenv(Path(__file__).parent.parent / ".env")
+    build()
