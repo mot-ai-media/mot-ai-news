@@ -51,6 +51,13 @@ MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読
 # 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
 SITE_BASE_URL = "https://mottainai0214.github.io/mot-ai-news"
 
+# A8.net アフィリエイト広告(テキストリンク)。空文字にすれば広告非表示に戻せる
+AD_CODE_TEXT_LINK = (
+    '<a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" rel="nofollow">'
+    "【PR】株式、為替(FX)、暗号資産、株価指数、商品資源(金や原油)まで取引可能！【TOSSY】</a>"
+    '<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" alt="">'
+)
+
 FAVICON_DATA_URI = (
     "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E"
     "%3Crect width='100' height='100' rx='20' fill='%231a1a2e'/%3E"
@@ -482,6 +489,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 
     var adSlot = document.createElement("div");
     adSlot.className = "ad-slot";
+    adSlot.innerHTML = {ad_code_json};
     body.appendChild(adSlot);
 
     article.appendChild(body);
@@ -518,7 +526,7 @@ CARD_TEMPLATE = """<article class="card">
     <h2 class="sr-only"><a href="articles/{slug}.html">{headline}</a></h2>
     <p class="meta">出典: {source}</p>
     <p class="summary">{summary}</p>
-    <div class="ad-slot"><!-- アフィリエイト広告枠(未設定) --></div>
+    <div class="ad-slot">{ad_code}</div>
   </div>
 </article>
 """
@@ -551,7 +559,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
   <h1 class="headline">{headline}</h1>
   <p class="meta">出典: {source} / {generated_at}</p>
   <p class="summary">{body}</p>
-  <div class="ad-slot-large"><!-- アフィリエイト広告枠(未設定) --></div>
+  <div class="ad-slot-large">{ad_code}</div>
   <p><a class="source-link" href="{link}" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a></p>
   <div class="share-buttons">
     <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text={share_text}&url={share_url}" target="_blank" rel="noopener noreferrer">Xで共有</a>
@@ -796,6 +804,7 @@ def build() -> None:
                 headline=html_lib.escape(entry["headline"]),
                 source=html_lib.escape(entry["source"]),
                 summary=html_lib.escape(entry["summary"]),
+                ad_code=AD_CODE_TEXT_LINK,
             )
         )
 
@@ -823,6 +832,7 @@ def build() -> None:
         favicon=FAVICON_DATA_URI,
         page_url=_abs_url("index.html"),
         more_articles_json=more_articles_json,
+        ad_code_json=json.dumps(AD_CODE_TEXT_LINK),
     )
     INDEX_PATH.write_text(index_html, encoding="utf-8")
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
@@ -886,6 +896,7 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
         slug=entry["slug"],
         next_up=next_up_html,
         related=related_html,
+        ad_code=AD_CODE_TEXT_LINK,
     )
     (ARTICLES_DIR / f"{entry['slug']}.html").write_text(article_html, encoding="utf-8")
 
