@@ -51,11 +51,21 @@ MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読
 # 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
 SITE_BASE_URL = "https://mottainai0214.github.io/mot-ai-news"
 
-# A8.net アフィリエイト広告(テキストリンク)。空文字にすれば広告非表示に戻せる
-AD_CODE_TEXT_LINK = (
+# A8.net アフィリエイト広告。空文字にすれば広告非表示に戻せる
+_AD_TOSSY = (
     '<a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" rel="nofollow">'
     "【PR】株式、為替(FX)、暗号資産、株価指数、商品資源(金や原油)まで取引可能！【TOSSY】</a>"
     '<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" alt="">'
+)
+_AD_ONAMAE = (
+    '<a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8I0TPU+50+2HU3GX" rel="nofollow">'
+    '<img border="0" width="234" height="60" alt="" '
+    'src="https://www22.a8.net/svt/bgt?aid=260826389514&wid=001&eno=01&mid=s00000000018015089000&mc=1"></a>'
+    '<img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BAEXH+8I0TPU+50+2HU3GX" alt="">'
+)
+AD_CODE_TEXT_LINK = (
+    f'<div class="ad-item">{_AD_TOSSY}</div>'
+    f'<div class="ad-item" style="margin-top:6px;">{_AD_ONAMAE}</div>'
 )
 
 FAVICON_DATA_URI = (
@@ -153,6 +163,33 @@ main {
   padding: 4px 10px;
   border-radius: 20px;
   letter-spacing: 0.03em;
+}
+.thumb-share {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  display: flex;
+  gap: 6px;
+}
+.thumb-share-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+}
+.thumb-share-x {
+  background: #000;
+}
+.thumb-share-line {
+  background: #06c755;
 }
 #scroll-sentinel {
   height: 1px;
@@ -466,6 +503,28 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     thumbLink.appendChild(overlay);
     article.appendChild(thumbLink);
 
+    var thumbShare = document.createElement("div");
+    thumbShare.className = "thumb-share";
+    var shareX = document.createElement("a");
+    shareX.className = "thumb-share-btn thumb-share-x";
+    shareX.href = "https://twitter.com/intent/tweet?text=" + item.share_text + "&url=" + item.share_url;
+    shareX.target = "_blank";
+    shareX.rel = "noopener noreferrer";
+    shareX.setAttribute("aria-label", "Xで共有");
+    shareX.innerHTML = "&#10005;";
+    shareX.addEventListener("click", function(e) {{ e.stopPropagation(); }});
+    thumbShare.appendChild(shareX);
+    var shareLine = document.createElement("a");
+    shareLine.className = "thumb-share-btn thumb-share-line";
+    shareLine.href = "https://social-plugins.line.me/lineit/share?url=" + item.share_url + "&text=" + item.share_text;
+    shareLine.target = "_blank";
+    shareLine.rel = "noopener noreferrer";
+    shareLine.setAttribute("aria-label", "LINEで共有");
+    shareLine.textContent = "L";
+    shareLine.addEventListener("click", function(e) {{ e.stopPropagation(); }});
+    thumbShare.appendChild(shareLine);
+    article.appendChild(thumbShare);
+
     var body = document.createElement("div");
     body.className = "card-body";
 
@@ -520,8 +579,26 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+THUMB_SHARE_TEMPLATE = (
+    '<div class="thumb-share">'
+    '<a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text={share_text}&url={share_url}" '
+    'target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()">&#10005;</a>'
+    '<a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url={share_url}&text={share_text}" '
+    'target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">L</a>'
+    "</div>"
+)
+
+
+def _thumb_share_html(slug: str, headline: str) -> str:
+    page_url = _abs_url(f"articles/{slug}.html")
+    return THUMB_SHARE_TEMPLATE.format(
+        share_text=urllib.parse.quote(headline),
+        share_url=urllib.parse.quote(page_url),
+    )
+
+
 CARD_TEMPLATE = """<article class="card">
-  {new_badge}{thumbnail}
+  {new_badge}{thumbnail}{thumb_share}
   <div class="card-body">
     <h2 class="sr-only"><a href="articles/{slug}.html">{headline}</a></h2>
     <p class="meta">出典: {source}</p>
@@ -783,7 +860,10 @@ def build() -> None:
             old_path.unlink(missing_ok=True)
 
     _save_articles_data(articles_data)
+    _write_index_and_meta(articles_data, len(new_entries))
 
+
+def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
     # 一覧ページはサーバー側で最新MAX_INDEX_ARTICLES件を描画し、
     # それ以降(最大MAX_INFINITE_SCROLL_ARTICLES件)はJSでスクロール時に追加読み込みする
     all_latest = list(reversed(articles_data))
@@ -800,6 +880,7 @@ def build() -> None:
             CARD_TEMPLATE.format(
                 new_badge=NEW_BADGE_HTML if _is_new(entry["generated_at"]) else "",
                 thumbnail=thumbnail,
+                thumb_share=_thumb_share_html(entry["slug"], entry["headline"]),
                 slug=entry["slug"],
                 headline=html_lib.escape(entry["headline"]),
                 source=html_lib.escape(entry["source"]),
@@ -809,6 +890,7 @@ def build() -> None:
         )
 
     def _more_entry(e: dict) -> dict:
+        page_url = _abs_url(f"articles/{e['slug']}.html")
         data = {
             "slug": e["slug"],
             "headline": e["headline"],
@@ -817,6 +899,8 @@ def build() -> None:
             "image_url": e["image_url"],
             "image_kind": e["image_kind"],
             "is_new": _is_new(e["generated_at"]),
+            "share_text": urllib.parse.quote(e["headline"]),
+            "share_url": urllib.parse.quote(page_url),
         }
         if e["image_kind"] != "real":
             data["g1"], data["g2"] = _pick_gradient(e["source"])
@@ -840,8 +924,22 @@ def build() -> None:
     _write_robots_and_sitemap(articles_data)
 
     logger.info(
-        "サイト生成完了: 新規%d件 / 一覧表示%d件 (%s)", len(new_entries), len(cards_html), INDEX_PATH
+        "サイト生成完了: 新規%d件 / 一覧表示%d件 (%s)", new_count, len(cards_html), INDEX_PATH
     )
+
+
+def regenerate_all() -> None:
+    """新規記事の取得なしで、既存の全記事ページ・一覧ページをテンプレート最新版で再生成する。
+    広告コードやデザインを変更した後、過去記事にも反映させたい場合に使う。
+    """
+    articles_data = _load_articles_data()
+    if not articles_data:
+        logger.info("再生成対象の記事がありません。")
+        return
+    for entry in articles_data:
+        _write_article_page(entry, articles_data)
+    _write_index_and_meta(articles_data, 0)
+    logger.info("全ページ再生成完了: %d件", len(articles_data))
 
 
 def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
@@ -886,7 +984,7 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
         thumbnail=thumb_for_article,
         source=html_lib.escape(entry["source"]),
         generated_at=entry["generated_at"],
-        body=html_lib.escape(entry["body"]),
+        body=html_lib.escape(entry.get("body") or entry["summary"]),
         summary=html_lib.escape(entry["summary"]),
         link=html_lib.escape(safe_link),
         page_url=html_lib.escape(page_url),
@@ -941,5 +1039,10 @@ def _render_thumbnail(
 
 
 if __name__ == "__main__":
+    import sys
+
     load_dotenv(Path(__file__).parent.parent / ".env")
-    build()
+    if "--regenerate" in sys.argv:
+        regenerate_all()
+    else:
+        build()
