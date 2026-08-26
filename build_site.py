@@ -37,6 +37,7 @@ OUTPUT_DIR = Path(__file__).parent / "docs"  # GitHub Pagesの "/docs" 公開設
 ARTICLES_DIR = OUTPUT_DIR / "articles"
 INDEX_PATH = OUTPUT_DIR / "index.html"
 STYLE_PATH = OUTPUT_DIR / "style.css"
+SHARE_JS_PATH = OUTPUT_DIR / "share.js"
 ABOUT_PATH = OUTPUT_DIR / "about.html"
 ROBOTS_PATH = OUTPUT_DIR / "robots.txt"
 SITEMAP_PATH = OUTPUT_DIR / "sitemap.xml"
@@ -430,6 +431,188 @@ footer a {
   font-size: 0.85rem;
   text-decoration: none;
 }
+
+/* サイト共有・リンクコピー(トースト通知) */
+.site-share-btn {
+  margin-top: 10px;
+  padding: 7px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.35);
+  background: transparent;
+  color: #fff;
+  font-size: 0.78rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.share-copy-btn {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  background: #667;
+}
+.share-native-btn {
+  display: none;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  background: #1a1a2e;
+}
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%) translateY(20px);
+  background: rgba(26,26,46,0.92);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  opacity: 0;
+  transition: opacity 0.25s, transform 0.25s;
+  z-index: 100;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ランキングセクション */
+.section-heading {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 4px 0 12px;
+  color: #1a1a2e;
+}
+.ranking {
+  margin-bottom: 8px;
+}
+.ranking-group {
+  margin-bottom: 18px;
+}
+.ranking-title {
+  font-size: 0.92rem;
+  font-weight: bold;
+  margin: 0 0 10px;
+  color: #1a1a2e;
+}
+.ranking-empty {
+  font-size: 0.8rem;
+  color: #999;
+  margin: 0;
+  padding: 16px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.ranking-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.ranking-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.ranking-list li:last-child {
+  border-bottom: none;
+}
+.ranking-rank {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #1a1a2e;
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.ranking-headline {
+  font-size: 0.83rem;
+  color: #333;
+  text-decoration: none;
+  line-height: 1.4;
+  flex: 1;
+}
+.ranking-headline:hover {
+  text-decoration: underline;
+}
+.ranking-count {
+  font-size: 0.72rem;
+  color: #aaa;
+  flex-shrink: 0;
+}
+"""
+
+SHARE_JS = """(function () {
+  function showToast(msg) {
+    var toast = document.createElement("div");
+    toast.className = "toast";
+    toast.textContent = msg;
+    document.body.appendChild(toast);
+    requestAnimationFrame(function () {
+      toast.classList.add("show");
+    });
+    setTimeout(function () {
+      toast.classList.remove("show");
+      setTimeout(function () {
+        toast.remove();
+      }, 300);
+    }, 1800);
+  }
+
+  function copyText(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text);
+    }
+    var ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand("copy");
+    } catch (e) {}
+    document.body.removeChild(ta);
+    return Promise.resolve();
+  }
+
+  document.addEventListener("click", function (e) {
+    var copyBtn = e.target.closest("[data-copy-url]");
+    if (copyBtn) {
+      copyText(copyBtn.getAttribute("data-copy-url")).then(function () {
+        showToast("リンクをコピーしました");
+      });
+      return;
+    }
+    var shareBtn = e.target.closest("[data-native-share]");
+    if (shareBtn) {
+      var url = shareBtn.getAttribute("data-share-url");
+      var title = shareBtn.getAttribute("data-share-title");
+      if (navigator.share) {
+        navigator.share({ title: title, url: url }).catch(function () {});
+      } else {
+        copyText(url).then(function () {
+          showToast("リンクをコピーしました");
+        });
+      }
+    }
+  });
+
+  document.querySelectorAll("[data-native-share-only]").forEach(function (el) {
+    if (navigator.share) {
+      el.style.display = "block";
+    }
+  });
+})();
 """
 
 INDEX_TEMPLATE = """<!DOCTYPE html>
@@ -437,21 +620,25 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI特化media MOT</title>
+<title>MottainAI</title>
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
+<script defer src="share.js"></script>
 <meta property="og:type" content="website">
-<meta property="og:title" content="AI特化media MOT">
+<meta property="og:title" content="MottainAI">
 <meta property="og:description" content="生成AI・LLM関連の最新ニュースをキャッチーな見出しでまとめてお届け">
 <meta property="og:url" content="{page_url}">
 <meta name="twitter:card" content="summary">
 </head>
 <body>
 <header>
-  <h1>AI特化media MOT</h1>
+  <h1>MottainAI</h1>
   <p>最終更新: {generated_at}</p>
+  <button type="button" class="site-share-btn" data-native-share data-share-url="{page_url}" data-share-title="MottainAI">&#8599; MottainAIをシェア</button>
 </header>
 <main>
+{ranking}
+<h2 class="section-heading">&#127381; 最新AIニュース</h2>
 {cards}
 <div id="scroll-sentinel"></div>
 <p id="load-status"></p>
@@ -616,9 +803,10 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{headline} | AI特化media MOT</title>
+<title>{headline} | MottainAI</title>
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
 <meta property="og:type" content="article">
 <meta property="og:title" content="{headline}">
 <meta property="og:description" content="{summary}">
@@ -628,7 +816,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body class="article-page">
 <header>
-  <h1><a href="../index.html">AI特化media MOT</a></h1>
+  <h1><a href="../index.html">MottainAI</a></h1>
 </header>
 <main>
   <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
@@ -641,6 +829,8 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
   <div class="share-buttons">
     <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text={share_text}&url={share_url}" target="_blank" rel="noopener noreferrer">Xで共有</a>
     <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url={share_url}&text={share_text}" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="{page_url}">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="{page_url}" data-share-title="{headline}">共有</button>
   </div>
   <div class="reactions" id="reactions" data-slug="{slug}">
     <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
@@ -704,6 +894,49 @@ RELATED_TEMPLATE = """<div class="related">
 
 RELATED_ITEM_TEMPLATE = '    <li><a href="{slug}.html">{headline}</a></li>'
 
+RANKING_GROUP_TEMPLATE = """  <div class="ranking-group">
+    <h2 class="ranking-title">{icon} {title}</h2>
+    {content}
+  </div>
+"""
+RANKING_EMPTY_HTML = '<p class="ranking-empty">まだランキングデータがありません</p>'
+RANKING_ITEM_TEMPLATE = (
+    '<li><span class="ranking-rank">{rank}</span>'
+    '<a class="ranking-headline" href="articles/{slug}.html">{headline}</a>'
+    '<span class="ranking-count">{count}</span></li>'
+)
+
+
+def _render_ranking_group(icon: str, title: str, items: list[dict]) -> str:
+    if items:
+        lis = "".join(
+            RANKING_ITEM_TEMPLATE.format(
+                rank=i + 1,
+                slug=item["slug"],
+                headline=html_lib.escape(item["headline"]),
+                count=f'{item["views"]}回',
+            )
+            for i, item in enumerate(items)
+        )
+        content = f'<ol class="ranking-list">{lis}</ol>'
+    else:
+        content = RANKING_EMPTY_HTML
+    return RANKING_GROUP_TEMPLATE.format(icon=icon, title=title, content=content)
+
+
+def _render_ranking(ranking_data: dict | None) -> str:
+    """PVランキングを描画する。ranking_dataが無い(=PV計測が未連携)場合は
+    3セクションとも「まだランキングデータがありません」の空表示にする。
+    将来PV連携する際は、ranking_data = {"popular": [...], "trending": [...], "weekly": [...]}
+    (各要素は {"slug", "headline", "views"} の辞書)を渡せばそのまま反映される。"""
+    ranking_data = ranking_data or {}
+    groups = (
+        _render_ranking_group("&#128293;", "今、読まれているAIニュース", ranking_data.get("popular", []))
+        + _render_ranking_group("&#9889;", "急上昇", ranking_data.get("trending", []))
+        + _render_ranking_group("&#128081;", "今週の人気", ranking_data.get("weekly", []))
+    )
+    return f'<section class="ranking">\n{groups}</section>'
+
 # サムネイルは画像(実写 or グラデーション背景)の上に見出しを直接重ねて表示する。
 # 一覧ページ用(自サイトのarticles/へリンク)と記事ページ用(画像はリンクなし表示)でhrefの扱いが違うため分けている
 THUMBNAIL_TEMPLATE = (
@@ -721,13 +954,13 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>運営者情報・プライバシーポリシー | AI特化media MOT</title>
+<title>運営者情報・プライバシーポリシー | MottainAI</title>
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="article-page">
 <header>
-  <h1><a href="index.html">AI特化media MOT</a></h1>
+  <h1><a href="index.html">MottainAI</a></h1>
 </header>
 <main>
   <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
@@ -913,6 +1146,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
     index_html = INDEX_TEMPLATE.format(
         generated_at=datetime.now().strftime("%Y-%m-%d %H:%M"),
         cards="".join(cards_html),
+        ranking=_render_ranking(None),  # TODO: PV連携後はここに集計結果を渡す
         favicon=FAVICON_DATA_URI,
         page_url=_abs_url("index.html"),
         more_articles_json=more_articles_json,
@@ -920,6 +1154,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
     )
     INDEX_PATH.write_text(index_html, encoding="utf-8")
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
+    SHARE_JS_PATH.write_text(SHARE_JS, encoding="utf-8")
     ABOUT_PATH.write_text(ABOUT_TEMPLATE.format(favicon=FAVICON_DATA_URI), encoding="utf-8")
     _write_robots_and_sitemap(articles_data)
 
