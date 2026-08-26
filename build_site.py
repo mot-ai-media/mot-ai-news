@@ -144,6 +144,38 @@ main {
   margin: 0 auto;
   padding: 16px;
 }
+main.home-main {
+  max-width: 1040px;
+}
+.layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.layout .content {
+  flex: 1;
+  min-width: 0;
+}
+.layout .sidebar {
+  width: 280px;
+  flex-shrink: 0;
+}
+.layout .sidebar .ranking {
+  position: sticky;
+  top: 16px;
+}
+@media (max-width: 780px) {
+  .layout {
+    flex-direction: column;
+  }
+  .layout .sidebar {
+    width: 100%;
+    order: -1;
+  }
+  .layout .sidebar .ranking {
+    position: static;
+  }
+}
 .card {
   position: relative;
   background: #fff;
@@ -480,26 +512,29 @@ footer a {
 
 /* ランキングセクション */
 .section-heading {
-  font-size: 1rem;
-  font-weight: bold;
-  margin: 4px 0 12px;
-  color: #1a1a2e;
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 4px 0 14px;
+  color: #4a4a5e;
 }
 .ranking {
   margin-bottom: 8px;
 }
 .ranking-group {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .ranking-title {
-  font-size: 0.92rem;
-  font-weight: bold;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
   margin: 0 0 10px;
-  color: #1a1a2e;
+  color: #4a4a5e;
 }
 .ranking-empty {
-  font-size: 0.8rem;
-  color: #999;
+  font-size: 0.76rem;
+  font-weight: 300;
+  color: #b4b4bd;
   margin: 0;
   padding: 16px;
   background: #fff;
@@ -527,18 +562,19 @@ footer a {
   border-bottom: none;
 }
 .ranking-rank {
-  font-size: 0.85rem;
-  font-weight: bold;
-  color: #1a1a2e;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #8a8a9a;
   width: 20px;
   text-align: center;
   flex-shrink: 0;
 }
 .ranking-headline {
-  font-size: 0.83rem;
-  color: #333;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #454550;
   text-decoration: none;
-  line-height: 1.4;
+  line-height: 1.45;
   flex: 1;
 }
 .ranking-headline:hover {
@@ -636,12 +672,18 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   <p>最終更新: {generated_at}</p>
   <button type="button" class="site-share-btn" data-native-share data-share-url="{page_url}" data-share-title="MottainAI">&#8599; MottainAIをシェア</button>
 </header>
-<main>
-{ranking}
-<h2 class="section-heading">&#127381; 最新AIニュース</h2>
-{cards}
-<div id="scroll-sentinel"></div>
-<p id="load-status"></p>
+<main class="home-main">
+<div class="layout">
+  <div class="content">
+    <h2 class="section-heading">&#127381; 最新AIニュース</h2>
+    {cards}
+    <div id="scroll-sentinel"></div>
+    <p id="load-status"></p>
+  </div>
+  <aside class="sidebar">
+    {ranking}
+  </aside>
+</div>
 </main>
 <footer>
   各記事の詳細・引用元は見出しのリンク先をご確認ください。<br>
