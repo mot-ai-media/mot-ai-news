@@ -393,18 +393,18 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI最新ニュースまとめ</title>
+<title>AI特化media MOT</title>
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
 <meta property="og:type" content="website">
-<meta property="og:title" content="AI最新ニュースまとめ">
+<meta property="og:title" content="AI特化media MOT">
 <meta property="og:description" content="生成AI・LLM関連の最新ニュースをキャッチーな見出しでまとめてお届け">
 <meta property="og:url" content="{page_url}">
 <meta name="twitter:card" content="summary">
 </head>
 <body>
 <header>
-  <h1>AI最新ニュースまとめ</h1>
+  <h1>AI特化media MOT</h1>
   <p>最終更新: {generated_at}</p>
 </header>
 <main>
@@ -531,7 +531,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{headline} | AI最新ニュースまとめ</title>
+<title>{headline} | AI特化media MOT</title>
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="../style.css">
 <meta property="og:type" content="article">
@@ -543,7 +543,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body class="article-page">
 <header>
-  <h1><a href="../index.html">AI最新ニュースまとめ</a></h1>
+  <h1><a href="../index.html">AI特化media MOT</a></h1>
 </header>
 <main>
   <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
@@ -636,13 +636,13 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>運営者情報・プライバシーポリシー | AI最新ニュースまとめ</title>
+<title>運営者情報・プライバシーポリシー | AI特化media MOT</title>
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="article-page">
 <header>
-  <h1><a href="index.html">AI最新ニュースまとめ</a></h1>
+  <h1><a href="index.html">AI特化media MOT</a></h1>
 </header>
 <main>
   <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>

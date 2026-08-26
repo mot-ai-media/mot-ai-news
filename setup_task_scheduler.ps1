@@ -37,7 +37,7 @@ Register-ScheduledTask `
     -Action $action `
     -Trigger $triggers `
     -Settings $settings `
-    -Description "AI最新ニュースまとめサイトを自動生成する(claude ryuuプロジェクト)" `
+    -Description "AI特化media MOTを自動生成する(claude ryuuプロジェクト)" `
     -Force
 
 Write-Host "登録完了: タスク '$TaskName' が毎日 $($Times -join ', ') に実行されます。"
