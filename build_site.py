@@ -49,7 +49,7 @@ MAX_RELATED_ARTICLES = 3  # 記事ページ下部に出す関連記事の件数
 MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読み込みする最大件数
 
 # 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
-SITE_BASE_URL = ""
+SITE_BASE_URL = "https://mottainai0214.github.io/mot-ai-news"
 
 FAVICON_DATA_URI = (
     "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E"
