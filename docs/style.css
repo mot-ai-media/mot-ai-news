@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+  font-family: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", sans-serif;
   background: #f5f6fa;
   color: #222;
   margin: 0;
@@ -15,6 +15,18 @@ header {
 header h1 {
   margin: 0 0 4px;
   font-size: 1.6rem;
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+header h1 .brand-mark {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+}
+header .tagline {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  color: #c8c8d8;
 }
 header h1 a {
   color: #fff;
@@ -145,9 +157,10 @@ main.home-main {
 }
 .thumb-overlay-text {
   color: #fff;
+  font-family: "Zen Old Mincho", serif;
   font-size: 1.15rem;
-  font-weight: 800;
-  line-height: 1.4;
+  font-weight: 700;
+  line-height: 1.5;
   text-shadow: 0 1px 4px rgba(0,0,0,0.6);
 }
 .sr-only {
@@ -324,9 +337,10 @@ footer a {
   bottom: 0;
   padding: 16px;
   color: #fff;
+  font-family: "Zen Old Mincho", serif;
   font-size: 1.05rem;
-  font-weight: bold;
-  line-height: 1.4;
+  font-weight: 700;
+  line-height: 1.5;
   background: linear-gradient(transparent, rgba(0,0,0,0.75));
 }
 .reactions {
@@ -364,8 +378,10 @@ footer a {
   pointer-events: none; /* 記事ページ内では画像はリンクにしない */
 }
 .article-page h1.headline {
-  font-size: 1.4rem;
-  line-height: 1.5;
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.6;
   margin: 0 0 8px;
 }
 .article-page .summary {

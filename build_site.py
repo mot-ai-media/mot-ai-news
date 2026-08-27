@@ -68,7 +68,8 @@ CSP_META = (
     '<meta http-equiv="Content-Security-Policy" content="'
     "default-src 'self'; "
     "script-src 'self' 'unsafe-inline' https://gc.zgo.at; "
-    "style-src 'self' 'unsafe-inline'; "
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
+    "font-src 'self' https://fonts.gstatic.com; "
     "img-src 'self' https: data:; "
     "connect-src 'self' https://mottainai.goatcounter.com; "
     "object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'"
@@ -78,6 +79,16 @@ CSP_META = (
 # Google Search Console 所有権確認用タグ
 GOOGLE_SITE_VERIFICATION = (
     '<meta name="google-site-verification" content="FWf3QNW4wcPX753gENPwai2tBcWBlc-RNTNA1-8tWFI" />'
+)
+
+# 見出し・本文用のWebフォント(標準のゴシック体が安っぽく見えるとの指摘を受けて導入)
+GOOGLE_FONT_LINK = (
+    '<link rel="preconnect" href="https://fonts.googleapis.com">'
+    '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+    '<link href="https://fonts.googleapis.com/css2?'
+    "family=Zen+Kaku+Gothic+New:wght@400;500;700;900"
+    "&family=Zen+Old+Mincho:wght@500;700;900"
+    '&display=swap" rel="stylesheet">'
 )
 
 # GoatCounter(無料アクセス解析)のPVトラッキングスクリプト。空文字にすれば埋め込み無しに戻せる
@@ -106,9 +117,9 @@ AD_CODE_TEXT_LINK = (
 
 FAVICON_DATA_URI = (
     "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E"
-    "%3Crect width='100' height='100' rx='20' fill='%231a1a2e'/%3E"
-    "%3Ctext x='50' y='68' font-size='48' font-family='Arial,sans-serif' font-weight='bold' "
-    "fill='white' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E"
+    "%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E"
+    "%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' "
+    "fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E"
 )
 
 
@@ -149,7 +160,7 @@ def _pick_gradient(source: str) -> tuple[str, str]:
 
 STYLE_CSS = """
 body {
-  font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+  font-family: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", sans-serif;
   background: #f5f6fa;
   color: #222;
   margin: 0;
@@ -164,6 +175,18 @@ header {
 header h1 {
   margin: 0 0 4px;
   font-size: 1.6rem;
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+header h1 .brand-mark {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+}
+header .tagline {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  color: #c8c8d8;
 }
 header h1 a {
   color: #fff;
@@ -294,9 +317,10 @@ main.home-main {
 }
 .thumb-overlay-text {
   color: #fff;
+  font-family: "Zen Old Mincho", serif;
   font-size: 1.15rem;
-  font-weight: 800;
-  line-height: 1.4;
+  font-weight: 700;
+  line-height: 1.5;
   text-shadow: 0 1px 4px rgba(0,0,0,0.6);
 }
 .sr-only {
@@ -473,9 +497,10 @@ footer a {
   bottom: 0;
   padding: 16px;
   color: #fff;
+  font-family: "Zen Old Mincho", serif;
   font-size: 1.05rem;
-  font-weight: bold;
-  line-height: 1.4;
+  font-weight: 700;
+  line-height: 1.5;
   background: linear-gradient(transparent, rgba(0,0,0,0.75));
 }
 .reactions {
@@ -513,8 +538,10 @@ footer a {
   pointer-events: none; /* 記事ページ内では画像はリンクにしない */
 }
 .article-page h1.headline {
-  font-size: 1.4rem;
-  line-height: 1.5;
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.6;
   margin: 0 0 8px;
 }
 .article-page .summary {
@@ -762,6 +789,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 {google_verification}
 <link rel="alternate" type="application/rss+xml" title="AI特化メディアMOT" href="feed.xml">
 <link rel="icon" href="{favicon}">
+{google_font}
 <link rel="stylesheet" href="style.css">
 <script defer src="share.js"></script>
 {goatcounter}
@@ -773,7 +801,8 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <h1>AI特化メディアMOT</h1>
+  <h1>AI特化メディア<span class="brand-mark">MOT</span></h1>
+  <p class="tagline">進化するAIの「今」に、もっと早くアクセス。</p>
   <p>最終更新: {generated_at}</p>
   <button type="button" class="site-share-btn" data-native-share data-share-url="{page_url}" data-share-title="AI特化メディアMOT">&#8599; AI特化メディアMOTをシェア</button>
 </header>
@@ -955,6 +984,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta name="description" content="{summary}">
 <link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
+{google_font}
 <link rel="stylesheet" href="../style.css">
 <script defer src="../share.js"></script>
 {goatcounter}
@@ -968,7 +998,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body class="article-page">
 <header>
-  <h1><a href="../index.html">AI特化メディアMOT</a></h1>
+  <h1><a href="../index.html">AI特化メディア<span class="brand-mark">MOT</span></a></h1>
 </header>
 <main>
   <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
@@ -1155,12 +1185,13 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <meta name="description" content="AI特化メディアMOTの運営者情報・免責事項・著作権・プライバシーポリシーについてのページです。">
 <link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
+{google_font}
 <link rel="stylesheet" href="style.css">
 {goatcounter}
 </head>
 <body class="article-page">
 <header>
-  <h1><a href="index.html">AI特化メディアMOT</a></h1>
+  <h1><a href="index.html">AI特化メディア<span class="brand-mark">MOT</span></a></h1>
 </header>
 <main>
   <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
@@ -1289,6 +1320,7 @@ TOPIC_PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta name="description" content="{tag}に関するAI最新ニュースをまとめて紹介。関連記事{count}件を新着順に掲載しています。">
 <link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
+{google_font}
 <link rel="stylesheet" href="../style.css">
 {goatcounter}
 <meta property="og:type" content="website">
@@ -1299,7 +1331,7 @@ TOPIC_PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <h1><a href="../index.html">AI特化メディアMOT</a></h1>
+  <h1><a href="../index.html">AI特化メディア<span class="brand-mark">MOT</span></a></h1>
 </header>
 <main class="home-main">
 <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
@@ -1327,12 +1359,13 @@ TOPICS_INDEX_TEMPLATE = """<!DOCTYPE html>
 <meta name="description" content="ChatGPT・Claude・Gemini等、企業・サービス別にAIニュースをまとめて読めるテーマ一覧ページです。">
 <link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
+{google_font}
 <link rel="stylesheet" href="../style.css">
 {goatcounter}
 </head>
 <body>
 <header>
-  <h1><a href="../index.html">AI特化メディアMOT</a></h1>
+  <h1><a href="../index.html">AI特化メディア<span class="brand-mark">MOT</span></a></h1>
 </header>
 <main>
 <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
@@ -1386,6 +1419,7 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
                 page_url=page_url,
                 goatcounter=GOATCOUNTER_SCRIPT,
                 csp=CSP_META,
+                google_font=GOOGLE_FONT_LINK,
             ),
             encoding="utf-8",
         )
@@ -1400,7 +1434,7 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
     (TOPICS_DIR / "index.html").write_text(
         TOPICS_INDEX_TEMPLATE.format(
             pills=pills, favicon=FAVICON_DATA_URI, page_url=topics_index_url,
-            goatcounter=GOATCOUNTER_SCRIPT, csp=CSP_META,
+            goatcounter=GOATCOUNTER_SCRIPT, csp=CSP_META, google_font=GOOGLE_FONT_LINK,
         ),
         encoding="utf-8",
     )
@@ -1671,6 +1705,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         goatcounter=GOATCOUNTER_SCRIPT,
         google_verification=GOOGLE_SITE_VERIFICATION,
         csp=CSP_META,
+        google_font=GOOGLE_FONT_LINK,
     )
     INDEX_PATH.write_text(index_html, encoding="utf-8")
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
@@ -1681,6 +1716,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             goatcounter=GOATCOUNTER_SCRIPT,
             page_url=_abs_url("about.html"),
             csp=CSP_META,
+            google_font=GOOGLE_FONT_LINK,
         ),
         encoding="utf-8",
     )
@@ -1768,6 +1804,7 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
         structured_data=_render_structured_data(entry, page_url, og_image),
         tags=_render_tag_pills(entry, prefix="../topics/", valid_topic_tags=valid_topic_tags),
         csp=CSP_META,
+        google_font=GOOGLE_FONT_LINK,
     )
     (ARTICLES_DIR / f"{entry['slug']}.html").write_text(article_html, encoding="utf-8")
 
