@@ -679,6 +679,11 @@ footer a {
   color: #aaa;
   flex-shrink: 0;
 }
+.editorial-note {
+  font-size: 0.7rem;
+  color: #bbb;
+  margin: 8px 2px 0;
+}
 """
 
 SHARE_JS = """(function () {
@@ -1073,17 +1078,59 @@ def _render_ranking_group(icon: str, title: str, items: list[dict]) -> str:
     return RANKING_GROUP_TEMPLATE.format(icon=icon, title=title, content=content)
 
 
-def _render_ranking(ranking_data: dict | None) -> str:
-    """PVランキングを描画する。ranking_dataが無い(=PV計測が未連携)場合は
-    3セクションとも「まだランキングデータがありません」の空表示にする。
+EDITORIAL_PICKS_TEMPLATE = """<div class="ranking-group">
+  <h2 class="ranking-title">&#127919; 編集部ピックアップ</h2>
+  <ol class="ranking-list">
+{items}
+  </ol>
+  <p class="editorial-note">閲覧ランキングは、データが集まり次第表示します。</p>
+</div>
+"""
+EDITORIAL_PICK_ITEM_TEMPLATE = (
+    '<li><a class="ranking-headline" href="articles/{slug}.html">{headline}</a></li>'
+)
+
+
+def _pick_editorial_highlights(articles_data: list[dict], limit: int = 3) -> list[dict]:
+    """PVデータが無い間の暫定表示。「人気」を偽装しないよう、閲覧数ではなく
+    記事の情報の厚み(実画像・FAQの有無・本文の長さ)から機械的に選ぶ。"""
+    def score(e: dict) -> tuple:
+        has_image = 1 if e.get("image_kind") == "real" else 0
+        has_faq = 1 if e.get("faq") else 0
+        body_len = len(e.get("body") or "")
+        return (has_image + has_faq, body_len, e.get("generated_at", ""))
+
+    ranked = sorted(articles_data, key=score, reverse=True)
+    return ranked[:limit]
+
+
+def _render_editorial_picks(articles_data: list[dict]) -> str:
+    picks = _pick_editorial_highlights(articles_data)
+    if not picks:
+        return RANKING_GROUP_TEMPLATE.format(
+            icon="&#127919;", title="編集部ピックアップ", content=RANKING_EMPTY_HTML
+        )
+    items = "\n".join(
+        EDITORIAL_PICK_ITEM_TEMPLATE.format(slug=e["slug"], headline=html_lib.escape(e["headline"]))
+        for e in picks
+    )
+    return EDITORIAL_PICKS_TEMPLATE.format(items=items)
+
+
+def _render_ranking(ranking_data: dict | None, articles_data: list[dict] | None = None) -> str:
+    """PVランキングを描画する。ranking_dataが無い(=PV計測が未連携)場合は、
+    実データが集まるまでの暫定として「編集部ピックアップ」を表示する
+    (架空の閲覧数は絶対に作らない。人気ランキングだと誤解されないよう明確にラベルを分ける)。
     将来PV連携する際は、ranking_data = {"popular": [...], "trending": [...], "weekly": [...]}
     (各要素は {"slug", "headline", "views"} の辞書)を渡せばそのまま反映される。"""
-    ranking_data = ranking_data or {}
-    groups = (
-        _render_ranking_group("&#128293;", "今、読まれているAIニュース", ranking_data.get("popular", []))
-        + _render_ranking_group("&#9889;", "急上昇", ranking_data.get("trending", []))
-        + _render_ranking_group("&#128081;", "今週の人気", ranking_data.get("weekly", []))
-    )
+    if ranking_data is None:
+        groups = _render_editorial_picks(articles_data or [])
+    else:
+        groups = (
+            _render_ranking_group("&#128293;", "今、読まれているAIニュース", ranking_data.get("popular", []))
+            + _render_ranking_group("&#9889;", "急上昇", ranking_data.get("trending", []))
+            + _render_ranking_group("&#128081;", "今週の人気", ranking_data.get("weekly", []))
+        )
     return f'<section class="ranking">\n{groups}</section>'
 
 # サムネイルは画像(実写 or グラデーション背景)の上に見出しを直接重ねて表示する。
@@ -1616,7 +1663,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
     index_html = INDEX_TEMPLATE.format(
         generated_at=datetime.now().strftime("%Y-%m-%d %H:%M"),
         cards="".join(cards_html),
-        ranking=_render_ranking(None),  # TODO: PV連携後はここに集計結果を渡す
+        ranking=_render_ranking(None, articles_data),  # TODO: PV連携後は集計結果をranking_dataに渡す
         favicon=FAVICON_DATA_URI,
         page_url=_abs_url("index.html"),
         more_articles_json=more_articles_json,

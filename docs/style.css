@@ -530,3 +530,8 @@ footer a {
   color: #aaa;
   flex-shrink: 0;
 }
+.editorial-note {
+  font-size: 0.7rem;
+  color: #bbb;
+  margin: 8px 2px 0;
+}
