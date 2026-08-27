@@ -37,12 +37,16 @@ logger = logging.getLogger(__name__)
 
 OUTPUT_DIR = Path(__file__).parent / "docs"  # GitHub Pagesの "/docs" 公開設定に合わせたフォルダ名
 ARTICLES_DIR = OUTPUT_DIR / "articles"
+TOPICS_DIR = OUTPUT_DIR / "topics"
 INDEX_PATH = OUTPUT_DIR / "index.html"
 STYLE_PATH = OUTPUT_DIR / "style.css"
 SHARE_JS_PATH = OUTPUT_DIR / "share.js"
 ABOUT_PATH = OUTPUT_DIR / "about.html"
 ROBOTS_PATH = OUTPUT_DIR / "robots.txt"
 SITEMAP_PATH = OUTPUT_DIR / "sitemap.xml"
+FEED_PATH = OUTPUT_DIR / "feed.xml"
+MIN_TOPIC_ARTICLES = 2  # このタグの記事がこの件数以上あれば、テーマ別ハブページを作る
+MAX_FEED_ARTICLES = 30
 ARTICLES_DATA_PATH = Path(__file__).parent / "articles_data.json"
 
 MAX_NEW_ARTICLES = 5  # 1回の生成で新規に追加する記事数
@@ -390,6 +394,28 @@ footer a {
 .related a:hover {
   text-decoration: underline;
 }
+.tag-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+}
+.tag-pill {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 16px;
+  background: #eef0f5;
+  color: #4a4a5e;
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+.tag-pill:hover {
+  background: #dfe2ea;
+}
+.tag-pills-large .tag-pill {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+}
 .article-faq {
   margin: 24px 0;
   padding-top: 16px;
@@ -729,6 +755,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <meta name="description" content="ChatGPT・Claude・Geminiなど生成AIの最新ニュースを毎日更新。新機能・料金・使い方まで、AI業界の動きを分かりやすくまとめてお届けします。">
 <link rel="canonical" href="{page_url}">
 {google_verification}
+<link rel="alternate" type="application/rss+xml" title="AI特化メディアMOT" href="feed.xml">
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
 <script defer src="share.js"></script>
@@ -760,7 +787,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 </main>
 <footer>
   各記事の詳細・引用元は見出しのリンク先をご確認ください。<br>
-  <a href="about.html">運営者情報・プライバシーポリシー</a>
+  <a href="topics/index.html">テーマ別まとめ</a>　|　<a href="feed.xml">RSSフィード</a>　|　<a href="about.html">運営者情報・プライバシーポリシー</a>
 </footer>
 <script type="application/json" id="more-articles-data">{more_articles_json}</script>
 <script>
@@ -944,6 +971,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
   <h1 class="headline">{headline}</h1>
   <p class="meta">出典: {source}　|　公開日: {generated_at}</p>
   <div class="summary">{body}</div>
+  {tags}
   <div class="ad-slot-large">{ad_code}</div>
   <p><a class="source-link" href="{link}" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a></p>
   {faq}
@@ -1165,6 +1193,174 @@ def _related_entries(entry: dict, articles_data: list[dict], limit: int) -> list
     return candidates[:limit]
 
 
+def _topic_slug(tag: str) -> str:
+    """タグをURL用スラッグに変換する。英数字ならそのまま、日本語等はハッシュ化してURL安全にする。"""
+    ascii_slug = re.sub(r"[^a-z0-9]+", "-", tag.strip().lower()).strip("-")
+    if ascii_slug and ascii_slug.encode("ascii", "ignore").decode() == ascii_slug:
+        return ascii_slug
+    return hashlib.sha1(tag.encode("utf-8")).hexdigest()[:10]
+
+
+def _collect_topics(articles_data: list[dict]) -> dict[str, list[dict]]:
+    """タグ名(表示用の元の文字列) -> そのタグを持つ記事一覧(新しい順)。
+    MIN_TOPIC_ARTICLES件未満のテーマはページを作らない(内容の薄いページを量産しないため)。"""
+    by_tag: dict[str, list[dict]] = {}
+    for entry in reversed(articles_data):  # 新しい順
+        for tag in entry.get("tags") or []:
+            tag = tag.strip()
+            if not tag:
+                continue
+            by_tag.setdefault(tag, []).append(entry)
+    return {tag: entries for tag, entries in by_tag.items() if len(entries) >= MIN_TOPIC_ARTICLES}
+
+
+TAG_PILL_TEMPLATE = '<a class="tag-pill" href="{href}">#{tag}</a>'
+
+
+def _render_tag_pills(entry: dict, prefix: str = "", valid_topic_tags: set[str] | None = None) -> str:
+    """記事ページに表示するタグのピル。トピックページ(prefix="../topics/")と
+    記事ページ(prefix="topics/")のどちらからでも呼べるよう相対パスを引数化。
+    valid_topic_tagsが指定された場合、実際にハブページが存在するタグのみ表示する(リンク切れ防止)。"""
+    tags = [t.strip() for t in (entry.get("tags") or []) if t.strip()]
+    if valid_topic_tags is not None:
+        tags = [t for t in tags if t in valid_topic_tags]
+    if not tags:
+        return ""
+    pills = "".join(
+        TAG_PILL_TEMPLATE.format(href=f"{prefix}{_topic_slug(t)}.html", tag=html_lib.escape(t)) for t in tags
+    )
+    return f'<div class="tag-pills">{pills}</div>'
+
+
+TOPIC_PAGE_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+{csp}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{tag}の最新ニュースまとめ | AI特化メディアMOT</title>
+<meta name="description" content="{tag}に関するAI最新ニュースをまとめて紹介。関連記事{count}件を新着順に掲載しています。">
+<link rel="canonical" href="{page_url}">
+<link rel="icon" href="{favicon}">
+<link rel="stylesheet" href="../style.css">
+{goatcounter}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{tag}の最新ニュースまとめ | AI特化メディアMOT">
+<meta property="og:description" content="{tag}に関するAI最新ニュースをまとめて紹介。">
+<meta property="og:url" content="{page_url}">
+<meta name="twitter:card" content="summary">
+</head>
+<body>
+<header>
+  <h1><a href="../index.html">AI特化メディアMOT</a></h1>
+</header>
+<main class="home-main">
+<a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+<h2 class="section-heading">#{tag} の最新ニュース({count}件)</h2>
+<div class="layout">
+  <div class="content">
+{cards}
+  </div>
+</div>
+</main>
+<footer>
+  <a href="index.html">&laquo; テーマ一覧へ</a>　|　<a href="../index.html">トップへ戻る</a>
+</footer>
+</body>
+</html>
+"""
+
+TOPICS_INDEX_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+{csp}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>テーマ別まとめ一覧 | AI特化メディアMOT</title>
+<meta name="description" content="ChatGPT・Claude・Gemini等、企業・サービス別にAIニュースをまとめて読めるテーマ一覧ページです。">
+<link rel="canonical" href="{page_url}">
+<link rel="icon" href="{favicon}">
+<link rel="stylesheet" href="../style.css">
+{goatcounter}
+</head>
+<body>
+<header>
+  <h1><a href="../index.html">AI特化メディアMOT</a></h1>
+</header>
+<main>
+<a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+<h2 class="section-heading">テーマ別まとめ</h2>
+<div class="tag-pills tag-pills-large">
+{pills}
+</div>
+</main>
+<footer>
+  <a href="../index.html">&laquo; トップへ戻る</a>
+</footer>
+</body>
+</html>
+"""
+
+
+def _write_topic_pages(articles_data: list[dict]) -> list[str]:
+    """タグごとのテーマ別ハブページとテーマ一覧ページを書き出す。戻り値はsitemap登録用のURL一覧。"""
+    topics = _collect_topics(articles_data)
+    TOPICS_DIR.mkdir(parents=True, exist_ok=True)
+
+    urls = []
+    for tag, entries in topics.items():
+        slug = _topic_slug(tag)
+        cards_html = []
+        for entry in entries[:MAX_INDEX_ARTICLES]:
+            thumbnail = _render_thumbnail(
+                entry["image_url"], entry["image_kind"], entry["source"], entry["slug"], entry["headline"],
+                for_article_page=False,
+            )
+            # index.html基準の相対パス(articles/xxx.html)で組み立ててから、
+            # topics/配下のページ用にまとめて一段深いパス(../articles/xxx.html)へ補正する
+            card_html = CARD_TEMPLATE.format(
+                new_badge=NEW_BADGE_HTML if _is_new(entry["generated_at"]) else "",
+                thumbnail=thumbnail,
+                thumb_share=_thumb_share_html(entry["slug"], entry["headline"]),
+                slug=entry["slug"],
+                headline=html_lib.escape(entry["headline"]),
+                source=html_lib.escape(entry["source"]),
+                summary=html_lib.escape(entry["summary"]),
+                ad_code="",
+            )
+            cards_html.append(card_html.replace('href="articles/', 'href="../articles/'))
+        page_url = _abs_url(f"topics/{slug}.html")
+        (TOPICS_DIR / f"{slug}.html").write_text(
+            TOPIC_PAGE_TEMPLATE.format(
+                tag=html_lib.escape(tag),
+                count=len(entries),
+                cards="".join(cards_html),
+                favicon=FAVICON_DATA_URI,
+                page_url=page_url,
+                goatcounter=GOATCOUNTER_SCRIPT,
+                csp=CSP_META,
+            ),
+            encoding="utf-8",
+        )
+        urls.append(page_url)
+
+    pills = "".join(
+        f'<a class="tag-pill" href="{_topic_slug(tag)}.html">#{html_lib.escape(tag)}({len(entries)})</a>'
+        for tag, entries in sorted(topics.items(), key=lambda kv: len(kv[1]), reverse=True)
+    ) or "<p>まだテーマページがありません。</p>"
+
+    topics_index_url = _abs_url("topics/index.html")
+    (TOPICS_DIR / "index.html").write_text(
+        TOPICS_INDEX_TEMPLATE.format(
+            pills=pills, favicon=FAVICON_DATA_URI, page_url=topics_index_url,
+            goatcounter=GOATCOUNTER_SCRIPT, csp=CSP_META,
+        ),
+        encoding="utf-8",
+    )
+    urls.append(topics_index_url)
+    return urls
+
+
 def _iso_datetime(generated_at: str) -> str:
     try:
         dt = datetime.strptime(generated_at, "%Y-%m-%d %H:%M")
@@ -1354,8 +1550,9 @@ def build() -> None:
     _record_run_result(got_new_articles=True)
 
     # 関連記事を選べるよう、articles_dataが確定してから各記事ページを書き出す
+    valid_topic_tags = set(_collect_topics(articles_data))
     for entry in new_entries:
-        _write_article_page(entry, articles_data)
+        _write_article_page(entry, articles_data, valid_topic_tags)
 
     # 保持上限を超えたら古いものから削除(ページファイルも削除)
     if len(articles_data) > MAX_STORED_ARTICLES:
@@ -1440,10 +1637,13 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         ),
         encoding="utf-8",
     )
-    _write_robots_and_sitemap(articles_data)
+    topic_urls = _write_topic_pages(articles_data)
+    _write_feed(articles_data)
+    _write_robots_and_sitemap(articles_data, extra_urls=topic_urls)
 
     logger.info(
-        "サイト生成完了: 新規%d件 / 一覧表示%d件 (%s)", new_count, len(cards_html), INDEX_PATH
+        "サイト生成完了: 新規%d件 / 一覧表示%d件 / テーマページ%d件 (%s)",
+        new_count, len(cards_html), len(topic_urls), INDEX_PATH,
     )
 
 
@@ -1455,13 +1655,14 @@ def regenerate_all() -> None:
     if not articles_data:
         logger.info("再生成対象の記事がありません。")
         return
+    valid_topic_tags = set(_collect_topics(articles_data))
     for entry in articles_data:
-        _write_article_page(entry, articles_data)
+        _write_article_page(entry, articles_data, valid_topic_tags)
     _write_index_and_meta(articles_data, 0)
     logger.info("全ページ再生成完了: %d件", len(articles_data))
 
 
-def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
+def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags: set[str] | None = None) -> None:
     thumb_for_article = _render_thumbnail(
         entry["image_url"], entry["image_kind"], entry["source"], entry["slug"], entry["headline"],
         for_article_page=True,
@@ -1518,17 +1719,66 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
         ad_code=AD_CODE_TEXT_LINK,
         goatcounter=GOATCOUNTER_SCRIPT,
         structured_data=_render_structured_data(entry, page_url, og_image),
+        tags=_render_tag_pills(entry, prefix="../topics/", valid_topic_tags=valid_topic_tags),
         csp=CSP_META,
     )
     (ARTICLES_DIR / f"{entry['slug']}.html").write_text(article_html, encoding="utf-8")
 
 
-def _write_robots_and_sitemap(articles_data: list[dict]) -> None:
+_WEEKDAYS_EN = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+_MONTHS_EN = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+]
+
+
+def _rfc822_datetime(generated_at: str) -> str:
+    """RSS 2.0のpubDateはRFC 822形式が正式仕様(ISO 8601ではない)。"""
+    try:
+        dt = datetime.strptime(generated_at, "%Y-%m-%d %H:%M")
+    except ValueError:
+        return ""
+    return (
+        f"{_WEEKDAYS_EN[dt.weekday()]}, {dt.day:02d} {_MONTHS_EN[dt.month - 1]} {dt.year} "
+        f"{dt.strftime('%H:%M:%S')} +0900"
+    )
+
+
+def _write_feed(articles_data: list[dict]) -> None:
+    """サイト自体のRSSフィード(feed.xml)を書き出す。フィードリーダーで購読できるようにし、
+    読者の習慣化(定期的な再訪問)を狙う。"""
+    latest = list(reversed(articles_data))[:MAX_FEED_ARTICLES]
+    items = []
+    for e in latest:
+        page_url = _abs_url(f"articles/{e['slug']}.html")
+        pub_date = _rfc822_datetime(e.get("generated_at", ""))
+        items.append(
+            "  <item>\n"
+            f"    <title>{html_lib.escape(e['headline'])}</title>\n"
+            f"    <link>{html_lib.escape(page_url)}</link>\n"
+            f"    <guid>{html_lib.escape(page_url)}</guid>\n"
+            f"    <description>{html_lib.escape(e['summary'])}</description>\n"
+            + (f"    <pubDate>{pub_date}</pubDate>\n" if pub_date else "")
+            + "  </item>"
+        )
+    feed = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0"><channel>\n'
+        "  <title>AI特化メディアMOT</title>\n"
+        f"  <link>{html_lib.escape(_abs_url('index.html'))}</link>\n"
+        "  <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>\n"
+        + "\n".join(items)
+        + "\n</channel></rss>\n"
+    )
+    FEED_PATH.write_text(feed, encoding="utf-8")
+
+
+def _write_robots_and_sitemap(articles_data: list[dict], extra_urls: list[str] | None = None) -> None:
     today = datetime.now().strftime("%Y-%m-%d")
     urls = [(_abs_url("index.html"), today), (_abs_url("about.html"), today)]
     urls += [
         (_abs_url(f"articles/{e['slug']}.html"), e.get("generated_at", "")[:10] or today) for e in articles_data
     ]
+    urls += [(u, today) for u in (extra_urls or [])]
 
     sitemap_entries = "\n".join(
         f"  <url><loc>{html_lib.escape(u)}</loc><lastmod>{lastmod}</lastmod></url>" for u, lastmod in urls

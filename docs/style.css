@@ -245,6 +245,28 @@ footer a {
 .related a:hover {
   text-decoration: underline;
 }
+.tag-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+}
+.tag-pill {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 16px;
+  background: #eef0f5;
+  color: #4a4a5e;
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+.tag-pill:hover {
+  background: #dfe2ea;
+}
+.tag-pills-large .tag-pill {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+}
 .article-faq {
   margin: 24px 0;
   padding-top: 16px;
