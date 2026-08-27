@@ -725,7 +725,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 {csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MottainAI | 生成AI・ChatGPT・Claude最新ニュースまとめ</title>
+<title>AI特化メディアMOT | 生成AI・ChatGPT・Claude最新ニュースまとめ</title>
 <meta name="description" content="ChatGPT・Claude・Geminiなど生成AIの最新ニュースを毎日更新。新機能・料金・使い方まで、AI業界の動きを分かりやすくまとめてお届けします。">
 <link rel="canonical" href="{page_url}">
 {google_verification}
@@ -734,16 +734,16 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <script defer src="share.js"></script>
 {goatcounter}
 <meta property="og:type" content="website">
-<meta property="og:title" content="MottainAI">
+<meta property="og:title" content="AI特化メディアMOT">
 <meta property="og:description" content="生成AI・LLM関連の最新ニュースをキャッチーな見出しでまとめてお届け">
 <meta property="og:url" content="{page_url}">
 <meta name="twitter:card" content="summary">
 </head>
 <body>
 <header>
-  <h1>MottainAI</h1>
+  <h1>AI特化メディアMOT</h1>
   <p>最終更新: {generated_at}</p>
-  <button type="button" class="site-share-btn" data-native-share data-share-url="{page_url}" data-share-title="MottainAI">&#8599; MottainAIをシェア</button>
+  <button type="button" class="site-share-btn" data-native-share data-share-url="{page_url}" data-share-title="AI特化メディアMOT">&#8599; AI特化メディアMOTをシェア</button>
 </header>
 <main class="home-main">
 <div class="layout">
@@ -919,7 +919,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 {csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{seo_title} | MottainAI</title>
+<title>{seo_title} | AI特化メディアMOT</title>
 <meta name="description" content="{summary}">
 <link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
@@ -936,7 +936,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body class="article-page">
 <header>
-  <h1><a href="../index.html">MottainAI</a></h1>
+  <h1><a href="../index.html">AI特化メディアMOT</a></h1>
 </header>
 <main>
   <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
@@ -1076,8 +1076,8 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 {csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>運営者情報・プライバシーポリシー | MottainAI</title>
-<meta name="description" content="MottainAIの運営者情報・免責事項・著作権・プライバシーポリシーについてのページです。">
+<title>運営者情報・プライバシーポリシー | AI特化メディアMOT</title>
+<meta name="description" content="AI特化メディアMOTの運営者情報・免責事項・著作権・プライバシーポリシーについてのページです。">
 <link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
@@ -1085,7 +1085,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body class="article-page">
 <header>
-  <h1><a href="index.html">MottainAI</a></h1>
+  <h1><a href="index.html">AI特化メディアMOT</a></h1>
 </header>
 <main>
   <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
@@ -1205,7 +1205,7 @@ def _render_structured_data(entry: dict, page_url: str, og_image: str) -> str:
         "headline": entry["headline"],
         "description": entry["summary"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": page_url},
-        "publisher": {"@type": "Organization", "name": "MottainAI"},
+        "publisher": {"@type": "Organization", "name": "AI特化メディアMOT"},
     }
     if published:
         data["datePublished"] = published
