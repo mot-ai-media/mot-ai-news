@@ -27,6 +27,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+import alert
 import generator
 import sources
 import state
@@ -45,6 +46,9 @@ SITEMAP_PATH = OUTPUT_DIR / "sitemap.xml"
 ARTICLES_DATA_PATH = Path(__file__).parent / "articles_data.json"
 
 MAX_NEW_ARTICLES = 5  # 1回の生成で新規に追加する記事数
+MAX_ATTEMPTS_PER_RUN = 15  # 1回の実行で試みるClaude API呼び出しの上限(コスト暴走防止の安全装置)
+STALE_ALERT_THRESHOLD = 3  # 何回連続で新規記事0件だったらアラートメールを送るか
+ALERT_STATE_PATH = Path(__file__).parent / "alert_state.json"
 MAX_INDEX_ARTICLES = 20  # 一覧ページに表示する件数(蓄積データの中から新しい順)
 MAX_STORED_ARTICLES = 300  # articles_data.jsonに保持する上限(古いものから削除)
 MAX_RELATED_ARTICLES = 3  # 記事ページ下部に出す関連記事の件数
@@ -52,6 +56,20 @@ MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読
 
 # 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
 SITE_BASE_URL = "https://mottainai0214.github.io/mot-ai-news"
+
+# CSP: GitHub PagesはカスタムHTTPヘッダーを設定できないためmetaタグで代用。
+# 既存コードがインラインscript/styleに依存しているため'unsafe-inline'を許容(完全な対策ではないが、
+# 外部への不正な接続・object-src等は制限する多層防御として機能する)
+CSP_META = (
+    '<meta http-equiv="Content-Security-Policy" content="'
+    "default-src 'self'; "
+    "script-src 'self' 'unsafe-inline' https://gc.zgo.at; "
+    "style-src 'self' 'unsafe-inline'; "
+    "img-src 'self' https: data:; "
+    "connect-src 'self' https://mottainai.goatcounter.com; "
+    "object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'"
+    '">'
+)
 
 # Google Search Console 所有権確認用タグ
 GOOGLE_SITE_VERIFICATION = (
@@ -705,6 +723,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+{csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MottainAI | 生成AI・ChatGPT・Claude最新ニュースまとめ</title>
 <meta name="description" content="ChatGPT・Claude・Geminiなど生成AIの最新ニュースを毎日更新。新機能・料金・使い方まで、AI業界の動きを分かりやすくまとめてお届けします。">
@@ -898,6 +917,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+{csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{seo_title} | MottainAI</title>
 <meta name="description" content="{summary}">
@@ -1054,6 +1074,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+{csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>運営者情報・プライバシーポリシー | MottainAI</title>
 <meta name="description" content="MottainAIの運営者情報・免責事項・著作権・プライバシーポリシーについてのページです。">
@@ -1235,6 +1256,38 @@ def _is_new(generated_at: str) -> bool:
     return (datetime.now() - generated).total_seconds() < NEW_BADGE_HOURS * 3600
 
 
+def _load_alert_state() -> dict:
+    if not ALERT_STATE_PATH.exists():
+        return {"consecutive_empty_runs": 0, "alerted": False}
+    try:
+        return json.loads(ALERT_STATE_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {"consecutive_empty_runs": 0, "alerted": False}
+
+
+def _save_alert_state(state_data: dict) -> None:
+    ALERT_STATE_PATH.write_text(json.dumps(state_data, ensure_ascii=False), encoding="utf-8")
+
+
+def _record_run_result(got_new_articles: bool) -> None:
+    """新規記事が連続で取得できていない場合、Gmailでアラートを送る(ニュース取得停止に気づくため)。"""
+    st = _load_alert_state()
+    if got_new_articles:
+        if st["consecutive_empty_runs"] > 0 or st["alerted"]:
+            _save_alert_state({"consecutive_empty_runs": 0, "alerted": False})
+        return
+
+    st["consecutive_empty_runs"] += 1
+    if st["consecutive_empty_runs"] >= STALE_ALERT_THRESHOLD and not st["alerted"]:
+        sent = alert.send_alert(
+            "MOTのニュース自動取得が止まっている可能性",
+            f"直近{st['consecutive_empty_runs']}回の実行で新規記事が0件でした。"
+            "RSSフィードの変更やAPI障害の可能性があります。logs/ai_news_run.logを確認してください。",
+        )
+        st["alerted"] = sent
+    _save_alert_state(st)
+
+
 def build() -> None:
     posted_links = state.get_posted_links()
     articles = sources.fetch_candidates()
@@ -1242,14 +1295,19 @@ def build() -> None:
 
     if not candidates:
         logger.info("下書き候補となる新規記事がありませんでした。")
+        _record_run_result(got_new_articles=False)
         return
 
     ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
     articles_data = _load_articles_data()
     new_entries: list[dict] = []
+    attempts = 0
 
     for article in candidates:
         if len(new_entries) >= MAX_NEW_ARTICLES:
+            break
+        if attempts >= MAX_ATTEMPTS_PER_RUN:
+            logger.warning("1回の実行あたりのAPI呼び出し上限(%d件)に達したため打ち切り", MAX_ATTEMPTS_PER_RUN)
             break
 
         safe_link = _safe_http_url(article.link)
@@ -1258,6 +1316,7 @@ def build() -> None:
             state.record_posted(article.link)
             continue
 
+        attempts += 1
         try:
             result = generator.generate_headline_and_summary(article)
         except Exception:
@@ -1289,7 +1348,10 @@ def build() -> None:
 
     if not new_entries:
         logger.info("生成できた記事がありませんでした。")
+        _record_run_result(got_new_articles=False)
         return
+
+    _record_run_result(got_new_articles=True)
 
     # 関連記事を選べるよう、articles_dataが確定してから各記事ページを書き出す
     for entry in new_entries:
@@ -1364,13 +1426,17 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         ad_code_json=json.dumps(AD_CODE_TEXT_LINK),
         goatcounter=GOATCOUNTER_SCRIPT,
         google_verification=GOOGLE_SITE_VERIFICATION,
+        csp=CSP_META,
     )
     INDEX_PATH.write_text(index_html, encoding="utf-8")
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
     SHARE_JS_PATH.write_text(SHARE_JS, encoding="utf-8")
     ABOUT_PATH.write_text(
         ABOUT_TEMPLATE.format(
-            favicon=FAVICON_DATA_URI, goatcounter=GOATCOUNTER_SCRIPT, page_url=_abs_url("about.html")
+            favicon=FAVICON_DATA_URI,
+            goatcounter=GOATCOUNTER_SCRIPT,
+            page_url=_abs_url("about.html"),
+            csp=CSP_META,
         ),
         encoding="utf-8",
     )
@@ -1452,6 +1518,7 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
         ad_code=AD_CODE_TEXT_LINK,
         goatcounter=GOATCOUNTER_SCRIPT,
         structured_data=_render_structured_data(entry, page_url, og_image),
+        csp=CSP_META,
     )
     (ARTICLES_DIR / f"{entry['slug']}.html").write_text(article_html, encoding="utf-8")
 
@@ -1504,7 +1571,12 @@ if __name__ == "__main__":
     import sys
 
     load_dotenv(Path(__file__).parent.parent / ".env")
-    if "--regenerate" in sys.argv:
-        regenerate_all()
-    else:
-        build()
+    try:
+        if "--regenerate" in sys.argv:
+            regenerate_all()
+        else:
+            build()
+    except Exception:
+        logger.exception("build_site.pyが異常終了しました")
+        alert.send_alert("build_site.pyが異常終了しました", "詳細はlogs/ai_news_run.logを確認してください。")
+        raise
