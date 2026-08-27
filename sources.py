@@ -93,6 +93,8 @@ def filter_unposted(articles: list[Article], posted_links: set[str]) -> list[Art
 
 def fetch_og_image(url: str, timeout: int = 8) -> str | None:
     """記事ページのog:imageメタタグだけを軽量に取得する(本文はスクレイピングしない)。"""
+    if urllib.parse.urlsplit(url).scheme not in ("http", "https"):
+        return None
     request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; AiNewsSiteBot/1.0)"})
     try:
         with urllib.request.urlopen(request, timeout=timeout) as resp:
