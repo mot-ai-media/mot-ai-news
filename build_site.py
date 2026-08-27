@@ -20,6 +20,7 @@ import hashlib
 import html as html_lib
 import json
 import logging
+import re
 import urllib.parse
 from datetime import datetime
 from pathlib import Path
@@ -366,6 +367,30 @@ footer a {
 .related a:hover {
   text-decoration: underline;
 }
+.article-faq {
+  margin: 24px 0;
+  padding-top: 16px;
+  border-top: 1px solid #e5e5e5;
+}
+.article-faq h2 {
+  font-size: 1rem;
+  margin: 0 0 12px;
+}
+.faq-item {
+  margin-bottom: 14px;
+}
+.faq-q {
+  font-weight: bold;
+  font-size: 0.92rem;
+  margin: 0 0 4px;
+  color: #1a1a2e;
+}
+.faq-a {
+  font-size: 0.88rem;
+  color: #444;
+  margin: 0;
+  line-height: 1.6;
+}
 .next-up {
   margin-top: 24px;
 }
@@ -676,7 +701,9 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MottainAI</title>
+<title>MottainAI | 生成AI・ChatGPT・Claude最新ニュースまとめ</title>
+<meta name="description" content="ChatGPT・Claude・Geminiなど生成AIの最新ニュースを毎日更新。新機能・料金・使い方まで、AI業界の動きを分かりやすくまとめてお届けします。">
+<link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
 <script defer src="share.js"></script>
@@ -866,7 +893,9 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{headline} | MottainAI</title>
+<title>{seo_title} | MottainAI</title>
+<meta name="description" content="{summary}">
+<link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="../style.css">
 <script defer src="../share.js"></script>
@@ -877,6 +906,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:image" content="{og_image}">
 <meta property="og:url" content="{page_url}">
 <meta name="twitter:card" content="summary_large_image">
+{structured_data}
 </head>
 <body class="article-page">
 <header>
@@ -886,10 +916,11 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
   <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
   {thumbnail}
   <h1 class="headline">{headline}</h1>
-  <p class="meta">出典: {source} / {generated_at}</p>
+  <p class="meta">出典: {source}　|　公開日: {generated_at}</p>
   <div class="summary">{body}</div>
   <div class="ad-slot-large">{ad_code}</div>
   <p><a class="source-link" href="{link}" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a></p>
+  {faq}
   <div class="share-buttons">
     <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text={share_text}&url={share_url}" target="_blank" rel="noopener noreferrer">Xで共有</a>
     <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url={share_url}&text={share_text}" target="_blank" rel="noopener noreferrer">LINEで共有</a>
@@ -1019,6 +1050,8 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>運営者情報・プライバシーポリシー | MottainAI</title>
+<meta name="description" content="MottainAIの運営者情報・免責事項・著作権・プライバシーポリシーについてのページです。">
+<link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
 {goatcounter}
@@ -1080,6 +1113,102 @@ def _save_articles_data(entries: list[dict]) -> None:
     ARTICLES_DATA_PATH.write_text(json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+_ENTITY_TOKEN_RE = re.compile(r"[A-Za-zＡ-Ｚａ-ｚ0-9０-９]+|[ァ-ヴー]{2,}")
+
+
+def _extract_keywords(entry: dict) -> set[str]:
+    """記事の見出し・出典・タグから、企業名/製品名らしきトークン(英数字・カタカナ連続)を抽出する。
+    関連記事の選定(同じサービス・企業・技術のテーマでリンクする)に使う簡易的なキーワード抽出。"""
+    tags = {t.strip() for t in (entry.get("tags") or []) if t.strip()}
+    text = f"{entry.get('headline', '')} {entry.get('source', '')}"
+    tokens = {t for t in _ENTITY_TOKEN_RE.findall(text) if len(t) >= 2}
+    return tags | tokens
+
+
+def _related_entries(entry: dict, articles_data: list[dict], limit: int) -> list[dict]:
+    """同じテーマ・企業・サービスのキーワードが重なる記事を優先し、重なりが無ければ新しい順で選ぶ。"""
+    keywords = _extract_keywords(entry)
+    candidates = [e for e in articles_data if e["slug"] != entry["slug"]]
+
+    def score(other: dict) -> tuple[int, str]:
+        overlap = len(keywords & _extract_keywords(other))
+        return (overlap, other.get("generated_at", ""))
+
+    candidates.sort(key=score, reverse=True)
+    return candidates[:limit]
+
+
+def _iso_datetime(generated_at: str) -> str:
+    try:
+        dt = datetime.strptime(generated_at, "%Y-%m-%d %H:%M")
+    except ValueError:
+        return ""
+    return dt.strftime("%Y-%m-%dT%H:%M:00+09:00")
+
+
+FAQ_TEMPLATE = """<div class="article-faq">
+  <h2>よくある質問</h2>
+{items}
+</div>"""
+FAQ_ITEM_TEMPLATE = """  <div class="faq-item">
+    <p class="faq-q">Q. {q}</p>
+    <p class="faq-a">{a}</p>
+  </div>"""
+
+
+def _render_faq_html(faq: list[dict] | None) -> str:
+    """検索意図(とは/料金/使い方等)に答えるQ&Aを記事ページに表示用HTMLとして描画する。
+    JSON-LDのFAQPageと内容を一致させる(構造化データのみに存在する情報を作らないため)。"""
+    items = [f for f in (faq or []) if f.get("q") and f.get("a")]
+    if not items:
+        return ""
+    items_html = "\n".join(
+        FAQ_ITEM_TEMPLATE.format(q=html_lib.escape(f["q"]), a=html_lib.escape(f["a"])) for f in items
+    )
+    return FAQ_TEMPLATE.format(items=items_html)
+
+
+def _render_structured_data(entry: dict, page_url: str, og_image: str) -> str:
+    """NewsArticle(+ FAQがあればFAQPage)のJSON-LD構造化データを生成する。
+    可視のFAQ表示(_render_faq_html)と同じデータのみを使い、非表示情報を作らない。"""
+    published = _iso_datetime(entry["generated_at"])
+    data: dict = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": entry["headline"],
+        "description": entry["summary"],
+        "mainEntityOfPage": {"@type": "WebPage", "@id": page_url},
+        "publisher": {"@type": "Organization", "name": "MottainAI"},
+    }
+    if published:
+        data["datePublished"] = published
+        data["dateModified"] = published
+    if og_image:
+        data["image"] = [og_image]
+
+    scripts = [json.dumps(data, ensure_ascii=False)]
+
+    faq_items = [f for f in (entry.get("faq") or []) if f.get("q") and f.get("a")]
+    if faq_items:
+        faq_data = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": f["q"],
+                    "acceptedAnswer": {"@type": "Answer", "text": f["a"]},
+                }
+                for f in faq_items
+            ],
+        }
+        scripts.append(json.dumps(faq_data, ensure_ascii=False))
+
+    # </script>によるタグ混入対策(JSON文字列側だけをエスケープする。scriptタグ自体は壊さない)
+    safe_scripts = [s.replace("</", "<\\/") for s in scripts]
+    return "\n".join(f'<script type="application/ld+json">{s}</script>' for s in safe_scripts)
+
+
 def _render_body_paragraphs(body_text: str) -> str:
     """本文を"\n\n"区切りの段落として<p>タグに分割する。改行が無い旧データはそのまま1段落として扱う。"""
     paragraphs = [p.strip() for p in body_text.split("\n\n") if p.strip()]
@@ -1137,8 +1266,11 @@ def build() -> None:
             "slug": slug,
             "link": safe_link,
             "headline": result["headline"],
+            "seo_title": result.get("seo_title") or result["headline"],
             "summary": result["summary"],
             "body": result["body"],
+            "tags": result.get("tags") or [],
+            "faq": result.get("faq") or [],
             "source": article.source,
             "image_url": image_url,
             "image_kind": image_kind,
@@ -1230,7 +1362,10 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
     SHARE_JS_PATH.write_text(SHARE_JS, encoding="utf-8")
     ABOUT_PATH.write_text(
-        ABOUT_TEMPLATE.format(favicon=FAVICON_DATA_URI, goatcounter=GOATCOUNTER_SCRIPT), encoding="utf-8"
+        ABOUT_TEMPLATE.format(
+            favicon=FAVICON_DATA_URI, goatcounter=GOATCOUNTER_SCRIPT, page_url=_abs_url("about.html")
+        ),
+        encoding="utf-8",
     )
     _write_robots_and_sitemap(articles_data)
 
@@ -1259,10 +1394,10 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
         for_article_page=True,
     )
 
-    others = [e for e in reversed(articles_data) if e["slug"] != entry["slug"]]
+    related_pool = _related_entries(entry, articles_data, limit=1 + MAX_RELATED_ARTICLES)
     next_up_html = ""
-    if others:
-        next_entry = others[0]
+    if related_pool:
+        next_entry = related_pool[0]
         next_image = _safe_http_url(next_entry.get("image_url"))
         if next_image:
             image_tag = f'<img src="{html_lib.escape(next_image)}" alt="" loading="lazy">'
@@ -1274,7 +1409,7 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
             image_tag=image_tag,
         )
 
-    remaining = others[1 : 1 + MAX_RELATED_ARTICLES]
+    remaining = related_pool[1:]
     related_html = ""
     if remaining:
         items = "\n".join(
@@ -1291,11 +1426,13 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
 
     article_html = ARTICLE_PAGE_TEMPLATE.format(
         headline=html_lib.escape(entry["headline"]),
+        seo_title=html_lib.escape(entry.get("seo_title") or entry["headline"]),
         favicon=FAVICON_DATA_URI,
         thumbnail=thumb_for_article,
         source=html_lib.escape(entry["source"]),
         generated_at=entry["generated_at"],
         body=_render_body_paragraphs(entry.get("body") or entry["summary"]),
+        faq=_render_faq_html(entry.get("faq")),
         summary=html_lib.escape(entry["summary"]),
         link=html_lib.escape(safe_link),
         page_url=html_lib.escape(page_url),
@@ -1307,15 +1444,21 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
         related=related_html,
         ad_code=AD_CODE_TEXT_LINK,
         goatcounter=GOATCOUNTER_SCRIPT,
+        structured_data=_render_structured_data(entry, page_url, og_image),
     )
     (ARTICLES_DIR / f"{entry['slug']}.html").write_text(article_html, encoding="utf-8")
 
 
 def _write_robots_and_sitemap(articles_data: list[dict]) -> None:
-    urls = [_abs_url("index.html"), _abs_url("about.html")]
-    urls += [_abs_url(f"articles/{e['slug']}.html") for e in articles_data]
+    today = datetime.now().strftime("%Y-%m-%d")
+    urls = [(_abs_url("index.html"), today), (_abs_url("about.html"), today)]
+    urls += [
+        (_abs_url(f"articles/{e['slug']}.html"), e.get("generated_at", "")[:10] or today) for e in articles_data
+    ]
 
-    sitemap_entries = "\n".join(f"  <url><loc>{html_lib.escape(u)}</loc></url>" for u in urls)
+    sitemap_entries = "\n".join(
+        f"  <url><loc>{html_lib.escape(u)}</loc><lastmod>{lastmod}</lastmod></url>" for u, lastmod in urls
+    )
     sitemap = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
