@@ -1,215 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
   <title>AI特化メディアMOT</title>
-  <link>https://mottainai0214.github.io/mot-ai-news/index.html</link>
+  <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
     <title>Sentence Transformers、マルチベクトル埋め込みモデルで検索精度革新</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/e520424e436f.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/e520424e436f.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e520424e436f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e520424e436f.html</guid>
     <description>Sentence TransformersがLate Interaction方式のマルチベクトル埋め込みモデルに対応し、検索・情報検索の精度向上を実現。</description>
     <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
   </item>
   <item>
     <title>AIエージェントのメモリ消費量、実は想定より少ない可能性</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/5ce8103476b1.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/5ce8103476b1.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/5ce8103476b1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5ce8103476b1.html</guid>
     <description>AIエージェントの実運用で必要とされるメモリ容量について、実測データに基づいた検証と考察を提供。</description>
     <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
   </item>
   <item>
     <title>LFM2.5-DSpark、推論速度を最大3.2倍高速化。生成AI活用の効率革命</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/c7cdb6722fd8.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/c7cdb6722fd8.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/c7cdb6722fd8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/c7cdb6722fd8.html</guid>
     <description>Hugging Faceが発表した最新モデルが推論速度を大幅に改善。AI導入の実用性が飛躍的に向上する。</description>
     <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
   </item>
   <item>
     <title>音声認識ベンチマーク最適化の落とし穴、Hugging Faceが検証手法を公開</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/68e9fb1705e1.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/68e9fb1705e1.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/68e9fb1705e1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/68e9fb1705e1.html</guid>
     <description>音声認識モデルのベンチマーク評価で一般的な最適化手法に潜む課題を、Hugging Faceが詳細に分析・指摘。</description>
     <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
   </item>
   <item>
     <title>AIエージェント導入で人員削減は起こらない。国内企業の実態は部門間の再配置だった</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/0e6557f1925c.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/0e6557f1925c.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/0e6557f1925c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/0e6557f1925c.html</guid>
     <description>AIエージェント導入による人員削減の可否は、実行可能なタスク量で決まる。国内企業では削減より部門をまたいだ人員再配置が進む。</description>
     <pubDate>Thu, 27 Aug 2026 23:18:00 +0900</pubDate>
   </item>
   <item>
     <title>Hugging Face、検索機能を大幅強化。自社インフラで論文データベース処理を加速</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/bcd3314d2ba2.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/bcd3314d2ba2.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/bcd3314d2ba2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/bcd3314d2ba2.html</guid>
     <description>HuggingFaceの推論エンドポイント・ジョブ・ストレージサービスがPapers with Codeの検索機能を支える仕組み。</description>
     <pubDate>Thu, 27 Aug 2026 22:54:00 +0900</pubDate>
   </item>
   <item>
     <title>Gradioが実現する、AIワークフローの革新的な構築・実行・デプロイ</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/2983dbf79834.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/2983dbf79834.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/2983dbf79834.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/2983dbf79834.html</guid>
     <description>Gradioがワイヤリングから実行、デプロイまでAIワークフロー全体を統合管理できるプラットフォームとして進化。</description>
     <pubDate>Thu, 27 Aug 2026 22:54:00 +0900</pubDate>
   </item>
   <item>
     <title>4ビット圧縮モデルが元モデルを超える、量子化対応ヒーリング技術が実現</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/f6b26e55a489.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/f6b26e55a489.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/f6b26e55a489.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/f6b26e55a489.html</guid>
     <description>圧縮率を大幅に高めた4ビットモデルが、元の高精度モデルの性能を上回る成果を実現。</description>
     <pubDate>Thu, 27 Aug 2026 22:54:00 +0900</pubDate>
   </item>
   <item>
     <title>IBM Granite 4.2、大規模言語モデルの構築方法を公開</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/74043a2c13e4.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/74043a2c13e4.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html</guid>
     <description>IBMが次世代モデル「Granite 4.2」の開発手法を詳細に解説し、大規模言語モデル構築のベストプラクティスを明かした。</description>
     <pubDate>Thu, 27 Aug 2026 22:54:00 +0900</pubDate>
   </item>
   <item>
     <title>Sentence Transformers、マルチベクトル埋め込みモデルの訓練・チューニング機能を実装</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/5309d9655463.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/5309d9655463.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/5309d9655463.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5309d9655463.html</guid>
     <description>Sentence Transformersがマルチベクトル埋め込みモデルの訓練・微調整に対応し、より柔軟なテキスト表現が可能に。</description>
     <pubDate>Thu, 27 Aug 2026 22:53:00 +0900</pubDate>
   </item>
   <item>
     <title>個人契約のChatGPTに会社情報を入力する危険性。データ流出リスクの衝撃</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/67a745984a8a.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/67a745984a8a.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/67a745984a8a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/67a745984a8a.html</guid>
     <description>個人で契約したChatGPTに機密情報を入力すると、予期しないリスクが生じる可能性がある。</description>
     <pubDate>Thu, 27 Aug 2026 18:17:00 +0900</pubDate>
   </item>
   <item>
     <title>MCPが大転換、AIエージェント対応へ。Linux Foundation傘下のAAIFが新ロードマップ発表</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/3e474ded5a8f.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/3e474ded5a8f.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/3e474ded5a8f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3e474ded5a8f.html</guid>
     <description>Linux Foundation傘下のAAIFがModel Context Protocolの進化方針を示す新ロードマップを公開。AIエージェント対応やHTTP通信統一が重点施策。</description>
     <pubDate>Thu, 27 Aug 2026 18:17:00 +0900</pubDate>
   </item>
   <item>
     <title>MIPI Alliance、ヒューマノイドロボット向け標準インタフェース始動</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/6a056a8b1219.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/6a056a8b1219.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/6a056a8b1219.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/6a056a8b1219.html</guid>
     <description>MIPI AllianceがフィジカルAI専門グループを立ち上げ、ロボット通信インタフェースの標準化に乗り出した。</description>
     <pubDate>Thu, 27 Aug 2026 18:17:00 +0900</pubDate>
   </item>
   <item>
     <title>2035年、AI推論の半分がコード生成に。消費電力46ギガワットの衝撃</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/bdf0cbb50b19.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/bdf0cbb50b19.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/bdf0cbb50b19.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/bdf0cbb50b19.html</guid>
     <description>ABI Researchが予測。推論ワークロードが2033年にトレーニングを逆転し、電力消費が急速に拡大する見通し。</description>
     <pubDate>Thu, 27 Aug 2026 17:51:00 +0900</pubDate>
   </item>
   <item>
     <title>中国Z.aiが「GLM-5.3-Flash」公開、Opus 4.8に匹敵する性能を低価格で実現</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/3efdf37af216.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/3efdf37af216.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/3efdf37af216.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3efdf37af216.html</guid>
     <description>中国のZ.aiがマルチモーダルモデル「GLM-5.3-Flash」をMITライセンスで公開。高性能ながら安価に利用できるとして注目を集める。</description>
     <pubDate>Thu, 27 Aug 2026 17:51:00 +0900</pubDate>
   </item>
   <item>
     <title>中国ロボ運動会、小型ランナーの「ぽてぽて走り」が可愛らしさで話題さらう</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/ac143cd533fc.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/ac143cd533fc.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ac143cd533fc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ac143cd533fc.html</guid>
     <description>北京の世界人型ロボット運動会で、100mトラックを懸命に歩む小型ロボがSNS上で注目を集めている。</description>
     <pubDate>Thu, 27 Aug 2026 17:51:00 +0900</pubDate>
   </item>
   <item>
     <title>NVIDIA支援の口腔がん検出AI、大阪大学が製造販売承認取得</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/5b29492bdd3e.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/5b29492bdd3e.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/5b29492bdd3e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5b29492bdd3e.html</guid>
     <description>大阪大学開発の「Mucosight AI」が30秒で口腔粘膜疾患を検出し、歯科医師の診断判断を支援する医療機器として承認された。</description>
     <pubDate>Thu, 27 Aug 2026 17:51:00 +0900</pubDate>
   </item>
   <item>
     <title>Google「Gemini」新CMでKing&amp;Prince起用、永瀬廉が語るAI活用の現実的な使い道</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/e6671e8b6a02.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/e6671e8b6a02.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e6671e8b6a02.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e6671e8b6a02.html</guid>
     <description>Google傘下のAI「Gemini」がタレント起用で大型プロモーション展開。実用性重視のメッセージ打ち出す。</description>
     <pubDate>Thu, 27 Aug 2026 17:50:00 +0900</pubDate>
   </item>
   <item>
     <title>SK Hynix、宮城県への工場建設計画が浮上も県知事は否定</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/14e10e5cbfd3.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/14e10e5cbfd3.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/14e10e5cbfd3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/14e10e5cbfd3.html</guid>
     <description>韓国半導体大手のSK Hynixが宮城県での工場建設を検討との報道に、村井知事は公式情報の把握を否定。</description>
     <pubDate>Wed, 26 Aug 2026 19:40:00 +0900</pubDate>
   </item>
   <item>
     <title>フィジカルAI用データファクトリーが始動、30台超のロボが24時間稼働</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/ac50ae1f6255.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/ac50ae1f6255.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ac50ae1f6255.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ac50ae1f6255.html</guid>
     <description>J-HRTI関東データファクトリーが稼働。複数のロボットが動作データを自動生成し、AI学習用の膨大なデータを収集している。</description>
     <pubDate>Wed, 26 Aug 2026 19:40:00 +0900</pubDate>
   </item>
   <item>
     <title>AIエージェントフレームワーク12選、失敗しない選び方を解説</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/3d834e756980.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/3d834e756980.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/3d834e756980.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3d834e756980.html</guid>
     <description>機能の多さだけで選ぶと本番運用で失敗。フレームワーク選定の正しい基準とは。</description>
     <pubDate>Wed, 26 Aug 2026 17:29:00 +0900</pubDate>
   </item>
   <item>
     <title>総務業務、AIエージェントで激変。7つの活用法と導入ステップ解説</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/9cc724069cc0.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/9cc724069cc0.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/9cc724069cc0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/9cc724069cc0.html</guid>
     <description>社内問い合わせに追われる総務担当者の業務を、AIエージェントが大幅削減する時代へ。</description>
     <pubDate>Wed, 26 Aug 2026 17:29:00 +0900</pubDate>
   </item>
   <item>
     <title>生成AIが議事録止まり、製造現場は放置。AIエージェントが原価削減の鍵に</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/a024afb6003b.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/a024afb6003b.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/a024afb6003b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/a024afb6003b.html</guid>
     <description>全社導入した生成AIが事務作業に限定される中、製造業向けAIエージェントの8つの活用事例が明かされる。</description>
     <pubDate>Wed, 26 Aug 2026 17:29:00 +0900</pubDate>
   </item>
   <item>
     <title>生成AIの成果は間接業務止まり、製造現場を変えるAIエージェント戦略</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/e92ac704054c.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/e92ac704054c.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e92ac704054c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e92ac704054c.html</guid>
     <description>議事録作成などの間接業務に限定した生成AI導入から脱却し、原価削減に直結する製造工程へのAIエージェント活用が急務となっている。</description>
     <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
   </item>
   <item>
     <title>AIエージェント、マーケティング業務を自動化。10の活用事例で業務激変</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/9b8dc4da1bd1.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/9b8dc4da1bd1.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/9b8dc4da1bd1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/9b8dc4da1bd1.html</guid>
     <description>ChatGPT時代でも手作業が残るマーケティング業務を、AIエージェントが目標設定から実行・改善まで全自動化する仕組みが登場。</description>
     <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
   </item>
   <item>
     <title>生成AIチャットボット選びの失敗を防ぐ、7つの比較軸を解説</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/0cd186cc3eea.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/0cd186cc3eea.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/0cd186cc3eea.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/0cd186cc3eea.html</guid>
     <description>ベンダー発信の偏った比較表に頼らず、客観的にAIチャットボットを選定するための7つの評価ポイントを紹介。</description>
     <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
   </item>
   <item>
     <title>IT部門の負担激減、AIエージェント導入で業務効率化が加速</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/05cc3865a807.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/05cc3865a807.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/05cc3865a807.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/05cc3865a807.html</guid>
     <description>パスワードリセットなど定型業務に追われるIT部門がAIエージェント活用で抜本改革。導入手順と費用相場を解説。</description>
     <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
   </item>
   <item>
     <title>AIエージェント担当者が担う6つの役割。90日で組織を変える</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/e5cb200d0753.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/e5cb200d0753.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e5cb200d0753.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e5cb200d0753.html</guid>
     <description>AIエージェント担当者の真の仕事はツール選定ではなく、業務設計と権限統制にある。必要スキルと実行ロードマップを解説。</description>
     <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
   </item>
   <item>
     <title>AIエージェント、生成AIの次のステージへ。人間にしか残せない仕事が明確化</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/378dc6c17527.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/378dc6c17527.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/378dc6c17527.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/378dc6c17527.html</guid>
     <description>目標を与えるだけで計画から実行まで自動化するAIエージェント。下書き作成の段階を超え、業務の根本的な変化が迫っている。</description>
     <pubDate>Wed, 26 Aug 2026 16:14:00 +0900</pubDate>
   </item>
   <item>
     <title>AIエージェント導入で転職活動が激変。6ステップで職務経歴書も自動作成</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/4cb75d9a1350.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/4cb75d9a1350.html</guid>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/4cb75d9a1350.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/4cb75d9a1350.html</guid>
     <description>AIエージェントが転職活動の計画から実行を自律的に支援。求人検索から書類作成まで効率化する実践的なプロンプト例を紹介。</description>
     <pubDate>Wed, 26 Aug 2026 16:13:00 +0900</pubDate>
   </item>

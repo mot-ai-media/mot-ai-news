@@ -1,13 +1,13 @@
 # 復旧手順(このPCが壊れた・買い替えた場合)
 
-ソースコード・記事データはGitHub(`https://github.com/mottainAI0214/mot-ai-news`)に
+ソースコード・記事データはGitHub(`https://github.com/mot-ai-media/mot-ai-news`)に
 バックアップされているが、**`.env`の秘密情報だけはどこにもバックアップされていない**(意図的。
 秘密情報を平文でどこかに保存するのは危険なため)。新しいPCで再開するには以下の再設定が必要。
 
 ## 1. リポジトリを取得
 
 ```powershell
-git clone https://github.com/mottainAI0214/mot-ai-news.git
+git clone https://github.com/mot-ai-media/mot-ai-news.git
 cd mot-ai-news
 pip install -r ../requirements.txt   # feedparser, anthropic, python-dotenv
 ```

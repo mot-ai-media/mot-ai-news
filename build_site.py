@@ -59,7 +59,7 @@ MAX_RELATED_ARTICLES = 3  # 記事ページ下部に出す関連記事の件数
 MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読み込みする最大件数
 
 # 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
-SITE_BASE_URL = "https://mottainai0214.github.io/mot-ai-news"
+SITE_BASE_URL = "https://mot-ai-media.github.io/mot-ai-news"
 
 # CSP: GitHub PagesはカスタムHTTPヘッダーを設定できないためmetaタグで代用。
 # 既存コードがインラインscript/styleに依存しているため'unsafe-inline'を許容(完全な対策ではないが、

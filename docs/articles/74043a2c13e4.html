@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Granite 4.2 LLMsとは？構築方法を詳しく解説 | AI特化メディアMOT</title>
 <meta name="description" content="IBMが次世代モデル「Granite 4.2」の開発手法を詳細に解説し、大規模言語モデル構築のベストプラクティスを明かした。">
-<link rel="canonical" href="https://mottainai0214.github.io/mot-ai-news/articles/74043a2c13e4.html">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231a1a2e'/%3E%3Ctext x='50' y='68' font-size='48' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../style.css">
 <script defer src="../share.js"></script>
@@ -15,9 +15,9 @@
 <meta property="og:title" content="IBM Granite 4.2、大規模言語モデルの構築方法を公開">
 <meta property="og:description" content="IBMが次世代モデル「Granite 4.2」の開発手法を詳細に解説し、大規模言語モデル構築のベストプラクティスを明かした。">
 <meta property="og:image" content="https://cdn-uploads.huggingface.co/production/uploads/65cc2c288ebd392213e58899/XHWV2L_wZsFe3ekksCgvQ.webp">
-<meta property="og:url" content="https://mottainai0214.github.io/mot-ai-news/articles/74043a2c13e4.html">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "IBM Granite 4.2、大規模言語モデルの構築方法を公開", "description": "IBMが次世代モデル「Granite 4.2」の開発手法を詳細に解説し、大規模言語モデル構築のベストプラクティスを明かした。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mottainai0214.github.io/mot-ai-news/articles/74043a2c13e4.html"}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT"}, "datePublished": "2026-08-27T22:54:00+09:00", "dateModified": "2026-08-27T22:54:00+09:00", "image": ["https://cdn-uploads.huggingface.co/production/uploads/65cc2c288ebd392213e58899/XHWV2L_wZsFe3ekksCgvQ.webp"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "IBM Granite 4.2、大規模言語モデルの構築方法を公開", "description": "IBMが次世代モデル「Granite 4.2」の開発手法を詳細に解説し、大規模言語モデル構築のベストプラクティスを明かした。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html"}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT"}, "datePublished": "2026-08-27T22:54:00+09:00", "dateModified": "2026-08-27T22:54:00+09:00", "image": ["https://cdn-uploads.huggingface.co/production/uploads/65cc2c288ebd392213e58899/XHWV2L_wZsFe3ekksCgvQ.webp"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Granite 4.2とは何か？", "acceptedAnswer": {"@type": "Answer", "text": "IBMが開発した大規模言語モデルで、その構築方法や技術的アプローチが詳細に公開されている。"}}, {"@type": "Question", "name": "なぜこの情報の公開が重要か？", "acceptedAnswer": {"@type": "Answer", "text": "言語モデル開発のプロセスや最適化手法が明かされることで、業界全体の技術発展と実装の効率化につながるため。"}}]}</script>
 </head>
 <body class="article-page">
@@ -45,10 +45,10 @@
   </div>
 </div>
   <div class="share-buttons">
-    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=IBM%20Granite%204.2%E3%80%81%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%A7%8B%E7%AF%89%E6%96%B9%E6%B3%95%E3%82%92%E5%85%AC%E9%96%8B&url=https%3A//mottainai0214.github.io/mot-ai-news/articles/74043a2c13e4.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
-    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mottainai0214.github.io/mot-ai-news/articles/74043a2c13e4.html&text=IBM%20Granite%204.2%E3%80%81%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%A7%8B%E7%AF%89%E6%96%B9%E6%B3%95%E3%82%92%E5%85%AC%E9%96%8B" target="_blank" rel="noopener noreferrer">LINEで共有</a>
-    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mottainai0214.github.io/mot-ai-news/articles/74043a2c13e4.html">リンクをコピー</button>
-    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mottainai0214.github.io/mot-ai-news/articles/74043a2c13e4.html" data-share-title="IBM Granite 4.2、大規模言語モデルの構築方法を公開">共有</button>
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=IBM%20Granite%204.2%E3%80%81%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%A7%8B%E7%AF%89%E6%96%B9%E6%B3%95%E3%82%92%E5%85%AC%E9%96%8B&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html&text=IBM%20Granite%204.2%E3%80%81%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%A7%8B%E7%AF%89%E6%96%B9%E6%B3%95%E3%82%92%E5%85%AC%E9%96%8B" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html" data-share-title="IBM Granite 4.2、大規模言語モデルの構築方法を公開">共有</button>
   </div>
   <div class="reactions" id="reactions" data-slug="74043a2c13e4">
     <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
@@ -58,17 +58,17 @@
   </div>
   <div class="next-up">
   <p class="next-up-label">次に読む記事</p>
-  <a class="next-up-card" href="f6b26e55a489.html">
-    <img src="https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/2DSE26PMq2hJqKqEDOLIn.png" alt="" loading="lazy">
-    <span class="next-up-headline">4ビット圧縮モデルが元モデルを超える、量子化対応ヒーリング技術が実現</span>
+  <a class="next-up-card" href="e520424e436f.html">
+    <img src="https://huggingface.co/blog/assets/multi-vector-encoder/st-hf-lighton-thumbnail.png" alt="" loading="lazy">
+    <span class="next-up-headline">Sentence Transformers、マルチベクトル埋め込みモデルで検索精度革新</span>
   </a>
 </div>
   <div class="related">
   <h2>その他の関連記事</h2>
   <ul>
+    <li><a href="f6b26e55a489.html">4ビット圧縮モデルが元モデルを超える、量子化対応ヒーリング技術が実現</a></li>
     <li><a href="5309d9655463.html">Sentence Transformers、マルチベクトル埋め込みモデルの訓練・チューニング機能を実装</a></li>
-    <li><a href="2983dbf79834.html">Gradioが実現する、AIワークフローの革新的な構築・実行・デプロイ</a></li>
-    <li><a href="bcd3314d2ba2.html">Hugging Face、検索機能を大幅強化。自社インフラで論文データベース処理を加速</a></li>
+    <li><a href="68e9fb1705e1.html">音声認識ベンチマーク最適化の落とし穴、Hugging Faceが検証手法を公開</a></li>
   </ul>
 </div>
 </main>
