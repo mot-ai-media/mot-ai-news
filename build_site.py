@@ -53,6 +53,11 @@ MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読
 # 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
 SITE_BASE_URL = "https://mottainai0214.github.io/mot-ai-news"
 
+# Google Search Console 所有権確認用タグ
+GOOGLE_SITE_VERIFICATION = (
+    '<meta name="google-site-verification" content="FWf3QNW4wcPX753gENPwai2tBcWBlc-RNTNA1-8tWFI" />'
+)
+
 # GoatCounter(無料アクセス解析)のPVトラッキングスクリプト。空文字にすれば埋め込み無しに戻せる
 GOATCOUNTER_SCRIPT = (
     '<script data-goatcounter="https://mottainai.goatcounter.com/count" '
@@ -704,6 +709,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <title>MottainAI | 生成AI・ChatGPT・Claude最新ニュースまとめ</title>
 <meta name="description" content="ChatGPT・Claude・Geminiなど生成AIの最新ニュースを毎日更新。新機能・料金・使い方まで、AI業界の動きを分かりやすくまとめてお届けします。">
 <link rel="canonical" href="{page_url}">
+{google_verification}
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
 <script defer src="share.js"></script>
@@ -1357,6 +1363,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         more_articles_json=more_articles_json,
         ad_code_json=json.dumps(AD_CODE_TEXT_LINK),
         goatcounter=GOATCOUNTER_SCRIPT,
+        google_verification=GOOGLE_SITE_VERIFICATION,
     )
     INDEX_PATH.write_text(index_html, encoding="utf-8")
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
