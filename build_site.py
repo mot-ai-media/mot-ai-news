@@ -1201,7 +1201,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
   <p class="summary">当サイトは、生成AI・LLM関連の国内外ニュースをAIが要約し、見出し・記事としてまとめて紹介するニュースキュレーションサイトです。</p>
 
   <h2>運営者情報</h2>
-  <p class="summary">運営者名: (未設定)<br>連絡先: (未設定・お問い合わせフォーム等を設置予定)</p>
+  <p class="summary">運営者名: AI特化メディアMOT編集部<br>連絡先: (準備中・お問い合わせフォーム等を設置予定)</p>
 
   <h2>免責事項</h2>
   <p class="summary">
@@ -1223,7 +1223,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
   </p>
 
   <h2>お問い合わせ</h2>
-  <p class="summary">(未設定・お問い合わせフォーム等を設置予定)</p>
+  <p class="summary">お問い合わせフォームを準備中です。今しばらくお待ちください。</p>
 </main>
 <footer>
   <a href="index.html">&laquo; トップへ戻る</a>
@@ -1613,7 +1613,7 @@ def build() -> None:
             logger.exception("記事の生成に失敗したためスキップ: %s", article.link)
             continue
 
-        slug = _make_slug(safe_link)
+        slug = _make_slug(safe_link, result.get("tags"))
         image_url = _safe_http_url(sources.fetch_og_image(article.link))
         image_kind = "real" if image_url else "fallback"
 

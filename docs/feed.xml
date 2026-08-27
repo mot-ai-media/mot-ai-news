@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、Hugging Face侵害事件の詳細公表。AIモデルセキュリティ強化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-504dd1ec.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-504dd1ec.html</guid>
+    <description>OpenAIがHugging Faceで発生した侵害事件の調査結果を公開し、AI model security強化に向けた施策を明らかにした。</description>
+    <pubDate>Fri, 28 Aug 2026 02:37:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、教室を超えた学習支援へ。OpenAIが示す連続学習の新形態</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-cdfc1003.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-cdfc1003.html</guid>
+    <description>OpenAIが新レポートで、ChatGPTが生徒と教育者にもたらす学習の連続化と教室外での支援効果を分析。</description>
+    <pubDate>Fri, 28 Aug 2026 02:37:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT for Teachers、55の米国学区に拡大。10万人超の教育者が利用可能に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d6bb1031.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d6bb1031.html</guid>
+    <description>OpenAIの教育者向けAIツール「ChatGPT for Teachers」が55の米国学区に展開され、10万人超の教育関係者が利用できるようになった。</description>
+    <pubDate>Fri, 28 Aug 2026 02:36:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、ブラジル事業を本格展開。開発者・企業と連携しAI普及を加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57e27628.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57e27628.html</guid>
+    <description>OpenAIがブラジルでの事業拡大を発表。地域の開発者やビジネスコミュニティとの連携を強化し、国内へのAI導入を推進する。</description>
+    <pubDate>Fri, 28 Aug 2026 02:36:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>1000人超の学生実験でChatGPT、批判的思考で学習効果が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-3062d8cd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-3062d8cd.html</guid>
+    <description>OpenAIが1000人以上の学生を対象に実施した大規模実験で、ChatGPTと批判的思考スキルの関係性が明らかに。</description>
+    <pubDate>Fri, 28 Aug 2026 02:36:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ACE推論、トークン削減で大幅高速化を実現</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/5eb3c49c6262.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5eb3c49c6262.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ac50ae1f6255.html</guid>
     <description>J-HRTI関東データファクトリーが稼働。複数のロボットが動作データを自動生成し、AI学習用の膨大なデータを収集している。</description>
     <pubDate>Wed, 26 Aug 2026 19:40:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェントフレームワーク12選、失敗しない選び方を解説</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/3d834e756980.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3d834e756980.html</guid>
-    <description>機能の多さだけで選ぶと本番運用で失敗。フレームワーク選定の正しい基準とは。</description>
-    <pubDate>Wed, 26 Aug 2026 17:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>総務業務、AIエージェントで激変。7つの活用法と導入ステップ解説</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/9cc724069cc0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/9cc724069cc0.html</guid>
-    <description>社内問い合わせに追われる総務担当者の業務を、AIエージェントが大幅削減する時代へ。</description>
-    <pubDate>Wed, 26 Aug 2026 17:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AIが議事録止まり、製造現場は放置。AIエージェントが原価削減の鍵に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/a024afb6003b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/a024afb6003b.html</guid>
-    <description>全社導入した生成AIが事務作業に限定される中、製造業向けAIエージェントの8つの活用事例が明かされる。</description>
-    <pubDate>Wed, 26 Aug 2026 17:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AIの成果は間接業務止まり、製造現場を変えるAIエージェント戦略</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e92ac704054c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e92ac704054c.html</guid>
-    <description>議事録作成などの間接業務に限定した生成AI導入から脱却し、原価削減に直結する製造工程へのAIエージェント活用が急務となっている。</description>
-    <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、マーケティング業務を自動化。10の活用事例で業務激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/9b8dc4da1bd1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/9b8dc4da1bd1.html</guid>
-    <description>ChatGPT時代でも手作業が残るマーケティング業務を、AIエージェントが目標設定から実行・改善まで全自動化する仕組みが登場。</description>
-    <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
   </item>
 </channel></rss>
