@@ -320,6 +320,12 @@ footer a {
   color: #333;
   margin-bottom: 20px;
 }
+.article-page .summary p {
+  margin: 0 0 14px;
+}
+.article-page .summary p:last-child {
+  margin-bottom: 0;
+}
 .ad-slot-large {
   margin: 20px 0;
   padding: 24px;

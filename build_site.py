@@ -434,6 +434,12 @@ footer a {
   color: #333;
   margin-bottom: 20px;
 }
+.article-page .summary p {
+  margin: 0 0 14px;
+}
+.article-page .summary p:last-child {
+  margin-bottom: 0;
+}
 .ad-slot-large {
   margin: 20px 0;
   padding: 24px;
@@ -865,7 +871,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
   {thumbnail}
   <h1 class="headline">{headline}</h1>
   <p class="meta">出典: {source} / {generated_at}</p>
-  <p class="summary">{body}</p>
+  <div class="summary">{body}</div>
   <div class="ad-slot-large">{ad_code}</div>
   <p><a class="source-link" href="{link}" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a></p>
   <div class="share-buttons">
@@ -1055,6 +1061,14 @@ def _load_articles_data() -> list[dict]:
 
 def _save_articles_data(entries: list[dict]) -> None:
     ARTICLES_DATA_PATH.write_text(json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _render_body_paragraphs(body_text: str) -> str:
+    """本文を"\n\n"区切りの段落として<p>タグに分割する。改行が無い旧データはそのまま1段落として扱う。"""
+    paragraphs = [p.strip() for p in body_text.split("\n\n") if p.strip()]
+    if not paragraphs:
+        paragraphs = [body_text]
+    return "".join(f"<p>{html_lib.escape(p)}</p>" for p in paragraphs)
 
 
 def _make_slug(link: str) -> str:
@@ -1261,7 +1275,7 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
         thumbnail=thumb_for_article,
         source=html_lib.escape(entry["source"]),
         generated_at=entry["generated_at"],
-        body=html_lib.escape(entry.get("body") or entry["summary"]),
+        body=_render_body_paragraphs(entry.get("body") or entry["summary"]),
         summary=html_lib.escape(entry["summary"]),
         link=html_lib.escape(safe_link),
         page_url=html_lib.escape(page_url),
