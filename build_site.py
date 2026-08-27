@@ -52,6 +52,12 @@ MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読
 # 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
 SITE_BASE_URL = "https://mottainai0214.github.io/mot-ai-news"
 
+# GoatCounter(無料アクセス解析)のPVトラッキングスクリプト。空文字にすれば埋め込み無しに戻せる
+GOATCOUNTER_SCRIPT = (
+    '<script data-goatcounter="https://mottainai.goatcounter.com/count" '
+    'async src="//gc.zgo.at/count.js"></script>'
+)
+
 # A8.net アフィリエイト広告。空文字にすれば広告非表示に戻せる
 _AD_TOSSY = (
     '<a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" rel="nofollow">'
@@ -666,6 +672,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
 <script defer src="share.js"></script>
+{goatcounter}
 <meta property="og:type" content="website">
 <meta property="og:title" content="MottainAI">
 <meta property="og:description" content="生成AI・LLM関連の最新ニュースをキャッチーな見出しでまとめてお届け">
@@ -855,6 +862,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="../style.css">
 <script defer src="../share.js"></script>
+{goatcounter}
 <meta property="og:type" content="article">
 <meta property="og:title" content="{headline}">
 <meta property="og:description" content="{summary}">
@@ -1005,6 +1013,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <title>運営者情報・プライバシーポリシー | MottainAI</title>
 <link rel="icon" href="{favicon}">
 <link rel="stylesheet" href="style.css">
+{goatcounter}
 </head>
 <body class="article-page">
 <header>
@@ -1207,11 +1216,14 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         page_url=_abs_url("index.html"),
         more_articles_json=more_articles_json,
         ad_code_json=json.dumps(AD_CODE_TEXT_LINK),
+        goatcounter=GOATCOUNTER_SCRIPT,
     )
     INDEX_PATH.write_text(index_html, encoding="utf-8")
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
     SHARE_JS_PATH.write_text(SHARE_JS, encoding="utf-8")
-    ABOUT_PATH.write_text(ABOUT_TEMPLATE.format(favicon=FAVICON_DATA_URI), encoding="utf-8")
+    ABOUT_PATH.write_text(
+        ABOUT_TEMPLATE.format(favicon=FAVICON_DATA_URI, goatcounter=GOATCOUNTER_SCRIPT), encoding="utf-8"
+    )
     _write_robots_and_sitemap(articles_data)
 
     logger.info(
@@ -1286,6 +1298,7 @@ def _write_article_page(entry: dict, articles_data: list[dict]) -> None:
         next_up=next_up_html,
         related=related_html,
         ad_code=AD_CODE_TEXT_LINK,
+        goatcounter=GOATCOUNTER_SCRIPT,
     )
     (ARTICLES_DIR / f"{entry['slug']}.html").write_text(article_html, encoding="utf-8")
 
