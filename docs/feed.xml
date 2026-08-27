@@ -4,6 +4,41 @@
   <link>https://mottainai0214.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Sentence Transformers、マルチベクトル埋め込みモデルで検索精度革新</title>
+    <link>https://mottainai0214.github.io/mot-ai-news/articles/e520424e436f.html</link>
+    <guid>https://mottainai0214.github.io/mot-ai-news/articles/e520424e436f.html</guid>
+    <description>Sentence TransformersがLate Interaction方式のマルチベクトル埋め込みモデルに対応し、検索・情報検索の精度向上を実現。</description>
+    <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェントのメモリ消費量、実は想定より少ない可能性</title>
+    <link>https://mottainai0214.github.io/mot-ai-news/articles/5ce8103476b1.html</link>
+    <guid>https://mottainai0214.github.io/mot-ai-news/articles/5ce8103476b1.html</guid>
+    <description>AIエージェントの実運用で必要とされるメモリ容量について、実測データに基づいた検証と考察を提供。</description>
+    <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>LFM2.5-DSpark、推論速度を最大3.2倍高速化。生成AI活用の効率革命</title>
+    <link>https://mottainai0214.github.io/mot-ai-news/articles/c7cdb6722fd8.html</link>
+    <guid>https://mottainai0214.github.io/mot-ai-news/articles/c7cdb6722fd8.html</guid>
+    <description>Hugging Faceが発表した最新モデルが推論速度を大幅に改善。AI導入の実用性が飛躍的に向上する。</description>
+    <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>音声認識ベンチマーク最適化の落とし穴、Hugging Faceが検証手法を公開</title>
+    <link>https://mottainai0214.github.io/mot-ai-news/articles/68e9fb1705e1.html</link>
+    <guid>https://mottainai0214.github.io/mot-ai-news/articles/68e9fb1705e1.html</guid>
+    <description>音声認識モデルのベンチマーク評価で一般的な最適化手法に潜む課題を、Hugging Faceが詳細に分析・指摘。</description>
+    <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント導入で人員削減は起こらない。国内企業の実態は部門間の再配置だった</title>
+    <link>https://mottainai0214.github.io/mot-ai-news/articles/0e6557f1925c.html</link>
+    <guid>https://mottainai0214.github.io/mot-ai-news/articles/0e6557f1925c.html</guid>
+    <description>AIエージェント導入による人員削減の可否は、実行可能なタスク量で決まる。国内企業では削減より部門をまたいだ人員再配置が進む。</description>
+    <pubDate>Thu, 27 Aug 2026 23:18:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Hugging Face、検索機能を大幅強化。自社インフラで論文データベース処理を加速</title>
     <link>https://mottainai0214.github.io/mot-ai-news/articles/bcd3314d2ba2.html</link>
     <guid>https://mottainai0214.github.io/mot-ai-news/articles/bcd3314d2ba2.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mottainai0214.github.io/mot-ai-news/articles/4cb75d9a1350.html</guid>
     <description>AIエージェントが転職活動の計画から実行を自律的に支援。求人検索から書類作成まで効率化する実践的なプロンプト例を紹介。</description>
     <pubDate>Wed, 26 Aug 2026 16:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>複数AI併用が常識に、企業の半数が乗り換え戦略で管理に課題</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/5e6d0c7a76af.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/5e6d0c7a76af.html</guid>
-    <description>Okta Japanの分析で、2社に1社が複数のAIツールを併用する実態が判明。ChatGPT一択の時代は終焉。</description>
-    <pubDate>Wed, 26 Aug 2026 16:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日本企業のAIエージェント本番運用は17%、先進国で最下位の衝撃</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/0b97ae09081b.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/0b97ae09081b.html</guid>
-    <description>Confluentの調査で、AIエージェントを本番運用している日本企業は17%にとどまり、国際的に大きく後れを取っている実態が判明した。</description>
-    <pubDate>Wed, 26 Aug 2026 16:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>企業の8割が把握できていない、野良AIの実態。発覚の2パターンと対策を解明</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/c00a5b0e8ddf.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/c00a5b0e8ddf.html</guid>
-    <description>社内で無断使用されるAIツール「野良AI」が後を絶たない。約500社の分析から、実際の発覚事例と防衛策が明らかになった。</description>
-    <pubDate>Wed, 26 Aug 2026 16:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米企業が流すAIトークン58％は中国モデル、API経由で利用者に見えず</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/4ff42b4639fd.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/4ff42b4639fd.html</guid>
-    <description>OpenRouterを経由した米企業のAPI利用で、中国製AIモデルへのトークン流通率が58％に達している。</description>
-    <pubDate>Wed, 26 Aug 2026 12:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NVIDIA「Jetson Orin Nano 2」、推論性能2倍・消費電力40％削減を実現</title>
-    <link>https://mottainai0214.github.io/mot-ai-news/articles/33bd4fc28df8.html</link>
-    <guid>https://mottainai0214.github.io/mot-ai-news/articles/33bd4fc28df8.html</guid>
-    <description>NVIDIAがエッジAI向けモジュール「Jetson Orin Nano 2」を発表。推論性能が現行比2倍に向上し、リアルタイム生成AI処理に対応。</description>
-    <pubDate>Wed, 26 Aug 2026 12:13:00 +0900</pubDate>
   </item>
 </channel></rss>

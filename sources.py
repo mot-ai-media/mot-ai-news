@@ -33,6 +33,14 @@ DEEPMIND_BLOG_RSS = "https://deepmind.google/blog/rss.xml"  # Google DeepMind公
 QIITA_AI_RSS = "https://qiita.com/tags/ai/feed"  # 日本のエンジニアによる技術記事
 ZENN_AI_RSS = "https://zenn.dev/topics/ai/feed"  # 日本のエンジニアによる技術記事
 
+# 海外・マニア向けの一次情報/専門メディア(英語)
+ARXIV_AI_RSS = "http://export.arxiv.org/rss/cs.AI"  # 論文そのもの。最もマニア向け
+MARKTECHPOST_RSS = "https://www.marktechpost.com/feed/"  # AI研究の解説メディア
+DECODER_RSS = "https://the-decoder.com/feed/"  # 海外AI専門ニュース
+ARSTECHNICA_AI_RSS = "https://arstechnica.com/ai/feed/"  # 大手テックメディアのAI面
+TECHCRUNCH_AI_RSS = "https://techcrunch.com/category/artificial-intelligence/feed/"
+SIMONWILLISON_RSS = "https://simonwillison.net/atom/everything/"  # 著名LLMエンジニアのブログ(マニア向け)
+
 # フィードを追加/削除したい場合はこのリストを編集する
 FEEDS = [
     JP_GOOGLE_NEWS_RSS,
@@ -43,6 +51,12 @@ FEEDS = [
     DEEPMIND_BLOG_RSS,
     QIITA_AI_RSS,
     ZENN_AI_RSS,
+    ARXIV_AI_RSS,
+    MARKTECHPOST_RSS,
+    DECODER_RSS,
+    ARSTECHNICA_AI_RSS,
+    TECHCRUNCH_AI_RSS,
+    SIMONWILLISON_RSS,
 ]
 
 _TAG_RE = re.compile(r"<[^>]+>")

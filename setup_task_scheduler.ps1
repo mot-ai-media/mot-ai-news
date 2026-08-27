@@ -8,7 +8,7 @@ $ErrorActionPreference = "Stop"
 
 # --- 設定項目（必要に応じて変更） ---
 $TaskName = "AiNewsSiteBuilder"
-$Times = @("08:00", "18:00")  # 1日の実行時刻(24時間表記)
+$Times = @("07:00", "11:00", "14:30", "18:00", "22:00")  # 1日の実行時刻(24時間表記)
 $ProjectDir = $PSScriptRoot
 $PythonExe = "C:\Users\kodama\AppData\Local\Programs\Python\Python312\python.exe"
 # --- ここまで ---
@@ -37,7 +37,7 @@ Register-ScheduledTask `
     -Action $action `
     -Trigger $triggers `
     -Settings $settings `
-    -Description "AI特化media MOTを自動生成する(claude ryuuプロジェクト)" `
+    -Description "AI特化メディアMOTを自動生成する(claude ryuuプロジェクト)" `
     -Force
 
 Write-Host "登録完了: タスク '$TaskName' が毎日 $($Times -join ', ') に実行されます。"

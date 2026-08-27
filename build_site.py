@@ -54,7 +54,7 @@ MAX_ATTEMPTS_PER_RUN = 15  # 1回の実行で試みるClaude API呼び出しの�
 STALE_ALERT_THRESHOLD = 3  # 何回連続で新規記事0件だったらアラートメールを送るか
 ALERT_STATE_PATH = Path(__file__).parent / "alert_state.json"
 MAX_INDEX_ARTICLES = 20  # 一覧ページに表示する件数(蓄積データの中から新しい順)
-MAX_STORED_ARTICLES = 300  # articles_data.jsonに保持する上限(古いものから削除)
+MAX_STORED_ARTICLES = 1500  # articles_data.jsonに保持する上限(古いものから削除。1日5回更新に合わせて増量)
 MAX_RELATED_ARTICLES = 3  # 記事ページ下部に出す関連記事の件数
 MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読み込みする最大件数
 
@@ -938,7 +938,7 @@ CARD_TEMPLATE = """<article class="card">
 """
 
 NEW_BADGE_HTML = '<span class="badge-new">NEW</span>'
-NEW_BADGE_HOURS = 13  # この時間以内に生成された記事にNEWバッジを付ける(1日2回更新運用に合わせた余裕)
+NEW_BADGE_HOURS = 5  # この時間以内に生成された記事にNEWバッジを付ける(1日5回更新運用に合わせた間隔)
 
 ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
