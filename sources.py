@@ -26,11 +26,23 @@ JP_GOOGLE_NEWS_RSS = (
 ITMEDIA_AI_RSS = "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml"
 AINOW_RSS = "https://ainow.ai/feed/"  # AI専門メディア。直リンクなので実画像(og:image)が取れる
 
+# より専門的・技術的なニュースを増やすための追加ソース
+HUGGINGFACE_BLOG_RSS = "https://huggingface.co/blog/feed.xml"  # AIモデル/技術の一次情報(英語)
+OPENAI_NEWS_RSS = "https://openai.com/news/rss.xml"  # OpenAI公式(英語)
+DEEPMIND_BLOG_RSS = "https://deepmind.google/blog/rss.xml"  # Google DeepMind公式(英語)
+QIITA_AI_RSS = "https://qiita.com/tags/ai/feed"  # 日本のエンジニアによる技術記事
+ZENN_AI_RSS = "https://zenn.dev/topics/ai/feed"  # 日本のエンジニアによる技術記事
+
 # フィードを追加/削除したい場合はこのリストを編集する
 FEEDS = [
     JP_GOOGLE_NEWS_RSS,
     ITMEDIA_AI_RSS,
     AINOW_RSS,
+    HUGGINGFACE_BLOG_RSS,
+    OPENAI_NEWS_RSS,
+    DEEPMIND_BLOG_RSS,
+    QIITA_AI_RSS,
+    ZENN_AI_RSS,
 ]
 
 _TAG_RE = re.compile(r"<[^>]+>")
