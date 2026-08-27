@@ -71,6 +71,7 @@ _AD_ONAMAE = (
     '<img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BAEXH+8I0TPU+50+2HU3GX" alt="">'
 )
 AD_CODE_TEXT_LINK = (
+    '<span class="ad-label">広告</span>'
     f'<div class="ad-item">{_AD_TOSSY}</div>'
     f'<div class="ad-item" style="margin-top:6px;">{_AD_ONAMAE}</div>'
 )
@@ -302,6 +303,13 @@ main.home-main {
   color: #bbb;
   border: 1px dashed #ddd;
   text-align: center;
+}
+.ad-label {
+  display: block;
+  font-size: 0.65rem;
+  color: #bbb;
+  margin-bottom: 4px;
+  letter-spacing: 0.05em;
 }
 footer {
   text-align: center;
