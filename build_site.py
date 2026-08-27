@@ -1521,8 +1521,21 @@ def _render_body_paragraphs(body_text: str) -> str:
     return "".join(f"<p>{html_lib.escape(p)}</p>" for p in paragraphs)
 
 
-def _make_slug(link: str) -> str:
-    return hashlib.sha1(link.encode("utf-8")).hexdigest()[:12]
+def _make_slug(link: str, tags: list[str] | None = None) -> str:
+    """URLスラッグを生成する。タグ(企業名・製品名等)がASCIIで取れれば意味のある接頭辞にし、
+    一意性はハッシュ値で担保する(タグが同じ記事が複数あっても衝突しない)。
+    タグが無い/日本語のみの場合はハッシュのみ(従来と同じ)。"""
+    link_hash = hashlib.sha1(link.encode("utf-8")).hexdigest()[:8]
+    keywords = []
+    for tag in tags or []:
+        ascii_part = re.sub(r"[^a-z0-9]+", "-", tag.strip().lower()).strip("-")
+        if ascii_part:
+            keywords.append(ascii_part)
+        if len(keywords) >= 2:
+            break
+    if keywords:
+        return f"{'-'.join(keywords)}-{link_hash}"
+    return link_hash
 
 
 def _is_new(generated_at: str) -> bool:

@@ -250,5 +250,25 @@
   {
     "link": "https://huggingface.co/blog/multi-vector-encoder",
     "notified_at": "2026-08-27T14:19:29.032809+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+    "notified_at": "2026-08-27T17:35:04.055536+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "notified_at": "2026-08-27T17:35:14.833863+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
+    "notified_at": "2026-08-27T17:35:22.262761+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "notified_at": "2026-08-27T17:35:29.223862+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+    "notified_at": "2026-08-27T17:35:35.447990+00:00"
   }
 ]

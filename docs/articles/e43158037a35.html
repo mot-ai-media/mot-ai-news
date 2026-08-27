@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OlmoEarth embeddings とは？カスタム埋め込み機能の使い方 | AI特化メディアMOT</title>
+<meta name="description" content="Hugging FaceのOlmoEarth Studioが、ダウンストリーム分析向けのカスタム埋め込みエクスポート機能を新たに提供開始。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:title" content="OlmoEarth、カスタム埋め込み機能でダウンストリーム分析を加速">
+<meta property="og:description" content="Hugging FaceのOlmoEarth Studioが、ダウンストリーム分析向けのカスタム埋め込みエクスポート機能を新たに提供開始。">
+<meta property="og:image" content="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/u9KR_QjSYF7mJIbRE3Ni8.jpeg">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "OlmoEarth、カスタム埋め込み機能でダウンストリーム分析を加速", "description": "Hugging FaceのOlmoEarth Studioが、ダウンストリーム分析向けのカスタム埋め込みエクスポート機能を新たに提供開始。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html"}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT"}, "datePublished": "2026-08-28T02:35:00+09:00", "dateModified": "2026-08-28T02:35:00+09:00", "image": ["https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/u9KR_QjSYF7mJIbRE3Ni8.jpeg"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "OlmoEarth embeddingsとは何か", "acceptedAnswer": {"@type": "Answer", "text": "OlmoEarth Studioから直接エクスポート可能なカスタム埋め込み機能で、ユーザーが自分のダウンストリーム分析タスクに最適化した埋め込み表現を生成・利用できます。"}}]}</script>
+</head>
+<body class="article-page">
+<header>
+  <h1><a href="../index.html">AI特化メディア<span class="brand-mark">MOT</span></a></h1>
+</header>
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/u9KR_QjSYF7mJIbRE3Ni8.jpeg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">OlmoEarth、カスタム埋め込み機能でダウンストリーム分析を加速</span></div></div>
+  <h1 class="headline">OlmoEarth、カスタム埋め込み機能でダウンストリーム分析を加速</h1>
+  <p class="meta">出典: Hugging Face - Blog　|　公開日: 2026-08-28 02:35</p>
+  <div class="summary"><p>Hugging FaceはOlmoEarth Studioにおいて、ユーザーが独自の埋め込み表現をカスタマイズしてエクスポートできる新機能を導入しました。この機能により、地球観測やその他のダウンストリーム分析タスクに向けた、より専門的で効率的な埋め込み処理が可能になります。従来のジェネリックな埋め込みモデルではなく、特定のユースケースに最適化された表現を直接生成・抽出できる点が特徴です。</p><p>埋め込み技術は機械学習やAIの基盤となる要素で、データを数値ベクトルに変換して後続のモデル学習や分析に活用されます。カスタマイズ可能な埋め込みエクスポート機能の提供は、より多くのユーザーが自分たちの分析ニーズに応じた最適な表現空間を構築できることを意味し、分析精度や処理効率の向上につながります。</p><p>本機能の登場により、研究機関や企業のデータサイエンスチームは、OlmoEarth Studioを通じてより柔軟で実用的な埋め込みワークフローを実現できるようになります。地球観測データの活用がますます重要になる中で、こうしたカスタマイズ性の向上は、より高度な分析や予測タスクの実装を加速させると考えられます。</p></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/hugging-face.html">#Hugging Face</a></div>
+  <div class="ad-slot-large"><span class="ad-label">広告</span><div class="ad-item"><a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" rel="nofollow">【PR】株式、為替(FX)、暗号資産、株価指数、商品資源(金や原油)まで取引可能！【TOSSY】</a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" alt=""></div><div class="ad-item" style="margin-top:6px;"><a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8I0TPU+50+2HU3GX" rel="nofollow"><img border="0" width="234" height="60" alt="" src="https://www22.a8.net/svt/bgt?aid=260826389514&wid=001&eno=01&mid=s00000000018015089000&mc=1"></a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BAEXH+8I0TPU+50+2HU3GX" alt=""></div></div>
+  <p><a class="source-link" href="https://huggingface.co/blog/allenai/olmoearth-embeddings" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a></p>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. OlmoEarth embeddingsとは何か</p>
+    <p class="faq-a">OlmoEarth Studioから直接エクスポート可能なカスタム埋め込み機能で、ユーザーが自分のダウンストリーム分析タスクに最適化した埋め込み表現を生成・利用できます。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=OlmoEarth%E3%80%81%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E6%A9%9F%E8%83%BD%E3%81%A7%E3%83%80%E3%82%A6%E3%83%B3%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E5%88%86%E6%9E%90%E3%82%92%E5%8A%A0%E9%80%9F&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html&text=OlmoEarth%E3%80%81%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E6%A9%9F%E8%83%BD%E3%81%A7%E3%83%80%E3%82%A6%E3%83%B3%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E5%88%86%E6%9E%90%E3%82%92%E5%8A%A0%E9%80%9F" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html" data-share-title="OlmoEarth、カスタム埋め込み機能でダウンストリーム分析を加速">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="e43158037a35">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <div class="next-up">
+  <p class="next-up-label">次に読む記事</p>
+  <a class="next-up-card" href="b597a3d03ee7.html">
+    <img src="https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/wOnyrU6-UQAM5hOwpaw3-.jpeg" alt="" loading="lazy">
+    <span class="next-up-headline">同じクラスタで利用率33%向上、順序変更が生んだ革新</span>
+  </a>
+</div>
+  <div class="related">
+  <h2>その他の関連記事</h2>
+  <ul>
+    <li><a href="c1c988556190.html">Strands Agents × LeRobot × Hugging Face、AIロボット開発が一元管理へ</a></li>
+    <li><a href="5fa28c256021.html">ICML掲載論文2,200本を再現、AI研究の現実が明らかに</a></li>
+    <li><a href="5eb3c49c6262.html">ACE推論、トークン削減で大幅高速化を実現</a></li>
+  </ul>
+</div>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

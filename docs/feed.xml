@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ACE推論、トークン削減で大幅高速化を実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/5eb3c49c6262.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5eb3c49c6262.html</guid>
+    <description>推論時のトークン消費を減らしながら、高い性能を維持する新しいアプローチがHugging Faceから提案された。</description>
+    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OlmoEarth、カスタム埋め込み機能でダウンストリーム分析を加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html</guid>
+    <description>Hugging FaceのOlmoEarth Studioが、ダウンストリーム分析向けのカスタム埋め込みエクスポート機能を新たに提供開始。</description>
+    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ICML掲載論文2,200本を再現、AI研究の現実が明らかに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/5fa28c256021.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5fa28c256021.html</guid>
+    <description>Hugging Faceが機械学習の主要国際会議ICMLの大規模な論文再現プロジェクトから得た知見を公開。研究の再現性に関する重要な示唆が明かされた。</description>
+    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Strands Agents × LeRobot × Hugging Face、AIロボット開発が一元管理へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/c1c988556190.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/c1c988556190.html</guid>
+    <description>Strands Agentsとてっぽロボット学習プラットフォームLeRobotがHugging Faceと統合し、記録・学習・デプロイが一箇所で完結する環境が実現した。</description>
+    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>同じクラスタで利用率33%向上、順序変更が生んだ革新</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/b597a3d03ee7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/b597a3d03ee7.html</guid>
+    <description>既存インフラは変えずに、処理順序の工夫だけで大幅な効率改善を実現。</description>
+    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Sentence Transformers、マルチベクトル埋め込みモデルで検索精度革新</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/e520424e436f.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e520424e436f.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/9b8dc4da1bd1.html</guid>
     <description>ChatGPT時代でも手作業が残るマーケティング業務を、AIエージェントが目標設定から実行・改善まで全自動化する仕組みが登場。</description>
     <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AIチャットボット選びの失敗を防ぐ、7つの比較軸を解説</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/0cd186cc3eea.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/0cd186cc3eea.html</guid>
-    <description>ベンダー発信の偏った比較表に頼らず、客観的にAIチャットボットを選定するための7つの評価ポイントを紹介。</description>
-    <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>IT部門の負担激減、AIエージェント導入で業務効率化が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/05cc3865a807.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/05cc3865a807.html</guid>
-    <description>パスワードリセットなど定型業務に追われるIT部門がAIエージェント活用で抜本改革。導入手順と費用相場を解説。</description>
-    <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント担当者が担う6つの役割。90日で組織を変える</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e5cb200d0753.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e5cb200d0753.html</guid>
-    <description>AIエージェント担当者の真の仕事はツール選定ではなく、業務設計と権限統制にある。必要スキルと実行ロードマップを解説。</description>
-    <pubDate>Wed, 26 Aug 2026 16:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、生成AIの次のステージへ。人間にしか残せない仕事が明確化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/378dc6c17527.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/378dc6c17527.html</guid>
-    <description>目標を与えるだけで計画から実行まで自動化するAIエージェント。下書き作成の段階を超え、業務の根本的な変化が迫っている。</description>
-    <pubDate>Wed, 26 Aug 2026 16:14:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入で転職活動が激変。6ステップで職務経歴書も自動作成</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/4cb75d9a1350.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/4cb75d9a1350.html</guid>
-    <description>AIエージェントが転職活動の計画から実行を自律的に支援。求人検索から書類作成まで効率化する実践的なプロンプト例を紹介。</description>
-    <pubDate>Wed, 26 Aug 2026 16:13:00 +0900</pubDate>
   </item>
 </channel></rss>
