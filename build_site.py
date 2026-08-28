@@ -1348,6 +1348,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <script defer src="share.js"></script>
 {goatcounter}
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="AI特化メディアMOT">
 <meta property="og:title" content="AI特化メディアMOT">
 <meta property="og:description" content="生成AI・LLM関連の最新ニュースをキャッチーな見出しでまとめてお届け">
 <meta property="og:url" content="{page_url}">
@@ -1590,10 +1591,13 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <script defer src="../share.js"></script>
 {goatcounter}
 <meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
 <meta property="og:title" content="{headline}">
 <meta property="og:description" content="{summary}">
 <meta property="og:image" content="{og_image}">
 <meta property="og:url" content="{page_url}">
+<meta property="article:published_time" content="{iso_published}">
+<meta property="article:modified_time" content="{iso_published}">
 <meta name="twitter:card" content="summary_large_image">
 {structured_data}
 </head>
@@ -2032,10 +2036,12 @@ TOPIC_PAGE_TEMPLATE = """<!DOCTYPE html>
 <link rel="stylesheet" href="../style.css">
 {goatcounter}
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="AI特化メディアMOT">
 <meta property="og:title" content="{tag}の最新ニュースまとめ | AI特化メディアMOT">
 <meta property="og:description" content="{tag}に関するAI最新ニュースをまとめて紹介。">
 <meta property="og:url" content="{page_url}">
 <meta name="twitter:card" content="summary">
+{structured_data}
 </head>
 <body>
 {nav}
@@ -2116,6 +2122,11 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
             )
             cards_html.append(card_html.replace('href="articles/', 'href="../articles/'))
         page_url = _abs_url(f"topics/{slug}.html")
+        breadcrumb_items = [
+            ("ホーム", _abs_url("index.html")),
+            ("テーマ一覧", _abs_url("topics/index.html")),
+            (tag, page_url),
+        ]
         (TOPICS_DIR / f"{slug}.html").write_text(
             TOPIC_PAGE_TEMPLATE.format(
                 tag=html_lib.escape(tag),
@@ -2123,6 +2134,7 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
                 cards="".join(cards_html),
                 favicon=FAVICON_DATA_URI,
                 page_url=page_url,
+                structured_data=_render_breadcrumb_jsonld(breadcrumb_items),
                 goatcounter=GOATCOUNTER_SCRIPT,
                 csp=CSP_META,
                 google_font=GOOGLE_FONT_LINK,
@@ -2224,6 +2236,21 @@ def _render_structured_data(entry: dict, page_url: str, og_image: str) -> str:
     # </script>によるタグ混入対策(JSON文字列側だけをエスケープする。scriptタグ自体は壊さない)
     safe_scripts = [s.replace("</", "<\\/") for s in scripts]
     return "\n".join(f'<script type="application/ld+json">{s}</script>' for s in safe_scripts)
+
+
+def _render_breadcrumb_jsonld(items: list[tuple[str, str]]) -> str:
+    """パンくずリスト(BreadcrumbList)のJSON-LDを生成する。items: [(表示名, URL), ...] を先頭から順に。
+    サイト階層をAIクローラーに伝え、検索結果でのパンくず表示にもつながる。"""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "name": name, "item": url}
+            for i, (name, url) in enumerate(items)
+        ],
+    }
+    safe = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+    return f'<script type="application/ld+json">{safe}</script>'
 
 
 def _render_body_paragraphs(body_text: str) -> str:
@@ -2677,6 +2704,12 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
     og_image = (_safe_http_url(entry["image_url"]) if entry["image_kind"] == "real" else "") or ""
     safe_link = _safe_http_url(entry["link"]) or "#"
 
+    breadcrumb_items = [("ホーム", _abs_url("index.html"))]
+    first_topic_tag = next((t for t in (entry.get("tags") or []) if t in valid_topic_tags), None)
+    if first_topic_tag:
+        breadcrumb_items.append((first_topic_tag, _abs_url(f"topics/{_topic_slug(first_topic_tag)}.html")))
+    breadcrumb_items.append((entry["headline"], page_url))
+
     article_html = ARTICLE_PAGE_TEMPLATE.format(
         headline=html_lib.escape(entry["headline"]),
         seo_title=html_lib.escape(entry.get("seo_title") or entry["headline"]),
@@ -2697,7 +2730,12 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
         next_insight=next_insight_html,
         ad_code=_pick_ad(entry),
         goatcounter=GOATCOUNTER_SCRIPT,
-        structured_data=_render_structured_data(entry, page_url, og_image),
+        structured_data=(
+            _render_structured_data(entry, page_url, og_image)
+            + "\n"
+            + _render_breadcrumb_jsonld(breadcrumb_items)
+        ),
+        iso_published=_iso_datetime(entry["generated_at"]),
         tags=_render_tag_pills(entry, prefix="../topics/", valid_topic_tags=valid_topic_tags),
         tag_tracker=_render_tag_tracker(entry),
         csp=CSP_META,
