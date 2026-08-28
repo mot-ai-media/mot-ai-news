@@ -640,6 +640,68 @@ footer a {
   color: #b0a4ff;
 }
 
+/* --- 注目ニュースティッカー(タイトル直下、横に自動スクロール) --- */
+.mot-ticker {
+  overflow: hidden;
+  margin: 14px 0 0;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+.mot-ticker-track {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  padding: 0 16px;
+  animation: mot-ticker-scroll 110s linear infinite;
+}
+.mot-ticker:hover .mot-ticker-track {
+  animation-play-state: paused;
+}
+.mot-ticker-item {
+  position: relative;
+  flex-shrink: 0;
+  width: 340px;
+  height: 191px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+.mot-ticker-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.15) 60%, transparent 100%);
+}
+.mot-ticker-text {
+  position: relative;
+  z-index: 1;
+  color: rgba(255,255,255,0.88);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.45;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .mot-ticker-item {
+    width: 240px;
+    height: 135px;
+  }
+  .mot-ticker-text {
+    font-size: 0.76rem;
+  }
+}
+@keyframes mot-ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mot-ticker-track { animation: none; }
+}
+
 /* --- HERO --- */
 .hero {
   padding: 36px 0 28px;

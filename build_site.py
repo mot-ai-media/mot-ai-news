@@ -832,6 +832,68 @@ footer a {
   color: #b0a4ff;
 }
 
+/* --- 注目ニュースティッカー(タイトル直下、横に自動スクロール) --- */
+.mot-ticker {
+  overflow: hidden;
+  margin: 14px 0 0;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+.mot-ticker-track {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  padding: 0 16px;
+  animation: mot-ticker-scroll 110s linear infinite;
+}
+.mot-ticker:hover .mot-ticker-track {
+  animation-play-state: paused;
+}
+.mot-ticker-item {
+  position: relative;
+  flex-shrink: 0;
+  width: 340px;
+  height: 191px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+.mot-ticker-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.15) 60%, transparent 100%);
+}
+.mot-ticker-text {
+  position: relative;
+  z-index: 1;
+  color: rgba(255,255,255,0.88);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.45;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .mot-ticker-item {
+    width: 240px;
+    height: 135px;
+  }
+  .mot-ticker-text {
+    font-size: 0.76rem;
+  }
+}
+@keyframes mot-ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mot-ticker-track { animation: none; }
+}
+
 /* --- HERO --- */
 .hero {
   padding: 36px 0 28px;
@@ -1194,6 +1256,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   </div>
 </nav>
 <p class="mot-tagline-strip">進化するAIの「今」に、もっと早くアクセス。／最終更新: {generated_at}</p>
+{ticker}
 <main class="mot-main">
 <div id="continue-exploring"></div>
 {hero}
@@ -1622,6 +1685,37 @@ def _render_topics_explore(articles_data: list[dict]) -> str:
         f'<div class="topics-grid">{tiles}</div>'
         "</section>"
     )
+
+
+TICKER_ITEM_TEMPLATE = '<a class="mot-ticker-item" href="articles/{slug}.html" style="{bg_style}"><span class="mot-ticker-text">{headline}</span></a>'
+
+
+def _render_ticker(articles_data: list[dict], exclude_slug: str | None = None, limit: int = 8) -> str:
+    """タイトル直下を横に流れる、注目ニュースのティッカー。画像の上に見出しをうっすら重ねて表示する。
+    CSSアニメーションでシームレスに無限ループさせるため、同じ並びを2回連結している。"""
+    candidates = [e for e in articles_data if e["slug"] != exclude_slug]
+    picks = _pick_editorial_highlights(candidates, limit=limit)
+    if not picks:
+        return ""
+
+    def _item(e: dict) -> str:
+        safe_image = _safe_http_url(e.get("image_url")) if e.get("image_kind") == "real" else None
+        if safe_image:
+            bg_style = f"background-image: url('{html_lib.escape(safe_image)}');"
+        else:
+            color1, color2 = _pick_gradient(e.get("source", ""))
+            bg_style = f"background: linear-gradient(135deg, {color1}, {color2});"
+        return TICKER_ITEM_TEMPLATE.format(
+            slug=e["slug"], bg_style=bg_style, headline=html_lib.escape(e["headline"])
+        )
+
+    items_html = "".join(_item(e) for e in picks)
+    return (
+        '<div class="mot-ticker" aria-label="注目のニュース">'
+        f'<div class="mot-ticker-track">{items_html}{items_html}</div>'
+        "</div>"
+    )
+
 
 # サムネイルは画像(実写 or グラデーション背景)の上に見出しを直接重ねて表示する。
 # 一覧ページ用(自サイトのarticles/へリンク)と記事ページ用(画像はリンクなし表示)でhrefの扱いが違うため分けている
@@ -2218,6 +2312,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         generated_at=datetime.now().strftime("%Y-%m-%d %H:%M"),
         cards="".join(cards_html),
         hero=_render_hero(hero_entry) if hero_entry else "",
+        ticker=_render_ticker(articles_data, exclude_slug=hero_slug),
         today_in_ai=_render_today_in_ai(articles_data, exclude_slug=hero_slug),
         trending=_render_trending(None, articles_data, exclude_slug=hero_slug),  # TODO: PV連携後はranking_dataを渡す
         topics_explore=_render_topics_explore(articles_data),
