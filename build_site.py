@@ -65,6 +65,7 @@ MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読
 
 # 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
 SITE_BASE_URL = "https://mot-ai-media.github.io/mot-ai-news"
+SITE_SOCIAL_LINKS = ["https://x.com/BDLfit_25"]  # 公式X。ハンドル変更時はここも更新すること
 
 # CSP: GitHub PagesはカスタムHTTPヘッダーを設定できないためmetaタグで代用。
 # 既存コードがインラインscript/styleに依存しているため'unsafe-inline'を許容(完全な対策ではないが、
@@ -1353,6 +1354,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:description" content="生成AI・LLM関連の最新ニュースをキャッチーな見出しでまとめてお届け">
 <meta property="og:url" content="{page_url}">
 <meta name="twitter:card" content="summary">
+{organization_jsonld}
 </head>
 <body>
 <nav class="mot-nav">
@@ -2193,6 +2195,28 @@ def _render_faq_html(faq: list[dict] | None) -> str:
     return FAQ_TEMPLATE.format(items=items_html)
 
 
+def _mot_organization() -> dict:
+    """NewsArticleのauthor/publisherや、サイト全体のOrganization/WebSite JSON-LDで共通して使う
+    運営organization情報。sameAsで公式Xアカウントと紐付け、実在媒体であることをAIに伝える。"""
+    org = {"@type": "Organization", "name": "AI特化メディアMOT"}
+    if SITE_SOCIAL_LINKS:
+        org["sameAs"] = SITE_SOCIAL_LINKS
+    return org
+
+
+def _render_organization_jsonld() -> str:
+    """トップページに埋め込むWebSite+Organizationの構造化データ。"""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "AI特化メディアMOT",
+        "url": _abs_url("index.html"),
+        "publisher": _mot_organization(),
+    }
+    safe = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+    return f'<script type="application/ld+json">{safe}</script>'
+
+
 def _render_structured_data(entry: dict, page_url: str, og_image: str) -> str:
     """NewsArticle(+ FAQがあればFAQPage)のJSON-LD構造化データを生成する。
     可視のFAQ表示(_render_faq_html)と同じデータのみを使い、非表示情報を作らない。"""
@@ -2203,8 +2227,8 @@ def _render_structured_data(entry: dict, page_url: str, og_image: str) -> str:
         "headline": entry["headline"],
         "description": entry["summary"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": page_url},
-        "author": {"@type": "Organization", "name": "AI特化メディアMOT"},
-        "publisher": {"@type": "Organization", "name": "AI特化メディアMOT"},
+        "author": _mot_organization(),
+        "publisher": _mot_organization(),
     }
     if published:
         data["datePublished"] = published
@@ -2624,6 +2648,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         csp=CSP_META,
         google_font=GOOGLE_FONT_LINK,
         theme_init=THEME_INIT_SCRIPT,
+        organization_jsonld=_render_organization_jsonld(),
     )
     INDEX_PATH.write_text(index_html, encoding="utf-8")
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
