@@ -106,8 +106,6 @@ SUB_NAV_TEMPLATE = """<nav class="mot-nav">
       <li><a href="{prefix}topics/index.html">TOPICS</a></li>
     </ul>
     <div class="mot-nav-actions">
-      <a class="mot-icon-btn mot-lang-btn" href="https://translate.google.com/translate?sl=ja&tl=en&u={page_url_q}" \
-target="_blank" rel="noopener noreferrer" aria-label="Read in English (Google Translate)">EN</a>
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
       <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
     </div>
@@ -117,7 +115,7 @@ target="_blank" rel="noopener noreferrer" aria-label="Read in English (Google Tr
 
 
 def _render_sub_nav(prefix: str, page_url: str) -> str:
-    return SUB_NAV_TEMPLATE.format(prefix=prefix, page_url_q=urllib.parse.quote(page_url, safe=""))
+    return SUB_NAV_TEMPLATE.format(prefix=prefix)
 
 # 見出し・本文用のWebフォント(標準のゴシック体が安っぽく見えるとの指摘を受けて導入)
 GOOGLE_FONT_LINK = (
@@ -854,15 +852,6 @@ footer a {
   justify-content: center;
   flex-shrink: 0;
 }
-.mot-lang-btn {
-  width: auto;
-  border-radius: 14px;
-  padding: 0 9px;
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
 .mot-nav-hamburger { display: none; }
 @media (max-width: 780px) {
   .mot-nav-links {
@@ -1368,7 +1357,6 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     </ul>
     <div class="mot-nav-actions">
       <input id="mot-search" class="mot-search-input" type="text" placeholder="検索" aria-label="記事を検索">
-      <a class="mot-icon-btn mot-lang-btn" href="https://translate.google.com/translate?sl=ja&tl=en&u={page_url_q}" target="_blank" rel="noopener noreferrer" aria-label="Read in English (Google Translate)">EN</a>
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
       <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
     </div>
@@ -2642,7 +2630,6 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         page_url=_abs_url("index.html"),
         more_articles_json=more_articles_json,
         icon_x_svg_js=json.dumps(ICON_X_SVG),
-        page_url_q=urllib.parse.quote(_abs_url("index.html"), safe=""),
         goatcounter=GOATCOUNTER_SCRIPT,
         google_verification=GOOGLE_SITE_VERIFICATION,
         csp=CSP_META,

@@ -653,15 +653,6 @@ footer a {
   justify-content: center;
   flex-shrink: 0;
 }
-.mot-lang-btn {
-  width: auto;
-  border-radius: 14px;
-  padding: 0 9px;
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
 .mot-nav-hamburger { display: none; }
 @media (max-width: 780px) {
   .mot-nav-links {
