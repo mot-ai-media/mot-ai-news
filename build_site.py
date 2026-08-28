@@ -65,7 +65,7 @@ MAX_INFINITE_SCROLL_ARTICLES = 100  # 一覧ページでスクロール追加読
 
 # 本番ドメインが決まったら設定する。空のままだとSNS共有カード・sitemapのURLが不完全になる
 SITE_BASE_URL = "https://mot-ai-media.github.io/mot-ai-news"
-SITE_SOCIAL_LINKS = ["https://x.com/BDLfit_25"]  # 公式X。ハンドル変更時はここも更新すること
+SITE_SOCIAL_LINKS = ["https://x.com/MOT01AI"]  # 公式X。ハンドル変更時はここも更新すること
 
 # CSP: GitHub PagesはカスタムHTTPヘッダーを設定できないためmetaタグで代用。
 # 既存コードがインラインscript/styleに依存しているため'unsafe-inline'を許容(完全な対策ではないが、
