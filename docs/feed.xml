@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>上級IT人材の深刻な不足、2大調査が明かす需給ギャップの実態</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/itr-it-36486975.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/itr-it-36486975.html</guid>
+    <description>ITRとガートナーの調査から、上級IT人材の確保難と育成の課題が浮き彫りに。企業の危機的な人材需給ギャップが明らかに。</description>
+    <pubDate>Fri, 28 Aug 2026 12:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>情シスの実力は1割止まり、AI時代に専門職が消滅する衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-8b6eee71.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-8b6eee71.html</guid>
+    <description>AI時代にIT部門が果たすべき役割が大きく変わる。職が失われずとも専門分野の仕事が消えうる危機感から、キャリア構築の在り方を問い直す。</description>
+    <pubDate>Fri, 28 Aug 2026 12:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ZEALSとタイミー、ヒューマノイド育成へ現場データ収集で協業開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/zeals-732059a4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zeals-732059a4.html</guid>
+    <description>ZEALSとタイミーがフィジカルAI学習に必要な現場データを集めるスポットワークを共創。</description>
+    <pubDate>Fri, 28 Aug 2026 12:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、動画生成AI「Gemini Omni 1.1 Flash」公開。最長40秒延長対応の衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-omni-c7c7146b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-omni-c7c7146b.html</guid>
+    <description>Googleが動画生成・編集対応のマルチモーダルAI「Gemini Omni 1.1 Flash」を発表。最大40秒のシーン延長機能を搭載。</description>
+    <pubDate>Fri, 28 Aug 2026 12:12:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIで成果を出す人と出さない人、決定的な差はスキルではなく思考法だった</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8f5b77fd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8f5b77fd.html</guid>
+    <description>AIツールの使い手を分ける本当の要因は、ツールへの依存度ではなく問題解決の思考プロセスにあると専門家が指摘。</description>
+    <pubDate>Fri, 28 Aug 2026 12:12:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、Hugging Face侵害事件の詳細公表。AIモデルセキュリティ強化へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-504dd1ec.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-504dd1ec.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3efdf37af216.html</guid>
     <description>中国のZ.aiがマルチモーダルモデル「GLM-5.3-Flash」をMITライセンスで公開。高性能ながら安価に利用できるとして注目を集める。</description>
     <pubDate>Thu, 27 Aug 2026 17:51:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国ロボ運動会、小型ランナーの「ぽてぽて走り」が可愛らしさで話題さらう</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ac143cd533fc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ac143cd533fc.html</guid>
-    <description>北京の世界人型ロボット運動会で、100mトラックを懸命に歩む小型ロボがSNS上で注目を集めている。</description>
-    <pubDate>Thu, 27 Aug 2026 17:51:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NVIDIA支援の口腔がん検出AI、大阪大学が製造販売承認取得</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/5b29492bdd3e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5b29492bdd3e.html</guid>
-    <description>大阪大学開発の「Mucosight AI」が30秒で口腔粘膜疾患を検出し、歯科医師の診断判断を支援する医療機器として承認された。</description>
-    <pubDate>Thu, 27 Aug 2026 17:51:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google「Gemini」新CMでKing&amp;Prince起用、永瀬廉が語るAI活用の現実的な使い道</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e6671e8b6a02.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e6671e8b6a02.html</guid>
-    <description>Google傘下のAI「Gemini」がタレント起用で大型プロモーション展開。実用性重視のメッセージ打ち出す。</description>
-    <pubDate>Thu, 27 Aug 2026 17:50:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>SK Hynix、宮城県への工場建設計画が浮上も県知事は否定</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/14e10e5cbfd3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/14e10e5cbfd3.html</guid>
-    <description>韓国半導体大手のSK Hynixが宮城県での工場建設を検討との報道に、村井知事は公式情報の把握を否定。</description>
-    <pubDate>Wed, 26 Aug 2026 19:40:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>フィジカルAI用データファクトリーが始動、30台超のロボが24時間稼働</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ac50ae1f6255.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ac50ae1f6255.html</guid>
-    <description>J-HRTI関東データファクトリーが稼働。複数のロボットが動作データを自動生成し、AI学習用の膨大なデータを収集している。</description>
-    <pubDate>Wed, 26 Aug 2026 19:40:00 +0900</pubDate>
   </item>
 </channel></rss>
