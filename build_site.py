@@ -81,6 +81,38 @@ GOOGLE_SITE_VERIFICATION = (
     '<meta name="google-site-verification" content="FWf3QNW4wcPX753gENPwai2tBcWBlc-RNTNA1-8tWFI" />'
 )
 
+# ダークモード: 描画前にlocalStorageの保存値(無ければOS設定)を見てdata-theme属性を設定する。
+# <head>の先頭で同期実行することでチラつき(FOUC)を防ぐ。
+THEME_INIT_SCRIPT = (
+    "<script>try{var t=localStorage.getItem('mot-theme');"
+    "if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))"
+    "{document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>"
+)
+
+# サブページ(記事/テーマ/about)用の簡易ナビ。トップページのみ検索欄付きの専用ナビを別途持つ
+SUB_NAV_TEMPLATE = """<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <a class="mot-nav-logo" href="{prefix}index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="{prefix}index.html#today">TODAY</a></li>
+      <li><a href="{prefix}index.html#latest">LATEST</a></li>
+      <li><a href="{prefix}index.html#trending">TRENDING</a></li>
+      <li><a href="{prefix}topics/index.html">TOPICS</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <a class="mot-icon-btn mot-lang-btn" href="https://translate.google.com/translate?sl=ja&tl=en&u={page_url_q}" \
+target="_blank" rel="noopener noreferrer" aria-label="Read in English (Google Translate)">EN</a>
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    </div>
+  </div>
+</nav>
+"""
+
+
+def _render_sub_nav(prefix: str, page_url: str) -> str:
+    return SUB_NAV_TEMPLATE.format(prefix=prefix, page_url_q=urllib.parse.quote(page_url, safe=""))
+
 # 見出し・本文用のWebフォント(標準のゴシック体が安っぽく見えるとの指摘を受けて導入)
 GOOGLE_FONT_LINK = (
     '<link rel="preconnect" href="https://fonts.googleapis.com">'
@@ -166,73 +198,10 @@ body {
   margin: 0;
   padding: 0;
 }
-header {
-  background: #1a1a2e;
-  color: #fff;
-  padding: 24px 16px;
-  text-align: center;
-}
-header h1 {
-  margin: 0 0 4px;
-  font-size: 1.6rem;
-  font-family: "Zen Old Mincho", serif;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-}
-header h1 .brand-mark {
-  font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 900;
-}
-header .tagline {
-  margin: 0 0 8px;
-  font-size: 0.82rem;
-  color: #c8c8d8;
-}
-header h1 a {
-  color: #fff;
-  text-decoration: none;
-}
-header p {
-  margin: 0;
-  font-size: 0.85rem;
-  color: #aaa;
-}
 main {
   max-width: 720px;
   margin: 0 auto;
   padding: 16px;
-}
-main.home-main {
-  max-width: 1040px;
-}
-.layout {
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
-}
-.layout .content {
-  flex: 1;
-  min-width: 0;
-}
-.layout .sidebar {
-  width: 280px;
-  flex-shrink: 0;
-}
-.layout .sidebar .ranking {
-  position: sticky;
-  top: 16px;
-}
-@media (max-width: 780px) {
-  .layout {
-    flex-direction: column;
-  }
-  .layout .sidebar {
-    width: 100%;
-    order: -1;
-  }
-  .layout .sidebar .ranking {
-    position: static;
-  }
 }
 .card {
   position: relative;
@@ -281,6 +250,11 @@ main.home-main {
 }
 .thumb-share-line {
   background: #06c755;
+  width: auto;
+  border-radius: 14px;
+  padding: 0 8px;
+  font-size: 0.62rem;
+  letter-spacing: 0.02em;
 }
 #scroll-sentinel {
   height: 1px;
@@ -393,30 +367,34 @@ footer a {
 .share-line {
   background: #06c755;
 }
-.related {
-  margin-top: 28px;
-  padding-top: 16px;
-  border-top: 1px solid #e5e5e5;
+.trust-strip {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  color: #555;
+  margin: 10px 0 18px;
 }
-.related h2 {
-  font-size: 1rem;
-  margin: 0 0 10px;
+.trust-label {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #9a9aab;
+  margin-right: 6px;
 }
-.related ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.mot-analysis-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #7c8cff;
+  margin: 0 0 8px;
 }
-.related li {
-  margin-bottom: 8px;
-}
-.related a {
-  color: #1a1a2e;
-  font-size: 0.9rem;
-  text-decoration: none;
-}
-.related a:hover {
-  text-decoration: underline;
+.fact-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0;
 }
 .tag-pills {
   display: flex;
@@ -464,14 +442,26 @@ footer a {
   margin: 0;
   line-height: 1.6;
 }
-.next-up {
-  margin-top: 24px;
+.next-insight {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e5ee;
 }
-.next-up-label {
-  font-size: 0.8rem;
-  color: #888;
-  font-weight: bold;
-  margin: 0 0 8px;
+.insight-list {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+}
+.insight-list li {
+  margin-bottom: 8px;
+}
+.insight-list a {
+  color: #14141c;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+.insight-list a:hover {
+  text-decoration: underline;
 }
 .next-up-card {
   display: block;
@@ -639,78 +629,382 @@ footer a {
   margin: 4px 0 14px;
   color: #4a4a5e;
 }
-.ranking {
-  margin-bottom: 8px;
-}
-.ranking-group {
-  margin-bottom: 20px;
-}
-.ranking-title {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  margin: 0 0 10px;
-  color: #4a4a5e;
-}
-.ranking-empty {
-  font-size: 0.76rem;
-  font-weight: 300;
-  color: #b4b4bd;
-  margin: 0;
-  padding: 16px;
-  background: #fff;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-}
-.ranking-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-}
-.ranking-list li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 14px;
-  border-bottom: 1px solid #f0f0f0;
-}
-.ranking-list li:last-child {
-  border-bottom: none;
-}
-.ranking-rank {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: #8a8a9a;
-  width: 20px;
-  text-align: center;
-  flex-shrink: 0;
-}
-.ranking-headline {
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: #454550;
-  text-decoration: none;
-  line-height: 1.45;
-  flex: 1;
-}
-.ranking-headline:hover {
-  text-decoration: underline;
-}
-.ranking-count {
-  font-size: 0.72rem;
-  color: #aaa;
-  flex-shrink: 0;
-}
 .editorial-note {
   font-size: 0.7rem;
   color: #bbb;
   margin: 8px 2px 0;
 }
+
+/* ============ ここから: トップページ全面刷新 ============ */
+
+/* --- ダークモード(海外プロダクト風、純黒ではなく少し青みのある黒) --- */
+:root[data-theme="dark"] body { background: #0c0c11; color: #dcdce6; }
+:root[data-theme="dark"] .mot-nav { background: #000; }
+:root[data-theme="dark"] .card,
+:root[data-theme="dark"] .today-card,
+:root[data-theme="dark"] .article-faq,
+:root[data-theme="dark"] .reaction-btn {
+  background: #17171f;
+  border-color: #2a2a35;
+  box-shadow: none;
+}
+:root[data-theme="dark"] .summary,
+:root[data-theme="dark"] .today-facts dd,
+:root[data-theme="dark"] .hero-why { color: #b8b8c8; }
+:root[data-theme="dark"] .meta,
+:root[data-theme="dark"] .hero-meta,
+:root[data-theme="dark"] .editorial-note,
+:root[data-theme="dark"] .trending-cat { color: #8a8a9a; }
+:root[data-theme="dark"] .hero-headline,
+:root[data-theme="dark"] .section-title-lg,
+:root[data-theme="dark"] .today-card-title,
+:root[data-theme="dark"] .trending-title,
+:root[data-theme="dark"] h1.headline { color: #f0f0f6; }
+:root[data-theme="dark"] .hero,
+:root[data-theme="dark"] .trending-item { border-color: #24242e; }
+:root[data-theme="dark"] .trending-num { color: #3a3a48; }
+:root[data-theme="dark"] .fact-what { border-left-color: #3a3f7a; }
+:root[data-theme="dark"] .fact-why { border-left-color: #6b551f; }
+:root[data-theme="dark"] .fact-impact { border-left-color: #1f5c47; }
+:root[data-theme="dark"] .fact-what dt { color: #8fa0ff; }
+:root[data-theme="dark"] .fact-why dt { color: #f0b649; }
+:root[data-theme="dark"] .fact-impact dt { color: #3ecda0; }
+:root[data-theme="dark"] .ad-slot,
+:root[data-theme="dark"] .ad-slot-large,
+:root[data-theme="dark"] .topic-tile { border-color: #2a2a35; color: #77778a; }
+:root[data-theme="dark"] .topic-tile { background: #17171f; color: #cfcfe0; }
+:root[data-theme="dark"] .tag-pill { background: #1e1e29; color: #b8b8cc; }
+:root[data-theme="dark"] .next-insight { border-color: #2a2a35; }
+:root[data-theme="dark"] .back-link,
+:root[data-theme="dark"] .insight-list a { color: #9494a8; }
+:root[data-theme="dark"] .trust-strip { color: #a0a0b4; }
+:root[data-theme="dark"] .source-link { background: #3a3a55; }
+:root[data-theme="dark"] .mot-tagline-strip,
+:root[data-theme="dark"] .footer-share-btn,
+:root[data-theme="dark"] footer { color: #74748a; }
+:root[data-theme="dark"] footer a { color: #9494c0; }
+
+/* --- ナビゲーションヘッダー --- */
+.mot-nav {
+  background: #0d0d12;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.mot-nav-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+}
+.mot-nav-logo {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-size: 1.05rem;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.mot-nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+.mot-nav-links a {
+  color: #a8a8ba;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+.mot-nav-links a:hover { color: #fff; }
+.mot-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.mot-search-input {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 20px;
+  padding: 6px 14px;
+  color: #fff;
+  font-size: 0.78rem;
+  width: 120px;
+  font-family: inherit;
+}
+.mot-search-input::placeholder { color: #82829a; }
+.mot-icon-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.22);
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.mot-lang-btn {
+  width: auto;
+  border-radius: 14px;
+  padding: 0 9px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.mot-nav-hamburger { display: none; }
+@media (max-width: 780px) {
+  .mot-nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #0d0d12;
+    flex-direction: column;
+    padding: 8px 16px 14px;
+    gap: 2px;
+  }
+  .mot-nav-links.open { display: flex; }
+  .mot-nav-links a {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .mot-nav-hamburger { display: flex; }
+  .mot-search-input { width: 76px; }
+}
+
+.mot-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.mot-tagline-strip {
+  text-align: center;
+  font-size: 0.76rem;
+  color: #9a9aab;
+  padding: 14px 16px 0;
+  margin: 0;
+}
+.footer-share-btn {
+  background: none;
+  border: none;
+  color: #778;
+  font-size: 0.75rem;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: underline;
+  padding: 0;
+  margin-top: 10px;
+}
+/* --- CONTINUE EXPLORING(JSが該当時のみ挿入) --- */
+.continue-exploring {
+  margin-bottom: 28px;
+}
+.continue-card {
+  display: block;
+  padding: 14px 18px;
+  background: #f3f1ff;
+  border: 1px solid #ded8ff;
+  border-radius: 10px;
+  color: #4a3fc0;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.continue-card:hover { border-color: #b8adff; }
+:root[data-theme="dark"] .continue-card {
+  background: #1c1a2e;
+  border-color: #332f52;
+  color: #b0a4ff;
+}
+
+/* --- HERO --- */
+.hero {
+  padding: 36px 0 28px;
+  border-bottom: 1px solid #e5e5ee;
+  margin-bottom: 36px;
+}
+.hero-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #9a9aab;
+  margin: 0 0 14px;
+}
+.hero-link { text-decoration: none; }
+.hero-headline {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 900;
+  font-size: 1.9rem;
+  line-height: 1.45;
+  color: #14141c;
+  margin: 0 0 16px;
+}
+.hero-link:hover .hero-headline { text-decoration: underline; }
+.hero-why {
+  font-size: 1rem;
+  color: #555;
+  margin: 0 0 14px;
+  line-height: 1.7;
+}
+.hero-meta { font-size: 0.78rem; color: #999; }
+.hero-meta .dot { margin: 0 6px; }
+@media (max-width: 600px) {
+  .hero-headline { font-size: 1.4rem; }
+}
+
+/* --- セクション共通 --- */
+.section-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #9a9aab;
+  margin: 0 0 6px;
+}
+.section-title-lg {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 22px;
+  color: #14141c;
+}
+
+/* --- TODAY IN AI --- */
+.today-ai { margin-bottom: 44px; }
+.today-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+.today-card {
+  background: #fff;
+  border: 1px solid #e5e5ee;
+  border-left: 3px solid #7c8cff;
+  border-radius: 12px;
+  padding: 18px;
+}
+.today-card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #14141c;
+  text-decoration: none;
+  margin-bottom: 14px;
+  line-height: 1.55;
+}
+.today-card-title:hover { text-decoration: underline; }
+.today-facts { margin: 0; }
+.today-facts div {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #eceef3;
+}
+.today-facts div:last-child { margin-bottom: 0; }
+.today-facts dt {
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 2px;
+}
+.today-facts dd {
+  margin: 0;
+  font-size: 0.83rem;
+  color: #444;
+  line-height: 1.55;
+}
+.fact-what dt { color: #5b7fff; }
+.fact-what { border-left-color: #c7cfff; }
+.fact-why dt { color: #d98a1f; }
+.fact-why { border-left-color: #f2d9ae; }
+.fact-impact dt { color: #21a17a; }
+.fact-impact { border-left-color: #b7e5d6; }
+
+/* --- TRENDING --- */
+.trending { margin-bottom: 44px; }
+.trending-list {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+.trending-item {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #eceef3;
+}
+.trending-item:first-child { padding-top: 0; }
+.trending-num {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #d3d3de;
+  flex-shrink: 0;
+  width: 34px;
+}
+.trending-body { flex: 1; min-width: 0; }
+.trending-title {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #14141c;
+  text-decoration: none;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+.trending-title:hover { text-decoration: underline; }
+.trending-cat {
+  font-size: 0.72rem;
+  color: #9a9aab;
+}
+
+/* --- TOPICS探索 --- */
+.topics-explore { margin-bottom: 44px; }
+.topics-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.topic-tile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 24px;
+  border: 1px solid #e5e5ee;
+  background: #fff;
+  color: #2a2a3a;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.topic-tile:hover {
+  border-color: #14141c;
+  transform: translateY(-1px);
+}
+.topic-count {
+  font-size: 0.7rem;
+  color: #9a9aab;
+  font-weight: 400;
+}
+
+/* --- LATEST NEWS(既存カード一覧) --- */
+.latest-news { margin-bottom: 20px; }
 """
 
 SHARE_JS = """(function () {
@@ -774,6 +1068,87 @@ SHARE_JS = """(function () {
       el.style.display = "block";
     }
   });
+
+  // ダークモード切り替え(<head>のtheme_initが初期状態は既に設定済み。ここではトグル操作のみ扱う)
+  document.querySelectorAll("[data-theme-toggle]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var isDark = document.documentElement.getAttribute("data-theme") === "dark";
+      if (isDark) {
+        document.documentElement.removeAttribute("data-theme");
+        try { localStorage.setItem("mot-theme", "light"); } catch (e) {}
+      } else {
+        document.documentElement.setAttribute("data-theme", "dark");
+        try { localStorage.setItem("mot-theme", "dark"); } catch (e) {}
+      }
+    });
+  });
+
+  // サイト内検索(記事カードをタイトルで絞り込み。クライアントサイドのみ、外部送信なし)
+  var searchInput = document.getElementById("mot-search");
+  if (searchInput) {
+    searchInput.addEventListener("input", function () {
+      var q = searchInput.value.trim().toLowerCase();
+      document.querySelectorAll("[data-searchable]").forEach(function (card) {
+        var text = (card.getAttribute("data-search-text") || "").toLowerCase();
+        card.style.display = !q || text.indexOf(q) !== -1 ? "" : "none";
+      });
+    });
+  }
+
+  // モバイルナビの開閉
+  var navToggle = document.querySelector("[data-nav-toggle]");
+  var navMenu = document.getElementById("mot-nav-menu");
+  if (navToggle && navMenu) {
+    navToggle.addEventListener("click", function () {
+      navMenu.classList.toggle("open");
+    });
+  }
+
+  // CONTINUE EXPLORING: 閲覧したタグをこの端末のlocalStorageにだけ記録する(サーバー送信なし)。
+  // トップページでは、その記録と実際の最新記事日時を比べて「本当に新しい記事がある場合だけ」案内する
+  // (架空の緊急性・偽の新着表示は作らない)。
+  function pad2(n) { return (n < 10 ? "0" : "") + n; }
+  function localStamp(d) {
+    return d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate()) + " " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+  }
+
+  if (window.motPageTags && window.motPageTags.length) {
+    try {
+      var now = localStamp(new Date());
+      var visited = JSON.parse(localStorage.getItem("mot-visited-tags") || "[]");
+      visited = visited.filter(function (v) { return window.motPageTags.indexOf(v.tag) === -1; });
+      window.motPageTags.forEach(function (t) { visited.unshift({ tag: t, at: now }); });
+      localStorage.setItem("mot-visited-tags", JSON.stringify(visited.slice(0, 8)));
+    } catch (e) {}
+  }
+
+  var topicsDataEl = document.getElementById("topics-summary-data");
+  var continueMount = document.getElementById("continue-exploring");
+  if (topicsDataEl && continueMount) {
+    try {
+      var topics = JSON.parse(topicsDataEl.textContent || "{}");
+      var visitedTags = JSON.parse(localStorage.getItem("mot-visited-tags") || "[]");
+      for (var i = 0; i < visitedTags.length; i++) {
+        var v = visitedTags[i];
+        var t = topics[v.tag];
+        if (t && t.latest && t.latest > v.at) {
+          var section = document.createElement("section");
+          section.className = "continue-exploring";
+          var label = document.createElement("p");
+          label.className = "section-label";
+          label.textContent = "CONTINUE EXPLORING";
+          var link = document.createElement("a");
+          link.className = "continue-card";
+          link.href = "topics/" + t.slug + ".html";
+          link.textContent = "前回見ていた「#" + v.tag + "」に新しいニュースがあります →";
+          section.appendChild(label);
+          section.appendChild(link);
+          continueMount.appendChild(section);
+          break;
+        }
+      }
+    } catch (e) {}
+  }
 })();
 """
 
@@ -781,6 +1156,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+{theme_init}
 {csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI特化メディアMOT | 生成AI・ChatGPT・Claude最新ニュースまとめ</title>
@@ -800,35 +1176,50 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <meta name="twitter:card" content="summary">
 </head>
 <body>
-<header>
-  <h1>AI特化メディア<span class="brand-mark">MOT</span></h1>
-  <p class="tagline">進化するAIの「今」に、もっと早くアクセス。</p>
-  <p>最終更新: {generated_at}</p>
-  <button type="button" class="site-share-btn" data-native-share data-share-url="{page_url}" data-share-title="AI特化メディアMOT">&#8599; AI特化メディアMOTをシェア</button>
-</header>
-<main class="home-main">
-<div class="layout">
-  <div class="content">
-    <h2 class="section-heading">&#127381; 最新AIニュース</h2>
-    {cards}
-    <div id="scroll-sentinel"></div>
-    <p id="load-status"></p>
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <a class="mot-nav-logo" href="index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="#today">TODAY</a></li>
+      <li><a href="#latest">LATEST</a></li>
+      <li><a href="#trending">TRENDING</a></li>
+      <li><a href="topics/index.html">TOPICS</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <input id="mot-search" class="mot-search-input" type="text" placeholder="検索" aria-label="記事を検索">
+      <a class="mot-icon-btn mot-lang-btn" href="https://translate.google.com/translate?sl=ja&tl=en&u={page_url_q}" target="_blank" rel="noopener noreferrer" aria-label="Read in English (Google Translate)">EN</a>
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    </div>
   </div>
-  <aside class="sidebar">
-    {ranking}
-  </aside>
-</div>
+</nav>
+<p class="mot-tagline-strip">進化するAIの「今」に、もっと早くアクセス。／最終更新: {generated_at}</p>
+<main class="mot-main">
+<div id="continue-exploring"></div>
+{hero}
+{today_in_ai}
+{trending}
+{topics_explore}
+<section class="latest-news" id="latest">
+  <p class="section-label">LATEST NEWS</p>
+  <h2 class="section-title-lg">すべてのニュース</h2>
+  {cards}
+  <div id="scroll-sentinel"></div>
+  <p id="load-status"></p>
+</section>
 </main>
 <footer>
   各記事の詳細・引用元は見出しのリンク先をご確認ください。<br>
-  <a href="topics/index.html">テーマ別まとめ</a>　|　<a href="feed.xml">RSSフィード</a>　|　<a href="about.html">運営者情報・プライバシーポリシー</a>
+  <a href="topics/index.html">テーマ別まとめ</a>　|　<a href="feed.xml">RSSフィード</a>　|　<a href="about.html">運営者情報・プライバシーポリシー</a><br>
+  <button type="button" class="footer-share-btn" data-native-share data-share-url="{page_url}" data-share-title="AI特化メディアMOT">&#8599; サイトをシェア</button>
 </footer>
 <script type="application/json" id="more-articles-data">{more_articles_json}</script>
+<script type="application/json" id="topics-summary-data">{topics_summary_json}</script>
 <script>
 (function() {{
   var dataEl = document.getElementById("more-articles-data");
   var queue = JSON.parse(dataEl.textContent || "[]");
-  var main = document.querySelector("main");
+  var main = document.querySelector(".latest-news");
   var sentinel = document.getElementById("scroll-sentinel");
   var status = document.getElementById("load-status");
   var BATCH = 8;
@@ -836,6 +1227,8 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   function renderCard(item) {{
     var article = document.createElement("article");
     article.className = "card";
+    article.setAttribute("data-searchable", "");
+    article.setAttribute("data-search-text", item.headline);
 
     if (item.is_new) {{
       var badge = document.createElement("span");
@@ -874,7 +1267,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     shareX.target = "_blank";
     shareX.rel = "noopener noreferrer";
     shareX.setAttribute("aria-label", "Xで共有");
-    shareX.innerHTML = "&#10005;";
+    shareX.innerHTML = {icon_x_svg_js};
     shareX.addEventListener("click", function(e) {{ e.stopPropagation(); }});
     thumbShare.appendChild(shareX);
     var shareLine = document.createElement("a");
@@ -883,7 +1276,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     shareLine.target = "_blank";
     shareLine.rel = "noopener noreferrer";
     shareLine.setAttribute("aria-label", "LINEで共有");
-    shareLine.textContent = "L";
+    shareLine.textContent = "LINE";
     shareLine.addEventListener("click", function(e) {{ e.stopPropagation(); }});
     thumbShare.appendChild(shareLine);
     article.appendChild(thumbShare);
@@ -901,7 +1294,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 
     var meta = document.createElement("p");
     meta.className = "meta";
-    meta.textContent = "出典: " + item.source;
+    meta.textContent = "出典: " + item.source + "　·　" + item.reading_time + "分で読める";
     body.appendChild(meta);
 
     var summary = document.createElement("p");
@@ -942,12 +1335,20 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+# Xの共有ボタン用アイコン(公式ロゴの形をSVGで再現。外部画像は使わずCSPにも影響しない)。
+# LINEは文字ロゴ("LINE"のテキスト表示)の方が分かりやすいため、SVGではなくテキストにしている
+ICON_X_SVG = (
+    '<svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true">'
+    '<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835'
+    'L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>'
+)
+
 THUMB_SHARE_TEMPLATE = (
     '<div class="thumb-share">'
     '<a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text={share_text}&url={share_url}" '
-    'target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()">&#10005;</a>'
+    f'target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()">{ICON_X_SVG}</a>'
     '<a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url={share_url}&text={share_text}" '
-    'target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">L</a>'
+    'target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a>'
     "</div>"
 )
 
@@ -960,11 +1361,11 @@ def _thumb_share_html(slug: str, headline: str) -> str:
     )
 
 
-CARD_TEMPLATE = """<article class="card">
+CARD_TEMPLATE = """<article class="card" data-searchable data-search-text="{search_text}">
   {new_badge}{thumbnail}{thumb_share}
   <div class="card-body">
     <h2 class="sr-only"><a href="articles/{slug}.html">{headline}</a></h2>
-    <p class="meta">出典: {source}</p>
+    <p class="meta">出典: {source}　&middot;　{reading_time}分で読める</p>
     <p class="summary">{summary}</p>
     <div class="ad-slot">{ad_code}</div>
   </div>
@@ -978,6 +1379,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+{theme_init}
 {csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{seo_title} | AI特化メディアMOT</title>
@@ -997,18 +1399,24 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 {structured_data}
 </head>
 <body class="article-page">
-<header>
-  <h1><a href="../index.html">AI特化メディア<span class="brand-mark">MOT</span></a></h1>
-</header>
+{nav}
 <main>
   <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
   {thumbnail}
   <h1 class="headline">{headline}</h1>
-  <p class="meta">出典: {source}　|　公開日: {generated_at}</p>
+  <div class="trust-strip">
+    <span><span class="trust-label">SOURCE</span>{source}</span>
+    <span><span class="trust-label">UPDATED</span>{generated_at}</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
   <div class="summary">{body}</div>
   {tags}
+  {tag_tracker}
   <div class="ad-slot-large">{ad_code}</div>
-  <p><a class="source-link" href="{link}" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a></p>
+  <div class="fact-check">
+    <span class="trust-label">FACT</span>
+    <a class="source-link" href="{link}" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a>
+  </div>
   {faq}
   <div class="share-buttons">
     <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text={share_text}&url={share_url}" target="_blank" rel="noopener noreferrer">Xで共有</a>
@@ -1022,8 +1430,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
     <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
     <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
   </div>
-  {next_up}
-  {related}
+  {next_insight}
 </main>
 <footer>
   この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
@@ -1061,65 +1468,16 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
-NEXT_UP_TEMPLATE = """<div class="next-up">
-  <p class="next-up-label">次に読む記事</p>
+NEXT_INSIGHT_TEMPLATE = """<section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
   <a class="next-up-card" href="{slug}.html">
     {image_tag}
     <span class="next-up-headline">{headline}</span>
   </a>
-</div>"""
+{items}</section>"""
 
-RELATED_TEMPLATE = """<div class="related">
-  <h2>その他の関連記事</h2>
-  <ul>
-{items}
-  </ul>
-</div>"""
-
-RELATED_ITEM_TEMPLATE = '    <li><a href="{slug}.html">{headline}</a></li>'
-
-RANKING_GROUP_TEMPLATE = """  <div class="ranking-group">
-    <h2 class="ranking-title">{icon} {title}</h2>
-    {content}
-  </div>
-"""
-RANKING_EMPTY_HTML = '<p class="ranking-empty">まだランキングデータがありません</p>'
-RANKING_ITEM_TEMPLATE = (
-    '<li><span class="ranking-rank">{rank}</span>'
-    '<a class="ranking-headline" href="articles/{slug}.html">{headline}</a>'
-    '<span class="ranking-count">{count}</span></li>'
-)
-
-
-def _render_ranking_group(icon: str, title: str, items: list[dict]) -> str:
-    if items:
-        lis = "".join(
-            RANKING_ITEM_TEMPLATE.format(
-                rank=i + 1,
-                slug=item["slug"],
-                headline=html_lib.escape(item["headline"]),
-                count=f'{item["views"]}回',
-            )
-            for i, item in enumerate(items)
-        )
-        content = f'<ol class="ranking-list">{lis}</ol>'
-    else:
-        content = RANKING_EMPTY_HTML
-    return RANKING_GROUP_TEMPLATE.format(icon=icon, title=title, content=content)
-
-
-EDITORIAL_PICKS_TEMPLATE = """<div class="ranking-group">
-  <h2 class="ranking-title">&#127919; 編集部ピックアップ</h2>
-  <ol class="ranking-list">
-{items}
-  </ol>
-  <p class="editorial-note">閲覧ランキングは、データが集まり次第表示します。</p>
-</div>
-"""
-EDITORIAL_PICK_ITEM_TEMPLATE = (
-    '<li><a class="ranking-headline" href="articles/{slug}.html">{headline}</a></li>'
-)
-
+RELATED_ITEM_TEMPLATE = '  <li><a href="{slug}.html">{headline}</a></li>'
 
 def _pick_editorial_highlights(articles_data: list[dict], limit: int = 3) -> list[dict]:
     """PVデータが無い間の暫定表示。「人気」を偽装しないよう、閲覧数ではなく
@@ -1134,34 +1492,136 @@ def _pick_editorial_highlights(articles_data: list[dict], limit: int = 3) -> lis
     return ranked[:limit]
 
 
-def _render_editorial_picks(articles_data: list[dict]) -> str:
-    picks = _pick_editorial_highlights(articles_data)
-    if not picks:
-        return RANKING_GROUP_TEMPLATE.format(
-            icon="&#127919;", title="編集部ピックアップ", content=RANKING_EMPTY_HTML
+TRENDING_ITEM_TEMPLATE = (
+    '<li class="trending-item">'
+    '<span class="trending-num">{num}</span>'
+    '<div class="trending-body">'
+    '<a class="trending-title" href="articles/{slug}.html">{headline}</a>'
+    '<span class="trending-cat">{meta}</span>'
+    "</div></li>"
+)
+
+
+def _render_trending(
+    ranking_data: dict | None, articles_data: list[dict], exclude_slug: str | None = None, limit: int = 5
+) -> str:
+    """TRENDING NOWセクション。実PVデータがあれば人気順、無ければ「編集部ピックアップ」
+    (記事の情報の厚みから機械的に選定)を表示する。架空の閲覧数は絶対に作らず、
+    実データが無い間はeditorial-noteで正直に明示する。
+    将来PV連携する際は ranking_data={"popular": [{"slug","headline","views"}, ...]} を渡せば
+    自動的に実データ表示に切り替わる。"""
+    if ranking_data and ranking_data.get("popular"):
+        items_data = ranking_data["popular"][:limit]
+        lis = "".join(
+            TRENDING_ITEM_TEMPLATE.format(
+                num=f"{i + 1:02d}", slug=e["slug"], headline=html_lib.escape(e["headline"]),
+                meta=f'{e.get("views", 0)}回閲覧',
+            )
+            for i, e in enumerate(items_data)
         )
-    items = "\n".join(
-        EDITORIAL_PICK_ITEM_TEMPLATE.format(slug=e["slug"], headline=html_lib.escape(e["headline"]))
-        for e in picks
-    )
-    return EDITORIAL_PICKS_TEMPLATE.format(items=items)
-
-
-def _render_ranking(ranking_data: dict | None, articles_data: list[dict] | None = None) -> str:
-    """PVランキングを描画する。ranking_dataが無い(=PV計測が未連携)場合は、
-    実データが集まるまでの暫定として「編集部ピックアップ」を表示する
-    (架空の閲覧数は絶対に作らない。人気ランキングだと誤解されないよう明確にラベルを分ける)。
-    将来PV連携する際は、ranking_data = {"popular": [...], "trending": [...], "weekly": [...]}
-    (各要素は {"slug", "headline", "views"} の辞書)を渡せばそのまま反映される。"""
-    if ranking_data is None:
-        groups = _render_editorial_picks(articles_data or [])
+        note = ""
     else:
-        groups = (
-            _render_ranking_group("&#128293;", "今、読まれているAIニュース", ranking_data.get("popular", []))
-            + _render_ranking_group("&#9889;", "急上昇", ranking_data.get("trending", []))
-            + _render_ranking_group("&#128081;", "今週の人気", ranking_data.get("weekly", []))
+        candidates = [e for e in articles_data if e["slug"] != exclude_slug]
+        picks = _pick_editorial_highlights(candidates, limit)
+        if not picks:
+            return ""
+        lis = "".join(
+            TRENDING_ITEM_TEMPLATE.format(
+                num=f"{i + 1:02d}", slug=e["slug"], headline=html_lib.escape(e["headline"]),
+                meta=html_lib.escape(e.get("source", "")),
+            )
+            for i, e in enumerate(picks)
         )
-    return f'<section class="ranking">\n{groups}</section>'
+        note = '<p class="editorial-note">閲覧ランキングは、データが集まり次第表示します(現在は編集部ピックアップ)。</p>'
+    return (
+        '<section class="trending" id="trending">'
+        '<p class="section-label">TRENDING NOW</p>'
+        f'<ol class="trending-list">{lis}</ol>'
+        f"{note}"
+        "</section>"
+    )
+
+
+HERO_TEMPLATE = """<section class="hero">
+  <p class="hero-label">TODAY'S TOP STORY</p>
+  <a class="hero-link" href="articles/{slug}.html">
+    <h2 class="hero-headline">{headline}</h2>
+  </a>
+  <p class="hero-why">{why}</p>
+  <div class="hero-meta"><span>{source}</span><span class="dot">&middot;</span><span>{date}</span>\
+<span class="dot">&middot;</span><span>{reading_time}分で読める</span></div>
+</section>
+"""
+
+
+def _render_hero(entry: dict) -> str:
+    digest = _digest_of(entry)
+    why = digest["why"] or digest["what"]
+    return HERO_TEMPLATE.format(
+        slug=entry["slug"],
+        headline=html_lib.escape(entry["headline"]),
+        why=html_lib.escape(why),
+        source=html_lib.escape(entry["source"]),
+        date=entry.get("generated_at", "")[:10],
+        reading_time=_reading_time(entry),
+    )
+
+
+TODAY_CARD_TEMPLATE = """<article class="today-card">
+  <a href="articles/{slug}.html" class="today-card-title">{headline}</a>
+  <dl class="today-facts">
+    <div class="fact-what"><dt>WHAT HAPPENED</dt><dd>{what}</dd></div>
+{why_row}{impact_row}  </dl>
+</article>
+"""
+
+
+def _render_today_in_ai(articles_data: list[dict], exclude_slug: str | None = None, limit: int = 5) -> str:
+    pool = [e for e in reversed(articles_data) if e["slug"] != exclude_slug][:limit]
+    if not pool:
+        return ""
+    cards = []
+    for e in pool:
+        digest = _digest_of(e)
+        why_row = (
+            f'    <div class="fact-why"><dt>WHY IT MATTERS</dt><dd>{html_lib.escape(digest["why"])}</dd></div>\n'
+            if digest["why"] else ""
+        )
+        impact_row = (
+            f'    <div class="fact-impact"><dt>IMPACT</dt><dd>{html_lib.escape(digest["impact"])}</dd></div>\n'
+            if digest["impact"] else ""
+        )
+        cards.append(
+            TODAY_CARD_TEMPLATE.format(
+                slug=e["slug"], headline=html_lib.escape(e["headline"]),
+                what=html_lib.escape(digest["what"]), why_row=why_row, impact_row=impact_row,
+            )
+        )
+    return (
+        '<section class="today-ai" id="today">'
+        '<p class="section-label">TODAY IN AI</p>'
+        '<h2 class="section-title-lg">今日、AI業界で何が起きた？</h2>'
+        f'<div class="today-grid">{"".join(cards)}</div>'
+        "</section>"
+    )
+
+
+def _render_topics_explore(articles_data: list[dict]) -> str:
+    topics = _collect_topics(articles_data)
+    if not topics:
+        return ""
+    tiles = "".join(
+        f'<a class="topic-tile" href="topics/{_topic_slug(tag)}.html">#{html_lib.escape(tag)}'
+        f'<span class="topic-count">{len(entries)}</span></a>'
+        for tag, entries in sorted(topics.items(), key=lambda kv: len(kv[1]), reverse=True)[:12]
+    )
+    return (
+        '<section class="topics-explore" id="topics">'
+        '<p class="section-label">TOPICS</p>'
+        '<h2 class="section-title-lg">テーマから探す</h2>'
+        f'<div class="topics-grid">{tiles}</div>'
+        "</section>"
+    )
 
 # サムネイルは画像(実写 or グラデーション背景)の上に見出しを直接重ねて表示する。
 # 一覧ページ用(自サイトのarticles/へリンク)と記事ページ用(画像はリンクなし表示)でhrefの扱いが違うため分けている
@@ -1179,6 +1639,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+{theme_init}
 {csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>運営者情報・プライバシーポリシー | AI特化メディアMOT</title>
@@ -1190,9 +1651,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 {goatcounter}
 </head>
 <body class="article-page">
-<header>
-  <h1><a href="index.html">AI特化メディア<span class="brand-mark">MOT</span></a></h1>
-</header>
+{nav}
 <main>
   <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
   <h1 class="headline">このサイトについて</h1>
@@ -1272,10 +1731,15 @@ def _related_entries(entry: dict, articles_data: list[dict], limit: int) -> list
 
 
 def _topic_slug(tag: str) -> str:
-    """タグをURL用スラッグに変換する。英数字ならそのまま、日本語等はハッシュ化してURL安全にする。"""
-    ascii_slug = re.sub(r"[^a-z0-9]+", "-", tag.strip().lower()).strip("-")
-    if ascii_slug and ascii_slug.encode("ascii", "ignore").decode() == ascii_slug:
-        return ascii_slug
+    """タグをURL用スラッグに変換する。完全に英数字のタグはそのまま、
+    それ以外(日本語を含む等)はハッシュ化する。
+    注意: 元のタグが完全ASCIIかどうかを先に判定すること。
+    (「教育AI」から先に非ASCII文字だけ除去すると"ai"になり、単独タグ"AI"と衝突するバグを防ぐ)"""
+    normalized = tag.strip().lower()
+    if normalized and all(ord(c) < 128 for c in normalized):
+        ascii_slug = re.sub(r"[^a-z0-9]+", "-", normalized).strip("-")
+        if ascii_slug:
+            return ascii_slug
     return hashlib.sha1(tag.encode("utf-8")).hexdigest()[:10]
 
 
@@ -1310,10 +1774,22 @@ def _render_tag_pills(entry: dict, prefix: str = "", valid_topic_tags: set[str] 
     return f'<div class="tag-pills">{pills}</div>'
 
 
+def _render_tag_tracker(entry: dict) -> str:
+    """CONTINUE EXPLORING用に、閲覧したタグをこの端末のlocalStorageにだけ記録する
+    (サーバーには一切送信しない)。実際の記録・判定ロジックはshare.js側にまとめてある。"""
+    tags = [t.strip() for t in (entry.get("tags") or []) if t.strip()]
+    if not tags:
+        return ""
+    tags_json = json.dumps(tags, ensure_ascii=False).replace("</", "<\\/")
+    return f"<script>window.motPageTags={tags_json};</script>"
+
+
+
 TOPIC_PAGE_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+{theme_init}
 {csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{tag}の最新ニュースまとめ | AI特化メディアMOT</title>
@@ -1330,17 +1806,11 @@ TOPIC_PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta name="twitter:card" content="summary">
 </head>
 <body>
-<header>
-  <h1><a href="../index.html">AI特化メディア<span class="brand-mark">MOT</span></a></h1>
-</header>
-<main class="home-main">
+{nav}
+<main class="mot-main">
 <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
-<h2 class="section-heading">#{tag} の最新ニュース({count}件)</h2>
-<div class="layout">
-  <div class="content">
+<h2 class="section-title-lg">#{tag} の最新ニュース({count}件)</h2>
 {cards}
-  </div>
-</div>
 </main>
 <footer>
   <a href="index.html">&laquo; テーマ一覧へ</a>　|　<a href="../index.html">トップへ戻る</a>
@@ -1353,6 +1823,7 @@ TOPICS_INDEX_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+{theme_init}
 {csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>テーマ別まとめ一覧 | AI特化メディアMOT</title>
@@ -1364,9 +1835,7 @@ TOPICS_INDEX_TEMPLATE = """<!DOCTYPE html>
 {goatcounter}
 </head>
 <body>
-<header>
-  <h1><a href="../index.html">AI特化メディア<span class="brand-mark">MOT</span></a></h1>
-</header>
+{nav}
 <main>
 <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
 <h2 class="section-heading">テーマ別まとめ</h2>
@@ -1406,6 +1875,8 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
                 headline=html_lib.escape(entry["headline"]),
                 source=html_lib.escape(entry["source"]),
                 summary=html_lib.escape(entry["summary"]),
+                reading_time=_reading_time(entry),
+                search_text=html_lib.escape(entry["headline"]),
                 ad_code="",
             )
             cards_html.append(card_html.replace('href="articles/', 'href="../articles/'))
@@ -1420,6 +1891,8 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
                 goatcounter=GOATCOUNTER_SCRIPT,
                 csp=CSP_META,
                 google_font=GOOGLE_FONT_LINK,
+                theme_init=THEME_INIT_SCRIPT,
+                nav=_render_sub_nav("../", page_url),
             ),
             encoding="utf-8",
         )
@@ -1435,6 +1908,7 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
         TOPICS_INDEX_TEMPLATE.format(
             pills=pills, favicon=FAVICON_DATA_URI, page_url=topics_index_url,
             goatcounter=GOATCOUNTER_SCRIPT, csp=CSP_META, google_font=GOOGLE_FONT_LINK,
+            theme_init=THEME_INIT_SCRIPT, nav=_render_sub_nav("../", topics_index_url),
         ),
         encoding="utf-8",
     )
@@ -1546,6 +2020,25 @@ def _is_new(generated_at: str) -> bool:
     return (datetime.now() - generated).total_seconds() < NEW_BADGE_HOURS * 3600
 
 
+CHARS_PER_MINUTE = 500  # 日本語の平均的な黙読速度の目安
+
+
+def _reading_time(entry: dict) -> int:
+    """本文の文字数から読了時間(分)を概算する。LLM不要、最低1分。"""
+    body_len = len(entry.get("body") or entry.get("summary") or "")
+    return max(1, round(body_len / CHARS_PER_MINUTE))
+
+
+def _digest_of(entry: dict) -> dict:
+    """digestフィールドが無い旧記事にも対応する安全な取得(summaryにフォールバック)。"""
+    digest = entry.get("digest") or {}
+    return {
+        "what": digest.get("what") or entry.get("summary", ""),
+        "why": digest.get("why") or "",
+        "impact": digest.get("impact") or "",
+    }
+
+
 def _load_alert_state() -> dict:
     if not ALERT_STATE_PATH.exists():
         return {"consecutive_empty_runs": 0, "alerted": False}
@@ -1626,6 +2119,7 @@ def build() -> None:
             "body": result["body"],
             "tags": result.get("tags") or [],
             "faq": result.get("faq") or [],
+            "digest": result.get("digest") or {},
             "source": article.source,
             "image_url": image_url,
             "image_kind": image_kind,
@@ -1682,6 +2176,8 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
                 headline=html_lib.escape(entry["headline"]),
                 source=html_lib.escape(entry["source"]),
                 summary=html_lib.escape(entry["summary"]),
+                reading_time=_reading_time(entry),
+                search_text=html_lib.escape(entry["headline"]),
                 ad_code=AD_CODE_TEXT_LINK,
             )
         )
@@ -1698,6 +2194,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             "is_new": _is_new(e["generated_at"]),
             "share_text": urllib.parse.quote(e["headline"]),
             "share_url": urllib.parse.quote(page_url),
+            "reading_time": _reading_time(e),
         }
         if e["image_kind"] != "real":
             data["g1"], data["g2"] = _pick_gradient(e["source"])
@@ -1707,18 +2204,35 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         [_more_entry(e) for e in more], ensure_ascii=False
     ).replace("</", "<\\/")  # </script>によるタグ混入対策
 
+    hero_pool = _pick_editorial_highlights(articles_data, limit=1)
+    hero_entry = hero_pool[0] if hero_pool else None
+    hero_slug = hero_entry["slug"] if hero_entry else None
+
+    topics_summary = {
+        tag: {"slug": _topic_slug(tag), "latest": entries[0].get("generated_at", "")}
+        for tag, entries in _collect_topics(articles_data).items()
+    }
+    topics_summary_json = json.dumps(topics_summary, ensure_ascii=False).replace("</", "<\\/")
+
     index_html = INDEX_TEMPLATE.format(
         generated_at=datetime.now().strftime("%Y-%m-%d %H:%M"),
         cards="".join(cards_html),
-        ranking=_render_ranking(None, articles_data),  # TODO: PV連携後は集計結果をranking_dataに渡す
+        hero=_render_hero(hero_entry) if hero_entry else "",
+        today_in_ai=_render_today_in_ai(articles_data, exclude_slug=hero_slug),
+        trending=_render_trending(None, articles_data, exclude_slug=hero_slug),  # TODO: PV連携後はranking_dataを渡す
+        topics_explore=_render_topics_explore(articles_data),
+        topics_summary_json=topics_summary_json,
         favicon=FAVICON_DATA_URI,
         page_url=_abs_url("index.html"),
         more_articles_json=more_articles_json,
         ad_code_json=json.dumps(AD_CODE_TEXT_LINK),
+        icon_x_svg_js=json.dumps(ICON_X_SVG),
+        page_url_q=urllib.parse.quote(_abs_url("index.html"), safe=""),
         goatcounter=GOATCOUNTER_SCRIPT,
         google_verification=GOOGLE_SITE_VERIFICATION,
         csp=CSP_META,
         google_font=GOOGLE_FONT_LINK,
+        theme_init=THEME_INIT_SCRIPT,
     )
     INDEX_PATH.write_text(index_html, encoding="utf-8")
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
@@ -1730,6 +2244,8 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             page_url=_abs_url("about.html"),
             csp=CSP_META,
             google_font=GOOGLE_FONT_LINK,
+            theme_init=THEME_INIT_SCRIPT,
+            nav=_render_sub_nav("", _abs_url("about.html")),
         ),
         encoding="utf-8",
     )
@@ -1765,7 +2281,7 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
     )
 
     related_pool = _related_entries(entry, articles_data, limit=1 + MAX_RELATED_ARTICLES)
-    next_up_html = ""
+    next_insight_html = ""
     if related_pool:
         next_entry = related_pool[0]
         next_image = _safe_http_url(next_entry.get("image_url"))
@@ -1773,20 +2289,22 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
             image_tag = f'<img src="{html_lib.escape(next_image)}" alt="" loading="lazy">'
         else:
             image_tag = ""
-        next_up_html = NEXT_UP_TEMPLATE.format(
+
+        remaining = related_pool[1:]
+        items_html = ""
+        if remaining:
+            items = "\n".join(
+                RELATED_ITEM_TEMPLATE.format(slug=o["slug"], headline=html_lib.escape(o["headline"]))
+                for o in remaining
+            )
+            items_html = f'  <ul class="insight-list">\n{items}\n  </ul>\n'
+
+        next_insight_html = NEXT_INSIGHT_TEMPLATE.format(
             slug=next_entry["slug"],
             headline=html_lib.escape(next_entry["headline"]),
             image_tag=image_tag,
+            items=items_html,
         )
-
-    remaining = related_pool[1:]
-    related_html = ""
-    if remaining:
-        items = "\n".join(
-            RELATED_ITEM_TEMPLATE.format(slug=o["slug"], headline=html_lib.escape(o["headline"]))
-            for o in remaining
-        )
-        related_html = RELATED_TEMPLATE.format(items=items)
 
     page_url = _abs_url(f"articles/{entry['slug']}.html")
     share_text = urllib.parse.quote(entry["headline"])
@@ -1810,14 +2328,16 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
         share_text=share_text,
         share_url=share_url,
         slug=entry["slug"],
-        next_up=next_up_html,
-        related=related_html,
+        next_insight=next_insight_html,
         ad_code=AD_CODE_TEXT_LINK,
         goatcounter=GOATCOUNTER_SCRIPT,
         structured_data=_render_structured_data(entry, page_url, og_image),
         tags=_render_tag_pills(entry, prefix="../topics/", valid_topic_tags=valid_topic_tags),
+        tag_tracker=_render_tag_tracker(entry),
         csp=CSP_META,
+        nav=_render_sub_nav("../", page_url),
         google_font=GOOGLE_FONT_LINK,
+        theme_init=THEME_INIT_SCRIPT,
     )
     (ARTICLES_DIR / f"{entry['slug']}.html").write_text(article_html, encoding="utf-8")
 

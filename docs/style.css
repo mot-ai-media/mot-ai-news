@@ -6,73 +6,10 @@ body {
   margin: 0;
   padding: 0;
 }
-header {
-  background: #1a1a2e;
-  color: #fff;
-  padding: 24px 16px;
-  text-align: center;
-}
-header h1 {
-  margin: 0 0 4px;
-  font-size: 1.6rem;
-  font-family: "Zen Old Mincho", serif;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-}
-header h1 .brand-mark {
-  font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 900;
-}
-header .tagline {
-  margin: 0 0 8px;
-  font-size: 0.82rem;
-  color: #c8c8d8;
-}
-header h1 a {
-  color: #fff;
-  text-decoration: none;
-}
-header p {
-  margin: 0;
-  font-size: 0.85rem;
-  color: #aaa;
-}
 main {
   max-width: 720px;
   margin: 0 auto;
   padding: 16px;
-}
-main.home-main {
-  max-width: 1040px;
-}
-.layout {
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
-}
-.layout .content {
-  flex: 1;
-  min-width: 0;
-}
-.layout .sidebar {
-  width: 280px;
-  flex-shrink: 0;
-}
-.layout .sidebar .ranking {
-  position: sticky;
-  top: 16px;
-}
-@media (max-width: 780px) {
-  .layout {
-    flex-direction: column;
-  }
-  .layout .sidebar {
-    width: 100%;
-    order: -1;
-  }
-  .layout .sidebar .ranking {
-    position: static;
-  }
 }
 .card {
   position: relative;
@@ -121,6 +58,11 @@ main.home-main {
 }
 .thumb-share-line {
   background: #06c755;
+  width: auto;
+  border-radius: 14px;
+  padding: 0 8px;
+  font-size: 0.62rem;
+  letter-spacing: 0.02em;
 }
 #scroll-sentinel {
   height: 1px;
@@ -233,30 +175,34 @@ footer a {
 .share-line {
   background: #06c755;
 }
-.related {
-  margin-top: 28px;
-  padding-top: 16px;
-  border-top: 1px solid #e5e5e5;
+.trust-strip {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  color: #555;
+  margin: 10px 0 18px;
 }
-.related h2 {
-  font-size: 1rem;
-  margin: 0 0 10px;
+.trust-label {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #9a9aab;
+  margin-right: 6px;
 }
-.related ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.mot-analysis-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #7c8cff;
+  margin: 0 0 8px;
 }
-.related li {
-  margin-bottom: 8px;
-}
-.related a {
-  color: #1a1a2e;
-  font-size: 0.9rem;
-  text-decoration: none;
-}
-.related a:hover {
-  text-decoration: underline;
+.fact-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0;
 }
 .tag-pills {
   display: flex;
@@ -304,14 +250,26 @@ footer a {
   margin: 0;
   line-height: 1.6;
 }
-.next-up {
-  margin-top: 24px;
+.next-insight {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e5ee;
 }
-.next-up-label {
-  font-size: 0.8rem;
-  color: #888;
-  font-weight: bold;
-  margin: 0 0 8px;
+.insight-list {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+}
+.insight-list li {
+  margin-bottom: 8px;
+}
+.insight-list a {
+  color: #14141c;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+.insight-list a:hover {
+  text-decoration: underline;
 }
 .next-up-card {
   display: block;
@@ -479,75 +437,379 @@ footer a {
   margin: 4px 0 14px;
   color: #4a4a5e;
 }
-.ranking {
-  margin-bottom: 8px;
-}
-.ranking-group {
-  margin-bottom: 20px;
-}
-.ranking-title {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  margin: 0 0 10px;
-  color: #4a4a5e;
-}
-.ranking-empty {
-  font-size: 0.76rem;
-  font-weight: 300;
-  color: #b4b4bd;
-  margin: 0;
-  padding: 16px;
-  background: #fff;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-}
-.ranking-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-}
-.ranking-list li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 14px;
-  border-bottom: 1px solid #f0f0f0;
-}
-.ranking-list li:last-child {
-  border-bottom: none;
-}
-.ranking-rank {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: #8a8a9a;
-  width: 20px;
-  text-align: center;
-  flex-shrink: 0;
-}
-.ranking-headline {
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: #454550;
-  text-decoration: none;
-  line-height: 1.45;
-  flex: 1;
-}
-.ranking-headline:hover {
-  text-decoration: underline;
-}
-.ranking-count {
-  font-size: 0.72rem;
-  color: #aaa;
-  flex-shrink: 0;
-}
 .editorial-note {
   font-size: 0.7rem;
   color: #bbb;
   margin: 8px 2px 0;
 }
+
+/* ============ ここから: トップページ全面刷新 ============ */
+
+/* --- ダークモード(海外プロダクト風、純黒ではなく少し青みのある黒) --- */
+:root[data-theme="dark"] body { background: #0c0c11; color: #dcdce6; }
+:root[data-theme="dark"] .mot-nav { background: #000; }
+:root[data-theme="dark"] .card,
+:root[data-theme="dark"] .today-card,
+:root[data-theme="dark"] .article-faq,
+:root[data-theme="dark"] .reaction-btn {
+  background: #17171f;
+  border-color: #2a2a35;
+  box-shadow: none;
+}
+:root[data-theme="dark"] .summary,
+:root[data-theme="dark"] .today-facts dd,
+:root[data-theme="dark"] .hero-why { color: #b8b8c8; }
+:root[data-theme="dark"] .meta,
+:root[data-theme="dark"] .hero-meta,
+:root[data-theme="dark"] .editorial-note,
+:root[data-theme="dark"] .trending-cat { color: #8a8a9a; }
+:root[data-theme="dark"] .hero-headline,
+:root[data-theme="dark"] .section-title-lg,
+:root[data-theme="dark"] .today-card-title,
+:root[data-theme="dark"] .trending-title,
+:root[data-theme="dark"] h1.headline { color: #f0f0f6; }
+:root[data-theme="dark"] .hero,
+:root[data-theme="dark"] .trending-item { border-color: #24242e; }
+:root[data-theme="dark"] .trending-num { color: #3a3a48; }
+:root[data-theme="dark"] .fact-what { border-left-color: #3a3f7a; }
+:root[data-theme="dark"] .fact-why { border-left-color: #6b551f; }
+:root[data-theme="dark"] .fact-impact { border-left-color: #1f5c47; }
+:root[data-theme="dark"] .fact-what dt { color: #8fa0ff; }
+:root[data-theme="dark"] .fact-why dt { color: #f0b649; }
+:root[data-theme="dark"] .fact-impact dt { color: #3ecda0; }
+:root[data-theme="dark"] .ad-slot,
+:root[data-theme="dark"] .ad-slot-large,
+:root[data-theme="dark"] .topic-tile { border-color: #2a2a35; color: #77778a; }
+:root[data-theme="dark"] .topic-tile { background: #17171f; color: #cfcfe0; }
+:root[data-theme="dark"] .tag-pill { background: #1e1e29; color: #b8b8cc; }
+:root[data-theme="dark"] .next-insight { border-color: #2a2a35; }
+:root[data-theme="dark"] .back-link,
+:root[data-theme="dark"] .insight-list a { color: #9494a8; }
+:root[data-theme="dark"] .trust-strip { color: #a0a0b4; }
+:root[data-theme="dark"] .source-link { background: #3a3a55; }
+:root[data-theme="dark"] .mot-tagline-strip,
+:root[data-theme="dark"] .footer-share-btn,
+:root[data-theme="dark"] footer { color: #74748a; }
+:root[data-theme="dark"] footer a { color: #9494c0; }
+
+/* --- ナビゲーションヘッダー --- */
+.mot-nav {
+  background: #0d0d12;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.mot-nav-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+}
+.mot-nav-logo {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-size: 1.05rem;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.mot-nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+.mot-nav-links a {
+  color: #a8a8ba;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+.mot-nav-links a:hover { color: #fff; }
+.mot-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.mot-search-input {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 20px;
+  padding: 6px 14px;
+  color: #fff;
+  font-size: 0.78rem;
+  width: 120px;
+  font-family: inherit;
+}
+.mot-search-input::placeholder { color: #82829a; }
+.mot-icon-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.22);
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.mot-lang-btn {
+  width: auto;
+  border-radius: 14px;
+  padding: 0 9px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.mot-nav-hamburger { display: none; }
+@media (max-width: 780px) {
+  .mot-nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #0d0d12;
+    flex-direction: column;
+    padding: 8px 16px 14px;
+    gap: 2px;
+  }
+  .mot-nav-links.open { display: flex; }
+  .mot-nav-links a {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .mot-nav-hamburger { display: flex; }
+  .mot-search-input { width: 76px; }
+}
+
+.mot-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.mot-tagline-strip {
+  text-align: center;
+  font-size: 0.76rem;
+  color: #9a9aab;
+  padding: 14px 16px 0;
+  margin: 0;
+}
+.footer-share-btn {
+  background: none;
+  border: none;
+  color: #778;
+  font-size: 0.75rem;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: underline;
+  padding: 0;
+  margin-top: 10px;
+}
+/* --- CONTINUE EXPLORING(JSが該当時のみ挿入) --- */
+.continue-exploring {
+  margin-bottom: 28px;
+}
+.continue-card {
+  display: block;
+  padding: 14px 18px;
+  background: #f3f1ff;
+  border: 1px solid #ded8ff;
+  border-radius: 10px;
+  color: #4a3fc0;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.continue-card:hover { border-color: #b8adff; }
+:root[data-theme="dark"] .continue-card {
+  background: #1c1a2e;
+  border-color: #332f52;
+  color: #b0a4ff;
+}
+
+/* --- HERO --- */
+.hero {
+  padding: 36px 0 28px;
+  border-bottom: 1px solid #e5e5ee;
+  margin-bottom: 36px;
+}
+.hero-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #9a9aab;
+  margin: 0 0 14px;
+}
+.hero-link { text-decoration: none; }
+.hero-headline {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 900;
+  font-size: 1.9rem;
+  line-height: 1.45;
+  color: #14141c;
+  margin: 0 0 16px;
+}
+.hero-link:hover .hero-headline { text-decoration: underline; }
+.hero-why {
+  font-size: 1rem;
+  color: #555;
+  margin: 0 0 14px;
+  line-height: 1.7;
+}
+.hero-meta { font-size: 0.78rem; color: #999; }
+.hero-meta .dot { margin: 0 6px; }
+@media (max-width: 600px) {
+  .hero-headline { font-size: 1.4rem; }
+}
+
+/* --- セクション共通 --- */
+.section-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #9a9aab;
+  margin: 0 0 6px;
+}
+.section-title-lg {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 22px;
+  color: #14141c;
+}
+
+/* --- TODAY IN AI --- */
+.today-ai { margin-bottom: 44px; }
+.today-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+.today-card {
+  background: #fff;
+  border: 1px solid #e5e5ee;
+  border-left: 3px solid #7c8cff;
+  border-radius: 12px;
+  padding: 18px;
+}
+.today-card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #14141c;
+  text-decoration: none;
+  margin-bottom: 14px;
+  line-height: 1.55;
+}
+.today-card-title:hover { text-decoration: underline; }
+.today-facts { margin: 0; }
+.today-facts div {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #eceef3;
+}
+.today-facts div:last-child { margin-bottom: 0; }
+.today-facts dt {
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 2px;
+}
+.today-facts dd {
+  margin: 0;
+  font-size: 0.83rem;
+  color: #444;
+  line-height: 1.55;
+}
+.fact-what dt { color: #5b7fff; }
+.fact-what { border-left-color: #c7cfff; }
+.fact-why dt { color: #d98a1f; }
+.fact-why { border-left-color: #f2d9ae; }
+.fact-impact dt { color: #21a17a; }
+.fact-impact { border-left-color: #b7e5d6; }
+
+/* --- TRENDING --- */
+.trending { margin-bottom: 44px; }
+.trending-list {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+.trending-item {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #eceef3;
+}
+.trending-item:first-child { padding-top: 0; }
+.trending-num {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #d3d3de;
+  flex-shrink: 0;
+  width: 34px;
+}
+.trending-body { flex: 1; min-width: 0; }
+.trending-title {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #14141c;
+  text-decoration: none;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+.trending-title:hover { text-decoration: underline; }
+.trending-cat {
+  font-size: 0.72rem;
+  color: #9a9aab;
+}
+
+/* --- TOPICS探索 --- */
+.topics-explore { margin-bottom: 44px; }
+.topics-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.topic-tile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 24px;
+  border: 1px solid #e5e5ee;
+  background: #fff;
+  color: #2a2a3a;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.topic-tile:hover {
+  border-color: #14141c;
+  transform: translateY(-1px);
+}
+.topic-count {
+  font-size: 0.7rem;
+  color: #9a9aab;
+  font-weight: 400;
+}
+
+/* --- LATEST NEWS(既存カード一覧) --- */
+.latest-news { margin-bottom: 20px; }

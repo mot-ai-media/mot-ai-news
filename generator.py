@@ -48,13 +48,17 @@ PROMPT_TEMPLATE = """あなたはAI分野のニュースキュレーションサ
 - faq: 検索されそうな疑問とその答えを2〜3個。「とは」「料金」「使い方」「いつから」「何が変わる」等の中から、
   この記事のテーマに合うものを選ぶ。答えは元記事に書かれている範囲の情報のみで簡潔に(1〜2文)。
   元記事に情報が無い項目(料金や提供時期が書かれていない等)は無理に作らず、その項目自体を含めない。
+- digest: トップページの「今日、AI業界で何が起きた？」欄に使う3行要約。すべて簡潔に(体言止め可):
+  - what: 何が起きたか。15〜20字程度
+  - why: なぜ重要か。15〜25字程度
+  - impact: 誰に関係するか。「開発者」「一般ユーザー」「企業の意思決定者」等から2〜4字程度で
 
 # 制約
 - **元記事に書かれていない事実は絶対に作らない**。強くするのは言い回し・トーンだけで、事実関係(誰が・何を・いつ)は元記事の範囲を超えないこと
-- faqの答えも同様に、元記事に無い具体的事実(数字・日付・料金等)を作らない。分からない項目はfaqに含めない
+- faq/digestの内容も同様に、元記事に無い具体的事実(数字・日付・料金等)を作らない
 - bodyの段落と段落の間は"\\n\\n"(改行2つ)で区切ること
 - 出力は次のJSON形式のみ。説明や前置き、コードブロック記号は一切つけない
-{{"headline": "ここに見出し", "seo_title": "ここにSEOタイトル", "summary": "ここに要約", "body": "1段落目\\n\\n2段落目\\n\\n3段落目", "tags": ["タグ1", "タグ2"], "faq": [{{"q": "質問", "a": "回答"}}]}}
+{{"headline": "ここに見出し", "seo_title": "ここにSEOタイトル", "summary": "ここに要約", "body": "1段落目\\n\\n2段落目\\n\\n3段落目", "tags": ["タグ1", "タグ2"], "faq": [{{"q": "質問", "a": "回答"}}], "digest": {{"what": "...", "why": "...", "impact": "..."}}}}
 """
 
 
@@ -91,4 +95,12 @@ def generate_headline_and_summary(article: Article, client: anthropic.Anthropic 
     data.setdefault("seo_title", data["headline"])
     data.setdefault("tags", [])
     data.setdefault("faq", [])
+    digest = data.get("digest")
+    if not isinstance(digest, dict):
+        digest = {}
+    data["digest"] = {
+        "what": digest.get("what") or data["summary"],
+        "why": digest.get("why") or "",
+        "impact": digest.get("impact") or "",
+    }
     return data
