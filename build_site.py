@@ -141,11 +141,14 @@ _AD_ONAMAE = (
     'src="https://www22.a8.net/svt/bgt?aid=260826389514&wid=001&eno=01&mid=s00000000018015089000&mc=1"></a>'
     '<img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BAEXH+8I0TPU+50+2HU3GX" alt="">'
 )
-AD_CODE_TEXT_LINK = (
-    '<span class="ad-label">広告</span>'
-    f'<div class="ad-item">{_AD_TOSSY}</div>'
-    f'<div class="ad-item" style="margin-top:6px;">{_AD_ONAMAE}</div>'
-)
+_ADS = [_AD_TOSSY, _AD_ONAMAE]
+
+
+def _pick_ad(entry: dict) -> str:
+    """記事ごとに広告を1つだけ表示する(以前は2つ同時表示だったが半分に削減)。
+    slugのハッシュで決定的に選ぶので、同じ記事は毎回同じ広告になり、全体ではほぼ半々に分散する。"""
+    idx = int(hashlib.sha1(entry.get("slug", "").encode("utf-8")).hexdigest(), 16) % len(_ADS)
+    return f'<span class="ad-label">広告</span><div class="ad-item">{_ADS[idx]}</div>'
 
 FAVICON_DATA_URI = (
     "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E"
@@ -191,6 +194,17 @@ def _pick_gradient(source: str) -> tuple[str, str]:
 
 
 STYLE_CSS = """
+:root {
+  /* 意味を持たせたアクセントカラー(Von Restorff効果: 本当に重要な箇所だけに使う。
+     通常のUIはグレー/紺の落ち着いた色で統一し、下記は速報・急上昇・人気・肯定・主要導線にのみ使用) */
+  --mot-breaking: #EF4444;
+  --mot-trending: #F97316;
+  --mot-popular: #F59E0B;
+  --mot-positive: #10B981;
+  --mot-primary: #2563EB;
+  --mot-border: #E2E8F0;
+  --mot-text-secondary: #64748B;
+}
 body {
   font-family: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", sans-serif;
   background: #f5f6fa;
@@ -216,13 +230,67 @@ main {
   top: 10px;
   left: 10px;
   z-index: 2;
-  background: #ff3b30;
+  background: var(--mot-breaking);
   color: #fff;
   font-size: 0.7rem;
   font-weight: bold;
   padding: 4px 10px;
   border-radius: 20px;
   letter-spacing: 0.03em;
+}
+.level-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 8px;
+  margin-right: 2px;
+}
+.level-easy {
+  background: #e3f7e8;
+  color: #1a8a3f;
+}
+.level-technical {
+  background: #e5edff;
+  color: #2955c9;
+}
+:root[data-theme="dark"] .level-easy {
+  background: #16321f;
+  color: #4fd97a;
+}
+:root[data-theme="dark"] .level-technical {
+  background: #182645;
+  color: #7d9dff;
+}
+.level-filter {
+  display: flex;
+  gap: 8px;
+  margin: 4px 0 18px;
+}
+.level-filter-btn {
+  background: #fff;
+  border: 1px solid #e5e5ee;
+  border-radius: 16px;
+  padding: 6px 14px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+  font-family: inherit;
+}
+.level-filter-btn.active {
+  background: #14141c;
+  border-color: #14141c;
+  color: #fff;
+}
+:root[data-theme="dark"] .level-filter-btn {
+  background: #17171f;
+  border-color: #2a2a35;
+  color: #b8b8c8;
+}
+:root[data-theme="dark"] .level-filter-btn.active {
+  background: #e8e8f0;
+  color: #0c0c11;
 }
 .thumb-share {
   position: absolute;
@@ -387,7 +455,7 @@ footer a {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.1em;
-  color: #7c8cff;
+  color: var(--mot-primary);
   margin: 0 0 8px;
 }
 .fact-check {
@@ -417,6 +485,13 @@ footer a {
 .tag-pills-large .tag-pill {
   font-size: 0.9rem;
   padding: 8px 16px;
+}
+.card-tags {
+  margin: 10px 0 0;
+}
+.tag-pill-sm {
+  font-size: 0.68rem;
+  padding: 3px 9px;
 }
 .article-faq {
   margin: 24px 0;
@@ -558,14 +633,14 @@ footer a {
   display: inline-block;
   margin-top: 8px;
   padding: 10px 18px;
-  background: #1a1a2e;
+  background: var(--mot-primary);
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
   font-size: 0.9rem;
 }
 .source-link:hover {
-  background: #33335c;
+  background: #1d4ed8;
 }
 .back-link {
   display: inline-block;
@@ -662,7 +737,7 @@ footer a {
 :root[data-theme="dark"] h1.headline { color: #f0f0f6; }
 :root[data-theme="dark"] .hero,
 :root[data-theme="dark"] .trending-item { border-color: #24242e; }
-:root[data-theme="dark"] .trending-num { color: #3a3a48; }
+:root[data-theme="dark"] .trending-num { opacity: 0.8; }
 :root[data-theme="dark"] .fact-what { border-left-color: #3a3f7a; }
 :root[data-theme="dark"] .fact-why { border-left-color: #6b551f; }
 :root[data-theme="dark"] .fact-impact { border-left-color: #1f5c47; }
@@ -678,7 +753,7 @@ footer a {
 :root[data-theme="dark"] .back-link,
 :root[data-theme="dark"] .insight-list a { color: #9494a8; }
 :root[data-theme="dark"] .trust-strip { color: #a0a0b4; }
-:root[data-theme="dark"] .source-link { background: #3a3a55; }
+:root[data-theme="dark"] .source-link { background: #3b6fe0; }
 :root[data-theme="dark"] .mot-tagline-strip,
 :root[data-theme="dark"] .footer-share-btn,
 :root[data-theme="dark"] footer { color: #74748a; }
@@ -747,8 +822,8 @@ footer a {
   border: 1px solid rgba(255,255,255,0.22);
   color: #fff;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   cursor: pointer;
   font-size: 0.85rem;
   display: flex;
@@ -1014,7 +1089,8 @@ footer a {
   font-family: "Zen Old Mincho", serif;
   font-size: 1.3rem;
   font-weight: 700;
-  color: #d3d3de;
+  color: var(--mot-trending);
+  opacity: 0.55;
   flex-shrink: 0;
   width: 34px;
 }
@@ -1056,7 +1132,7 @@ footer a {
   transition: border-color 0.15s, transform 0.15s;
 }
 .topic-tile:hover {
-  border-color: #14141c;
+  border-color: var(--mot-primary);
   transform: translateY(-1px);
 }
 .topic-count {
@@ -1145,15 +1221,33 @@ SHARE_JS = """(function () {
     });
   });
 
-  // サイト内検索(記事カードをタイトルで絞り込み。クライアントサイドのみ、外部送信なし)
+  // サイト内検索 + 難易度フィルター(記事カードの絞り込み。クライアントサイドのみ、外部送信なし)
   var searchInput = document.getElementById("mot-search");
+  var levelFilter = document.getElementById("level-filter");
+  var currentLevel = "all";
+
+  function applyCardFilters() {
+    var q = searchInput ? searchInput.value.trim().toLowerCase() : "";
+    document.querySelectorAll("[data-searchable]").forEach(function (card) {
+      var text = (card.getAttribute("data-search-text") || "").toLowerCase();
+      var matchesSearch = !q || text.indexOf(q) !== -1;
+      var matchesLevel = currentLevel === "all" || card.getAttribute("data-level") === currentLevel;
+      card.style.display = matchesSearch && matchesLevel ? "" : "none";
+    });
+  }
+
   if (searchInput) {
-    searchInput.addEventListener("input", function () {
-      var q = searchInput.value.trim().toLowerCase();
-      document.querySelectorAll("[data-searchable]").forEach(function (card) {
-        var text = (card.getAttribute("data-search-text") || "").toLowerCase();
-        card.style.display = !q || text.indexOf(q) !== -1 ? "" : "none";
+    searchInput.addEventListener("input", applyCardFilters);
+  }
+  if (levelFilter) {
+    levelFilter.addEventListener("click", function (e) {
+      var btn = e.target.closest("[data-filter-level]");
+      if (!btn) return;
+      currentLevel = btn.getAttribute("data-filter-level");
+      levelFilter.querySelectorAll(".level-filter-btn").forEach(function (b) {
+        b.classList.toggle("active", b === btn);
       });
+      applyCardFilters();
     });
   }
 
@@ -1266,6 +1360,11 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <section class="latest-news" id="latest">
   <p class="section-label">LATEST NEWS</p>
   <h2 class="section-title-lg">すべてのニュース</h2>
+  <div class="level-filter" id="level-filter" role="group" aria-label="難易度で絞り込み">
+    <button type="button" class="level-filter-btn active" data-filter-level="all">すべて</button>
+    <button type="button" class="level-filter-btn" data-filter-level="easy">&#128994; やさしい</button>
+    <button type="button" class="level-filter-btn" data-filter-level="technical">&#128309; テクニカル</button>
+  </div>
   {cards}
   <div id="scroll-sentinel"></div>
   <p id="load-status"></p>
@@ -1292,6 +1391,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     article.className = "card";
     article.setAttribute("data-searchable", "");
     article.setAttribute("data-search-text", item.headline);
+    article.setAttribute("data-level", item.level);
 
     if (item.is_new) {{
       var badge = document.createElement("span");
@@ -1357,7 +1457,8 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 
     var meta = document.createElement("p");
     meta.className = "meta";
-    meta.textContent = "出典: " + item.source + "　·　" + item.reading_time + "分で読める";
+    var levelIcon = item.level === "technical" ? "🔵" : "🟢";
+    meta.textContent = levelIcon + " " + item.level_label + " ・出典: " + item.source + "　·　" + item.reading_time + "分で読める";
     body.appendChild(meta);
 
     var summary = document.createElement("p");
@@ -1365,9 +1466,21 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     summary.textContent = item.summary;
     body.appendChild(summary);
 
+    if (item.tags && item.tags.length) {{
+      var tagWrap = document.createElement("div");
+      tagWrap.className = "tag-pills card-tags";
+      item.tags.slice(0, 3).forEach(function (t) {{
+        var chip = document.createElement("span");
+        chip.className = "tag-pill tag-pill-sm";
+        chip.textContent = "#" + t;
+        tagWrap.appendChild(chip);
+      }});
+      body.appendChild(tagWrap);
+    }}
+
     var adSlot = document.createElement("div");
     adSlot.className = "ad-slot";
-    adSlot.innerHTML = {ad_code_json};
+    adSlot.innerHTML = item.ad_code;
     body.appendChild(adSlot);
 
     article.appendChild(body);
@@ -1424,12 +1537,13 @@ def _thumb_share_html(slug: str, headline: str) -> str:
     )
 
 
-CARD_TEMPLATE = """<article class="card" data-searchable data-search-text="{search_text}">
+CARD_TEMPLATE = """<article class="card" data-searchable data-search-text="{search_text}" data-level="{level}">
   {new_badge}{thumbnail}{thumb_share}
   <div class="card-body">
     <h2 class="sr-only"><a href="articles/{slug}.html">{headline}</a></h2>
-    <p class="meta">出典: {source}　&middot;　{reading_time}分で読める</p>
+    <p class="meta">{level_badge} 出典: {source}　&middot;　{reading_time}分で読める</p>
     <p class="summary">{summary}</p>
+    {card_tags}
     <div class="ad-slot">{ad_code}</div>
   </div>
 </article>
@@ -1468,6 +1582,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
   {thumbnail}
   <h1 class="headline">{headline}</h1>
   <div class="trust-strip">
+    <span>{level_badge}</span>
     <span><span class="trust-label">SOURCE</span>{source}</span>
     <span><span class="trust-label">UPDATED</span>{generated_at}</span>
   </div>
@@ -1971,6 +2086,9 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
                 summary=html_lib.escape(entry["summary"]),
                 reading_time=_reading_time(entry),
                 search_text=html_lib.escape(entry["headline"]),
+                level=_entry_level(entry),
+                level_badge=_level_badge(entry),
+                card_tags=_render_card_tags(entry),
                 ad_code="",
             )
             cards_html.append(card_html.replace('href="articles/', 'href="../articles/'))
@@ -2114,6 +2232,44 @@ def _is_new(generated_at: str) -> bool:
     return (datetime.now() - generated).total_seconds() < NEW_BADGE_HOURS * 3600
 
 
+# 難易度判定: 一次情報・技術者向けソースのドメインを「テクニカル」とし、それ以外は「やさしい」とする。
+# 記事ごとにLLMで判定するとコスト・ブレが出るため、出典ドメインという機械的な基準で決める。
+TECHNICAL_DOMAINS = {
+    "arxiv.org", "huggingface.co", "openai.com", "deepmind.google",
+    "qiita.com", "zenn.dev", "marktechpost.com", "the-decoder.com",
+    "arstechnica.com", "simonwillison.net",
+}
+LEVEL_LABELS = {"technical": "テクニカル", "easy": "やさしい"}
+
+
+def _classify_level(source_domain: str | None) -> str:
+    domain = (source_domain or "").lower().removeprefix("www.")
+    return "technical" if domain in TECHNICAL_DOMAINS else "easy"
+
+
+def _entry_level(entry: dict) -> str:
+    """levelフィールドが無い旧記事は「やさしい」扱いにする(多くが一般ニュース由来のため)。"""
+    level = entry.get("level")
+    return level if level in LEVEL_LABELS else "easy"
+
+
+def _level_badge(entry: dict) -> str:
+    level = _entry_level(entry)
+    icon = "&#128309;" if level == "technical" else "&#128994;"
+    return f'<span class="level-badge level-{level}">{icon} {LEVEL_LABELS[level]}</span>'
+
+
+def _render_card_tags(entry: dict, limit: int = 3) -> str:
+    """一覧カードに表示する小さめのタグ。クリック前に「何についての記事か」を伝える
+    (Information Scent向上)。リンク切れ防止のためテーマページが実在するタグのみ表示する想定は
+    ここでは省略し(一覧は頻繁に再生成されるため実質問題にならない)、タグ名の表示のみ行う。"""
+    tags = [t.strip() for t in (entry.get("tags") or []) if t.strip()][:limit]
+    if not tags:
+        return ""
+    chips = "".join(f'<span class="tag-pill tag-pill-sm">#{html_lib.escape(t)}</span>' for t in tags)
+    return f'<div class="tag-pills card-tags">{chips}</div>'
+
+
 CHARS_PER_MINUTE = 500  # 日本語の平均的な黙読速度の目安
 
 
@@ -2217,6 +2373,7 @@ def build() -> None:
             "source": article.source,
             "image_url": image_url,
             "image_kind": image_kind,
+            "level": _classify_level(article.source_domain),
             "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
         }
         articles_data.append(entry)
@@ -2272,7 +2429,10 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
                 summary=html_lib.escape(entry["summary"]),
                 reading_time=_reading_time(entry),
                 search_text=html_lib.escape(entry["headline"]),
-                ad_code=AD_CODE_TEXT_LINK,
+                level=_entry_level(entry),
+                level_badge=_level_badge(entry),
+                card_tags=_render_card_tags(entry),
+                ad_code=_pick_ad(entry),
             )
         )
 
@@ -2289,6 +2449,10 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             "share_text": urllib.parse.quote(e["headline"]),
             "share_url": urllib.parse.quote(page_url),
             "reading_time": _reading_time(e),
+            "level": _entry_level(e),
+            "level_label": LEVEL_LABELS[_entry_level(e)],
+            "tags": (e.get("tags") or [])[:3],
+            "ad_code": _pick_ad(e),
         }
         if e["image_kind"] != "real":
             data["g1"], data["g2"] = _pick_gradient(e["source"])
@@ -2320,7 +2484,6 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         favicon=FAVICON_DATA_URI,
         page_url=_abs_url("index.html"),
         more_articles_json=more_articles_json,
-        ad_code_json=json.dumps(AD_CODE_TEXT_LINK),
         icon_x_svg_js=json.dumps(ICON_X_SVG),
         page_url_q=urllib.parse.quote(_abs_url("index.html"), safe=""),
         goatcounter=GOATCOUNTER_SCRIPT,
@@ -2413,6 +2576,7 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
         favicon=FAVICON_DATA_URI,
         thumbnail=thumb_for_article,
         source=html_lib.escape(entry["source"]),
+        level_badge=_level_badge(entry),
         generated_at=entry["generated_at"],
         body=_render_body_paragraphs(entry.get("body") or entry["summary"]),
         faq=_render_faq_html(entry.get("faq")),
@@ -2424,7 +2588,7 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
         share_url=share_url,
         slug=entry["slug"],
         next_insight=next_insight_html,
-        ad_code=AD_CODE_TEXT_LINK,
+        ad_code=_pick_ad(entry),
         goatcounter=GOATCOUNTER_SCRIPT,
         structured_data=_render_structured_data(entry, page_url, og_image),
         tags=_render_tag_pills(entry, prefix="../topics/", valid_topic_tags=valid_topic_tags),

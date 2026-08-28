@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Pollen Robotics、399ドルのあひる型ロボット「Microduck」予約開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/pollen-robotics-microduck-48ec8a0f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/pollen-robotics-microduck-48ec8a0f.html</guid>
+    <description>Pollen Roboticsが小型ロボット「Microduck」を発表。399ドルで家庭や教室での強化学習実験を実現する。</description>
+    <pubDate>Fri, 28 Aug 2026 17:18:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>キーサイト・テクノロジー、AI設計時代へ舵 人間は「監督役」に転換</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/eda-ai-9d3e63a5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/eda-ai-9d3e63a5.html</guid>
+    <description>キーサイトがAI活用した次世代EDA技術を発表。半導体設計の主役がAIに移行する時代の到来を宣言した。</description>
+    <pubDate>Fri, 28 Aug 2026 17:18:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、Gemini搭載スマートスピーカーを25日発売。16,800円で提供開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html</guid>
+    <description>GoogleがAI「Gemini」を搭載した新型スマートスピーカー「Google Home Speaker」を発売。価格は16,800円。</description>
+    <pubDate>Fri, 28 Aug 2026 17:17:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>arXiv、LLM生成の虚偽・架空引用で投稿禁止1年間を宣告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/arxiv-llm-4179b9cf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/arxiv-llm-4179b9cf.html</guid>
+    <description>未査読論文リポジトリのarXivが、大言語モデルの誤りや架空引用を含む論文の投稿を1年間禁止する厳しい方針を打ち出した。</description>
+    <pubDate>Fri, 28 Aug 2026 17:17:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPTやGeminiを1クリック。月額無料のAIキーボード「MiMouse」登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-2d25b758.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-2d25b758.html</guid>
+    <description>ChatGPTやGeminiを1クリックで呼び出せる、月額不要のAIキーボード「MiMouse」が登場。複数のAIサービスに素早くアクセス可能。</description>
+    <pubDate>Fri, 28 Aug 2026 17:17:00 +0900</pubDate>
+  </item>
+  <item>
     <title>上級IT人材の深刻な不足、2大調査が明かす需給ギャップの実態</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/itr-it-36486975.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/itr-it-36486975.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5309d9655463.html</guid>
     <description>Sentence Transformersがマルチベクトル埋め込みモデルの訓練・微調整に対応し、より柔軟なテキスト表現が可能に。</description>
     <pubDate>Thu, 27 Aug 2026 22:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>個人契約のChatGPTに会社情報を入力する危険性。データ流出リスクの衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/67a745984a8a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/67a745984a8a.html</guid>
-    <description>個人で契約したChatGPTに機密情報を入力すると、予期しないリスクが生じる可能性がある。</description>
-    <pubDate>Thu, 27 Aug 2026 18:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>MCPが大転換、AIエージェント対応へ。Linux Foundation傘下のAAIFが新ロードマップ発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/3e474ded5a8f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3e474ded5a8f.html</guid>
-    <description>Linux Foundation傘下のAAIFがModel Context Protocolの進化方針を示す新ロードマップを公開。AIエージェント対応やHTTP通信統一が重点施策。</description>
-    <pubDate>Thu, 27 Aug 2026 18:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>MIPI Alliance、ヒューマノイドロボット向け標準インタフェース始動</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/6a056a8b1219.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/6a056a8b1219.html</guid>
-    <description>MIPI AllianceがフィジカルAI専門グループを立ち上げ、ロボット通信インタフェースの標準化に乗り出した。</description>
-    <pubDate>Thu, 27 Aug 2026 18:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>2035年、AI推論の半分がコード生成に。消費電力46ギガワットの衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/bdf0cbb50b19.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/bdf0cbb50b19.html</guid>
-    <description>ABI Researchが予測。推論ワークロードが2033年にトレーニングを逆転し、電力消費が急速に拡大する見通し。</description>
-    <pubDate>Thu, 27 Aug 2026 17:51:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国Z.aiが「GLM-5.3-Flash」公開、Opus 4.8に匹敵する性能を低価格で実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/3efdf37af216.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3efdf37af216.html</guid>
-    <description>中国のZ.aiがマルチモーダルモデル「GLM-5.3-Flash」をMITライセンスで公開。高性能ながら安価に利用できるとして注目を集める。</description>
-    <pubDate>Thu, 27 Aug 2026 17:51:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -1,4 +1,15 @@
 
+:root {
+  /* 意味を持たせたアクセントカラー(Von Restorff効果: 本当に重要な箇所だけに使う。
+     通常のUIはグレー/紺の落ち着いた色で統一し、下記は速報・急上昇・人気・肯定・主要導線にのみ使用) */
+  --mot-breaking: #EF4444;
+  --mot-trending: #F97316;
+  --mot-popular: #F59E0B;
+  --mot-positive: #10B981;
+  --mot-primary: #2563EB;
+  --mot-border: #E2E8F0;
+  --mot-text-secondary: #64748B;
+}
 body {
   font-family: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", sans-serif;
   background: #f5f6fa;
@@ -24,13 +35,67 @@ main {
   top: 10px;
   left: 10px;
   z-index: 2;
-  background: #ff3b30;
+  background: var(--mot-breaking);
   color: #fff;
   font-size: 0.7rem;
   font-weight: bold;
   padding: 4px 10px;
   border-radius: 20px;
   letter-spacing: 0.03em;
+}
+.level-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 8px;
+  margin-right: 2px;
+}
+.level-easy {
+  background: #e3f7e8;
+  color: #1a8a3f;
+}
+.level-technical {
+  background: #e5edff;
+  color: #2955c9;
+}
+:root[data-theme="dark"] .level-easy {
+  background: #16321f;
+  color: #4fd97a;
+}
+:root[data-theme="dark"] .level-technical {
+  background: #182645;
+  color: #7d9dff;
+}
+.level-filter {
+  display: flex;
+  gap: 8px;
+  margin: 4px 0 18px;
+}
+.level-filter-btn {
+  background: #fff;
+  border: 1px solid #e5e5ee;
+  border-radius: 16px;
+  padding: 6px 14px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+  font-family: inherit;
+}
+.level-filter-btn.active {
+  background: #14141c;
+  border-color: #14141c;
+  color: #fff;
+}
+:root[data-theme="dark"] .level-filter-btn {
+  background: #17171f;
+  border-color: #2a2a35;
+  color: #b8b8c8;
+}
+:root[data-theme="dark"] .level-filter-btn.active {
+  background: #e8e8f0;
+  color: #0c0c11;
 }
 .thumb-share {
   position: absolute;
@@ -195,7 +260,7 @@ footer a {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.1em;
-  color: #7c8cff;
+  color: var(--mot-primary);
   margin: 0 0 8px;
 }
 .fact-check {
@@ -225,6 +290,13 @@ footer a {
 .tag-pills-large .tag-pill {
   font-size: 0.9rem;
   padding: 8px 16px;
+}
+.card-tags {
+  margin: 10px 0 0;
+}
+.tag-pill-sm {
+  font-size: 0.68rem;
+  padding: 3px 9px;
 }
 .article-faq {
   margin: 24px 0;
@@ -366,14 +438,14 @@ footer a {
   display: inline-block;
   margin-top: 8px;
   padding: 10px 18px;
-  background: #1a1a2e;
+  background: var(--mot-primary);
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
   font-size: 0.9rem;
 }
 .source-link:hover {
-  background: #33335c;
+  background: #1d4ed8;
 }
 .back-link {
   display: inline-block;
@@ -470,7 +542,7 @@ footer a {
 :root[data-theme="dark"] h1.headline { color: #f0f0f6; }
 :root[data-theme="dark"] .hero,
 :root[data-theme="dark"] .trending-item { border-color: #24242e; }
-:root[data-theme="dark"] .trending-num { color: #3a3a48; }
+:root[data-theme="dark"] .trending-num { opacity: 0.8; }
 :root[data-theme="dark"] .fact-what { border-left-color: #3a3f7a; }
 :root[data-theme="dark"] .fact-why { border-left-color: #6b551f; }
 :root[data-theme="dark"] .fact-impact { border-left-color: #1f5c47; }
@@ -486,7 +558,7 @@ footer a {
 :root[data-theme="dark"] .back-link,
 :root[data-theme="dark"] .insight-list a { color: #9494a8; }
 :root[data-theme="dark"] .trust-strip { color: #a0a0b4; }
-:root[data-theme="dark"] .source-link { background: #3a3a55; }
+:root[data-theme="dark"] .source-link { background: #3b6fe0; }
 :root[data-theme="dark"] .mot-tagline-strip,
 :root[data-theme="dark"] .footer-share-btn,
 :root[data-theme="dark"] footer { color: #74748a; }
@@ -555,8 +627,8 @@ footer a {
   border: 1px solid rgba(255,255,255,0.22);
   color: #fff;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   cursor: pointer;
   font-size: 0.85rem;
   display: flex;
@@ -822,7 +894,8 @@ footer a {
   font-family: "Zen Old Mincho", serif;
   font-size: 1.3rem;
   font-weight: 700;
-  color: #d3d3de;
+  color: var(--mot-trending);
+  opacity: 0.55;
   flex-shrink: 0;
   width: 34px;
 }
@@ -864,7 +937,7 @@ footer a {
   transition: border-color 0.15s, transform 0.15s;
 }
 .topic-tile:hover {
-  border-color: #14141c;
+  border-color: var(--mot-primary);
   transform: translateY(-1px);
 }
 .topic-count {

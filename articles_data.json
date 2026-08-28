@@ -1259,5 +1259,175 @@
     "image_url": "https://image.itmedia.co.jp/enterprise/articles/2608/28/cover_news045.jpg",
     "image_kind": "real",
     "generated_at": "2026-08-28 12:13"
+  },
+  {
+    "slug": "chatgpt-google-gemini-2d25b758",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13Z2g4NVdsbnZFclR4ZF9kZ2p5eW1VTi15OHExMEQyLTBJRDRINW0xcjExbUVrQ0tGa1h5czh4aWR0TERHMXZFR1A0NWhHWlNQQnBLVnF3?oc=5",
+    "headline": "ChatGPTやGeminiを1クリック。月額無料のAIキーボード「MiMouse」登場",
+    "seo_title": "MiMouseとは？ChatGPT・Gemini搭載のAIキーボード、料金・使い方",
+    "summary": "ChatGPTやGeminiを1クリックで呼び出せる、月額不要のAIキーボード「MiMouse」が登場。複数のAIサービスに素早くアクセス可能。",
+    "body": "AIキーボード「MiMouse」は、ChatGPTやGeminiといった大規模言語モデルに1クリックでアクセスできる新しい入力デバイスだ。月額の利用料金が不要な点が特徴で、キーボード操作の延長として複数のAIサービスを簡単に活用できる設計になっている。\n\nこの製品は、AIツールの多様化が進む中で、ユーザーが複数のサービスを手軽に切り替えたいというニーズに応えるものだ。従来はブラウザやアプリを開いてから各サービスにアクセスする手間がかかったが、MiMouseなら物理的なインターフェースから直接AIへと接続できる。AI活用が日常化する中で、利便性を重視したハードウェアアプローチの新展開といえる。\n\n月額料金が不要というビジネスモデルも注目点だ。一般ユーザーから企業のオフィス環境まで、より広い層がAI技術を活用するハードルが下がる可能性がある。複数のAIモデルへのシームレスなアクセスを実現するこのような製品の登場は、AIが単なるソフトウェアから、日常的な作業環境そのものに統合される時代の到来を示唆している。",
+    "tags": [
+      "ChatGPT",
+      "Google Gemini",
+      "MiMouse"
+    ],
+    "faq": [
+      {
+        "q": "MiMouseとは何か",
+        "a": "ChatGPTやGeminiといったAIサービスに1クリックでアクセスできるAIキーボード。月額料金は不要。"
+      },
+      {
+        "q": "どのAIサービスに対応している",
+        "a": "ChatGPTとGoogle Geminiに対応。複数のAIを素早く切り替えて利用できる。"
+      }
+    ],
+    "digest": {
+      "what": "月額無料でChatGPTやGeminiに1クリックアクセスできるAIキーボード「MiMouse」登場",
+      "why": "複数AI間の切り替えが容易になり、AI活用の日常化を促進。ハードウェアレベルでのAI統合が実現",
+      "impact": "一般ユーザー・企業のオフィスワーカー"
+    },
+    "source": "エルミタージュ秋葉原",
+    "image_url": null,
+    "image_kind": "fallback",
+    "level": "easy",
+    "generated_at": "2026-08-28 17:17"
+  },
+  {
+    "slug": "arxiv-llm-4179b9cf",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TRG9QaV9xbmc4bUpsSDJOdk9LMEw1dUYtVnFoNXVEYVQ5MDUxSlJTeG1RWWlpcEZkbkZrc2I5a2RRSl8tVjUyYl9ZM3h0d29lS2hQT1k4eGRLeGswdmZKMHc3OFlaT0hr?oc=5",
+    "headline": "arXiv、LLM生成の虚偽・架空引用で投稿禁止1年間を宣告",
+    "seo_title": "arXivの新方針：LLMの誤りで1年投稿禁止とは",
+    "summary": "未査読論文リポジトリのarXivが、大言語モデルの誤りや架空引用を含む論文の投稿を1年間禁止する厳しい方針を打ち出した。",
+    "body": "論文プレプリントサーバーのarXivは、生成AIの急速な普及に伴う学術的な信頼性の問題に対応すべく、新たな規制方針を発表した。この方針では、投稿論文の中に大言語モデル（LLM）が生成した誤った情報や実在しない引用文献が明らかに含まれていた場合、該当する著者は以後1年間の投稿を禁止されることになる。\n\nこうした対応が求められるようになった背景には、AIツールの利用が広がる中で、生成モデルが信頼性の低い内容や完全に架空の参考文献を創作してしまう「ハルシネーション」現象が問題となっていることがある。学術論文は科学的知見の積み重ねの基盤であり、虚偽や不正確な情報が記録されることで、後続研究や業界全体に悪影響をもたらす。arXivは査読前の段階でこうした問題を厳格に取り締まることで、プラットフォームの信頼性維持を図る方針を明確にした。\n\nこの方針は、研究者がAIツールを論文執筆に活用する際の注意喚起となると同時に、学術コミュニティがデジタル時代にいかに品質管理と倫理性を両立させるかという課題に直面していることを示している。一般的なユーザーだけでなく、研究機関や大学でもAI利用ガイドラインの整備がますます重要になってくるだろう。",
+    "tags": [
+      "arXiv",
+      "LLM",
+      "学術出版"
+    ],
+    "faq": [
+      {
+        "q": "arXivの新方針で禁止されるのはどのような内容か？",
+        "a": "大言語モデルが生成した誤った情報や実在しない引用文献が論文に含まれている場合、投稿が禁止されます。"
+      },
+      {
+        "q": "違反した場合のペナルティは？",
+        "a": "著者は1年間の投稿禁止となります。"
+      }
+    ],
+    "digest": {
+      "what": "arXivがLLM生成の誤情報・架空引用に1年投稿禁止処分",
+      "why": "生成AI利用の拡大で学術的信頼性が脅かされており、厳格な品質管理が急務",
+      "impact": "研究者、学術機関"
+    },
+    "source": "GIGAZINE",
+    "image_url": null,
+    "image_kind": "fallback",
+    "level": "easy",
+    "generated_at": "2026-08-28 17:17"
+  },
+  {
+    "slug": "google-gemini-7aa4f62d",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjTVUyUUoxOWtLNFRDcWFVLUNyMW1CYjNLMkkzLXhfS3YwYWQ1UlU3U1QyUDRoS3J1QzgtNXNFeWhNbkZ4M0x0OC1FUEVqRnh0eWRJVWZuREp0VHYtN0duWQ?oc=5",
+    "headline": "Google、Gemini搭載スマートスピーカーを25日発売。16,800円で提供開始",
+    "seo_title": "Google Home Speaker Gemini搭載モデル、25日発売。価格・スペック",
+    "summary": "GoogleがAI「Gemini」を搭載した新型スマートスピーカー「Google Home Speaker」を発売。価格は16,800円。",
+    "body": "GoogleがAIモデル「Gemini」を統合したスマートスピーカー「Google Home Speaker」を25日に市場投入する。価格は16,800円に設定されている。このモデルは、Googleの最新AI技術を家庭用音声デバイスに組み込んだ製品となり、ユーザーは音声を通じてより高度な対話や情報取得が可能になる。\n\nスマートスピーカー市場では、各プレイヤーが搭載するAIの高度化を競い合っている。従来の単純な音声操作から、自然言語処理能力に優れたAIモデルの統合へシフトすることで、デバイスの実用性が大きく向上する傾向にある。Gemini搭載により、複雑な質問への対応やコンテキストを理解した応答が期待できる。\n\n消費者にとっては、手ごろな価格帯で最新のAI技術を自宅に導入できる選択肢が広がることになる。同時に、Google自身にとってもこうしたデバイスを通じたAIの実用化と利用データの蓄積が、今後のサービス開発に直結する重要な取り組みとなる。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "スマートスピーカー"
+    ],
+    "faq": [
+      {
+        "q": "Google Home Speakerの価格はいくら？",
+        "a": "16,800円で販売される予定です。"
+      },
+      {
+        "q": "Google Home SpeakerはいつからGemini搭載で発売される？",
+        "a": "25日に発売予定です。"
+      }
+    ],
+    "digest": {
+      "what": "Google、Gemini搭載スマートスピーカーを25日発売",
+      "why": "AI統合により音声デバイスの対話能力が飛躍的に向上",
+      "impact": "一般ユーザー・家電購入者"
+    },
+    "source": "エルミタージュ秋葉原",
+    "image_url": null,
+    "image_kind": "fallback",
+    "level": "easy",
+    "generated_at": "2026-08-28 17:17"
+  },
+  {
+    "slug": "eda-ai-9d3e63a5",
+    "link": "https://eetimes.itmedia.co.jp/ee/articles/2608/28/news088.html",
+    "headline": "キーサイト・テクノロジー、AI設計時代へ舵 人間は「監督役」に転換",
+    "seo_title": "次世代EDA技術とは？キーサイトのAI半導体設計の取り組み",
+    "summary": "キーサイトがAI活用した次世代EDA技術を発表。半導体設計の主役がAIに移行する時代の到来を宣言した。",
+    "body": "半導体設計ツール大手のキーサイト・テクノロジーは、AIを組み込んだ次世代EDA（Electronic Design Automation）の開発に本腰を入れている。2026年8月に開催したエンジニア向けイベント「KDES」では、AI時代の半導体設計をテーマにしたメディアブリーフィングを実施し、AI駆動の設計自動化やシミュレーション技術といった複数の施策を披露した。\n\nこうした取り組みが注目される背景には、半導体業界全体で設計の複雑化が急速に進んでいることがある。従来の人間中心の設計フローでは、ますます膨大な計算負荷に対応しきれなくなりつつあり、AIによる自動化・最適化が必須の課題となっている。キーサイトの戦略は、単に既存ツールをAI化するのではなく、設計プロセス全体の根本的な転換を目指すものだ。\n\n今後の実務では、エンジニアは設計業務そのものよりも、AIが出力した結果の検証・監督という役割へシフトしていく見込みだ。光半導体やマルチフィジックスに対応したシミュレーションなど、多岐にわたる技術課題にAIが対応することで、開発スピードの大幅な短縮と設計品質の向上が期待される。",
+    "tags": [
+      "キーサイト・テクノロジー",
+      "EDA",
+      "AI半導体設計"
+    ],
+    "faq": [
+      {
+        "q": "次世代EDAとは何か？",
+        "a": "AI技術を組み込んだ半導体設計自動化ツール。AIが設計最適化を担い、エンジニアが監督・検証する新しい設計フローを実現する。"
+      },
+      {
+        "q": "キーサイトの取り組みの特徴は？",
+        "a": "光半導体設計やマルチフィジックス対応など、複数の技術領域でAI活用を進め、設計プロセス全体の転換を目指している。"
+      }
+    ],
+    "digest": {
+      "what": "キーサイト、AI駆動型次世代EDA技術を発表",
+      "why": "半導体設計の複雑化に対応し、AIが設計主体に転換する業界動向を先導",
+      "impact": "半導体エンジニア、設計ツール関連企業"
+    },
+    "source": "ITmedia AI＋ 最新記事一覧",
+    "image_url": "https://image.itmedia.co.jp/ee/articles/2608/28/cover_news088.jpg",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-08-28 17:18"
+  },
+  {
+    "slug": "pollen-robotics-microduck-48ec8a0f",
+    "link": "https://www.itmedia.co.jp/news/article/2608/28/2000000901/",
+    "headline": "Pollen Robotics、399ドルのあひる型ロボット「Microduck」予約開始",
+    "seo_title": "Microduckとは？Pollen Roboticsの二足歩行ロボット、料金・特徴を解説",
+    "summary": "Pollen Roboticsが小型ロボット「Microduck」を発表。399ドルで家庭や教室での強化学習実験を実現する。",
+    "body": "ロボティクス企業のPollen Roboticsが、新型の二足歩行ロボット「Microduck」の予約受付をスタートさせた。身長わずか25cmという小ぶりなサイズながら、高度な動作プログラミングが可能な設計となっており、価格は399ドルという手頃な水準に設定されている。このロボットは強化学習による行動パターンの習得を主な用途として開発され、従来の大型ロボットでは実現困難だった身近な環境での試験運用を想定している。\n\nMicroduckの大きな特徴は、ソフトウェア開発環境がオープンソースで提供されることにある。SDKとシミュレーターが公開されることで、開発者や研究者は実機を購入する前に仮想環境で動作検証ができるほか、独自のアルゴリズムを試行錯誤しやすくなる。家庭や教室のような安全性確保が容易な場所で、本格的なAI学習の実装と検証が行えるプラットフォームを目指しており、大型機よりも導入障壁が低い点が革新的だ。\n\n本製品の登場は、AIの実装教育やロボット研究の民主化を加速させる可能性を秘めている。強化学習の理論的理解だけでなく、実際に物体が動く環境で学習させるハンズオン体験は、開発者のスキル向上に直結する。手頃な価格とオープンソース戦略により、企業研究室だけでなく個人開発者や教育機関への普及も見込まれ、「行動するAI」の実装がより身近になる転換点となりうる。",
+    "tags": [
+      "Pollen Robotics",
+      "Microduck",
+      "強化学習",
+      "ロボティクス"
+    ],
+    "faq": [
+      {
+        "q": "Microduckとは何か？",
+        "a": "Pollen Roboticsが開発した25cm程度の二足歩行小型ロボット。強化学習による行動学習に特化し、SDKとシミュレーターがオープンソースで提供されます。"
+      },
+      {
+        "q": "Microduckの価格はいくら？",
+        "a": "予約価格は399ドルです。家庭や教室での試験運用が想定されています。"
+      },
+      {
+        "q": "開発者向けのツールは提供されるのか？",
+        "a": "はい。SDKとシミュレーターがオープンソースとして公開され、購入前の検証や独自アルゴリズムの試行錯誤が可能です。"
+      }
+    ],
+    "digest": {
+      "what": "Pollen Roboticsが25cm小型ロボット「Microduck」を399ドルで予約開始",
+      "why": "強化学習の実装検証を家庭や教室で安全に実現でき、AI開発の民主化を促進する",
+      "impact": "開発者・研究者・教育機関"
+    },
+    "source": "ITmedia AI＋ 最新記事一覧",
+    "image_url": "https://www.itmedia.co.jp/news/article/ogp/2608/28/2000000901/10004227/2048",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-08-28 17:18"
   }
 ]

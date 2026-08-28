@@ -74,15 +74,33 @@
     });
   });
 
-  // サイト内検索(記事カードをタイトルで絞り込み。クライアントサイドのみ、外部送信なし)
+  // サイト内検索 + 難易度フィルター(記事カードの絞り込み。クライアントサイドのみ、外部送信なし)
   var searchInput = document.getElementById("mot-search");
+  var levelFilter = document.getElementById("level-filter");
+  var currentLevel = "all";
+
+  function applyCardFilters() {
+    var q = searchInput ? searchInput.value.trim().toLowerCase() : "";
+    document.querySelectorAll("[data-searchable]").forEach(function (card) {
+      var text = (card.getAttribute("data-search-text") || "").toLowerCase();
+      var matchesSearch = !q || text.indexOf(q) !== -1;
+      var matchesLevel = currentLevel === "all" || card.getAttribute("data-level") === currentLevel;
+      card.style.display = matchesSearch && matchesLevel ? "" : "none";
+    });
+  }
+
   if (searchInput) {
-    searchInput.addEventListener("input", function () {
-      var q = searchInput.value.trim().toLowerCase();
-      document.querySelectorAll("[data-searchable]").forEach(function (card) {
-        var text = (card.getAttribute("data-search-text") || "").toLowerCase();
-        card.style.display = !q || text.indexOf(q) !== -1 ? "" : "none";
+    searchInput.addEventListener("input", applyCardFilters);
+  }
+  if (levelFilter) {
+    levelFilter.addEventListener("click", function (e) {
+      var btn = e.target.closest("[data-filter-level]");
+      if (!btn) return;
+      currentLevel = btn.getAttribute("data-filter-level");
+      levelFilter.querySelectorAll(".level-filter-btn").forEach(function (b) {
+        b.classList.toggle("active", b === btn);
       });
+      applyCardFilters();
     });
   }
 
