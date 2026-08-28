@@ -19,7 +19,7 @@
 <meta property="og:image" content="https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png">
 <meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/5309d9655463.html">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Sentence Transformers、マルチベクトル埋め込みモデルの訓練・チューニング機能を実装", "description": "Sentence Transformersがマルチベクトル埋め込みモデルの訓練・微調整に対応し、より柔軟なテキスト表現が可能に。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/5309d9655463.html"}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT"}, "datePublished": "2026-08-27T22:53:00+09:00", "dateModified": "2026-08-27T22:53:00+09:00", "image": ["https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Sentence Transformers、マルチベクトル埋め込みモデルの訓練・チューニング機能を実装", "description": "Sentence Transformersがマルチベクトル埋め込みモデルの訓練・微調整に対応し、より柔軟なテキスト表現が可能に。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/5309d9655463.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT"}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT"}, "datePublished": "2026-08-27T22:53:00+09:00", "dateModified": "2026-08-27T22:53:00+09:00", "image": ["https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"], "citation": "https://huggingface.co/blog/train-multi-vector-encoder"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "マルチベクトル埋め込みとは何か", "acceptedAnswer": {"@type": "Answer", "text": "テキストを複数のベクトルで表現し、シングルベクトルでは捉えきれない複雑な意味構造をより正確に表現する技術です。"}}, {"@type": "Question", "name": "従来の埋め込み方法との違いは", "acceptedAnswer": {"@type": "Answer", "text": "従来は1つのベクトルでテキスト全体を表現していましたが、マルチベクトル方式では複数のベクトルを用いることで、より細かいニュアンスや複数の意味層を表現できるようになります。"}}]}</script>
 </head>
 <body class="article-page">
@@ -53,11 +53,12 @@
   <div class="summary"><p>Hugging Faceが提供するテキスト埋め込みライブラリ「Sentence Transformers」に、マルチベクトル埋め込みモデルの訓練・チューニング機能が追加された。これまで単一のベクトルでテキストを表現していたのに対し、複数のベクトルを組み合わせてより豊かな意味表現を実現できるようになる。この進化により、検索精度やテキスト類似度の計算精度が向上する可能性が高い。</p><p>マルチベクトル埋め込みは、テキストの複雑な意味構造をより正確に捉える技術として注目されている。従来のシングルベクトルアプローチでは表現しきれなかった微妙なニュアンスや複数の意味層を、複数のベクトルで分散表現することで補完できる。特に情報検索やセマンティック検索、レコメンデーションシステムなど、テキスト理解が重要な用途での有効性が期待されている。</p><p>実務レベルでは、企業のテキストデータ分析やAIシステムの構築において、より精密な埋め込みモデルを独自に訓練・調整できることが大きなメリットとなる。オープンソースツールの機能拡張により、高度な自然言語処理の実装がより身近になった。</p></div>
   <div class="tag-pills"><a class="tag-pill" href="../topics/sentence-transformers.html">#Sentence Transformers</a><a class="tag-pill" href="../topics/hugging-face.html">#Hugging Face</a></div>
   <script>window.motPageTags=["Sentence Transformers", "Hugging Face", "テキスト埋め込み"];</script>
-  <div class="ad-slot-large"><span class="ad-label">広告</span><div class="ad-item"><a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8I0TPU+50+2HU3GX" rel="nofollow"><img border="0" width="234" height="60" alt="" src="https://www22.a8.net/svt/bgt?aid=260826389514&wid=001&eno=01&mid=s00000000018015089000&mc=1"></a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BAEXH+8I0TPU+50+2HU3GX" alt=""></div></div>
-  <div class="fact-check">
+  <div class="ad-slot-large"><span class="ad-label">広告</span><div class="ad-item"><a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8I0TPU+50+2HU3GX" rel="sponsored nofollow"><img border="0" width="234" height="60" alt="" src="https://www22.a8.net/svt/bgt?aid=260826389514&wid=001&eno=01&mid=s00000000018015089000&mc=1"></a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BAEXH+8I0TPU+50+2HU3GX" alt=""></div></div>
+  <blockquote class="fact-check" cite="https://huggingface.co/blog/train-multi-vector-encoder">
     <span class="trust-label">FACT</span>
-    <a class="source-link" href="https://huggingface.co/blog/train-multi-vector-encoder" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a>
-  </div>
+    <p>本記事は<cite>Hugging Face - Blog</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://huggingface.co/blog/train-multi-vector-encoder" target="_blank" rel="noopener noreferrer">元記事（<cite>Hugging Face - Blog</cite>）を読む &rarr;</a></footer>
+  </blockquote>
   <div class="article-faq">
   <h2>よくある質問</h2>
   <div class="faq-item">

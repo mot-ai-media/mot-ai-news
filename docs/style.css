@@ -264,10 +264,27 @@ footer a {
   margin: 0 0 8px;
 }
 .fact-check {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 12px 0;
+  margin: 16px 0;
+  padding: 10px 0 10px 14px;
+  border-left: 3px solid var(--mot-border);
+}
+.fact-check p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: var(--mot-text-secondary);
+}
+.fact-check cite {
+  font-style: normal;
+  font-weight: 600;
+}
+.fact-check footer {
+  margin: 0;
+}
+.tldr {
+  padding: 10px 14px;
+  border-left: 3px solid var(--mot-primary);
+  background: rgba(37, 99, 235, 0.06);
+  margin: 0 0 16px;
 }
 .tag-pills {
   display: flex;

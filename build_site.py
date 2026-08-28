@@ -46,6 +46,8 @@ ABOUT_PATH = OUTPUT_DIR / "about.html"
 ROBOTS_PATH = OUTPUT_DIR / "robots.txt"
 SITEMAP_PATH = OUTPUT_DIR / "sitemap.xml"
 FEED_PATH = OUTPUT_DIR / "feed.xml"
+LLMS_TXT_PATH = OUTPUT_DIR / "llms.txt"
+MAX_LLMS_TXT_ARTICLES = 200
 MIN_TOPIC_ARTICLES = 2  # このタグの記事がこの件数以上あれば、テーマ別ハブページを作る
 MAX_FEED_ARTICLES = 30
 ARTICLES_DATA_PATH = Path(__file__).parent / "articles_data.json"
@@ -134,12 +136,12 @@ GOATCOUNTER_SCRIPT = (
 
 # A8.net アフィリエイト広告。空文字にすれば広告非表示に戻せる
 _AD_TOSSY = (
-    '<a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" rel="nofollow">'
+    '<a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" rel="sponsored nofollow">'
     "【PR】株式、為替(FX)、暗号資産、株価指数、商品資源(金や原油)まで取引可能！【TOSSY】</a>"
     '<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" alt="">'
 )
 _AD_ONAMAE = (
-    '<a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8I0TPU+50+2HU3GX" rel="nofollow">'
+    '<a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8I0TPU+50+2HU3GX" rel="sponsored nofollow">'
     '<img border="0" width="234" height="60" alt="" '
     'src="https://www22.a8.net/svt/bgt?aid=260826389514&wid=001&eno=01&mid=s00000000018015089000&mc=1"></a>'
     '<img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BAEXH+8I0TPU+50+2HU3GX" alt="">'
@@ -462,10 +464,27 @@ footer a {
   margin: 0 0 8px;
 }
 .fact-check {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 12px 0;
+  margin: 16px 0;
+  padding: 10px 0 10px 14px;
+  border-left: 3px solid var(--mot-border);
+}
+.fact-check p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: var(--mot-text-secondary);
+}
+.fact-check cite {
+  font-style: normal;
+  font-weight: 600;
+}
+.fact-check footer {
+  margin: 0;
+}
+.tldr {
+  padding: 10px 14px;
+  border-left: 3px solid var(--mot-primary);
+  background: rgba(37, 99, 235, 0.06);
+  margin: 0 0 16px;
 }
 .tag-pills {
   display: flex;
@@ -1594,10 +1613,11 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
   {tags}
   {tag_tracker}
   <div class="ad-slot-large">{ad_code}</div>
-  <div class="fact-check">
+  <blockquote class="fact-check" cite="{link}">
     <span class="trust-label">FACT</span>
-    <a class="source-link" href="{link}" target="_blank" rel="noopener noreferrer">元記事を読む &rarr;</a>
-  </div>
+    <p>本記事は<cite>{source}</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="{link}" target="_blank" rel="noopener noreferrer">元記事（<cite>{source}</cite>）を読む &rarr;</a></footer>
+  </blockquote>
   {faq}
   <div class="share-buttons">
     <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text={share_text}&url={share_url}" target="_blank" rel="noopener noreferrer">Xで共有</a>
@@ -1666,7 +1686,7 @@ def _pick_editorial_highlights(articles_data: list[dict], limit: int = 3) -> lis
     def score(e: dict) -> tuple:
         has_image = 1 if e.get("image_kind") == "real" else 0
         has_faq = 1 if e.get("faq") else 0
-        body_len = len(e.get("body") or "")
+        body_len = _entry_text_length(e)
         return (has_image + has_faq, body_len, e.get("generated_at", ""))
 
     ranked = sorted(articles_data, key=score, reverse=True)
@@ -2171,6 +2191,7 @@ def _render_structured_data(entry: dict, page_url: str, og_image: str) -> str:
         "headline": entry["headline"],
         "description": entry["summary"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": page_url},
+        "author": {"@type": "Organization", "name": "AI特化メディアMOT"},
         "publisher": {"@type": "Organization", "name": "AI特化メディアMOT"},
     }
     if published:
@@ -2178,6 +2199,9 @@ def _render_structured_data(entry: dict, page_url: str, og_image: str) -> str:
         data["dateModified"] = published
     if og_image:
         data["image"] = [og_image]
+    safe_source_url = _safe_http_url(entry.get("link"))
+    if safe_source_url:
+        data["citation"] = safe_source_url
 
     scripts = [json.dumps(data, ensure_ascii=False)]
 
@@ -2208,6 +2232,33 @@ def _render_body_paragraphs(body_text: str) -> str:
     if not paragraphs:
         paragraphs = [body_text]
     return "".join(f"<p>{html_lib.escape(p)}</p>" for p in paragraphs)
+
+
+def _render_article_body(entry: dict) -> str:
+    """記事本文のHTML化。TL;DR+3見出し(h3)の新形式データがあればそちらを使い、
+    それが無い旧記事は従来通り段落分割のみで表示する(AIOテンプレート変更は新規記事のみに適用)。"""
+    tldr = entry.get("tldr")
+    what = entry.get("what_happened")
+    why = entry.get("why_it_matters")
+    impact = entry.get("future_impact")
+    if tldr and what and why and impact:
+        return (
+            f'<p class="tldr"><strong>TL;DR</strong> {html_lib.escape(tldr)}</p>'
+            f"<h3>何が起きたか</h3><p>{html_lib.escape(what)}</p>"
+            f"<h3>なぜ重要か</h3><p>{html_lib.escape(why)}</p>"
+            f"<h3>今後の影響</h3><p>{html_lib.escape(impact)}</p>"
+        )
+    return _render_body_paragraphs(entry.get("body") or entry.get("summary") or "")
+
+
+def _entry_text_length(entry: dict) -> int:
+    """本文の分量(文字数)。新形式(TL;DR+3見出し)/旧形式(body)どちらのデータにも対応する。
+    読了時間の概算や、PVデータ不在時の編集部ピックアップの厚み判定に使う。"""
+    body = entry.get("body")
+    if body:
+        return len(body)
+    parts = (entry.get("tldr"), entry.get("what_happened"), entry.get("why_it_matters"), entry.get("future_impact"))
+    return sum(len(p) for p in parts if p)
 
 
 def _make_slug(link: str, tags: list[str] | None = None) -> str:
@@ -2278,7 +2329,7 @@ CHARS_PER_MINUTE = 500  # 日本語の平均的な黙読速度の目安
 
 def _reading_time(entry: dict) -> int:
     """本文の文字数から読了時間(分)を概算する。LLM不要、最低1分。"""
-    body_len = len(entry.get("body") or entry.get("summary") or "")
+    body_len = _entry_text_length(entry) or len(entry.get("summary") or "")
     return max(1, round(body_len / CHARS_PER_MINUTE))
 
 
@@ -2418,7 +2469,10 @@ def build() -> None:
             "headline": result["headline"],
             "seo_title": result.get("seo_title") or result["headline"],
             "summary": result["summary"],
-            "body": result["body"],
+            "tldr": result["tldr"],
+            "what_happened": result["what_happened"],
+            "why_it_matters": result["why_it_matters"],
+            "future_impact": result["future_impact"],
             "tags": result.get("tags") or [],
             "faq": result.get("faq") or [],
             "digest": result.get("digest") or {},
@@ -2561,6 +2615,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
     )
     topic_urls = _write_topic_pages(articles_data)
     _write_feed(articles_data)
+    _write_llms_txt(articles_data)
     _write_robots_and_sitemap(articles_data, extra_urls=topic_urls)
 
     logger.info(
@@ -2630,7 +2685,7 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
         source=html_lib.escape(entry["source"]),
         level_badge=_level_badge(entry),
         generated_at=entry["generated_at"],
-        body=_render_body_paragraphs(entry.get("body") or entry["summary"]),
+        body=_render_article_body(entry),
         faq=_render_faq_html(entry.get("faq")),
         summary=html_lib.escape(entry["summary"]),
         link=html_lib.escape(safe_link),
@@ -2698,6 +2753,32 @@ def _write_feed(articles_data: list[dict]) -> None:
         + "\n</channel></rss>\n"
     )
     FEED_PATH.write_text(feed, encoding="utf-8")
+
+
+def _write_llms_txt(articles_data: list[dict]) -> None:
+    """AIクローラー(LLM)向けのサイト索引。llms.txt(非公式だが普及しつつある慣習)に従い、
+    記事のURL・タイトル・概要・更新日時をプレーンテキストで一覧化する。"""
+    lines = [
+        "# AI特化メディアMOT",
+        "",
+        "> AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、"
+        "編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。",
+        "",
+        f"サイトURL: {SITE_BASE_URL}/",
+        f"最終更新: {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+        "",
+        "## 記事一覧",
+        "",
+    ]
+    recent = sorted(articles_data, key=lambda e: e.get("generated_at", ""), reverse=True)[:MAX_LLMS_TXT_ARTICLES]
+    for e in recent:
+        url = _abs_url(f"articles/{e['slug']}.html")
+        title = (e.get("seo_title") or e.get("headline") or "").replace("\n", " ")
+        summary = (e.get("summary") or "").replace("\n", " ")
+        updated = e.get("generated_at", "")
+        source = e.get("source", "")
+        lines.append(f"- [{title}]({url}): {summary} (出典: {source} / 更新: {updated})")
+    LLMS_TXT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def _write_robots_and_sitemap(articles_data: list[dict], extra_urls: list[str] | None = None) -> None:
