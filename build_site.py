@@ -22,7 +22,8 @@ import json
 import logging
 import re
 import urllib.parse
-from datetime import datetime
+from collections import Counter
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -53,6 +54,8 @@ MAX_NEW_ARTICLES = 5  # 1回の生成で新規に追加する記事数
 MAX_ATTEMPTS_PER_RUN = 15  # 1回の実行で試みるClaude API呼び出しの上限(コスト暴走防止の安全装置)
 STALE_ALERT_THRESHOLD = 3  # 何回連続で新規記事0件だったらアラートメールを送るか
 ALERT_STATE_PATH = Path(__file__).parent / "alert_state.json"
+DIGEST_STATE_PATH = Path(__file__).parent / "digest_state.json"
+DIGEST_HOUR_RANGE = (5, 9)  # この時間帯(07:00の実行)にだけ日次レポートを送る
 MAX_INDEX_ARTICLES = 20  # 一覧ページに表示する件数(蓄積データの中から新しい順)
 MAX_STORED_ARTICLES = 1500  # articles_data.jsonに保持する上限(古いものから削除。1日5回更新に合わせて増量)
 MAX_RELATED_ARTICLES = 3  # 記事ページ下部に出す関連記事の件数
@@ -2321,7 +2324,56 @@ def _record_run_result(got_new_articles: bool) -> None:
     _save_alert_state(st)
 
 
+def _maybe_send_daily_digest() -> None:
+    """朝の実行時に1日1回だけ、直近24時間の集計結果をメールで送る。"""
+    now = datetime.now()
+    if not (DIGEST_HOUR_RANGE[0] <= now.hour <= DIGEST_HOUR_RANGE[1]):
+        return
+
+    today_str = now.strftime("%Y-%m-%d")
+    digest_state = {}
+    if DIGEST_STATE_PATH.exists():
+        try:
+            digest_state = json.loads(DIGEST_STATE_PATH.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            digest_state = {}
+    if digest_state.get("last_sent_date") == today_str:
+        return
+
+    articles_data = _load_articles_data()
+    cutoff = (now - timedelta(days=1)).strftime("%Y-%m-%d %H:%M")
+    recent = [a for a in articles_data if a.get("generated_at", "") >= cutoff]
+    source_counts = Counter(a.get("source", "?") for a in recent)
+
+    lines = [
+        f"MOT 日次レポート ({today_str})",
+        "",
+        f"直近24時間の新規記事: {len(recent)}件",
+        f"サイト全体の総記事数: {len(articles_data)}件",
+        "",
+    ]
+    if recent:
+        lines.append("--- 直近24時間の新着記事 ---")
+        for a in recent:
+            lines.append(f"・{a.get('headline', '?')}（{a.get('source', '?')}）")
+        lines.append("")
+        lines.append("--- ソース別内訳(直近24時間) ---")
+        for src, cnt in source_counts.most_common(10):
+            lines.append(f"{cnt:3d}件  {src}")
+    else:
+        lines.append("直近24時間で新規記事はありませんでした。")
+    lines.append("")
+    lines.append(f"サイト: {SITE_BASE_URL}/")
+
+    sent = alert.send_digest(f"{today_str}の集計結果", "\n".join(lines))
+    if sent:
+        DIGEST_STATE_PATH.write_text(
+            json.dumps({"last_sent_date": today_str}, ensure_ascii=False), encoding="utf-8"
+        )
+
+
 def build() -> None:
+    _maybe_send_daily_digest()
     posted_links = state.get_posted_links()
     articles = sources.fetch_candidates()
     candidates = sources.filter_unposted(articles, posted_links)

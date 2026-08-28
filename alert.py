@@ -14,7 +14,7 @@ SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 465
 
 
-def send_alert(subject: str, body: str) -> bool:
+def _send(prefixed_subject: str, body: str) -> bool:
     address = os.environ.get("GMAIL_ADDRESS")
     app_password = os.environ.get("GMAIL_APP_PASSWORD")
     to_address = os.environ.get("GMAIL_TO") or address
@@ -22,7 +22,7 @@ def send_alert(subject: str, body: str) -> bool:
         return False
 
     msg = MIMEText(body, _charset="utf-8")
-    msg["Subject"] = f"[MOT異常通知] {subject}"
+    msg["Subject"] = prefixed_subject
     msg["From"] = address
     msg["To"] = to_address
 
@@ -33,3 +33,12 @@ def send_alert(subject: str, body: str) -> bool:
         return True
     except Exception:
         return False
+
+
+def send_alert(subject: str, body: str) -> bool:
+    return _send(f"[MOT異常通知] {subject}", body)
+
+
+def send_digest(subject: str, body: str) -> bool:
+    """毎朝の集計レポートなど、異常ではない定期メールを送る。"""
+    return _send(f"[MOT日次レポート] {subject}", body)
