@@ -1341,8 +1341,10 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:site_name" content="AI特化メディアMOT">
 <meta property="og:title" content="AI特化メディアMOT">
 <meta property="og:description" content="生成AI・LLM関連の最新ニュースをキャッチーな見出しでまとめてお届け">
+<meta property="og:image" content="{site_logo}">
 <meta property="og:url" content="{page_url}">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="{site_logo}">
 {organization_jsonld}
 </head>
 <body>
@@ -2029,8 +2031,10 @@ TOPIC_PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:site_name" content="AI特化メディアMOT">
 <meta property="og:title" content="{tag}の最新ニュースまとめ | AI特化メディアMOT">
 <meta property="og:description" content="{tag}に関するAI最新ニュースをまとめて紹介。">
+<meta property="og:image" content="{site_logo}">
 <meta property="og:url" content="{page_url}">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="{site_logo}">
 {structured_data}
 </head>
 <body>
@@ -2125,6 +2129,7 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
                 favicon=FAVICON_DATA_URI,
                 page_url=page_url,
                 structured_data=_render_breadcrumb_jsonld(breadcrumb_items),
+                site_logo=_abs_url("og-image.png"),
                 goatcounter=GOATCOUNTER_SCRIPT,
                 csp=CSP_META,
                 google_font=GOOGLE_FONT_LINK,
@@ -2640,6 +2645,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         google_font=GOOGLE_FONT_LINK,
         theme_init=THEME_INIT_SCRIPT,
         organization_jsonld=_render_organization_jsonld(),
+        site_logo=_abs_url("og-image.png"),
     )
     INDEX_PATH.write_text(index_html, encoding="utf-8")
     STYLE_PATH.write_text(STYLE_CSS, encoding="utf-8")
@@ -2717,7 +2723,8 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
     page_url = _abs_url(f"articles/{entry['slug']}.html")
     share_text = urllib.parse.quote(entry["headline"])
     share_url = urllib.parse.quote(page_url)
-    og_image = (_safe_http_url(entry["image_url"]) if entry["image_kind"] == "real" else "") or ""
+    # 記事に実画像が無い場合、SNS共有カードが無地にならないようMOTロゴにフォールバックする
+    og_image = (_safe_http_url(entry["image_url"]) if entry["image_kind"] == "real" else "") or _abs_url("og-image.png")
     safe_link = _safe_http_url(entry["link"]) or "#"
 
     breadcrumb_items = [("ホーム", _abs_url("index.html"))]
