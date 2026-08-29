@@ -77,16 +77,36 @@
   // サイト内検索 + 難易度フィルター(記事カードの絞り込み。クライアントサイドのみ、外部送信なし)
   var searchInput = document.getElementById("mot-search");
   var levelFilter = document.getElementById("level-filter");
+  var searchEmpty = document.getElementById("search-empty");
   var currentLevel = "all";
 
   function applyCardFilters() {
     var q = searchInput ? searchInput.value.trim().toLowerCase() : "";
+    // 検索語がある時は、まだ無限スクロールで読み込まれていない記事も先に全部読み込んでから
+    // 絞り込む(そうしないと「表示済みの20件」しか検索対象にならず、無反応に見えてしまうため)
+    if (q && window.motLoadAllCards) {
+      window.motLoadAllCards();
+    }
+    var visibleCount = 0;
     document.querySelectorAll("[data-searchable]").forEach(function (card) {
       var text = (card.getAttribute("data-search-text") || "").toLowerCase();
       var matchesSearch = !q || text.indexOf(q) !== -1;
       var matchesLevel = currentLevel === "all" || card.getAttribute("data-level") === currentLevel;
-      card.style.display = matchesSearch && matchesLevel ? "" : "none";
+      var visible = matchesSearch && matchesLevel;
+      card.style.display = visible ? "" : "none";
+      if (visible) visibleCount++;
     });
+    if (searchEmpty) {
+      searchEmpty.style.display = (q || currentLevel !== "all") && visibleCount === 0 ? "block" : "none";
+    }
+
+    // 検索中は上部(ティッカー/HERO/TODAY'S BRIEFING/TOPICS等)を隠し、検索結果だけに集中できるようにする
+    document.querySelectorAll(".mot-tagline-strip, .mot-ticker, #continue-exploring, .hero, .today-ai, .topics-explore")
+      .forEach(function (el) { el.style.display = q ? "none" : ""; });
+    var resultsHeading = document.querySelector(".latest-news .section-title-lg");
+    if (resultsHeading) {
+      resultsHeading.textContent = q ? "検索結果" : "すべてのニュース";
+    }
   }
 
   if (searchInput) {
@@ -111,6 +131,40 @@
     navToggle.addEventListener("click", function () {
       navMenu.classList.toggle("open");
     });
+  }
+
+  // 注目ニュースティッカー: 自動でゆっくり流しつつ、ユーザーがドラッグ/スワイプ/ホイールで
+  // いつでも自由に前後にスクロールできるようにする(操作したら一時停止し、少し経ったら再開)
+  var ticker = document.querySelector(".mot-ticker");
+  if (ticker) {
+    var tickerTrack = ticker.querySelector(".mot-ticker-track");
+    var prefersReducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var tickerAuto = !prefersReducedMotion;
+    var tickerResumeTimer = null;
+
+    function pauseTickerAuto() {
+      tickerAuto = false;
+      if (tickerResumeTimer) clearTimeout(tickerResumeTimer);
+      tickerResumeTimer = setTimeout(function () { tickerAuto = true; }, 2500);
+    }
+    ["pointerdown", "wheel", "touchstart"].forEach(function (evt) {
+      ticker.addEventListener(evt, pauseTickerAuto, { passive: true });
+    });
+
+    if (!prefersReducedMotion && tickerTrack) {
+      (function tickerTick() {
+        if (tickerAuto) {
+          var half = tickerTrack.scrollWidth / 2;
+          if (half > 0) {
+            ticker.scrollLeft += 0.5;
+            if (ticker.scrollLeft >= half) {
+              ticker.scrollLeft -= half;
+            }
+          }
+        }
+        requestAnimationFrame(tickerTick);
+      })();
+    }
   }
 
   // CONTINUE EXPLORING: 閲覧したタグをこの端末のlocalStorageにだけ記録する(サーバー送信なし)。

@@ -76,6 +76,11 @@ main {
   gap: 8px;
   margin: 4px 0 18px;
 }
+.search-empty {
+  color: var(--mot-text-secondary);
+  font-size: 0.88rem;
+  margin: 4px 0 18px;
+}
 .level-filter-btn {
   background: #fff;
   border: 1px solid #e5e5ee;
@@ -436,12 +441,14 @@ footer a {
   margin: 0 0 8px;
 }
 .article-page .summary {
-  font-size: 1rem;
-  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+  color: #2b2b33;
   margin-bottom: 20px;
 }
 .article-page .summary p {
-  margin: 0 0 14px;
+  margin: 0 0 20px;
 }
 .article-page .summary p:last-child {
   margin-bottom: 0;
@@ -713,22 +720,22 @@ footer a {
   color: #b0a4ff;
 }
 
-/* --- 注目ニュースティッカー(タイトル直下、横に自動スクロール) --- */
+/* --- 注目ニュースティッカー(タイトル直下、自動スクロール+手動でも自由に前後できる) --- */
 .mot-ticker {
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
   margin: 14px 0 0;
   -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
   mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
+.mot-ticker::-webkit-scrollbar { display: none; }
 .mot-ticker-track {
   display: flex;
   gap: 10px;
   width: max-content;
   padding: 0 16px;
-  animation: mot-ticker-scroll 110s linear infinite;
-}
-.mot-ticker:hover .mot-ticker-track {
-  animation-play-state: paused;
 }
 .mot-ticker-item {
   position: relative;
@@ -767,14 +774,6 @@ footer a {
     font-size: 0.76rem;
   }
 }
-@keyframes mot-ticker-scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-@media (prefers-reduced-motion: reduce) {
-  .mot-ticker-track { animation: none; }
-}
-
 /* --- HERO --- */
 .hero {
   padding: 36px 0 28px;

@@ -274,6 +274,11 @@ main {
   gap: 8px;
   margin: 4px 0 18px;
 }
+.search-empty {
+  color: var(--mot-text-secondary);
+  font-size: 0.88rem;
+  margin: 4px 0 18px;
+}
 .level-filter-btn {
   background: #fff;
   border: 1px solid #e5e5ee;
@@ -634,12 +639,14 @@ footer a {
   margin: 0 0 8px;
 }
 .article-page .summary {
-  font-size: 1rem;
-  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+  color: #2b2b33;
   margin-bottom: 20px;
 }
 .article-page .summary p {
-  margin: 0 0 14px;
+  margin: 0 0 20px;
 }
 .article-page .summary p:last-child {
   margin-bottom: 0;
@@ -911,22 +918,22 @@ footer a {
   color: #b0a4ff;
 }
 
-/* --- 注目ニュースティッカー(タイトル直下、横に自動スクロール) --- */
+/* --- 注目ニュースティッカー(タイトル直下、自動スクロール+手動でも自由に前後できる) --- */
 .mot-ticker {
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
   margin: 14px 0 0;
   -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
   mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
+.mot-ticker::-webkit-scrollbar { display: none; }
 .mot-ticker-track {
   display: flex;
   gap: 10px;
   width: max-content;
   padding: 0 16px;
-  animation: mot-ticker-scroll 110s linear infinite;
-}
-.mot-ticker:hover .mot-ticker-track {
-  animation-play-state: paused;
 }
 .mot-ticker-item {
   position: relative;
@@ -965,14 +972,6 @@ footer a {
     font-size: 0.76rem;
   }
 }
-@keyframes mot-ticker-scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-@media (prefers-reduced-motion: reduce) {
-  .mot-ticker-track { animation: none; }
-}
-
 /* --- HERO --- */
 .hero {
   padding: 36px 0 28px;
@@ -1193,16 +1192,36 @@ SHARE_JS = """(function () {
   // サイト内検索 + 難易度フィルター(記事カードの絞り込み。クライアントサイドのみ、外部送信なし)
   var searchInput = document.getElementById("mot-search");
   var levelFilter = document.getElementById("level-filter");
+  var searchEmpty = document.getElementById("search-empty");
   var currentLevel = "all";
 
   function applyCardFilters() {
     var q = searchInput ? searchInput.value.trim().toLowerCase() : "";
+    // 検索語がある時は、まだ無限スクロールで読み込まれていない記事も先に全部読み込んでから
+    // 絞り込む(そうしないと「表示済みの20件」しか検索対象にならず、無反応に見えてしまうため)
+    if (q && window.motLoadAllCards) {
+      window.motLoadAllCards();
+    }
+    var visibleCount = 0;
     document.querySelectorAll("[data-searchable]").forEach(function (card) {
       var text = (card.getAttribute("data-search-text") || "").toLowerCase();
       var matchesSearch = !q || text.indexOf(q) !== -1;
       var matchesLevel = currentLevel === "all" || card.getAttribute("data-level") === currentLevel;
-      card.style.display = matchesSearch && matchesLevel ? "" : "none";
+      var visible = matchesSearch && matchesLevel;
+      card.style.display = visible ? "" : "none";
+      if (visible) visibleCount++;
     });
+    if (searchEmpty) {
+      searchEmpty.style.display = (q || currentLevel !== "all") && visibleCount === 0 ? "block" : "none";
+    }
+
+    // 検索中は上部(ティッカー/HERO/TODAY'S BRIEFING/TOPICS等)を隠し、検索結果だけに集中できるようにする
+    document.querySelectorAll(".mot-tagline-strip, .mot-ticker, #continue-exploring, .hero, .today-ai, .topics-explore")
+      .forEach(function (el) { el.style.display = q ? "none" : ""; });
+    var resultsHeading = document.querySelector(".latest-news .section-title-lg");
+    if (resultsHeading) {
+      resultsHeading.textContent = q ? "検索結果" : "すべてのニュース";
+    }
   }
 
   if (searchInput) {
@@ -1227,6 +1246,40 @@ SHARE_JS = """(function () {
     navToggle.addEventListener("click", function () {
       navMenu.classList.toggle("open");
     });
+  }
+
+  // 注目ニュースティッカー: 自動でゆっくり流しつつ、ユーザーがドラッグ/スワイプ/ホイールで
+  // いつでも自由に前後にスクロールできるようにする(操作したら一時停止し、少し経ったら再開)
+  var ticker = document.querySelector(".mot-ticker");
+  if (ticker) {
+    var tickerTrack = ticker.querySelector(".mot-ticker-track");
+    var prefersReducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var tickerAuto = !prefersReducedMotion;
+    var tickerResumeTimer = null;
+
+    function pauseTickerAuto() {
+      tickerAuto = false;
+      if (tickerResumeTimer) clearTimeout(tickerResumeTimer);
+      tickerResumeTimer = setTimeout(function () { tickerAuto = true; }, 2500);
+    }
+    ["pointerdown", "wheel", "touchstart"].forEach(function (evt) {
+      ticker.addEventListener(evt, pauseTickerAuto, { passive: true });
+    });
+
+    if (!prefersReducedMotion && tickerTrack) {
+      (function tickerTick() {
+        if (tickerAuto) {
+          var half = tickerTrack.scrollWidth / 2;
+          if (half > 0) {
+            ticker.scrollLeft += 0.5;
+            if (ticker.scrollLeft >= half) {
+              ticker.scrollLeft -= half;
+            }
+          }
+        }
+        requestAnimationFrame(tickerTick);
+      })();
+    }
   }
 
   // CONTINUE EXPLORING: 閲覧したタグをこの端末のlocalStorageにだけ記録する(サーバー送信なし)。
@@ -1335,6 +1388,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     <button type="button" class="level-filter-btn" data-filter-level="easy">&#128994; やさしい</button>
     <button type="button" class="level-filter-btn" data-filter-level="technical">&#128309; テクニカル</button>
   </div>
+  <p id="search-empty" class="search-empty" style="display:none;">条件に一致する記事が見つかりませんでした。</p>
   {cards}
   <div id="scroll-sentinel"></div>
   <p id="load-status"></p>
@@ -1475,6 +1529,14 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     }}
   }});
   observer.observe(sentinel);
+
+  // 検索が「表示済みの記事だけ」を対象にして機能してないように見えるのを防ぐため、
+  // 検索時にはこれを呼んで残り全件を先に読み込ませる(share.jsから呼ばれる)
+  window.motLoadAllCards = function() {{
+    while (queue.length > 0) {{
+      loadMore();
+    }}
+  }};
 }})();
 </script>
 </body>
