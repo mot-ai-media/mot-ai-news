@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-08-30 03:11
+最終更新: 2026-08-30 03:45
 
 ## 記事一覧
 
+- [AIと医療の融合、オープンデータが鍵に。a16z出身者が語る医学の未来](https://mot-ai-media.github.io/mot-ai-news/articles/a16z-ai-160a511d.html): 40億ドル規模のバイオテック投資を率いたVijay Pandeが、医学がエンジニアリング化する中でAIが本当に機能するには、閉鎖的データではなくオープンな共有データセットが必須と主張。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
+- [Nvidiaのデータセンター戦略が転換、GPU性能よりネットワーク制御が重視される理由](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-dcb10e4d.html): Nvidiaの優位性がGPUの処理能力からネットワーク効率へシフト。次世代システムは賢いトラフィック制御で全体効率を向上させる設計へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
+- [Neocloud Lambdaが10億ドル調達、AI チップ調達の資金力強化](https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html): AI チップ調達競争の激化を象徴。Neocloud Lambda が 10 億ドルの債務で Nvidia チップを買収し Microsoft へリース。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
+- [Google Gemini×BTS コラボ機能とは？解禁方法・4つの体験を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html): GoogleのAI「Gemini」とBTSのコラボ機能が公開。特定のコマンド入力で限定体験にアクセス可能。 (出典: リアルサウンド / 更新: 2026-08-30 03:43)
+- [ソニー・ワーナーがAnthropicを提訴、著作権侵害疑惑を主張](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-a07c3116.html): 音楽大手2社がAI企業Anthropicに対し、著作権侵害による大規模な知的財産盗用を疑う訴訟を提起。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:43)
 - [OpenAI知能スタックとは？チップ・計算・モデル・製品の統合戦略](https://mot-ai-media.github.io/mot-ai-news/articles/openai-sarah-friar-829e237a.html): OpenAI CFOが、チップから製品まで一連の技術進化が相乗効果を生み出し、より規模の大きい知能をより低コストで実現する仕組みを説明。 (出典: OpenAI News / 更新: 2026-08-29 18:36)
 - [OpenAI推論チップJalapeñoとは？速度・効率性・特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-jalape-o-9ad99bb5.html): OpenAIが独自開発した推論チップJalapeñoが、高速性と低消費電力を両立し、業界をリードする性能を示した。 (出典: OpenAI News / 更新: 2026-08-29 18:36)
 - [OpenAI、Cursor買収後の契約終了を発表](https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-092c8de0.html): OpenAIがSpaceXの買収後、AIコードエディタCursorへのモデル提供契約を打ち切ることを決定。 (出典: OpenAI News / 更新: 2026-08-29 18:35)

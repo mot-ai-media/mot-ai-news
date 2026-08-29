@@ -30,6 +30,10 @@ main {
   margin-bottom: 20px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
+.card-minor {
+  opacity: 0.82;
+  box-shadow: none;
+}
 .badge-new {
   position: absolute;
   top: 10px;
@@ -526,12 +530,6 @@ footer a {
   margin: 4px 0 14px;
   color: #4a4a5e;
 }
-.editorial-note {
-  font-size: 0.7rem;
-  color: #bbb;
-  margin: 8px 2px 0;
-}
-
 /* ============ ここから: トップページ全面刷新 ============ */
 
 /* --- ダークモード(海外プロダクト風、純黒ではなく少し青みのある黒) --- */
@@ -549,17 +547,12 @@ footer a {
 :root[data-theme="dark"] .today-facts dd,
 :root[data-theme="dark"] .hero-why { color: #b8b8c8; }
 :root[data-theme="dark"] .meta,
-:root[data-theme="dark"] .hero-meta,
-:root[data-theme="dark"] .editorial-note,
-:root[data-theme="dark"] .trending-cat { color: #8a8a9a; }
+:root[data-theme="dark"] .hero-meta { color: #8a8a9a; }
 :root[data-theme="dark"] .hero-headline,
 :root[data-theme="dark"] .section-title-lg,
 :root[data-theme="dark"] .today-card-title,
-:root[data-theme="dark"] .trending-title,
 :root[data-theme="dark"] h1.headline { color: #f0f0f6; }
-:root[data-theme="dark"] .hero,
-:root[data-theme="dark"] .trending-item { border-color: #24242e; }
-:root[data-theme="dark"] .trending-num { opacity: 0.8; }
+:root[data-theme="dark"] .hero { border-color: #24242e; }
 :root[data-theme="dark"] .fact-what { border-left-color: #3a3f7a; }
 :root[data-theme="dark"] .fact-why { border-left-color: #6b551f; }
 :root[data-theme="dark"] .fact-impact { border-left-color: #1f5c47; }
@@ -857,6 +850,11 @@ footer a {
   line-height: 1.55;
 }
 .today-card-title:hover { text-decoration: underline; }
+.today-card-major {
+  border-left-color: var(--mot-primary);
+  border-left-width: 4px;
+  background: rgba(37, 99, 235, 0.04);
+}
 .today-facts { margin: 0; }
 .today-facts div {
   margin-bottom: 10px;
@@ -882,46 +880,6 @@ footer a {
 .fact-why { border-left-color: #f2d9ae; }
 .fact-impact dt { color: #21a17a; }
 .fact-impact { border-left-color: #b7e5d6; }
-
-/* --- TRENDING --- */
-.trending { margin-bottom: 44px; }
-.trending-list {
-  list-style: none;
-  margin: 16px 0 0;
-  padding: 0;
-}
-.trending-item {
-  display: flex;
-  align-items: baseline;
-  gap: 16px;
-  padding: 14px 0;
-  border-bottom: 1px solid #eceef3;
-}
-.trending-item:first-child { padding-top: 0; }
-.trending-num {
-  font-family: "Zen Old Mincho", serif;
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--mot-trending);
-  opacity: 0.55;
-  flex-shrink: 0;
-  width: 34px;
-}
-.trending-body { flex: 1; min-width: 0; }
-.trending-title {
-  display: block;
-  font-size: 0.92rem;
-  font-weight: 600;
-  color: #14141c;
-  text-decoration: none;
-  line-height: 1.5;
-  margin-bottom: 4px;
-}
-.trending-title:hover { text-decoration: underline; }
-.trending-cat {
-  font-size: 0.72rem;
-  color: #9a9aab;
-}
 
 /* --- TOPICS探索 --- */
 .topics-explore { margin-bottom: 44px; }

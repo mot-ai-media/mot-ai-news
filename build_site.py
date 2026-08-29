@@ -102,7 +102,6 @@ SUB_NAV_TEMPLATE = """<nav class="mot-nav">
     <ul class="mot-nav-links" id="mot-nav-menu">
       <li><a href="{prefix}index.html#today">TODAY</a></li>
       <li><a href="{prefix}index.html#latest">LATEST</a></li>
-      <li><a href="{prefix}index.html#trending">TRENDING</a></li>
       <li><a href="{prefix}topics/index.html">TOPICS</a></li>
     </ul>
     <div class="mot-nav-actions">
@@ -228,6 +227,10 @@ main {
   overflow: hidden;
   margin-bottom: 20px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.card-minor {
+  opacity: 0.82;
+  box-shadow: none;
 }
 .badge-new {
   position: absolute;
@@ -725,12 +728,6 @@ footer a {
   margin: 4px 0 14px;
   color: #4a4a5e;
 }
-.editorial-note {
-  font-size: 0.7rem;
-  color: #bbb;
-  margin: 8px 2px 0;
-}
-
 /* ============ ここから: トップページ全面刷新 ============ */
 
 /* --- ダークモード(海外プロダクト風、純黒ではなく少し青みのある黒) --- */
@@ -748,17 +745,12 @@ footer a {
 :root[data-theme="dark"] .today-facts dd,
 :root[data-theme="dark"] .hero-why { color: #b8b8c8; }
 :root[data-theme="dark"] .meta,
-:root[data-theme="dark"] .hero-meta,
-:root[data-theme="dark"] .editorial-note,
-:root[data-theme="dark"] .trending-cat { color: #8a8a9a; }
+:root[data-theme="dark"] .hero-meta { color: #8a8a9a; }
 :root[data-theme="dark"] .hero-headline,
 :root[data-theme="dark"] .section-title-lg,
 :root[data-theme="dark"] .today-card-title,
-:root[data-theme="dark"] .trending-title,
 :root[data-theme="dark"] h1.headline { color: #f0f0f6; }
-:root[data-theme="dark"] .hero,
-:root[data-theme="dark"] .trending-item { border-color: #24242e; }
-:root[data-theme="dark"] .trending-num { opacity: 0.8; }
+:root[data-theme="dark"] .hero { border-color: #24242e; }
 :root[data-theme="dark"] .fact-what { border-left-color: #3a3f7a; }
 :root[data-theme="dark"] .fact-why { border-left-color: #6b551f; }
 :root[data-theme="dark"] .fact-impact { border-left-color: #1f5c47; }
@@ -1056,6 +1048,11 @@ footer a {
   line-height: 1.55;
 }
 .today-card-title:hover { text-decoration: underline; }
+.today-card-major {
+  border-left-color: var(--mot-primary);
+  border-left-width: 4px;
+  background: rgba(37, 99, 235, 0.04);
+}
 .today-facts { margin: 0; }
 .today-facts div {
   margin-bottom: 10px;
@@ -1081,46 +1078,6 @@ footer a {
 .fact-why { border-left-color: #f2d9ae; }
 .fact-impact dt { color: #21a17a; }
 .fact-impact { border-left-color: #b7e5d6; }
-
-/* --- TRENDING --- */
-.trending { margin-bottom: 44px; }
-.trending-list {
-  list-style: none;
-  margin: 16px 0 0;
-  padding: 0;
-}
-.trending-item {
-  display: flex;
-  align-items: baseline;
-  gap: 16px;
-  padding: 14px 0;
-  border-bottom: 1px solid #eceef3;
-}
-.trending-item:first-child { padding-top: 0; }
-.trending-num {
-  font-family: "Zen Old Mincho", serif;
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--mot-trending);
-  opacity: 0.55;
-  flex-shrink: 0;
-  width: 34px;
-}
-.trending-body { flex: 1; min-width: 0; }
-.trending-title {
-  display: block;
-  font-size: 0.92rem;
-  font-weight: 600;
-  color: #14141c;
-  text-decoration: none;
-  line-height: 1.5;
-  margin-bottom: 4px;
-}
-.trending-title:hover { text-decoration: underline; }
-.trending-cat {
-  font-size: 0.72rem;
-  color: #9a9aab;
-}
 
 /* --- TOPICS探索 --- */
 .topics-explore { margin-bottom: 44px; }
@@ -1354,7 +1311,6 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     <ul class="mot-nav-links" id="mot-nav-menu">
       <li><a href="#today">TODAY</a></li>
       <li><a href="#latest">LATEST</a></li>
-      <li><a href="#trending">TRENDING</a></li>
       <li><a href="topics/index.html">TOPICS</a></li>
     </ul>
     <div class="mot-nav-actions">
@@ -1369,8 +1325,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <main class="mot-main">
 <div id="continue-exploring"></div>
 {hero}
-{today_in_ai}
-{trending}
+{todays_briefing}
 {topics_explore}
 <section class="latest-news" id="latest">
   <p class="section-label">LATEST NEWS</p>
@@ -1403,7 +1358,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 
   function renderCard(item) {{
     var article = document.createElement("article");
-    article.className = "card";
+    article.className = item.importance === "minor" ? "card card-minor" : "card";
     article.setAttribute("data-searchable", "");
     article.setAttribute("data-search-text", item.headline);
     article.setAttribute("data-level", item.level);
@@ -1552,7 +1507,7 @@ def _thumb_share_html(slug: str, headline: str) -> str:
     )
 
 
-CARD_TEMPLATE = """<article class="card" data-searchable data-search-text="{search_text}" data-level="{level}">
+CARD_TEMPLATE = """<article class="card{importance_class}" data-searchable data-search-text="{search_text}" data-level="{level}">
   {new_badge}{thumbnail}{thumb_share}
   <div class="card-body">
     <h2 class="sr-only"><a href="articles/{slug}.html">{headline}</a></h2>
@@ -1689,56 +1644,6 @@ def _pick_editorial_highlights(articles_data: list[dict], limit: int = 3) -> lis
     return ranked[:limit]
 
 
-TRENDING_ITEM_TEMPLATE = (
-    '<li class="trending-item">'
-    '<span class="trending-num">{num}</span>'
-    '<div class="trending-body">'
-    '<a class="trending-title" href="articles/{slug}.html">{headline}</a>'
-    '<span class="trending-cat">{meta}</span>'
-    "</div></li>"
-)
-
-
-def _render_trending(
-    ranking_data: dict | None, articles_data: list[dict], exclude_slug: str | None = None, limit: int = 5
-) -> str:
-    """TRENDING NOWセクション。実PVデータがあれば人気順、無ければ「編集部ピックアップ」
-    (記事の情報の厚みから機械的に選定)を表示する。架空の閲覧数は絶対に作らず、
-    実データが無い間はeditorial-noteで正直に明示する。
-    将来PV連携する際は ranking_data={"popular": [{"slug","headline","views"}, ...]} を渡せば
-    自動的に実データ表示に切り替わる。"""
-    if ranking_data and ranking_data.get("popular"):
-        items_data = ranking_data["popular"][:limit]
-        lis = "".join(
-            TRENDING_ITEM_TEMPLATE.format(
-                num=f"{i + 1:02d}", slug=e["slug"], headline=html_lib.escape(e["headline"]),
-                meta=f'{e.get("views", 0)}回閲覧',
-            )
-            for i, e in enumerate(items_data)
-        )
-        note = ""
-    else:
-        candidates = [e for e in articles_data if e["slug"] != exclude_slug]
-        picks = _pick_editorial_highlights(candidates, limit)
-        if not picks:
-            return ""
-        lis = "".join(
-            TRENDING_ITEM_TEMPLATE.format(
-                num=f"{i + 1:02d}", slug=e["slug"], headline=html_lib.escape(e["headline"]),
-                meta=html_lib.escape(e.get("source", "")),
-            )
-            for i, e in enumerate(picks)
-        )
-        note = '<p class="editorial-note">閲覧ランキングは、データが集まり次第表示します(現在は編集部ピックアップ)。</p>'
-    return (
-        '<section class="trending" id="trending">'
-        '<p class="section-label">TRENDING NOW</p>'
-        f'<ol class="trending-list">{lis}</ol>'
-        f"{note}"
-        "</section>"
-    )
-
-
 HERO_TEMPLATE = """<section class="hero">
   <p class="hero-label">TODAY'S TOP STORY</p>
   <a class="hero-link" href="articles/{slug}.html">
@@ -1764,7 +1669,7 @@ def _render_hero(entry: dict) -> str:
     )
 
 
-TODAY_CARD_TEMPLATE = """<article class="today-card">
+TODAY_CARD_TEMPLATE = """<article class="today-card{major_class}">
   <a href="articles/{slug}.html" class="today-card-title">{headline}</a>
   <dl class="today-facts">
     <div class="fact-what"><dt>WHAT HAPPENED</dt><dd>{what}</dd></div>
@@ -1773,8 +1678,19 @@ TODAY_CARD_TEMPLATE = """<article class="today-card">
 """
 
 
-def _render_today_in_ai(articles_data: list[dict], exclude_slug: str | None = None, limit: int = 5) -> str:
-    pool = [e for e in reversed(articles_data) if e["slug"] != exclude_slug][:limit]
+def _render_todays_briefing(articles_data: list[dict], exclude_slug: str | None = None, limit: int = 5) -> str:
+    """「今日、知っておくべきこと」セクション。以前はTODAY IN AI(直近記事を機械的に列挙)と
+    TRENDING NOW(実PVが無いので編集部ピックアップ)の2セクションに分かれていたが、
+    どちらも実質「重要なものを見せる」という同じ役割だったため統合した。
+    importance(major/notable)が付いた記事を優先し、足りない場合のみ情報の厚みベースの
+    編集部ピックアップで補う(架空の人気度は作らない、という方針は維持)。"""
+    candidates = [e for e in reversed(articles_data) if e["slug"] != exclude_slug]
+    important = [e for e in candidates if _entry_importance(e) in ("major", "notable")][:limit]
+    if len(important) < min(3, len(candidates)):
+        picked_slugs = {e["slug"] for e in important}
+        backfill_pool = [e for e in candidates if e["slug"] not in picked_slugs]
+        important += _pick_editorial_highlights(backfill_pool, limit - len(important))
+    pool = important[:limit]
     if not pool:
         return ""
     cards = []
@@ -1792,12 +1708,13 @@ def _render_today_in_ai(articles_data: list[dict], exclude_slug: str | None = No
             TODAY_CARD_TEMPLATE.format(
                 slug=e["slug"], headline=html_lib.escape(e["headline"]),
                 what=html_lib.escape(digest["what"]), why_row=why_row, impact_row=impact_row,
+                major_class=" today-card-major" if _entry_importance(e) == "major" else "",
             )
         )
     return (
         '<section class="today-ai" id="today">'
-        '<p class="section-label">TODAY IN AI</p>'
-        '<h2 class="section-title-lg">今日、AI業界で何が起きた？</h2>'
+        '<p class="section-label">TODAY\'S BRIEFING</p>'
+        '<h2 class="section-title-lg">今日、知っておくべきこと</h2>'
         f'<div class="today-grid">{"".join(cards)}</div>'
         "</section>"
     )
@@ -2113,6 +2030,7 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
                 level_badge=_level_badge(entry),
                 card_tags=_render_card_tags(entry),
                 ad_code="",
+                importance_class=" card-minor" if _entry_importance(entry) == "minor" else "",
             )
             cards_html.append(card_html.replace('href="articles/', 'href="../articles/'))
         page_url = _abs_url(f"topics/{slug}.html")
@@ -2351,6 +2269,16 @@ def _entry_level(entry: dict) -> str:
     return level if level in LEVEL_LABELS else "easy"
 
 
+_VALID_IMPORTANCE = {"major", "notable", "minor"}
+
+
+def _entry_importance(entry: dict) -> str:
+    """importanceが無い旧記事、または想定外の値は安全側(notable)として扱う。
+    CSSクラス名の組み立てにも使うため、既知の3値以外は絶対に信用しない。"""
+    importance = entry.get("importance")
+    return importance if importance in _VALID_IMPORTANCE else "notable"
+
+
 def _level_badge(entry: dict) -> str:
     level = _entry_level(entry)
     icon = "&#128309;" if level == "technical" else "&#128994;"
@@ -2517,6 +2445,7 @@ def build() -> None:
             "headline": result["headline"],
             "seo_title": result.get("seo_title") or result["headline"],
             "summary": result["summary"],
+            "importance": result["importance"],
             "tldr": result["tldr"],
             "what_happened": result["what_happened"],
             "why_it_matters": result["why_it_matters"],
@@ -2587,6 +2516,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
                 level_badge=_level_badge(entry),
                 card_tags=_render_card_tags(entry),
                 ad_code=_pick_ad(entry),
+                importance_class=" card-minor" if _entry_importance(entry) == "minor" else "",
             )
         )
 
@@ -2607,6 +2537,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             "level_label": LEVEL_LABELS[_entry_level(e)],
             "tags": (e.get("tags") or [])[:3],
             "ad_code": _pick_ad(e),
+            "importance": _entry_importance(e),
         }
         if e["image_kind"] != "real":
             data["g1"], data["g2"] = _pick_gradient(e["source"])
@@ -2616,8 +2547,14 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         [_more_entry(e) for e in more], ensure_ascii=False
     ).replace("</", "<\\/")  # </script>によるタグ混入対策
 
-    hero_pool = _pick_editorial_highlights(articles_data, limit=1)
-    hero_entry = hero_pool[0] if hero_pool else None
+    # HEROは「今日一番重要なもの」を出したいので、まずmajor記事を新しい順に探し、
+    # 無ければ従来通り情報の厚みベースの編集部ピックアップにフォールバックする。
+    major_recent = [e for e in reversed(articles_data) if _entry_importance(e) == "major"]
+    if major_recent:
+        hero_entry = major_recent[0]
+    else:
+        hero_pool = _pick_editorial_highlights(articles_data, limit=1)
+        hero_entry = hero_pool[0] if hero_pool else None
     hero_slug = hero_entry["slug"] if hero_entry else None
 
     topics_summary = {
@@ -2631,8 +2568,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         cards="".join(cards_html),
         hero=_render_hero(hero_entry) if hero_entry else "",
         ticker=_render_ticker(articles_data, exclude_slug=hero_slug),
-        today_in_ai=_render_today_in_ai(articles_data, exclude_slug=hero_slug),
-        trending=_render_trending(None, articles_data, exclude_slug=hero_slug),  # TODO: PV連携後はranking_dataを渡す
+        todays_briefing=_render_todays_briefing(articles_data, exclude_slug=hero_slug),
         topics_explore=_render_topics_explore(articles_data),
         topics_summary_json=topics_summary_json,
         favicon=FAVICON_DATA_URI,

@@ -45,6 +45,14 @@ PROMPT_TEMPLATE = """あなたはAI分野のニュースキュレーションサ
   - what_happened: 「何が起きたか」の解説。元記事の事実を要約。80〜150字程度
   - why_it_matters: 「なぜ重要か」。背景にある業界動向や技術的文脈の一般的な解説。80〜150字程度
   - future_impact: 「今後の影響」。読者(実務者・一般ユーザー等)にとっての意味合い。80〜150字程度
+- importance: この記事の重要度を次の3段階から1つ選ぶ。読者は「AIの全部は追えないが、重要なことだけは知りたい」人なので、
+  ここでの判断がサイト全体の編集(何を目立たせ、何を目立たせないか)に直結する。厳しめに判定すること。
+  - "major": 主要AI企業(OpenAI/Anthropic/Google/Microsoft等)の新モデル・大型新機能、AI規制の大きな動き、
+    業界の前提を変えうる出来事など、これを知らないと明らかに話についていけなくなるレベルのニュース
+    (乱発しない。本当に重要なものだけ)
+  - "notable": 実務や日常に関わりうるが、単独では業界を変えるほどではない出来事(機能追加、ベンチマーク結果、
+    提携発表、注目ツールのアップデート等)
+  - "minor": 上記に当てはまらない、ルーティンな製品ニュース・細かいアップデート・単なる話題づくりの発表など
 - tags: 記事に関連する企業名・製品名・技術名を2〜4個。例: ["OpenAI", "ChatGPT"]。関連記事表示に使う。
 - faq: 検索されそうな疑問とその答えを2〜3個。「とは」「料金」「使い方」「いつから」「何が変わる」等の中から、
   この記事のテーマに合うものを選ぶ。答えは元記事に書かれている範囲の情報のみで簡潔に(1〜2文)。
@@ -58,8 +66,10 @@ PROMPT_TEMPLATE = """あなたはAI分野のニュースキュレーションサ
 - **元記事に書かれていない事実は絶対に作らない**。強くするのは言い回し・トーンだけで、事実関係(誰が・何を・いつ)は元記事の範囲を超えないこと
 - faq/digestの内容も同様に、元記事に無い具体的事実(数字・日付・料金等)を作らない
 - 出力は次のJSON形式のみ。説明や前置き、コードブロック記号は一切つけない
-{{"headline": "ここに見出し", "seo_title": "ここにSEOタイトル", "summary": "ここに要約", "tldr": "結論を1文で", "what_happened": "何が起きたかの解説", "why_it_matters": "なぜ重要かの解説", "future_impact": "今後の影響の解説", "tags": ["タグ1", "タグ2"], "faq": [{{"q": "質問", "a": "回答"}}], "digest": {{"what": "...", "why": "...", "impact": "..."}}}}
+{{"headline": "ここに見出し", "seo_title": "ここにSEOタイトル", "summary": "ここに要約", "importance": "major/notable/minorのいずれか", "tldr": "結論を1文で", "what_happened": "何が起きたかの解説", "why_it_matters": "なぜ重要かの解説", "future_impact": "今後の影響の解説", "tags": ["タグ1", "タグ2"], "faq": [{{"q": "質問", "a": "回答"}}], "digest": {{"what": "...", "why": "...", "impact": "..."}}}}
 """
+
+VALID_IMPORTANCE = {"major", "notable", "minor"}
 
 
 class GenerationError(Exception):
@@ -104,4 +114,8 @@ def generate_headline_and_summary(article: Article, client: anthropic.Anthropic 
         "why": digest.get("why") or "",
         "impact": digest.get("impact") or "",
     }
+    # importanceは自由記述ではなく既知の3値のみを信頼する(想定外の値はnotableに丸める)。
+    # このあとCSSクラス名等に使われるため、未検証の文字列をそのまま通さない。
+    importance = data.get("importance")
+    data["importance"] = importance if importance in VALID_IMPORTANCE else "notable"
     return data

@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Neocloud Lambda、10億ドルの債務調達でNvidia AI チップ大量購入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html</guid>
+    <description>AI チップ調達競争の激化を象徴。Neocloud Lambda が 10 億ドルの債務で Nvidia チップを買収し Microsoft へリース。</description>
+    <pubDate>Sun, 30 Aug 2026 03:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Nvidiaの競争力、GPU性能だけでは通用しない時代へ。次世代データセンターは「頭の良い」ネットワーク制御が主役に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-dcb10e4d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-dcb10e4d.html</guid>
+    <description>Nvidiaの優位性がGPUの処理能力からネットワーク効率へシフト。次世代システムは賢いトラフィック制御で全体効率を向上させる設計へ。</description>
+    <pubDate>Sun, 30 Aug 2026 03:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>a16z元バイオテック責任者が指摘、AI医療革命は「オープンデータ」でしか実現しない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/a16z-ai-160a511d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/a16z-ai-160a511d.html</guid>
+    <description>40億ドル規模のバイオテック投資を率いたVijay Pandeが、医学がエンジニアリング化する中でAIが本当に機能するには、閉鎖的データではなくオープンな共有データセットが必須と主張。</description>
+    <pubDate>Sun, 30 Aug 2026 03:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ソニー・ワーナー、Anthropicを提訴—音楽著作権侵害の「組織的窃盗」を指摘</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-a07c3116.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-a07c3116.html</guid>
+    <description>音楽大手2社がAI企業Anthropicに対し、著作権侵害による大規模な知的財産盗用を疑う訴訟を提起。</description>
+    <pubDate>Sun, 30 Aug 2026 03:43:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google Gemini×BTS、エクスクルーシブコラボ機能が解禁。4つの体験へのアクセス方法も判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</guid>
+    <description>GoogleのAI「Gemini」とBTSのコラボ機能が公開。特定のコマンド入力で限定体験にアクセス可能。</description>
+    <pubDate>Sun, 30 Aug 2026 03:43:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの推論専用チップ「Jalapeño」、業界最高水準の速度と効率性を実証</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jalape-o-9ad99bb5.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jalape-o-9ad99bb5.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8f5b77fd.html</guid>
     <description>AIツールの使い手を分ける本当の要因は、ツールへの依存度ではなく問題解決の思考プロセスにあると専門家が指摘。</description>
     <pubDate>Fri, 28 Aug 2026 12:12:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、Hugging Face侵害事件の詳細公表。AIモデルセキュリティ強化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-504dd1ec.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-504dd1ec.html</guid>
-    <description>OpenAIがHugging Faceで発生した侵害事件の調査結果を公開し、AI model security強化に向けた施策を明らかにした。</description>
-    <pubDate>Fri, 28 Aug 2026 02:37:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、教室を超えた学習支援へ。OpenAIが示す連続学習の新形態</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-cdfc1003.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-cdfc1003.html</guid>
-    <description>OpenAIが新レポートで、ChatGPTが生徒と教育者にもたらす学習の連続化と教室外での支援効果を分析。</description>
-    <pubDate>Fri, 28 Aug 2026 02:37:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT for Teachers、55の米国学区に拡大。10万人超の教育者が利用可能に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d6bb1031.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d6bb1031.html</guid>
-    <description>OpenAIの教育者向けAIツール「ChatGPT for Teachers」が55の米国学区に展開され、10万人超の教育関係者が利用できるようになった。</description>
-    <pubDate>Fri, 28 Aug 2026 02:36:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、ブラジル事業を本格展開。開発者・企業と連携しAI普及を加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57e27628.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57e27628.html</guid>
-    <description>OpenAIがブラジルでの事業拡大を発表。地域の開発者やビジネスコミュニティとの連携を強化し、国内へのAI導入を推進する。</description>
-    <pubDate>Fri, 28 Aug 2026 02:36:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>1000人超の学生実験でChatGPT、批判的思考で学習効果が激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-3062d8cd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-3062d8cd.html</guid>
-    <description>OpenAIが1000人以上の学生を対象に実施した大規模実験で、ChatGPTと批判的思考スキルの関係性が明らかに。</description>
-    <pubDate>Fri, 28 Aug 2026 02:36:00 +0900</pubDate>
   </item>
 </channel></rss>
