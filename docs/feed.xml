@@ -4,6 +4,76 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの推論専用チップ「Jalapeño」、業界最高水準の速度と効率性を実証</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jalape-o-9ad99bb5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jalape-o-9ad99bb5.html</guid>
+    <description>OpenAIが独自開発した推論チップJalapeñoが、高速性と低消費電力を両立し、業界をリードする性能を示した。</description>
+    <pubDate>Sat, 29 Aug 2026 18:36:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI CFO、チップから製品まで「知能の完全スタック」戦略を解説</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sarah-friar-829e237a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sarah-friar-829e237a.html</guid>
+    <description>OpenAI CFOが、チップから製品まで一連の技術進化が相乗効果を生み出し、より規模の大きい知能をより低コストで実現する仕組みを説明。</description>
+    <pubDate>Sat, 29 Aug 2026 18:36:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>loveholidaysがOpenAI Codexで全社員をビルダーに変革</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-d34e82ea.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-d34e82ea.html</guid>
+    <description>旅行サイトloveholidaysがOpenAI Codexを活用し、全社員が開発に参加できる環境を実現。</description>
+    <pubDate>Sat, 29 Aug 2026 18:35:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIとタイ政府、AI創業企業10社を育成する8週間アクセラレーター始動</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-0b00c80d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-0b00c80d.html</guid>
+    <description>OpenAIがタイの高等教育省と協力し、ヘルスケア・ウェルネス・教育分野の10社を対象にした8週間の育成プログラムを開始。AIプロトタイプから信頼できる製品へ。</description>
+    <pubDate>Sat, 29 Aug 2026 18:35:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、SpaceX傘下のCursorへのモデル提供を終了</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-092c8de0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-092c8de0.html</guid>
+    <description>OpenAIがSpaceXの買収後、AIコードエディタCursorへのモデル提供契約を打ち切ることを決定。</description>
+    <pubDate>Sat, 29 Aug 2026 18:35:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>オープンモデルの現在地、2026年夏の実態が明らかに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-d556a48b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-d556a48b.html</guid>
+    <description>Hugging Faceが公開したオープンモデルの最新観察レポートから、業界の現在地と課題が浮き彫りに。</description>
+    <pubDate>Sat, 29 Aug 2026 11:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>音声認識リーダーボードにグローバルサウス言語が初登場、AI格差に転機</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-b0b2c2da.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-b0b2c2da.html</guid>
+    <description>Hugging Faceの音声認識ベンチマークが初めてグローバルサウスの言語に対応し、非英語圏のAI開発が加速する契機となる。</description>
+    <pubDate>Sat, 29 Aug 2026 11:19:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ラピダス、2ナノ半導体で「短納期」がTSMC対抗策。新幹線料金の価値論</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-2-bd72f412.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-2-bd72f412.html</guid>
+    <description>ラピダスが2ナノ級半導体の量産化で、短納期を唯一の勝ち筋にする戦略を表明。AI需要の追い風を受け工程は順調。</description>
+    <pubDate>Sat, 29 Aug 2026 11:18:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、AIサイバー攻撃に対抗　100以上の企業が集団防衛を宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-7cf9939a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-7cf9939a.html</guid>
+    <description>OpenAIが産業界と政府へ、AI悪用サイバー攻撃への防御強化と国際連携を呼びかける公開書簡を発表。大手企業100社以上が賛同。</description>
+    <pubDate>Sat, 29 Aug 2026 11:17:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>キオクシア5兆円投資、日米中韓の半導体覇権争い激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/90cf0049.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/90cf0049.html</guid>
+    <description>キオクシアの大規模投資を軸に、各国の半導体産業戦略が本格競争へ。地政学的リスクと産業再編が同時進行。</description>
+    <pubDate>Sat, 29 Aug 2026 11:16:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI投資の成功、「利用者数」では測れない理由</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-8bf08971.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-8bf08971.html</guid>
@@ -142,75 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-3062d8cd.html</guid>
     <description>OpenAIが1000人以上の学生を対象に実施した大規模実験で、ChatGPTと批判的思考スキルの関係性が明らかに。</description>
     <pubDate>Fri, 28 Aug 2026 02:36:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ACE推論、トークン削減で大幅高速化を実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/5eb3c49c6262.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5eb3c49c6262.html</guid>
-    <description>推論時のトークン消費を減らしながら、高い性能を維持する新しいアプローチがHugging Faceから提案された。</description>
-    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OlmoEarth、カスタム埋め込み機能でダウンストリーム分析を加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e43158037a35.html</guid>
-    <description>Hugging FaceのOlmoEarth Studioが、ダウンストリーム分析向けのカスタム埋め込みエクスポート機能を新たに提供開始。</description>
-    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ICML掲載論文2,200本を再現、AI研究の現実が明らかに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/5fa28c256021.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5fa28c256021.html</guid>
-    <description>Hugging Faceが機械学習の主要国際会議ICMLの大規模な論文再現プロジェクトから得た知見を公開。研究の再現性に関する重要な示唆が明かされた。</description>
-    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Strands Agents × LeRobot × Hugging Face、AIロボット開発が一元管理へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/c1c988556190.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/c1c988556190.html</guid>
-    <description>Strands Agentsとてっぽロボット学習プラットフォームLeRobotがHugging Faceと統合し、記録・学習・デプロイが一箇所で完結する環境が実現した。</description>
-    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>同じクラスタで利用率33%向上、順序変更が生んだ革新</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/b597a3d03ee7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/b597a3d03ee7.html</guid>
-    <description>既存インフラは変えずに、処理順序の工夫だけで大幅な効率改善を実現。</description>
-    <pubDate>Fri, 28 Aug 2026 02:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Sentence Transformers、マルチベクトル埋め込みモデルで検索精度革新</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e520424e436f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e520424e436f.html</guid>
-    <description>Sentence TransformersがLate Interaction方式のマルチベクトル埋め込みモデルに対応し、検索・情報検索の精度向上を実現。</description>
-    <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェントのメモリ消費量、実は想定より少ない可能性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/5ce8103476b1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/5ce8103476b1.html</guid>
-    <description>AIエージェントの実運用で必要とされるメモリ容量について、実測データに基づいた検証と考察を提供。</description>
-    <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>LFM2.5-DSpark、推論速度を最大3.2倍高速化。生成AI活用の効率革命</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/c7cdb6722fd8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/c7cdb6722fd8.html</guid>
-    <description>Hugging Faceが発表した最新モデルが推論速度を大幅に改善。AI導入の実用性が飛躍的に向上する。</description>
-    <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>音声認識ベンチマーク最適化の落とし穴、Hugging Faceが検証手法を公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/68e9fb1705e1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/68e9fb1705e1.html</guid>
-    <description>音声認識モデルのベンチマーク評価で一般的な最適化手法に潜む課題を、Hugging Faceが詳細に分析・指摘。</description>
-    <pubDate>Thu, 27 Aug 2026 23:19:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入で人員削減は起こらない。国内企業の実態は部門間の再配置だった</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/0e6557f1925c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/0e6557f1925c.html</guid>
-    <description>AIエージェント導入による人員削減の可否は、実行可能なタスク量で決まる。国内企業では削減より部門をまたいだ人員再配置が進む。</description>
-    <pubDate>Thu, 27 Aug 2026 23:18:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -354,5 +354,45 @@
   {
     "link": "https://www.itmedia.co.jp/enterprise/articles/2608/28/news029.html",
     "notified_at": "2026-08-28T17:59:44.210719+00:00"
+  },
+  {
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2608/29/news012.html",
+    "notified_at": "2026-08-29T02:16:24.726056+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/28/2000000876/",
+    "notified_at": "2026-08-29T02:17:10.530175+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/business/articles/2608/28/news065.html",
+    "notified_at": "2026-08-29T02:18:00.977373+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+    "notified_at": "2026-08-29T02:19:21.738002+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "notified_at": "2026-08-29T02:20:39.540891+00:00"
+  },
+  {
+    "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+    "notified_at": "2026-08-29T09:35:35.720647+00:00"
+  },
+  {
+    "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+    "notified_at": "2026-08-29T09:35:44.182526+00:00"
+  },
+  {
+    "link": "https://openai.com/index/loveholidays",
+    "notified_at": "2026-08-29T09:35:52.152088+00:00"
+  },
+  {
+    "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+    "notified_at": "2026-08-29T09:36:05.060591+00:00"
+  },
+  {
+    "link": "https://openai.com/index/jalapeno-first-results",
+    "notified_at": "2026-08-29T09:36:15.822001+00:00"
   }
 ]

@@ -3,10 +3,20 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-08-29 03:48
+最終更新: 2026-08-29 18:36
 
 ## 記事一覧
 
+- [OpenAI知能スタックとは？チップ・計算・モデル・製品の統合戦略](https://mot-ai-media.github.io/mot-ai-news/articles/openai-sarah-friar-829e237a.html): OpenAI CFOが、チップから製品まで一連の技術進化が相乗効果を生み出し、より規模の大きい知能をより低コストで実現する仕組みを説明。 (出典: OpenAI News / 更新: 2026-08-29 18:36)
+- [OpenAI推論チップJalapeñoとは？速度・効率性・特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-jalape-o-9ad99bb5.html): OpenAIが独自開発した推論チップJalapeñoが、高速性と低消費電力を両立し、業界をリードする性能を示した。 (出典: OpenAI News / 更新: 2026-08-29 18:36)
+- [OpenAI、Cursor買収後の契約終了を発表](https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-092c8de0.html): OpenAIがSpaceXの買収後、AIコードエディタCursorへのモデル提供契約を打ち切ることを決定。 (出典: OpenAI News / 更新: 2026-08-29 18:35)
+- [OpenAI×タイMHESI、AI創業企業アクセラレーター開始とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-0b00c80d.html): OpenAIがタイの高等教育省と協力し、ヘルスケア・ウェルネス・教育分野の10社を対象にした8週間の育成プログラムを開始。AIプロトタイプから信頼できる製品へ。 (出典: OpenAI News / 更新: 2026-08-29 18:35)
+- [loveholidaysがOpenAI Codexを導入、開発を民主化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-d34e82ea.html): 旅行サイトloveholidaysがOpenAI Codexを活用し、全社員が開発に参加できる環境を実現。 (出典: OpenAI News / 更新: 2026-08-29 18:35)
+- [オープンAIモデルの現状とは？2026年夏の最新動向を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-d556a48b.html): Hugging Faceが公開したオープンモデルの最新観察レポートから、業界の現在地と課題が浮き彫りに。 (出典: Hugging Face - Blog / 更新: 2026-08-29 11:20)
+- [Open ASR Leaderboard グローバルサウス言語対応とは？初導入の意味](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-b0b2c2da.html): Hugging Faceの音声認識ベンチマークが初めてグローバルサウスの言語に対応し、非英語圏のAI開発が加速する契機となる。 (出典: Hugging Face - Blog / 更新: 2026-08-29 11:19)
+- [ラピダスの2ナノ半導体とは？TSMCとの競争戦略を小池社長が明かす](https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-2-bd72f412.html): ラピダスが2ナノ級半導体の量産化で、短納期を唯一の勝ち筋にする戦略を表明。AI需要の追い風を受け工程は順調。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 11:18)
+- [OpenAIがAIサイバー攻撃対策で公開書簡　Google・Microsoftなど100社が署名](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-7cf9939a.html): OpenAIが産業界と政府へ、AI悪用サイバー攻撃への防御強化と国際連携を呼びかける公開書簡を発表。大手企業100社以上が賛同。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 11:17)
+- [キオクシア5兆円投資とは？日米中韓の半導体投資競争の行方](https://mot-ai-media.github.io/mot-ai-news/articles/90cf0049.html): キオクシアの大規模投資を軸に、各国の半導体産業戦略が本格競争へ。地政学的リスクと産業再編が同時進行。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 11:16)
 - [高市総理へのAI家庭教師とは？チームみらいが首相官邸で実施](https://mot-ai-media.github.io/mot-ai-news/articles/ai-99e51698.html): チームみらいがAIについて総理大臣に指導するイベントを首相官邸で開催。音声入力機能の活用を実演。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 02:59)
 - [国産ヒューマノイド「アトム」が実作業に挑戦。ベルトコンベヤーでの選別作業を生配信](https://mot-ai-media.github.io/mot-ai-news/articles/4bb82762.html): アトムが開発した国産ヒューマノイドが、自作ベルトコンベヤーでの荷物処理作業を3時間以上生配信中。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 02:59)
 - [Anthropic MHSとは？AIが物理機器を制御する新規格の仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-mhs-c039fdf0.html): AnthropicがAIエージェント向けの機器制御統一規格MHSを発表。安全性を標準化し、将来オープンソース化する方針。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 02:59)
