@@ -2467,6 +2467,10 @@ def build() -> None:
     posted_links = state.get_posted_links()
     articles = sources.fetch_candidates()
     candidates = sources.filter_unposted(articles, posted_links)
+    # 「やさしい」ソースの記事を優先的に生成する(1回の生成数には上限があるため、
+    # 技術的なソースの記事ばかり選ばれて「やさしい」記事が埋もれるのを防ぐ)。
+    # 各グループ内の順序(取得順)は保ったまま安定ソートする。
+    candidates.sort(key=lambda a: _classify_level(a.source_domain) == "technical")
 
     if not candidates:
         logger.info("下書き候補となる新規記事がありませんでした。")
