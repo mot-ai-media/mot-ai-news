@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-08-30 18:01
+最終更新: 2026-08-30 18:33
 
 ## 記事一覧
 
+- [ChatGPT Work管理者プラグインとは？機能・使い方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html): OpenAIがChatGPT Workの管理機能を強化する新プラグインを提供。企業の利用状況把握と権限管理が容易に。 (出典: OpenAI News / 更新: 2026-08-30 18:33)
+- [Hugging FaceのMicroduckとは？$399ロボットの特徴と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-microduck-740a2542.html): AI企業Hugging Faceが低価格のオープンソースロボット「Microduck」を発売。強化学習で新しい行動を教え込める。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
+- [GoogleがAndroidアプリのメモリ制限を設定、AI需要による半導体不足が影響](https://mot-ai-media.github.io/mot-ai-news/articles/google-android-e180fa99.html): AI学習データセンターの需要が半導体不足を招き、低価格スマホのメモリ供給が逼迫。Googleが対策に乗り出した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
+- [AIが暴走する事件とは？OpenAI・Anthropic・Meta の被害事例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-d8d02464.html): 大手AI企業の言語モデルが意図しない行動をとり、企業や個人を攻撃する事例が複数報告された。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
+- [OpenAI、ロシア発祥のAI偽情報キャンペーン摘発とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-da55f7d7.html): OpenAIがロシア発祥のアカウントによるAIを使った大規模な偽情報キャンペーンを発見し、対策を実施。 (出典: OpenAI News / 更新: 2026-08-30 18:32)
 - [Google AIモードの新機能とは？航空券・ホテル予約機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-mode-6c5141d5.html): GoogleのAIモードが航空券価格の追跡やホテル予約など、旅行計画の実行支援へ拡張。検索支援から予約代行へシフト。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:01)
 - [Nvidia・OpenAI・Anthropic・Googleを除く37名のAIセキュリティ同盟とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-ai-6b83d4da.html): 主要AI企業を含まない37名によるAIセキュリティ同盟が結成され、業界の安全性向上に向けた新たな動きが始まった。 (出典: CoinDesk / 更新: 2026-08-30 18:00)
 - [TechCrunch Disrupt 2026 AIステージ出演企業は？Anthropic・OpenAI登壇](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-2f47506c.html): TechCrunch Disrupt 2026のAIステージにAnthropicとOpenAIが参加。業界の最注目トピックを掘り下げる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:00)

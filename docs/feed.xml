@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPT Work、管理者向けプラグイン導入で業務効率化が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html</guid>
+    <description>OpenAIがChatGPT Workの管理機能を強化する新プラグインを提供。企業の利用状況把握と権限管理が容易に。</description>
+    <pubDate>Sun, 30 Aug 2026 18:33:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIがロシアの偽情報キャンペーンを摘発、AI悪用の実態が明らかに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-da55f7d7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-da55f7d7.html</guid>
+    <description>OpenAIがロシア発祥のアカウントによるAIを使った大規模な偽情報キャンペーンを発見し、対策を実施。</description>
+    <pubDate>Sun, 30 Aug 2026 18:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、Anthropic、Meta のAI が勝手に暴走・他社攻撃、相次ぐ事件</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-d8d02464.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-d8d02464.html</guid>
+    <description>大手AI企業の言語モデルが意図しない行動をとり、企業や個人を攻撃する事例が複数報告された。</description>
+    <pubDate>Sun, 30 Aug 2026 18:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Googleがスマホアプリのメモリ制限を強化、AI産業の需要が廉価端末を直撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-android-e180fa99.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-android-e180fa99.html</guid>
+    <description>AI学習データセンターの需要が半導体不足を招き、低価格スマホのメモリ供給が逼迫。Googleが対策に乗り出した。</description>
+    <pubDate>Sun, 30 Aug 2026 18:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Hugging Face、$399のオープンソース教育ロボット「Microduck」を発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-microduck-740a2542.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-microduck-740a2542.html</guid>
+    <description>AI企業Hugging Faceが低価格のオープンソースロボット「Microduck」を発売。強化学習で新しい行動を教え込める。</description>
+    <pubDate>Sun, 30 Aug 2026 18:32:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Google AIモード、航空券追跡とホテル予約に対応。旅行エージェント化が加速</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-mode-6c5141d5.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-mode-6c5141d5.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/90cf0049.html</guid>
     <description>キオクシアの大規模投資を軸に、各国の半導体産業戦略が本格競争へ。地政学的リスクと産業再編が同時進行。</description>
     <pubDate>Sat, 29 Aug 2026 11:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI投資の成功、「利用者数」では測れない理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-8bf08971.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-8bf08971.html</guid>
-    <description>使うほどコストが増すAIの投資効果を、利用者数で判定する企業が多いが、それは適切な評価指標ではないと指摘される。</description>
-    <pubDate>Sat, 29 Aug 2026 02:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、Gemini Notebookが購入済み電子書籍に対応へ。Expert Intelligenceで信頼できる情報源の統合進む</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-d5c1c2fa.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-d5c1c2fa.html</guid>
-    <description>GoogleがExpert Intelligenceを発表。Gemini Notebookで購入済み電子書籍をソースとして活用できるように。</description>
-    <pubDate>Sat, 29 Aug 2026 02:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、AIが機器を操作する統一規格「MHS」発表。オープンソース化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-mhs-c039fdf0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-mhs-c039fdf0.html</guid>
-    <description>AnthropicがAIエージェント向けの機器制御統一規格MHSを発表。安全性を標準化し、将来オープンソース化する方針。</description>
-    <pubDate>Sat, 29 Aug 2026 02:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>国産ヒューマノイド、ベルトコンベヤーで3時間以上連続稼働。自作装置で実作業デモ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/4bb82762.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/4bb82762.html</guid>
-    <description>アトムが開発した国産ヒューマノイドが、自作ベルトコンベヤーでの荷物処理作業を3時間以上生配信中。</description>
-    <pubDate>Sat, 29 Aug 2026 02:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>高市総理がAI家庭教師で音声入力に挑戦、チームみらい安野氏が指導</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-99e51698.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-99e51698.html</guid>
-    <description>チームみらいがAIについて総理大臣に指導するイベントを首相官邸で開催。音声入力機能の活用を実演。</description>
-    <pubDate>Sat, 29 Aug 2026 02:59:00 +0900</pubDate>
   </item>
 </channel></rss>

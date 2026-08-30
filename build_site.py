@@ -494,6 +494,14 @@ footer a {
   background: rgba(37, 99, 235, 0.06);
   margin: 0 0 16px;
 }
+.risk-box, .opportunity-box {
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  margin: 16px 0;
+}
+.risk-box { border-left: 3px solid var(--mot-breaking); background: rgba(239, 68, 68, 0.06); }
+.opportunity-box { border-left: 3px solid var(--mot-positive); background: rgba(16, 185, 129, 0.06); }
+.risk-box h3, .opportunity-box h3 { margin-top: 0; }
 .tag-pills {
   display: flex;
   flex-wrap: wrap;
@@ -2260,29 +2268,53 @@ def _render_body_paragraphs(body_text: str) -> str:
 
 
 def _render_article_body(entry: dict) -> str:
-    """記事本文のHTML化。TL;DR+3見出し(h3)の新形式データがあればそちらを使い、
-    それが無い旧記事は従来通り段落分割のみで表示する(AIOテンプレート変更は新規記事のみに適用)。"""
+    """記事本文のHTML化。新形式(TL;DR+6セクション)があればそれを使い、無ければ
+    旧形式(TL;DR+3見出し)、それも無い最古の記事は段落分割のみで表示する
+    (テンプレート変更は常に新規記事のみに適用し、過去記事は非破壊)。"""
     tldr = entry.get("tldr")
     what = entry.get("what_happened")
     why = entry.get("why_it_matters")
-    impact = entry.get("future_impact")
-    if tldr and what and why and impact:
+    impact_on_reader = entry.get("impact_on_reader")
+    relevance = entry.get("reader_relevance")
+    risk = entry.get("risk_point")
+    opportunity = entry.get("opportunity_point")
+
+    if tldr and what and why and impact_on_reader and relevance and risk and opportunity:
         return (
             f'<p class="tldr"><strong>TL;DR</strong> {html_lib.escape(tldr)}</p>'
             f"<h3>何が起きたか</h3><p>{html_lib.escape(what)}</p>"
             f"<h3>なぜ重要か</h3><p>{html_lib.escape(why)}</p>"
-            f"<h3>今後の影響</h3><p>{html_lib.escape(impact)}</p>"
+            f"<h3>あなたへの影響</h3><p>{html_lib.escape(impact_on_reader)}</p>"
+            f"<h3>MOT読者が知っておくべき理由</h3><p>{html_lib.escape(relevance)}</p>"
+            f'<div class="risk-box"><h3>知らないと生まれる差</h3><p>{html_lib.escape(risk)}</p></div>'
+            f'<div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3>'
+            f"<p>{html_lib.escape(opportunity)}</p></div>"
+        )
+
+    legacy_impact = entry.get("future_impact")
+    if tldr and what and why and legacy_impact:
+        return (
+            f'<p class="tldr"><strong>TL;DR</strong> {html_lib.escape(tldr)}</p>'
+            f"<h3>何が起きたか</h3><p>{html_lib.escape(what)}</p>"
+            f"<h3>なぜ重要か</h3><p>{html_lib.escape(why)}</p>"
+            f"<h3>今後の影響</h3><p>{html_lib.escape(legacy_impact)}</p>"
         )
     return _render_body_paragraphs(entry.get("body") or entry.get("summary") or "")
 
 
 def _entry_text_length(entry: dict) -> int:
-    """本文の分量(文字数)。新形式(TL;DR+3見出し)/旧形式(body)どちらのデータにも対応する。
-    読了時間の概算や、PVデータ不在時の編集部ピックアップの厚み判定に使う。"""
+    """本文の分量(文字数)。新形式(TL;DR+6セクション)/旧形式(TL;DR+3見出し)/最古の形式(body)
+    いずれのデータにも対応する。読了時間の概算や、PVデータ不在時の編集部ピックアップの
+    厚み判定に使う。"""
     body = entry.get("body")
     if body:
         return len(body)
-    parts = (entry.get("tldr"), entry.get("what_happened"), entry.get("why_it_matters"), entry.get("future_impact"))
+    parts = (
+        entry.get("tldr"), entry.get("what_happened"), entry.get("why_it_matters"),
+        entry.get("impact_on_reader"), entry.get("reader_relevance"),
+        entry.get("risk_point"), entry.get("opportunity_point"),
+        entry.get("future_impact"),
+    )
     return sum(len(p) for p in parts if p)
 
 
@@ -2336,10 +2368,19 @@ _VALID_IMPORTANCE = {"major", "notable", "minor"}
 
 
 def _entry_importance(entry: dict) -> str:
-    """importanceが無い旧記事、または想定外の値は安全側(notable)として扱う。
-    CSSクラス名の組み立てにも使うため、既知の3値以外は絶対に信用しない。"""
-    importance = entry.get("importance")
-    return importance if importance in _VALID_IMPORTANCE else "notable"
+    """記事の重要度を3段階(major/notable/minor)で返す。
+    新形式のimportance_score(0〜100の整数)があればそこから判定し、
+    それが無い旧記事は当時のimportance分類(major/notable/minor)、
+    どちらも無いさらに古い記事はnotable扱いにする(安全側のフォールバック)。"""
+    score = entry.get("importance_score")
+    if isinstance(score, (int, float)):
+        if score >= 75:
+            return "major"
+        if score >= 40:
+            return "notable"
+        return "minor"
+    legacy = entry.get("importance")
+    return legacy if legacy in _VALID_IMPORTANCE else "notable"
 
 
 def _level_badge(entry: dict) -> str:
@@ -2519,11 +2560,16 @@ def build() -> None:
             "headline": result["headline"],
             "seo_title": result.get("seo_title") or result["headline"],
             "summary": result["summary"],
-            "importance": result["importance"],
+            "importance_score": result["importance_score"],
+            "buzz_score": result["buzz_score"],
+            "recommend_score": result["recommend_score"],
             "tldr": result["tldr"],
             "what_happened": result["what_happened"],
             "why_it_matters": result["why_it_matters"],
-            "future_impact": result["future_impact"],
+            "impact_on_reader": result["impact_on_reader"],
+            "reader_relevance": result["reader_relevance"],
+            "risk_point": result["risk_point"],
+            "opportunity_point": result["opportunity_point"],
             "tags": result.get("tags") or [],
             "faq": result.get("faq") or [],
             "digest": result.get("digest") or {},

@@ -295,6 +295,14 @@ footer a {
   background: rgba(37, 99, 235, 0.06);
   margin: 0 0 16px;
 }
+.risk-box, .opportunity-box {
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  margin: 16px 0;
+}
+.risk-box { border-left: 3px solid var(--mot-breaking); background: rgba(239, 68, 68, 0.06); }
+.opportunity-box { border-left: 3px solid var(--mot-positive); background: rgba(16, 185, 129, 0.06); }
+.risk-box h3, .opportunity-box h3 { margin-top: 0; }
 .tag-pills {
   display: flex;
   flex-wrap: wrap;
