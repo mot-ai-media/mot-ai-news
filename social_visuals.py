@@ -16,6 +16,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 OUT_DIR = Path(__file__).parent / "social_assets"
 LOGO_PATH = Path(__file__).parent / "docs" / "og-image.png"
+WATERMARK_LOGO_PATH = Path(__file__).parent / "MOT logo.png"  # 文字無しのマークのみ版(小さく使う用)
 
 FONT_BOLD = "C:/Windows/Fonts/YuGothB.ttc"
 FONT_REGULAR = "C:/Windows/Fonts/YuGothR.ttc"
@@ -91,6 +92,17 @@ def _fetch_photo_background(image_url: str | None, seed: str) -> Image.Image:
     return _gradient_background(seed)
 
 
+def _paste_watermark(img: Image.Image, size: int = 64) -> None:
+    """中央上部に小さくロゴマークだけを添える(参考にした実例のワンポイント配置に合わせる)。
+    帯や大きなロゴ表記は使わない、控えめなブランディング。"""
+    try:
+        logo = Image.open(WATERMARK_LOGO_PATH).convert("RGBA")
+    except FileNotFoundError:
+        return
+    logo = logo.resize((size, size))
+    img.paste(logo, ((SIZE[0] - size) // 2, 56), logo)
+
+
 def _wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont, max_width: int) -> list[str]:
     lines: list[str] = []
     line = ""
@@ -108,7 +120,8 @@ def _wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFon
 
 def make_hook_slide(image_url: str | None, hook: str, angle: str, slug: str, source: str = "") -> Path:
     """記事の実画像(無ければグラデーション)を背景に、下部に太字フックテキストを重ねる。
-    右下にMOTの小さなロゴを置き、アングルカラーの帯を左端に添える。"""
+    参考にした実例(nicocinojp等)に合わせ、色帯や大きなロゴ表記は使わず、
+    中央上部に小さなロゴのワンポイントだけを添える控えめなブランディングにする。"""
     img = _fetch_photo_background(image_url, source or slug).convert("RGB")
     draw = ImageDraw.Draw(img)
 
@@ -123,10 +136,6 @@ def make_hook_slide(image_url: str | None, hook: str, angle: str, slug: str, sou
 
     draw = ImageDraw.Draw(img)
 
-    # アングルカラーの帯(左端)
-    color = ANGLE_COLORS.get(angle, (37, 99, 235))
-    draw.rectangle([(0, 0), (16, SIZE[1])], fill=color)
-
     # フックテキスト(下部、太字・大きめ)
     font_hook = ImageFont.truetype(FONT_BOLD, 84)
     max_text_width = SIZE[0] - 140
@@ -137,15 +146,7 @@ def make_hook_slide(image_url: str | None, hook: str, angle: str, slug: str, sou
         draw.text((70, y), line, font=font_hook, fill=(255, 255, 255))
         y += 100
 
-    # ブランド表記(右下、小さく)
-    try:
-        logo = Image.open(LOGO_PATH).convert("RGBA")
-        logo = logo.resize((72, 72))
-        img.paste(logo, (SIZE[0] - 110, SIZE[1] - 110), logo)
-    except FileNotFoundError:
-        pass
-    font_brand = ImageFont.truetype(FONT_REGULAR, 30)
-    draw.text((70, SIZE[1] - 70), "MOT", font=font_brand, fill=(230, 230, 235))
+    _paste_watermark(img)
 
     OUT_DIR.mkdir(exist_ok=True)
     out_path = OUT_DIR / f"{slug}_{angle}_hook.png"
@@ -154,12 +155,10 @@ def make_hook_slide(image_url: str | None, hook: str, angle: str, slug: str, sou
 
 
 def make_text_slide(text: str, step: int, total: int, angle: str, slug: str) -> Path:
-    """カルーセル中間スライド(写真無し、テキストのみ)。フック/CTAスライドと同じブランド
-    トーンで、進行状況(2/5等)を小さく添える。"""
-    color = ANGLE_COLORS.get(angle, (37, 99, 235))
+    """カルーセル中間スライド(写真無し、テキストのみ)。色帯は使わず、フックスライドと
+    同じ控えめなブランディング(中央上部の小さなロゴ)にそろえる。"""
     img = Image.new("RGB", SIZE, (16, 16, 20))
     draw = ImageDraw.Draw(img)
-    draw.rectangle([(0, 0), (16, SIZE[1])], fill=color)
 
     font_body = ImageFont.truetype(FONT_BOLD, 66)
     max_text_width = SIZE[0] - 180
@@ -170,11 +169,10 @@ def make_text_slide(text: str, step: int, total: int, angle: str, slug: str) -> 
         draw.text((90, y), line, font=font_body, fill=(255, 255, 255))
         y += 84
 
-    font_step = ImageFont.truetype(FONT_REGULAR, 30)
-    draw.text((90, 90), f"{step}/{total}", font=font_step, fill=color)
+    font_step = ImageFont.truetype(FONT_REGULAR, 28)
+    draw.text((90, SIZE[1] - 70), f"{step}/{total}", font=font_step, fill=(120, 120, 130))
 
-    font_brand = ImageFont.truetype(FONT_REGULAR, 28)
-    draw.text((90, SIZE[1] - 70), "MOT", font=font_brand, fill=(140, 140, 150))
+    _paste_watermark(img)
 
     OUT_DIR.mkdir(exist_ok=True)
     out_path = OUT_DIR / f"{slug}_{angle}_slide{step}.png"
