@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/index.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/about.html</loc><lastmod>2026-08-30</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/index.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/about.html</loc><lastmod>2026-08-31</lastmod></url>
   <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/8fc7e300b119.html</loc><lastmod>2026-08-25</lastmod></url>
   <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/07d4004a7e17.html</loc><lastmod>2026-08-25</lastmod></url>
   <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/4c04c2647429.html</loc><lastmod>2026-08-25</lastmod></url>
@@ -120,32 +120,40 @@
   <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-d8d02464.html</loc><lastmod>2026-08-30</lastmod></url>
   <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-da55f7d7.html</loc><lastmod>2026-08-30</lastmod></url>
   <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/openai.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/codex.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/8663377462.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/anthropic.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/meta.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/eca5cf5b1d.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/google.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/hugging-face.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/microduck.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/ca41f00ab0.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/cursor.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/spacex.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/nvidia.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/microsoft.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/google-gemini.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/1e627f8340.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/dc461b06e8.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/gemini.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/0a91c56b47.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/ai.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/chatgpt.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/644ff7e2ee.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/9b9d866e8c.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/b2ddde5052.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/576e87a184.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/1a6018773f.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/sentence-transformers.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/index.html</loc><lastmod>2026-08-30</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80c677b5.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ca01b2bf.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-379d2b1c.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa079a3.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-elon-musk-a05533f3.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/spacex.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/0a91c56b47.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/31eb1617e9.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/openai.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/hugging-face.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/ai.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/657856a6e8.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/a7d59e7c09.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/codex.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/8663377462.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/anthropic.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/meta.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/eca5cf5b1d.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/google.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/microduck.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/ca41f00ab0.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/cursor.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/nvidia.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/microsoft.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/google-gemini.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/1e627f8340.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/dc461b06e8.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/gemini.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/chatgpt.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/644ff7e2ee.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/9b9d866e8c.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/b2ddde5052.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/576e87a184.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/1a6018773f.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/sentence-transformers.html</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://mot-ai-media.github.io/mot-ai-news/topics/index.html</loc><lastmod>2026-08-31</lastmod></url>
 </urlset>

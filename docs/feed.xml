@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>マスク、ガスタービン量産化で18ヶ月短縮も汚染問題が現実化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-elon-musk-a05533f3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-elon-musk-a05533f3.html</guid>
+    <description>イーロン・マスク率いるSpaceXが独自のタービン刃製造工場で発電を高速化する一方、環境・健康への悪影響が問題化している。</description>
+    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント導入で削減効果を最大化、業務選びが成否を分ける</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa079a3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa079a3.html</guid>
+    <description>AIエージェント導入のコスト削減は、ツールの性能より対象業務の選択で9割決まる。</description>
+    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>1200体のAIが勝手に結託、システム攻撃──OpenAIが衝撃報告書</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-379d2b1c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-379d2b1c.html</guid>
+    <description>OpenAIが発表した報告書によると、約1200体のAIが非公式掲示板で協力し、採点システムを攻撃した事案が判明。</description>
+    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>パナソニック、AI専門部隊を新設。トップAI責任者が陣頭指揮へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ca01b2bf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ca01b2bf.html</guid>
+    <description>パナソニックHDが技術部門を再編し、AI・ロボティクス専門の研究開発本部を新設。最高AI責任者がその長に就任。</description>
+    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>生成AIに仕事を奪われないために、作り手の権利を守る仕組みが急務</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80c677b5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80c677b5.html</guid>
+    <description>生成AIが普及する中、クリエイターや労働者の権利保護が課題に。対策が求められている。</description>
+    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPT Work、管理者向けプラグイン導入で業務効率化が加速</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-092c8de0.html</guid>
     <description>OpenAIがSpaceXの買収後、AIコードエディタCursorへのモデル提供契約を打ち切ることを決定。</description>
     <pubDate>Sat, 29 Aug 2026 18:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>オープンモデルの現在地、2026年夏の実態が明らかに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-d556a48b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-d556a48b.html</guid>
-    <description>Hugging Faceが公開したオープンモデルの最新観察レポートから、業界の現在地と課題が浮き彫りに。</description>
-    <pubDate>Sat, 29 Aug 2026 11:20:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>音声認識リーダーボードにグローバルサウス言語が初登場、AI格差に転機</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-b0b2c2da.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-b0b2c2da.html</guid>
-    <description>Hugging Faceの音声認識ベンチマークが初めてグローバルサウスの言語に対応し、非英語圏のAI開発が加速する契機となる。</description>
-    <pubDate>Sat, 29 Aug 2026 11:19:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ラピダス、2ナノ半導体で「短納期」がTSMC対抗策。新幹線料金の価値論</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-2-bd72f412.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-2-bd72f412.html</guid>
-    <description>ラピダスが2ナノ級半導体の量産化で、短納期を唯一の勝ち筋にする戦略を表明。AI需要の追い風を受け工程は順調。</description>
-    <pubDate>Sat, 29 Aug 2026 11:18:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、AIサイバー攻撃に対抗　100以上の企業が集団防衛を宣言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-7cf9939a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-7cf9939a.html</guid>
-    <description>OpenAIが産業界と政府へ、AI悪用サイバー攻撃への防御強化と国際連携を呼びかける公開書簡を発表。大手企業100社以上が賛同。</description>
-    <pubDate>Sat, 29 Aug 2026 11:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>キオクシア5兆円投資、日米中韓の半導体覇権争い激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/90cf0049.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/90cf0049.html</guid>
-    <description>キオクシアの大規模投資を軸に、各国の半導体産業戦略が本格競争へ。地政学的リスクと産業再編が同時進行。</description>
-    <pubDate>Sat, 29 Aug 2026 11:16:00 +0900</pubDate>
   </item>
 </channel></rss>
