@@ -228,10 +228,10 @@ def run(limit: int = 3) -> list[str]:
             logger.exception("SNSコンテンツ生成に失敗: %s", slug)
             continue
 
-        image_url = article.get("image_url") if article.get("image_kind") == "real" else None
+        article_tags = article.get("tags") or []
         for angle in result["angles"]:
             try:
-                social_visuals.make_hook_slide(image_url, angle["hook"], angle["type"], slug, article.get("source", ""))
+                social_visuals.make_hook_slide(article_tags, angle["hook"], angle["type"], slug, article.get("source", ""))
                 social_visuals.make_carousel_slides(angle["carousel"], angle["type"], slug)
             except Exception:
                 logger.exception("画像生成に失敗: %s / %s", slug, angle["type"])

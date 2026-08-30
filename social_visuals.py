@@ -17,6 +17,24 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 OUT_DIR = Path(__file__).parent / "social_assets"
 LOGO_PATH = Path(__file__).parent / "docs" / "og-image.png"
 WATERMARK_LOGO_PATH = Path(__file__).parent / "MOT logo.png"  # 文字無しのマークのみ版(小さく使う用)
+BG_PHOTOS_DIR = Path(__file__).parent / "social_bg_photos"
+
+# 記事のタグ→背景写真カテゴリの対応。元記事のスクショ的な画像(質にばらつき、著作権グレー)は
+# もう使わず、MOTが厳選したPexelsのフリー素材(商用利用無料・帰属表示不要)に統一する。
+TAG_CATEGORY_MAP = {
+    "ロボット": "robot", "ロボティクス": "robot", "ヒューマノイド": "robot",
+    "ヒューマノイドロボット": "robot", "自動運転": "robot", "Robotics": "robot",
+    "Nvidia": "chip", "NVIDIA": "chip", "半導体": "chip", "TSMC": "chip",
+    "チップ": "chip", "GPU": "chip", "推論最適化": "chip",
+    "GitHub": "code", "プログラミング": "code", "OSS": "code", "オープンソース": "code",
+    "開発者": "code", "コーディング": "code", "Cursor": "code", "Codex": "code",
+    "セキュリティ": "security", "ハッキング": "security", "サイバー攻撃": "security",
+    "プライバシー": "security", "規制": "security", "偽情報": "security",
+    "データセンター": "network", "クラウド": "network", "インフラ": "network", "半導体工場": "network",
+    "ビジネス": "office", "資金調達": "office", "IPO": "office", "スタートアップ": "office",
+    "雇用": "office", "働き方": "office", "IT人材": "office",
+}
+DEFAULT_BG_CATEGORY = "office"
 
 FONT_BOLD = "C:/Windows/Fonts/YuGothB.ttc"
 FONT_REGULAR = "C:/Windows/Fonts/YuGothR.ttc"
@@ -67,26 +85,51 @@ def _gradient_background(seed: str) -> Image.Image:
     return img
 
 
+def _cover_crop(photo: Image.Image) -> Image.Image:
+    """SIZEのアスペクト比に合わせて画像をカバー表示(はみ出た分は中央基準でクロップ)。"""
+    src_ratio = photo.width / photo.height
+    dst_ratio = SIZE[0] / SIZE[1]
+    if src_ratio > dst_ratio:
+        new_height = SIZE[1]
+        new_width = int(new_height * src_ratio)
+    else:
+        new_width = SIZE[0]
+        new_height = int(new_width / src_ratio)
+    photo = photo.resize((new_width, new_height))
+    left = (new_width - SIZE[0]) // 2
+    top = (new_height - SIZE[1]) // 2
+    return photo.crop((left, top, left + SIZE[0], top + SIZE[1]))
+
+
+def pick_bg_category(tags: list[str] | None) -> str:
+    for tag in tags or []:
+        if tag in TAG_CATEGORY_MAP:
+            return TAG_CATEGORY_MAP[tag]
+    return DEFAULT_BG_CATEGORY
+
+
+def _curated_background(tags: list[str] | None, seed: str) -> Image.Image:
+    """記事のタグから、MOTが厳選したフリー素材(social_bg_photos/)を選んで背景にする。
+    元記事のスクショ的な画像(質のばらつき・著作権グレー)は使わない。
+    素材フォルダが無い等の異常時のみグラデーションにフォールバックする。"""
+    category = pick_bg_category(tags)
+    path = BG_PHOTOS_DIR / f"{category}.jpg"
+    try:
+        photo = Image.open(path).convert("RGB")
+        return _cover_crop(photo)
+    except (FileNotFoundError, OSError):
+        return _gradient_background(seed)
+
+
 def _fetch_photo_background(image_url: str | None, seed: str) -> Image.Image:
-    """記事の実画像を取得して背景いっぱいにトリミングする。取得失敗時はグラデーションにフォールバック。"""
+    """(未使用/予備) 記事の実画像を取得して背景にする従来方式。質のばらつき・著作権の懸念から
+    現在はcuratedな自社素材(_curated_background)に切り替え済み。"""
     if image_url:
         try:
             request = urllib.request.Request(image_url, headers={"User-Agent": "Mozilla/5.0 (compatible; MOTBot/1.0)"})
             with urllib.request.urlopen(request, timeout=10) as resp:
                 photo = Image.open(BytesIO(resp.read())).convert("RGB")
-            # SIZEのアスペクト比に合わせてカバー(はみ出た分は中央基準でクロップ)
-            src_ratio = photo.width / photo.height
-            dst_ratio = SIZE[0] / SIZE[1]
-            if src_ratio > dst_ratio:
-                new_height = SIZE[1]
-                new_width = int(new_height * src_ratio)
-            else:
-                new_width = SIZE[0]
-                new_height = int(new_width / src_ratio)
-            photo = photo.resize((new_width, new_height))
-            left = (new_width - SIZE[0]) // 2
-            top = (new_height - SIZE[1]) // 2
-            return photo.crop((left, top, left + SIZE[0], top + SIZE[1]))
+            return _cover_crop(photo)
         except Exception:
             pass
     return _gradient_background(seed)
@@ -118,11 +161,11 @@ def _wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFon
     return lines
 
 
-def make_hook_slide(image_url: str | None, hook: str, angle: str, slug: str, source: str = "") -> Path:
-    """記事の実画像(無ければグラデーション)を背景に、下部に太字フックテキストを重ねる。
+def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, source: str = "") -> Path:
+    """タグから選んだ厳選フリー素材を背景に、下部に太字フックテキストを重ねる。
     参考にした実例(nicocinojp等)に合わせ、色帯や大きなロゴ表記は使わず、
     中央上部に小さなロゴのワンポイントだけを添える控えめなブランディングにする。"""
-    img = _fetch_photo_background(image_url, source or slug).convert("RGB")
+    img = _curated_background(tags, source or slug).convert("RGB")
     draw = ImageDraw.Draw(img)
 
     # 下部を読みやすくする暗いグラデーションのスクリム
