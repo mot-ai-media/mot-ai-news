@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-08-30 14:31
+最終更新: 2026-08-30 18:01
 
 ## 記事一覧
 
+- [Google AIモードの新機能とは？航空券・ホテル予約機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-mode-6c5141d5.html): GoogleのAIモードが航空券価格の追跡やホテル予約など、旅行計画の実行支援へ拡張。検索支援から予約代行へシフト。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:01)
+- [Nvidia・OpenAI・Anthropic・Googleを除く37名のAIセキュリティ同盟とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-ai-6b83d4da.html): 主要AI企業を含まない37名によるAIセキュリティ同盟が結成され、業界の安全性向上に向けた新たな動きが始まった。 (出典: CoinDesk / 更新: 2026-08-30 18:00)
+- [TechCrunch Disrupt 2026 AIステージ出演企業は？Anthropic・OpenAI登壇](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-2f47506c.html): TechCrunch Disrupt 2026のAIステージにAnthropicとOpenAIが参加。業界の最注目トピックを掘り下げる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:00)
+- [Barret Zoph氏がGoogleに入社、Thinking Machines共同創業者の経歴とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-9d531c32.html): Thinking Machines共同創業者で元OpenAI勤務のBarret Zoph氏がGoogleへ移籍。AI人材の流動化が進む。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:00)
+- [OpenAI・Anthropicら100社超が呼びかけ、AI時代のサイバーセキュリティ対策とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9eadc7db.html): 大手AI企業と新興企業が連携し、次世代のサイバー脅威に対抗する新しいセキュリティソリューション提案。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:00)
 - [Anthropic vs トランプ政権、ペンタゴン訴訟で勝訴。サプライチェーン規制が違法判断](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-c6fae4a0.html): 連邦判事がトランプ政権によるAnthropicへのサプライチェーンリスク指定を違法と判断。AI企業の規制強化に風穴 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
 - [Meta幹部がOpenAIに転職、東南アジア・豪州事業を担当](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html): Metaのサンディヤ・デヴァナタン氏がOpenAIに移籍し、東南アジア・豪州地域の事業統括を担当する。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
 - [OpenAI、Cursorへのモデル提供を11月12日に終了。理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html): OpenAIがAIコードエディタCursorへのモデル提供を11月に終了。SpaceX買収を理由に挙げている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-30 14:30)

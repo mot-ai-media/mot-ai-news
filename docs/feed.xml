@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Google AIモード、航空券追跡とホテル予約に対応。旅行エージェント化が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-mode-6c5141d5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-mode-6c5141d5.html</guid>
+    <description>GoogleのAIモードが航空券価格の追跡やホテル予約など、旅行計画の実行支援へ拡張。検索支援から予約代行へシフト。</description>
+    <pubDate>Sun, 30 Aug 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI・Anthropic・Google含む100社超が結集、「悪質AI」への防衛策を宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9eadc7db.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9eadc7db.html</guid>
+    <description>大手AI企業と新興企業が連携し、次世代のサイバー脅威に対抗する新しいセキュリティソリューション提案。</description>
+    <pubDate>Sun, 30 Aug 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Thinking Machinesの共同創業者ザフ、OpenAI経由でGoogle入社。AI業界の人材争奪が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-9d531c32.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-9d531c32.html</guid>
+    <description>Thinking Machines共同創業者で元OpenAI勤務のBarret Zoph氏がGoogleへ移籍。AI人材の流動化が進む。</description>
+    <pubDate>Sun, 30 Aug 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AnthropicとOpenAI、TechCrunch Disrupt 2026のAIステージに登壇決定</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-2f47506c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-2f47506c.html</guid>
+    <description>TechCrunch Disrupt 2026のAIステージにAnthropicとOpenAIが参加。業界の最注目トピックを掘り下げる。</description>
+    <pubDate>Sun, 30 Aug 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>大手AI企業を除外、37名がAIセキュリティ同盟設立</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-ai-6b83d4da.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-ai-6b83d4da.html</guid>
+    <description>主要AI企業を含まない37名によるAIセキュリティ同盟が結成され、業界の安全性向上に向けた新たな動きが始まった。</description>
+    <pubDate>Sun, 30 Aug 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Meta幹部がOpenAIへ転職、東南アジア・豪州事業を統括</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-99e51698.html</guid>
     <description>チームみらいがAIについて総理大臣に指導するイベントを首相官邸で開催。音声入力機能の活用を実演。</description>
     <pubDate>Sat, 29 Aug 2026 02:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Pollen Robotics、399ドルのあひる型ロボット「Microduck」予約開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/pollen-robotics-microduck-48ec8a0f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/pollen-robotics-microduck-48ec8a0f.html</guid>
-    <description>Pollen Roboticsが小型ロボット「Microduck」を発表。399ドルで家庭や教室での強化学習実験を実現する。</description>
-    <pubDate>Fri, 28 Aug 2026 17:18:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>キーサイト・テクノロジー、AI設計時代へ舵 人間は「監督役」に転換</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/eda-ai-9d3e63a5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/eda-ai-9d3e63a5.html</guid>
-    <description>キーサイトがAI活用した次世代EDA技術を発表。半導体設計の主役がAIに移行する時代の到来を宣言した。</description>
-    <pubDate>Fri, 28 Aug 2026 17:18:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、Gemini搭載スマートスピーカーを25日発売。16,800円で提供開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html</guid>
-    <description>GoogleがAI「Gemini」を搭載した新型スマートスピーカー「Google Home Speaker」を発売。価格は16,800円。</description>
-    <pubDate>Fri, 28 Aug 2026 17:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>arXiv、LLM生成の虚偽・架空引用で投稿禁止1年間を宣告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/arxiv-llm-4179b9cf.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/arxiv-llm-4179b9cf.html</guid>
-    <description>未査読論文リポジトリのarXivが、大言語モデルの誤りや架空引用を含む論文の投稿を1年間禁止する厳しい方針を打ち出した。</description>
-    <pubDate>Fri, 28 Aug 2026 17:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTやGeminiを1クリック。月額無料のAIキーボード「MiMouse」登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-2d25b758.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-2d25b758.html</guid>
-    <description>ChatGPTやGeminiを1クリックで呼び出せる、月額不要のAIキーボード「MiMouse」が登場。複数のAIサービスに素早くアクセス可能。</description>
-    <pubDate>Fri, 28 Aug 2026 17:17:00 +0900</pubDate>
   </item>
 </channel></rss>
