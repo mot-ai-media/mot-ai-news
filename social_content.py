@@ -90,6 +90,8 @@ MOTは「AIについていけなくなるのが不安な一般の人」向けの
 - fearアングルでも、恐怖だけで終わらせず誠実なトーンにする
 - caption_instagram/facebook/tiktok/youtube/x_postは同じ文の使い回しではなく、
   それぞれのプラットフォームの文体に合わせて書き分けること
+- 文中で語句を強調したい場合は半角の"(ダブルクォート)を使わず、「」を使うこと
+  (半角"はJSON構文を壊すため絶対に使わない)
 - 出力は次のJSON形式のみ。説明や前置き、コードブロック記号は一切つけない
 {{"angles": [{{"type": "fear", "hook": "...", "carousel": ["...", "...", "..."], "caption_instagram": "...", "caption_facebook": "...", "caption_tiktok": "...", "caption_youtube": "...", "x_post": "...", "cta": "..."}}, {{"type": "surprise", "hook": "...", "carousel": ["...", "...", "..."], "caption_instagram": "...", "caption_facebook": "...", "caption_tiktok": "...", "caption_youtube": "...", "x_post": "...", "cta": "..."}}, {{"type": "opportunity", "hook": "...", "carousel": ["...", "...", "..."], "caption_instagram": "...", "caption_facebook": "...", "caption_tiktok": "...", "caption_youtube": "...", "x_post": "...", "cta": "..."}}, {{"type": "practical", "hook": "...", "carousel": ["...", "...", "..."], "caption_instagram": "...", "caption_facebook": "...", "caption_tiktok": "...", "caption_youtube": "...", "x_post": "...", "cta": "..."}}]}}
 """
@@ -175,7 +177,21 @@ def _validate(data: dict) -> dict:
     return data
 
 
+def _call_once(prompt: str, client: anthropic.Anthropic) -> dict:
+    message = client.messages.create(model=MODEL, max_tokens=4000, messages=[{"role": "user", "content": prompt}])
+    text = message.content[0].text.strip()
+    text = text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError as exc:
+        raise GenerationError(f"JSON解析に失敗しました: {text!r}") from exc
+    return _validate(data)
+
+
 def generate_for_article(article: dict, client: anthropic.Anthropic) -> dict:
+    """記事1件分のSNSコンテンツを生成する。文中の半角"混入等でJSONが崩れることが
+    まれにあるため、失敗時は1回だけ自動リトライする(温度が変わり別の出力になりやすい)。"""
     prompt = PROMPT_TEMPLATE.format(
         headline=article.get("headline", ""),
         tldr=article.get("tldr", ""),
@@ -186,15 +202,11 @@ def generate_for_article(article: dict, client: anthropic.Anthropic) -> dict:
         opportunity_point=article.get("opportunity_point", ""),
         url=f"{SITE_BASE_URL}/articles/{article['slug']}.html",
     )
-    message = client.messages.create(model=MODEL, max_tokens=4000, messages=[{"role": "user", "content": prompt}])
-    text = message.content[0].text.strip()
-    text = text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
-
     try:
-        data = json.loads(text)
-    except json.JSONDecodeError as exc:
-        raise GenerationError(f"JSON解析に失敗しました: {text!r}") from exc
-    return _validate(data)
+        return _call_once(prompt, client)
+    except GenerationError:
+        logger.warning("1回目の生成に失敗、リトライします: %s", article.get("slug"))
+        return _call_once(prompt, client)
 
 
 def run(limit: int = 3) -> list[str]:
