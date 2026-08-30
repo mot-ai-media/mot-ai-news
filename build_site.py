@@ -30,6 +30,7 @@ from dotenv import load_dotenv
 
 import alert
 import generator
+import goatcounter
 import sources
 import state
 
@@ -2447,6 +2448,17 @@ def _maybe_send_daily_digest() -> None:
             lines.append(f"{cnt:3d}件  {src}")
     else:
         lines.append("直近24時間で新規記事はありませんでした。")
+
+    gc_stats = goatcounter.fetch_recent_stats(days=1)
+    lines.append("")
+    if gc_stats is not None:
+        lines.append(f"--- アクセス数(直近24時間、GoatCounter実データ) ---")
+        lines.append(f"合計PV: {gc_stats['total_pv']}")
+        for page in gc_stats["top_pages"][:5]:
+            lines.append(f"{page['count']:3d}PV  {page['path']}")
+    else:
+        lines.append("(アクセス数: GoatCounterからの取得に失敗、または未設定)")
+
     lines.append("")
     lines.append(f"サイト: {SITE_BASE_URL}/")
 
