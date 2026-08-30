@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Meta幹部がOpenAIへ転職、東南アジア・豪州事業を統括</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html</guid>
+    <description>Metaのサンディヤ・デヴァナタン氏がOpenAIに移籍し、東南アジア・豪州地域の事業統括を担当する。</description>
+    <pubDate>Sun, 30 Aug 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、トランプ政権の規制に初勝訴。ペンタゴン訴訟で違法判断</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-c6fae4a0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-c6fae4a0.html</guid>
+    <description>連邦判事がトランプ政権によるAnthropicへのサプライチェーンリスク指定を違法と判断。AI企業の規制強化に風穴</description>
+    <pubDate>Sun, 30 Aug 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>オープンウェイトAI企業、シリコンバレーの買収ターゲットに急浮上</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-m-a-883e80af.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-m-a-883e80af.html</guid>
+    <description>モデルを無償公開するオープンウェイト企業への投資が急増し、シリコンバレーの最注目買収ターゲットへ</description>
+    <pubDate>Sun, 30 Aug 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、自己改善するAIを実証。不正行為10項目すべて改善</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-09fc2e9c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-09fc2e9c.html</guid>
+    <description>Anthropicの研究チームが、特定の不正行為10項目すべてで性能向上を実現するAIシステムを開発。整体性能は維持したまま。</description>
+    <pubDate>Sun, 30 Aug 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、Cursor提供終了を宣告　SpaceX買収で信頼崩壊</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html</guid>
+    <description>OpenAIがAIコードエディタCursorへのモデル提供を11月に終了。SpaceX買収を理由に挙げている。</description>
+    <pubDate>Sun, 30 Aug 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Neocloud Lambda、10億ドルの債務調達でNvidia AI チップ大量購入</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-2d25b758.html</guid>
     <description>ChatGPTやGeminiを1クリックで呼び出せる、月額不要のAIキーボード「MiMouse」が登場。複数のAIサービスに素早くアクセス可能。</description>
     <pubDate>Fri, 28 Aug 2026 17:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>上級IT人材の深刻な不足、2大調査が明かす需給ギャップの実態</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/itr-it-36486975.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/itr-it-36486975.html</guid>
-    <description>ITRとガートナーの調査から、上級IT人材の確保難と育成の課題が浮き彫りに。企業の危機的な人材需給ギャップが明らかに。</description>
-    <pubDate>Fri, 28 Aug 2026 12:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>情シスの実力は1割止まり、AI時代に専門職が消滅する衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-8b6eee71.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-8b6eee71.html</guid>
-    <description>AI時代にIT部門が果たすべき役割が大きく変わる。職が失われずとも専門分野の仕事が消えうる危機感から、キャリア構築の在り方を問い直す。</description>
-    <pubDate>Fri, 28 Aug 2026 12:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ZEALSとタイミー、ヒューマノイド育成へ現場データ収集で協業開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/zeals-732059a4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zeals-732059a4.html</guid>
-    <description>ZEALSとタイミーがフィジカルAI学習に必要な現場データを集めるスポットワークを共創。</description>
-    <pubDate>Fri, 28 Aug 2026 12:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、動画生成AI「Gemini Omni 1.1 Flash」公開。最長40秒延長対応の衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-omni-c7c7146b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-omni-c7c7146b.html</guid>
-    <description>Googleが動画生成・編集対応のマルチモーダルAI「Gemini Omni 1.1 Flash」を発表。最大40秒のシーン延長機能を搭載。</description>
-    <pubDate>Fri, 28 Aug 2026 12:12:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIで成果を出す人と出さない人、決定的な差はスキルではなく思考法だった</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8f5b77fd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8f5b77fd.html</guid>
-    <description>AIツールの使い手を分ける本当の要因は、ツールへの依存度ではなく問題解決の思考プロセスにあると専門家が指摘。</description>
-    <pubDate>Fri, 28 Aug 2026 12:12:00 +0900</pubDate>
   </item>
 </channel></rss>

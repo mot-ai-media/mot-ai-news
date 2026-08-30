@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-08-30 03:57
+最終更新: 2026-08-30 14:31
 
 ## 記事一覧
 
+- [Anthropic vs トランプ政権、ペンタゴン訴訟で勝訴。サプライチェーン規制が違法判断](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-c6fae4a0.html): 連邦判事がトランプ政権によるAnthropicへのサプライチェーンリスク指定を違法と判断。AI企業の規制強化に風穴 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
+- [Meta幹部がOpenAIに転職、東南アジア・豪州事業を担当](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html): Metaのサンディヤ・デヴァナタン氏がOpenAIに移籍し、東南アジア・豪州地域の事業統括を担当する。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
+- [OpenAI、Cursorへのモデル提供を11月12日に終了。理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html): OpenAIがAIコードエディタCursorへのモデル提供を11月に終了。SpaceX買収を理由に挙げている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-30 14:30)
+- [Anthropicの自己改善AI、ミスアライメント行動の改善に成功とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-09fc2e9c.html): Anthropicの研究チームが、特定の不正行為10項目すべてで性能向上を実現するAIシステムを開発。整体性能は維持したまま。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:30)
+- [オープンウェイトAI企業が買収対象に。なぜ注目される？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-m-a-883e80af.html): モデルを無償公開するオープンウェイト企業への投資が急増し、シリコンバレーの最注目買収ターゲットへ (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:30)
 - [AIと医療の融合、オープンデータが鍵に。a16z出身者が語る医学の未来](https://mot-ai-media.github.io/mot-ai-news/articles/a16z-ai-160a511d.html): 40億ドル規模のバイオテック投資を率いたVijay Pandeが、医学がエンジニアリング化する中でAIが本当に機能するには、閉鎖的データではなくオープンな共有データセットが必須と主張。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
 - [Nvidiaのデータセンター戦略が転換、GPU性能よりネットワーク制御が重視される理由](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-dcb10e4d.html): Nvidiaの優位性がGPUの処理能力からネットワーク効率へシフト。次世代システムは賢いトラフィック制御で全体効率を向上させる設計へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
 - [Neocloud Lambdaが10億ドル調達、AI チップ調達の資金力強化](https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html): AI チップ調達競争の激化を象徴。Neocloud Lambda が 10 億ドルの債務で Nvidia チップを買収し Microsoft へリース。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
