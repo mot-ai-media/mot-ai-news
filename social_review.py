@@ -19,31 +19,41 @@ ANGLE_LABELS = {"fear": "不安・危機感", "surprise": "驚き・好奇心", 
 ANGLE_COLORS = {"fear": "#ef4444", "surprise": "#f59e0b", "opportunity": "#10b981", "practical": "#2563eb"}
 
 
+def _slide_img(slug: str, atype: str, filename_part: str, label: str) -> str:
+    path = Path(__file__).parent / ASSETS_DIR_NAME / f"{slug}_{filename_part}.png"
+    if path.exists():
+        return (
+            f'<div style="text-align:center;"><img src="{ASSETS_DIR_NAME}/{slug}_{filename_part}.png" '
+            f'style="width:130px;border-radius:8px;display:block;"><span style="font-size:11px;color:#777;">{label}</span></div>'
+        )
+    return (
+        f'<div style="width:130px;height:230px;background:#222;border-radius:8px;'
+        f'display:flex;align-items:center;justify-content:center;color:#555;font-size:11px;">{label}<br>画像なし</div>'
+    )
+
+
 def _angle_block(slug: str, angle: dict) -> str:
     atype = angle["type"]
     color = ANGLE_COLORS.get(atype, "#888")
-    img_path = Path(__file__).parent / ASSETS_DIR_NAME / f"{slug}_{atype}_hook.png"
-    img_tag = (
-        f'<img src="{ASSETS_DIR_NAME}/{slug}_{atype}_hook.png" style="width:180px;border-radius:10px;">'
-        if img_path.exists() else '<div style="width:180px;height:320px;background:#222;border-radius:10px;'
-        'display:flex;align-items:center;justify-content:center;color:#555;font-size:12px;">画像なし</div>'
-    )
-    carousel_html = "".join(f"<li>{html.escape(c)}</li>" for c in angle.get("carousel", []))
-    script_html = "".join(f"<li>{html.escape(s)}</li>" for s in angle.get("video_script", []))
+    carousel = angle.get("carousel", [])
+
+    slides_html = _slide_img(slug, atype, f"{atype}_hook", "1.hook")
+    for i in range(len(carousel)):
+        slides_html += _slide_img(slug, atype, f"{atype}_slide{i + 2}", f"{i + 2}")
+    slides_html += _slide_img(slug, atype, "cta", f"{len(carousel) + 2}.CTA")
+
     return f"""
     <div style="border-left:4px solid {color};background:#1a1a1f;border-radius:0 10px 10px 0;padding:16px 18px;margin:12px 0;">
       <b style="color:{color};">{ANGLE_LABELS.get(atype, atype)}</b>
-      <div style="display:flex;gap:20px;margin-top:10px;">
-        {img_tag}
-        <div style="flex:1;min-width:0;">
-          <p><b>Hook:</b> {html.escape(angle.get('hook', ''))}</p>
-          <p><b>Caption:</b> {html.escape(angle.get('caption', ''))}</p>
-          <p><b>X投稿:</b> {html.escape(angle.get('x_post', ''))}</p>
-          <p><b>CTA:</b> {html.escape(angle.get('cta', ''))}</p>
-          <p><b>カルーセル(3枚):</b></p><ul>{carousel_html}</ul>
-          <p><b>Reels台本(3シーン):</b></p><ul>{script_html}</ul>
-        </div>
-      </div>
+      <p style="color:#999;font-size:12px;margin-top:4px;">画像{len(carousel) + 2}枚のスライド投稿(1〜{len(carousel) + 2}の順)</p>
+      <div style="display:flex;gap:10px;margin:10px 0;overflow-x:auto;">{slides_html}</div>
+      <p><b>Hook:</b> {html.escape(angle.get('hook', ''))}</p>
+      <p><b>CTA:</b> {html.escape(angle.get('cta', ''))}</p>
+      <p><b>Instagram:</b> {html.escape(angle.get('caption_instagram', ''))}</p>
+      <p><b>Facebook:</b> {html.escape(angle.get('caption_facebook', ''))}</p>
+      <p><b>TikTok:</b> {html.escape(angle.get('caption_tiktok', ''))}</p>
+      <p><b>YouTube Shorts:</b> {html.escape(angle.get('caption_youtube', ''))}</p>
+      <p><b>X投稿:</b> {html.escape(angle.get('x_post', ''))}</p>
     </div>
     """
 
@@ -71,7 +81,8 @@ def build() -> None:
             <div>
               <h2 style="margin:0 0 6px;">{html.escape(item.get('headline', ''))}</h2>
               <p style="color:#888;font-size:13px;">
-                slug: {html.escape(slug)} / importance_score: {item.get('importance_score')} /
+                slug: {html.escape(slug)} / social_score: {item.get('social_score', '?')} /
+                importance_score: {item.get('importance_score')} /
                 status: <b>{html.escape(item.get('status', ''))}</b>
               </p>
             </div>

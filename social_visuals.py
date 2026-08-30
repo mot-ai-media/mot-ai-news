@@ -153,6 +153,45 @@ def make_hook_slide(image_url: str | None, hook: str, angle: str, slug: str, sou
     return out_path
 
 
+def make_text_slide(text: str, step: int, total: int, angle: str, slug: str) -> Path:
+    """カルーセル中間スライド(写真無し、テキストのみ)。フック/CTAスライドと同じブランド
+    トーンで、進行状況(2/5等)を小さく添える。"""
+    color = ANGLE_COLORS.get(angle, (37, 99, 235))
+    img = Image.new("RGB", SIZE, (16, 16, 20))
+    draw = ImageDraw.Draw(img)
+    draw.rectangle([(0, 0), (16, SIZE[1])], fill=color)
+
+    font_body = ImageFont.truetype(FONT_BOLD, 66)
+    max_text_width = SIZE[0] - 180
+    lines = _wrap_text(draw, text, font_body, max_text_width)
+    total_h = len(lines) * 84
+    y = (SIZE[1] - total_h) // 2
+    for line in lines:
+        draw.text((90, y), line, font=font_body, fill=(255, 255, 255))
+        y += 84
+
+    font_step = ImageFont.truetype(FONT_REGULAR, 30)
+    draw.text((90, 90), f"{step}/{total}", font=font_step, fill=color)
+
+    font_brand = ImageFont.truetype(FONT_REGULAR, 28)
+    draw.text((90, SIZE[1] - 70), "MOT", font=font_brand, fill=(140, 140, 150))
+
+    OUT_DIR.mkdir(exist_ok=True)
+    out_path = OUT_DIR / f"{slug}_{angle}_slide{step}.png"
+    img.save(out_path)
+    return out_path
+
+
+def make_carousel_slides(carousel_texts: list[str], angle: str, slug: str) -> list[Path]:
+    """カルーセルの中間スライド群(通常3枚)を作る。フック(1枚目)・CTA(最終枚)と合わせて
+    合計5枚のスライド投稿になる想定。"""
+    total = len(carousel_texts) + 2  # hook + 中間 + cta
+    paths = []
+    for i, text in enumerate(carousel_texts):
+        paths.append(make_text_slide(text, i + 2, total, angle, slug))
+    return paths
+
+
 def make_cta_slide(slug: str) -> Path:
     """動画・投稿の最後に使うMOT宣伝スライド。CTA文はスラッグのハッシュで決定的にローテーションする
     (build_site.pyの_pick_ad()と同じ考え方: 同じ記事は毎回同じ文になり、全体では分散する)。"""
