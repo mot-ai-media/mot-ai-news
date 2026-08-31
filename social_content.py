@@ -236,7 +236,9 @@ def run(limit: int = 3) -> list[str]:
         for angle in result["angles"]:
             try:
                 social_visuals.make_hook_slide(article_tags, angle["hook"], angle["type"], slug, article.get("source", ""))
-                social_visuals.make_carousel_slides(angle["carousel"], angle["type"], slug)
+                social_visuals.make_carousel_slides(
+                    angle["carousel"], angle["type"], slug, article_tags, article.get("source", "")
+                )
                 social_visuals.make_cta_slide(slug, angle.get("cta"), angle["type"])
             except Exception:
                 logger.exception("画像生成に失敗: %s / %s", slug, angle["type"])

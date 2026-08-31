@@ -202,23 +202,32 @@ def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, so
     return out_path
 
 
-def make_text_slide(text: str, step: int, total: int, angle: str, slug: str) -> Path:
-    """カルーセル中間スライド(写真無し、テキストのみ)。色帯は使わず、フックスライドと
-    同じ控えめなブランディング(中央上部の小さなロゴ)にそろえる。"""
-    img = Image.new("RGB", SIZE, (16, 16, 20))
+def make_text_slide(
+    text: str, step: int, total: int, angle: str, slug: str,
+    tags: list[str] | None = None, source: str = "",
+) -> Path:
+    """カルーセル中間スライド。文字だけの単調な画面を避け、フックと同じ背景写真
+    (同カテゴリなので同じ画像になる)を再利用し、その上に読みやすさ優先の暗いオーバーレイ
+    を重ねてテキストを載せる。色帯は使わず、控えめなブランディングで統一する。"""
+    img = _curated_background(tags, source or slug, angle).convert("RGB")
+
+    # 中間スライドは本文が長め(hookより情報量が多い)なので、画面全体に軽めの
+    # 暗いオーバーレイをかけて可読性を優先しつつ、背景の質感は残す
+    overlay = Image.new("RGB", SIZE, (8, 8, 10))
+    img = Image.blend(img, overlay, 0.62)
     draw = ImageDraw.Draw(img)
 
-    font_body = ImageFont.truetype(FONT_BOLD, 66)
+    font_body = ImageFont.truetype(FONT_BOLD, 60)
     max_text_width = SIZE[0] - 180
     lines = _wrap_text(draw, text, font_body, max_text_width)
-    total_h = len(lines) * 84
+    total_h = len(lines) * 78
     y = (SIZE[1] - total_h) // 2
     for line in lines:
         draw.text((90, y), line, font=font_body, fill=(255, 255, 255))
-        y += 84
+        y += 78
 
     font_step = ImageFont.truetype(FONT_REGULAR, 28)
-    draw.text((90, SIZE[1] - 70), f"{step}/{total}", font=font_step, fill=(120, 120, 130))
+    draw.text((90, SIZE[1] - 70), f"{step}/{total}", font=font_step, fill=(180, 180, 190))
 
     _paste_watermark(img)
 
@@ -228,13 +237,16 @@ def make_text_slide(text: str, step: int, total: int, angle: str, slug: str) -> 
     return out_path
 
 
-def make_carousel_slides(carousel_texts: list[str], angle: str, slug: str) -> list[Path]:
-    """カルーセルの中間スライド群(通常3枚)を作る。フック(1枚目)・CTA(最終枚)と合わせて
-    合計5枚のスライド投稿になる想定。"""
+def make_carousel_slides(
+    carousel_texts: list[str], angle: str, slug: str,
+    tags: list[str] | None = None, source: str = "",
+) -> list[Path]:
+    """カルーセルの中間スライド群(通常2枚)を作る。フック(1枚目)・CTA(最終枚)と合わせて
+    合計4枚のスライド投稿になる想定。"""
     total = len(carousel_texts) + 2  # hook + 中間 + cta
     paths = []
     for i, text in enumerate(carousel_texts):
-        paths.append(make_text_slide(text, i + 2, total, angle, slug))
+        paths.append(make_text_slide(text, i + 2, total, angle, slug, tags, source))
     return paths
 
 
