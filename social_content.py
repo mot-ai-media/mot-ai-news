@@ -75,9 +75,13 @@ MOTは「AIについていけなくなるのが不安な一般の人」向けの
 
 # 各アングルで作る項目
 - hook: 冒頭1秒で目を止めさせる一言。上記のルールに従う
-- carousel: 画像2〜5枚のスライド投稿用に3枚分のテキスト(何が起きたか/なぜ重要か/変化すること)。
-  各1文、30字以内で言い切る(長い説明文にしない。1スライド1メッセージ)。配列で
-  (実際の投稿は 1.hook画像 → 2〜4.このcarousel3枚 → 5.MOT誘導、の5枚構成になる)
+- carousel: 画像投稿用に2枚分のテキストを配列で(実際の投稿は 1.hook画像 → 2〜3.このcarousel2枚
+  → 4.MOT誘導、の計4枚構成になる)。役割を分けること:
+  1つ目 = 「衝撃的な事実」を1文だけで言い切る(hookの言い換えは絶対禁止。hookで匂わせた
+    ことの"答え"にあたる新情報を出す。何が起きたかの核心を数字や固有名詞込みで)
+  2つ目 = 「なぜ重要か」と「読者への影響」を1つの文にまとめる(背景説明ではなく、
+    読んだ人が"自分にも関係あるかも"と思える一文にする)
+  各30字程度、長い説明文にしない(1スライド1メッセージ)
 - caption_instagram: Instagram用キャプション。hookで始め2〜3文、最後に軽くハッシュタグ2〜3個
 - caption_facebook: Facebook用。IGより会話的・説明的に3〜4文、ハッシュタグは付けない
 - caption_tiktok: TikTok用。カジュアルな話し言葉で2文程度、ハッシュタグは最小限
@@ -233,12 +237,9 @@ def run(limit: int = 3) -> list[str]:
             try:
                 social_visuals.make_hook_slide(article_tags, angle["hook"], angle["type"], slug, article.get("source", ""))
                 social_visuals.make_carousel_slides(angle["carousel"], angle["type"], slug)
+                social_visuals.make_cta_slide(slug, angle.get("cta"), angle["type"])
             except Exception:
                 logger.exception("画像生成に失敗: %s / %s", slug, angle["type"])
-        try:
-            social_visuals.make_cta_slide(slug)
-        except Exception:
-            logger.exception("CTA画像生成に失敗: %s", slug)
 
         queue[slug] = {
             "headline": article.get("headline", ""),

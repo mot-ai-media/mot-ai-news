@@ -40,7 +40,7 @@ def _angle_block(slug: str, angle: dict) -> str:
     slides_html = _slide_img(slug, atype, f"{atype}_hook", "1.hook")
     for i in range(len(carousel)):
         slides_html += _slide_img(slug, atype, f"{atype}_slide{i + 2}", f"{i + 2}")
-    slides_html += _slide_img(slug, atype, "cta", f"{len(carousel) + 2}.CTA")
+    slides_html += _slide_img(slug, atype, f"{atype}_cta", f"{len(carousel) + 2}.CTA")
 
     return f"""
     <div style="border-left:4px solid {color};background:#1a1a1f;border-radius:0 10px 10px 0;padding:16px 18px;margin:12px 0;">
@@ -69,25 +69,15 @@ def build() -> None:
 
     sections = []
     for slug, item in reversed(list(queue.items())):
-        cta_img_path = Path(__file__).parent / ASSETS_DIR_NAME / f"{slug}_cta.png"
-        cta_img_tag = (
-            f'<img src="{ASSETS_DIR_NAME}/{slug}_cta.png" style="width:110px;border-radius:8px;">'
-            if cta_img_path.exists() else ""
-        )
         angle_blocks = "".join(_angle_block(slug, a) for a in item.get("angles", []))
         sections.append(f"""
         <section style="margin-bottom:44px;padding-bottom:28px;border-bottom:1px solid #333;">
-          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;">
-            <div>
-              <h2 style="margin:0 0 6px;">{html.escape(item.get('headline', ''))}</h2>
-              <p style="color:#888;font-size:13px;">
-                slug: {html.escape(slug)} / social_score: {item.get('social_score', '?')} /
-                importance_score: {item.get('importance_score')} /
-                status: <b>{html.escape(item.get('status', ''))}</b>
-              </p>
-            </div>
-            {cta_img_tag}
-          </div>
+          <h2 style="margin:0 0 6px;">{html.escape(item.get('headline', ''))}</h2>
+          <p style="color:#888;font-size:13px;">
+            slug: {html.escape(slug)} / social_score: {item.get('social_score', '?')} /
+            importance_score: {item.get('importance_score')} /
+            status: <b>{html.escape(item.get('status', ''))}</b>
+          </p>
           {angle_blocks}
         </section>
         """)

@@ -101,18 +101,23 @@ def _cover_crop(photo: Image.Image) -> Image.Image:
     return photo.crop((left, top, left + SIZE[0], top + SIZE[1]))
 
 
-def pick_bg_category(tags: list[str] | None) -> str:
+def pick_bg_category(tags: list[str] | None, angle: str | None = None) -> str:
+    """タグが何にもマッチしない場合、officeに一律フォールバックすると
+    (例: 「AIが結託して攻撃」のような物騒な話でも呑気なオフィス写真になる)内容と
+    写真が食い違う事故が起きる。fearアングルはタグ不一致時、securityへ寄せる。"""
     for tag in tags or []:
         if tag in TAG_CATEGORY_MAP:
             return TAG_CATEGORY_MAP[tag]
+    if angle == "fear":
+        return "security"
     return DEFAULT_BG_CATEGORY
 
 
-def _curated_background(tags: list[str] | None, seed: str) -> Image.Image:
+def _curated_background(tags: list[str] | None, seed: str, angle: str | None = None) -> Image.Image:
     """記事のタグから、MOTが厳選したフリー素材(social_bg_photos/)を選んで背景にする。
     元記事のスクショ的な画像(質のばらつき・著作権グレー)は使わない。
     素材フォルダが無い等の異常時のみグラデーションにフォールバックする。"""
-    category = pick_bg_category(tags)
+    category = pick_bg_category(tags, angle)
     path = BG_PHOTOS_DIR / f"{category}.jpg"
     try:
         photo = Image.open(path).convert("RGB")
@@ -165,7 +170,7 @@ def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, so
     """タグから選んだ厳選フリー素材を背景に、下部に太字フックテキストを重ねる。
     参考にした実例(nicocinojp等)に合わせ、色帯や大きなロゴ表記は使わず、
     中央上部に小さなロゴのワンポイントだけを添える控えめなブランディングにする。"""
-    img = _curated_background(tags, source or slug).convert("RGB")
+    img = _curated_background(tags, source or slug, angle).convert("RGB")
     draw = ImageDraw.Draw(img)
 
     # 下部を読みやすくする暗いグラデーションのスクリム
@@ -233,11 +238,15 @@ def make_carousel_slides(carousel_texts: list[str], angle: str, slug: str) -> li
     return paths
 
 
-def make_cta_slide(slug: str) -> Path:
-    """動画・投稿の最後に使うMOT宣伝スライド。CTA文はスラッグのハッシュで決定的にローテーションする
-    (build_site.pyの_pick_ad()と同じ考え方: 同じ記事は毎回同じ文になり、全体では分散する)。"""
-    idx = int(hashlib.sha1(slug.encode("utf-8")).hexdigest(), 16) % len(CTA_POOL)
-    cta_text = CTA_POOL[idx]
+def make_cta_slide(slug: str, cta_text: str | None = None, angle: str | None = None) -> Path:
+    """動画・投稿の最後に使うMOT宣伝スライド。この記事・アングル固有のCTA文言が
+    渡されればそれを使う(汎用テンプレの使い回しは「このニュースと関係ない」と
+    離脱を招くため)。渡されなかった場合のみ、スラッグのハッシュで決定的に
+    汎用CTA_POOLからローテーションする(build_site.pyの_pick_ad()と同じ考え方)。"""
+    is_custom = bool(cta_text)
+    if not cta_text:
+        idx = int(hashlib.sha1(slug.encode("utf-8")).hexdigest(), 16) % len(CTA_POOL)
+        cta_text = CTA_POOL[idx]
 
     img = Image.new("RGB", SIZE, (10, 10, 12))
     draw = ImageDraw.Draw(img)
@@ -258,12 +267,16 @@ def make_cta_slide(slug: str) -> Path:
         draw.text(((SIZE[0] - w) / 2, y), line, font=font_cta, fill=(255, 255, 255))
         y += 66
 
-    font_sub = ImageFont.truetype(FONT_REGULAR, 32)
-    sub = "続きはMOTで"
-    w = draw.textlength(sub, font=font_sub)
-    draw.text(((SIZE[0] - w) / 2, y + 30), sub, font=font_sub, fill=(150, 150, 160))
+    if not is_custom:
+        # 汎用CTA_POOL使用時のみ「続きはMOTで」を補足する。
+        # 記事固有のCTAは既に文中でMOTへの誘導を含むため、重複表示を避ける。
+        font_sub = ImageFont.truetype(FONT_REGULAR, 32)
+        sub = "続きはMOTで"
+        w = draw.textlength(sub, font=font_sub)
+        draw.text(((SIZE[0] - w) / 2, y + 30), sub, font=font_sub, fill=(150, 150, 160))
 
     OUT_DIR.mkdir(exist_ok=True)
-    out_path = OUT_DIR / f"{slug}_cta.png"
+    filename = f"{slug}_{angle}_cta.png" if angle else f"{slug}_cta.png"
+    out_path = OUT_DIR / filename
     img.save(out_path)
     return out_path
