@@ -1,8 +1,12 @@
 """SNS投稿用の画像(フックスライド+CTAスライド)をPillowで生成する。
 
-参考にした実例(wakaru_lab.jp等)のフォーマットに合わせ、Reels/TikTok向けの縦長(9:16)、
-「写真フルサイズ+下部に太字テキスト」の構成にする。記事の実画像があればそれを背景に使い、
-無ければ既存サイトと同じ配色ロジックのグラデーションにフォールバックする。
+参考にした実例(wakaru_lab.jp等)のフォーマットに合わせ、「写真フルサイズ+下部に太字テキスト」
+の構成にする。記事の実画像があればそれを背景に使い、無ければ既存サイトと同じ配色ロジックの
+グラデーションにフォールバックする。
+
+サイズは4:5(1080x1350)。Instagramのカルーセル投稿が公式にサポートするアスペクト比は
+1:1・4:5・1.91:1のみで、9:16(Reels/Stories用)は対象外(規格外だとフィード上で
+リールのように扱われる/意図しない見え方になる)。フィード用カルーセルなので4:5を採用する。
 """
 
 from __future__ import annotations
@@ -45,7 +49,7 @@ DEFAULT_BG_CATEGORY = "office"
 FONT_BOLD = "C:/Windows/Fonts/YuGothB.ttc"
 FONT_REGULAR = "C:/Windows/Fonts/YuGothR.ttc"
 
-SIZE = (1080, 1920)  # Reels/TikTok縦長比率(9:16)
+SIZE = (1080, 1350)  # Instagramカルーセル対応比率(4:5)
 
 ANGLE_COLORS = {
     "fear": (239, 68, 68),
@@ -263,7 +267,7 @@ def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, so
     draw = ImageDraw.Draw(img)
 
     # 下部を読みやすくする暗いグラデーションのスクリム
-    scrim_height = 760
+    scrim_height = 534
     scrim = Image.new("L", (1, scrim_height), 0)
     for y in range(scrim_height):
         scrim.putpixel((0, y), int(230 * (y / scrim_height)))
@@ -276,10 +280,10 @@ def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, so
     # フックテキスト(下部、太字)。文字数に応じて収まる最大サイズを選ぶ
     # (「文字が多いから縮小」ではなく「短ければ大きく」、余白を無駄にしない)
     max_text_width = SIZE[0] - 140
-    font_hook, lines = _fit_text(draw, hook, FONT_BOLD, max_text_width, min_size=56, max_size=100, max_lines=3)
+    font_hook, lines = _fit_text(draw, hook, FONT_BOLD, max_text_width, min_size=48, max_size=84, max_lines=3)
     line_h = int(font_hook.size * 1.22)
     total_h = len(lines) * line_h
-    y = SIZE[1] - 220 - total_h
+    y = SIZE[1] - 155 - total_h
     for line in lines:
         draw.text((70, y), line, font=font_hook, fill=(255, 255, 255))
         y += line_h
@@ -317,7 +321,7 @@ def make_text_slide(
         y += line_h
 
     font_step = ImageFont.truetype(FONT_REGULAR, 28)
-    draw.text((90, SIZE[1] - 70), f"{step}/{total}", font=font_step, fill=(180, 180, 190))
+    draw.text((90, SIZE[1] - 55), f"{step}/{total}", font=font_step, fill=(180, 180, 190))
 
     _paste_watermark(img)
 
@@ -355,15 +359,15 @@ def make_cta_slide(slug: str, cta_text: str | None = None, angle: str | None = N
 
     try:
         logo = Image.open(LOGO_PATH).convert("RGBA")
-        logo_w = 520
+        logo_w = 366
         logo = logo.resize((logo_w, logo_w))
-        img.paste(logo, ((SIZE[0] - logo_w) // 2, 560), logo)
+        img.paste(logo, ((SIZE[0] - logo_w) // 2, 200), logo)
     except FileNotFoundError:
         pass
 
-    font_cta, lines = _fit_text(draw, cta_text, FONT_BOLD, SIZE[0] - 160, min_size=34, max_size=56, max_lines=4)
+    font_cta, lines = _fit_text(draw, cta_text, FONT_BOLD, SIZE[0] - 160, min_size=32, max_size=52, max_lines=4)
     line_h = int(font_cta.size * 1.25)
-    y = 1230
+    y = 720
     for line in lines:
         w = draw.textlength(line, font=font_cta)
         draw.text(((SIZE[0] - w) / 2, y), line, font=font_cta, fill=(255, 255, 255))

@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-08-31 18:01
+最終更新: 2026-08-31 22:01
 
 ## 記事一覧
 
+- [Anthropic著作権侵害で提訴、AI学習と知的財産権の問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-1165a641.html): 大手音楽出版社がAI企業を著作権侵害で提訴。AIの学習方法が法的に問われる時代へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:01)
+- [Claude Academyとは？Anthropicの日本語AI学習サイト、無料で何が学べるか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-decd347b.html): Anthropicが安全で効果的なAI活用を学べる日本語学習サイトを無料公開。357のコンテンツが利用可能。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:01)
+- [AIの利用拡大で何が変わる？労働市場への影響を企業データから解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-276e8231.html): ChatGPT以降のAI導入で、実際に職場と仕事の中身がどう変わっているかが見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:01)
+- [大企業のAI導入課題とは？サイボウズの事例から学ぶ対応策](https://mot-ai-media.github.io/mot-ai-news/articles/kintone-ai-b2d36076.html): 業務管理ツール「kintone」の顧客動向から、大企業がAI時代に直面する課題と解決方法が見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:00)
+- [Claude Codeの利用制限が変更。9月14日から何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-4a02b109.html): AIコーディング支援「Claude Code」の週間上限が引き上げられるが、期間限定措置の終了で実質減少に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:00)
 - [上司がAIを使う理由とは？部下面談の準備でマネジャーが頼る実態](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-8c6ee3cd.html): 米国の調査で、多くのマネジャーが部下との面談準備にAIツールを活用している実態が判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 18:01)
 - [AIがコードを書く時代、開発者の仕事はどう変わる？ゲイツが語る未来](https://mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html): AIがコード作成を自動化する一方で、開発者の役割そのものが再定義されると指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 18:01)
 - [ChatGPT Business/Enterprise、GitHubプラグイン同期対応](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4233e9cf.html): ChatGPTのビジネスプランがGitHubのプラグインと連携し、管理が一元化される新展開。 (出典: gihyo.jp / 更新: 2026-08-31 18:00)

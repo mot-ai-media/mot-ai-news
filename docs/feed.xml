@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AnthropicとOpenAIが明かす、AIが職場に与えている本当の変化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-276e8231.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-276e8231.html</guid>
+    <description>ChatGPT以降のAI導入で、実際に職場と仕事の中身がどう変わっているかが見えてきた。</description>
+    <pubDate>Mon, 31 Aug 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、日本語AI学習サイト無料公開　357コンテンツで誰でも学べる環境が実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-decd347b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-decd347b.html</guid>
+    <description>Anthropicが安全で効果的なAI活用を学べる日本語学習サイトを無料公開。357のコンテンツが利用可能。</description>
+    <pubDate>Mon, 31 Aug 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ソニー・ワーナーがAnthropicを提訴、AI学習の著作権問題が法廷へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-1165a641.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-1165a641.html</guid>
+    <description>大手音楽出版社がAI企業を著作権侵害で提訴。AIの学習方法が法的に問われる時代へ。</description>
+    <pubDate>Mon, 31 Aug 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude Code、9月14日に利用枠が逆転減少。期間限定措置の終了で現状比17％ダウン</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-4a02b109.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-4a02b109.html</guid>
+    <description>AIコーディング支援「Claude Code」の週間上限が引き上げられるが、期間限定措置の終了で実質減少に。</description>
+    <pubDate>Mon, 31 Aug 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>サイボウズが示す大企業のAI課題、「kintone」の実績から見えた現実</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/kintone-ai-b2d36076.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/kintone-ai-b2d36076.html</guid>
+    <description>業務管理ツール「kintone」の顧客動向から、大企業がAI時代に直面する課題と解決方法が見えてきた。</description>
+    <pubDate>Mon, 31 Aug 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ビル・ゲイツが警告「AIでコード作成は自動化されるが、開発者は消えない」</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html</guid>
     <description>OpenAIがAIコードエディタCursorへのモデル提供を11月に終了。SpaceX買収を理由に挙げている。</description>
     <pubDate>Sun, 30 Aug 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Neocloud Lambda、10億ドルの債務調達でNvidia AI チップ大量購入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html</guid>
-    <description>AI チップ調達競争の激化を象徴。Neocloud Lambda が 10 億ドルの債務で Nvidia チップを買収し Microsoft へリース。</description>
-    <pubDate>Sun, 30 Aug 2026 03:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nvidiaの競争力、GPU性能だけでは通用しない時代へ。次世代データセンターは「頭の良い」ネットワーク制御が主役に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-dcb10e4d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-dcb10e4d.html</guid>
-    <description>Nvidiaの優位性がGPUの処理能力からネットワーク効率へシフト。次世代システムは賢いトラフィック制御で全体効率を向上させる設計へ。</description>
-    <pubDate>Sun, 30 Aug 2026 03:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>a16z元バイオテック責任者が指摘、AI医療革命は「オープンデータ」でしか実現しない</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/a16z-ai-160a511d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/a16z-ai-160a511d.html</guid>
-    <description>40億ドル規模のバイオテック投資を率いたVijay Pandeが、医学がエンジニアリング化する中でAIが本当に機能するには、閉鎖的データではなくオープンな共有データセットが必須と主張。</description>
-    <pubDate>Sun, 30 Aug 2026 03:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ソニー・ワーナー、Anthropicを提訴—音楽著作権侵害の「組織的窃盗」を指摘</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-a07c3116.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-a07c3116.html</guid>
-    <description>音楽大手2社がAI企業Anthropicに対し、著作権侵害による大規模な知的財産盗用を疑う訴訟を提起。</description>
-    <pubDate>Sun, 30 Aug 2026 03:43:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google Gemini×BTS、エクスクルーシブコラボ機能が解禁。4つの体験へのアクセス方法も判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</guid>
-    <description>GoogleのAI「Gemini」とBTSのコラボ機能が公開。特定のコマンド入力で限定体験にアクセス可能。</description>
-    <pubDate>Sun, 30 Aug 2026 03:43:00 +0900</pubDate>
   </item>
 </channel></rss>
