@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import hashlib
+import re
 import urllib.request
 from io import BytesIO
 from pathlib import Path
@@ -151,14 +152,21 @@ def _paste_watermark(img: Image.Image, size: int = 64) -> None:
     img.paste(logo, ((SIZE[0] - size) // 2, 56), logo)
 
 
+_WRAP_TOKEN_RE = re.compile(r"[A-Za-z0-9]+|.", re.DOTALL)
+
+
 def _wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont, max_width: int) -> list[str]:
+    """幅に応じて折り返す。英数字の連続(AI、1200等)は1つの塊として扱い、
+    「A」「I」や「70」「0」のように単語の途中で割れないようにする。
+    日本語(漢字・かな)は従来通り1文字単位で自由に折り返せる。"""
+    tokens = _WRAP_TOKEN_RE.findall(text)
     lines: list[str] = []
     line = ""
-    for ch in text:
-        test = line + ch
+    for tok in tokens:
+        test = line + tok
         if draw.textlength(test, font=font) > max_width and line:
             lines.append(line)
-            line = ch
+            line = tok
         else:
             line = test
     if line:
