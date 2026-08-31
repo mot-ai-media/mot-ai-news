@@ -8,12 +8,17 @@
 from __future__ import annotations
 
 import hashlib
-import re
 import urllib.request
 from io import BytesIO
 from pathlib import Path
 
+from janome.tokenizer import Tokenizer
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
+
+# 形態素解析器(1プロセスにつき1回だけ初期化。辞書ロードに時間がかかるため使い回す)。
+# 「攻撃」のような熟語が文字幅の都合で「攻」「撃」に割れるのを防ぐため、
+# 折り返しは文字単位ではなく単語(形態素)単位で行う。
+_TOKENIZER = Tokenizer()
 
 OUT_DIR = Path(__file__).parent / "social_assets"
 LOGO_PATH = Path(__file__).parent / "docs" / "og-image.png"
@@ -152,14 +157,41 @@ def _paste_watermark(img: Image.Image, size: int = 64) -> None:
     img.paste(logo, ((SIZE[0] - size) // 2, 56), logo)
 
 
-_WRAP_TOKEN_RE = re.compile(r"[A-Za-z0-9]+|.", re.DOTALL)
+_COUNTER_UNITS = set("体人件社回個年月日円万億台本枚匹頭")
+
+# 助詞1文字は形態素解析でも独立トークンになるが、それが行頭に来ると不自然
+# (「AIが人間を」の次の行が「指示なく」ではなく「は」だけで始まる等)。
+_LEADING_PARTICLES = {
+    "は", "が", "を", "に", "で", "と", "も", "の", "へ", "や",
+    "から", "まで", "より", "だけ", "など",
+}
+
+
+def _tokenize_for_wrap(text: str) -> list[str]:
+    """MOT SNS Typography System: 文字幅ではなく単語(形態素)単位で折り返せるよう
+    形態素解析する。「攻撃」のような熟語が「攻」「撃」に割れる事故を防ぐのが目的。
+    数字("1200")の直後に単位(体/人等)が来る場合はさらに結合して1トークンにする。"""
+    tokens = [tok.surface for tok in _TOKENIZER.tokenize(text)]
+    merged: list[str] = []
+    i = 0
+    while i < len(tokens):
+        tok = tokens[i]
+        if tok.isdigit() and i + 1 < len(tokens) and tokens[i + 1] in _COUNTER_UNITS:
+            merged.append(tok + tokens[i + 1])
+            i += 2
+        else:
+            merged.append(tok)
+            i += 1
+    return merged
 
 
 def _wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont, max_width: int) -> list[str]:
-    """幅に応じて折り返す。英数字の連続(AI、1200等)は1つの塊として扱い、
-    「A」「I」や「70」「0」のように単語の途中で割れないようにする。
-    日本語(漢字・かな)は従来通り1文字単位で自由に折り返せる。"""
-    tokens = _WRAP_TOKEN_RE.findall(text)
+    """幅に応じて折り返す。MOT SNS Typography System:
+    - 形態素解析で単語単位に分割し、熟語(「攻撃」等)や固有名詞(「OpenAI」等)、
+      数字+単位(「1200体」等)が単語の途中で割れないようにする
+    - 行末が1〜2文字だけの孤立行にならないよう前の行へ結合する(幅を超える場合は結合しない)
+    - 行頭が単独の助詞(「は」「が」等)だけで始まらないよう前の行へ戻す"""
+    tokens = _tokenize_for_wrap(text)
     lines: list[str] = []
     line = ""
     for tok in tokens:
@@ -180,6 +212,18 @@ def _wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFon
         if draw.textlength(merged, font=font) <= max_width:
             lines[-2] = merged
             lines.pop()
+
+    # 行頭の孤立助詞の防止: 2行目以降が助詞だけで始まる場合、前の行の末尾に戻す
+    # (幅を超えない場合のみ。超える場合はそのまま残す=はみ出しを絶対に作らない)
+    i = 1
+    while i < len(lines):
+        particle = next((p for p in _LEADING_PARTICLES if lines[i].startswith(p) and len(lines[i]) > len(p)), None)
+        if particle:
+            candidate = lines[i - 1] + particle
+            if draw.textlength(candidate, font=font) <= max_width:
+                lines[i - 1] = candidate
+                lines[i] = lines[i][len(particle):]
+        i += 1
 
     return lines
 
