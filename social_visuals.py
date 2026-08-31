@@ -171,7 +171,44 @@ def _wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFon
             line = test
     if line:
         lines.append(line)
+
+    # 孤立行の防止: 最終行が1〜2文字だけだと「した」のように寂しく浮いて見える。
+    # ただし前の行に吸収してmax_widthを超えるとキャンバス外にはみ出すため、
+    # 厳密にmax_width以内に収まる場合のみ結合する(はみ出す場合は孤立行のまま残す)。
+    if len(lines) >= 2 and len(lines[-1]) <= 2:
+        merged = lines[-2] + lines[-1]
+        if draw.textlength(merged, font=font) <= max_width:
+            lines[-2] = merged
+            lines.pop()
+
     return lines
+
+
+def _fit_text(
+    draw: ImageDraw.ImageDraw, text: str, font_path: str, max_width: int,
+    min_size: int, max_size: int, max_lines: int,
+) -> tuple[ImageFont.FreeTypeFont, list[str]]:
+    """「文字が多いから縮小する」ではなく「収まる範囲で最大サイズを選ぶ」判断にする。
+    text中の明示的な改行(\\n、AIが意味の区切りで指定したもの)をまず尊重し、
+    各行がそれでも幅に収まらない場合のみ_wrap_text()でさらに折り返す。
+    max_lines以内に収まる最大フォントサイズを大きい方から探索する。"""
+    for size in range(max_size, min_size - 1, -2):
+        font = ImageFont.truetype(font_path, size)
+        lines: list[str] = []
+        for para in text.split("\n"):
+            para = para.strip()
+            if para:
+                lines.extend(_wrap_text(draw, para, font, max_width))
+        if len(lines) <= max_lines:
+            return font, lines
+    # 最小サイズでも収まらない場合はそのまま返す(情報量を勝手に削らない)
+    font = ImageFont.truetype(font_path, min_size)
+    lines = []
+    for para in text.split("\n"):
+        para = para.strip()
+        if para:
+            lines.extend(_wrap_text(draw, para, font, max_width))
+    return font, lines
 
 
 def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, source: str = "") -> Path:
@@ -192,15 +229,16 @@ def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, so
 
     draw = ImageDraw.Draw(img)
 
-    # フックテキスト(下部、太字・大きめ)
-    font_hook = ImageFont.truetype(FONT_BOLD, 84)
+    # フックテキスト(下部、太字)。文字数に応じて収まる最大サイズを選ぶ
+    # (「文字が多いから縮小」ではなく「短ければ大きく」、余白を無駄にしない)
     max_text_width = SIZE[0] - 140
-    lines = _wrap_text(draw, hook, font_hook, max_text_width)
-    total_h = len(lines) * 100
+    font_hook, lines = _fit_text(draw, hook, FONT_BOLD, max_text_width, min_size=56, max_size=100, max_lines=3)
+    line_h = int(font_hook.size * 1.22)
+    total_h = len(lines) * line_h
     y = SIZE[1] - 220 - total_h
     for line in lines:
         draw.text((70, y), line, font=font_hook, fill=(255, 255, 255))
-        y += 100
+        y += line_h
 
     _paste_watermark(img)
 
@@ -225,14 +263,14 @@ def make_text_slide(
     img = Image.blend(img, overlay, 0.62)
     draw = ImageDraw.Draw(img)
 
-    font_body = ImageFont.truetype(FONT_BOLD, 60)
     max_text_width = SIZE[0] - 180
-    lines = _wrap_text(draw, text, font_body, max_text_width)
-    total_h = len(lines) * 78
+    font_body, lines = _fit_text(draw, text, FONT_BOLD, max_text_width, min_size=40, max_size=76, max_lines=5)
+    line_h = int(font_body.size * 1.3)
+    total_h = len(lines) * line_h
     y = (SIZE[1] - total_h) // 2
     for line in lines:
         draw.text((90, y), line, font=font_body, fill=(255, 255, 255))
-        y += 78
+        y += line_h
 
     font_step = ImageFont.truetype(FONT_REGULAR, 28)
     draw.text((90, SIZE[1] - 70), f"{step}/{total}", font=font_step, fill=(180, 180, 190))
@@ -279,13 +317,13 @@ def make_cta_slide(slug: str, cta_text: str | None = None, angle: str | None = N
     except FileNotFoundError:
         pass
 
-    font_cta = ImageFont.truetype(FONT_BOLD, 52)
-    lines = _wrap_text(draw, cta_text, font_cta, SIZE[0] - 160)
+    font_cta, lines = _fit_text(draw, cta_text, FONT_BOLD, SIZE[0] - 160, min_size=34, max_size=56, max_lines=4)
+    line_h = int(font_cta.size * 1.25)
     y = 1230
     for line in lines:
         w = draw.textlength(line, font=font_cta)
         draw.text(((SIZE[0] - w) / 2, y), line, font=font_cta, fill=(255, 255, 255))
-        y += 66
+        y += line_h
 
     if not is_custom:
         # 汎用CTA_POOL使用時のみ「続きはMOTで」を補足する。
