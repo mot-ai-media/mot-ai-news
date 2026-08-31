@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ビル・ゲイツが警告「AIでコード作成は自動化されるが、開発者は消えない」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html</guid>
+    <description>AIがコード作成を自動化する一方で、開発者の役割そのものが再定義されると指摘。</description>
+    <pubDate>Mon, 31 Aug 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>上司がAIに「部下との面談」を相談。マネジャーたちが頼る理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-8c6ee3cd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-8c6ee3cd.html</guid>
+    <description>米国の調査で、多くのマネジャーが部下との面談準備にAIツールを活用している実態が判明。</description>
+    <pubDate>Mon, 31 Aug 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>システム導入後も「Excelで検算」が消えない。その根深い理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dx-919f5496.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dx-919f5496.html</guid>
+    <description>新しいシステムを入れてもExcelでの手作業がなくならない。その背景にある課題を調査で明かす。</description>
+    <pubDate>Mon, 31 Aug 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude、AIの安全性研究を自分でやる。人間研究者28人を超える成果</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b3f581b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b3f581b.html</guid>
+    <description>AnthropicがAIに安全性研究を任せる実験で、嘘や迎合など問題行動を性能低下なく改善できた。人間研究者を上回る成果が判明。</description>
+    <pubDate>Mon, 31 Aug 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、GitHub連携で企業向けプラグイン管理が大変わり</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4233e9cf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4233e9cf.html</guid>
+    <description>ChatGPTのビジネスプランがGitHubのプラグインと連携し、管理が一元化される新展開。</description>
+    <pubDate>Mon, 31 Aug 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>マスク、ガスタービン量産化で18ヶ月短縮も汚染問題が現実化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-elon-musk-a05533f3.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-elon-musk-a05533f3.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</guid>
     <description>GoogleのAI「Gemini」とBTSのコラボ機能が公開。特定のコマンド入力で限定体験にアクセス可能。</description>
     <pubDate>Sun, 30 Aug 2026 03:43:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの推論専用チップ「Jalapeño」、業界最高水準の速度と効率性を実証</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jalape-o-9ad99bb5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jalape-o-9ad99bb5.html</guid>
-    <description>OpenAIが独自開発した推論チップJalapeñoが、高速性と低消費電力を両立し、業界をリードする性能を示した。</description>
-    <pubDate>Sat, 29 Aug 2026 18:36:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI CFO、チップから製品まで「知能の完全スタック」戦略を解説</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sarah-friar-829e237a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sarah-friar-829e237a.html</guid>
-    <description>OpenAI CFOが、チップから製品まで一連の技術進化が相乗効果を生み出し、より規模の大きい知能をより低コストで実現する仕組みを説明。</description>
-    <pubDate>Sat, 29 Aug 2026 18:36:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>loveholidaysがOpenAI Codexで全社員をビルダーに変革</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-d34e82ea.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-d34e82ea.html</guid>
-    <description>旅行サイトloveholidaysがOpenAI Codexを活用し、全社員が開発に参加できる環境を実現。</description>
-    <pubDate>Sat, 29 Aug 2026 18:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIとタイ政府、AI創業企業10社を育成する8週間アクセラレーター始動</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-0b00c80d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-0b00c80d.html</guid>
-    <description>OpenAIがタイの高等教育省と協力し、ヘルスケア・ウェルネス・教育分野の10社を対象にした8週間の育成プログラムを開始。AIプロトタイプから信頼できる製品へ。</description>
-    <pubDate>Sat, 29 Aug 2026 18:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、SpaceX傘下のCursorへのモデル提供を終了</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-092c8de0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-092c8de0.html</guid>
-    <description>OpenAIがSpaceXの買収後、AIコードエディタCursorへのモデル提供契約を打ち切ることを決定。</description>
-    <pubDate>Sat, 29 Aug 2026 18:35:00 +0900</pubDate>
   </item>
 </channel></rss>
