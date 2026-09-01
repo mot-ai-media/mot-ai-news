@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-01 16:59
+最終更新: 2026-09-01 17:06
 
 ## 記事一覧
 
+- [米国防総省がChatGPT導入、軍事AI活用とは？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9c952e85.html): 米国防総省がOpenAIのChatGPTをカスタマイズした軍事用モデルを導入。複数のAIが実運用される時代がついに来た。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 17:06)
+- [米国のドローン・ロボット規制とは？中国との競争の行方](https://mot-ai-media.github.io/mot-ai-news/articles/f2a0380f.html): 米国が外国製ドローン・ロボットの締め出しを強化する一方、中国の圧倒的な生産規模が規制の効果を限定させる可能性が指摘されている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 17:06)
+- [AIの主導権とは？ヨーロッパの企業家が議論する制御の課題](https://mot-ai-media.github.io/mot-ai-news/articles/techbbq-ai-aa17eb89.html): AIが急速に進化する中で、人間がAIを制御できるのか、という根本的な問いが欧州で高まっている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 17:06)
+- [OpenAIがカリフォルニア州の青少年AI安全法案を支持。何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0703988e.html): OpenAIがカリフォルニア州の青少年向けAI安全規制法案を支持。教育・創作活動は守りながら、有害な影響から保護する動き。 (出典: OpenAI News / 更新: 2026-09-01 17:06)
+- [Polimill、日本の自治体向けAIインフラ構築。OpenAIと連携](https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html): 日本の自治体向けにAIを活用した行政知識検索システムが登場。業務効率化が加速する。 (出典: OpenAI News / 更新: 2026-09-01 17:06)
 - [警察官向けAI「Blue Voice」とは？部門別法令対応のAIエージェント](https://mot-ai-media.github.io/mot-ai-news/articles/blue-voice-ai-84762d7f.html): 一般向けAIには学べない警察特有の法令・規則に特化した専門AIが資金調達。ChatGPTとは異なるアプローチが広がる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
 - [Clipto(クリプト)とは？動画検索AI企業、250M評価で急成長](https://mot-ai-media.github.io/mot-ai-news/articles/clipto-ai-09c8fe5e.html): 膨大な動画から必要な映像を瞬時に見つけるAIスタートアップが、黒字化した状態で大型資金調達を実現。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
 - [Nvidiaが35億ドル投資する理由。AI チップ市場の構図が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-3f983827.html): Nvidiaが台湾のMediaTekに巨額投資。Big Techが独自AI チップを開発する動きに対し、戦略的に対抗する狙い。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)

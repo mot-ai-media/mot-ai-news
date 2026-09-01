@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polimill、日本の自治体向けAIインフラ構築。OpenAIと連携 | AI特化メディアMOT</title>
+<meta name="description" content="日本の自治体向けにAIを活用した行政知識検索システムが登場。業務効率化が加速する。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="日本の自治体がAIで変わる。Polimillが次世代型行政インフラ構築">
+<meta property="og:description" content="日本の自治体向けにAIを活用した行政知識検索システムが登場。業務効率化が加速する。">
+<meta property="og:image" content="https://mot-ai-media.github.io/mot-ai-news/og-image.png">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html">
+<meta property="article:published_time" content="2026-09-01T17:06:00+09:00">
+<meta property="article:modified_time" content="2026-09-01T17:06:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "日本の自治体がAIで変わる。Polimillが次世代型行政インフラ構築", "description": "日本の自治体向けにAIを活用した行政知識検索システムが登場。業務効率化が加速する。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-01T17:06:00+09:00", "dateModified": "2026-09-01T17:06:00+09:00", "image": ["https://mot-ai-media.github.io/mot-ai-news/og-image.png"], "citation": "https://openai.com/index/polimill"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Polimillのシステムは何をするのか？", "acceptedAnswer": {"@type": "Answer", "text": "自治体が保有する膨大な行政知識や法令などを、AIが自動で検索・整理するシステムです。職員が必要な情報を素早く見つけられるようになります。"}}, {"@type": "Question", "name": "どの自治体が使えるのか？", "acceptedAnswer": {"@type": "Answer", "text": "元記事では具体的な利用自治体は明記されていません。日本の複数の自治体での導入が進むと考えられます。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "OpenAI", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/openai.html"}, {"@type": "ListItem", "position": 3, "name": "日本の自治体がAIで変わる。Polimillが次世代型行政インフラ構築", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style="background: linear-gradient(135deg, #1a1a2e, #3a3a68);"><div class="thumb-overlay"><span class="thumb-overlay-text">日本の自治体がAIで変わる。Polimillが次世代型行政インフラ構築</span></div></div>
+  <h1 class="headline">日本の自治体がAIで変わる。Polimillが次世代型行政インフラ構築</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-technical">&#128309; テクニカル</span></span>
+    <span><span class="trust-label">SOURCE</span>OpenAI News</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-01 17:06</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Polimillが日本の自治体向けにOpenAI GPTを活用した次世代AI基盤を構築し、行政業務の効率化と知識活用の加速を実現する。</p><h3>何が起きたか</h3><p>Polimillという企業が、日本の市区町村などの自治体向けにAI技術を活用した新しい行政インフラを構築しています。OpenAIのGPT技術を用いて、自治体が膨大な行政知識を素早く検索・活用できるシステムを開発。これにより自治体の業務効率化が進むことが期待されています。</p><h3>なぜ重要か</h3><p>日本の自治体は膨大な法令や過去の行政文書を管理していますが、職員が必要な情報を素早く見つけるのは困難です。AIがこれを自動で検索・整理できるようになれば、行政サービスの質向上と職員の業務負担軽減につながり、限られた予算・人員で対応する自治体にとって大きな転機となります。</p><h3>あなたへの影響</h3><p>将来、あなたが市役所や区役所に行った際のサービス対応がより迅速になる可能性があります。また職員の作業がAIでサポートされることで、人間にしかできない複雑な相談や判断に時間が割けるようになります。さらに企業のAI導入トレンドの中で、大企業だけでなく行政機関も本格的にAI活用を始めたことは、AIが実社会に浸透していく証拠です。</p><h3>MOT読者が知っておくべき理由</h3><p>AI初心者が『ChatGPT以外のAIは何に使われているのか』という疑問に対する具体例。身近な公共機関の変化を知ることで、AIの活用場面がより現実的に理解できます。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>自治体のAI導入が進む一方で、全ての自治体が同じ速度で対応できるわけではなく、地域格差が広がる可能性があります。また行政情報の取り扱いは慎重さが求められるため、セキュリティやプライバシー対策が十分か監視が必要です。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>自治体がAIを積極採用することで、職員の働き方改革が進む可能性があります。単純な情報検索業務がAIに任され、職員は創造性や判断が必要な業務に集中できるようになり、より良い市民サービスが実現する道が開かれます。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/openai.html">#OpenAI</a></div>
+  <script>window.motPageTags=["Polimill", "OpenAI", "GPT", "自治体"];</script>
+  <div class="ad-slot-large"><span class="ad-label">広告</span><div class="ad-item"><a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8I0TPU+50+2HU3GX" rel="sponsored nofollow"><img border="0" width="234" height="60" alt="" src="https://www22.a8.net/svt/bgt?aid=260826389514&wid=001&eno=01&mid=s00000000018015089000&mc=1"></a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BAEXH+8I0TPU+50+2HU3GX" alt=""></div></div>
+  <blockquote class="fact-check" cite="https://openai.com/index/polimill">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>OpenAI News</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://openai.com/index/polimill" target="_blank" rel="noopener noreferrer">元記事（<cite>OpenAI News</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Polimillのシステムは何をするのか？</p>
+    <p class="faq-a">自治体が保有する膨大な行政知識や法令などを、AIが自動で検索・整理するシステムです。職員が必要な情報を素早く見つけられるようになります。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. どの自治体が使えるのか？</p>
+    <p class="faq-a">元記事では具体的な利用自治体は明記されていません。日本の複数の自治体での導入が進むと考えられます。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=%E6%97%A5%E6%9C%AC%E3%81%AE%E8%87%AA%E6%B2%BB%E4%BD%93%E3%81%8CAI%E3%81%A7%E5%A4%89%E3%82%8F%E3%82%8B%E3%80%82Polimill%E3%81%8C%E6%AC%A1%E4%B8%96%E4%BB%A3%E5%9E%8B%E8%A1%8C%E6%94%BF%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html&text=%E6%97%A5%E6%9C%AC%E3%81%AE%E8%87%AA%E6%B2%BB%E4%BD%93%E3%81%8CAI%E3%81%A7%E5%A4%89%E3%82%8F%E3%82%8B%E3%80%82Polimill%E3%81%8C%E6%AC%A1%E4%B8%96%E4%BB%A3%E5%9E%8B%E8%A1%8C%E6%94%BF%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%A7%8B%E7%AF%89" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html" data-share-title="日本の自治体がAIで変わる。Polimillが次世代型行政インフラ構築">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="polimill-openai-7bc34157">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="openai-ai-0703988e.html">
+    <img src="https://images.ctfassets.net/kftzwdyauwt9/1TiOpLKAHwIkAjjCEWO0TQ/543dc5595a6ca55a5e5801281b38f264/california-youth-ai-safety-seo-figma-v6.png?w=1600&amp;h=900&amp;fit=fill" alt="" loading="lazy">
+    <span class="next-up-headline">OpenAI、10代の安全なAI利用を守る法案を支持。学習の自由と保護を両立</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="openai-chatgpt-bb1d02ab.html">ペンタゴンがChatGPT・Grokを正式導入、防衛省のAI戦略が激変</a></li>
+  <li><a href="apple-openai-71ebe41f.html">Apple、OpenAIに流出したデータ巡り元社員を提訴。証拠隠滅の実態が明かされる</a></li>
+  <li><a href="openai-anthropic-d8d02464.html">OpenAI、Anthropic、Meta のAI が勝手に暴走・他社攻撃、相次ぐ事件</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

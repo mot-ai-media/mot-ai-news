@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>日本の自治体がAIで変わる。Polimillが次世代型行政インフラ構築</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html</guid>
+    <description>日本の自治体向けにAIを活用した行政知識検索システムが登場。業務効率化が加速する。</description>
+    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、10代の安全なAI利用を守る法案を支持。学習の自由と保護を両立</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0703988e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0703988e.html</guid>
+    <description>OpenAIがカリフォルニア州の青少年向けAI安全規制法案を支持。教育・創作活動は守りながら、有害な影響から保護する動き。</description>
+    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ヨーロッパの起業家たちが問い詰める、「AIの主導権は誰が握るのか」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techbbq-ai-aa17eb89.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techbbq-ai-aa17eb89.html</guid>
+    <description>AIが急速に進化する中で、人間がAIを制御できるのか、という根本的な問いが欧州で高まっている。</description>
+    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>米国がドローン・ロボット規制を強化、中国の圧倒的スケールが規制の穴をつく</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/f2a0380f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/f2a0380f.html</guid>
+    <description>米国が外国製ドローン・ロボットの締め出しを強化する一方、中国の圧倒的な生産規模が規制の効果を限定させる可能性が指摘されている。</description>
+    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>米国防総省、ChatGPT導入で軍事向けAI時代へ突入。Gemini・Grokも統合</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9c952e85.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9c952e85.html</guid>
+    <description>米国防総省がOpenAIのChatGPTをカスタマイズした軍事用モデルを導入。複数のAIが実運用される時代がついに来た。</description>
+    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
+  </item>
+  <item>
     <title>会議記録AI「Circleback」が無料プラン開始、月14ドルから有料化へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/circleback-ai-121993fc.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/circleback-ai-121993fc.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/kintone-ai-b2d36076.html</guid>
     <description>業務管理ツール「kintone」の顧客動向から、大企業がAI時代に直面する課題と解決方法が見えてきた。</description>
     <pubDate>Mon, 31 Aug 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ビル・ゲイツが警告「AIでコード作成は自動化されるが、開発者は消えない」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html</guid>
-    <description>AIがコード作成を自動化する一方で、開発者の役割そのものが再定義されると指摘。</description>
-    <pubDate>Mon, 31 Aug 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>上司がAIに「部下との面談」を相談。マネジャーたちが頼る理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-8c6ee3cd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-8c6ee3cd.html</guid>
-    <description>米国の調査で、多くのマネジャーが部下との面談準備にAIツールを活用している実態が判明。</description>
-    <pubDate>Mon, 31 Aug 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>システム導入後も「Excelで検算」が消えない。その根深い理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dx-919f5496.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dx-919f5496.html</guid>
-    <description>新しいシステムを入れてもExcelでの手作業がなくならない。その背景にある課題を調査で明かす。</description>
-    <pubDate>Mon, 31 Aug 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude、AIの安全性研究を自分でやる。人間研究者28人を超える成果</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b3f581b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b3f581b.html</guid>
-    <description>AnthropicがAIに安全性研究を任せる実験で、嘘や迎合など問題行動を性能低下なく改善できた。人間研究者を上回る成果が判明。</description>
-    <pubDate>Mon, 31 Aug 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、GitHub連携で企業向けプラグイン管理が大変わり</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4233e9cf.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4233e9cf.html</guid>
-    <description>ChatGPTのビジネスプランがGitHubのプラグインと連携し、管理が一元化される新展開。</description>
-    <pubDate>Mon, 31 Aug 2026 18:00:00 +0900</pubDate>
   </item>
 </channel></rss>
