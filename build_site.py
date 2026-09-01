@@ -44,6 +44,7 @@ INDEX_PATH = OUTPUT_DIR / "index.html"
 STYLE_PATH = OUTPUT_DIR / "style.css"
 SHARE_JS_PATH = OUTPUT_DIR / "share.js"
 ABOUT_PATH = OUTPUT_DIR / "about.html"
+PRODUCTS_PATH = OUTPUT_DIR / "products.html"
 ROBOTS_PATH = OUTPUT_DIR / "robots.txt"
 SITEMAP_PATH = OUTPUT_DIR / "sitemap.xml"
 FEED_PATH = OUTPUT_DIR / "feed.xml"
@@ -104,6 +105,7 @@ SUB_NAV_TEMPLATE = """<nav class="mot-nav">
       <li><a href="{prefix}index.html#today">TODAY</a></li>
       <li><a href="{prefix}index.html#latest">LATEST</a></li>
       <li><a href="{prefix}topics/index.html">TOPICS</a></li>
+      <li><a href="{prefix}products.html">PRODUCTS</a></li>
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
@@ -1374,6 +1376,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
       <li><a href="#today">TODAY</a></li>
       <li><a href="#latest">LATEST</a></li>
       <li><a href="topics/index.html">TOPICS</a></li>
+      <li><a href="products.html">PRODUCTS</a></li>
     </ul>
     <div class="mot-nav-actions">
       <input id="mot-search" class="mot-search-input" type="text" placeholder="検索" aria-label="記事を検索">
@@ -1899,6 +1902,35 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 
   <h2>お問い合わせ</h2>
   <p class="summary">お問い合わせフォームを準備中です。今しばらくお待ちください。</p>
+</main>
+<footer>
+  <a href="index.html">&laquo; トップへ戻る</a>
+</footer>
+</body>
+</html>
+"""
+
+PRODUCTS_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+{theme_init}
+{csp}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プロダクト紹介 | AI特化メディアMOT</title>
+<meta name="description" content="AI特化メディアMOTを運営するチームが手がけるサービス・アプリ・プロダクトの紹介ページです。">
+<link rel="canonical" href="{page_url}">
+<link rel="icon" href="{favicon}">
+{google_font}
+<link rel="stylesheet" href="style.css">
+{goatcounter}
+</head>
+<body class="article-page">
+{nav}
+<main>
+  <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
+  <h1 class="headline">プロダクト紹介</h1>
+  <p class="summary">MOTを運営するチームが手がけている、その他のサービス・アプリ・プロダクトをこちらでまとめて紹介する予定です。現在準備中です。</p>
 </main>
 <footer>
   <a href="index.html">&laquo; トップへ戻る</a>
@@ -2718,6 +2750,18 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         ),
         encoding="utf-8",
     )
+    PRODUCTS_PATH.write_text(
+        PRODUCTS_TEMPLATE.format(
+            favicon=FAVICON_DATA_URI,
+            goatcounter=GOATCOUNTER_SCRIPT,
+            page_url=_abs_url("products.html"),
+            csp=CSP_META,
+            google_font=GOOGLE_FONT_LINK,
+            theme_init=THEME_INIT_SCRIPT,
+            nav=_render_sub_nav("", _abs_url("products.html")),
+        ),
+        encoding="utf-8",
+    )
     topic_urls = _write_topic_pages(articles_data)
     _write_feed(articles_data)
     _write_llms_txt(articles_data)
@@ -2900,7 +2944,7 @@ def _write_llms_txt(articles_data: list[dict]) -> None:
 
 def _write_robots_and_sitemap(articles_data: list[dict], extra_urls: list[str] | None = None) -> None:
     today = datetime.now().strftime("%Y-%m-%d")
-    urls = [(_abs_url("index.html"), today), (_abs_url("about.html"), today)]
+    urls = [(_abs_url("index.html"), today), (_abs_url("about.html"), today), (_abs_url("products.html"), today)]
     urls += [
         (_abs_url(f"articles/{e['slug']}.html"), e.get("generated_at", "")[:10] or today) for e in articles_data
     ]

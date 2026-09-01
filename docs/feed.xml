@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIの助言、8割が従うのに幸福度は上がらず　6000人調査で判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-2fdbb2bb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-2fdbb2bb.html</guid>
+    <description>AIの助言に従う人は多いが、実際には心身の健康改善には繋がらない可能性が研究で明らかに。</description>
+    <pubDate>Tue, 01 Sep 2026 14:41:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>生成AI画像が「違和感」を生む理由。消費者の本音を広報のプロが解剖</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bdb95bf6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bdb95bf6.html</guid>
+    <description>SNSで相次ぐ生成AI画像の炎上。その根底にある消費者の違和感の正体を、危機管理広報の専門家が分析。</description>
+    <pubDate>Tue, 01 Sep 2026 14:41:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Instagram、AIの顔を「本物ではない」と明示　従わないアカウントは非表示に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-ad9d6619.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-ad9d6619.html</guid>
+    <description>MetaがInstagramのAIアカウント表示ルールを変更。AI生成人物のプロフィールは明確に表示され、設定しないと検索結果から制限される。</description>
+    <pubDate>Tue, 01 Sep 2026 14:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPTに広告表示開始、OpenAIの売上が年1600億円に到達。Google独占時代に終止符か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-089a1aca.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-089a1aca.html</guid>
+    <description>ChatGPTの一部プランに広告が掲載され始め、OpenAIの広告事業は年10億ドル規模に成長。検索広告の巨人Googleに対抗できるか注目される。</description>
+    <pubDate>Tue, 01 Sep 2026 14:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ピーエスシー、AIエージェント時代の実装で日本先行——AI SOC・Coo Kai対応で業務変革へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-soc-82330acf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-soc-82330acf.html</guid>
+    <description>ピーエスシーがAIエージェント時代に向けた実装を加速。日本初のAI SOCサービスやCoo Kai対応など、企業のAI導入をリードする。</description>
+    <pubDate>Tue, 01 Sep 2026 14:40:00 +0900</pubDate>
+  </item>
+  <item>
     <title>安いAIモデルで何度もやり直すより、高いモデルで一発成功する方が安い。OpenAIが示した驚きの真実</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d723eacb.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d723eacb.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-microduck-740a2542.html</guid>
     <description>AI企業Hugging Faceが低価格のオープンソースロボット「Microduck」を発売。強化学習で新しい行動を教え込める。</description>
     <pubDate>Sun, 30 Aug 2026 18:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google AIモード、航空券追跡とホテル予約に対応。旅行エージェント化が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-mode-6c5141d5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-mode-6c5141d5.html</guid>
-    <description>GoogleのAIモードが航空券価格の追跡やホテル予約など、旅行計画の実行支援へ拡張。検索支援から予約代行へシフト。</description>
-    <pubDate>Sun, 30 Aug 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI・Anthropic・Google含む100社超が結集、「悪質AI」への防衛策を宣言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9eadc7db.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9eadc7db.html</guid>
-    <description>大手AI企業と新興企業が連携し、次世代のサイバー脅威に対抗する新しいセキュリティソリューション提案。</description>
-    <pubDate>Sun, 30 Aug 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Thinking Machinesの共同創業者ザフ、OpenAI経由でGoogle入社。AI業界の人材争奪が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-9d531c32.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-9d531c32.html</guid>
-    <description>Thinking Machines共同創業者で元OpenAI勤務のBarret Zoph氏がGoogleへ移籍。AI人材の流動化が進む。</description>
-    <pubDate>Sun, 30 Aug 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AnthropicとOpenAI、TechCrunch Disrupt 2026のAIステージに登壇決定</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-2f47506c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-2f47506c.html</guid>
-    <description>TechCrunch Disrupt 2026のAIステージにAnthropicとOpenAIが参加。業界の最注目トピックを掘り下げる。</description>
-    <pubDate>Sun, 30 Aug 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>大手AI企業を除外、37名がAIセキュリティ同盟設立</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-ai-6b83d4da.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-ai-6b83d4da.html</guid>
-    <description>主要AI企業を含まない37名によるAIセキュリティ同盟が結成され、業界の安全性向上に向けた新たな動きが始まった。</description>
-    <pubDate>Sun, 30 Aug 2026 18:00:00 +0900</pubDate>
   </item>
 </channel></rss>

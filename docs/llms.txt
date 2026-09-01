@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-01 11:11
+最終更新: 2026-09-01 14:41
 
 ## 記事一覧
 
+- [生成AI画像がキショいと感じる理由とは？違和感の正体を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bdb95bf6.html): SNSで相次ぐ生成AI画像の炎上。その根底にある消費者の違和感の正体を、危機管理広報の専門家が分析。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 14:41)
+- [AIに人生相談した結果、幸福度が上がらない理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-2fdbb2bb.html): AIの助言に従う人は多いが、実際には心身の健康改善には繋がらない可能性が研究で明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 14:41)
+- [AIエージェントとは？ピーエスシーが日本初AI SOCサービスで実装開始](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-soc-82330acf.html): ピーエスシーがAIエージェント時代に向けた実装を加速。日本初のAI SOCサービスやCoo Kai対応など、企業のAI導入をリードする。 (出典: PR TIMES / 更新: 2026-09-01 14:40)
+- [ChatGPTの広告表示とは？OpenAIが年1600億円売上を達成した背景](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-089a1aca.html): ChatGPTの一部プランに広告が掲載され始め、OpenAIの広告事業は年10億ドル規模に成長。検索広告の巨人Googleに対抗できるか注目される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 14:40)
+- [InstagramのAI生成プロフィール表示が変更、ラベル改称で明示強化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-ad9d6619.html): MetaがInstagramのAIアカウント表示ルールを変更。AI生成人物のプロフィールは明確に表示され、設定しないと検索結果から制限される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 14:40)
 - [ChatGPT広告「ChatGPT Ads」とは？年換算売上が10億ドルに](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-94974852.html): OpenAIの広告事業が異例の速さで成長。収入の多角化を進める (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:11)
 - [AIエージェントの社員証・委任状とは？業務利用の課題と対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-cc1a7d75.html): AIが自動で業務を進める時代、AIにも権限管理が必要に。実際の失敗事例から対策まで。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:11)
 - [AIモデルの選び方で費用が激変？コスト評価の新指標をOpenAIが提唱](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d723eacb.html): 安さだけでAIモデルを選ぶと、実は高くつく可能性が。OpenAIが提唱した新しい評価方法で業界の常識が揺らぐ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:11)

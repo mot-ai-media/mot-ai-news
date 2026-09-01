@@ -46,10 +46,13 @@ TAG_CATEGORY_MAP = {
     "セキュリティ": "security", "ハッキング": "security", "サイバー攻撃": "security",
     "プライバシー": "security", "規制": "security", "偽情報": "security",
     "データセンター": "network", "クラウド": "network", "インフラ": "network", "半導体工場": "network",
-    "ビジネス": "office", "資金調達": "office", "IPO": "office", "スタートアップ": "office",
-    "雇用": "office", "働き方": "office", "IT人材": "office",
+    "ビジネス": "ai_glow", "資金調達": "ai_glow", "IPO": "ai_glow", "スタートアップ": "ai_glow",
+    "雇用": "ai_glow", "働き方": "ai_glow", "IT人材": "ai_glow",
 }
-DEFAULT_BG_CATEGORY = "office"
+# デフォルト(タグ不一致時の受け皿)は「AIメディアなのに一番よく出る画像が一番AIっぽくない
+# 汎用デスク写真」という指摘を受け、抽象的でテクノロジー感のあるビジュアル(ai_glow)に変更。
+# officeカテゴリの写真自体は残すが、既定では使われない。
+DEFAULT_BG_CATEGORY = "ai_glow"
 
 # 記事タグに著名人が含まれる場合は、無関係な汎用カテゴリ写真ではなく、その人物本人の
 # 実写真(Wikimedia Commonsの商用利用可能なCCライセンス写真)を使う。
@@ -84,6 +87,7 @@ PEXELS_SEARCH_TERMS = {
     "code": "programming code screen",
     "security": "cybersecurity digital",
     "network": "data center server room",
+    "ai_glow": "abstract neural network digital technology",
 }
 PEXELS_IDS_STATE_PATH = BG_PHOTOS_DIR / "_pexels_fetched_ids.json"
 
