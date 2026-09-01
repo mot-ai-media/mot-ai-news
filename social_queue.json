@@ -71,7 +71,8 @@
       }
     ],
     "published_angle": "surprise",
-    "published_media_id": "18365469148210021"
+    "published_media_id": "18365469148210021",
+    "published_at": "2026-08-31T22:31:04"
   },
   "ai-1c18f27c": {
     "headline": "ビル・ゲイツが警告「AIでコード作成は自動化されるが、開発者は消えない」",
@@ -145,7 +146,8 @@
       }
     ],
     "published_angle": "surprise",
-    "published_media_id": "18169669783454157"
+    "published_media_id": "18127836559758961",
+    "published_at": "2026-08-31T23:15:29"
   },
   "chatgpt-ai-8c6ee3cd": {
     "headline": "上司がAIに「部下との面談」を相談。マネジャーたちが頼る理由",
@@ -158,7 +160,7 @@
       "マネジメント"
     ],
     "generated_at": "2026-08-31 18:01",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -216,7 +218,10 @@
         "x_post": "実務レベルの影響:部下側は上司がAI相談した対応を受ける可能性。上司側は準備効率が上がり部下対応が標準化される。どちらにせよ、職場の面談風景が変わり始めている。",
         "cta": "職場で本当に起きていることを、\nMOTで詳しく解説"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18076555157348365",
+    "published_at": "2026-08-31T23:43:12"
   },
   "dx-919f5496": {
     "headline": "システム導入後も「Excelで検算」が消えない。その根深い理由",

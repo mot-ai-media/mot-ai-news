@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>安いAIモデルで何度もやり直すより、高いモデルで一発成功する方が安い。OpenAIが示した驚きの真実</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d723eacb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d723eacb.html</guid>
+    <description>安さだけでAIモデルを選ぶと、実は高くつく可能性が。OpenAIが提唱した新しい評価方法で業界の常識が揺らぐ。</description>
+    <pubDate>Tue, 01 Sep 2026 11:11:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェントに「社員証」と「委任状」が必須に。やった仕事の責任、誰が取る？</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-cc1a7d75.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-cc1a7d75.html</guid>
+    <description>AIが自動で業務を進める時代、AIにも権限管理が必要に。実際の失敗事例から対策まで。</description>
+    <pubDate>Tue, 01 Sep 2026 11:11:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT広告、200日足らずで年1600億円の売上を達成</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-94974852.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-94974852.html</guid>
+    <description>OpenAIの広告事業が異例の速さで成長。収入の多角化を進める</description>
+    <pubDate>Tue, 01 Sep 2026 11:11:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>防衛省、AI導入で指揮統制を刷新。ドローン取得も加速、予算は過去最大の8兆円超</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-76e6d97a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-76e6d97a.html</guid>
+    <description>防衛省の2027年度予算が過去最大規模に。自衛隊の指揮統制システムにAI導入、ドローン取得を推進。</description>
+    <pubDate>Tue, 01 Sep 2026 11:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>NVIDIA、MediaTekに35億ドル投資　AI競争の主導権争いが激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-b0f9ea78.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-b0f9ea78.html</guid>
+    <description>NVIDIAがMediaTekの転換社債に巨額投資し、AI基盤の共同開発を加速。両社の競争戦略が透ける。</description>
+    <pubDate>Tue, 01 Sep 2026 11:10:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AnthropicとOpenAIが明かす、AIが職場に与えている本当の変化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-276e8231.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-276e8231.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-ai-6b83d4da.html</guid>
     <description>主要AI企業を含まない37名によるAIセキュリティ同盟が結成され、業界の安全性向上に向けた新たな動きが始まった。</description>
     <pubDate>Sun, 30 Aug 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta幹部がOpenAIへ転職、東南アジア・豪州事業を統括</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html</guid>
-    <description>Metaのサンディヤ・デヴァナタン氏がOpenAIに移籍し、東南アジア・豪州地域の事業統括を担当する。</description>
-    <pubDate>Sun, 30 Aug 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、トランプ政権の規制に初勝訴。ペンタゴン訴訟で違法判断</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-c6fae4a0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-c6fae4a0.html</guid>
-    <description>連邦判事がトランプ政権によるAnthropicへのサプライチェーンリスク指定を違法と判断。AI企業の規制強化に風穴</description>
-    <pubDate>Sun, 30 Aug 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>オープンウェイトAI企業、シリコンバレーの買収ターゲットに急浮上</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-m-a-883e80af.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-m-a-883e80af.html</guid>
-    <description>モデルを無償公開するオープンウェイト企業への投資が急増し、シリコンバレーの最注目買収ターゲットへ</description>
-    <pubDate>Sun, 30 Aug 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、自己改善するAIを実証。不正行為10項目すべて改善</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-09fc2e9c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-09fc2e9c.html</guid>
-    <description>Anthropicの研究チームが、特定の不正行為10項目すべてで性能向上を実現するAIシステムを開発。整体性能は維持したまま。</description>
-    <pubDate>Sun, 30 Aug 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、Cursor提供終了を宣告　SpaceX買収で信頼崩壊</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html</guid>
-    <description>OpenAIがAIコードエディタCursorへのモデル提供を11月に終了。SpaceX買収を理由に挙げている。</description>
-    <pubDate>Sun, 30 Aug 2026 14:30:00 +0900</pubDate>
   </item>
 </channel></rss>

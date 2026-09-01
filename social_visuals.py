@@ -12,7 +12,12 @@
 from __future__ import annotations
 
 import hashlib
+import json
+import os
+import urllib.error
+import urllib.parse
 import urllib.request
+from datetime import datetime
 from io import BytesIO
 from pathlib import Path
 
@@ -45,6 +50,96 @@ TAG_CATEGORY_MAP = {
     "雇用": "office", "働き方": "office", "IT人材": "office",
 }
 DEFAULT_BG_CATEGORY = "office"
+
+# 記事タグに著名人が含まれる場合は、無関係な汎用カテゴリ写真ではなく、その人物本人の
+# 実写真(Wikimedia Commonsの商用利用可能なCCライセンス写真)を使う。
+# ライセンスがクレジット表記を要求する場合、フック(1枚目)スライドの隅に小さく表示する。
+PEOPLE_DIR = BG_PHOTOS_DIR / "people"
+_PEOPLE_META_PATH = PEOPLE_DIR / "_meta.json"
+try:
+    _PEOPLE_META: dict = json.loads(_PEOPLE_META_PATH.read_text(encoding="utf-8"))
+except (FileNotFoundError, json.JSONDecodeError):
+    _PEOPLE_META = {}
+
+NAMED_FIGURE_TAG_MAP: dict[str, str] = {}
+for _person_key, _info in _PEOPLE_META.items():
+    for _tag in _info.get("tags", []):
+        NAMED_FIGURE_TAG_MAP[_tag] = _person_key
+
+# 同じ背景写真の使い回し防止。カテゴリごとに複数枚(social_bg_photos/{category}*.jpg)を
+# 用意し、直近BG_REUSE_COOLDOWN_DAYS日以内に使った写真は避けて選ぶ。
+BG_USAGE_STATE_PATH = Path(__file__).parent / "social_bg_usage.json"
+BG_REUSE_COOLDOWN_DAYS = 30
+# 同一プロセス内(=1回の記事生成)ではhook/中間スライド/CTAで同じ写真を使い続けたいので、
+# (category, seed)ごとに1回だけ選び、使用履歴の更新も1回だけにするためのキャッシュ。
+_bg_pick_cache: dict[tuple[str, str], "Path | None"] = {}
+
+# プールが尽きた(直近30日以内に使っていない写真が無い)場合、Pexels検索APIで
+# カテゴリに合う新しい写真を自動取得してプールに追加する。手動での定期補充を不要にする。
+# PEXELS_API_KEYが無い(=未設定)場合は静かにスキップし、従来通り最も古い写真を再利用する。
+PEXELS_SEARCH_TERMS = {
+    "robot": "humanoid robot technology",
+    "chip": "computer chip semiconductor closeup",
+    "office": "modern office workspace",
+    "code": "programming code screen",
+    "security": "cybersecurity digital",
+    "network": "data center server room",
+}
+PEXELS_IDS_STATE_PATH = BG_PHOTOS_DIR / "_pexels_fetched_ids.json"
+
+
+def _load_pexels_fetched_ids() -> dict[str, list[int]]:
+    try:
+        return json.loads(PEXELS_IDS_STATE_PATH.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _fetch_new_bg_photo(category: str) -> Path | None:
+    """Pexels検索APIでカテゴリに合う新しい写真を1枚探してダウンロードし、プールに追加する。
+    APIキー未設定・検索失敗・ダウンロード失敗など、何かあれば静かにNoneを返す
+    (呼び出し側は既存プールへのフォールバックで対応済みなので、ここで例外を投げて
+    投稿処理全体を止めない)。"""
+    api_key = os.environ.get("PEXELS_API_KEY")
+    query = PEXELS_SEARCH_TERMS.get(category)
+    if not api_key or not query:
+        return None
+
+    fetched = _load_pexels_fetched_ids()
+    already_fetched = set(fetched.get(category, []))
+
+    try:
+        search_url = "https://api.pexels.com/v1/search?" + urllib.parse.urlencode(
+            {"query": query, "per_page": 20, "orientation": "portrait"}
+        )
+        # PexelsのCloudflare WAFがデフォルトのUser-Agent(urllib標準)をボット判定してブロックする
+        # (403 error code 1010)ため、ブラウザ相当のUser-Agentを明示的に付ける。
+        req = urllib.request.Request(search_url, headers={
+            "Authorization": api_key,
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+        })
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            results = json.loads(resp.read().decode("utf-8")).get("photos", [])
+
+        candidate = next((p for p in results if p["id"] not in already_fetched), None)
+        if not candidate:
+            return None
+
+        image_url = candidate["src"]["large2x"]
+        img_req = urllib.request.Request(image_url, headers={"User-Agent": "Mozilla/5.0 (compatible; MOTBot/1.0)"})
+        with urllib.request.urlopen(img_req, timeout=15) as resp:
+            data = resp.read()
+
+        existing = sorted(BG_PHOTOS_DIR.glob(f"{category}_*.jpg"))
+        next_n = 1 + max([int(f.stem.split("_")[-1]) for f in existing], default=1)
+        dest = BG_PHOTOS_DIR / f"{category}_{next_n}.jpg"
+        dest.write_bytes(data)
+
+        fetched.setdefault(category, []).append(candidate["id"])
+        PEXELS_IDS_STATE_PATH.write_text(json.dumps(fetched, ensure_ascii=False, indent=2), encoding="utf-8")
+        return dest
+    except (urllib.error.URLError, urllib.error.HTTPError, KeyError, ValueError, OSError):
+        return None
 
 FONT_BOLD = "C:/Windows/Fonts/YuGothB.ttc"
 FONT_REGULAR = "C:/Windows/Fonts/YuGothR.ttc"
@@ -123,17 +218,104 @@ def pick_bg_category(tags: list[str] | None, angle: str | None = None) -> str:
     return DEFAULT_BG_CATEGORY
 
 
+def _load_bg_usage() -> dict[str, str]:
+    try:
+        return json.loads(BG_USAGE_STATE_PATH.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _save_bg_usage(usage: dict[str, str]) -> None:
+    BG_USAGE_STATE_PATH.write_text(json.dumps(usage, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _pick_bg_file(category: str, seed: str) -> Path | None:
+    """カテゴリ内の候補写真(social_bg_photos/{category}*.jpg)から、直近
+    BG_REUSE_COOLDOWN_DAYS日以内に使っていないものを優先して選ぶ。
+    全部使用済みの場合は、最も古く使われた写真を選ぶ(使い回しの偏りを最小化)。"""
+    cache_key = (category, seed)
+    if cache_key in _bg_pick_cache:
+        return _bg_pick_cache[cache_key]
+
+    candidates = sorted(BG_PHOTOS_DIR.glob(f"{category}*.jpg"))
+    if not candidates:
+        _bg_pick_cache[cache_key] = None
+        return None
+
+    usage = _load_bg_usage()
+    now = datetime.now()
+
+    def days_since_used(name: str) -> float:
+        used_at = usage.get(name)
+        if not used_at:
+            return float("inf")
+        try:
+            return (now - datetime.fromisoformat(used_at)).total_seconds() / 86400
+        except ValueError:
+            return float("inf")
+
+    eligible = [c for c in candidates if days_since_used(c.name) >= BG_REUSE_COOLDOWN_DAYS]
+    if not eligible:
+        # プールが尽きた場合、まずPexels検索APIで新しい写真の自動取得を試みる
+        # (手動での定期補充を不要にするため)。取得できなければ最も古く使われた
+        # 1枚を再利用する(=最善努力で偏りを避ける、フォールバック)。
+        fetched = _fetch_new_bg_photo(category)
+        if fetched is not None:
+            pool = [fetched]
+        else:
+            pool = [max(candidates, key=lambda c: days_since_used(c.name))]
+    else:
+        pool = eligible
+
+    idx = int(hashlib.md5(seed.encode("utf-8")).hexdigest(), 16) % len(pool)
+    chosen = pool[idx]
+
+    usage[chosen.name] = now.isoformat()
+    _save_bg_usage(usage)
+    _bg_pick_cache[cache_key] = chosen
+    return chosen
+
+
 def _curated_background(tags: list[str] | None, seed: str, angle: str | None = None) -> Image.Image:
     """記事のタグから、MOTが厳選したフリー素材(social_bg_photos/)を選んで背景にする。
-    元記事のスクショ的な画像(質のばらつき・著作権グレー)は使わない。
-    素材フォルダが無い等の異常時のみグラデーションにフォールバックする。"""
+    元記事のスクショ的な画像(質のばらつき・著作権グレー)は使わない。カテゴリ内に複数枚
+    あれば直近使っていないものをローテーションで選ぶ(_pick_bg_file)。
+    素材が無い等の異常時のみグラデーションにフォールバックする。"""
     category = pick_bg_category(tags, angle)
-    path = BG_PHOTOS_DIR / f"{category}.jpg"
+    path = _pick_bg_file(category, seed)
+    if path is None:
+        return _gradient_background(seed)
     try:
         photo = Image.open(path).convert("RGB")
         return _cover_crop(photo)
-    except (FileNotFoundError, OSError):
+    except OSError:
         return _gradient_background(seed)
+
+
+def pick_named_figure(tags: list[str] | None) -> str | None:
+    """記事タグに著名人が含まれていればその人物キーを返す(例: 「ビル・ゲイツ」→"bill_gates")。"""
+    for tag in tags or []:
+        if tag in NAMED_FIGURE_TAG_MAP:
+            return NAMED_FIGURE_TAG_MAP[tag]
+    return None
+
+
+def _background_for_article(
+    tags: list[str] | None, seed: str, angle: str | None = None,
+) -> tuple[Image.Image, str | None]:
+    """記事タグに著名人がいればその人物本人の写真を優先して使う(汎用カテゴリ写真の
+    プールを消費しないので使い回し防止にも寄与する)。戻り値の2つ目はクレジット表記
+    (ライセンス上表示不要ならNone)。該当なしなら通常のカテゴリ写真にフォールバック。"""
+    person_key = pick_named_figure(tags)
+    if person_key:
+        path = PEOPLE_DIR / f"{person_key}.jpg"
+        try:
+            photo = Image.open(path).convert("RGB")
+            credit = _PEOPLE_META.get(person_key, {}).get("credit")
+            return _cover_crop(photo), credit
+        except OSError:
+            pass
+    return _curated_background(tags, seed, angle), None
 
 
 def _fetch_photo_background(image_url: str | None, seed: str) -> Image.Image:
@@ -262,8 +444,10 @@ def _fit_text(
 def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, source: str = "") -> Path:
     """タグから選んだ厳選フリー素材を背景に、下部に太字フックテキストを重ねる。
     参考にした実例(nicocinojp等)に合わせ、色帯や大きなロゴ表記は使わず、
-    中央上部に小さなロゴのワンポイントだけを添える控えめなブランディングにする。"""
-    img = _curated_background(tags, source or slug, angle).convert("RGB")
+    中央上部に小さなロゴのワンポイントだけを添える控えめなブランディングにする。
+    記事タグに著名人がいれば汎用カテゴリ写真より優先してその人物の実写真を使う。"""
+    img, photo_credit = _background_for_article(tags, source or slug, angle)
+    img = img.convert("RGB")
     draw = ImageDraw.Draw(img)
 
     # 下部を読みやすくする暗いグラデーションのスクリム
@@ -290,6 +474,14 @@ def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, so
 
     _paste_watermark(img)
 
+    if photo_credit:
+        # CC BY / CC BY-SA等、クレジット表記が必要なライセンスの写真を使った場合のみ表示。
+        # カルーセル全体で1回で十分なので、1枚目(フック)だけに載せる。
+        font_credit = ImageFont.truetype(FONT_REGULAR, 20)
+        credit_text = f"Photo: {photo_credit}"
+        w = draw.textlength(credit_text, font=font_credit)
+        draw.text((SIZE[0] - w - 20, SIZE[1] - 34), credit_text, font=font_credit, fill=(200, 200, 205))
+
     OUT_DIR.mkdir(exist_ok=True)
     out_path = OUT_DIR / f"{slug}_{angle}_hook.png"
     img.save(out_path)
@@ -303,7 +495,8 @@ def make_text_slide(
     """カルーセル中間スライド。文字だけの単調な画面を避け、フックと同じ背景写真
     (同カテゴリなので同じ画像になる)を再利用し、その上に読みやすさ優先の暗いオーバーレイ
     を重ねてテキストを載せる。色帯は使わず、控えめなブランディングで統一する。"""
-    img = _curated_background(tags, source or slug, angle).convert("RGB")
+    img, _ = _background_for_article(tags, source or slug, angle)
+    img = img.convert("RGB")
 
     # 中間スライドは本文が長め(hookより情報量が多い)なので、画面全体に軽めの
     # 暗いオーバーレイをかけて可読性を優先しつつ、背景の質感は残す

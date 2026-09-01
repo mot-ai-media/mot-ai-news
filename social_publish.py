@@ -18,6 +18,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -74,13 +75,19 @@ def collect_slide_files(slug: str, angle: str) -> list[Path]:
 
 
 def publish_images_to_pages(slug: str, angle: str, files: list[Path]) -> list[str]:
-    """画像をdocs/social/にコピーし、GitHubへpushして公開URLにする。"""
-    target_dir = DOCS_SOCIAL_DIR / slug / angle
+    """画像をdocs/social/にコピーし、GitHubへpushして公開URLにする。
+
+    公開のたびにタイムスタンプ付きのフォルダに置き、URLを必ず新規にする。
+    同じ記事を削除→再投稿する際に同じURLを使い回すと、GitHub PagesのCDNや
+    Instagram側の画像キャッシュが古い中身を返し続け、差し替えた新しい画像が
+    反映されない事故が実際に起きたため(URLが同じ=中身も同じという前提でキャッシュされる)。"""
+    version = datetime.now().strftime("%Y%m%d%H%M%S")
+    target_dir = DOCS_SOCIAL_DIR / slug / f"{angle}_{version}"
     target_dir.mkdir(parents=True, exist_ok=True)
     urls = []
     for f in files:
         shutil.copy2(f, target_dir / f.name)
-        urls.append(f"{SITE_BASE_URL}/social/{slug}/{angle}/{f.name}")
+        urls.append(f"{SITE_BASE_URL}/social/{slug}/{angle}_{version}/{f.name}")
 
     subprocess.run(["git", "add", str(target_dir)], cwd=BASE_DIR, check=True)
     result = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=BASE_DIR)
@@ -172,8 +179,17 @@ def publish_to_instagram(slug: str, angle: str, live: bool = False) -> dict:
     if angle_data is None:
         raise PublishError(f"angle '{angle}' が見つかりません")
 
+    # 投稿の直前に必ず画像を再生成する(social_assets/の既存ファイルを信用しない)。
+    # 過去に「記事生成時に作った古い画像がキューに残ったまま、画像パイプライン側だけ
+    # 直しても反映されず投稿されてしまう」事故が実際に起きたため、鮮度を保証する。
+    import social_visuals as sv
+    tags = item.get("tags", [])
+    sv.make_hook_slide(tags, angle_data["hook"], angle, slug)
+    sv.make_carousel_slides(angle_data["carousel"], angle, slug, tags)
+    sv.make_cta_slide(slug, angle_data.get("cta"), angle)
+
     files = collect_slide_files(slug, angle)
-    print(f"[{slug}/{angle}] 画像{len(files)}枚を確認しました: {[f.name for f in files]}")
+    print(f"[{slug}/{angle}] 画像{len(files)}枚を再生成して確認しました: {[f.name for f in files]}")
 
     if not live:
         print("(dry run: 実際の投稿は行いません。実行するときは --live を付けてください)")
@@ -207,6 +223,7 @@ def publish_to_instagram(slug: str, angle: str, live: bool = False) -> dict:
     item["status"] = "published"
     item["published_angle"] = angle
     item["published_media_id"] = media_id
+    item["published_at"] = datetime.now().isoformat(timespec="seconds")
     queue[slug] = item
     SOCIAL_QUEUE_PATH.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
 

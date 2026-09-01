@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-08-31 22:01
+最終更新: 2026-09-01 11:11
 
 ## 記事一覧
 
+- [ChatGPT広告「ChatGPT Ads」とは？年換算売上が10億ドルに](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-94974852.html): OpenAIの広告事業が異例の速さで成長。収入の多角化を進める (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:11)
+- [AIエージェントの社員証・委任状とは？業務利用の課題と対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-cc1a7d75.html): AIが自動で業務を進める時代、AIにも権限管理が必要に。実際の失敗事例から対策まで。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:11)
+- [AIモデルの選び方で費用が激変？コスト評価の新指標をOpenAIが提唱](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d723eacb.html): 安さだけでAIモデルを選ぶと、実は高くつく可能性が。OpenAIが提唱した新しい評価方法で業界の常識が揺らぐ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:11)
+- [NVIDIAがMediaTekに35億ドル投資、AI協業の狙いとは](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-b0f9ea78.html): NVIDIAがMediaTekの転換社債に巨額投資し、AI基盤の共同開発を加速。両社の競争戦略が透ける。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:10)
+- [防衛省がAI導入を加速、2027年度予算8.89兆円で何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-76e6d97a.html): 防衛省の2027年度予算が過去最大規模に。自衛隊の指揮統制システムにAI導入、ドローン取得を推進。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:10)
 - [Anthropic著作権侵害で提訴、AI学習と知的財産権の問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-1165a641.html): 大手音楽出版社がAI企業を著作権侵害で提訴。AIの学習方法が法的に問われる時代へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:01)
 - [Claude Academyとは？Anthropicの日本語AI学習サイト、無料で何が学べるか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-decd347b.html): Anthropicが安全で効果的なAI活用を学べる日本語学習サイトを無料公開。357のコンテンツが利用可能。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:01)
 - [AIの利用拡大で何が変わる？労働市場への影響を企業データから解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-276e8231.html): ChatGPT以降のAI導入で、実際に職場と仕事の中身がどう変わっているかが見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:01)

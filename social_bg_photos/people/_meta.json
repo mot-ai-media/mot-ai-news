@@ -1,0 +1,82 @@
+{
+  "bill_gates": {
+    "license": "CC BY 3.0",
+    "credit": "Stanford Precourt Institute for Energy",
+    "tags": [
+      "ビル・ゲイツ",
+      "Bill Gates"
+    ]
+  },
+  "sam_altman": {
+    "license": "CC BY 2.0",
+    "credit": "Village Global",
+    "tags": [
+      "サム・アルトマン",
+      "Sam Altman"
+    ]
+  },
+  "elon_musk": {
+    "license": "CC BY-SA 4.0",
+    "credit": "Debbie Rowe / The Royal Society",
+    "tags": [
+      "イーロン・マスク",
+      "Elon Musk"
+    ]
+  },
+  "satya_nadella": {
+    "license": "CC BY-SA 4.0",
+    "credit": "Brian Smale / Microsoft",
+    "tags": [
+      "サティア・ナデラ",
+      "Satya Nadella"
+    ]
+  },
+  "mark_zuckerberg": {
+    "license": "CC BY-SA 4.0",
+    "credit": "Jeff Sainlar / Meta",
+    "tags": [
+      "マーク・ザッカーバーグ",
+      "Mark Zuckerberg"
+    ]
+  },
+  "jensen_huang": {
+    "license": "CC0 1.0",
+    "credit": null,
+    "tags": [
+      "ジェンスン・フアン",
+      "Jensen Huang"
+    ]
+  },
+  "sundar_pichai": {
+    "license": "CC BY 4.0",
+    "credit": "Lukasz Kobus / European Commission",
+    "tags": [
+      "サンダー・ピチャイ",
+      "Sundar Pichai"
+    ]
+  },
+  "demis_hassabis": {
+    "license": "CC BY-SA 4.0",
+    "credit": "The Royal Society",
+    "tags": [
+      "デミス・ハサビス",
+      "Demis Hassabis"
+    ]
+  },
+  "dario_amodei": {
+    "license": "CC BY 2.0",
+    "credit": "Kimberly White / Getty Images for TechCrunch",
+    "tags": [
+      "ダリオ・アモデイ",
+      "Dario Amodei"
+    ]
+  },
+  "yann_lecun": {
+    "license": "CC BY-SA 2.0",
+    "credit": "Jérémy Barande",
+    "tags": [
+      "ヤン・ルカン",
+      "Yann LeCun"
+    ]
+  }
+}
