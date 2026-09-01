@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-01 17:06
+最終更新: 2026-09-01 20:49
 
 ## 記事一覧
 
+- [Gemini 3.5 Transcribeとは？Google新音声認識AIの機能と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-83abfc08.html): Googleが音声認識技術を大幅進化。文脈を理解した精度の高い文字起こしが可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:49)
+- [総務省「AX・新技術戦略室」新設とは？AI推進の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-6add3764.html): 総務省が9月1日、AI推進をまとめる新組織「AX・新技術戦略室」を設置。政府のAI戦略が本格化する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 20:48)
+- [ChatGPT広告が10億ドル達成、無料・低価格オプション拡大の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-44f61163.html): OpenAIの広告事業が大幅に成長し、より多くの人がAIにアクセスしやすくなる環境が整備される。 (出典: OpenAI News / 更新: 2026-09-01 20:48)
+- [Gemini Omni 1.1 Flashとは？Google新AI機能の特徴](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-a13e39d4.html): Googleが開発者向けAIモデルをアップデート。より細かい制御が可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:48)
+- [AIの評価方法が変わる？Google DeepMindの二重盲検評価とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-d9b2bc36.html): Google DeepMindがAI性能の公正な評価方法として、人間の臨床試験で使われる二重盲検法をAI業界で初めて導入。 (出典: Google DeepMind News / 更新: 2026-09-01 20:48)
 - [米国防総省がChatGPT導入、軍事AI活用とは？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9c952e85.html): 米国防総省がOpenAIのChatGPTをカスタマイズした軍事用モデルを導入。複数のAIが実運用される時代がついに来た。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 17:06)
 - [米国のドローン・ロボット規制とは？中国との競争の行方](https://mot-ai-media.github.io/mot-ai-news/articles/f2a0380f.html): 米国が外国製ドローン・ロボットの締め出しを強化する一方、中国の圧倒的な生産規模が規制の効果を限定させる可能性が指摘されている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 17:06)
 - [AIの主導権とは？ヨーロッパの企業家が議論する制御の課題](https://mot-ai-media.github.io/mot-ai-news/articles/techbbq-ai-aa17eb89.html): AIが急速に進化する中で、人間がAIを制御できるのか、という根本的な問いが欧州で高まっている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 17:06)

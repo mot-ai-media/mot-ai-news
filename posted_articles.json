@@ -650,5 +650,25 @@
   {
     "link": "https://openai.com/index/polimill",
     "notified_at": "2026-09-01T08:06:56.350203+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/01/2000001044/",
+    "notified_at": "2026-09-01T11:48:13.593270+00:00"
+  },
+  {
+    "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+    "notified_at": "2026-09-01T11:48:26.299451+00:00"
+  },
+  {
+    "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+    "notified_at": "2026-09-01T11:48:39.569261+00:00"
+  },
+  {
+    "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+    "notified_at": "2026-09-01T11:48:52.880221+00:00"
+  },
+  {
+    "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "notified_at": "2026-09-01T11:49:08.769443+00:00"
   }
 ]

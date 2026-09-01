@@ -303,6 +303,15 @@ footer a {
 .risk-box { border-left: 3px solid var(--mot-breaking); background: rgba(239, 68, 68, 0.06); }
 .opportunity-box { border-left: 3px solid var(--mot-positive); background: rgba(16, 185, 129, 0.06); }
 .risk-box h3, .opportunity-box h3 { margin-top: 0; }
+.mot-take-box {
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  margin: 16px 0;
+  border-left: 3px solid var(--mot-primary);
+  background: rgba(37, 99, 235, 0.06);
+}
+.mot-take-box h3 { margin-top: 0; }
+:root[data-theme="dark"] .mot-take-box { background: rgba(37, 99, 235, 0.12); }
 .contact-card {
   border: 1px solid var(--mot-border);
   border-radius: 12px;
