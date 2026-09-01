@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-01 20:57
+最終更新: 2026-09-01 22:02
 
 ## 記事一覧
 
+- [Mac miniが買い占められた理由とは？AIのGUI操作学習](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9a6fd152.html): OpenAIやAnthropicがMac miniを大量調達。AIに画面操作を学ばせるためで、GUIの複雑さが技術的な課題を生んでいる。 (出典: AIタグが付けられた新着記事 - Qiita / 更新: 2026-09-01 22:02)
+- [Google Gemini 3.6 Flash・3.5 Flash-Lite とは。新モデルの違い・性能解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-edd884e3.html): GoogleがGeminiの新バージョンを複数発表。より高速で安価なAIモデルでChatGPTとの競争が激化。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)
+- [Google Gemini 3.5 Flash Cyberとは？脆弱性検出AIの役割・使い方](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7898549b.html): Googleが軽量のセキュリティ専用AI「Gemini 3.5 Flash Cyber」を発表。システムの脆弱性を自動検出・修正する新ツール。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)
+- [Google DeepMind、生物学的リスク対策へのAI活用戦略とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-isomorphic-labs-28780037.html): Google DeepMindとIsomorphic Labsが、AIを使って感染症やバイオリスクに対抗する共同戦略を公開。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)
+- [ATL Saathi とは？Google と AIM の AI ツール、インド教育に導入](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-66188580.html): GoogleとAIMが生成AI「Gemini」を活用した教育支援ツールを発表。ロボット教室の指導者向け。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)
 - [GoogleのGenesis Missionとは？AIで科学研究を支援する新計画](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-15eb5b1c.html): GoogleがAI技術を活用した科学研究支援プログラムに4000万ドルを投資。研究者のAI活用を加速させる。 (出典: Google DeepMind News / 更新: 2026-09-01 20:57)
 - [Google DeepMindの気象AI「WeatherNext」とは？台風予測の精度向上](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-7fa201e3.html): Google DeepMindが開発した気象予測AI「WeatherNext」が、台風などの極端気象の予測精度を大幅に向上させた。 (出典: Google DeepMind News / 更新: 2026-09-01 20:56)
 - [Gemini Robotics 2とは？ロボット全身制御の仕組み・応用例を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html): GoogleのAIがロボット全体を統合的に制御できるようになり、複雑な動作が実現可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:56)

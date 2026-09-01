@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Mac mini争奪戦の真犯人、AIにGUI操作を学ばせる野心</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9a6fd152.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9a6fd152.html</guid>
+    <description>OpenAIやAnthropicがMac miniを大量調達。AIに画面操作を学ばせるためで、GUIの複雑さが技術的な課題を生んでいる。</description>
+    <pubDate>Tue, 01 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GoogleとAIMが「ATL Saathi」公開。Gemini搭載でインド教育現場を革新</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-66188580.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-66188580.html</guid>
+    <description>GoogleとAIMが生成AI「Gemini」を活用した教育支援ツールを発表。ロボット教室の指導者向け。</description>
+    <pubDate>Tue, 01 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google DeepMind、AIで生物学の脅威に対抗する新アプローチを発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-isomorphic-labs-28780037.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-isomorphic-labs-28780037.html</guid>
+    <description>Google DeepMindとIsomorphic Labsが、AIを使って感染症やバイオリスクに対抗する共同戦略を公開。</description>
+    <pubDate>Tue, 01 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、サイバーセキュリティ特化AI「Gemini 3.5 Flash Cyber」投入。脆弱性発見・修正が自動化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7898549b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7898549b.html</guid>
+    <description>Googleが軽量のセキュリティ専用AI「Gemini 3.5 Flash Cyber」を発表。システムの脆弱性を自動検出・修正する新ツール。</description>
+    <pubDate>Tue, 01 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、新型AI「Gemini 3.6 Flash」発表。高速化と低価格化で競争加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-edd884e3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-edd884e3.html</guid>
+    <description>GoogleがGeminiの新バージョンを複数発表。より高速で安価なAIモデルでChatGPTとの競争が激化。</description>
+    <pubDate>Tue, 01 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Google、科学研究にAI4000万ドル投入。Genesis Missionで発見加速へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-15eb5b1c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-15eb5b1c.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/f4b25a56.html</guid>
     <description>三菱ケミカルが半導体の熱問題を解決する新材料を開発。AI時代に無視できない課題に光明。</description>
     <pubDate>Tue, 01 Sep 2026 16:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの助言、8割が従うのに幸福度は上がらず　6000人調査で判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-2fdbb2bb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-2fdbb2bb.html</guid>
-    <description>AIの助言に従う人は多いが、実際には心身の健康改善には繋がらない可能性が研究で明らかに。</description>
-    <pubDate>Tue, 01 Sep 2026 14:41:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AI画像が「違和感」を生む理由。消費者の本音を広報のプロが解剖</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bdb95bf6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bdb95bf6.html</guid>
-    <description>SNSで相次ぐ生成AI画像の炎上。その根底にある消費者の違和感の正体を、危機管理広報の専門家が分析。</description>
-    <pubDate>Tue, 01 Sep 2026 14:41:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Instagram、AIの顔を「本物ではない」と明示　従わないアカウントは非表示に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-ad9d6619.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-ad9d6619.html</guid>
-    <description>MetaがInstagramのAIアカウント表示ルールを変更。AI生成人物のプロフィールは明確に表示され、設定しないと検索結果から制限される。</description>
-    <pubDate>Tue, 01 Sep 2026 14:40:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTに広告表示開始、OpenAIの売上が年1600億円に到達。Google独占時代に終止符か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-089a1aca.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-089a1aca.html</guid>
-    <description>ChatGPTの一部プランに広告が掲載され始め、OpenAIの広告事業は年10億ドル規模に成長。検索広告の巨人Googleに対抗できるか注目される。</description>
-    <pubDate>Tue, 01 Sep 2026 14:40:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ピーエスシー、AIエージェント時代の実装で日本先行——AI SOC・Coo Kai対応で業務変革へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-soc-82330acf.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-soc-82330acf.html</guid>
-    <description>ピーエスシーがAIエージェント時代に向けた実装を加速。日本初のAI SOCサービスやCoo Kai対応など、企業のAI導入をリードする。</description>
-    <pubDate>Tue, 01 Sep 2026 14:40:00 +0900</pubDate>
   </item>
 </channel></rss>
