@@ -45,6 +45,7 @@ STYLE_PATH = OUTPUT_DIR / "style.css"
 SHARE_JS_PATH = OUTPUT_DIR / "share.js"
 ABOUT_PATH = OUTPUT_DIR / "about.html"
 PRODUCTS_PATH = OUTPUT_DIR / "products.html"
+CONTACT_PATH = OUTPUT_DIR / "contact.html"
 ROBOTS_PATH = OUTPUT_DIR / "robots.txt"
 SITEMAP_PATH = OUTPUT_DIR / "sitemap.xml"
 FEED_PATH = OUTPUT_DIR / "feed.xml"
@@ -106,6 +107,7 @@ SUB_NAV_TEMPLATE = """<nav class="mot-nav">
       <li><a href="{prefix}index.html#latest">LATEST</a></li>
       <li><a href="{prefix}topics/index.html">TOPICS</a></li>
       <li><a href="{prefix}products.html">PRODUCTS</a></li>
+      <li><a href="{prefix}contact.html">CONTACT</a></li>
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
@@ -504,6 +506,26 @@ footer a {
 .risk-box { border-left: 3px solid var(--mot-breaking); background: rgba(239, 68, 68, 0.06); }
 .opportunity-box { border-left: 3px solid var(--mot-positive); background: rgba(16, 185, 129, 0.06); }
 .risk-box h3, .opportunity-box h3 { margin-top: 0; }
+.contact-card {
+  border: 1px solid var(--mot-border);
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin: 16px 0 28px;
+}
+.contact-card h2 { margin-top: 0; }
+.contact-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 9px 20px;
+  border-radius: 999px;
+  background: var(--mot-primary);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.contact-btn:hover { opacity: 0.88; }
+:root[data-theme="dark"] .contact-card { border-color: #2a2a36; }
 .tag-pills {
   display: flex;
   flex-wrap: wrap;
@@ -1377,6 +1399,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
       <li><a href="#latest">LATEST</a></li>
       <li><a href="topics/index.html">TOPICS</a></li>
       <li><a href="products.html">PRODUCTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
     </ul>
     <div class="mot-nav-actions">
       <input id="mot-search" class="mot-search-input" type="text" placeholder="検索" aria-label="記事を検索">
@@ -1879,7 +1902,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
   <p class="summary">当サイトは、生成AI・LLM関連の国内外ニュースをAIが要約し、見出し・記事としてまとめて紹介するニュースキュレーションサイトです。</p>
 
   <h2>運営者情報</h2>
-  <p class="summary">運営者名: AI特化メディアMOT編集部<br>連絡先: (準備中・お問い合わせフォーム等を設置予定)</p>
+  <p class="summary">運営者名: AI特化メディアMOT編集部<br>連絡先: <a href="contact.html">お問い合わせページ</a>よりご連絡ください。</p>
 
   <h2>免責事項</h2>
   <p class="summary">
@@ -1901,7 +1924,54 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
   </p>
 
   <h2>お問い合わせ</h2>
-  <p class="summary">お問い合わせフォームを準備中です。今しばらくお待ちください。</p>
+  <p class="summary"><a href="contact.html">お問い合わせページ</a>より受け付けています。</p>
+</main>
+<footer>
+  <a href="index.html">&laquo; トップへ戻る</a>
+</footer>
+</body>
+</html>
+"""
+
+CONTACT_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+{theme_init}
+{csp}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ・コラボレーション | AI特化メディアMOT</title>
+<meta name="description" content="AI特化メディアMOTへのプロダクト掲載依頼・協業/スポンサー相談・お問い合わせ窓口です。">
+<link rel="canonical" href="{page_url}">
+<link rel="icon" href="{favicon}">
+{google_font}
+<link rel="stylesheet" href="style.css">
+{goatcounter}
+</head>
+<body class="article-page">
+{nav}
+<main>
+  <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
+  <h1 class="headline">お問い合わせ・コラボレーション</h1>
+  <p class="summary">MOTへのプロダクト掲載依頼、協業・スポンサーのご相談、その他お問い合わせはこちらから受け付けています。内容は編集部が確認のうえ対応します。掲載や採用をお約束するものではありません。</p>
+
+  <div class="contact-card">
+    <h2>プロダクトを紹介してほしい</h2>
+    <p class="summary">AIツール・アプリ・個人開発のプロダクト・OSS等を作った方は、こちらからMOTに紹介依頼を送れます。内容を確認のうえ、サイトやSNS、MOT Communityで紹介する場合があります。</p>
+    <a class="contact-btn" href="https://forms.gle/ifnQPZ6cmDZgFrF77" target="_blank" rel="noopener noreferrer">プロダクトを紹介する &raquo;</a>
+  </div>
+
+  <div class="contact-card">
+    <h2>協業・スポンサーのご相談</h2>
+    <p class="summary">プロダクト紹介、AIサービスの紹介、スポンサー掲載、その他コラボレーションのご相談はこちらから。まずは達成したいことを教えてください。予算感の記載は任意です。</p>
+    <a class="contact-btn" href="https://forms.gle/AvexYm3dxnRRRRTf7" target="_blank" rel="noopener noreferrer">相談する &raquo;</a>
+  </div>
+
+  <div class="contact-card">
+    <h2>一般のお問い合わせ・フィードバック</h2>
+    <p class="summary">記事の誤りのご指摘、ご意見・ご感想など、その他のお問い合わせはこちらから。</p>
+    <a class="contact-btn" href="https://forms.gle/Dd4UdoYmSarQrFNy6" target="_blank" rel="noopener noreferrer">お問い合わせする &raquo;</a>
+  </div>
 </main>
 <footer>
   <a href="index.html">&laquo; トップへ戻る</a>
@@ -1931,6 +2001,7 @@ PRODUCTS_TEMPLATE = """<!DOCTYPE html>
   <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
   <h1 class="headline">プロダクト紹介</h1>
   <p class="summary">MOTを運営するチームが手がけている、その他のサービス・アプリ・プロダクトをこちらでまとめて紹介する予定です。現在準備中です。</p>
+  <p class="summary">ご自身のプロダクトをMOTで紹介してほしい方は<a href="contact.html">お問い合わせページ</a>からどうぞ。</p>
 </main>
 <footer>
   <a href="index.html">&laquo; トップへ戻る</a>
@@ -2750,6 +2821,18 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         ),
         encoding="utf-8",
     )
+    CONTACT_PATH.write_text(
+        CONTACT_TEMPLATE.format(
+            favicon=FAVICON_DATA_URI,
+            goatcounter=GOATCOUNTER_SCRIPT,
+            page_url=_abs_url("contact.html"),
+            csp=CSP_META,
+            google_font=GOOGLE_FONT_LINK,
+            theme_init=THEME_INIT_SCRIPT,
+            nav=_render_sub_nav("", _abs_url("contact.html")),
+        ),
+        encoding="utf-8",
+    )
     PRODUCTS_PATH.write_text(
         PRODUCTS_TEMPLATE.format(
             favicon=FAVICON_DATA_URI,
@@ -2944,7 +3027,10 @@ def _write_llms_txt(articles_data: list[dict]) -> None:
 
 def _write_robots_and_sitemap(articles_data: list[dict], extra_urls: list[str] | None = None) -> None:
     today = datetime.now().strftime("%Y-%m-%d")
-    urls = [(_abs_url("index.html"), today), (_abs_url("about.html"), today), (_abs_url("products.html"), today)]
+    urls = [
+        (_abs_url("index.html"), today), (_abs_url("about.html"), today),
+        (_abs_url("products.html"), today), (_abs_url("contact.html"), today),
+    ]
     urls += [
         (_abs_url(f"articles/{e['slug']}.html"), e.get("generated_at", "")[:10] or today) for e in articles_data
     ]

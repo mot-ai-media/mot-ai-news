@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-01 14:41
+最終更新: 2026-09-01 16:45
 
 ## 記事一覧
 
+- [米国防総省がChatGPT・Grok導入、政府AIツール戦略とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-bb1d02ab.html): 米国防総省がOpenAIのChatGPTとSpaceXのGrokを中央ポータルに統合し、Geminiと並ぶ公式AIツールとして採用。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:45)
+- [三菱ケミカルの新材料とは？温めると縮む半導体材料がAI時代の課題を解決](https://mot-ai-media.github.io/mot-ai-news/articles/f4b25a56.html): 三菱ケミカルが半導体の熱問題を解決する新材料を開発。AI時代に無視できない課題に光明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 16:44)
+- [ハーネスエンジニアリングとは？LLM導入で生産性が上がらない理由](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-c56fdd9f.html): LLM導入しても生産性が上がらない企業が直面する課題に対し、先行企業が推奨するのは「ハーネスエンジニアリング」という新しいアプローチ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 16:44)
+- [ChatGPT Business新プラン、Claude・Cursorとの料金・機能比較](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e6ba5bab.html): OpenAIがChatGPT Businessで上位シートを提供開始。企業向けAIツール3社がそろって段階的な料金体系を整備し、AI活用が実務レベルに進む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 16:44)
+- [Apple元社員がOpenAIにデータ流出？企業機密盗難の衝撃事件の真相](https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-71ebe41f.html): Appleが元従業員によるデータ盗難疑惑を公表し、調査開始後に証拠隠滅した可能性を指摘。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:44)
 - [生成AI画像がキショいと感じる理由とは？違和感の正体を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bdb95bf6.html): SNSで相次ぐ生成AI画像の炎上。その根底にある消費者の違和感の正体を、危機管理広報の専門家が分析。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 14:41)
 - [AIに人生相談した結果、幸福度が上がらない理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-2fdbb2bb.html): AIの助言に従う人は多いが、実際には心身の健康改善には繋がらない可能性が研究で明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 14:41)
 - [AIエージェントとは？ピーエスシーが日本初AI SOCサービスで実装開始](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-soc-82330acf.html): ピーエスシーがAIエージェント時代に向けた実装を加速。日本初のAI SOCサービスやCoo Kai対応など、企業のAI導入をリードする。 (出典: PR TIMES / 更新: 2026-09-01 14:40)

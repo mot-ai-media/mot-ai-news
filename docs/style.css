@@ -303,6 +303,26 @@ footer a {
 .risk-box { border-left: 3px solid var(--mot-breaking); background: rgba(239, 68, 68, 0.06); }
 .opportunity-box { border-left: 3px solid var(--mot-positive); background: rgba(16, 185, 129, 0.06); }
 .risk-box h3, .opportunity-box h3 { margin-top: 0; }
+.contact-card {
+  border: 1px solid var(--mot-border);
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin: 16px 0 28px;
+}
+.contact-card h2 { margin-top: 0; }
+.contact-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 9px 20px;
+  border-radius: 999px;
+  background: var(--mot-primary);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.contact-btn:hover { opacity: 0.88; }
+:root[data-theme="dark"] .contact-card { border-color: #2a2a36; }
 .tag-pills {
   display: flex;
   flex-wrap: wrap;

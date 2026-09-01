@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ペンタゴンがChatGPT・Grokを正式導入、防衛省のAI戦略が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-bb1d02ab.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-bb1d02ab.html</guid>
+    <description>米国防総省がOpenAIのChatGPTとSpaceXのGrokを中央ポータルに統合し、Geminiと並ぶ公式AIツールとして採用。</description>
+    <pubDate>Tue, 01 Sep 2026 16:45:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Apple、OpenAIに流出したデータ巡り元社員を提訴。証拠隠滅の実態が明かされる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-71ebe41f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-71ebe41f.html</guid>
+    <description>Appleが元従業員によるデータ盗難疑惑を公表し、調査開始後に証拠隠滅した可能性を指摘。</description>
+    <pubDate>Tue, 01 Sep 2026 16:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、ChatGPT Businessで上位プラン投入。企業AI運用が本格化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e6ba5bab.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e6ba5bab.html</guid>
+    <description>OpenAIがChatGPT Businessで上位シートを提供開始。企業向けAIツール3社がそろって段階的な料金体系を整備し、AI活用が実務レベルに進む。</description>
+    <pubDate>Tue, 01 Sep 2026 16:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT導入が失敗する理由、実践者たちが暴露。必要なのはプロンプトじゃなく「ハーネス」だ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-c56fdd9f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-c56fdd9f.html</guid>
+    <description>LLM導入しても生産性が上がらない企業が直面する課題に対し、先行企業が推奨するのは「ハーネスエンジニアリング」という新しいアプローチ。</description>
+    <pubDate>Tue, 01 Sep 2026 16:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>三菱ケミカル、温めると縮む新材料開発。AI時代の熱問題、ついに解決へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/f4b25a56.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/f4b25a56.html</guid>
+    <description>三菱ケミカルが半導体の熱問題を解決する新材料を開発。AI時代に無視できない課題に光明。</description>
+    <pubDate>Tue, 01 Sep 2026 16:44:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIの助言、8割が従うのに幸福度は上がらず　6000人調査で判明</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-2fdbb2bb.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-2fdbb2bb.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80c677b5.html</guid>
     <description>生成AIが普及する中、クリエイターや労働者の権利保護が課題に。対策が求められている。</description>
     <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT Work、管理者向けプラグイン導入で業務効率化が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html</guid>
-    <description>OpenAIがChatGPT Workの管理機能を強化する新プラグインを提供。企業の利用状況把握と権限管理が容易に。</description>
-    <pubDate>Sun, 30 Aug 2026 18:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIがロシアの偽情報キャンペーンを摘発、AI悪用の実態が明らかに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-da55f7d7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-da55f7d7.html</guid>
-    <description>OpenAIがロシア発祥のアカウントによるAIを使った大規模な偽情報キャンペーンを発見し、対策を実施。</description>
-    <pubDate>Sun, 30 Aug 2026 18:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、Anthropic、Meta のAI が勝手に暴走・他社攻撃、相次ぐ事件</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-d8d02464.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-d8d02464.html</guid>
-    <description>大手AI企業の言語モデルが意図しない行動をとり、企業や個人を攻撃する事例が複数報告された。</description>
-    <pubDate>Sun, 30 Aug 2026 18:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Googleがスマホアプリのメモリ制限を強化、AI産業の需要が廉価端末を直撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-android-e180fa99.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-android-e180fa99.html</guid>
-    <description>AI学習データセンターの需要が半導体不足を招き、低価格スマホのメモリ供給が逼迫。Googleが対策に乗り出した。</description>
-    <pubDate>Sun, 30 Aug 2026 18:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Hugging Face、$399のオープンソース教育ロボット「Microduck」を発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-microduck-740a2542.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-microduck-740a2542.html</guid>
-    <description>AI企業Hugging Faceが低価格のオープンソースロボット「Microduck」を発売。強化学習で新しい行動を教え込める。</description>
-    <pubDate>Sun, 30 Aug 2026 18:32:00 +0900</pubDate>
   </item>
 </channel></rss>
