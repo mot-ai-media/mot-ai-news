@@ -164,6 +164,21 @@ def publish_container(container_id: str, ig_user_id: str, token: str) -> str:
     return result["id"]
 
 
+TIKTOK_MANUAL_DIR = BASE_DIR / "tiktok_manual_post"
+
+
+def _save_for_manual_tiktok(slug: str, angle: str, files: list[Path], angle_data: dict) -> None:
+    """TikTok自動投稿は諦め、Instagramに投稿した画像+キャプションを手動投稿用フォルダに
+    コピーしておく(スマホでこのフォルダを見て、TikTokアプリから手動でアップロードする運用)。"""
+    dest_dir = TIKTOK_MANUAL_DIR / f"{slug}_{angle}"
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    for f in files:
+        shutil.copy2(f, dest_dir / f.name)
+    caption = angle_data.get("caption_tiktok") or angle_data.get("caption_instagram", "")
+    (dest_dir / "caption.txt").write_text(caption, encoding="utf-8")
+    print(f"TikTok手動投稿用に保存しました: {dest_dir}")
+
+
 def publish_to_instagram(slug: str, angle: str, live: bool = False) -> dict:
     queue = json.loads(SOCIAL_QUEUE_PATH.read_text(encoding="utf-8"))
     item = queue.get(slug)
@@ -219,6 +234,8 @@ def publish_to_instagram(slug: str, angle: str, live: bool = False) -> dict:
 
     media_id = publish_container(parent_id, ig_user_id, token)
     print(f"投稿完了。media_id: {media_id}")
+
+    _save_for_manual_tiktok(slug, angle, files, angle_data)
 
     item["status"] = "published"
     item["published_angle"] = angle
