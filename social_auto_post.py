@@ -21,7 +21,7 @@ from dotenv import load_dotenv
 from social_publish import SOCIAL_QUEUE_PATH, PublishError, publish_to_instagram
 
 DEFAULT_ANGLE = "surprise"
-DAILY_POST_LIMIT = 2
+DAILY_POST_LIMIT = 3
 
 
 def _today_published_count(queue: dict) -> int:
@@ -46,8 +46,17 @@ def main() -> None:
 
     candidate_slug = next((slug for slug, item in queue.items() if item.get("status") == "approved"), None)
     if not candidate_slug:
-        print(f"[{datetime.now()}] 承認済み(approved)のコンテンツがないためスキップします。social_review.htmlで確認・承認してください。")
-        return
+        # 1日3投稿を確実にするため、承認待ちが無い場合はsocial_score最高のdraftを自動承認する。
+        # (以前は手動承認が無いとスキップしていたが、それだと投稿が滞る事故が実際に起きたため)
+        draft_candidates = [(slug, item) for slug, item in queue.items() if item.get("status") == "draft"]
+        if not draft_candidates:
+            print(f"[{datetime.now()}] 承認済み・下書きともにコンテンツが無いためスキップします。social_content.pyで新規生成してください。")
+            return
+        candidate_slug, item = max(draft_candidates, key=lambda x: x[1].get("social_score", 0))
+        item["status"] = "approved"
+        queue[candidate_slug] = item
+        SOCIAL_QUEUE_PATH.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[{datetime.now()}] 承認待ちが無かったため自動承認しました: {candidate_slug}")
 
     item = queue[candidate_slug]
     angle = item.get("approved_angle", DEFAULT_ANGLE)
