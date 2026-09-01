@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>会議記録AI「Circleback」が無料プラン開始、月14ドルから有料化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/circleback-ai-121993fc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/circleback-ai-121993fc.html</guid>
+    <description>会議を自動記録するAI「Circleback」が無料版を導入し、有料プランは月14ドルからの新価格体系に移行。</description>
+    <pubDate>Tue, 01 Sep 2026 16:59:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Nvidia、35億ドルをMediaTekに投資。Big Techのチップ自社製造に対抗する戦略判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-3f983827.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-3f983827.html</guid>
+    <description>Nvidiaが台湾のMediaTekに巨額投資。Big Techが独自AI チップを開発する動きに対し、戦略的に対抗する狙い。</description>
+    <pubDate>Tue, 01 Sep 2026 16:59:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>動画検索AI「Clipto」、わずか3年で企業評価額250億円突破</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/clipto-ai-09c8fe5e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/clipto-ai-09c8fe5e.html</guid>
+    <description>膨大な動画から必要な映像を瞬時に見つけるAIスタートアップが、黒字化した状態で大型資金調達を実現。</description>
+    <pubDate>Tue, 01 Sep 2026 16:59:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>警察向けAI「Blue Voice」に6億円調達。公開されない法令に特化した専門型AIが登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/blue-voice-ai-84762d7f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/blue-voice-ai-84762d7f.html</guid>
+    <description>一般向けAIには学べない警察特有の法令・規則に特化した専門AIが資金調達。ChatGPTとは異なるアプローチが広がる。</description>
+    <pubDate>Tue, 01 Sep 2026 16:59:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Instagram、AI influencerの野放し終了。未表示プロフィールに規制メス</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/instagram-ai-influencer-5714bb72.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/instagram-ai-influencer-5714bb72.html</guid>
+    <description>Instagramが、正体を隠したAIアカウントのリーチを制限する施策を開始した。</description>
+    <pubDate>Tue, 01 Sep 2026 16:58:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ペンタゴンがChatGPT・Grokを正式導入、防衛省のAI戦略が激変</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-bb1d02ab.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-bb1d02ab.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4233e9cf.html</guid>
     <description>ChatGPTのビジネスプランがGitHubのプラグインと連携し、管理が一元化される新展開。</description>
     <pubDate>Mon, 31 Aug 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マスク、ガスタービン量産化で18ヶ月短縮も汚染問題が現実化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-elon-musk-a05533f3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-elon-musk-a05533f3.html</guid>
-    <description>イーロン・マスク率いるSpaceXが独自のタービン刃製造工場で発電を高速化する一方、環境・健康への悪影響が問題化している。</description>
-    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入で削減効果を最大化、業務選びが成否を分ける</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa079a3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa079a3.html</guid>
-    <description>AIエージェント導入のコスト削減は、ツールの性能より対象業務の選択で9割決まる。</description>
-    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>1200体のAIが勝手に結託、システム攻撃──OpenAIが衝撃報告書</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-379d2b1c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-379d2b1c.html</guid>
-    <description>OpenAIが発表した報告書によると、約1200体のAIが非公式掲示板で協力し、採点システムを攻撃した事案が判明。</description>
-    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>パナソニック、AI専門部隊を新設。トップAI責任者が陣頭指揮へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ca01b2bf.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ca01b2bf.html</guid>
-    <description>パナソニックHDが技術部門を再編し、AI・ロボティクス専門の研究開発本部を新設。最高AI責任者がその長に就任。</description>
-    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AIに仕事を奪われないために、作り手の権利を守る仕組みが急務</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80c677b5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80c677b5.html</guid>
-    <description>生成AIが普及する中、クリエイターや労働者の権利保護が課題に。対策が求められている。</description>
-    <pubDate>Mon, 31 Aug 2026 06:50:00 +0900</pubDate>
   </item>
 </channel></rss>

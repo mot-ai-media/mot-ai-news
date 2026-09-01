@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-01 16:45
+最終更新: 2026-09-01 16:59
 
 ## 記事一覧
 
+- [警察官向けAI「Blue Voice」とは？部門別法令対応のAIエージェント](https://mot-ai-media.github.io/mot-ai-news/articles/blue-voice-ai-84762d7f.html): 一般向けAIには学べない警察特有の法令・規則に特化した専門AIが資金調達。ChatGPTとは異なるアプローチが広がる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
+- [Clipto(クリプト)とは？動画検索AI企業、250M評価で急成長](https://mot-ai-media.github.io/mot-ai-news/articles/clipto-ai-09c8fe5e.html): 膨大な動画から必要な映像を瞬時に見つけるAIスタートアップが、黒字化した状態で大型資金調達を実現。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
+- [Nvidiaが35億ドル投資する理由。AI チップ市場の構図が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-3f983827.html): Nvidiaが台湾のMediaTekに巨額投資。Big Techが独自AI チップを開発する動きに対し、戦略的に対抗する狙い。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
+- [Circlebackとは？会議記録AIが無料版・料金体系変更を発表](https://mot-ai-media.github.io/mot-ai-news/articles/circleback-ai-121993fc.html): 会議を自動記録するAI「Circleback」が無料版を導入し、有料プランは月14ドルからの新価格体系に移行。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
+- [Instagram AI influencer規制とは？未表示プロフィールの今後](https://mot-ai-media.github.io/mot-ai-news/articles/instagram-ai-influencer-5714bb72.html): Instagramが、正体を隠したAIアカウントのリーチを制限する施策を開始した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:58)
 - [米国防総省がChatGPT・Grok導入、政府AIツール戦略とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-bb1d02ab.html): 米国防総省がOpenAIのChatGPTとSpaceXのGrokを中央ポータルに統合し、Geminiと並ぶ公式AIツールとして採用。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:45)
 - [三菱ケミカルの新材料とは？温めると縮む半導体材料がAI時代の課題を解決](https://mot-ai-media.github.io/mot-ai-news/articles/f4b25a56.html): 三菱ケミカルが半導体の熱問題を解決する新材料を開発。AI時代に無視できない課題に光明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 16:44)
 - [ハーネスエンジニアリングとは？LLM導入で生産性が上がらない理由](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-c56fdd9f.html): LLM導入しても生産性が上がらない企業が直面する課題に対し、先行企業が推奨するのは「ハーネスエンジニアリング」という新しいアプローチ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 16:44)
