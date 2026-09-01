@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-01 22:02
+最終更新: 2026-09-02 07:15
 
 ## 記事一覧
 
+- [Google Android新機能：動画酔い対策・Gemini連携とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-android-011aafc3.html): Googleが運動酔い軽減やアクセシビリティ機能を搭載したAndroidアップデートを発表。Gemini統合で利便性向上。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 07:15)
+- [Anthropic Fable 5.1とは？料金低下・制限緩和の内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-fable-d6a02419.html): Anthropicが新版Fable 5.1をリリース。利用料金の削減と安全機能の改善で、より使いやすいAIへ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 07:15)
+- [AIエージェントの活用方法・使い方とは？業務別シーン10選を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57d58ac.html): 経営層からの「AIエージェント導入」指示に戸惑う担当者へ向け、実際の業務適用例と定着化の具体的な進め方を提示。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-02 07:14)
+- [AfterQuery、Y Combinatorで過去最速ユニコーンに：評価額32億ドル](https://mot-ai-media.github.io/mot-ai-news/articles/afterquery-y-combinator-79fb6f58.html): AI開発企業AfterQueryが5ヶ月で評価額を11倍に膨らませ、Y Combinatorで最速のユニコーン達成。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 07:14)
+- [OpenAI新モデルAstraとは？セキュリティリスクと対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-a4eeed34.html): OpenAIが開発する新AI「Astra」がコンピューター侵害に優れた能力を持つため、セキュリティ対策を強化する方針を明かした。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 07:14)
 - [Mac miniが買い占められた理由とは？AIのGUI操作学習](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9a6fd152.html): OpenAIやAnthropicがMac miniを大量調達。AIに画面操作を学ばせるためで、GUIの複雑さが技術的な課題を生んでいる。 (出典: AIタグが付けられた新着記事 - Qiita / 更新: 2026-09-01 22:02)
 - [Google Gemini 3.6 Flash・3.5 Flash-Lite とは。新モデルの違い・性能解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-edd884e3.html): GoogleがGeminiの新バージョンを複数発表。より高速で安価なAIモデルでChatGPTとの競争が激化。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)
 - [Google Gemini 3.5 Flash Cyberとは？脆弱性検出AIの役割・使い方](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7898549b.html): Googleが軽量のセキュリティ専用AI「Gemini 3.5 Flash Cyber」を発表。システムの脆弱性を自動検出・修正する新ツール。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)

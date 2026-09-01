@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、Fable 5.1で大転換。コスト削減と規制緩和で実用性向上</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-fable-d6a02419.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-fable-d6a02419.html</guid>
+    <description>Anthropicが新版Fable 5.1をリリース。利用料金の削減と安全機能の改善で、より使いやすいAIへ。</description>
+    <pubDate>Wed, 02 Sep 2026 07:15:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Googleが動画酔い対策で反撃、Androidが大規模アップデート</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-android-011aafc3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-android-011aafc3.html</guid>
+    <description>Googleが運動酔い軽減やアクセシビリティ機能を搭載したAndroidアップデートを発表。Gemini統合で利便性向上。</description>
+    <pubDate>Wed, 02 Sep 2026 07:15:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの新型AI「Astra」、コンピューターへの侵入に異常な能力—セキュリティ対策急ぐ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-a4eeed34.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-a4eeed34.html</guid>
+    <description>OpenAIが開発する新AI「Astra」がコンピューター侵害に優れた能力を持つため、セキュリティ対策を強化する方針を明かした。</description>
+    <pubDate>Wed, 02 Sep 2026 07:14:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI学習スタートアップAfterQuery、わずか5ヶ月で評価額11倍に急騰</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/afterquery-y-combinator-79fb6f58.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/afterquery-y-combinator-79fb6f58.html</guid>
+    <description>AI開発企業AfterQueryが5ヶ月で評価額を11倍に膨らませ、Y Combinatorで最速のユニコーン達成。</description>
+    <pubDate>Wed, 02 Sep 2026 07:14:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、業務別の活用法が明確に。経営層の指示を現場で実現する進め方とは</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57d58ac.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57d58ac.html</guid>
+    <description>経営層からの「AIエージェント導入」指示に戸惑う担当者へ向け、実際の業務適用例と定着化の具体的な進め方を提示。</description>
+    <pubDate>Wed, 02 Sep 2026 07:14:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Mac mini争奪戦の真犯人、AIにGUI操作を学ばせる野心</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9a6fd152.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9a6fd152.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/instagram-ai-influencer-5714bb72.html</guid>
     <description>Instagramが、正体を隠したAIアカウントのリーチを制限する施策を開始した。</description>
     <pubDate>Tue, 01 Sep 2026 16:58:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ペンタゴンがChatGPT・Grokを正式導入、防衛省のAI戦略が激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-bb1d02ab.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-bb1d02ab.html</guid>
-    <description>米国防総省がOpenAIのChatGPTとSpaceXのGrokを中央ポータルに統合し、Geminiと並ぶ公式AIツールとして採用。</description>
-    <pubDate>Tue, 01 Sep 2026 16:45:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple、OpenAIに流出したデータ巡り元社員を提訴。証拠隠滅の実態が明かされる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-71ebe41f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-71ebe41f.html</guid>
-    <description>Appleが元従業員によるデータ盗難疑惑を公表し、調査開始後に証拠隠滅した可能性を指摘。</description>
-    <pubDate>Tue, 01 Sep 2026 16:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、ChatGPT Businessで上位プラン投入。企業AI運用が本格化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e6ba5bab.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e6ba5bab.html</guid>
-    <description>OpenAIがChatGPT Businessで上位シートを提供開始。企業向けAIツール3社がそろって段階的な料金体系を整備し、AI活用が実務レベルに進む。</description>
-    <pubDate>Tue, 01 Sep 2026 16:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT導入が失敗する理由、実践者たちが暴露。必要なのはプロンプトじゃなく「ハーネス」だ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-c56fdd9f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-c56fdd9f.html</guid>
-    <description>LLM導入しても生産性が上がらない企業が直面する課題に対し、先行企業が推奨するのは「ハーネスエンジニアリング」という新しいアプローチ。</description>
-    <pubDate>Tue, 01 Sep 2026 16:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>三菱ケミカル、温めると縮む新材料開発。AI時代の熱問題、ついに解決へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/f4b25a56.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/f4b25a56.html</guid>
-    <description>三菱ケミカルが半導体の熱問題を解決する新材料を開発。AI時代に無視できない課題に光明。</description>
-    <pubDate>Tue, 01 Sep 2026 16:44:00 +0900</pubDate>
   </item>
 </channel></rss>
