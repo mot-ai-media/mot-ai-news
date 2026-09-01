@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-01 20:49
+最終更新: 2026-09-01 20:57
 
 ## 記事一覧
 
+- [GoogleのGenesis Missionとは？AIで科学研究を支援する新計画](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-15eb5b1c.html): GoogleがAI技術を活用した科学研究支援プログラムに4000万ドルを投資。研究者のAI活用を加速させる。 (出典: Google DeepMind News / 更新: 2026-09-01 20:57)
+- [Google DeepMindの気象AI「WeatherNext」とは？台風予測の精度向上](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-7fa201e3.html): Google DeepMindが開発した気象予測AI「WeatherNext」が、台風などの極端気象の予測精度を大幅に向上させた。 (出典: Google DeepMind News / 更新: 2026-09-01 20:56)
+- [Gemini Robotics 2とは？ロボット全身制御の仕組み・応用例を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html): GoogleのAIがロボット全体を統合的に制御できるようになり、複雑な動作が実現可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:56)
+- [Google DeepMindがゲームAI研究を実用化、何ができる？](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-06daba08.html): GoogleのAI研究部門がゲーム企業と協力し、15年の蓄積をゲームプレイの実装に活かす新段階へ。 (出典: Google DeepMind News / 更新: 2026-09-01 20:55)
+- [Google手話AI「SL2T」とは？聴覚障害者向け機能の実装](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-f5d9b5f6.html): Googleが手話をテキストに変換するAI技術を開発し、聴覚障害者向けの新機能として展開。 (出典: Google DeepMind News / 更新: 2026-09-01 20:55)
 - [Gemini 3.5 Transcribeとは？Google新音声認識AIの機能と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-83abfc08.html): Googleが音声認識技術を大幅進化。文脈を理解した精度の高い文字起こしが可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:49)
 - [総務省「AX・新技術戦略室」新設とは？AI推進の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-6add3764.html): 総務省が9月1日、AI推進をまとめる新組織「AX・新技術戦略室」を設置。政府のAI戦略が本格化する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 20:48)
 - [ChatGPT広告が10億ドル達成、無料・低価格オプション拡大の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-44f61163.html): OpenAIの広告事業が大幅に成長し、より多くの人がAIにアクセスしやすくなる環境が整備される。 (出典: OpenAI News / 更新: 2026-09-01 20:48)

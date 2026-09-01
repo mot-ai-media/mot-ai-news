@@ -517,6 +517,15 @@ footer a {
 }
 .mot-take-box h3 { margin-top: 0; }
 :root[data-theme="dark"] .mot-take-box { background: rgba(37, 99, 235, 0.12); }
+.watch-next-box {
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  margin: 16px 0;
+  border-left: 3px solid var(--mot-trending);
+  background: rgba(249, 115, 22, 0.06);
+}
+.watch-next-box h3 { margin-top: 0; }
+:root[data-theme="dark"] .watch-next-box { background: rgba(249, 115, 22, 0.12); }
 .contact-card {
   border: 1px solid var(--mot-border);
   border-radius: 12px;
@@ -2404,12 +2413,19 @@ def _render_article_body(entry: dict) -> str:
     opportunity = entry.get("opportunity_point")
 
     mot_take = entry.get("mot_take")
+    watch_next = entry.get("what_to_watch_next")
     if tldr and what and why and impact_on_reader and relevance and risk and opportunity:
         mot_take_html = ""
         if mot_take and mot_take.strip():
             mot_take_html = (
                 f'<div class="mot-take-box"><h3>MOTの見解</h3>'
                 f"<p>{html_lib.escape(mot_take)}</p></div>"
+            )
+        watch_next_html = ""
+        if watch_next and watch_next.strip():
+            watch_next_html = (
+                f'<div class="watch-next-box"><h3>今後の注目ポイント</h3>'
+                f"<p>{html_lib.escape(watch_next)}</p></div>"
             )
         return (
             f'<p class="tldr"><strong>TL;DR</strong> {html_lib.escape(tldr)}</p>'
@@ -2421,6 +2437,7 @@ def _render_article_body(entry: dict) -> str:
             f'<div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3>'
             f"<p>{html_lib.escape(opportunity)}</p></div>"
             f"{mot_take_html}"
+            f"{watch_next_html}"
         )
 
     legacy_impact = entry.get("future_impact")
@@ -2703,6 +2720,7 @@ def build() -> None:
             "risk_point": result["risk_point"],
             "opportunity_point": result["opportunity_point"],
             "mot_take": result.get("mot_take") or "",
+            "what_to_watch_next": result.get("what_to_watch_next") or "",
             "tags": result.get("tags") or [],
             "faq": result.get("faq") or [],
             "digest": result.get("digest") or {},

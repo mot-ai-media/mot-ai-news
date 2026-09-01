@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gemini Robotics 2とは？ロボット全身制御の仕組み・応用例を解説 | AI特化メディアMOT</title>
+<meta name="description" content="GoogleのAIがロボット全体を統合的に制御できるようになり、複雑な動作が実現可能に。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Google DeepMind、ロボット向けAI「Gemini Robotics 2」公開。全身制御が一変する">
+<meta property="og:description" content="GoogleのAIがロボット全体を統合的に制御できるようになり、複雑な動作が実現可能に。">
+<meta property="og:image" content="https://mot-ai-media.github.io/mot-ai-news/og-image.png">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html">
+<meta property="article:published_time" content="2026-09-01T20:56:00+09:00">
+<meta property="article:modified_time" content="2026-09-01T20:56:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Google DeepMind、ロボット向けAI「Gemini Robotics 2」公開。全身制御が一変する", "description": "GoogleのAIがロボット全体を統合的に制御できるようになり、複雑な動作が実現可能に。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-01T20:56:00+09:00", "dateModified": "2026-09-01T20:56:00+09:00", "image": ["https://mot-ai-media.github.io/mot-ai-news/og-image.png"], "citation": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Gemini Robotics 2とは何か？", "acceptedAnswer": {"@type": "Answer", "text": "ロボット全体を統合的に制御できるAI。従来の部位ごと制御から進化し、頭から足まで全身を一体的に理解・操作できるようになりました。"}}, {"@type": "Question", "name": "何が変わるのか？", "acceptedAnswer": {"@type": "Answer", "text": "ロボットが環境に応じた柔軟で複雑な動作ができるようになり、現在は人間が担当している作業の自動化が進む可能性があります。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Google DeepMind", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/google-deepmind.html"}, {"@type": "ListItem", "position": 3, "name": "Google DeepMind、ロボット向けAI「Gemini Robotics 2」公開。全身制御が一変する", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style="background: linear-gradient(135deg, #302b63, #0f0c29);"><div class="thumb-overlay"><span class="thumb-overlay-text">Google DeepMind、ロボット向けAI「Gemini Robotics 2」公開。全身制御が一変する</span></div></div>
+  <h1 class="headline">Google DeepMind、ロボット向けAI「Gemini Robotics 2」公開。全身制御が一変する</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-technical">&#128309; テクニカル</span></span>
+    <span><span class="trust-label">SOURCE</span>Google DeepMind News</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-01 20:56</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> GoogleがロボットAI「Gemini Robotics 2」を発表。頭から足まで全身を統合的に制御でき、より自然で複雑な動作ができるようになった。</p><h3>何が起きたか</h3><p>GoogleのDeepMindチームが、ロボットの全身を一体的に制御するAI「Gemini Robotics 2」を公開しました。従来はロボットの腕や脚などを個別に制御することが多かったのに対し、このAIは身体全体を統合的に理解・操作できるようになり、より自然で複雑な動作が実現可能になります。</p><h3>なぜ重要か</h3><p>ロボットが人間のように全身を協調させて動くことは、製造業や物流、医療現場など様々な産業での実用化に向けた大きなステップです。これまではロボットが単純な繰り返し作業に限定されていましたが、全身知能により環境変化への対応力が劇的に向上し、より人間に近い柔軟さを持つロボットが実現に近づきます。</p><h3>あなたへの影響</h3><p>工場勤務や配送業務など、ロボット導入が進む業界にいる人にとっては、自分たちの仕事がどう変わるかを左右する技術です。また消費者にとっても、より高度なロボット化により物流や製造コストが削減される可能性があり、商品価格や配送速度に間接的に影響する可能性があります。</p><h3>MOT読者が知っておくべき理由</h3><p>AIが生活や仕事にどう関わるかを知りたいAI初心者にとって、『AIがロボットを動かす』という最も身近な応用例を理解する絶好の事例です。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>全身制御が可能になるほどロボットの自律性が高まることで、その判断や行動の透明性・安全性をどう確保するかが課題になる可能性があり、今後の規制や安全基準の在り方が問われることになるでしょう。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>全身知能を持つロボットは予測不可能な環境への適応力が高まるため、現在は人間にしかできない柔軟な作業が自動化できるようになり、危険な現場作業や労働力不足の解決につながる可能性が生まれます。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>ロボティクス業界では従来『ハードウェアが優秀なら制御は後からついてくる』という見方が主流でしたが、Gemini Robotics 2の登場は『優秀なAIが限界だったハードウェアの能力を引き出す』という構図の逆転を示唆しています。つまり、ロボット開発の競争軸がハードからソフト・AI側にシフトしつつあるという業界的な転換点です。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>実際の製造現場や物流センターでの導入試験がいつ、どのような企業で進むのか。また競合のボストン・ダイナミクスなど他のロボティクス企業がどのような対抗策を打つのかが、この技術が本当に産業転換をもたらすかを判断する鍵になります。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/google-deepmind.html">#Google DeepMind</a><a class="tag-pill" href="../topics/657856a6e8.html">#ロボティクス</a></div>
+  <script>window.motPageTags=["Google DeepMind", "Gemini Robotics 2", "ロボティクス"];</script>
+  <div class="ad-slot-large"><span class="ad-label">広告</span><div class="ad-item"><a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" rel="sponsored nofollow">【PR】株式、為替(FX)、暗号資産、株価指数、商品資源(金や原油)まで取引可能！【TOSSY】</a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" alt=""></div></div>
+  <blockquote class="fact-check" cite="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>Google DeepMind News</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/" target="_blank" rel="noopener noreferrer">元記事（<cite>Google DeepMind News</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Gemini Robotics 2とは何か？</p>
+    <p class="faq-a">ロボット全体を統合的に制御できるAI。従来の部位ごと制御から進化し、頭から足まで全身を一体的に理解・操作できるようになりました。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 何が変わるのか？</p>
+    <p class="faq-a">ロボットが環境に応じた柔軟で複雑な動作ができるようになり、現在は人間が担当している作業の自動化が進む可能性があります。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Google%20DeepMind%E3%80%81%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%90%91%E3%81%91AI%E3%80%8CGemini%20Robotics%202%E3%80%8D%E5%85%AC%E9%96%8B%E3%80%82%E5%85%A8%E8%BA%AB%E5%88%B6%E5%BE%A1%E3%81%8C%E4%B8%80%E5%A4%89%E3%81%99%E3%82%8B&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html&text=Google%20DeepMind%E3%80%81%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%90%91%E3%81%91AI%E3%80%8CGemini%20Robotics%202%E3%80%8D%E5%85%AC%E9%96%8B%E3%80%82%E5%85%A8%E8%BA%AB%E5%88%B6%E5%BE%A1%E3%81%8C%E4%B8%80%E5%A4%89%E3%81%99%E3%82%8B" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html" data-share-title="Google DeepMind、ロボット向けAI「Gemini Robotics 2」公開。全身制御が一変する">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="google-deepmind-gemini-robotics-2-7909c613">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="google-deepmind-ai-7fa201e3.html">
+    
+    <span class="next-up-headline">AI気象予測モデル「WeatherNext」、台風予測の精度革新を達成</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="google-deepmind-ai-06daba08.html">Google DeepMind、ゲーム企業と提携しAIの15年研究を実戦投入へ</a></li>
+  <li><a href="google-gemini-83abfc08.html">Google、音声認識をAIで高度化。Gemini 3.5 Transcribeで文脈を理解する文字起こし実現</a></li>
+  <li><a href="google-gemini-a13e39d4.html">Googleの新AI「Gemini 1.1 Flash」、開発者に制御力を与える</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

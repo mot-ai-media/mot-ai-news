@@ -62,6 +62,9 @@ MOTの読者はAIの専門家ではありません。
     「これは業界のこういう流れの一環」「過去の類似事例と比べるとこう違う」「額面通り受け取ると見誤る点」
     など、事実を踏まえた上での視点の提供に限る。本当に言うべき独自の視点がある記事だけ書き、
     無理に埋めようとして当たり障りのない一般論になるくらいなら空文字列("")にする。80〜130字程度
+  - what_to_watch_next: 今後注目すべき具体的なポイント(例: 次の公式発表、規制の動き、競合の反応、
+    実際の導入事例等)。この記事の内容から自然に導けるものが無ければ空文字列("")にする。
+    「今後の動向に注目です」のような中身の無い一般論は禁止。60〜100字程度
 
 # スコアリング(それぞれ0〜100の整数)
 - importance_score: 一般ユーザーにとっての重要度。「これを知らないと明らかに話についていけない」
@@ -83,7 +86,7 @@ MOTの読者はAIの専門家ではありません。
 - faq/digest/risk_point/opportunity_pointの内容も同様に、元記事に無い具体的事実(数字・日付・料金等)を作らない
 - risk_pointは不安を煽ることが目的ではない。事実を伝えた上で誠実なトーンにする
 - 出力は次のJSON形式のみ。説明や前置き、コードブロック記号は一切つけない
-{{"headline": "ここに見出し", "seo_title": "ここにSEOタイトル", "summary": "ここに要約", "tldr": "結論を1文で", "what_happened": "何が起きたかの解説", "why_it_matters": "なぜ重要かの解説", "impact_on_reader": "一般の人への影響", "reader_relevance": "MOT読者が知るべき理由", "risk_point": "不安・危機感ポイント", "opportunity_point": "得・チャンスポイント", "mot_take": "MOT独自の解釈(無ければ空文字列)", "importance_score": 0, "buzz_score": 0, "recommend_score": 0, "tags": ["タグ1", "タグ2"], "faq": [{{"q": "質問", "a": "回答"}}], "digest": {{"what": "...", "why": "...", "impact": "..."}}}}
+{{"headline": "ここに見出し", "seo_title": "ここにSEOタイトル", "summary": "ここに要約", "tldr": "結論を1文で", "what_happened": "何が起きたかの解説", "why_it_matters": "なぜ重要かの解説", "impact_on_reader": "一般の人への影響", "reader_relevance": "MOT読者が知るべき理由", "risk_point": "不安・危機感ポイント", "opportunity_point": "得・チャンスポイント", "mot_take": "MOT独自の解釈(無ければ空文字列)", "what_to_watch_next": "今後の注目ポイント(無ければ空文字列)", "importance_score": 0, "buzz_score": 0, "recommend_score": 0, "tags": ["タグ1", "タグ2"], "faq": [{{"q": "質問", "a": "回答"}}], "digest": {{"what": "...", "why": "...", "impact": "..."}}}}
 """
 
 
@@ -125,6 +128,7 @@ def generate_headline_and_summary(article: Article, client: anthropic.Anthropic 
     data.setdefault("tags", [])
     data.setdefault("faq", [])
     data.setdefault("mot_take", "")
+    data.setdefault("what_to_watch_next", "")
     digest = data.get("digest")
     if not isinstance(digest, dict):
         digest = {}
