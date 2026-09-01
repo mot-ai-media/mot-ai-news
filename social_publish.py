@@ -178,6 +178,9 @@ def _save_for_manual_tiktok(slug: str, angle: str, files: list[Path], angle_data
     (dest_dir / "caption.txt").write_text(caption, encoding="utf-8")
     print(f"TikTok手動投稿用に保存しました: {dest_dir}")
 
+    import _gen_tiktok_queue
+    _gen_tiktok_queue.build()
+
 
 def publish_to_instagram(slug: str, angle: str, live: bool = False) -> dict:
     queue = json.loads(SOCIAL_QUEUE_PATH.read_text(encoding="utf-8"))
