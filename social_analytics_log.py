@@ -69,9 +69,26 @@ def _goatcounter_today() -> dict:
     top_article = "-"
     hit_list = hits.get("hits", [])
     if hit_list:
-        top_article = hit_list[0].get("path", "-")
+        top_article = _headline_for_path(hit_list[0].get("path", ""))
 
     return {"pv": pv, "peak_hour": peak_hour, "top_article": top_article}
+
+
+def _headline_for_path(path: str) -> str:
+    """GoatCounterのpath(例: /mot-ai-news/articles/xxx-slug.html)から、
+    articles_data.jsonの見出しを引いて先頭部分だけ返す。見つからなければpathをそのまま返す。"""
+    slug = Path(path).stem
+    if not slug or slug == "index":
+        return "トップページ"
+    data_path = BASE_DIR / "articles_data.json"
+    if not data_path.exists():
+        return path
+    articles = json.loads(data_path.read_text(encoding="utf-8"))
+    for a in articles:
+        if a.get("slug") == slug:
+            headline = a.get("headline", "")
+            return headline[:20] + ("…" if len(headline) > 20 else "")
+    return path
 
 
 def _article_counts() -> dict:
