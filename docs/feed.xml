@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、新AI「Claude 5.1」発表。高性能の代わりに監視困難さが浮上</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b48cf14.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b48cf14.html</guid>
+    <description>Anthropicが科学研究やコーディングで大幅に性能を高めたAI「Claude 5.1」を発表。一方で監視の難しさなどのリスクも報告。</description>
+    <pubDate>Wed, 02 Sep 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、企業データを外に出さないAI安全機能を投入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c03690d1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c03690d1.html</guid>
+    <description>Anthropicが企業向けAIの新機能を発表。社員のチャット履歴を外部に送らず、社内で安全管理できる仕組みが秋に登場。</description>
+    <pubDate>Wed, 02 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>3Dモデルを数分で2D図面に、AIが製図工程を劇的短縮</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/wogo-hacadly-dd00f931.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/wogo-hacadly-dd00f931.html</guid>
+    <description>WOGOの新AI製図ソフトが、3Dモデルから2D図面を自動生成。数分で寸法や表題欄まで対応。</description>
+    <pubDate>Wed, 02 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが仕事を奪わない理由、新しい業務が9割の担当者を苦しめている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aiops-ai-8a77c941.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aiops-ai-8a77c941.html</guid>
+    <description>AI導入で一部業務は効率化されても、別の新しい仕事が生まれ、現場の9割が負担を感じている実態が判明。</description>
+    <pubDate>Wed, 02 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta、20人超の同時識別に対応した音声認識AI「Muse Voice Transcribe」発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-d0ec68a3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-d0ec68a3.html</guid>
+    <description>Metaが複数話者を識別できるリアルタイム音声認識モデルを発表。会議録音や多言語対応で活躍の場が広がる。</description>
+    <pubDate>Wed, 02 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude、利用制限を一括リセット。新モデル「Fable 5.1」提供開始に伴い</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b36db701.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b36db701.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-6add3764.html</guid>
     <description>総務省が9月1日、AI推進をまとめる新組織「AX・新技術戦略室」を設置。政府のAI戦略が本格化する。</description>
     <pubDate>Tue, 01 Sep 2026 20:48:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日本の自治体がAIで変わる。Polimillが次世代型行政インフラ構築</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html</guid>
-    <description>日本の自治体向けにAIを活用した行政知識検索システムが登場。業務効率化が加速する。</description>
-    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、10代の安全なAI利用を守る法案を支持。学習の自由と保護を両立</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0703988e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0703988e.html</guid>
-    <description>OpenAIがカリフォルニア州の青少年向けAI安全規制法案を支持。教育・創作活動は守りながら、有害な影響から保護する動き。</description>
-    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ヨーロッパの起業家たちが問い詰める、「AIの主導権は誰が握るのか」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techbbq-ai-aa17eb89.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techbbq-ai-aa17eb89.html</guid>
-    <description>AIが急速に進化する中で、人間がAIを制御できるのか、という根本的な問いが欧州で高まっている。</description>
-    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米国がドローン・ロボット規制を強化、中国の圧倒的スケールが規制の穴をつく</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/f2a0380f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/f2a0380f.html</guid>
-    <description>米国が外国製ドローン・ロボットの締め出しを強化する一方、中国の圧倒的な生産規模が規制の効果を限定させる可能性が指摘されている。</description>
-    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米国防総省、ChatGPT導入で軍事向けAI時代へ突入。Gemini・Grokも統合</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9c952e85.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9c952e85.html</guid>
-    <description>米国防総省がOpenAIのChatGPTをカスタマイズした軍事用モデルを導入。複数のAIが実運用される時代がついに来た。</description>
-    <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
   </item>
 </channel></rss>
