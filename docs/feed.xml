@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude、利用制限を一括リセット。新モデル「Fable 5.1」提供開始に伴い</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b36db701.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b36db701.html</guid>
+    <description>AnthropicがClaudeの使用制限をリセット。新モデル「Fable 5.1」のリリースが背景。</description>
+    <pubDate>Wed, 02 Sep 2026 13:23:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、AI画像生成ツール「Google Pics」提供開始。ポスター制作から文字翻訳まで</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-pics-4f2df848.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-pics-4f2df848.html</guid>
+    <description>GoogleがAI画像生成ツール「Google Pics」を発表。SNS用画像やポスター制作、特定部分の編集、文字翻訳が可能に。</description>
+    <pubDate>Wed, 02 Sep 2026 13:22:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Dyson、AIカメラ搭載の電動歯ブラシで歯磨きが激変。7万9800円で日本販売開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dyson-ai-1545f6b1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dyson-ai-1545f6b1.html</guid>
+    <description>DysonがAIとカメラを搭載した電動歯ブラシ「CameraJet」を発売。自動でフロスを噴射し、歯磨きとフロスが同時にできる。</description>
+    <pubDate>Wed, 02 Sep 2026 13:22:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>従業員の過半数が不満、企業のデジタル教育が成果に繋がらないワケ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-97190bcf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-97190bcf.html</guid>
+    <description>生成AI時代に企業が力を入れるデジタル教育だが、従業員の過半数が満足していない実態が明らかに。</description>
+    <pubDate>Wed, 02 Sep 2026 13:21:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、AIが簡単なアイデアから映像化する新サービス「Higgsfield」を紹介</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-31624c9f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-31624c9f.html</guid>
+    <description>OpenAIがシンプルなアイデアを映画級の動画に変えるAIツールを公開。SNS用動画制作が誰でも簡単に。</description>
+    <pubDate>Wed, 02 Sep 2026 13:21:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、Fable 5.1で大転換。コスト削減と規制緩和で実用性向上</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-fable-d6a02419.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-fable-d6a02419.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9c952e85.html</guid>
     <description>米国防総省がOpenAIのChatGPTをカスタマイズした軍事用モデルを導入。複数のAIが実運用される時代がついに来た。</description>
     <pubDate>Tue, 01 Sep 2026 17:06:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>会議記録AI「Circleback」が無料プラン開始、月14ドルから有料化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/circleback-ai-121993fc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/circleback-ai-121993fc.html</guid>
-    <description>会議を自動記録するAI「Circleback」が無料版を導入し、有料プランは月14ドルからの新価格体系に移行。</description>
-    <pubDate>Tue, 01 Sep 2026 16:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nvidia、35億ドルをMediaTekに投資。Big Techのチップ自社製造に対抗する戦略判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-3f983827.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-3f983827.html</guid>
-    <description>Nvidiaが台湾のMediaTekに巨額投資。Big Techが独自AI チップを開発する動きに対し、戦略的に対抗する狙い。</description>
-    <pubDate>Tue, 01 Sep 2026 16:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>動画検索AI「Clipto」、わずか3年で企業評価額250億円突破</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/clipto-ai-09c8fe5e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/clipto-ai-09c8fe5e.html</guid>
-    <description>膨大な動画から必要な映像を瞬時に見つけるAIスタートアップが、黒字化した状態で大型資金調達を実現。</description>
-    <pubDate>Tue, 01 Sep 2026 16:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>警察向けAI「Blue Voice」に6億円調達。公開されない法令に特化した専門型AIが登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/blue-voice-ai-84762d7f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/blue-voice-ai-84762d7f.html</guid>
-    <description>一般向けAIには学べない警察特有の法令・規則に特化した専門AIが資金調達。ChatGPTとは異なるアプローチが広がる。</description>
-    <pubDate>Tue, 01 Sep 2026 16:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Instagram、AI influencerの野放し終了。未表示プロフィールに規制メス</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/instagram-ai-influencer-5714bb72.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/instagram-ai-influencer-5714bb72.html</guid>
-    <description>Instagramが、正体を隠したAIアカウントのリーチを制限する施策を開始した。</description>
-    <pubDate>Tue, 01 Sep 2026 16:58:00 +0900</pubDate>
   </item>
 </channel></rss>
