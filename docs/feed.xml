@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>若者の原付事故は本当に多いのか、データで検証。統計学が答えを出す</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html</guid>
+    <description>「若い人のバイク運転は危ない」という思い込みが本当かどうか、データ分析で検証する手法を学べます。</description>
+    <pubDate>Wed, 02 Sep 2026 15:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIコーディングの落とし穴、速さが企業を弱くする理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-37c638ec.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-37c638ec.html</guid>
+    <description>コード作成が高速化しても、組織全体の成果につながらない企業が増加。AI活用の本当の課題が明らかに。</description>
+    <pubDate>Wed, 02 Sep 2026 15:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIと3D CADで椅子設計、人間とAIの役割分担が鍵に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-ec98b752.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-ec98b752.html</guid>
+    <description>設計者向けの学習コンテンツで、AIと3D CADツールを使った椅子デザインに挑戦する実践例を紹介。</description>
+    <pubDate>Wed, 02 Sep 2026 15:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>声を失った患者が夢中に。AIメガネで「話せる」を取り戻す仕組み</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/communicationboard-ai-ai-b4ef8e10.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/communicationboard-ai-ai-b4ef8e10.html</guid>
+    <description>脳梗塞で話せなくなった患者も、AIとスマートグラスで意思疎通が可能に。医療現場が大きく変わろうとしている。</description>
+    <pubDate>Wed, 02 Sep 2026 15:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>少数の画像から3D空間を自動生成、World Labsの新型AI「Atlas」が実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/world-labs-atlas-3cb15e5d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/world-labs-atlas-3cb15e5d.html</guid>
+    <description>テキストや画像から3D空間を生成できるAI「Atlas」が登場。映像制作やロボット開発に活用へ。</description>
+    <pubDate>Wed, 02 Sep 2026 15:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、新AI「Claude 5.1」発表。高性能の代わりに監視困難さが浮上</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b48cf14.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b48cf14.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-06daba08.html</guid>
     <description>GoogleのAI研究部門がゲーム企業と協力し、15年の蓄積をゲームプレイの実装に活かす新段階へ。</description>
     <pubDate>Tue, 01 Sep 2026 20:55:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、音声認識をAIで高度化。Gemini 3.5 Transcribeで文脈を理解する文字起こし実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-83abfc08.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-83abfc08.html</guid>
-    <description>Googleが音声認識技術を大幅進化。文脈を理解した精度の高い文字起こしが可能に。</description>
-    <pubDate>Tue, 01 Sep 2026 20:49:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google DeepMind、AIの「真の実力」を測る二重盲検評価を世界初導入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-d9b2bc36.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-d9b2bc36.html</guid>
-    <description>Google DeepMindがAI性能の公正な評価方法として、人間の臨床試験で使われる二重盲検法をAI業界で初めて導入。</description>
-    <pubDate>Tue, 01 Sep 2026 20:48:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Googleの新AI「Gemini 1.1 Flash」、開発者に制御力を与える</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-a13e39d4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-a13e39d4.html</guid>
-    <description>Googleが開発者向けAIモデルをアップデート。より細かい制御が可能に。</description>
-    <pubDate>Tue, 01 Sep 2026 20:48:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT広告事業が10億ドル規模に、OpenAIがAI民主化を加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-44f61163.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-44f61163.html</guid>
-    <description>OpenAIの広告事業が大幅に成長し、より多くの人がAIにアクセスしやすくなる環境が整備される。</description>
-    <pubDate>Tue, 01 Sep 2026 20:48:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>政府がAI推進の司令塔新設、総務省に専門組織立ち上げ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-6add3764.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-6add3764.html</guid>
-    <description>総務省が9月1日、AI推進をまとめる新組織「AX・新技術戦略室」を設置。政府のAI戦略が本格化する。</description>
-    <pubDate>Tue, 01 Sep 2026 20:48:00 +0900</pubDate>
   </item>
 </channel></rss>

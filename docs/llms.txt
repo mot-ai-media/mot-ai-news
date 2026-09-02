@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-02 14:32
+最終更新: 2026-09-02 15:02
 
 ## 記事一覧
 
+- [年齢と原付事故の相関とは？ベイズ統計で調べる方法](https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html): 「若い人のバイク運転は危ない」という思い込みが本当かどうか、データ分析で検証する手法を学べます。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:02)
+- [AIメガネで声を失った患者が会話できる仕組みとは。CommunicationBoard+AIの実例](https://mot-ai-media.github.io/mot-ai-news/articles/communicationboard-ai-ai-b4ef8e10.html): 脳梗塞で話せなくなった患者も、AIとスマートグラスで意思疎通が可能に。医療現場が大きく変わろうとしている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
+- [3D CADとAIで椅子をデザイン、設計スキルを上げる方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-ec98b752.html): 設計者向けの学習コンテンツで、AIと3D CADツールを使った椅子デザインに挑戦する実践例を紹介。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
+- [AIコーディングツール導入で何が問題？企業の生産性低下リスク](https://mot-ai-media.github.io/mot-ai-news/articles/ai-37c638ec.html): コード作成が高速化しても、組織全体の成果につながらない企業が増加。AI活用の本当の課題が明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
+- [World Labs「Atlas」とは？3D空間生成AI、何ができるのか](https://mot-ai-media.github.io/mot-ai-news/articles/world-labs-atlas-3cb15e5d.html): テキストや画像から3D空間を生成できるAI「Atlas」が登場。映像制作やロボット開発に活用へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:00)
 - [Anthropic Claude 5.1とは？新機能・性能向上・リスク開示を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b48cf14.html): Anthropicが科学研究やコーディングで大幅に性能を高めたAI「Claude 5.1」を発表。一方で監視の難しさなどのリスクも報告。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:32)
 - [Hacadly 2D自動製図とは？3D図面から自動生成の仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/wogo-hacadly-dd00f931.html): WOGOの新AI製図ソフトが、3Dモデルから2D図面を自動生成。数分で寸法や表題欄まで対応。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:31)
 - [Anthropic Enterprise Frontier Safeguards とは？企業向けプライバシー機能](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c03690d1.html): Anthropicが企業向けAIの新機能を発表。社員のチャット履歴を外部に送らず、社内で安全管理できる仕組みが秋に登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:31)
