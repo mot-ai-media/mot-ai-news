@@ -1,0 +1,194 @@
+/* MOT NAGANO — 独立スタイルシート。MOT本体の style.css には依存しない。 */
+
+:root {
+  --ng-ink: #1c1a17;
+  --ng-paper: #f6f2ea;
+  --ng-line: #ddd5c7;
+  --ng-muted: #6f6a5e;
+  --ng-accent: #a8492c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ng-ink: #f1ede4;
+    --ng-paper: #14120f;
+    --ng-line: #2c2823;
+    --ng-muted: #b4ac9c;
+    --ng-accent: #cf7a56;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--ng-paper);
+  color: var(--ng-ink);
+  font-family: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", sans-serif;
+  line-height: 1.9;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ng-wrap {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ナビゲーション */
+.ng-nav {
+  padding: 28px 0 0;
+}
+
+.ng-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--ng-muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ng-line);
+  padding-bottom: 2px;
+}
+.ng-eyebrow:hover { color: var(--ng-accent); border-color: var(--ng-accent); }
+
+.ng-nav-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin-top: 18px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--ng-line);
+}
+
+.ng-logo {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: var(--ng-ink);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.ng-links { list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; }
+.ng-links a {
+  color: var(--ng-muted);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.ng-links a:hover, .ng-links a[aria-current="page"] { color: var(--ng-ink); }
+
+/* 見出し・本文 */
+main { padding-bottom: 96px; }
+
+.ng-hero {
+  padding: 64px 0 40px;
+}
+
+h1.ng-title {
+  font-family: "Zen Old Mincho", serif;
+  font-size: clamp(28px, 6vw, 40px);
+  line-height: 1.55;
+  font-weight: 700;
+  margin: 0 0 24px;
+}
+
+h2.ng-heading {
+  font-family: "Zen Old Mincho", serif;
+  font-size: clamp(22px, 4.5vw, 28px);
+  line-height: 1.6;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+.ng-lede {
+  font-size: 16px;
+  color: var(--ng-muted);
+  max-width: 34em;
+  margin: 0;
+}
+
+.ng-section {
+  padding: 56px 0;
+  border-top: 1px solid var(--ng-line);
+}
+
+.ng-section p {
+  margin: 0 0 1.4em;
+  font-size: 16px;
+}
+.ng-section p:last-child { margin-bottom: 0; }
+
+/* 静かなリスト(カードではなく、辞書のような並び) */
+.ng-list {
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.ng-list li {
+  padding: 18px 0;
+  border-top: 1px solid var(--ng-line);
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+.ng-list li:last-child { border-bottom: 1px solid var(--ng-line); }
+
+.ng-list-label {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 16px;
+  min-width: 4.5em;
+  color: var(--ng-accent);
+  flex-shrink: 0;
+}
+
+.ng-list-desc { color: var(--ng-muted); font-size: 14.5px; }
+
+.ng-links-quiet { margin-top: 8px; }
+.ng-links-quiet a {
+  color: var(--ng-ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ng-line);
+  padding-bottom: 2px;
+  font-size: 15px;
+}
+.ng-links-quiet a:hover { border-color: var(--ng-accent); color: var(--ng-accent); }
+
+.ng-note {
+  font-size: 13.5px;
+  color: var(--ng-muted);
+  font-style: normal;
+}
+
+/* 橋渡し(MOTへ戻る) */
+.ng-bridge {
+  padding: 56px 0 40px;
+  border-top: 1px solid var(--ng-line);
+}
+.ng-bridge p.ng-bridge-line {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 18px;
+  margin: 0 0 14px;
+}
+.ng-bridge a {
+  color: var(--ng-accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+footer.ng-footer {
+  padding: 24px 0 48px;
+  font-size: 12.5px;
+  color: var(--ng-muted);
+}
+footer.ng-footer a { color: inherit; }
+
+@media (max-width: 480px) {
+  .ng-hero { padding: 44px 0 28px; }
+  .ng-section { padding: 40px 0; }
+  body { line-height: 1.85; }
+}

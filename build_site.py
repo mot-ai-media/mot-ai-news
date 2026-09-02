@@ -2025,7 +2025,11 @@ PRODUCTS_TEMPLATE = """<!DOCTYPE html>
 <main>
   <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
   <h1 class="headline">プロダクト紹介</h1>
-  <p class="summary">MOTを運営するチームが手がけている、その他のサービス・アプリ・プロダクトをこちらでまとめて紹介する予定です。現在準備中です。</p>
+  <p class="summary">MOTを運営するチームが手がけている、その他のサービス・アプリ・プロジェクトをこちらでまとめて紹介していきます。</p>
+  <p class="summary" style="margin-top:28px;">
+    <a href="nagano/index.html" style="font-weight:700;">MOT NAGANO</a><br>
+    長野の人と仕事を、ひとつずつ訪ねて記録していくプロジェクトです。まだ始まったばかりです。
+  </p>
   <p class="summary">ご自身のプロダクトをMOTで紹介してほしい方は<a href="contact.html">お問い合わせページ</a>からどうぞ。</p>
 </main>
 <footer>
@@ -3073,6 +3077,8 @@ def _write_robots_and_sitemap(articles_data: list[dict], extra_urls: list[str] |
     urls = [
         (_abs_url("index.html"), today), (_abs_url("about.html"), today),
         (_abs_url("products.html"), today), (_abs_url("contact.html"), today),
+        (_abs_url("nagano/index.html"), today), (_abs_url("nagano/about.html"), today),
+        (_abs_url("nagano/stories.html"), today),
     ]
     urls += [
         (_abs_url(f"articles/{e['slug']}.html"), e.get("generated_at", "")[:10] or today) for e in articles_data

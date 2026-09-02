@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-02 15:09
+最終更新: 2026-09-02 18:02
 
 ## 記事一覧
 
+- [法律事務所のChatGPT導入事例、ガバナンス体制とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-enterprise-631a857c.html): 大手法律事務所Gilbert + Tobinが、CEOのコミットと厳密な管理体制でChatGPT Enterpriseを全社導入・スケール展開した事例が注目を集めている。 (出典: OpenAI News / 更新: 2026-09-02 18:02)
+- [Gemini動画理解エージェント機能とは？できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-dfd1ea2e.html): Googleが動画コンテンツを理解し、自動で判断・行動するAI「Gemini」の新機能を発表。 (出典: Google DeepMind News / 更新: 2026-09-02 18:02)
+- [OpenAI新モデルAstraとは？セキュリティ認定の意味を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-309be27b.html): OpenAIが開発した新型AIモデルが、業界で最も厳しいセキュリティ基準をクリア。安全性への取り組みが強化される。 (出典: OpenAI News / 更新: 2026-09-02 18:01)
+- [ChatGPT医療版とは？EHR連携で何ができるか解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-50e05f9b.html): ChatGPTが病歴や医療研究など信頼できる医療データと接続でき、医師の診療支援がより充実する。 (出典: OpenAI News / 更新: 2026-09-02 18:01)
+- [NEC、Claude Mythos PreviewでセキュリティAI活用へ。何ができるのか](https://mot-ai-media.github.io/mot-ai-news/articles/nec-anthropic-38aa0aa1.html): NECが米Anthropicの最新AIモデルをセキュリティ業務に導入。企業の防御力向上が期待される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 18:00)
 - [Fambot AI秘書とは？子育て家族向けAIツールの使い方](https://mot-ai-media.github.io/mot-ai-news/articles/fambot-ai-fb0b621e.html): 家族の日程調整やメール対応を自動化するAI秘書サービスが登場。子育ての負担軽減へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 15:09)
 - [LLMベンチマークとは？AIの評価方法が信頼できない理由を解説](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-23bdbfdb.html): AIの賢さを測るテストが、実は何を測っているのか曖昧な問題が浮上。 (出典: Hugging Face - Blog / 更新: 2026-09-02 15:09)
 - [Hugging Face Kernelsとは？WebGPUでローカルAI実行を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-webgpu-85562dc1.html): AI企業Hugging Faceが200以上のWebGPUカーネルを公開。パソコンだけでAIを動かす環境が整備された。 (出典: Hugging Face - Blog / 更新: 2026-09-02 15:09)
@@ -202,6 +207,3 @@
 - [総務省・経産省、AIガイドライン改訂 エージェント・フィジカルAI対応へ](https://mot-ai-media.github.io/mot-ai-news/articles/bcf4241eff21.html): 総務省と経産省がAI事業者向けガイドラインを改訂し、AIエージェントとフィジカルAIの項目を新たに追加。 (出典: 一般社団法人 日本自動車会議所 / 更新: 2026-08-25 20:08)
 - [Google Gemini×BTS コラボ機能解禁、暗号コード入力で4つの体験が実現](https://mot-ai-media.github.io/mot-ai-news/articles/8fc7e300b119.html): BTSファン向けにGoogle Geminiが限定コラボ機能を公開。指定の暗号コードで独占的なコンテンツ体験が可能に。 (出典: Yahoo!ニュース / 更新: 2026-08-25 19:59)
 - [生成AIが文化を塗り替える—東京財団が論じる創作の未来](https://mot-ai-media.github.io/mot-ai-news/articles/07d4004a7e17.html): 生成AIの普及が創作活動にもたらす変化と、文化全体への影響を深掘りする考察。 (出典: 東京財団 / 更新: 2026-08-25 19:59)
-- [MINISFORUM MS-02 Ultra、192GB搭載で70B級LLM動作実現](https://mot-ai-media.github.io/mot-ai-news/articles/4c04c2647429.html): 大容量メモリを備えたコンパクトワークステーションが、大規模言語モデル実行の新たな選択肢となる可能性を示す。 (出典: エルミタージュ秋葉原 / 更新: 2026-08-25 19:59)
-- [BTS×Google Gemini、コラボ機能が実装。特定ワード入力で4つの体験が解放される。](https://mot-ai-media.github.io/mot-ai-news/articles/b7809ea2f979.html): BTSファンなら見逃せない。Google Geminiに隠された特別な機能が、シンプルなコマンド一つで起動する。 (出典: 千葉テレビ放送株式会社 / 更新: 2026-08-25 19:59)
-- [函館商工会議所の生成AI活用セミナー、定員に達し受付終了](https://mot-ai-media.github.io/mot-ai-news/articles/ec603dc7e068.html): 函館商工会議所が8月26日に開催予定だった生成AIセミナーが申込みを締め切った。 (出典: hakodate.cci.or.jp / 更新: 2026-08-25 19:59)

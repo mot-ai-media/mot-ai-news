@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Gemini、AIが動画を「理解して動く」時代へ。エージェント機能が搭載</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-dfd1ea2e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-dfd1ea2e.html</guid>
+    <description>Googleが動画コンテンツを理解し、自動で判断・行動するAI「Gemini」の新機能を発表。</description>
+    <pubDate>Wed, 02 Sep 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>大手法律事務所がChatGPT導入で業務効率化、AIガバナンスの新モデル確立</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-enterprise-631a857c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-enterprise-631a857c.html</guid>
+    <description>大手法律事務所Gilbert + Tobinが、CEOのコミットと厳密な管理体制でChatGPT Enterpriseを全社導入・スケール展開した事例が注目を集めている。</description>
+    <pubDate>Wed, 02 Sep 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPTが医療データと連携、医師の診断がついに変わる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-50e05f9b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-50e05f9b.html</guid>
+    <description>ChatGPTが病歴や医療研究など信頼できる医療データと接続でき、医師の診療支援がより充実する。</description>
+    <pubDate>Wed, 02 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの新モデル「Astra」、最高レベルのセキュリティ要件クリア</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-309be27b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-309be27b.html</guid>
+    <description>OpenAIが開発した新型AIモデルが、業界で最も厳しいセキュリティ基準をクリア。安全性への取り組みが強化される。</description>
+    <pubDate>Wed, 02 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>NEC、最新AI「Claude Mythos」でサイバー防御を強化。企業の情報セキュリティ激変へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nec-anthropic-38aa0aa1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nec-anthropic-38aa0aa1.html</guid>
+    <description>NECが米Anthropicの最新AIモデルをセキュリティ業務に導入。企業の防御力向上が期待される。</description>
+    <pubDate>Wed, 02 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Hugging Face、200超のWebGPUカーネル公開。ローカルAI実行が激変</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-webgpu-85562dc1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-webgpu-85562dc1.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57d58ac.html</guid>
     <description>経営層からの「AIエージェント導入」指示に戸惑う担当者へ向け、実際の業務適用例と定着化の具体的な進め方を提示。</description>
     <pubDate>Wed, 02 Sep 2026 07:14:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Mac mini争奪戦の真犯人、AIにGUI操作を学ばせる野心</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9a6fd152.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9a6fd152.html</guid>
-    <description>OpenAIやAnthropicがMac miniを大量調達。AIに画面操作を学ばせるためで、GUIの複雑さが技術的な課題を生んでいる。</description>
-    <pubDate>Tue, 01 Sep 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GoogleとAIMが「ATL Saathi」公開。Gemini搭載でインド教育現場を革新</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-66188580.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-66188580.html</guid>
-    <description>GoogleとAIMが生成AI「Gemini」を活用した教育支援ツールを発表。ロボット教室の指導者向け。</description>
-    <pubDate>Tue, 01 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google DeepMind、AIで生物学の脅威に対抗する新アプローチを発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-isomorphic-labs-28780037.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-isomorphic-labs-28780037.html</guid>
-    <description>Google DeepMindとIsomorphic Labsが、AIを使って感染症やバイオリスクに対抗する共同戦略を公開。</description>
-    <pubDate>Tue, 01 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、サイバーセキュリティ特化AI「Gemini 3.5 Flash Cyber」投入。脆弱性発見・修正が自動化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7898549b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7898549b.html</guid>
-    <description>Googleが軽量のセキュリティ専用AI「Gemini 3.5 Flash Cyber」を発表。システムの脆弱性を自動検出・修正する新ツール。</description>
-    <pubDate>Tue, 01 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、新型AI「Gemini 3.6 Flash」発表。高速化と低価格化で競争加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-edd884e3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-edd884e3.html</guid>
-    <description>GoogleがGeminiの新バージョンを複数発表。より高速で安価なAIモデルでChatGPTとの競争が激化。</description>
-    <pubDate>Tue, 01 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
