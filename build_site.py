@@ -140,18 +140,13 @@ GOATCOUNTER_SCRIPT = (
 )
 
 # A8.net アフィリエイト広告。空文字にすれば広告非表示に戻せる
-_AD_TOSSY = (
-    '<a href="https://px.a8.net/svt/ejp?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" rel="sponsored nofollow">'
-    "【PR】株式、為替(FX)、暗号資産、株価指数、商品資源(金や原油)まで取引可能！【TOSSY】</a>"
-    '<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BAEXH+8IM9BM+1WP2+1HLVB6" alt="">'
-)
 _AD_NEW = (
     '<a href="https://px.a8.net/svt/ejp?a8mat=4BC0UI+5YC2K2+428G+HWI5T" rel="sponsored nofollow">'
     '<img border="0" width="100" height="60" alt="" '
     'src="https://www28.a8.net/svt/bgt?aid=260901450360&wid=001&eno=01&mid=s00000018952003007000&mc=1"></a>'
     '<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4BC0UI+5YC2K2+428G+HWI5T" alt="">'
 )
-_ADS = [_AD_TOSSY, _AD_NEW]
+_ADS = [_AD_NEW]
 
 
 def _pick_ad(entry: dict) -> str:

@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-02 15:02
+最終更新: 2026-09-02 15:09
 
 ## 記事一覧
 
+- [Fambot AI秘書とは？子育て家族向けAIツールの使い方](https://mot-ai-media.github.io/mot-ai-news/articles/fambot-ai-fb0b621e.html): 家族の日程調整やメール対応を自動化するAI秘書サービスが登場。子育ての負担軽減へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 15:09)
+- [LLMベンチマークとは？AIの評価方法が信頼できない理由を解説](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-23bdbfdb.html): AIの賢さを測るテストが、実は何を測っているのか曖昧な問題が浮上。 (出典: Hugging Face - Blog / 更新: 2026-09-02 15:09)
+- [Hugging Face Kernelsとは？WebGPUでローカルAI実行を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-webgpu-85562dc1.html): AI企業Hugging Faceが200以上のWebGPUカーネルを公開。パソコンだけでAIを動かす環境が整備された。 (出典: Hugging Face - Blog / 更新: 2026-09-02 15:09)
+- [Google Picsとは？AIで簡単デザイン、Canva対抗ツール](https://mot-ai-media.github.io/mot-ai-news/articles/google-canva-5f4331d8.html): Googleが生成AIを使ったデザインツール「Google Pics」を展開。従来のCanvaやAdobeとは異なり、テキスト指示だけで制作可能。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 15:08)
+- [AIエージェント制御ツールAIRとは？企業向けセキュリティの新常識](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-18476908.html): 企業内のAIエージェントを監視・制御する新サービスが資金調達、組織内のAI暴走防止が急務に。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 15:08)
 - [年齢と原付事故の相関とは？ベイズ統計で調べる方法](https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html): 「若い人のバイク運転は危ない」という思い込みが本当かどうか、データ分析で検証する手法を学べます。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:02)
 - [AIメガネで声を失った患者が会話できる仕組みとは。CommunicationBoard+AIの実例](https://mot-ai-media.github.io/mot-ai-news/articles/communicationboard-ai-ai-b4ef8e10.html): 脳梗塞で話せなくなった患者も、AIとスマートグラスで意思疎通が可能に。医療現場が大きく変わろうとしている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
 - [3D CADとAIで椅子をデザイン、設計スキルを上げる方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-ec98b752.html): 設計者向けの学習コンテンツで、AIと3D CADツールを使った椅子デザインに挑戦する実践例を紹介。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)

@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Hugging Face、200超のWebGPUカーネル公開。ローカルAI実行が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-webgpu-85562dc1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-webgpu-85562dc1.html</guid>
+    <description>AI企業Hugging Faceが200以上のWebGPUカーネルを公開。パソコンだけでAIを動かす環境が整備された。</description>
+    <pubDate>Wed, 02 Sep 2026 15:09:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIの性能テストは本当に信頼できる？LLMベンチマークの実態を暴露</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-23bdbfdb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-23bdbfdb.html</guid>
+    <description>AIの賢さを測るテストが、実は何を測っているのか曖昧な問題が浮上。</description>
+    <pubDate>Wed, 02 Sep 2026 15:09:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>育児の煩雑業務をAIにお任せ。Fambotが家族向け「AI秘書」投入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/fambot-ai-fb0b621e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/fambot-ai-fb0b621e.html</guid>
+    <description>家族の日程調整やメール対応を自動化するAI秘書サービスが登場。子育ての負担軽減へ。</description>
+    <pubDate>Wed, 02 Sep 2026 15:09:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、勝手な動きを制御する時代へ。AIRが50億円調達</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-18476908.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-18476908.html</guid>
+    <description>企業内のAIエージェントを監視・制御する新サービスが資金調達、組織内のAI暴走防止が急務に。</description>
+    <pubDate>Wed, 02 Sep 2026 15:08:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Googleが「デザイン不要」のAIツール投入、Canvaの牙城に挑む</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-canva-5f4331d8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-canva-5f4331d8.html</guid>
+    <description>Googleが生成AIを使ったデザインツール「Google Pics」を展開。従来のCanvaやAdobeとは異なり、テキスト指示だけで制作可能。</description>
+    <pubDate>Wed, 02 Sep 2026 15:08:00 +0900</pubDate>
+  </item>
+  <item>
     <title>若者の原付事故は本当に多いのか、データで検証。統計学が答えを出す</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-edd884e3.html</guid>
     <description>GoogleがGeminiの新バージョンを複数発表。より高速で安価なAIモデルでChatGPTとの競争が激化。</description>
     <pubDate>Tue, 01 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、科学研究にAI4000万ドル投入。Genesis Missionで発見加速へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-15eb5b1c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-15eb5b1c.html</guid>
-    <description>GoogleがAI技術を活用した科学研究支援プログラムに4000万ドルを投資。研究者のAI活用を加速させる。</description>
-    <pubDate>Tue, 01 Sep 2026 20:57:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google DeepMind、ロボット向けAI「Gemini Robotics 2」公開。全身制御が一変する</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html</guid>
-    <description>GoogleのAIがロボット全体を統合的に制御できるようになり、複雑な動作が実現可能に。</description>
-    <pubDate>Tue, 01 Sep 2026 20:56:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI気象予測モデル「WeatherNext」、台風予測の精度革新を達成</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-7fa201e3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-7fa201e3.html</guid>
-    <description>Google DeepMindが開発した気象予測AI「WeatherNext」が、台風などの極端気象の予測精度を大幅に向上させた。</description>
-    <pubDate>Tue, 01 Sep 2026 20:56:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、手話をテキストに変換するAI開発。聴覚障害者の新しい選択肢へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-f5d9b5f6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-f5d9b5f6.html</guid>
-    <description>Googleが手話をテキストに変換するAI技術を開発し、聴覚障害者向けの新機能として展開。</description>
-    <pubDate>Tue, 01 Sep 2026 20:55:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google DeepMind、ゲーム企業と提携しAIの15年研究を実戦投入へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-06daba08.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-06daba08.html</guid>
-    <description>GoogleのAI研究部門がゲーム企業と協力し、15年の蓄積をゲームプレイの実装に活かす新段階へ。</description>
-    <pubDate>Tue, 01 Sep 2026 20:55:00 +0900</pubDate>
   </item>
 </channel></rss>
