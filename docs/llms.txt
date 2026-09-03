@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-03 13:40
+最終更新: 2026-09-04 05:39
 
 ## 記事一覧
 
+- [ストックマークが生成AIで企業の暗黙知を学習する新サービス](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bb10be6c.html): ストックマークが生成AIを使い、企業内の経験や勘といった暗黙知をAIに学習させる取り組みを開始。 (出典: 日刊工業新聞 / 更新: 2026-09-04 05:39)
+- [Claude Codeデスクトップアプリ、アプリ内ブラウザ機能とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6d2137cc.html): AnthropicのClaudeがコード編集ツールにブラウザ機能を追加し、開発効率を大幅に向上させる動き。 (出典: x.com / 更新: 2026-09-04 05:39)
+- [OpenAIのペアレンタル コントロールとは？ChatGPT利用制限の使い方](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f005690a.html): OpenAIがChatGPTに保護者向けの利用制限機能を導入。子どもの利用を監視・制御できるように。 (出典: OpenAI / 更新: 2026-09-04 05:39)
+- [生成AIのデータ主権とは？企業の実践的な対策戦略を解説](https://mot-ai-media.github.io/mot-ai-news/articles/1st-ai-a837bf05.html): 生成AI導入時のデータ保護は「完全禁止か無制限か」では済まない。バランスの取れた戦略設計が企業課題に。 (出典: ウイングアーク１ｓｔ / 更新: 2026-09-04 05:38)
+- [Claude Codeとは？実演ウェビナーの内容と活用方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-da36ef0e.html): Anthropic開発のAIコーディング機能「Claude Code」の実演ウェビナーが開催され、AIによるコード生成能力の実態が注目されている。 (出典: 公明党 / 更新: 2026-09-04 05:38)
 - [ブシロードAI子会社とは？定型業務支援の狙いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-02a32131.html): ブシロードがAI子会社を設立し、人が繰り返す定型業務をAIで自動化。負荷軽減とミス削減を実現。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:40)
 - [公明党、生成AIでSNS発信支援。女性議員の活動どう変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-f5ecaed7.html): 公明党が生成AIを活用し、女性議員のSNS発信を効率化する取り組みを開始。政治活動の現場でもAIが浸透している。 (出典: 公明党 / 更新: 2026-09-03 13:39)
 - [AI詐欺の手口とは？ボイスフィッシング被害が45億円に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-7c8f22c3.html): 生成AIで社長の声を偽造する詐欺が急増。被害額は45億円に達し、2026年の新たなサイバー攻撃に企業が危機感。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:39)
@@ -202,8 +207,3 @@
 - [シャープ「ポケとも」新モデル、あえて全肯定しない性格に変更](https://mot-ai-media.github.io/mot-ai-news/articles/ec36e03e4922.html): シャープの対話型AIロボ「ポケとも」が新モデルを発表。従来と異なり、ユーザーを完全には肯定しないキャラクターへ一変。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 20:40)
 - [Google Geminiとコラボ、BTS体験機能が解禁。「7777」入力で4つのコンテンツが起動](https://mot-ai-media.github.io/mot-ai-news/articles/2391eef47ddc.html): Google GeminiでBTSの特別コラボ機能が公開。特定のコマンド入力で限定コンテンツにアクセス可能。 (出典: Yahoo!ニュース / 更新: 2026-08-25 20:17)
 - [OpenAIとAnthropicのIPO競争、AI業界の勢力図を左右する重大局面](https://mot-ai-media.github.io/mot-ai-news/articles/19fbf8b8ec54.html): OpenAIとAnthropicのIPO動向が、AI業界全体の覇権争いの鍵を握る重要な転機となっている。 (出典: WSJ / 更新: 2026-08-25 20:17)
-- [スペースX、テスラ・xAIとの合併検討。マスク氏の野心が加速](https://mot-ai-media.github.io/mot-ai-news/articles/16f1a43b04eb.html): マスク氏が率いるスペースXが、テスラまたはxAIとの合併可能性を検討していることが関係者の証言で明らかになった。 (出典: Bloomberg / 更新: 2026-08-25 20:17)
-- [ローカルAIモデルを完全比較「LLM Checker」、PC環境で無料実行可能](https://mot-ai-media.github.io/mot-ai-news/articles/b1eff07ffd59.html): 自分のパソコンで動作するローカルAIモデルの特性や動作要件を一括確認できるツール「LLM Checker」が登場。 (出典: GIGAZINE / 更新: 2026-08-25 20:17)
-- [OpenAI、Mac版アプリの緊急更新を呼びかけ Axios経由の攻撃に警告](https://mot-ai-media.github.io/mot-ai-news/articles/b9f64955de0e.html): OpenAIがMacユーザーに対してアプリの緊急更新を実施するよう呼びかけ。Axiosを通じた攻撃の脅威が判明した。 (出典: ASCII.jp / 更新: 2026-08-25 20:17)
-- [Google Gemini、BTSとのコラボ機能を公開。特定コマンド入力で4つの体験が解放](https://mot-ai-media.github.io/mot-ai-news/articles/c1ed2ff25d78.html): 「Unlock BTS」または「7777」と入力することで、Google GeminiでBTSとのコラボ機能が利用できるようになった。 (出典: ニコニコニュース / 更新: 2026-08-25 20:08)
-- [Claude活用で開発現場が1年で激変、ソフトウェア開発の常識崩壊](https://mot-ai-media.github.io/mot-ai-news/articles/df7efe92a313.html): AIアシスタントClaudeの急速な進化により、ソフトウェア開発の現場が劇的に変わりつつある。 (出典: MITテクノロジーレビュー / 更新: 2026-08-25 20:08)

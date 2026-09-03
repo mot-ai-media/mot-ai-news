@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、ChatGPTにペアレンタル コントロール機能を追加</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f005690a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f005690a.html</guid>
+    <description>OpenAIがChatGPTに保護者向けの利用制限機能を導入。子どもの利用を監視・制御できるように。</description>
+    <pubDate>Fri, 04 Sep 2026 05:39:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude Codeにブラウザ統合、開発作業がノーコード化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6d2137cc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6d2137cc.html</guid>
+    <description>AnthropicのClaudeがコード編集ツールにブラウザ機能を追加し、開発効率を大幅に向上させる動き。</description>
+    <pubDate>Fri, 04 Sep 2026 05:39:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ストックマーク、生成AIで企業の「暗黙知」を自動学習させる仕組み構築</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bb10be6c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bb10be6c.html</guid>
+    <description>ストックマークが生成AIを使い、企業内の経験や勘といった暗黙知をAIに学習させる取り組みを開始。</description>
+    <pubDate>Fri, 04 Sep 2026 05:39:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude Codeの実力を公開ウェビナーで検証、AIコーディング能力の現在地が明らかに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-da36ef0e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-da36ef0e.html</guid>
+    <description>Anthropic開発のAIコーディング機能「Claude Code」の実演ウェビナーが開催され、AIによるコード生成能力の実態が注目されている。</description>
+    <pubDate>Fri, 04 Sep 2026 05:38:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>生成AI時代の企業データ戦略、禁止と放任の二者択一を超える現実的な守り方</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/1st-ai-a837bf05.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/1st-ai-a837bf05.html</guid>
+    <description>生成AI導入時のデータ保護は「完全禁止か無制限か」では済まない。バランスの取れた戦略設計が企業課題に。</description>
+    <pubDate>Fri, 04 Sep 2026 05:38:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ブシロード、AI子会社で定型業務を一括支援へ。ヒューマンエラー削減に本腰</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-02a32131.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-02a32131.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-d0ec68a3.html</guid>
     <description>Metaが複数話者を識別できるリアルタイム音声認識モデルを発表。会議録音や多言語対応で活躍の場が広がる。</description>
     <pubDate>Wed, 02 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude、利用制限を一括リセット。新モデル「Fable 5.1」提供開始に伴い</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b36db701.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b36db701.html</guid>
-    <description>AnthropicがClaudeの使用制限をリセット。新モデル「Fable 5.1」のリリースが背景。</description>
-    <pubDate>Wed, 02 Sep 2026 13:23:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、AI画像生成ツール「Google Pics」提供開始。ポスター制作から文字翻訳まで</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-pics-4f2df848.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-pics-4f2df848.html</guid>
-    <description>GoogleがAI画像生成ツール「Google Pics」を発表。SNS用画像やポスター制作、特定部分の編集、文字翻訳が可能に。</description>
-    <pubDate>Wed, 02 Sep 2026 13:22:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Dyson、AIカメラ搭載の電動歯ブラシで歯磨きが激変。7万9800円で日本販売開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dyson-ai-1545f6b1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dyson-ai-1545f6b1.html</guid>
-    <description>DysonがAIとカメラを搭載した電動歯ブラシ「CameraJet」を発売。自動でフロスを噴射し、歯磨きとフロスが同時にできる。</description>
-    <pubDate>Wed, 02 Sep 2026 13:22:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>従業員の過半数が不満、企業のデジタル教育が成果に繋がらないワケ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-97190bcf.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-97190bcf.html</guid>
-    <description>生成AI時代に企業が力を入れるデジタル教育だが、従業員の過半数が満足していない実態が明らかに。</description>
-    <pubDate>Wed, 02 Sep 2026 13:21:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、AIが簡単なアイデアから映像化する新サービス「Higgsfield」を紹介</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-31624c9f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-31624c9f.html</guid>
-    <description>OpenAIがシンプルなアイデアを映画級の動画に変えるAIツールを公開。SNS用動画制作が誰でも簡単に。</description>
-    <pubDate>Wed, 02 Sep 2026 13:21:00 +0900</pubDate>
   </item>
 </channel></rss>

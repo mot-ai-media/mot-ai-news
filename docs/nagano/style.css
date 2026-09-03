@@ -1,20 +1,20 @@
 /* MOT NAGANO — 独立スタイルシート。MOT本体の style.css には依存しない。 */
 
 :root {
-  --ng-ink: #1c1a17;
-  --ng-paper: #f6f2ea;
-  --ng-line: #ddd5c7;
-  --ng-muted: #6f6a5e;
-  --ng-accent: #a8492c;
+  --ng-ink: #1c1b18;
+  --ng-paper: #eeece3;
+  --ng-line: #d8d4c5;
+  --ng-muted: #726c5c;
+  --ng-accent: #9c2b2b;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --ng-ink: #f1ede4;
-    --ng-paper: #14120f;
-    --ng-line: #2c2823;
-    --ng-muted: #b4ac9c;
-    --ng-accent: #cf7a56;
+    --ng-ink: #efece2;
+    --ng-paper: #131210;
+    --ng-line: #2e2b23;
+    --ng-muted: #a89f8c;
+    --ng-accent: #c94f4f;
   }
 }
 
@@ -51,7 +51,8 @@ body {
   border-bottom: 1px solid var(--ng-line);
   padding-bottom: 2px;
 }
-.ng-eyebrow:hover { color: var(--ng-accent); border-color: var(--ng-accent); }
+.ng-eyebrow::before { content: "\25a0 "; color: var(--ng-accent); }
+.ng-eyebrow:hover { color: var(--ng-ink); border-color: var(--ng-ink); }
 
 .ng-nav-row {
   display: flex;
@@ -142,7 +143,7 @@ h2.ng-heading {
   font-family: "Zen Old Mincho", serif;
   font-size: 16px;
   min-width: 4.5em;
-  color: var(--ng-accent);
+  color: var(--ng-ink);
   flex-shrink: 0;
 }
 
@@ -174,6 +175,7 @@ h2.ng-heading {
   font-size: 18px;
   margin: 0 0 14px;
 }
+.ng-bridge p.ng-bridge-line::before { content: "\25a0 "; color: var(--ng-accent); }
 .ng-bridge a {
   color: var(--ng-accent);
   text-decoration: none;
