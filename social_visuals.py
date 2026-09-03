@@ -305,11 +305,14 @@ def pick_named_figure(tags: list[str] | None) -> str | None:
 
 
 def _background_for_article(
-    tags: list[str] | None, seed: str, angle: str | None = None,
+    tags: list[str] | None, seed: str, angle: str | None = None, image_url: str | None = None,
 ) -> tuple[Image.Image, str | None]:
-    """記事タグに著名人がいればその人物本人の写真を優先して使う(汎用カテゴリ写真の
-    プールを消費しないので使い回し防止にも寄与する)。戻り値の2つ目はクレジット表記
-    (ライセンス上表示不要ならNone)。該当なしなら通常のカテゴリ写真にフォールバック。"""
+    """背景選択の優先順位:
+    1. 著名人が写っていれば本人の実写真(既存ロジック、最優先)
+    2. それ以外は4記事に1記事だけMOT厳選の背景写真(ai_glow等)を使い、
+       残り3/4は元記事の実画像を引用する(ユーザー指示による方針)
+    3. 元記事画像の取得に失敗した場合のみ厳選写真にフォールバック
+    戻り値の2つ目はクレジット表記(表示不要ならNone)。"""
     person_key = pick_named_figure(tags)
     if person_key:
         path = PEOPLE_DIR / f"{person_key}.jpg"
@@ -319,21 +322,26 @@ def _background_for_article(
             return _cover_crop(photo), credit
         except OSError:
             pass
+
+    use_curated = int(hashlib.md5(seed.encode("utf-8")).hexdigest(), 16) % 4 == 0
+    if not use_curated:
+        fetched = _fetch_photo_background(image_url)
+        if fetched is not None:
+            return fetched, None
     return _curated_background(tags, seed, angle), None
 
 
-def _fetch_photo_background(image_url: str | None, seed: str) -> Image.Image:
-    """(未使用/予備) 記事の実画像を取得して背景にする従来方式。質のばらつき・著作権の懸念から
-    現在はcuratedな自社素材(_curated_background)に切り替え済み。"""
-    if image_url:
-        try:
-            request = urllib.request.Request(image_url, headers={"User-Agent": "Mozilla/5.0 (compatible; MOTBot/1.0)"})
-            with urllib.request.urlopen(request, timeout=10) as resp:
-                photo = Image.open(BytesIO(resp.read())).convert("RGB")
-            return _cover_crop(photo)
-        except Exception:
-            pass
-    return _gradient_background(seed)
+def _fetch_photo_background(image_url: str | None) -> Image.Image | None:
+    """元記事の実画像を取得して背景にする。取得失敗時はNone(呼び出し側でcuratedにフォールバック)。"""
+    if not image_url:
+        return None
+    try:
+        request = urllib.request.Request(image_url, headers={"User-Agent": "Mozilla/5.0 (compatible; MOTBot/1.0)"})
+        with urllib.request.urlopen(request, timeout=10) as resp:
+            photo = Image.open(BytesIO(resp.read())).convert("RGB")
+        return _cover_crop(photo)
+    except Exception:
+        return None
 
 
 def _paste_watermark(img: Image.Image, size: int = 64) -> None:
@@ -445,12 +453,15 @@ def _fit_text(
     return font, lines
 
 
-def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, source: str = "") -> Path:
+def make_hook_slide(
+    tags: list[str] | None, hook: str, angle: str, slug: str, source: str = "",
+    image_url: str | None = None,
+) -> Path:
     """タグから選んだ厳選フリー素材を背景に、下部に太字フックテキストを重ねる。
     参考にした実例(nicocinojp等)に合わせ、色帯や大きなロゴ表記は使わず、
     中央上部に小さなロゴのワンポイントだけを添える控えめなブランディングにする。
     記事タグに著名人がいれば汎用カテゴリ写真より優先してその人物の実写真を使う。"""
-    img, photo_credit = _background_for_article(tags, source or slug, angle)
+    img, photo_credit = _background_for_article(tags, source or slug, angle, image_url)
     img = img.convert("RGB")
     draw = ImageDraw.Draw(img)
 
@@ -495,11 +506,12 @@ def make_hook_slide(tags: list[str] | None, hook: str, angle: str, slug: str, so
 def make_text_slide(
     text: str, step: int, total: int, angle: str, slug: str,
     tags: list[str] | None = None, source: str = "",
+    image_url: str | None = None,
 ) -> Path:
     """カルーセル中間スライド。文字だけの単調な画面を避け、フックと同じ背景写真
     (同カテゴリなので同じ画像になる)を再利用し、その上に読みやすさ優先の暗いオーバーレイ
     を重ねてテキストを載せる。色帯は使わず、控えめなブランディングで統一する。"""
-    img, _ = _background_for_article(tags, source or slug, angle)
+    img, _ = _background_for_article(tags, source or slug, angle, image_url)
     img = img.convert("RGB")
 
     # 中間スライドは本文が長め(hookより情報量が多い)なので、画面全体に軽めの
@@ -531,13 +543,14 @@ def make_text_slide(
 def make_carousel_slides(
     carousel_texts: list[str], angle: str, slug: str,
     tags: list[str] | None = None, source: str = "",
+    image_url: str | None = None,
 ) -> list[Path]:
     """カルーセルの中間スライド群(通常2枚)を作る。フック(1枚目)・CTA(最終枚)と合わせて
     合計4枚のスライド投稿になる想定。"""
     total = len(carousel_texts) + 2  # hook + 中間 + cta
     paths = []
     for i, text in enumerate(carousel_texts):
-        paths.append(make_text_slide(text, i + 2, total, angle, slug, tags, source))
+        paths.append(make_text_slide(text, i + 2, total, angle, slug, tags, source, image_url))
     return paths
 
 

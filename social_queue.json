@@ -308,7 +308,7 @@
       "AI学習"
     ],
     "generated_at": "2026-08-31 22:01",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -366,7 +366,10 @@
         "x_post": "AIツール使ってるけど不安な方へ。『Claude Academy』で安全・効果的な活用法が学べます（無料）。357コンテンツ、自分のペースで進可能。疑問や不安の解消に最適です。",
         "cta": "今すぐ始めるAI活用法を、\nMOTで確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18122082082836613",
+    "published_at": "2026-09-03T13:42:24"
   },
   "ai-80c677b5": {
     "headline": "生成AIに仕事を奪われないために、作り手の権利を守る仕組みが急務",

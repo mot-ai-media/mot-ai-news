@@ -202,8 +202,9 @@ def publish_to_instagram(slug: str, angle: str, live: bool = False) -> dict:
     # 直しても反映されず投稿されてしまう」事故が実際に起きたため、鮮度を保証する。
     import social_visuals as sv
     tags = item.get("tags", [])
-    sv.make_hook_slide(tags, angle_data["hook"], angle, slug)
-    sv.make_carousel_slides(angle_data["carousel"], angle, slug, tags)
+    image_url = item.get("image_url")
+    sv.make_hook_slide(tags, angle_data["hook"], angle, slug, "", image_url)
+    sv.make_carousel_slides(angle_data["carousel"], angle, slug, tags, "", image_url)
     sv.make_cta_slide(slug, angle_data.get("cta"), angle)
 
     files = collect_slide_files(slug, angle)

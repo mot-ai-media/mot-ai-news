@@ -262,11 +262,14 @@ def run(limit: int = 3) -> list[str]:
             continue
 
         article_tags = article.get("tags") or []
+        article_image_url = article.get("image_url") if article.get("image_kind") == "real" else None
         for angle in result["angles"]:
             try:
-                social_visuals.make_hook_slide(article_tags, angle["hook"], angle["type"], slug, article.get("source", ""))
+                social_visuals.make_hook_slide(
+                    article_tags, angle["hook"], angle["type"], slug, article.get("source", ""), article_image_url
+                )
                 social_visuals.make_carousel_slides(
-                    angle["carousel"], angle["type"], slug, article_tags, article.get("source", "")
+                    angle["carousel"], angle["type"], slug, article_tags, article.get("source", ""), article_image_url
                 )
                 social_visuals.make_cta_slide(slug, angle.get("cta"), angle["type"])
             except Exception:
@@ -278,6 +281,7 @@ def run(limit: int = 3) -> list[str]:
             "importance_score": article.get("importance_score"),
             "social_score": social_score(article),
             "tags": article.get("tags") or [],
+            "image_url": article_image_url,
             "generated_at": article.get("generated_at", ""),
             "status": "draft",
             "angles": result["angles"],
