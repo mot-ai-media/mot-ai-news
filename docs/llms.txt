@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-02 18:02
+最終更新: 2026-09-03 13:40
 
 ## 記事一覧
 
+- [ブシロードAI子会社とは？定型業務支援の狙いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-02a32131.html): ブシロードがAI子会社を設立し、人が繰り返す定型業務をAIで自動化。負荷軽減とミス削減を実現。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:40)
+- [公明党、生成AIでSNS発信支援。女性議員の活動どう変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-f5ecaed7.html): 公明党が生成AIを活用し、女性議員のSNS発信を効率化する取り組みを開始。政治活動の現場でもAIが浸透している。 (出典: 公明党 / 更新: 2026-09-03 13:39)
+- [AI詐欺の手口とは？ボイスフィッシング被害が45億円に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-7c8f22c3.html): 生成AIで社長の声を偽造する詐欺が急増。被害額は45億円に達し、2026年の新たなサイバー攻撃に企業が危機感。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:39)
+- [生成AI全社導入の極意とは？企業事例から学ぶ活用法](https://mot-ai-media.github.io/mot-ai-news/articles/line-e253de4f.html): 大手企業3社が語る、生成AIを個人ツールから全社競争力へ転換させるための戦略とポイント。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:39)
+- [Meta Muse Spark 1.3とは？コーディング・エージェント機能を強化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-469f7896.html): MetaがAIモデルを更新。プログラミング自動化とAIエージェント性能が大幅向上し、業界トップクラスの性能を実現。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:39)
 - [法律事務所のChatGPT導入事例、ガバナンス体制とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-enterprise-631a857c.html): 大手法律事務所Gilbert + Tobinが、CEOのコミットと厳密な管理体制でChatGPT Enterpriseを全社導入・スケール展開した事例が注目を集めている。 (出典: OpenAI News / 更新: 2026-09-02 18:02)
 - [Gemini動画理解エージェント機能とは？できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-dfd1ea2e.html): Googleが動画コンテンツを理解し、自動で判断・行動するAI「Gemini」の新機能を発表。 (出典: Google DeepMind News / 更新: 2026-09-02 18:02)
 - [OpenAI新モデルAstraとは？セキュリティ認定の意味を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-309be27b.html): OpenAIが開発した新型AIモデルが、業界で最も厳しいセキュリティ基準をクリア。安全性への取り組みが強化される。 (出典: OpenAI News / 更新: 2026-09-02 18:01)
@@ -202,8 +207,3 @@
 - [OpenAI、Mac版アプリの緊急更新を呼びかけ Axios経由の攻撃に警告](https://mot-ai-media.github.io/mot-ai-news/articles/b9f64955de0e.html): OpenAIがMacユーザーに対してアプリの緊急更新を実施するよう呼びかけ。Axiosを通じた攻撃の脅威が判明した。 (出典: ASCII.jp / 更新: 2026-08-25 20:17)
 - [Google Gemini、BTSとのコラボ機能を公開。特定コマンド入力で4つの体験が解放](https://mot-ai-media.github.io/mot-ai-news/articles/c1ed2ff25d78.html): 「Unlock BTS」または「7777」と入力することで、Google GeminiでBTSとのコラボ機能が利用できるようになった。 (出典: ニコニコニュース / 更新: 2026-08-25 20:08)
 - [Claude活用で開発現場が1年で激変、ソフトウェア開発の常識崩壊](https://mot-ai-media.github.io/mot-ai-news/articles/df7efe92a313.html): AIアシスタントClaudeの急速な進化により、ソフトウェア開発の現場が劇的に変わりつつある。 (出典: MITテクノロジーレビュー / 更新: 2026-08-25 20:08)
-- [生成AIの設計段階から違法なプライバシー侵害、アムネスティが指摘](https://mot-ai-media.github.io/mot-ai-news/articles/bfac599c4108.html): 国際人権団体アムネスティが、生成AIの開発・運用における大規模なプライバシー侵害が設計段階から組み込まれていると警告している。 (出典: amnesty.or.jp / 更新: 2026-08-25 20:08)
-- [生成AI、過度な期待と過度な懐疑の両方を排除せよ。IBMが指摘](https://mot-ai-media.github.io/mot-ai-news/articles/99568a3d9ca4.html): IBMが生成AIをめぐる誇大広告と反誇大広告の両極端な見方に警告を発した。 (出典: IBM / 更新: 2026-08-25 20:08)
-- [総務省・経産省、AIガイドライン改訂 エージェント・フィジカルAI対応へ](https://mot-ai-media.github.io/mot-ai-news/articles/bcf4241eff21.html): 総務省と経産省がAI事業者向けガイドラインを改訂し、AIエージェントとフィジカルAIの項目を新たに追加。 (出典: 一般社団法人 日本自動車会議所 / 更新: 2026-08-25 20:08)
-- [Google Gemini×BTS コラボ機能解禁、暗号コード入力で4つの体験が実現](https://mot-ai-media.github.io/mot-ai-news/articles/8fc7e300b119.html): BTSファン向けにGoogle Geminiが限定コラボ機能を公開。指定の暗号コードで独占的なコンテンツ体験が可能に。 (出典: Yahoo!ニュース / 更新: 2026-08-25 19:59)
-- [生成AIが文化を塗り替える—東京財団が論じる創作の未来](https://mot-ai-media.github.io/mot-ai-news/articles/07d4004a7e17.html): 生成AIの普及が創作活動にもたらす変化と、文化全体への影響を深掘りする考察。 (出典: 東京財団 / 更新: 2026-08-25 19:59)

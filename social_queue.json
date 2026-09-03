@@ -597,7 +597,7 @@
       "AI influencer"
     ],
     "generated_at": "2026-09-01 16:58",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -655,7 +655,10 @@
         "x_post": "Instagramの新規制、実生活に影響あり。フォロー先がAIかどうか見分けやすくなる一方、ビジネスアカウント運営者はプロフィール更新が必須。AIを活用するなら『使ってます』と明記する時代に。",
         "cta": "AI規制の詳しい対応方法を確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18124522135697764",
+    "published_at": "2026-09-02T19:01:56"
   },
   "f4b25a56": {
     "headline": "三菱ケミカル、温めると縮む新材料開発。AI時代の熱問題、ついに解決へ",
