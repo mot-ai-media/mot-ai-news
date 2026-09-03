@@ -25,7 +25,7 @@ $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument $psArgumen
 $startTime = (Get-Date).AddMinutes(1)
 $trigger = New-ScheduledTaskTrigger -Once -At $startTime `
     -RepetitionInterval (New-TimeSpan -Hours 2) `
-    -RepetitionDuration ([TimeSpan]::MaxValue)
+    -RepetitionDuration (New-TimeSpan -Days 3650)
 
 $settings = New-ScheduledTaskSettingsSet `
     -StartWhenAvailable `

@@ -54,6 +54,68 @@ FABLE_ATLAS_EN_RSS = (
 )
 FABLE_ATLAS_FEEDS = [FABLE_ATLAS_JP_RSS, FABLE_ATLAS_EN_RSS]
 
+# 海外一次情報ウォッチ(Tier1/2)。編集を経た報道機関のみ。確認なしで自動公開する対象。
+# 汎用テック面のRSSのため、記事化前にAI関連キーワードで絞り込む(_is_ai_relevant)。
+# 動作確認済み: BBC/CNBC/The Verge/WIRED/MIT Technology Review
+# 動作確認できず不採用: Reuters(公開RSS廃止), AP News(403でブロック),
+#   VentureBeat(429でブロック), Bloomberg/FT(本文が有料壁でRSSは見出しのみ)
+FOREIGN_TIER_FEEDS: dict[str, dict] = {
+    "http://feeds.bbci.co.uk/news/technology/rss.xml": {
+        "name": "BBC", "country": "UK", "tier": 1, "reliability_score": 95, "speed_score": 70,
+        "domains": ("bbc.com", "bbci.co.uk", "bbc.co.uk"),
+    },
+    "https://www.cnbc.com/id/19854910/device/rss/rss.html": {
+        "name": "CNBC", "country": "US", "tier": 1, "reliability_score": 85, "speed_score": 80,
+        "domains": ("cnbc.com",),
+    },
+    "https://www.theverge.com/rss/index.xml": {
+        "name": "The Verge", "country": "US", "tier": 2, "reliability_score": 80, "speed_score": 90,
+        "domains": ("theverge.com",),
+    },
+    "https://www.wired.com/feed/rss": {
+        "name": "WIRED", "country": "US", "tier": 2, "reliability_score": 85, "speed_score": 65,
+        "domains": ("wired.com",),
+    },
+    "https://www.technologyreview.com/feed/": {
+        "name": "MIT Technology Review", "country": "US", "tier": 2, "reliability_score": 90, "speed_score": 50,
+        "domains": ("technologyreview.com",),
+    },
+}
+
+_FOREIGN_DOMAIN_META = {
+    domain: meta for meta in FOREIGN_TIER_FEEDS.values() for domain in meta["domains"]
+}
+
+
+def get_foreign_source_meta(source_domain: str | None) -> dict | None:
+    """記事のドメインから、Tier1/2信頼度メタデータを引く(一致しなければNone)。"""
+    domain = (source_domain or "").lower().removeprefix("www.")
+    for known_domain, meta in _FOREIGN_DOMAIN_META.items():
+        if domain == known_domain or domain.endswith("." + known_domain):
+            return meta
+    return None
+
+# 海外トレンド発見用(Tier3)。個人発信を含むため記事の自動生成はせず、
+# 「候補一覧」として人が見て判断する用途に限定する。
+# hnrss.orgはHacker News公式API(Firebase)をRSS化して配信する老舗の非公式ブリッジで、
+# スクレイピング等の回避策は使っていない。
+HN_DISCOVERY_RSS = (
+    "https://hnrss.org/newest?q=AI+OR+OpenAI+OR+Anthropic+OR+LLM+OR+%22machine+learning%22&points=20"
+)
+
+_AI_RELEVANCE_RE = re.compile(
+    r"\b(AI|A\.I\.|artificial intelligence|ChatGPT|OpenAI|Anthropic|Claude|Gemini|LLM|"
+    r"machine learning|generative AI|chatbot|GPT-?\d|neural network|DeepMind|Copilot|"
+    r"Grok|xAI|Meta AI|Perplexity|Mistral|Nvidia|deep learning)\b",
+    re.IGNORECASE,
+)
+
+
+def is_ai_relevant(article: "Article") -> bool:
+    """汎用テック面のフィード(BBC/CNBC等)から、AI関連の記事だけを残すフィルタ。"""
+    return bool(_AI_RELEVANCE_RE.search(f"{article.title} {article.summary}"))
+
+
 # フィードを追加/削除したい場合はこのリストを編集する
 FEEDS = [
     JP_GOOGLE_NEWS_RSS,

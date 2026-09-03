@@ -1,0 +1,52 @@
+[
+  {
+    "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+    "link": "https://arcprize.org/blog/astra",
+    "source": "Hacker News",
+    "summary": "Article URL: https://arcprize.org/blog/astra\nComments URL: https://news.ycombinator.com/item?id=49555691\nPoints: 120\n# Comments: 63",
+    "novelty_score": 65,
+    "japan_relevance_score": 75,
+    "reason": "AGI能力測定の新ベンチマーク達成は重要だが、OpenAI発表であり既出情報の可能性が高い。",
+    "discovered_at": "2026-09-03T22:23:03.670053+00:00"
+  },
+  {
+    "title": "OpenAI begins rolling out GPT-6 Astra",
+    "link": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+    "source": "Hacker News",
+    "summary": "https://thenewstack.io/openai-gpt6-astra-benchmarks/, image: https://cdn.thenewstack.io/media/2026/09/358eb84a-screenshot...https://venturebeat.com/technology/welcome-to-the-agi-era-op...https://www.theverge.com/ai-artificial-intelligence/988334/o...https://twitter.com/OpenAI/status/2095595741528125780\n\nComments URL: https://news.ycombinator.com/item?id=49554273\nPoints: 230\n# Comments: 219",
+    "novelty_score": 45,
+    "japan_relevance_score": 75,
+    "reason": "OpenAIの新モデルロールアウトは重要だが、具体的な技術詳細が不明確で、日本での影響は大きい可能性がある。",
+    "discovered_at": "2026-09-03T22:23:05.617715+00:00"
+  },
+  {
+    "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
+    "link": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman\nComments URL: https://news.ycombinator.com/item?id=49554048\nPoints: 35\n# Comments: 7",
+    "novelty_score": 25,
+    "japan_relevance_score": 75,
+    "reason": "GPT-6発表は重要だが、日付が2026年と未来の架空記事であり、信頼性に欠ける。",
+    "discovered_at": "2026-09-03T22:23:07.328125+00:00"
+  },
+  {
+    "title": "Sanders introduces bill to ban artificial superintelligence and pause AI",
+    "link": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/\nComments URL: https://news.ycombinator.com/item?id=49553463\nPoints: 52\n# Comments: 63",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI規制議論は既出だが米国の具体的立法動向は注視値。日本でも規制論争の参考事例として関心が高まる見込み。",
+    "discovered_at": "2026-09-03T22:23:09.604237+00:00"
+  },
+  {
+    "title": "Why office workers are turning against AI",
+    "link": "https://www.bloodinthemachine.com/p/why-office-workers-are-turning-against",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bloodinthemachine.com/p/why-office-workers-are-turning-against\nComments URL: https://news.ycombinator.com/item?id=49553414\nPoints: 25\n# Comments: 3",
+    "novelty_score": 35,
+    "japan_relevance_score": 65,
+    "reason": "オフィスワーカーのAI懸念は既出だが、日本でも雇用不安が高まる中で関心が高い可能性がある。",
+    "discovered_at": "2026-09-03T22:23:11.465014+00:00"
+  }
+]

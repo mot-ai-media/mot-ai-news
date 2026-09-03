@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-04 06:51
+最終更新: 2026-09-04 07:22
 
 ## 記事一覧
 
+- [オーストラリア AI データセンター 環境 電力 雇用](https://mot-ai-media.github.io/mot-ai-news/articles/ai-540584b1.html): オーストラリアで大型のAIデータセンター建設が相次ぐなか、経済効果への期待と資源・電力消費への懸念が対立している。日本も同じジレンマに直面する可能性が指摘される。 (出典: BBC / 更新: 2026-09-04 07:22)
+- [Nvidia Hugging Face買収129億ドル｜AI開発がどう変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-a0f5f526.html): 半導体大手Nvidiaが、AIモデル共有プラットフォーム「Hugging Face」を129億ドル（約1.9兆円）で買収する。オープンソースAIを広く開発者に提供することが狙い。この買収により、AIツールの敷居がさらに下がり、企業規模を問わずAI活用が進む可能性がある。 (出典: CNBC / 更新: 2026-09-04 07:21)
 - [Claude Fable 5とは？Anthropicが発表した新型AI、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-f4481d1e.html): Anthropicが次期主力AI「Claude Fable 5」の立ち上げを準備中。業界が直面する重要課題への対応が焦点。 (出典: Yellow.com / 更新: 2026-09-04 06:51)
 - [Anthropic Claude Fable 5.1・Mythos 5.1とは？性能と料金の変化を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-048a59c0.html): Anthropicが新型AIモデルを発表。科学分野の能力が高まり、利用コストも改善される。 (出典: aismiley.co.jp / 更新: 2026-09-04 06:50)
 - [ChatGPT Atlasが終了。統合される機能と何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d039ad14.html): OpenAIのAIブラウザ「ChatGPT Atlas」が終了。機能はChatGPT本体に統合される。 (出典: OpenAI Help Center / 更新: 2026-09-04 06:03)
@@ -205,5 +207,3 @@
 - [Figure AIの人型ロボット、本社キャンパスで実動、CEO「SF映画そのもの」](https://mot-ai-media.github.io/mot-ai-news/articles/533693b77e74.html): 米Figure AIの人型ロボットが屋外を歩き回る動画が話題に。同社CEOが感想をコメント。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
 - [千葉豪雨、当日昼前まで予測不可能だった理由。ウェザーニューズが語る天気予報の限界](https://mot-ai-media.github.io/mot-ai-news/articles/f619a95d2dbc.html): 観測史上1位の雨量を記録した千葉豪雨。なぜ現代の天気予報は直前まで捉えられなかったのか。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
 - [パブリックプレビュー提供開始、ユーザーが新機能を先行体験可能に](https://mot-ai-media.github.io/mot-ai-news/articles/3b437c89317e.html): 新機能がパブリックプレビュー段階でユーザーに提供開始され、早期フィードバック収集が加速。 (出典: gihyo.jp / 更新: 2026-08-25 20:40)
-- [日本企業の問い合わせ急増、ロボット導入の意識が確実に変わった](https://mot-ai-media.github.io/mot-ai-news/articles/c73f50ab7f2c.html): フィジカルAI企業RLWRLDが日本市場で感じた変化。ロボット現場投入への関心が急速に高まっている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 20:40)
-- [政府、生成AI事業者に「知財保護ルール」を強制　透明性確保の新基準始動](https://mot-ai-media.github.io/mot-ai-news/articles/afddd8e401d0.html): 政府が生成AI事業者向けに透明性と知的財産権保護を促す「プリンシプル・コード」を策定。業界の自律的な規制枠組みが本格始動。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 20:40)

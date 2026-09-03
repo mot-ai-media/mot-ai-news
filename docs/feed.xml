@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>オーストラリアのAIデータセンター急増、雇用と資源消費の綱引き状態に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-540584b1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-540584b1.html</guid>
+    <description>オーストラリアで大型のAIデータセンター建設が相次ぐなか、経済効果への期待と資源・電力消費への懸念が対立している。日本も同じジレンマに直面する可能性が指摘される。</description>
+    <pubDate>Fri, 04 Sep 2026 07:22:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Nvidia、AI開発プラットフォーム「Hugging Face」を129億ドルで買収。「AIの民主化」が加速する</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-a0f5f526.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-a0f5f526.html</guid>
+    <description>半導体大手Nvidiaが、AIモデル共有プラットフォーム「Hugging Face」を129億ドル（約1.9兆円）で買収する。オープンソースAIを広く開発者に提供することが狙い。この買収により、AIツールの敷居がさらに下がり、企業規模を問わずAI活用が進む可能性がある。</description>
+    <pubDate>Fri, 04 Sep 2026 07:21:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropicの次世代AI「Claude Fable 5」ついに始動、業界の課題に本格対峙</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-f4481d1e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-f4481d1e.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/communicationboard-ai-ai-b4ef8e10.html</guid>
     <description>脳梗塞で話せなくなった患者も、AIとスマートグラスで意思疎通が可能に。医療現場が大きく変わろうとしている。</description>
     <pubDate>Wed, 02 Sep 2026 15:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>少数の画像から3D空間を自動生成、World Labsの新型AI「Atlas」が実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/world-labs-atlas-3cb15e5d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/world-labs-atlas-3cb15e5d.html</guid>
-    <description>テキストや画像から3D空間を生成できるAI「Atlas」が登場。映像制作やロボット開発に活用へ。</description>
-    <pubDate>Wed, 02 Sep 2026 15:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、新AI「Claude 5.1」発表。高性能の代わりに監視困難さが浮上</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b48cf14.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b48cf14.html</guid>
-    <description>Anthropicが科学研究やコーディングで大幅に性能を高めたAI「Claude 5.1」を発表。一方で監視の難しさなどのリスクも報告。</description>
-    <pubDate>Wed, 02 Sep 2026 14:32:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -521,6 +521,16 @@ footer a {
 }
 .watch-next-box h3 { margin-top: 0; }
 :root[data-theme="dark"] .watch-next-box { background: rgba(249, 115, 22, 0.12); }
+.overseas-box, .japan-impact-box {
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  margin: 16px 0;
+}
+.overseas-box { border-left: 3px solid var(--mot-popular); background: rgba(245, 158, 11, 0.06); }
+.japan-impact-box { border-left: 3px solid var(--mot-positive); background: rgba(16, 185, 129, 0.06); }
+.overseas-box h3, .japan-impact-box h3 { margin-top: 0; }
+:root[data-theme="dark"] .overseas-box { background: rgba(245, 158, 11, 0.12); }
+:root[data-theme="dark"] .japan-impact-box { background: rgba(16, 185, 129, 0.12); }
 .contact-card {
   border: 1px solid var(--mot-border);
   border-radius: 12px;
@@ -2403,6 +2413,25 @@ def _render_article_body(entry: dict) -> str:
     """記事本文のHTML化。新形式(TL;DR+6セクション)があればそれを使い、無ければ
     旧形式(TL;DR+3見出し)、それも無い最古の記事は段落分割のみで表示する
     (テンプレート変更は常に新規記事のみに適用し、過去記事は非破壊)。"""
+    if entry.get("content_format") == "foreign_discovery":
+        return (
+            f'<p class="tldr"><strong>TL;DR</strong> {html_lib.escape(entry["tldr"])}</p>'
+            f"<h3>何が起きたか</h3><p>{html_lib.escape(entry['what_happened'])}</p>"
+            f'<div class="overseas-box"><h3>海外ではどう報道されているか</h3>'
+            f"<p>{html_lib.escape(entry['overseas_report'])}</p></div>"
+            f"<h3>なぜ重要か</h3><p>{html_lib.escape(entry['why_it_matters'])}</p>"
+            f'<div class="japan-impact-box"><h3>日本への影響</h3>'
+            f"<p>{html_lib.escape(entry['japan_impact'])}</p></div>"
+            f"<h3>今後どうなる</h3><p>{html_lib.escape(entry['outlook'])}</p>"
+        ) + (
+            f'<div class="mot-take-box"><h3>MOTの見解</h3><p>{html_lib.escape(entry["mot_take"])}</p></div>'
+            if entry.get("mot_take") and entry["mot_take"].strip() else ""
+        ) + (
+            f'<div class="watch-next-box"><h3>今後の注目ポイント</h3>'
+            f'<p>{html_lib.escape(entry["what_to_watch_next"])}</p></div>'
+            if entry.get("what_to_watch_next") and entry["what_to_watch_next"].strip() else ""
+        )
+
     tldr = entry.get("tldr")
     what = entry.get("what_happened")
     why = entry.get("why_it_matters")
@@ -2719,6 +2748,164 @@ def _safe_parse_iso(value: str) -> datetime | None:
         return datetime.fromisoformat(value)
     except ValueError:
         return None
+
+
+_STOPWORDS = {
+    "the", "a", "an", "to", "of", "in", "on", "for", "is", "are", "was", "were",
+    "with", "at", "by", "from", "as", "it", "its", "new", "now", "how", "why",
+    "and", "or", "but", "after", "over", "into", "about", "your", "you", "what",
+    "this", "that", "will", "has", "have", "says", "say", "said", "amid",
+}
+
+
+def _significant_tokens(title: str) -> set[str]:
+    """英語タイトルから、固有名詞・製品名らしき語だけを残す軽量トークナイザ
+    (ストップワードと短い語を除く)。AI呼び出し無しの重複検出に使う。"""
+    words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'.-]*", title.lower())
+    return {w for w in words if len(w) >= 3 and w not in _STOPWORDS}
+
+
+def _group_candidates_by_topic(articles: list) -> list[list]:
+    """同一の出来事を報じた複数媒体の記事をまとめる(タイトルの有意語の重なりベース)。
+    埋め込みAI等は使わず、コストゼロの簡易クラスタリング。"""
+    groups: list[list] = []
+    sigs: list[set[str]] = []
+    for art in articles:
+        tokens = _significant_tokens(art.title)
+        if not tokens:
+            groups.append([art])
+            sigs.append(tokens)
+            continue
+        matched_index = None
+        for i, sig in enumerate(sigs):
+            if not sig:
+                continue
+            overlap = len(tokens & sig) / max(1, min(len(tokens), len(sig)))
+            if overlap >= 0.5:
+                matched_index = i
+                break
+        if matched_index is None:
+            groups.append([art])
+            sigs.append(tokens)
+        else:
+            groups[matched_index].append(art)
+            sigs[matched_index] |= tokens
+    return groups
+
+
+def build_foreign_discovery(max_new: int = 2) -> None:
+    """海外Tier1/2メディア(BBC/CNBC/The Verge/WIRED/MIT Technology Review)から
+    AI関連ニュースを探し、確認なしで自動公開する(編集を経た報道機関のみが対象。
+    Tier3の個人発信は別途build_trend_candidates()で候補一覧化するのみに留める)。"""
+    posted_links = state.get_posted_links()
+    articles = sources.fetch_candidates(feeds=list(sources.FOREIGN_TIER_FEEDS.keys()))
+    articles = [a for a in articles if sources.is_ai_relevant(a)]
+    candidates = sources.filter_unposted(articles, posted_links)
+    if not candidates:
+        logger.info("海外発見ニュース: 新規候補がありませんでした。")
+        return
+
+    groups = _group_candidates_by_topic(candidates)
+    # 複数媒体が報じているグループ(裏付けが強い)を優先
+    groups.sort(key=len, reverse=True)
+
+    ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
+    articles_data = _load_articles_data()
+    new_entries: list[dict] = []
+
+    for group in groups:
+        if len(new_entries) >= max_new:
+            break
+        primary = group[0]
+        safe_link = _safe_http_url(primary.link)
+        if not safe_link:
+            for a in group:
+                state.record_posted(a.link)
+            continue
+
+        meta = sources.get_foreign_source_meta(primary.source_domain)
+        if meta is None:
+            logger.warning(
+                "海外発見ニュース: ドメイン未登録のためデフォルト信頼度を使用: %s (%s)",
+                primary.source_domain, primary.link,
+            )
+            meta = {"name": primary.source, "country": "US", "tier": 2, "reliability_score": 70, "speed_score": 70}
+        source_name = meta.get("name") or primary.source
+
+        try:
+            result = generator.generate_foreign_discovery_article(group)
+        except Exception:
+            logger.exception("海外発見記事の生成に失敗したためスキップ: %s", primary.link)
+            continue
+
+        slug = _make_slug(safe_link, result.get("tags"))
+        image_url = _safe_http_url(sources.fetch_og_image(primary.link))
+        image_kind = "real" if image_url else "fallback"
+
+        entry = {
+            "slug": slug,
+            "link": safe_link,
+            "headline": result["headline"],
+            "seo_title": result.get("seo_title") or result["headline"],
+            "summary": result["summary"],
+            "importance_score": result["importance_score"],
+            "buzz_score": result["buzz_score"],
+            "recommend_score": result["recommend_score"],
+            "content_format": "foreign_discovery",
+            "tldr": result["tldr"],
+            "what_happened": result["what_happened"],
+            "overseas_report": result["overseas_report"],
+            "why_it_matters": result["why_it_matters"],
+            "japan_impact": result["japan_impact"],
+            "outlook": result["outlook"],
+            "mot_take": result.get("mot_take") or "",
+            "what_to_watch_next": result.get("what_to_watch_next") or "",
+            "tags": result.get("tags") or [],
+            "faq": result.get("faq") or [],
+            "digest": result.get("digest") or {},
+            "source": source_name,
+            "image_url": image_url,
+            "image_kind": image_kind,
+            "level": _classify_level(primary.source_domain),
+            "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "source_country": meta.get("country"),
+            "source_tier": meta.get("tier"),
+            "reliability_score": meta.get("reliability_score"),
+            "speed_score": meta.get("speed_score"),
+            "novelty_score": result["novelty_score"],
+            "japan_relevance_score": result["japan_relevance_score"],
+            "growth_potential_score": result["growth_potential_score"],
+            "seo_potential_score": result["seo_potential_score"],
+            "social_impact_score": result["social_impact_score"],
+            "verification_status": "multiple_sources" if len(group) > 1 else "single_source",
+            "corroborating_sources": [a.source for a in group[1:3]],
+        }
+        articles_data.append(entry)
+        new_entries.append(entry)
+        for a in group:
+            state.record_posted(a.link)
+        logger.info(
+            "海外発見記事生成成功(裏付け%d件): %s -> articles/%s.html",
+            len(group), primary.link, slug,
+        )
+
+    if not new_entries:
+        logger.info("海外発見ニュース: 生成できた記事がありませんでした。")
+        return
+
+    valid_topic_tags = set(_collect_topics(articles_data))
+    for entry in new_entries:
+        _write_article_page(entry, articles_data, valid_topic_tags)
+
+    if len(articles_data) > MAX_STORED_ARTICLES:
+        overflow = articles_data[: len(articles_data) - MAX_STORED_ARTICLES]
+        articles_data = articles_data[len(articles_data) - MAX_STORED_ARTICLES :]
+        for old in overflow:
+            old_path = ARTICLES_DIR / f"{old['slug']}.html"
+            old_path.unlink(missing_ok=True)
+
+    _save_articles_data(articles_data)
+    _write_index_and_meta(articles_data, len(new_entries))
 
 
 def build(feeds: list[str] | None = None, max_new: int | None = None) -> None:
