@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-04 07:22
+最終更新: 2026-09-04 07:29
 
 ## 記事一覧
 
+- [GPT-6 Astra料金・使える人・性能 OpenAIが発表した内容まとめ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html): OpenAIが次世代AI「GPT-6 Astra」の提供を開始。ChatGPT Plus以上の有料ユーザーと企業向けのみアクセス可能で、無料ユーザーは利用できない。API利用時は入力100万トークンあたり10ドル、出力は50ドルという価格設定。 (出典: AI Business / 更新: 2026-09-04 07:29)
+- [GPT-6 Astra登場でAI業界激変。99.9%の成績と未知のセキュリティ脅威が意味すること](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-10d135c8.html): OpenAIが新型言語モデル「GPT-6 Astra」を発表。複数の学力テストで過去最高の成績を記録し、前モデルより大幅に高速化。一方、AIが既知の脆弱性を自動発見できる段階に達したことで、セキュリティ上の懸念も浮上している。 (出典: OpenAI公式 / 更新: 2026-09-04 07:28)
 - [オーストラリア AI データセンター 環境 電力 雇用](https://mot-ai-media.github.io/mot-ai-news/articles/ai-540584b1.html): オーストラリアで大型のAIデータセンター建設が相次ぐなか、経済効果への期待と資源・電力消費への懸念が対立している。日本も同じジレンマに直面する可能性が指摘される。 (出典: BBC / 更新: 2026-09-04 07:22)
 - [Nvidia Hugging Face買収129億ドル｜AI開発がどう変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-a0f5f526.html): 半導体大手Nvidiaが、AIモデル共有プラットフォーム「Hugging Face」を129億ドル（約1.9兆円）で買収する。オープンソースAIを広く開発者に提供することが狙い。この買収により、AIツールの敷居がさらに下がり、企業規模を問わずAI活用が進む可能性がある。 (出典: CNBC / 更新: 2026-09-04 07:21)
 - [Claude Fable 5とは？Anthropicが発表した新型AI、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-f4481d1e.html): Anthropicが次期主力AI「Claude Fable 5」の立ち上げを準備中。業界が直面する重要課題への対応が焦点。 (出典: Yellow.com / 更新: 2026-09-04 06:51)
@@ -205,5 +207,3 @@
 - [OpenAI、ChatGPT Plusに5時間制限を復活　計算資源の最適配分で対応](https://mot-ai-media.github.io/mot-ai-news/articles/6c19b30a77bf.html): ChatGPT PlusのWork・Codex機能に5時間制限が復活。計算負荷を平準化し、ユーザーの週単位の利用枠を充実させる戦略転換だ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
 - [Linux版ChatGPTデスクトップアプリ、ついにプレビュー登場。何ができるか全解説](https://mot-ai-media.github.io/mot-ai-news/articles/5f25ee5154ef.html): ChatGPTに加えChatGPT WorkやCodexも搭載。Linux版デスクトップアプリのプレビュー版がついに登場した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
 - [Figure AIの人型ロボット、本社キャンパスで実動、CEO「SF映画そのもの」](https://mot-ai-media.github.io/mot-ai-news/articles/533693b77e74.html): 米Figure AIの人型ロボットが屋外を歩き回る動画が話題に。同社CEOが感想をコメント。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
-- [千葉豪雨、当日昼前まで予測不可能だった理由。ウェザーニューズが語る天気予報の限界](https://mot-ai-media.github.io/mot-ai-news/articles/f619a95d2dbc.html): 観測史上1位の雨量を記録した千葉豪雨。なぜ現代の天気予報は直前まで捉えられなかったのか。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
-- [パブリックプレビュー提供開始、ユーザーが新機能を先行体験可能に](https://mot-ai-media.github.io/mot-ai-news/articles/3b437c89317e.html): 新機能がパブリックプレビュー段階でユーザーに提供開始され、早期フィードバック収集が加速。 (出典: gihyo.jp / 更新: 2026-08-25 20:40)

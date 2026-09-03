@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが新型AI「GPT-6 Astra」を9月3日にリリース—有料ユーザーのみ対象、無料版は除外</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html</guid>
+    <description>OpenAIが次世代AI「GPT-6 Astra」の提供を開始。ChatGPT Plus以上の有料ユーザーと企業向けのみアクセス可能で、無料ユーザーは利用できない。API利用時は入力100万トークンあたり10ドル、出力は50ドルという価格設定。</description>
+    <pubDate>Fri, 04 Sep 2026 07:29:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの新型AI「GPT-6 Astra」、99.9%の正答率で「AGI時代」突入。Claude Fableも上回る</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-10d135c8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-10d135c8.html</guid>
+    <description>OpenAIが新型言語モデル「GPT-6 Astra」を発表。複数の学力テストで過去最高の成績を記録し、前モデルより大幅に高速化。一方、AIが既知の脆弱性を自動発見できる段階に達したことで、セキュリティ上の懸念も浮上している。</description>
+    <pubDate>Fri, 04 Sep 2026 07:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>オーストラリアのAIデータセンター急増、雇用と資源消費の綱引き状態に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-540584b1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-540584b1.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-37c638ec.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-37c638ec.html</guid>
     <description>コード作成が高速化しても、組織全体の成果につながらない企業が増加。AI活用の本当の課題が明らかに。</description>
-    <pubDate>Wed, 02 Sep 2026 15:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIと3D CADで椅子設計、人間とAIの役割分担が鍵に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-ec98b752.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-ec98b752.html</guid>
-    <description>設計者向けの学習コンテンツで、AIと3D CADツールを使った椅子デザインに挑戦する実践例を紹介。</description>
-    <pubDate>Wed, 02 Sep 2026 15:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>声を失った患者が夢中に。AIメガネで「話せる」を取り戻す仕組み</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/communicationboard-ai-ai-b4ef8e10.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/communicationboard-ai-ai-b4ef8e10.html</guid>
-    <description>脳梗塞で話せなくなった患者も、AIとスマートグラスで意思疎通が可能に。医療現場が大きく変わろうとしている。</description>
     <pubDate>Wed, 02 Sep 2026 15:01:00 +0900</pubDate>
   </item>
 </channel></rss>
