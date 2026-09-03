@@ -41,6 +41,19 @@ ARSTECHNICA_AI_RSS = "https://arstechnica.com/ai/feed/"  # 大手テックメデ
 TECHCRUNCH_AI_RSS = "https://techcrunch.com/category/artificial-intelligence/feed/"
 SIMONWILLISON_RSS = "https://simonwillison.net/atom/everything/"  # 著名LLMエンジニアのブログ(マニア向け)
 
+# Claude Fable / ChatGPT Atlas専用ウォッチ(2時間おきの専用タスクで使う)。
+# Google Newsは多くの実メディアを横断集約しているため、個別ブログより出典の信頼性が高い。
+FABLE_ATLAS_QUERY = (
+    '"Claude Fable" OR "Claude Fable 5" OR "ChatGPT Atlas" OR "OpenAI Atlas"'
+)
+FABLE_ATLAS_JP_RSS = (
+    f"https://news.google.com/rss/search?q={urllib.parse.quote(FABLE_ATLAS_QUERY)}&hl=ja&gl=JP&ceid=JP:ja"
+)
+FABLE_ATLAS_EN_RSS = (
+    f"https://news.google.com/rss/search?q={urllib.parse.quote(FABLE_ATLAS_QUERY)}&hl=en-US&gl=US&ceid=US:en"
+)
+FABLE_ATLAS_FEEDS = [FABLE_ATLAS_JP_RSS, FABLE_ATLAS_EN_RSS]
+
 # フィードを追加/削除したい場合はこのリストを編集する
 FEEDS = [
     JP_GOOGLE_NEWS_RSS,
@@ -77,10 +90,13 @@ def _clean_text(raw: str) -> str:
     return html.unescape(text).strip()
 
 
-def fetch_candidates(limit_per_feed: int = 15) -> list[Article]:
-    """全フィードから記事を取得し、正規化して返す。取得失敗フィードは無視する。"""
+def fetch_candidates(limit_per_feed: int = 15, feeds: list[str] | None = None) -> list[Article]:
+    """全フィードから記事を取得し、正規化して返す。取得失敗フィードは無視する。
+
+    feedsを指定すると、通常のFEEDSの代わりにそのフィード群だけを対象にする
+    (Fable/Atlas専用ウォッチなど、特定トピックだけを狙う実行で使う)。"""
     articles: list[Article] = []
-    for url in FEEDS:
+    for url in (feeds if feeds is not None else FEEDS):
         try:
             parsed = feedparser.parse(url)
         except Exception:

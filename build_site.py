@@ -2658,10 +2658,77 @@ def _maybe_send_daily_digest() -> None:
         )
 
 
-def build() -> None:
-    _maybe_send_daily_digest()
+FABLE_ATLAS_DEDUP_PATH = Path(__file__).parent / "fable_atlas_seen.json"
+FABLE_ATLAS_DEDUP_WINDOW_HOURS = 20  # 同じ話題(例: 「Fable 5.1」)はこの時間内は重複記事化しない
+_FABLE_ATLAS_SIG_RE = re.compile(
+    r"(Claude\s*Fable\s*\d+(?:\.\d+)*|Claude\s*Mythos\s*\d+(?:\.\d+)*|ChatGPT\s*Atlas|OpenAI\s*Atlas)",
+    re.IGNORECASE,
+)
+
+
+def _fable_atlas_signatures(text: str) -> set[str]:
+    return {re.sub(r"\s+", "", m.group(0)).lower() for m in _FABLE_ATLAS_SIG_RE.finditer(text or "")}
+
+
+def _load_fable_atlas_seen() -> dict:
+    if not FABLE_ATLAS_DEDUP_PATH.exists():
+        return {}
+    try:
+        return json.loads(FABLE_ATLAS_DEDUP_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _fable_atlas_is_duplicate(article) -> bool:
+    """複数メディアが同じ発表を報じるため、同じ製品バージョンの話題は
+    一定時間内は2記事目を作らない(記事の量産的な重複を防ぐ)。"""
+    sigs = _fable_atlas_signatures(f"{article.title} {article.summary}")
+    if not sigs:
+        return False
+    seen = _load_fable_atlas_seen()
+    now = datetime.now()
+    for sig in sigs:
+        ts = seen.get(sig)
+        if ts:
+            try:
+                if now - datetime.fromisoformat(ts) < timedelta(hours=FABLE_ATLAS_DEDUP_WINDOW_HOURS):
+                    return True
+            except ValueError:
+                continue
+    return False
+
+
+def _fable_atlas_record(article) -> None:
+    sigs = _fable_atlas_signatures(f"{article.title} {article.summary}")
+    if not sigs:
+        return
+    seen = _load_fable_atlas_seen()
+    now_iso = datetime.now().isoformat(timespec="seconds")
+    for sig in sigs:
+        seen[sig] = now_iso
+    cutoff = datetime.now() - timedelta(hours=FABLE_ATLAS_DEDUP_WINDOW_HOURS * 3)
+    seen = {
+        k: v for k, v in seen.items()
+        if _safe_parse_iso(v) is None or _safe_parse_iso(v) > cutoff
+    }
+    FABLE_ATLAS_DEDUP_PATH.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _safe_parse_iso(value: str) -> datetime | None:
+    try:
+        return datetime.fromisoformat(value)
+    except ValueError:
+        return None
+
+
+def build(feeds: list[str] | None = None, max_new: int | None = None) -> None:
+    """feeds/max_newを指定すると、特定トピックだけを狙う専用実行になる
+    (例: Fable/Atlasウォッチ)。指定しなければ通常の全ソース巡回。"""
+    max_new = max_new if max_new is not None else MAX_NEW_ARTICLES
+    if feeds is None:
+        _maybe_send_daily_digest()
     posted_links = state.get_posted_links()
-    articles = sources.fetch_candidates()
+    articles = sources.fetch_candidates(feeds=feeds)
     candidates = sources.filter_unposted(articles, posted_links)
     # 「やさしい」ソースの記事を優先的に生成する(1回の生成数には上限があるため、
     # 技術的なソースの記事ばかり選ばれて「やさしい」記事が埋もれるのを防ぐ)。
@@ -2670,7 +2737,8 @@ def build() -> None:
 
     if not candidates:
         logger.info("下書き候補となる新規記事がありませんでした。")
-        _record_run_result(got_new_articles=False)
+        if feeds is None:
+            _record_run_result(got_new_articles=False)
         return
 
     ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
@@ -2679,7 +2747,7 @@ def build() -> None:
     attempts = 0
 
     for article in candidates:
-        if len(new_entries) >= MAX_NEW_ARTICLES:
+        if len(new_entries) >= max_new:
             break
         if attempts >= MAX_ATTEMPTS_PER_RUN:
             logger.warning("1回の実行あたりのAPI呼び出し上限(%d件)に達したため打ち切り", MAX_ATTEMPTS_PER_RUN)
@@ -2688,6 +2756,11 @@ def build() -> None:
         safe_link = _safe_http_url(article.link)
         if not safe_link:
             logger.warning("記事リンクがhttp/https以外のためスキップ: %r", article.link)
+            state.record_posted(article.link)
+            continue
+
+        if feeds is not None and _fable_atlas_is_duplicate(article):
+            logger.info("同じ話題の重複のためスキップ: %s", article.title)
             state.record_posted(article.link)
             continue
 
@@ -2732,14 +2805,18 @@ def build() -> None:
         articles_data.append(entry)
         new_entries.append(entry)
         state.record_posted(article.link)
+        if feeds is not None:
+            _fable_atlas_record(article)
         logger.info("記事生成成功: %s -> articles/%s.html", article.link, slug)
 
     if not new_entries:
         logger.info("生成できた記事がありませんでした。")
-        _record_run_result(got_new_articles=False)
+        if feeds is None:
+            _record_run_result(got_new_articles=False)
         return
 
-    _record_run_result(got_new_articles=True)
+    if feeds is None:
+        _record_run_result(got_new_articles=True)
 
     # 関連記事を選べるよう、articles_dataが確定してから各記事ページを書き出す
     valid_topic_tags = set(_collect_topics(articles_data))
