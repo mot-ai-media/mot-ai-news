@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude Fable 5が性能で優位、ただし価格は2倍に跳ね上がる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21e2816b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21e2816b.html</guid>
+    <description>Anthropicの新型AI「Claude Fable 5」はコーディングと複雑タスクで強いが、利用料金が大幅値上げ。</description>
+    <pubDate>Fri, 04 Sep 2026 06:03:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、ChatGPT Atlasを終了。ブラウザ機能は本体に統合へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d039ad14.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d039ad14.html</guid>
+    <description>OpenAIのAIブラウザ「ChatGPT Atlas」が終了。機能はChatGPT本体に統合される。</description>
+    <pubDate>Fri, 04 Sep 2026 06:03:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、ChatGPTにペアレンタル コントロール機能を追加</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f005690a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f005690a.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/wogo-hacadly-dd00f931.html</guid>
     <description>WOGOの新AI製図ソフトが、3Dモデルから2D図面を自動生成。数分で寸法や表題欄まで対応。</description>
     <pubDate>Wed, 02 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが仕事を奪わない理由、新しい業務が9割の担当者を苦しめている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aiops-ai-8a77c941.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aiops-ai-8a77c941.html</guid>
-    <description>AI導入で一部業務は効率化されても、別の新しい仕事が生まれ、現場の9割が負担を感じている実態が判明。</description>
-    <pubDate>Wed, 02 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、20人超の同時識別に対応した音声認識AI「Muse Voice Transcribe」発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-d0ec68a3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-d0ec68a3.html</guid>
-    <description>Metaが複数話者を識別できるリアルタイム音声認識モデルを発表。会議録音や多言語対応で活躍の場が広がる。</description>
-    <pubDate>Wed, 02 Sep 2026 14:30:00 +0900</pubDate>
   </item>
 </channel></rss>

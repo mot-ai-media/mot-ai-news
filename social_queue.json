@@ -382,7 +382,7 @@
       "クリエイター"
     ],
     "generated_at": "2026-08-31 06:50",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -440,7 +440,10 @@
         "x_post": "AI導入が加速する中、クリエイティブ職だけでなく、ビジネスパーソン全体が雇用・仕事内容の変化に直面します。低品質なAIコンテンツ氾濫も懸念。早めの情報収集と対応が必須です。",
         "cta": "AIが変える職場と仕事内容を具体的に知る"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18067580222760384",
+    "published_at": "2026-09-04T05:42:01"
   },
   "google-android-e180fa99": {
     "headline": "Googleがスマホアプリのメモリ制限を強化、AI産業の需要が廉価端末を直撃",

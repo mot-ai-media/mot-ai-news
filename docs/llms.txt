@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-04 05:39
+最終更新: 2026-09-04 06:03
 
 ## 記事一覧
 
+- [ChatGPT Atlasが終了。統合される機能と何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d039ad14.html): OpenAIのAIブラウザ「ChatGPT Atlas」が終了。機能はChatGPT本体に統合される。 (出典: OpenAI Help Center / 更新: 2026-09-04 06:03)
+- [Claude Fable 5 vs GPT-5.6 Sol比較、料金・性能どう違う](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21e2816b.html): Anthropicの新型AI「Claude Fable 5」はコーディングと複雑タスクで強いが、利用料金が大幅値上げ。 (出典: Analytics Vidhya / 更新: 2026-09-04 06:03)
 - [ストックマークが生成AIで企業の暗黙知を学習する新サービス](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bb10be6c.html): ストックマークが生成AIを使い、企業内の経験や勘といった暗黙知をAIに学習させる取り組みを開始。 (出典: 日刊工業新聞 / 更新: 2026-09-04 05:39)
 - [Claude Codeデスクトップアプリ、アプリ内ブラウザ機能とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6d2137cc.html): AnthropicのClaudeがコード編集ツールにブラウザ機能を追加し、開発効率を大幅に向上させる動き。 (出典: x.com / 更新: 2026-09-04 05:39)
 - [OpenAIのペアレンタル コントロールとは？ChatGPT利用制限の使い方](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f005690a.html): OpenAIがChatGPTに保護者向けの利用制限機能を導入。子どもの利用を監視・制御できるように。 (出典: OpenAI / 更新: 2026-09-04 05:39)
@@ -205,5 +207,3 @@
 - [政府、生成AI事業者に「知財保護ルール」を強制　透明性確保の新基準始動](https://mot-ai-media.github.io/mot-ai-news/articles/afddd8e401d0.html): 政府が生成AI事業者向けに透明性と知的財産権保護を促す「プリンシプル・コード」を策定。業界の自律的な規制枠組みが本格始動。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 20:40)
 - [謎のAIモデル「Ox Alpha」、OpenRouterで無料公開　正体は中国GLM系か](https://mot-ai-media.github.io/mot-ai-news/articles/e3cef516c781.html): 開発元を隠して公開されたAIモデル「Ox Alpha」が急速に注目を集め、一部ツールで利用シェアトップに。中国Z.aiの「GLM」系という有力な仮説が浮上している。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 20:40)
 - [シャープ「ポケとも」新モデル、あえて全肯定しない性格に変更](https://mot-ai-media.github.io/mot-ai-news/articles/ec36e03e4922.html): シャープの対話型AIロボ「ポケとも」が新モデルを発表。従来と異なり、ユーザーを完全には肯定しないキャラクターへ一変。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 20:40)
-- [Google Geminiとコラボ、BTS体験機能が解禁。「7777」入力で4つのコンテンツが起動](https://mot-ai-media.github.io/mot-ai-news/articles/2391eef47ddc.html): Google GeminiでBTSの特別コラボ機能が公開。特定のコマンド入力で限定コンテンツにアクセス可能。 (出典: Yahoo!ニュース / 更新: 2026-08-25 20:17)
-- [OpenAIとAnthropicのIPO競争、AI業界の勢力図を左右する重大局面](https://mot-ai-media.github.io/mot-ai-news/articles/19fbf8b8ec54.html): OpenAIとAnthropicのIPO動向が、AI業界全体の覇権争いの鍵を握る重要な転機となっている。 (出典: WSJ / 更新: 2026-08-25 20:17)
