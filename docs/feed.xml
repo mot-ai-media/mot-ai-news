@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、新型AI「Claude Fable 5」「Claude Mythos 5」発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-20903e3d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-20903e3d.html</guid>
+    <description>AnthropicがClaudeの新バージョンを発表。性能や用途がどう変わるのか注目が集まっている。</description>
+    <pubDate>Sat, 05 Sep 2026 02:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Snowflake、Claude最新版を統合。企業のAI活用がさらに加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/snowflake-anthropic-claude-69e03612.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/snowflake-anthropic-claude-69e03612.html</guid>
+    <description>データ分析プラットフォームSnowflakeが、Anthropic製の高性能AI「Claude」を統合。企業のデータ分析がより高度に。</description>
+    <pubDate>Sat, 05 Sep 2026 02:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AmazonとGoogleが新学期商戦を「AI買い物アシスタント」で支配へ。消費者の買い方が大きく変わる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-google-097f6c76.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-google-097f6c76.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a149c0d5.html</guid>
     <description>日本政府のAI関連政策骨子に対し、新経済連盟が意見を提出。産業成長とのバランスに関する提言。</description>
     <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが新型AI「GPT-6 Astra」を9月3日にリリース—有料ユーザーのみ対象、無料版は除外</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html</guid>
-    <description>OpenAIが次世代AI「GPT-6 Astra」の提供を開始。ChatGPT Plus以上の有料ユーザーと企業向けのみアクセス可能で、無料ユーザーは利用できない。API利用時は入力100万トークンあたり10ドル、出力は50ドルという価格設定。</description>
-    <pubDate>Fri, 04 Sep 2026 07:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの新型AI「GPT-6 Astra」、99.9%の正答率で「AGI時代」突入。Claude Fableも上回る</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-10d135c8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-10d135c8.html</guid>
-    <description>OpenAIが新型言語モデル「GPT-6 Astra」を発表。複数の学力テストで過去最高の成績を記録し、前モデルより大幅に高速化。一方、AIが既知の脆弱性を自動発見できる段階に達したことで、セキュリティ上の懸念も浮上している。</description>
-    <pubDate>Fri, 04 Sep 2026 07:28:00 +0900</pubDate>
   </item>
 </channel></rss>
