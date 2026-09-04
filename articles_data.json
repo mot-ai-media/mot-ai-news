@@ -7229,7 +7229,7 @@
     },
     "source": "AI Business",
     "image_url": "https://aibusiness.vc/images/articles/multiple-screens-1.jpg",
-    "image_kind": "fallback",
+    "image_kind": "real",
     "level": "easy",
     "generated_at": "2026-09-04 07:29",
     "source_country": "US",

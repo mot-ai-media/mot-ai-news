@@ -163,6 +163,11 @@ main {
   height: 100%;
   object-fit: cover;
 }
+.thumb-link .thumb.thumb-contain {
+  object-fit: contain;
+  padding: 14%;
+  box-sizing: border-box;
+}
 .thumb-overlay {
   position: absolute;
   inset: 0;

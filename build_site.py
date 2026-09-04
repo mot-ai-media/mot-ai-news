@@ -363,6 +363,11 @@ main {
   height: 100%;
   object-fit: cover;
 }
+.thumb-link .thumb.thumb-contain {
+  object-fit: contain;
+  padding: 14%;
+  box-sizing: border-box;
+}
 .thumb-overlay {
   position: absolute;
   inset: 0;
@@ -2225,7 +2230,7 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
         for entry in entries[:MAX_INDEX_ARTICLES]:
             thumbnail = _render_thumbnail(
                 entry["image_url"], entry["image_kind"], entry["source"], entry["slug"], entry["headline"],
-                for_article_page=False,
+                for_article_page=False, tags=entry.get("tags"),
             )
             # index.html基準の相対パス(articles/xxx.html)で組み立ててから、
             # topics/配下のページ用にまとめて一段深いパス(../articles/xxx.html)へ補正する
@@ -3033,7 +3038,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
     for entry in initial:
         thumbnail = _render_thumbnail(
             entry["image_url"], entry["image_kind"], entry["source"], entry["slug"], entry["headline"],
-            for_article_page=False,
+            for_article_page=False, tags=entry.get("tags"),
         )
         cards_html.append(
             CARD_TEMPLATE.format(
@@ -3185,7 +3190,7 @@ def regenerate_all() -> None:
 def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags: set[str] | None = None) -> None:
     thumb_for_article = _render_thumbnail(
         entry["image_url"], entry["image_kind"], entry["source"], entry["slug"], entry["headline"],
-        for_article_page=True,
+        for_article_page=True, tags=entry.get("tags"),
     )
 
     related_pool = _related_entries(entry, articles_data, limit=1 + MAX_RELATED_ARTICLES)
@@ -3365,13 +3370,28 @@ def _write_robots_and_sitemap(articles_data: list[dict], extra_urls: list[str] |
     ROBOTS_PATH.write_text(robots, encoding="utf-8")
 
 
+CLAUDE_FALLBACK_TAGS = {"claude", "anthropic"}
+CLAUDE_FALLBACK_IMAGE = "images/claude-fallback.png"
+CLAUDE_FALLBACK_BG = "#DA7756"  # Anthropicのブランドカラー(クレイ/オレンジ)
+
+
 def _render_thumbnail(
-    image_url: str | None, image_kind: str | None, source: str, slug: str, headline: str, *, for_article_page: bool
+    image_url: str | None, image_kind: str | None, source: str, slug: str, headline: str, *,
+    for_article_page: bool, tags: list[str] | None = None,
 ) -> str:
     safe_image_url = _safe_http_url(image_url)
+    is_claude_related = any((t or "").strip().lower() in CLAUDE_FALLBACK_TAGS for t in (tags or []))
     if image_kind == "real" and safe_image_url:
         bg_style = ""
         img_tag = f'<img class="thumb" src="{html_lib.escape(safe_image_url)}" alt="" loading="lazy">'
+    elif is_claude_related:
+        # 元記事に画像が無いClaude/Anthropic関連記事は、汎用グラデーションの代わりに
+        # Anthropic公式ブランドマーク(スパークロゴ)を使う(ユーザー提供の画像を使用)。
+        bg_style = f"background: {CLAUDE_FALLBACK_BG};"
+        img_tag = (
+            f'<img class="thumb thumb-contain" src="{html_lib.escape(_abs_url(CLAUDE_FALLBACK_IMAGE))}" '
+            f'alt="" loading="lazy">'
+        )
     else:
         color1, color2 = _pick_gradient(source)
         bg_style = f"background: linear-gradient(135deg, {color1}, {color2});"
