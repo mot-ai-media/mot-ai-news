@@ -46,6 +46,7 @@ SHARE_JS_PATH = OUTPUT_DIR / "share.js"
 ABOUT_PATH = OUTPUT_DIR / "about.html"
 PRODUCTS_PATH = OUTPUT_DIR / "products.html"
 CONTACT_PATH = OUTPUT_DIR / "contact.html"
+SUPPORT_PATH = OUTPUT_DIR / "support.html"
 ROBOTS_PATH = OUTPUT_DIR / "robots.txt"
 SITEMAP_PATH = OUTPUT_DIR / "sitemap.xml"
 FEED_PATH = OUTPUT_DIR / "feed.xml"
@@ -139,28 +140,99 @@ GOATCOUNTER_SCRIPT = (
     'async src="//gc.zgo.at/count.js"></script>'
 )
 
-# A8.net アフィリエイト広告。空文字にすれば広告非表示に戻せる
-_AD_NEW = (
-    '<a href="https://px.a8.net/svt/ejp?a8mat=4BC36L+FSKZHU+5J4W+67JU9" rel="sponsored nofollow">'
-    '<img border="0" width="336" height="280" alt="" '
-    'src="https://www22.a8.net/svt/bgt?aid=260904477955&wid=001&eno=01&mid=s00000025808001043000&mc=1"></a>'
-    '<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36L+FSKZHU+5J4W+67JU9" alt="">'
-)
-_AD_AI = (
-    '<a href="https://px.a8.net/svt/ejp?a8mat=4BC36M+9OW19U+4V0U+15P77L" rel="sponsored nofollow">'
-    '<img border="0" width="100" height="60" alt="" '
-    'src="https://www23.a8.net/svt/bgt?aid=260904478586&wid=001&eno=01&mid=s00000022683007004000&mc=1"></a>'
-    '<img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4BC36M+9OW19U+4V0U+15P77L" alt="">'
-)
-_ADS = [_AD_NEW, _AD_AI]
+# --- MOTネイティブ広告(スポンサーカード) -----------------------------------
+# 単なるバナー羅列ではなく、「AIを探している読者に文脈で見つけてもらう」ことを目的に、
+# A8.netの広告クリエイティブ(トラッキング込みの<a><img>...を一切改変せず)を、
+# MOT編集部が書いた見出し・説明文で包む形式にしている(詳細はコピー本文のコメント参照)。
+# コピーは実際にバナー画像を確認した内容のみを反映し、無い実績・数字は書かない。
+# is_ai_relevant=Falseの広告(AIと無関係な一般サービス)は、AI文脈を偽装せず正直な
+# 説明にとどめる(関連性を捏造しない、という本プロジェクトの原則)。
+SPONSOR_CARD_INTERVAL = 6  # ニュースカードを何件表示するごとにスポンサーカードを1枠挟むか
+
+SPONSOR_ADS = [
+    {
+        "id": "plaud",
+        "sponsor": "PLAUD",
+        "title": "会話やメモを録音するだけで、AIが自動で要約してくれる",
+        "description": (
+            "AIボイスレコーダー「PLAUD」。録音した音声をAIが自動で文字起こし・要約する。"
+            "全世界100万ユーザーが利用(スポンサー公表値)。"
+        ),
+        "cta": "詳しく見る",
+        "is_ai_relevant": True,
+        "creative": (
+            '<a href="https://px.a8.net/svt/ejp?a8mat=4BC36L+FSKZHU+5J4W+67JU9" rel="sponsored nofollow" target="_blank">'
+            '<img border="0" width="336" height="280" alt="PLAUD" loading="lazy" '
+            'src="https://www22.a8.net/svt/bgt?aid=260904477955&wid=001&eno=01&mid=s00000025808001043000&mc=1"></a>'
+            '<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36L+FSKZHU+5J4W+67JU9" alt="">'
+        ),
+    },
+    {
+        "id": "virtual-office",
+        "sponsor": "バーチャルオフィス",
+        "title": "起業・副業の登記住所に。業界最安値級のバーチャルオフィス",
+        "description": "士業のサポートも受けられる法人登記用バーチャルオフィス。無料プランあり。",
+        "cta": "無料プランを見る",
+        "is_ai_relevant": False,
+        "creative": (
+            '<a href="https://px.a8.net/svt/ejp?a8mat=4BC36M+9OW19U+4V0U+15P77L" rel="sponsored nofollow" target="_blank">'
+            '<img border="0" width="100" height="60" alt="バーチャルオフィス" loading="lazy" '
+            'src="https://www23.a8.net/svt/bgt?aid=260904478586&wid=001&eno=01&mid=s00000022683007004000&mc=1"></a>'
+            '<img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4BC36M+9OW19U+4V0U+15P77L" alt="">'
+        ),
+    },
+    {
+        "id": "gmktec",
+        "sponsor": "GMKtec",
+        "title": "AIスパコン時代を、手のひらサイズのミニPCから",
+        "description": "ミニPCブランド「GMKtec」。ローカルAI環境や自宅サーバー用途にも使えるコンパクトな一台。",
+        "cta": "製品を見る",
+        "is_ai_relevant": True,
+        "creative": (
+            '<a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" rel="sponsored nofollow" target="_blank">'
+            '<img border="0" width="120" height="60" alt="GMKtec" loading="lazy" '
+            'src="https://www28.a8.net/svt/bgt?aid=260904481474&wid=001&eno=01&mid=s00000027479001005000&mc=1"></a>'
+            '<img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" alt="">'
+        ),
+    },
+    {
+        "id": "campfire",
+        "sponsor": "CAMPFIRE",
+        "title": "AIプロダクトのアイデアを、クラウドファンディングで形に",
+        "description": "国内最大級のクラウドファンディング「CAMPFIRE」。自作のAIツールやプロジェクトの資金調達にも使える。",
+        "cta": "サービスを見る",
+        "is_ai_relevant": False,
+        "creative": (
+            '<a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+76E5BM+5XBQ+5YJRM" rel="sponsored nofollow" '
+            'target="_blank" class="sponsor-text-link">CAMPFIREを見る</a>'
+            '<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36P+76E5BM+5XBQ+5YJRM" alt="">'
+        ),
+    },
+]
 
 
-def _pick_ad(entry: dict) -> str:
-    """記事ごとに広告を1つだけ表示する(以前は2つ同時表示だったが半分に削減)。
-    slugのハッシュで決定的に選ぶので、同じ記事は毎回同じ広告になり、全体ではほぼ半々に分散する。
-    広告を追加するときは_ADSにappendするだけでよい(1記事1広告のまま、露出面積は増えない)。"""
-    idx = int(hashlib.sha1(entry.get("slug", "").encode("utf-8")).hexdigest(), 16) % len(_ADS)
-    return f'<span class="ad-label">広告</span><div class="ad-item">{_ADS[idx]}</div>'
+def _pick_sponsor(seed: str, ai_only: bool = False) -> dict:
+    """seed(記事slug等)のハッシュで決定的に1つ選ぶ。同じseedなら毎回同じ広告になる。"""
+    pool = [a for a in SPONSOR_ADS if a["is_ai_relevant"]] if ai_only else SPONSOR_ADS
+    idx = int(hashlib.sha1(seed.encode("utf-8")).hexdigest(), 16) % len(pool)
+    return pool[idx]
+
+
+def _render_sponsor_card(ad: dict, *, size: str = "normal") -> str:
+    """MOTネイティブ広告カード。バナー画像はA8.netのクリエイティブをそのまま(トラッキング
+    ピクセル込みで)使い、見出し・説明・CTAはMOT編集部が書いた文章で囲む(TYPE F寄りの設計)。"""
+    size_class = f" sponsor-card-{size}" if size != "normal" else ""
+    return (
+        f'<article class="card sponsor-card{size_class}">'
+        f'<div class="sponsor-card-body">'
+        f'<p class="sponsor-label">PR・Sponsored</p>'
+        f'<h3 class="sponsor-title">{html_lib.escape(ad["title"])}</h3>'
+        f'<p class="sponsor-desc">{html_lib.escape(ad["description"])}</p>'
+        f'<div class="sponsor-creative">{ad["creative"]}</div>'
+        f'<span class="sponsor-cta">{html_lib.escape(ad["cta"])} &rarr;</span>'
+        f'<p class="sponsor-name">{html_lib.escape(ad["sponsor"])}</p>'
+        f"</div></article>"
+    )
 
 FAVICON_DATA_URI = (
     "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E"
@@ -416,23 +488,62 @@ main {
   color: #555;
   margin: 0;
 }
-.ad-slot {
-  margin-top: 10px;
-  padding: 6px;
-  font-size: 0.7rem;
-  color: #bbb;
-  border: 1px dashed #ddd;
-  text-align: center;
+/* --- MOTネイティブ広告(スポンサーカード) --- */
+.sponsor-card {
+  border: 1px solid #eee2c8;
+  background: #fffdf7;
 }
-.ad-label {
-  display: block;
+.sponsor-card-body { padding: 16px; }
+.sponsor-label {
+  display: inline-block;
   font-size: 0.65rem;
-  color: #bbb;
-  margin-bottom: 4px;
-  letter-spacing: 0.05em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #9a7b2e;
+  background: #fbf0d3;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin: 0 0 10px;
 }
-.ad-item img { max-width: 100%; height: auto; }
-.ad-slot .ad-item img { max-width: 140px; }
+.sponsor-title {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #14141c;
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+.sponsor-desc {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+.sponsor-creative { margin-bottom: 10px; }
+.sponsor-creative img { max-width: 100%; height: auto; border-radius: 6px; }
+.sponsor-text-link {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--mot-primary);
+  text-decoration: underline;
+}
+.sponsor-cta {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--mot-primary);
+}
+.sponsor-name {
+  font-size: 0.72rem;
+  color: #999;
+  margin: 8px 0 0;
+}
+:root[data-theme="dark"] .sponsor-card { background: #23200f; border-color: #4a3f1e; }
+:root[data-theme="dark"] .sponsor-label { background: #4a3f1e; color: #e8cf85; }
+:root[data-theme="dark"] .sponsor-title { color: #f2f2f5; }
+:root[data-theme="dark"] .sponsor-desc { color: #c7c7d1; }
+/* 記事一覧の中に挟むスポンサーカードは、通常のニュースカードと横幅を揃える */
+.sponsor-card-inline .sponsor-creative { text-align: center; }
 footer {
   text-align: center;
   font-size: 0.75rem;
@@ -723,15 +834,9 @@ footer a {
 .article-page .summary p:last-child {
   margin-bottom: 0;
 }
-.ad-slot-large {
-  margin: 20px 0;
-  padding: 24px;
-  font-size: 0.8rem;
-  color: #bbb;
-  border: 1px dashed #ddd;
-  text-align: center;
-  border-radius: 8px;
-}
+.ad-slot-large { margin: 28px 0; }
+.ad-slot-large .sponsor-card-body { padding: 20px; }
+.ad-slot-large .sponsor-title { font-size: 1.1rem; }
 .source-link {
   display: inline-block;
   margin-top: 8px;
@@ -836,8 +941,6 @@ footer a {
 :root[data-theme="dark"] .fact-what dt { color: #8fa0ff; }
 :root[data-theme="dark"] .fact-why dt { color: #f0b649; }
 :root[data-theme="dark"] .fact-impact dt { color: #3ecda0; }
-:root[data-theme="dark"] .ad-slot,
-:root[data-theme="dark"] .ad-slot-large,
 :root[data-theme="dark"] .topic-tile { border-color: #2a2a35; color: #77778a; }
 :root[data-theme="dark"] .topic-tile { background: #17171f; color: #cfcfe0; }
 :root[data-theme="dark"] .tag-pill { background: #1e1e29; color: #b8b8cc; }
@@ -1097,6 +1200,9 @@ footer a {
 
 /* --- TODAY IN AI --- */
 .today-ai { margin-bottom: 44px; }
+.mot-pick { margin-bottom: 44px; }
+.mot-pick .sponsor-card-pick .sponsor-card-body { padding: 20px; }
+.mot-pick .sponsor-card-pick .sponsor-title { font-size: 1.05rem; }
 .today-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1288,7 +1394,7 @@ SHARE_JS = """(function () {
     }
 
     // 検索中は上部(ティッカー/HERO/TODAY'S BRIEFING/TOPICS等)を隠し、検索結果だけに集中できるようにする
-    document.querySelectorAll(".mot-tagline-strip, .mot-ticker, #continue-exploring, .hero, .today-ai, .topics-explore")
+    document.querySelectorAll(".mot-tagline-strip, .mot-ticker, #continue-exploring, .hero, .today-ai, .topics-explore, .sponsor-card")
       .forEach(function (el) { el.style.display = q ? "none" : ""; });
     var resultsHeading = document.querySelector(".latest-news .section-title-lg");
     if (resultsHeading) {
@@ -1453,6 +1559,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <div id="continue-exploring"></div>
 {hero}
 {todays_briefing}
+{mot_pick}
 {topics_explore}
 <section class="latest-news" id="latest">
   <p class="section-label">LATEST NEWS</p>
@@ -1485,6 +1592,11 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   var BATCH = 8;
 
   function renderCard(item) {{
+    if (item.is_sponsor) {{
+      var wrap = document.createElement("div");
+      wrap.innerHTML = item.sponsor_html;
+      return wrap.firstElementChild;
+    }}
     var article = document.createElement("article");
     article.className = item.importance === "minor" ? "card card-minor" : "card";
     article.setAttribute("data-searchable", "");
@@ -1576,11 +1688,6 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
       body.appendChild(tagWrap);
     }}
 
-    var adSlot = document.createElement("div");
-    adSlot.className = "ad-slot";
-    adSlot.innerHTML = item.ad_code;
-    body.appendChild(adSlot);
-
     article.appendChild(body);
     return article;
   }}
@@ -1650,7 +1757,6 @@ CARD_TEMPLATE = """<article class="card{importance_class}" data-searchable data-
     <p class="meta">{level_badge} 出典: {source}　&middot;　{reading_time}分で読める</p>
     <p class="summary">{summary}</p>
     {card_tags}
-    <div class="ad-slot">{ad_code}</div>
   </div>
 </article>
 """
@@ -1856,6 +1962,19 @@ def _render_todays_briefing(articles_data: list[dict], exclude_slug: str | None 
     )
 
 
+def _render_mot_pick(seed: str) -> str:
+    """TODAY'S BRIEFING直下に置く、MOT編集部のスポンサー枠(1枠のみ)。
+    AI関連の広告だけをこの一番目立つ場所に使う(is_ai_relevant=Trueの広告限定)。
+    日替わりでseedを変えれば選ばれる広告も変わる(呼び出し側でgenerated_at等を渡す)。"""
+    ad = _pick_sponsor(seed, ai_only=True)
+    return (
+        '<section class="mot-pick">'
+        '<p class="section-label">MOT PICK</p>'
+        f'{_render_sponsor_card(ad, size="pick")}'
+        "</section>"
+    )
+
+
 def _render_topics_explore(articles_data: list[dict]) -> str:
     topics = _collect_topics(articles_data)
     if not topics:
@@ -2002,7 +2121,7 @@ CONTACT_TEMPLATE = """<!DOCTYPE html>
 
   <div class="contact-card">
     <h2>協業・スポンサーのご相談</h2>
-    <p class="summary">プロダクト紹介、AIサービスの紹介、スポンサー掲載、その他コラボレーションのご相談はこちらから。まずは達成したいことを教えてください。予算感の記載は任意です。</p>
+    <p class="summary">プロダクト紹介、AIサービスの紹介、スポンサー掲載、その他コラボレーションのご相談はこちらから。まずは達成したいことを教えてください。予算感の記載は任意です。掲載枠の種類は<a href="support.html">Support MOT</a>のページで紹介しています。</p>
     <a class="contact-btn" href="https://forms.gle/AvexYm3dxnRRRRTf7" target="_blank" rel="noopener noreferrer">相談する &raquo;</a>
   </div>
 
@@ -2055,6 +2174,59 @@ PRODUCTS_TEMPLATE = """<!DOCTYPE html>
     長野の人と仕事を、ひとつずつ訪ねて記録していくプロジェクトです。まだ始まったばかりです。
   </p>
   <p class="summary">ご自身のプロダクトをMOTで紹介してほしい方は<a href="contact.html">お問い合わせページ</a>からどうぞ。</p>
+</main>
+<footer>
+  <a href="index.html">&laquo; トップへ戻る</a>
+</footer>
+</body>
+</html>
+"""
+
+SUPPORT_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+{theme_init}
+{csp}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support MOT | AI特化メディアMOT</title>
+<meta name="description" content="AI特化メディアMOTのスポンサー・広告掲載についてのご案内です。">
+<link rel="canonical" href="{page_url}">
+<link rel="icon" href="{favicon}">
+{google_font}
+<link rel="stylesheet" href="style.css">
+{goatcounter}
+</head>
+<body class="article-page">
+{nav}
+<main>
+  <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
+  <h1 class="headline">Support MOT</h1>
+  <p class="summary">MOTはAIの進化を追いかける人のためのメディアです。AIに関する良いサービスやプロジェクトを、必要としている人に届けるためのスポンサーを募集しています。</p>
+
+  <p class="summary">MOTの読者は、AIに興味があり、AIツールを探し、AIを仕事や開発に活かしたいと考えている人たちです。MOTへの掲載は、単なる表示回数ではなく、AIへの関心が高い読者への文脈付きリーチとして設計しています。</p>
+
+  <div class="contact-card">
+    <h2>1. MOT Pick</h2>
+    <p class="summary">トップページの「今日、知っておくべきこと」直下、最も目立つ1枠。編集部が実際にバナー内容を確認したうえで、記事のようなトーンで紹介文を書きます。</p>
+  </div>
+  <div class="contact-card">
+    <h2>2. Sponsored News枠</h2>
+    <p class="summary">ニュース一覧の中に、数件おきに1枠だけ差し込むスポンサーカード。通常のニュースカードと近いデザインで、ただし必ず「PR・Sponsored」表記を付けます。</p>
+  </div>
+  <div class="contact-card">
+    <h2>3. AI Tool Feature</h2>
+    <p class="summary">記事ページの本文を読み終えた読者に向けた1枠。関連性の高いAIツール・サービスの紹介に向いています。</p>
+  </div>
+  <div class="contact-card">
+    <h2>4. Newsletter Sponsor / Community Sponsor</h2>
+    <p class="summary">今後の展開に応じて検討中の掲載枠です。ご興味があれば、まずはお問い合わせからご相談ください。</p>
+  </div>
+
+  <p class="summary" style="margin-top:32px;">MOTでは、読者体験を損なう広告は掲載しません。ポップアップ、全画面広告、記事本文への広告の割り込みなどは行いません。</p>
+  <p class="summary">スポンサーだからといって編集内容や評価を保証するものではありません。紹介文は編集部が内容を確認したうえで、MOTの読者にとって自然な情報になるよう書きます。</p>
+
+  <p class="summary" style="margin-top:28px;"><a class="contact-btn" href="contact.html">掲載のご相談はこちらから &raquo;</a></p>
 </main>
 <footer>
   <a href="index.html">&laquo; トップへ戻る</a>
@@ -3097,6 +3269,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
     more = all_latest[MAX_INDEX_ARTICLES : MAX_INDEX_ARTICLES + MAX_INFINITE_SCROLL_ARTICLES]
 
     cards_html = []
+    card_position = 0
     for entry in initial:
         thumbnail = _render_thumbnail(
             entry["image_url"], entry["image_kind"], entry["source"], entry["slug"], entry["headline"],
@@ -3116,10 +3289,13 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
                 level=_entry_level(entry),
                 level_badge=_level_badge(entry),
                 card_tags=_render_card_tags(entry),
-                ad_code=_pick_ad(entry),
                 importance_class=" card-minor" if _entry_importance(entry) == "minor" else "",
             )
         )
+        card_position += 1
+        if card_position % SPONSOR_CARD_INTERVAL == 0:
+            ad = _pick_sponsor(f"latest-{card_position}")
+            cards_html.append(_render_sponsor_card(ad, size="inline"))
 
     def _more_entry(e: dict) -> dict:
         page_url = _abs_url(f"articles/{e['slug']}.html")
@@ -3137,16 +3313,21 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             "level": _entry_level(e),
             "level_label": LEVEL_LABELS[_entry_level(e)],
             "tags": (e.get("tags") or [])[:3],
-            "ad_code": _pick_ad(e),
             "importance": _entry_importance(e),
         }
         if e["image_kind"] != "real":
             data["g1"], data["g2"] = _pick_gradient(e["source"])
         return data
 
-    more_articles_json = json.dumps(
-        [_more_entry(e) for e in more], ensure_ascii=False
-    ).replace("</", "<\\/")  # </script>によるタグ混入対策
+    more_items: list[dict] = []
+    for e in more:
+        more_items.append(_more_entry(e))
+        card_position += 1
+        if card_position % SPONSOR_CARD_INTERVAL == 0:
+            ad = _pick_sponsor(f"latest-{card_position}")
+            more_items.append({"is_sponsor": True, "sponsor_html": _render_sponsor_card(ad, size="inline")})
+
+    more_articles_json = json.dumps(more_items, ensure_ascii=False).replace("</", "<\\/")  # </script>によるタグ混入対策
 
     # HEROは「今日一番重要なもの」を出したいので、まずmajor記事を新しい順に探し、
     # 無ければ従来通り情報の厚みベースの編集部ピックアップにフォールバックする。
@@ -3170,6 +3351,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         hero=_render_hero(hero_entry) if hero_entry else "",
         ticker=_render_ticker(articles_data, exclude_slug=hero_slug),
         todays_briefing=_render_todays_briefing(articles_data, exclude_slug=hero_slug),
+        mot_pick=_render_mot_pick(datetime.now().strftime("%Y-%m-%d")),
         topics_explore=_render_topics_explore(articles_data),
         topics_summary_json=topics_summary_json,
         favicon=FAVICON_DATA_URI,
@@ -3220,6 +3402,18 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             google_font=GOOGLE_FONT_LINK,
             theme_init=THEME_INIT_SCRIPT,
             nav=_render_sub_nav("", _abs_url("products.html")),
+        ),
+        encoding="utf-8",
+    )
+    SUPPORT_PATH.write_text(
+        SUPPORT_TEMPLATE.format(
+            favicon=FAVICON_DATA_URI,
+            goatcounter=GOATCOUNTER_SCRIPT,
+            page_url=_abs_url("support.html"),
+            csp=CSP_META,
+            google_font=GOOGLE_FONT_LINK,
+            theme_init=THEME_INIT_SCRIPT,
+            nav=_render_sub_nav("", _abs_url("support.html")),
         ),
         encoding="utf-8",
     )
@@ -3312,7 +3506,7 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
         share_url=share_url,
         slug=entry["slug"],
         next_insight=next_insight_html,
-        ad_code=_pick_ad(entry),
+        ad_code=_render_sponsor_card(_pick_sponsor(entry["slug"])),
         goatcounter=GOATCOUNTER_SCRIPT,
         structured_data=(
             _render_structured_data(entry, page_url, og_image)
@@ -3408,6 +3602,7 @@ def _write_robots_and_sitemap(articles_data: list[dict], extra_urls: list[str] |
     urls = [
         (_abs_url("index.html"), today), (_abs_url("about.html"), today),
         (_abs_url("products.html"), today), (_abs_url("contact.html"), today),
+        (_abs_url("support.html"), today),
         (_abs_url("nagano/index.html"), today), (_abs_url("nagano/about.html"), today),
         (_abs_url("nagano/stories.html"), today),
     ]

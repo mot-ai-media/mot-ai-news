@@ -209,23 +209,62 @@ main {
   color: #555;
   margin: 0;
 }
-.ad-slot {
-  margin-top: 10px;
-  padding: 6px;
-  font-size: 0.7rem;
-  color: #bbb;
-  border: 1px dashed #ddd;
-  text-align: center;
+/* --- MOTネイティブ広告(スポンサーカード) --- */
+.sponsor-card {
+  border: 1px solid #eee2c8;
+  background: #fffdf7;
 }
-.ad-label {
-  display: block;
+.sponsor-card-body { padding: 16px; }
+.sponsor-label {
+  display: inline-block;
   font-size: 0.65rem;
-  color: #bbb;
-  margin-bottom: 4px;
-  letter-spacing: 0.05em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #9a7b2e;
+  background: #fbf0d3;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin: 0 0 10px;
 }
-.ad-item img { max-width: 100%; height: auto; }
-.ad-slot .ad-item img { max-width: 140px; }
+.sponsor-title {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #14141c;
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+.sponsor-desc {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+.sponsor-creative { margin-bottom: 10px; }
+.sponsor-creative img { max-width: 100%; height: auto; border-radius: 6px; }
+.sponsor-text-link {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--mot-primary);
+  text-decoration: underline;
+}
+.sponsor-cta {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--mot-primary);
+}
+.sponsor-name {
+  font-size: 0.72rem;
+  color: #999;
+  margin: 8px 0 0;
+}
+:root[data-theme="dark"] .sponsor-card { background: #23200f; border-color: #4a3f1e; }
+:root[data-theme="dark"] .sponsor-label { background: #4a3f1e; color: #e8cf85; }
+:root[data-theme="dark"] .sponsor-title { color: #f2f2f5; }
+:root[data-theme="dark"] .sponsor-desc { color: #c7c7d1; }
+/* 記事一覧の中に挟むスポンサーカードは、通常のニュースカードと横幅を揃える */
+.sponsor-card-inline .sponsor-creative { text-align: center; }
 footer {
   text-align: center;
   font-size: 0.75rem;
@@ -516,15 +555,9 @@ footer a {
 .article-page .summary p:last-child {
   margin-bottom: 0;
 }
-.ad-slot-large {
-  margin: 20px 0;
-  padding: 24px;
-  font-size: 0.8rem;
-  color: #bbb;
-  border: 1px dashed #ddd;
-  text-align: center;
-  border-radius: 8px;
-}
+.ad-slot-large { margin: 28px 0; }
+.ad-slot-large .sponsor-card-body { padding: 20px; }
+.ad-slot-large .sponsor-title { font-size: 1.1rem; }
 .source-link {
   display: inline-block;
   margin-top: 8px;
@@ -629,8 +662,6 @@ footer a {
 :root[data-theme="dark"] .fact-what dt { color: #8fa0ff; }
 :root[data-theme="dark"] .fact-why dt { color: #f0b649; }
 :root[data-theme="dark"] .fact-impact dt { color: #3ecda0; }
-:root[data-theme="dark"] .ad-slot,
-:root[data-theme="dark"] .ad-slot-large,
 :root[data-theme="dark"] .topic-tile { border-color: #2a2a35; color: #77778a; }
 :root[data-theme="dark"] .topic-tile { background: #17171f; color: #cfcfe0; }
 :root[data-theme="dark"] .tag-pill { background: #1e1e29; color: #b8b8cc; }
@@ -890,6 +921,9 @@ footer a {
 
 /* --- TODAY IN AI --- */
 .today-ai { margin-bottom: 44px; }
+.mot-pick { margin-bottom: 44px; }
+.mot-pick .sponsor-card-pick .sponsor-card-body { padding: 20px; }
+.mot-pick .sponsor-card-pick .sponsor-title { font-size: 1.05rem; }
 .today-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

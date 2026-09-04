@@ -101,7 +101,7 @@
     }
 
     // 検索中は上部(ティッカー/HERO/TODAY'S BRIEFING/TOPICS等)を隠し、検索結果だけに集中できるようにする
-    document.querySelectorAll(".mot-tagline-strip, .mot-ticker, #continue-exploring, .hero, .today-ai, .topics-explore")
+    document.querySelectorAll(".mot-tagline-strip, .mot-ticker, #continue-exploring, .hero, .today-ai, .topics-explore, .sponsor-card")
       .forEach(function (el) { el.style.display = q ? "none" : ""; });
     var resultsHeading = document.querySelector(".latest-news .section-title-lg");
     if (resultsHeading) {
