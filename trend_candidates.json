@@ -48,5 +48,55 @@
     "japan_relevance_score": 65,
     "reason": "オフィスワーカーのAI懸念は既出だが、日本でも雇用不安が高まる中で関心が高い可能性がある。",
     "discovered_at": "2026-09-03T22:23:11.465014+00:00"
+  },
+  {
+    "title": "NYC mayor Mamdani imposes 1 year ban on AI for schools through 8th grade",
+    "link": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat\nComments URL: https://news.ycombinator.com/item?id=49558433\nPoints: 40\n# Comments: 11",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AIの学校教育制限は各地で検討中だが、市レベルの1年間禁止令は具体的で、日本の教育政策議論の参考になる可能性がある。",
+    "discovered_at": "2026-09-04T10:28:42.984578+00:00"
+  },
+  {
+    "title": "Protecting Engineers' Skills in the AI Era",
+    "link": "https://spectrum.ieee.org/ai-engineer-skills",
+    "source": "Hacker News",
+    "summary": "Article URL: https://spectrum.ieee.org/ai-engineer-skills\nComments URL: https://news.ycombinator.com/item?id=49558302\nPoints: 35\n# Comments: 20",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI時代のエンジニアスキル保護は重要テーマだが、既出議論が多く新規性に欠ける。",
+    "discovered_at": "2026-09-04T10:28:44.487223+00:00"
+  },
+  {
+    "title": "Yes, no (built-in) AI is now a feature – LibreOffice blog",
+    "link": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/\nComments URL: https://news.ycombinator.com/item?id=49553350\nPoints: 33\n# Comments: 6",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AIを組み込まない方針は珍しいが、既に多くのOSSが同様の立場を表明しており、LibreOfficeの公式声明という点で話題性は限定的。",
+    "discovered_at": "2026-09-04T10:28:46.471832+00:00"
+  },
+  {
+    "title": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+    "link": "https://news.ycombinator.com/item?id=49552616",
+    "source": "Hacker News",
+    "summary": "Hi HN, I'm Ansh, founder of Mireye (https://www.mireye.com). I'm building the infrastructure AI agents use to make decisions about physical places: data, enrichment, tools, and signals for any US location, behind one API and MCP server.Here's a demo video: https://www.youtube.com/watch?v=haqO6UbUqU0To try it, paste https://www.mireye.com/skills.md into your agent, and grab a free key at mireye.com (5,000 credits, no card). Docs are at https://docs.mireye.ai. The fastest way in is to ask the API any question about any US location. Test it on a place you know, cold and grade it against what you know.Before Mireye I was building construction agents and hit this wall myself: my agent could reason about anything online but knew nothing about the ground under it. Then a Fortune 500 insurer told me their engineers had given up on underwriting agents for the same reason. Frontier models keep hallucinating when asked a specific question about a specific place.My first product was a niche site-screening app. Customers tested it on places they knew and the answers held up, but nobody cared about the app. They wanted the engine underneath. Usage agreed: 311 of the 317 fields in the catalog get queried and no use case dominates. So I killed the app and started building the infrastructure instead.Mireye is not a dataset with an API on top, because facts alone are not a decision. An agent runs the whole job through it: cited facts, a bare address enriched into owner, acreage, structures, and nearby power, tools for the operations models get wrong, and signals when something changes, like a rezoning filing. Data, enrichment, tools, signals.The tools came from watching agents fail. We build agents on our own infra, and the same things kept breaking: an agent would eyeball a distance instead of computing it, grab the wrong parcel for an address, or burn its whole budget halfway through a batch. Each failure became something an agent can call: deterministic geometry and drive-time tools, parcel resolution, a quote endpoint that prices a job before it runs, and skills that package whole workflows like screening a site or underwriting an address.The hard part surprised me. Every source has to be gathered (sometimes county by county, in whatever format each county publishes), normalized into one schema, contracted (where it comes from, what each value means, how often it refreshes), and then kept fresh forever. We run that loop for 366 fields today, served multi-tenant from one index, and every source fought back differently. Maryland publishes a dataset literally titled \"Hidden Property Owner Names.\" I filed public records requests in North Carolina because nobody indexes sewer mains.The deeper problem is meaning. Two counties publish a field with the same name and it means different things. And the most dangerous value is null. Does it mean \"no flood zone here\" or \"this county never mapped floods\"? Put a model in front of that gap and it fills the silence with a plausible number. So we type absence. Every field returns ok, absent, or failed. Customers have told me the refusals are why they trust it.The newest piece is on-demand indexing. Ask for a field we don't have and a long-running agent researches sources, collects the data, tests it against ground truth, and indexes it, usually within a day. I'll take a few field requests from this thread and report back with what it built.People have built things I didn't plan for: insurance teams screening portfolios for flood, wind, and wildfire, a proptech cleaning messy listing addresses through enrichment, a wellness brand scoring street corners for poster spots, a robotics company sourcing warehouses, data center site selection, drone deployment planning, school bus routes for a city, signals for human trafficking investigations. The mission is to index every inch of the earth and make it as queryable as the web.Pricing is public: the free tier is 5,000 credits a month, $19/month for 25,000, $99/month for 120,000, custom for enterprise.I'd love to hear where the agents you're building touch the physical world. And I'd love it more if you run Mireye on a place you know and tell me what we got wrong.\n\nComments URL: https://news.ycombinator.com/item?id=49552616\nPoints: 28\n# Comments: 6",
+    "novelty_score": 62,
+    "japan_relevance_score": 35,
+    "reason": "物理世界AI向けの位置情報インフラは新しいが、米国特化で日本適用には大きな障壁がある。",
+    "discovered_at": "2026-09-04T10:28:48.349925+00:00"
+  },
+  {
+    "title": "OpenAI's new reasoning technique alarms AI safety experts",
+    "link": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/\nComments URL: https://news.ycombinator.com/item?id=49552395\nPoints: 39\n# Comments: 19",
+    "novelty_score": 65,
+    "japan_relevance_score": 72,
+    "reason": "OpenAIの新しい推論技術がAI安全専門家から懸念されており、AI規制が進む日本でも注目される可能性が高い。",
+    "discovered_at": "2026-09-04T10:28:50.097678+00:00"
   }
 ]
