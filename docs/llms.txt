@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-04 14:38
+最終更新: 2026-09-04 18:02
 
 ## 記事一覧
 
+- [Thinking Machines $40B評価額で大型調達。AIスタートアップの現在地とは](https://mot-ai-media.github.io/mot-ai-news/articles/thinking-machines-accel-46fa5743.html): AIスタートアップのThinking Machinesが巨額調達の段階へ。業界の資金動向から目が離せない。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 18:02)
+- [Abliteration.ai とは？AIの安全機能を削除するサービスの狙い](https://mot-ai-media.github.io/mot-ai-news/articles/abliteration-ai-ai-222024e0.html): AIの制限を取り除いたモデルへのアクセスを容易にする企業が登場。防御側の武器を充実させるという主張だが、悪用のリスクも浮上。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 18:02)
+- [AIデータセンターにフラッシュメモリが必要な理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dbccfbe0.html): キオクシアがAIデータセンター向けメモリ・SSD技術の最新トレンドを展示会で発表。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 18:01)
+- [AI生成メニューの問題点とは？レストラン経営者が知るべき落とし穴](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-73d7f7bb.html): 飲食店がAIでメニューを作ると、顧客は言語化できない違和感を感じてしまう現象が報告されている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 18:01)
+- [Crusoe Energy 資金調達とは？AIデータセンター企業が300億ドル超の評価](https://mot-ai-media.github.io/mot-ai-news/articles/crusoe-energy-ai-49b35d8a.html): AI向けデータセンター企業Crusoeが大型資金調達を実施し、業界内での競争がさらに激しくなる局面へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 18:01)
 - [カスハラ対策義務化いつから？AIスマートウォッチの仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/watch-33f2543e.html): 2026年10月の法改正でカスハラ対策が必須に。AI音声解析搭載の腕時計型デバイスが対応策として発表された。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:32)
 - [2D図面を3D CADに自動変換するAI「Zumen AI」とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-zumen-ai-2adf8e11.html): ホルスAIが、2D図面からの3D CADモデル生成と組立図からのバラシ図面作成を行うAIサービスを開始。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:31)
 - [三井倉庫のDX戦略とは？200億円投資の配分内訳](https://mot-ai-media.github.io/mot-ai-news/articles/dx-ef30db65.html): 話題の企業が明かす、地味だが本質的なDXへの向き合い方と物流業界が直面する課題。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:31)
@@ -202,8 +207,3 @@
 - [AIエージェント担当者が担う6つの役割。90日で組織を変える](https://mot-ai-media.github.io/mot-ai-news/articles/e5cb200d0753.html): AIエージェント担当者の真の仕事はツール選定ではなく、業務設計と権限統制にある。必要スキルと実行ロードマップを解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:15)
 - [IT部門の負担激減、AIエージェント導入で業務効率化が加速](https://mot-ai-media.github.io/mot-ai-news/articles/05cc3865a807.html): パスワードリセットなど定型業務に追われるIT部門がAIエージェント活用で抜本改革。導入手順と費用相場を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:15)
 - [生成AIチャットボット選びの失敗を防ぐ、7つの比較軸を解説](https://mot-ai-media.github.io/mot-ai-news/articles/0cd186cc3eea.html): ベンダー発信の偏った比較表に頼らず、客観的にAIチャットボットを選定するための7つの評価ポイントを紹介。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:15)
-- [AIエージェント、マーケティング業務を自動化。10の活用事例で業務激変](https://mot-ai-media.github.io/mot-ai-news/articles/9b8dc4da1bd1.html): ChatGPT時代でも手作業が残るマーケティング業務を、AIエージェントが目標設定から実行・改善まで全自動化する仕組みが登場。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:15)
-- [生成AIの成果は間接業務止まり、製造現場を変えるAIエージェント戦略](https://mot-ai-media.github.io/mot-ai-news/articles/e92ac704054c.html): 議事録作成などの間接業務に限定した生成AI導入から脱却し、原価削減に直結する製造工程へのAIエージェント活用が急務となっている。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:15)
-- [AIエージェント、生成AIの次のステージへ。人間にしか残せない仕事が明確化](https://mot-ai-media.github.io/mot-ai-news/articles/378dc6c17527.html): 目標を与えるだけで計画から実行まで自動化するAIエージェント。下書き作成の段階を超え、業務の根本的な変化が迫っている。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:14)
-- [企業の8割が把握できていない、野良AIの実態。発覚の2パターンと対策を解明](https://mot-ai-media.github.io/mot-ai-news/articles/c00a5b0e8ddf.html): 社内で無断使用されるAIツール「野良AI」が後を絶たない。約500社の分析から、実際の発覚事例と防衛策が明らかになった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 16:13)
-- [日本企業のAIエージェント本番運用は17%、先進国で最下位の衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/0b97ae09081b.html): Confluentの調査で、AIエージェントを本番運用している日本企業は17%にとどまり、国際的に大きく後れを取っている実態が判明した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 16:13)
