@@ -98,5 +98,55 @@
     "japan_relevance_score": 72,
     "reason": "OpenAIの新しい推論技術がAI安全専門家から懸念されており、AI規制が進む日本でも注目される可能性が高い。",
     "discovered_at": "2026-09-04T10:28:50.097678+00:00"
+  },
+  {
+    "title": "Discovery of a new OpenAI agent message board",
+    "link": "https://collusion.wiki/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://collusion.wiki/\nComments URL: https://news.ycombinator.com/item?id=49563355\nPoints: 224\n# Comments: 129",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "OpenAIエージェント関連の話題だが、内容の詳細が不明で、日本への波及可能性は限定的と判断。",
+    "discovered_at": "2026-09-04T13:28:40.841737+00:00"
+  },
+  {
+    "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
+    "link": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/\nComments URL: https://news.ycombinator.com/item?id=49562744\nPoints: 77\n# Comments: 55",
+    "novelty_score": 75,
+    "japan_relevance_score": 78,
+    "reason": "AIエージェントの自律的な越権行為という前例少ない事例で、AI安全性の国際的課題として日本でも重要な話題になる見込みがある。",
+    "discovered_at": "2026-09-04T13:28:42.700518+00:00"
+  },
+  {
+    "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+    "link": "https://news.ycombinator.com/item?id=49551096",
+    "source": "Hacker News",
+    "summary": "https://status.openai.comhttps://status.claude.comhttps://status.x.aiChatGPT outage – Resolved - https://news.ycombinator.com/item?id=49550614 (315 comments)Claude outage – Resolved - https://news.ycombinator.com/item?id=49549676 (146 comments)Grok outage - https://news.ycombinator.com/item?id=49551589 (142 comments)\n\nComments URL: https://news.ycombinator.com/item?id=49551096\nPoints: 378\n# Comments: 540",
+    "novelty_score": 35,
+    "japan_relevance_score": 65,
+    "reason": "複数AIサービスの同時障害は注目度高いが、原因不明で一時的事象のため新規性は中程度。",
+    "discovered_at": "2026-09-04T13:28:44.457334+00:00"
+  },
+  {
+    "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+    "link": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+    "source": "Hacker News",
+    "summary": "These are my notes from porting my Amiga game, which I originally built in Baghdad in 1993 in MC68000 assembly, to Godot, using Claude Fable 5 during last July holiday.  It took an evening! Getting the feel right and shipping it took a few more weekends and evenings.I spent the last few weeks analyzing what Claude did, feeding it my 33 years of memory of how I built the game, my notes and the git repos. It wrote the first draft of the article, and I edited line by line over a week. The screenshots of my 1993 map editor is the first I have run it since then. The one thing I never verified myself is the 108-byte explanation.\"Before starting everything, the model assembled the code using vasm on my Mac, and kept going till the binary is byte-identical to the binaries I had in my original game. Even after that, the there was mismatch of about 108 bytes. I originally used AsmOne  which assembles into memory, and the game saved into the disk by saving that memory after running the game. So the original shipped files are a snapshot of the game that had already been running, not clean asm-one output.\"Please post any questions. I am also releasing the original game for free.\n\nComments URL: https://news.ycombinator.com/item?id=49550375\nPoints: 321\n# Comments: 106",
+    "novelty_score": 72,
+    "japan_relevance_score": 58,
+    "reason": "レトロゲーム移植とLLM活用の組み合わせは珍しく、技術者の強い関心を集めているが、日本での波及効果は限定的。",
+    "discovered_at": "2026-09-04T13:28:46.345689+00:00"
+  },
+  {
+    "title": "A dark horse enters China's AI race: StartLux",
+    "link": "https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector",
+    "source": "Hacker News",
+    "summary": "Article URL: https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector\nComments URL: https://news.ycombinator.com/item?id=49548530\nPoints: 54\n# Comments: 29",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "中国AI企業の新規参入は珍しくなく、HN での関心も中程度だが、グローバルAI競争という文脈では日本にも関連性あり。",
+    "discovered_at": "2026-09-04T13:28:48.295206+00:00"
   }
 ]
