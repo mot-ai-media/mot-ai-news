@@ -1,4 +1,4 @@
-# タスクスケジューラから呼び出される実行ラッパー(Hacker News候補一覧、3時間おき)。
+﻿# タスクスケジューラから呼び出される実行ラッパー(Hacker News候補一覧、3時間おき)。
 $ProjectDir = $PSScriptRoot
 $PythonExe = "C:\Users\kodama\AppData\Local\Programs\Python\Python312\python.exe"
 $LogDir = Join-Path (Split-Path -Parent $ProjectDir) "logs"

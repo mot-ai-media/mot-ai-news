@@ -1,4 +1,4 @@
-# タスクスケジューラから呼び出される実行ラッパー(Fable/Atlas専用ウォッチ、2時間おき)。
+﻿# タスクスケジューラから呼び出される実行ラッパー(Fable/Atlas専用ウォッチ、2時間おき)。
 # fetch_fable_atlas.pyを実行し、標準出力・エラーをlogs\fable_atlas_run.logに追記する。
 
 $ProjectDir = $PSScriptRoot

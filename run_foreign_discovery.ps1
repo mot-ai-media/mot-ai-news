@@ -1,4 +1,4 @@
-# タスクスケジューラから呼び出される実行ラッパー(海外Tier1/2ニュース発見、3時間おき)。
+﻿# タスクスケジューラから呼び出される実行ラッパー(海外Tier1/2ニュース発見、3時間おき)。
 # fetch_foreign_discovery.pyを実行し、標準出力・エラーをlogs\foreign_discovery_run.logに追記する。
 
 $ProjectDir = $PSScriptRoot
