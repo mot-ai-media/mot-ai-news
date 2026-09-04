@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-04 13:49
+最終更新: 2026-09-04 14:32
 
 ## 記事一覧
 
+- [カスハラ対策義務化いつから？AIスマートウォッチの仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/watch-33f2543e.html): 2026年10月の法改正でカスハラ対策が必須に。AI音声解析搭載の腕時計型デバイスが対応策として発表された。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:32)
+- [2D図面を3D CADに自動変換するAI「Zumen AI」とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-zumen-ai-2adf8e11.html): ホルスAIが、2D図面からの3D CADモデル生成と組立図からのバラシ図面作成を行うAIサービスを開始。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:31)
+- [三井倉庫のDX戦略とは？200億円投資の配分内訳](https://mot-ai-media.github.io/mot-ai-news/articles/dx-ef30db65.html): 話題の企業が明かす、地味だが本質的なDXへの向き合い方と物流業界が直面する課題。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:31)
+- [AIがコードを書く時代、開発者の仕事はどう変わる？弥生の実践例](https://mot-ai-media.github.io/mot-ai-news/articles/ai-645daa2d.html): AIがコード作成からテスト、レビューまで担う中、開発者の仕事は企画・仕様設計へシフト。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:30)
+- [Adobe新CEO就任いつから？シャンタヌ・ナラヤン氏の後任決定](https://mot-ai-media.github.io/mot-ai-news/articles/adobe-ai-7d24432d.html): Adobeが17年ぶりにトップ交代。12月からの新体制で、クリエイティブソフト大手の戦略は大きく変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:30)
 - [AI緊急停止ボタン 英国が法制化検討 OpenAI・Anthropicへの規制強化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-1a7ba649.html): 英国の上院がOpenAIやAnthropicなどの大規模AI企業に対し、システムが意図した動作から外れた場合に即座に停止できる『キルスイッチ』権限を政府に付与する法案を求める動き。AI安全性への国際的な関心の高まりを象徴する事例として、日本でも規制の議論が加速する可能性がある。 (出典: BBC / 更新: 2026-09-04 13:16)
 - [フィジカルAIの課題とは？データ不足をどう乗り越えるのか](https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-50fcd3ab.html): ロボットなど物理世界で動作するAIの開発は、学習用データの不足が最大の課題。AWSの支援プログラムに採択された企業たちが半年間で見つけた解決策とは。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:14)
 - [AI基本計画とは？日本の政策方針に企業団体が意見提出](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a149c0d5.html): 日本政府のAI関連政策骨子に対し、新経済連盟が意見を提出。産業成長とのバランスに関する提言。 (出典: 新経済連盟 / 更新: 2026-09-04 13:13)
@@ -202,8 +207,3 @@
 - [AIエージェント、生成AIの次のステージへ。人間にしか残せない仕事が明確化](https://mot-ai-media.github.io/mot-ai-news/articles/378dc6c17527.html): 目標を与えるだけで計画から実行まで自動化するAIエージェント。下書き作成の段階を超え、業務の根本的な変化が迫っている。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:14)
 - [企業の8割が把握できていない、野良AIの実態。発覚の2パターンと対策を解明](https://mot-ai-media.github.io/mot-ai-news/articles/c00a5b0e8ddf.html): 社内で無断使用されるAIツール「野良AI」が後を絶たない。約500社の分析から、実際の発覚事例と防衛策が明らかになった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 16:13)
 - [日本企業のAIエージェント本番運用は17%、先進国で最下位の衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/0b97ae09081b.html): Confluentの調査で、AIエージェントを本番運用している日本企業は17%にとどまり、国際的に大きく後れを取っている実態が判明した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 16:13)
-- [複数AI併用が常識に、企業の半数が乗り換え戦略で管理に課題](https://mot-ai-media.github.io/mot-ai-news/articles/5e6d0c7a76af.html): Okta Japanの分析で、2社に1社が複数のAIツールを併用する実態が判明。ChatGPT一択の時代は終焉。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 16:13)
-- [AIエージェント導入で転職活動が激変。6ステップで職務経歴書も自動作成](https://mot-ai-media.github.io/mot-ai-news/articles/4cb75d9a1350.html): AIエージェントが転職活動の計画から実行を自律的に支援。求人検索から書類作成まで効率化する実践的なプロンプト例を紹介。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:13)
-- [ChatGPT Work、ログイン済みサイトの操作を自動化　パスワード非表示で実現](https://mot-ai-media.github.io/mot-ai-news/articles/168bd66b1694.html): ChatGPT Workがログイン状態を維持したまま作業を自動化。ユーザーのパスワードはAIに一切見せない仕組みを実現した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 12:13)
-- [Mac Studio 4台でデータセンター級4.8TB/s、巨大LLMがローカル実行可能に](https://mot-ai-media.github.io/mot-ai-news/articles/c9fdd486b156.html): EXO LabsがM5 Ultra搭載Mac Studioのクラスタで、データセンター級のメモリ帯域幅4.8TB/sを実現。Kimi K3など巨大LLMをローカルで高速実行できると発表した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 12:13)
-- [AIエージェントがCAE解析を全自動化、人間に残る仕事の正体が判明](https://mot-ai-media.github.io/mot-ai-news/articles/51ed66f2cecf.html): サイバネットシステムがAIエージェントによるCAE解析の実験成果を公開。AIに任せられる業務と人間にしか対応できない領域が明確化された。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 12:13)
