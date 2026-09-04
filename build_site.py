@@ -146,12 +146,19 @@ _AD_NEW = (
     'src="https://www22.a8.net/svt/bgt?aid=260904477955&wid=001&eno=01&mid=s00000025808001043000&mc=1"></a>'
     '<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36L+FSKZHU+5J4W+67JU9" alt="">'
 )
-_ADS = [_AD_NEW]
+_AD_AI = (
+    '<a href="https://px.a8.net/svt/ejp?a8mat=4BC36M+9OW19U+4V0U+15P77L" rel="sponsored nofollow">'
+    '<img border="0" width="100" height="60" alt="" '
+    'src="https://www23.a8.net/svt/bgt?aid=260904478586&wid=001&eno=01&mid=s00000022683007004000&mc=1"></a>'
+    '<img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4BC36M+9OW19U+4V0U+15P77L" alt="">'
+)
+_ADS = [_AD_NEW, _AD_AI]
 
 
 def _pick_ad(entry: dict) -> str:
     """記事ごとに広告を1つだけ表示する(以前は2つ同時表示だったが半分に削減)。
-    slugのハッシュで決定的に選ぶので、同じ記事は毎回同じ広告になり、全体ではほぼ半々に分散する。"""
+    slugのハッシュで決定的に選ぶので、同じ記事は毎回同じ広告になり、全体ではほぼ半々に分散する。
+    広告を追加するときは_ADSにappendするだけでよい(1記事1広告のまま、露出面積は増えない)。"""
     idx = int(hashlib.sha1(entry.get("slug", "").encode("utf-8")).hexdigest(), 16) % len(_ADS)
     return f'<span class="ad-label">広告</span><div class="ad-item">{_ADS[idx]}</div>'
 
