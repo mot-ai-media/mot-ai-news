@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIの暴走を止める『緊急停止ボタン』。英国が法制化を検討</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-1a7ba649.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-1a7ba649.html</guid>
+    <description>英国の上院がOpenAIやAnthropicなどの大規模AI企業に対し、システムが意図した動作から外れた場合に即座に停止できる『キルスイッチ』権限を政府に付与する法案を求める動き。AI安全性への国際的な関心の高まりを象徴する事例として、日本でも規制の議論が加速する可能性がある。</description>
+    <pubDate>Fri, 04 Sep 2026 13:16:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Nvidia、129億ドルでHugging Faceを買収――AIの民主化プラットフォームが大手に統合される転機</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-f247281f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-f247281f.html</guid>
+    <description>半導体大手Nvidiaが、AI開発者向けプラットフォーム「Hugging Face」を129億ドルで買収。オープンソースAI技術の中核を担うコミュニティが、業界トップ企業の傘下に入ることで、AIツールの流通と開発体制に大きな変化がもたらされる。</description>
+    <pubDate>Fri, 04 Sep 2026 13:16:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ロボットAI、圧倒的にデータ不足。AWS支援プログラムが示した現実と突破口</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-50fcd3ab.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-50fcd3ab.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nec-anthropic-38aa0aa1.html</guid>
     <description>NECが米Anthropicの最新AIモデルをセキュリティ業務に導入。企業の防御力向上が期待される。</description>
     <pubDate>Wed, 02 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Hugging Face、200超のWebGPUカーネル公開。ローカルAI実行が激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-webgpu-85562dc1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-webgpu-85562dc1.html</guid>
-    <description>AI企業Hugging Faceが200以上のWebGPUカーネルを公開。パソコンだけでAIを動かす環境が整備された。</description>
-    <pubDate>Wed, 02 Sep 2026 15:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの性能テストは本当に信頼できる？LLMベンチマークの実態を暴露</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-23bdbfdb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-23bdbfdb.html</guid>
-    <description>AIの賢さを測るテストが、実は何を測っているのか曖昧な問題が浮上。</description>
-    <pubDate>Wed, 02 Sep 2026 15:09:00 +0900</pubDate>
   </item>
 </channel></rss>
