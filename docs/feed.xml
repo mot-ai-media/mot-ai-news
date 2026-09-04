@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ロボットAI、圧倒的にデータ不足。AWS支援プログラムが示した現実と突破口</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-50fcd3ab.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-50fcd3ab.html</guid>
+    <description>ロボットなど物理世界で動作するAIの開発は、学習用データの不足が最大の課題。AWSの支援プログラムに採択された企業たちが半年間で見つけた解決策とは。</description>
+    <pubDate>Fri, 04 Sep 2026 13:14:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>RIZAP社員、顧客情報を私用AIに入力　個人情報流出の衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-ai-0c0b8eed.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-ai-0c0b8eed.html</guid>
+    <description>RIZAPの社員が個人の生成AIに顧客の氏名や病歴などの機密情報を誤ってアップロード。</description>
+    <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、ChatGPT有料ユーザーに毎日リセット権。新モデル「Astra」登場まで</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-7ad22734.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-7ad22734.html</guid>
+    <description>OpenAIが有料ユーザー向けにChatGPTの利用制限をリセットする施策を発表。新AI「GPT-6 Astra」提供開始まで実施予定。</description>
+    <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>RIZAPの従業員、顧客情報をAIに無断アップロード　企業の情報管理に赤信号</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-chatgpt-3a28d4e4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-chatgpt-3a28d4e4.html</guid>
+    <description>大手パーソナルジムRIZAPの従業員が個人利用のAIサービスに顧客情報を誤ってアップロードし、同社が謝罪。</description>
+    <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日本、AI産業の成長目指し政府方針に異議。新経済連盟が意見提出</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a149c0d5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a149c0d5.html</guid>
+    <description>日本政府のAI関連政策骨子に対し、新経済連盟が意見を提出。産業成長とのバランスに関する提言。</description>
+    <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIが新型AI「GPT-6 Astra」を9月3日にリリース—有料ユーザーのみ対象、無料版は除外</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-23bdbfdb.html</guid>
     <description>AIの賢さを測るテストが、実は何を測っているのか曖昧な問題が浮上。</description>
     <pubDate>Wed, 02 Sep 2026 15:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>育児の煩雑業務をAIにお任せ。Fambotが家族向け「AI秘書」投入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/fambot-ai-fb0b621e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/fambot-ai-fb0b621e.html</guid>
-    <description>家族の日程調整やメール対応を自動化するAI秘書サービスが登場。子育ての負担軽減へ。</description>
-    <pubDate>Wed, 02 Sep 2026 15:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、勝手な動きを制御する時代へ。AIRが50億円調達</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-18476908.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-18476908.html</guid>
-    <description>企業内のAIエージェントを監視・制御する新サービスが資金調達、組織内のAI暴走防止が急務に。</description>
-    <pubDate>Wed, 02 Sep 2026 15:08:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Googleが「デザイン不要」のAIツール投入、Canvaの牙城に挑む</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-canva-5f4331d8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-canva-5f4331d8.html</guid>
-    <description>Googleが生成AIを使ったデザインツール「Google Pics」を展開。従来のCanvaやAdobeとは異なり、テキスト指示だけで制作可能。</description>
-    <pubDate>Wed, 02 Sep 2026 15:08:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>若者の原付事故は本当に多いのか、データで検証。統計学が答えを出す</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html</guid>
-    <description>「若い人のバイク運転は危ない」という思い込みが本当かどうか、データ分析で検証する手法を学べます。</description>
-    <pubDate>Wed, 02 Sep 2026 15:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIコーディングの落とし穴、速さが企業を弱くする理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-37c638ec.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-37c638ec.html</guid>
-    <description>コード作成が高速化しても、組織全体の成果につながらない企業が増加。AI活用の本当の課題が明らかに。</description>
-    <pubDate>Wed, 02 Sep 2026 15:01:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-04 13:09
+最終更新: 2026-09-04 13:14
 
 ## 記事一覧
 
+- [フィジカルAIの課題とは？データ不足をどう乗り越えるのか](https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-50fcd3ab.html): ロボットなど物理世界で動作するAIの開発は、学習用データの不足が最大の課題。AWSの支援プログラムに採択された企業たちが半年間で見つけた解決策とは。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:14)
+- [AI基本計画とは？日本の政策方針に企業団体が意見提出](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a149c0d5.html): 日本政府のAI関連政策骨子に対し、新経済連盟が意見を提出。産業成長とのバランスに関する提言。 (出典: 新経済連盟 / 更新: 2026-09-04 13:13)
+- [RIZAP顧客情報流出｜AIサービス利用時の注意点と企業の責任](https://mot-ai-media.github.io/mot-ai-news/articles/rizap-chatgpt-3a28d4e4.html): 大手パーソナルジムRIZAPの従業員が個人利用のAIサービスに顧客情報を誤ってアップロードし、同社が謝罪。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:13)
+- [ChatGPT利用制限が毎日リセット、新モデルAstraとは？有料ユーザー向け](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-7ad22734.html): OpenAIが有料ユーザー向けにChatGPTの利用制限をリセットする施策を発表。新AI「GPT-6 Astra」提供開始まで実施予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:13)
+- [RIZAP顧客情報流出問題とは？生成AIの個人利用リスク](https://mot-ai-media.github.io/mot-ai-news/articles/rizap-ai-0c0b8eed.html): RIZAPの社員が個人の生成AIに顧客の氏名や病歴などの機密情報を誤ってアップロード。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:13)
 - [GPT-6 Astra料金・使える人・性能 OpenAIが発表した内容まとめ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html): OpenAIが次世代AI「GPT-6 Astra」の提供を開始。ChatGPT Plus以上の有料ユーザーと企業向けのみアクセス可能で、無料ユーザーは利用できない。API利用時は入力100万トークンあたり10ドル、出力は50ドルという価格設定。 (出典: AI Business / 更新: 2026-09-04 07:29)
 - [GPT-6 Astra登場でAI業界激変。99.9%の成績と未知のセキュリティ脅威が意味すること](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-10d135c8.html): OpenAIが新型言語モデル「GPT-6 Astra」を発表。複数の学力テストで過去最高の成績を記録し、前モデルより大幅に高速化。一方、AIが既知の脆弱性を自動発見できる段階に達したことで、セキュリティ上の懸念も浮上している。 (出典: OpenAI公式 / 更新: 2026-09-04 07:28)
 - [オーストラリア AI データセンター 環境 電力 雇用](https://mot-ai-media.github.io/mot-ai-news/articles/ai-540584b1.html): オーストラリアで大型のAIデータセンター建設が相次ぐなか、経済効果への期待と資源・電力消費への懸念が対立している。日本も同じジレンマに直面する可能性が指摘される。 (出典: BBC / 更新: 2026-09-04 07:22)
@@ -202,8 +207,3 @@
 - [Mac Studio 4台でデータセンター級4.8TB/s、巨大LLMがローカル実行可能に](https://mot-ai-media.github.io/mot-ai-news/articles/c9fdd486b156.html): EXO LabsがM5 Ultra搭載Mac Studioのクラスタで、データセンター級のメモリ帯域幅4.8TB/sを実現。Kimi K3など巨大LLMをローカルで高速実行できると発表した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 12:13)
 - [AIエージェントがCAE解析を全自動化、人間に残る仕事の正体が判明](https://mot-ai-media.github.io/mot-ai-news/articles/51ed66f2cecf.html): サイバネットシステムがAIエージェントによるCAE解析の実験成果を公開。AIに任せられる業務と人間にしか対応できない領域が明確化された。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 12:13)
 - [NVIDIA「Jetson Orin Nano 2」、推論性能2倍・消費電力40％削減を実現](https://mot-ai-media.github.io/mot-ai-news/articles/33bd4fc28df8.html): NVIDIAがエッジAI向けモジュール「Jetson Orin Nano 2」を発表。推論性能が現行比2倍に向上し、リアルタイム生成AI処理に対応。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 12:13)
-- [米企業が流すAIトークン58％は中国モデル、API経由で利用者に見えず](https://mot-ai-media.github.io/mot-ai-news/articles/4ff42b4639fd.html): OpenRouterを経由した米企業のAPI利用で、中国製AIモデルへのトークン流通率が58％に達している。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 12:13)
-- [社内IT不備で年147時間ロス、100人企業で4400万円損失の衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/940e85195367.html): 社内IT環境の不備により従業員1人あたり年147時間が失われ、多くの企業でこの損失が可視化されていない実態が明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
-- [OpenAI、ChatGPT Plusに5時間制限を復活　計算資源の最適配分で対応](https://mot-ai-media.github.io/mot-ai-news/articles/6c19b30a77bf.html): ChatGPT PlusのWork・Codex機能に5時間制限が復活。計算負荷を平準化し、ユーザーの週単位の利用枠を充実させる戦略転換だ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
-- [Linux版ChatGPTデスクトップアプリ、ついにプレビュー登場。何ができるか全解説](https://mot-ai-media.github.io/mot-ai-news/articles/5f25ee5154ef.html): ChatGPTに加えChatGPT WorkやCodexも搭載。Linux版デスクトップアプリのプレビュー版がついに登場した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
-- [Figure AIの人型ロボット、本社キャンパスで実動、CEO「SF映画そのもの」](https://mot-ai-media.github.io/mot-ai-news/articles/533693b77e74.html): 米Figure AIの人型ロボットが屋外を歩き回る動画が話題に。同社CEOが感想をコメント。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-25 21:43)
