@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-04 18:02
+最終更新: 2026-09-04 19:28
 
 ## 記事一覧
 
+- [AI言語制限：訓練データにない言語でAIは動作しない理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-7a1c0e80.html): BBC Newsが報じたところによると、AI言語モデルは訓練過程で扱った言語でしか実質的なコミュニケーションができないという基本的な制約を持つ。これはユーザーの言語対応期待と実際の能力にギャップがあることを意味する。 (出典: BBC / 更新: 2026-09-04 19:28)
+- [AIがもたらす世界経済の危機とは？イギリス中央銀行総裁が明かす](https://mot-ai-media.github.io/mot-ai-news/articles/ai-g20-b6772066.html): イギリスの中央銀行総裁が国際会議でAIの価格変動リスクが世界経済に打撃を与える可能性を警告。エネルギー不足など外部ショックがAIの不安定性を増すとして、各国への注意喚起を行っている。 (出典: BBC / 更新: 2026-09-04 19:27)
 - [Thinking Machines $40B評価額で大型調達。AIスタートアップの現在地とは](https://mot-ai-media.github.io/mot-ai-news/articles/thinking-machines-accel-46fa5743.html): AIスタートアップのThinking Machinesが巨額調達の段階へ。業界の資金動向から目が離せない。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 18:02)
 - [Abliteration.ai とは？AIの安全機能を削除するサービスの狙い](https://mot-ai-media.github.io/mot-ai-news/articles/abliteration-ai-ai-222024e0.html): AIの制限を取り除いたモデルへのアクセスを容易にする企業が登場。防御側の武器を充実させるという主張だが、悪用のリスクも浮上。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 18:02)
 - [AIデータセンターにフラッシュメモリが必要な理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dbccfbe0.html): キオクシアがAIデータセンター向けメモリ・SSD技術の最新トレンドを展示会で発表。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 18:01)
@@ -205,5 +207,3 @@
 - [総務業務、AIエージェントで激変。7つの活用法と導入ステップ解説](https://mot-ai-media.github.io/mot-ai-news/articles/9cc724069cc0.html): 社内問い合わせに追われる総務担当者の業務を、AIエージェントが大幅削減する時代へ。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 17:29)
 - [AIエージェントフレームワーク12選、失敗しない選び方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/3d834e756980.html): 機能の多さだけで選ぶと本番運用で失敗。フレームワーク選定の正しい基準とは。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 17:29)
 - [AIエージェント担当者が担う6つの役割。90日で組織を変える](https://mot-ai-media.github.io/mot-ai-news/articles/e5cb200d0753.html): AIエージェント担当者の真の仕事はツール選定ではなく、業務設計と権限統制にある。必要スキルと実行ロードマップを解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:15)
-- [IT部門の負担激減、AIエージェント導入で業務効率化が加速](https://mot-ai-media.github.io/mot-ai-news/articles/05cc3865a807.html): パスワードリセットなど定型業務に追われるIT部門がAIエージェント活用で抜本改革。導入手順と費用相場を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:15)
-- [生成AIチャットボット選びの失敗を防ぐ、7つの比較軸を解説](https://mot-ai-media.github.io/mot-ai-news/articles/0cd186cc3eea.html): ベンダー発信の偏った比較表に頼らず、客観的にAIチャットボットを選定するための7つの評価ポイントを紹介。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:15)

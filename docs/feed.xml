@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPTも翻訳アプリも「学んでない言語は話せない」—AIの意外な弱点が判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-7a1c0e80.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-7a1c0e80.html</guid>
+    <description>BBC Newsが報じたところによると、AI言語モデルは訓練過程で扱った言語でしか実質的なコミュニケーションができないという基本的な制約を持つ。これはユーザーの言語対応期待と実際の能力にギャップがあることを意味する。</description>
+    <pubDate>Fri, 04 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>イギリス中央銀行が警告：AI時代の経済危機が現実化する恐れ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-g20-b6772066.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-g20-b6772066.html</guid>
+    <description>イギリスの中央銀行総裁が国際会議でAIの価格変動リスクが世界経済に打撃を与える可能性を警告。エネルギー不足など外部ショックがAIの不安定性を増すとして、各国への注意喚起を行っている。</description>
+    <pubDate>Fri, 04 Sep 2026 19:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIの安全装置を外すビジネス、サイバーセキュリティ強化の名目で拡大</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/abliteration-ai-ai-222024e0.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/abliteration-ai-ai-222024e0.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-da36ef0e.html</guid>
     <description>Anthropic開発のAIコーディング機能「Claude Code」の実演ウェビナーが開催され、AIによるコード生成能力の実態が注目されている。</description>
     <pubDate>Fri, 04 Sep 2026 05:38:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AI時代の企業データ戦略、禁止と放任の二者択一を超える現実的な守り方</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/1st-ai-a837bf05.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/1st-ai-a837bf05.html</guid>
-    <description>生成AI導入時のデータ保護は「完全禁止か無制限か」では済まない。バランスの取れた戦略設計が企業課題に。</description>
-    <pubDate>Fri, 04 Sep 2026 05:38:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ブシロード、AI子会社で定型業務を一括支援へ。ヒューマンエラー削減に本腰</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-02a32131.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-02a32131.html</guid>
-    <description>ブシロードがAI子会社を設立し、人が繰り返す定型業務をAIで自動化。負荷軽減とミス削減を実現。</description>
-    <pubDate>Thu, 03 Sep 2026 13:40:00 +0900</pubDate>
   </item>
 </channel></rss>
