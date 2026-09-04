@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google天気予報AI「WeatherNext 3」とは？仕組みと導入時期を解説 | AI特化メディアMOT</title>
+<meta name="description" content="Googleが深層学習で気象予報の精度を大幅向上させ、検索やマップに統合開始。予報精度が劇的に変わる可能性。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Google、AI天気予報モデルで天気情報を激変。検索・マップ・Geminiに統合">
+<meta property="og:description" content="Googleが深層学習で気象予報の精度を大幅向上させ、検索やマップに統合開始。予報精度が劇的に変わる可能性。">
+<meta property="og:image" content="https://techcrunch.com/wp-content/uploads/2026/09/2-Figure-How-WeatherNext-3-works.png?resize=1200,675">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html">
+<meta property="article:published_time" content="2026-09-04T22:01:00+09:00">
+<meta property="article:modified_time" content="2026-09-04T22:01:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Google、AI天気予報モデルで天気情報を激変。検索・マップ・Geminiに統合", "description": "Googleが深層学習で気象予報の精度を大幅向上させ、検索やマップに統合開始。予報精度が劇的に変わる可能性。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-04T22:01:00+09:00", "dateModified": "2026-09-04T22:01:00+09:00", "image": ["https://techcrunch.com/wp-content/uploads/2026/09/2-Figure-How-WeatherNext-3-works.png?resize=1200,675"], "citation": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "WeatherNext 3とは何か？", "acceptedAnswer": {"@type": "Answer", "text": "Googleが開発した深層学習を活用した天気予報モデル。従来の気象予報手法とは異なるAIを使ったアプローチで、より精度の高い予報を目指しています。"}}, {"@type": "Question", "name": "どこで使えるようになるのか？", "acceptedAnswer": {"@type": "Answer", "text": "Google検索、Google マップ、AI助手Geminiで順次提供される予定です。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Google", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/google.html"}, {"@type": "ListItem", "position": 3, "name": "Google、AI天気予報モデルで天気情報を激変。検索・マップ・Geminiに統合", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2026/09/2-Figure-How-WeatherNext-3-works.png?resize=1200,675" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Google、AI天気予報モデルで天気情報を激変。検索・マップ・Geminiに統合</span></div></div>
+  <h1 class="headline">Google、AI天気予報モデルで天気情報を激変。検索・マップ・Geminiに統合</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>AI News &amp; Artificial Intelligence | TechCrunch</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-04 22:01</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Googleが深層学習を活用した次世代天気予報モデルを開発し、検索・マップ・Geminiで提供開始予定。従来の手法より精度が向上する。</p><h3>何が起きたか</h3><p>GoogleがAIを使った新しい天気予報モデル「WeatherNext 3」を発表しました。このモデルは深層学習（ディープラーニング）という機械学習技術を活用しており、従来の気象予報手法とは異なるアプローチで天気情報を生成します。Googleはこの技術をGoogle検索、Google マップ、AI助手Geminiに組み込み、ユーザーが利用する天気情報の精度を向上させる計画です。</p><h3>なぜ重要か</h3><p>気象予報は日常生活に密接に関わる情報ですが、従来の手法には限界がありました。AIを使った新しい予報モデルが登場することで、より正確で迅速な天気情報が実現する可能性があります。これは単なる機能改善ではなく、気象学の分野全体がAIによって転換されつつあることを示す象徴的な事例です。</p><h3>あなたへの影響</h3><p>天気予報の精度が向上すれば、出かける際の傘の必要性判断、農業や建設などの業務計画、イベント開催の判断などが改善されます。また、Google検索やマップで表示される天気情報が現在より信頼度の高い予測になる可能性があり、日々のスマートフォン利用シーンで恩恵を受けることになります。</p><h3>MOT読者が知っておくべき理由</h3><p>AIが天気予報のような身近な領域まで影響を広げている実例。ChatGPT以外でも生活に関係するAIが急速に進化していることを理解する手がかり。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>新しい予報モデルの精度がどの程度まで向上するか、また実際の運用でどれほど信頼できるかは、提供開始後の実績を見る必要があり、現時点では宣伝通りの性能が保証されていない点に注意。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>天気予報の精度向上により、防災・農業・物流など天気に左右される産業の計画立案の質が向上し、社会全体の効率化につながる可能性があります。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>気象予報の高度化は、AIが『黒い箱』としての予測ツール化していく流れを象徴しています。従来の物理現象をモデル化する気象学的アプローチから、データパターンから直接予測を引き出すAIアプローチへのシフトは、科学分野全般で起こりうる変化。精度向上の一方で『なぜそう予測したのか』という説明性が後景に退く点は、社会が透明性より利便性を優先させていることを示唆しています。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>WeatherNext 3がGoogle検索・マップ・Geminiに実際に統合されるタイミングと、運用開始後の予報精度が従来手法と比べてどの程度向上するか、また気象機関などからの評価。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/google.html">#Google</a><a class="tag-pill" href="../topics/gemini.html">#Gemini</a></div>
+  <script>window.motPageTags=["Google", "AI天気予報", "WeatherNext 3", "Gemini"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">AIスパコン時代を、手のひらサイズのミニPCから</h3><p class="sponsor-desc">ミニPCブランド「GMKtec」。ローカルAI環境や自宅サーバー用途にも使えるコンパクトな一台。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" rel="sponsored nofollow" target="_blank"><img border="0" width="120" height="60" alt="GMKtec" loading="lazy" src="https://www28.a8.net/svt/bgt?aid=260904481474&wid=001&eno=01&mid=s00000027479001005000&mc=1"></a><img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">GMKtec</p></div></article></div>
+  <blockquote class="fact-check" cite="https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/" target="_blank" rel="noopener noreferrer">元記事（<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. WeatherNext 3とは何か？</p>
+    <p class="faq-a">Googleが開発した深層学習を活用した天気予報モデル。従来の気象予報手法とは異なるAIを使ったアプローチで、より精度の高い予報を目指しています。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. どこで使えるようになるのか？</p>
+    <p class="faq-a">Google検索、Google マップ、AI助手Geminiで順次提供される予定です。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Google%E3%80%81AI%E5%A4%A9%E6%B0%97%E4%BA%88%E5%A0%B1%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A7%E5%A4%A9%E6%B0%97%E6%83%85%E5%A0%B1%E3%82%92%E6%BF%80%E5%A4%89%E3%80%82%E6%A4%9C%E7%B4%A2%E3%83%BB%E3%83%9E%E3%83%83%E3%83%97%E3%83%BBGemini%E3%81%AB%E7%B5%B1%E5%90%88&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html&text=Google%E3%80%81AI%E5%A4%A9%E6%B0%97%E4%BA%88%E5%A0%B1%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A7%E5%A4%A9%E6%B0%97%E6%83%85%E5%A0%B1%E3%82%92%E6%BF%80%E5%A4%89%E3%80%82%E6%A4%9C%E7%B4%A2%E3%83%BB%E3%83%9E%E3%83%83%E3%83%97%E3%83%BBGemini%E3%81%AB%E7%B5%B1%E5%90%88" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html" data-share-title="Google、AI天気予報モデルで天気情報を激変。検索・マップ・Geminiに統合">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="google-ai-92509264">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="google-android-011aafc3.html">
+    <img src="https://techcrunch.com/wp-content/uploads/2026/09/MotionAssist-Google.png?w=1200" alt="" loading="lazy">
+    <span class="next-up-headline">Googleが動画酔い対策で反撃、Androidが大規模アップデート</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="meta-muse-spark-91a2b0e8.html">Meta、AIモデル利用データを買い取り。95%割引で情報提供ユーザーを募集</a></li>
+  <li><a href="google-canva-5f4331d8.html">Googleが「デザイン不要」のAIツール投入、Canvaの牙城に挑む</a></li>
+  <li><a href="google-android-e180fa99.html">Googleがスマホアプリのメモリ制限を強化、AI産業の需要が廉価端末を直撃</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

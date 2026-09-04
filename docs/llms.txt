@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-04 20:18
+最終更新: 2026-09-04 22:01
 
 ## 記事一覧
 
+- [Meta新型AI「Muse Spark」とは？割引プログラムの仕組み解説](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-91a2b0e8.html): Metaが新AIモデルの学習データ提供者向けに大幅割引を提供。ユーザーの利用パターンがAI改善に活かされる仕組み。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)
+- [OpenAI Astraとは？ブラウザ操作自動化AI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-341a230b.html): OpenAIが新AIモデル「Astra」を発表。パソコンやブラウザの操作を自動で行う能力を持つ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)
+- [Ollie AIアシスタントとは？プライバシー保護で他と何が違う](https://mot-ai-media.github.io/mot-ai-news/articles/ollie-ai-fb930f0d.html): 生活情報へのアクセスを求めつつ、データを学習や第三者に使わないAIが登場。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)
+- [Google天気予報AI「WeatherNext 3」とは？仕組みと導入時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html): Googleが深層学習で気象予報の精度を大幅向上させ、検索やマップに統合開始。予報精度が劇的に変わる可能性。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)
+- [2026年注目のAI・インフラ技術とは？ガートナーハイプサイクル解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-545b805b.html): ガートナーが2026年版の最新技術トレンドを発表。7つの技術が期待と現実のギャップ真っ最中。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 22:00)
 - [AI言語制限：訓練データにない言語でAIは動作しない理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-7a1c0e80.html): BBC Newsが報じたところによると、AI言語モデルは訓練過程で扱った言語でしか実質的なコミュニケーションができないという基本的な制約を持つ。これはユーザーの言語対応期待と実際の能力にギャップがあることを意味する。 (出典: BBC / 更新: 2026-09-04 19:28)
 - [AIがもたらす世界経済の危機とは？イギリス中央銀行総裁が明かす](https://mot-ai-media.github.io/mot-ai-news/articles/ai-g20-b6772066.html): イギリスの中央銀行総裁が国際会議でAIの価格変動リスクが世界経済に打撃を与える可能性を警告。エネルギー不足など外部ショックがAIの不安定性を増すとして、各国への注意喚起を行っている。 (出典: BBC / 更新: 2026-09-04 19:27)
 - [Thinking Machines $40B評価額で大型調達。AIスタートアップの現在地とは](https://mot-ai-media.github.io/mot-ai-news/articles/thinking-machines-accel-46fa5743.html): AIスタートアップのThinking Machinesが巨額調達の段階へ。業界の資金動向から目が離せない。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 18:02)
@@ -202,8 +207,3 @@
 - [2035年、AI推論の半分がコード生成に。消費電力46ギガワットの衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/bdf0cbb50b19.html): ABI Researchが予測。推論ワークロードが2033年にトレーニングを逆転し、電力消費が急速に拡大する見通し。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-27 17:51)
 - [Google「Gemini」新CMでKing&Prince起用、永瀬廉が語るAI活用の現実的な使い道](https://mot-ai-media.github.io/mot-ai-news/articles/e6671e8b6a02.html): Google傘下のAI「Gemini」がタレント起用で大型プロモーション展開。実用性重視のメッセージ打ち出す。 (出典: TVガイドWeb / 更新: 2026-08-27 17:50)
 - [フィジカルAI用データファクトリーが始動、30台超のロボが24時間稼働](https://mot-ai-media.github.io/mot-ai-news/articles/ac50ae1f6255.html): J-HRTI関東データファクトリーが稼働。複数のロボットが動作データを自動生成し、AI学習用の膨大なデータを収集している。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 19:40)
-- [SK Hynix、宮城県への工場建設計画が浮上も県知事は否定](https://mot-ai-media.github.io/mot-ai-news/articles/14e10e5cbfd3.html): 韓国半導体大手のSK Hynixが宮城県での工場建設を検討との報道に、村井知事は公式情報の把握を否定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-26 19:40)
-- [生成AIが議事録止まり、製造現場は放置。AIエージェントが原価削減の鍵に](https://mot-ai-media.github.io/mot-ai-news/articles/a024afb6003b.html): 全社導入した生成AIが事務作業に限定される中、製造業向けAIエージェントの8つの活用事例が明かされる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 17:29)
-- [総務業務、AIエージェントで激変。7つの活用法と導入ステップ解説](https://mot-ai-media.github.io/mot-ai-news/articles/9cc724069cc0.html): 社内問い合わせに追われる総務担当者の業務を、AIエージェントが大幅削減する時代へ。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 17:29)
-- [AIエージェントフレームワーク12選、失敗しない選び方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/3d834e756980.html): 機能の多さだけで選ぶと本番運用で失敗。フレームワーク選定の正しい基準とは。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 17:29)
-- [AIエージェント担当者が担う6つの役割。90日で組織を変える](https://mot-ai-media.github.io/mot-ai-news/articles/e5cb200d0753.html): AIエージェント担当者の真の仕事はツール選定ではなく、業務設計と権限統制にある。必要スキルと実行ロードマップを解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-26 16:15)
