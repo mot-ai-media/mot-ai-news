@@ -2798,6 +2798,52 @@ def _group_candidates_by_topic(articles: list) -> list[list]:
     return groups
 
 
+FOREIGN_DISCOVERY_DEDUP_PATH = Path(__file__).parent / "foreign_discovery_seen.json"
+FOREIGN_DISCOVERY_DEDUP_WINDOW_HOURS = 96  # 別の記事URLで同じ出来事が再度報じられても4日は重複記事化しない
+
+
+def _load_foreign_discovery_seen() -> list[dict]:
+    if not FOREIGN_DISCOVERY_DEDUP_PATH.exists():
+        return []
+    try:
+        return json.loads(FOREIGN_DISCOVERY_DEDUP_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
+def _foreign_discovery_is_duplicate(article) -> bool:
+    """FableAtlasウォッチと違い出来事の種類が定まらないため、正規表現ではなく
+    タイトルの有意語の重なり(Jaccard)で判定する。実行をまたいでも(別URL・別媒体
+    での再報道でも)同じ出来事の記事を量産しないためのガード。"""
+    tokens = _significant_tokens(article.title)
+    if not tokens:
+        return False
+    seen = _load_foreign_discovery_seen()
+    cutoff = datetime.now() - timedelta(hours=FOREIGN_DISCOVERY_DEDUP_WINDOW_HOURS)
+    for item in seen:
+        ts = _safe_parse_iso(item.get("ts", ""))
+        if ts is None or ts < cutoff:
+            continue
+        prev_tokens = set(item.get("tokens") or [])
+        if not prev_tokens:
+            continue
+        overlap = len(tokens & prev_tokens) / max(1, min(len(tokens), len(prev_tokens)))
+        if overlap >= 0.5:
+            return True
+    return False
+
+
+def _foreign_discovery_record(article) -> None:
+    tokens = _significant_tokens(article.title)
+    if not tokens:
+        return
+    seen = _load_foreign_discovery_seen()
+    seen.append({"tokens": sorted(tokens), "ts": datetime.now().isoformat(timespec="seconds")})
+    cutoff = datetime.now() - timedelta(hours=FOREIGN_DISCOVERY_DEDUP_WINDOW_HOURS * 2)
+    seen = [s for s in seen if (_safe_parse_iso(s.get("ts", "")) or datetime.now()) > cutoff]
+    FOREIGN_DISCOVERY_DEDUP_PATH.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def build_foreign_discovery(max_new: int = 2) -> None:
     """海外Tier1/2メディア(BBC/CNBC/The Verge/WIRED/MIT Technology Review)から
     AI関連ニュースを探し、確認なしで自動公開する(編集を経た報道機関のみが対象。
@@ -2824,6 +2870,12 @@ def build_foreign_discovery(max_new: int = 2) -> None:
         primary = group[0]
         safe_link = _safe_http_url(primary.link)
         if not safe_link:
+            for a in group:
+                state.record_posted(a.link)
+            continue
+
+        if _foreign_discovery_is_duplicate(primary):
+            logger.info("海外発見ニュース: 既報の話題のためスキップ: %s", primary.title)
             for a in group:
                 state.record_posted(a.link)
             continue
@@ -2889,6 +2941,7 @@ def build_foreign_discovery(max_new: int = 2) -> None:
         new_entries.append(entry)
         for a in group:
             state.record_posted(a.link)
+        _foreign_discovery_record(primary)
         logger.info(
             "海外発見記事生成成功(裏付け%d件): %s -> articles/%s.html",
             len(group), primary.link, slug,
