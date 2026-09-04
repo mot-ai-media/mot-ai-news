@@ -141,10 +141,10 @@ GOATCOUNTER_SCRIPT = (
 
 # A8.net アフィリエイト広告。空文字にすれば広告非表示に戻せる
 _AD_NEW = (
-    '<a href="https://px.a8.net/svt/ejp?a8mat=4BC0UI+5YC2K2+428G+HWI5T" rel="sponsored nofollow">'
-    '<img border="0" width="100" height="60" alt="" '
-    'src="https://www28.a8.net/svt/bgt?aid=260901450360&wid=001&eno=01&mid=s00000018952003007000&mc=1"></a>'
-    '<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4BC0UI+5YC2K2+428G+HWI5T" alt="">'
+    '<a href="https://px.a8.net/svt/ejp?a8mat=4BC36L+FSKZHU+5J4W+67JU9" rel="sponsored nofollow">'
+    '<img border="0" width="336" height="280" alt="" '
+    'src="https://www22.a8.net/svt/bgt?aid=260904477955&wid=001&eno=01&mid=s00000025808001043000&mc=1"></a>'
+    '<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36L+FSKZHU+5J4W+67JU9" alt="">'
 )
 _ADS = [_AD_NEW]
 
@@ -424,6 +424,7 @@ main {
   margin-bottom: 4px;
   letter-spacing: 0.05em;
 }
+.ad-item img { max-width: 100%; height: auto; }
 footer {
   text-align: center;
   font-size: 0.75rem;
