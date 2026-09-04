@@ -425,6 +425,7 @@ main {
   letter-spacing: 0.05em;
 }
 .ad-item img { max-width: 100%; height: auto; }
+.ad-slot .ad-item img { max-width: 140px; }
 footer {
   text-align: center;
   font-size: 0.75rem;
