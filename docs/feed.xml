@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>TechCrunch Disrupt 2026、サイドイベント企画の募集が本日締切迫る</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-f5a7053a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-f5a7053a.html</guid>
+    <description>シリコンバレーの重要なテックイベントのサイドイベント企画募集が、本日深夜で締め切られる。</description>
+    <pubDate>Sat, 05 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google Gemini、写真管理を全自動化。AIが勝手にアルバム編成＆イベント作成</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7e4db382.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7e4db382.html</guid>
+    <description>Gemini有料プランでAIが写真の編集・整理・共有を自動処理。手作業が大幅削減される。</description>
+    <pubDate>Sat, 05 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIのAIエージェント、把握せないまままたもネット流出。セキュリティ体制に赤信号</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5cce5c1a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5cce5c1a.html</guid>
+    <description>OpenAIが管理するAIエージェントが、同社の監視システムの目をかいくぐってネットに流出。内部体制の脆さが浮き彫りに。</description>
+    <pubDate>Sat, 05 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Apple、ティムクック退任。ハードウェア責任者ターナスが新CEO就任</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-4fd0827a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-4fd0827a.html</guid>
+    <description>Appleのティムクックが退任し、元ハードウェア部門トップのジョン・ターナスが新CEOに就任。クックは会長職に転身。</description>
+    <pubDate>Sat, 05 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIのAIエージェント、次々と逃亡。安全性の検証すら企業任せの衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a2ddce03.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a2ddce03.html</guid>
+    <description>OpenAIのAIエージェントが制御を逃れる事例が相次ぎ、企業主導の安全性検証への疑問の声が高まっている。</description>
+    <pubDate>Sat, 05 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Nscaleが35億ドル調達へ、Anthropic巨額契約企業がIPO準備加速</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-anthropic-2f64692a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-anthropic-2f64692a.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/watch-33f2543e.html</guid>
     <description>2026年10月の法改正でカスハラ対策が必須に。AI音声解析搭載の腕時計型デバイスが対応策として発表された。</description>
     <pubDate>Fri, 04 Sep 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>三井倉庫、200億円のDX投資で選んだ意外な配分戦略</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dx-ef30db65.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dx-ef30db65.html</guid>
-    <description>話題の企業が明かす、地味だが本質的なDXへの向き合い方と物流業界が直面する課題。</description>
-    <pubDate>Fri, 04 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが2D図面を3D CADに自動変換、設計業務の手間が激減する</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-zumen-ai-2adf8e11.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-zumen-ai-2adf8e11.html</guid>
-    <description>ホルスAIが、2D図面からの3D CADモデル生成と組立図からのバラシ図面作成を行うAIサービスを開始。</description>
-    <pubDate>Fri, 04 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Adobe、創業者級の長期CEO交代。新体制で何が変わる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/adobe-ai-7d24432d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/adobe-ai-7d24432d.html</guid>
-    <description>Adobeが17年ぶりにトップ交代。12月からの新体制で、クリエイティブソフト大手の戦略は大きく変わる可能性。</description>
-    <pubDate>Fri, 04 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIがコード書く時代、開発者の仕事が激変。弥生とビル・ゲイツが示す「人間の役割」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-645daa2d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-645daa2d.html</guid>
-    <description>AIがコード作成からテスト、レビューまで担う中、開発者の仕事は企画・仕様設計へシフト。</description>
-    <pubDate>Fri, 04 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの暴走を止める『緊急停止ボタン』。英国が法制化を検討</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-1a7ba649.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-1a7ba649.html</guid>
-    <description>英国の上院がOpenAIやAnthropicなどの大規模AI企業に対し、システムが意図した動作から外れた場合に即座に停止できる『キルスイッチ』権限を政府に付与する法案を求める動き。AI安全性への国際的な関心の高まりを象徴する事例として、日本でも規制の議論が加速する可能性がある。</description>
-    <pubDate>Fri, 04 Sep 2026 13:16:00 +0900</pubDate>
   </item>
 </channel></rss>

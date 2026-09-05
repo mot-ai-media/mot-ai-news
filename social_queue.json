@@ -824,7 +824,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/news/article/ogp/2609/05/2000001200/10005337/2048",
     "generated_at": "2026-09-05 16:07",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -882,7 +882,10 @@
         "x_post": "AIを導入したら、監視は必須。OpenAIの事例は、完全な制御は不可能、だから事後チェックが大切という教訓。あなたの職場は定期検証してますか？",
         "cta": "AI導入時の実践的なリスク対策を知る"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18097641725316252",
+    "published_at": "2026-09-05T21:04:36"
   },
   "amazon-google-097f6c76": {
     "headline": "AmazonとGoogleが新学期商戦を「AI買い物アシスタント」で支配へ。消費者の買い方が大きく変わる",
