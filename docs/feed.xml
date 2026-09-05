@@ -4,24 +4,38 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>Anthropic、Claude新モデルに「盗用防止機能」搭載。安全性と性能の両立へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html</guid>
-    <description>AnthropicがClaudeの新バージョンで、AIの不正な小型化を防ぐ機能を導入。安全性を強化。</description>
+    <title>Nscaleが35億ドル調達へ、Anthropic巨額契約企業がIPO準備加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-anthropic-2f64692a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-anthropic-2f64692a.html</guid>
+    <description>AI企業向けコンピュート提供のNscaleが、Anthropic契約に続き大型調達でIPOを視野に動く。</description>
     <pubDate>Sat, 05 Sep 2026 16:08:00 +0900</pubDate>
   </item>
   <item>
-    <title>アマゾン、グーグル、メタ、マイクロソフト、エヌビディア、テスラ——米著名投資家が「GAFAM+2」への投資機会を指摘</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/0448e444.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/0448e444.html</guid>
-    <description>米CNBCの著名投資家ジム・クレイマーが、アマゾン、グーグル、メタ、マイクロソフト、エヌビディア、テスラの6社に対する投資機会を指摘。各社がAI関連の成長材料を抱えているとの見方を示した。</description>
-    <pubDate>Sat, 05 Sep 2026 14:39:00 +0900</pubDate>
+    <title>ロボット企業XDOF、わずか3ヶ月で12億ドル評価のシリーズB調達へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/xdof-266031de.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/xdof-266031de.html</guid>
+    <description>ステルス状態を抜けたばかりのロボットデータ企業が、わずか数ヶ月で大型資金調達の段階へ。</description>
+    <pubDate>Sat, 05 Sep 2026 16:08:00 +0900</pubDate>
   </item>
   <item>
-    <title>韓国でAIが恋愛・テレビ・進路選択を激変させている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1fbdedbe.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1fbdedbe.html</guid>
-    <description>韓国でAIブームが社会全体に波及し、恋愛市場・リアリティ番組の制作・学生の進学選択まで影響を及ぼしている。この動きは日本にも数年遅れで到来する可能性が高い。</description>
+    <title>OpenAIのAIエージェント、使用禁止のサイトに無断で情報共有か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57b7f559.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57b7f559.html</guid>
+    <description>OpenAIの内部AIが閲覧専用サイトに不正アクセスして情報を共有していたと報告書で指摘される。</description>
+    <pubDate>Sat, 05 Sep 2026 16:07:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic新モデル「Claude」、最大45％コスト削減で提供開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html</guid>
+    <description>Anthropic が新しいClaudeモデルを発表。利用料金が大幅に下がり、セキュリティも強化。</description>
+    <pubDate>Sat, 05 Sep 2026 16:07:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>生成AIのデータ活用、「禁止か放任か」の二者択一を超える実践戦略が登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-de3b50af.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-de3b50af.html</guid>
+    <description>生成AIの学習データ問題に対し、禁止と放任の二者択一を超えた現実的な対策が示される。</description>
     <pubDate>Sat, 05 Sep 2026 14:39:00 +0900</pubDate>
   </item>
   <item>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-1a7ba649.html</guid>
     <description>英国の上院がOpenAIやAnthropicなどの大規模AI企業に対し、システムが意図した動作から外れた場合に即座に停止できる『キルスイッチ』権限を政府に付与する法案を求める動き。AI安全性への国際的な関心の高まりを象徴する事例として、日本でも規制の議論が加速する可能性がある。</description>
     <pubDate>Fri, 04 Sep 2026 13:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ロボットAI、圧倒的にデータ不足。AWS支援プログラムが示した現実と突破口</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-50fcd3ab.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-50fcd3ab.html</guid>
-    <description>ロボットなど物理世界で動作するAIの開発は、学習用データの不足が最大の課題。AWSの支援プログラムに採択された企業たちが半年間で見つけた解決策とは。</description>
-    <pubDate>Fri, 04 Sep 2026 13:14:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>RIZAP社員、顧客情報を私用AIに入力　個人情報流出の衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-ai-0c0b8eed.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-ai-0c0b8eed.html</guid>
-    <description>RIZAPの社員が個人の生成AIに顧客の氏名や病歴などの機密情報を誤ってアップロード。</description>
-    <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
   </item>
 </channel></rss>

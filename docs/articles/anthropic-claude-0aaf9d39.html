@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anthropic Claude新モデル、コスト45%削減。料金・変更点を解説 | AI特化メディアMOT</title>
+<meta name="description" content="Anthropic が新しいClaudeモデルを発表。利用料金が大幅に下がり、セキュリティも強化。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Anthropic新モデル「Claude」、最大45％コスト削減で提供開始">
+<meta property="og:description" content="Anthropic が新しいClaudeモデルを発表。利用料金が大幅に下がり、セキュリティも強化。">
+<meta property="og:image" content="https://image.itmedia.co.jp/ait/articles/2609/05/cover_news009.jpg">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html">
+<meta property="article:published_time" content="2026-09-05T16:07:00+09:00">
+<meta property="article:modified_time" content="2026-09-05T16:07:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Anthropic新モデル「Claude」、最大45％コスト削減で提供開始", "description": "Anthropic が新しいClaudeモデルを発表。利用料金が大幅に下がり、セキュリティも強化。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-05T16:07:00+09:00", "dateModified": "2026-09-05T16:07:00+09:00", "image": ["https://image.itmedia.co.jp/ait/articles/2609/05/cover_news009.jpg"], "citation": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Claude Fable 5.1とは何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "Anthropicが新たに発表したAIモデル。キャッシュ読み取り価格を下げることで、最大45％のコスト削減が可能になりました。"}}, {"@type": "Question", "name": "何が変わったのですか？", "acceptedAnswer": {"@type": "Answer", "text": "データ再利用機能の価格が引き下げられ、利用コストが削減されるほか、脆弱性を検知する能力など安全性機能が強化されました。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Anthropic", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/anthropic.html"}, {"@type": "ListItem", "position": 3, "name": "Anthropic新モデル「Claude」、最大45％コスト削減で提供開始", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://image.itmedia.co.jp/ait/articles/2609/05/cover_news009.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Anthropic新モデル「Claude」、最大45％コスト削減で提供開始</span></div></div>
+  <h1 class="headline">Anthropic新モデル「Claude」、最大45％コスト削減で提供開始</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>ITmedia AI＋ 最新記事一覧</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-05 16:07</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Anthropicが新AIモデルを発表し、キャッシュ機能の価格引き下げにより最大45％のコスト削減を実現。同時に脆弱性検知など安全性の向上も図った。</p><h3>何が起きたか</h3><p>AI企業Anthropicが「Claude Fable 5.1」と「Claude Mythos 5.1」という新しいAIモデルを発表しました。これらのモデルは、データの再利用機能（キャッシュ）の読み取り価格を下げることで、最大約45％の利用コスト削減を実現。同時に、AIが脆弱性を検知する能力を強化するなど、セーフガード機能も一部変更されました。</p><h3>なぜ重要か</h3><p>AIツールの利用コストは企業や個人の採用判断を大きく左右する要素です。Anthropicによる大幅な価格引き下げは、ChatGPTなど他のAIサービスとの競争が激化していることを示します。また脆弱性検知の強化は、AIを実務で使う際のセキュリティリスク軽減につながり、より安心して導入できる環境が整いつつあることを意味します。</p><h3>あなたへの影響</h3><p>AIサービスの利用を検討している企業や個人にとって、選択肢の価値が変わります。コスト削減は予算内でより多くの処理ができることを意味し、特に大量のデータ処理が必要な業務での投資判断が変わる可能性があります。また、セキュリティ強化により、重要な情報を扱う業務でのAI活用がより現実的になります。</p><h3>MOT読者が知っておくべき理由</h3><p>AIサービスの料金や安全性は、導入を検討する際の最大の課題。コスト削減と安全性向上は、AIを身近な仕事道具に変える直結する動きです。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>異なるAIサービス間での価格競争が加速し、各企業の経営判断が揺らぐ可能性があります。また、機能改良に伴う「実際の使い勝手や性能がどう変わるのか」が実際に試してみるまで不明確なままという、判断材料の不足が生まれやすい状況です。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>利用コストが下がれば、これまで高くて導入できなかった中小企業や個人も、AIツールを本格的に試す敷居が低くなります。セキュリティ強化により、より多くの用途でAIを信頼できるパートナーとして活用できる可能性が広がります。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>Anthropicの価格戦略は、生成AI市場が「革新性よりコスト効率の時代」へシフトしていることを示唆しています。ChatGPT登場時は『何ができるか』が重視されていましたが、今は『いくらで何ができるか』が普及の決め手。脆弱性検知の強化と組み合わせることで、『安くて安全』という実務向けのポジショニングを打ち出している点が、単なる値下げではなく競争戦略の進化と言えます。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>他のAI企業（OpenAIなど）がこの価格引き下げにどう対抗するか、また実際の企業導入事例でコスト削減がどの程度実現するかが次の焦点。さらに、脆弱性検知機能の実装効果が実務でどう評価されるかも注視する価値があります。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/anthropic.html">#Anthropic</a><a class="tag-pill" href="../topics/claude.html">#Claude</a></div>
+  <script>window.motPageTags=["Anthropic", "Claude", "AI料金"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">起業・副業の登記住所に。業界最安値級のバーチャルオフィス</h3><p class="sponsor-desc">士業のサポートも受けられる法人登記用バーチャルオフィス。無料プランあり。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36M+9OW19U+4V0U+15P77L" rel="sponsored nofollow" target="_blank"><img border="0" width="100" height="60" alt="バーチャルオフィス" loading="lazy" src="https://www23.a8.net/svt/bgt?aid=260904478586&wid=001&eno=01&mid=s00000022683007004000&mc=1"></a><img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4BC36M+9OW19U+4V0U+15P77L" alt=""></div><span class="sponsor-cta">無料プランを見る &rarr;</span><p class="sponsor-name">バーチャルオフィス</p></div></article></div>
+  <blockquote class="fact-check" cite="https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>ITmedia AI＋ 最新記事一覧</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html" target="_blank" rel="noopener noreferrer">元記事（<cite>ITmedia AI＋ 最新記事一覧</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Claude Fable 5.1とは何ですか？</p>
+    <p class="faq-a">Anthropicが新たに発表したAIモデル。キャッシュ読み取り価格を下げることで、最大45％のコスト削減が可能になりました。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 何が変わったのですか？</p>
+    <p class="faq-a">データ再利用機能の価格が引き下げられ、利用コストが削減されるほか、脆弱性を検知する能力など安全性機能が強化されました。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Anthropic%E6%96%B0%E3%83%A2%E3%83%87%E3%83%AB%E3%80%8CClaude%E3%80%8D%E3%80%81%E6%9C%80%E5%A4%A745%EF%BC%85%E3%82%B3%E3%82%B9%E3%83%88%E5%89%8A%E6%B8%9B%E3%81%A7%E6%8F%90%E4%BE%9B%E9%96%8B%E5%A7%8B&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html&text=Anthropic%E6%96%B0%E3%83%A2%E3%83%87%E3%83%AB%E3%80%8CClaude%E3%80%8D%E3%80%81%E6%9C%80%E5%A4%A745%EF%BC%85%E3%82%B3%E3%82%B9%E3%83%88%E5%89%8A%E6%B8%9B%E3%81%A7%E6%8F%90%E4%BE%9B%E9%96%8B%E5%A7%8B" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html" data-share-title="Anthropic新モデル「Claude」、最大45％コスト削減で提供開始">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="anthropic-claude-0aaf9d39">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="anthropic-claude-b36db701.html">
+    <img src="https://www.itmedia.co.jp/aiplus/article/ogp/2609/02/2000001056/10003038/2048" alt="" loading="lazy">
+    <span class="next-up-headline">Claude、利用制限を一括リセット。新モデル「Fable 5.1」提供開始に伴い</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="anthropic-claude-048a59c0.html">Claude新バージョン発表、科学研究性能アップとコスト削減を同時実現</a></li>
+  <li><a href="nec-anthropic-38aa0aa1.html">NEC、最新AI「Claude Mythos」でサイバー防御を強化。企業の情報セキュリティ激変へ</a></li>
+  <li><a href="anthropic-claude-2b48cf14.html">Anthropic、新AI「Claude 5.1」発表。高性能の代わりに監視困難さが浮上</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
