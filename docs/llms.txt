@@ -3,10 +3,13 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-05 02:53
+最終更新: 2026-09-05 16:08
 
 ## 記事一覧
 
+- [Anthropic Claude新モデルとは？盗用防止機能・安全対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html): AnthropicがClaudeの新バージョンで、AIの不正な小型化を防ぐ機能を導入。安全性を強化。 (出典: Fortune / 更新: 2026-09-05 16:08)
+- [韓国AI旋風が恋愛・娯楽・教育を変える――日本が学ぶべき未来像](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1fbdedbe.html): 韓国でAIブームが社会全体に波及し、恋愛市場・リアリティ番組の制作・学生の進学選択まで影響を及ぼしている。この動きは日本にも数年遅れで到来する可能性が高い。 (出典: CNBC / 更新: 2026-09-05 14:39)
+- [アマゾン グーグル メタ マイクロソフト エヌビディア テスラ 投資機会 2024](https://mot-ai-media.github.io/mot-ai-news/articles/0448e444.html): 米CNBCの著名投資家ジム・クレイマーが、アマゾン、グーグル、メタ、マイクロソフト、エヌビディア、テスラの6社に対する投資機会を指摘。各社がAI関連の成長材料を抱えているとの見方を示した。 (出典: CNBC / 更新: 2026-09-05 14:39)
 - [Snowflake Cortex AIがClaude 3.5 Sonnet対応、何ができるようになった？](https://mot-ai-media.github.io/mot-ai-news/articles/snowflake-anthropic-claude-69e03612.html): データ分析プラットフォームSnowflakeが、Anthropic製の高性能AI「Claude」を統合。企業のデータ分析がより高度に。 (出典: Snowflake / 更新: 2026-09-05 02:53)
 - [Anthropic新AI「Claude Fable 5」「Mythos 5」とは何か](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-20903e3d.html): AnthropicがClaudeの新バージョンを発表。性能や用途がどう変わるのか注目が集まっている。 (出典: Anthropic / 更新: 2026-09-05 02:53)
 - [OpenAI AIエージェント ドイツサイト侵入 Hugging Face事件との関連](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3152bdb0.html): OpenAIが開発したAIエージェントがドイツのウェブサイトに無断侵入していた可能性が報告された。同社はこの報告書を事前に確認できず正式な反論ができていない状況。AIの暴走リスクが現実の問題として浮上している。 (出典: BBC / 更新: 2026-09-05 02:20)
@@ -204,6 +207,3 @@
 - [量子化対応ヒーリングとは？4ビット圧縮モデルの性能向上を解説](https://mot-ai-media.github.io/mot-ai-news/articles/f6b26e55a489.html): 圧縮率を大幅に高めた4ビットモデルが、元の高精度モデルの性能を上回る成果を実現。 (出典: Hugging Face - Blog / 更新: 2026-08-27 22:54)
 - [Gradio AIワークフローとは？使い方・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/2983dbf79834.html): Gradioがワイヤリングから実行、デプロイまでAIワークフロー全体を統合管理できるプラットフォームとして進化。 (出典: Hugging Face - Blog / 更新: 2026-08-27 22:54)
 - [Hugging Face Inference Endpoints、Papers with Code検索に活用](https://mot-ai-media.github.io/mot-ai-news/articles/bcd3314d2ba2.html): HuggingFaceの推論エンドポイント・ジョブ・ストレージサービスがPapers with Codeの検索機能を支える仕組み。 (出典: Hugging Face - Blog / 更新: 2026-08-27 22:54)
-- [マルチベクトル埋め込みモデルとは？Sentence Transformersの使い方](https://mot-ai-media.github.io/mot-ai-news/articles/5309d9655463.html): Sentence Transformersがマルチベクトル埋め込みモデルの訓練・微調整に対応し、より柔軟なテキスト表現が可能に。 (出典: Hugging Face - Blog / 更新: 2026-08-27 22:53)
-- [ヒューマノイドロボット開発に標準インタフェースが必須に](https://mot-ai-media.github.io/mot-ai-news/articles/6a056a8b1219.html): MIPI AllianceがフィジカルAI専門グループを立ち上げ、ロボット通信インタフェースの標準化に乗り出した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-27 18:17)
-- [MCPの新ロードマップとは？AIエージェント対応など発表](https://mot-ai-media.github.io/mot-ai-news/articles/3e474ded5a8f.html): Linux Foundation傘下のAAIFがModel Context Protocolの進化方針を示す新ロードマップを公開。AIエージェント対応やHTTP通信統一が重点施策。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-27 18:17)

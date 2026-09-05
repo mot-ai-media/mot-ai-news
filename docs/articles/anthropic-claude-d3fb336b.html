@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anthropic Claude新モデルとは？盗用防止機能・安全対策を解説 | AI特化メディアMOT</title>
+<meta name="description" content="AnthropicがClaudeの新バージョンで、AIの不正な小型化を防ぐ機能を導入。安全性を強化。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Anthropic、Claude新モデルに「盗用防止機能」搭載。安全性と性能の両立へ">
+<meta property="og:description" content="AnthropicがClaudeの新バージョンで、AIの不正な小型化を防ぐ機能を導入。安全性を強化。">
+<meta property="og:image" content="https://mot-ai-media.github.io/mot-ai-news/og-image.png">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html">
+<meta property="article:published_time" content="2026-09-05T16:08:00+09:00">
+<meta property="article:modified_time" content="2026-09-05T16:08:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Anthropic、Claude新モデルに「盗用防止機能」搭載。安全性と性能の両立へ", "description": "AnthropicがClaudeの新バージョンで、AIの不正な小型化を防ぐ機能を導入。安全性を強化。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-05T16:08:00+09:00", "dateModified": "2026-09-05T16:08:00+09:00", "image": ["https://mot-ai-media.github.io/mot-ai-news/og-image.png"], "citation": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVW1vejVrSEc2dXRITnk1MWdqTXBxaFdsVV9oVkhydl94R0F2UG1nODdnSUdGMU84LU9nMl9IN0tXTFpoSTRaZUNlYzhHTlNCWERQQmk4RTVBR3dVNjNlT2VNZEhweVF1bHJnV294ZGxfeEJzS2pPcUNtTDZjX1d6NmVHX0VzVTJqYURWelkxNEpBZ3ljQ21aaU9FbnQwYmhWNmhDc1Zqdno2YWVTZ3lQa0VUZFVVRFA0UGFHVVpNdkN1N1E?oc=5"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "盗用防止機構とは何か？", "acceptedAnswer": {"@type": "Answer", "text": "AIモデルを無断で小型化・簡略化して他の企業が転用することを防ぐ技術。Anthropicが新バージョンのClaudeに組み込んだ安全機能。"}}, {"@type": "Question", "name": "これによってAIはどう変わるか？", "acceptedAnswer": {"@type": "Answer", "text": "ユーザーが利用するAIサービスがより安全になり、企業の研究開発も保護されやすくなる一方、開発企業間の信頼が醸成される環境が整いやすくなる。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Anthropic", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/anthropic.html"}, {"@type": "ListItem", "position": 3, "name": "Anthropic、Claude新モデルに「盗用防止機能」搭載。安全性と性能の両立へ", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style="background: #DA7756;"><img class="thumb thumb-contain" src="https://mot-ai-media.github.io/mot-ai-news/images/claude-fallback.png" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Anthropic、Claude新モデルに「盗用防止機能」搭載。安全性と性能の両立へ</span></div></div>
+  <h1 class="headline">Anthropic、Claude新モデルに「盗用防止機能」搭載。安全性と性能の両立へ</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>Fortune</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-05 16:08</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> AnthropicがClaudeの新バージョンで、AIを無断で縮小・悪用されるのを防ぐ機能を組み込み、性能と安全性の両立を目指している。</p><h3>何が起きたか</h3><p>AI企業Anthropicが、生成AIの新バージョンに「盗用防止機構」と呼ばれる新しい安全機能を導入した。これは、競合企業が開発したAIを無断で小型化・簡略化して転用することを防ぐ技術。同社は高い性能を保ちながら、AIの不正利用にも対抗する構え。</p><h3>なぜ重要か</h3><p>生成AIの市場競争が激化する中、モデルの盗用・模倣は大きな課題。企業の研究開発成果を保護しつつ、ユーザーの安全も守る必要がある。Anthropicのこの取り組みは、AI業界全体の信頼性と持続可能性を左右する重要な方向性を示している。</p><h3>あなたへの影響</h3><p>一般ユーザーが使うAIサービスがより安全になり、不正なAIによる悪用リスクが低下する可能性がある。同時に、企業のAI開発投資がより保護されることで、より多くの優れたAIサービスが生み出される環境が整いやすくなる。</p><h3>MOT読者が知っておくべき理由</h3><p>ChatGPT以外のAIも続々登場し、各社が独自の技術開発に力を入れている今、AIの安全性と公正な競争がどう実現されるかは、利用者にも開発企業にも影響を与える基本的な問題。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>盗用防止機能が十分に機能しなければ、AIの不正な流用が続き、開発企業の意欲が減退する可能性がある一方、機能が強すぎると正当な研究まで制限される懸念も生じる。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>盗用防止技術が確立されることで、AIベンチャーや中小企業も安心して技術投資できる環境が生まれ、業界全体の多様性と革新が加速する可能性がある。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>これはAI産業が単なる「モデル性能の競争」から「知的財産と安全性の共存」への転換期に入ったことを示唆している。OpenAIのChatGPT一強の時代から、複数の企業による健全な競争へシフトするには、こうした信頼基盤が不可欠になりつつある。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>Anthropicの新機能が実際のAI利用において有効に機能するか、また他のAI企業（OpenAI、Google等）が同様の保護機構を導入するかに注目。業界標準へ広がるかどうかが次のポイント。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/anthropic.html">#Anthropic</a><a class="tag-pill" href="../topics/claude.html">#Claude</a><a class="tag-pill" href="../topics/eca5cf5b1d.html">#AI安全性</a></div>
+  <script>window.motPageTags=["Anthropic", "Claude", "AI安全性"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">AIプロダクトのアイデアを、クラウドファンディングで形に</h3><p class="sponsor-desc">国内最大級のクラウドファンディング「CAMPFIRE」。自作のAIツールやプロジェクトの資金調達にも使える。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+76E5BM+5XBQ+5YJRM" rel="sponsored nofollow" target="_blank" class="sponsor-text-link">CAMPFIREを見る</a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36P+76E5BM+5XBQ+5YJRM" alt=""></div><span class="sponsor-cta">サービスを見る &rarr;</span><p class="sponsor-name">CAMPFIRE</p></div></article></div>
+  <blockquote class="fact-check" cite="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVW1vejVrSEc2dXRITnk1MWdqTXBxaFdsVV9oVkhydl94R0F2UG1nODdnSUdGMU84LU9nMl9IN0tXTFpoSTRaZUNlYzhHTlNCWERQQmk4RTVBR3dVNjNlT2VNZEhweVF1bHJnV294ZGxfeEJzS2pPcUNtTDZjX1d6NmVHX0VzVTJqYURWelkxNEpBZ3ljQ21aaU9FbnQwYmhWNmhDc1Zqdno2YWVTZ3lQa0VUZFVVRFA0UGFHVVpNdkN1N1E?oc=5">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>Fortune</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVW1vejVrSEc2dXRITnk1MWdqTXBxaFdsVV9oVkhydl94R0F2UG1nODdnSUdGMU84LU9nMl9IN0tXTFpoSTRaZUNlYzhHTlNCWERQQmk4RTVBR3dVNjNlT2VNZEhweVF1bHJnV294ZGxfeEJzS2pPcUNtTDZjX1d6NmVHX0VzVTJqYURWelkxNEpBZ3ljQ21aaU9FbnQwYmhWNmhDc1Zqdno2YWVTZ3lQa0VUZFVVRFA0UGFHVVpNdkN1N1E?oc=5" target="_blank" rel="noopener noreferrer">元記事（<cite>Fortune</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. 盗用防止機構とは何か？</p>
+    <p class="faq-a">AIモデルを無断で小型化・簡略化して他の企業が転用することを防ぐ技術。Anthropicが新バージョンのClaudeに組み込んだ安全機能。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. これによってAIはどう変わるか？</p>
+    <p class="faq-a">ユーザーが利用するAIサービスがより安全になり、企業の研究開発も保護されやすくなる一方、開発企業間の信頼が醸成される環境が整いやすくなる。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Anthropic%E3%80%81Claude%E6%96%B0%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AB%E3%80%8C%E7%9B%97%E7%94%A8%E9%98%B2%E6%AD%A2%E6%A9%9F%E8%83%BD%E3%80%8D%E6%90%AD%E8%BC%89%E3%80%82%E5%AE%89%E5%85%A8%E6%80%A7%E3%81%A8%E6%80%A7%E8%83%BD%E3%81%AE%E4%B8%A1%E7%AB%8B%E3%81%B8&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html&text=Anthropic%E3%80%81Claude%E6%96%B0%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AB%E3%80%8C%E7%9B%97%E7%94%A8%E9%98%B2%E6%AD%A2%E6%A9%9F%E8%83%BD%E3%80%8D%E6%90%AD%E8%BC%89%E3%80%82%E5%AE%89%E5%85%A8%E6%80%A7%E3%81%A8%E6%80%A7%E8%83%BD%E3%81%AE%E4%B8%A1%E7%AB%8B%E3%81%B8" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html" data-share-title="Anthropic、Claude新モデルに「盗用防止機能」搭載。安全性と性能の両立へ">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="anthropic-claude-d3fb336b">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="anthropic-claude-2b48cf14.html">
+    <img src="https://www.itmedia.co.jp/news/article/ogp/2609/02/2000001048/10004803/2048" alt="" loading="lazy">
+    <span class="next-up-headline">Anthropic、新AI「Claude 5.1」発表。高性能の代わりに監視困難さが浮上</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="anthropic-claude-b36db701.html">Claude、利用制限を一括リセット。新モデル「Fable 5.1」提供開始に伴い</a></li>
+  <li><a href="anthropic-claude-6b3f581b.html">Claude、AIの安全性研究を自分でやる。人間研究者28人を超える成果</a></li>
+  <li><a href="anthropic-claude-20903e3d.html">Anthropic、新型AI「Claude Fable 5」「Claude Mythos 5」発表</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

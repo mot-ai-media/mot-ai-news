@@ -4,6 +4,27 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、Claude新モデルに「盗用防止機能」搭載。安全性と性能の両立へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d3fb336b.html</guid>
+    <description>AnthropicがClaudeの新バージョンで、AIの不正な小型化を防ぐ機能を導入。安全性を強化。</description>
+    <pubDate>Sat, 05 Sep 2026 16:08:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>アマゾン、グーグル、メタ、マイクロソフト、エヌビディア、テスラ——米著名投資家が「GAFAM+2」への投資機会を指摘</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/0448e444.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/0448e444.html</guid>
+    <description>米CNBCの著名投資家ジム・クレイマーが、アマゾン、グーグル、メタ、マイクロソフト、エヌビディア、テスラの6社に対する投資機会を指摘。各社がAI関連の成長材料を抱えているとの見方を示した。</description>
+    <pubDate>Sat, 05 Sep 2026 14:39:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>韓国でAIが恋愛・テレビ・進路選択を激変させている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1fbdedbe.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1fbdedbe.html</guid>
+    <description>韓国でAIブームが社会全体に波及し、恋愛市場・リアリティ番組の制作・学生の進学選択まで影響を及ぼしている。この動きは日本にも数年遅れで到来する可能性が高い。</description>
+    <pubDate>Sat, 05 Sep 2026 14:39:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、新型AI「Claude Fable 5」「Claude Mythos 5」発表</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-20903e3d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-20903e3d.html</guid>
@@ -190,27 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-ai-0c0b8eed.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-ai-0c0b8eed.html</guid>
     <description>RIZAPの社員が個人の生成AIに顧客の氏名や病歴などの機密情報を誤ってアップロード。</description>
-    <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、ChatGPT有料ユーザーに毎日リセット権。新モデル「Astra」登場まで</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-7ad22734.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-7ad22734.html</guid>
-    <description>OpenAIが有料ユーザー向けにChatGPTの利用制限をリセットする施策を発表。新AI「GPT-6 Astra」提供開始まで実施予定。</description>
-    <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>RIZAPの従業員、顧客情報をAIに無断アップロード　企業の情報管理に赤信号</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-chatgpt-3a28d4e4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/rizap-chatgpt-3a28d4e4.html</guid>
-    <description>大手パーソナルジムRIZAPの従業員が個人利用のAIサービスに顧客情報を誤ってアップロードし、同社が謝罪。</description>
-    <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日本、AI産業の成長目指し政府方針に異議。新経済連盟が意見提出</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a149c0d5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a149c0d5.html</guid>
-    <description>日本政府のAI関連政策骨子に対し、新経済連盟が意見を提出。産業成長とのバランスに関する提言。</description>
     <pubDate>Fri, 04 Sep 2026 13:13:00 +0900</pubDate>
   </item>
 </channel></rss>
