@@ -309,9 +309,9 @@ def _background_for_article(
 ) -> tuple[Image.Image, str | None]:
     """背景選択の優先順位:
     1. 著名人が写っていれば本人の実写真(既存ロジック、最優先)
-    2. それ以外は4記事に1記事だけMOT厳選の背景写真(ai_glow等)を使い、
-       残り3/4は元記事の実画像を引用する(ユーザー指示による方針)
-    3. 元記事画像の取得に失敗した場合のみ厳選写真にフォールバック
+    2. それ以外は常に元記事の実画像を引用する(ユーザー指示: 無機質な模様画像はCTRが低すぎるため、
+       MOT厳選の抽象背景は「実画像が無い場合の最終フォールバック」に格下げする)
+    3. 元記事画像が無い/取得失敗の場合のみ厳選写真にフォールバック
     戻り値の2つ目はクレジット表記(表示不要ならNone)。"""
     person_key = pick_named_figure(tags)
     if person_key:
@@ -323,11 +323,9 @@ def _background_for_article(
         except OSError:
             pass
 
-    use_curated = int(hashlib.md5(seed.encode("utf-8")).hexdigest(), 16) % 4 == 0
-    if not use_curated:
-        fetched = _fetch_photo_background(image_url)
-        if fetched is not None:
-            return fetched, None
+    fetched = _fetch_photo_background(image_url)
+    if fetched is not None:
+        return fetched, None
     return _curated_background(tags, seed, angle), None
 
 
