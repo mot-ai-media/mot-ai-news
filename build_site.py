@@ -104,6 +104,7 @@ THEME_INIT_SCRIPT = (
 # サブページ(記事/テーマ/about)用の簡易ナビ。トップページのみ検索欄付きの専用ナビを別途持つ
 SUB_NAV_TEMPLATE = """<nav class="mot-nav">
   <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
     <a class="mot-nav-logo" href="{prefix}index.html">MOT</a>
     <ul class="mot-nav-links" id="mot-nav-menu">
       <li><a href="{prefix}index.html#today">TODAY</a></li>
@@ -114,7 +115,6 @@ SUB_NAV_TEMPLATE = """<nav class="mot-nav">
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
-      <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
     </div>
   </div>
 </nav>
@@ -1538,6 +1538,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <body>
 <nav class="mot-nav">
   <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
     <a class="mot-nav-logo" href="index.html">MOT</a>
     <ul class="mot-nav-links" id="mot-nav-menu">
       <li><a href="#today">TODAY</a></li>
@@ -1549,7 +1550,6 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     <div class="mot-nav-actions">
       <input id="mot-search" class="mot-search-input" type="text" placeholder="検索" aria-label="記事を検索">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
-      <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
     </div>
   </div>
 </nav>
