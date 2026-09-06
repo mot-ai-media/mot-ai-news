@@ -148,5 +148,55 @@
     "japan_relevance_score": 45,
     "reason": "中国AI企業の新規参入は珍しくなく、HN での関心も中程度だが、グローバルAI競争という文脈では日本にも関連性あり。",
     "discovered_at": "2026-09-04T13:28:48.295206+00:00"
+  },
+  {
+    "title": "AI, Tools and Transformation",
+    "link": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation\nComments URL: https://news.ycombinator.com/item?id=49582656\nPoints: 64\n# Comments: 23",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "AI導入の一般的な考察で新規性は低いが、日本企業のDX課題と関連が高い。",
+    "discovered_at": "2026-09-06T10:28:44.707758+00:00"
+  },
+  {
+    "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+    "link": "https://github.com/okf-memory/okf-agent-memory",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/okf-memory/okf-agent-memory\nComments URL: https://news.ycombinator.com/item?id=49581240\nPoints: 66\n# Comments: 20",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "AI coding agentの永続メモリ機構は新しいが、既存メモリ管理手法の応用で、日本でのAI開発関心層には限定的。",
+    "discovered_at": "2026-09-06T10:28:46.813780+00:00"
+  },
+  {
+    "title": "America's two largest school districts impose AI moratoriums",
+    "link": "https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/\nComments URL: https://news.ycombinator.com/item?id=49580980\nPoints: 59\n# Comments: 71",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "米国の学区によるAI規制の事例は参考になるが、既に類似の動きが複数存在しており、日本の教育現場でも同様の議論が生じる可能性が高い。",
+    "discovered_at": "2026-09-06T10:28:48.779443+00:00"
+  },
+  {
+    "title": "How AI is breaking the British state",
+    "link": "https://www.economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state\nComments URL: https://news.ycombinator.com/item?id=49580687\nPoints: 33\n# Comments: 58",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AI導入による行政機関への影響は既知のテーマだが、英国の具体例は参考価値があり日本でも同様の課題に直面する可能性が高い。",
+    "discovered_at": "2026-09-06T10:28:50.843949+00:00"
+  },
+  {
+    "title": "Show HN: We Beat MLPerf: Modern Storage for KV Offload and LLM Training",
+    "link": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0\nComments URL: https://news.ycombinator.com/item?id=49578727\nPoints: 35\n# Comments: 1",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "MLPerf実績は専門的価値があるが、ストレージ最適化は限定的な市場向けで、日本での関心度は低めと判断。",
+    "discovered_at": "2026-09-06T10:28:52.784514+00:00"
   }
 ]
