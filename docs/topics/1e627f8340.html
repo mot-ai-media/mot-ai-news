@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>大規模言語モデルの最新ニュースまとめ | AI特化メディアMOT</title>
@@ -36,6 +36,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -47,18 +53,14 @@
   <a class="thumb-link" href="../articles/hugging-face-d556a48b.html" style=""><img class="thumb" src="https://huggingface.co/blog/assets/state-of-open-models-summer-2026/thumbnail.png" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">オープンモデルの現在地、2026年夏の実態が明らかに</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E7%8F%BE%E5%9C%A8%E5%9C%B0%E3%80%812026%E5%B9%B4%E5%A4%8F%E3%81%AE%E5%AE%9F%E6%85%8B%E3%81%8C%E6%98%8E%E3%82%89%E3%81%8B%E3%81%AB&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/hugging-face-d556a48b.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/hugging-face-d556a48b.html&text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E7%8F%BE%E5%9C%A8%E5%9C%B0%E3%80%812026%E5%B9%B4%E5%A4%8F%E3%81%AE%E5%AE%9F%E6%85%8B%E3%81%8C%E6%98%8E%E3%82%89%E3%81%8B%E3%81%AB" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/hugging-face-d556a48b.html">オープンモデルの現在地、2026年夏の実態が明らかに</a></h2>
-    <p class="meta"><span class="level-badge level-technical">&#128309; テクニカル</span> 出典: Hugging Face - Blog　&middot;　1分で読める</p>
-    <p class="summary">Hugging Faceが公開したオープンモデルの最新観察レポートから、業界の現在地と課題が浮き彫りに。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#Hugging Face</span><span class="tag-pill tag-pill-sm">#オープンモデル</span><span class="tag-pill tag-pill-sm">#大規模言語モデル</span></div>
+    <p class="meta"><span class="level-badge level-technical">&#128309; テクニカル</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="IBM Granite 4.2、大規模言語モデルの構築方法を公開" data-level="easy">
   <a class="thumb-link" href="../articles/74043a2c13e4.html" style=""><img class="thumb" src="https://cdn-uploads.huggingface.co/production/uploads/65cc2c288ebd392213e58899/XHWV2L_wZsFe3ekksCgvQ.webp" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">IBM Granite 4.2、大規模言語モデルの構築方法を公開</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=IBM%20Granite%204.2%E3%80%81%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%A7%8B%E7%AF%89%E6%96%B9%E6%B3%95%E3%82%92%E5%85%AC%E9%96%8B&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/74043a2c13e4.html&text=IBM%20Granite%204.2%E3%80%81%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%A7%8B%E7%AF%89%E6%96%B9%E6%B3%95%E3%82%92%E5%85%AC%E9%96%8B" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/74043a2c13e4.html">IBM Granite 4.2、大規模言語モデルの構築方法を公開</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: Hugging Face - Blog　&middot;　1分で読める</p>
-    <p class="summary">IBMが次世代モデル「Granite 4.2」の開発手法を詳細に解説し、大規模言語モデル構築のベストプラクティスを明かした。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#IBM</span><span class="tag-pill tag-pill-sm">#Granite</span><span class="tag-pill tag-pill-sm">#大規模言語モデル</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 

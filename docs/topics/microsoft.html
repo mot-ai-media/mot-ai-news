@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Microsoftの最新ニュースまとめ | AI特化メディアMOT</title>
@@ -36,6 +36,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -47,27 +53,21 @@
   <span class="badge-new">NEW</span><a class="thumb-link" href="../articles/openai-microsoft-a5bf96db.html" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2023/03/artifact-newspaper-icon.jpg?resize=1200,645" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Seattle TimesとNewsdayがOpenAI・Microsoftを提訴。報道機関の著作権侵害疑惑が加速</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=Seattle%20Times%E3%81%A8Newsday%E3%81%8COpenAI%E3%83%BBMicrosoft%E3%82%92%E6%8F%90%E8%A8%B4%E3%80%82%E5%A0%B1%E9%81%93%E6%A9%9F%E9%96%A2%E3%81%AE%E8%91%97%E4%BD%9C%E6%A8%A9%E4%BE%B5%E5%AE%B3%E7%96%91%E6%83%91%E3%81%8C%E5%8A%A0%E9%80%9F&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-a5bf96db.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-a5bf96db.html&text=Seattle%20Times%E3%81%A8Newsday%E3%81%8COpenAI%E3%83%BBMicrosoft%E3%82%92%E6%8F%90%E8%A8%B4%E3%80%82%E5%A0%B1%E9%81%93%E6%A9%9F%E9%96%A2%E3%81%AE%E8%91%97%E4%BD%9C%E6%A8%A9%E4%BE%B5%E5%AE%B3%E7%96%91%E6%83%91%E3%81%8C%E5%8A%A0%E9%80%9F" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/openai-microsoft-a5bf96db.html">Seattle TimesとNewsdayがOpenAI・Microsoftを提訴。報道機関の著作権侵害疑惑が加速</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: AI News &amp; Artificial Intelligence | TechCrunch　&middot;　2分で読める</p>
-    <p class="summary">複数のメディア企業がOpenAIとMicrosoftを相次いで提訴。AIの学習に記事が無断利用された疑いで。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#OpenAI</span><span class="tag-pill tag-pill-sm">#Microsoft</span><span class="tag-pill tag-pill-sm">#著作権</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 2分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="Neocloud Lambda、10億ドルの債務調達でNvidia AI チップ大量購入" data-level="easy">
   <a class="thumb-link" href="../articles/neocloud-lambda-nvidia-d63f08af.html" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2026/06/Chip-chips-dollar-signs-money.png?resize=1200,960" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Neocloud Lambda、10億ドルの債務調達でNvidia AI チップ大量購入</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=Neocloud%20Lambda%E3%80%8110%E5%84%84%E3%83%89%E3%83%AB%E3%81%AE%E5%82%B5%E5%8B%99%E8%AA%BF%E9%81%94%E3%81%A7Nvidia%20AI%20%E3%83%81%E3%83%83%E3%83%97%E5%A4%A7%E9%87%8F%E8%B3%BC%E5%85%A5&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html&text=Neocloud%20Lambda%E3%80%8110%E5%84%84%E3%83%89%E3%83%AB%E3%81%AE%E5%82%B5%E5%8B%99%E8%AA%BF%E9%81%94%E3%81%A7Nvidia%20AI%20%E3%83%81%E3%83%83%E3%83%97%E5%A4%A7%E9%87%8F%E8%B3%BC%E5%85%A5" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/neocloud-lambda-nvidia-d63f08af.html">Neocloud Lambda、10億ドルの債務調達でNvidia AI チップ大量購入</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: AI News &amp; Artificial Intelligence | TechCrunch　&middot;　1分で読める</p>
-    <p class="summary">AI チップ調達競争の激化を象徴。Neocloud Lambda が 10 億ドルの債務で Nvidia チップを買収し Microsoft へリース。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#Neocloud Lambda</span><span class="tag-pill tag-pill-sm">#Nvidia</span><span class="tag-pill tag-pill-sm">#Microsoft</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="OpenAI、AIサイバー攻撃に対抗　100以上の企業が集団防衛を宣言" data-level="easy">
   <a class="thumb-link" href="../articles/openai-anthropic-7cf9939a.html" style=""><img class="thumb" src="https://www.itmedia.co.jp/aiplus/article/ogp/2608/28/2000000876/10004140/2048" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">OpenAI、AIサイバー攻撃に対抗　100以上の企業が集団防衛を宣言</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=OpenAI%E3%80%81AI%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E5%AF%BE%E6%8A%97%E3%80%80100%E4%BB%A5%E4%B8%8A%E3%81%AE%E4%BC%81%E6%A5%AD%E3%81%8C%E9%9B%86%E5%9B%A3%E9%98%B2%E8%A1%9B%E3%82%92%E5%AE%A3%E8%A8%80&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-7cf9939a.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-7cf9939a.html&text=OpenAI%E3%80%81AI%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E5%AF%BE%E6%8A%97%E3%80%80100%E4%BB%A5%E4%B8%8A%E3%81%AE%E4%BC%81%E6%A5%AD%E3%81%8C%E9%9B%86%E5%9B%A3%E9%98%B2%E8%A1%9B%E3%82%92%E5%AE%A3%E8%A8%80" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/openai-anthropic-7cf9939a.html">OpenAI、AIサイバー攻撃に対抗　100以上の企業が集団防衛を宣言</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: ITmedia AI＋ 最新記事一覧　&middot;　1分で読める</p>
-    <p class="summary">OpenAIが産業界と政府へ、AI悪用サイバー攻撃への防御強化と国際連携を呼びかける公開書簡を発表。大手企業100社以上が賛同。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#OpenAI</span><span class="tag-pill tag-pill-sm">#Anthropic</span><span class="tag-pill tag-pill-sm">#Google</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 

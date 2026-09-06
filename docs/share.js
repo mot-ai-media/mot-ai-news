@@ -74,6 +74,28 @@
     });
   });
 
+  // 老眼モード切り替え(<head>のtheme_initが初期状態は既に設定済み。ここではトグル操作のみ扱う)
+  document.querySelectorAll("[data-presbyopia-toggle]").forEach(function (btn) {
+    if (document.documentElement.getAttribute("data-presbyopia") === "on") {
+      btn.setAttribute("aria-pressed", "true");
+      btn.classList.add("is-active");
+    }
+    btn.addEventListener("click", function () {
+      var isOn = document.documentElement.getAttribute("data-presbyopia") === "on";
+      if (isOn) {
+        document.documentElement.removeAttribute("data-presbyopia");
+        try { localStorage.setItem("mot-presbyopia", "off"); } catch (e) {}
+      } else {
+        document.documentElement.setAttribute("data-presbyopia", "on");
+        try { localStorage.setItem("mot-presbyopia", "on"); } catch (e) {}
+      }
+      document.querySelectorAll("[data-presbyopia-toggle]").forEach(function (b) {
+        b.setAttribute("aria-pressed", String(!isOn));
+        b.classList.toggle("is-active", !isOn);
+      });
+    });
+  });
+
   // サイト内検索 + 難易度フィルター(記事カードの絞り込み。クライアントサイドのみ、外部送信なし)
   var searchInput = document.getElementById("mot-search");
   var levelFilter = document.getElementById("level-filter");

@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI投資の最新ニュースまとめ | AI特化メディアMOT</title>
@@ -36,6 +36,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -47,36 +53,28 @@
   <a class="thumb-link" href="../articles/nvidia-ai-88b52e93.html" style=""><img class="thumb" src="https://image.cnbcfm.com/api/v1/image/108353993-1787677585886-108353993-1787675816989-gettyimages-2266718431-NVIDIA_GTC.jpg?v=1787832050&amp;w=1920&amp;h=1080" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Nvidiaが99億ドルの投資を宣言、AI産業の支配者としての地位を確立</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=Nvidia%E3%81%8C99%E5%84%84%E3%83%89%E3%83%AB%E3%81%AE%E6%8A%95%E8%B3%87%E3%82%92%E5%AE%A3%E8%A8%80%E3%80%81AI%E7%94%A3%E6%A5%AD%E3%81%AE%E6%94%AF%E9%85%8D%E8%80%85%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%82%92%E7%A2%BA%E7%AB%8B&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-88b52e93.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-88b52e93.html&text=Nvidia%E3%81%8C99%E5%84%84%E3%83%89%E3%83%AB%E3%81%AE%E6%8A%95%E8%B3%87%E3%82%92%E5%AE%A3%E8%A8%80%E3%80%81AI%E7%94%A3%E6%A5%AD%E3%81%AE%E6%94%AF%E9%85%8D%E8%80%85%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%82%92%E7%A2%BA%E7%AB%8B" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/nvidia-ai-88b52e93.html">Nvidiaが99億ドルの投資を宣言、AI産業の支配者としての地位を確立</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: CNBC　&middot;　1分で読める</p>
-    <p class="summary">AIチップ大手のNvidiaが約99億ドルに達する株式保有を発表。AI研究所からクラウド企業、インフラ企業まで幅広くバックアップし、業界全体に対する影響力を強化している。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#Nvidia</span><span class="tag-pill tag-pill-sm">#AI投資</span><span class="tag-pill tag-pill-sm">#半導体産業</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="Thinking Machines、$40B評価で$1B調達へ。AIスタートアップの資金競争が加熱" data-level="easy">
   <a class="thumb-link" href="../articles/thinking-machines-accel-46fa5743.html" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2026/06/Mira-Murati-at-Bloomberg.jpg?w=1024" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Thinking Machines、$40B評価で$1B調達へ。AIスタートアップの資金競争が加熱</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=Thinking%20Machines%E3%80%81%2440B%E8%A9%95%E4%BE%A1%E3%81%A7%241B%E8%AA%BF%E9%81%94%E3%81%B8%E3%80%82AI%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E8%B3%87%E9%87%91%E7%AB%B6%E4%BA%89%E3%81%8C%E5%8A%A0%E7%86%B1&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/thinking-machines-accel-46fa5743.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/thinking-machines-accel-46fa5743.html&text=Thinking%20Machines%E3%80%81%2440B%E8%A9%95%E4%BE%A1%E3%81%A7%241B%E8%AA%BF%E9%81%94%E3%81%B8%E3%80%82AI%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E8%B3%87%E9%87%91%E7%AB%B6%E4%BA%89%E3%81%8C%E5%8A%A0%E7%86%B1" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/thinking-machines-accel-46fa5743.html">Thinking Machines、$40B評価で$1B調達へ。AIスタートアップの資金競争が加熱</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: AI News &amp; Artificial Intelligence | TechCrunch　&middot;　2分で読める</p>
-    <p class="summary">AIスタートアップのThinking Machinesが巨額調達の段階へ。業界の資金動向から目が離せない。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#Thinking Machines</span><span class="tag-pill tag-pill-sm">#Accel</span><span class="tag-pill tag-pill-sm">#AI投資</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 2分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="Crusoe、300億ドル超の企業評価を獲得—AI時代のデータセンター争奪戦が加速" data-level="easy">
   <a class="thumb-link" href="../articles/crusoe-energy-ai-49b35d8a.html" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2245923419.jpg?resize=1200,800" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Crusoe、300億ドル超の企業評価を獲得—AI時代のデータセンター争奪戦が加速</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=Crusoe%E3%80%81300%E5%84%84%E3%83%89%E3%83%AB%E8%B6%85%E3%81%AE%E4%BC%81%E6%A5%AD%E8%A9%95%E4%BE%A1%E3%82%92%E7%8D%B2%E5%BE%97%E2%80%94AI%E6%99%82%E4%BB%A3%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E4%BA%89%E5%A5%AA%E6%88%A6%E3%81%8C%E5%8A%A0%E9%80%9F&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/crusoe-energy-ai-49b35d8a.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/crusoe-energy-ai-49b35d8a.html&text=Crusoe%E3%80%81300%E5%84%84%E3%83%89%E3%83%AB%E8%B6%85%E3%81%AE%E4%BC%81%E6%A5%AD%E8%A9%95%E4%BE%A1%E3%82%92%E7%8D%B2%E5%BE%97%E2%80%94AI%E6%99%82%E4%BB%A3%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E4%BA%89%E5%A5%AA%E6%88%A6%E3%81%8C%E5%8A%A0%E9%80%9F" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/crusoe-energy-ai-49b35d8a.html">Crusoe、300億ドル超の企業評価を獲得—AI時代のデータセンター争奪戦が加速</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: AI News &amp; Artificial Intelligence | TechCrunch　&middot;　2分で読める</p>
-    <p class="summary">AI向けデータセンター企業Crusoeが大型資金調達を実施し、業界内での競争がさらに激しくなる局面へ。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#Crusoe Energy</span><span class="tag-pill tag-pill-sm">#データセンター</span><span class="tag-pill tag-pill-sm">#AI投資</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 2分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="AI学習スタートアップAfterQuery、わずか5ヶ月で評価額11倍に急騰" data-level="easy">
   <a class="thumb-link" href="../articles/afterquery-y-combinator-79fb6f58.html" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-1569337822.jpg?resize=1200,800" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">AI学習スタートアップAfterQuery、わずか5ヶ月で評価額11倍に急騰</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=AI%E5%AD%A6%E7%BF%92%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97AfterQuery%E3%80%81%E3%82%8F%E3%81%9A%E3%81%8B5%E3%83%B6%E6%9C%88%E3%81%A7%E8%A9%95%E4%BE%A1%E9%A1%8D11%E5%80%8D%E3%81%AB%E6%80%A5%E9%A8%B0&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/afterquery-y-combinator-79fb6f58.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/afterquery-y-combinator-79fb6f58.html&text=AI%E5%AD%A6%E7%BF%92%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97AfterQuery%E3%80%81%E3%82%8F%E3%81%9A%E3%81%8B5%E3%83%B6%E6%9C%88%E3%81%A7%E8%A9%95%E4%BE%A1%E9%A1%8D11%E5%80%8D%E3%81%AB%E6%80%A5%E9%A8%B0" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/afterquery-y-combinator-79fb6f58.html">AI学習スタートアップAfterQuery、わずか5ヶ月で評価額11倍に急騰</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: AI News &amp; Artificial Intelligence | TechCrunch　&middot;　2分で読める</p>
-    <p class="summary">AI開発企業AfterQueryが5ヶ月で評価額を11倍に膨らませ、Y Combinatorで最速のユニコーン達成。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#AfterQuery</span><span class="tag-pill tag-pill-sm">#Y Combinator</span><span class="tag-pill tag-pill-sm">#AI投資</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 2分で読める</p>
   </div>
 </article>
 

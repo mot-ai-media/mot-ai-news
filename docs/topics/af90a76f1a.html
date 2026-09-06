@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ソフトウェア開発の最新ニュースまとめ | AI特化メディアMOT</title>
@@ -36,6 +36,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -47,18 +53,14 @@
   <a class="thumb-link" href="../articles/ai-645daa2d.html" style=""><img class="thumb" src="https://image.itmedia.co.jp/ait/articles/2609/04/cover_news017.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">AIがコード書く時代、開発者の仕事が激変。弥生とビル・ゲイツが示す「人間の役割」</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=AI%E3%81%8C%E3%82%B3%E3%83%BC%E3%83%89%E6%9B%B8%E3%81%8F%E6%99%82%E4%BB%A3%E3%80%81%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AE%E4%BB%95%E4%BA%8B%E3%81%8C%E6%BF%80%E5%A4%89%E3%80%82%E5%BC%A5%E7%94%9F%E3%81%A8%E3%83%93%E3%83%AB%E3%83%BB%E3%82%B2%E3%82%A4%E3%83%84%E3%81%8C%E7%A4%BA%E3%81%99%E3%80%8C%E4%BA%BA%E9%96%93%E3%81%AE%E5%BD%B9%E5%89%B2%E3%80%8D&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-645daa2d.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-645daa2d.html&text=AI%E3%81%8C%E3%82%B3%E3%83%BC%E3%83%89%E6%9B%B8%E3%81%8F%E6%99%82%E4%BB%A3%E3%80%81%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AE%E4%BB%95%E4%BA%8B%E3%81%8C%E6%BF%80%E5%A4%89%E3%80%82%E5%BC%A5%E7%94%9F%E3%81%A8%E3%83%93%E3%83%AB%E3%83%BB%E3%82%B2%E3%82%A4%E3%83%84%E3%81%8C%E7%A4%BA%E3%81%99%E3%80%8C%E4%BA%BA%E9%96%93%E3%81%AE%E5%BD%B9%E5%89%B2%E3%80%8D" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/ai-645daa2d.html">AIがコード書く時代、開発者の仕事が激変。弥生とビル・ゲイツが示す「人間の役割」</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: ITmedia AI＋ 最新記事一覧　&middot;　1分で読める</p>
-    <p class="summary">AIがコード作成からテスト、レビューまで担う中、開発者の仕事は企画・仕様設計へシフト。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#弥生</span><span class="tag-pill tag-pill-sm">#ビル・ゲイツ</span><span class="tag-pill tag-pill-sm">#AI開発</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="ビル・ゲイツが警告「AIでコード作成は自動化されるが、開発者は消えない」" data-level="easy">
   <a class="thumb-link" href="../articles/ai-1c18f27c.html" style=""><img class="thumb" src="https://image.itmedia.co.jp/ait/articles/2608/31/cover_news039.png" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">ビル・ゲイツが警告「AIでコード作成は自動化されるが、開発者は消えない」</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=%E3%83%93%E3%83%AB%E3%83%BB%E3%82%B2%E3%82%A4%E3%83%84%E3%81%8C%E8%AD%A6%E5%91%8A%E3%80%8CAI%E3%81%A7%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90%E3%81%AF%E8%87%AA%E5%8B%95%E5%8C%96%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8C%E3%80%81%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AF%E6%B6%88%E3%81%88%E3%81%AA%E3%81%84%E3%80%8D&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html&text=%E3%83%93%E3%83%AB%E3%83%BB%E3%82%B2%E3%82%A4%E3%83%84%E3%81%8C%E8%AD%A6%E5%91%8A%E3%80%8CAI%E3%81%A7%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90%E3%81%AF%E8%87%AA%E5%8B%95%E5%8C%96%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8C%E3%80%81%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AF%E6%B6%88%E3%81%88%E3%81%AA%E3%81%84%E3%80%8D" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/ai-1c18f27c.html">ビル・ゲイツが警告「AIでコード作成は自動化されるが、開発者は消えない」</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: ITmedia AI＋ 最新記事一覧　&middot;　1分で読める</p>
-    <p class="summary">AIがコード作成を自動化する一方で、開発者の役割そのものが再定義されると指摘。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#ビル・ゲイツ</span><span class="tag-pill tag-pill-sm">#AI</span><span class="tag-pill tag-pill-sm">#ソフトウェア開発</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 

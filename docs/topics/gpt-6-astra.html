@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GPT-6 Astraの最新ニュースまとめ | AI特化メディアMOT</title>
@@ -36,6 +36,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -47,36 +53,28 @@
   <a class="thumb-link" href="../articles/openai-gpt-6-astra-986bb8bd.html" style="background: #DA7756;"><img class="thumb thumb-contain" src="https://mot-ai-media.github.io/mot-ai-news/images/claude-fallback.png" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">GPT-6 Astra登場、PC操作も実現。OpenAIが「4」以来の大転換</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=GPT-6%20Astra%E7%99%BB%E5%A0%B4%E3%80%81PC%E6%93%8D%E4%BD%9C%E3%82%82%E5%AE%9F%E7%8F%BE%E3%80%82OpenAI%E3%81%8C%E3%80%8C4%E3%80%8D%E4%BB%A5%E6%9D%A5%E3%81%AE%E5%A4%A7%E8%BB%A2%E6%8F%9B&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-986bb8bd.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-986bb8bd.html&text=GPT-6%20Astra%E7%99%BB%E5%A0%B4%E3%80%81PC%E6%93%8D%E4%BD%9C%E3%82%82%E5%AE%9F%E7%8F%BE%E3%80%82OpenAI%E3%81%8C%E3%80%8C4%E3%80%8D%E4%BB%A5%E6%9D%A5%E3%81%AE%E5%A4%A7%E8%BB%A2%E6%8F%9B" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/openai-gpt-6-astra-986bb8bd.html">GPT-6 Astra登場、PC操作も実現。OpenAIが「4」以来の大転換</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: TBS NEWS DIG　&middot;　2分で読める</p>
-    <p class="summary">OpenAIとAnthropicの最新AI、PC自動操作や数学能力で新段階へ。性能の限界も見え始める</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#OpenAI</span><span class="tag-pill tag-pill-sm">#GPT-6 Astra</span><span class="tag-pill tag-pill-sm">#Claude</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 2分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="OpenAI、ChatGPT有料ユーザーに毎日リセット権。新モデル「Astra」登場まで" data-level="easy">
   <a class="thumb-link" href="../articles/openai-chatgpt-7ad22734.html" style=""><img class="thumb" src="https://www.itmedia.co.jp/aiplus/article/ogp/2609/04/2000001165/10005195/2048" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">OpenAI、ChatGPT有料ユーザーに毎日リセット権。新モデル「Astra」登場まで</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=OpenAI%E3%80%81ChatGPT%E6%9C%89%E6%96%99%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%AB%E6%AF%8E%E6%97%A5%E3%83%AA%E3%82%BB%E3%83%83%E3%83%88%E6%A8%A9%E3%80%82%E6%96%B0%E3%83%A2%E3%83%87%E3%83%AB%E3%80%8CAstra%E3%80%8D%E7%99%BB%E5%A0%B4%E3%81%BE%E3%81%A7&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-7ad22734.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-7ad22734.html&text=OpenAI%E3%80%81ChatGPT%E6%9C%89%E6%96%99%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%AB%E6%AF%8E%E6%97%A5%E3%83%AA%E3%82%BB%E3%83%83%E3%83%88%E6%A8%A9%E3%80%82%E6%96%B0%E3%83%A2%E3%83%87%E3%83%AB%E3%80%8CAstra%E3%80%8D%E7%99%BB%E5%A0%B4%E3%81%BE%E3%81%A7" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/openai-chatgpt-7ad22734.html">OpenAI、ChatGPT有料ユーザーに毎日リセット権。新モデル「Astra」登場まで</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: ITmedia AI＋ 最新記事一覧　&middot;　2分で読める</p>
-    <p class="summary">OpenAIが有料ユーザー向けにChatGPTの利用制限をリセットする施策を発表。新AI「GPT-6 Astra」提供開始まで実施予定。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#OpenAI</span><span class="tag-pill tag-pill-sm">#ChatGPT</span><span class="tag-pill tag-pill-sm">#GPT-6 Astra</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 2分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="OpenAIが新型AI「GPT-6 Astra」を9月3日にリリース—有料ユーザーのみ対象、無料版は除外" data-level="easy">
   <a class="thumb-link" href="../articles/openai-gpt-6-astra-07d6a2f9.html" style=""><img class="thumb" src="https://aibusiness.vc/images/articles/multiple-screens-1.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">OpenAIが新型AI「GPT-6 Astra」を9月3日にリリース—有料ユーザーのみ対象、無料版は除外</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=OpenAI%E3%81%8C%E6%96%B0%E5%9E%8BAI%E3%80%8CGPT-6%20Astra%E3%80%8D%E3%82%929%E6%9C%883%E6%97%A5%E3%81%AB%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E2%80%94%E6%9C%89%E6%96%99%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%AE%E3%81%BF%E5%AF%BE%E8%B1%A1%E3%80%81%E7%84%A1%E6%96%99%E7%89%88%E3%81%AF%E9%99%A4%E5%A4%96&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html&text=OpenAI%E3%81%8C%E6%96%B0%E5%9E%8BAI%E3%80%8CGPT-6%20Astra%E3%80%8D%E3%82%929%E6%9C%883%E6%97%A5%E3%81%AB%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E2%80%94%E6%9C%89%E6%96%99%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%AE%E3%81%BF%E5%AF%BE%E8%B1%A1%E3%80%81%E7%84%A1%E6%96%99%E7%89%88%E3%81%AF%E9%99%A4%E5%A4%96" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/openai-gpt-6-astra-07d6a2f9.html">OpenAIが新型AI「GPT-6 Astra」を9月3日にリリース—有料ユーザーのみ対象、無料版は除外</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: AI Business　&middot;　1分で読める</p>
-    <p class="summary">OpenAIが次世代AI「GPT-6 Astra」の提供を開始。ChatGPT Plus以上の有料ユーザーと企業向けのみアクセス可能で、無料ユーザーは利用できない。API利用時は入力100万トークンあたり10ドル、出力は50ドルという価格設定。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#OpenAI</span><span class="tag-pill tag-pill-sm">#GPT-6 Astra</span><span class="tag-pill tag-pill-sm">#ChatGPT</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="OpenAIの新型AI「GPT-6 Astra」、99.9%の正答率で「AGI時代」突入。Claude Fableも上回る" data-level="technical">
   <a class="thumb-link" href="../articles/openai-gpt-6-astra-10d135c8.html" style="background: linear-gradient(135deg, #16222a, #3a6073);"><div class="thumb-overlay"><span class="thumb-overlay-text">OpenAIの新型AI「GPT-6 Astra」、99.9%の正答率で「AGI時代」突入。Claude Fableも上回る</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=OpenAI%E3%81%AE%E6%96%B0%E5%9E%8BAI%E3%80%8CGPT-6%20Astra%E3%80%8D%E3%80%8199.9%25%E3%81%AE%E6%AD%A3%E7%AD%94%E7%8E%87%E3%81%A7%E3%80%8CAGI%E6%99%82%E4%BB%A3%E3%80%8D%E7%AA%81%E5%85%A5%E3%80%82Claude%20Fable%E3%82%82%E4%B8%8A%E5%9B%9E%E3%82%8B&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-10d135c8.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-10d135c8.html&text=OpenAI%E3%81%AE%E6%96%B0%E5%9E%8BAI%E3%80%8CGPT-6%20Astra%E3%80%8D%E3%80%8199.9%25%E3%81%AE%E6%AD%A3%E7%AD%94%E7%8E%87%E3%81%A7%E3%80%8CAGI%E6%99%82%E4%BB%A3%E3%80%8D%E7%AA%81%E5%85%A5%E3%80%82Claude%20Fable%E3%82%82%E4%B8%8A%E5%9B%9E%E3%82%8B" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/openai-gpt-6-astra-10d135c8.html">OpenAIの新型AI「GPT-6 Astra」、99.9%の正答率で「AGI時代」突入。Claude Fableも上回る</a></h2>
-    <p class="meta"><span class="level-badge level-technical">&#128309; テクニカル</span> 出典: OpenAI公式　&middot;　1分で読める</p>
-    <p class="summary">OpenAIが新型言語モデル「GPT-6 Astra」を発表。複数の学力テストで過去最高の成績を記録し、前モデルより大幅に高速化。一方、AIが既知の脆弱性を自動発見できる段階に達したことで、セキュリティ上の懸念も浮上している。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#OpenAI</span><span class="tag-pill tag-pill-sm">#GPT-6 Astra</span><span class="tag-pill tag-pill-sm">#AI性能</span></div>
+    <p class="meta"><span class="level-badge level-technical">&#128309; テクニカル</span> 1分で読める</p>
   </div>
 </article>
 

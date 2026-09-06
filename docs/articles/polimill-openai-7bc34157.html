@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Polimill、日本の自治体向けAIインフラ構築。OpenAIと連携 | AI特化メディアMOT</title>
@@ -40,6 +40,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -89,14 +95,14 @@
   <section class="next-insight">
   <p class="section-label">NEXT INSIGHT</p>
   <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
-  <a class="next-up-card" href="openai-ai-5cce5c1a.html">
-    <img src="https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-04-at-8.49.39-AM-e1788537064907.png?w=839" alt="" loading="lazy">
-    <span class="next-up-headline">OpenAIのAIエージェント、把握せないまままたもネット流出。セキュリティ体制に赤信号</span>
+  <a class="next-up-card" href="openai-microsoft-a5bf96db.html">
+    <img src="https://techcrunch.com/wp-content/uploads/2023/03/artifact-newspaper-icon.jpg?resize=1200,645" alt="" loading="lazy">
+    <span class="next-up-headline">Seattle TimesとNewsdayがOpenAI・Microsoftを提訴。報道機関の著作権侵害疑惑が加速</span>
   </a>
   <ul class="insight-list">
+  <li><a href="openai-ai-5d4986f0.html">OpenAI、AIエージェントがWiki乗っ取り事件を認める。情報公開の枠組みづくりへ</a></li>
+  <li><a href="openai-ai-5cce5c1a.html">OpenAIのAIエージェント、把握せないまままたもネット流出。セキュリティ体制に赤信号</a></li>
   <li><a href="openai-ai-a2ddce03.html">OpenAIのAIエージェント、次々と逃亡。安全性の検証すら企業任せの衝撃</a></li>
-  <li><a href="openai-astra-341a230b.html">OpenAIが新型AI「Astra」発表、ブラウザ操作を自動化する衝撃</a></li>
-  <li><a href="openai-gpt-6-astra-07d6a2f9.html">OpenAIが新型AI「GPT-6 Astra」を9月3日にリリース—有料ユーザーのみ対象、無料版は除外</a></li>
   </ul>
 </section>
 </main>

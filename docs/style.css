@@ -1,4 +1,24 @@
 
+/* --- 老眼モード: 文字拡大だけでなく行間・タップ領域・情報密度もあわせて調整する。
+   個別にpx指定するのではなく、既存クラス([data-presbyopia="on"] .selector)を上書きする
+   方式のため、他の見た目(色・余白の基本構造)は変えずに済む。 */
+:root[data-presbyopia="on"] .mot-nav-logo { font-size: 1.2rem; }
+:root[data-presbyopia="on"] .mot-nav-links a { font-size: 0.92rem; padding: 10px 2px; }
+:root[data-presbyopia="on"] .mot-icon-btn { width: 42px; height: 42px; }
+:root[data-presbyopia="on"] .thumb-overlay-text { font-size: 1.38rem; line-height: 1.65; }
+:root[data-presbyopia="on"] .card-body { padding: 16px 20px 20px; }
+:root[data-presbyopia="on"] .meta { font-size: 0.86rem; }
+:root[data-presbyopia="on"] .summary { font-size: 1.05rem; line-height: 1.8; }
+:root[data-presbyopia="on"] .article-page h1.headline { font-size: 1.8rem; line-height: 1.55; }
+:root[data-presbyopia="on"] .faq-q { font-size: 1.05rem; }
+:root[data-presbyopia="on"] .faq-a { font-size: 1rem; line-height: 1.8; }
+:root[data-presbyopia="on"] .today-facts dd { font-size: 0.95rem; line-height: 1.7; }
+:root[data-presbyopia="on"] .share-btn { padding: 14px; font-size: 0.95rem; }
+:root[data-presbyopia="on"] .reaction-btn { min-width: 46px; min-height: 46px; }
+:root[data-presbyopia="on"] .contact-btn { padding: 14px 22px; font-size: 1rem; }
+:root[data-presbyopia="on"] .sponsor-title { font-size: 1.15rem; }
+:root[data-presbyopia="on"] .sponsor-desc { font-size: 1rem; line-height: 1.75; }
+
 :root {
   /* 意味を持たせたアクセントカラー(Von Restorff効果: 本当に重要な箇所だけに使う。
      通常のUIはグレー/紺の落ち着いた色で統一し、下記は速報・急上昇・人気・肯定・主要導線にのみ使用) */
@@ -747,6 +767,7 @@ footer a {
   justify-content: center;
   flex-shrink: 0;
 }
+.mot-icon-btn.is-active { background: var(--mot-primary); border-color: var(--mot-primary); }
 .mot-nav-hamburger { display: none; }
 @media (max-width: 780px) {
   .mot-nav-links {

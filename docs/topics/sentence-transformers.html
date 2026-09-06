@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sentence Transformersの最新ニュースまとめ | AI特化メディアMOT</title>
@@ -36,6 +36,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -47,18 +53,14 @@
   <a class="thumb-link" href="../articles/e520424e436f.html" style=""><img class="thumb" src="https://huggingface.co/blog/assets/multi-vector-encoder/st-hf-lighton-thumbnail.png" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Sentence Transformers、マルチベクトル埋め込みモデルで検索精度革新</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=Sentence%20Transformers%E3%80%81%E3%83%9E%E3%83%AB%E3%83%81%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A7%E6%A4%9C%E7%B4%A2%E7%B2%BE%E5%BA%A6%E9%9D%A9%E6%96%B0&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/e520424e436f.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/e520424e436f.html&text=Sentence%20Transformers%E3%80%81%E3%83%9E%E3%83%AB%E3%83%81%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A7%E6%A4%9C%E7%B4%A2%E7%B2%BE%E5%BA%A6%E9%9D%A9%E6%96%B0" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/e520424e436f.html">Sentence Transformers、マルチベクトル埋め込みモデルで検索精度革新</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: Hugging Face - Blog　&middot;　1分で読める</p>
-    <p class="summary">Sentence TransformersがLate Interaction方式のマルチベクトル埋め込みモデルに対応し、検索・情報検索の精度向上を実現。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#Sentence Transformers</span><span class="tag-pill tag-pill-sm">#Hugging Face</span><span class="tag-pill tag-pill-sm">#埋め込みモデル</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="Sentence Transformers、マルチベクトル埋め込みモデルの訓練・チューニング機能を実装" data-level="easy">
   <a class="thumb-link" href="../articles/5309d9655463.html" style=""><img class="thumb" src="https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Sentence Transformers、マルチベクトル埋め込みモデルの訓練・チューニング機能を実装</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=Sentence%20Transformers%E3%80%81%E3%83%9E%E3%83%AB%E3%83%81%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E8%A8%93%E7%B7%B4%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E6%A9%9F%E8%83%BD%E3%82%92%E5%AE%9F%E8%A3%85&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/5309d9655463.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/5309d9655463.html&text=Sentence%20Transformers%E3%80%81%E3%83%9E%E3%83%AB%E3%83%81%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E8%A8%93%E7%B7%B4%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E6%A9%9F%E8%83%BD%E3%82%92%E5%AE%9F%E8%A3%85" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/5309d9655463.html">Sentence Transformers、マルチベクトル埋め込みモデルの訓練・チューニング機能を実装</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: Hugging Face - Blog　&middot;　1分で読める</p>
-    <p class="summary">Sentence Transformersがマルチベクトル埋め込みモデルの訓練・微調整に対応し、より柔軟なテキスト表現が可能に。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#Sentence Transformers</span><span class="tag-pill tag-pill-sm">#Hugging Face</span><span class="tag-pill tag-pill-sm">#テキスト埋め込み</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 

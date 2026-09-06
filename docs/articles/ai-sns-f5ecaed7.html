@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>公明党、生成AIでSNS発信支援。女性議員の活動どう変わる | AI特化メディアMOT</title>
@@ -40,6 +40,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -89,14 +95,14 @@
   <section class="next-insight">
   <p class="section-label">NEXT INSIGHT</p>
   <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
-  <a class="next-up-card" href="ai-de3b50af.html">
-    
-    <span class="next-up-headline">生成AIのデータ活用、「禁止か放任か」の二者択一を超える実践戦略が登場</span>
+  <a class="next-up-card" href="google-gemini-ai-e2a0f618.html">
+    <img src="https://techcrunch.com/wp-content/uploads/2017/11/gettyimages-677147499.jpg?resize=1200,600" alt="" loading="lazy">
+    <span class="next-up-headline">Google Gemini、登山計画でまさかの誤算。食料・水を過少提案で救助される</span>
   </a>
   <ul class="insight-list">
+  <li><a href="ai-de3b50af.html">生成AIのデータ活用、「禁止か放任か」の二者択一を超える実践戦略が登場</a></li>
   <li><a href="anthropic-claude-20903e3d.html">Anthropic、新型AI「Claude Fable 5」「Claude Mythos 5」発表</a></li>
   <li><a href="ai-7a1c0e80.html">ChatGPTも翻訳アプリも「学んでない言語は話せない」—AIの意外な弱点が判明</a></li>
-  <li><a href="ai-chatgpt-73d7f7bb.html">AIが作ったメニューは「何か違う」。客が無意識に感じ取る違和感の正体</a></li>
   </ul>
 </section>
 </main>

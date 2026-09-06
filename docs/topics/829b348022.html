@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>業務自動化の最新ニュースまとめ | AI特化メディアMOT</title>
@@ -36,6 +36,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -47,36 +53,28 @@
   <a class="thumb-link" href="../articles/ai-02a32131.html" style=""><img class="thumb" src="https://www.itmedia.co.jp/aiplus/article/ogp/2609/03/2000001099/10004984/2048" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">ブシロード、AI子会社で定型業務を一括支援へ。ヒューマンエラー削減に本腰</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=%E3%83%96%E3%82%B7%E3%83%AD%E3%83%BC%E3%83%89%E3%80%81AI%E5%AD%90%E4%BC%9A%E7%A4%BE%E3%81%A7%E5%AE%9A%E5%9E%8B%E6%A5%AD%E5%8B%99%E3%82%92%E4%B8%80%E6%8B%AC%E6%94%AF%E6%8F%B4%E3%81%B8%E3%80%82%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%A8%E3%83%A9%E3%83%BC%E5%89%8A%E6%B8%9B%E3%81%AB%E6%9C%AC%E8%85%B0&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-02a32131.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-02a32131.html&text=%E3%83%96%E3%82%B7%E3%83%AD%E3%83%BC%E3%83%89%E3%80%81AI%E5%AD%90%E4%BC%9A%E7%A4%BE%E3%81%A7%E5%AE%9A%E5%9E%8B%E6%A5%AD%E5%8B%99%E3%82%92%E4%B8%80%E6%8B%AC%E6%94%AF%E6%8F%B4%E3%81%B8%E3%80%82%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%A8%E3%83%A9%E3%83%BC%E5%89%8A%E6%B8%9B%E3%81%AB%E6%9C%AC%E8%85%B0" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/ai-02a32131.html">ブシロード、AI子会社で定型業務を一括支援へ。ヒューマンエラー削減に本腰</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: ITmedia AI＋ 最新記事一覧　&middot;　1分で読める</p>
-    <p class="summary">ブシロードがAI子会社を設立し、人が繰り返す定型業務をAIで自動化。負荷軽減とミス削減を実現。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#ブシロード</span><span class="tag-pill tag-pill-sm">#AI子会社</span><span class="tag-pill tag-pill-sm">#業務自動化</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="AIエージェント、業務別の活用法が明確に。経営層の指示を現場で実現する進め方とは" data-level="easy">
   <a class="thumb-link" href="../articles/ai-ai-d57d58ac.html" style=""><img class="thumb" src="https://ainow.ai/wp-content/uploads/2026/09/thumbnail.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">AIエージェント、業務別の活用法が明確に。経営層の指示を現場で実現する進め方とは</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%80%81%E6%A5%AD%E5%8B%99%E5%88%A5%E3%81%AE%E6%B4%BB%E7%94%A8%E6%B3%95%E3%81%8C%E6%98%8E%E7%A2%BA%E3%81%AB%E3%80%82%E7%B5%8C%E5%96%B6%E5%B1%A4%E3%81%AE%E6%8C%87%E7%A4%BA%E3%82%92%E7%8F%BE%E5%A0%B4%E3%81%A7%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E9%80%B2%E3%82%81%E6%96%B9%E3%81%A8%E3%81%AF&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57d58ac.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57d58ac.html&text=AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%80%81%E6%A5%AD%E5%8B%99%E5%88%A5%E3%81%AE%E6%B4%BB%E7%94%A8%E6%B3%95%E3%81%8C%E6%98%8E%E7%A2%BA%E3%81%AB%E3%80%82%E7%B5%8C%E5%96%B6%E5%B1%A4%E3%81%AE%E6%8C%87%E7%A4%BA%E3%82%92%E7%8F%BE%E5%A0%B4%E3%81%A7%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E9%80%B2%E3%82%81%E6%96%B9%E3%81%A8%E3%81%AF" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/ai-ai-d57d58ac.html">AIエージェント、業務別の活用法が明確に。経営層の指示を現場で実現する進め方とは</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: AI専門ニュースメディア AINOW　&middot;　1分で読める</p>
-    <p class="summary">経営層からの「AIエージェント導入」指示に戸惑う担当者へ向け、実際の業務適用例と定着化の具体的な進め方を提示。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#AIエージェント</span><span class="tag-pill tag-pill-sm">#AI導入</span><span class="tag-pill tag-pill-sm">#業務自動化</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="AIエージェントに「社員証」と「委任状」が必須に。やった仕事の責任、誰が取る？" data-level="easy">
   <a class="thumb-link" href="../articles/ai-cc1a7d75.html" style=""><img class="thumb" src="https://www.itmedia.co.jp/aiplus/article/ogp/2609/01/2000000898/10004220/2048" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">AIエージェントに「社員証」と「委任状」が必須に。やった仕事の責任、誰が取る？</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E3%80%8C%E7%A4%BE%E5%93%A1%E8%A8%BC%E3%80%8D%E3%81%A8%E3%80%8C%E5%A7%94%E4%BB%BB%E7%8A%B6%E3%80%8D%E3%81%8C%E5%BF%85%E9%A0%88%E3%81%AB%E3%80%82%E3%82%84%E3%81%A3%E3%81%9F%E4%BB%95%E4%BA%8B%E3%81%AE%E8%B2%AC%E4%BB%BB%E3%80%81%E8%AA%B0%E3%81%8C%E5%8F%96%E3%82%8B%EF%BC%9F&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-cc1a7d75.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ai-cc1a7d75.html&text=AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E3%80%8C%E7%A4%BE%E5%93%A1%E8%A8%BC%E3%80%8D%E3%81%A8%E3%80%8C%E5%A7%94%E4%BB%BB%E7%8A%B6%E3%80%8D%E3%81%8C%E5%BF%85%E9%A0%88%E3%81%AB%E3%80%82%E3%82%84%E3%81%A3%E3%81%9F%E4%BB%95%E4%BA%8B%E3%81%AE%E8%B2%AC%E4%BB%BB%E3%80%81%E8%AA%B0%E3%81%8C%E5%8F%96%E3%82%8B%EF%BC%9F" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/ai-cc1a7d75.html">AIエージェントに「社員証」と「委任状」が必須に。やった仕事の責任、誰が取る？</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: ITmedia AI＋ 最新記事一覧　&middot;　1分で読める</p>
-    <p class="summary">AIが自動で業務を進める時代、AIにも権限管理が必要に。実際の失敗事例から対策まで。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#AIエージェント</span><span class="tag-pill tag-pill-sm">#ガバナンス</span><span class="tag-pill tag-pill-sm">#業務自動化</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="システム導入後も「Excelで検算」が消えない。その根深い理由" data-level="easy">
   <a class="thumb-link" href="../articles/dx-919f5496.html" style=""><img class="thumb" src="https://image.itmedia.co.jp/ait/articles/2608/31/cover_news031.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">システム導入後も「Excelで検算」が消えない。その根深い理由</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%B0%8E%E5%85%A5%E5%BE%8C%E3%82%82%E3%80%8CExcel%E3%81%A7%E6%A4%9C%E7%AE%97%E3%80%8D%E3%81%8C%E6%B6%88%E3%81%88%E3%81%AA%E3%81%84%E3%80%82%E3%81%9D%E3%81%AE%E6%A0%B9%E6%B7%B1%E3%81%84%E7%90%86%E7%94%B1&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/dx-919f5496.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/dx-919f5496.html&text=%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%B0%8E%E5%85%A5%E5%BE%8C%E3%82%82%E3%80%8CExcel%E3%81%A7%E6%A4%9C%E7%AE%97%E3%80%8D%E3%81%8C%E6%B6%88%E3%81%88%E3%81%AA%E3%81%84%E3%80%82%E3%81%9D%E3%81%AE%E6%A0%B9%E6%B7%B1%E3%81%84%E7%90%86%E7%94%B1" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/dx-919f5496.html">システム導入後も「Excelで検算」が消えない。その根深い理由</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: ITmedia AI＋ 最新記事一覧　&middot;　1分で読める</p>
-    <p class="summary">新しいシステムを入れてもExcelでの手作業がなくならない。その背景にある課題を調査で明かす。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#DX</span><span class="tag-pill tag-pill-sm">#業務自動化</span><span class="tag-pill tag-pill-sm">#給与計算システム</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 

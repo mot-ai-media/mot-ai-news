@@ -286,6 +286,26 @@ def _pick_gradient(source: str) -> tuple[str, str]:
 
 
 STYLE_CSS = """
+/* --- 老眼モード: 文字拡大だけでなく行間・タップ領域・情報密度もあわせて調整する。
+   個別にpx指定するのではなく、既存クラス([data-presbyopia="on"] .selector)を上書きする
+   方式のため、他の見た目(色・余白の基本構造)は変えずに済む。 */
+:root[data-presbyopia="on"] .mot-nav-logo { font-size: 1.2rem; }
+:root[data-presbyopia="on"] .mot-nav-links a { font-size: 0.92rem; padding: 10px 2px; }
+:root[data-presbyopia="on"] .mot-icon-btn { width: 42px; height: 42px; }
+:root[data-presbyopia="on"] .thumb-overlay-text { font-size: 1.38rem; line-height: 1.65; }
+:root[data-presbyopia="on"] .card-body { padding: 16px 20px 20px; }
+:root[data-presbyopia="on"] .meta { font-size: 0.86rem; }
+:root[data-presbyopia="on"] .summary { font-size: 1.05rem; line-height: 1.8; }
+:root[data-presbyopia="on"] .article-page h1.headline { font-size: 1.8rem; line-height: 1.55; }
+:root[data-presbyopia="on"] .faq-q { font-size: 1.05rem; }
+:root[data-presbyopia="on"] .faq-a { font-size: 1rem; line-height: 1.8; }
+:root[data-presbyopia="on"] .today-facts dd { font-size: 0.95rem; line-height: 1.7; }
+:root[data-presbyopia="on"] .share-btn { padding: 14px; font-size: 0.95rem; }
+:root[data-presbyopia="on"] .reaction-btn { min-width: 46px; min-height: 46px; }
+:root[data-presbyopia="on"] .contact-btn { padding: 14px 22px; font-size: 1rem; }
+:root[data-presbyopia="on"] .sponsor-title { font-size: 1.15rem; }
+:root[data-presbyopia="on"] .sponsor-desc { font-size: 1rem; line-height: 1.75; }
+
 :root {
   /* 意味を持たせたアクセントカラー(Von Restorff効果: 本当に重要な箇所だけに使う。
      通常のUIはグレー/紺の落ち着いた色で統一し、下記は速報・急上昇・人気・肯定・主要導線にのみ使用) */
@@ -1705,25 +1725,8 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     var meta = document.createElement("p");
     meta.className = "meta";
     var levelIcon = item.level === "technical" ? "🔵" : "🟢";
-    meta.textContent = levelIcon + " " + item.level_label + " ・出典: " + item.source + "　·　" + item.reading_time + "分で読める";
+    meta.textContent = levelIcon + " " + item.level_label + " " + item.reading_time + "分で読める";
     body.appendChild(meta);
-
-    var summary = document.createElement("p");
-    summary.className = "summary";
-    summary.textContent = item.summary;
-    body.appendChild(summary);
-
-    if (item.tags && item.tags.length) {{
-      var tagWrap = document.createElement("div");
-      tagWrap.className = "tag-pills card-tags";
-      item.tags.slice(0, 3).forEach(function (t) {{
-        var chip = document.createElement("span");
-        chip.className = "tag-pill tag-pill-sm";
-        chip.textContent = "#" + t;
-        tagWrap.appendChild(chip);
-      }});
-      body.appendChild(tagWrap);
-    }}
 
     article.appendChild(body);
     return article;
@@ -1791,9 +1794,7 @@ CARD_TEMPLATE = """<article class="card{importance_class}" data-searchable data-
   {new_badge}{thumbnail}{thumb_share}
   <div class="card-body">
     <h2 class="sr-only"><a href="articles/{slug}.html">{headline}</a></h2>
-    <p class="meta">{level_badge} 出典: {source}　&middot;　{reading_time}分で読める</p>
-    <p class="summary">{summary}</p>
-    {card_tags}
+    <p class="meta">{level_badge} {reading_time}分で読める</p>
   </div>
 </article>
 """
@@ -2458,14 +2459,10 @@ def _write_topic_pages(articles_data: list[dict]) -> list[str]:
                 thumb_share=_thumb_share_html(entry["slug"], entry["headline"]),
                 slug=entry["slug"],
                 headline=html_lib.escape(entry["headline"]),
-                source=html_lib.escape(entry["source"]),
-                summary=html_lib.escape(entry["summary"]),
                 reading_time=_reading_time(entry),
                 search_text=html_lib.escape(entry["headline"]),
                 level=_entry_level(entry),
                 level_badge=_level_badge(entry),
-                card_tags=_render_card_tags(entry),
-                ad_code="",
                 importance_class=" card-minor" if _entry_importance(entry) == "minor" else "",
             )
             cards_html.append(card_html.replace('href="articles/', 'href="../articles/'))
@@ -2787,17 +2784,6 @@ def _level_badge(entry: dict) -> str:
     level = _entry_level(entry)
     icon = "&#128309;" if level == "technical" else "&#128994;"
     return f'<span class="level-badge level-{level}">{icon} {LEVEL_LABELS[level]}</span>'
-
-
-def _render_card_tags(entry: dict, limit: int = 3) -> str:
-    """一覧カードに表示する小さめのタグ。クリック前に「何についての記事か」を伝える
-    (Information Scent向上)。リンク切れ防止のためテーマページが実在するタグのみ表示する想定は
-    ここでは省略し(一覧は頻繁に再生成されるため実質問題にならない)、タグ名の表示のみ行う。"""
-    tags = [t.strip() for t in (entry.get("tags") or []) if t.strip()][:limit]
-    if not tags:
-        return ""
-    chips = "".join(f'<span class="tag-pill tag-pill-sm">#{html_lib.escape(t)}</span>' for t in tags)
-    return f'<div class="tag-pills card-tags">{chips}</div>'
 
 
 CHARS_PER_MINUTE = 500  # 日本語の平均的な黙読速度の目安
@@ -3319,13 +3305,10 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
                 thumb_share=_thumb_share_html(entry["slug"], entry["headline"]),
                 slug=entry["slug"],
                 headline=html_lib.escape(entry["headline"]),
-                source=html_lib.escape(entry["source"]),
-                summary=html_lib.escape(entry["summary"]),
                 reading_time=_reading_time(entry),
                 search_text=html_lib.escape(entry["headline"]),
                 level=_entry_level(entry),
                 level_badge=_level_badge(entry),
-                card_tags=_render_card_tags(entry),
                 importance_class=" card-minor" if _entry_importance(entry) == "minor" else "",
             )
         )
@@ -3339,8 +3322,6 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
         data = {
             "slug": e["slug"],
             "headline": e["headline"],
-            "source": e["source"],
-            "summary": e["summary"],
             "image_url": e["image_url"],
             "image_kind": e["image_kind"],
             "is_new": _is_new(e["generated_at"]),
@@ -3349,7 +3330,6 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             "reading_time": _reading_time(e),
             "level": _entry_level(e),
             "level_label": LEVEL_LABELS[_entry_level(e)],
-            "tags": (e.get("tags") or [])[:3],
             "importance": _entry_importance(e),
         }
         if e["image_kind"] != "real":

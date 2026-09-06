@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Codexの最新ニュースまとめ | AI特化メディアMOT</title>
@@ -36,6 +36,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -47,18 +53,14 @@
   <a class="thumb-link" href="../articles/openai-chatgpt-work-cfc376ad.html" style=""><img class="thumb" src="https://images.ctfassets.net/kftzwdyauwt9/1zAfCoZbpNwgnoboxPcQQm/ef8ec991740079de392661722eea61ee/seo-v2.png?w=1600&amp;h=900&amp;fit=fill" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">ChatGPT Work、管理者向けプラグイン導入で業務効率化が加速</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=ChatGPT%20Work%E3%80%81%E7%AE%A1%E7%90%86%E8%80%85%E5%90%91%E3%81%91%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E5%B0%8E%E5%85%A5%E3%81%A7%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%81%8C%E5%8A%A0%E9%80%9F&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html&text=ChatGPT%20Work%E3%80%81%E7%AE%A1%E7%90%86%E8%80%85%E5%90%91%E3%81%91%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E5%B0%8E%E5%85%A5%E3%81%A7%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%81%8C%E5%8A%A0%E9%80%9F" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/openai-chatgpt-work-cfc376ad.html">ChatGPT Work、管理者向けプラグイン導入で業務効率化が加速</a></h2>
-    <p class="meta"><span class="level-badge level-technical">&#128309; テクニカル</span> 出典: OpenAI News　&middot;　1分で読める</p>
-    <p class="summary">OpenAIがChatGPT Workの管理機能を強化する新プラグインを提供。企業の利用状況把握と権限管理が容易に。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#OpenAI</span><span class="tag-pill tag-pill-sm">#ChatGPT Work</span><span class="tag-pill tag-pill-sm">#Codex</span></div>
+    <p class="meta"><span class="level-badge level-technical">&#128309; テクニカル</span> 1分で読める</p>
   </div>
 </article>
 <article class="card" data-searchable data-search-text="loveholidaysがOpenAI Codexで全社員をビルダーに変革" data-level="technical">
   <a class="thumb-link" href="../articles/openai-codex-d34e82ea.html" style=""><img class="thumb" src="https://images.ctfassets.net/kftzwdyauwt9/6ZqGa10JytlgICOk7fAw59/793cf94c3be496cc73aa0451a05aad78/loveholidays-seo-image-v4.png?w=1600&amp;h=900&amp;fit=fill" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">loveholidaysがOpenAI Codexで全社員をビルダーに変革</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=loveholidays%E3%81%8COpenAI%20Codex%E3%81%A7%E5%85%A8%E7%A4%BE%E5%93%A1%E3%82%92%E3%83%93%E3%83%AB%E3%83%80%E3%83%BC%E3%81%AB%E5%A4%89%E9%9D%A9&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-codex-d34e82ea.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-codex-d34e82ea.html&text=loveholidays%E3%81%8COpenAI%20Codex%E3%81%A7%E5%85%A8%E7%A4%BE%E5%93%A1%E3%82%92%E3%83%93%E3%83%AB%E3%83%80%E3%83%BC%E3%81%AB%E5%A4%89%E9%9D%A9" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/openai-codex-d34e82ea.html">loveholidaysがOpenAI Codexで全社員をビルダーに変革</a></h2>
-    <p class="meta"><span class="level-badge level-technical">&#128309; テクニカル</span> 出典: OpenAI News　&middot;　1分で読める</p>
-    <p class="summary">旅行サイトloveholidaysがOpenAI Codexを活用し、全社員が開発に参加できる環境を実現。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#OpenAI</span><span class="tag-pill tag-pill-sm">#Codex</span><span class="tag-pill tag-pill-sm">#loveholidays</span></div>
+    <p class="meta"><span class="level-badge level-technical">&#128309; テクニカル</span> 1分で読める</p>
   </div>
 </article>
 

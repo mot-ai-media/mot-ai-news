@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Thinking Machinesの最新ニュースまとめ | AI特化メディアMOT</title>
@@ -36,6 +36,12 @@
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -47,18 +53,14 @@
   <a class="thumb-link" href="../articles/thinking-machines-accel-46fa5743.html" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2026/06/Mira-Murati-at-Bloomberg.jpg?w=1024" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Thinking Machines、$40B評価で$1B調達へ。AIスタートアップの資金競争が加熱</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=Thinking%20Machines%E3%80%81%2440B%E8%A9%95%E4%BE%A1%E3%81%A7%241B%E8%AA%BF%E9%81%94%E3%81%B8%E3%80%82AI%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E8%B3%87%E9%87%91%E7%AB%B6%E4%BA%89%E3%81%8C%E5%8A%A0%E7%86%B1&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/thinking-machines-accel-46fa5743.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/thinking-machines-accel-46fa5743.html&text=Thinking%20Machines%E3%80%81%2440B%E8%A9%95%E4%BE%A1%E3%81%A7%241B%E8%AA%BF%E9%81%94%E3%81%B8%E3%80%82AI%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E8%B3%87%E9%87%91%E7%AB%B6%E4%BA%89%E3%81%8C%E5%8A%A0%E7%86%B1" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/thinking-machines-accel-46fa5743.html">Thinking Machines、$40B評価で$1B調達へ。AIスタートアップの資金競争が加熱</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: AI News &amp; Artificial Intelligence | TechCrunch　&middot;　2分で読める</p>
-    <p class="summary">AIスタートアップのThinking Machinesが巨額調達の段階へ。業界の資金動向から目が離せない。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#Thinking Machines</span><span class="tag-pill tag-pill-sm">#Accel</span><span class="tag-pill tag-pill-sm">#AI投資</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 2分で読める</p>
   </div>
 </article>
 <article class="card card-minor" data-searchable data-search-text="Thinking Machinesの共同創業者ザフ、OpenAI経由でGoogle入社。AI業界の人材争奪が加速" data-level="easy">
   <a class="thumb-link" href="../articles/google-openai-9d531c32.html" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Thinking Machinesの共同創業者ザフ、OpenAI経由でGoogle入社。AI業界の人材争奪が加速</span></div></a><div class="thumb-share"><a class="thumb-share-btn thumb-share-x" href="https://twitter.com/intent/tweet?text=Thinking%20Machines%E3%81%AE%E5%85%B1%E5%90%8C%E5%89%B5%E6%A5%AD%E8%80%85%E3%82%B6%E3%83%95%E3%80%81OpenAI%E7%B5%8C%E7%94%B1%E3%81%A7Google%E5%85%A5%E7%A4%BE%E3%80%82AI%E6%A5%AD%E7%95%8C%E3%81%AE%E4%BA%BA%E6%9D%90%E4%BA%89%E5%A5%AA%E3%81%8C%E5%8A%A0%E9%80%9F&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-openai-9d531c32.html" target="_blank" rel="noopener noreferrer" aria-label="Xで共有" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="thumb-share-btn thumb-share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-openai-9d531c32.html&text=Thinking%20Machines%E3%81%AE%E5%85%B1%E5%90%8C%E5%89%B5%E6%A5%AD%E8%80%85%E3%82%B6%E3%83%95%E3%80%81OpenAI%E7%B5%8C%E7%94%B1%E3%81%A7Google%E5%85%A5%E7%A4%BE%E3%80%82AI%E6%A5%AD%E7%95%8C%E3%81%AE%E4%BA%BA%E6%9D%90%E4%BA%89%E5%A5%AA%E3%81%8C%E5%8A%A0%E9%80%9F" target="_blank" rel="noopener noreferrer" aria-label="LINEで共有" onclick="event.stopPropagation()">LINE</a></div>
   <div class="card-body">
     <h2 class="sr-only"><a href="../articles/google-openai-9d531c32.html">Thinking Machinesの共同創業者ザフ、OpenAI経由でGoogle入社。AI業界の人材争奪が加速</a></h2>
-    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 出典: AI News &amp; Artificial Intelligence | TechCrunch　&middot;　1分で読める</p>
-    <p class="summary">Thinking Machines共同創業者で元OpenAI勤務のBarret Zoph氏がGoogleへ移籍。AI人材の流動化が進む。</p>
-    <div class="tag-pills card-tags"><span class="tag-pill tag-pill-sm">#Google</span><span class="tag-pill tag-pill-sm">#OpenAI</span><span class="tag-pill tag-pill-sm">#Thinking Machines</span></div>
+    <p class="meta"><span class="level-badge level-easy">&#128994; やさしい</span> 1分で読める</p>
   </div>
 </article>
 
