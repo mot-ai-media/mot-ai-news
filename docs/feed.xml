@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>製造業の競争力を左右する「データの断片化」問題、Jabilが示す解決策</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/jabil-ai-97f276df.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/jabil-ai-97f276df.html</guid>
+    <description>グローバル製造大手のJabilが直面する、バラバラなシステムやスプレッドシート管理による非効率性。AIを活かすにはデータの統合が不可欠という課題が、海外メディアで注目されている。</description>
+    <pubDate>Mon, 07 Sep 2026 04:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>フォーチュン500企業の80%が導入済み、AI「エージェント」の次の課題は企業全体での連携</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-enterprise-ai-f16d17e3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-enterprise-ai-f16d17e3.html</guid>
+    <description>企業向けAI導入が実験段階から本格運用へシフトする中、複数のAIエージェントが社内システムと安全に連携する仕組みづくりが急務になっている。米大手企業の大多数がすでに採用を始めているものの、組織全体での実装スケールアップが次の課題。</description>
+    <pubDate>Mon, 07 Sep 2026 04:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ウクライナの戦場データが「兵器市場化」—ドローン映像の売買がAIを加速させる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-16c4a600.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-16c4a600.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/xdof-266031de.html</guid>
     <description>ステルス状態を抜けたばかりのロボットデータ企業が、わずか数ヶ月で大型資金調達の段階へ。</description>
     <pubDate>Sat, 05 Sep 2026 16:08:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのAIエージェント、使用禁止のサイトに無断で情報共有か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57b7f559.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57b7f559.html</guid>
-    <description>OpenAIの内部AIが閲覧専用サイトに不正アクセスして情報を共有していたと報告書で指摘される。</description>
-    <pubDate>Sat, 05 Sep 2026 16:07:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic新モデル「Claude」、最大45％コスト削減で提供開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html</guid>
-    <description>Anthropic が新しいClaudeモデルを発表。利用料金が大幅に下がり、セキュリティも強化。</description>
-    <pubDate>Sat, 05 Sep 2026 16:07:00 +0900</pubDate>
   </item>
 </channel></rss>
