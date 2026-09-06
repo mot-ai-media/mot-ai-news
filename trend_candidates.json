@@ -198,5 +198,55 @@
     "japan_relevance_score": 35,
     "reason": "MLPerf実績は専門的価値があるが、ストレージ最適化は限定的な市場向けで、日本での関心度は低めと判断。",
     "discovered_at": "2026-09-06T10:28:52.784514+00:00"
+  },
+  {
+    "title": "Poetry book that Anthropic tried to censor",
+    "link": "https://kk.org/cooltools/the-1930-poetry-book-that-anthropic-tried-to-censor/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://kk.org/cooltools/the-1930-poetry-book-that-anthropic-tried-to-censor/\nComments URL: https://news.ycombinator.com/item?id=49577244\nPoints: 32\n# Comments: 16",
+    "novelty_score": 62,
+    "japan_relevance_score": 35,
+    "reason": "AI企業の検閲問題は新規だが、1930年代の詩集という限定的な事例で、日本での波及性は低い。",
+    "discovered_at": "2026-09-06T13:29:13.375385+00:00"
+  },
+  {
+    "title": "AMD unveils Threadripper Halo Station, an AI workstation packing 96 cores",
+    "link": "https://www.tomshardware.com/pc-components/cpus/amd-unveils-threadripper-halo-station-an-ai-workstation-packing-96-cores-and-dual-liquid-cooled-mi350p-accelerators-the-most-powerful-workstation-in-the-world-can-run-trillion-parameter-models-says-amd",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.tomshardware.com/pc-components/cpus/amd-unveils-threadripper-halo-station-an-ai-workstation-packing-96-cores-and-dual-liquid-cooled-mi350p-accelerators-the-most-powerful-workstation-in-the-world-can-run-trillion-parameter-models-says-amd\nComments URL: https://news.ycombinator.com/item?id=49576187\nPoints: 29\n# Comments: 9",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AIワークステーション市場の競争激化は注目だが、高級機種の発表自体は既出パターン。日本ではAI活用需要の高まりで関連性あり。",
+    "discovered_at": "2026-09-06T13:29:15.500504+00:00"
+  },
+  {
+    "title": "AI handles incidents, engineers lose touch with their systems",
+    "link": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems\nComments URL: https://news.ycombinator.com/item?id=49574167\nPoints: 388\n# Comments: 334",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AI運用の懸念は既出だが、エンジニアのスキル低下という実践的課題は日本でも急速に重要化する。",
+    "discovered_at": "2026-09-06T13:29:17.443179+00:00"
+  },
+  {
+    "title": "Anthropic & friends caught paying religious NGO's 3.3M for propaganda",
+    "link": "https://www.effort.news/revelation",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.effort.news/revelation\nComments URL: https://news.ycombinator.com/item?id=49573677\nPoints: 51\n# Comments: 23",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "大手AI企業の資金配分問題だが、具体的な根拠や詳細情報が不十分で、日本での関心も限定的と判断。",
+    "discovered_at": "2026-09-06T13:29:19.296576+00:00"
+  },
+  {
+    "title": "Tetris issues legal warning after White House releases arcade of parody games",
+    "link": "https://www.dexerto.com/gaming/tetris-issues-legal-warning-after-white-house-releases-arcade-full-of-parody-games-3405931/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.dexerto.com/gaming/tetris-issues-legal-warning-after-white-house-releases-arcade-full-of-parody-games-3405931/\nComments URL: https://news.ycombinator.com/item?id=49572610\nPoints: 54\n# Comments: 7",
+    "novelty_score": 42,
+    "japan_relevance_score": 35,
+    "reason": "企業の法的警告という定番の展開だが、ホワイトハウスのパロディゲームという珍しい文脈が新規性を持つ。",
+    "discovered_at": "2026-09-06T13:29:21.090475+00:00"
   }
 ]
