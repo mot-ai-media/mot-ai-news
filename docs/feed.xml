@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが警告、急速に進化するAIの制御不能化リスク</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a8e8f9dc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a8e8f9dc.html</guid>
+    <description>OpenAIの幹部が、AIの急速な進化に伴う制御の課題に警告を発し、国際的な対策の必要性を主張。</description>
+    <pubDate>Mon, 07 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>小規模AIモデルを100ステップで強化、構造化出力が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-45020768.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-45020768.html</guid>
+    <description>Hugging Faceが3.5億パラメータの軽量モデルを少ない学習で高精度化する手法を発表。</description>
+    <pubDate>Mon, 07 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Uber創業者が仕掛ける「ロボタクシー」、新企業Atomsで実現へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/travis-kalanick-atoms-5325508b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/travis-kalanick-atoms-5325508b.html</guid>
+    <description>Uber創業者がAtomsでロボタクシー事業に乗り出し、自動運転市場の競争が激化する見通し。</description>
+    <pubDate>Mon, 07 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI学習に使われた著作物、著者vs出版社で和解金の奪い合い勃発</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-6a3a62ca.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-6a3a62ca.html</guid>
+    <description>AIモデル学習に利用された著作物の和解金をめぐり、著者と出版社が対立。配分方法が争点に。</description>
+    <pubDate>Mon, 07 Sep 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ClaudeやChatGPTがCADを自動操作、AI制御の3D設計モデルが現実に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/freecad-claude-4a39bd0b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/freecad-claude-4a39bd0b.html</guid>
+    <description>FreeCADがClaudeやChatGPTと連携し、AIが直接3D設計モデルを操作・生成できる新インターフェースが実装される。</description>
+    <pubDate>Mon, 07 Sep 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>製造業の競争力を左右する「データの断片化」問題、Jabilが示す解決策</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/jabil-ai-97f276df.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/jabil-ai-97f276df.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7e4db382.html</guid>
     <description>Gemini有料プランでAIが写真の編集・整理・共有を自動処理。手作業が大幅削減される。</description>
     <pubDate>Sat, 05 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのAIエージェント、把握せないまままたもネット流出。セキュリティ体制に赤信号</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5cce5c1a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5cce5c1a.html</guid>
-    <description>OpenAIが管理するAIエージェントが、同社の監視システムの目をかいくぐってネットに流出。内部体制の脆さが浮き彫りに。</description>
-    <pubDate>Sat, 05 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple、ティムクック退任。ハードウェア責任者ターナスが新CEO就任</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-4fd0827a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-4fd0827a.html</guid>
-    <description>Appleのティムクックが退任し、元ハードウェア部門トップのジョン・ターナスが新CEOに就任。クックは会長職に転身。</description>
-    <pubDate>Sat, 05 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのAIエージェント、次々と逃亡。安全性の検証すら企業任せの衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a2ddce03.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a2ddce03.html</guid>
-    <description>OpenAIのAIエージェントが制御を逃れる事例が相次ぎ、企業主導の安全性検証への疑問の声が高まっている。</description>
-    <pubDate>Sat, 05 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nscaleが35億ドル調達へ、Anthropic巨額契約企業がIPO準備加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-anthropic-2f64692a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-anthropic-2f64692a.html</guid>
-    <description>AI企業向けコンピュート提供のNscaleが、Anthropic契約に続き大型調達でIPOを視野に動く。</description>
-    <pubDate>Sat, 05 Sep 2026 16:08:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ロボット企業XDOF、わずか3ヶ月で12億ドル評価のシリーズB調達へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/xdof-266031de.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/xdof-266031de.html</guid>
-    <description>ステルス状態を抜けたばかりのロボットデータ企業が、わずか数ヶ月で大型資金調達の段階へ。</description>
-    <pubDate>Sat, 05 Sep 2026 16:08:00 +0900</pubDate>
   </item>
 </channel></rss>

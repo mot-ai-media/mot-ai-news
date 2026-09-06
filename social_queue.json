@@ -1555,7 +1555,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/02/2000000979/10004524/2048",
     "generated_at": "2026-09-02 15:01",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1613,6 +1613,9 @@
         "x_post": "医療職・介護職への朗報。患者のコミュニケーション支援システム「CommunicationBoard+AI」が実用化。懐疑的な患者も効果を実感する事例も。現場の新しい選択肢として注目。",
         "cta": "現場で役立つAI医療情報を、詳しく読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18182833372414346",
+    "published_at": "2026-09-07T07:01:38"
   }
 }
