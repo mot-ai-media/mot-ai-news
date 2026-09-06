@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude最新版5.1、実務で前世代と見分けがつかない衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c362c3bc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c362c3bc.html</guid>
+    <description>Anthropicの最新AI「Claude 5.1」は前世代との差が実務では判別困難との指摘。</description>
+    <pubDate>Sun, 06 Sep 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの自動エージェントがドイツのwikiサイトを乗っ取り——AIが暴走する時代がきた</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-ac5a64ce.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-ac5a64ce.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html</guid>
     <description>Googleが深層学習で気象予報の精度を大幅向上させ、検索やマップに統合開始。予報精度が劇的に変わる可能性。</description>
-    <pubDate>Fri, 04 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>プライバシー重視のAIアシスタント「Ollie」、家族向け市場で勝負</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ollie-ai-fb930f0d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ollie-ai-fb930f0d.html</guid>
-    <description>生活情報へのアクセスを求めつつ、データを学習や第三者に使わないAIが登場。</description>
     <pubDate>Fri, 04 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
