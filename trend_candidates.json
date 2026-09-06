@@ -248,5 +248,55 @@
     "japan_relevance_score": 35,
     "reason": "企業の法的警告という定番の展開だが、ホワイトハウスのパロディゲームという珍しい文脈が新規性を持つ。",
     "discovered_at": "2026-09-06T13:29:21.090475+00:00"
+  },
+  {
+    "title": "I Feel about AI",
+    "link": "https://beza1e1.tuxen.de/ai_feelings.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://beza1e1.tuxen.de/ai_feelings.html\nComments URL: https://news.ycombinator.com/item?id=49587128\nPoints: 110\n# Comments: 100",
+    "novelty_score": 35,
+    "japan_relevance_score": 42,
+    "reason": "AI感情論は既出テーマだが、個人の主観的視点による新しい切り口の可能性がある。",
+    "discovered_at": "2026-09-06T16:29:08.609292+00:00"
+  },
+  {
+    "title": "Fermat's Last Theorem: Anthropic has beaten me to it",
+    "link": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/\nComments URL: https://news.ycombinator.com/item?id=49570133\nPoints: 41\n# Comments: 2",
+    "novelty_score": 35,
+    "japan_relevance_score": 28,
+    "reason": "数学の定理証明のAI応用は新規だが、学術的な話題で一般向けニュース性に乏しく、日本での関心も限定的と見られる。",
+    "discovered_at": "2026-09-06T16:29:10.526673+00:00"
+  },
+  {
+    "title": "Can AI design circuit boards yet?",
+    "link": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://eebench.org/blog/can-ai-design-circuit-boards-yet/\nComments URL: https://news.ycombinator.com/item?id=49569366\nPoints: 413\n# Comments: 226",
+    "novelty_score": 62,
+    "japan_relevance_score": 75,
+    "reason": "AI による回路設計自動化は急速に進展中で、エレクトロニクス産業の日本企業にも重要な技術トレンド。",
+    "discovered_at": "2026-09-06T16:29:12.477642+00:00"
+  },
+  {
+    "title": "Nobody is saying why OpenAI and Anthropic had outages",
+    "link": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+    "source": "Hacker News",
+    "summary": "https://archive.ph/3zcMG\n\nComments URL: https://news.ycombinator.com/item?id=49567594\nPoints: 206\n# Comments: 4",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "大手AI企業の障害は注目度高いが、原因不明という報道自体は珍しくなく、詳細情報が限定的。",
+    "discovered_at": "2026-09-06T16:29:14.278364+00:00"
+  },
+  {
+    "title": "Corporate America is getting hooked on open-source AI",
+    "link": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+    "source": "Hacker News",
+    "summary": "https://archive.is/kmOqm\n\nComments URL: https://news.ycombinator.com/item?id=49566137\nPoints: 329\n# Comments: 303",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "企業のオープンソースAI採用は既知のトレンドだが、日本企業の戦略転換を考える上で重要な示唆を含む。",
+    "discovered_at": "2026-09-06T16:29:16.170411+00:00"
   }
 ]
