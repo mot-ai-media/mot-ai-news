@@ -93,12 +93,14 @@ GOOGLE_SITE_VERIFICATION = (
     '<meta name="google-site-verification" content="FWf3QNW4wcPX753gENPwai2tBcWBlc-RNTNA1-8tWFI" />'
 )
 
-# ダークモード: 描画前にlocalStorageの保存値(無ければOS設定)を見てdata-theme属性を設定する。
-# <head>の先頭で同期実行することでチラつき(FOUC)を防ぐ。
+# ダークモード・老眼モード: 描画前にlocalStorageの保存値(ダークモードは無ければOS設定も見る)を
+# 見て属性を設定する。<head>の先頭で同期実行することでチラつき(FOUC)を防ぐ。
 THEME_INIT_SCRIPT = (
     "<script>try{var t=localStorage.getItem('mot-theme');"
     "if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))"
-    "{document.documentElement.setAttribute('data-theme','dark');}}catch(e){}</script>"
+    "{document.documentElement.setAttribute('data-theme','dark');}"
+    "if(localStorage.getItem('mot-presbyopia')==='on')"
+    "{document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>"
 )
 
 # サブページ(記事/テーマ/about)用の簡易ナビ。トップページのみ検索欄付きの専用ナビを別途持つ
@@ -115,6 +117,12 @@ SUB_NAV_TEMPLATE = """<nav class="mot-nav">
     </ul>
     <div class="mot-nav-actions">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
@@ -1026,6 +1034,7 @@ footer a {
   justify-content: center;
   flex-shrink: 0;
 }
+.mot-icon-btn.is-active { background: var(--mot-primary); border-color: var(--mot-primary); }
 .mot-nav-hamburger { display: none; }
 @media (max-width: 780px) {
   .mot-nav-links {
@@ -1367,6 +1376,28 @@ SHARE_JS = """(function () {
     });
   });
 
+  // 老眼モード切り替え(<head>のtheme_initが初期状態は既に設定済み。ここではトグル操作のみ扱う)
+  document.querySelectorAll("[data-presbyopia-toggle]").forEach(function (btn) {
+    if (document.documentElement.getAttribute("data-presbyopia") === "on") {
+      btn.setAttribute("aria-pressed", "true");
+      btn.classList.add("is-active");
+    }
+    btn.addEventListener("click", function () {
+      var isOn = document.documentElement.getAttribute("data-presbyopia") === "on";
+      if (isOn) {
+        document.documentElement.removeAttribute("data-presbyopia");
+        try { localStorage.setItem("mot-presbyopia", "off"); } catch (e) {}
+      } else {
+        document.documentElement.setAttribute("data-presbyopia", "on");
+        try { localStorage.setItem("mot-presbyopia", "on"); } catch (e) {}
+      }
+      document.querySelectorAll("[data-presbyopia-toggle]").forEach(function (b) {
+        b.setAttribute("aria-pressed", String(!isOn));
+        b.classList.toggle("is-active", !isOn);
+      });
+    });
+  });
+
   // サイト内検索 + 難易度フィルター(記事カードの絞り込み。クライアントサイドのみ、外部送信なし)
   var searchInput = document.getElementById("mot-search");
   var levelFilter = document.getElementById("level-filter");
@@ -1550,6 +1581,12 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     <div class="mot-nav-actions">
       <input id="mot-search" class="mot-search-input" type="text" placeholder="検索" aria-label="記事を検索">
       <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
