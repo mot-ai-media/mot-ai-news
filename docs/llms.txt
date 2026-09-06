@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-07 07:01
+最終更新: 2026-09-07 07:28
 
 ## 記事一覧
 
+- [AI が設計した宇宙船が最寄りの恒星系へ、2029年打ち上げ予定](https://mot-ai-media.github.io/mot-ai-news/articles/ai-3db7c003.html): 非営利団体フェルミ・エクスプローラー・ミッションが、AI の支援を受けて最も近い恒星系アルファ・ケンタウリへの探査機打ち上げを 2029 年までに実行する計画を発表。往路だけで最大 8 万年かかる壮大なミッションは、AI が宇宙開発の実現性を大きく変える可能性を示している。 (出典: MIT Technology Review / 更新: 2026-09-07 07:28)
+- [AIが知能テストで不正解、MIT報告。機械学習の根本的な課題が浮き彫りに](https://mot-ai-media.github.io/mot-ai-news/articles/ai-mit-technology-review-734561a7.html): MIT Technology Reviewが報じたところ、最先端のAIモデルが基本的なパズルやゲーム問題で不正解を出す現象が確認された。AIの真の「理解力」がまだ限定的であることを示す結果で、開発の現場では数十年前からパズルが実力判定の重要な指標とされてきた。 (出典: MIT Technology Review / 更新: 2026-09-07 07:27)
 - [Uber創業者のAtomsがロボタクシー事業参入、自動運転の未来は](https://mot-ai-media.github.io/mot-ai-news/articles/travis-kalanick-atoms-5325508b.html): Uber創業者がAtomsでロボタクシー事業に乗り出し、自動運転市場の競争が激化する見通し。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-07 07:01)
 - [小規模AIモデルの学習効率化とは？GRPO活用で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-45020768.html): Hugging Faceが3.5億パラメータの軽量モデルを少ない学習で高精度化する手法を発表。 (出典: Hugging Face - Blog / 更新: 2026-09-07 07:01)
 - [AIの安全性とは？OpenAIが指摘する制御の課題と対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a8e8f9dc.html): OpenAIの幹部が、AIの急速な進化に伴う制御の課題に警告を発し、国際的な対策の必要性を主張。 (出典: OpenAI News / 更新: 2026-09-07 07:01)
@@ -205,5 +207,3 @@
 - [loveholidaysがOpenAI Codexを導入、開発を民主化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-d34e82ea.html): 旅行サイトloveholidaysがOpenAI Codexを活用し、全社員が開発に参加できる環境を実現。 (出典: OpenAI News / 更新: 2026-08-29 18:35)
 - [オープンAIモデルの現状とは？2026年夏の最新動向を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-d556a48b.html): Hugging Faceが公開したオープンモデルの最新観察レポートから、業界の現在地と課題が浮き彫りに。 (出典: Hugging Face - Blog / 更新: 2026-08-29 11:20)
 - [Open ASR Leaderboard グローバルサウス言語対応とは？初導入の意味](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-b0b2c2da.html): Hugging Faceの音声認識ベンチマークが初めてグローバルサウスの言語に対応し、非英語圏のAI開発が加速する契機となる。 (出典: Hugging Face - Blog / 更新: 2026-08-29 11:19)
-- [ラピダスの2ナノ半導体とは？TSMCとの競争戦略を小池社長が明かす](https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-2-bd72f412.html): ラピダスが2ナノ級半導体の量産化で、短納期を唯一の勝ち筋にする戦略を表明。AI需要の追い風を受け工程は順調。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 11:18)
-- [OpenAIがAIサイバー攻撃対策で公開書簡　Google・Microsoftなど100社が署名](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-7cf9939a.html): OpenAIが産業界と政府へ、AI悪用サイバー攻撃への防御強化と国際連携を呼びかける公開書簡を発表。大手企業100社以上が賛同。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 11:17)

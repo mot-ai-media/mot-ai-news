@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI が星間航行を計画、2029年にアルファ・ケンタウリ探査機打ち上げへ。人類初の恒星系間ミッション</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3db7c003.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3db7c003.html</guid>
+    <description>非営利団体フェルミ・エクスプローラー・ミッションが、AI の支援を受けて最も近い恒星系アルファ・ケンタウリへの探査機打ち上げを 2029 年までに実行する計画を発表。往路だけで最大 8 万年かかる壮大なミッションは、AI が宇宙開発の実現性を大きく変える可能性を示している。</description>
+    <pubDate>Mon, 07 Sep 2026 07:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>最新のAIモデルが簡単なパズルで続々失敗——人間より賢いはずなのに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-mit-technology-review-734561a7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-mit-technology-review-734561a7.html</guid>
+    <description>MIT Technology Reviewが報じたところ、最先端のAIモデルが基本的なパズルやゲーム問題で不正解を出す現象が確認された。AIの真の「理解力」がまだ限定的であることを示す結果で、開発の現場では数十年前からパズルが実力判定の重要な指標とされてきた。</description>
+    <pubDate>Mon, 07 Sep 2026 07:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIが警告、急速に進化するAIの制御不能化リスク</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a8e8f9dc.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a8e8f9dc.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-c77b77ac.html</guid>
     <description>OpenAIが新型AI「Astra」の配信を開始。同社のサイバーセキュリティプログラムに参加する企業が優先的にアクセス可能に。高度なサイバー対応能力を備えるAIの実運用が始まる。</description>
     <pubDate>Sat, 05 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>TechCrunch Disrupt 2026、サイドイベント企画の募集が本日締切迫る</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-f5a7053a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-f5a7053a.html</guid>
-    <description>シリコンバレーの重要なテックイベントのサイドイベント企画募集が、本日深夜で締め切られる。</description>
-    <pubDate>Sat, 05 Sep 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google Gemini、写真管理を全自動化。AIが勝手にアルバム編成＆イベント作成</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7e4db382.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7e4db382.html</guid>
-    <description>Gemini有料プランでAIが写真の編集・整理・共有を自動処理。手作業が大幅削減される。</description>
-    <pubDate>Sat, 05 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
