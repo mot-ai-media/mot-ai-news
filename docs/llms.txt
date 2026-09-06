@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-06 22:02
+最終更新: 2026-09-06 22:28
 
 ## 記事一覧
 
+- [Apple Siri AI ベータ版 使わなくなる理由 評判](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-ee69948e.html): Apple が大幅に刷新したスマートフォンアシスタント「Siri」のベータ版は、当初は期待を集めたものの、実際の利用ユーザーからは「存在を忘れてしまった」という声が上がっている。期待と現実のギャップが、AIアシスタント市場における重要な課題を浮き彫りにしている。 (出典: WIRED / 更新: 2026-09-06 22:28)
+- [AI最新モデル競争が加速、OpenAI・Google・Meta・Anthropic同時展開の背景](https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-bb1be035.html): OpenAI、Google、Meta、Anthropicといった主要AI企業が1週間の間に相次いで新しいAIモデルをリリースした。同時にNvidiaはAIプラットフォーム企業Hugging Faceの買収を発表。業界全体が急速なペースで新技術を投入する局面に入っている。 (出典: CNBC / 更新: 2026-09-06 22:27)
 - [コード生成AIが絵を描く？TRLとOpenEnvの実験とは](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-b844bdee.html): プログラミング用のAIモデルを訓練し直すことで、水彩画を描かせる実験が成功。AIの応用範囲の広さが明らかに。 (出典: Hugging Face - Blog / 更新: 2026-09-06 22:02)
 - [IBMの時系列AIモデルとは？Confluent連携でリアルタイム分析実現](https://mot-ai-media.github.io/mot-ai-news/articles/ibm-confluent-22915ca8.html): IBMの時系列予測AIがConfluent上で直接動作し、企業のリアルタイムデータ分析がより手軽に。 (出典: Hugging Face - Blog / 更新: 2026-09-06 22:02)
 - [GPT-6 Astraとは？OpenAIの最新AI、防御用途に限定](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-aa3e6bd9.html): OpenAIが新モデル「GPT-6 Astra」を公開。悪用を防ぐため防御目的のみで提供される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-06 22:01)
@@ -205,5 +207,3 @@
 - [次世代EDA技術とは？キーサイトのAI半導体設計の取り組み](https://mot-ai-media.github.io/mot-ai-news/articles/eda-ai-9d3e63a5.html): キーサイトがAI活用した次世代EDA技術を発表。半導体設計の主役がAIに移行する時代の到来を宣言した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-28 17:18)
 - [Microduckとは？Pollen Roboticsの二足歩行ロボット、料金・特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/pollen-robotics-microduck-48ec8a0f.html): Pollen Roboticsが小型ロボット「Microduck」を発表。399ドルで家庭や教室での強化学習実験を実現する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-28 17:18)
 - [MiMouseとは？ChatGPT・Gemini搭載のAIキーボード、料金・使い方](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-2d25b758.html): ChatGPTやGeminiを1クリックで呼び出せる、月額不要のAIキーボード「MiMouse」が登場。複数のAIサービスに素早くアクセス可能。 (出典: エルミタージュ秋葉原 / 更新: 2026-08-28 17:17)
-- [arXivの新方針：LLMの誤りで1年投稿禁止とは](https://mot-ai-media.github.io/mot-ai-news/articles/arxiv-llm-4179b9cf.html): 未査読論文リポジトリのarXivが、大言語モデルの誤りや架空引用を含む論文の投稿を1年間禁止する厳しい方針を打ち出した。 (出典: GIGAZINE / 更新: 2026-08-28 17:17)
-- [Google Home Speaker Gemini搭載モデル、25日発売。価格・スペック](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html): GoogleがAI「Gemini」を搭載した新型スマートスピーカー「Google Home Speaker」を発売。価格は16,800円。 (出典: エルミタージュ秋葉原 / 更新: 2026-08-28 17:17)

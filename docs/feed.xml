@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Apple新型Siriは「夏の恋」で終わった――ユーザーが次々と使わなくなる理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-ee69948e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-ee69948e.html</guid>
+    <description>Apple が大幅に刷新したスマートフォンアシスタント「Siri」のベータ版は、当初は期待を集めたものの、実際の利用ユーザーからは「存在を忘れてしまった」という声が上がっている。期待と現実のギャップが、AIアシスタント市場における重要な課題を浮き彫りにしている。</description>
+    <pubDate>Sun, 06 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI企業の新モデル争奪戦が激化——OpenAI、Google、Meta、Anthropicが一週間で次々投入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-bb1be035.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-bb1be035.html</guid>
+    <description>OpenAI、Google、Meta、Anthropicといった主要AI企業が1週間の間に相次いで新しいAIモデルをリリースした。同時にNvidiaはAIプラットフォーム企業Hugging Faceの買収を発表。業界全体が急速なペースで新技術を投入する局面に入っている。</description>
+    <pubDate>Sun, 06 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>IBM、リアルタイムデータ分析を強化。時系列AI モデルがConfluent連携で実装可能に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-confluent-22915ca8.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-confluent-22915ca8.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-20903e3d.html</guid>
     <description>AnthropicがClaudeの新バージョンを発表。性能や用途がどう変わるのか注目が集まっている。</description>
     <pubDate>Sat, 05 Sep 2026 02:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Snowflake、Claude最新版を統合。企業のAI活用がさらに加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/snowflake-anthropic-claude-69e03612.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/snowflake-anthropic-claude-69e03612.html</guid>
-    <description>データ分析プラットフォームSnowflakeが、Anthropic製の高性能AI「Claude」を統合。企業のデータ分析がより高度に。</description>
-    <pubDate>Sat, 05 Sep 2026 02:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AmazonとGoogleが新学期商戦を「AI買い物アシスタント」で支配へ。消費者の買い方が大きく変わる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-google-097f6c76.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-google-097f6c76.html</guid>
-    <description>米国の新学期シーズンでAmazonとGoogleがAI技術を活用したショッピング支援サービスを本格展開。消費者が商品選びでAIの提案に頼る傾向が急速に広がり、今後の買い物行動の転機となる可能性が指摘されている。</description>
-    <pubDate>Sat, 05 Sep 2026 02:20:00 +0900</pubDate>
   </item>
 </channel></rss>
