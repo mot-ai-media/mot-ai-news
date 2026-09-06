@@ -298,5 +298,15 @@
     "japan_relevance_score": 72,
     "reason": "企業のオープンソースAI採用は既知のトレンドだが、日本企業の戦略転換を考える上で重要な示唆を含む。",
     "discovered_at": "2026-09-06T16:29:16.170411+00:00"
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "source": "Hacker News",
+    "summary": "Article URL: https://openai.com/index/research-acceleration-view-inside-openai\nComments URL: https://news.ycombinator.com/item?id=49587217\nPoints: 58\n# Comments: 35",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "OpenAIの内部情報は注目度高いが、公式ブログ記事のため新規性は限定的。日本でも生成AI関心層には影響力あり。",
+    "discovered_at": "2026-09-06T19:28:43.723914+00:00"
   }
 ]
