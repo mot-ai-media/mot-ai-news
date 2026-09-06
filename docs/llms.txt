@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-06 15:11
+最終更新: 2026-09-06 18:02
 
 ## 記事一覧
 
+- [AppleのティムクックCEO退任、後任はジョン・テルナス](https://mot-ai-media.github.io/mot-ai-news/articles/apple-tim-cook-668e1447.html): Appleのティムクックが退任し、ハードウェア部門の責任者だったジョン・テルナスが新CEOに就任。就任直後に新型iPhoneの発表イベントが控えている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-06 18:02)
+- [NeoMME とは？複数言語・マルチモーダルAIモデルの特徴](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-96a3500c.html): 複数の言語と画像・テキストを効率よく処理できるAIモデルが登場。 (出典: Hugging Face - Blog / 更新: 2026-09-06 18:02)
+- [Seattle Times・Newsday訴訟。OpenAIの学習データ問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-a5bf96db.html): 複数のメディア企業がOpenAIとMicrosoftを相次いで提訴。AIの学習に記事が無断利用された疑いで。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-06 18:01)
+- [Google Geminiが登山計画を誤提案、ハイカーが救助される事例](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-e2a0f618.html): Google Geminiが登山者の必要な食料・水量を過小に提案し、実際の遠足で問題が生じた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-06 18:01)
+- [OpenAI、AIエージェントのWiki事件を認める。透明性強化へ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5d4986f0.html): OpenAIが独自にAIエージェントを操作してドイツのWikiフォーラムを乗っ取った事件を公式確認。情報開示の仕組みづくりを進める方針を表明。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-06 18:01)
 - [AI株投資の転機：ウォール街が防御的ポジションへ、金利上昇が影響](https://mot-ai-media.github.io/mot-ai-news/articles/ai-1d164439.html): 米国の投資家がAI関連株への過度な依存を減らし、防御的な銘柄へのポジション構築を始めた。金利上昇と原油価格の高騰がAI企業の評価基準を厳しくし、投資戦略の見直しが加速している動きが報道されている。 (出典: CNBC / 更新: 2026-09-06 10:28)
 - [AIデータセンター需要がトラック業界を救う。貿易摩擦から一転](https://mot-ai-media.github.io/mot-ai-news/articles/ai-c7fab917.html): ChatGPTなどのAIサービスを支える巨大なデータセンター建設が急増しており、空調システムから配線・半導体まで膨大な機器・部品をトラックで輸送する需要が生まれている。これにより経営難に陥っていたトラック業界が予想外の景気回復を経験している。 (出典: CNBC / 更新: 2026-09-06 10:28)
 - [OpenAI Astra配信開始｜高度なサイバー攻撃対策AIが企業に提供へ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-c77b77ac.html): OpenAIが新型AI「Astra」の配信を開始。同社のサイバーセキュリティプログラムに参加する企業が優先的にアクセス可能に。高度なサイバー対応能力を備えるAIの実運用が始まる。 (出典: CNBC / 更新: 2026-09-05 22:28)
@@ -202,8 +207,3 @@
 - [ChatGPTで学習が変わる？生徒・教育者の活用実態をOpenAIが報告](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-cdfc1003.html): OpenAIが新レポートで、ChatGPTが生徒と教育者にもたらす学習の連続化と教室外での支援効果を分析。 (出典: OpenAI News / 更新: 2026-08-28 02:37)
 - [Hugging Face セキュリティ事件とは？OpenAIが対策を発表](https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-504dd1ec.html): OpenAIがHugging Faceで発生した侵害事件の調査結果を公開し、AI model security強化に向けた施策を明らかにした。 (出典: OpenAI News / 更新: 2026-08-28 02:37)
 - [ChatGPT活用で学生の成績向上？批判的思考訓練の効果を検証](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-3062d8cd.html): OpenAIが1000人以上の学生を対象に実施した大規模実験で、ChatGPTと批判的思考スキルの関係性が明らかに。 (出典: OpenAI News / 更新: 2026-08-28 02:36)
-- [OpenAIがブラジル展開を加速、開発者・ビジネス向けのAI支援](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57e27628.html): OpenAIがブラジルでの事業拡大を発表。地域の開発者やビジネスコミュニティとの連携を強化し、国内へのAI導入を推進する。 (出典: OpenAI News / 更新: 2026-08-28 02:36)
-- [ChatGPT for Teachers拡大とは？米国学区への導入が加速](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d6bb1031.html): OpenAIの教育者向けAIツール「ChatGPT for Teachers」が55の米国学区に展開され、10万人超の教育関係者が利用できるようになった。 (出典: OpenAI News / 更新: 2026-08-28 02:36)
-- [クラスタ利用率33%改善の秘密：順序最適化で何が変わった](https://mot-ai-media.github.io/mot-ai-news/articles/b597a3d03ee7.html): 既存インフラは変えずに、処理順序の工夫だけで大幅な効率改善を実現。 (出典: Hugging Face - Blog / 更新: 2026-08-28 02:35)
-- [Strands Agents・LeRobot・Hugging Face連携とは？ロボット開発の流れ](https://mot-ai-media.github.io/mot-ai-news/articles/c1c988556190.html): Strands Agentsとてっぽロボット学習プラットフォームLeRobotがHugging Faceと統合し、記録・学習・デプロイが一箇所で完結する環境が実現した。 (出典: Hugging Face - Blog / 更新: 2026-08-28 02:35)
-- [ICML論文2,200本の再現実験で判明した課題とは](https://mot-ai-media.github.io/mot-ai-news/articles/5fa28c256021.html): Hugging Faceが機械学習の主要国際会議ICMLの大規模な論文再現プロジェクトから得た知見を公開。研究の再現性に関する重要な示唆が明かされた。 (出典: Hugging Face - Blog / 更新: 2026-08-28 02:35)

@@ -1310,5 +1310,25 @@
   {
     "link": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
     "notified_at": "2026-09-06T01:28:26.455257+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+    "notified_at": "2026-09-06T09:01:27.117976+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+    "notified_at": "2026-09-06T09:01:44.593630+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+    "notified_at": "2026-09-06T09:01:59.839582+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
+    "notified_at": "2026-09-06T09:02:16.840104+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/Hcompany/neomme",
+    "notified_at": "2026-09-06T09:02:29.936459+00:00"
   }
 ]

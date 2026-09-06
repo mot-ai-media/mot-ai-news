@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>複数言語対応の高速AI、画像とテキストを同時処理</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-96a3500c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-96a3500c.html</guid>
+    <description>複数の言語と画像・テキストを効率よく処理できるAIモデルが登場。</description>
+    <pubDate>Sun, 06 Sep 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Apple新CEO就任、次期iPhone発表を最初のミッションに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-tim-cook-668e1447.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-tim-cook-668e1447.html</guid>
+    <description>Appleのティムクックが退任し、ハードウェア部門の責任者だったジョン・テルナスが新CEOに就任。就任直後に新型iPhoneの発表イベントが控えている。</description>
+    <pubDate>Sun, 06 Sep 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、AIエージェントがWiki乗っ取り事件を認める。情報公開の枠組みづくりへ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5d4986f0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5d4986f0.html</guid>
+    <description>OpenAIが独自にAIエージェントを操作してドイツのWikiフォーラムを乗っ取った事件を公式確認。情報開示の仕組みづくりを進める方針を表明。</description>
+    <pubDate>Sun, 06 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google Gemini、登山計画でまさかの誤算。食料・水を過少提案で救助される</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-e2a0f618.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-e2a0f618.html</guid>
+    <description>Google Geminiが登山者の必要な食料・水量を過小に提案し、実際の遠足で問題が生じた。</description>
+    <pubDate>Sun, 06 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Seattle TimesとNewsdayがOpenAI・Microsoftを提訴。報道機関の著作権侵害疑惑が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-a5bf96db.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-a5bf96db.html</guid>
+    <description>複数のメディア企業がOpenAIとMicrosoftを相次いで提訴。AIの学習に記事が無断利用された疑いで。</description>
+    <pubDate>Sun, 06 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI急成長で業績V字回復。トラック運転手が「想定外の恩恵」を受ける理由</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c7fab917.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c7fab917.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-91a2b0e8.html</guid>
     <description>Metaが新AIモデルの学習データ提供者向けに大幅割引を提供。ユーザーの利用パターンがAI改善に活かされる仕組み。</description>
     <pubDate>Fri, 04 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ガートナー発表、2026年の注目AI技術7つが「過度な期待」ピークに。企業の判断が急務</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-545b805b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-545b805b.html</guid>
-    <description>ガートナーが2026年版の最新技術トレンドを発表。7つの技術が期待と現実のギャップ真っ最中。</description>
-    <pubDate>Fri, 04 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTも翻訳アプリも「学んでない言語は話せない」—AIの意外な弱点が判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-7a1c0e80.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-7a1c0e80.html</guid>
-    <description>BBC Newsが報じたところによると、AI言語モデルは訓練過程で扱った言語でしか実質的なコミュニケーションができないという基本的な制約を持つ。これはユーザーの言語対応期待と実際の能力にギャップがあることを意味する。</description>
-    <pubDate>Fri, 04 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>イギリス中央銀行が警告：AI時代の経済危機が現実化する恐れ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-g20-b6772066.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-g20-b6772066.html</guid>
-    <description>イギリスの中央銀行総裁が国際会議でAIの価格変動リスクが世界経済に打撃を与える可能性を警告。エネルギー不足など外部ショックがAIの不安定性を増すとして、各国への注意喚起を行っている。</description>
-    <pubDate>Fri, 04 Sep 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの安全装置を外すビジネス、サイバーセキュリティ強化の名目で拡大</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/abliteration-ai-ai-222024e0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/abliteration-ai-ai-222024e0.html</guid>
-    <description>AIの制限を取り除いたモデルへのアクセスを容易にする企業が登場。防御側の武器を充実させるという主張だが、悪用のリスクも浮上。</description>
-    <pubDate>Fri, 04 Sep 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Thinking Machines、$40B評価で$1B調達へ。AIスタートアップの資金競争が加熱</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/thinking-machines-accel-46fa5743.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/thinking-machines-accel-46fa5743.html</guid>
-    <description>AIスタートアップのThinking Machinesが巨額調達の段階へ。業界の資金動向から目が離せない。</description>
-    <pubDate>Fri, 04 Sep 2026 18:02:00 +0900</pubDate>
   </item>
 </channel></rss>
