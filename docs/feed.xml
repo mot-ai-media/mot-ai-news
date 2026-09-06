@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ウクライナの戦場データが「兵器市場化」—ドローン映像の売買がAIを加速させる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-16c4a600.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-16c4a600.html</guid>
+    <description>ウクライナの戦闘で撮影されたドローン映像やデータが民間企業に売却される「新しい市場」が急速に拡大しており、これがAIの学習データとして活用されている。規制が及ばない状態で取引が進み、AI企業が戦場データを獲得する構図が問題視されている。</description>
+    <pubDate>Mon, 07 Sep 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI時代の「メモリ革命」が始まった。医療から顧客対応まで、リアルタイム処理が激変する</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-f391404a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-f391404a.html</guid>
+    <description>MIT Technology Reviewが報じたところによると、AIの推論（学習後の活用）が本格化する時代に、メモリとストレージの設計が産業全体の鍵になりつつある。医療システムがリアルタイムで大規模データを解析し、カスタマーサービスが数千の複雑な依頼を同時処理するなど、新しいインフラ基盤がこうした革新を支えている。</description>
+    <pubDate>Mon, 07 Sep 2026 01:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Apple新型Siriは「夏の恋」で終わった――ユーザーが次々と使わなくなる理由</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-ee69948e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-ee69948e.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html</guid>
     <description>Anthropic が新しいClaudeモデルを発表。利用料金が大幅に下がり、セキュリティも強化。</description>
     <pubDate>Sat, 05 Sep 2026 16:07:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AIのデータ活用、「禁止か放任か」の二者択一を超える実践戦略が登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-de3b50af.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-de3b50af.html</guid>
-    <description>生成AIの学習データ問題に対し、禁止と放任の二者択一を超えた現実的な対策が示される。</description>
-    <pubDate>Sat, 05 Sep 2026 14:39:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、新型AI「Claude Fable 5」「Claude Mythos 5」発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-20903e3d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-20903e3d.html</guid>
-    <description>AnthropicがClaudeの新バージョンを発表。性能や用途がどう変わるのか注目が集まっている。</description>
-    <pubDate>Sat, 05 Sep 2026 02:53:00 +0900</pubDate>
   </item>
 </channel></rss>

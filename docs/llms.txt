@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-06 22:28
+最終更新: 2026-09-07 01:28
 
 ## 記事一覧
 
+- [ウクライナ ドローン データ 売買 AI 民間企業](https://mot-ai-media.github.io/mot-ai-news/articles/ai-16c4a600.html): ウクライナの戦闘で撮影されたドローン映像やデータが民間企業に売却される「新しい市場」が急速に拡大しており、これがAIの学習データとして活用されている。規制が及ばない状態で取引が進み、AI企業が戦場データを獲得する構図が問題視されている。 (出典: MIT Technology Review / 更新: 2026-09-07 01:28)
+- [AI推論時代のメモリ・ストレージ革新、医療現場の実装が加速](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-f391404a.html): MIT Technology Reviewが報じたところによると、AIの推論（学習後の活用）が本格化する時代に、メモリとストレージの設計が産業全体の鍵になりつつある。医療システムがリアルタイムで大規模データを解析し、カスタマーサービスが数千の複雑な依頼を同時処理するなど、新しいインフラ基盤がこうした革新を支えている。 (出典: MIT Technology Review / 更新: 2026-09-07 01:27)
 - [Apple Siri AI ベータ版 使わなくなる理由 評判](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-ee69948e.html): Apple が大幅に刷新したスマートフォンアシスタント「Siri」のベータ版は、当初は期待を集めたものの、実際の利用ユーザーからは「存在を忘れてしまった」という声が上がっている。期待と現実のギャップが、AIアシスタント市場における重要な課題を浮き彫りにしている。 (出典: WIRED / 更新: 2026-09-06 22:28)
 - [AI最新モデル競争が加速、OpenAI・Google・Meta・Anthropic同時展開の背景](https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-bb1be035.html): OpenAI、Google、Meta、Anthropicといった主要AI企業が1週間の間に相次いで新しいAIモデルをリリースした。同時にNvidiaはAIプラットフォーム企業Hugging Faceの買収を発表。業界全体が急速なペースで新技術を投入する局面に入っている。 (出典: CNBC / 更新: 2026-09-06 22:27)
 - [コード生成AIが絵を描く？TRLとOpenEnvの実験とは](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-b844bdee.html): プログラミング用のAIモデルを訓練し直すことで、水彩画を描かせる実験が成功。AIの応用範囲の広さが明らかに。 (出典: Hugging Face - Blog / 更新: 2026-09-06 22:02)
@@ -205,5 +207,3 @@
 - [Google Gemini NotebookがGoogle Playブックスに対応、10万冊以上の電子書籍を追加可能に](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-d5c1c2fa.html): GoogleがExpert Intelligenceを発表。Gemini Notebookで購入済み電子書籍をソースとして活用できるように。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 02:59)
 - [AI投資の評価方法は？利用率重視の落とし穴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-8bf08971.html): 使うほどコストが増すAIの投資効果を、利用者数で判定する企業が多いが、それは適切な評価指標ではないと指摘される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-29 02:59)
 - [次世代EDA技術とは？キーサイトのAI半導体設計の取り組み](https://mot-ai-media.github.io/mot-ai-news/articles/eda-ai-9d3e63a5.html): キーサイトがAI活用した次世代EDA技術を発表。半導体設計の主役がAIに移行する時代の到来を宣言した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-28 17:18)
-- [Microduckとは？Pollen Roboticsの二足歩行ロボット、料金・特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/pollen-robotics-microduck-48ec8a0f.html): Pollen Roboticsが小型ロボット「Microduck」を発表。399ドルで家庭や教室での強化学習実験を実現する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-28 17:18)
-- [MiMouseとは？ChatGPT・Gemini搭載のAIキーボード、料金・使い方](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-2d25b758.html): ChatGPTやGeminiを1クリックで呼び出せる、月額不要のAIキーボード「MiMouse」が登場。複数のAIサービスに素早くアクセス可能。 (出典: エルミタージュ秋葉原 / 更新: 2026-08-28 17:17)
