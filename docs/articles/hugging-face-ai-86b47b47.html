@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIコーディングエージェントとは？自社データ活用の新機能を解説 | AI特化メディアMOT</title>
+<meta name="description" content="AIがコード生成を手伝う際、企業秘密を守りながら独自データを学習させられる仕組みが登場。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="AIコーディング支援ツール、自分だけのメモリ機能で大幅進化">
+<meta property="og:description" content="AIがコード生成を手伝う際、企業秘密を守りながら独自データを学習させられる仕組みが登場。">
+<meta property="og:image" content="https://huggingface.co/blog/assets/funes/thumbnail.jpg">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html">
+<meta property="article:published_time" content="2026-09-06T22:01:00+09:00">
+<meta property="article:modified_time" content="2026-09-06T22:01:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "AIコーディング支援ツール、自分だけのメモリ機能で大幅進化", "description": "AIがコード生成を手伝う際、企業秘密を守りながら独自データを学習させられる仕組みが登場。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-06T22:01:00+09:00", "dateModified": "2026-09-06T22:01:00+09:00", "image": ["https://huggingface.co/blog/assets/funes/thumbnail.jpg"], "citation": "https://huggingface.co/blog/funes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "AIコーディングエージェントのプライベート・メモリとは？", "acceptedAnswer": {"@type": "Answer", "text": "企業が自社のコード規約やプロジェクト情報をAIに学ばせながら、その情報を外部に共有しない形で管理する機能。セキュリティを保ちながらAIをカスタマイズできる。"}}, {"@type": "Question", "name": "一般的なChatGPTとの違いは？", "acceptedAnswer": {"@type": "Answer", "text": "ChatGPTなど一般的なAIは、入力データが学習に使われる可能性がある。プライベート・メモリ機能は企業秘密を守りながらカスタマイズできる点が異なる。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Hugging Face", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/hugging-face.html"}, {"@type": "ListItem", "position": 3, "name": "AIコーディング支援ツール、自分だけのメモリ機能で大幅進化", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://huggingface.co/blog/assets/funes/thumbnail.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">AIコーディング支援ツール、自分だけのメモリ機能で大幅進化</span></div></div>
+  <h1 class="headline">AIコーディング支援ツール、自分だけのメモリ機能で大幅進化</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-technical">&#128309; テクニカル</span></span>
+    <span><span class="trust-label">SOURCE</span>Hugging Face - Blog</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-06 22:01</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> コード生成AIに自社専用メモリを持たせ、セキュリティを保ちながら組織固有の知識を蓄積できる技術が注目を集めている。</p><h3>何が起きたか</h3><p>AI企業が、コード生成を支援するAIエージェント向けに、プライベート・メモリ機能を提供し始めた。この機能により、企業は自社のコード規約や過去のプロジェクト情報をAIに学習させながらも、その情報を外部に共有しない形で管理できるようになった。</p><h3>なぜ重要か</h3><p>ChatGPTなど一般的なAIは、入力データが企業の学習に使われる可能性がある。一方、プライベート・メモリ機能を使えば、企業秘密や個人情報を保護しつつ、AIをカスタマイズして社内専用ツール化できる。これは企業のAI導入時の最大の懸念を解決する重要な進展。</p><h3>あなたへの影響</h3><p>プログラマーや開発チームは、セキュリティを心配せずにAI支援ツールを活用できるようになる。企業の経営層・情報セキュリティ担当者は、AIツール導入時のリスクを減らせる。結果として、社内のAI活用が一層加速する可能性がある。</p><h3>MOT読者が知っておくべき理由</h3><p>AIがコード作成を手伝う時代が本格化する中で、「データが漏れないか」という不安は多くの企業で導入の障壁になっている。この技術はその不安を実質的に解消する分岐点。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>プライベート・メモリ機能の導入・管理には技術的な手間がかかり、全ての企業が同じレベルでAIを活用できるわけではない。結果として、セキュリティ対応できる企業とそうでない企業の開発効率の差が広がる可能性がある。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>企業は自社の開発ノウハウや過去コード資産をAIに学ばせることで、属人的だった知識を組織資産化でき、新人育成やプロジェクト品質の向上に活用できる。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>これは単なる機能追加ではなく、AIツールが「全員共通の便利道具」から「企業専用カスタマイズツール」へシフトする転換点。クラウドAIへの依存度を下げながら競争力を高める選択肢が増えたことで、企業のAI戦略に新たな自由度が生まれている。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>このプライベート・メモリ機能が実際の企業開発現場でどの程度採用されるか、また競合AIサービスの対応速度。さらに、データ保護に関する規制(GDPR等)と組み合わせた活用事例が出てくるか注視が必要。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/hugging-face.html">#Hugging Face</a><a class="tag-pill" href="../topics/0a91c56b47.html">#AIエージェント</a><a class="tag-pill" href="../topics/d5fbc60c38.html">#データセキュリティ</a></div>
+  <script>window.motPageTags=["Hugging Face", "AIエージェント", "コード生成", "データセキュリティ"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">会話やメモを録音するだけで、AIが自動で要約してくれる</h3><p class="sponsor-desc">AIボイスレコーダー「PLAUD」。録音した音声をAIが自動で文字起こし・要約する。全世界100万ユーザーが利用(スポンサー公表値)。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36L+FSKZHU+5J4W+67JU9" rel="sponsored nofollow" target="_blank"><img border="0" width="336" height="280" alt="PLAUD" loading="lazy" src="https://www22.a8.net/svt/bgt?aid=260904477955&wid=001&eno=01&mid=s00000025808001043000&mc=1"></a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36L+FSKZHU+5J4W+67JU9" alt=""></div><span class="sponsor-cta">詳しく見る &rarr;</span><p class="sponsor-name">PLAUD</p></div></article></div>
+  <blockquote class="fact-check" cite="https://huggingface.co/blog/funes">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>Hugging Face - Blog</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://huggingface.co/blog/funes" target="_blank" rel="noopener noreferrer">元記事（<cite>Hugging Face - Blog</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. AIコーディングエージェントのプライベート・メモリとは？</p>
+    <p class="faq-a">企業が自社のコード規約やプロジェクト情報をAIに学ばせながら、その情報を外部に共有しない形で管理する機能。セキュリティを保ちながらAIをカスタマイズできる。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 一般的なChatGPTとの違いは？</p>
+    <p class="faq-a">ChatGPTなど一般的なAIは、入力データが学習に使われる可能性がある。プライベート・メモリ機能は企業秘密を守りながらカスタマイズできる点が異なる。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=AI%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E6%94%AF%E6%8F%B4%E3%83%84%E3%83%BC%E3%83%AB%E3%80%81%E8%87%AA%E5%88%86%E3%81%A0%E3%81%91%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E6%A9%9F%E8%83%BD%E3%81%A7%E5%A4%A7%E5%B9%85%E9%80%B2%E5%8C%96&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html&text=AI%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E6%94%AF%E6%8F%B4%E3%83%84%E3%83%BC%E3%83%AB%E3%80%81%E8%87%AA%E5%88%86%E3%81%A0%E3%81%91%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E6%A9%9F%E8%83%BD%E3%81%A7%E5%A4%A7%E5%B9%85%E9%80%B2%E5%8C%96" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html" data-share-title="AIコーディング支援ツール、自分だけのメモリ機能で大幅進化">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="hugging-face-ai-86b47b47">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="5ce8103476b1.html">
+    <img src="https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/j-n1Au9SJ2-RGkT9i98u4.jpeg" alt="" loading="lazy">
+    <span class="next-up-headline">AIエージェントのメモリ消費量、実は想定より少ない可能性</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="hugging-face-trl-b844bdee.html">コード生成AIが水彩画を描く時代へ。TRLで実現した意外な可能性</a></li>
+  <li><a href="hugging-face-ai-96a3500c.html">複数言語対応の高速AI、画像とテキストを同時処理</a></li>
+  <li><a href="hugging-face-webgpu-85562dc1.html">Hugging Face、200超のWebGPUカーネル公開。ローカルAI実行が激変</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

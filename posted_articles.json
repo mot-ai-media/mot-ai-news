@@ -1354,5 +1354,25 @@
   {
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX0FnVUpFQ25heEM4dUJrNm93MDN4S21YakNYT1JXcmw3TFFkaEZSdG14R3lnVmZrOEVQX0VDbEIyamVKbXRKbXNTV3Mxc1NLdG5XSlpKSk1LaDUxZEs4RHhMdC1MWWpRM0xuNi1TSlJQWW93czVnWlYyVWkxOTZHcHVNTEdMRWNpWG5aclUxRTQ1bm5QSTczOUdn?oc=5",
     "notified_at": "2026-09-06T11:53:33.880195+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2609/06/2000001202/",
+    "notified_at": "2026-09-06T13:00:53.030861+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2609/04/2000001153/",
+    "notified_at": "2026-09-06T13:01:09.873273+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/funes",
+    "notified_at": "2026-09-06T13:01:43.210276+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/train-to-paint-with-code",
+    "notified_at": "2026-09-06T13:02:00.170539+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+    "notified_at": "2026-09-06T13:02:16.329749+00:00"
   }
 ]

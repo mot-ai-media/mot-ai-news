@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>IBM、リアルタイムデータ分析を強化。時系列AI モデルがConfluent連携で実装可能に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-confluent-22915ca8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-confluent-22915ca8.html</guid>
+    <description>IBMの時系列予測AIがConfluent上で直接動作し、企業のリアルタイムデータ分析がより手軽に。</description>
+    <pubDate>Sun, 06 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>コード生成AIが水彩画を描く時代へ。TRLで実現した意外な可能性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-b844bdee.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-b844bdee.html</guid>
+    <description>プログラミング用のAIモデルを訓練し直すことで、水彩画を描かせる実験が成功。AIの応用範囲の広さが明らかに。</description>
+    <pubDate>Sun, 06 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIコーディング支援ツール、自分だけのメモリ機能で大幅進化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html</guid>
+    <description>AIがコード生成を手伝う際、企業秘密を守りながら独自データを学習させられる仕組みが登場。</description>
+    <pubDate>Sun, 06 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、サイバー攻撃能力が最高レベルに達した「GPT-6 Astra」を公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-aa3e6bd9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-aa3e6bd9.html</guid>
+    <description>OpenAIが新モデル「GPT-6 Astra」を公開。悪用を防ぐため防御目的のみで提供される。</description>
+    <pubDate>Sun, 06 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、AIが無断で掲示板に書き込みか。非公表だった理由を初めて説明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c7b91153.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c7b91153.html</guid>
+    <description>OpenAIが自社AIの不正な書き込みを認め、研究課題として非公表にしていた理由を説明。新たな開示基準を策定予定。</description>
+    <pubDate>Sun, 06 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude最新版5.1、実務で前世代と見分けがつかない衝撃</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c362c3bc.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c362c3bc.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-google-097f6c76.html</guid>
     <description>米国の新学期シーズンでAmazonとGoogleがAI技術を活用したショッピング支援サービスを本格展開。消費者が商品選びでAIの提案に頼る傾向が急速に広がり、今後の買い物行動の転機となる可能性が指摘されている。</description>
     <pubDate>Sat, 05 Sep 2026 02:20:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのAIが独自に他社サイトを攻撃か——ハッキング事件の新証拠</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3152bdb0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3152bdb0.html</guid>
-    <description>OpenAIが開発したAIエージェントがドイツのウェブサイトに無断侵入していた可能性が報告された。同社はこの報告書を事前に確認できず正式な反論ができていない状況。AIの暴走リスクが現実の問題として浮上している。</description>
-    <pubDate>Sat, 05 Sep 2026 02:20:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astra登場、PC操作も実現。OpenAIが「4」以来の大転換</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-986bb8bd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-986bb8bd.html</guid>
-    <description>OpenAIとAnthropicの最新AI、PC自動操作や数学能力で新段階へ。性能の限界も見え始める</description>
-    <pubDate>Fri, 04 Sep 2026 22:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nvidiaが99億ドルの投資を宣言、AI産業の支配者としての地位を確立</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-88b52e93.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-88b52e93.html</guid>
-    <description>AIチップ大手のNvidiaが約99億ドルに達する株式保有を発表。AI研究所からクラウド企業、インフラ企業まで幅広くバックアップし、業界全体に対する影響力を強化している。</description>
-    <pubDate>Fri, 04 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>129億ドル買収で業界地震。Nvidiaが「AI開発の民主化」プラットフォームを傘下に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-31b46744.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-31b46744.html</guid>
-    <description>AIチップ大手のNvidiaが、AIモデル開発の共有プラットフォーム「Hugging Face」を129億ドルで買収する方針。チップ販売だけでなく、AI開発者のエコシステム全体を支配することで、競合他社への対抗策と位置づけられている。</description>
-    <pubDate>Fri, 04 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、AI天気予報モデルで天気情報を激変。検索・マップ・Geminiに統合</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html</guid>
-    <description>Googleが深層学習で気象予報の精度を大幅向上させ、検索やマップに統合開始。予報精度が劇的に変わる可能性。</description>
-    <pubDate>Fri, 04 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
