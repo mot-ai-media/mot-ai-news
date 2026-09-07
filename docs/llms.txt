@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-07 18:45
+最終更新: 2026-09-07 20:53
 
 ## 記事一覧
 
+- [OpenAI Astraがセキュリティ基準達成とは？AIの安全性基準を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-6c669443.html): OpenAIの最新AIモデルがセキュリティ評価で重要な閾値を初めて超える。 (出典: forkast.news / 更新: 2026-09-07 20:53)
 - [AGI定義問題：OpenAIとGoogleの主張が対立、日本の産業にも波及か](https://mot-ai-media.github.io/mot-ai-news/articles/openai-googledeepmind-7956440b.html): OpenAI幹部がGPT-6発表時に「AGI（汎用人工知能）時代が到来した」と発言。一方、MIT TechReviewは定義の不在を指摘、GoogleDeepMindは段階的フレームワークを提案。業界内で「AGI」の定義が根本的に異なり、議論が白熱している。 (出典: Information Age (ACS) / 更新: 2026-09-07 18:45)
 - [GPT-6 Astraとは？GPT-5.6 Solとの性能比較・公式推奨設定を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf35c7ed.html): 新型AIモデルGPT-6 Astraの低性能設定が、前世代の高性能設定を性能面で上回ると公式が発表。 (出典: itmedia.co.jp / 更新: 2026-09-07 16:49)
 - [OpenAI新モデルAstraとは？量子数学対応の謎のAI](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html): OpenAIが新しい数学解法モデル「Astra」を開発中とのうわさ。詳細は未公開。 (出典: Mashable / 更新: 2026-09-07 16:49)
@@ -206,4 +207,3 @@
 - [Barret Zoph氏がGoogleに入社、Thinking Machines共同創業者の経歴とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-9d531c32.html): Thinking Machines共同創業者で元OpenAI勤務のBarret Zoph氏がGoogleへ移籍。AI人材の流動化が進む。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:00)
 - [OpenAI・Anthropicら100社超が呼びかけ、AI時代のサイバーセキュリティ対策とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9eadc7db.html): 大手AI企業と新興企業が連携し、次世代のサイバー脅威に対抗する新しいセキュリティソリューション提案。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:00)
 - [Anthropic vs トランプ政権、ペンタゴン訴訟で勝訴。サプライチェーン規制が違法判断](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-c6fae4a0.html): 連邦判事がトランプ政権によるAnthropicへのサプライチェーンリスク指定を違法と判断。AI企業の規制強化に風穴 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
-- [Meta幹部がOpenAIに転職、東南アジア・豪州事業を担当](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html): Metaのサンディヤ・デヴァナタン氏がOpenAIに移籍し、東南アジア・豪州地域の事業統括を担当する。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
