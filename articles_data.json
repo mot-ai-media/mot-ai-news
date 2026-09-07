@@ -10619,5 +10619,121 @@
     "social_impact_score": 76,
     "verification_status": "single_source",
     "corroborating_sources": []
+  },
+  {
+    "slug": "openai-microsoft-2f083f99",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+    "headline": "米大手新聞2社がOpenAIとMicrosoftを提訴——「記事を無断学習された」",
+    "seo_title": "Seattle Times・Newsday、OpenAI/Microsoftに著作権侵害で訴訟",
+    "summary": "米国の大手新聞『Seattle Times』と『Newsday』が、OpenAIとMicrosoftを相手取り著作権侵害で提訴。自社の記事がAIの学習データとして無断で使用され、さらにChatGPTが彼らの報道内容をそのまま再現していると主張している。同様の訴訟は複数の報道機関から既に提起されており、AIと報道機関の権利問題が深刻化している。",
+    "importance_score": 72,
+    "buzz_score": 65,
+    "recommend_score": 70,
+    "content_format": "foreign_discovery",
+    "tldr": "米新聞大手がOpenAIとMicrosoftを著作権侵害で提訴。自社記事がAIの学習に無断使用されたと主張。",
+    "what_happened": "『Seattle Times』と『Newsday』は、OpenAIとMicrosoftが著作権を侵害したとして法廷に訴えを起こしました。両社は、自分たちが執筆したニュース記事がChatGPTの学習データとして許可なく使用されたこと、そしてAIが回答の中で自社の報道内容をそのまま引用・再現していることを問題視しています。",
+    "overseas_report": "The Vergeを含む米国メディアが報道。これは著名企業を相手にした複数の著作権訴訟の最新事例であり、新聞業界全体がOpenAIの学習方法に対する異議を強めている状況を示しています。",
+    "why_it_matters": "AIモデルの学習には大量のインターネット上のコンテンツが使用されていますが、その過程で誰のコンテンツが使われたのか、その権利者に対価が支払われるべきかは未整理のままです。この訴訟は、クリエイターの著作権をAI時代にどう守るかという根本的な問題を法廷に持ち込む重要なケースとなります。",
+    "japan_impact": "日本の報道機関も同じリスクに直面しています。日本語のニュース記事も海外のAIの学習に使用されている可能性があり、今後ChatGPTなど生成AIの日本語対応が進めば、国内メディアからの法的異議も高まる見込みです。また日本企業がAI開発時にコンテンツ利用をどう扱うかについても、判例が影響を与える可能性があります。",
+    "outlook": "今後、報道機関以外の著作者（作家、イラストレーター等）からの訴訟も続く見込み。AI企業が学習データの透明化や権利者への対価支払いモデルを構築するまで、訴訟はAI業界の主要な課題として続くと予想されます。",
+    "mot_take": "単なる法的問題ではなく、AIが既存の知的財産をどこまで「利用」でき、その対価をどう配分するかという、デジタル経済の根本的な構造設計を問い直す局面です。",
+    "what_to_watch_next": "米国での判決内容。OpenAIやMicrosoftがどのような防御戦略を取るか、そしてAI企業が学習データの利用について今後どのようなポリシーを示すかが注目点です。",
+    "tags": [
+      "OpenAI",
+      "Microsoft",
+      "著作権",
+      "ChatGPT"
+    ],
+    "faq": [
+      {
+        "q": "なぜ新聞社はOpenAIを訴えているのか？",
+        "a": "自社の記事がChatGPTの学習に無断使用されたうえ、AIが回答時にその記事内容をそのまま再現しているため、著作権侵害だと主張しています。"
+      },
+      {
+        "q": "この訴訟は他のメディアや業界にも影響するか？",
+        "a": "はい。同様の訴訟は既に複数の機関から提起されており、今後作家やイラストレーター等からの訴訟も予想されます。AI企業の学習方法が法的に確立されるまで続く可能性があります。"
+      }
+    ],
+    "digest": {
+      "what": "米国の主要新聞2社がOpenAI・Microsoftを著作権侵害で提訴、自社記事の無断学習を指摘",
+      "why": "AIの学習データ利用と権利配分の問題が未解決のため、報道機関による法的異議が相次いでいる",
+      "impact": "日本のメディア企業にも同じリスク。AI企業の学習ポリシーの透明化と権利者への対価支払いが今後の焦点に"
+    },
+    "source": "The Verge",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2292926705.jpg?quality=90&strip=all&crop=0%2C10.654918655606%2C100%2C78.690162688789&w=1200",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-09-07 10:27",
+    "source_country": "US",
+    "source_tier": 2,
+    "reliability_score": 80,
+    "speed_score": 90,
+    "novelty_score": 35,
+    "japan_relevance_score": 68,
+    "growth_potential_score": 78,
+    "seo_potential_score": 72,
+    "social_impact_score": 75,
+    "verification_status": "single_source",
+    "corroborating_sources": []
+  },
+  {
+    "slug": "ai-dx-03e31a33",
+    "link": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
+    "headline": "AIが企業の「レガシーシステム」を救う。数十年前のシステムが突然、最新技術に生まれ変わる時代が来た",
+    "seo_title": "レガシーシステム現代化 AI活用 企業DX",
+    "summary": "企業の古いシステム刷新が、AIの登場で急速に進むようになった。従来は高コストで危険な作業だった古いシステムの更新が、AIの力で効率化・低リスク化される動きが海外で広がっている。日本企業にも大きな影響を与える可能性がある。",
+    "importance_score": 72,
+    "buzz_score": 58,
+    "recommend_score": 68,
+    "content_format": "foreign_discovery",
+    "tldr": "AIがレガシーシステムの現代化を低コスト・低リスク化し、企業のDX推進が加速。日本企業にも波及の兆し。",
+    "what_happened": "何十年も前に作られたシステムを使い続けている企業は多い。こうした古いシステムを新しいものに置き換える作業は、莫大な費用と時間がかかり、ビジネスが止まるリスクもあるため、多くの企業は避けてきた。ところがAIの進化により、この難しい作業が急速に解決可能になりつつある。",
+    "overseas_report": "MIT Technology Reviewは、AIを活用したレガシーシステム現代化の動きが企業の経営判断を大きく変えていると報道。従来は『失敗するかもしれない高リスク投資』と見なされていたが、今は『デジタル競争力を確保する必須投資』へと認識が転換しつつあると指摘している。",
+    "why_it_matters": "企業のシステムは一度導入されると、そこに蓄積されたデータやノウハウが膨大になり、すぐには置き換えられない。このため多くの大企業は、動作する古いシステムを今も使用している。しかしAIにより、古いコードを新しい形式に自動変換したり、移行作業のリスクを予測したりできるようになったため、企業の意思決定が急速に変わっている。",
+    "japan_impact": "日本の製造業や金融機関は特にレガシーシステムに依存している傾向が強い。今後、AIを活用した現代化サービスへの需要が急増する可能性が高い。海外でこの技術が確立されれば、数年以内に日本企業向けのAI現代化ツールも急速に普及すると考えられ、システム部門の人員配置や予算計画に影響を与える可能性がある。",
+    "outlook": "今後数年、大企業を中心にレガシーシステム現代化への投資が加速すると予想される。AI企業とコンサルティング企業による新サービスの登場や、既存システム企業による対応への圧力が高まっていく。デジタル競争力の格差がここで固定化される可能性も.",
+    "mot_take": "",
+    "what_to_watch_next": "",
+    "tags": [
+      "レガシーシステム",
+      "AI",
+      "DX",
+      "システム現代化"
+    ],
+    "faq": [
+      {
+        "q": "レガシーシステムとは何か",
+        "a": "何十年も前に導入された、今も企業の重要な業務を担っているシステムを指す。銀行のATM、流通業の在庫管理システムなど、止めるわけにいかないが、最新技術で作られていないもの。"
+      },
+      {
+        "q": "なぜこれまで置き換えられなかったか",
+        "a": "置き換え作業には数年と数十億円単位の費用がかかり、ビジネスが停止するリスクや、新システムで問題が起きるリスクが大きかったから。"
+      },
+      {
+        "q": "AIがなぜこれを可能にするのか",
+        "a": "AIは古いプログラムコードを読み込んで、その意味を理解し、新しい形式に自動変換できる。また、移行計画のリスクを事前に予測でき、失敗のリスクを大幅に下げられる。"
+      }
+    ],
+    "digest": {
+      "what": "古いシステムを新しく置き換える作業が、AIにより低コスト・低リスク化。企業の経営判断が急速に変わり始めた。",
+      "why": "AIが古いコードの自動変換と移行リスクの予測を可能にし、従来は『避けるべき高リスク投資』が『競争力確保の必須投資』に転換。",
+      "impact": "日本の大企業でも今後数年でAI現代化ツール導入が加速し、IT部門の体制変化と新規サービス市場の急成長が予想される。"
+    },
+    "source": "MIT Technology Review",
+    "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/08/Asifa-Sherazi-Sanjeev-Tripathi-v2.png?resize=1200,600",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-09-07 10:28",
+    "source_country": "US",
+    "source_tier": 2,
+    "reliability_score": 90,
+    "speed_score": 50,
+    "novelty_score": 62,
+    "japan_relevance_score": 76,
+    "growth_potential_score": 81,
+    "seo_potential_score": 74,
+    "social_impact_score": 65,
+    "verification_status": "single_source",
+    "corroborating_sources": []
   }
 ]

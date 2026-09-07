@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIが企業の「レガシーシステム」を救う。数十年前のシステムが突然、最新技術に生まれ変わる時代が来た</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-03e31a33.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-03e31a33.html</guid>
+    <description>企業の古いシステム刷新が、AIの登場で急速に進むようになった。従来は高コストで危険な作業だった古いシステムの更新が、AIの力で効率化・低リスク化される動きが海外で広がっている。日本企業にも大きな影響を与える可能性がある。</description>
+    <pubDate>Mon, 07 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>米大手新聞2社がOpenAIとMicrosoftを提訴——「記事を無断学習された」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-2f083f99.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-2f083f99.html</guid>
+    <description>米国の大手新聞『Seattle Times』と『Newsday』が、OpenAIとMicrosoftを相手取り著作権侵害で提訴。自社の記事がAIの学習データとして無断で使用され、さらにChatGPTが彼らの報道内容をそのまま再現していると主張している。同様の訴訟は複数の報道機関から既に提起されており、AIと報道機関の権利問題が深刻化している。</description>
+    <pubDate>Mon, 07 Sep 2026 10:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI が星間航行を計画、2029年にアルファ・ケンタウリ探査機打ち上げへ。人類初の恒星系間ミッション</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3db7c003.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3db7c003.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1d164439.html</guid>
     <description>米国の投資家がAI関連株への過度な依存を減らし、防御的な銘柄へのポジション構築を始めた。金利上昇と原油価格の高騰がAI企業の評価基準を厳しくし、投資戦略の見直しが加速している動きが報道されている。</description>
     <pubDate>Sun, 06 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>G20がAI規制で動く、Snowflake決算も好調——各国が足並み揃える時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/g20-ai-225ecc25.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/g20-ai-225ecc25.html</guid>
-    <description>主要20ヶ国（G20）がAIの国際的なルール作りで合意。同時期にクラウドデータ企業Snowflakeが好決算を報告し、企業のAI活用投資が加速している。各国の足並みが揃い始めたことで、AI産業の秩序化と市場の拡大が同時に進む局面に。</description>
-    <pubDate>Sat, 05 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの新型AI「Astra」が企業向けに配信開始——サイバーセキュリティ業界に激震</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-c77b77ac.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-c77b77ac.html</guid>
-    <description>OpenAIが新型AI「Astra」の配信を開始。同社のサイバーセキュリティプログラムに参加する企業が優先的にアクセス可能に。高度なサイバー対応能力を備えるAIの実運用が始まる。</description>
-    <pubDate>Sat, 05 Sep 2026 22:28:00 +0900</pubDate>
   </item>
 </channel></rss>
