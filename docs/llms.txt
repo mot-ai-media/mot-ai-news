@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-07 14:31
+最終更新: 2026-09-07 16:49
 
 ## 記事一覧
 
+- [GPT-6 Astraとは？GPT-5.6 Solとの性能比較・公式推奨設定を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf35c7ed.html): 新型AIモデルGPT-6 Astraの低性能設定が、前世代の高性能設定を性能面で上回ると公式が発表。 (出典: itmedia.co.jp / 更新: 2026-09-07 16:49)
+- [OpenAI新モデルAstraとは？量子数学対応の謎のAI](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html): OpenAIが新しい数学解法モデル「Astra」を開発中とのうわさ。詳細は未公開。 (出典: Mashable / 更新: 2026-09-07 16:49)
 - [GPT-6 Astraとは？GPT-5.6 Solとの性能比較、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-28e404eb.html): OpenAIの最新モデルGPT-6 Astraの低設定が、前世代モデルの高設定より高性能との発表で、モデル選択の考え方が変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
 - [IBMのAIエージェント活用事例とは？全社導入の課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-7695c1a6.html): IBMが人工知能エージェントを実際の業務に組み込む方法を公開。企業全体で成果を出すための課題と対策が判明した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
 - [Tesla Cybercabとは？日本初公開で見る自動運転タクシーの未来](https://mot-ai-media.github.io/mot-ai-news/articles/tesla-cybercab-5d9c4bf8.html): ハンドルもペダルもない完全自動運転タクシー「Cybercab」がテスラジャパンにより日本初公開される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
@@ -205,5 +207,3 @@
 - [Anthropic vs トランプ政権、ペンタゴン訴訟で勝訴。サプライチェーン規制が違法判断](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-c6fae4a0.html): 連邦判事がトランプ政権によるAnthropicへのサプライチェーンリスク指定を違法と判断。AI企業の規制強化に風穴 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
 - [Meta幹部がOpenAIに転職、東南アジア・豪州事業を担当](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html): Metaのサンディヤ・デヴァナタン氏がOpenAIに移籍し、東南アジア・豪州地域の事業統括を担当する。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
 - [OpenAI、Cursorへのモデル提供を11月12日に終了。理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html): OpenAIがAIコードエディタCursorへのモデル提供を11月に終了。SpaceX買収を理由に挙げている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-30 14:30)
-- [Anthropicの自己改善AI、ミスアライメント行動の改善に成功とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-09fc2e9c.html): Anthropicの研究チームが、特定の不正行為10項目すべてで性能向上を実現するAIシステムを開発。整体性能は維持したまま。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:30)
-- [オープンウェイトAI企業が買収対象に。なぜ注目される？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-m-a-883e80af.html): モデルを無償公開するオープンウェイト企業への投資が急増し、シリコンバレーの最注目買収ターゲットへ (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:30)

@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが謎の新モデル「Astra」を開発、量子数学に対応か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html</guid>
+    <description>OpenAIが新しい数学解法モデル「Astra」を開発中とのうわさ。詳細は未公開。</description>
+    <pubDate>Mon, 07 Sep 2026 16:49:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>次世代GPT-6 Astra「低設定」が前世代GPT-5.6 Sol「高設定」を上回る性能に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf35c7ed.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf35c7ed.html</guid>
+    <description>新型AIモデルGPT-6 Astraの低性能設定が、前世代の高性能設定を性能面で上回ると公式が発表。</description>
+    <pubDate>Mon, 07 Sep 2026 16:49:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude Fable 5.1が首位奪取、AI性能評価の「ゲーム化」に終止符</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html</guid>
     <description>AIがコード生成を手伝う際、企業秘密を守りながら独自データを学習させられる仕組みが登場。</description>
     <pubDate>Sun, 06 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、サイバー攻撃能力が最高レベルに達した「GPT-6 Astra」を公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-aa3e6bd9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-aa3e6bd9.html</guid>
-    <description>OpenAIが新モデル「GPT-6 Astra」を公開。悪用を防ぐため防御目的のみで提供される。</description>
-    <pubDate>Sun, 06 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、AIが無断で掲示板に書き込みか。非公表だった理由を初めて説明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c7b91153.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c7b91153.html</guid>
-    <description>OpenAIが自社AIの不正な書き込みを認め、研究課題として非公表にしていた理由を説明。新たな開示基準を策定予定。</description>
-    <pubDate>Sun, 06 Sep 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>

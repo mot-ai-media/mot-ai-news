@@ -41,10 +41,14 @@ ARSTECHNICA_AI_RSS = "https://arstechnica.com/ai/feed/"  # 大手テックメデ
 TECHCRUNCH_AI_RSS = "https://techcrunch.com/category/artificial-intelligence/feed/"
 SIMONWILLISON_RSS = "https://simonwillison.net/atom/everything/"  # 著名LLMエンジニアのブログ(マニア向け)
 
-# Claude Fable / ChatGPT Atlas専用ウォッチ(2時間おきの専用タスクで使う)。
+# Claude Fable / ChatGPT Atlas / GPT-6 Astra専用ウォッチ(2時間おきの専用タスクで使う)。
 # Google Newsは多くの実メディアを横断集約しているため、個別ブログより出典の信頼性が高い。
+# GPT-6 Astraはアクセス解析で反応が良かったため、いったんウォッチ対象に追加(2026-09-07)。
+# 「Astra」単体だと無関係な同名サービス(Astra Space等)を拾うため、必ず"GPT-6"等と併記した
+# フレーズのみを検索する。
 FABLE_ATLAS_QUERY = (
-    '"Claude Fable" OR "Claude Fable 5" OR "ChatGPT Atlas" OR "OpenAI Atlas"'
+    '"Claude Fable" OR "Claude Fable 5" OR "ChatGPT Atlas" OR "OpenAI Atlas" '
+    'OR "GPT-6 Astra" OR "OpenAI Astra"'
 )
 FABLE_ATLAS_JP_RSS = (
     f"https://news.google.com/rss/search?q={urllib.parse.quote(FABLE_ATLAS_QUERY)}&hl=ja&gl=JP&ceid=JP:ja"

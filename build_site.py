@@ -2899,7 +2899,8 @@ def _maybe_send_daily_digest() -> None:
 FABLE_ATLAS_DEDUP_PATH = Path(__file__).parent / "fable_atlas_seen.json"
 FABLE_ATLAS_DEDUP_WINDOW_HOURS = 20  # 同じ話題(例: 「Fable 5.1」)はこの時間内は重複記事化しない
 _FABLE_ATLAS_SIG_RE = re.compile(
-    r"(Claude\s*Fable\s*\d+(?:\.\d+)*|Claude\s*Mythos\s*\d+(?:\.\d+)*|ChatGPT\s*Atlas|OpenAI\s*Atlas)",
+    r"(Claude\s*Fable\s*\d+(?:\.\d+)*|Claude\s*Mythos\s*\d+(?:\.\d+)*|ChatGPT\s*Atlas|OpenAI\s*Atlas"
+    r"|GPT-?6\s*Astra|OpenAI\s*Astra)",
     re.IGNORECASE,
 )
 
