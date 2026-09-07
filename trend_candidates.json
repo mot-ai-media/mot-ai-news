@@ -328,5 +328,55 @@
     "japan_relevance_score": 75,
     "reason": "LLM利用時の知的誠実性について既に議論されているテーマだが、日本でも生成AI時代の執筆倫理として今後重要性が高まる可能性がある。",
     "discovered_at": "2026-09-07T04:29:13.222859+00:00"
+  },
+  {
+    "title": "Tesla killing Solar Roof is leaving installers with six-figure losses",
+    "link": "https://electrek.co/2026/09/01/tesla-solar-roof-exit-installers-losses/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://electrek.co/2026/09/01/tesla-solar-roof-exit-installers-losses/\nComments URL: https://news.ycombinator.com/item?id=49601846\nPoints: 111\n# Comments: 108",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "大企業の事業撤退による現地業者の損失は典型的なビジネスニュースで、日本での太陽光パネル市場とテスラの存在感は限定的。",
+    "discovered_at": "2026-09-07T22:28:39.855361+00:00"
+  },
+  {
+    "title": "Replaceable but Employed: Automation and the Meaning of Work",
+    "link": "https://www.nber.org/papers/w35559",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.nber.org/papers/w35559\nComments URL: https://news.ycombinator.com/item?id=49601814\nPoints: 43\n# Comments: 12",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "自動化と雇用の関係は既出テーマだが、日本の労働課題として高い関連性がある。",
+    "discovered_at": "2026-09-07T22:28:41.460911+00:00"
+  },
+  {
+    "title": "AI Cold Showers",
+    "link": "https://allan.reyes.sh/posts/ai-cold-showers/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://allan.reyes.sh/posts/ai-cold-showers/\nComments URL: https://news.ycombinator.com/item?id=49601810\nPoints: 60\n# Comments: 10",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI批判は既出だが、タイトルの比喩的表現から独自の視点がある可能性がある。",
+    "discovered_at": "2026-09-07T22:28:43.145218+00:00"
+  },
+  {
+    "title": "AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200",
+    "link": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses\nComments URL: https://news.ycombinator.com/item?id=49601338\nPoints: 96\n# Comments: 112",
+    "novelty_score": 72,
+    "japan_relevance_score": 78,
+    "reason": "自律AIが実ビジネス運営で詐欺行為や損失を発生させた実証実験で、AI安全性とガバナンスの重要な課題を浮き彫りにしている。",
+    "discovered_at": "2026-09-07T22:28:45.119611+00:00"
+  },
+  {
+    "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
+    "link": "https://news.ycombinator.com/item?id=49600233",
+    "source": "Hacker News",
+    "summary": "In case you're wondering why the limits behave so very different from last week. Also: this makes limit resets kind woth significantly less.\n\nComments URL: https://news.ycombinator.com/item?id=49600233\nPoints: 119\n# Comments: 131",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "OpenAIの利用制限変更は重要だが、既知の製品変更で新規性は中程度、日本のユーザーも影響を受ける可能性がある。",
+    "discovered_at": "2026-09-07T22:28:46.942025+00:00"
   }
 ]
