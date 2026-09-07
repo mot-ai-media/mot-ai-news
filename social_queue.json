@@ -1337,7 +1337,7 @@
     ],
     "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/c_Rnu4DRj6Djxk1IT0gKu.png",
     "generated_at": "2026-09-02 15:09",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1395,7 +1395,10 @@
         "x_post": "AIのスコアが曖昧な時代。仕事や生活で本当に役立つAIを見極めるには、企業発表より『自分のタスクで実際に試す』が正解。低スコアでも実用的、高スコアでも使えないケースもある。あなたの実感が最強の指標です。",
         "cta": "実務的なAI活用法を\nMOTで詳しく読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18154157188513946",
+    "published_at": "2026-09-08T07:01:46"
   },
   "ai-16c4a600": {
     "headline": "ウクライナの戦場データが「兵器市場化」—ドローン映像の売買がAIを加速させる",
