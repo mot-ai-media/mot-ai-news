@@ -1631,7 +1631,7 @@
     ],
     "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/09/centauri-route2.jpg?resize=1200,600",
     "generated_at": "2026-09-07 07:28",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1689,7 +1689,10 @@
         "x_post": "【実務】複雑な計算・分析・設計をAIに任せる時代が来ました。恒星間航行の設計がAI で瞬時に処理される今、営業分析・顧客データ分析など、あらゆる業務の効率化が可能です。",
         "cta": "AIツール活用で仕事を変える具体的方法、MOTで紹介中"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18087200033655584",
+    "published_at": "2026-09-07T11:01:36"
   },
   "travis-kalanick-atoms-5325508b": {
     "headline": "Uber創業者が仕掛ける「ロボタクシー」、新企業Atomsで実現へ",

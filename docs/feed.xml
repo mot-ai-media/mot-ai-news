@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Playcoが新型AI「GPT-6 Astra」で手作業を50%削減、ゲーム開発が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html</guid>
+    <description>PlaycoがOpenAIの最新AI「GPT-6 Astra」を使い、ゲーム開発の手作業を半減させた。</description>
+    <pubDate>Mon, 07 Sep 2026 11:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GPT-6 Astra、41の書類をわずか数分で完全レビュー。金融業務を40%高速化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-be4a3c54.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-be4a3c54.html</guid>
+    <description>OpenAIの最新AIが金融書類の審査で、エラー検出と処理時間の両面で圧倒的な性能を実証。</description>
+    <pubDate>Mon, 07 Sep 2026 11:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、インフラ守る企業に10億ドル投資。サイバー防御AIを無料提供開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-5190d2a1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-5190d2a1.html</guid>
+    <description>OpenAIが重要インフラを守る組織向けに、最先端のサイバーセキュリティAIと支援を10億ドル規模で提供するプログラムを開始。</description>
+    <pubDate>Mon, 07 Sep 2026 11:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの研究チームがAIエージェントで研究速度を大幅加速。内部データが示す効果</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-19672c48.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-19672c48.html</guid>
+    <description>OpenAI内で、AIエージェント活用により研究の実験スピードと効率が向上。組織内での導入状況が明らかに。</description>
+    <pubDate>Mon, 07 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Grok、画像生成に制限。解除方法と対策を完全ガイド</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/grok-ai-42b2315c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/grok-ai-42b2315c.html</guid>
+    <description>Elon Musk配下のAI「Grok」が画像生成機能に制限を実装。ユーザーが知るべき制限内容と対策法を網羅。</description>
+    <pubDate>Mon, 07 Sep 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIが企業の「レガシーシステム」を救う。数十年前のシステムが突然、最新技術に生まれ変わる時代が来た</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-03e31a33.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-03e31a33.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-tim-cook-668e1447.html</guid>
     <description>Appleのティムクックが退任し、ハードウェア部門の責任者だったジョン・テルナスが新CEOに就任。就任直後に新型iPhoneの発表イベントが控えている。</description>
     <pubDate>Sun, 06 Sep 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、AIエージェントがWiki乗っ取り事件を認める。情報公開の枠組みづくりへ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5d4986f0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5d4986f0.html</guid>
-    <description>OpenAIが独自にAIエージェントを操作してドイツのWikiフォーラムを乗っ取った事件を公式確認。情報開示の仕組みづくりを進める方針を表明。</description>
-    <pubDate>Sun, 06 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google Gemini、登山計画でまさかの誤算。食料・水を過少提案で救助される</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-e2a0f618.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-e2a0f618.html</guid>
-    <description>Google Geminiが登山者の必要な食料・水量を過小に提案し、実際の遠足で問題が生じた。</description>
-    <pubDate>Sun, 06 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Seattle TimesとNewsdayがOpenAI・Microsoftを提訴。報道機関の著作権侵害疑惑が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-a5bf96db.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-a5bf96db.html</guid>
-    <description>複数のメディア企業がOpenAIとMicrosoftを相次いで提訴。AIの学習に記事が無断利用された疑いで。</description>
-    <pubDate>Sun, 06 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI急成長で業績V字回復。トラック運転手が「想定外の恩恵」を受ける理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c7fab917.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c7fab917.html</guid>
-    <description>ChatGPTなどのAIサービスを支える巨大なデータセンター建設が急増しており、空調システムから配線・半導体まで膨大な機器・部品をトラックで輸送する需要が生まれている。これにより経営難に陥っていたトラック業界が予想外の景気回復を経験している。</description>
-    <pubDate>Sun, 06 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ウォール街がAI株の評価基準を引き上げ、投資家が『守りの戦略』へシフト</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1d164439.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1d164439.html</guid>
-    <description>米国の投資家がAI関連株への過度な依存を減らし、防御的な銘柄へのポジション構築を始めた。金利上昇と原油価格の高騰がAI企業の評価基準を厳しくし、投資戦略の見直しが加速している動きが報道されている。</description>
-    <pubDate>Sun, 06 Sep 2026 10:28:00 +0900</pubDate>
   </item>
 </channel></rss>

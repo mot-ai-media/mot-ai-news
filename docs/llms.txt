@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-07 10:28
+最終更新: 2026-09-07 11:02
 
 ## 記事一覧
 
+- [OpenAI Daybreak for Frontline Defenders、重要インフラ保護に10億ドル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-5190d2a1.html): OpenAIが重要インフラを守る組織向けに、最先端のサイバーセキュリティAIと支援を10億ドル規模で提供するプログラムを開始。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
+- [GPT-6 Astra|41文書を数分でレビュー。金融業務への活用事例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-be4a3c54.html): OpenAIの最新AIが金融書類の審査で、エラー検出と処理時間の両面で圧倒的な性能を実証。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
+- [GPT-6 Astraでゲーム開発効率化、Playcoが手作業50%削減を実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html): PlaycoがOpenAIの最新AI「GPT-6 Astra」を使い、ゲーム開発の手作業を半減させた。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
+- [OpenAIがAIエージェントで研究加速。導入効果をデータで公開](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-19672c48.html): OpenAI内で、AIエージェント活用により研究の実験スピードと効率が向上。組織内での導入状況が明らかに。 (出典: OpenAI News / 更新: 2026-09-07 11:01)
+- [Grokの制限とは？画像生成の制限と解除方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/grok-ai-42b2315c.html): Elon Musk配下のAI「Grok」が画像生成機能に制限を実装。ユーザーが知るべき制限内容と対策法を網羅。 (出典: SHIFT AI / 更新: 2026-09-07 11:00)
 - [レガシーシステム現代化 AI活用 企業DX](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-03e31a33.html): 企業の古いシステム刷新が、AIの登場で急速に進むようになった。従来は高コストで危険な作業だった古いシステムの更新が、AIの力で効率化・低リスク化される動きが海外で広がっている。日本企業にも大きな影響を与える可能性がある。 (出典: MIT Technology Review / 更新: 2026-09-07 10:28)
 - [Seattle Times・Newsday、OpenAI/Microsoftに著作権侵害で訴訟](https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-2f083f99.html): 米国の大手新聞『Seattle Times』と『Newsday』が、OpenAIとMicrosoftを相手取り著作権侵害で提訴。自社の記事がAIの学習データとして無断で使用され、さらにChatGPTが彼らの報道内容をそのまま再現していると主張している。同様の訴訟は複数の報道機関から既に提起されており、AIと報道機関の権利問題が深刻化している。 (出典: The Verge / 更新: 2026-09-07 10:27)
 - [AI が設計した宇宙船が最寄りの恒星系へ、2029年打ち上げ予定](https://mot-ai-media.github.io/mot-ai-news/articles/ai-3db7c003.html): 非営利団体フェルミ・エクスプローラー・ミッションが、AI の支援を受けて最も近い恒星系アルファ・ケンタウリへの探査機打ち上げを 2029 年までに実行する計画を発表。往路だけで最大 8 万年かかる壮大なミッションは、AI が宇宙開発の実現性を大きく変える可能性を示している。 (出典: MIT Technology Review / 更新: 2026-09-07 07:28)
@@ -202,8 +207,3 @@
 - [Neocloud Lambdaが10億ドル調達、AI チップ調達の資金力強化](https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html): AI チップ調達競争の激化を象徴。Neocloud Lambda が 10 億ドルの債務で Nvidia チップを買収し Microsoft へリース。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
 - [Google Gemini×BTS コラボ機能とは？解禁方法・4つの体験を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html): GoogleのAI「Gemini」とBTSのコラボ機能が公開。特定のコマンド入力で限定体験にアクセス可能。 (出典: リアルサウンド / 更新: 2026-08-30 03:43)
 - [ソニー・ワーナーがAnthropicを提訴、著作権侵害疑惑を主張](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-a07c3116.html): 音楽大手2社がAI企業Anthropicに対し、著作権侵害による大規模な知的財産盗用を疑う訴訟を提起。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:43)
-- [OpenAI知能スタックとは？チップ・計算・モデル・製品の統合戦略](https://mot-ai-media.github.io/mot-ai-news/articles/openai-sarah-friar-829e237a.html): OpenAI CFOが、チップから製品まで一連の技術進化が相乗効果を生み出し、より規模の大きい知能をより低コストで実現する仕組みを説明。 (出典: OpenAI News / 更新: 2026-08-29 18:36)
-- [OpenAI推論チップJalapeñoとは？速度・効率性・特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-jalape-o-9ad99bb5.html): OpenAIが独自開発した推論チップJalapeñoが、高速性と低消費電力を両立し、業界をリードする性能を示した。 (出典: OpenAI News / 更新: 2026-08-29 18:36)
-- [OpenAI、Cursor買収後の契約終了を発表](https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-092c8de0.html): OpenAIがSpaceXの買収後、AIコードエディタCursorへのモデル提供契約を打ち切ることを決定。 (出典: OpenAI News / 更新: 2026-08-29 18:35)
-- [OpenAI×タイMHESI、AI創業企業アクセラレーター開始とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-0b00c80d.html): OpenAIがタイの高等教育省と協力し、ヘルスケア・ウェルネス・教育分野の10社を対象にした8週間の育成プログラムを開始。AIプロトタイプから信頼できる製品へ。 (出典: OpenAI News / 更新: 2026-08-29 18:35)
-- [loveholidaysがOpenAI Codexを導入、開発を民主化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-d34e82ea.html): 旅行サイトloveholidaysがOpenAI Codexを活用し、全社員が開発に参加できる環境を実現。 (出典: OpenAI News / 更新: 2026-08-29 18:35)
