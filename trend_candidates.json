@@ -308,5 +308,25 @@
     "japan_relevance_score": 72,
     "reason": "OpenAIの内部情報は注目度高いが、公式ブログ記事のため新規性は限定的。日本でも生成AI関心層には影響力あり。",
     "discovered_at": "2026-09-06T19:28:43.723914+00:00"
+  },
+  {
+    "title": "GOP issues stark warning to AI companies",
+    "link": "https://www.axios.com/2026/08/19/gop-data-center-memo-ai-election",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.axios.com/2026/08/19/gop-data-center-memo-ai-election\nComments URL: https://news.ycombinator.com/item?id=49591782\nPoints: 22\n# Comments: 15",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "米国政治とAIの関係性は既出だが、GOP からの具体的警告は注目度が限定的で、HN での反応も低調。",
+    "discovered_at": "2026-09-07T04:29:11.139135+00:00"
+  },
+  {
+    "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+    "link": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/\nComments URL: https://news.ycombinator.com/item?id=49585644\nPoints: 594\n# Comments: 391",
+    "novelty_score": 45,
+    "japan_relevance_score": 75,
+    "reason": "LLM利用時の知的誠実性について既に議論されているテーマだが、日本でも生成AI時代の執筆倫理として今後重要性が高まる可能性がある。",
+    "discovered_at": "2026-09-07T04:29:13.222859+00:00"
   }
 ]
