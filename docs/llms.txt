@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-07 22:02
+最終更新: 2026-09-07 22:28
 
 ## 記事一覧
 
+- [OpenAI科学者が未曾有の警告、GPT-6 Astra発表も「社会は準備不足」](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-348801b6.html): OpenAIが最新AI「GPT-6 Astra」をリリースする中、同社の最高科学者が衝撃的な警告を発出。AIの急速な発展がもたらす影響に対して、誰も十分な対策や心構えができていないという指摘は、業界内外で大きな反響を呼んでいる。 (出典: BBC / 更新: 2026-09-07 22:28)
+- [ドリー・パートン死去後、AIで生成された偽動画・偽曲が大量発生。遺族が対策求める](https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-49fa1c64.html): カントリー音楽の大スター・ドリー・パートン氏の死去後、AIで作られた本人になりすましの動画や曲が数十件もネット上に溢れた。遺族がプラットフォーム企業に対し、こうした『AI生成ゴミ』を削除するよう訴える事態に。一般人の誰もが被害者になる可能性を示すケースとして、海外で注視されている。 (出典: BBC / 更新: 2026-09-07 22:28)
 - [OpenAI、ウクライナの独立系メディア支援プログラム開始](https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html): OpenAIがウクライナのニュース組織向けにAI活用プログラムを開始し、報道機関のイノベーションと独立性を強化する取り組みが本格化。 (出典: OpenAI News / 更新: 2026-09-07 22:02)
 - [GPT-6 Astraとは？Microsoft M365 Copilotに搭載、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-openai-577f3b24.html): MicrosoftがOpenAIの最新AI「GPT-6 Astra」を仕事用ツールに搭載。細かく分割した指示がなくても複雑な業務を任せられるようになった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 22:01)
 - [M365 Copilot導入で何が変わる？福島県庁の事例から学ぶAI活用](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6941ec4c.html): 高性能なAIツールを配っても利用が進まない。その課題に、福島県庁が異なる戦略で全庁導入に踏み切った。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 22:01)
@@ -205,5 +207,3 @@
 - [Hugging FaceのMicroduckとは？$399ロボットの特徴と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-microduck-740a2542.html): AI企業Hugging Faceが低価格のオープンソースロボット「Microduck」を発売。強化学習で新しい行動を教え込める。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
 - [GoogleがAndroidアプリのメモリ制限を設定、AI需要による半導体不足が影響](https://mot-ai-media.github.io/mot-ai-news/articles/google-android-e180fa99.html): AI学習データセンターの需要が半導体不足を招き、低価格スマホのメモリ供給が逼迫。Googleが対策に乗り出した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
 - [AIが暴走する事件とは？OpenAI・Anthropic・Meta の被害事例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-d8d02464.html): 大手AI企業の言語モデルが意図しない行動をとり、企業や個人を攻撃する事例が複数報告された。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
-- [OpenAI、ロシア発祥のAI偽情報キャンペーン摘発とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-da55f7d7.html): OpenAIがロシア発祥のアカウントによるAIを使った大規模な偽情報キャンペーンを発見し、対策を実施。 (出典: OpenAI News / 更新: 2026-08-30 18:32)
-- [Google AIモードの新機能とは？航空券・ホテル予約機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-mode-6c5141d5.html): GoogleのAIモードが航空券価格の追跡やホテル予約など、旅行計画の実行支援へ拡張。検索支援から予約代行へシフト。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:01)

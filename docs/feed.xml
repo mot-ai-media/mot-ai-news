@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>故ドリー・パートンの遺族が警告、偽AI動画が殺到で「デジタル冒涜」の危機</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-49fa1c64.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-49fa1c64.html</guid>
+    <description>カントリー音楽の大スター・ドリー・パートン氏の死去後、AIで作られた本人になりすましの動画や曲が数十件もネット上に溢れた。遺族がプラットフォーム企業に対し、こうした『AI生成ゴミ』を削除するよう訴える事態に。一般人の誰もが被害者になる可能性を示すケースとして、海外で注視されている。</description>
+    <pubDate>Mon, 07 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの最高科学者が警告「誰もAIの結末に備えられていない」—GPT-6 Astra発表時に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-348801b6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-348801b6.html</guid>
+    <description>OpenAIが最新AI「GPT-6 Astra」をリリースする中、同社の最高科学者が衝撃的な警告を発出。AIの急速な発展がもたらす影響に対して、誰も十分な対策や心構えができていないという指摘は、業界内外で大きな反響を呼んでいる。</description>
+    <pubDate>Mon, 07 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIがウクライナのジャーナリズムを支援、AI活用で報道機関の独立性強化へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/freecad-claude-4a39bd0b.html</guid>
     <description>FreeCADがClaudeやChatGPTと連携し、AIが直接3D設計モデルを操作・生成できる新インターフェースが実装される。</description>
     <pubDate>Mon, 07 Sep 2026 07:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>製造業の競争力を左右する「データの断片化」問題、Jabilが示す解決策</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/jabil-ai-97f276df.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/jabil-ai-97f276df.html</guid>
-    <description>グローバル製造大手のJabilが直面する、バラバラなシステムやスプレッドシート管理による非効率性。AIを活かすにはデータの統合が不可欠という課題が、海外メディアで注目されている。</description>
-    <pubDate>Mon, 07 Sep 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>フォーチュン500企業の80%が導入済み、AI「エージェント」の次の課題は企業全体での連携</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-enterprise-ai-f16d17e3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-enterprise-ai-f16d17e3.html</guid>
-    <description>企業向けAI導入が実験段階から本格運用へシフトする中、複数のAIエージェントが社内システムと安全に連携する仕組みづくりが急務になっている。米大手企業の大多数がすでに採用を始めているものの、組織全体での実装スケールアップが次の課題。</description>
-    <pubDate>Mon, 07 Sep 2026 04:28:00 +0900</pubDate>
   </item>
 </channel></rss>
