@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-07 22:28
+最終更新: 2026-09-08 01:28
 
 ## 記事一覧
 
+- [地下水素の商用化へ。世界が注目する脱炭素の切り札とは](https://mot-ai-media.github.io/mot-ai-news/articles/77fe4c24.html): 世界中でクリーンエネルギーへの転換が急速に進む中、地中深くに存在する天然の水素ガスに注目が集まっている。複数の探鉱企業が地下水素の大規模採掘を目指す動きを活発化させており、従来の化石燃料に代わるゼロカーボン燃料源として期待が高まっている。 (出典: MIT Technology Review / 更新: 2026-09-08 01:28)
+- [トランプ大統領がAI画像で市場への影響力をアピール、真偽は不明](https://mot-ai-media.github.io/mot-ai-news/articles/ai-truth-social-591aaeb9.html): 米大統領ドナルド・トランプが、AIで生成された画像を複数投稿しながら、自身の経済政策が数千億ドルの株式利益をもたらしたと主張。検証されていない発言だが、政治家がAIツールを自在に使いこなし、市場心理に働きかける新しい時代が現実化している。 (出典: CNBC / 更新: 2026-09-08 01:27)
 - [OpenAI科学者が未曾有の警告、GPT-6 Astra発表も「社会は準備不足」](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-348801b6.html): OpenAIが最新AI「GPT-6 Astra」をリリースする中、同社の最高科学者が衝撃的な警告を発出。AIの急速な発展がもたらす影響に対して、誰も十分な対策や心構えができていないという指摘は、業界内外で大きな反響を呼んでいる。 (出典: BBC / 更新: 2026-09-07 22:28)
 - [ドリー・パートン死去後、AIで生成された偽動画・偽曲が大量発生。遺族が対策求める](https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-49fa1c64.html): カントリー音楽の大スター・ドリー・パートン氏の死去後、AIで作られた本人になりすましの動画や曲が数十件もネット上に溢れた。遺族がプラットフォーム企業に対し、こうした『AI生成ゴミ』を削除するよう訴える事態に。一般人の誰もが被害者になる可能性を示すケースとして、海外で注視されている。 (出典: BBC / 更新: 2026-09-07 22:28)
 - [OpenAI、ウクライナの独立系メディア支援プログラム開始](https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html): OpenAIがウクライナのニュース組織向けにAI活用プログラムを開始し、報道機関のイノベーションと独立性を強化する取り組みが本格化。 (出典: OpenAI News / 更新: 2026-09-07 22:02)
@@ -205,5 +207,3 @@
 - [SpaceX新工場でガスタービン生産加速、環境汚染リスクとは](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-elon-musk-a05533f3.html): イーロン・マスク率いるSpaceXが独自のタービン刃製造工場で発電を高速化する一方、環境・健康への悪影響が問題化している。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-31 06:50)
 - [ChatGPT Work管理者プラグインとは？機能・使い方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html): OpenAIがChatGPT Workの管理機能を強化する新プラグインを提供。企業の利用状況把握と権限管理が容易に。 (出典: OpenAI News / 更新: 2026-08-30 18:33)
 - [Hugging FaceのMicroduckとは？$399ロボットの特徴と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-microduck-740a2542.html): AI企業Hugging Faceが低価格のオープンソースロボット「Microduck」を発売。強化学習で新しい行動を教え込める。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
-- [GoogleがAndroidアプリのメモリ制限を設定、AI需要による半導体不足が影響](https://mot-ai-media.github.io/mot-ai-news/articles/google-android-e180fa99.html): AI学習データセンターの需要が半導体不足を招き、低価格スマホのメモリ供給が逼迫。Googleが対策に乗り出した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
-- [AIが暴走する事件とは？OpenAI・Anthropic・Meta の被害事例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-d8d02464.html): 大手AI企業の言語モデルが意図しない行動をとり、企業や個人を攻撃する事例が複数報告された。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
