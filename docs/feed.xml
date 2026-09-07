@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIがウクライナのジャーナリズムを支援、AI活用で報道機関の独立性強化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html</guid>
+    <description>OpenAIがウクライナのニュース組織向けにAI活用プログラムを開始し、報道機関のイノベーションと独立性を強化する取り組みが本格化。</description>
+    <pubDate>Mon, 07 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Microsoft 365 Copilot配布しても使われない。福島県庁が選んだ異なる道</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6941ec4c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6941ec4c.html</guid>
+    <description>高性能なAIツールを配っても利用が進まない。その課題に、福島県庁が異なる戦略で全庁導入に踏み切った。</description>
+    <pubDate>Mon, 07 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Microsoft、GPT-6 Astraを仕事用AIに搭載。細かい指示なしで大型業務を一任できる時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-openai-577f3b24.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-openai-577f3b24.html</guid>
+    <description>MicrosoftがOpenAIの最新AI「GPT-6 Astra」を仕事用ツールに搭載。細かく分割した指示がなくても複雑な業務を任せられるようになった。</description>
+    <pubDate>Mon, 07 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>デザイン業の倒産が急増、生成AIだけが原因じゃない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-743cd11a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-743cd11a.html</guid>
+    <description>グラフィックデザイン業の倒産が前年同期比で3倍近く増加。AI以外の構造的な問題も浮き彫りに。</description>
+    <pubDate>Mon, 07 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>東大発スタートアップが国産四足歩行ロボを発表、段差も楽々クリア</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/highlanders-ai-19470b51.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/highlanders-ai-19470b51.html</guid>
+    <description>東大発のHighlandersが国産四足歩行ロボを発表。独自AIを搭載し、段差の昇降など動作能力を実演。</description>
+    <pubDate>Mon, 07 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、サイバーセキュリティの重大基準を初めてクリア。AIモデルの安全性が新段階へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-6c669443.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-6c669443.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-enterprise-ai-f16d17e3.html</guid>
     <description>企業向けAI導入が実験段階から本格運用へシフトする中、複数のAIエージェントが社内システムと安全に連携する仕組みづくりが急務になっている。米大手企業の大多数がすでに採用を始めているものの、組織全体での実装スケールアップが次の課題。</description>
     <pubDate>Mon, 07 Sep 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ウクライナの戦場データが「兵器市場化」—ドローン映像の売買がAIを加速させる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-16c4a600.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-16c4a600.html</guid>
-    <description>ウクライナの戦闘で撮影されたドローン映像やデータが民間企業に売却される「新しい市場」が急速に拡大しており、これがAIの学習データとして活用されている。規制が及ばない状態で取引が進み、AI企業が戦場データを獲得する構図が問題視されている。</description>
-    <pubDate>Mon, 07 Sep 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI時代の「メモリ革命」が始まった。医療から顧客対応まで、リアルタイム処理が激変する</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-f391404a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-f391404a.html</guid>
-    <description>MIT Technology Reviewが報じたところによると、AIの推論（学習後の活用）が本格化する時代に、メモリとストレージの設計が産業全体の鍵になりつつある。医療システムがリアルタイムで大規模データを解析し、カスタマーサービスが数千の複雑な依頼を同時処理するなど、新しいインフラ基盤がこうした革新を支えている。</description>
-    <pubDate>Mon, 07 Sep 2026 01:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple新型Siriは「夏の恋」で終わった――ユーザーが次々と使わなくなる理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-ee69948e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-ee69948e.html</guid>
-    <description>Apple が大幅に刷新したスマートフォンアシスタント「Siri」のベータ版は、当初は期待を集めたものの、実際の利用ユーザーからは「存在を忘れてしまった」という声が上がっている。期待と現実のギャップが、AIアシスタント市場における重要な課題を浮き彫りにしている。</description>
-    <pubDate>Sun, 06 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI企業の新モデル争奪戦が激化——OpenAI、Google、Meta、Anthropicが一週間で次々投入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-bb1be035.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-bb1be035.html</guid>
-    <description>OpenAI、Google、Meta、Anthropicといった主要AI企業が1週間の間に相次いで新しいAIモデルをリリースした。同時にNvidiaはAIプラットフォーム企業Hugging Faceの買収を発表。業界全体が急速なペースで新技術を投入する局面に入っている。</description>
-    <pubDate>Sun, 06 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>IBM、リアルタイムデータ分析を強化。時系列AI モデルがConfluent連携で実装可能に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-confluent-22915ca8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-confluent-22915ca8.html</guid>
-    <description>IBMの時系列予測AIがConfluent上で直接動作し、企業のリアルタイムデータ分析がより手軽に。</description>
-    <pubDate>Sun, 06 Sep 2026 22:02:00 +0900</pubDate>
   </item>
 </channel></rss>
