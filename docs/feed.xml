@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AWSがClaudeの最新版をクラウドで提供開始、Amazon LinuxもOSの新時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-3bf8effa.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-3bf8effa.html</guid>
+    <description>AWSがAIモデル「Claude」の最新バージョンをクラウドサービスで利用可能に。同時に次世代OSのプレビュー版も発表。</description>
+    <pubDate>Tue, 08 Sep 2026 02:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>地下に眠る「ゼロカーボン燃料」、世界中で採掘ラッシュが始まった</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/77fe4c24.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/77fe4c24.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-45020768.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-45020768.html</guid>
     <description>Hugging Faceが3.5億パラメータの軽量モデルを少ない学習で高精度化する手法を発表。</description>
-    <pubDate>Mon, 07 Sep 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Uber創業者が仕掛ける「ロボタクシー」、新企業Atomsで実現へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/travis-kalanick-atoms-5325508b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/travis-kalanick-atoms-5325508b.html</guid>
-    <description>Uber創業者がAtomsでロボタクシー事業に乗り出し、自動運転市場の競争が激化する見通し。</description>
     <pubDate>Mon, 07 Sep 2026 07:01:00 +0900</pubDate>
   </item>
 </channel></rss>

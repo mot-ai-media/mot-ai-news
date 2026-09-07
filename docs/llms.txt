@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-08 01:28
+最終更新: 2026-09-08 02:53
 
 ## 記事一覧
 
+- [AWS Claude 5.1提供開始、Amazon Linux 2027プレビュー公開とは](https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-3bf8effa.html): AWSがAIモデル「Claude」の最新バージョンをクラウドサービスで利用可能に。同時に次世代OSのプレビュー版も発表。 (出典: Amazon Web Services (AWS) / 更新: 2026-09-08 02:53)
 - [地下水素の商用化へ。世界が注目する脱炭素の切り札とは](https://mot-ai-media.github.io/mot-ai-news/articles/77fe4c24.html): 世界中でクリーンエネルギーへの転換が急速に進む中、地中深くに存在する天然の水素ガスに注目が集まっている。複数の探鉱企業が地下水素の大規模採掘を目指す動きを活発化させており、従来の化石燃料に代わるゼロカーボン燃料源として期待が高まっている。 (出典: MIT Technology Review / 更新: 2026-09-08 01:28)
 - [トランプ大統領がAI画像で市場への影響力をアピール、真偽は不明](https://mot-ai-media.github.io/mot-ai-news/articles/ai-truth-social-591aaeb9.html): 米大統領ドナルド・トランプが、AIで生成された画像を複数投稿しながら、自身の経済政策が数千億ドルの株式利益をもたらしたと主張。検証されていない発言だが、政治家がAIツールを自在に使いこなし、市場心理に働きかける新しい時代が現実化している。 (出典: CNBC / 更新: 2026-09-08 01:27)
 - [OpenAI科学者が未曾有の警告、GPT-6 Astra発表も「社会は準備不足」](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-348801b6.html): OpenAIが最新AI「GPT-6 Astra」をリリースする中、同社の最高科学者が衝撃的な警告を発出。AIの急速な発展がもたらす影響に対して、誰も十分な対策や心構えができていないという指摘は、業界内外で大きな反響を呼んでいる。 (出典: BBC / 更新: 2026-09-07 22:28)
@@ -206,4 +207,3 @@
 - [AIエージェントのコスト削減効果とは？導入前に知るべき試算方法](https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa079a3.html): AIエージェント導入のコスト削減は、ツールの性能より対象業務の選択で9割決まる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-08-31 06:50)
 - [SpaceX新工場でガスタービン生産加速、環境汚染リスクとは](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-elon-musk-a05533f3.html): イーロン・マスク率いるSpaceXが独自のタービン刃製造工場で発電を高速化する一方、環境・健康への悪影響が問題化している。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-31 06:50)
 - [ChatGPT Work管理者プラグインとは？機能・使い方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-cfc376ad.html): OpenAIがChatGPT Workの管理機能を強化する新プラグインを提供。企業の利用状況把握と権限管理が容易に。 (出典: OpenAI News / 更新: 2026-08-30 18:33)
-- [Hugging FaceのMicroduckとは？$399ロボットの特徴と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-microduck-740a2542.html): AI企業Hugging Faceが低価格のオープンソースロボット「Microduck」を発売。強化学習で新しい行動を教え込める。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:32)
