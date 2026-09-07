@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが「AGI時代の到来」を宣言、専門家から猛反発。結局、人工知能はどこまで来たのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-googledeepmind-7956440b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-googledeepmind-7956440b.html</guid>
+    <description>OpenAI幹部がGPT-6発表時に「AGI（汎用人工知能）時代が到来した」と発言。一方、MIT TechReviewは定義の不在を指摘、GoogleDeepMindは段階的フレームワークを提案。業界内で「AGI」の定義が根本的に異なり、議論が白熱している。</description>
+    <pubDate>Mon, 07 Sep 2026 18:45:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIが謎の新モデル「Astra」を開発、量子数学に対応か</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-b844bdee.html</guid>
     <description>プログラミング用のAIモデルを訓練し直すことで、水彩画を描かせる実験が成功。AIの応用範囲の広さが明らかに。</description>
     <pubDate>Sun, 06 Sep 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIコーディング支援ツール、自分だけのメモリ機能で大幅進化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html</guid>
-    <description>AIがコード生成を手伝う際、企業秘密を守りながら独自データを学習させられる仕組みが登場。</description>
-    <pubDate>Sun, 06 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

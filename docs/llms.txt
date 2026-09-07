@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-07 16:49
+最終更新: 2026-09-07 18:45
 
 ## 記事一覧
 
+- [AGI定義問題：OpenAIとGoogleの主張が対立、日本の産業にも波及か](https://mot-ai-media.github.io/mot-ai-news/articles/openai-googledeepmind-7956440b.html): OpenAI幹部がGPT-6発表時に「AGI（汎用人工知能）時代が到来した」と発言。一方、MIT TechReviewは定義の不在を指摘、GoogleDeepMindは段階的フレームワークを提案。業界内で「AGI」の定義が根本的に異なり、議論が白熱している。 (出典: Information Age (ACS) / 更新: 2026-09-07 18:45)
 - [GPT-6 Astraとは？GPT-5.6 Solとの性能比較・公式推奨設定を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf35c7ed.html): 新型AIモデルGPT-6 Astraの低性能設定が、前世代の高性能設定を性能面で上回ると公式が発表。 (出典: itmedia.co.jp / 更新: 2026-09-07 16:49)
 - [OpenAI新モデルAstraとは？量子数学対応の謎のAI](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html): OpenAIが新しい数学解法モデル「Astra」を開発中とのうわさ。詳細は未公開。 (出典: Mashable / 更新: 2026-09-07 16:49)
 - [GPT-6 Astraとは？GPT-5.6 Solとの性能比較、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-28e404eb.html): OpenAIの最新モデルGPT-6 Astraの低設定が、前世代モデルの高設定より高性能との発表で、モデル選択の考え方が変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
@@ -206,4 +207,3 @@
 - [OpenAI・Anthropicら100社超が呼びかけ、AI時代のサイバーセキュリティ対策とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9eadc7db.html): 大手AI企業と新興企業が連携し、次世代のサイバー脅威に対抗する新しいセキュリティソリューション提案。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 18:00)
 - [Anthropic vs トランプ政権、ペンタゴン訴訟で勝訴。サプライチェーン規制が違法判断](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-c6fae4a0.html): 連邦判事がトランプ政権によるAnthropicへのサプライチェーンリスク指定を違法と判断。AI企業の規制強化に風穴 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
 - [Meta幹部がOpenAIに転職、東南アジア・豪州事業を担当](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-f3970ce5.html): Metaのサンディヤ・デヴァナタン氏がOpenAIに移籍し、東南アジア・豪州地域の事業統括を担当する。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:31)
-- [OpenAI、Cursorへのモデル提供を11月12日に終了。理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html): OpenAIがAIコードエディタCursorへのモデル提供を11月に終了。SpaceX買収を理由に挙げている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-30 14:30)
