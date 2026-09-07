@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-07 11:02
+最終更新: 2026-09-07 14:31
 
 ## 記事一覧
 
+- [GPT-6 Astraとは？GPT-5.6 Solとの性能比較、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-28e404eb.html): OpenAIの最新モデルGPT-6 Astraの低設定が、前世代モデルの高設定より高性能との発表で、モデル選択の考え方が変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
+- [IBMのAIエージェント活用事例とは？全社導入の課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-7695c1a6.html): IBMが人工知能エージェントを実際の業務に組み込む方法を公開。企業全体で成果を出すための課題と対策が判明した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
+- [Tesla Cybercabとは？日本初公開で見る自動運転タクシーの未来](https://mot-ai-media.github.io/mot-ai-news/articles/tesla-cybercab-5d9c4bf8.html): ハンドルもペダルもない完全自動運転タクシー「Cybercab」がテスラジャパンにより日本初公開される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
+- [AI性能ランキング更新、Claude Fable 5.1が首位に―ゲーム化対策とは](https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html): AIベンチマーク評価が刷新され、実務的な測定方法で信頼性向上。ランキング順位も大きく変わった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
+- [日立のフィジカルAI新サービスとは？チーム型アプローチの狙い](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-362b9aae.html): 日立が現場向けAIの新サービスを発表。1人の専門家に頼らないチーム型実装が特徴。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:30)
 - [OpenAI Daybreak for Frontline Defenders、重要インフラ保護に10億ドル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-5190d2a1.html): OpenAIが重要インフラを守る組織向けに、最先端のサイバーセキュリティAIと支援を10億ドル規模で提供するプログラムを開始。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
 - [GPT-6 Astra|41文書を数分でレビュー。金融業務への活用事例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-be4a3c54.html): OpenAIの最新AIが金融書類の審査で、エラー検出と処理時間の両面で圧倒的な性能を実証。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
 - [GPT-6 Astraでゲーム開発効率化、Playcoが手作業50%削減を実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html): PlaycoがOpenAIの最新AI「GPT-6 Astra」を使い、ゲーム開発の手作業を半減させた。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
@@ -202,8 +207,3 @@
 - [OpenAI、Cursorへのモデル提供を11月12日に終了。理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-cursor-9b11a06f.html): OpenAIがAIコードエディタCursorへのモデル提供を11月に終了。SpaceX買収を理由に挙げている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-30 14:30)
 - [Anthropicの自己改善AI、ミスアライメント行動の改善に成功とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-09fc2e9c.html): Anthropicの研究チームが、特定の不正行為10項目すべてで性能向上を実現するAIシステムを開発。整体性能は維持したまま。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:30)
 - [オープンウェイトAI企業が買収対象に。なぜ注目される？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-m-a-883e80af.html): モデルを無償公開するオープンウェイト企業への投資が急増し、シリコンバレーの最注目買収ターゲットへ (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 14:30)
-- [AIと医療の融合、オープンデータが鍵に。a16z出身者が語る医学の未来](https://mot-ai-media.github.io/mot-ai-news/articles/a16z-ai-160a511d.html): 40億ドル規模のバイオテック投資を率いたVijay Pandeが、医学がエンジニアリング化する中でAIが本当に機能するには、閉鎖的データではなくオープンな共有データセットが必須と主張。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
-- [Nvidiaのデータセンター戦略が転換、GPU性能よりネットワーク制御が重視される理由](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-dcb10e4d.html): Nvidiaの優位性がGPUの処理能力からネットワーク効率へシフト。次世代システムは賢いトラフィック制御で全体効率を向上させる設計へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
-- [Neocloud Lambdaが10億ドル調達、AI チップ調達の資金力強化](https://mot-ai-media.github.io/mot-ai-news/articles/neocloud-lambda-nvidia-d63f08af.html): AI チップ調達競争の激化を象徴。Neocloud Lambda が 10 億ドルの債務で Nvidia チップを買収し Microsoft へリース。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:44)
-- [Google Gemini×BTS コラボ機能とは？解禁方法・4つの体験を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html): GoogleのAI「Gemini」とBTSのコラボ機能が公開。特定のコマンド入力で限定体験にアクセス可能。 (出典: リアルサウンド / 更新: 2026-08-30 03:43)
-- [ソニー・ワーナーがAnthropicを提訴、著作権侵害疑惑を主張](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-a07c3116.html): 音楽大手2社がAI企業Anthropicに対し、著作権侵害による大規模な知的財産盗用を疑う訴訟を提起。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-08-30 03:43)

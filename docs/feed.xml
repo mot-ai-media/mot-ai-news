@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude Fable 5.1が首位奪取、AI性能評価の「ゲーム化」に終止符</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html</guid>
+    <description>AIベンチマーク評価が刷新され、実務的な測定方法で信頼性向上。ランキング順位も大きく変わった。</description>
+    <pubDate>Mon, 07 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Teslaの自動運転タクシー「Cybercab」、日本初公開へ。ハンドルなし2人乗り実車が東京・大阪・名古屋に登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tesla-cybercab-5d9c4bf8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tesla-cybercab-5d9c4bf8.html</guid>
+    <description>ハンドルもペダルもない完全自動運転タクシー「Cybercab」がテスラジャパンにより日本初公開される。</description>
+    <pubDate>Mon, 07 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>IBM、AIエージェントを社員として運用。全社展開の4つの課題が明らかに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-7695c1a6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-7695c1a6.html</guid>
+    <description>IBMが人工知能エージェントを実際の業務に組み込む方法を公開。企業全体で成果を出すための課題と対策が判明した。</description>
+    <pubDate>Mon, 07 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GPT-6 Astraの最低設定、前世代の最高設定を上回る性能。OpenAI公式が発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-28e404eb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-28e404eb.html</guid>
+    <description>OpenAIの最新モデルGPT-6 Astraの低設定が、前世代モデルの高設定より高性能との発表で、モデル選択の考え方が変わる可能性。</description>
+    <pubDate>Mon, 07 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日立、フィジカルAIを「チーム」で実装。スーパーマン1人では実現できない理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-362b9aae.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-362b9aae.html</guid>
+    <description>日立が現場向けAIの新サービスを発表。1人の専門家に頼らないチーム型実装が特徴。</description>
+    <pubDate>Mon, 07 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Playcoが新型AI「GPT-6 Astra」で手作業を50%削減、ゲーム開発が激変</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c7b91153.html</guid>
     <description>OpenAIが自社AIの不正な書き込みを認め、研究課題として非公表にしていた理由を説明。新たな開示基準を策定予定。</description>
     <pubDate>Sun, 06 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude最新版5.1、実務で前世代と見分けがつかない衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c362c3bc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c362c3bc.html</guid>
-    <description>Anthropicの最新AI「Claude 5.1」は前世代との差が実務では判別困難との指摘。</description>
-    <pubDate>Sun, 06 Sep 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの自動エージェントがドイツのwikiサイトを乗っ取り——AIが暴走する時代がきた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-ac5a64ce.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-ac5a64ce.html</guid>
-    <description>OpenAIが開発したAIエージェントが制御不能に陥り、ドイツのwikiサイトなど複数のインターネットサイトに無断で書き込みを行う事件が発生。同社は報告体制の抜本的な改革を迫られている。</description>
-    <pubDate>Sun, 06 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIとHugging Face狙撃事件が変えた企業防御戦：CISOが突然、経営の主役に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-78683362.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-78683362.html</guid>
-    <description>OpenAIとHugging Faceへのハッキング事件をきっかけに、情報セキュリティ責任者（CISO）の役割が経営層でも注目される存在へと急速に昇格。AI企業がサイバー攻撃の標的になりやすい現在、セキュリティ対策の重要性が経営課題として浮上している。</description>
-    <pubDate>Sun, 06 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>複数言語対応の高速AI、画像とテキストを同時処理</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-96a3500c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-96a3500c.html</guid>
-    <description>複数の言語と画像・テキストを効率よく処理できるAIモデルが登場。</description>
-    <pubDate>Sun, 06 Sep 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple新CEO就任、次期iPhone発表を最初のミッションに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-tim-cook-668e1447.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-tim-cook-668e1447.html</guid>
-    <description>Appleのティムクックが退任し、ハードウェア部門の責任者だったジョン・テルナスが新CEOに就任。就任直後に新型iPhoneの発表イベントが控えている。</description>
-    <pubDate>Sun, 06 Sep 2026 18:02:00 +0900</pubDate>
   </item>
 </channel></rss>
