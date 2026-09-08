@@ -230,7 +230,7 @@ def generate_foreign_discovery_article(
 
     message = client.messages.create(
         model=MODEL,
-        max_tokens=1800,
+        max_tokens=2400,
         messages=[{"role": "user", "content": prompt}],
     )
     text = message.content[0].text.strip()

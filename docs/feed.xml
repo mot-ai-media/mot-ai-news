@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIが「まだ発見されていない科学的真実」を予測する時代へ。ソニーAIが実証、がん研究で新知見も</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sony-ai-hakken-d6a8aa14.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sony-ai-hakken-d6a8aa14.html</guid>
+    <description>ソニーAIが開発した『Hakken』は、過去の科学論文から抽出した知識をAIで分析し、まだ誰も発見していない科学概念間の新しい関係性を予測するシステム。生物医学分野での実験では、予測した仮説の一部がラボでの実検証で確認され、がん関連遺伝子の新しい相互作用も明らかになった。</description>
+    <pubDate>Wed, 09 Sep 2026 04:32:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Qualcommが40億ドル規模でAmazonと提携、GPU市場でNvidiasに挑戦状</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-amazon-f84ee115.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-amazon-f84ee115.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html</guid>
     <description>AIベンチマーク評価が刷新され、実務的な測定方法で信頼性向上。ランキング順位も大きく変わった。</description>
-    <pubDate>Mon, 07 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Teslaの自動運転タクシー「Cybercab」、日本初公開へ。ハンドルなし2人乗り実車が東京・大阪・名古屋に登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tesla-cybercab-5d9c4bf8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tesla-cybercab-5d9c4bf8.html</guid>
-    <description>ハンドルもペダルもない完全自動運転タクシー「Cybercab」がテスラジャパンにより日本初公開される。</description>
     <pubDate>Mon, 07 Sep 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>
