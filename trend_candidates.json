@@ -428,5 +428,55 @@
     "japan_relevance_score": 62,
     "reason": "大型IPO前の財務情報流出は注目だが、AIスタートアップの赤字は既知の話題で新規性は限定的。",
     "discovered_at": "2026-09-08T01:28:49.578855+00:00"
+  },
+  {
+    "title": "Show HN: LLM Attention Visualization",
+    "link": "https://ishamf.dev/p/llm-attention-visualizer/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://ishamf.dev/p/llm-attention-visualizer/\nComments URL: https://news.ycombinator.com/item?id=49613068\nPoints: 53\n# Comments: 12",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "LLM注意機構の可視化は既に複数の実装が存在し、新規性は低いがAI理解の教育ツールとしては日本でも関心を持つ層がいる。",
+    "discovered_at": "2026-09-08T19:28:47.544883+00:00"
+  },
+  {
+    "title": "Connecting the Machines",
+    "link": "https://herdr.dev/blog/connecting-the-machines/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://herdr.dev/blog/connecting-the-machines/\nComments URL: https://news.ycombinator.com/item?id=49612818\nPoints: 45\n# Comments: 16",
+    "novelty_score": 35,
+    "japan_relevance_score": 40,
+    "reason": "機械間通信の一般的なトピックで新規性は限定的だが、技術実装の工夫があれば有用性はある。",
+    "discovered_at": "2026-09-08T19:28:49.194511+00:00"
+  },
+  {
+    "title": "Has OpenAI model solved 80-year-old Navier-Stokes problem?",
+    "link": "https://www.firstpost.com/tech/has-openai-model-solved-80-year-old-navier-stokes-problem-mathematician-raises-questions-14044080.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.firstpost.com/tech/has-openai-model-solved-80-year-old-navier-stokes-problem-mathematician-raises-questions-14044080.html\nComments URL: https://news.ycombinator.com/item?id=49611362\nPoints: 20\n# Comments: 3",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "OpenAIの数学的成果は注目だが、記事の信憑性に疑問の声があり、コミュニティ規模も小さい。",
+    "discovered_at": "2026-09-08T19:28:50.955130+00:00"
+  },
+  {
+    "title": "LibreOffice breaks download records after declaring it has no AI features",
+    "link": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://manualdousuario.net/en/libreoffice-download-record-no-ai/\nComments URL: https://news.ycombinator.com/item?id=49610538\nPoints: 611\n# Comments: 208",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AI機能なしを売りにダウンロード数が増加という現象は新しいが、オフィスソフト選択の話題は日本でも関心が高い。",
+    "discovered_at": "2026-09-08T19:28:52.816488+00:00"
+  },
+  {
+    "title": "AI Giants Work Hand-in-Hand with The Pentagon, Contracts Reveal",
+    "link": "https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/\nComments URL: https://news.ycombinator.com/item?id=49610528\nPoints: 26\n# Comments: 5",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI企業と軍事契約の関係は既知だが、具体的契約内容の暴露は新しく、日本の防衛政策にも影響を与える可能性がある。",
+    "discovered_at": "2026-09-08T19:28:54.715136+00:00"
   }
 ]
