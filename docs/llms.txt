@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-08 10:53
+最終更新: 2026-09-08 11:01
 
 ## 記事一覧
 
+- [製造業向けAI図面ソリューションとは？Polaris.AIの新サービス解説](https://mot-ai-media.github.io/mot-ai-news/articles/polaris-ai-ai-583bec7a.html): 自動車・重工業の図面作業をAIが支援。探す・読む・確かめるが一度に効率化。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:01)
+- [Meta Muse Spark 1.3とは？推論強化で対話削減](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-32e42d28.html): Metaが発表した新型AIモデルは推論精度を高め、開発時の質問回数を削減。料金体系も2種類から選べる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:01)
+- [AI創薬候補レントセルチブとは？老化時計で生物学的年齢低下を確認](https://mot-ai-media.github.io/mot-ai-news/articles/insilico-medicine-ai-3083cfb3.html): 生成AIで設計された肺線維症治療薬が、患者の生物学的年齢を最大6歳低下させたデータが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:01)
+- [GPT-6 Astraとは？OpenAIの新AIがロボット判定ゲームをクリア](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-f526a999.html): OpenAIの新型AIが人間判定ゲームを全レベルクリア。AIの知能進化を示す成果として注目。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:00)
+- [ChatGPT有料ユーザーがリセット、Astraの利用枠制限はどうなる？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-059bc475.html): ChatGPTの最新モデル「GPT-6 Astra」で利用枠を消費したユーザーに、OpenAIが平日継続利用を可能にする措置を実施。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:00)
 - [JTPのThird AI生成AIソリューションがGPT-6 Astraに対応](https://mot-ai-media.github.io/mot-ai-news/articles/jtp-third-ai-da3eddc4.html): JTPが企業向けのAIソリューションを最新モデルに対応させ、より高度なAI機能の導入が可能に。 (出典: kabu-ir.com / 更新: 2026-09-08 10:53)
 - [OpenAI GPT-6 Astraとは？新モデルの特徴と影響](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html): OpenAIが新型AIモデル「GPT-6 Astra」を発表。次世代AIの機能拡張が進む。 (出典: Healthcare IT News / 更新: 2026-09-08 10:53)
 - [AI用語とは？ChatGPT以降の最新キーワード・言葉を初心者向けに解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bbd44de7.html): AI業界に次々生まれる新しい用語。初心者が押さえるべき基本キーワードをまとめた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-08 07:01)
@@ -202,8 +207,3 @@
 - [Claude Academyとは？Anthropicの日本語AI学習サイト、無料で何が学べるか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-decd347b.html): Anthropicが安全で効果的なAI活用を学べる日本語学習サイトを無料公開。357のコンテンツが利用可能。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:01)
 - [AIの利用拡大で何が変わる？労働市場への影響を企業データから解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-276e8231.html): ChatGPT以降のAI導入で、実際に職場と仕事の中身がどう変わっているかが見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:01)
 - [大企業のAI導入課題とは？サイボウズの事例から学ぶ対応策](https://mot-ai-media.github.io/mot-ai-news/articles/kintone-ai-b2d36076.html): 業務管理ツール「kintone」の顧客動向から、大企業がAI時代に直面する課題と解決方法が見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:00)
-- [Claude Codeの利用制限が変更。9月14日から何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-4a02b109.html): AIコーディング支援「Claude Code」の週間上限が引き上げられるが、期間限定措置の終了で実質減少に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 22:00)
-- [上司がAIを使う理由とは？部下面談の準備でマネジャーが頼る実態](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-8c6ee3cd.html): 米国の調査で、多くのマネジャーが部下との面談準備にAIツールを活用している実態が判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 18:01)
-- [AIがコードを書く時代、開発者の仕事はどう変わる？ゲイツが語る未来](https://mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html): AIがコード作成を自動化する一方で、開発者の役割そのものが再定義されると指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 18:01)
-- [ChatGPT Business/Enterprise、GitHubプラグイン同期対応](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4233e9cf.html): ChatGPTのビジネスプランがGitHubのプラグインと連携し、管理が一元化される新展開。 (出典: gihyo.jp / 更新: 2026-08-31 18:00)
-- [AnthropicのClaudeがAI安全性研究を自律実行。性能維持で課題解決](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b3f581b.html): AnthropicがAIに安全性研究を任せる実験で、嘘や迎合など問題行動を性能低下なく改善できた。人間研究者を上回る成果が判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 18:00)

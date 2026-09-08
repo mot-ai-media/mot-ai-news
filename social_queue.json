@@ -1485,7 +1485,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/David-and-Kids-Fambot.png?resize=1200,801",
     "generated_at": "2026-09-02 15:09",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1543,7 +1543,10 @@
         "x_post": "月10時間分の育児事務（メール管理・スケジュール調整・学校連絡）がAIで自動化される。見落とし防止と時間短縮が同時に実現。親の実務的負荷が、この1ツールで大きく軽減される。",
         "cta": "Fambotで自動化できる具体的な\n育児業務と導入の実効性を解説"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17887894743458604",
+    "published_at": "2026-09-08T11:01:38"
   },
   "communicationboard-ai-ai-b4ef8e10": {
     "headline": "声を失った患者が夢中に。AIメガネで「話せる」を取り戻す仕組み",

@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI創薬、患者の「生物学的年齢」を最大6歳若返らせたデータ発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/insilico-medicine-ai-3083cfb3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/insilico-medicine-ai-3083cfb3.html</guid>
+    <description>生成AIで設計された肺線維症治療薬が、患者の生物学的年齢を最大6歳低下させたデータが判明。</description>
+    <pubDate>Tue, 08 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta「Muse Spark 1.3」、AIとの対話が劇的に短縮</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-32e42d28.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-32e42d28.html</guid>
+    <description>Metaが発表した新型AIモデルは推論精度を高め、開発時の質問回数を削減。料金体系も2種類から選べる。</description>
+    <pubDate>Tue, 08 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>製造業の図面業務、AIで劇的効率化。Polaris.AIが検索・読図・検図を自動化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/polaris-ai-ai-583bec7a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/polaris-ai-ai-583bec7a.html</guid>
+    <description>自動車・重工業の図面作業をAIが支援。探す・読む・確かめるが一度に効率化。</description>
+    <pubDate>Tue, 08 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT有料プランがリセット　最新「Astra」使い切った人に救済措置</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-059bc475.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-059bc475.html</guid>
+    <description>ChatGPTの最新モデル「GPT-6 Astra」で利用枠を消費したユーザーに、OpenAIが平日継続利用を可能にする措置を実施。</description>
+    <pubDate>Tue, 08 Sep 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの最新AI「GPT-6 Astra」、ロボット判定ゲーム完全制覇。AIの進化が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-f526a999.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-f526a999.html</guid>
+    <description>OpenAIの新型AIが人間判定ゲームを全レベルクリア。AIの知能進化を示す成果として注目。</description>
+    <pubDate>Tue, 08 Sep 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、GPT-6 Astraモデルを発表</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-28e404eb.html</guid>
     <description>OpenAIの最新モデルGPT-6 Astraの低設定が、前世代モデルの高設定より高性能との発表で、モデル選択の考え方が変わる可能性。</description>
     <pubDate>Mon, 07 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日立、フィジカルAIを「チーム」で実装。スーパーマン1人では実現できない理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-362b9aae.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-362b9aae.html</guid>
-    <description>日立が現場向けAIの新サービスを発表。1人の専門家に頼らないチーム型実装が特徴。</description>
-    <pubDate>Mon, 07 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Playcoが新型AI「GPT-6 Astra」で手作業を50%削減、ゲーム開発が激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html</guid>
-    <description>PlaycoがOpenAIの最新AI「GPT-6 Astra」を使い、ゲーム開発の手作業を半減させた。</description>
-    <pubDate>Mon, 07 Sep 2026 11:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astra、41の書類をわずか数分で完全レビュー。金融業務を40%高速化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-be4a3c54.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-be4a3c54.html</guid>
-    <description>OpenAIの最新AIが金融書類の審査で、エラー検出と処理時間の両面で圧倒的な性能を実証。</description>
-    <pubDate>Mon, 07 Sep 2026 11:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、インフラ守る企業に10億ドル投資。サイバー防御AIを無料提供開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-5190d2a1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-5190d2a1.html</guid>
-    <description>OpenAIが重要インフラを守る組織向けに、最先端のサイバーセキュリティAIと支援を10億ドル規模で提供するプログラムを開始。</description>
-    <pubDate>Mon, 07 Sep 2026 11:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの研究チームがAIエージェントで研究速度を大幅加速。内部データが示す効果</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-19672c48.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-19672c48.html</guid>
-    <description>OpenAI内で、AIエージェント活用により研究の実験スピードと効率が向上。組織内での導入状況が明らかに。</description>
-    <pubDate>Mon, 07 Sep 2026 11:01:00 +0900</pubDate>
   </item>
 </channel></rss>
