@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-08 07:01
+最終更新: 2026-09-08 10:53
 
 ## 記事一覧
 
+- [JTPのThird AI生成AIソリューションがGPT-6 Astraに対応](https://mot-ai-media.github.io/mot-ai-news/articles/jtp-third-ai-da3eddc4.html): JTPが企業向けのAIソリューションを最新モデルに対応させ、より高度なAI機能の導入が可能に。 (出典: kabu-ir.com / 更新: 2026-09-08 10:53)
+- [OpenAI GPT-6 Astraとは？新モデルの特徴と影響](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html): OpenAIが新型AIモデル「GPT-6 Astra」を発表。次世代AIの機能拡張が進む。 (出典: Healthcare IT News / 更新: 2026-09-08 10:53)
 - [AI用語とは？ChatGPT以降の最新キーワード・言葉を初心者向けに解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bbd44de7.html): AI業界に次々生まれる新しい用語。初心者が押さえるべき基本キーワードをまとめた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-08 07:01)
 - [GPT-6 Astraとは？OpenAI新モデルの性能・できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-0f3b76bc.html): OpenAIが新世代AI「GPT-6 Astra」を発表。PC操作やコード生成、セキュリティ対応で大幅に進化。 (出典: OpenAI News / 更新: 2026-09-08 07:01)
 - [GPT-6 Astroとは？OpenAIの新モデルがセキュリティで新段階へ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-2e155b11.html): OpenAIが次世代モデルGPT-6 Astraを発表。企業利用に不可欠なセキュリティ対策が大幅強化。 (出典: OpenAI News / 更新: 2026-09-08 07:01)
@@ -205,5 +207,3 @@
 - [AIがコードを書く時代、開発者の仕事はどう変わる？ゲイツが語る未来](https://mot-ai-media.github.io/mot-ai-news/articles/ai-1c18f27c.html): AIがコード作成を自動化する一方で、開発者の役割そのものが再定義されると指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 18:01)
 - [ChatGPT Business/Enterprise、GitHubプラグイン同期対応](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4233e9cf.html): ChatGPTのビジネスプランがGitHubのプラグインと連携し、管理が一元化される新展開。 (出典: gihyo.jp / 更新: 2026-08-31 18:00)
 - [AnthropicのClaudeがAI安全性研究を自律実行。性能維持で課題解決](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b3f581b.html): AnthropicがAIに安全性研究を任せる実験で、嘘や迎合など問題行動を性能低下なく改善できた。人間研究者を上回る成果が判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 18:00)
-- [システム導入後もExcelが残る理由は？給与計算調査から見えた実態](https://mot-ai-media.github.io/mot-ai-news/articles/dx-919f5496.html): 新しいシステムを入れてもExcelでの手作業がなくならない。その背景にある課題を調査で明かす。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-08-31 18:00)
-- [生成AIで仕事が奪われる？作り手の権利を守る対策とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-80c677b5.html): 生成AIが普及する中、クリエイターや労働者の権利保護が課題に。対策が求められている。 (出典: 連合（日本労働組合総連合会） / 更新: 2026-08-31 06:50)

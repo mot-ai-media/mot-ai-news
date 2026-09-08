@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、GPT-6 Astraモデルを発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html</guid>
+    <description>OpenAIが新型AIモデル「GPT-6 Astra」を発表。次世代AIの機能拡張が進む。</description>
+    <pubDate>Tue, 08 Sep 2026 10:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>JTP、最新AI「GPT-6 Astra」対応を発表。企業向けAI活用が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/jtp-third-ai-da3eddc4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/jtp-third-ai-da3eddc4.html</guid>
+    <description>JTPが企業向けのAIソリューションを最新モデルに対応させ、より高度なAI機能の導入が可能に。</description>
+    <pubDate>Tue, 08 Sep 2026 10:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの最新モデル「GPT-6 Astra」、最高レベルのサイバーセキュリティ能力を獲得</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-2e155b11.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-2e155b11.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-19672c48.html</guid>
     <description>OpenAI内で、AIエージェント活用により研究の実験スピードと効率が向上。組織内での導入状況が明らかに。</description>
     <pubDate>Mon, 07 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Grok、画像生成に制限。解除方法と対策を完全ガイド</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/grok-ai-42b2315c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/grok-ai-42b2315c.html</guid>
-    <description>Elon Musk配下のAI「Grok」が画像生成機能に制限を実装。ユーザーが知るべき制限内容と対策法を網羅。</description>
-    <pubDate>Mon, 07 Sep 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが企業の「レガシーシステム」を救う。数十年前のシステムが突然、最新技術に生まれ変わる時代が来た</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-03e31a33.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-03e31a33.html</guid>
-    <description>企業の古いシステム刷新が、AIの登場で急速に進むようになった。従来は高コストで危険な作業だった古いシステムの更新が、AIの力で効率化・低リスク化される動きが海外で広がっている。日本企業にも大きな影響を与える可能性がある。</description>
-    <pubDate>Mon, 07 Sep 2026 10:28:00 +0900</pubDate>
   </item>
 </channel></rss>
