@@ -378,5 +378,55 @@
     "japan_relevance_score": 55,
     "reason": "OpenAIの利用制限変更は重要だが、既知の製品変更で新規性は中程度、日本のユーザーも影響を受ける可能性がある。",
     "discovered_at": "2026-09-07T22:28:46.942025+00:00"
+  },
+  {
+    "title": "Leaving VMware just got harder after Broadcom pulled VDDK downloads",
+    "link": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/\nComments URL: https://news.ycombinator.com/item?id=49602699\nPoints: 87\n# Comments: 39",
+    "novelty_score": 65,
+    "japan_relevance_score": 72,
+    "reason": "Broadcomの囲い込み戦略は既出だが、VDDKダウンロード制限という具体的な施策は新しく、企業のVM移行に直結する実害が生じているため日本でも関心が高い。",
+    "discovered_at": "2026-09-08T01:28:42.432373+00:00"
+  },
+  {
+    "title": "El Yayster – a resident LLM that inhabits Emacs",
+    "link": "https://github.com/yayster/yayster.el",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/yayster/yayster.el\nComments URL: https://news.ycombinator.com/item?id=49602258\nPoints: 34\n# Comments: 6",
+    "novelty_score": 42,
+    "japan_relevance_score": 38,
+    "reason": "Emacsへの LLM統合は既存概念だが、実装の質と開発者層の限定性が評価を下げている。",
+    "discovered_at": "2026-09-08T01:28:44.166412+00:00"
+  },
+  {
+    "title": "Initial effects of AI technology on employment look positive",
+    "link": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+    "source": "Hacker News",
+    "summary": "https://archive.md/5hi5i\n\nComments URL: https://news.ycombinator.com/item?id=49596610\nPoints: 67\n# Comments: 104",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI雇用への影響は既出テーマだが、ポジティブな初期結果という角度は参考価値があり、日本の雇用不安論との対比で需要がある。",
+    "discovered_at": "2026-09-08T01:28:45.994197+00:00"
+  },
+  {
+    "title": "Impedance Matching (2017)",
+    "link": "https://www.edge.org/response-detail/27238",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.edge.org/response-detail/27238\nComments URL: https://news.ycombinator.com/item?id=49596274\nPoints: 77\n# Comments: 22",
+    "novelty_score": 35,
+    "japan_relevance_score": 28,
+    "reason": "2017年の古い記事で、インピーダンス整合は物理学の基本概念のため新規性が低く、日本での関心も限定的。",
+    "discovered_at": "2026-09-08T01:28:47.820953+00:00"
+  },
+  {
+    "title": "OpenAI 2025 financials $38.5B loss ahead of IPO",
+    "link": "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
+    "source": "Hacker News",
+    "summary": "Article URL: https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626\nComments URL: https://news.ycombinator.com/item?id=49594296\nPoints: 33\n# Comments: 6",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "大型IPO前の財務情報流出は注目だが、AIスタートアップの赤字は既知の話題で新規性は限定的。",
+    "discovered_at": "2026-09-08T01:28:49.578855+00:00"
   }
 ]
