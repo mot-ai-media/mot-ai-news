@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AWS、Claude統合やAI認定資格で企業向けAI活用を加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-c58e1258.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-c58e1258.html</guid>
+    <description>AWSがClaudeやAI関連の新認定資格を発表。企業のAI導入がさらに身近に。</description>
+    <pubDate>Wed, 09 Sep 2026 04:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI「GPT-6 Astra」発表、コーディング能力が大幅進化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-899e1717.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-899e1717.html</guid>
+    <description>OpenAIが新型AI「GPT-6 Astra」を発表。プログラミング支援機能が前世代から大きく進化した。</description>
+    <pubDate>Wed, 09 Sep 2026 04:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIが「まだ発見されていない科学的真実」を予測する時代へ。ソニーAIが実証、がん研究で新知見も</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/sony-ai-hakken-d6a8aa14.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sony-ai-hakken-d6a8aa14.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html</guid>
     <description>OpenAIが新しい数学解法モデル「Astra」を開発中とのうわさ。詳細は未公開。</description>
     <pubDate>Mon, 07 Sep 2026 16:49:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>次世代GPT-6 Astra「低設定」が前世代GPT-5.6 Sol「高設定」を上回る性能に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf35c7ed.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf35c7ed.html</guid>
-    <description>新型AIモデルGPT-6 Astraの低性能設定が、前世代の高性能設定を性能面で上回ると公式が発表。</description>
-    <pubDate>Mon, 07 Sep 2026 16:49:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude Fable 5.1が首位奪取、AI性能評価の「ゲーム化」に終止符</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html</guid>
-    <description>AIベンチマーク評価が刷新され、実務的な測定方法で信頼性向上。ランキング順位も大きく変わった。</description>
-    <pubDate>Mon, 07 Sep 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>
