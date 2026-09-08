@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの新型AI「Astra」発表、AMD株が買われる理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-amd-927c49d5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-amd-927c49d5.html</guid>
+    <description>OpenAIが発表した新型AI「Astra」がAMDの株価評価を大きく変える可能性が指摘されている。</description>
+    <pubDate>Wed, 09 Sep 2026 06:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>3DCG制作ソフト「Blender」、AI旋風で急速に人気拡大。OpenAI新AIが生成した作品が話題に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/blender-openai-ef4a5bc6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/blender-openai-ef4a5bc6.html</guid>
+    <description>3DCG制作ソフト「Blender」の人気が急速に高まっており、OpenAIの新AI「Astra」による作品生成が注目を集めている。</description>
+    <pubDate>Wed, 09 Sep 2026 06:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AWS、Claude統合やAI認定資格で企業向けAI活用を加速</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-c58e1258.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-c58e1258.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-6c669443.html</guid>
     <description>OpenAIの最新AIモデルがセキュリティ評価で重要な閾値を初めて超える。</description>
     <pubDate>Mon, 07 Sep 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが「AGI時代の到来」を宣言、専門家から猛反発。結局、人工知能はどこまで来たのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-googledeepmind-7956440b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-googledeepmind-7956440b.html</guid>
-    <description>OpenAI幹部がGPT-6発表時に「AGI（汎用人工知能）時代が到来した」と発言。一方、MIT TechReviewは定義の不在を指摘、GoogleDeepMindは段階的フレームワークを提案。業界内で「AGI」の定義が根本的に異なり、議論が白熱している。</description>
-    <pubDate>Mon, 07 Sep 2026 18:45:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが謎の新モデル「Astra」を開発、量子数学に対応か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-016ef8d9.html</guid>
-    <description>OpenAIが新しい数学解法モデル「Astra」を開発中とのうわさ。詳細は未公開。</description>
-    <pubDate>Mon, 07 Sep 2026 16:49:00 +0900</pubDate>
   </item>
 </channel></rss>

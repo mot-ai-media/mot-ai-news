@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-09 04:54
+最終更新: 2026-09-09 06:53
 
 ## 記事一覧
 
+- [Blender人気急上昇の理由。OpenAI「Astra」との組み合わせで何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/blender-openai-ef4a5bc6.html): 3DCG制作ソフト「Blender」の人気が急速に高まっており、OpenAIの新AI「Astra」による作品生成が注目を集めている。 (出典: ASCII.jp / 更新: 2026-09-09 06:53)
+- [OpenAI Astraとは？AMD需要で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-amd-927c49d5.html): OpenAIが発表した新型AI「Astra」がAMDの株価評価を大きく変える可能性が指摘されている。 (出典: Seeking Alpha / 更新: 2026-09-09 06:53)
 - [AWS Claude統合・AI認定資格とは？2026年の新サービス解説](https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-c58e1258.html): AWSがClaudeやAI関連の新認定資格を発表。企業のAI導入がさらに身近に。 (出典: Amazon Web Services (AWS) / 更新: 2026-09-09 04:54)
 - [GPT-6 Astraとは？前世代との違い・コーディング性能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-899e1717.html): OpenAIが新型AI「GPT-6 Astra」を発表。プログラミング支援機能が前世代から大きく進化した。 (出典: ITmedia / 更新: 2026-09-09 04:53)
 - [AI知識予測システムHakken。査読済み論文から未発見の関係性を予測、がん研究で新発見](https://mot-ai-media.github.io/mot-ai-news/articles/sony-ai-hakken-d6a8aa14.html): ソニーAIが開発した『Hakken』は、過去の科学論文から抽出した知識をAIで分析し、まだ誰も発見していない科学概念間の新しい関係性を予測するシステム。生物医学分野での実験では、予測した仮説の一部がラボでの実検証で確認され、がん関連遺伝子の新しい相互作用も明らかになった。 (出典: Sony AI / arXiv / 更新: 2026-09-09 04:32)
@@ -205,5 +207,3 @@
 - [InstagramのAI生成プロフィール表示が変更、ラベル改称で明示強化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-ad9d6619.html): MetaがInstagramのAIアカウント表示ルールを変更。AI生成人物のプロフィールは明確に表示され、設定しないと検索結果から制限される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 14:40)
 - [ChatGPT広告「ChatGPT Ads」とは？年換算売上が10億ドルに](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-94974852.html): OpenAIの広告事業が異例の速さで成長。収入の多角化を進める (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:11)
 - [AIエージェントの社員証・委任状とは？業務利用の課題と対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-cc1a7d75.html): AIが自動で業務を進める時代、AIにも権限管理が必要に。実際の失敗事例から対策まで。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:11)
-- [AIモデルの選び方で費用が激変？コスト評価の新指標をOpenAIが提唱](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d723eacb.html): 安さだけでAIモデルを選ぶと、実は高くつく可能性が。OpenAIが提唱した新しい評価方法で業界の常識が揺らぐ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:11)
-- [NVIDIAがMediaTekに35億ドル投資、AI協業の狙いとは](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-b0f9ea78.html): NVIDIAがMediaTekの転換社債に巨額投資し、AI基盤の共同開発を加速。両社の競争戦略が透ける。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 11:10)
