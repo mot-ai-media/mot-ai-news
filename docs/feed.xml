@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ロボット向け「救急車」登場、故障対応を一元化　GMO初導入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-a4d24dde.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-a4d24dde.html</guid>
+    <description>GMOが人型ロボットの故障対応を専門とする救急車を導入。診断から修理まで対応。</description>
+    <pubDate>Wed, 09 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI「GPT-6 Astra」発表、PC自動操作とコーディングが次元進化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-19f57aa0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-19f57aa0.html</guid>
+    <description>OpenAIが次世代AI「GPT-6 Astra」を発表。PC操作やプログラミング、セキュリティ検証の能力が大幅向上。</description>
+    <pubDate>Wed, 09 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日立社長が「フィジカルAI」を熱く語る、その狙いは社員への叱咤激励だった</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b99c5ec9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b99c5ec9.html</guid>
+    <description>日立製作所の徳永社長がフィジカルAIについて講演。社員の心を揺さぶるトップメッセージの真意に迫る。</description>
+    <pubDate>Wed, 09 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>マラソン大会ポスターに生成AI疑惑、事務局が謝罪声明を発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-98d251cc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-98d251cc.html</guid>
+    <description>鹿児島県のマラソン大会ポスターが生成AIで作られた疑いが指摘され、事務局が不適切な説明があったと認める声明を出した。</description>
+    <pubDate>Wed, 09 Sep 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Cairaが動画編集をAI化、複数の最新モデルに対応へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/caira-gemini-omni-50cee34f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/caira-gemini-omni-50cee34f.html</guid>
+    <description>動画編集ツールCairaがAI動画生成機能を追加。高品質出力に対応し、より手軽な編集が可能に。</description>
+    <pubDate>Wed, 09 Sep 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの新型AI「Astra」発表、AMD株が買われる理由</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-amd-927c49d5.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-amd-927c49d5.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html</guid>
     <description>OpenAIがウクライナのニュース組織向けにAI活用プログラムを開始し、報道機関のイノベーションと独立性を強化する取り組みが本格化。</description>
     <pubDate>Mon, 07 Sep 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Microsoft 365 Copilot配布しても使われない。福島県庁が選んだ異なる道</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6941ec4c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6941ec4c.html</guid>
-    <description>高性能なAIツールを配っても利用が進まない。その課題に、福島県庁が異なる戦略で全庁導入に踏み切った。</description>
-    <pubDate>Mon, 07 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Microsoft、GPT-6 Astraを仕事用AIに搭載。細かい指示なしで大型業務を一任できる時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-openai-577f3b24.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-openai-577f3b24.html</guid>
-    <description>MicrosoftがOpenAIの最新AI「GPT-6 Astra」を仕事用ツールに搭載。細かく分割した指示がなくても複雑な業務を任せられるようになった。</description>
-    <pubDate>Mon, 07 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>デザイン業の倒産が急増、生成AIだけが原因じゃない</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-743cd11a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-743cd11a.html</guid>
-    <description>グラフィックデザイン業の倒産が前年同期比で3倍近く増加。AI以外の構造的な問題も浮き彫りに。</description>
-    <pubDate>Mon, 07 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>東大発スタートアップが国産四足歩行ロボを発表、段差も楽々クリア</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/highlanders-ai-19470b51.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/highlanders-ai-19470b51.html</guid>
-    <description>東大発のHighlandersが国産四足歩行ロボを発表。独自AIを搭載し、段差の昇降など動作能力を実演。</description>
-    <pubDate>Mon, 07 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、サイバーセキュリティの重大基準を初めてクリア。AIモデルの安全性が新段階へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-6c669443.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-6c669443.html</guid>
-    <description>OpenAIの最新AIモデルがセキュリティ評価で重要な閾値を初めて超える。</description>
-    <pubDate>Mon, 07 Sep 2026 20:53:00 +0900</pubDate>
   </item>
 </channel></rss>
