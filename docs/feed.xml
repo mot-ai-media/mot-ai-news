@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude次世代版、10月初旬に新たな学習か—Anthropicが極秘開発</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b67b695.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b67b695.html</guid>
+    <description>Anthropicの次期Claude「Fable 5.2」の開発情報がリーク。10月初旬の新たな学習計画が明らかに。</description>
+    <pubDate>Thu, 10 Sep 2026 08:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIが数学界の最難問を解いた。学界が困惑している理由</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-24370557.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-24370557.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-alphagenome-atlas-fc07b253.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-alphagenome-atlas-fc07b253.html</guid>
     <description>Google DeepMindが全塩基変異の影響を予測するデータベースを学術向けに無償提供。病気解明が加速する。</description>
-    <pubDate>Wed, 09 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>100万円のAIスパコンが急上昇。「ローカルLLM」ブームを生んだ3つの条件</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-0dd4da6e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-0dd4da6e.html</guid>
-    <description>自分のPCで動かすAI「ローカルLLM」が急速に盛り上がり、高価なスパコンが売れ始めている。</description>
     <pubDate>Wed, 09 Sep 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>
