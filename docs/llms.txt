@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-09 22:53
+最終更新: 2026-09-10 00:53
 
 ## 記事一覧
 
+- [OpenAI「Astra」とは？PC自動操作・AGIとの関係を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-7dfa7b69.html): OpenAIが新型AI「Astra」を発表。パソコンを自動で操作する能力を持ち、汎用AI実現に向けた大きな一歩と評価される。 (出典: itmedia.co.jp / 更新: 2026-09-10 00:53)
 - [OpenAI Astraとは？企業向けAIエージェント、市場評価に影響](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-9c416eb6.html): OpenAIが発表した新型AIエージェント「Astra」が、企業システム市場の見方を大きく変える可能性を指摘する声が上がっている。 (出典: Seeking Alpha / 更新: 2026-09-09 22:53)
 - [AI基盤施設関連株が高騰 Qualcomm・Corningが契約獲得で市場活況](https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-corning-ce35bf4c.html): AI需要の急速な拡大に伴い、チップやネットワーク機器などのAI関連インフラを手がけるメーカー企業の株価が上昇。業界の好況が、見えない場所で進んでいる。 (出典: CNBC / 更新: 2026-09-09 22:28)
 - [AI データセンター投資で雇用が増えない？英シンクタンクが指摘する真実](https://mot-ai-media.github.io/mot-ai-news/articles/ai-f26a1453.html): 英国でAIインフラへの大規模投資が進む中、業界の雇用創出予想が過大評価されている可能性が指摘された。シンクタンクの分析は、技術産業全体の就業構造に関する従来の見通しに疑問を投げかけている。 (出典: CNBC / 更新: 2026-09-09 22:27)
@@ -206,4 +207,3 @@
 - [Google Gemini 3.5 Flash Cyberとは？脆弱性検出AIの役割・使い方](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7898549b.html): Googleが軽量のセキュリティ専用AI「Gemini 3.5 Flash Cyber」を発表。システムの脆弱性を自動検出・修正する新ツール。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)
 - [Google DeepMind、生物学的リスク対策へのAI活用戦略とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-isomorphic-labs-28780037.html): Google DeepMindとIsomorphic Labsが、AIを使って感染症やバイオリスクに対抗する共同戦略を公開。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)
 - [ATL Saathi とは？Google と AIM の AI ツール、インド教育に導入](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-66188580.html): GoogleとAIMが生成AI「Gemini」を活用した教育支援ツールを発表。ロボット教室の指導者向け。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)
-- [GoogleのGenesis Missionとは？AIで科学研究を支援する新計画](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-15eb5b1c.html): GoogleがAI技術を活用した科学研究支援プログラムに4000万ドルを投資。研究者のAI活用を加速させる。 (出典: Google DeepMind News / 更新: 2026-09-01 20:57)
