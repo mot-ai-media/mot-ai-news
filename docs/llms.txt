@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-10 07:02
+最終更新: 2026-09-10 07:28
 
 ## 記事一覧
 
+- [OpenAI ミレニアム懸賞問題 数学 AI](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-24370557.html): OpenAIが火曜日に発表した数学の難問解決は、AIの急速な進化を示す成果である一方、従来の学術的価値観に複雑な疑問を投げかけている。 (出典: The Verge / 更新: 2026-09-10 07:28)
+- [Suno v6 AI音楽モデル 音楽業界提携 著作権 新学習データ](https://mot-ai-media.github.io/mot-ai-news/articles/suno-ai-6e51b045.html): AI音楽生成企業Sunoが、レコード業界と協力して開発した新モデル「v6」をリリース。過去のモデルとは異なるライセンス済みデータで学習させた初の試みで、音楽業界との対立構図から協調へと大きく舵を切った。 (出典: The Verge / 更新: 2026-09-10 07:27)
 - [データセンター規制とは？マサチューセッツ州が新ルール導入する背景](https://mot-ai-media.github.io/mot-ai-news/articles/9b8574f4.html): 米マサチューセッツ州がデータセンター開発に新たな制限を導入。クリーン電力要件が厳格化される。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 07:02)
 - [Apple Watchの新AI機能とは？プライバシー問題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-679dc40a.html): Apple Watchの新機能が、常時録音・音声認識の常態化を加速させ、プライバシーと同意の課題が浮上。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 07:02)
 - [Apple Siri AI日本語版いつから？10月提供開始、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-c3c5e274.html): AppleがAI機能を統合したSiriの日本語版を10月に提供開始。スマートフォンの音声操作が変わる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 07:01)
@@ -205,5 +207,3 @@
 - [Claude利用制限リセット、Fable 5.1とは？Anthropic新展開](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b36db701.html): AnthropicがClaudeの使用制限をリセット。新モデル「Fable 5.1」のリリースが背景。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 13:23)
 - [Dyson CameraJet発表、AI搭載電動歯ブラシの価格・機能は？](https://mot-ai-media.github.io/mot-ai-news/articles/dyson-ai-1545f6b1.html): DysonがAIとカメラを搭載した電動歯ブラシ「CameraJet」を発売。自動でフロスを噴射し、歯磨きとフロスが同時にできる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 13:22)
 - [Google Picsとは？AI画像生成・編集ツールの使い方・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-google-pics-4f2df848.html): GoogleがAI画像生成ツール「Google Pics」を発表。SNS用画像やポスター制作、特定部分の編集、文字翻訳が可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 13:22)
-- [Higgsfield とは？OpenAI の動画生成AI、使い方と特徴](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-31624c9f.html): OpenAIがシンプルなアイデアを映画級の動画に変えるAIツールを公開。SNS用動画制作が誰でも簡単に。 (出典: OpenAI / 更新: 2026-09-02 13:21)
-- [企業のデジタル教育が失敗する理由とは？従業員の55%が不満](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-97190bcf.html): 生成AI時代に企業が力を入れるデジタル教育だが、従業員の過半数が満足していない実態が明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 13:21)

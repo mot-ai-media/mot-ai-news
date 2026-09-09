@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが数学界の最難問を解いた。学界が困惑している理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-24370557.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-24370557.html</guid>
+    <description>OpenAIが火曜日に発表した数学の難問解決は、AIの急速な進化を示す成果である一方、従来の学術的価値観に複雑な疑問を投げかけている。</description>
+    <pubDate>Thu, 10 Sep 2026 07:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>音楽業界が認めたAI音楽生成「Suno v6」登場、著作権問題に決着か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/suno-ai-6e51b045.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/suno-ai-6e51b045.html</guid>
+    <description>AI音楽生成企業Sunoが、レコード業界と協力して開発した新モデル「v6」をリリース。過去のモデルとは異なるライセンス済みデータで学習させた初の試みで、音楽業界との対立構図から協調へと大きく舵を切った。</description>
+    <pubDate>Thu, 10 Sep 2026 07:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Apple Watch、常に聞き取る時代へ。新AI機能が引き起こすプライバシーの危機感</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-679dc40a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-679dc40a.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-0dd4da6e.html</guid>
     <description>自分のPCで動かすAI「ローカルLLM」が急速に盛り上がり、高価なスパコンが売れ始めている。</description>
     <pubDate>Wed, 09 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ローカルLLM、無料でも意外に高い。企業と個人が導入する本当の理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-bbfd0ce9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-bbfd0ce9.html</guid>
-    <description>生成AIを自分のコンピュータで動かすローカルLLMが注目されていますが、実は初期費用が想像以上に高くつく可能性があります。</description>
-    <pubDate>Wed, 09 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google Workspace Studio×Gemini、AIで仕事そのものを自動化。4つの実例から見える業務激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-workspace-studio-4d05910e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-workspace-studio-4d05910e.html</guid>
-    <description>Googleの自動化ツールWorkspace Studioとai・Geminiを組み合わせ、日常業務を効率化する具体的な方法を4つ紹介。</description>
-    <pubDate>Wed, 09 Sep 2026 14:30:00 +0900</pubDate>
   </item>
 </channel></rss>

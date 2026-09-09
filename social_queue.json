@@ -2593,7 +2593,7 @@
     ],
     "image_url": "https://media.wired.com/photos/6aa19424b402a7d6273073e3/191:100/w_1280,c_limit/John-Ternus-Apple-Event-Gear-DSC_9380.jpg",
     "generated_at": "2026-09-10 04:28",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -2651,7 +2651,10 @@
         "x_post": "折りたたみiPhone Duoなら、通勤時はポケットサイズ、会議ではタブレット並み。AI強化版Siriが判断を補助。朝から夜まで一台で対応できる実用性が、仕事の現場を変える。",
         "cta": "仕事での使いこなし術を、MOTで実装例から学ぶ。"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18103100435248444",
+    "published_at": "2026-09-10T07:02:29"
   },
   "coreweave-ai-380243be": {
     "headline": "AI急速展開に世界は困惑。インフラ企業トップが警告「変化の速さが恐ろしい」",
