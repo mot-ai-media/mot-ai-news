@@ -628,5 +628,45 @@
     "japan_relevance_score": 38,
     "reason": "AI幻覚現象の学術的分析は有用だが、概念自体は既出でありニッチな議論に留まる可能性が高い。",
     "discovered_at": "2026-09-09T19:29:28.788051+00:00"
+  },
+  {
+    "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+    "link": "https://arxiv.org/abs/2609.09153",
+    "source": "Hacker News",
+    "summary": "Article URL: https://arxiv.org/abs/2609.09153\nComments URL: https://news.ycombinator.com/item?id=49629868\nPoints: 38\n# Comments: 10",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "LLMエージェントの実行構造を自動進化させる新しいアプローチだが、学術的で応用段階はまだ初期。",
+    "discovered_at": "2026-09-09T22:28:41.619263+00:00"
+  },
+  {
+    "title": "Muse's Social Media Handle Is Stolen by New Meta AI Tool",
+    "link": "https://www.realitytea.com/2026/09/09/muse-band-meta-ai-social-media-handle/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.realitytea.com/2026/09/09/muse-band-meta-ai-social-media-handle/\nComments URL: https://news.ycombinator.com/item?id=49629382\nPoints: 23\n# Comments: 9",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "AIツールによるハンドル乗っ取りは新しい問題だが、個別事案性が強く、広範な影響は限定的と判断。",
+    "discovered_at": "2026-09-09T22:28:43.902634+00:00"
+  },
+  {
+    "title": "AI could kill all humans in next decade, warn experts",
+    "link": "https://www.theguardian.com/technology/2026/sep/09/ai-superintelligence-risks-warnings-scientists-politicians",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theguardian.com/technology/2026/sep/09/ai-superintelligence-risks-warnings-scientists-politicians\nComments URL: https://news.ycombinator.com/item?id=49628580\nPoints: 29\n# Comments: 39",
+    "novelty_score": 15,
+    "japan_relevance_score": 72,
+    "reason": "AI安全性への警告は繰り返しだが、日本でも規制議論が活発化する中で重要なトピック。",
+    "discovered_at": "2026-09-09T22:28:45.452897+00:00"
+  },
+  {
+    "title": "Better AI code comment detector",
+    "link": "https://entropicthoughts.com/better-ai-comment-classifier",
+    "source": "Hacker News",
+    "summary": "Article URL: https://entropicthoughts.com/better-ai-comment-classifier\nComments URL: https://news.ycombinator.com/item?id=49628454\nPoints: 38\n# Comments: 22",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI生成コード検出は需要あるが、類似ツール存在し、技術的な新規性や社会的インパクトが限定的。",
+    "discovered_at": "2026-09-09T22:28:47.282523+00:00"
   }
 ]
