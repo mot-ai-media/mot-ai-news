@@ -528,5 +528,55 @@
     "japan_relevance_score": 62,
     "reason": "AIの情報検索課題は既出だが、日本でもAI活用が進む中で実務的な問題として関心が高まる可能性がある。",
     "discovered_at": "2026-09-09T13:29:04.619429+00:00"
+  },
+  {
+    "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Activists",
+    "link": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/\nComments URL: https://news.ycombinator.com/item?id=49628704\nPoints: 66\n# Comments: 20",
+    "novelty_score": 25,
+    "japan_relevance_score": 45,
+    "reason": "AI企業の監視システム開発は既報だが、活動家監視という具体的ケースは限定的で、詳細確認が必要。",
+    "discovered_at": "2026-09-09T16:28:42.909294+00:00"
+  },
+  {
+    "title": "Anthropic researcher says more than 10% chance AI \"could kill all humans\"",
+    "link": "https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/\nComments URL: https://news.ycombinator.com/item?id=49627887\nPoints: 37\n# Comments: 78",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI安全性への懸念は既出だが、大手AI企業の研究者による具体的な確率言及は注目度が高く、日本でも規制論議の材料になり得る。",
+    "discovered_at": "2026-09-09T16:28:44.755259+00:00"
+  },
+  {
+    "title": "Show HN: Geiger – See every AI agent on your machine and what it can touch",
+    "link": "https://github.com/Atomburstofficial/geiger",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/Atomburstofficial/geiger\nComments URL: https://news.ycombinator.com/item?id=49627646\nPoints: 26\n# Comments: 15",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "AIエージェント監視ツールは需要あるが、類似ツール存在し、日本での認知度はまだ低い段階。",
+    "discovered_at": "2026-09-09T16:28:46.598878+00:00"
+  },
+  {
+    "title": "Do people prefer stories written by AI?",
+    "link": "https://www.cambridge.org/gb/universitypress/about-us/news-and-blogs/do-people-prefer-stories-written-by-ai",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.cambridge.org/gb/universitypress/about-us/news-and-blogs/do-people-prefer-stories-written-by-ai\nComments URL: https://news.ycombinator.com/item?id=49626372\nPoints: 21\n# Comments: 66",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI生成コンテンツの受容性は既出テーマだが、学術的検証は価値あり、日本でも出版業界に関心が高い",
+    "discovered_at": "2026-09-09T16:28:48.430309+00:00"
+  },
+  {
+    "title": "AI Responsibility – OpenAI and Anthropic",
+    "link": "https://twitter.com/hilbertspaess/status/2097476196791709843",
+    "source": "Hacker News",
+    "summary": "Article URL: https://twitter.com/hilbertspaess/status/2097476196791709843\nComments URL: https://news.ycombinator.com/item?id=49619639\nPoints: 86\n# Comments: 23",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "OpenAIとAnthropicの責任論は既出テーマだが、両社の直接比較は関心が高い。",
+    "discovered_at": "2026-09-09T16:28:50.207174+00:00"
   }
 ]
