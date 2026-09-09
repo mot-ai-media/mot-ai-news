@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI時代の「縁の下の力持ち」が躍動。Qualcomm・Corningなど部品メーカーが株価上昇</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-corning-ce35bf4c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-corning-ce35bf4c.html</guid>
+    <description>AI需要の急速な拡大に伴い、チップやネットワーク機器などのAI関連インフラを手がけるメーカー企業の株価が上昇。業界の好況が、見えない場所で進んでいる。</description>
+    <pubDate>Wed, 09 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI投資ブームの裏側：英シンクタンク「雇用創出は業界の主張ほど多くない」と警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f26a1453.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f26a1453.html</guid>
+    <description>英国でAIインフラへの大規模投資が進む中、業界の雇用創出予想が過大評価されている可能性が指摘された。シンクタンクの分析は、技術産業全体の就業構造に関する従来の見通しに疑問を投げかけている。</description>
+    <pubDate>Wed, 09 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude有料ユーザー狙い撃ち、ハッカーがトークン盗難する被害相次ぐ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8910eda6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8910eda6.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/caira-gemini-omni-50cee34f.html</guid>
     <description>動画編集ツールCairaがAI動画生成機能を追加。高品質出力に対応し、より手軽な編集が可能に。</description>
     <pubDate>Wed, 09 Sep 2026 07:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの新型AI「Astra」発表、AMD株が買われる理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-amd-927c49d5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-amd-927c49d5.html</guid>
-    <description>OpenAIが発表した新型AI「Astra」がAMDの株価評価を大きく変える可能性が指摘されている。</description>
-    <pubDate>Wed, 09 Sep 2026 06:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>3DCG制作ソフト「Blender」、AI旋風で急速に人気拡大。OpenAI新AIが生成した作品が話題に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/blender-openai-ef4a5bc6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/blender-openai-ef4a5bc6.html</guid>
-    <description>3DCG制作ソフト「Blender」の人気が急速に高まっており、OpenAIの新AI「Astra」による作品生成が注目を集めている。</description>
-    <pubDate>Wed, 09 Sep 2026 06:53:00 +0900</pubDate>
   </item>
 </channel></rss>
