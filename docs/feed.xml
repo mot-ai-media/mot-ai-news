@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude有料ユーザー狙い撃ち、ハッカーがトークン盗難する被害相次ぐ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8910eda6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8910eda6.html</guid>
+    <description>AnthropicのAI「Claude」の有料ユーザーが、ハッカーによるアカウント不正アクセスでトークンを盗まれる被害が報告されている。</description>
+    <pubDate>Wed, 09 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>宇宙工場、SpaceXロケットで実現へ。半導体製造がついに軌道上で始まる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/besxar-spacex-646e8eb9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/besxar-spacex-646e8eb9.html</guid>
+    <description>スタートアップが宇宙での半導体製造に乗り出し、SpaceXロケットで軌道と地上を往復させる新ビジネスモデルを構築。</description>
+    <pubDate>Wed, 09 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>採用業務、AIが全自動化。スカウトから面接評価まで</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-0ffcb38e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-0ffcb38e.html</guid>
+    <description>採用業務の大半をAIが代行。採用担当者は戦略立案に注力できるように。</description>
+    <pubDate>Wed, 09 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>攻撃者は全員AIを使用、6時間で数千件侵害も。Googleが報告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-7ecc1967.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-7ecc1967.html</guid>
+    <description>Googleの脅威分析部門が、攻撃者による急速なAI活用を報告。認証情報が6時間で数千件侵害される事例も確認。</description>
+    <pubDate>Wed, 09 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT有料版の新規受付、一時停止の可能性。GPT-6 Astraの需要に対応できず</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1e16aee3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1e16aee3.html</guid>
+    <description>OpenAIの新モデルGPT-6 Astraの需要急増で、ChatGPT Proプラン新規登録の一時停止を検討。</description>
+    <pubDate>Wed, 09 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI株への過熱投資に警告——著名投資家クレイマーが「次の狙い目」を指摘</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/jim-cramer-ai-33b106ee.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/jim-cramer-ai-33b106ee.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/blender-openai-ef4a5bc6.html</guid>
     <description>3DCG制作ソフト「Blender」の人気が急速に高まっており、OpenAIの新AI「Astra」による作品生成が注目を集めている。</description>
     <pubDate>Wed, 09 Sep 2026 06:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AWS、Claude統合やAI認定資格で企業向けAI活用を加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-c58e1258.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-c58e1258.html</guid>
-    <description>AWSがClaudeやAI関連の新認定資格を発表。企業のAI導入がさらに身近に。</description>
-    <pubDate>Wed, 09 Sep 2026 04:54:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI「GPT-6 Astra」発表、コーディング能力が大幅進化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-899e1717.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-899e1717.html</guid>
-    <description>OpenAIが新型AI「GPT-6 Astra」を発表。プログラミング支援機能が前世代から大きく進化した。</description>
-    <pubDate>Wed, 09 Sep 2026 04:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが「まだ発見されていない科学的真実」を予測する時代へ。ソニーAIが実証、がん研究で新知見も</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sony-ai-hakken-d6a8aa14.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sony-ai-hakken-d6a8aa14.html</guid>
-    <description>ソニーAIが開発した『Hakken』は、過去の科学論文から抽出した知識をAIで分析し、まだ誰も発見していない科学概念間の新しい関係性を予測するシステム。生物医学分野での実験では、予測した仮説の一部がラボでの実検証で確認され、がん関連遺伝子の新しい相互作用も明らかになった。</description>
-    <pubDate>Wed, 09 Sep 2026 04:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Qualcommが40億ドル規模でAmazonと提携、GPU市場でNvidiasに挑戦状</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-amazon-f84ee115.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-amazon-f84ee115.html</guid>
-    <description>Qualcommがデータセンター向けAIチップの事業拡大に向け、Amazonから40億ドル規模の株式引受を受ける。NVidiaが支配してきたAI用プロセッサ市場に新しいプレイヤーが本格参入する動きが加速している。</description>
-    <pubDate>Wed, 09 Sep 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、月額2,000円のAIアシスタント「Muse」発表。プライバシー問題の渦中での戦略転換</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-18969755.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-18969755.html</guid>
-    <description>Metaが個人向けのAIアシスタントアプリ「Muse」を発表。無料版と月額20ドル、100ドルの有料版を用意している。プライバシーとセーフティをめぐる批判が高まる中での新サービス展開は、AIの競争激化を象徴している。</description>
-    <pubDate>Wed, 09 Sep 2026 04:28:00 +0900</pubDate>
   </item>
 </channel></rss>

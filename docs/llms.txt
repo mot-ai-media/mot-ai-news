@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-09 19:28
+最終更新: 2026-09-09 22:02
 
 ## 記事一覧
 
+- [宇宙での半導体製造とは？Besxarが挑む軌道工場の実現](https://mot-ai-media.github.io/mot-ai-news/articles/besxar-spacex-646e8eb9.html): スタートアップが宇宙での半導体製造に乗り出し、SpaceXロケットで軌道と地上を往復させる新ビジネスモデルを構築。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-09 22:02)
+- [Claudeのトークン盗難被害が発生、ハッカー対策は？](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8910eda6.html): AnthropicのAI「Claude」の有料ユーザーが、ハッカーによるアカウント不正アクセスでトークンを盗まれる被害が報告されている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-09 22:02)
+- [採用AIエージェントとは？自動化できる業務と活用ツール](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-0ffcb38e.html): 採用業務の大半をAIが代行。採用担当者は戦略立案に注力できるように。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-09 22:01)
+- [ChatGPT Proプラン新規受付停止？GPT-6 Astraの需要拡大で](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1e16aee3.html): OpenAIの新モデルGPT-6 Astraの需要急増で、ChatGPT Proプラン新規登録の一時停止を検討。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 22:00)
+- [AIによるサイバー攻撃が急速化、Googleが警告する実態とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-7ecc1967.html): Googleの脅威分析部門が、攻撃者による急速なAI活用を報告。認証情報が6時間で数千件侵害される事例も確認。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 22:00)
 - [Google151億ドルフィンランド投資 AI基盤整備で欧州制覇へ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-dca872eb.html): Googleが欧州での過去最大投資となる151億ドルをフィンランドのAI基盤整備に投ずることを発表。地政学的リスク回避と欧州でのAI競争力強化の戦略が浮き彫りになった。 (出典: CNBC / 更新: 2026-09-09 19:28)
 - [Jim Cramer AI株投資の落とし穴を指摘 データセンター以外の機会を提唱](https://mot-ai-media.github.io/mot-ai-news/articles/jim-cramer-ai-33b106ee.html): CNBCの著名投資家ジム・クレイマーが、市場全体がAI関連銘柄、特にデータセンター関連企業への投資に集中しすぎていると警告。他の分野に有望な投資機会があると主張し、ポートフォリオの多角化を促している。 (出典: CNBC / 更新: 2026-09-09 19:28)
 - [Anthropicの安全研究者が人類滅亡リスク10%超を指摘、AI業界に衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5b63b2ba.html): AI開発企業アンスロピックの安全研究者が、AIシステムが全人類を殺傷する可能性が10%を超えると警告。同社の別の研究者が安全懸念を理由に離職したことが明らかになり、AI企業の内部から安全性への深刻な疑問が浮上している。 (出典: CNBC / 更新: 2026-09-09 16:28)
@@ -202,8 +207,3 @@
 - [Google DeepMindの気象AI「WeatherNext」とは？台風予測の精度向上](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-7fa201e3.html): Google DeepMindが開発した気象予測AI「WeatherNext」が、台風などの極端気象の予測精度を大幅に向上させた。 (出典: Google DeepMind News / 更新: 2026-09-01 20:56)
 - [Gemini Robotics 2とは？ロボット全身制御の仕組み・応用例を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-gemini-robotics-2-7909c613.html): GoogleのAIがロボット全体を統合的に制御できるようになり、複雑な動作が実現可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:56)
 - [Google DeepMindがゲームAI研究を実用化、何ができる？](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-06daba08.html): GoogleのAI研究部門がゲーム企業と協力し、15年の蓄積をゲームプレイの実装に活かす新段階へ。 (出典: Google DeepMind News / 更新: 2026-09-01 20:55)
-- [Google手話AI「SL2T」とは？聴覚障害者向け機能の実装](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-f5d9b5f6.html): Googleが手話をテキストに変換するAI技術を開発し、聴覚障害者向けの新機能として展開。 (出典: Google DeepMind News / 更新: 2026-09-01 20:55)
-- [Gemini 3.5 Transcribeとは？Google新音声認識AIの機能と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-83abfc08.html): Googleが音声認識技術を大幅進化。文脈を理解した精度の高い文字起こしが可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:49)
-- [総務省「AX・新技術戦略室」新設とは？AI推進の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-6add3764.html): 総務省が9月1日、AI推進をまとめる新組織「AX・新技術戦略室」を設置。政府のAI戦略が本格化する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 20:48)
-- [ChatGPT広告が10億ドル達成、無料・低価格オプション拡大の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-44f61163.html): OpenAIの広告事業が大幅に成長し、より多くの人がAIにアクセスしやすくなる環境が整備される。 (出典: OpenAI News / 更新: 2026-09-01 20:48)
-- [Gemini Omni 1.1 Flashとは？Google新AI機能の特徴](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-a13e39d4.html): Googleが開発者向けAIモデルをアップデート。より細かい制御が可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:48)
