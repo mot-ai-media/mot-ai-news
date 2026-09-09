@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Apple Watch、常に聞き取る時代へ。新AI機能が引き起こすプライバシーの危機感</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-679dc40a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-679dc40a.html</guid>
+    <description>Apple Watchの新機能が、常時録音・音声認識の常態化を加速させ、プライバシーと同意の課題が浮上。</description>
+    <pubDate>Thu, 10 Sep 2026 07:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>マサチューセッツ州、データセンター規制に動く。3ヶ月で3州が制限強化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/9b8574f4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/9b8574f4.html</guid>
+    <description>米マサチューセッツ州がデータセンター開発に新たな制限を導入。クリーン電力要件が厳格化される。</description>
+    <pubDate>Thu, 10 Sep 2026 07:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Apple「Siri AI」日本語版、10月上陸。音声アシスタント一新の時が来た</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-c3c5e274.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-c3c5e274.html</guid>
+    <description>AppleがAI機能を統合したSiriの日本語版を10月に提供開始。スマートフォンの音声操作が変わる。</description>
+    <pubDate>Thu, 10 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenRouter利用量1年で20倍超。400超のAIモデルを一本化する時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openrouter-api-db868525.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openrouter-api-db868525.html</guid>
+    <description>複数のAIモデルを一つのインターフェースで利用できるOpenRouterの需要が爆増。その背景と仕組みを解説</description>
+    <pubDate>Thu, 10 Sep 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日本のAI国家戦略、ロボット開発へシフト。次世代ロボ時代が本格始動</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/geniac-nedo-f034c3b0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/geniac-nedo-f034c3b0.html</guid>
+    <description>経産省とNEDOが推進するAI開発プログラムが、ロボット技術への融合を本格化させた。</description>
+    <pubDate>Thu, 10 Sep 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Appleが初の折りたたみiPhone投入へ。AI強化版Siriも搭載で、スマートフォンの「次の波」が現実に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-duo-243ee489.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-duo-243ee489.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-workspace-studio-4d05910e.html</guid>
     <description>Googleの自動化ツールWorkspace Studioとai・Geminiを組み合わせ、日常業務を効率化する具体的な方法を4つ紹介。</description>
     <pubDate>Wed, 09 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>昇進・昇給、AIの使い方で決まる時代へ。海外企業が人事評価に組み込み始めた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-75538fdf.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-75538fdf.html</guid>
-    <description>欧米の企業で、従業員がAIをどの程度仕事に活用しているかを昇進や昇給の判断基準に組み込む動きが広がっている。効率化の推進と公平性のジレンマが浮き彫りになっている。</description>
-    <pubDate>Wed, 09 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Metaが新型AI「Muse」を発表、誰でも使えるAIアシスタント時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-726d5689.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-726d5689.html</guid>
-    <description>Metaが個人向けAIアシスタント「Muse」を発表。車の売却から飛行機のチケット予約まで、あらゆるタスクを自動化できるAIで、OpenAIやGoogleなど大手AIベンダーとの競争を加速させている。日本ではまだ報道されていないが、今後のAI市場に大きな影響を与える可能性がある。</description>
-    <pubDate>Wed, 09 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>SAP認定試験、AIの利用OK・実践型へ大転換。30年の歴史で求めるものが変わった</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sap-ai-30f9faff.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sap-ai-30f9faff.html</guid>
-    <description>30年続くSAP認定試験が知識型から実践型へシフト。一部ではAI利用も認める新時代へ。</description>
-    <pubDate>Wed, 09 Sep 2026 13:26:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント時代、セキュリティ対策が急務。業界統一ガイドラインが始動</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-linux-foundation-0c1cf251.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-linux-foundation-0c1cf251.html</guid>
-    <description>AIエージェント型システムのセキュリティ脅威に対応するため、Linux Foundationが業界ガイドラインを策定開始。</description>
-    <pubDate>Wed, 09 Sep 2026 13:26:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Arm、モバイルからAIまで一気対応。3つの新プロダクト発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-ec0074b0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-ec0074b0.html</guid>
-    <description>Armがモバイル、AIインフラ、ロボット向けの3つの新製品を発表。スマホからAI機器まで幅広い領域に対応。</description>
-    <pubDate>Wed, 09 Sep 2026 13:26:00 +0900</pubDate>
   </item>
 </channel></rss>
