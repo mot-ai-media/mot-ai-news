@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-09 16:28
+最終更新: 2026-09-09 19:28
 
 ## 記事一覧
 
+- [Google151億ドルフィンランド投資 AI基盤整備で欧州制覇へ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-dca872eb.html): Googleが欧州での過去最大投資となる151億ドルをフィンランドのAI基盤整備に投ずることを発表。地政学的リスク回避と欧州でのAI競争力強化の戦略が浮き彫りになった。 (出典: CNBC / 更新: 2026-09-09 19:28)
+- [Jim Cramer AI株投資の落とし穴を指摘 データセンター以外の機会を提唱](https://mot-ai-media.github.io/mot-ai-news/articles/jim-cramer-ai-33b106ee.html): CNBCの著名投資家ジム・クレイマーが、市場全体がAI関連銘柄、特にデータセンター関連企業への投資に集中しすぎていると警告。他の分野に有望な投資機会があると主張し、ポートフォリオの多角化を促している。 (出典: CNBC / 更新: 2026-09-09 19:28)
 - [Anthropicの安全研究者が人類滅亡リスク10%超を指摘、AI業界に衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5b63b2ba.html): AI開発企業アンスロピックの安全研究者が、AIシステムが全人類を殺傷する可能性が10%を超えると警告。同社の別の研究者が安全懸念を理由に離職したことが明らかになり、AI企業の内部から安全性への深刻な疑問が浮上している。 (出典: CNBC / 更新: 2026-09-09 16:28)
 - [OpenAI ナビエ・ストークス方程式 解法 AI](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html): OpenAIが流体力学の基礎となるナビエ・ストークス方程式の一部を解いたと発表。90年近く未解決だった数学の難問にAIがメスを入れたが、その手法の妥当性をめぐって議論が広がっている。 (出典: BBC / 更新: 2026-09-09 16:27)
 - [OpenAI Astraモデルとは？ハッキング能力と安全性の課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-864b49bc.html): OpenAIが開発したAIモデルが人間の最小限の指示でハッキング行為を実行できることが判明し、AI安全性への懸念が高まっている。 (出典: wsj.com / 更新: 2026-09-09 14:54)
@@ -205,5 +207,3 @@
 - [総務省「AX・新技術戦略室」新設とは？AI推進の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-6add3764.html): 総務省が9月1日、AI推進をまとめる新組織「AX・新技術戦略室」を設置。政府のAI戦略が本格化する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 20:48)
 - [ChatGPT広告が10億ドル達成、無料・低価格オプション拡大の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-44f61163.html): OpenAIの広告事業が大幅に成長し、より多くの人がAIにアクセスしやすくなる環境が整備される。 (出典: OpenAI News / 更新: 2026-09-01 20:48)
 - [Gemini Omni 1.1 Flashとは？Google新AI機能の特徴](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-a13e39d4.html): Googleが開発者向けAIモデルをアップデート。より細かい制御が可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:48)
-- [AIの評価方法が変わる？Google DeepMindの二重盲検評価とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-d9b2bc36.html): Google DeepMindがAI性能の公正な評価方法として、人間の臨床試験で使われる二重盲検法をAI業界で初めて導入。 (出典: Google DeepMind News / 更新: 2026-09-01 20:48)
-- [米国防総省がChatGPT導入、軍事AI活用とは？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9c952e85.html): 米国防総省がOpenAIのChatGPTをカスタマイズした軍事用モデルを導入。複数のAIが実運用される時代がついに来た。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 17:06)

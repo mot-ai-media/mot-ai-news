@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI株への過熱投資に警告——著名投資家クレイマーが「次の狙い目」を指摘</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/jim-cramer-ai-33b106ee.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/jim-cramer-ai-33b106ee.html</guid>
+    <description>CNBCの著名投資家ジム・クレイマーが、市場全体がAI関連銘柄、特にデータセンター関連企業への投資に集中しすぎていると警告。他の分野に有望な投資機会があると主張し、ポートフォリオの多角化を促している。</description>
+    <pubDate>Wed, 09 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、151億ドルをフィンランドのAI基盤整備に投資。欧州最大規模、日本への競争圧力高まる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-dca872eb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-dca872eb.html</guid>
+    <description>Googleが欧州での過去最大投資となる151億ドルをフィンランドのAI基盤整備に投ずることを発表。地政学的リスク回避と欧州でのAI競争力強化の戦略が浮き彫りになった。</description>
+    <pubDate>Wed, 09 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI大手アンスロピック内部から警告「10%以上の確率で人類滅亡の危機』研究者が相次ぎ懸念表明</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5b63b2ba.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5b63b2ba.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-18969755.html</guid>
     <description>Metaが個人向けのAIアシスタントアプリ「Muse」を発表。無料版と月額20ドル、100ドルの有料版を用意している。プライバシーとセーフティをめぐる批判が高まる中での新サービス展開は、AIの競争激化を象徴している。</description>
     <pubDate>Wed, 09 Sep 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI創薬、患者の「生物学的年齢」を最大6歳若返らせたデータ発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/insilico-medicine-ai-3083cfb3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/insilico-medicine-ai-3083cfb3.html</guid>
-    <description>生成AIで設計された肺線維症治療薬が、患者の生物学的年齢を最大6歳低下させたデータが判明。</description>
-    <pubDate>Tue, 08 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta「Muse Spark 1.3」、AIとの対話が劇的に短縮</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-32e42d28.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-32e42d28.html</guid>
-    <description>Metaが発表した新型AIモデルは推論精度を高め、開発時の質問回数を削減。料金体系も2種類から選べる。</description>
-    <pubDate>Tue, 08 Sep 2026 11:01:00 +0900</pubDate>
   </item>
 </channel></rss>
