@@ -478,5 +478,55 @@
     "japan_relevance_score": 62,
     "reason": "AI企業と軍事契約の関係は既知だが、具体的契約内容の暴露は新しく、日本の防衛政策にも影響を与える可能性がある。",
     "discovered_at": "2026-09-08T19:28:54.715136+00:00"
+  },
+  {
+    "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+    "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bbc.co.uk/news/articles/ckgwy1k42w4o\nComments URL: https://news.ycombinator.com/item?id=49624255\nPoints: 33\n# Comments: 84",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI安全性への懸念は既出だが、Anthropic研究者の具体的言及として注目度あり、日本のAI議論でも重要性増す",
+    "discovered_at": "2026-09-09T13:28:56.419527+00:00"
+  },
+  {
+    "title": "How An AI math breakthrough ignited a controversy",
+    "link": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy\nComments URL: https://news.ycombinator.com/item?id=49624163\nPoints: 146\n# Comments: 143",
+    "novelty_score": 65,
+    "japan_relevance_score": 72,
+    "reason": "AI数学の重大進展と学術的論争は技術界で注目度が高く、日本の研究コミュニティにも波及する可能性がある。",
+    "discovered_at": "2026-09-09T13:28:58.142239+00:00"
+  },
+  {
+    "title": "I resigned from Anthropic today (Jacob Coxon)",
+    "link": "https://xcancel.com/hilbertspaess/status/2097476196791709843?s=20",
+    "source": "Hacker News",
+    "summary": "Article URL: https://xcancel.com/hilbertspaess/status/2097476196791709843?s=20\nComments URL: https://news.ycombinator.com/item?id=49624157\nPoints: 24\n# Comments: 10",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI企業からの個人の退職報告は珍しくなく、詳細な記事内容が不明確なため新規性に欠けるが、Anthropic関連のニュースとして国内注目の可能性がある。",
+    "discovered_at": "2026-09-09T13:29:00.360507+00:00"
+  },
+  {
+    "title": "Gambling with our lives: AI researcher quits Anthropic with warning about safety",
+    "link": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/\nComments URL: https://news.ycombinator.com/item?id=49623306\nPoints: 70\n# Comments: 93",
+    "novelty_score": 45,
+    "japan_relevance_score": 75,
+    "reason": "AI安全性への懸念は既知だが、大手企業の研究者の直接的な警告は報道価値あり。日本でもAI規制議論の文脈で注目される可能性がある。",
+    "discovered_at": "2026-09-09T13:29:02.410890+00:00"
+  },
+  {
+    "title": "AI Has a Discovery Problem",
+    "link": "https://mhacevedo.com/posts/the-discovery-problem",
+    "source": "Hacker News",
+    "summary": "Article URL: https://mhacevedo.com/posts/the-discovery-problem\nComments URL: https://news.ycombinator.com/item?id=49621223\nPoints: 63\n# Comments: 32",
+    "novelty_score": 45,
+    "japan_relevance_score": 62,
+    "reason": "AIの情報検索課題は既出だが、日本でもAI活用が進む中で実務的な問題として関心が高まる可能性がある。",
+    "discovered_at": "2026-09-09T13:29:04.619429+00:00"
   }
 ]
