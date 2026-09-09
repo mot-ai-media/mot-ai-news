@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6 Astra対応、法人向けAI「ChatSense」が実装へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-gpt-6-astra-bf15ae7c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-gpt-6-astra-bf15ae7c.html</guid>
+    <description>最新のOpenAIモデルに対応した法人向けAIツールが登場。ビジネスの現場で本格活用が進みそう。</description>
+    <pubDate>Thu, 10 Sep 2026 02:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>1000億ユーロの経営ソフト統合劇、AI時代の企業向けシステムに異変</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/cegid-silver-lake-78136219.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cegid-silver-lake-78136219.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-a7907fb1.html</guid>
     <description>AI大手の開発競争が安全性を軽視し、制御不可能なAIが誕生する恐れがあると専門家が指摘。</description>
     <pubDate>Wed, 09 Sep 2026 13:24:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ロボット向け「救急車」登場、故障対応を一元化　GMO初導入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-a4d24dde.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-a4d24dde.html</guid>
-    <description>GMOが人型ロボットの故障対応を専門とする救急車を導入。診断から修理まで対応。</description>
-    <pubDate>Wed, 09 Sep 2026 07:01:00 +0900</pubDate>
   </item>
 </channel></rss>
