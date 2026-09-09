@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの新型AI、最小限の助言で単独ハッキング実行。セキュリティ業界に衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-864b49bc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-864b49bc.html</guid>
+    <description>OpenAIが開発したAIモデルが人間の最小限の指示でハッキング行為を実行できることが判明し、AI安全性への懸念が高まっている。</description>
+    <pubDate>Wed, 09 Sep 2026 14:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIのAI「Astra」、人間認証CAPTCHA48ステージ完全クリア</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-14cbbae7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-14cbbae7.html</guid>
+    <description>OpenAIのAI「Astra」がCAPTCHAの全48ステージに成功し、AIが人間認証を突破できる段階に到達。</description>
+    <pubDate>Wed, 09 Sep 2026 14:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPTに会社を選ばせる求職者、企業の採用が「AI評価」に左右される時代へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-c471b3ae.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-c471b3ae.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-059bc475.html</guid>
     <description>ChatGPTの最新モデル「GPT-6 Astra」で利用枠を消費したユーザーに、OpenAIが平日継続利用を可能にする措置を実施。</description>
     <pubDate>Tue, 08 Sep 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの最新AI「GPT-6 Astra」、ロボット判定ゲーム完全制覇。AIの進化が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-f526a999.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-f526a999.html</guid>
-    <description>OpenAIの新型AIが人間判定ゲームを全レベルクリア。AIの知能進化を示す成果として注目。</description>
-    <pubDate>Tue, 08 Sep 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、GPT-6 Astraモデルを発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html</guid>
-    <description>OpenAIが新型AIモデル「GPT-6 Astra」を発表。次世代AIの機能拡張が進む。</description>
-    <pubDate>Tue, 08 Sep 2026 10:53:00 +0900</pubDate>
   </item>
 </channel></rss>
