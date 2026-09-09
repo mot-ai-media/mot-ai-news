@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>昇進・昇給、AIの使い方で決まる時代へ。海外企業が人事評価に組み込み始めた</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-75538fdf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-75538fdf.html</guid>
+    <description>欧米の企業で、従業員がAIをどの程度仕事に活用しているかを昇進や昇給の判断基準に組み込む動きが広がっている。効率化の推進と公平性のジレンマが浮き彫りになっている。</description>
+    <pubDate>Wed, 09 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Metaが新型AI「Muse」を発表、誰でも使えるAIアシスタント時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-726d5689.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-726d5689.html</guid>
+    <description>Metaが個人向けAIアシスタント「Muse」を発表。車の売却から飛行機のチケット予約まで、あらゆるタスクを自動化できるAIで、OpenAIやGoogleなど大手AIベンダーとの競争を加速させている。日本ではまだ報道されていないが、今後のAI市場に大きな影響を与える可能性がある。</description>
+    <pubDate>Wed, 09 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>SAP認定試験、AIの利用OK・実践型へ大転換。30年の歴史で求めるものが変わった</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/sap-ai-30f9faff.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sap-ai-30f9faff.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-16ea0017.html</guid>
     <description>OpenAIが研究加速の実態と直面する安全課題を公開。規制確立まで自発的に減速する姿勢を示した。</description>
     <pubDate>Tue, 08 Sep 2026 07:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Gartner発表、謎の新技術が初登場で「過度な期待」ピークに突入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-be6df0d7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-be6df0d7.html</guid>
-    <description>Gartnerの最新レポートで、初めて登場した技術が異例の早さで「過度な期待」段階に突入。AIトレンドの変化が加速中。</description>
-    <pubDate>Tue, 08 Sep 2026 07:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AWSがClaudeの最新版をクラウドで提供開始、Amazon LinuxもOSの新時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-3bf8effa.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-3bf8effa.html</guid>
-    <description>AWSがAIモデル「Claude」の最新バージョンをクラウドサービスで利用可能に。同時に次世代OSのプレビュー版も発表。</description>
-    <pubDate>Tue, 08 Sep 2026 02:53:00 +0900</pubDate>
   </item>
 </channel></rss>
