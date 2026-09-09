@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenAI ナビエ・ストークス方程式 解法 AI | AI特化メディアMOT</title>
+<meta name="description" content="OpenAIが流体力学の基礎となるナビエ・ストークス方程式の一部を解いたと発表。90年近く未解決だった数学の難問にAIがメスを入れたが、その手法の妥当性をめぐって議論が広がっている。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="OpenAIが90年の難問を88時間で解く、数学の常識を揺るがす">
+<meta property="og:description" content="OpenAIが流体力学の基礎となるナビエ・ストークス方程式の一部を解いたと発表。90年近く未解決だった数学の難問にAIがメスを入れたが、その手法の妥当性をめぐって議論が広がっている。">
+<meta property="og:image" content="https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/22b2/live/38d45d10-abc3-11f1-a601-7d96c5d5b6ea.jpg">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html">
+<meta property="article:published_time" content="2026-09-09T16:27:00+09:00">
+<meta property="article:modified_time" content="2026-09-09T16:27:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "OpenAIが90年の難問を88時間で解く、数学の常識を揺るがす", "description": "OpenAIが流体力学の基礎となるナビエ・ストークス方程式の一部を解いたと発表。90年近く未解決だった数学の難問にAIがメスを入れたが、その手法の妥当性をめぐって議論が広がっている。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-09T16:27:00+09:00", "dateModified": "2026-09-09T16:27:00+09:00", "image": ["https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/22b2/live/38d45d10-abc3-11f1-a601-7d96c5d5b6ea.jpg"], "citation": "https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&at_campaign=rss"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "ナビエ・ストークス方程式が解けると何が変わるのか", "acceptedAnswer": {"@type": "Answer", "text": "飛行機や自動車の設計、天気予報、医療診断など、流体を扱う産業全般で予測精度が向上し、開発期間やコストの削減が期待されます。"}}, {"@type": "Question", "name": "今回の発表はどこまで信頼できるのか", "acceptedAnswer": {"@type": "Answer", "text": "BBCの報道でも指摘されている通り、論文がまだ正式査読を受けていない段階での発表であり、学界による独立検証が必要な状況です。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "OpenAI", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/openai.html"}, {"@type": "ListItem", "position": 3, "name": "OpenAIが90年の難問を88時間で解く、数学の常識を揺るがす", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/22b2/live/38d45d10-abc3-11f1-a601-7d96c5d5b6ea.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">OpenAIが90年の難問を88時間で解く、数学の常識を揺るがす</span></div></div>
+  <h1 class="headline">OpenAIが90年の難問を88時間で解く、数学の常識を揺るがす</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>BBC</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-09 16:27</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> OpenAIが90年未解決の数学難問を88時間で部分解明。ただし学界からは手法の有効性を疑う声も。</p><h3>何が起きたか</h3><p>ChatGPTで知られるOpenAIが、流体のふるまいを記述するナビエ・ストークス方程式の一部を解いたと発表しました。この方程式は飛行機の設計や天気予報、血流解析など日常生活に関わる現象を計算するのに使われていますが、完全な解法は90年以上前から数学者を悩ませ続けています。OpenAIが用いたAI手法がこの難問にどう対処したのかが注目を集めています。</p><div class="overseas-box"><h3>海外ではどう報道されているか</h3><p>BBCを含む海外メディアが報道した本件は、AI技術の応用可能性を示す事例として関心を呼んでいます。一方で、発表内容が論文として正式査読を受けていない段階での公表であることから、その科学的妥当性について懐疑的な見方も報告されています。</p></div><h3>なぜ重要か</h3><p>AIが従来の数学者や専門家では解けなかった問題に取り組み始めたことは、技術の限界が引き上がっていることを示唆します。ただし今回の発表は成果の示め方や検証プロセスについて議論を呼んでおり、AIの発見がどこまで信頼に値するのかという重要な課題を浮き彫りにしています。</p><div class="japan-impact-box"><h3>日本への影響</h3><p>日本の産業界、特に自動車・航空機・医療機器メーカーは流体力学シミュレーションに大きく依存しています。AIによる計算精度の向上は設計期間の短縮やコスト削減につながる可能性がありますが、検証方法が確立される前の導入は慎重に進める必要があります。学界での追検証が急務です。</p></div><h3>今後どうなる</h3><p>今後は学術界によるピアレビューと独立した検証が焦点になります。OpenAIの手法が確認されれば、他の難問へのAI応用も加速するでしょう。一方、査読なしの発表による信頼性の問題も議論の種となりそうです。</p></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/openai.html">#OpenAI</a></div>
+  <script>window.motPageTags=["OpenAI", "ナビエ・ストークス方程式", "AI数学"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">起業・副業の登記住所に。業界最安値級のバーチャルオフィス</h3><p class="sponsor-desc">士業のサポートも受けられる法人登記用バーチャルオフィス。無料プランあり。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36M+9OW19U+4V0U+15P77L" rel="sponsored nofollow" target="_blank"><img border="0" width="100" height="60" alt="バーチャルオフィス" loading="lazy" src="https://www23.a8.net/svt/bgt?aid=260904478586&wid=001&eno=01&mid=s00000022683007004000&mc=1"></a><img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4BC36M+9OW19U+4V0U+15P77L" alt=""></div><span class="sponsor-cta">無料プランを見る &rarr;</span><p class="sponsor-name">バーチャルオフィス</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&amp;at_campaign=rss">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>BBC</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">元記事（<cite>BBC</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. ナビエ・ストークス方程式が解けると何が変わるのか</p>
+    <p class="faq-a">飛行機や自動車の設計、天気予報、医療診断など、流体を扱う産業全般で予測精度が向上し、開発期間やコストの削減が期待されます。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 今回の発表はどこまで信頼できるのか</p>
+    <p class="faq-a">BBCの報道でも指摘されている通り、論文がまだ正式査読を受けていない段階での発表であり、学界による独立検証が必要な状況です。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=OpenAI%E3%81%8C90%E5%B9%B4%E3%81%AE%E9%9B%A3%E5%95%8F%E3%82%9288%E6%99%82%E9%96%93%E3%81%A7%E8%A7%A3%E3%81%8F%E3%80%81%E6%95%B0%E5%AD%A6%E3%81%AE%E5%B8%B8%E8%AD%98%E3%82%92%E6%8F%BA%E3%82%8B%E3%81%8C%E3%81%99&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html&text=OpenAI%E3%81%8C90%E5%B9%B4%E3%81%AE%E9%9B%A3%E5%95%8F%E3%82%9288%E6%99%82%E9%96%93%E3%81%A7%E8%A7%A3%E3%81%8F%E3%80%81%E6%95%B0%E5%AD%A6%E3%81%AE%E5%B8%B8%E8%AD%98%E3%82%92%E6%8F%BA%E3%82%8B%E3%81%8C%E3%81%99" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html" data-share-title="OpenAIが90年の難問を88時間で解く、数学の常識を揺るがす">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="openai-ai-d71ed460">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="openai-gpt-6-astra-348801b6.html">
+    <img src="https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9408/live/98bd0c70-aaa8-11f1-9eba-7de947fa7cd1.jpg" alt="" loading="lazy">
+    <span class="next-up-headline">OpenAIの最高科学者が警告「誰もAIの結末に備えられていない」—GPT-6 Astra発表時に</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="openai-ai-3152bdb0.html">OpenAIのAIが独自に他社サイトを攻撃か——ハッキング事件の新証拠</a></li>
+  <li><a href="openai-anthropic-1a7ba649.html">AIの暴走を止める『緊急停止ボタン』。英国が法制化を検討</a></li>
+  <li><a href="openai-astra-864b49bc.html">OpenAIの新型AI、最小限の助言で単独ハッキング実行。セキュリティ業界に衝撃</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

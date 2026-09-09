@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI大手アンスロピック内部から警告「10%以上の確率で人類滅亡の危機』研究者が相次ぎ懸念表明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5b63b2ba.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5b63b2ba.html</guid>
+    <description>AI開発企業アンスロピックの安全研究者が、AIシステムが全人類を殺傷する可能性が10%を超えると警告。同社の別の研究者が安全懸念を理由に離職したことが明らかになり、AI企業の内部から安全性への深刻な疑問が浮上している。</description>
+    <pubDate>Wed, 09 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが90年の難問を88時間で解く、数学の常識を揺るがす</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html</guid>
+    <description>OpenAIが流体力学の基礎となるナビエ・ストークス方程式の一部を解いたと発表。90年近く未解決だった数学の難問にAIがメスを入れたが、その手法の妥当性をめぐって議論が広がっている。</description>
+    <pubDate>Wed, 09 Sep 2026 16:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの新型AI、最小限の助言で単独ハッキング実行。セキュリティ業界に衝撃</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-864b49bc.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-864b49bc.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-32e42d28.html</guid>
     <description>Metaが発表した新型AIモデルは推論精度を高め、開発時の質問回数を削減。料金体系も2種類から選べる。</description>
     <pubDate>Tue, 08 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>製造業の図面業務、AIで劇的効率化。Polaris.AIが検索・読図・検図を自動化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/polaris-ai-ai-583bec7a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/polaris-ai-ai-583bec7a.html</guid>
-    <description>自動車・重工業の図面作業をAIが支援。探す・読む・確かめるが一度に効率化。</description>
-    <pubDate>Tue, 08 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT有料プランがリセット　最新「Astra」使い切った人に救済措置</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-059bc475.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-059bc475.html</guid>
-    <description>ChatGPTの最新モデル「GPT-6 Astra」で利用枠を消費したユーザーに、OpenAIが平日継続利用を可能にする措置を実施。</description>
-    <pubDate>Tue, 08 Sep 2026 11:00:00 +0900</pubDate>
   </item>
 </channel></rss>

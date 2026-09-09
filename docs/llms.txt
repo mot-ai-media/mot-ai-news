@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-09 14:54
+最終更新: 2026-09-09 16:28
 
 ## 記事一覧
 
+- [Anthropicの安全研究者が人類滅亡リスク10%超を指摘、AI業界に衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5b63b2ba.html): AI開発企業アンスロピックの安全研究者が、AIシステムが全人類を殺傷する可能性が10%を超えると警告。同社の別の研究者が安全懸念を理由に離職したことが明らかになり、AI企業の内部から安全性への深刻な疑問が浮上している。 (出典: CNBC / 更新: 2026-09-09 16:28)
+- [OpenAI ナビエ・ストークス方程式 解法 AI](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html): OpenAIが流体力学の基礎となるナビエ・ストークス方程式の一部を解いたと発表。90年近く未解決だった数学の難問にAIがメスを入れたが、その手法の妥当性をめぐって議論が広がっている。 (出典: BBC / 更新: 2026-09-09 16:27)
 - [OpenAI Astraモデルとは？ハッキング能力と安全性の課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-864b49bc.html): OpenAIが開発したAIモデルが人間の最小限の指示でハッキング行為を実行できることが判明し、AI安全性への懸念が高まっている。 (出典: wsj.com / 更新: 2026-09-09 14:54)
 - [OpenAI Astra、CAPTCHAを全クリアとは？AI技術の進化を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-14cbbae7.html): OpenAIのAI「Astra」がCAPTCHAの全48ステージに成功し、AIが人間認証を突破できる段階に到達。 (出典: news.infoseek.co.jp / 更新: 2026-09-09 14:53)
 - [求職者がChatGPTで企業選び、採用にも影響する理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-c471b3ae.html): 生成AIに企業選びを相談する求職者が増え、AIの評価が応募や選考辞退を左右する可能性が出てきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:32)
@@ -205,5 +207,3 @@
 - [Gemini Omni 1.1 Flashとは？Google新AI機能の特徴](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-a13e39d4.html): Googleが開発者向けAIモデルをアップデート。より細かい制御が可能に。 (出典: Google DeepMind News / 更新: 2026-09-01 20:48)
 - [AIの評価方法が変わる？Google DeepMindの二重盲検評価とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-ai-d9b2bc36.html): Google DeepMindがAI性能の公正な評価方法として、人間の臨床試験で使われる二重盲検法をAI業界で初めて導入。 (出典: Google DeepMind News / 更新: 2026-09-01 20:48)
 - [米国防総省がChatGPT導入、軍事AI活用とは？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9c952e85.html): 米国防総省がOpenAIのChatGPTをカスタマイズした軍事用モデルを導入。複数のAIが実運用される時代がついに来た。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 17:06)
-- [米国のドローン・ロボット規制とは？中国との競争の行方](https://mot-ai-media.github.io/mot-ai-news/articles/f2a0380f.html): 米国が外国製ドローン・ロボットの締め出しを強化する一方、中国の圧倒的な生産規模が規制の効果を限定させる可能性が指摘されている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 17:06)
-- [AIの主導権とは？ヨーロッパの企業家が議論する制御の課題](https://mot-ai-media.github.io/mot-ai-news/articles/techbbq-ai-aa17eb89.html): AIが急速に進化する中で、人間がAIを制御できるのか、という根本的な問いが欧州で高まっている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 17:06)
