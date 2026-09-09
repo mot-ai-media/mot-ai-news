@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-09 13:28
+最終更新: 2026-09-09 14:32
 
 ## 記事一覧
 
+- [求職者がChatGPTで企業選び、採用にも影響する理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-c471b3ae.html): 生成AIに企業選びを相談する求職者が増え、AIの評価が応募や選考辞退を左右する可能性が出てきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:32)
+- [ローカルLLMとは？100万円PCが注目1位になった理由](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-0dd4da6e.html): 自分のPCで動かすAI「ローカルLLM」が急速に盛り上がり、高価なスパコンが売れ始めている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:31)
+- [AlphaGenome Atlasとは？ゲノム変異予測データベースの意義を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-alphagenome-atlas-fc07b253.html): Google DeepMindが全塩基変異の影響を予測するデータベースを学術向けに無償提供。病気解明が加速する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:31)
+- [Google Workspace Studio使い方｜Geminiで業務自動化、4つの実例](https://mot-ai-media.github.io/mot-ai-news/articles/google-workspace-studio-4d05910e.html): Googleの自動化ツールWorkspace Studioとai・Geminiを組み合わせ、日常業務を効率化する具体的な方法を4つ紹介。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:30)
+- [ローカルLLMのメリット・デメリット。導入コストと価値を解説](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-bbfd0ce9.html): 生成AIを自分のコンピュータで動かすローカルLLMが注目されていますが、実は初期費用が想像以上に高くつく可能性があります。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:30)
 - [Meta Muse AI アシスタント 発表 OpenAI競争](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-726d5689.html): Metaが個人向けAIアシスタント「Muse」を発表。車の売却から飛行機のチケット予約まで、あらゆるタスクを自動化できるAIで、OpenAIやGoogleなど大手AIベンダーとの競争を加速させている。日本ではまだ報道されていないが、今後のAI市場に大きな影響を与える可能性がある。 (出典: The Verge / 更新: 2026-09-09 13:28)
 - [AI活用度が昇進に影響？欧米企業が導入する新しい人事評価の実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-75538fdf.html): 欧米の企業で、従業員がAIをどの程度仕事に活用しているかを昇進や昇給の判断基準に組み込む動きが広がっている。効率化の推進と公平性のジレンマが浮き彫りになっている。 (出典: BBC / 更新: 2026-09-09 13:28)
 - [Arm新プロダクト3種発表とは？モバイルとAI向けの新ソリューション](https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-ec0074b0.html): Armがモバイル、AIインフラ、ロボット向けの3つの新製品を発表。スマホからAI機器まで幅広い領域に対応。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 13:26)
@@ -202,8 +207,3 @@
 - [AIの主導権とは？ヨーロッパの企業家が議論する制御の課題](https://mot-ai-media.github.io/mot-ai-news/articles/techbbq-ai-aa17eb89.html): AIが急速に進化する中で、人間がAIを制御できるのか、という根本的な問いが欧州で高まっている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 17:06)
 - [OpenAIがカリフォルニア州の青少年AI安全法案を支持。何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0703988e.html): OpenAIがカリフォルニア州の青少年向けAI安全規制法案を支持。教育・創作活動は守りながら、有害な影響から保護する動き。 (出典: OpenAI News / 更新: 2026-09-01 17:06)
 - [Polimill、日本の自治体向けAIインフラ構築。OpenAIと連携](https://mot-ai-media.github.io/mot-ai-news/articles/polimill-openai-7bc34157.html): 日本の自治体向けにAIを活用した行政知識検索システムが登場。業務効率化が加速する。 (出典: OpenAI News / 更新: 2026-09-01 17:06)
-- [警察官向けAI「Blue Voice」とは？部門別法令対応のAIエージェント](https://mot-ai-media.github.io/mot-ai-news/articles/blue-voice-ai-84762d7f.html): 一般向けAIには学べない警察特有の法令・規則に特化した専門AIが資金調達。ChatGPTとは異なるアプローチが広がる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
-- [Clipto(クリプト)とは？動画検索AI企業、250M評価で急成長](https://mot-ai-media.github.io/mot-ai-news/articles/clipto-ai-09c8fe5e.html): 膨大な動画から必要な映像を瞬時に見つけるAIスタートアップが、黒字化した状態で大型資金調達を実現。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
-- [Nvidiaが35億ドル投資する理由。AI チップ市場の構図が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-mediatek-3f983827.html): Nvidiaが台湾のMediaTekに巨額投資。Big Techが独自AI チップを開発する動きに対し、戦略的に対抗する狙い。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
-- [Circlebackとは？会議記録AIが無料版・料金体系変更を発表](https://mot-ai-media.github.io/mot-ai-news/articles/circleback-ai-121993fc.html): 会議を自動記録するAI「Circleback」が無料版を導入し、有料プランは月14ドルからの新価格体系に移行。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:59)
-- [Instagram AI influencer規制とは？未表示プロフィールの今後](https://mot-ai-media.github.io/mot-ai-news/articles/instagram-ai-influencer-5714bb72.html): Instagramが、正体を隠したAIアカウントのリーチを制限する施策を開始した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:58)

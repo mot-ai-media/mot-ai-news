@@ -1192,7 +1192,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/ait/articles/2609/04/cover_news045.jpg",
     "generated_at": "2026-09-04 14:32",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1250,7 +1250,10 @@
         "x_post": "2026年10月法制化に向けて、企業は今から対策準備。導入ツール選択、運用体制整備、新しいコスト計画。働く側も職場の動きをキャッチしておくと、スムーズな移行ができます。",
         "cta": "企業の実装課題と準備スケジュール"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18052931471800921",
+    "published_at": "2026-09-09T13:28:52"
   },
   "ai-645daa2d": {
     "headline": "AIがコード書く時代、開発者の仕事が激変。弥生とビル・ゲイツが示す「人間の役割」",

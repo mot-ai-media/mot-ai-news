@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPTに会社を選ばせる求職者、企業の採用が「AI評価」に左右される時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-c471b3ae.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-c471b3ae.html</guid>
+    <description>生成AIに企業選びを相談する求職者が増え、AIの評価が応募や選考辞退を左右する可能性が出てきた。</description>
+    <pubDate>Wed, 09 Sep 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google DeepMind、90億通りのゲノム変異を一括予測。医学研究の革新へ無償公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-alphagenome-atlas-fc07b253.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-alphagenome-atlas-fc07b253.html</guid>
+    <description>Google DeepMindが全塩基変異の影響を予測するデータベースを学術向けに無償提供。病気解明が加速する。</description>
+    <pubDate>Wed, 09 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>100万円のAIスパコンが急上昇。「ローカルLLM」ブームを生んだ3つの条件</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-0dd4da6e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-0dd4da6e.html</guid>
+    <description>自分のPCで動かすAI「ローカルLLM」が急速に盛り上がり、高価なスパコンが売れ始めている。</description>
+    <pubDate>Wed, 09 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ローカルLLM、無料でも意外に高い。企業と個人が導入する本当の理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-bbfd0ce9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-bbfd0ce9.html</guid>
+    <description>生成AIを自分のコンピュータで動かすローカルLLMが注目されていますが、実は初期費用が想像以上に高くつく可能性があります。</description>
+    <pubDate>Wed, 09 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google Workspace Studio×Gemini、AIで仕事そのものを自動化。4つの実例から見える業務激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-workspace-studio-4d05910e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-workspace-studio-4d05910e.html</guid>
+    <description>Googleの自動化ツールWorkspace Studioとai・Geminiを組み合わせ、日常業務を効率化する具体的な方法を4つ紹介。</description>
+    <pubDate>Wed, 09 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>昇進・昇給、AIの使い方で決まる時代へ。海外企業が人事評価に組み込み始めた</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-75538fdf.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-75538fdf.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html</guid>
     <description>OpenAIが新型AIモデル「GPT-6 Astra」を発表。次世代AIの機能拡張が進む。</description>
     <pubDate>Tue, 08 Sep 2026 10:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>JTP、最新AI「GPT-6 Astra」対応を発表。企業向けAI活用が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/jtp-third-ai-da3eddc4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/jtp-third-ai-da3eddc4.html</guid>
-    <description>JTPが企業向けのAIソリューションを最新モデルに対応させ、より高度なAI機能の導入が可能に。</description>
-    <pubDate>Tue, 08 Sep 2026 10:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの最新モデル「GPT-6 Astra」、最高レベルのサイバーセキュリティ能力を獲得</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-2e155b11.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-2e155b11.html</guid>
-    <description>OpenAIが次世代モデルGPT-6 Astraを発表。企業利用に不可欠なセキュリティ対策が大幅強化。</description>
-    <pubDate>Tue, 08 Sep 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、最新AI「GPT-6 Astra」を発表。コンピュータ操作から研究まで全領域で進化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-0f3b76bc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-0f3b76bc.html</guid>
-    <description>OpenAIが新世代AI「GPT-6 Astra」を発表。PC操作やコード生成、セキュリティ対応で大幅に進化。</description>
-    <pubDate>Tue, 08 Sep 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI用語が急増、初心者は置き去り。最低限知るべき重要キーワード集</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bbd44de7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bbd44de7.html</guid>
-    <description>AI業界に次々生まれる新しい用語。初心者が押さえるべき基本キーワードをまとめた。</description>
-    <pubDate>Tue, 08 Sep 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、AIエージェント導入で研究加速も安全性の壁に直面。自発的減速を表明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-16ea0017.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-16ea0017.html</guid>
-    <description>OpenAIが研究加速の実態と直面する安全課題を公開。規制確立まで自発的に減速する姿勢を示した。</description>
-    <pubDate>Tue, 08 Sep 2026 07:00:00 +0900</pubDate>
   </item>
 </channel></rss>
