@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Appleが初の折りたたみiPhone投入へ。AI強化版Siriも搭載で、スマートフォンの「次の波」が現実に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-duo-243ee489.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-duo-243ee489.html</guid>
+    <description>Appleが9月のイベントで初めての折りたたみiPhone「iPhone Duo」を発表。同時に新型iPhone 18 Proも登場し、AIを強化したSiriなど複数の機能更新が行われた。スマートフォン業界の10年ぶりのパラダイムシフトが始まろうとしている。</description>
+    <pubDate>Thu, 10 Sep 2026 04:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ウォール街のヘッジファンドが全AI化へ—人間の社員を置かない運用体制がついに誕生</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-45037722.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-45037722.html</guid>
+    <description>米ウォール街で、AIエージェント（自動判断するAI）のみで企業運営を行うヘッジファンドマネージャーが登場。金融業界でAIの導入限界を探る実験が活発化する中、人間の雇用に依存しない投資ファンド運営という新しい形態が現実化しつつある。</description>
+    <pubDate>Thu, 10 Sep 2026 04:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPT-6 Astra対応、法人向けAI「ChatSense」が実装へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-gpt-6-astra-bf15ae7c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-gpt-6-astra-bf15ae7c.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-ec0074b0.html</guid>
     <description>Armがモバイル、AIインフラ、ロボット向けの3つの新製品を発表。スマホからAI機器まで幅広い領域に対応。</description>
     <pubDate>Wed, 09 Sep 2026 13:26:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、画像編集が大幅進化。手書き下絵から自動清書、処理速度も50％高速化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-5fe95257.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-5fe95257.html</guid>
-    <description>OpenAIが画像生成AI「ChatGPT Images 2.5」発表。部分編集の精度向上と処理速度の大幅改善で、より直感的に使えるように。</description>
-    <pubDate>Wed, 09 Sep 2026 13:25:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic研究者が退社、超知能開発競争で「来年末に制御不能」と警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-a7907fb1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-a7907fb1.html</guid>
-    <description>AI大手の開発競争が安全性を軽視し、制御不可能なAIが誕生する恐れがあると専門家が指摘。</description>
-    <pubDate>Wed, 09 Sep 2026 13:24:00 +0900</pubDate>
   </item>
 </channel></rss>

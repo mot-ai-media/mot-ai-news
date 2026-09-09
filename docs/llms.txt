@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-10 02:53
+最終更新: 2026-09-10 04:28
 
 ## 記事一覧
 
+- [iPhone Duo折りたたみ iPhone 18 Pro Siri AI Apple 2024新製品](https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-duo-243ee489.html): Appleが9月のイベントで初めての折りたたみiPhone「iPhone Duo」を発表。同時に新型iPhone 18 Proも登場し、AIを強化したSiriなど複数の機能更新が行われた。スマートフォン業界の10年ぶりのパラダイムシフトが始まろうとしている。 (出典: WIRED / 更新: 2026-09-10 04:28)
+- [ヘッジファンドAI化 AIエージェント完全運用 ウォール街の衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/ai-45037722.html): 米ウォール街で、AIエージェント（自動判断するAI）のみで企業運営を行うヘッジファンドマネージャーが登場。金融業界でAIの導入限界を探る実験が活発化する中、人間の雇用に依存しない投資ファンド運営という新しい形態が現実化しつつある。 (出典: CNBC / 更新: 2026-09-10 04:27)
 - [ChatSenseとは？GPT-6 Astra対応の法人向け生成AI](https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-gpt-6-astra-bf15ae7c.html): 最新のOpenAIモデルに対応した法人向けAIツールが登場。ビジネスの現場で本格活用が進みそう。 (出典: ニコニコニュース / 更新: 2026-09-10 02:53)
 - [CoreWeave CEO AI急速普及への社会的不安を指摘、技術と社会の乖離が課題に](https://mot-ai-media.github.io/mot-ai-news/articles/coreweave-ai-380243be.html): AI基盤インフラを手がけるCoreWeaveのCEOが、AIの急速な普及に対する社会の不安と困惑が深まっていると指摘。技術の進展速度と人間の適応能力のギャップが、AI産業全体への公的な反発を招いているという見方を示しました。 (出典: CNBC / 更新: 2026-09-10 01:28)
 - [Cegid・Silae統合、Silver Lake投資1000億ユーロ規模のAI×経営ソフト戦略](https://mot-ai-media.github.io/mot-ai-news/articles/cegid-silver-lake-78136219.html): 投資ファンド・Silver Lakeが、フランスの経営管理ソフト大手Cegidとペイロール・HR基盤のSilaeを統合する1000億ユーロ規模のディールを発表。AI時代への対応をにらんだ大型M&Aで、欧州の企業向けソフトウェア市場に大きな変化をもたらそうとしている。 (出典: CNBC / 更新: 2026-09-10 01:28)
@@ -205,5 +207,3 @@
 - [AIエージェントの活用方法・使い方とは？業務別シーン10選を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57d58ac.html): 経営層からの「AIエージェント導入」指示に戸惑う担当者へ向け、実際の業務適用例と定着化の具体的な進め方を提示。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-02 07:14)
 - [AfterQuery、Y Combinatorで過去最速ユニコーンに：評価額32億ドル](https://mot-ai-media.github.io/mot-ai-news/articles/afterquery-y-combinator-79fb6f58.html): AI開発企業AfterQueryが5ヶ月で評価額を11倍に膨らませ、Y Combinatorで最速のユニコーン達成。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 07:14)
 - [OpenAI新モデルAstraとは？セキュリティリスクと対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-a4eeed34.html): OpenAIが開発する新AI「Astra」がコンピューター侵害に優れた能力を持つため、セキュリティ対策を強化する方針を明かした。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 07:14)
-- [Mac miniが買い占められた理由とは？AIのGUI操作学習](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-9a6fd152.html): OpenAIやAnthropicがMac miniを大量調達。AIに画面操作を学ばせるためで、GUIの複雑さが技術的な課題を生んでいる。 (出典: AIタグが付けられた新着記事 - Qiita / 更新: 2026-09-01 22:02)
-- [Google Gemini 3.6 Flash・3.5 Flash-Lite とは。新モデルの違い・性能解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-edd884e3.html): GoogleがGeminiの新バージョンを複数発表。より高速で安価なAIモデルでChatGPTとの競争が激化。 (出典: Google DeepMind News / 更新: 2026-09-01 22:01)
