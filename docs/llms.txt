@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-09 07:01
+最終更新: 2026-09-09 13:26
 
 ## 記事一覧
 
+- [Arm新プロダクト3種発表とは？モバイルとAI向けの新ソリューション](https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-ec0074b0.html): Armがモバイル、AIインフラ、ロボット向けの3つの新製品を発表。スマホからAI機器まで幅広い領域に対応。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 13:26)
+- [AIエージェントのセキュリティとは？NVIDIA等が業界ガイドライン策定](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-linux-foundation-0c1cf251.html): AIエージェント型システムのセキュリティ脅威に対応するため、Linux Foundationが業界ガイドラインを策定開始。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 13:26)
+- [SAP認定試験がAI利用OK・実践型に変更。何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/sap-ai-30f9faff.html): 30年続くSAP認定試験が知識型から実践型へシフト。一部ではAI利用も認める新時代へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 13:26)
+- [ChatGPT Images 2.5とは？新機能・できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-5fe95257.html): OpenAIが画像生成AI「ChatGPT Images 2.5」発表。部分編集の精度向上と処理速度の大幅改善で、より直感的に使えるように。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 13:25)
+- [Anthropic研究者が退社・警告｜超知能開発競争の危険性とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-a7907fb1.html): AI大手の開発競争が安全性を軽視し、制御不可能なAIが誕生する恐れがあると専門家が指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 13:24)
 - [日立のフィジカルAIとは？社長メッセージの意図を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b99c5ec9.html): 日立製作所の徳永社長がフィジカルAIについて講演。社員の心を揺さぶるトップメッセージの真意に迫る。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 07:01)
 - [GPT-6 Astraとは？OpenAIの最新AIモデルの能力と特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-19f57aa0.html): OpenAIが次世代AI「GPT-6 Astra」を発表。PC操作やプログラミング、セキュリティ検証の能力が大幅向上。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 07:01)
 - [ロボット救急車とは？GMOが導入する修理サービスの仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/gmo-a4d24dde.html): GMOが人型ロボットの故障対応を専門とする救急車を導入。診断から修理まで対応。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 07:01)
@@ -202,8 +207,3 @@
 - [Instagram AI influencer規制とは？未表示プロフィールの今後](https://mot-ai-media.github.io/mot-ai-news/articles/instagram-ai-influencer-5714bb72.html): Instagramが、正体を隠したAIアカウントのリーチを制限する施策を開始した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:58)
 - [米国防総省がChatGPT・Grok導入、政府AIツール戦略とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-bb1d02ab.html): 米国防総省がOpenAIのChatGPTとSpaceXのGrokを中央ポータルに統合し、Geminiと並ぶ公式AIツールとして採用。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:45)
 - [三菱ケミカルの新材料とは？温めると縮む半導体材料がAI時代の課題を解決](https://mot-ai-media.github.io/mot-ai-news/articles/f4b25a56.html): 三菱ケミカルが半導体の熱問題を解決する新材料を開発。AI時代に無視できない課題に光明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 16:44)
-- [ハーネスエンジニアリングとは？LLM導入で生産性が上がらない理由](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-c56fdd9f.html): LLM導入しても生産性が上がらない企業が直面する課題に対し、先行企業が推奨するのは「ハーネスエンジニアリング」という新しいアプローチ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 16:44)
-- [ChatGPT Business新プラン、Claude・Cursorとの料金・機能比較](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e6ba5bab.html): OpenAIがChatGPT Businessで上位シートを提供開始。企業向けAIツール3社がそろって段階的な料金体系を整備し、AI活用が実務レベルに進む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 16:44)
-- [Apple元社員がOpenAIにデータ流出？企業機密盗難の衝撃事件の真相](https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-71ebe41f.html): Appleが元従業員によるデータ盗難疑惑を公表し、調査開始後に証拠隠滅した可能性を指摘。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-01 16:44)
-- [生成AI画像がキショいと感じる理由とは？違和感の正体を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bdb95bf6.html): SNSで相次ぐ生成AI画像の炎上。その根底にある消費者の違和感の正体を、危機管理広報の専門家が分析。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 14:41)
-- [AIに人生相談した結果、幸福度が上がらない理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-2fdbb2bb.html): AIの助言に従う人は多いが、実際には心身の健康改善には繋がらない可能性が研究で明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-01 14:41)

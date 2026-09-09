@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>SAP認定試験、AIの利用OK・実践型へ大転換。30年の歴史で求めるものが変わった</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sap-ai-30f9faff.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sap-ai-30f9faff.html</guid>
+    <description>30年続くSAP認定試験が知識型から実践型へシフト。一部ではAI利用も認める新時代へ。</description>
+    <pubDate>Wed, 09 Sep 2026 13:26:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント時代、セキュリティ対策が急務。業界統一ガイドラインが始動</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-linux-foundation-0c1cf251.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-linux-foundation-0c1cf251.html</guid>
+    <description>AIエージェント型システムのセキュリティ脅威に対応するため、Linux Foundationが業界ガイドラインを策定開始。</description>
+    <pubDate>Wed, 09 Sep 2026 13:26:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Arm、モバイルからAIまで一気対応。3つの新プロダクト発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-ec0074b0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-ec0074b0.html</guid>
+    <description>Armがモバイル、AIインフラ、ロボット向けの3つの新製品を発表。スマホからAI機器まで幅広い領域に対応。</description>
+    <pubDate>Wed, 09 Sep 2026 13:26:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、画像編集が大幅進化。手書き下絵から自動清書、処理速度も50％高速化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-5fe95257.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-5fe95257.html</guid>
+    <description>OpenAIが画像生成AI「ChatGPT Images 2.5」発表。部分編集の精度向上と処理速度の大幅改善で、より直感的に使えるように。</description>
+    <pubDate>Wed, 09 Sep 2026 13:25:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic研究者が退社、超知能開発競争で「来年末に制御不能」と警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-a7907fb1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-a7907fb1.html</guid>
+    <description>AI大手の開発競争が安全性を軽視し、制御不可能なAIが誕生する恐れがあると専門家が指摘。</description>
+    <pubDate>Wed, 09 Sep 2026 13:24:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ロボット向け「救急車」登場、故障対応を一元化　GMO初導入</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-a4d24dde.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-a4d24dde.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-claude-3bf8effa.html</guid>
     <description>AWSがAIモデル「Claude」の最新バージョンをクラウドサービスで利用可能に。同時に次世代OSのプレビュー版も発表。</description>
     <pubDate>Tue, 08 Sep 2026 02:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>地下に眠る「ゼロカーボン燃料」、世界中で採掘ラッシュが始まった</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/77fe4c24.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/77fe4c24.html</guid>
-    <description>世界中でクリーンエネルギーへの転換が急速に進む中、地中深くに存在する天然の水素ガスに注目が集まっている。複数の探鉱企業が地下水素の大規模採掘を目指す動きを活発化させており、従来の化石燃料に代わるゼロカーボン燃料源として期待が高まっている。</description>
-    <pubDate>Tue, 08 Sep 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領がAI生成画像を投稿、「数千億ドルの株式利益を米国にもたらした」と主張</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-truth-social-591aaeb9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-truth-social-591aaeb9.html</guid>
-    <description>米大統領ドナルド・トランプが、AIで生成された画像を複数投稿しながら、自身の経済政策が数千億ドルの株式利益をもたらしたと主張。検証されていない発言だが、政治家がAIツールを自在に使いこなし、市場心理に働きかける新しい時代が現実化している。</description>
-    <pubDate>Tue, 08 Sep 2026 01:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>故ドリー・パートンの遺族が警告、偽AI動画が殺到で「デジタル冒涜」の危機</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-49fa1c64.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-49fa1c64.html</guid>
-    <description>カントリー音楽の大スター・ドリー・パートン氏の死去後、AIで作られた本人になりすましの動画や曲が数十件もネット上に溢れた。遺族がプラットフォーム企業に対し、こうした『AI生成ゴミ』を削除するよう訴える事態に。一般人の誰もが被害者になる可能性を示すケースとして、海外で注視されている。</description>
-    <pubDate>Mon, 07 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの最高科学者が警告「誰もAIの結末に備えられていない」—GPT-6 Astra発表時に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-348801b6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-348801b6.html</guid>
-    <description>OpenAIが最新AI「GPT-6 Astra」をリリースする中、同社の最高科学者が衝撃的な警告を発出。AIの急速な発展がもたらす影響に対して、誰も十分な対策や心構えができていないという指摘は、業界内外で大きな反響を呼んでいる。</description>
-    <pubDate>Mon, 07 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIがウクライナのジャーナリズムを支援、AI活用で報道機関の独立性強化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html</guid>
-    <description>OpenAIがウクライナのニュース組織向けにAI活用プログラムを開始し、報道機関のイノベーションと独立性を強化する取り組みが本格化。</description>
-    <pubDate>Mon, 07 Sep 2026 22:02:00 +0900</pubDate>
   </item>
 </channel></rss>

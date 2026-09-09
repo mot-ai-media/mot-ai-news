@@ -2074,7 +2074,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/enterprise/articles/2609/07/cover_news043.jpg",
     "generated_at": "2026-09-08 07:00",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -2132,7 +2132,10 @@
         "x_post": "新技術の導入を検討してますか？Gartnerのハイプ・サイクルで『過度な期待』段階にある技術は、実現に時間がかかることが多い。話題だけで飛びつくと期待と現実のギャップで失敗する。判断材料を持つことが仕事の質を変えます。",
         "cta": "導入判断に活かせる情報をチェック"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17927998944166322",
+    "published_at": "2026-09-09T07:01:40"
   },
   "nvidia-hugging-face-31b46744": {
     "headline": "129億ドル買収で業界地震。Nvidiaが「AI開発の民主化」プラットフォームを傘下に",
