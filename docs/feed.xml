@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Meta、児童虐待広告の規制逃れで米当局が警告——AIフィルターの限界が露呈</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html</guid>
+    <description>サンフランシスコの市当局がMetaに対し、児童虐待に関連した有害広告がFacebookとInstagramで繰り返し配信されていることについて説明を求めた。Metaは当該広告が市の管轄外だと主張している。</description>
+    <pubDate>Thu, 10 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic研究者が「人類の転換点」と警告——AI安全化は数年で決まる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-327a25dd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-327a25dd.html</guid>
+    <description>AI企業Anthropicの研究者が退職し、同社内の大型開発プロジェクトの実態とAI安全化の緊急性を指摘。業界には数年以内にシステムを安全にする必要があると主張し、海外で大きな反響を呼んでいます。</description>
+    <pubDate>Thu, 10 Sep 2026 13:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude 3.5 Fable、100万トークン対応・キャッシュ料金75%削減で全面刷新</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-0ffcb38e.html</guid>
     <description>採用業務の大半をAIが代行。採用担当者は戦略立案に注力できるように。</description>
     <pubDate>Wed, 09 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>攻撃者は全員AIを使用、6時間で数千件侵害も。Googleが報告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-7ecc1967.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-7ecc1967.html</guid>
-    <description>Googleの脅威分析部門が、攻撃者による急速なAI活用を報告。認証情報が6時間で数千件侵害される事例も確認。</description>
-    <pubDate>Wed, 09 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT有料版の新規受付、一時停止の可能性。GPT-6 Astraの需要に対応できず</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1e16aee3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1e16aee3.html</guid>
-    <description>OpenAIの新モデルGPT-6 Astraの需要急増で、ChatGPT Proプラン新規登録の一時停止を検討。</description>
-    <pubDate>Wed, 09 Sep 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>

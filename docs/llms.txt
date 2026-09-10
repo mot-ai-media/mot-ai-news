@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-10 12:53
+最終更新: 2026-09-10 13:28
 
 ## 記事一覧
 
+- [Meta Facebook Instagram児童虐待広告 サンフランシスコ市当局指摘](https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html): サンフランシスコの市当局がMetaに対し、児童虐待に関連した有害広告がFacebookとInstagramで繰り返し配信されていることについて説明を求めた。Metaは当該広告が市の管轄外だと主張している。 (出典: WIRED / 更新: 2026-09-10 13:28)
+- [Anthropic研究者が退職・警告｜AI安全性の問題と「残された時間」](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-327a25dd.html): AI企業Anthropicの研究者が退職し、同社内の大型開発プロジェクトの実態とAI安全化の緊急性を指摘。業界には数年以内にシステムを安全にする必要があると主張し、海外で大きな反響を呼んでいます。 (出典: WIRED / 更新: 2026-09-10 13:27)
 - [Claude 3.5 Fableとは？100万トークン対応・料金改定の最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html): Anthropicが高性能AI「Claude 3.5 Fable」を一般提供。処理できるテキスト量が大幅増で、キャッシュ利用料も大幅値下げ。 (出典: BRIDGE（ブリッジ） / 更新: 2026-09-10 12:53)
 - [Listen Labs、メンロベンチャーズの資金調達をキャンセル。理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/listen-labs-salesforce-c1f34cbe.html): AIスタートアップが確定していた大型資金を手放し、別の買収・提携交渉を進める判断。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 11:02)
 - [OpenAIがAI安全研究者ポール・クリスチアーノを経営陣に迎える理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-2d263311.html): AI企業OpenAIが、AI安全性の研究で知られるポール・クリスチアーノを経営陣に招く。AIの安全性を重視する姿勢の表れ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 11:02)
@@ -205,5 +207,3 @@
 - [AIエージェント制御ツールAIRとは？企業向けセキュリティの新常識](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-18476908.html): 企業内のAIエージェントを監視・制御する新サービスが資金調達、組織内のAI暴走防止が急務に。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 15:08)
 - [年齢と原付事故の相関とは？ベイズ統計で調べる方法](https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html): 「若い人のバイク運転は危ない」という思い込みが本当かどうか、データ分析で検証する手法を学べます。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:02)
 - [AIメガネで声を失った患者が会話できる仕組みとは。CommunicationBoard+AIの実例](https://mot-ai-media.github.io/mot-ai-news/articles/communicationboard-ai-ai-b4ef8e10.html): 脳梗塞で話せなくなった患者も、AIとスマートグラスで意思疎通が可能に。医療現場が大きく変わろうとしている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
-- [3D CADとAIで椅子をデザイン、設計スキルを上げる方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-ec98b752.html): 設計者向けの学習コンテンツで、AIと3D CADツールを使った椅子デザインに挑戦する実践例を紹介。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
-- [AIコーディングツール導入で何が問題？企業の生産性低下リスク](https://mot-ai-media.github.io/mot-ai-news/articles/ai-37c638ec.html): コード作成が高速化しても、組織全体の成果につながらない企業が増加。AI活用の本当の課題が明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
