@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Appleが「常時リスニング」AI機能の隠蔽プラン公開──プライバシー懸念に対抗</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-d6f0852f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-d6f0852f.html</guid>
+    <description>Appleが新型iPhone発表時に、周囲の音を常に監視する新しいAI機能を発表。同時にプライバシー保護の仕組みを詳細に説明した公式文書を公開し、ユーザーの懸念に先制対応している。</description>
+    <pubDate>Thu, 10 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが医療現場に急速浸透、英国が法整備に着手——医療用AIの規制枠組みが急務に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-mhra-a5aa1950.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-mhra-a5aa1950.html</guid>
+    <description>イギリスの医薬品規制当局が、AI技術がNHS（国民保健サービス）で日常的に使われるようになることを見据え、新たな法律の整備が必要だと警告。医療現場でのAI利用が急速に進む一方、適切な規制の枠組みが存在しないという課題が浮き彫りになった。</description>
+    <pubDate>Thu, 10 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude次世代版、10月初旬に新たな学習か—Anthropicが極秘開発</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b67b695.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b67b695.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-14cbbae7.html</guid>
     <description>OpenAIのAI「Astra」がCAPTCHAの全48ステージに成功し、AIが人間認証を突破できる段階に到達。</description>
     <pubDate>Wed, 09 Sep 2026 14:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTに会社を選ばせる求職者、企業の採用が「AI評価」に左右される時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-c471b3ae.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-c471b3ae.html</guid>
-    <description>生成AIに企業選びを相談する求職者が増え、AIの評価が応募や選考辞退を左右する可能性が出てきた。</description>
-    <pubDate>Wed, 09 Sep 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google DeepMind、90億通りのゲノム変異を一括予測。医学研究の革新へ無償公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-alphagenome-atlas-fc07b253.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-alphagenome-atlas-fc07b253.html</guid>
-    <description>Google DeepMindが全塩基変異の影響を予測するデータベースを学術向けに無償提供。病気解明が加速する。</description>
-    <pubDate>Wed, 09 Sep 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-10 08:53
+最終更新: 2026-09-10 10:28
 
 ## 記事一覧
 
+- [医療AI、英国が新法立案へ。NHSでAI導入加速、規制の空白が問題に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-mhra-a5aa1950.html): イギリスの医薬品規制当局が、AI技術がNHS（国民保健サービス）で日常的に使われるようになることを見据え、新たな法律の整備が必要だと警告。医療現場でのAI利用が急速に進む一方、適切な規制の枠組みが存在しないという課題が浮き彫りになった。 (出典: BBC / 更新: 2026-09-10 10:28)
+- [Apple新型iPhoneのAI音声認識機能、プライバシー保護の仕組みを公式説明](https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-d6f0852f.html): Appleが新型iPhone発表時に、周囲の音を常に監視する新しいAI機能を発表。同時にプライバシー保護の仕組みを詳細に説明した公式文書を公開し、ユーザーの懸念に先制対応している。 (出典: The Verge / 更新: 2026-09-10 10:28)
 - [Claude Fable 5.2とは？リーク情報と10月の動き解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b67b695.html): Anthropicの次期Claude「Fable 5.2」の開発情報がリーク。10月初旬の新たな学習計画が明らかに。 (出典: Pasquale Pillitteri / 更新: 2026-09-10 08:53)
 - [OpenAI ミレニアム懸賞問題 数学 AI](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-24370557.html): OpenAIが火曜日に発表した数学の難問解決は、AIの急速な進化を示す成果である一方、従来の学術的価値観に複雑な疑問を投げかけている。 (出典: The Verge / 更新: 2026-09-10 07:28)
 - [Suno v6 AI音楽モデル 音楽業界提携 著作権 新学習データ](https://mot-ai-media.github.io/mot-ai-news/articles/suno-ai-6e51b045.html): AI音楽生成企業Sunoが、レコード業界と協力して開発した新モデル「v6」をリリース。過去のモデルとは異なるライセンス済みデータで学習させた初の試みで、音楽業界との対立構図から協調へと大きく舵を切った。 (出典: The Verge / 更新: 2026-09-10 07:27)
@@ -205,5 +207,3 @@
 - [Anthropic Enterprise Frontier Safeguards とは？企業向けプライバシー機能](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c03690d1.html): Anthropicが企業向けAIの新機能を発表。社員のチャット履歴を外部に送らず、社内で安全管理できる仕組みが秋に登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:31)
 - [Meta音声認識AI「Muse Voice Transcribe」とは？多言語対応・話者識別機能](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-d0ec68a3.html): Metaが複数話者を識別できるリアルタイム音声認識モデルを発表。会議録音や多言語対応で活躍の場が広がる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:30)
 - [AIOpsで運用業務は軽くなったのに、新たな負担が発生する理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/aiops-ai-8a77c941.html): AI導入で一部業務は効率化されても、別の新しい仕事が生まれ、現場の9割が負担を感じている実態が判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:30)
-- [Claude利用制限リセット、Fable 5.1とは？Anthropic新展開](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b36db701.html): AnthropicがClaudeの使用制限をリセット。新モデル「Fable 5.1」のリリースが背景。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 13:23)
-- [Dyson CameraJet発表、AI搭載電動歯ブラシの価格・機能は？](https://mot-ai-media.github.io/mot-ai-news/articles/dyson-ai-1545f6b1.html): DysonがAIとカメラを搭載した電動歯ブラシ「CameraJet」を発売。自動でフロスを噴射し、歯磨きとフロスが同時にできる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 13:22)
