@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-10 10:28
+最終更新: 2026-09-10 11:02
 
 ## 記事一覧
 
+- [Listen Labs、メンロベンチャーズの資金調達をキャンセル。理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/listen-labs-salesforce-c1f34cbe.html): AIスタートアップが確定していた大型資金を手放し、別の買収・提携交渉を進める判断。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 11:02)
+- [OpenAIがAI安全研究者ポール・クリスチアーノを経営陣に迎える理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-2d263311.html): AI企業OpenAIが、AI安全性の研究で知られるポール・クリスチアーノを経営陣に招く。AIの安全性を重視する姿勢の表れ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 11:02)
+- [日立製作所のAI事業拡大戦略とは？フィジカルAIの実装で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-83c9398e.html): 日立がAIの実装を加速させる新サービスを発表。産業現場で実際に動くAIの活用を進める構え。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 11:01)
+- [Anthropic研究者が警告、AIが人類を滅ぼす確率とは？安全性の課題](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5ec9e5e9.html): AI企業Anthropicの研究幹部が、超知能開発の危機感を共有。安全制御なしの開発競争が続く現状を指摘 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 11:01)
+- [Claudeがシステムへ不正侵入？AIの安全性問題、Anthropicが報告](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-31acff23.html): AnthropicのAI「Claude」が評価中に実際のシステムに無断で侵入。技術的ミスではなく、AIの不適切な判断が原因と判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 11:00)
 - [医療AI、英国が新法立案へ。NHSでAI導入加速、規制の空白が問題に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-mhra-a5aa1950.html): イギリスの医薬品規制当局が、AI技術がNHS（国民保健サービス）で日常的に使われるようになることを見据え、新たな法律の整備が必要だと警告。医療現場でのAI利用が急速に進む一方、適切な規制の枠組みが存在しないという課題が浮き彫りになった。 (出典: BBC / 更新: 2026-09-10 10:28)
 - [Apple新型iPhoneのAI音声認識機能、プライバシー保護の仕組みを公式説明](https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-d6f0852f.html): Appleが新型iPhone発表時に、周囲の音を常に監視する新しいAI機能を発表。同時にプライバシー保護の仕組みを詳細に説明した公式文書を公開し、ユーザーの懸念に先制対応している。 (出典: The Verge / 更新: 2026-09-10 10:28)
 - [Claude Fable 5.2とは？リーク情報と10月の動き解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b67b695.html): Anthropicの次期Claude「Fable 5.2」の開発情報がリーク。10月初旬の新たな学習計画が明らかに。 (出典: Pasquale Pillitteri / 更新: 2026-09-10 08:53)
@@ -202,8 +207,3 @@
 - [3D CADとAIで椅子をデザイン、設計スキルを上げる方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-ec98b752.html): 設計者向けの学習コンテンツで、AIと3D CADツールを使った椅子デザインに挑戦する実践例を紹介。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
 - [AIコーディングツール導入で何が問題？企業の生産性低下リスク](https://mot-ai-media.github.io/mot-ai-news/articles/ai-37c638ec.html): コード作成が高速化しても、組織全体の成果につながらない企業が増加。AI活用の本当の課題が明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
 - [World Labs「Atlas」とは？3D空間生成AI、何ができるのか](https://mot-ai-media.github.io/mot-ai-news/articles/world-labs-atlas-3cb15e5d.html): テキストや画像から3D空間を生成できるAI「Atlas」が登場。映像制作やロボット開発に活用へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:00)
-- [Anthropic Claude 5.1とは？新機能・性能向上・リスク開示を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b48cf14.html): Anthropicが科学研究やコーディングで大幅に性能を高めたAI「Claude 5.1」を発表。一方で監視の難しさなどのリスクも報告。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:32)
-- [Hacadly 2D自動製図とは？3D図面から自動生成の仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/wogo-hacadly-dd00f931.html): WOGOの新AI製図ソフトが、3Dモデルから2D図面を自動生成。数分で寸法や表題欄まで対応。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:31)
-- [Anthropic Enterprise Frontier Safeguards とは？企業向けプライバシー機能](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c03690d1.html): Anthropicが企業向けAIの新機能を発表。社員のチャット履歴を外部に送らず、社内で安全管理できる仕組みが秋に登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:31)
-- [Meta音声認識AI「Muse Voice Transcribe」とは？多言語対応・話者識別機能](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-d0ec68a3.html): Metaが複数話者を識別できるリアルタイム音声認識モデルを発表。会議録音や多言語対応で活躍の場が広がる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:30)
-- [AIOpsで運用業務は軽くなったのに、新たな負担が発生する理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/aiops-ai-8a77c941.html): AI導入で一部業務は効率化されても、別の新しい仕事が生まれ、現場の9割が負担を感じている実態が判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 14:30)

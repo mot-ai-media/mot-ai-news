@@ -2885,7 +2885,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/09/2000001316/10005768/2048",
     "generated_at": "2026-09-09 22:00",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -2943,7 +2943,10 @@
         "x_post": "実務面では、攻撃の自動化・高速化により、企業の検知・対応が間に合わないリスクが急増。セキュリティ体制が追いつかない企業は深刻。個人の対策は限定的だが、組織全体の意識向上が今、必須です。",
         "cta": "職場で今できる対策、MOTで確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18625885711012834",
+    "published_at": "2026-09-10T11:01:34"
   },
   "jim-cramer-ai-33b106ee": {
     "headline": "AI株への過熱投資に警告——著名投資家クレイマーが「次の狙い目」を指摘",
