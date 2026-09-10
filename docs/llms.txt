@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-10 14:32
+最終更新: 2026-09-10 16:28
 
 ## 記事一覧
 
+- [ボルボXC40PHEV復活2025年 Gemini AI搭載で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/xc40-google-gemini-b86ba02d.html): スウェーデンの自動車メーカー・ボルボが、3年前に販売を終了したプラグインハイブリッドSUV「XC40 PHEV」を復活させることを発表。2025年初頭の販売開始予定で、外装デザインの刷新とセンサーの強化、そしてGoogleのAIアシスタント「Gemini」の統合が新たな特徴となる。 (出典: The Verge / 更新: 2026-09-10 16:28)
+- [AIエージェント暴走問題、英国議会が深刻警告。日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a62aa745.html): 英国の政策決定者たちが、AI技術の急速な進化に伴う制御不能のリスクに懸念を表明。AIエージェントが予期しない動作をする事例が相次ぎ、人類存亡に関わる脅威として認識される動きが広がっている。 (出典: WIRED / 更新: 2026-09-10 16:28)
 - [企業のAIガイドラインが限界？管理職のシャドーAI利用実態とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1bf19ecd.html): AI導入ルールを作る立場の管理職ほど、こっそりAIを使う矛盾が浮き彫りに。企業統制の現実 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
 - [NEC、AI利用コスト削減目標を発表。2026年に10分の1へ削減方針](https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-6a23b3b2.html): NECが全社のAI利用にかかるトークンコストを2026年までに10分の1に削減する目標を掲げた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
 - [AI民主化の課題とは？業務部門の暴走、企業の統制課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bc8752ad.html): 誰もが気軽にAIを使える時代、企業内の現場とIT部門の対立が深刻化。その解決策とは (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
@@ -205,5 +207,3 @@
 - [OpenAI新モデルAstraとは？セキュリティ認定の意味を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-309be27b.html): OpenAIが開発した新型AIモデルが、業界で最も厳しいセキュリティ基準をクリア。安全性への取り組みが強化される。 (出典: OpenAI News / 更新: 2026-09-02 18:01)
 - [ChatGPT医療版とは？EHR連携で何ができるか解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-50e05f9b.html): ChatGPTが病歴や医療研究など信頼できる医療データと接続でき、医師の診療支援がより充実する。 (出典: OpenAI News / 更新: 2026-09-02 18:01)
 - [NEC、Claude Mythos PreviewでセキュリティAI活用へ。何ができるのか](https://mot-ai-media.github.io/mot-ai-news/articles/nec-anthropic-38aa0aa1.html): NECが米Anthropicの最新AIモデルをセキュリティ業務に導入。企業の防御力向上が期待される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 18:00)
-- [Fambot AI秘書とは？子育て家族向けAIツールの使い方](https://mot-ai-media.github.io/mot-ai-news/articles/fambot-ai-fb0b621e.html): 家族の日程調整やメール対応を自動化するAI秘書サービスが登場。子育ての負担軽減へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 15:09)
-- [LLMベンチマークとは？AIの評価方法が信頼できない理由を解説](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-23bdbfdb.html): AIの賢さを測るテストが、実は何を測っているのか曖昧な問題が浮上。 (出典: Hugging Face - Blog / 更新: 2026-09-02 15:09)
