@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIが民主化した時代、企業は何に困るのか。現場と統制の衝突を防ぐ覚悟とは</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bc8752ad.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bc8752ad.html</guid>
+    <description>誰もが気軽にAIを使える時代、企業内の現場とIT部門の対立が深刻化。その解決策とは</description>
+    <pubDate>Thu, 10 Sep 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>NEC、AI利用コストを2026年までに10分の1に削減。企業のAI戦略が転換点へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-6a23b3b2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-6a23b3b2.html</guid>
+    <description>NECが全社のAI利用にかかるトークンコストを2026年までに10分の1に削減する目標を掲げた。</description>
+    <pubDate>Thu, 10 Sep 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>管理職ほどAIを隠れて使う—企業のAIルールが機能していない衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1bf19ecd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1bf19ecd.html</guid>
+    <description>AI導入ルールを作る立場の管理職ほど、こっそりAIを使う矛盾が浮き彫りに。企業統制の現実</description>
+    <pubDate>Thu, 10 Sep 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ベテラン開発者の「それ無理」を覆した、新人のたった一つの工夫</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/8d530a91.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/8d530a91.html</guid>
+    <description>組織内の経験差による意見対立を、ちょっとした工夫で解決した新人の事例から学ぶ。</description>
+    <pubDate>Thu, 10 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>企業のAI導入、失敗する理由。PKSHA森下氏が語る「割に合わない」の罠</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/pksha-technology-ai-ac4eec7e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/pksha-technology-ai-ac4eec7e.html</guid>
+    <description>導入しても効果が出ないAI。失敗を避けるためのポイントを、AI業界の専門家に聞いた。</description>
+    <pubDate>Thu, 10 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Meta、児童虐待広告の規制逃れで米当局が警告——AIフィルターの限界が露呈</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-9c416eb6.html</guid>
     <description>OpenAIが発表した新型AIエージェント「Astra」が、企業システム市場の見方を大きく変える可能性を指摘する声が上がっている。</description>
     <pubDate>Wed, 09 Sep 2026 22:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI時代の「縁の下の力持ち」が躍動。Qualcomm・Corningなど部品メーカーが株価上昇</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-corning-ce35bf4c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-corning-ce35bf4c.html</guid>
-    <description>AI需要の急速な拡大に伴い、チップやネットワーク機器などのAI関連インフラを手がけるメーカー企業の株価が上昇。業界の好況が、見えない場所で進んでいる。</description>
-    <pubDate>Wed, 09 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI投資ブームの裏側：英シンクタンク「雇用創出は業界の主張ほど多くない」と警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f26a1453.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f26a1453.html</guid>
-    <description>英国でAIインフラへの大規模投資が進む中、業界の雇用創出予想が過大評価されている可能性が指摘された。シンクタンクの分析は、技術産業全体の就業構造に関する従来の見通しに疑問を投げかけている。</description>
-    <pubDate>Wed, 09 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude有料ユーザー狙い撃ち、ハッカーがトークン盗難する被害相次ぐ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8910eda6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8910eda6.html</guid>
-    <description>AnthropicのAI「Claude」の有料ユーザーが、ハッカーによるアカウント不正アクセスでトークンを盗まれる被害が報告されている。</description>
-    <pubDate>Wed, 09 Sep 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>宇宙工場、SpaceXロケットで実現へ。半導体製造がついに軌道上で始まる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/besxar-spacex-646e8eb9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/besxar-spacex-646e8eb9.html</guid>
-    <description>スタートアップが宇宙での半導体製造に乗り出し、SpaceXロケットで軌道と地上を往復させる新ビジネスモデルを構築。</description>
-    <pubDate>Wed, 09 Sep 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>採用業務、AIが全自動化。スカウトから面接評価まで</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-0ffcb38e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-0ffcb38e.html</guid>
-    <description>採用業務の大半をAIが代行。採用担当者は戦略立案に注力できるように。</description>
-    <pubDate>Wed, 09 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

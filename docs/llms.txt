@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-10 13:28
+最終更新: 2026-09-10 14:32
 
 ## 記事一覧
 
+- [企業のAIガイドラインが限界？管理職のシャドーAI利用実態とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1bf19ecd.html): AI導入ルールを作る立場の管理職ほど、こっそりAIを使う矛盾が浮き彫りに。企業統制の現実 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
+- [NEC、AI利用コスト削減目標を発表。2026年に10分の1へ削減方針](https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-6a23b3b2.html): NECが全社のAI利用にかかるトークンコストを2026年までに10分の1に削減する目標を掲げた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
+- [AI民主化の課題とは？業務部門の暴走、企業の統制課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bc8752ad.html): 誰もが気軽にAIを使える時代、企業内の現場とIT部門の対立が深刻化。その解決策とは (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
+- [AI導入が失敗する理由とは？企業が陥る落とし穴を専門家が解説](https://mot-ai-media.github.io/mot-ai-news/articles/pksha-technology-ai-ac4eec7e.html): 導入しても効果が出ないAI。失敗を避けるためのポイントを、AI業界の専門家に聞いた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:31)
+- [新人提案がベテランに却下される理由と逆転させる方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/8d530a91.html): 組織内の経験差による意見対立を、ちょっとした工夫で解決した新人の事例から学ぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:31)
 - [Meta Facebook Instagram児童虐待広告 サンフランシスコ市当局指摘](https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html): サンフランシスコの市当局がMetaに対し、児童虐待に関連した有害広告がFacebookとInstagramで繰り返し配信されていることについて説明を求めた。Metaは当該広告が市の管轄外だと主張している。 (出典: WIRED / 更新: 2026-09-10 13:28)
 - [Anthropic研究者が退職・警告｜AI安全性の問題と「残された時間」](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-327a25dd.html): AI企業Anthropicの研究者が退職し、同社内の大型開発プロジェクトの実態とAI安全化の緊急性を指摘。業界には数年以内にシステムを安全にする必要があると主張し、海外で大きな反響を呼んでいます。 (出典: WIRED / 更新: 2026-09-10 13:27)
 - [Claude 3.5 Fableとは？100万トークン対応・料金改定の最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html): Anthropicが高性能AI「Claude 3.5 Fable」を一般提供。処理できるテキスト量が大幅増で、キャッシュ利用料も大幅値下げ。 (出典: BRIDGE（ブリッジ） / 更新: 2026-09-10 12:53)
@@ -202,8 +207,3 @@
 - [NEC、Claude Mythos PreviewでセキュリティAI活用へ。何ができるのか](https://mot-ai-media.github.io/mot-ai-news/articles/nec-anthropic-38aa0aa1.html): NECが米Anthropicの最新AIモデルをセキュリティ業務に導入。企業の防御力向上が期待される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 18:00)
 - [Fambot AI秘書とは？子育て家族向けAIツールの使い方](https://mot-ai-media.github.io/mot-ai-news/articles/fambot-ai-fb0b621e.html): 家族の日程調整やメール対応を自動化するAI秘書サービスが登場。子育ての負担軽減へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 15:09)
 - [LLMベンチマークとは？AIの評価方法が信頼できない理由を解説](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-23bdbfdb.html): AIの賢さを測るテストが、実は何を測っているのか曖昧な問題が浮上。 (出典: Hugging Face - Blog / 更新: 2026-09-02 15:09)
-- [Hugging Face Kernelsとは？WebGPUでローカルAI実行を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-webgpu-85562dc1.html): AI企業Hugging Faceが200以上のWebGPUカーネルを公開。パソコンだけでAIを動かす環境が整備された。 (出典: Hugging Face - Blog / 更新: 2026-09-02 15:09)
-- [Google Picsとは？AIで簡単デザイン、Canva対抗ツール](https://mot-ai-media.github.io/mot-ai-news/articles/google-canva-5f4331d8.html): Googleが生成AIを使ったデザインツール「Google Pics」を展開。従来のCanvaやAdobeとは異なり、テキスト指示だけで制作可能。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 15:08)
-- [AIエージェント制御ツールAIRとは？企業向けセキュリティの新常識](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-18476908.html): 企業内のAIエージェントを監視・制御する新サービスが資金調達、組織内のAI暴走防止が急務に。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-02 15:08)
-- [年齢と原付事故の相関とは？ベイズ統計で調べる方法](https://mot-ai-media.github.io/mot-ai-news/articles/python-39abd4d9.html): 「若い人のバイク運転は危ない」という思い込みが本当かどうか、データ分析で検証する手法を学べます。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:02)
-- [AIメガネで声を失った患者が会話できる仕組みとは。CommunicationBoard+AIの実例](https://mot-ai-media.github.io/mot-ai-news/articles/communicationboard-ai-ai-b4ef8e10.html): 脳梗塞で話せなくなった患者も、AIとスマートグラスで意思疎通が可能に。医療現場が大きく変わろうとしている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-02 15:01)
