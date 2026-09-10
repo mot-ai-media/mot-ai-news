@@ -668,5 +668,45 @@
     "japan_relevance_score": 45,
     "reason": "AI生成コード検出は需要あるが、類似ツール存在し、技術的な新規性や社会的インパクトが限定的。",
     "discovered_at": "2026-09-09T22:28:47.282523+00:00"
+  },
+  {
+    "title": "I'm sorry, you're not going to die from an AI-engineered supervirus",
+    "link": "https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from",
+    "source": "Hacker News",
+    "summary": "Article URL: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from\nComments URL: https://news.ycombinator.com/item?id=49636906\nPoints: 66\n# Comments: 92",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "AI生物兵器リスクの反論という観点は目新しいが、バイオセーフティ議論自体は既出であり、日本でも関心層は限定的。",
+    "discovered_at": "2026-09-10T04:28:50.295893+00:00"
+  },
+  {
+    "title": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent",
+    "link": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/\nComments URL: https://news.ycombinator.com/item?id=49636345\nPoints: 174\n# Comments: 6",
+    "novelty_score": 65,
+    "japan_relevance_score": 55,
+    "reason": "AIエージェント名とのハンドル競合は新しい問題だが、個別事例としての汎用性に欠ける。",
+    "discovered_at": "2026-09-10T04:28:52.155546+00:00"
+  },
+  {
+    "title": "Jacob Coxon resignation appears to be a PR stunt for AI regulation",
+    "link": "https://twitter.com/ParkerThayer/status/2097759699626328575",
+    "source": "Hacker News",
+    "summary": "Article URL: https://twitter.com/ParkerThayer/status/2097759699626328575\nComments URL: https://news.ycombinator.com/item?id=49633440\nPoints: 22\n# Comments: 3",
+    "novelty_score": 35,
+    "japan_relevance_score": 28,
+    "reason": "AI規制関連の人事異動は既報が多く、Twitter投稿ソースで情報の検証難度が高い。",
+    "discovered_at": "2026-09-10T04:28:53.824243+00:00"
+  },
+  {
+    "title": "Rock band Muse lose social media handles to Meta’s new AI tool",
+    "link": "https://www.the-independent.com/arts-entertainment/music/news/muse-band-meta-ai-tool-handle-b3047291.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.the-independent.com/arts-entertainment/music/news/muse-band-meta-ai-tool-handle-b3047291.html\nComments URL: https://news.ycombinator.com/item?id=49629382\nPoints: 35\n# Comments: 88",
+    "novelty_score": 45,
+    "japan_relevance_score": 62,
+    "reason": "Meta のAIツールによるハンドル奪取は具体的で注目度は高いが、SNS権利侵害の問題としては既知の課題の延長線。",
+    "discovered_at": "2026-09-10T04:28:55.771326+00:00"
   }
 ]
