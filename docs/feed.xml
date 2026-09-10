@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude 3.5 Fable、100万トークン対応・キャッシュ料金75%削減で全面刷新</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html</guid>
+    <description>Anthropicが高性能AI「Claude 3.5 Fable」を一般提供。処理できるテキスト量が大幅増で、キャッシュ利用料も大幅値下げ。</description>
+    <pubDate>Thu, 10 Sep 2026 12:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、AI安全研究の第一人者をついに経営陣へ。その真意は</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-2d263311.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-2d263311.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1e16aee3.html</guid>
     <description>OpenAIの新モデルGPT-6 Astraの需要急増で、ChatGPT Proプラン新規登録の一時停止を検討。</description>
     <pubDate>Wed, 09 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI株への過熱投資に警告——著名投資家クレイマーが「次の狙い目」を指摘</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/jim-cramer-ai-33b106ee.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/jim-cramer-ai-33b106ee.html</guid>
-    <description>CNBCの著名投資家ジム・クレイマーが、市場全体がAI関連銘柄、特にデータセンター関連企業への投資に集中しすぎていると警告。他の分野に有望な投資機会があると主張し、ポートフォリオの多角化を促している。</description>
-    <pubDate>Wed, 09 Sep 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
