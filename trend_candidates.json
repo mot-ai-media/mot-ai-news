@@ -708,5 +708,55 @@
     "japan_relevance_score": 62,
     "reason": "Meta のAIツールによるハンドル奪取は具体的で注目度は高いが、SNS権利侵害の問題としては既知の課題の延長線。",
     "discovered_at": "2026-09-10T04:28:55.771326+00:00"
+  },
+  {
+    "title": "Who gets to define the rules for AI?",
+    "link": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+    "source": "Hacker News",
+    "summary": "Article URL: https://cohere.com/blog/who-gets-to-define-the-rules-for-ai\nComments URL: https://news.ycombinator.com/item?id=49692118\nPoints: 22\n# Comments: 20",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "AI規制の主導権をめぐる議論は既出だが、日本のAI政策形成において国際的な枠組み理解の需要がある。",
+    "discovered_at": "2026-09-14T07:28:42.605641+00:00"
+  },
+  {
+    "title": "AI is not a normal technology",
+    "link": "https://12gramsofcarbon.com/p/ai-is-not-a-normal-technology",
+    "source": "Hacker News",
+    "summary": "Article URL: https://12gramsofcarbon.com/p/ai-is-not-a-normal-technology\nComments URL: https://news.ycombinator.com/item?id=49690529\nPoints: 32\n# Comments: 63",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AIと通常技術の違いを論じるテーマは既出だが、日本でも規制・倫理議論が急速に高まっており関連性は高い。",
+    "discovered_at": "2026-09-14T07:28:44.334805+00:00"
+  },
+  {
+    "title": "AI Robots – When will they be in our homes",
+    "link": "https://spectrum.ieee.org/ai-robots",
+    "source": "Hacker News",
+    "summary": "Article URL: https://spectrum.ieee.org/ai-robots\nComments URL: https://news.ycombinator.com/item?id=49690411\nPoints: 21\n# Comments: 15",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "家庭用AIロボットの実現時期は繰り返し議論されているが、日本は高齢化対応で関心が高い。",
+    "discovered_at": "2026-09-14T07:28:46.048643+00:00"
+  },
+  {
+    "title": "Open-source AI and open models reading list",
+    "link": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.interconnects.ai/p/open-source-ai-reading-list\nComments URL: https://news.ycombinator.com/item?id=49690260\nPoints: 90\n# Comments: 9",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "オープンソースAIの読書リスト記事で新規性は低いが、日本でも関心高い分野であり技術者向けリソース集として有用。",
+    "discovered_at": "2026-09-14T07:28:48.113529+00:00"
+  },
+  {
+    "title": "“Chilling” warning or overreaction? AI bioweapons report divides experts",
+    "link": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts\nComments URL: https://news.ycombinator.com/item?id=49690139\nPoints: 29\n# Comments: 19",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI×バイオセキュリティは重要だが、既出テーマで専門家間の議論も分かれており、日本での関心は限定的。",
+    "discovered_at": "2026-09-14T07:28:49.990794+00:00"
   }
 ]
