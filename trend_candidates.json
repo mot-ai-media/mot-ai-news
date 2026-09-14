@@ -808,5 +808,55 @@
     "japan_relevance_score": 42,
     "reason": "AI企業の倫理的問題は既出テーマだが、功利主義観点の批判は比較的新しく、国内でも関連議論が拡大中。",
     "discovered_at": "2026-09-14T10:28:52.088381+00:00"
+  },
+  {
+    "title": "What a time to be alive – rouge AI agents attack RubyGems.org",
+    "link": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/\nComments URL: https://news.ycombinator.com/item?id=49695876\nPoints: 53\n# Comments: 49",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AI自動攻撃という新しい脅威がRubyGems等の重要インフラを直撃し、日本の開発環境にも同様のリスク存在。",
+    "discovered_at": "2026-09-14T13:28:45.587752+00:00"
+  },
+  {
+    "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+    "link": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/\nComments URL: https://news.ycombinator.com/item?id=49695409\nPoints: 61\n# Comments: 18",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "Siri AIの置き換え可能性は技術的に興味深いが、Appleの公式機能ではなく具体的な実装方法が不明確。",
+    "discovered_at": "2026-09-14T13:28:47.353839+00:00"
+  },
+  {
+    "title": "Watch AI materials-science and bioscience abilities closely",
+    "link": "https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely\nComments URL: https://news.ycombinator.com/item?id=49694871\nPoints: 35\n# Comments: 32",
+    "novelty_score": 45,
+    "japan_relevance_score": 60,
+    "reason": "AI能力監視の重要性は既出だが、材料科学・バイオ分野への具体的応用リスクは注視対象として妥当。",
+    "discovered_at": "2026-09-14T13:28:49.597039+00:00"
+  },
+  {
+    "title": "Big AI sets out its terms for regulatory capture",
+    "link": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067\nComments URL: https://news.ycombinator.com/item?id=49694596\nPoints: 22\n# Comments: 0",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "大手AI企業の規制対応戦略は既知テーマだが、具体的な業界動向として日本でも参考になる可能性がある。",
+    "discovered_at": "2026-09-14T13:28:51.533935+00:00"
+  },
+  {
+    "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+    "link": "https://github.com/anuj0456/OpenArch",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/anuj0456/OpenArch\nComments URL: https://news.ycombinator.com/item?id=49693384\nPoints: 79\n# Comments: 14",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "PyTorchによるLLMアーキテクチャ実装は既存事例が多く新規性は低いが、LLM技術への関心の高さから日本でも需要がある。",
+    "discovered_at": "2026-09-14T13:28:53.331245+00:00"
   }
 ]
