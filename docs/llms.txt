@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-14 22:02
+最終更新: 2026-09-14 22:28
 
 ## 記事一覧
 
+- [AI企業Anthropic元研究者が懸念表明、AI開発の危機感が業界内に広がる](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html): AI企業Anthropicの元研究者がBBCのインタビューで、開発現場のスタッフが人類の未来に対して真摯な危機感を持っていることを明かした。同社のCEOも技術開発の減速を呼びかけており、AI産業内部からの警告の声が強まっている。 (出典: BBC / 更新: 2026-09-14 22:28)
+- [AI 人類脅威論 BBC 報道 実在する危険性](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-2882773e.html): AIの存在的リスクについて再び注目が集まっている。BBC が報道した「AI が人類に本当にもたらすのか」という根本的な問い。その危機の実態と、現実的な懸念の内容を解説する。 (出典: BBC / 更新: 2026-09-14 22:27)
 - [Gemini Notebookとは？NotebookLMからの変更点・できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html): GoogleのAIツールが資料の読み込みから、データ分析や成果物作成まで対応へ。仕事のあり方が変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:02)
 - [トランプ大統領のAI規制論への反論。中国とのAI競争とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-07a38307.html): 米トランプ大統領がAI規制論に反発し、中国への競争優位性維持を重視する姿勢を示した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
 - [AIエージェント導入の課題とは？実例から見る落とし穴と対策](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f1e9114d.html): 万能型AIエージェントも実装すると問題が続出。実際の導入企業が語った失敗の原因と乗り越え方。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
@@ -205,5 +207,3 @@
 - [Anthropic Claude Fable 5.1・Mythos 5.1とは？性能と料金の変化を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-048a59c0.html): Anthropicが新型AIモデルを発表。科学分野の能力が高まり、利用コストも改善される。 (出典: aismiley.co.jp / 更新: 2026-09-04 06:50)
 - [ChatGPT Atlasが終了。統合される機能と何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d039ad14.html): OpenAIのAIブラウザ「ChatGPT Atlas」が終了。機能はChatGPT本体に統合される。 (出典: OpenAI Help Center / 更新: 2026-09-04 06:03)
 - [Claude Fable 5 vs GPT-5.6 Sol比較、料金・性能どう違う](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21e2816b.html): Anthropicの新型AI「Claude Fable 5」はコーディングと複雑タスクで強いが、利用料金が大幅値上げ。 (出典: Analytics Vidhya / 更新: 2026-09-04 06:03)
-- [ストックマークが生成AIで企業の暗黙知を学習する新サービス](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bb10be6c.html): ストックマークが生成AIを使い、企業内の経験や勘といった暗黙知をAIに学習させる取り組みを開始。 (出典: 日刊工業新聞 / 更新: 2026-09-04 05:39)
-- [Claude Codeデスクトップアプリ、アプリ内ブラウザ機能とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6d2137cc.html): AnthropicのClaudeがコード編集ツールにブラウザ機能を追加し、開発効率を大幅に向上させる動き。 (出典: x.com / 更新: 2026-09-04 05:39)

@@ -1,31 +1,6 @@
 [
   {
     "tokens": [
-      "admits",
-      "german",
-      "incident",
-      "openai",
-      "wiki"
-    ],
-    "ts": "2026-09-06T19:28:28"
-  },
-  {
-    "tokens": [
-      "fatigue",
-      "frenetic",
-      "labs",
-      "model",
-      "out",
-      "pace",
-      "race",
-      "roll",
-      "sets",
-      "versions"
-    ],
-    "ts": "2026-09-06T22:27:58"
-  },
-  {
-    "tokens": [
       "brief",
       "fling",
       "siri",
@@ -483,5 +458,31 @@
       "would"
     ],
     "ts": "2026-09-14T19:28:12"
+  },
+  {
+    "tokens": [
+      "concerns",
+      "could",
+      "humanity",
+      "real",
+      "there",
+      "they",
+      "threaten"
+    ],
+    "ts": "2026-09-14T22:28:00"
+  },
+  {
+    "tokens": [
+      "bbc",
+      "ex-anthropic",
+      "frightened'",
+      "future",
+      "genuinely",
+      "humanity's",
+      "researcher",
+      "staff",
+      "tells"
+    ],
+    "ts": "2026-09-14T22:28:15"
   }
 ]

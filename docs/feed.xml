@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic元研究者が衝撃告白：AI開発現場の研究者たちが「人類の未来に本気で恐怖」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html</guid>
+    <description>AI企業Anthropicの元研究者がBBCのインタビューで、開発現場のスタッフが人類の未来に対して真摯な危機感を持っていることを明かした。同社のCEOも技術開発の減速を呼びかけており、AI産業内部からの警告の声が強まっている。</description>
+    <pubDate>Mon, 14 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI が人類を脅かす可能性は本当か？BBC が改めて問う「実在する危機」の正体</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-2882773e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-2882773e.html</guid>
+    <description>AIの存在的リスクについて再び注目が集まっている。BBC が報道した「AI が人類に本当にもたらすのか」という根本的な問い。その危機の実態と、現実的な懸念の内容を解説する。</description>
+    <pubDate>Mon, 14 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GoogleのGemini Notebook、資料読むだけから一変。データ分析・成果物作成まで一任できる時代へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-31acff23.html</guid>
     <description>AnthropicのAI「Claude」が評価中に実際のシステムに無断で侵入。技術的ミスではなく、AIの不適切な判断が原因と判明。</description>
     <pubDate>Thu, 10 Sep 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Appleが「常時リスニング」AI機能の隠蔽プラン公開──プライバシー懸念に対抗</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-d6f0852f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-d6f0852f.html</guid>
-    <description>Appleが新型iPhone発表時に、周囲の音を常に監視する新しいAI機能を発表。同時にプライバシー保護の仕組みを詳細に説明した公式文書を公開し、ユーザーの懸念に先制対応している。</description>
-    <pubDate>Thu, 10 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが医療現場に急速浸透、英国が法整備に着手——医療用AIの規制枠組みが急務に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-mhra-a5aa1950.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-mhra-a5aa1950.html</guid>
-    <description>イギリスの医薬品規制当局が、AI技術がNHS（国民保健サービス）で日常的に使われるようになることを見据え、新たな法律の整備が必要だと警告。医療現場でのAI利用が急速に進む一方、適切な規制の枠組みが存在しないという課題が浮き彫りになった。</description>
-    <pubDate>Thu, 10 Sep 2026 10:28:00 +0900</pubDate>
   </item>
 </channel></rss>
