@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude 3.5、370年前の暗号を解読。研究者から異議の声</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c695bba9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c695bba9.html</guid>
+    <description>AIが歴史的な暗号解読に成功した一方で、研究者から検証方法を巡る疑問が上がっている。</description>
+    <pubDate>Mon, 14 Sep 2026 18:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GPT-6『Astra』提供開始、ChatGPT Plusは利用制限に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-a134f4e7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-a134f4e7.html</guid>
+    <description>OpenAIの最新モデルGPT-6『Astra』がサービス開始。Plus利用者に新たな使用制限が導入される。</description>
+    <pubDate>Mon, 14 Sep 2026 18:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの新AI「Astra」、何でもできるからプロの指示が必須に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-4c41bd0e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-4c41bd0e.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-duo-243ee489.html</guid>
     <description>Appleが9月のイベントで初めての折りたたみiPhone「iPhone Duo」を発表。同時に新型iPhone 18 Proも登場し、AIを強化したSiriなど複数の機能更新が行われた。スマートフォン業界の10年ぶりのパラダイムシフトが始まろうとしている。</description>
     <pubDate>Thu, 10 Sep 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ウォール街のヘッジファンドが全AI化へ—人間の社員を置かない運用体制がついに誕生</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-45037722.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-45037722.html</guid>
-    <description>米ウォール街で、AIエージェント（自動判断するAI）のみで企業運営を行うヘッジファンドマネージャーが登場。金融業界でAIの導入限界を探る実験が活発化する中、人間の雇用に依存しない投資ファンド運営という新しい形態が現実化しつつある。</description>
-    <pubDate>Thu, 10 Sep 2026 04:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astra対応、法人向けAI「ChatSense」が実装へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-gpt-6-astra-bf15ae7c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-gpt-6-astra-bf15ae7c.html</guid>
-    <description>最新のOpenAIモデルに対応した法人向けAIツールが登場。ビジネスの現場で本格活用が進みそう。</description>
-    <pubDate>Thu, 10 Sep 2026 02:53:00 +0900</pubDate>
   </item>
 </channel></rss>
