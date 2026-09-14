@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの新モデル「Astra」、重大なサイバーセキュリティ課題に直面</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html</guid>
+    <description>OpenAIの最新AI「Astra」がセキュリティ上の重大な問題を抱えていることが報じられた。</description>
+    <pubDate>Mon, 14 Sep 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI「Astra」、何でもできるからこそ「プロの使い手」が必須に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-01eaaadb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-01eaaadb.html</guid>
+    <description>万能なAIだからこそ、指示の出し方次第で成果が大きく変わる時代へ。</description>
+    <pubDate>Mon, 14 Sep 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIの開発スピード減速は『簡単な解決策』ではない、BBC報道が指摘する根本的な課題</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7a3b9fe6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7a3b9fe6.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/9b8574f4.html</guid>
     <description>米マサチューセッツ州がデータセンター開発に新たな制限を導入。クリーン電力要件が厳格化される。</description>
     <pubDate>Thu, 10 Sep 2026 07:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple「Siri AI」日本語版、10月上陸。音声アシスタント一新の時が来た</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-c3c5e274.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-c3c5e274.html</guid>
-    <description>AppleがAI機能を統合したSiriの日本語版を10月に提供開始。スマートフォンの音声操作が変わる。</description>
-    <pubDate>Thu, 10 Sep 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenRouter利用量1年で20倍超。400超のAIモデルを一本化する時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openrouter-api-db868525.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openrouter-api-db868525.html</guid>
-    <description>複数のAIモデルを一つのインターフェースで利用できるOpenRouterの需要が爆増。その背景と仕組みを解説</description>
-    <pubDate>Thu, 10 Sep 2026 07:00:00 +0900</pubDate>
   </item>
 </channel></rss>
