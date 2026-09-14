@@ -1268,7 +1268,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/ait/articles/2609/04/cover_news017.jpg",
     "generated_at": "2026-09-04 14:30",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1326,7 +1326,10 @@
         "x_post": "AI時代の開発組織は再編が不可避。管理職は人員配置・研修計画の見直しを今から。プログラマーは品質判断やビジネス要件理解といった新スキルを磨かないと、市場価値が下がるリスク。企業も個人も戦略的対応が求められる局面。",
         "cta": "組織レベルでの対応策、\nMOTの詳細記事で確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18102281546350933",
+    "published_at": "2026-09-14T19:02:28"
   },
   "llm-ai-23bdbfdb": {
     "headline": "AIの性能テストは本当に信頼できる？LLMベンチマークの実態を暴露",

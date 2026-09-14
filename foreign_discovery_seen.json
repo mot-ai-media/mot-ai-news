@@ -1,208 +1,6 @@
 [
   {
     "tokens": [
-      "agrees",
-      "almost",
-      "billion",
-      "buy",
-      "expansion",
-      "face",
-      "hugging",
-      "nvidia"
-    ],
-    "ts": "2026-09-04T13:18:07"
-  },
-  {
-    "tokens": [
-      "12.9bn",
-      "buy",
-      "face",
-      "hugging",
-      "nvidia",
-      "push"
-    ],
-    "ts": "2026-09-04T13:18:07"
-  },
-  {
-    "tokens": [
-      "andrew",
-      "bailey",
-      "cause",
-      "could",
-      "downturn",
-      "economic",
-      "g20",
-      "global",
-      "warns"
-    ],
-    "ts": "2026-09-04T19:27:55"
-  },
-  {
-    "tokens": [
-      "life",
-      "tech"
-    ],
-    "ts": "2026-09-04T19:28:11"
-  },
-  {
-    "tokens": [
-      "acquire",
-      "chips",
-      "defensive",
-      "face",
-      "hugging",
-      "more",
-      "move'",
-      "much",
-      "nvidia's",
-      "than"
-    ],
-    "ts": "2026-09-04T22:27:50"
-  },
-  {
-    "tokens": [
-      "backer",
-      "becomes",
-      "billion",
-      "chip",
-      "companies",
-      "giant",
-      "grow",
-      "investments",
-      "major",
-      "nvidia's"
-    ],
-    "ts": "2026-09-04T22:28:01"
-  },
-  {
-    "tokens": [
-      "agents",
-      "before",
-      "claims",
-      "face",
-      "german",
-      "hack",
-      "hijacked",
-      "hugging",
-      "openai",
-      "report",
-      "website"
-    ],
-    "ts": "2026-09-05T02:20:31"
-  },
-  {
-    "tokens": [
-      "amazon",
-      "back-to-school",
-      "brought",
-      "google",
-      "positioned",
-      "shopping",
-      "win"
-    ],
-    "ts": "2026-09-05T02:20:45"
-  },
-  {
-    "tokens": [
-      "academic",
-      "korea's",
-      "preferences",
-      "rally",
-      "reality",
-      "reshaping",
-      "romance",
-      "shows",
-      "south"
-    ],
-    "ts": "2026-09-05T14:39:16"
-  },
-  {
-    "tokens": [
-      "buy",
-      "cramer",
-      "jim",
-      "magnificent",
-      "revenge",
-      "seven'",
-      "time"
-    ],
-    "ts": "2026-09-05T14:39:31"
-  },
-  {
-    "tokens": [
-      "advanced",
-      "astra",
-      "begins",
-      "capabilities",
-      "cyber",
-      "model",
-      "openai",
-      "out",
-      "rolling",
-      "warning"
-    ],
-    "ts": "2026-09-05T22:28:12"
-  },
-  {
-    "tokens": [
-      "earnings",
-      "ford's",
-      "g20",
-      "more",
-      "morning",
-      "policy",
-      "production",
-      "push",
-      "snowflake",
-      "squawk"
-    ],
-    "ts": "2026-09-05T22:28:30"
-  },
-  {
-    "tokens": [
-      "bar",
-      "defensive",
-      "got",
-      "last",
-      "more",
-      "raised",
-      "stocks",
-      "street",
-      "wall",
-      "week"
-    ],
-    "ts": "2026-09-06T10:28:08"
-  },
-  {
-    "tokens": [
-      "america",
-      "booms",
-      "business",
-      "centers",
-      "data",
-      "don't",
-      "feel",
-      "like",
-      "many",
-      "rest",
-      "truckers"
-    ],
-    "ts": "2026-09-06T10:28:26"
-  },
-  {
-    "tokens": [
-      "ciso",
-      "cybersecurity",
-      "front",
-      "line",
-      "meet",
-      "star",
-      "war"
-    ],
-    "ts": "2026-09-06T19:28:08"
-  },
-  {
-    "tokens": [
       "admits",
       "german",
       "incident",
@@ -662,5 +460,28 @@
       "summer"
     ],
     "ts": "2026-09-10T16:28:32"
+  },
+  {
+    "tokens": [
+      "china",
+      "citing",
+      "downplays",
+      "risks",
+      "rivalry",
+      "trump",
+      "warnings"
+    ],
+    "ts": "2026-09-14T19:27:57"
+  },
+  {
+    "tokens": [
+      "like",
+      "look",
+      "mount",
+      "questions",
+      "slowdown'",
+      "would"
+    ],
+    "ts": "2026-09-14T19:28:12"
   }
 ]

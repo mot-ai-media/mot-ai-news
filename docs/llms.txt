@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-14 18:54
+最終更新: 2026-09-14 19:28
 
 ## 記事一覧
 
+- [AI開発の減速論争：実現の難しさと社会への波紋](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7a3b9fe6.html): AI技術の急速な発展に対する懸念から、開発ペースを落とそうという提案が国際的に議論されている。しかし英BBC報道によると、実際に『減速』を実現することは想像以上に複雑で、多くの課題が横たわっているという。 (出典: BBC / 更新: 2026-09-14 19:28)
+- [トランプ米大統領がAIリスク警告を否定、中国への対抗姿勢を強調](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-685eb5ef.html): 米国のトランプ大統領がAIの危険性に関する警告を「起こらないことについての懸念」と述べ、軽視する発言をしました。背景には米中のAI競争優位性をめぐる政策判断があると見られています。 (出典: BBC / 更新: 2026-09-14 19:27)
 - [Claude 3.5が古い暗号を解読、研究者が指摘する問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c695bba9.html): AIが歴史的な暗号解読に成功した一方で、研究者から検証方法を巡る疑問が上がっている。 (出典: Pasquale Pillitteri / 更新: 2026-09-14 18:54)
 - [GPT-6 Astraとは？ChatGPT Plus新制限の内容](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-a134f4e7.html): OpenAIの最新モデルGPT-6『Astra』がサービス開始。Plus利用者に新たな使用制限が導入される。 (出典: Yellow.com / 更新: 2026-09-14 18:53)
 - [サカナAI Fugu Ultra v2とは？GPT-6との違い・性能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-fugu-49e436e2.html): 日本のAI企業サカナAIが、高性能モデルと低コスト版を同時リリース。業界競争が激化。 (出典: BigGo ファイナンス / 更新: 2026-09-14 16:53)
@@ -205,5 +207,3 @@
 - [公明党、生成AIでSNS発信支援。女性議員の活動どう変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-f5ecaed7.html): 公明党が生成AIを活用し、女性議員のSNS発信を効率化する取り組みを開始。政治活動の現場でもAIが浸透している。 (出典: 公明党 / 更新: 2026-09-03 13:39)
 - [AI詐欺の手口とは？ボイスフィッシング被害が45億円に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-7c8f22c3.html): 生成AIで社長の声を偽造する詐欺が急増。被害額は45億円に達し、2026年の新たなサイバー攻撃に企業が危機感。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:39)
 - [生成AI全社導入の極意とは？企業事例から学ぶ活用法](https://mot-ai-media.github.io/mot-ai-news/articles/line-e253de4f.html): 大手企業3社が語る、生成AIを個人ツールから全社競争力へ転換させるための戦略とポイント。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:39)
-- [Meta Muse Spark 1.3とは？コーディング・エージェント機能を強化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-469f7896.html): MetaがAIモデルを更新。プログラミング自動化とAIエージェント性能が大幅向上し、業界トップクラスの性能を実現。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:39)
-- [法律事務所のChatGPT導入事例、ガバナンス体制とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-enterprise-631a857c.html): 大手法律事務所Gilbert + Tobinが、CEOのコミットと厳密な管理体制でChatGPT Enterpriseを全社導入・スケール展開した事例が注目を集めている。 (出典: OpenAI News / 更新: 2026-09-02 18:02)
