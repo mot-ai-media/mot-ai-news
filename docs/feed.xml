@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GoogleのGemini Notebook、資料読むだけから一変。データ分析・成果物作成まで一任できる時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html</guid>
+    <description>GoogleのAIツールが資料の読み込みから、データ分析や成果物作成まで対応へ。仕事のあり方が変わる可能性。</description>
+    <pubDate>Mon, 14 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI技術を無料公開する米企業、実は経営戦略だった。日本企業の対抗策は</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-79d4a531.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-79d4a531.html</guid>
+    <description>AI企業がなぜ最新技術を無料で公開するのか。その背景にある企業戦略と、日本が直面する課題を解説。</description>
+    <pubDate>Mon, 14 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>NTTドコモが明かす、AIエージェントの落とし穴。業務自動化、思ったほど簡単ではない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f1e9114d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f1e9114d.html</guid>
+    <description>万能型AIエージェントも実装すると問題が続出。実際の導入企業が語った失敗の原因と乗り越え方。</description>
+    <pubDate>Mon, 14 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプ大統領、AI規制論を一蹴　中国との競争激化で「規制より成長」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-07a38307.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-07a38307.html</guid>
+    <description>米トランプ大統領がAI規制論に反発し、中国への競争優位性維持を重視する姿勢を示した。</description>
+    <pubDate>Mon, 14 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ソフトバンク、キオクシア急落。AI減速論が株価直撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9ca70683.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9ca70683.html</guid>
+    <description>AI企業が開発ペースの減速を警告し、AI関連株が急落。身近な企業の株価に影響が及ぶ。</description>
+    <pubDate>Mon, 14 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの新モデル「Astra」、重大なサイバーセキュリティ課題に直面</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-mhra-a5aa1950.html</guid>
     <description>イギリスの医薬品規制当局が、AI技術がNHS（国民保健サービス）で日常的に使われるようになることを見据え、新たな法律の整備が必要だと警告。医療現場でのAI利用が急速に進む一方、適切な規制の枠組みが存在しないという課題が浮き彫りになった。</description>
     <pubDate>Thu, 10 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude次世代版、10月初旬に新たな学習か—Anthropicが極秘開発</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b67b695.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b67b695.html</guid>
-    <description>Anthropicの次期Claude「Fable 5.2」の開発情報がリーク。10月初旬の新たな学習計画が明らかに。</description>
-    <pubDate>Thu, 10 Sep 2026 08:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが数学界の最難問を解いた。学界が困惑している理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-24370557.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-24370557.html</guid>
-    <description>OpenAIが火曜日に発表した数学の難問解決は、AIの急速な進化を示す成果である一方、従来の学術的価値観に複雑な疑問を投げかけている。</description>
-    <pubDate>Thu, 10 Sep 2026 07:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>音楽業界が認めたAI音楽生成「Suno v6」登場、著作権問題に決着か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/suno-ai-6e51b045.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/suno-ai-6e51b045.html</guid>
-    <description>AI音楽生成企業Sunoが、レコード業界と協力して開発した新モデル「v6」をリリース。過去のモデルとは異なるライセンス済みデータで学習させた初の試みで、音楽業界との対立構図から協調へと大きく舵を切った。</description>
-    <pubDate>Thu, 10 Sep 2026 07:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple Watch、常に聞き取る時代へ。新AI機能が引き起こすプライバシーの危機感</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-679dc40a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-679dc40a.html</guid>
-    <description>Apple Watchの新機能が、常時録音・音声認識の常態化を加速させ、プライバシーと同意の課題が浮上。</description>
-    <pubDate>Thu, 10 Sep 2026 07:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マサチューセッツ州、データセンター規制に動く。3ヶ月で3州が制限強化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/9b8574f4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/9b8574f4.html</guid>
-    <description>米マサチューセッツ州がデータセンター開発に新たな制限を導入。クリーン電力要件が厳格化される。</description>
-    <pubDate>Thu, 10 Sep 2026 07:02:00 +0900</pubDate>
   </item>
 </channel></rss>

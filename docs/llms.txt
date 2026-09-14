@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-14 20:53
+最終更新: 2026-09-14 22:02
 
 ## 記事一覧
 
+- [Gemini Notebookとは？NotebookLMからの変更点・できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html): GoogleのAIツールが資料の読み込みから、データ分析や成果物作成まで対応へ。仕事のあり方が変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:02)
+- [トランプ大統領のAI規制論への反論。中国とのAI競争とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-07a38307.html): 米トランプ大統領がAI規制論に反発し、中国への競争優位性維持を重視する姿勢を示した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
+- [AIエージェント導入の課題とは？実例から見る落とし穴と対策](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f1e9114d.html): 万能型AIエージェントも実装すると問題が続出。実際の導入企業が語った失敗の原因と乗り越え方。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
+- [AIを無料公開する理由とは？米IT企業の戦略と日本の課題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-79d4a531.html): AI企業がなぜ最新技術を無料で公開するのか。その背景にある企業戦略と、日本が直面する課題を解説。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
+- [AI開発減速論とは？株価急落の理由と影響を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-9ca70683.html): AI企業が開発ペースの減速を警告し、AI関連株が急落。身近な企業の株価に影響が及ぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:00)
 - [OpenAI Astraとは？できることと、使いこなしに必要なスキル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-01eaaadb.html): 万能なAIだからこそ、指示の出し方次第で成果が大きく変わる時代へ。 (出典: Yahoo!ニュース / 更新: 2026-09-14 20:53)
 - [OpenAI Astraモデルとは？セキュリティ課題が判明](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html): OpenAIの最新AI「Astra」がセキュリティ上の重大な問題を抱えていることが報じられた。 (出典: Campus Technology / 更新: 2026-09-14 20:53)
 - [AI開発の減速論争：実現の難しさと社会への波紋](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7a3b9fe6.html): AI技術の急速な発展に対する懸念から、開発ペースを落とそうという提案が国際的に議論されている。しかし英BBC報道によると、実際に『減速』を実現することは想像以上に複雑で、多くの課題が横たわっているという。 (出典: BBC / 更新: 2026-09-14 19:28)
@@ -202,8 +207,3 @@
 - [Claude Fable 5 vs GPT-5.6 Sol比較、料金・性能どう違う](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21e2816b.html): Anthropicの新型AI「Claude Fable 5」はコーディングと複雑タスクで強いが、利用料金が大幅値上げ。 (出典: Analytics Vidhya / 更新: 2026-09-04 06:03)
 - [ストックマークが生成AIで企業の暗黙知を学習する新サービス](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bb10be6c.html): ストックマークが生成AIを使い、企業内の経験や勘といった暗黙知をAIに学習させる取り組みを開始。 (出典: 日刊工業新聞 / 更新: 2026-09-04 05:39)
 - [Claude Codeデスクトップアプリ、アプリ内ブラウザ機能とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6d2137cc.html): AnthropicのClaudeがコード編集ツールにブラウザ機能を追加し、開発効率を大幅に向上させる動き。 (出典: x.com / 更新: 2026-09-04 05:39)
-- [OpenAIのペアレンタル コントロールとは？ChatGPT利用制限の使い方](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f005690a.html): OpenAIがChatGPTに保護者向けの利用制限機能を導入。子どもの利用を監視・制御できるように。 (出典: OpenAI / 更新: 2026-09-04 05:39)
-- [生成AIのデータ主権とは？企業の実践的な対策戦略を解説](https://mot-ai-media.github.io/mot-ai-news/articles/1st-ai-a837bf05.html): 生成AI導入時のデータ保護は「完全禁止か無制限か」では済まない。バランスの取れた戦略設計が企業課題に。 (出典: ウイングアーク１ｓｔ / 更新: 2026-09-04 05:38)
-- [Claude Codeとは？実演ウェビナーの内容と活用方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-da36ef0e.html): Anthropic開発のAIコーディング機能「Claude Code」の実演ウェビナーが開催され、AIによるコード生成能力の実態が注目されている。 (出典: 公明党 / 更新: 2026-09-04 05:38)
-- [ブシロードAI子会社とは？定型業務支援の狙いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-02a32131.html): ブシロードがAI子会社を設立し、人が繰り返す定型業務をAIで自動化。負荷軽減とミス削減を実現。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-03 13:40)
-- [公明党、生成AIでSNS発信支援。女性議員の活動どう変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-f5ecaed7.html): 公明党が生成AIを活用し、女性議員のSNS発信を効率化する取り組みを開始。政治活動の現場でもAIが浸透している。 (出典: 公明党 / 更新: 2026-09-03 13:39)
