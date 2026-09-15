@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>マスク氏が語るGrok開発戦略、次世代AIの実力と業界減速論</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-grok-8521d00b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-grok-8521d00b.html</guid>
+    <description>イーロン・マスク氏が自社AIの開発進捗を公表。次世代モデルの位置づけと業界全体の動向を語る。</description>
+    <pubDate>Tue, 15 Sep 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIの危険性を止めることはもう不可能。CrowdStrike CEO、Anthropicの警告に対して</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/crowdstrike-ai-4e41fa14.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/crowdstrike-ai-4e41fa14.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html</guid>
     <description>OpenAIの最新AI「Astra」がセキュリティ上の重大な問題を抱えていることが報じられた。</description>
-    <pubDate>Mon, 14 Sep 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI「Astra」、何でもできるからこそ「プロの使い手」が必須に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-01eaaadb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-01eaaadb.html</guid>
-    <description>万能なAIだからこそ、指示の出し方次第で成果が大きく変わる時代へ。</description>
     <pubDate>Mon, 14 Sep 2026 20:53:00 +0900</pubDate>
   </item>
 </channel></rss>
