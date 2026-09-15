@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI「Astra」がPC自動操作へ、AGI到達の現実味を増す</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-9dbf17af.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-9dbf17af.html</guid>
+    <description>OpenAIが新しいAI「Astra」を発表。PCを自動で操作する能力を持ち、AI業界に激震が走っている。</description>
+    <pubDate>Tue, 15 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Broadcomが明言「AI需要は衰えない」—急成長AIモデル時代の半導体戦略転換</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/broadcom-ai-fb264a33.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/broadcom-ai-fb264a33.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-685eb5ef.html</guid>
     <description>米国のトランプ大統領がAIの危険性に関する警告を「起こらないことについての懸念」と述べ、軽視する発言をしました。背景には米中のAI競争優位性をめぐる政策判断があると見られています。</description>
     <pubDate>Mon, 14 Sep 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude 3.5、370年前の暗号を解読。研究者から異議の声</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c695bba9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c695bba9.html</guid>
-    <description>AIが歴史的な暗号解読に成功した一方で、研究者から検証方法を巡る疑問が上がっている。</description>
-    <pubDate>Mon, 14 Sep 2026 18:54:00 +0900</pubDate>
   </item>
 </channel></rss>
