@@ -1,0 +1,22 @@
+[
+  {
+    "keyword": "AIニュース",
+    "targetPath": "https://mot-ai-media.github.io/mot-ai-news/index.html",
+    "priority": "high"
+  },
+  {
+    "keyword": "AIニュースまとめ",
+    "targetPath": "https://mot-ai-media.github.io/mot-ai-news/index.html",
+    "priority": "high"
+  },
+  {
+    "keyword": "AI最新",
+    "targetPath": "https://mot-ai-media.github.io/mot-ai-news/index.html",
+    "priority": "high"
+  },
+  {
+    "keyword": "AI最新ニュース",
+    "targetPath": "https://mot-ai-media.github.io/mot-ai-news/index.html",
+    "priority": "high"
+  }
+]

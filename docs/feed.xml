@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIの危険性を止めることはもう不可能。CrowdStrike CEO、Anthropicの警告に対して</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/crowdstrike-ai-4e41fa14.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/crowdstrike-ai-4e41fa14.html</guid>
+    <description>サイバーセキュリティ企業CrowdStrikeのCEOが、AI開発の減速ではリスクは解決しないと明言。危険性を持つAIモデルは既に広く流通しているため、対策の重点が変わるべきだと示唆。</description>
+    <pubDate>Tue, 15 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI投資の減速懸念、データセンター企業の株価に打撃──ウォール街が警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0bc1f58.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0bc1f58.html</guid>
+    <description>AIブームを支えてきたデータセンター関連企業が、AI成長の鈍化という新たなリスクに直面している。ウォール街の投資家たちは、AIの急成長が一服する可能性を指摘し、この分野への巨額投資の継続性に疑問を呈し始めた。</description>
+    <pubDate>Tue, 15 Sep 2026 19:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI「Astra」がPC自動操作へ、AGI到達の現実味を増す</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-9dbf17af.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-9dbf17af.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-01eaaadb.html</guid>
     <description>万能なAIだからこそ、指示の出し方次第で成果が大きく変わる時代へ。</description>
     <pubDate>Mon, 14 Sep 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの開発スピード減速は『簡単な解決策』ではない、BBC報道が指摘する根本的な課題</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7a3b9fe6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7a3b9fe6.html</guid>
-    <description>AI技術の急速な発展に対する懸念から、開発ペースを落とそうという提案が国際的に議論されている。しかし英BBC報道によると、実際に『減速』を実現することは想像以上に複雑で、多くの課題が横たわっているという。</description>
-    <pubDate>Mon, 14 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領、AI危機論を一蹴。中国との競争を優先</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-685eb5ef.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-685eb5ef.html</guid>
-    <description>米国のトランプ大統領がAIの危険性に関する警告を「起こらないことについての懸念」と述べ、軽視する発言をしました。背景には米中のAI競争優位性をめぐる政策判断があると見られています。</description>
-    <pubDate>Mon, 14 Sep 2026 19:27:00 +0900</pubDate>
   </item>
 </channel></rss>
