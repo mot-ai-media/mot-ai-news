@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>トランプ氏との通話でNVIDIA幹部が魅せた、あの最新デバイスの存在</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-jensen-huang-cf4c6f0a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-jensen-huang-cf4c6f0a.html</guid>
+    <description>NVIDIAのジェンスン・ファン最高経営責任者がトランプ氏とのライブ通話で使用した電話デバイスが、テック関係者の間で話題に。</description>
+    <pubDate>Tue, 15 Sep 2026 11:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが営業資料を全自動制作、人間がやるべき仕事は意外とこれだった</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-4854b2b5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-4854b2b5.html</guid>
+    <description>AIエージェントがLPの企画から実装まで自動化する段階へ。ただし人間が判断すべき部分が存在する。</description>
+    <pubDate>Tue, 15 Sep 2026 11:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェントがWebサイト制作を全自動化。もうWebデザイナーは不要？</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-web-178753f9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-web-178753f9.html</guid>
+    <description>AIエージェントを使えば、企画からデザイン・コーディング・公開まで対話で完結。従来のサイト制作が大きく変わる</description>
+    <pubDate>Tue, 15 Sep 2026 11:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>鎌倉プリンスホテルに御曹司きよやす邸がOPEN</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/be4fa5f3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/be4fa5f3.html</guid>
+    <description>鎌倉プリンスホテル内に新しい飲食店がオープンしました。</description>
+    <pubDate>Tue, 15 Sep 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>iOS 27のSiri、ChatGPTやClaudeに置き換え可能に。Appleが選択肢化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-chatgpt-6ea6bb9c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-chatgpt-6ea6bb9c.html</guid>
+    <description>次期iOS 27でSiriの中身をChatGPTやClaudeなど別のAIに置き換えられるようになる可能性。</description>
+    <pubDate>Tue, 15 Sep 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>お笑い芸人がAI化、自分そっくりの「デジタル相方」を舞台に登場させる実験</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bc8752ad.html</guid>
     <description>誰もが気軽にAIを使える時代、企業内の現場とIT部門の対立が深刻化。その解決策とは</description>
     <pubDate>Thu, 10 Sep 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NEC、AI利用コストを2026年までに10分の1に削減。企業のAI戦略が転換点へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-6a23b3b2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-6a23b3b2.html</guid>
-    <description>NECが全社のAI利用にかかるトークンコストを2026年までに10分の1に削減する目標を掲げた。</description>
-    <pubDate>Thu, 10 Sep 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>管理職ほどAIを隠れて使う—企業のAIルールが機能していない衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1bf19ecd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1bf19ecd.html</guid>
-    <description>AI導入ルールを作る立場の管理職ほど、こっそりAIを使う矛盾が浮き彫りに。企業統制の現実</description>
-    <pubDate>Thu, 10 Sep 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ベテラン開発者の「それ無理」を覆した、新人のたった一つの工夫</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/8d530a91.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/8d530a91.html</guid>
-    <description>組織内の経験差による意見対立を、ちょっとした工夫で解決した新人の事例から学ぶ。</description>
-    <pubDate>Thu, 10 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>企業のAI導入、失敗する理由。PKSHA森下氏が語る「割に合わない」の罠</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/pksha-technology-ai-ac4eec7e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/pksha-technology-ai-ac4eec7e.html</guid>
-    <description>導入しても効果が出ないAI。失敗を避けるためのポイントを、AI業界の専門家に聞いた。</description>
-    <pubDate>Thu, 10 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、児童虐待広告の規制逃れで米当局が警告——AIフィルターの限界が露呈</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html</guid>
-    <description>サンフランシスコの市当局がMetaに対し、児童虐待に関連した有害広告がFacebookとInstagramで繰り返し配信されていることについて説明を求めた。Metaは当該広告が市の管轄外だと主張している。</description>
-    <pubDate>Thu, 10 Sep 2026 13:28:00 +0900</pubDate>
   </item>
 </channel></rss>

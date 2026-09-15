@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-15 10:28
+最終更新: 2026-09-15 11:02
 
 ## 記事一覧
 
+- [AIエージェントでWebサイト制作する方法・おすすめツール10選](https://mot-ai-media.github.io/mot-ai-news/articles/ai-web-178753f9.html): AIエージェントを使えば、企画からデザイン・コーディング・公開まで対話で完結。従来のサイト制作が大きく変わる (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-15 11:02)
+- [AIエージェントでLP制作する方法とおすすめツール8選](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-4854b2b5.html): AIエージェントがLPの企画から実装まで自動化する段階へ。ただし人間が判断すべき部分が存在する。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-15 11:02)
+- [トランプ氏とのライブ通話で注目、NVIDIAが示したデバイスとは](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-jensen-huang-cf4c6f0a.html): NVIDIAのジェンスン・ファン最高経営責任者がトランプ氏とのライブ通話で使用した電話デバイスが、テック関係者の間で話題に。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-15 11:02)
+- [iOS 27のSiriがChatGPT・Claudeに変更可能？Apple新機能の詳細](https://mot-ai-media.github.io/mot-ai-news/articles/apple-chatgpt-6ea6bb9c.html): 次期iOS 27でSiriの中身をChatGPTやClaudeなど別のAIに置き換えられるようになる可能性。 (出典: VOI.ID / 更新: 2026-09-15 11:00)
+- [御曹司きよやす邸 鎌倉プリンスホテル店とは](https://mot-ai-media.github.io/mot-ai-news/articles/be4fa5f3.html): 鎌倉プリンスホテル内に新しい飲食店がオープンしました。 (出典: オズモール / 更新: 2026-09-15 11:00)
 - [AIに『kill switch』は不可能？英国政府が明かした人工知能制御の課題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-68f64883.html): 英国政府はAI安全性を監督する部門が、万が一AIが危険な状態になった場合も「単純にAIを止めることはできない」との見解を示した。この発言は、急速に拡大するAI技術をどう制御するかという世界的な課題の現実性を問い直すものとなっている。 (出典: BBC / 更新: 2026-09-15 10:28)
 - [AI芸人は笑わせられるか？コメディアンが自作ネタでAIアバター化、海外で話題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html): イギリスの芸人ギャレット・ミラリックが、自分のコメディ素材をAIアバターに学習させ、自動生成されたパフォーマンスを実施する実験を進めている。笑いの質を保ちながら人間を超えられるか、という根本的な問いが浮上している。 (出典: BBC / 更新: 2026-09-15 10:28)
 - [AIエージェントのAPIキー管理とは？セキュリティリスク解説](https://mot-ai-media.github.io/mot-ai-news/articles/api-ai-20cb3e33.html): AIエージェント活用の拡大に伴い、従来のAPIキー管理方法が破綻しつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 09:40)
@@ -202,8 +207,3 @@
 - [Adobe新CEO就任いつから？シャンタヌ・ナラヤン氏の後任決定](https://mot-ai-media.github.io/mot-ai-news/articles/adobe-ai-7d24432d.html): Adobeが17年ぶりにトップ交代。12月からの新体制で、クリエイティブソフト大手の戦略は大きく変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:30)
 - [AI緊急停止ボタン 英国が法制化検討 OpenAI・Anthropicへの規制強化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-1a7ba649.html): 英国の上院がOpenAIやAnthropicなどの大規模AI企業に対し、システムが意図した動作から外れた場合に即座に停止できる『キルスイッチ』権限を政府に付与する法案を求める動き。AI安全性への国際的な関心の高まりを象徴する事例として、日本でも規制の議論が加速する可能性がある。 (出典: BBC / 更新: 2026-09-04 13:16)
 - [フィジカルAIの課題とは？データ不足をどう乗り越えるのか](https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-50fcd3ab.html): ロボットなど物理世界で動作するAIの開発は、学習用データの不足が最大の課題。AWSの支援プログラムに採択された企業たちが半年間で見つけた解決策とは。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:14)
-- [AI基本計画とは？日本の政策方針に企業団体が意見提出](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a149c0d5.html): 日本政府のAI関連政策骨子に対し、新経済連盟が意見を提出。産業成長とのバランスに関する提言。 (出典: 新経済連盟 / 更新: 2026-09-04 13:13)
-- [RIZAP顧客情報流出｜AIサービス利用時の注意点と企業の責任](https://mot-ai-media.github.io/mot-ai-news/articles/rizap-chatgpt-3a28d4e4.html): 大手パーソナルジムRIZAPの従業員が個人利用のAIサービスに顧客情報を誤ってアップロードし、同社が謝罪。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:13)
-- [ChatGPT利用制限が毎日リセット、新モデルAstraとは？有料ユーザー向け](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-7ad22734.html): OpenAIが有料ユーザー向けにChatGPTの利用制限をリセットする施策を発表。新AI「GPT-6 Astra」提供開始まで実施予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:13)
-- [RIZAP顧客情報流出問題とは？生成AIの個人利用リスク](https://mot-ai-media.github.io/mot-ai-news/articles/rizap-ai-0c0b8eed.html): RIZAPの社員が個人の生成AIに顧客の氏名や病歴などの機密情報を誤ってアップロード。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:13)
-- [GPT-6 Astra料金・使える人・性能 OpenAIが発表した内容まとめ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html): OpenAIが次世代AI「GPT-6 Astra」の提供を開始。ChatGPT Plus以上の有料ユーザーと企業向けのみアクセス可能で、無料ユーザーは利用できない。API利用時は入力100万トークンあたり10ドル、出力は50ドルという価格設定。 (出典: AI Business / 更新: 2026-09-04 07:29)

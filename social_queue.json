@@ -3040,7 +3040,7 @@
     ],
     "image_url": "https://ainow.ai/wp-content/uploads/2026/09/thumbnail-5.jpg",
     "generated_at": "2026-09-15 09:40",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -3098,7 +3098,10 @@
         "x_post": "請求書入力・受発注転記・経費精算がAIに自動化される時代へ。ただし成功企業と失敗企業を分けるのは、導入コスト見積もりと学習期間をどう計画したか。準備が全て。",
         "cta": "月末月初の8つの業務パターンと導入のポイント"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18107932205145482",
+    "published_at": "2026-09-15T11:01:54"
   },
   "anthropic-ai-413bf6c9": {
     "headline": "トランプ大統領、AI規制に異議「大統領の権力があれば十分」",
