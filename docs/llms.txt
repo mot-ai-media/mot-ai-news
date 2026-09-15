@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-14 22:28
+最終更新: 2026-09-15 09:38
 
 ## 記事一覧
 
+- [Anthropic CEO Dario Amodeiが「AI開発を遅くすべき」と主張する理由](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-4a1f65fb.html): AI企業Anthropicの創業者兼CEOであるダリオ・アモデイが、AI技術の開発ペースを落とすべきだと公表。世界規模の深刻な被害をもたらす可能性への懸念が背景にある。 (出典: BBC / 更新: 2026-09-15 09:38)
+- [AI技術の急速な普及で何が起きているのか。海外メディアが警告する2つのリスク](https://mot-ai-media.github.io/mot-ai-news/articles/ai-6e6f3c1f.html): AI技術は私たちの生活を大きく変えようとしている。しかし海外では、その便利さの裏側にある悪用のリスクと環境への悪影響について、真摯な議論が始まっている。日本でも無視できない課題として浮上し始めた。 (出典: BBC / 更新: 2026-09-15 09:37)
 - [AI企業Anthropic元研究者が懸念表明、AI開発の危機感が業界内に広がる](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html): AI企業Anthropicの元研究者がBBCのインタビューで、開発現場のスタッフが人類の未来に対して真摯な危機感を持っていることを明かした。同社のCEOも技術開発の減速を呼びかけており、AI産業内部からの警告の声が強まっている。 (出典: BBC / 更新: 2026-09-14 22:28)
 - [AI 人類脅威論 BBC 報道 実在する危険性](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-2882773e.html): AIの存在的リスクについて再び注目が集まっている。BBC が報道した「AI が人類に本当にもたらすのか」という根本的な問い。その危機の実態と、現実的な懸念の内容を解説する。 (出典: BBC / 更新: 2026-09-14 22:27)
 - [Gemini Notebookとは？NotebookLMからの変更点・できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html): GoogleのAIツールが資料の読み込みから、データ分析や成果物作成まで対応へ。仕事のあり方が変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:02)
@@ -205,5 +207,3 @@
 - [Nvidia Hugging Face買収129億ドル｜AI開発がどう変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-a0f5f526.html): 半導体大手Nvidiaが、AIモデル共有プラットフォーム「Hugging Face」を129億ドル（約1.9兆円）で買収する。オープンソースAIを広く開発者に提供することが狙い。この買収により、AIツールの敷居がさらに下がり、企業規模を問わずAI活用が進む可能性がある。 (出典: CNBC / 更新: 2026-09-04 07:21)
 - [Claude Fable 5とは？Anthropicが発表した新型AI、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-f4481d1e.html): Anthropicが次期主力AI「Claude Fable 5」の立ち上げを準備中。業界が直面する重要課題への対応が焦点。 (出典: Yellow.com / 更新: 2026-09-04 06:51)
 - [Anthropic Claude Fable 5.1・Mythos 5.1とは？性能と料金の変化を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-048a59c0.html): Anthropicが新型AIモデルを発表。科学分野の能力が高まり、利用コストも改善される。 (出典: aismiley.co.jp / 更新: 2026-09-04 06:50)
-- [ChatGPT Atlasが終了。統合される機能と何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d039ad14.html): OpenAIのAIブラウザ「ChatGPT Atlas」が終了。機能はChatGPT本体に統合される。 (出典: OpenAI Help Center / 更新: 2026-09-04 06:03)
-- [Claude Fable 5 vs GPT-5.6 Sol比較、料金・性能どう違う](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21e2816b.html): Anthropicの新型AI「Claude Fable 5」はコーディングと複雑タスクで強いが、利用料金が大幅値上げ。 (出典: Analytics Vidhya / 更新: 2026-09-04 06:03)

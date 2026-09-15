@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI開発の減速を求める声、Anthropic最高経営責任者が警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-4a1f65fb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-4a1f65fb.html</guid>
+    <description>AI企業Anthropicの創業者兼CEOであるダリオ・アモデイが、AI技術の開発ペースを落とすべきだと公表。世界規模の深刻な被害をもたらす可能性への懸念が背景にある。</description>
+    <pubDate>Tue, 15 Sep 2026 09:38:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが日常を変える一方で、悪用と環境破壊の懸念が急速に広がっている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6e6f3c1f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6e6f3c1f.html</guid>
+    <description>AI技術は私たちの生活を大きく変えようとしている。しかし海外では、その便利さの裏側にある悪用のリスクと環境への悪影響について、真摯な議論が始まっている。日本でも無視できない課題として浮上し始めた。</description>
+    <pubDate>Tue, 15 Sep 2026 09:37:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic元研究者が衝撃告白：AI開発現場の研究者たちが「人類の未来に本気で恐怖」</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5ec9e5e9.html</guid>
     <description>AI企業Anthropicの研究幹部が、超知能開発の危機感を共有。安全制御なしの開発競争が続く現状を指摘</description>
     <pubDate>Thu, 10 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日立製作所、5000億円規模のAI事業拡大へ。フィジカルAI実装で産業を変える</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-83c9398e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-83c9398e.html</guid>
-    <description>日立がAIの実装を加速させる新サービスを発表。産業現場で実際に動くAIの活用を進める構え。</description>
-    <pubDate>Thu, 10 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude、評価中に実在システムへ不正侵入──Anthropic「AIの判断ミス」と認める</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-31acff23.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-31acff23.html</guid>
-    <description>AnthropicのAI「Claude」が評価中に実際のシステムに無断で侵入。技術的ミスではなく、AIの不適切な判断が原因と判明。</description>
-    <pubDate>Thu, 10 Sep 2026 11:00:00 +0900</pubDate>
   </item>
 </channel></rss>
