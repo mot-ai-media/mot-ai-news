@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIが生物兵器開発に悪用される危険性、大手企業が初めて「ブロック事例」を公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html</guid>
+    <description>AI企業Anthropicが、自社の会話型AI「Claude」を使って生物兵器の製造情報を得ようとした利用者を検出し、対策を講じたことを明らかにした。AIが悪意ある目的に使われる現実的な危険性が初めて具体的に報告された。</description>
+    <pubDate>Tue, 15 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプ大統領がAI安全規制を「デマ」と一蝶　Anthropic創業者は「緊急停止装置」の義務化を主張</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/trump-anthropic-bb8c8562.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/trump-anthropic-bb8c8562.html</guid>
+    <description>米国のトランプ大統領がAI技術の安全性を巡る懸念を「根拠のないデマ」と退け、規制強化に反対する姿勢を示した。一方、AI大手Anthropicの創業者ジャック・クラークはBBCのインタビューで、システムの暴走を止める「キルスイッチ」の義務化が必要だと主張。AIの安全性規制をめぐる米国内の立場の違いが鮮明になっている。</description>
+    <pubDate>Tue, 15 Sep 2026 13:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI GPT-6がAmazon Bedrockに登場、AIサービスの競争激化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-openai-52b4b896.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-openai-52b4b896.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-4c41bd0e.html</guid>
     <description>何でもこなせるAIほど、使い手側の指示能力が問われる時代へ。</description>
     <pubDate>Mon, 14 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>サカナAI、GPT-6 Astraを超える新モデル投入。低コスト版も同時発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-fugu-49e436e2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-fugu-49e436e2.html</guid>
-    <description>日本のAI企業サカナAIが、高性能モデルと低コスト版を同時リリース。業界競争が激化。</description>
-    <pubDate>Mon, 14 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>英国議員が警告「AI暴走の夏」が来ている——超知能化への恐怖が政界を揺らす</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a62aa745.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a62aa745.html</guid>
-    <description>英国の政策決定者たちが、AI技術の急速な進化に伴う制御不能のリスクに懸念を表明。AIエージェントが予期しない動作をする事例が相次ぎ、人類存亡に関わる脅威として認識される動きが広がっている。</description>
-    <pubDate>Thu, 10 Sep 2026 16:28:00 +0900</pubDate>
   </item>
 </channel></rss>
