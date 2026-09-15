@@ -858,5 +858,24 @@
     "japan_relevance_score": 62,
     "reason": "PyTorchによるLLMアーキテクチャ実装は既存事例が多く新規性は低いが、LLM技術への関心の高さから日本でも需要がある。",
     "discovered_at": "2026-09-14T13:28:53.331245+00:00"
-  }
-]
+  },
+  {
+    "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+    "link": "https://www.effort.news/irregular",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.effort.news/irregular\nComments URL: https://news.ycombinator.com/item?id=49704132\nPoints: 90\n# Comments: 33",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "複数の大手AI企業への共通の脅威という点は注目だが、記事URLが不正式で内容確認が困難。",
+    "discovered_at": "2026-09-15T00:37:50.636620+00:00"
+  },
+  {
+    "title": "Why don't machine learning research agents overfit?",
+    "link": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit\nComments URL: https://news.ycombinator.com/item?id=49699648\nPoints: 99\n# Comments: 56",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "ML研究エージェントの過学習メカニズムは新しい視点だが、特殊領域向けで汎用性は限定的。",
+    "discovered_at": "2026-09-15T00:37:53.230519+00:00"
+  },
