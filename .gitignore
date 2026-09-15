@@ -3,3 +3,4 @@ __pycache__/
 alert_state.json
 social_assets/
 social_review.html
+.env
