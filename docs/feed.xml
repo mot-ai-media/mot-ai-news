@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI GPT-6がAmazon Bedrockに登場、AIサービスの競争激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-openai-52b4b896.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-openai-52b4b896.html</guid>
+    <description>AWSがOpenAI GPT-6をはじめ複数の新AI機能を発表。ビジネス向けAIツールが次々と実装される。</description>
+    <pubDate>Tue, 15 Sep 2026 12:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、ゲーム開発向けAI「Claude Fable 5」を公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c421ee3f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c421ee3f.html</guid>
+    <description>AnthropicがゲームAI開発用の新モデルClause Fable 5を発表。開発効率が向上する可能性。</description>
+    <pubDate>Tue, 15 Sep 2026 12:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>トランプ氏との通話でNVIDIA幹部が魅せた、あの最新デバイスの存在</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-jensen-huang-cf4c6f0a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-jensen-huang-cf4c6f0a.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a62aa745.html</guid>
     <description>英国の政策決定者たちが、AI技術の急速な進化に伴う制御不能のリスクに懸念を表明。AIエージェントが予期しない動作をする事例が相次ぎ、人類存亡に関わる脅威として認識される動きが広がっている。</description>
     <pubDate>Thu, 10 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ボルボが3年ぶりに「プラグインハイブリッド版XC40」復活へ、AIアシスタント「Gemini」搭載で新時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/xc40-google-gemini-b86ba02d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/xc40-google-gemini-b86ba02d.html</guid>
-    <description>スウェーデンの自動車メーカー・ボルボが、3年前に販売を終了したプラグインハイブリッドSUV「XC40 PHEV」を復活させることを発表。2025年初頭の販売開始予定で、外装デザインの刷新とセンサーの強化、そしてGoogleのAIアシスタント「Gemini」の統合が新たな特徴となる。</description>
-    <pubDate>Thu, 10 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが民主化した時代、企業は何に困るのか。現場と統制の衝突を防ぐ覚悟とは</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bc8752ad.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bc8752ad.html</guid>
-    <description>誰もが気軽にAIを使える時代、企業内の現場とIT部門の対立が深刻化。その解決策とは</description>
-    <pubDate>Thu, 10 Sep 2026 14:32:00 +0900</pubDate>
   </item>
 </channel></rss>
