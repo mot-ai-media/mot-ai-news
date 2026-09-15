@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Broadcomが明言「AI需要は衰えない」—急成長AIモデル時代の半導体戦略転換</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/broadcom-ai-fb264a33.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/broadcom-ai-fb264a33.html</guid>
+    <description>半導体大手Broadcomの最高経営責任者Hock Tanは、AIモデルの高度化に対する懸念が広がる中でも、AI向けインフラストラクチャへの需要は依然として堅調だと述べた。同社のAI関連売上目標に変更はないという。</description>
+    <pubDate>Tue, 15 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>サムスンが230億円投じて「Nvidia殺し」AI企業に賭ける—GPU独占時代に終わり</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-euclid-7ea538c6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-euclid-7ea538c6.html</guid>
+    <description>サムスン電子がオランダのスタートアップ・Euclidの資金調達ラウンドで主導的な役割を果たし、約230億円を投資。Nvidiaが圧倒的シェアを握るAI向け半導体市場に新たな競争勢力が登場した。</description>
+    <pubDate>Tue, 15 Sep 2026 16:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIが生物兵器開発に悪用される危険性、大手企業が初めて「ブロック事例」を公開</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c695bba9.html</guid>
     <description>AIが歴史的な暗号解読に成功した一方で、研究者から検証方法を巡る疑問が上がっている。</description>
     <pubDate>Mon, 14 Sep 2026 18:54:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6『Astra』提供開始、ChatGPT Plusは利用制限に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-a134f4e7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-a134f4e7.html</guid>
-    <description>OpenAIの最新モデルGPT-6『Astra』がサービス開始。Plus利用者に新たな使用制限が導入される。</description>
-    <pubDate>Mon, 14 Sep 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの新AI「Astra」、何でもできるからプロの指示が必須に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-4c41bd0e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-4c41bd0e.html</guid>
-    <description>何でもこなせるAIほど、使い手側の指示能力が問われる時代へ。</description>
-    <pubDate>Mon, 14 Sep 2026 16:53:00 +0900</pubDate>
   </item>
 </channel></rss>

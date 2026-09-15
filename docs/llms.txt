@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-15 13:28
+最終更新: 2026-09-15 16:28
 
 ## 記事一覧
 
+- [Broadcom CEO、AI インフラ需要の強気見通し。モデル高度化で投資加速](https://mot-ai-media.github.io/mot-ai-news/articles/broadcom-ai-fb264a33.html): 半導体大手Broadcomの最高経営責任者Hock Tanは、AIモデルの高度化に対する懸念が広がる中でも、AI向けインフラストラクチャへの需要は依然として堅調だと述べた。同社のAI関連売上目標に変更はないという。 (出典: CNBC / 更新: 2026-09-15 16:28)
+- [Samsung、Nvidia対抗企業Euclidに230億円出資—AI半導体市場に競争激化](https://mot-ai-media.github.io/mot-ai-news/articles/samsung-euclid-7ea538c6.html): サムスン電子がオランダのスタートアップ・Euclidの資金調達ラウンドで主導的な役割を果たし、約230億円を投資。Nvidiaが圧倒的シェアを握るAI向け半導体市場に新たな競争勢力が登場した。 (出典: CNBC / 更新: 2026-09-15 16:27)
 - [Anthropic AIで生物兵器製造の試みをブロック、初の具体的事例報告](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html): AI企業Anthropicが、自社の会話型AI「Claude」を使って生物兵器の製造情報を得ようとした利用者を検出し、対策を講じたことを明らかにした。AIが悪意ある目的に使われる現実的な危険性が初めて具体的に報告された。 (出典: BBC / 更新: 2026-09-15 13:28)
 - [トランプ大統領AI安全規制否定 vs Anthropic「キルスイッチ」必須論争](https://mot-ai-media.github.io/mot-ai-news/articles/trump-anthropic-bb8c8562.html): 米国のトランプ大統領がAI技術の安全性を巡る懸念を「根拠のないデマ」と退け、規制強化に反対する姿勢を示した。一方、AI大手Anthropicの創業者ジャック・クラークはBBCのインタビューで、システムの暴走を止める「キルスイッチ」の義務化が必要だと主張。AIの安全性規制をめぐる米国内の立場の違いが鮮明になっている。 (出典: BBC / 更新: 2026-09-15 13:27)
 - [Claude Fable 5とは？Anthropicがゲーム開発を加速](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c421ee3f.html): AnthropicがゲームAI開発用の新モデルClause Fable 5を発表。開発効率が向上する可能性。 (出典: Межа. Новини України. / 更新: 2026-09-15 12:53)
@@ -205,5 +207,3 @@
 - [AI生成メニューの問題点とは？レストラン経営者が知るべき落とし穴](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-73d7f7bb.html): 飲食店がAIでメニューを作ると、顧客は言語化できない違和感を感じてしまう現象が報告されている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 18:01)
 - [Crusoe Energy 資金調達とは？AIデータセンター企業が300億ドル超の評価](https://mot-ai-media.github.io/mot-ai-news/articles/crusoe-energy-ai-49b35d8a.html): AI向けデータセンター企業Crusoeが大型資金調達を実施し、業界内での競争がさらに激しくなる局面へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 18:01)
 - [カスハラ対策義務化いつから？AIスマートウォッチの仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/watch-33f2543e.html): 2026年10月の法改正でカスハラ対策が必須に。AI音声解析搭載の腕時計型デバイスが対応策として発表された。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:32)
-- [2D図面を3D CADに自動変換するAI「Zumen AI」とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-zumen-ai-2adf8e11.html): ホルスAIが、2D図面からの3D CADモデル生成と組立図からのバラシ図面作成を行うAIサービスを開始。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:31)
-- [三井倉庫のDX戦略とは？200億円投資の配分内訳](https://mot-ai-media.github.io/mot-ai-news/articles/dx-ef30db65.html): 話題の企業が明かす、地味だが本質的なDXへの向き合い方と物流業界が直面する課題。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 14:31)
