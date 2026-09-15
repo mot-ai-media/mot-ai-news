@@ -216,14 +216,58 @@ SPONSOR_ADS = [
             '<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36P+76E5BM+5XBQ+5YJRM" alt="">'
         ),
     },
+    {
+        "id": "taketin",
+        "sponsor": "TAKETIN",
+        "title": "会員制ビジネスの運営を、まるごと自動化",
+        "description": "ノーコードSaaS「TAKETIN」。会員管理・課金・予約などをコードを書かずに構築できる。",
+        "cta": "詳しく見る",
+        "is_ai_relevant": False,
+        "weight": 3,  # ユーザー指示により優先的に露出
+        "creative": (
+            '<a href="https://px.a8.net/svt/ejp?a8mat=4BC0UI+60PSZ6+5Y2Y+5YJRM" rel="sponsored nofollow" '
+            'target="_blank" class="sponsor-text-link">会員制ビジネスの運営を丸ごと自動化！ノーコードSaaS【TAKETIN】</a>'
+            '<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC0UI+60PSZ6+5Y2Y+5YJRM" alt="">'
+        ),
+    },
+    {
+        "id": "ringconn",
+        "sponsor": "RingConn",
+        "title": "睡眠の質を、指先のリングで可視化",
+        "description": "スマートリング「RingConn」。装着するだけで睡眠データを記録・分析できる。",
+        "cta": "製品を見る",
+        "is_ai_relevant": False,
+        "weight": 3,  # ユーザー指示により優先的に露出
+        "creative": (
+            '<a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" rel="sponsored nofollow" target="_blank">'
+            '<img border="0" width="300" height="250" alt="RingConn" loading="lazy" '
+            'src="https://www20.a8.net/svt/bgt?aid=260905484110&wid=001&eno=01&mid=s00000026776002004000&mc=1"></a>'
+            '<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" alt="">'
+        ),
+    },
+    {
+        "id": "aramid-fiber",
+        "sponsor": "アラミド繊維プロダクト",
+        "title": "アラミド繊維100%使用、日本製",
+        "description": "耐久性に優れたアラミド繊維を100%使用した日本製プロダクト。",
+        "cta": "詳しく見る",
+        "is_ai_relevant": False,
+        "creative": (
+            '<a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1LR2GI+34VM+2T7WK2" rel="sponsored nofollow" '
+            'target="_blank" class="sponsor-text-link">アラミド繊維100%使用 Made in Japan</a>'
+            '<img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4BC3YK+1LR2GI+34VM+2T7WK2" alt="">'
+        ),
+    },
 ]
 
 
 def _pick_sponsor(seed: str, ai_only: bool = False) -> dict:
-    """seed(記事slug等)のハッシュで決定的に1つ選ぶ。同じseedなら毎回同じ広告になる。"""
+    """seed(記事slug等)のハッシュで決定的に1つ選ぶ。同じseedなら毎回同じ広告になる。
+    weight(未指定なら1)の分だけ抽選プールに複製を入れることで重み付けする。"""
     pool = [a for a in SPONSOR_ADS if a["is_ai_relevant"]] if ai_only else SPONSOR_ADS
-    idx = int(hashlib.sha1(seed.encode("utf-8")).hexdigest(), 16) % len(pool)
-    return pool[idx]
+    weighted_pool = [a for a in pool for _ in range(a.get("weight", 1))]
+    idx = int(hashlib.sha1(seed.encode("utf-8")).hexdigest(), 16) % len(weighted_pool)
+    return weighted_pool[idx]
 
 
 def _render_sponsor_card(ad: dict, *, size: str = "normal") -> str:
