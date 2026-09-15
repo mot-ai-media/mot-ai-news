@@ -879,3 +879,34 @@
     "reason": "ML研究エージェントの過学習メカニズムは新しい視点だが、特殊領域向けで汎用性は限定的。",
     "discovered_at": "2026-09-15T00:37:53.230519+00:00"
   },
+  {
+    "title": "When LLM judges agree, should we believe them?",
+    "link": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them\nComments URL: https://news.ycombinator.com/item?id=49699590\nPoints: 49\n# Comments: 37",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "LLM評価の信頼性という重要だが既出テーマで、学術的関心は高いが一般層への波及効果は限定的。",
+    "discovered_at": "2026-09-15T00:37:57.506884+00:00"
+  },
+  {
+    "title": "Hacking AI customer service agents",
+    "link": "https://www.intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents\nComments URL: https://news.ycombinator.com/item?id=49699526\nPoints: 33\n# Comments: 5",
+    "novelty_score": 45,
+    "japan_relevance_score": 60,
+    "reason": "AIカスタマーサービスへの攻撃手法は既知だが、具体的な事例共有は有用で日本企業にも関連性がある。",
+    "discovered_at": "2026-09-15T00:38:00.104113+00:00"
+  },
+  {
+    "title": "MIT creates method to force AI to comply with safety rules",
+    "link": "https://theframenews.org/en/hardflow-safety-critical-ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://theframenews.org/en/hardflow-safety-critical-ai/\nComments URL: https://news.ycombinator.com/item?id=49699434\nPoints: 26\n# Comments: 28",
+    "novelty_score": 42,
+    "japan_relevance_score": 65,
+    "reason": "AI安全性は重要テーマだが、具体的な新規性が不透明で、学術発表段階の可能性が高い。",
+    "discovered_at": "2026-09-15T00:38:02.826670+00:00"
+  }
+]
