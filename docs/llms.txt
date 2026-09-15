@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-15 22:02
+最終更新: 2026-09-15 22:28
 
 ## 記事一覧
 
+- [Digital Realty、Equinix株価下落 AI減速懸念でも強気の見方](https://mot-ai-media.github.io/mot-ai-news/articles/digital-realty-equinix-ca7c7d7d.html): 世界最大級のデータセンター企業Digital RealityとEquinixの株価が、AI技術進化の減速予測をめぐる懸念で下がった。だが両社のトップは業界への長期的な影響は限定的と述べている。 (出典: CNBC / 更新: 2026-09-15 22:28)
+- [トランプ政権がAI規制を民間企業に委ねる方針、米中競争の激化で](https://mot-ai-media.github.io/mot-ai-news/articles/ai-93a68515.html): トランプ政権がAI産業の成長を重視し、政府による厳しい規制より民間企業の自主的な解決を優先する姿勢を示唆。米国がAI分野で中国に優位性を保つことが戦略的に重要だと位置づけている。 (出典: CNBC / 更新: 2026-09-15 22:27)
 - [MicrosoftのAI行動規範とは？電源オフや人間優先の原則を解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-455ea148.html): MicrosoftがAIの行動規範案を発表。AIは道具であり、人間がAIより重要という前提を明記。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 22:02)
 - [Microsoft 365 CopilotでExcel業務を効率化。使い方・活用術を解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-microsoft-365-copilot-54b45e53.html): ExcelのAI機能で日々の定型業務がどう変わるか、実例を交えて紹介。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 22:02)
 - [NVIDIAがRebellionsと協議か、推論NPU開発で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rebellions-22743d69.html): 生成AIの次は「推論」の時代へ。NVIDIAが韓国企業との提携・買収を視野に動く。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 22:02)
@@ -205,5 +207,3 @@
 - [Nvidia Hugging Face買収129億ドル：AIチップメーカーがなぜ開発プラットフォームを狙うのか](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-31b46744.html): AIチップ大手のNvidiaが、AIモデル開発の共有プラットフォーム「Hugging Face」を129億ドルで買収する方針。チップ販売だけでなく、AI開発者のエコシステム全体を支配することで、競合他社への対抗策と位置づけられている。 (出典: CNBC / 更新: 2026-09-04 22:27)
 - [Meta新型AI「Muse Spark」とは？割引プログラムの仕組み解説](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-91a2b0e8.html): Metaが新AIモデルの学習データ提供者向けに大幅割引を提供。ユーザーの利用パターンがAI改善に活かされる仕組み。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)
 - [OpenAI Astraとは？ブラウザ操作自動化AI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-341a230b.html): OpenAIが新AIモデル「Astra」を発表。パソコンやブラウザの操作を自動で行う能力を持つ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)
-- [Ollie AIアシスタントとは？プライバシー保護で他と何が違う](https://mot-ai-media.github.io/mot-ai-news/articles/ollie-ai-fb930f0d.html): 生活情報へのアクセスを求めつつ、データを学習や第三者に使わないAIが登場。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)
-- [Google天気予報AI「WeatherNext 3」とは？仕組みと導入時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-92509264.html): Googleが深層学習で気象予報の精度を大幅向上させ、検索やマップに統合開始。予報精度が劇的に変わる可能性。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)

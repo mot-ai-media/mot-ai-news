@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI開発の減速予測で、データセンター大手の株価が急落。でも経営層は「終わりではない」と主張</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/digital-realty-equinix-ca7c7d7d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/digital-realty-equinix-ca7c7d7d.html</guid>
+    <description>世界最大級のデータセンター企業Digital RealityとEquinixの株価が、AI技術進化の減速予測をめぐる懸念で下がった。だが両社のトップは業界への長期的な影響は限定的と述べている。</description>
+    <pubDate>Tue, 15 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプ政権、AI規制は「民間企業に任せるべき」と宣言。米国とで中国の競争が激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-93a68515.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-93a68515.html</guid>
+    <description>トランプ政権がAI産業の成長を重視し、政府による厳しい規制より民間企業の自主的な解決を優先する姿勢を示唆。米国がAI分野で中国に優位性を保つことが戦略的に重要だと位置づけている。</description>
+    <pubDate>Tue, 15 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>NVIDIAが韓国スタートアップ買収検討、推論AI戦争に本気</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rebellions-22743d69.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rebellions-22743d69.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html</guid>
     <description>AI企業Anthropicの元研究者がBBCのインタビューで、開発現場のスタッフが人類の未来に対して真摯な危機感を持っていることを明かした。同社のCEOも技術開発の減速を呼びかけており、AI産業内部からの警告の声が強まっている。</description>
     <pubDate>Mon, 14 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI が人類を脅かす可能性は本当か？BBC が改めて問う「実在する危機」の正体</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-2882773e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-2882773e.html</guid>
-    <description>AIの存在的リスクについて再び注目が集まっている。BBC が報道した「AI が人類に本当にもたらすのか」という根本的な問い。その危機の実態と、現実的な懸念の内容を解説する。</description>
-    <pubDate>Mon, 14 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GoogleのGemini Notebook、資料読むだけから一変。データ分析・成果物作成まで一任できる時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html</guid>
-    <description>GoogleのAIツールが資料の読み込みから、データ分析や成果物作成まで対応へ。仕事のあり方が変わる可能性。</description>
-    <pubDate>Mon, 14 Sep 2026 22:02:00 +0900</pubDate>
   </item>
 </channel></rss>

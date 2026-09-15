@@ -1,18 +1,6 @@
 [
   {
     "tokens": [
-      "chief",
-      "consequences",
-      "one",
-      "openai",
-      "prepared",
-      "scientist",
-      "warns"
-    ],
-    "ts": "2026-09-07T22:28:02"
-  },
-  {
-    "tokens": [
       "death",
       "dolly",
       "end",
@@ -518,5 +506,36 @@
       "warning"
     ],
     "ts": "2026-09-15T19:28:13"
+  },
+  {
+    "tokens": [
+      "hassett",
+      "house's",
+      "place'",
+      "private",
+      "right",
+      "sector",
+      "solve",
+      "threats",
+      "white"
+    ],
+    "ts": "2026-09-15T22:27:54"
+  },
+  {
+    "tokens": [
+      "center",
+      "ceo",
+      "data",
+      "digital",
+      "end",
+      "estate",
+      "not",
+      "potential",
+      "real",
+      "realty",
+      "slowdown",
+      "world"
+    ],
+    "ts": "2026-09-15T22:28:15"
   }
 ]
