@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-15 09:40
+最終更新: 2026-09-15 10:28
 
 ## 記事一覧
 
+- [AIに『kill switch』は不可能？英国政府が明かした人工知能制御の課題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-68f64883.html): 英国政府はAI安全性を監督する部門が、万が一AIが危険な状態になった場合も「単純にAIを止めることはできない」との見解を示した。この発言は、急速に拡大するAI技術をどう制御するかという世界的な課題の現実性を問い直すものとなっている。 (出典: BBC / 更新: 2026-09-15 10:28)
+- [AI芸人は笑わせられるか？コメディアンが自作ネタでAIアバター化、海外で話題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html): イギリスの芸人ギャレット・ミラリックが、自分のコメディ素材をAIアバターに学習させ、自動生成されたパフォーマンスを実施する実験を進めている。笑いの質を保ちながら人間を超えられるか、という根本的な問いが浮上している。 (出典: BBC / 更新: 2026-09-15 10:28)
 - [AIエージェントのAPIキー管理とは？セキュリティリスク解説](https://mot-ai-media.github.io/mot-ai-news/articles/api-ai-20cb3e33.html): AIエージェント活用の拡大に伴い、従来のAPIキー管理方法が破綻しつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 09:40)
 - [AIエージェントで事務作業を自動化する方法とは？導入手順と事例を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-282867df.html): 請求書入力や経費精算などの定型事務業務をAIエージェントで自動化する具体的な8つの方法と導入ステップを紹介。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-15 09:40)
 - [ビル管理の属人化問題とは。東京建物が新対策](https://mot-ai-media.github.io/mot-ai-news/articles/cf499ceb.html): ビルメンテナンス業界の深刻な人手不足と属人化課題に、大手が新たな拠点で対抗。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 09:39)
@@ -205,5 +207,3 @@
 - [ChatGPT利用制限が毎日リセット、新モデルAstraとは？有料ユーザー向け](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-7ad22734.html): OpenAIが有料ユーザー向けにChatGPTの利用制限をリセットする施策を発表。新AI「GPT-6 Astra」提供開始まで実施予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:13)
 - [RIZAP顧客情報流出問題とは？生成AIの個人利用リスク](https://mot-ai-media.github.io/mot-ai-news/articles/rizap-ai-0c0b8eed.html): RIZAPの社員が個人の生成AIに顧客の氏名や病歴などの機密情報を誤ってアップロード。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-04 13:13)
 - [GPT-6 Astra料金・使える人・性能 OpenAIが発表した内容まとめ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-07d6a2f9.html): OpenAIが次世代AI「GPT-6 Astra」の提供を開始。ChatGPT Plus以上の有料ユーザーと企業向けのみアクセス可能で、無料ユーザーは利用できない。API利用時は入力100万トークンあたり10ドル、出力は50ドルという価格設定。 (出典: AI Business / 更新: 2026-09-04 07:29)
-- [GPT-6 Astra登場でAI業界激変。99.9%の成績と未知のセキュリティ脅威が意味すること](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-10d135c8.html): OpenAIが新型言語モデル「GPT-6 Astra」を発表。複数の学力テストで過去最高の成績を記録し、前モデルより大幅に高速化。一方、AIが既知の脆弱性を自動発見できる段階に達したことで、セキュリティ上の懸念も浮上している。 (出典: OpenAI公式 / 更新: 2026-09-04 07:28)
-- [オーストラリア AI データセンター 環境 電力 雇用](https://mot-ai-media.github.io/mot-ai-news/articles/ai-540584b1.html): オーストラリアで大型のAIデータセンター建設が相次ぐなか、経済効果への期待と資源・電力消費への懸念が対立している。日本も同じジレンマに直面する可能性が指摘される。 (出典: BBC / 更新: 2026-09-04 07:22)

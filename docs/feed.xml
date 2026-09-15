@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>お笑い芸人がAI化、自分そっくりの「デジタル相方」を舞台に登場させる実験</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html</guid>
+    <description>イギリスの芸人ギャレット・ミラリックが、自分のコメディ素材をAIアバターに学習させ、自動生成されたパフォーマンスを実施する実験を進めている。笑いの質を保ちながら人間を超えられるか、という根本的な問いが浮上している。</description>
+    <pubDate>Tue, 15 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>英国が「AIの電源を切る」案を正式に否定。危険なAI制御の現実的限界が浮き彫りに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-68f64883.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-68f64883.html</guid>
+    <description>英国政府はAI安全性を監督する部門が、万が一AIが危険な状態になった場合も「単純にAIを止めることはできない」との見解を示した。この発言は、急速に拡大するAI技術をどう制御するかという世界的な課題の現実性を問い直すものとなっている。</description>
+    <pubDate>Tue, 15 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIエージェント、月末月初の事務地獄を終わらせる。8つの自動化パターン公開</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-282867df.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-282867df.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html</guid>
     <description>サンフランシスコの市当局がMetaに対し、児童虐待に関連した有害広告がFacebookとInstagramで繰り返し配信されていることについて説明を求めた。Metaは当該広告が市の管轄外だと主張している。</description>
     <pubDate>Thu, 10 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic研究者が「人類の転換点」と警告——AI安全化は数年で決まる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-327a25dd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-327a25dd.html</guid>
-    <description>AI企業Anthropicの研究者が退職し、同社内の大型開発プロジェクトの実態とAI安全化の緊急性を指摘。業界には数年以内にシステムを安全にする必要があると主張し、海外で大きな反響を呼んでいます。</description>
-    <pubDate>Thu, 10 Sep 2026 13:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude 3.5 Fable、100万トークン対応・キャッシュ料金75%削減で全面刷新</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html</guid>
-    <description>Anthropicが高性能AI「Claude 3.5 Fable」を一般提供。処理できるテキスト量が大幅増で、キャッシュ利用料も大幅値下げ。</description>
-    <pubDate>Thu, 10 Sep 2026 12:53:00 +0900</pubDate>
   </item>
 </channel></rss>

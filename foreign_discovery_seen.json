@@ -1,28 +1,6 @@
 [
   {
     "tokens": [
-      "infringement",
-      "microsoft",
-      "newsday",
-      "openai",
-      "seattle",
-      "sue",
-      "times"
-    ],
-    "ts": "2026-09-07T10:27:58"
-  },
-  {
-    "tokens": [
-      "ai-powered",
-      "case",
-      "legacy",
-      "making",
-      "modernization"
-    ],
-    "ts": "2026-09-07T10:28:15"
-  },
-  {
-    "tokens": [
       "chief",
       "consequences",
       "one",
@@ -436,5 +414,25 @@
       "slow"
     ],
     "ts": "2026-09-15T09:38:13"
+  },
+  {
+    "tokens": [
+      "dangerous",
+      "government",
+      "idea",
+      "kill",
+      "rejects",
+      "switch'"
+    ],
+    "ts": "2026-09-15T10:28:01"
+  },
+  {
+    "tokens": [
+      "comic",
+      "does",
+      "laugh",
+      "make"
+    ],
+    "ts": "2026-09-15T10:28:16"
   }
 ]
