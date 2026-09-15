@@ -908,5 +908,55 @@
     "japan_relevance_score": 65,
     "reason": "AI安全性は重要テーマだが、具体的な新規性が不透明で、学術発表段階の可能性が高い。",
     "discovered_at": "2026-09-15T00:38:02.826670+00:00"
+  },
+  {
+    "title": "For AI leaders Doom is a form of hype",
+    "link": "https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/\nComments URL: https://news.ycombinator.com/item?id=49699384\nPoints: 124\n# Comments: 170",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI安全性議論は既存テーマだが、リーダーのレトリックを批判する視点は比較的新しく、日本でも関心が高まる可能性がある。",
+    "discovered_at": "2026-09-15T01:28:56.868302+00:00"
+  },
+  {
+    "title": "Anthropic tells investors it will be profitable for second straight quarter",
+    "link": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/\nComments URL: https://news.ycombinator.com/item?id=49698936\nPoints: 49\n# Comments: 92",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "AI企業の黒字化は重要だが、Anthropic特定の決算報告であり、汎用的なニュース価値は限定的。",
+    "discovered_at": "2026-09-15T01:29:00.381832+00:00"
+  },
+  {
+    "title": "China's Regulators Take Aim at \"AI Boyfriends\"",
+    "link": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
+    "source": "Hacker News",
+    "summary": "Article URL: https://spectrum.ieee.org/china-ai-chatbot-regulation\nComments URL: https://news.ycombinator.com/item?id=49698664\nPoints: 54\n# Comments: 51",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AI規制の動きは既出だが、ロマンスAIという具体的な対象は新しく、日本でも同様の社会問題が発生する可能性が高い。",
+    "discovered_at": "2026-09-15T01:29:02.089495+00:00"
+  },
+  {
+    "title": "Transitions.dev: UI transitions for AI agents",
+    "link": "https://transitions.dev/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://transitions.dev/\nComments URL: https://news.ycombinator.com/item?id=49698443\nPoints: 23\n# Comments: 8",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI agentのUI/UX改善は需要があるが、transitions自体は既存技術の応用で革新性は限定的。",
+    "discovered_at": "2026-09-15T01:29:03.605577+00:00"
+  },
+  {
+    "title": "RubyGems Open Source Supply Chain Security and OpenAI",
+    "link": "https://rietta.com/blog/rubygems-supply-chain-openai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://rietta.com/blog/rubygems-supply-chain-openai/\nComments URL: https://news.ycombinator.com/item?id=49697666\nPoints: 45\n# Comments: 6",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "RubyGemsのセキュリティ問題は既知だが、AIを活用した対策アプローチに中程度の新規性があり、日本の開発者にも関心があるトピック。",
+    "discovered_at": "2026-09-15T01:29:05.464038+00:00"
   }
 ]
