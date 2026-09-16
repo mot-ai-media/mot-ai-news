@@ -2078,11 +2078,35 @@ def _render_topics_explore(articles_data: list[dict]) -> str:
 TICKER_ITEM_TEMPLATE = '<a class="mot-ticker-item" href="articles/{slug}.html" style="{bg_style}"><span class="mot-ticker-text">{headline}</span></a>'
 
 
+TICKER_RECENT_DAYS = 4
+
+
 def _render_ticker(articles_data: list[dict], exclude_slug: str | None = None, limit: int = 8) -> str:
     """タイトル直下を横に流れる、注目ニュースのティッカー。画像の上に見出しをうっすら重ねて表示する。
-    CSSアニメーションでシームレスに無限ループさせるため、同じ並びを2回連結している。"""
+    CSSアニメーションでシームレスに無限ループさせるため、同じ並びを2回連結している。
+    _pick_editorial_highlightsの「情報の厚み」スコアだけで全記事から選ぶと、一度上位に来た
+    古い記事がその後何百本記事が増えても永久に居座ってしまう(生成日時はスコアの最終タイブレークに
+    しか使われないため)。直近TICKER_RECENT_DAYS日以内の記事に母集団を絞ってからランキングすることで、
+    新しい記事が出るたびに自然に入れ替わるようにする。直近の記事がlimitに満たない場合のみ、
+    新しい順で古い記事を補う。"""
     candidates = [e for e in articles_data if e["slug"] != exclude_slug]
-    picks = _pick_editorial_highlights(candidates, limit=limit)
+    cutoff = datetime.now() - timedelta(days=TICKER_RECENT_DAYS)
+
+    def _is_recent(e: dict) -> bool:
+        try:
+            return datetime.strptime(e.get("generated_at", ""), "%Y-%m-%d %H:%M") >= cutoff
+        except ValueError:
+            return False
+
+    recent = [e for e in candidates if _is_recent(e)]
+    if len(recent) < limit:
+        recent_slugs = {e["slug"] for e in recent}
+        backfill = sorted(
+            (e for e in candidates if e["slug"] not in recent_slugs),
+            key=lambda e: e.get("generated_at", ""), reverse=True,
+        )
+        recent += backfill
+    picks = _pick_editorial_highlights(recent, limit=limit)
     if not picks:
         return ""
 
