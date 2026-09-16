@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-15 22:28
+最終更新: 2026-09-16 13:28
 
 ## 記事一覧
 
+- [AI企業の責任ある開発とは。Salesforce CEO の警告から考える](https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-ai-257bafab.html): 大手企業のトップが相次いでAIの安全性と倫理的な開発を強調している。同時に、急速に進化するAIの時代に子どもたちは何を学ぶべきかという根本的な問いも浮上している。 (出典: BBC / 更新: 2026-09-16 13:28)
+- [OpenAI CEO、AI企業への信頼呼びかけ—規制と自由化のバランスで業界が団結か](https://mot-ai-media.github.io/mot-ai-news/articles/openai-sam-altman-b17f30d5.html): OpenAIの最高経営責任者サム・アルトマン氏を含むテック企業の幹部らが、AI技術の急速な進化に対する世間の懸念は「正当だ」と認めながらも、企業側に自発的な規制の動機があるとして、業界を信頼するよう呼びかけた。人類への潜在的な脅威への警告と企業の自主性への期待という、相反する主張が同時に語られている。 (出典: BBC / 更新: 2026-09-16 13:28)
 - [Digital Realty、Equinix株価下落 AI減速懸念でも強気の見方](https://mot-ai-media.github.io/mot-ai-news/articles/digital-realty-equinix-ca7c7d7d.html): 世界最大級のデータセンター企業Digital RealityとEquinixの株価が、AI技術進化の減速予測をめぐる懸念で下がった。だが両社のトップは業界への長期的な影響は限定的と述べている。 (出典: CNBC / 更新: 2026-09-15 22:28)
 - [トランプ政権がAI規制を民間企業に委ねる方針、米中競争の激化で](https://mot-ai-media.github.io/mot-ai-news/articles/ai-93a68515.html): トランプ政権がAI産業の成長を重視し、政府による厳しい規制より民間企業の自主的な解決を優先する姿勢を示唆。米国がAI分野で中国に優位性を保つことが戦略的に重要だと位置づけている。 (出典: CNBC / 更新: 2026-09-15 22:27)
 - [MicrosoftのAI行動規範とは？電源オフや人間優先の原則を解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-455ea148.html): MicrosoftがAIの行動規範案を発表。AIは道具であり、人間がAIより重要という前提を明記。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 22:02)
@@ -205,5 +207,3 @@
 - [GPT-6 Astra・Claude Fable新型AI、何ができる？性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-986bb8bd.html): OpenAIとAnthropicの最新AI、PC自動操作や数学能力で新段階へ。性能の限界も見え始める (出典: TBS NEWS DIG / 更新: 2026-09-04 22:53)
 - [Nvidia 99億ドル投資 AI企業への出資戦略](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-88b52e93.html): AIチップ大手のNvidiaが約99億ドルに達する株式保有を発表。AI研究所からクラウド企業、インフラ企業まで幅広くバックアップし、業界全体に対する影響力を強化している。 (出典: CNBC / 更新: 2026-09-04 22:28)
 - [Nvidia Hugging Face買収129億ドル：AIチップメーカーがなぜ開発プラットフォームを狙うのか](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-31b46744.html): AIチップ大手のNvidiaが、AIモデル開発の共有プラットフォーム「Hugging Face」を129億ドルで買収する方針。チップ販売だけでなく、AI開発者のエコシステム全体を支配することで、競合他社への対抗策と位置づけられている。 (出典: CNBC / 更新: 2026-09-04 22:27)
-- [Meta新型AI「Muse Spark」とは？割引プログラムの仕組み解説](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-91a2b0e8.html): Metaが新AIモデルの学習データ提供者向けに大幅割引を提供。ユーザーの利用パターンがAI改善に活かされる仕組み。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)
-- [OpenAI Astraとは？ブラウザ操作自動化AI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-341a230b.html): OpenAIが新AIモデル「Astra」を発表。パソコンやブラウザの操作を自動で行う能力を持つ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-04 22:01)

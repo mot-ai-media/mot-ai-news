@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIのアルトマン最高経営責任者、「AIへの恐怖は正しい」と認めつつ「企業を信じるべき」と主張</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sam-altman-b17f30d5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sam-altman-b17f30d5.html</guid>
+    <description>OpenAIの最高経営責任者サム・アルトマン氏を含むテック企業の幹部らが、AI技術の急速な進化に対する世間の懸念は「正当だ」と認めながらも、企業側に自発的な規制の動機があるとして、業界を信頼するよう呼びかけた。人類への潜在的な脅威への警告と企業の自主性への期待という、相反する主張が同時に語られている。</description>
+    <pubDate>Wed, 16 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Salesforce CEO が警告、AI産業に「責任ある開発」を求める声が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-ai-257bafab.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-ai-257bafab.html</guid>
+    <description>大手企業のトップが相次いでAIの安全性と倫理的な開発を強調している。同時に、急速に進化するAIの時代に子どもたちは何を学ぶべきかという根本的な問いも浮上している。</description>
+    <pubDate>Wed, 16 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI開発の減速予測で、データセンター大手の株価が急落。でも経営層は「終わりではない」と主張</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/digital-realty-equinix-ca7c7d7d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/digital-realty-equinix-ca7c7d7d.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cf499ceb.html</guid>
     <description>ビルメンテナンス業界の深刻な人手不足と属人化課題に、大手が新たな拠点で対抗。</description>
     <pubDate>Tue, 15 Sep 2026 09:39:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領、AI規制に異議「大統領の権力があれば十分」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-413bf6c9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-413bf6c9.html</guid>
-    <description>トランプ大統領がAI企業への規制強化を語り、Anthropicを名指し批判。米国のAI優位性維持へ独自の姿勢を示す。</description>
-    <pubDate>Tue, 15 Sep 2026 09:38:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic元研究者が衝撃告白：AI開発現場の研究者たちが「人類の未来に本気で恐怖」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html</guid>
-    <description>AI企業Anthropicの元研究者がBBCのインタビューで、開発現場のスタッフが人類の未来に対して真摯な危機感を持っていることを明かした。同社のCEOも技術開発の減速を呼びかけており、AI産業内部からの警告の声が強まっている。</description>
-    <pubDate>Mon, 14 Sep 2026 22:28:00 +0900</pubDate>
   </item>
 </channel></rss>
