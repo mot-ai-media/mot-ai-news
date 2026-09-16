@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>日立が語る、AI時代のシステム刷新で人間エンジニアが果たす本当の役割</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b26a2dea.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b26a2dea.html</guid>
+    <description>生成AIがシステム刷新を加速させる中、日立は人間のエンジニアの重要性が変わらないと強調。</description>
+    <pubDate>Wed, 16 Sep 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>エイゾス、CAE結果から自動でAIモデル構築。設計開発がノーコードで加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/multi-sigma-cae-4798b919.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/multi-sigma-cae-4798b919.html</guid>
+    <description>複雑なシミュレーション結果からAIモデルを自動で作り、設計最適化をノーコードで実現する新ツール登場。</description>
+    <pubDate>Wed, 16 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta、Instagram・Facebook統一サブスク「Meta One」で月額949円から。AI機能大幅拡大</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-e3cc94d2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-e3cc94d2.html</guid>
+    <description>MetaがInstagram・Facebook・WhatsApp横断のサブスク「Meta One」を開始。月額949円からAI利用を拡大できる。</description>
+    <pubDate>Wed, 16 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta・ザッカーバーグ、AI安全性で「各社バラバラが正解」と宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-zuckerberg-d3e49f81.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-zuckerberg-d3e49f81.html</guid>
+    <description>MetaのザッカーバーグCEOが、AI企業の足並みを揃えるべき論に異を唱え、企業が独自の判断で進めるべき立場を表明。</description>
+    <pubDate>Wed, 16 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>北海道、AI向けデータセンター誘致に条件提示。脱炭素と地域共生を事業者に要求</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b084a9dc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b084a9dc.html</guid>
+    <description>北海道がAI向けデータセンター事業者に脱炭素・省エネと地域との共生を求める方針を公開。</description>
+    <pubDate>Wed, 16 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIのAstra制限に業界が警戒、セキュリティ体制の再構築迫られる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-772ff522.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-772ff522.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-openai-52b4b896.html</guid>
     <description>AWSがOpenAI GPT-6をはじめ複数の新AI機能を発表。ビジネス向けAIツールが次々と実装される。</description>
     <pubDate>Tue, 15 Sep 2026 12:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、ゲーム開発向けAI「Claude Fable 5」を公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c421ee3f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c421ee3f.html</guid>
-    <description>AnthropicがゲームAI開発用の新モデルClause Fable 5を発表。開発効率が向上する可能性。</description>
-    <pubDate>Tue, 15 Sep 2026 12:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ氏との通話でNVIDIA幹部が魅せた、あの最新デバイスの存在</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-jensen-huang-cf4c6f0a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-jensen-huang-cf4c6f0a.html</guid>
-    <description>NVIDIAのジェンスン・ファン最高経営責任者がトランプ氏とのライブ通話で使用した電話デバイスが、テック関係者の間で話題に。</description>
-    <pubDate>Tue, 15 Sep 2026 11:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが営業資料を全自動制作、人間がやるべき仕事は意外とこれだった</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-4854b2b5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-4854b2b5.html</guid>
-    <description>AIエージェントがLPの企画から実装まで自動化する段階へ。ただし人間が判断すべき部分が存在する。</description>
-    <pubDate>Tue, 15 Sep 2026 11:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェントがWebサイト制作を全自動化。もうWebデザイナーは不要？</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-web-178753f9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-web-178753f9.html</guid>
-    <description>AIエージェントを使えば、企画からデザイン・コーディング・公開まで対話で完結。従来のサイト制作が大きく変わる</description>
-    <pubDate>Tue, 15 Sep 2026 11:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>鎌倉プリンスホテルに御曹司きよやす邸がOPEN</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/be4fa5f3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/be4fa5f3.html</guid>
-    <description>鎌倉プリンスホテル内に新しい飲食店がオープンしました。</description>
-    <pubDate>Tue, 15 Sep 2026 11:00:00 +0900</pubDate>
   </item>
 </channel></rss>
