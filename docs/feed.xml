@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Google、会話を止めずにAIが裏でタスク実行。新モデル「Gemini 3.8 Live」公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7cd2133a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7cd2133a.html</guid>
+    <description>Googleが新しい音声AIモデルを公開。会話しながらAIが裏で調べ物や計算をこなせるように進化。</description>
+    <pubDate>Wed, 16 Sep 2026 14:33:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ウェザーニューズ、情報漏えい怖い社員が独自AIで解決。全社8割導入の衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d45b41a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d45b41a.html</guid>
+    <description>情報漏えいのリスクを避けつつ、社員が実務で使えるAIとして自社開発に踏み切った。</description>
+    <pubDate>Wed, 16 Sep 2026 14:33:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GMO天秤AI、東大生は有料サービス無料に。その狙いとは</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-gmo-ai-a5db6012.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-gmo-ai-a5db6012.html</guid>
+    <description>GMOのAIサービスが東大生を対象に無料提供を開始。企業の戦略的な狙いが明らかに。</description>
+    <pubDate>Wed, 16 Sep 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>iOS 27、Siriの脳をClaudeやChatGPTに切り替え可能に。Appleの戦略転換か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ios-6cd649a4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ios-6cd649a4.html</guid>
+    <description>iPhoneのSiriが複数のAIに切り替える仕組みがiOS 27に組み込まれることが判明。ユーザー選択の時代へ。</description>
+    <pubDate>Wed, 16 Sep 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>192GBメモリ搭載ミニPC「EVO-X5 Pro」、超大型AI モデルを手元で動作させる衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmktec-evo-x5-pro-db3142ce.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmktec-evo-x5-pro-db3142ce.html</guid>
+    <description>GMKtecの新型ミニPCが192GBメモリで大規模AIモデルをローカル実行可能に。</description>
+    <pubDate>Wed, 16 Sep 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIのアルトマン最高経営責任者、「AIへの恐怖は正しい」と認めつつ「企業を信じるべき」と主張</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sam-altman-b17f30d5.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sam-altman-b17f30d5.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html</guid>
     <description>イギリスの芸人ギャレット・ミラリックが、自分のコメディ素材をAIアバターに学習させ、自動生成されたパフォーマンスを実施する実験を進めている。笑いの質を保ちながら人間を超えられるか、という根本的な問いが浮上している。</description>
     <pubDate>Tue, 15 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>英国が「AIの電源を切る」案を正式に否定。危険なAI制御の現実的限界が浮き彫りに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-68f64883.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-68f64883.html</guid>
-    <description>英国政府はAI安全性を監督する部門が、万が一AIが危険な状態になった場合も「単純にAIを止めることはできない」との見解を示した。この発言は、急速に拡大するAI技術をどう制御するかという世界的な課題の現実性を問い直すものとなっている。</description>
-    <pubDate>Tue, 15 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、月末月初の事務地獄を終わらせる。8つの自動化パターン公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-282867df.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-282867df.html</guid>
-    <description>請求書入力や経費精算などの定型事務業務をAIエージェントで自動化する具体的な8つの方法と導入ステップを紹介。</description>
-    <pubDate>Tue, 15 Sep 2026 09:40:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>APIキーが危険な存在へ。AIエージェント時代の認証管理、人間向けの方法は終焉</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/api-ai-20cb3e33.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/api-ai-20cb3e33.html</guid>
-    <description>AIエージェント活用の拡大に伴い、従来のAPIキー管理方法が破綻しつつある。</description>
-    <pubDate>Tue, 15 Sep 2026 09:40:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国、AI開発「減速論」に真っ向反論　「恐怖と競争は誰の得にもならない」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-4a38ad44.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-4a38ad44.html</guid>
-    <description>中国外務省がAI開発減速論を批判し、グローバルなAI協調を主張。オープンソースAIコミュニティ設立も提唱。</description>
-    <pubDate>Tue, 15 Sep 2026 09:39:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ビル管理の「ワンマン化」が崩壊。東京建物が新基地で属人化を解消へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/cf499ceb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cf499ceb.html</guid>
-    <description>ビルメンテナンス業界の深刻な人手不足と属人化課題に、大手が新たな拠点で対抗。</description>
-    <pubDate>Tue, 15 Sep 2026 09:39:00 +0900</pubDate>
   </item>
 </channel></rss>
