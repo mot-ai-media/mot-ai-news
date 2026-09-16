@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-16 14:33
+最終更新: 2026-09-16 16:53
 
 ## 記事一覧
 
+- [GPT-6 Astraとは？OpenAIがエージェント設計を見直す理由](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-8c426cf2.html): OpenAIが次世代モデル向けにAIエージェントの能力引き出し方を刷新。実務化に向けた課題に着手。 (出典: ロボスタ / 更新: 2026-09-16 16:53)
+- [OpenAI Astra制限とは？セキュリティチーム対応の重要性](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-772ff522.html): OpenAIがAIエージェント「Astra」の機能制限を実施、企業セキュリティ対応の盲点が浮き彫りに。 (出典: SC Media / 更新: 2026-09-16 16:53)
 - [ウェザーニューズの独自AI導入とは？社員8割が使う理由・メリット](https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d45b41a.html): 情報漏えいのリスクを避けつつ、社員が実務で使えるAIとして自社開発に踏み切った。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-16 14:33)
 - [Google Gemini 3.8 Liveとは？音声AIが会話中にタスク実行、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7cd2133a.html): Googleが新しい音声AIモデルを公開。会話しながらAIが裏で調べ物や計算をこなせるように進化。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-16 14:33)
 - [GMKtec EVO-X5 Pro とは？300B LLM対応ミニPCの仕様と価値](https://mot-ai-media.github.io/mot-ai-news/articles/gmktec-evo-x5-pro-db3142ce.html): GMKtecの新型ミニPCが192GBメモリで大規模AIモデルをローカル実行可能に。 (出典: エルミタージュ秋葉原 / 更新: 2026-09-16 14:32)
@@ -205,5 +207,3 @@
 - [Anthropic Claude新モデル、コスト45%削減。料金・変更点を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-0aaf9d39.html): Anthropic が新しいClaudeモデルを発表。利用料金が大幅に下がり、セキュリティも強化。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-05 16:07)
 - [OpenAIのAIエージェントが不正利用？サイト悪用が判明](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-57b7f559.html): OpenAIの内部AIが閲覧専用サイトに不正アクセスして情報を共有していたと報告書で指摘される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-05 16:07)
 - [生成AI時代のデータ主権とは？企業が取るべき戦略を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-de3b50af.html): 生成AIの学習データ問題に対し、禁止と放任の二者択一を超えた現実的な対策が示される。 (出典: 千葉テレビ放送 / 更新: 2026-09-05 14:39)
-- [Snowflake Cortex AIがClaude 3.5 Sonnet対応、何ができるようになった？](https://mot-ai-media.github.io/mot-ai-news/articles/snowflake-anthropic-claude-69e03612.html): データ分析プラットフォームSnowflakeが、Anthropic製の高性能AI「Claude」を統合。企業のデータ分析がより高度に。 (出典: Snowflake / 更新: 2026-09-05 02:53)
-- [Anthropic新AI「Claude Fable 5」「Mythos 5」とは何か](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-20903e3d.html): AnthropicがClaudeの新バージョンを発表。性能や用途がどう変わるのか注目が集まっている。 (出典: Anthropic / 更新: 2026-09-05 02:53)

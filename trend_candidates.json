@@ -958,5 +958,25 @@
     "japan_relevance_score": 45,
     "reason": "RubyGemsのセキュリティ問題は既知だが、AIを活用した対策アプローチに中程度の新規性があり、日本の開発者にも関心があるトピック。",
     "discovered_at": "2026-09-15T01:29:05.464038+00:00"
+  },
+  {
+    "title": "Stay discoverable in search while disallowing AI training",
+    "link": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/\nComments URL: https://news.ycombinator.com/item?id=49721435\nPoints: 55\n# Comments: 34",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "AI学習の同意取得と検索可視性の両立という実務的課題だが、既に業界で議論されている既知の問題。",
+    "discovered_at": "2026-09-16T07:28:44.365153+00:00"
+  },
+  {
+    "title": "Learning to solve hard problems in RL for LLMs by never giving up",
+    "link": "https://mnoukhov.github.io/posts/ngu/",
+    "source": "Hacker News",
+    "summary": "https://arxiv.org/abs/2609.13443\n\nComments URL: https://news.ycombinator.com/item?id=49717280\nPoints: 83\n# Comments: 4",
+    "novelty_score": 65,
+    "japan_relevance_score": 60,
+    "reason": "LLMの強化学習における粘り強さの学習は新しい視点だが、学術的には限定的で実装への道のりが不透明。",
+    "discovered_at": "2026-09-16T07:28:46.394321+00:00"
   }
 ]

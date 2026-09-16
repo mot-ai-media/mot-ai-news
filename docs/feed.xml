@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIのAstra制限に業界が警戒、セキュリティ体制の再構築迫られる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-772ff522.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-772ff522.html</guid>
+    <description>OpenAIがAIエージェント「Astra」の機能制限を実施、企業セキュリティ対応の盲点が浮き彫りに。</description>
+    <pubDate>Wed, 16 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、次世代AI「GPT-6 Astra」向けに設計思想を大転換</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-8c426cf2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-8c426cf2.html</guid>
+    <description>OpenAIが次世代モデル向けにAIエージェントの能力引き出し方を刷新。実務化に向けた課題に着手。</description>
+    <pubDate>Wed, 16 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Google、会話を止めずにAIが裏でタスク実行。新モデル「Gemini 3.8 Live」公開</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7cd2133a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7cd2133a.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/be4fa5f3.html</guid>
     <description>鎌倉プリンスホテル内に新しい飲食店がオープンしました。</description>
     <pubDate>Tue, 15 Sep 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>iOS 27のSiri、ChatGPTやClaudeに置き換え可能に。Appleが選択肢化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-chatgpt-6ea6bb9c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-chatgpt-6ea6bb9c.html</guid>
-    <description>次期iOS 27でSiriの中身をChatGPTやClaudeなど別のAIに置き換えられるようになる可能性。</description>
-    <pubDate>Tue, 15 Sep 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>お笑い芸人がAI化、自分そっくりの「デジタル相方」を舞台に登場させる実験</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html</guid>
-    <description>イギリスの芸人ギャレット・ミラリックが、自分のコメディ素材をAIアバターに学習させ、自動生成されたパフォーマンスを実施する実験を進めている。笑いの質を保ちながら人間を超えられるか、という根本的な問いが浮上している。</description>
-    <pubDate>Tue, 15 Sep 2026 10:28:00 +0900</pubDate>
   </item>
 </channel></rss>
