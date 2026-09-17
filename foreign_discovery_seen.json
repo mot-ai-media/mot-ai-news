@@ -1,59 +1,6 @@
 [
   {
     "tokens": [
-      "agents",
-      "company",
-      "faces",
-      "meta",
-      "personal",
-      "privacy",
-      "public",
-      "pushes",
-      "reckoning",
-      "safety"
-    ],
-    "ts": "2026-09-09T04:28:05"
-  },
-  {
-    "tokens": [
-      "acquire",
-      "amazon",
-      "billion",
-      "chipmaker's",
-      "deal",
-      "infrastructure",
-      "issues",
-      "part",
-      "qualcomm",
-      "stock",
-      "warrants",
-      "worth"
-    ],
-    "ts": "2026-09-09T04:28:22"
-  },
-  {
-    "tokens": [
-      "agent",
-      "bets",
-      "catch",
-      "meta",
-      "muse",
-      "race"
-    ],
-    "ts": "2026-09-09T13:28:04"
-  },
-  {
-    "tokens": [
-      "depend",
-      "promotion",
-      "should",
-      "use",
-      "workers"
-    ],
-    "ts": "2026-09-09T13:28:23"
-  },
-  {
-    "tokens": [
       "90-year-old",
       "cracked",
       "hours",
@@ -515,5 +462,32 @@
       "world"
     ],
     "ts": "2026-09-16T13:28:20"
+  },
+  {
+    "tokens": [
+      "bid",
+      "biology",
+      "data",
+      "download",
+      "gamble",
+      "openai",
+      "trillion-dollar"
+    ],
+    "ts": "2026-09-17T13:28:09"
+  },
+  {
+    "tokens": [
+      "disclose",
+      "incidents",
+      "issues",
+      "more",
+      "openai",
+      "plan",
+      "reveals",
+      "safety",
+      "six",
+      "unveils"
+    ],
+    "ts": "2026-09-17T13:28:25"
   }
 ]

@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが新たに6つの安全問題を公開、AIの「暴走」を追跡する仕組みを導入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-10b3a72c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-10b3a72c.html</guid>
+    <description>OpenAIが最新の安全レポートで新たに6つの問題事例を明かし、AIモデルが意図した通りに動かない場合を追跡・調査・公開する新しいシステムを発表。企業の透明性姿勢が一歩進む。</description>
+    <pubDate>Thu, 17 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI企業の1兆ドル投資は本当に元が取れるのか——ペンシルベニア大学の経済学者が警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-0b468efa.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-0b468efa.html</guid>
+    <description>ペンシルベニア大学ウォートン校の金融学者が、AI産業への巨額投資が経済的リターンをもたらすかどうかの不確実性を指摘。海外メディアではAIの経済インパクトに対する懐疑的な見方が広がりつつある。</description>
+    <pubDate>Thu, 17 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>日立が語る、AI時代のシステム刷新で人間エンジニアが果たす本当の役割</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b26a2dea.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b26a2dea.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html</guid>
     <description>AI企業Anthropicが、自社の会話型AI「Claude」を使って生物兵器の製造情報を得ようとした利用者を検出し、対策を講じたことを明らかにした。AIが悪意ある目的に使われる現実的な危険性が初めて具体的に報告された。</description>
     <pubDate>Tue, 15 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領がAI安全規制を「デマ」と一蝶　Anthropic創業者は「緊急停止装置」の義務化を主張</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/trump-anthropic-bb8c8562.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/trump-anthropic-bb8c8562.html</guid>
-    <description>米国のトランプ大統領がAI技術の安全性を巡る懸念を「根拠のないデマ」と退け、規制強化に反対する姿勢を示した。一方、AI大手Anthropicの創業者ジャック・クラークはBBCのインタビューで、システムの暴走を止める「キルスイッチ」の義務化が必要だと主張。AIの安全性規制をめぐる米国内の立場の違いが鮮明になっている。</description>
-    <pubDate>Tue, 15 Sep 2026 13:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI GPT-6がAmazon Bedrockに登場、AIサービスの競争激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-openai-52b4b896.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-openai-52b4b896.html</guid>
-    <description>AWSがOpenAI GPT-6をはじめ複数の新AI機能を発表。ビジネス向けAIツールが次々と実装される。</description>
-    <pubDate>Tue, 15 Sep 2026 12:53:00 +0900</pubDate>
   </item>
 </channel></rss>
