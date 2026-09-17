@@ -1032,56 +1032,158 @@ footer a {
 /* --- LATEST NEWS(既存カード一覧) --- */
 .latest-news { margin-bottom: 20px; }
 
-/* --- PRODUCTS一覧(products.html): MOTが手がけるプロダクトのカード --- */
+/* --- PRODUCTS一覧(products.html): MOTが手がけるプロダクトのカード ---
+   ここで使う濃いグリーン(Focus)/温かみのあるストーン(Nagano)は、サイト全体の
+   「意味を持たせたアクセントカラー」体系(速報・急上昇等)とは別枠の、
+   プロダクトごとのブランド識別色。products-page内だけで完結させ、
+   :root のグローバルトークンには足さない。 */
+body.products-page main.products-main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 20px 100px;
+}
+.products-hero { padding: 8px 0 8px; }
+.products-hero h1 {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 900;
+  font-size: 2.1rem;
+  margin: 0 0 10px;
+}
+.products-hero .products-sub {
+  font-size: 0.98rem;
+  color: var(--mot-text-secondary);
+  margin: 0 0 22px;
+}
+.products-motif {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: 22px;
+  color: var(--mot-text-secondary);
+  opacity: 0.4;
+  margin-bottom: 32px;
+}
 .product-grid {
   display: grid;
   gap: 16px;
-  margin: 28px 0 8px;
+  margin: 0 0 8px;
 }
 .product-card {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 20px;
+  gap: 18px;
+  padding: 22px;
   border: 1px solid var(--mot-border);
-  border-radius: 14px;
+  border-radius: 16px;
   text-decoration: none;
   color: inherit;
-  transition: border-color 0.15s, transform 0.15s;
-}
-.product-card:hover { border-color: var(--mot-primary); transform: translateY(-1px); }
-.product-card-mark {
-  flex: none;
-  width: 52px;
-  height: 52px;
-  border-radius: 12px;
   overflow: hidden;
+  transition: border-color 0.18s ease, background-color 0.18s ease;
+}
+.product-card-bg {
+  position: absolute;
+  right: -18px;
+  bottom: -18px;
+  width: 140px;
+  height: 140px;
+  opacity: 0.06;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.25s ease;
+}
+.product-card-bg svg { width: 100%; height: 100%; display: block; }
+.product-card:hover .product-card-bg { opacity: 0.1; transform: translate(-4px, -4px); }
+.product-card-mark {
+  position: relative;
+  flex: none;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.18s ease;
 }
 .product-card-mark svg { width: 100%; height: 100%; display: block; }
-.product-card-body { min-width: 0; }
+.product-card:hover .product-card-mark { transform: scale(1.04); }
+.product-card-body { position: relative; min-width: 0; }
 .product-card-kicker {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: var(--mot-text-secondary);
   margin: 0 0 3px;
   text-transform: uppercase;
 }
 .product-card-name {
-  font-size: 1.1rem;
+  font-size: 1.14rem;
   font-weight: 700;
-  margin: 0 0 4px;
+  margin: 0 0 5px;
   color: #14141c;
 }
 .product-card-tagline {
-  font-size: 0.88rem;
+  font-size: 0.87rem;
   color: var(--mot-text-secondary);
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.6;
 }
-.product-card-arrow { flex: none; margin-left: auto; color: var(--mot-text-secondary); font-size: 1.2rem; }
+.product-card-arrow {
+  position: relative;
+  flex: none;
+  margin-left: auto;
+  color: var(--mot-text-secondary);
+  font-size: 1.2rem;
+  transition: transform 0.18s ease;
+}
+.product-card:hover .product-card-arrow { transform: translateX(3px); }
+
+/* MOT Focus: 深いグリーン、Chrome/集中/整理の世界観 */
+.product-card--focus { --product-accent: #0f4d3c; }
+.product-card--focus .product-card-kicker { color: #2f7a63; }
+.product-card--focus:hover { border-color: #2f7a63; background: rgba(15, 77, 60, 0.035); }
+.product-card--focus .product-card-bg { color: #0f4d3c; }
+
+/* MOT NAGANO: 温かみのあるストーン、山/地域の世界観(観光地カラーにはしない) */
+.product-card--nagano { --product-accent: #8a6f52; }
+.product-card--nagano .product-card-kicker { color: #96795a; }
+.product-card--nagano:hover { border-color: #96795a; background: rgba(138, 111, 82, 0.045); }
+.product-card--nagano .product-card-bg { color: #8a6f52; }
+
+.products-contact {
+  margin-top: 40px;
+  padding: 18px 22px;
+  border: 1px solid var(--mot-border);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.products-contact p { margin: 0; font-size: 0.9rem; color: var(--mot-text-secondary); }
+.products-contact a {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--mot-primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.products-contact a:hover { text-decoration: underline; }
+
+:root[data-theme="dark"] .products-hero h1 { color: #f0f0f5; }
 :root[data-theme="dark"] .product-card { border-color: #2a2a36; }
 :root[data-theme="dark"] .product-card-name { color: #f0f0f5; }
+:root[data-theme="dark"] .product-card--focus:hover { background: rgba(47, 122, 99, 0.08); }
+:root[data-theme="dark"] .product-card--nagano:hover { background: rgba(150, 121, 90, 0.1); }
+:root[data-theme="dark"] .products-contact { border-color: #2a2a36; }
+
+@media (max-width: 560px) {
+  .product-card { flex-direction: column; text-align: center; padding: 26px 20px; }
+  .product-card-arrow { margin: 4px 0 0; }
+  .product-card-bg { right: -30px; bottom: -30px; }
+  .products-contact { flex-direction: column; align-items: flex-start; text-align: left; }
+}
+:root[data-presbyopia="on"] .products-hero h1 { font-size: 2.5rem; }
+:root[data-presbyopia="on"] .products-hero .products-sub,
+:root[data-presbyopia="on"] .product-card-tagline { font-size: 1.05rem; line-height: 1.8; }
+:root[data-presbyopia="on"] .product-card-name { font-size: 1.3rem; }
 
 /* --- MOT Focusプロダクトページ(mot-focus.html) ---
    ニュース記事とは体験を分け、余白を大きく取ったシンプルなプロダクトLPにする

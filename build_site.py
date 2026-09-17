@@ -303,6 +303,49 @@ MOT_MARK_SVG = (
     'fill="#fff" text-anchor="middle">MOT</text></svg>'
 )
 
+# MOT Focus用アイコン: 黒角丸(ブランドの共通の形)の中に、重なる2枚のウィンドウ/タブの
+# 輪郭線だけを置いたミニマルなマーク。「集中・整理・Chrome」を連想させる。
+FOCUS_MARK_SVG = (
+    '<svg viewBox="0 0 64 64" role="img" aria-label="MOT Focus">'
+    '<rect width="64" height="64" rx="16" fill="#000"/>'
+    '<rect x="16" y="14" width="30" height="22" rx="4" fill="none" stroke="#fff" stroke-opacity="0.4" stroke-width="2.5"/>'
+    '<rect x="10" y="24" width="30" height="22" rx="4" fill="none" stroke="#fff" stroke-width="2.5"/>'
+    "</svg>"
+)
+# カード背景にごく薄く敷く、色を継承する(currentColor)ウォーターマーク版
+FOCUS_WATERMARK_SVG = (
+    '<svg viewBox="0 0 64 64" aria-hidden="true">'
+    '<rect x="16" y="14" width="30" height="22" rx="4" fill="none" stroke="currentColor" stroke-opacity="0.55" stroke-width="2.5"/>'
+    '<rect x="10" y="24" width="30" height="22" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/>'
+    "</svg>"
+)
+
+# MOT NAGANO用アイコン: nagano/index.html側で既に使っているfavicon(暗いグリーン地に
+# 山の稜線1本のポリライン)と全く同じ絵柄にする。観光ロゴ的な太陽・木は使わず、
+# MOT本体ではなくNAGANOサブサイト側の既存ブランドに合わせることで一貫性を保つ。
+NAGANO_MARK_SVG = (
+    '<svg viewBox="0 0 100 100" role="img" aria-label="MOT NAGANO">'
+    '<rect width="100" height="100" rx="20" fill="#14241a"/>'
+    '<polyline points="15,68 35,42 50,58 68,30 85,55" fill="none" stroke="#f4f6f1" '
+    'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+)
+NAGANO_WATERMARK_SVG = (
+    '<svg viewBox="0 0 100 100" aria-hidden="true">'
+    '<polyline points="15,68 35,42 50,58 68,30 85,55" fill="none" stroke="currentColor" '
+    'stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+)
+
+# products.html冒頭の「タイトル周辺の薄いグラフィック要素」用の一本線モチーフ。
+# 左側にタブ(四角の輪郭)、右側に山の稜線を置き、2プロダクトの世界観を1本の線で予告する。
+PRODUCTS_MOTIF_SVG = (
+    '<svg class="products-motif" viewBox="0 0 220 22" aria-hidden="true" fill="none" stroke="currentColor">'
+    '<rect x="0" y="4" width="16" height="12" rx="2.5" stroke-width="1.6"/>'
+    '<rect x="20" y="6" width="16" height="12" rx="2.5" stroke-width="1.6" stroke-opacity="0.55"/>'
+    '<line x1="46" y1="11" x2="150" y2="11" stroke-width="1.2" stroke-dasharray="2 4" stroke-opacity="0.6"/>'
+    '<polyline points="160,18 172,4 182,14 194,2 206,18" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>'
+    "</svg>"
+)
+
 
 def _abs_url(path: str) -> str:
     """SITE_BASE_URLが未設定の間は相対パスのまま返す(ローカル確認用)。"""
@@ -1373,56 +1416,158 @@ footer a {
 /* --- LATEST NEWS(既存カード一覧) --- */
 .latest-news { margin-bottom: 20px; }
 
-/* --- PRODUCTS一覧(products.html): MOTが手がけるプロダクトのカード --- */
+/* --- PRODUCTS一覧(products.html): MOTが手がけるプロダクトのカード ---
+   ここで使う濃いグリーン(Focus)/温かみのあるストーン(Nagano)は、サイト全体の
+   「意味を持たせたアクセントカラー」体系(速報・急上昇等)とは別枠の、
+   プロダクトごとのブランド識別色。products-page内だけで完結させ、
+   :root のグローバルトークンには足さない。 */
+body.products-page main.products-main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 20px 100px;
+}
+.products-hero { padding: 8px 0 8px; }
+.products-hero h1 {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 900;
+  font-size: 2.1rem;
+  margin: 0 0 10px;
+}
+.products-hero .products-sub {
+  font-size: 0.98rem;
+  color: var(--mot-text-secondary);
+  margin: 0 0 22px;
+}
+.products-motif {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: 22px;
+  color: var(--mot-text-secondary);
+  opacity: 0.4;
+  margin-bottom: 32px;
+}
 .product-grid {
   display: grid;
   gap: 16px;
-  margin: 28px 0 8px;
+  margin: 0 0 8px;
 }
 .product-card {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 20px;
+  gap: 18px;
+  padding: 22px;
   border: 1px solid var(--mot-border);
-  border-radius: 14px;
+  border-radius: 16px;
   text-decoration: none;
   color: inherit;
-  transition: border-color 0.15s, transform 0.15s;
-}
-.product-card:hover { border-color: var(--mot-primary); transform: translateY(-1px); }
-.product-card-mark {
-  flex: none;
-  width: 52px;
-  height: 52px;
-  border-radius: 12px;
   overflow: hidden;
+  transition: border-color 0.18s ease, background-color 0.18s ease;
+}
+.product-card-bg {
+  position: absolute;
+  right: -18px;
+  bottom: -18px;
+  width: 140px;
+  height: 140px;
+  opacity: 0.06;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.25s ease;
+}
+.product-card-bg svg { width: 100%; height: 100%; display: block; }
+.product-card:hover .product-card-bg { opacity: 0.1; transform: translate(-4px, -4px); }
+.product-card-mark {
+  position: relative;
+  flex: none;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.18s ease;
 }
 .product-card-mark svg { width: 100%; height: 100%; display: block; }
-.product-card-body { min-width: 0; }
+.product-card:hover .product-card-mark { transform: scale(1.04); }
+.product-card-body { position: relative; min-width: 0; }
 .product-card-kicker {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: var(--mot-text-secondary);
   margin: 0 0 3px;
   text-transform: uppercase;
 }
 .product-card-name {
-  font-size: 1.1rem;
+  font-size: 1.14rem;
   font-weight: 700;
-  margin: 0 0 4px;
+  margin: 0 0 5px;
   color: #14141c;
 }
 .product-card-tagline {
-  font-size: 0.88rem;
+  font-size: 0.87rem;
   color: var(--mot-text-secondary);
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.6;
 }
-.product-card-arrow { flex: none; margin-left: auto; color: var(--mot-text-secondary); font-size: 1.2rem; }
+.product-card-arrow {
+  position: relative;
+  flex: none;
+  margin-left: auto;
+  color: var(--mot-text-secondary);
+  font-size: 1.2rem;
+  transition: transform 0.18s ease;
+}
+.product-card:hover .product-card-arrow { transform: translateX(3px); }
+
+/* MOT Focus: 深いグリーン、Chrome/集中/整理の世界観 */
+.product-card--focus { --product-accent: #0f4d3c; }
+.product-card--focus .product-card-kicker { color: #2f7a63; }
+.product-card--focus:hover { border-color: #2f7a63; background: rgba(15, 77, 60, 0.035); }
+.product-card--focus .product-card-bg { color: #0f4d3c; }
+
+/* MOT NAGANO: 温かみのあるストーン、山/地域の世界観(観光地カラーにはしない) */
+.product-card--nagano { --product-accent: #8a6f52; }
+.product-card--nagano .product-card-kicker { color: #96795a; }
+.product-card--nagano:hover { border-color: #96795a; background: rgba(138, 111, 82, 0.045); }
+.product-card--nagano .product-card-bg { color: #8a6f52; }
+
+.products-contact {
+  margin-top: 40px;
+  padding: 18px 22px;
+  border: 1px solid var(--mot-border);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.products-contact p { margin: 0; font-size: 0.9rem; color: var(--mot-text-secondary); }
+.products-contact a {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--mot-primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.products-contact a:hover { text-decoration: underline; }
+
+:root[data-theme="dark"] .products-hero h1 { color: #f0f0f5; }
 :root[data-theme="dark"] .product-card { border-color: #2a2a36; }
 :root[data-theme="dark"] .product-card-name { color: #f0f0f5; }
+:root[data-theme="dark"] .product-card--focus:hover { background: rgba(47, 122, 99, 0.08); }
+:root[data-theme="dark"] .product-card--nagano:hover { background: rgba(150, 121, 90, 0.1); }
+:root[data-theme="dark"] .products-contact { border-color: #2a2a36; }
+
+@media (max-width: 560px) {
+  .product-card { flex-direction: column; text-align: center; padding: 26px 20px; }
+  .product-card-arrow { margin: 4px 0 0; }
+  .product-card-bg { right: -30px; bottom: -30px; }
+  .products-contact { flex-direction: column; align-items: flex-start; text-align: left; }
+}
+:root[data-presbyopia="on"] .products-hero h1 { font-size: 2.5rem; }
+:root[data-presbyopia="on"] .products-hero .products-sub,
+:root[data-presbyopia="on"] .product-card-tagline { font-size: 1.05rem; line-height: 1.8; }
+:root[data-presbyopia="on"] .product-card-name { font-size: 1.3rem; }
 
 /* --- MOT Focusプロダクトページ(mot-focus.html) ---
    ニュース記事とは体験を分け、余白を大きく取ったシンプルなプロダクトLPにする
@@ -2459,7 +2604,7 @@ PRODUCTS_TEMPLATE = """<!DOCTYPE html>
 {theme_init}
 {csp}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>プロダクト紹介 | AI特化メディアMOT</title>
+<title>プロダクト | AI特化メディアMOT</title>
 <meta name="description" content="AI特化メディアMOTを運営するチームが手がけるサービス・アプリ・プロダクトの紹介ページです。">
 <link rel="canonical" href="{page_url}">
 <link rel="icon" href="{favicon}">
@@ -2467,35 +2612,45 @@ PRODUCTS_TEMPLATE = """<!DOCTYPE html>
 <link rel="stylesheet" href="style.css">
 {goatcounter}
 </head>
-<body class="article-page">
+<body class="products-page">
 {nav}
-<main>
+<main class="products-main">
   <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
-  <h1 class="headline">プロダクト紹介</h1>
-  <p class="summary">MOTを運営するチームが手がけている、その他のサービス・アプリ・プロジェクトをこちらでまとめて紹介していきます。</p>
+
+  <div class="products-hero">
+    <p class="section-label">PRODUCTS</p>
+    <h1>プロダクト</h1>
+    <p class="products-sub">MOTがつくっているもの。</p>
+    {products_motif_svg}
+  </div>
 
   <div class="product-grid">
-    <a class="product-card" href="mot-focus.html">
-      <span class="product-card-mark">{mot_mark_svg}</span>
+    <a class="product-card product-card--focus" href="mot-focus.html">
+      <span class="product-card-bg" aria-hidden="true">{focus_watermark_svg}</span>
+      <span class="product-card-mark">{focus_mark_svg}</span>
       <span class="product-card-body">
         <span class="product-card-kicker">Chrome Extension</span>
         <span class="product-card-name">MOT Focus</span>
-        <span class="product-card-tagline">散らかったブラウザを片付けて、今やることに集中する。</span>
+        <span class="product-card-tagline">散らかったブラウザを片付けて、<br>今やることに集中する。</span>
       </span>
       <span class="product-card-arrow" aria-hidden="true">&rsaquo;</span>
     </a>
-    <a class="product-card" href="nagano/index.html">
-      <span class="product-card-mark">{mot_mark_svg}</span>
+    <a class="product-card product-card--nagano" href="nagano/index.html">
+      <span class="product-card-bg" aria-hidden="true">{nagano_watermark_svg}</span>
+      <span class="product-card-mark">{nagano_mark_svg}</span>
       <span class="product-card-body">
         <span class="product-card-kicker">Local Project</span>
         <span class="product-card-name">MOT NAGANO</span>
-        <span class="product-card-tagline">長野の人と仕事を、ひとつずつ訪ねて記録していくプロジェクトです。まだ始まったばかりです。</span>
+        <span class="product-card-tagline">長野の人と仕事を、<br>ひとつずつ訪ねて記録していく。</span>
       </span>
       <span class="product-card-arrow" aria-hidden="true">&rsaquo;</span>
     </a>
   </div>
 
-  <p class="summary" style="margin-top:28px;">ご自身のプロダクトをMOTで紹介してほしい方は<a href="contact.html">お問い合わせページ</a>からどうぞ。</p>
+  <div class="products-contact">
+    <p>プロダクトをMOTで紹介してほしい方へ</p>
+    <a href="contact.html">お問い合わせはこちら &rarr;</a>
+  </div>
 </main>
 <footer>
   <a href="index.html">&laquo; トップへ戻る</a>
@@ -2527,7 +2682,7 @@ FOCUS_TEMPLATE = """<!DOCTYPE html>
   <a class="back-link" href="products.html">&laquo; プロダクト一覧に戻る</a>
 
   <section class="focus-hero">
-    <div class="focus-mark">{mot_mark_svg}</div>
+    <div class="focus-mark">{focus_mark_svg}</div>
     <p class="focus-kicker">Chrome Extension &middot; MOTが作るプロダクト</p>
     <h1>MOT Focus</h1>
     <p class="focus-catch">散らかったブラウザを片付けて、今やることに集中する。</p>
@@ -3806,7 +3961,11 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             google_font=GOOGLE_FONT_LINK,
             theme_init=THEME_INIT_SCRIPT,
             nav=_render_sub_nav("", _abs_url("products.html")),
-            mot_mark_svg=MOT_MARK_SVG,
+            products_motif_svg=PRODUCTS_MOTIF_SVG,
+            focus_mark_svg=FOCUS_MARK_SVG,
+            focus_watermark_svg=FOCUS_WATERMARK_SVG,
+            nagano_mark_svg=NAGANO_MARK_SVG,
+            nagano_watermark_svg=NAGANO_WATERMARK_SVG,
         ),
         encoding="utf-8",
     )
@@ -3819,7 +3978,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             google_font=GOOGLE_FONT_LINK,
             theme_init=THEME_INIT_SCRIPT,
             nav=_render_sub_nav("", _abs_url("mot-focus.html")),
-            mot_mark_svg=MOT_MARK_SVG,
+            focus_mark_svg=FOCUS_MARK_SVG,
             cta_url=FOCUS_CTA_URL,
         ),
         encoding="utf-8",
