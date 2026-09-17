@@ -1,44 +1,6 @@
 [
   {
     "tokens": [
-      "90-year-old",
-      "cracked",
-      "hours",
-      "maths",
-      "openai",
-      "problem"
-    ],
-    "ts": "2026-09-09T16:27:58"
-  },
-  {
-    "tokens": [
-      "all",
-      "anthropic",
-      "chance",
-      "colleague",
-      "humans'",
-      "killing",
-      "more",
-      "quits",
-      "researcher",
-      "than"
-    ],
-    "ts": "2026-09-09T16:28:15"
-  },
-  {
-    "tokens": [
-      "billion",
-      "europe'",
-      "google",
-      "infrastructure",
-      "invest",
-      "record",
-      "texas"
-    ],
-    "ts": "2026-09-09T19:28:02"
-  },
-  {
-    "tokens": [
       "cramer",
       "focused",
       "here",
@@ -489,5 +451,31 @@
       "unveils"
     ],
     "ts": "2026-09-17T13:28:25"
+  },
+  {
+    "tokens": [
+      "ads",
+      "app",
+      "banned",
+      "objectification",
+      "promoting",
+      "watchdog",
+      "women'"
+    ],
+    "ts": "2026-09-17T19:27:57"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "charles",
+      "king",
+      "leaders",
+      "nvidia",
+      "openai",
+      "press",
+      "safety",
+      "summit"
+    ],
+    "ts": "2026-09-17T19:28:13"
   }
 ]
