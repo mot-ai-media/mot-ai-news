@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>中国AIが米国最先端モデルから数十億トークン抽出、米当局が警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-claude-ec118696.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-claude-ec118696.html</guid>
+    <description>米国の情報機関がClaudeやGPTから知識を吸い出す「知識蒸留」の仕組みを暴露。</description>
+    <pubDate>Thu, 17 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude Codeのトークン浪費が想定外の課金に、Anthropicが効率化ポイント公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-c16898b0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-c16898b0.html</guid>
+    <description>Anthropicが、Claude Codeを使う際にコストが予想以上に増える理由と、トークンを節約する方法を公開した。</description>
+    <pubDate>Thu, 17 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>三菱重工が100億円出資、PFNとAI開発で手を組む。インフラ・防衛が変わる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/preferred-networks-ai-e4f0ca9d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/preferred-networks-ai-e4f0ca9d.html</guid>
+    <description>三菱重工業が大手AI企業PFNに100億円出資し、社会インフラと防衛分野のAI技術を共同開発する</description>
+    <pubDate>Thu, 17 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude、チャットと作業環境が統一。文書作成も1つの会話で完結へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ab606755.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ab606755.html</guid>
+    <description>AnthropicのAI「Claude」がチャット機能と作業環境を統合。文書作成やスライド作成まで1つの会話内で進められるようになった。</description>
+    <pubDate>Thu, 17 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、AIの暴走を監視する新枠組み発表。不正データなど6事例を公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-682afdeb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-682afdeb.html</guid>
+    <description>OpenAIが自社AIの異常行動を追跡・公表する仕組みを導入。未公開モデルで確認された問題事例も明かされた。</description>
+    <pubDate>Thu, 17 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIが新たに6つの安全問題を公開、AIの「暴走」を追跡する仕組みを導入</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-10b3a72c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-10b3a72c.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/crowdstrike-ai-4e41fa14.html</guid>
     <description>サイバーセキュリティ企業CrowdStrikeのCEOが、AI開発の減速ではリスクは解決しないと明言。危険性を持つAIモデルは既に広く流通しているため、対策の重点が変わるべきだと示唆。</description>
     <pubDate>Tue, 15 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI投資の減速懸念、データセンター企業の株価に打撃──ウォール街が警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0bc1f58.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0bc1f58.html</guid>
-    <description>AIブームを支えてきたデータセンター関連企業が、AI成長の鈍化という新たなリスクに直面している。ウォール街の投資家たちは、AIの急成長が一服する可能性を指摘し、この分野への巨額投資の継続性に疑問を呈し始めた。</description>
-    <pubDate>Tue, 15 Sep 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI「Astra」がPC自動操作へ、AGI到達の現実味を増す</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-9dbf17af.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-9dbf17af.html</guid>
-    <description>OpenAIが新しいAI「Astra」を発表。PCを自動で操作する能力を持ち、AI業界に激震が走っている。</description>
-    <pubDate>Tue, 15 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Broadcomが明言「AI需要は衰えない」—急成長AIモデル時代の半導体戦略転換</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/broadcom-ai-fb264a33.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/broadcom-ai-fb264a33.html</guid>
-    <description>半導体大手Broadcomの最高経営責任者Hock Tanは、AIモデルの高度化に対する懸念が広がる中でも、AI向けインフラストラクチャへの需要は依然として堅調だと述べた。同社のAI関連売上目標に変更はないという。</description>
-    <pubDate>Tue, 15 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>サムスンが230億円投じて「Nvidia殺し」AI企業に賭ける—GPU独占時代に終わり</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-euclid-7ea538c6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-euclid-7ea538c6.html</guid>
-    <description>サムスン電子がオランダのスタートアップ・Euclidの資金調達ラウンドで主導的な役割を果たし、約230億円を投資。Nvidiaが圧倒的シェアを握るAI向け半導体市場に新たな競争勢力が登場した。</description>
-    <pubDate>Tue, 15 Sep 2026 16:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが生物兵器開発に悪用される危険性、大手企業が初めて「ブロック事例」を公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html</guid>
-    <description>AI企業Anthropicが、自社の会話型AI「Claude」を使って生物兵器の製造情報を得ようとした利用者を検出し、対策を講じたことを明らかにした。AIが悪意ある目的に使われる現実的な危険性が初めて具体的に報告された。</description>
-    <pubDate>Tue, 15 Sep 2026 13:28:00 +0900</pubDate>
   </item>
 </channel></rss>
