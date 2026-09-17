@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-17 22:28
+最終更新: 2026-09-17 22:54
 
 ## 記事一覧
 
+- [Goodwipesとは？AI制作ツール「Asstra」での新しい試み](https://mot-ai-media.github.io/mot-ai-news/articles/goodwipes-asstra-4d18e14c.html): 消費財ブランドがAI制作ツールを活用し、広告・マーケティング素材の迅速な生成テストに乗り出した。 (出典: ContentGrip / 更新: 2026-09-17 22:54)
+- [OpenAI Astraが危険度最高評価、AI統治の課題とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-58dc6c4f.html): OpenAIの新しいAIシステムが最高危険度を指摘され、AI産業全体の管理体制の欠陥が浮き彫りに。 (出典: datacenterknowledge.com / 更新: 2026-09-17 22:53)
 - [OpenAI 懸念事案 投資家 市場反応](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-faa93dfc.html): OpenAIが運営上の懸念される事案を経験していることが市場で注目を集めている。詳細は限定的だが、投資家心理に悪影響を与え始めている。 (出典: CNBC / 更新: 2026-09-17 22:28)
 - [チャールズ国王のAI警告 OpenAI・Nvidiaと協議の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-11e2f04c.html): 英国のチャールズ国王がAI技術について「間違った手に渡れば存亡の危機をもたらす」と警告。OpenAI、Nvidiaなど主要テック企業の代表者を集めた会議で、AI規制の重要性が改めて指摘された。 (出典: BBC / 更新: 2026-09-17 22:27)
 - [チャールズ国王がAI企業トップと会談、安全性リスク協議](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-e97f57fc.html): 英国のチャールズ国王が、世界的なAI企業の指導者らを招集し、AI開発に伴うリスク問題について直接協議する会議を開催。AI安全性をめぐる国際的な議論が王侯レベルでの関心事となりつつあることを示唆している。 (出典: CNBC / 更新: 2026-09-17 19:28)
@@ -205,5 +207,3 @@
 - [AI最新モデル競争が加速、OpenAI・Google・Meta・Anthropic同時展開の背景](https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-bb1be035.html): OpenAI、Google、Meta、Anthropicといった主要AI企業が1週間の間に相次いで新しいAIモデルをリリースした。同時にNvidiaはAIプラットフォーム企業Hugging Faceの買収を発表。業界全体が急速なペースで新技術を投入する局面に入っている。 (出典: CNBC / 更新: 2026-09-06 22:27)
 - [コード生成AIが絵を描く？TRLとOpenEnvの実験とは](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-b844bdee.html): プログラミング用のAIモデルを訓練し直すことで、水彩画を描かせる実験が成功。AIの応用範囲の広さが明らかに。 (出典: Hugging Face - Blog / 更新: 2026-09-06 22:02)
 - [IBMの時系列AIモデルとは？Confluent連携でリアルタイム分析実現](https://mot-ai-media.github.io/mot-ai-news/articles/ibm-confluent-22915ca8.html): IBMの時系列予測AIがConfluent上で直接動作し、企業のリアルタイムデータ分析がより手軽に。 (出典: Hugging Face - Blog / 更新: 2026-09-06 22:02)
-- [GPT-6 Astraとは？OpenAIの最新AI、防御用途に限定](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-aa3e6bd9.html): OpenAIが新モデル「GPT-6 Astra」を公開。悪用を防ぐため防御目的のみで提供される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-06 22:01)
-- [AIコーディングエージェントとは？自社データ活用の新機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html): AIがコード生成を手伝う際、企業秘密を守りながら独自データを学習させられる仕組みが登場。 (出典: Hugging Face - Blog / 更新: 2026-09-06 22:01)
