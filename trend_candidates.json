@@ -978,5 +978,55 @@
     "japan_relevance_score": 60,
     "reason": "LLMの強化学習における粘り強さの学習は新しい視点だが、学術的には限定的で実装への道のりが不透明。",
     "discovered_at": "2026-09-16T07:28:46.394321+00:00"
+  },
+  {
+    "title": "Pangram – AI detector for text and images",
+    "link": "https://www.pangram.com",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.pangram.com\nComments URL: https://news.ycombinator.com/item?id=49735241\nPoints: 21\n# Comments: 15",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "AI検出ツールは既に複数存在し新規性は低いが、テキスト・画像両対応と実用性があり日本でも関心は高まる可能性がある。",
+    "discovered_at": "2026-09-17T04:29:01.626410+00:00"
+  },
+  {
+    "title": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior",
+    "link": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html\nComments URL: https://news.ycombinator.com/item?id=49735180\nPoints: 58\n# Comments: 61",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AIの安全性問題は継続的なテーマだが、具体的な事例開示は業界の透明性向上につながり日本でも規制議論に影響を与える可能性がある。",
+    "discovered_at": "2026-09-17T04:29:04.027400+00:00"
+  },
+  {
+    "title": "OpenSpec – A lightweight and configurable AI spec framework",
+    "link": "https://openspec.dev/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://openspec.dev/\nComments URL: https://news.ycombinator.com/item?id=49734264\nPoints: 97\n# Comments: 38",
+    "novelty_score": 45,
+    "japan_relevance_score": 52,
+    "reason": "AI仕様フレームワークは需要があるが、類似ツールが既に複数存在し、採用実績が不明な段階。",
+    "discovered_at": "2026-09-17T04:29:06.371178+00:00"
+  },
+  {
+    "title": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs",
+    "link": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9\nComments URL: https://news.ycombinator.com/item?id=49731395\nPoints: 73\n# Comments: 255",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI生成コンテンツの社会的反発は既知だが、小規模事業者の実例として日本でも関心高い",
+    "discovered_at": "2026-09-17T04:29:08.590433+00:00"
+  },
+  {
+    "title": "Ask HN: AI Panic, you buying it?",
+    "link": "https://news.ycombinator.com/item?id=49729849",
+    "source": "Hacker News",
+    "summary": "In your opinion, do you buy into the panic about AI eliminating humanity or potentially disrupting and taking down the internet? Is this a marketing ploy?Give me your best thoughts on this most recent call for AI slowdown.\n\nComments URL: https://news.ycombinator.com/item?id=49729849\nPoints: 28\n# Comments: 57",
+    "novelty_score": 25,
+    "japan_relevance_score": 60,
+    "reason": "AI安全性への議論は既出だが、日本でも規制やリスク認識の高まりと共に関心が増す可能性がある。",
+    "discovered_at": "2026-09-17T04:29:11.081837+00:00"
   }
 ]
