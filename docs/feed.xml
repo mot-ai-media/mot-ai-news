@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>370年前の謎の暗号、AIが1日で解読。人間が解けなかった古い暗号もAIの時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-205bed45.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-205bed45.html</guid>
+    <description>AIが人類が370年間解けなかった古い暗号を1日で破った。過去の謎もAIが解く時代へ。</description>
+    <pubDate>Thu, 17 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GPT-6 Astra、3Dアプリ制作もExcel操作も「最後までやり抜く」AIの実力</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7480fa89.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7480fa89.html</guid>
+    <description>OpenAIの最新AIが複雑なタスクを自分で判断しながら完遂。仕事の流れが変わる可能性。</description>
+    <pubDate>Thu, 17 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>中国AIが米国最先端モデルから数十億トークン抽出、米当局が警告</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-claude-ec118696.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-claude-ec118696.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5fce0a75.html</guid>
     <description>OpenAI現役研究者が、AIの進化により人間が本当の振る舞いを見抜けなくなる危機を指摘</description>
     <pubDate>Tue, 15 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マスク氏が語るGrok開発戦略、次世代AIの実力と業界減速論</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-grok-8521d00b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-grok-8521d00b.html</guid>
-    <description>イーロン・マスク氏が自社AIの開発進捗を公表。次世代モデルの位置づけと業界全体の動向を語る。</description>
-    <pubDate>Tue, 15 Sep 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの危険性を止めることはもう不可能。CrowdStrike CEO、Anthropicの警告に対して</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/crowdstrike-ai-4e41fa14.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/crowdstrike-ai-4e41fa14.html</guid>
-    <description>サイバーセキュリティ企業CrowdStrikeのCEOが、AI開発の減速ではリスクは解決しないと明言。危険性を持つAIモデルは既に広く流通しているため、対策の重点が変わるべきだと示唆。</description>
-    <pubDate>Tue, 15 Sep 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>

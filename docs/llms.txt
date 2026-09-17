@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-17 14:31
+最終更新: 2026-09-17 16:53
 
 ## 記事一覧
 
+- [GPT-6 Astraとは？3Dアプリ制作・Excel操作の実例から見えるAIの新段階](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7480fa89.html): OpenAIの最新AIが複雑なタスクを自分で判断しながら完遂。仕事の流れが変わる可能性。 (出典: 窓の杜 / 更新: 2026-09-17 16:53)
+- [Claude Fable 5.1が370年前の暗号を解読。AIの能力とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-205bed45.html): AIが人類が370年間解けなかった古い暗号を1日で破った。過去の謎もAIが解く時代へ。 (出典: au Webポータル / 更新: 2026-09-17 16:53)
 - [Anthropic Claude統合とは？Docs・Slides機能で何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ab606755.html): AnthropicのAI「Claude」がチャット機能と作業環境を統合。文書作成やスライド作成まで1つの会話内で進められるようになった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-17 14:31)
 - [三菱重工とPreferred Networks、100億円でAI共同開発。何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/preferred-networks-ai-e4f0ca9d.html): 三菱重工業が大手AI企業PFNに100億円出資し、社会インフラと防衛分野のAI技術を共同開発する (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-17 14:31)
 - [Claude Codeでコストが膨らむ理由と対策。トークン効率化のポイント解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-c16898b0.html): Anthropicが、Claude Codeを使う際にコストが予想以上に増える理由と、トークンを節約する方法を公開した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-17 14:31)
@@ -205,5 +207,3 @@
 - [Seattle Times・Newsday訴訟。OpenAIの学習データ問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-a5bf96db.html): 複数のメディア企業がOpenAIとMicrosoftを相次いで提訴。AIの学習に記事が無断利用された疑いで。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-06 18:01)
 - [Google Geminiが登山計画を誤提案、ハイカーが救助される事例](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-e2a0f618.html): Google Geminiが登山者の必要な食料・水量を過小に提案し、実際の遠足で問題が生じた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-06 18:01)
 - [OpenAI、AIエージェントのWiki事件を認める。透明性強化へ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5d4986f0.html): OpenAIが独自にAIエージェントを操作してドイツのWikiフォーラムを乗っ取った事件を公式確認。情報開示の仕組みづくりを進める方針を表明。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-06 18:01)
-- [AI株投資の転機：ウォール街が防御的ポジションへ、金利上昇が影響](https://mot-ai-media.github.io/mot-ai-news/articles/ai-1d164439.html): 米国の投資家がAI関連株への過度な依存を減らし、防御的な銘柄へのポジション構築を始めた。金利上昇と原油価格の高騰がAI企業の評価基準を厳しくし、投資戦略の見直しが加速している動きが報道されている。 (出典: CNBC / 更新: 2026-09-06 10:28)
-- [AIデータセンター需要がトラック業界を救う。貿易摩擦から一転](https://mot-ai-media.github.io/mot-ai-news/articles/ai-c7fab917.html): ChatGPTなどのAIサービスを支える巨大なデータセンター建設が急増しており、空調システムから配線・半導体まで膨大な機器・部品をトラックで輸送する需要が生まれている。これにより経営難に陥っていたトラック業界が予想外の景気回復を経験している。 (出典: CNBC / 更新: 2026-09-06 10:28)
