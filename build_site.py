@@ -45,6 +45,7 @@ STYLE_PATH = OUTPUT_DIR / "style.css"
 SHARE_JS_PATH = OUTPUT_DIR / "share.js"
 ABOUT_PATH = OUTPUT_DIR / "about.html"
 PRODUCTS_PATH = OUTPUT_DIR / "products.html"
+FOCUS_PATH = OUTPUT_DIR / "mot-focus.html"
 CONTACT_PATH = OUTPUT_DIR / "contact.html"
 SUPPORT_PATH = OUTPUT_DIR / "support.html"
 ROBOTS_PATH = OUTPUT_DIR / "robots.txt"
@@ -291,6 +292,15 @@ FAVICON_DATA_URI = (
     "%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E"
     "%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' "
     "fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E"
+)
+
+# ファビコンと同じ黒角丸+MOTロゴをインラインSVGとして使う場合の共通マーク
+# (プロダクト紹介ページ等でロゴアイコンを表示する箇所向け。サイズはCSS側で指定する)
+MOT_MARK_SVG = (
+    '<svg viewBox="0 0 100 100" role="img" aria-label="MOT">'
+    '<rect width="100" height="100" rx="20" fill="#000"/>'
+    '<text x="50" y="63" font-size="34" font-family="Arial,sans-serif" font-weight="bold" '
+    'fill="#fff" text-anchor="middle">MOT</text></svg>'
 )
 
 
@@ -1362,6 +1372,194 @@ footer a {
 
 /* --- LATEST NEWS(既存カード一覧) --- */
 .latest-news { margin-bottom: 20px; }
+
+/* --- PRODUCTS一覧(products.html): MOTが手がけるプロダクトのカード --- */
+.product-grid {
+  display: grid;
+  gap: 16px;
+  margin: 28px 0 8px;
+}
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid var(--mot-border);
+  border-radius: 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.product-card:hover { border-color: var(--mot-primary); transform: translateY(-1px); }
+.product-card-mark {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.product-card-mark svg { width: 100%; height: 100%; display: block; }
+.product-card-body { min-width: 0; }
+.product-card-kicker {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--mot-text-secondary);
+  margin: 0 0 3px;
+  text-transform: uppercase;
+}
+.product-card-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 4px;
+  color: #14141c;
+}
+.product-card-tagline {
+  font-size: 0.88rem;
+  color: var(--mot-text-secondary);
+  margin: 0;
+  line-height: 1.5;
+}
+.product-card-arrow { flex: none; margin-left: auto; color: var(--mot-text-secondary); font-size: 1.2rem; }
+:root[data-theme="dark"] .product-card { border-color: #2a2a36; }
+:root[data-theme="dark"] .product-card-name { color: #f0f0f5; }
+
+/* --- MOT Focusプロダクトページ(mot-focus.html) ---
+   ニュース記事とは体験を分け、余白を大きく取ったシンプルなプロダクトLPにする
+   (Apple/Linear/Raycastのプロダクトページを参考にした、詰め込みすぎない構成)。
+   ただしMOTのブランド(角丸ロゴマーク/見出しのZen Old Mincho/アクセントカラー)は維持する。 */
+body.focus-page main.focus-main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 20px 100px;
+}
+.focus-hero {
+  text-align: center;
+  padding: 56px 0 48px;
+}
+.focus-mark {
+  width: 68px;
+  height: 68px;
+  margin: 0 auto 26px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+.focus-mark svg { width: 100%; height: 100%; display: block; }
+.focus-kicker {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--mot-text-secondary);
+  margin: 0 0 14px;
+  text-transform: uppercase;
+}
+.focus-hero h1 {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.35;
+  margin: 0 0 18px;
+}
+.focus-hero .focus-catch {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.7;
+  margin: 0 auto 12px;
+  max-width: 480px;
+}
+.focus-hero .focus-sub {
+  font-size: 0.98rem;
+  color: var(--mot-text-secondary);
+  line-height: 1.8;
+  margin: 0 auto 32px;
+  max-width: 440px;
+}
+.focus-cta-lg {
+  padding: 14px 32px;
+  font-size: 1rem;
+  border-radius: 999px;
+}
+.focus-cta-note {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.78rem;
+  color: var(--mot-text-secondary);
+}
+.focus-section { margin-top: 92px; }
+.focus-section-head { text-align: center; margin-bottom: 40px; }
+.focus-feature-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 28px;
+}
+.focus-feature h3 {
+  font-size: 1.02rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #14141c;
+}
+.focus-feature p {
+  font-size: 0.92rem;
+  color: var(--mot-text-secondary);
+  line-height: 1.75;
+  margin: 0;
+}
+.focus-mid-cta { text-align: center; margin-top: 48px; }
+.focus-privacy-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 22px;
+}
+.focus-privacy-list li {
+  position: relative;
+  padding-left: 24px;
+  font-size: 0.92rem;
+  color: #333;
+}
+.focus-privacy-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--mot-positive);
+  font-weight: 700;
+}
+.focus-privacy-note {
+  margin: 24px auto 0;
+  max-width: 520px;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--mot-text-secondary);
+  line-height: 1.7;
+}
+.focus-footer-cta {
+  text-align: center;
+  margin-top: 96px;
+  padding: 48px 32px;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid var(--mot-border);
+}
+.focus-footer-cta p { margin: 0 0 20px; font-size: 1.02rem; font-weight: 700; }
+:root[data-theme="dark"] .focus-hero h1,
+:root[data-theme="dark"] .focus-feature h3,
+:root[data-theme="dark"] .focus-footer-cta p { color: #f0f0f5; }
+:root[data-theme="dark"] .focus-privacy-list li { color: #d6d6e2; }
+:root[data-theme="dark"] .focus-footer-cta { background: #101018; border-color: #2a2a36; }
+@media (max-width: 600px) {
+  .focus-hero h1 { font-size: 1.9rem; }
+  .focus-feature-list { grid-template-columns: 1fr; }
+  .focus-privacy-list { grid-template-columns: 1fr; }
+}
+:root[data-presbyopia="on"] .focus-hero h1 { font-size: 2.9rem; }
+:root[data-presbyopia="on"] .focus-hero .focus-catch { font-size: 1.4rem; }
+:root[data-presbyopia="on"] .focus-hero .focus-sub,
+:root[data-presbyopia="on"] .focus-feature p,
+:root[data-presbyopia="on"] .focus-privacy-list li { font-size: 1.08rem; line-height: 1.9; }
+:root[data-presbyopia="on"] .focus-feature h3 { font-size: 1.2rem; }
 """
 
 SHARE_JS = """(function () {
@@ -2275,11 +2473,131 @@ PRODUCTS_TEMPLATE = """<!DOCTYPE html>
   <a class="back-link" href="index.html">&laquo; 一覧に戻る</a>
   <h1 class="headline">プロダクト紹介</h1>
   <p class="summary">MOTを運営するチームが手がけている、その他のサービス・アプリ・プロジェクトをこちらでまとめて紹介していきます。</p>
-  <p class="summary" style="margin-top:28px;">
-    <a href="nagano/index.html" style="font-weight:700;">MOT NAGANO</a><br>
-    長野の人と仕事を、ひとつずつ訪ねて記録していくプロジェクトです。まだ始まったばかりです。
-  </p>
-  <p class="summary">ご自身のプロダクトをMOTで紹介してほしい方は<a href="contact.html">お問い合わせページ</a>からどうぞ。</p>
+
+  <div class="product-grid">
+    <a class="product-card" href="mot-focus.html">
+      <span class="product-card-mark">{mot_mark_svg}</span>
+      <span class="product-card-body">
+        <span class="product-card-kicker">Chrome Extension</span>
+        <span class="product-card-name">MOT Focus</span>
+        <span class="product-card-tagline">散らかったブラウザを片付けて、今やることに集中する。</span>
+      </span>
+      <span class="product-card-arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="product-card" href="nagano/index.html">
+      <span class="product-card-mark">{mot_mark_svg}</span>
+      <span class="product-card-body">
+        <span class="product-card-kicker">Local Project</span>
+        <span class="product-card-name">MOT NAGANO</span>
+        <span class="product-card-tagline">長野の人と仕事を、ひとつずつ訪ねて記録していくプロジェクトです。まだ始まったばかりです。</span>
+      </span>
+      <span class="product-card-arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+
+  <p class="summary" style="margin-top:28px;">ご自身のプロダクトをMOTで紹介してほしい方は<a href="contact.html">お問い合わせページ</a>からどうぞ。</p>
+</main>
+<footer>
+  <a href="index.html">&laquo; トップへ戻る</a>
+</footer>
+</body>
+</html>
+"""
+
+FOCUS_CTA_URL = "https://chromewebstore.google.com/detail/mot-focus/ejhahhbobdfkjmeefjefokloldmjgclm"
+
+FOCUS_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+{theme_init}
+{csp}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOT Focus | 散らかったブラウザを片付けて、今やることに集中する</title>
+<meta name="description" content="MOT Focusは、開いているタブが多すぎて集中できない人のためのChrome拡張機能です。今使うタブだけを残し、それ以外は安全にPARK。ログイン・課金・外部送信・AIは不使用で、データは端末内で完結します。">
+<link rel="canonical" href="{page_url}">
+<link rel="icon" href="{favicon}">
+{google_font}
+<link rel="stylesheet" href="style.css">
+{goatcounter}
+</head>
+<body class="focus-page">
+{nav}
+<main class="focus-main">
+  <a class="back-link" href="products.html">&laquo; プロダクト一覧に戻る</a>
+
+  <section class="focus-hero">
+    <div class="focus-mark">{mot_mark_svg}</div>
+    <p class="focus-kicker">Chrome Extension &middot; MOTが作るプロダクト</p>
+    <h1>MOT Focus</h1>
+    <p class="focus-catch">散らかったブラウザを片付けて、今やることに集中する。</p>
+    <p class="focus-sub">開いているタブが多すぎて集中できない人のためのChrome拡張機能。</p>
+    <a class="contact-btn focus-cta-lg" href="{cta_url}" target="_blank" rel="noopener noreferrer">
+      Chrome Web Storeで使ってみる &#8599;
+    </a>
+    <span class="focus-cta-note">Chrome ウェブストアの MOT Focus ページに移動します</span>
+  </section>
+
+  <section class="focus-section">
+    <div class="focus-section-head">
+      <p class="section-label">FEATURES</p>
+      <h2 class="section-title-lg">できること</h2>
+    </div>
+    <div class="focus-feature-list">
+      <div class="focus-feature">
+        <h3>集中するタブだけを残す</h3>
+        <p>5 / 15 / 25 / 45分、またはカスタム時間を選択。今やることに関係のないタブを一時的に片付けて、今使うタブだけが残る状態を作れます。</p>
+      </div>
+      <div class="focus-feature">
+        <h3>タブは「PARK」に退避</h3>
+        <p>選ばなかったタブは削除されません。安全にPARKへ退避し、集中が終わったらいつでも復元できます。</p>
+      </div>
+      <div class="focus-feature">
+        <h3>強制的にブロックしない</h3>
+        <p>集中中に別のタブを開いても強制的にブロックはしません。そっと集中に戻れるよう、そのつど導線を出します。</p>
+      </div>
+      <div class="focus-feature">
+        <h3>元のブラウザ環境を復元</h3>
+        <p>集中終了後、元のウィンドウ・タブの順序・タブグループを可能な限りそのまま復元します。</p>
+      </div>
+      <div class="focus-feature">
+        <h3>タブを整理</h3>
+        <p>タブを「今やってる」「調べもの」「あとで」「不要かも」に分類し、頭の中と同じ形でブラウザを整理できます。</p>
+      </div>
+      <div class="focus-feature">
+        <h3>AIを使わずタブを整理</h3>
+        <p>「しばらく開いていない」「同じ作業で使っていそう」といったタブを、ローカルのルールだけで見つけて提案します。</p>
+      </div>
+      <div class="focus-feature">
+        <h3>集中時間を振り返る</h3>
+        <p>今日・今週・今月、どれくらい集中できたかを振り返ることができます。</p>
+      </div>
+    </div>
+    <div class="focus-mid-cta">
+      <a class="contact-btn" href="{cta_url}" target="_blank" rel="noopener noreferrer">MOT Focusを使ってみる &#8599;</a>
+    </div>
+  </section>
+
+  <section class="focus-section">
+    <div class="focus-section-head">
+      <p class="section-label">PRIVACY</p>
+      <h2 class="section-title-lg">安心して使えること</h2>
+    </div>
+    <ul class="focus-privacy-list">
+      <li>ログイン不要</li>
+      <li>課金不要</li>
+      <li>外部送信なし</li>
+      <li>データは端末内で完結</li>
+      <li>タブを自動削除しない</li>
+      <li>AI不使用</li>
+    </ul>
+    <p class="focus-privacy-note">MOT Focusは、タブの情報を外部サーバーに送らずローカルだけで処理する設計にしています。Chrome Web Storeの公開情報に基づく内容です。</p>
+  </section>
+
+  <section class="focus-footer-cta">
+    <p>今開いているタブ、多すぎませんか。</p>
+    <a class="contact-btn focus-cta-lg" href="{cta_url}" target="_blank" rel="noopener noreferrer">Chromeに追加する &#8599;</a>
+  </section>
 </main>
 <footer>
   <a href="index.html">&laquo; トップへ戻る</a>
@@ -3488,6 +3806,21 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             google_font=GOOGLE_FONT_LINK,
             theme_init=THEME_INIT_SCRIPT,
             nav=_render_sub_nav("", _abs_url("products.html")),
+            mot_mark_svg=MOT_MARK_SVG,
+        ),
+        encoding="utf-8",
+    )
+    FOCUS_PATH.write_text(
+        FOCUS_TEMPLATE.format(
+            favicon=FAVICON_DATA_URI,
+            goatcounter=GOATCOUNTER_SCRIPT,
+            page_url=_abs_url("mot-focus.html"),
+            csp=CSP_META,
+            google_font=GOOGLE_FONT_LINK,
+            theme_init=THEME_INIT_SCRIPT,
+            nav=_render_sub_nav("", _abs_url("mot-focus.html")),
+            mot_mark_svg=MOT_MARK_SVG,
+            cta_url=FOCUS_CTA_URL,
         ),
         encoding="utf-8",
     )
@@ -3687,8 +4020,8 @@ def _write_robots_and_sitemap(articles_data: list[dict], extra_urls: list[str] |
     today = datetime.now().strftime("%Y-%m-%d")
     urls = [
         (_abs_url("index.html"), today), (_abs_url("about.html"), today),
-        (_abs_url("products.html"), today), (_abs_url("contact.html"), today),
-        (_abs_url("support.html"), today),
+        (_abs_url("products.html"), today), (_abs_url("mot-focus.html"), today),
+        (_abs_url("contact.html"), today), (_abs_url("support.html"), today),
         (_abs_url("nagano/index.html"), today), (_abs_url("nagano/about.html"), today),
         (_abs_url("nagano/stories.html"), today),
     ]

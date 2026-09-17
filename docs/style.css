@@ -1031,3 +1031,191 @@ footer a {
 
 /* --- LATEST NEWS(既存カード一覧) --- */
 .latest-news { margin-bottom: 20px; }
+
+/* --- PRODUCTS一覧(products.html): MOTが手がけるプロダクトのカード --- */
+.product-grid {
+  display: grid;
+  gap: 16px;
+  margin: 28px 0 8px;
+}
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid var(--mot-border);
+  border-radius: 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.product-card:hover { border-color: var(--mot-primary); transform: translateY(-1px); }
+.product-card-mark {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.product-card-mark svg { width: 100%; height: 100%; display: block; }
+.product-card-body { min-width: 0; }
+.product-card-kicker {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--mot-text-secondary);
+  margin: 0 0 3px;
+  text-transform: uppercase;
+}
+.product-card-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 4px;
+  color: #14141c;
+}
+.product-card-tagline {
+  font-size: 0.88rem;
+  color: var(--mot-text-secondary);
+  margin: 0;
+  line-height: 1.5;
+}
+.product-card-arrow { flex: none; margin-left: auto; color: var(--mot-text-secondary); font-size: 1.2rem; }
+:root[data-theme="dark"] .product-card { border-color: #2a2a36; }
+:root[data-theme="dark"] .product-card-name { color: #f0f0f5; }
+
+/* --- MOT Focusプロダクトページ(mot-focus.html) ---
+   ニュース記事とは体験を分け、余白を大きく取ったシンプルなプロダクトLPにする
+   (Apple/Linear/Raycastのプロダクトページを参考にした、詰め込みすぎない構成)。
+   ただしMOTのブランド(角丸ロゴマーク/見出しのZen Old Mincho/アクセントカラー)は維持する。 */
+body.focus-page main.focus-main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 20px 100px;
+}
+.focus-hero {
+  text-align: center;
+  padding: 56px 0 48px;
+}
+.focus-mark {
+  width: 68px;
+  height: 68px;
+  margin: 0 auto 26px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+.focus-mark svg { width: 100%; height: 100%; display: block; }
+.focus-kicker {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--mot-text-secondary);
+  margin: 0 0 14px;
+  text-transform: uppercase;
+}
+.focus-hero h1 {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.35;
+  margin: 0 0 18px;
+}
+.focus-hero .focus-catch {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.7;
+  margin: 0 auto 12px;
+  max-width: 480px;
+}
+.focus-hero .focus-sub {
+  font-size: 0.98rem;
+  color: var(--mot-text-secondary);
+  line-height: 1.8;
+  margin: 0 auto 32px;
+  max-width: 440px;
+}
+.focus-cta-lg {
+  padding: 14px 32px;
+  font-size: 1rem;
+  border-radius: 999px;
+}
+.focus-cta-note {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.78rem;
+  color: var(--mot-text-secondary);
+}
+.focus-section { margin-top: 92px; }
+.focus-section-head { text-align: center; margin-bottom: 40px; }
+.focus-feature-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 28px;
+}
+.focus-feature h3 {
+  font-size: 1.02rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #14141c;
+}
+.focus-feature p {
+  font-size: 0.92rem;
+  color: var(--mot-text-secondary);
+  line-height: 1.75;
+  margin: 0;
+}
+.focus-mid-cta { text-align: center; margin-top: 48px; }
+.focus-privacy-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 22px;
+}
+.focus-privacy-list li {
+  position: relative;
+  padding-left: 24px;
+  font-size: 0.92rem;
+  color: #333;
+}
+.focus-privacy-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--mot-positive);
+  font-weight: 700;
+}
+.focus-privacy-note {
+  margin: 24px auto 0;
+  max-width: 520px;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--mot-text-secondary);
+  line-height: 1.7;
+}
+.focus-footer-cta {
+  text-align: center;
+  margin-top: 96px;
+  padding: 48px 32px;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid var(--mot-border);
+}
+.focus-footer-cta p { margin: 0 0 20px; font-size: 1.02rem; font-weight: 700; }
+:root[data-theme="dark"] .focus-hero h1,
+:root[data-theme="dark"] .focus-feature h3,
+:root[data-theme="dark"] .focus-footer-cta p { color: #f0f0f5; }
+:root[data-theme="dark"] .focus-privacy-list li { color: #d6d6e2; }
+:root[data-theme="dark"] .focus-footer-cta { background: #101018; border-color: #2a2a36; }
+@media (max-width: 600px) {
+  .focus-hero h1 { font-size: 1.9rem; }
+  .focus-feature-list { grid-template-columns: 1fr; }
+  .focus-privacy-list { grid-template-columns: 1fr; }
+}
+:root[data-presbyopia="on"] .focus-hero h1 { font-size: 2.9rem; }
+:root[data-presbyopia="on"] .focus-hero .focus-catch { font-size: 1.4rem; }
+:root[data-presbyopia="on"] .focus-hero .focus-sub,
+:root[data-presbyopia="on"] .focus-feature p,
+:root[data-presbyopia="on"] .focus-privacy-list li { font-size: 1.08rem; line-height: 1.9; }
+:root[data-presbyopia="on"] .focus-feature h3 { font-size: 1.2rem; }
