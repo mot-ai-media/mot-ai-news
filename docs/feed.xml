@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが「懸念される事案」を経験—投資家が警戒する理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-faa93dfc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-faa93dfc.html</guid>
+    <description>OpenAIが運営上の懸念される事案を経験していることが市場で注目を集めている。詳細は限定的だが、投資家心理に悪影響を与え始めている。</description>
+    <pubDate>Thu, 17 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>チャールズ国王が警告、AI技術が「悪用されたら人類存亡の危機」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-11e2f04c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-11e2f04c.html</guid>
+    <description>英国のチャールズ国王がAI技術について「間違った手に渡れば存亡の危機をもたらす」と警告。OpenAI、Nvidiaなど主要テック企業の代表者を集めた会議で、AI規制の重要性が改めて指摘された。</description>
+    <pubDate>Thu, 17 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>チャールズ国王がNvidia・OpenAI・Anthropicの最高経営陣を召集——AI安全性についての王侯会談が実現</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-e97f57fc.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-e97f57fc.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmktec-evo-x5-pro-db3142ce.html</guid>
     <description>GMKtecの新型ミニPCが192GBメモリで大規模AIモデルをローカル実行可能に。</description>
     <pubDate>Wed, 16 Sep 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのアルトマン最高経営責任者、「AIへの恐怖は正しい」と認めつつ「企業を信じるべき」と主張</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sam-altman-b17f30d5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-sam-altman-b17f30d5.html</guid>
-    <description>OpenAIの最高経営責任者サム・アルトマン氏を含むテック企業の幹部らが、AI技術の急速な進化に対する世間の懸念は「正当だ」と認めながらも、企業側に自発的な規制の動機があるとして、業界を信頼するよう呼びかけた。人類への潜在的な脅威への警告と企業の自主性への期待という、相反する主張が同時に語られている。</description>
-    <pubDate>Wed, 16 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Salesforce CEO が警告、AI産業に「責任ある開発」を求める声が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-ai-257bafab.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-ai-257bafab.html</guid>
-    <description>大手企業のトップが相次いでAIの安全性と倫理的な開発を強調している。同時に、急速に進化するAIの時代に子どもたちは何を学ぶべきかという根本的な問いも浮上している。</description>
-    <pubDate>Wed, 16 Sep 2026 13:28:00 +0900</pubDate>
   </item>
 </channel></rss>

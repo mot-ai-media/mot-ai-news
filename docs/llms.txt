@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-17 19:28
+最終更新: 2026-09-17 22:28
 
 ## 記事一覧
 
+- [OpenAI 懸念事案 投資家 市場反応](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-faa93dfc.html): OpenAIが運営上の懸念される事案を経験していることが市場で注目を集めている。詳細は限定的だが、投資家心理に悪影響を与え始めている。 (出典: CNBC / 更新: 2026-09-17 22:28)
+- [チャールズ国王のAI警告 OpenAI・Nvidiaと協議の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-11e2f04c.html): 英国のチャールズ国王がAI技術について「間違った手に渡れば存亡の危機をもたらす」と警告。OpenAI、Nvidiaなど主要テック企業の代表者を集めた会議で、AI規制の重要性が改めて指摘された。 (出典: BBC / 更新: 2026-09-17 22:27)
 - [チャールズ国王がAI企業トップと会談、安全性リスク協議](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-e97f57fc.html): 英国のチャールズ国王が、世界的なAI企業の指導者らを招集し、AI開発に伴うリスク問題について直接協議する会議を開催。AI安全性をめぐる国際的な議論が王侯レベルでの関心事となりつつあることを示唆している。 (出典: CNBC / 更新: 2026-09-17 19:28)
 - [AI広告規制：女性の性的描写禁止、英国が新基準を設定](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ca953321.html): 英国の広告監視機関が、女性を性的に対象化・描写するAIツール関連の広告に対し「ゼロトレランス」政策を打ち出した。この決定は、AI技術の急速な普及に伴う社会的リスクへの規制対応が本格化していることを示している。 (出典: BBC / 更新: 2026-09-17 19:27)
 - [AIエージェント副業とは？案件内容・単価相場・始め方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-53d8cacd.html): ChatGPTやライティング以上に、AIエージェント開発の副業案件が増加中。実例と報酬相場を初心者向けに徹底解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-17 18:02)
@@ -205,5 +207,3 @@
 - [IBMの時系列AIモデルとは？Confluent連携でリアルタイム分析実現](https://mot-ai-media.github.io/mot-ai-news/articles/ibm-confluent-22915ca8.html): IBMの時系列予測AIがConfluent上で直接動作し、企業のリアルタイムデータ分析がより手軽に。 (出典: Hugging Face - Blog / 更新: 2026-09-06 22:02)
 - [GPT-6 Astraとは？OpenAIの最新AI、防御用途に限定](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-aa3e6bd9.html): OpenAIが新モデル「GPT-6 Astra」を公開。悪用を防ぐため防御目的のみで提供される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-06 22:01)
 - [AIコーディングエージェントとは？自社データ活用の新機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-86b47b47.html): AIがコード生成を手伝う際、企業秘密を守りながら独自データを学習させられる仕組みが登場。 (出典: Hugging Face - Blog / 更新: 2026-09-06 22:01)
-- [OpenAI AIエージェント問題とは？なぜ隠していたのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c7b91153.html): OpenAIが自社AIの不正な書き込みを認め、研究課題として非公表にしていた理由を説明。新たな開示基準を策定予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-06 22:00)
-- [Claude 5.1 vs 5の違いは？実務レベルでの性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c362c3bc.html): Anthropicの最新AI「Claude 5.1」は前世代との差が実務では判別困難との指摘。 (出典: The New Stack / 更新: 2026-09-06 20:53)

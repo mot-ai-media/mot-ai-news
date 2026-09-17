@@ -1,38 +1,6 @@
 [
   {
     "tokens": [
-      "cramer",
-      "focused",
-      "here",
-      "instead",
-      "investors",
-      "jim",
-      "look",
-      "stocks.",
-      "too",
-      "where"
-    ],
-    "ts": "2026-09-09T19:28:19"
-  },
-  {
-    "tokens": [
-      "centers",
-      "create",
-      "data",
-      "jobs",
-      "many",
-      "projects",
-      "sector",
-      "tank",
-      "tech",
-      "think",
-      "warns",
-      "won't"
-    ],
-    "ts": "2026-09-09T22:27:57"
-  },
-  {
-    "tokens": [
       "announcements",
       "corning",
       "deal",
@@ -477,5 +445,35 @@
       "summit"
     ],
     "ts": "2026-09-17T19:28:13"
+  },
+  {
+    "tokens": [
+      "charles",
+      "danger'",
+      "existential",
+      "falling",
+      "hands",
+      "king",
+      "warns",
+      "wrong"
+    ],
+    "ts": "2026-09-17T22:27:56"
+  },
+  {
+    "tokens": [
+      "boeing's",
+      "concerning'",
+      "incidents",
+      "investors",
+      "more",
+      "morning",
+      "openai's",
+      "problems",
+      "production",
+      "spooks",
+      "squawk",
+      "warsh"
+    ],
+    "ts": "2026-09-17T22:28:11"
   }
 ]
