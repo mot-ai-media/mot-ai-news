@@ -1028,5 +1028,55 @@
     "japan_relevance_score": 68,
     "reason": "AI agent間のセッション互換性という新しい課題に対応した実用的なソリューション。エンジニア向けで日本でもAI開発が活発化する中で需要が見込める。",
     "discovered_at": "2026-09-18T01:28:49.602034+00:00"
+  },
+  {
+    "title": "Hacking OpenAI",
+    "link": "https://www.hacktron.ai/blog/hacking-openai",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.hacktron.ai/blog/hacking-openai\nComments URL: https://news.ycombinator.com/item?id=49749656\nPoints: 82\n# Comments: 26",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "OpenAIへの攻撃手法は既出テーマが多いが、セキュリティ関心層には常に需要がある。",
+    "discovered_at": "2026-09-18T04:28:41.636816+00:00"
+  },
+  {
+    "title": "LLM Classification Is Feature Engineering",
+    "link": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/\nComments URL: https://news.ycombinator.com/item?id=49742437\nPoints: 94\n# Comments: 19",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "LLMの分類タスクを特徴抽出として再解釈する視点は有用だが、既知の概念の再考察に留まる。",
+    "discovered_at": "2026-09-18T04:28:43.411474+00:00"
+  },
+  {
+    "title": "OpenAI's Misalignment Framework: A Tactical Bid to Preempt Global AI Governance",
+    "link": "https://asiaai.fyi/openai-misalignment-framework-global-governance/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://asiaai.fyi/openai-misalignment-framework-global-governance/\nComments URL: https://news.ycombinator.com/item?id=49742233\nPoints: 40\n# Comments: 84",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "OpenAIのAIガバナンス戦略が話題だが、既存の議論の焦点化に留まり、日本の規制議論にも影響を与える可能性がある。",
+    "discovered_at": "2026-09-18T04:28:45.303634+00:00"
+  },
+  {
+    "title": "Show HN: Share your AI Setup, Learn from others",
+    "link": "https://mysetup.ai/",
+    "source": "Hacker News",
+    "summary": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks?   So I built this with the hope we could have a dedicated space to share and be open about our setups.\n\nComments URL: https://news.ycombinator.com/item?id=49740105\nPoints: 201\n# Comments: 114",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AI実装の知見共有プラットフォームで実用的だが、類似サービスは既存。日本のAI開発者コミュニティにも需要あり。",
+    "discovered_at": "2026-09-18T04:28:47.249588+00:00"
+  },
+  {
+    "title": "AI safety is mostly a sex cult",
+    "link": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+    "source": "Hacker News",
+    "summary": "Article URL: https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q\nComments URL: https://news.ycombinator.com/item?id=49737985\nPoints: 283\n# Comments: 232",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "AI安全性コミュニティへの批判は既出だが、この特定の主張は議論の質を低下させる恐れがある。",
+    "discovered_at": "2026-09-18T04:28:48.836053+00:00"
   }
 ]
