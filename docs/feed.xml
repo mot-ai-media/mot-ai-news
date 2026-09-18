@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>チャールズ国王、AI大手に「実存的危険」警告。OpenAI・NVIDIA・Anthropic幹部が集結</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html</guid>
+    <description>英国王主催のAIサミットで、OpenAIやNVIDIAなど業界トップが参加。国王がAIの悪用リスク警告。</description>
+    <pubDate>Fri, 18 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>中国フィジカルAI、企業15社ネットワークと5大集積地で産業化加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1f9edced.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-1f9edced.html</guid>
+    <description>中国のロボット・フィジカルAI産業が、企業単体ではなく産業全体として急速に構造化され、集積地を中心に組織されている実態が浮かぶ。</description>
+    <pubDate>Fri, 18 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>経営者はAI導入、現場はPC動作遅延に悲鳴。年147時間の損失が判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dx-it-c2dd3846.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dx-it-c2dd3846.html</guid>
+    <description>経営者のAI導入熱とは裏腹に、古いPCやツール不足で従業員が疲弊し、年間147時間の労働時間が失われている。</description>
+    <pubDate>Fri, 18 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>29万ファイルが「AIに聞くだけ」で検索可能に、AWSが実装公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-amazon-s3-a677e130.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-amazon-s3-a677e130.html</guid>
+    <description>社内に散らばったデータをAIが一括検索できる仕組みを、AWSが航空業界の事例で実装公開。</description>
+    <pubDate>Fri, 18 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI動画騒動のレベルファイブ、東京ゲームショウで何を見せたのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5e315559.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5e315559.html</guid>
+    <description>AI生成動画の利用で炎上したゲーム企業の、イベント当日の現場レポート。</description>
+    <pubDate>Fri, 18 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AnthropicとOpenAI、規制強化を求めるも米議会は動かず——AI企業と政治家の温度差が露呈</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-205bed45.html</guid>
     <description>AIが人類が370年間解けなかった古い暗号を1日で破った。過去の謎もAIが解く時代へ。</description>
     <pubDate>Thu, 17 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astra、3Dアプリ制作もExcel操作も「最後までやり抜く」AIの実力</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7480fa89.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7480fa89.html</guid>
-    <description>OpenAIの最新AIが複雑なタスクを自分で判断しながら完遂。仕事の流れが変わる可能性。</description>
-    <pubDate>Thu, 17 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国AIが米国最先端モデルから数十億トークン抽出、米当局が警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-claude-ec118696.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-claude-ec118696.html</guid>
-    <description>米国の情報機関がClaudeやGPTから知識を吸い出す「知識蒸留」の仕組みを暴露。</description>
-    <pubDate>Thu, 17 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude Codeのトークン浪費が想定外の課金に、Anthropicが効率化ポイント公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-c16898b0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-c16898b0.html</guid>
-    <description>Anthropicが、Claude Codeを使う際にコストが予想以上に増える理由と、トークンを節約する方法を公開した。</description>
-    <pubDate>Thu, 17 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>三菱重工が100億円出資、PFNとAI開発で手を組む。インフラ・防衛が変わる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/preferred-networks-ai-e4f0ca9d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/preferred-networks-ai-e4f0ca9d.html</guid>
-    <description>三菱重工業が大手AI企業PFNに100億円出資し、社会インフラと防衛分野のAI技術を共同開発する</description>
-    <pubDate>Thu, 17 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude、チャットと作業環境が統一。文書作成も1つの会話で完結へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ab606755.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ab606755.html</guid>
-    <description>AnthropicのAI「Claude」がチャット機能と作業環境を統合。文書作成やスライド作成まで1つの会話内で進められるようになった。</description>
-    <pubDate>Thu, 17 Sep 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>

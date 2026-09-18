@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-18 18:15
+最終更新: 2026-09-18 22:02
 
 ## 記事一覧
 
+- [チャールズ国王AIサミット開催、危険性警告で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html): 英国王主催のAIサミットで、OpenAIやNVIDIAなど業界トップが参加。国王がAIの悪用リスク警告。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:02)
+- [AWSが分散データをAI検索する方法公開、29万ファイル管理の実装例](https://mot-ai-media.github.io/mot-ai-news/articles/aws-amazon-s3-a677e130.html): 社内に散らばったデータをAIが一括検索できる仕組みを、AWSが航空業界の事例で実装公開。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
+- [AI導入と現場のIT環境ギャップが招く生産性低下の実態調査](https://mot-ai-media.github.io/mot-ai-news/articles/dx-it-c2dd3846.html): 経営者のAI導入熱とは裏腹に、古いPCやツール不足で従業員が疲弊し、年間147時間の労働時間が失われている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
+- [中国フィジカルAI産業とは？主要企業と地域集積で見る全体像](https://mot-ai-media.github.io/mot-ai-news/articles/ai-1f9edced.html): 中国のロボット・フィジカルAI産業が、企業単体ではなく産業全体として急速に構造化され、集積地を中心に組織されている実態が浮かぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
+- [レベルファイブのAI動画騒動とは？東京ゲームショウでの対応](https://mot-ai-media.github.io/mot-ai-news/articles/ai-5e315559.html): AI生成動画の利用で炎上したゲーム企業の、イベント当日の現場レポート。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:00)
 - [米AI企業が規制を求める一方、議会は選挙キャンペーンで対応遅延](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html): AnthropicやOpenAIなど主要なAI企業が政府による規制の必要性を訴えている一方で、米国議会はキャンペーン活動を優先させており、緊急性が感じられない対応となっている。AI企業の要望と政治の現実のギャップが明らかになった。 (出典: CNBC / 更新: 2026-09-18 13:28)
 - [Nvidia Jensen Huang CEO、2025年のチップ供給を2倍に拡大を宣言](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-43dfd7d4.html): Nvidiaのジェンセン・ファウンド最高経営責任者が、来年のAIチップ供給を現在の2倍に増やすと発表。今後6四半期にわたる急速な成長が続く見通しを示した。 (出典: CNBC / 更新: 2026-09-18 13:27)
 - [OpenAIのGPT-6 Astra とは？弁護士向けAI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html): OpenAIが法律専門家向けのAI「GPT-6 Astra」を発表。AI競争が法業界にも本格展開。 (出典: NDTV / 更新: 2026-09-18 12:54)
@@ -202,8 +207,3 @@
 - [GPT-6 Astra|41文書を数分でレビュー。金融業務への活用事例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-be4a3c54.html): OpenAIの最新AIが金融書類の審査で、エラー検出と処理時間の両面で圧倒的な性能を実証。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
 - [GPT-6 Astraでゲーム開発効率化、Playcoが手作業50%削減を実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html): PlaycoがOpenAIの最新AI「GPT-6 Astra」を使い、ゲーム開発の手作業を半減させた。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
 - [OpenAIがAIエージェントで研究加速。導入効果をデータで公開](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-19672c48.html): OpenAI内で、AIエージェント活用により研究の実験スピードと効率が向上。組織内での導入状況が明らかに。 (出典: OpenAI News / 更新: 2026-09-07 11:01)
-- [Grokの制限とは？画像生成の制限と解除方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/grok-ai-42b2315c.html): Elon Musk配下のAI「Grok」が画像生成機能に制限を実装。ユーザーが知るべき制限内容と対策法を網羅。 (出典: SHIFT AI / 更新: 2026-09-07 11:00)
-- [レガシーシステム現代化 AI活用 企業DX](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-03e31a33.html): 企業の古いシステム刷新が、AIの登場で急速に進むようになった。従来は高コストで危険な作業だった古いシステムの更新が、AIの力で効率化・低リスク化される動きが海外で広がっている。日本企業にも大きな影響を与える可能性がある。 (出典: MIT Technology Review / 更新: 2026-09-07 10:28)
-- [Seattle Times・Newsday、OpenAI/Microsoftに著作権侵害で訴訟](https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-2f083f99.html): 米国の大手新聞『Seattle Times』と『Newsday』が、OpenAIとMicrosoftを相手取り著作権侵害で提訴。自社の記事がAIの学習データとして無断で使用され、さらにChatGPTが彼らの報道内容をそのまま再現していると主張している。同様の訴訟は複数の報道機関から既に提起されており、AIと報道機関の権利問題が深刻化している。 (出典: The Verge / 更新: 2026-09-07 10:27)
-- [AI が設計した宇宙船が最寄りの恒星系へ、2029年打ち上げ予定](https://mot-ai-media.github.io/mot-ai-news/articles/ai-3db7c003.html): 非営利団体フェルミ・エクスプローラー・ミッションが、AI の支援を受けて最も近い恒星系アルファ・ケンタウリへの探査機打ち上げを 2029 年までに実行する計画を発表。往路だけで最大 8 万年かかる壮大なミッションは、AI が宇宙開発の実現性を大きく変える可能性を示している。 (出典: MIT Technology Review / 更新: 2026-09-07 07:28)
-- [AIが知能テストで不正解、MIT報告。機械学習の根本的な課題が浮き彫りに](https://mot-ai-media.github.io/mot-ai-news/articles/ai-mit-technology-review-734561a7.html): MIT Technology Reviewが報じたところ、最先端のAIモデルが基本的なパズルやゲーム問題で不正解を出す現象が確認された。AIの真の「理解力」がまだ限定的であることを示す結果で、開発の現場では数十年前からパズルが実力判定の重要な指標とされてきた。 (出典: MIT Technology Review / 更新: 2026-09-07 07:27)
