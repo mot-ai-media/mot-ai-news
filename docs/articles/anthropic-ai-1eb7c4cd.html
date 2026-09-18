@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anthropic、AI開発管理の3つのメトリクスを発表。業界のベストプラクティスへ | AI特化メディアMOT</title>
+<meta name="description" content="AI開発企業Anthropicが、自社のAI研究開発の進捗速度、AI自動エージェントの監視体制、計算資源の配分方法という3つの測定指標を公開。AIの急速な進化に対する懸念が高まる中、業界全体の透明性と安全性を高める試みとして注目される。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Anthropic、AI企業の「暴走」を防ぐ3つの測定指標を公開──開発スピード、エージェント監視、計算資源配分">
+<meta property="og:description" content="AI開発企業Anthropicが、自社のAI研究開発の進捗速度、AI自動エージェントの監視体制、計算資源の配分方法という3つの測定指標を公開。AIの急速な進化に対する懸念が高まる中、業界全体の透明性と安全性を高める試みとして注目される。">
+<meta property="og:image" content="https://image.cnbcfm.com/api/v1/image/108342837-1785448087702-gettyimages-2256654494-DAVOS_WEF_2026.jpeg?v=1785448353&amp;w=1920&amp;h=1080">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html">
+<meta property="article:published_time" content="2026-09-18T10:28:00+09:00">
+<meta property="article:modified_time" content="2026-09-18T10:28:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Anthropic、AI企業の「暴走」を防ぐ3つの測定指標を公開──開発スピード、エージェント監視、計算資源配分", "description": "AI開発企業Anthropicが、自社のAI研究開発の進捗速度、AI自動エージェントの監視体制、計算資源の配分方法という3つの測定指標を公開。AIの急速な進化に対する懸念が高まる中、業界全体の透明性と安全性を高める試みとして注目される。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-18T10:28:00+09:00", "dateModified": "2026-09-18T10:28:00+09:00", "image": ["https://image.cnbcfm.com/api/v1/image/108342837-1785448087702-gettyimages-2256654494-DAVOS_WEF_2026.jpeg?v=1785448353&w=1920&h=1080"], "citation": "https://www.cnbc.com/2026/09/17/anthropic-shares-3-metrics-to-help-ai-companies-monitor-development.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Anthropicが公開した3つの指標とは何か", "acceptedAnswer": {"@type": "Answer", "text": "AI研究開発の進捗速度、AI自動エージェントの監視体制、企業内の計算資源配分の3項目です。"}}, {"@type": "Question", "name": "なぜこの発表が重要なのか", "acceptedAnswer": {"@type": "Answer", "text": "AIの急速な発展に対する社会的不安が高まる中、企業が開発プロセスを可視化することで、安全性に対する信頼が高まる可能性があるためです。"}}, {"@type": "Question", "name": "日本企業にはどう影響するのか", "acceptedAnswer": {"@type": "Answer", "text": "将来的にAI開発の透明性基準として機能し、日本企業がグローバル競争で同様の水準を求められる可能性が考えられます。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Anthropic", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/anthropic.html"}, {"@type": "ListItem", "position": 3, "name": "Anthropic、AI企業の「暴走」を防ぐ3つの測定指標を公開──開発スピード、エージェント監視、計算資源配分", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://image.cnbcfm.com/api/v1/image/108342837-1785448087702-gettyimages-2256654494-DAVOS_WEF_2026.jpeg?v=1785448353&amp;w=1920&amp;h=1080" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Anthropic、AI企業の「暴走」を防ぐ3つの測定指標を公開──開発スピード、エージェント監視、計算資源配分</span></div></div>
+  <h1 class="headline">Anthropic、AI企業の「暴走」を防ぐ3つの測定指標を公開──開発スピード、エージェント監視、計算資源配分</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>CNBC</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-18 10:28</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Anthropicがで公開したAI開発管理の3指標により、業界全体のAI安全性監視体制が強化される可能性が高まった。</p><h3>何が起きたか</h3><p>AI企業Anthropicが、社内でAI開発をどのように管理・監視しているかを示す3つの定量的な指標を公表しました。測定対象は、AI研究開発の進捗ペース、AIが自動で判断・行動するエージェントの監視方法、そして企業内の計算資源（GPU等のハードウェア）がどう配分されているか、の3点。AIの急速な発展に不安を感じる各国政府や社会に対する、企業側からの説明責任を果たす形です。</p><div class="overseas-box"><h3>海外ではどう報道されているか</h3><p>海外メディアは、Anthropicのこの発表を『AI産業における自主規制と透明性の動き』として報道しています。急速に進化するAI技術への規制圧力が高まる中、企業が自発的に開発指標を共有することで、業界全体の信頼性向上を目指す取り組みと評価されています。</p></div><h3>なぜ重要か</h3><p>AI企業は外からは『何をしているか見えない』という問題があります。政府や市民が『AIは安全に開発されているのか』と疑問を持つ中、Anthropicが具体的な指標を示すことで、『AI開発にも管理・監視システムがある』ことが初めて可視化されます。これにより、AI規制の議論がより建設的になり、企業としても信頼獲得につながります。</p><div class="japan-impact-box"><h3>日本への影響</h3><p>日本ではAI規制に関する議論がまだ国際的な流れより遅れています。しかしこの動きは、日本企業やスタートアップがAI開発で国際競争力を保つ際の『透明性基準』として機能する可能性があります。また、国内でAI安全性に関する議論が活発化する際の参考事例となり、ひいては日本のAI産業全体のガバナンス向上へつながると考えられます。</p></div><h3>今後どうなる</h3><p>今後、Anthropicが公開した3指標が業界標準化されるか注視すべき。他のAI企業（OpenAI、GoogleなどDeepMind）が同様の情報開示を始めるか、あるいは政府がこれを義務化するか、といった展開が焦点になります。</p><div class="mot-take-box"><h3>MOTの見解</h3><p>AIの『ブラックボックス化』への企業側からの回答として注目。透明性を示すことが、逆説的にAI企業の競争優位性につながる時代が来たということかもしれません。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>他のAI企業の追随、各国政府のAI規制動向、および国内AI企業の対応。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/anthropic.html">#Anthropic</a><a class="tag-pill" href="../topics/eca5cf5b1d.html">#AI安全性</a><a class="tag-pill" href="../topics/7e65172be8.html">#AIガバナンス</a></div>
+  <script>window.motPageTags=["Anthropic", "AI安全性", "AIガバナンス"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">AIスパコン時代を、手のひらサイズのミニPCから</h3><p class="sponsor-desc">ミニPCブランド「GMKtec」。ローカルAI環境や自宅サーバー用途にも使えるコンパクトな一台。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" rel="sponsored nofollow" target="_blank"><img border="0" width="120" height="60" alt="GMKtec" loading="lazy" src="https://www28.a8.net/svt/bgt?aid=260904481474&wid=001&eno=01&mid=s00000027479001005000&mc=1"></a><img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">GMKtec</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.cnbc.com/2026/09/17/anthropic-shares-3-metrics-to-help-ai-companies-monitor-development.html">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>CNBC</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.cnbc.com/2026/09/17/anthropic-shares-3-metrics-to-help-ai-companies-monitor-development.html" target="_blank" rel="noopener noreferrer">元記事（<cite>CNBC</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Anthropicが公開した3つの指標とは何か</p>
+    <p class="faq-a">AI研究開発の進捗速度、AI自動エージェントの監視体制、企業内の計算資源配分の3項目です。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. なぜこの発表が重要なのか</p>
+    <p class="faq-a">AIの急速な発展に対する社会的不安が高まる中、企業が開発プロセスを可視化することで、安全性に対する信頼が高まる可能性があるためです。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 日本企業にはどう影響するのか</p>
+    <p class="faq-a">将来的にAI開発の透明性基準として機能し、日本企業がグローバル競争で同様の水準を求められる可能性が考えられます。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Anthropic%E3%80%81AI%E4%BC%81%E6%A5%AD%E3%81%AE%E3%80%8C%E6%9A%B4%E8%B5%B0%E3%80%8D%E3%82%92%E9%98%B2%E3%81%903%E3%81%A4%E3%81%AE%E6%B8%AC%E5%AE%9A%E6%8C%87%E6%A8%99%E3%82%92%E5%85%AC%E9%96%8B%E2%94%80%E2%94%80%E9%96%8B%E7%99%BA%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E3%80%81%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E7%9B%A3%E8%A6%96%E3%80%81%E8%A8%88%E7%AE%97%E8%B3%87%E6%BA%90%E9%85%8D%E5%88%86&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html&text=Anthropic%E3%80%81AI%E4%BC%81%E6%A5%AD%E3%81%AE%E3%80%8C%E6%9A%B4%E8%B5%B0%E3%80%8D%E3%82%92%E9%98%B2%E3%81%903%E3%81%A4%E3%81%AE%E6%B8%AC%E5%AE%9A%E6%8C%87%E6%A8%99%E3%82%92%E5%85%AC%E9%96%8B%E2%94%80%E2%94%80%E9%96%8B%E7%99%BA%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E3%80%81%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E7%9B%A3%E8%A6%96%E3%80%81%E8%A8%88%E7%AE%97%E8%B3%87%E6%BA%90%E9%85%8D%E5%88%86" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html" data-share-title="Anthropic、AI企業の「暴走」を防ぐ3つの測定指標を公開──開発スピード、エージェント監視、計算資源配分">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="anthropic-ai-1eb7c4cd">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="openai-nvidia-e97f57fc.html">
+    <img src="https://image.cnbcfm.com/api/v1/image/108364263-1789640536137-gettyimages-2273726569-dsc_8960_54xkczpi.jpeg?v=1789640595&amp;w=1920&amp;h=1080" alt="" loading="lazy">
+    <span class="next-up-headline">チャールズ国王がNvidia・OpenAI・Anthropicの最高経営陣を召集——AI安全性についての王侯会談が実現</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="crowdstrike-ai-4e41fa14.html">AIの危険性を止めることはもう不可能。CrowdStrike CEO、Anthropicの警告に対して</a></li>
+  <li><a href="anthropic-ai-5b63b2ba.html">AI大手アンスロピック内部から警告「10%以上の確率で人類滅亡の危機』研究者が相次ぎ懸念表明</a></li>
+  <li><a href="ai-ai-d5b041f9.html">AI企業が一転『急ぐな』、熱狂から冷却へ転換する理由</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

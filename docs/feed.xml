@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、AI企業の「暴走」を防ぐ3つの測定指標を公開──開発スピード、エージェント監視、計算資源配分</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html</guid>
+    <description>AI開発企業Anthropicが、自社のAI研究開発の進捗速度、AI自動エージェントの監視体制、計算資源の配分方法という3つの測定指標を公開。AIの急速な進化に対する懸念が高まる中、業界全体の透明性と安全性を高める試みとして注目される。</description>
+    <pubDate>Fri, 18 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI企業が一転『急ぐな』、熱狂から冷却へ転換する理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d5b041f9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d5b041f9.html</guid>
+    <description>数ヶ月前まで『急速に進化させる』を掲げていたAI大手企業が、最近『一度立ち止まるべき』という方針転換を始めた。背景にはAIシステムの暴走や安全性への懸念があり、海外メディアはこの変化を『AI産業の成熟化』と捉えている一方、投資家には判断材料が不十分だと指摘されている。</description>
+    <pubDate>Fri, 18 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Goodwipes、AI制作ツール「Asstra」で高速クリエイティブ生成テスト開始</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/goodwipes-asstra-4d18e14c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/goodwipes-asstra-4d18e14c.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7cd2133a.html</guid>
     <description>Googleが新しい音声AIモデルを公開。会話しながらAIが裏で調べ物や計算をこなせるように進化。</description>
     <pubDate>Wed, 16 Sep 2026 14:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ウェザーニューズ、情報漏えい怖い社員が独自AIで解決。全社8割導入の衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d45b41a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d45b41a.html</guid>
-    <description>情報漏えいのリスクを避けつつ、社員が実務で使えるAIとして自社開発に踏み切った。</description>
-    <pubDate>Wed, 16 Sep 2026 14:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GMO天秤AI、東大生は有料サービス無料に。その狙いとは</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-gmo-ai-a5db6012.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-gmo-ai-a5db6012.html</guid>
-    <description>GMOのAIサービスが東大生を対象に無料提供を開始。企業の戦略的な狙いが明らかに。</description>
-    <pubDate>Wed, 16 Sep 2026 14:32:00 +0900</pubDate>
   </item>
 </channel></rss>

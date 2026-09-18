@@ -1,109 +1,6 @@
 [
   {
     "tokens": [
-      "announcements",
-      "corning",
-      "deal",
-      "infrastructure",
-      "qualcomm",
-      "rally",
-      "stocks"
-    ],
-    "ts": "2026-09-09T22:28:15"
-  },
-  {
-    "tokens": [
-      "ceo",
-      "chalks",
-      "change",
-      "coreweave",
-      "frightening'",
-      "public",
-      "pushback",
-      "speed"
-    ],
-    "ts": "2026-09-10T01:28:00"
-  },
-  {
-    "tokens": [
-      "ai-era",
-      "bet",
-      "billion",
-      "cegid",
-      "euro",
-      "lake",
-      "merges",
-      "silae",
-      "silver",
-      "software"
-    ],
-    "ts": "2026-09-10T01:28:18"
-  },
-  {
-    "tokens": [
-      "agents",
-      "built",
-      "entirely",
-      "firm",
-      "hedge-fund",
-      "his",
-      "manager",
-      "one",
-      "powered"
-    ],
-    "ts": "2026-09-10T04:27:59"
-  },
-  {
-    "tokens": [
-      "airpods",
-      "announced",
-      "apple",
-      "duo",
-      "everything",
-      "iphone",
-      "pro",
-      "watch"
-    ],
-    "ts": "2026-09-10T04:28:18"
-  },
-  {
-    "tokens": [
-      "first",
-      "help",
-      "industry",
-      "made",
-      "model",
-      "music",
-      "record",
-      "releases",
-      "suno"
-    ],
-    "ts": "2026-09-10T07:27:52"
-  },
-  {
-    "tokens": [
-      "academia",
-      "breakthrough",
-      "chill",
-      "mathematical",
-      "openai",
-      "sends",
-      "sly",
-      "through"
-    ],
-    "ts": "2026-09-10T07:28:07"
-  },
-  {
-    "tokens": [
-      "healthcare",
-      "laws",
-      "needs",
-      "watchdog"
-    ],
-    "ts": "2026-09-10T10:28:01"
-  },
-  {
-    "tokens": [
       "apple",
       "document",
       "explaining",
@@ -475,5 +372,31 @@
       "warsh"
     ],
     "ts": "2026-09-17T22:28:11"
+  },
+  {
+    "tokens": [
+      "can",
+      "debate",
+      "investing",
+      "movie",
+      "oscar-winning",
+      "slowdown",
+      "teach",
+      "through"
+    ],
+    "ts": "2026-09-18T10:28:00"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "companies",
+      "development",
+      "help",
+      "metrics",
+      "monitor",
+      "pace",
+      "shares"
+    ],
+    "ts": "2026-09-18T10:28:16"
   }
 ]
