@@ -1,33 +1,6 @@
 [
   {
     "tokens": [
-      "apple",
-      "document",
-      "explaining",
-      "features",
-      "listening",
-      "privacy",
-      "protect",
-      "read",
-      "still"
-    ],
-    "ts": "2026-09-10T10:28:18"
-  },
-  {
-    "tokens": [
-      "anthropic",
-      "crunch",
-      "humanity",
-      "just",
-      "quit",
-      "researcher",
-      "time",
-      "who"
-    ],
-    "ts": "2026-09-10T13:27:57"
-  },
-  {
-    "tokens": [
       "abuse",
       "ads",
       "allowing",
@@ -398,5 +371,31 @@
       "shares"
     ],
     "ts": "2026-09-18T10:28:16"
+  },
+  {
+    "tokens": [
+      "chips",
+      "huang",
+      "jensen",
+      "many",
+      "next",
+      "nvidia",
+      "sell",
+      "twice",
+      "year"
+    ],
+    "ts": "2026-09-18T13:27:53"
+  },
+  {
+    "tokens": [
+      "action",
+      "calls",
+      "campaign",
+      "heads",
+      "home",
+      "house",
+      "urgent"
+    ],
+    "ts": "2026-09-18T13:28:07"
   }
 ]

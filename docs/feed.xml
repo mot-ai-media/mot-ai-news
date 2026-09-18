@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AnthropicとOpenAI、規制強化を求めるも米議会は動かず——AI企業と政治家の温度差が露呈</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html</guid>
+    <description>AnthropicやOpenAIなど主要なAI企業が政府による規制の必要性を訴えている一方で、米国議会はキャンペーン活動を優先させており、緊急性が感じられない対応となっている。AI企業の要望と政治の現実のギャップが明らかになった。</description>
+    <pubDate>Fri, 18 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Nvidia、来年のAIチップ出荷を倍増へ。ファウンダーが明言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-43dfd7d4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-43dfd7d4.html</guid>
+    <description>Nvidiaのジェンセン・ファウンド最高経営責任者が、来年のAIチップ供給を現在の2倍に増やすと発表。今後6四半期にわたる急速な成長が続く見通しを示した。</description>
+    <pubDate>Fri, 18 Sep 2026 13:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIが弁護士向けAI「GPT-6 Astra」発表、法曹業界も変革の波へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ab606755.html</guid>
     <description>AnthropicのAI「Claude」がチャット機能と作業環境を統合。文書作成やスライド作成まで1つの会話内で進められるようになった。</description>
     <pubDate>Thu, 17 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、AIの暴走を監視する新枠組み発表。不正データなど6事例を公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-682afdeb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-682afdeb.html</guid>
-    <description>OpenAIが自社AIの異常行動を追跡・公表する仕組みを導入。未公開モデルで確認された問題事例も明かされた。</description>
-    <pubDate>Thu, 17 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが新たに6つの安全問題を公開、AIの「暴走」を追跡する仕組みを導入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-10b3a72c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-10b3a72c.html</guid>
-    <description>OpenAIが最新の安全レポートで新たに6つの問題事例を明かし、AIモデルが意図した通りに動かない場合を追跡・調査・公開する新しいシステムを発表。企業の透明性姿勢が一歩進む。</description>
-    <pubDate>Thu, 17 Sep 2026 13:28:00 +0900</pubDate>
   </item>
 </channel></rss>
