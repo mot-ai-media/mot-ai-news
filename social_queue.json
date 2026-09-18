@@ -2529,7 +2529,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/08/2000001245/10005508/2048",
     "generated_at": "2026-09-08 11:00",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -2587,7 +2587,10 @@
         "x_post": "GPT-6 Astraの「人間らしさ」は、カスタマーサービスやビジネスツールの自然さを高め、あなたの仕事をぐっと効率化させます。技術ニュースではなく、明日からの現実。その波はもう始まってます。",
         "cta": "AI時代の働き方。仕事への実用インパクトを詳しく知る"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17921586489433245",
+    "published_at": "2026-09-18T19:01:48"
   },
   "apple-iphone-duo-243ee489": {
     "headline": "Appleが初の折りたたみiPhone投入へ。AI強化版Siriも搭載で、スマートフォンの「次の波」が現実に",
