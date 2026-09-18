@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI導入で工数9割減なのに、社員は帰らない。DeNAも直面する意外な現実</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html</guid>
+    <description>AI導入で作業時間が大幅に削減されても、生み出された時間が別の業務に吸収される現象が起きている。</description>
+    <pubDate>Fri, 18 Sep 2026 11:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>NEC、AIが問題を見つけて自動解決する物流システム披露</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-afa0bdd8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-afa0bdd8.html</guid>
+    <description>NECが複数の物流システムを統合し、問題検知から解決案まで自動実行するAIエージェントを公開。</description>
+    <pubDate>Fri, 18 Sep 2026 11:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>資生堂、AIエージェントで原料探索95%削減。研究員の目利きをLLMで再現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-3f748048.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-3f748048.html</guid>
+    <description>資生堂がAIエージェントを研究開発に導入し、原料探索の時間を大幅削減。研究員の経験と勘をAIで再現する取り組みが進む。</description>
+    <pubDate>Fri, 18 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude利用者が知らないと損する。無駄なプロンプトが費用を蝕む</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html</guid>
+    <description>Anthropicが公開した6つの「やってはいけない使い方」を避けると、Claudeのコストダウンと精度向上が同時に実現する。</description>
+    <pubDate>Fri, 18 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>音声や画像から3D CADが自動生成、トコシエが資金調達で海外展開加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ignite0-3d-cad-0e284752.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ignite0-3d-cad-0e284752.html</guid>
+    <description>自然言語や画像からCADモデルを自動生成するAIが資金調達、グローバル展開へ。設計業務の未来が変わる可能性。</description>
+    <pubDate>Fri, 18 Sep 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、サイバー攻撃能力を持つAI「Astra」の配信開始。警告と共に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-598ecc67.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-598ecc67.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b26a2dea.html</guid>
     <description>生成AIがシステム刷新を加速させる中、日立は人間のエンジニアの重要性が変わらないと強調。</description>
     <pubDate>Wed, 16 Sep 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>エイゾス、CAE結果から自動でAIモデル構築。設計開発がノーコードで加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/multi-sigma-cae-4798b919.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/multi-sigma-cae-4798b919.html</guid>
-    <description>複雑なシミュレーション結果からAIモデルを自動で作り、設計最適化をノーコードで実現する新ツール登場。</description>
-    <pubDate>Wed, 16 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、Instagram・Facebook統一サブスク「Meta One」で月額949円から。AI機能大幅拡大</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-e3cc94d2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-instagram-e3cc94d2.html</guid>
-    <description>MetaがInstagram・Facebook・WhatsApp横断のサブスク「Meta One」を開始。月額949円からAI利用を拡大できる。</description>
-    <pubDate>Wed, 16 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta・ザッカーバーグ、AI安全性で「各社バラバラが正解」と宣言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-zuckerberg-d3e49f81.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-zuckerberg-d3e49f81.html</guid>
-    <description>MetaのザッカーバーグCEOが、AI企業の足並みを揃えるべき論に異を唱え、企業が独自の判断で進めるべき立場を表明。</description>
-    <pubDate>Wed, 16 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>北海道、AI向けデータセンター誘致に条件提示。脱炭素と地域共生を事業者に要求</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b084a9dc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b084a9dc.html</guid>
-    <description>北海道がAI向けデータセンター事業者に脱炭素・省エネと地域との共生を求める方針を公開。</description>
-    <pubDate>Wed, 16 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのAstra制限に業界が警戒、セキュリティ体制の再構築迫られる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-772ff522.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-772ff522.html</guid>
-    <description>OpenAIがAIエージェント「Astra」の機能制限を実施、企業セキュリティ対応の盲点が浮き彫りに。</description>
-    <pubDate>Wed, 16 Sep 2026 16:53:00 +0900</pubDate>
   </item>
 </channel></rss>

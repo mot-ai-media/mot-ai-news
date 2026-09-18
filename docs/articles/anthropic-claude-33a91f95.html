@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude費用削減の方法とは？トークン浪費を避けるコツ | AI特化メディアMOT</title>
+<meta name="description" content="Anthropicが公開した6つの「やってはいけない使い方」を避けると、Claudeのコストダウンと精度向上が同時に実現する。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Claude利用者が知らないと損する。無駄なプロンプトが費用を蝕む">
+<meta property="og:description" content="Anthropicが公開した6つの「やってはいけない使い方」を避けると、Claudeのコストダウンと精度向上が同時に実現する。">
+<meta property="og:image" content="https://image.itmedia.co.jp/ait/articles/2609/18/cover_news040.png">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html">
+<meta property="article:published_time" content="2026-09-18T11:01:00+09:00">
+<meta property="article:modified_time" content="2026-09-18T11:01:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Claude利用者が知らないと損する。無駄なプロンプトが費用を蝕む", "description": "Anthropicが公開した6つの「やってはいけない使い方」を避けると、Claudeのコストダウンと精度向上が同時に実現する。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-18T11:01:00+09:00", "dateModified": "2026-09-18T11:01:00+09:00", "image": ["https://image.itmedia.co.jp/ait/articles/2609/18/cover_news040.png"], "citation": "https://atmarkit.itmedia.co.jp/ait/articles/2609/18/news040.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Claudeの『6つのアンチパターン』とは何か", "acceptedAnswer": {"@type": "Answer", "text": "Anthropicが指摘した、効率が悪く余分なトークンを消費してしまう6つのプロンプト習慣のことです。「念のため」という曖昧な指示や過剰な前置きが典型例として挙げられています。"}}, {"@type": "Question", "name": "なぜプロンプトが簡潔だとコストが下がるのか", "acceptedAnswer": {"@type": "Answer", "text": "生成AIは入力と出力の文字数や単語数（トークン）で料金が決まるため、無駄な指示を削ると処理する情報量が減り、結果として費用が低下します。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Anthropic", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/anthropic.html"}, {"@type": "ListItem", "position": 3, "name": "Claude利用者が知らないと損する。無駄なプロンプトが費用を蝕む", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://image.itmedia.co.jp/ait/articles/2609/18/cover_news040.png" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Claude利用者が知らないと損する。無駄なプロンプトが費用を蝕む</span></div></div>
+  <h1 class="headline">Claude利用者が知らないと損する。無駄なプロンプトが費用を蝕む</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>ITmedia AI＋ 最新記事一覧</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-18 11:01</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Anthropicが、ClaudeでAI利用コストを削減しながら精度を高める3つの手法を公開。その一環として、やってはいけない6つの使用パターンを警告した。</p><h3>何が起きたか</h3><p>Anthropicが、Claude Platformの効率的な使い方に関する指針を発表しました。具体的には、コスト削減と回答精度の向上を同時に実現する3つの方法を紹介。同時に、多くのユーザーが無自覚に行っている6つの悪いプロンプト習慣を指摘し、これらが不要なトークン消費につながっていることを明らかにしました。</p><h3>なぜ重要か</h3><p>AIツールの利用が広がるにつれ、運用コストが企業・個人の課題になっています。Claudeのような生成AIは使うほどトークン（処理単位）が消費され、費用がかかる仕組み。「念のため」という曖昧な指示や過剰な前置きは、実は効果がないだけでなく、コストを無駄にしているのです。正しい使い方を知ることは、同じ成果をより安く得るための必須知識です。</p><h3>あなたへの影響</h3><p>ChatGPTやClaudeなどの生成AIを仕事や学習で使っている人は、知らないうちに余分な費用を払っている可能性があります。特に企業で導入している場合、全社的な無駄が大きくなります。逆に、正しい使い方を身につければ、同じ予算でより多くのタスクをこなせるようになり、生産性が向上します。</p><h3>MOT読者が知っておくべき理由</h3><p>MOT読者の多くがAI初心者で、「効果的な使い方がわからない」と感じています。この記事は、難しい技術知識なしに『実際の費用効率』を改善するための具体的なヒントを提供します。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>自分たちの使い方が非効率だと気づかずにいると、企業全体のAI導入コストが不必要に膨らみ、AIの費用対効果を正しく評価できなくなるリスクがあります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>効率的な使い方を学べば、現在のAI予算でより多くの業務をカバーでき、同じ成果をより低いコストで実現することが可能になります。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>「AIは優秀だから何でも丁寧に質問すれば答えてくれる」という初心者の素朴な思い込みが、実は最も損する使い方だという逆説が興味深い。AIとの対話スタイルは、人間同士のコミュニケーションと大きく異なるという認識がまだ浸透していない段階では、こうした「正しい使い方ガイド」の公開が産業全体の成熟度を左右する。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>他のAI企業（OpenAIなど）も同様のコスト最適化ガイドを公開するか、業界全体で『AIリテラシー』の標準化が進むかどうかが注目ポイント。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/anthropic.html">#Anthropic</a><a class="tag-pill" href="../topics/claude.html">#Claude</a></div>
+  <script>window.motPageTags=["Anthropic", "Claude", "AI費用削減"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">AIスパコン時代を、手のひらサイズのミニPCから</h3><p class="sponsor-desc">ミニPCブランド「GMKtec」。ローカルAI環境や自宅サーバー用途にも使えるコンパクトな一台。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" rel="sponsored nofollow" target="_blank"><img border="0" width="120" height="60" alt="GMKtec" loading="lazy" src="https://www28.a8.net/svt/bgt?aid=260904481474&wid=001&eno=01&mid=s00000027479001005000&mc=1"></a><img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">GMKtec</p></div></article></div>
+  <blockquote class="fact-check" cite="https://atmarkit.itmedia.co.jp/ait/articles/2609/18/news040.html">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>ITmedia AI＋ 最新記事一覧</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://atmarkit.itmedia.co.jp/ait/articles/2609/18/news040.html" target="_blank" rel="noopener noreferrer">元記事（<cite>ITmedia AI＋ 最新記事一覧</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Claudeの『6つのアンチパターン』とは何か</p>
+    <p class="faq-a">Anthropicが指摘した、効率が悪く余分なトークンを消費してしまう6つのプロンプト習慣のことです。「念のため」という曖昧な指示や過剰な前置きが典型例として挙げられています。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. なぜプロンプトが簡潔だとコストが下がるのか</p>
+    <p class="faq-a">生成AIは入力と出力の文字数や単語数（トークン）で料金が決まるため、無駄な指示を削ると処理する情報量が減り、結果として費用が低下します。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Claude%E5%88%A9%E7%94%A8%E8%80%85%E3%81%8C%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%81%A8%E6%90%8D%E3%81%99%E3%82%8B%E3%80%82%E7%84%A1%E9%A7%84%E3%81%AA%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%81%8C%E8%B2%BB%E7%94%A8%E3%82%92%E8%9D%95%E3%82%80&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html&text=Claude%E5%88%A9%E7%94%A8%E8%80%85%E3%81%8C%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%81%A8%E6%90%8D%E3%81%99%E3%82%8B%E3%80%82%E7%84%A1%E9%A7%84%E3%81%AA%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%81%8C%E8%B2%BB%E7%94%A8%E3%82%92%E8%9D%95%E3%82%80" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html" data-share-title="Claude利用者が知らないと損する。無駄なプロンプトが費用を蝕む">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="anthropic-claude-33a91f95">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="anthropic-claude-ab606755.html">
+    <img src="https://www.itmedia.co.jp/news/article/ogp/2609/17/2000001565/10006799/2048" alt="" loading="lazy">
+    <span class="next-up-headline">Claude、チャットと作業環境が統一。文書作成も1つの会話で完結へ</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="anthropic-claude-code-c16898b0.html">Claude Codeのトークン浪費が想定外の課金に、Anthropicが効率化ポイント公開</a></li>
+  <li><a href="anthropic-claude-31acff23.html">Claude、評価中に実在システムへ不正侵入──Anthropic「AIの判断ミス」と認める</a></li>
+  <li><a href="anthropic-claude-0aaf9d39.html">Anthropic新モデル「Claude」、最大45％コスト削減で提供開始</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

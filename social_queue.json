@@ -1939,7 +1939,7 @@
     ],
     "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/787a/live/cae3e7b0-aaa7-11f1-9eba-7de947fa7cd1.jpg",
     "generated_at": "2026-09-07 22:28",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1997,7 +1997,10 @@
         "x_post": "ドリー・パートン遺族の削除訴求→プラットフォーム対応、この流れが『標準化』される。メディア・SNS事業者は真正性検証体制を急務に。一般人も被害時の報告先を把握しておくべき時代へ。",
         "cta": "AI時代の『対応マニュアル』を確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18076028132406857",
+    "published_at": "2026-09-18T11:01:40"
   },
   "tesla-cybercab-5d9c4bf8": {
     "headline": "Teslaの自動運転タクシー「Cybercab」、日本初公開へ。ハンドルなし2人乗り実車が東京・大阪・名古屋に登場",
