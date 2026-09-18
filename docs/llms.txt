@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-18 10:28
+最終更新: 2026-09-18 10:53
 
 ## 記事一覧
 
+- [Claude Fable 5でDIYツール作成。AIが変える自作の未来とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html): AIが一般ユーザーのDIYプロジェクトを支援。専門知識なしで自分専用ツールが作れる時代へ。 (出典: ライフハッカー / 更新: 2026-09-18 10:53)
+- [OpenAI Astraとは？サイバー能力を持つAIモデルの概要](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-598ecc67.html): OpenAIが高度なサイバー能力を持つAIモデル「Astra」の提供を開始。セキュリティリスクの警告も同時に発表。 (出典: CNBC / 更新: 2026-09-18 10:53)
 - [AIの急速な発展は本当に安全か、投資家が揺らぎ始めた](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d5b041f9.html): 数ヶ月前まで『急速に進化させる』を掲げていたAI大手企業が、最近『一度立ち止まるべき』という方針転換を始めた。背景にはAIシステムの暴走や安全性への懸念があり、海外メディアはこの変化を『AI産業の成熟化』と捉えている一方、投資家には判断材料が不十分だと指摘されている。 (出典: CNBC / 更新: 2026-09-18 10:28)
 - [Anthropic、AI開発管理の3つのメトリクスを発表。業界のベストプラクティスへ](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html): AI開発企業Anthropicが、自社のAI研究開発の進捗速度、AI自動エージェントの監視体制、計算資源の配分方法という3つの測定指標を公開。AIの急速な進化に対する懸念が高まる中、業界全体の透明性と安全性を高める試みとして注目される。 (出典: CNBC / 更新: 2026-09-18 10:28)
 - [Goodwipesとは？AI制作ツール「Asstra」での新しい試み](https://mot-ai-media.github.io/mot-ai-news/articles/goodwipes-asstra-4d18e14c.html): 消費財ブランドがAI制作ツールを活用し、広告・マーケティング素材の迅速な生成テストに乗り出した。 (出典: ContentGrip / 更新: 2026-09-17 22:54)
@@ -205,5 +207,3 @@
 - [製造業のAI導入で何が課題か。Jabilの事例から学ぶデータ統合戦略](https://mot-ai-media.github.io/mot-ai-news/articles/jabil-ai-97f276df.html): グローバル製造大手のJabilが直面する、バラバラなシステムやスプレッドシート管理による非効率性。AIを活かすにはデータの統合が不可欠という課題が、海外メディアで注目されている。 (出典: MIT Technology Review / 更新: 2026-09-07 04:28)
 - [ウクライナ ドローン データ 売買 AI 民間企業](https://mot-ai-media.github.io/mot-ai-news/articles/ai-16c4a600.html): ウクライナの戦闘で撮影されたドローン映像やデータが民間企業に売却される「新しい市場」が急速に拡大しており、これがAIの学習データとして活用されている。規制が及ばない状態で取引が進み、AI企業が戦場データを獲得する構図が問題視されている。 (出典: MIT Technology Review / 更新: 2026-09-07 01:28)
 - [AI推論時代のメモリ・ストレージ革新、医療現場の実装が加速](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-f391404a.html): MIT Technology Reviewが報じたところによると、AIの推論（学習後の活用）が本格化する時代に、メモリとストレージの設計が産業全体の鍵になりつつある。医療システムがリアルタイムで大規模データを解析し、カスタマーサービスが数千の複雑な依頼を同時処理するなど、新しいインフラ基盤がこうした革新を支えている。 (出典: MIT Technology Review / 更新: 2026-09-07 01:27)
-- [Apple Siri AI ベータ版 使わなくなる理由 評判](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-ee69948e.html): Apple が大幅に刷新したスマートフォンアシスタント「Siri」のベータ版は、当初は期待を集めたものの、実際の利用ユーザーからは「存在を忘れてしまった」という声が上がっている。期待と現実のギャップが、AIアシスタント市場における重要な課題を浮き彫りにしている。 (出典: WIRED / 更新: 2026-09-06 22:28)
-- [AI最新モデル競争が加速、OpenAI・Google・Meta・Anthropic同時展開の背景](https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-bb1be035.html): OpenAI、Google、Meta、Anthropicといった主要AI企業が1週間の間に相次いで新しいAIモデルをリリースした。同時にNvidiaはAIプラットフォーム企業Hugging Faceの買収を発表。業界全体が急速なペースで新技術を投入する局面に入っている。 (出典: CNBC / 更新: 2026-09-06 22:27)

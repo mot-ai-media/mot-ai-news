@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、サイバー攻撃能力を持つAI「Astra」の配信開始。警告と共に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-598ecc67.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-598ecc67.html</guid>
+    <description>OpenAIが高度なサイバー能力を持つAIモデル「Astra」の提供を開始。セキュリティリスクの警告も同時に発表。</description>
+    <pubDate>Fri, 18 Sep 2026 10:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude、DIY新時代へ。AIが「自分専用ツール」づくりを民主化する</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html</guid>
+    <description>AIが一般ユーザーのDIYプロジェクトを支援。専門知識なしで自分専用ツールが作れる時代へ。</description>
+    <pubDate>Fri, 18 Sep 2026 10:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、AI企業の「暴走」を防ぐ3つの測定指標を公開──開発スピード、エージェント監視、計算資源配分</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-772ff522.html</guid>
     <description>OpenAIがAIエージェント「Astra」の機能制限を実施、企業セキュリティ対応の盲点が浮き彫りに。</description>
     <pubDate>Wed, 16 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、次世代AI「GPT-6 Astra」向けに設計思想を大転換</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-8c426cf2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-8c426cf2.html</guid>
-    <description>OpenAIが次世代モデル向けにAIエージェントの能力引き出し方を刷新。実務化に向けた課題に着手。</description>
-    <pubDate>Wed, 16 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、会話を止めずにAIが裏でタスク実行。新モデル「Gemini 3.8 Live」公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7cd2133a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7cd2133a.html</guid>
-    <description>Googleが新しい音声AIモデルを公開。会話しながらAIが裏で調べ物や計算をこなせるように進化。</description>
-    <pubDate>Wed, 16 Sep 2026 14:33:00 +0900</pubDate>
   </item>
 </channel></rss>

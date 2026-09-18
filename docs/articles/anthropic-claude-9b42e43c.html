@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Fable 5でDIYツール作成。AIが変える自作の未来とは | AI特化メディアMOT</title>
+<meta name="description" content="AIが一般ユーザーのDIYプロジェクトを支援。専門知識なしで自分専用ツールが作れる時代へ。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Claude、DIY新時代へ。AIが「自分専用ツール」づくりを民主化する">
+<meta property="og:description" content="AIが一般ユーザーのDIYプロジェクトを支援。専門知識なしで自分専用ツールが作れる時代へ。">
+<meta property="og:image" content="https://mot-ai-media.github.io/mot-ai-news/og-image.png">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html">
+<meta property="article:published_time" content="2026-09-18T10:53:00+09:00">
+<meta property="article:modified_time" content="2026-09-18T10:53:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Claude、DIY新時代へ。AIが「自分専用ツール」づくりを民主化する", "description": "AIが一般ユーザーのDIYプロジェクトを支援。専門知識なしで自分専用ツールが作れる時代へ。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-18T10:53:00+09:00", "dateModified": "2026-09-18T10:53:00+09:00", "image": ["https://mot-ai-media.github.io/mot-ai-news/og-image.png"], "citation": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ01sZy1qdGM0Q2ZWa0NidTRNUXQzV0R3dTR5SG5VTDhCemRrN19CZ2JIUWIyNlVDbjQwZnhUekZfdzZYVWVOVE5LdEttWGQ4Z0hsSGlCeGFrY0dTNWxQWGJEVDVHSThRaEp2bW0yalpNemg5WDZrOXluemlFOWgzX0ZXMF9CdUpoUUVFeUY5YmhUck0?oc=5"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Claude Fable 5でどんなツールが作れるのか", "acceptedAnswer": {"@type": "Answer", "text": "記事の例では3Dプリンタ用フィラメント管理ツールが紹介されています。基本的には、AIに要件を伝えれば、個人的な業務効率化やDIYプロジェクト管理など、幅広いツール開発が可能です。"}}, {"@type": "Question", "name": "プログラミング知識がなくても本当に作れるのか", "acceptedAnswer": {"@type": "Answer", "text": "AIが指示に応じてコードを生成・実装するため、基本的な知識がなくても開発が進みます。ただしデバッグやカスタマイズには、ある程度の理解があると使いやすくなります。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Anthropic", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/anthropic.html"}, {"@type": "ListItem", "position": 3, "name": "Claude、DIY新時代へ。AIが「自分専用ツール」づくりを民主化する", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style="background: #DA7756;"><img class="thumb thumb-contain" src="https://mot-ai-media.github.io/mot-ai-news/images/claude-fallback.png" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Claude、DIY新時代へ。AIが「自分専用ツール」づくりを民主化する</span></div></div>
+  <h1 class="headline">Claude、DIY新時代へ。AIが「自分専用ツール」づくりを民主化する</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>ライフハッカー</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-18 10:53</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Claude Fable 5を活用すれば、プログラミング知識がなくても自分専用のDIYツールが実装可能に。個人レベルのものづくりが根本的に変わる可能性がある。</p><h3>何が起きたか</h3><p>Anthropic社の言語モデル「Claude Fable 5」を使い、3Dプリンタ用フィラメント管理の自動化ツール（フィラメントトラッカー）を個人で開発できることが示された。AIの指示に従うだけで、従来は開発スキルが必要だった機能を自分好みにカスタマイズできるようになった。</p><h3>なぜ重要か</h3><p>これまで、ものづくりや自動化には専門的なプログラミング知識が必須でした。AIの進化により、その敷居が劇的に下がり始めています。一般ユーザーが自分の「困った」を自分で解決できる環境が整いつつあり、個人のクリエイティビティの発揮方法が広がっています。</p><h3>あなたへの影響</h3><p>DIY好き、3Dプリント愛好者、ものづくり初心者層にとって、自分専用の便利ツールを簡単に作れるようになります。業務効率化ツールの開発も同じロジックで可能になるため、職場での活用も視野に入ります。AIが「支援役」として機能することで、個人スキルの格差が緩和される可能性もあります。</p><h3>MOT読者が知っておくべき理由</h3><p>ChatGPTだけでなく、ほかのAIツールがどう実生活や趣味を変えるのかを知るMOT読者にとって、実例ベースの理解が広がります。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>AIに頼りきると、失敗時のデバッグやカスタマイズ対応が自分でできず、ツール改善が進まないリスク。また、AIが生成したコードの動作保証がない点も、本格運用を考える際の課題として残ります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>プログラミングの敷居が下がることで、多くの人が「小さな問題を自分で解決する」経験を積め、デジタルリテラシーが自然に向上します。個人発明のサイクルが加速する可能性もあります。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>AIがDIYの敷居を下げるという流れは、過去のExcelマクロやノーコードツールの民主化と同じ構図です。ただし今回の違いは、AIが『完全な指示なしに推測して実装できる』点。これは単なる効率化でなく、個人の主体的なものづくり文化を拡大させるターニングポイントになる可能性があります。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>他のAIツール（OpenAIのGPT-4o等）での同様の実装事例や、個人開発者のコミュニティでどの程度浸透するかが注目点。同時に、AI生成ツールの信頼性・メンテナンス性についての知見がどう蓄積されるかも追うべき。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/anthropic.html">#Anthropic</a><a class="tag-pill" href="../topics/claude.html">#Claude</a></div>
+  <script>window.motPageTags=["Anthropic", "Claude", "DIY・ものづくり"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">AIプロダクトのアイデアを、クラウドファンディングで形に</h3><p class="sponsor-desc">国内最大級のクラウドファンディング「CAMPFIRE」。自作のAIツールやプロジェクトの資金調達にも使える。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+76E5BM+5XBQ+5YJRM" rel="sponsored nofollow" target="_blank" class="sponsor-text-link">CAMPFIREを見る</a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36P+76E5BM+5XBQ+5YJRM" alt=""></div><span class="sponsor-cta">サービスを見る &rarr;</span><p class="sponsor-name">CAMPFIRE</p></div></article></div>
+  <blockquote class="fact-check" cite="https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ01sZy1qdGM0Q2ZWa0NidTRNUXQzV0R3dTR5SG5VTDhCemRrN19CZ2JIUWIyNlVDbjQwZnhUekZfdzZYVWVOVE5LdEttWGQ4Z0hsSGlCeGFrY0dTNWxQWGJEVDVHSThRaEp2bW0yalpNemg5WDZrOXluemlFOWgzX0ZXMF9CdUpoUUVFeUY5YmhUck0?oc=5">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>ライフハッカー</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ01sZy1qdGM0Q2ZWa0NidTRNUXQzV0R3dTR5SG5VTDhCemRrN19CZ2JIUWIyNlVDbjQwZnhUekZfdzZYVWVOVE5LdEttWGQ4Z0hsSGlCeGFrY0dTNWxQWGJEVDVHSThRaEp2bW0yalpNemg5WDZrOXluemlFOWgzX0ZXMF9CdUpoUUVFeUY5YmhUck0?oc=5" target="_blank" rel="noopener noreferrer">元記事（<cite>ライフハッカー</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Claude Fable 5でどんなツールが作れるのか</p>
+    <p class="faq-a">記事の例では3Dプリンタ用フィラメント管理ツールが紹介されています。基本的には、AIに要件を伝えれば、個人的な業務効率化やDIYプロジェクト管理など、幅広いツール開発が可能です。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. プログラミング知識がなくても本当に作れるのか</p>
+    <p class="faq-a">AIが指示に応じてコードを生成・実装するため、基本的な知識がなくても開発が進みます。ただしデバッグやカスタマイズには、ある程度の理解があると使いやすくなります。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Claude%E3%80%81DIY%E6%96%B0%E6%99%82%E4%BB%A3%E3%81%B8%E3%80%82AI%E3%81%8C%E3%80%8C%E8%87%AA%E5%88%86%E5%B0%82%E7%94%A8%E3%83%84%E3%83%BC%E3%83%AB%E3%80%8D%E3%81%A5%E3%81%8F%E3%82%8A%E3%82%92%E6%B0%91%E4%B8%BB%E5%8C%96%E3%81%99%E3%82%8B&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html&text=Claude%E3%80%81DIY%E6%96%B0%E6%99%82%E4%BB%A3%E3%81%B8%E3%80%82AI%E3%81%8C%E3%80%8C%E8%87%AA%E5%88%86%E5%B0%82%E7%94%A8%E3%83%84%E3%83%BC%E3%83%AB%E3%80%8D%E3%81%A5%E3%81%8F%E3%82%8A%E3%82%92%E6%B0%91%E4%B8%BB%E5%8C%96%E3%81%99%E3%82%8B" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html" data-share-title="Claude、DIY新時代へ。AIが「自分専用ツール」づくりを民主化する">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="anthropic-claude-9b42e43c">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="anthropic-claude-205bed45.html">
+    
+    <span class="next-up-headline">370年前の謎の暗号、AIが1日で解読。人間が解けなかった古い暗号もAIの時代へ</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="anthropic-claude-ab606755.html">Claude、チャットと作業環境が統一。文書作成も1つの会話で完結へ</a></li>
+  <li><a href="anthropic-claude-code-c16898b0.html">Claude Codeのトークン浪費が想定外の課金に、Anthropicが効率化ポイント公開</a></li>
+  <li><a href="anthropic-claude-68c3fe31.html">AIが生物兵器開発に悪用される危険性、大手企業が初めて「ブロック事例」を公開</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
