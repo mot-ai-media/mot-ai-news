@@ -1138,7 +1138,6 @@ body.products-page main.products-main {
 .product-card--focus { --product-accent: #0f4d3c; }
 .product-card--focus .product-card-kicker { color: #2f7a63; }
 .product-card--focus:hover { border-color: #2f7a63; background: rgba(15, 77, 60, 0.035); }
-.product-card--focus .product-card-bg { color: #0f4d3c; }
 
 /* MOT NAGANO: 温かみのあるストーン、山/地域の世界観(観光地カラーにはしない) */
 .product-card--nagano { --product-accent: #8a6f52; }

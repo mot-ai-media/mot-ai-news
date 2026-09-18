@@ -303,23 +303,6 @@ MOT_MARK_SVG = (
     'fill="#fff" text-anchor="middle">MOT</text></svg>'
 )
 
-# MOT Focus用アイコン: 黒角丸(ブランドの共通の形)の中に、重なる2枚のウィンドウ/タブの
-# 輪郭線だけを置いたミニマルなマーク。「集中・整理・Chrome」を連想させる。
-FOCUS_MARK_SVG = (
-    '<svg viewBox="0 0 64 64" role="img" aria-label="MOT Focus">'
-    '<rect width="64" height="64" rx="16" fill="#000"/>'
-    '<rect x="16" y="14" width="30" height="22" rx="4" fill="none" stroke="#fff" stroke-opacity="0.4" stroke-width="2.5"/>'
-    '<rect x="10" y="24" width="30" height="22" rx="4" fill="none" stroke="#fff" stroke-width="2.5"/>'
-    "</svg>"
-)
-# カード背景にごく薄く敷く、色を継承する(currentColor)ウォーターマーク版
-FOCUS_WATERMARK_SVG = (
-    '<svg viewBox="0 0 64 64" aria-hidden="true">'
-    '<rect x="16" y="14" width="30" height="22" rx="4" fill="none" stroke="currentColor" stroke-opacity="0.55" stroke-width="2.5"/>'
-    '<rect x="10" y="24" width="30" height="22" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/>'
-    "</svg>"
-)
-
 # MOT NAGANO用アイコン: nagano/index.html側で既に使っているfavicon(暗いグリーン地に
 # 山の稜線1本のポリライン)と全く同じ絵柄にする。観光ロゴ的な太陽・木は使わず、
 # MOT本体ではなくNAGANOサブサイト側の既存ブランドに合わせることで一貫性を保つ。
@@ -1522,7 +1505,6 @@ body.products-page main.products-main {
 .product-card--focus { --product-accent: #0f4d3c; }
 .product-card--focus .product-card-kicker { color: #2f7a63; }
 .product-card--focus:hover { border-color: #2f7a63; background: rgba(15, 77, 60, 0.035); }
-.product-card--focus .product-card-bg { color: #0f4d3c; }
 
 /* MOT NAGANO: 温かみのあるストーン、山/地域の世界観(観光地カラーにはしない) */
 .product-card--nagano { --product-accent: #8a6f52; }
@@ -2626,8 +2608,7 @@ PRODUCTS_TEMPLATE = """<!DOCTYPE html>
 
   <div class="product-grid">
     <a class="product-card product-card--focus" href="mot-focus.html">
-      <span class="product-card-bg" aria-hidden="true">{focus_watermark_svg}</span>
-      <span class="product-card-mark">{focus_mark_svg}</span>
+      <span class="product-card-mark">{mot_mark_svg}</span>
       <span class="product-card-body">
         <span class="product-card-kicker">Chrome Extension</span>
         <span class="product-card-name">MOT Focus</span>
@@ -2682,7 +2663,7 @@ FOCUS_TEMPLATE = """<!DOCTYPE html>
   <a class="back-link" href="products.html">&laquo; プロダクト一覧に戻る</a>
 
   <section class="focus-hero">
-    <div class="focus-mark">{focus_mark_svg}</div>
+    <div class="focus-mark">{mot_mark_svg}</div>
     <p class="focus-kicker">Chrome Extension &middot; MOTが作るプロダクト</p>
     <h1>MOT Focus</h1>
     <p class="focus-catch">散らかったブラウザを片付けて、今やることに集中する。</p>
@@ -3962,8 +3943,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             theme_init=THEME_INIT_SCRIPT,
             nav=_render_sub_nav("", _abs_url("products.html")),
             products_motif_svg=PRODUCTS_MOTIF_SVG,
-            focus_mark_svg=FOCUS_MARK_SVG,
-            focus_watermark_svg=FOCUS_WATERMARK_SVG,
+            mot_mark_svg=MOT_MARK_SVG,
             nagano_mark_svg=NAGANO_MARK_SVG,
             nagano_watermark_svg=NAGANO_WATERMARK_SVG,
         ),
@@ -3978,7 +3958,7 @@ def _write_index_and_meta(articles_data: list[dict], new_count: int) -> None:
             google_font=GOOGLE_FONT_LINK,
             theme_init=THEME_INIT_SCRIPT,
             nav=_render_sub_nav("", _abs_url("mot-focus.html")),
-            focus_mark_svg=FOCUS_MARK_SVG,
+            mot_mark_svg=MOT_MARK_SVG,
             cta_url=FOCUS_CTA_URL,
         ),
         encoding="utf-8",
