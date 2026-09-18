@@ -1,55 +1,5 @@
 [
   {
-    "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
-    "link": "https://arcprize.org/blog/astra",
-    "source": "Hacker News",
-    "summary": "Article URL: https://arcprize.org/blog/astra\nComments URL: https://news.ycombinator.com/item?id=49555691\nPoints: 120\n# Comments: 63",
-    "novelty_score": 65,
-    "japan_relevance_score": 75,
-    "reason": "AGI能力測定の新ベンチマーク達成は重要だが、OpenAI発表であり既出情報の可能性が高い。",
-    "discovered_at": "2026-09-03T22:23:03.670053+00:00"
-  },
-  {
-    "title": "OpenAI begins rolling out GPT-6 Astra",
-    "link": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-    "source": "Hacker News",
-    "summary": "https://thenewstack.io/openai-gpt6-astra-benchmarks/, image: https://cdn.thenewstack.io/media/2026/09/358eb84a-screenshot...https://venturebeat.com/technology/welcome-to-the-agi-era-op...https://www.theverge.com/ai-artificial-intelligence/988334/o...https://twitter.com/OpenAI/status/2095595741528125780\n\nComments URL: https://news.ycombinator.com/item?id=49554273\nPoints: 230\n# Comments: 219",
-    "novelty_score": 45,
-    "japan_relevance_score": 75,
-    "reason": "OpenAIの新モデルロールアウトは重要だが、具体的な技術詳細が不明確で、日本での影響は大きい可能性がある。",
-    "discovered_at": "2026-09-03T22:23:05.617715+00:00"
-  },
-  {
-    "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
-    "link": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman\nComments URL: https://news.ycombinator.com/item?id=49554048\nPoints: 35\n# Comments: 7",
-    "novelty_score": 25,
-    "japan_relevance_score": 75,
-    "reason": "GPT-6発表は重要だが、日付が2026年と未来の架空記事であり、信頼性に欠ける。",
-    "discovered_at": "2026-09-03T22:23:07.328125+00:00"
-  },
-  {
-    "title": "Sanders introduces bill to ban artificial superintelligence and pause AI",
-    "link": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/\nComments URL: https://news.ycombinator.com/item?id=49553463\nPoints: 52\n# Comments: 63",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI規制議論は既出だが米国の具体的立法動向は注視値。日本でも規制論争の参考事例として関心が高まる見込み。",
-    "discovered_at": "2026-09-03T22:23:09.604237+00:00"
-  },
-  {
-    "title": "Why office workers are turning against AI",
-    "link": "https://www.bloodinthemachine.com/p/why-office-workers-are-turning-against",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.bloodinthemachine.com/p/why-office-workers-are-turning-against\nComments URL: https://news.ycombinator.com/item?id=49553414\nPoints: 25\n# Comments: 3",
-    "novelty_score": 35,
-    "japan_relevance_score": 65,
-    "reason": "オフィスワーカーのAI懸念は既出だが、日本でも雇用不安が高まる中で関心が高い可能性がある。",
-    "discovered_at": "2026-09-03T22:23:11.465014+00:00"
-  },
-  {
     "title": "NYC mayor Mamdani imposes 1 year ban on AI for schools through 8th grade",
     "link": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
     "source": "Hacker News",
@@ -1028,5 +978,55 @@
     "japan_relevance_score": 60,
     "reason": "AI安全性への議論は既出だが、日本でも規制やリスク認識の高まりと共に関心が増す可能性がある。",
     "discovered_at": "2026-09-17T04:29:11.081837+00:00"
+  },
+  {
+    "title": "How to Write with an LLM",
+    "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/\nComments URL: https://news.ycombinator.com/item?id=49747070\nPoints: 58\n# Comments: 53",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "LLM執筆術は既出テーマだが、日本でも創作・ライティング業界での実用的関心は高い。",
+    "discovered_at": "2026-09-18T01:28:41.897908+00:00"
+  },
+  {
+    "title": "Sex, AI, and the Apocalypse",
+    "link": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/\nComments URL: https://news.ycombinator.com/item?id=49746654\nPoints: 158\n# Comments: 146",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI と倫理・社会への影響は既出だが、日本でも急速な議論拡大が予想される時事的テーマ",
+    "discovered_at": "2026-09-18T01:28:44.002992+00:00"
+  },
+  {
+    "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+    "link": "https://bend-lang.com/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://bend-lang.com/\nComments URL: https://news.ycombinator.com/item?id=49746163\nPoints: 275\n# Comments: 138",
+    "novelty_score": 72,
+    "japan_relevance_score": 65,
+    "reason": "形式証明でAIの正確性を保証する言語は新しい試み。GPU対応で高性能計算分野での需要は国内でも高まる可能性がある。",
+    "discovered_at": "2026-09-18T01:28:46.011158+00:00"
+  },
+  {
+    "title": "Microsoft, OpenAI lose fight to hide internal docs admitting scraping is theft",
+    "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/\nComments URL: https://news.ycombinator.com/item?id=49745932\nPoints: 32\n# Comments: 6",
+    "novelty_score": 35,
+    "japan_relevance_score": 65,
+    "reason": "AI企業の内部文書公開は重要だが、スクレイピング問題自体は既知で、新規性は限定的。",
+    "discovered_at": "2026-09-18T01:28:47.621933+00:00"
+  },
+  {
+    "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
+    "link": "https://news.ycombinator.com/item?id=49743049",
+    "source": "Hacker News",
+    "summary": "Hey HN, we're Nars & Nishant, founders of Skillsync (https://skillsync.com)Skillsync lets you move your AI chats across every coding agent. Most of our work exists as conversations, which are currently scattered across our agents. Though stored locally, these conversations use different formats. This is annoying because you cannot simply switch between agents without starting over. We get locked into a single provider and their agent as we invest in skills and memories over time. Skillsync acts as a universal converter. It moves the entire session, including all the messages, reasoning and tool calls so you can pick up right where you left off.Skillsync collects all your sessions in one place and makes them searchable. It breaks down what each session is carrying, including which loaded skills the agent is actually using, making stale context easy to spot. You can also create shared workspaces to sync sessions across your team. You can build your own closed loop systems. Everything runs locally except when you share to workspaces.The core is an open-source Rust engine called txcript (https://github.com/skillsynchq/txcript). It translates a session from one agent's on-disk format into another's, mapping conversation, reasoning, and tool history. Think ffmpeg or pandoc, but for agent sessions.On top of that engine is a local-first desktop app. Your agent sessions are normally scattered across different tools' folders in formats you'd never read by hand; the app surfaces them in one place with a UI that makes them actually readable, the conversation, the reasoning, and the tool calls, so you can revisit what happened, move a session into another agent, or share it with a teammate.Skills and memory are stored as portable, human-readable markdown you own, and exposed to any agent over MCP for search and selective retrieval.Sessions and translation run locally on your machine. The one thing that leaves is what you explicitly share into a team workspace.It’s been surprising to us to see how locked-in people already are without realizing it. You don't notice you're trapped in one agent or harness until you try to leave, and by then you've got months of sessions stuck in a format only that tool can read. The lock-in is invisible right up until it's expensive.Once sessions are portable, they stop being disposable logs and become something you can actually build on, spotting patterns in how you work, handing a session off to someone else, letting a non-technical teammate pick up where an engineer left off. The session turns out to be the unit of collaboration, and right now it's being thrown away.Before Skillsync, Nars and I built an open-source payment orchestrator that let merchants route across many processors instead of getting locked into one (30k+ GitHub stars). Fighting vendor lock-in by making incompatible systems interoperate was the whole job. We came into YC with a different idea, but the more we lived inside coding agents the more we saw the same problem from the other side: your context is locked into whatever agent you start with, because every agent stores sessions differently and none of it moves.Some of the things we’re seeing people do with Skillsync are:- Moving a session between Claude Code, Codex, and Cursor mid-task, including when you hit a usage limit on one and want to keep going on another.- Thinking through a problem in a browser Claude chat, then handing the whole thread to Claude Code or Codex to build.- Sharing research sessions with a team. Everyone uploads their sessions, so teammates and their agents can build on each other's work instead of repeating it.It's available as a Mac app, CLI and MCP. Here's the demo: https://youtu.be/7hVhSnSKGl8. Would love to hear your feedback and answer questions!\n\nComments URL: https://news.ycombinator.com/item?id=49743049\nPoints: 47\n# Comments: 46",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AI agent間のセッション互換性という新しい課題に対応した実用的なソリューション。エンジニア向けで日本でもAI開発が活発化する中で需要が見込める。",
+    "discovered_at": "2026-09-18T01:28:49.602034+00:00"
   }
 ]
