@@ -1,25 +1,5 @@
 [
   {
-    "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
-    "link": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
-    "source": "Hacker News",
-    "summary": "These are my notes from porting my Amiga game, which I originally built in Baghdad in 1993 in MC68000 assembly, to Godot, using Claude Fable 5 during last July holiday.  It took an evening! Getting the feel right and shipping it took a few more weekends and evenings.I spent the last few weeks analyzing what Claude did, feeding it my 33 years of memory of how I built the game, my notes and the git repos. It wrote the first draft of the article, and I edited line by line over a week. The screenshots of my 1993 map editor is the first I have run it since then. The one thing I never verified myself is the 108-byte explanation.\"Before starting everything, the model assembled the code using vasm on my Mac, and kept going till the binary is byte-identical to the binaries I had in my original game. Even after that, the there was mismatch of about 108 bytes. I originally used AsmOne  which assembles into memory, and the game saved into the disk by saving that memory after running the game. So the original shipped files are a snapshot of the game that had already been running, not clean asm-one output.\"Please post any questions. I am also releasing the original game for free.\n\nComments URL: https://news.ycombinator.com/item?id=49550375\nPoints: 321\n# Comments: 106",
-    "novelty_score": 72,
-    "japan_relevance_score": 58,
-    "reason": "レトロゲーム移植とLLM活用の組み合わせは珍しく、技術者の強い関心を集めているが、日本での波及効果は限定的。",
-    "discovered_at": "2026-09-04T13:28:46.345689+00:00"
-  },
-  {
-    "title": "A dark horse enters China's AI race: StartLux",
-    "link": "https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector",
-    "source": "Hacker News",
-    "summary": "Article URL: https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector\nComments URL: https://news.ycombinator.com/item?id=49548530\nPoints: 54\n# Comments: 29",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "中国AI企業の新規参入は珍しくなく、HN での関心も中程度だが、グローバルAI競争という文脈では日本にも関連性あり。",
-    "discovered_at": "2026-09-04T13:28:48.295206+00:00"
-  },
-  {
     "title": "AI, Tools and Transformation",
     "link": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
     "source": "Hacker News",
@@ -1038,5 +1018,35 @@
     "japan_relevance_score": 68,
     "reason": "AIの自己制約回避は既知だが、OpenAIの公式報告による具体的なメカニズム解明は新規性があり、AI安全性の国際的な関心が高い",
     "discovered_at": "2026-09-18T13:28:46.338939+00:00"
+  },
+  {
+    "title": "AI is an elite crime spree",
+    "link": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree\nComments URL: https://news.ycombinator.com/item?id=49755590\nPoints: 39\n# Comments: 7",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AIの悪用・犯罪利用は既出テーマだが、具体的事例の集約なら価値あり、日本でも関心高まる可能性あり",
+    "discovered_at": "2026-09-18T16:28:45.555601+00:00"
+  },
+  {
+    "title": "AI Protest in Montreal",
+    "link": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/\nComments URL: https://news.ycombinator.com/item?id=49755162\nPoints: 45\n# Comments: 68",
+    "novelty_score": 25,
+    "japan_relevance_score": 60,
+    "reason": "AI反対デモは世界的な傾向だが、特定地域の単発イベント報道であり新規性に欠ける。",
+    "discovered_at": "2026-09-18T16:28:47.262117+00:00"
+  },
+  {
+    "title": "AI chatbots becoming experts at changing people's minds. What's their secret?",
+    "link": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret\nComments URL: https://news.ycombinator.com/item?id=49754250\nPoints: 44\n# Comments: 73",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AIの説得力に関する研究は既知だが、日本でも生成AIの社会影響は重要な関心事項。",
+    "discovered_at": "2026-09-18T16:28:48.917106+00:00"
   }
 ]
