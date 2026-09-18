@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-18 11:02
+最終更新: 2026-09-18 12:54
 
 ## 記事一覧
 
+- [OpenAIのGPT-6 Astra とは？弁護士向けAI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html): OpenAIが法律専門家向けのAI「GPT-6 Astra」を発表。AI競争が法業界にも本格展開。 (出典: NDTV / 更新: 2026-09-18 12:54)
+- [OpenAIの法務特化AI「Astra for Law」とは？検索範囲・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-e94f8502.html): OpenAIが法律分野に特化したAI「Astra for Law」をリリース。膨大な法律情報から最適な判例や法令を検索できる。 (出典: 디지털투데이 / 更新: 2026-09-18 12:53)
 - [NEC SCM AIエージェントとは？7つの専門AIが問題解決](https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-afa0bdd8.html): NECが複数の物流システムを統合し、問題検知から解決案まで自動実行するAIエージェントを公開。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:02)
 - [AI導入で業務効率化しても帰宅時間が変わらない理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html): AI導入で作業時間が大幅に削減されても、生み出された時間が別の業務に吸収される現象が起きている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:02)
 - [Claude費用削減の方法とは？トークン浪費を避けるコツ](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html): Anthropicが公開した6つの「やってはいけない使い方」を避けると、Claudeのコストダウンと精度向上が同時に実現する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:01)
@@ -205,5 +207,3 @@
 - [AIが知能テストで不正解、MIT報告。機械学習の根本的な課題が浮き彫りに](https://mot-ai-media.github.io/mot-ai-news/articles/ai-mit-technology-review-734561a7.html): MIT Technology Reviewが報じたところ、最先端のAIモデルが基本的なパズルやゲーム問題で不正解を出す現象が確認された。AIの真の「理解力」がまだ限定的であることを示す結果で、開発の現場では数十年前からパズルが実力判定の重要な指標とされてきた。 (出典: MIT Technology Review / 更新: 2026-09-07 07:27)
 - [Uber創業者のAtomsがロボタクシー事業参入、自動運転の未来は](https://mot-ai-media.github.io/mot-ai-news/articles/travis-kalanick-atoms-5325508b.html): Uber創業者がAtomsでロボタクシー事業に乗り出し、自動運転市場の競争が激化する見通し。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-07 07:01)
 - [小規模AIモデルの学習効率化とは？GRPO活用で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-45020768.html): Hugging Faceが3.5億パラメータの軽量モデルを少ない学習で高精度化する手法を発表。 (出典: Hugging Face - Blog / 更新: 2026-09-07 07:01)
-- [AIの安全性とは？OpenAIが指摘する制御の課題と対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a8e8f9dc.html): OpenAIの幹部が、AIの急速な進化に伴う制御の課題に警告を発し、国際的な対策の必要性を主張。 (出典: OpenAI News / 更新: 2026-09-07 07:01)
-- [FreeCADでAI制御が可能に。MCPインターフェース機能とは？](https://mot-ai-media.github.io/mot-ai-news/articles/freecad-claude-4a39bd0b.html): FreeCADがClaudeやChatGPTと連携し、AIが直接3D設計モデルを操作・生成できる新インターフェースが実装される。 (出典: 3Druck.com / 更新: 2026-09-07 07:00)

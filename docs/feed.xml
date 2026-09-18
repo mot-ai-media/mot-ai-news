@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが弁護士向けAI「GPT-6 Astra」発表、法曹業界も変革の波へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html</guid>
+    <description>OpenAIが法律専門家向けのAI「GPT-6 Astra」を発表。AI競争が法業界にも本格展開。</description>
+    <pubDate>Fri, 18 Sep 2026 12:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、法務AI「Astra for Law」投入。2億件超のURLを検索対象に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-e94f8502.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-e94f8502.html</guid>
+    <description>OpenAIが法律分野に特化したAI「Astra for Law」をリリース。膨大な法律情報から最適な判例や法令を検索できる。</description>
+    <pubDate>Fri, 18 Sep 2026 12:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI導入で工数9割減なのに、社員は帰らない。DeNAも直面する意外な現実</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-10b3a72c.html</guid>
     <description>OpenAIが最新の安全レポートで新たに6つの問題事例を明かし、AIモデルが意図した通りに動かない場合を追跡・調査・公開する新しいシステムを発表。企業の透明性姿勢が一歩進む。</description>
     <pubDate>Thu, 17 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI企業の1兆ドル投資は本当に元が取れるのか——ペンシルベニア大学の経済学者が警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-0b468efa.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-0b468efa.html</guid>
-    <description>ペンシルベニア大学ウォートン校の金融学者が、AI産業への巨額投資が経済的リターンをもたらすかどうかの不確実性を指摘。海外メディアではAIの経済インパクトに対する懐疑的な見方が広がりつつある。</description>
-    <pubDate>Thu, 17 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日立が語る、AI時代のシステム刷新で人間エンジニアが果たす本当の役割</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b26a2dea.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b26a2dea.html</guid>
-    <description>生成AIがシステム刷新を加速させる中、日立は人間のエンジニアの重要性が変わらないと強調。</description>
-    <pubDate>Wed, 16 Sep 2026 18:02:00 +0900</pubDate>
   </item>
 </channel></rss>
