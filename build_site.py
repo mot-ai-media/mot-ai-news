@@ -458,6 +458,13 @@ main {
   background: #182645;
   color: #7d9dff;
 }
+/* NEWS/TIPS/NOTEの種別バッジ。.level-badgeと同じ見た目の言語を流用し、色だけ変える */
+.kind-news { background: #e5edff; color: #2955c9; }
+.kind-tips { background: #fdf0d4; color: #a06b0a; }
+.kind-note { background: #f1e9ff; color: #6b3fc9; }
+:root[data-theme="dark"] .kind-news { background: #182645; color: #7d9dff; }
+:root[data-theme="dark"] .kind-tips { background: #3a2c0f; color: #f0b649; }
+:root[data-theme="dark"] .kind-note { background: #2a1f47; color: #b79bf5; }
 .level-filter {
   display: flex;
   gap: 8px;
@@ -1365,6 +1372,65 @@ footer a {
 .fact-impact dt { color: #21a17a; }
 .fact-impact { border-left-color: #b7e5d6; }
 
+/* --- NEWS/TIPS記事本文(content_format=news_tips) ---
+   .fact-what等と同じ「dt/dd + 左ボーダー」の見た目を流用し、6つのアンチパターン/
+   3つの手法をそれぞれ【やりがち】【なぜ非効率か】【どう変えるか】等の3行で見せる。 */
+.section-eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 28px 0 2px;
+  text-transform: uppercase;
+}
+.section-eyebrow-news { color: #2955c9; }
+.section-eyebrow-tips { color: #a06b0a; }
+:root[data-theme="dark"] .section-eyebrow-news { color: #7d9dff; }
+:root[data-theme="dark"] .section-eyebrow-tips { color: #f0b649; }
+.tips-grid { display: grid; gap: 14px; margin: 10px 0 24px; }
+.tips-item {
+  border: 1px solid var(--mot-border);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+.tips-item h4 { margin: 0 0 10px; font-size: 1rem; }
+.tips-item-facts { margin: 0; }
+.tips-item-facts div {
+  margin-bottom: 8px;
+  padding-left: 10px;
+  border-left: 2px solid #eceef3;
+}
+.tips-item-facts div:last-child { margin-bottom: 0; }
+.tips-item-facts dt {
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 2px;
+  color: var(--mot-text-secondary);
+}
+.tips-item-facts dd { margin: 0; font-size: 0.86rem; color: #444; line-height: 1.65; }
+:root[data-theme="dark"] .tips-item { border-color: #2a2a36; }
+:root[data-theme="dark"] .tips-item-facts dd { color: #cfcfdb; }
+.action-checklist { list-style: none; padding: 0; margin: 10px 0 24px; }
+.action-checklist li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+.action-checklist li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: var(--mot-positive);
+  font-weight: 700;
+}
+.closing-note { font-size: 1rem; line-height: 1.9; color: #2b2b33; }
+:root[data-theme="dark"] .closing-note { color: #dcdce6; }
+:root[data-presbyopia="on"] .tips-item-facts dd,
+:root[data-presbyopia="on"] .action-checklist li,
+:root[data-presbyopia="on"] .closing-note { font-size: 1.05rem; line-height: 1.85; }
+
 /* --- TOPICS探索 --- */
 .topics-explore { margin-bottom: 44px; }
 .topics-grid {
@@ -2204,7 +2270,7 @@ ARTICLE_PAGE_TEMPLATE = """<!DOCTYPE html>
   {thumbnail}
   <h1 class="headline">{headline}</h1>
   <div class="trust-strip">
-    <span>{level_badge}</span>
+    <span>{kind_badge}{level_badge}</span>
     <span><span class="trust-label">SOURCE</span>{source}</span>
     <span><span class="trust-label">UPDATED</span>{generated_at}</span>
   </div>
@@ -3155,6 +3221,44 @@ def _render_article_body(entry: dict) -> str:
     """記事本文のHTML化。新形式(TL;DR+6セクション)があればそれを使い、無ければ
     旧形式(TL;DR+3見出し)、それも無い最古の記事は段落分割のみで表示する
     (テンプレート変更は常に新規記事のみに適用し、過去記事は非破壊)。"""
+    if entry.get("content_format") == "news_tips":
+        antipattern_items = "".join(
+            "<div class=\"tips-item\">"
+            f"<h4>{i + 1}. {html_lib.escape(ap['name'])}</h4>"
+            '<dl class="tips-item-facts">'
+            f'<div><dt>やりがち</dt><dd>{html_lib.escape(ap["do"])}</dd></div>'
+            f'<div><dt>なぜ非効率か</dt><dd>{html_lib.escape(ap["why"])}</dd></div>'
+            f'<div><dt>どう変えるか</dt><dd>{html_lib.escape(ap["fix"])}</dd></div>'
+            "</dl></div>"
+            for i, ap in enumerate(entry.get("antipatterns") or [])
+        )
+        method_items = "".join(
+            "<div class=\"tips-item\">"
+            f"<h4>{html_lib.escape(m['name'])}</h4>"
+            '<dl class="tips-item-facts">'
+            f'<div><dt>何なのか</dt><dd>{html_lib.escape(m["what"])}</dd></div>'
+            f'<div><dt>どんな場面で使えるか</dt><dd>{html_lib.escape(m["when"])}</dd></div>'
+            f'<div><dt>初心者はこう考える</dt><dd>{html_lib.escape(m["beginner"])}</dd></div>'
+            "</dl></div>"
+            for m in entry.get("methods") or []
+        )
+        action_items = "".join(
+            f"<li>{html_lib.escape(a)}</li>" for a in entry.get("today_actions") or []
+        )
+        return (
+            f'<p class="tldr"><strong>TL;DR</strong> {html_lib.escape(entry["tldr"])}</p>'
+            '<p class="section-eyebrow section-eyebrow-news">NEWS</p>'
+            f'<h3>何が起きた？</h3><p>{html_lib.escape(entry["news_body"])}</p>'
+            '<p class="section-eyebrow section-eyebrow-tips">TIPS</p>'
+            f'<h3>{html_lib.escape(entry.get("antipatterns_heading", "Claudeでやりがちな無駄"))}</h3>'
+            f'<div class="tips-grid">{antipattern_items}</div>'
+            '<p class="section-eyebrow section-eyebrow-tips">TIPS</p>'
+            f'<h3>{html_lib.escape(entry.get("methods_heading", "さらに効率化する方法"))}</h3>'
+            f'<div class="tips-grid">{method_items}</div>'
+            "<h3>今日からできること</h3>"
+            f'<ul class="action-checklist">{action_items}</ul>'
+            f'<p class="closing-note">{html_lib.escape(entry["closing"])}</p>'
+        )
     if entry.get("content_format") == "foreign_discovery":
         return (
             f'<p class="tldr"><strong>TL;DR</strong> {html_lib.escape(entry["tldr"])}</p>'
@@ -3228,6 +3332,16 @@ def _entry_text_length(entry: dict) -> int:
     body = entry.get("body")
     if body:
         return len(body)
+    if entry.get("content_format") == "news_tips":
+        parts = [entry.get("tldr", ""), entry.get("news_body", ""), entry.get("closing", "")]
+        parts += [
+            v for ap in entry.get("antipatterns") or [] for v in (ap.get("do", ""), ap.get("why", ""), ap.get("fix", ""))
+        ]
+        parts += [
+            v for m in entry.get("methods") or [] for v in (m.get("what", ""), m.get("when", ""), m.get("beginner", ""))
+        ]
+        parts += entry.get("today_actions") or []
+        return sum(len(p) for p in parts if p)
     parts = (
         entry.get("tldr"), entry.get("what_happened"), entry.get("why_it_matters"),
         entry.get("impact_on_reader"), entry.get("reader_relevance"),
@@ -3306,6 +3420,19 @@ def _level_badge(entry: dict) -> str:
     level = _entry_level(entry)
     icon = "&#128309;" if level == "technical" else "&#128994;"
     return f'<span class="level-badge level-{level}">{icon} {LEVEL_LABELS[level]}</span>'
+
+
+# NEWS(何が起きたか)/TIPS(どう使うか)/NOTE(MOTが実際に試した・考えたこと)という
+# MOTのコンテンツ種別。content_kindフィールドが無い(従来の)記事にはバッジを出さない。
+_KIND_LABELS = {"news": "NEWS", "tips": "TIPS", "note": "NOTE"}
+
+
+def _kind_badges(entry: dict) -> str:
+    kinds = entry.get("content_kind") or []
+    return "".join(
+        f'<span class="level-badge kind-{k}">{_KIND_LABELS[k]}</span>'
+        for k in kinds if k in _KIND_LABELS
+    )
 
 
 CHARS_PER_MINUTE = 500  # 日本語の平均的な黙読速度の目安
@@ -4053,6 +4180,7 @@ def _write_article_page(entry: dict, articles_data: list[dict], valid_topic_tags
         thumbnail=thumb_for_article,
         source=html_lib.escape(entry["source"]),
         level_badge=_level_badge(entry),
+        kind_badge=_kind_badges(entry),
         generated_at=entry["generated_at"],
         body=_render_article_body(entry),
         faq=_render_faq_html(entry.get("faq")),

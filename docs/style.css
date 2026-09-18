@@ -91,6 +91,13 @@ main {
   background: #182645;
   color: #7d9dff;
 }
+/* NEWS/TIPS/NOTEの種別バッジ。.level-badgeと同じ見た目の言語を流用し、色だけ変える */
+.kind-news { background: #e5edff; color: #2955c9; }
+.kind-tips { background: #fdf0d4; color: #a06b0a; }
+.kind-note { background: #f1e9ff; color: #6b3fc9; }
+:root[data-theme="dark"] .kind-news { background: #182645; color: #7d9dff; }
+:root[data-theme="dark"] .kind-tips { background: #3a2c0f; color: #f0b649; }
+:root[data-theme="dark"] .kind-note { background: #2a1f47; color: #b79bf5; }
 .level-filter {
   display: flex;
   gap: 8px;
@@ -997,6 +1004,65 @@ footer a {
 .fact-why { border-left-color: #f2d9ae; }
 .fact-impact dt { color: #21a17a; }
 .fact-impact { border-left-color: #b7e5d6; }
+
+/* --- NEWS/TIPS記事本文(content_format=news_tips) ---
+   .fact-what等と同じ「dt/dd + 左ボーダー」の見た目を流用し、6つのアンチパターン/
+   3つの手法をそれぞれ【やりがち】【なぜ非効率か】【どう変えるか】等の3行で見せる。 */
+.section-eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 28px 0 2px;
+  text-transform: uppercase;
+}
+.section-eyebrow-news { color: #2955c9; }
+.section-eyebrow-tips { color: #a06b0a; }
+:root[data-theme="dark"] .section-eyebrow-news { color: #7d9dff; }
+:root[data-theme="dark"] .section-eyebrow-tips { color: #f0b649; }
+.tips-grid { display: grid; gap: 14px; margin: 10px 0 24px; }
+.tips-item {
+  border: 1px solid var(--mot-border);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+.tips-item h4 { margin: 0 0 10px; font-size: 1rem; }
+.tips-item-facts { margin: 0; }
+.tips-item-facts div {
+  margin-bottom: 8px;
+  padding-left: 10px;
+  border-left: 2px solid #eceef3;
+}
+.tips-item-facts div:last-child { margin-bottom: 0; }
+.tips-item-facts dt {
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 2px;
+  color: var(--mot-text-secondary);
+}
+.tips-item-facts dd { margin: 0; font-size: 0.86rem; color: #444; line-height: 1.65; }
+:root[data-theme="dark"] .tips-item { border-color: #2a2a36; }
+:root[data-theme="dark"] .tips-item-facts dd { color: #cfcfdb; }
+.action-checklist { list-style: none; padding: 0; margin: 10px 0 24px; }
+.action-checklist li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+.action-checklist li::before {
+  content: "¹3";
+  position: absolute;
+  left: 0;
+  color: var(--mot-positive);
+  font-weight: 700;
+}
+.closing-note { font-size: 1rem; line-height: 1.9; color: #2b2b33; }
+:root[data-theme="dark"] .closing-note { color: #dcdce6; }
+:root[data-presbyopia="on"] .tips-item-facts dd,
+:root[data-presbyopia="on"] .action-checklist li,
+:root[data-presbyopia="on"] .closing-note { font-size: 1.05rem; line-height: 1.85; }
 
 /* --- TOPICS探索 --- */
 .topics-explore { margin-bottom: 44px; }

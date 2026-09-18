@@ -3,7 +3,7 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-18 13:28
+最終更新: 2026-09-18 18:15
 
 ## 記事一覧
 
@@ -13,7 +13,7 @@
 - [OpenAIの法務特化AI「Astra for Law」とは？検索範囲・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-e94f8502.html): OpenAIが法律分野に特化したAI「Astra for Law」をリリース。膨大な法律情報から最適な判例や法令を検索できる。 (出典: 디지털투데이 / 更新: 2026-09-18 12:53)
 - [NEC SCM AIエージェントとは？7つの専門AIが問題解決](https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-afa0bdd8.html): NECが複数の物流システムを統合し、問題検知から解決案まで自動実行するAIエージェントを公開。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:02)
 - [AI導入で業務効率化しても帰宅時間が変わらない理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html): AI導入で作業時間が大幅に削減されても、生み出された時間が別の業務に吸収される現象が起きている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:02)
-- [Claude費用削減の方法とは？トークン浪費を避けるコツ](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html): Anthropicが公開した6つの「やってはいけない使い方」を避けると、Claudeのコストダウンと精度向上が同時に実現する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:01)
+- [Claudeのプロンプトを効率化する方法｜コスト削減の6つの見直しポイント](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html): AnthropicがClaude Platformの効率的な使い方を公式に公開。プロンプトでやりがちな6つの無駄と、コストを抑えながら精度を保つ3つの方法を、初心者にもわかる形で紹介します。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:01)
 - [資生堂のAIエージェント導入で原料探索が激変。何ができるのか解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-3f748048.html): 資生堂がAIエージェントを研究開発に導入し、原料探索の時間を大幅削減。研究員の経験と勘をAIで再現する取り組みが進む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:01)
 - [AI 3D CAD「Ignite0」とは？自然言語から3Dモデル生成の仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/ignite0-3d-cad-0e284752.html): 自然言語や画像からCADモデルを自動生成するAIが資金調達、グローバル展開へ。設計業務の未来が変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:00)
 - [Claude Fable 5でDIYツール作成。AIが変える自作の未来とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html): AIが一般ユーザーのDIYプロジェクトを支援。専門知識なしで自分専用ツールが作れる時代へ。 (出典: ライフハッカー / 更新: 2026-09-18 10:53)
