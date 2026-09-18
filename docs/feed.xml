@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>米共和党議員、AI規制より「議会の監視」を優先　業界との綱引き激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3e5a1d97.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3e5a1d97.html</guid>
+    <description>米国下院議員チップ・ロイ氏（テキサス州、共和党）が、AIに関する議会公聴会の開催は支持する一方で、新たな規制には反対する姿勢を示した。米国内でAI規制のあり方をめぐる議論が分かれている実態が浮き彫りになった。</description>
+    <pubDate>Sat, 19 Sep 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>カリフォルニア州知事、AI規制に本気。大統領候補たちが「手遅れになる前に」と動き始めた</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2028-de27a018.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2028-de27a018.html</guid>
+    <description>米カリフォルニア州のニューサム知事がAIに対するより厳格な規制を求める姿勢を表明。2028年大統領選出馬を視野に入れた民主党有力候補らが、AI制御を重点政策として掲げ始めた。</description>
+    <pubDate>Sat, 19 Sep 2026 01:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>100人超のAI研究者が警告：ChatGPTやClaudeの安全性チェックは「第三者がやるべき」</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-dcf3f3c7.html</guid>
     <description>AIロボット協会が主催するコンペで、国内7社の汎用ロボット試作機が初公開。フィジカルAI時代の本格化が近づいている。</description>
     <pubDate>Thu, 17 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>千代田区が生成AI全庁導入で年間4000時間削減、次のターゲットは「紙の資料」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dx-ai-4b06366f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dx-ai-4b06366f.html</guid>
-    <description>東京の千代田区が生成AIを全庁で導入し、年間4000時間の業務削減を実現。今後は紙資料の削減に注力する方針。</description>
-    <pubDate>Thu, 17 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google・Apple・Microsoft対応、AI学習だけ拒否できる新機能がCloudflareから登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/cloudflare-google-b3948030.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cloudflare-google-b3948030.html</guid>
-    <description>検索クロールは許可しつつ、AIモデル学習だけを拒否できる新設定がCloudflareから発表。大手テック企業も対応へ。</description>
-    <pubDate>Thu, 17 Sep 2026 18:00:00 +0900</pubDate>
   </item>
 </channel></rss>

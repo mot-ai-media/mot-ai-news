@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-18 22:28
+最終更新: 2026-09-19 01:28
 
 ## 記事一覧
 
+- [米国議会のAI規制議論、チップ・ロイ議員が規制に慎重姿勢を表明](https://mot-ai-media.github.io/mot-ai-news/articles/ai-3e5a1d97.html): 米国下院議員チップ・ロイ氏（テキサス州、共和党）が、AIに関する議会公聴会の開催は支持する一方で、新たな規制には反対する姿勢を示した。米国内でAI規制のあり方をめぐる議論が分かれている実態が浮き彫りになった。 (出典: CNBC / 更新: 2026-09-19 01:28)
+- [カリフォルニア州がAI規制強化へ。日本企業の事業に影響の可能性](https://mot-ai-media.github.io/mot-ai-news/articles/ai-2028-de27a018.html): 米カリフォルニア州のニューサム知事がAIに対するより厳格な規制を求める姿勢を表明。2028年大統領選出馬を視野に入れた民主党有力候補らが、AI制御を重点政策として掲げ始めた。 (出典: CNBC / 更新: 2026-09-19 01:27)
 - [OpenAI・Anthropic AIの安全評価 独立性求める声 専門家100人以上が公開書簡](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html): OpenAIやAnthropicなど大手AI企業が自社製品の安全性評価を自分たちで行っている現状に対し、100人を超えるAI研究者が「独立した第三者評価が必要」と公開書簡で要求。信頼性と透明性の強化を訴えている。 (出典: CNBC / 更新: 2026-09-18 22:28)
 - [AI企業の最前線で何が起きているのか。人工知能と人類の未来について](https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-ai-193c8bfa.html): 世界有数のAI研究機関で働く従業員たちが、高度なAIが人類に脅威をもたらす可能性について真剣に警告を発している。MIT Technology Reviewが読者向けに開催したライブイベントでは、このテーマについて多くの質問が寄せられ、AI研究の最前線における懸念事項が浮き彫りになった。 (出典: MIT Technology Review / 更新: 2026-09-18 22:27)
 - [チャールズ国王AIサミット開催、危険性警告で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html): 英国王主催のAIサミットで、OpenAIやNVIDIAなど業界トップが参加。国王がAIの悪用リスク警告。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:02)
@@ -205,5 +207,3 @@
 - [Tesla Cybercabとは？日本初公開で見る自動運転タクシーの未来](https://mot-ai-media.github.io/mot-ai-news/articles/tesla-cybercab-5d9c4bf8.html): ハンドルもペダルもない完全自動運転タクシー「Cybercab」がテスラジャパンにより日本初公開される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
 - [AI性能ランキング更新、Claude Fable 5.1が首位に―ゲーム化対策とは](https://mot-ai-media.github.io/mot-ai-news/articles/artificial-analysis-claude-5b62cc94.html): AIベンチマーク評価が刷新され、実務的な測定方法で信頼性向上。ランキング順位も大きく変わった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:31)
 - [日立のフィジカルAI新サービスとは？チーム型アプローチの狙い](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-362b9aae.html): 日立が現場向けAIの新サービスを発表。1人の専門家に頼らないチーム型実装が特徴。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:30)
-- [OpenAI Daybreak for Frontline Defenders、重要インフラ保護に10億ドル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-5190d2a1.html): OpenAIが重要インフラを守る組織向けに、最先端のサイバーセキュリティAIと支援を10億ドル規模で提供するプログラムを開始。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
-- [GPT-6 Astra|41文書を数分でレビュー。金融業務への活用事例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-be4a3c54.html): OpenAIの最新AIが金融書類の審査で、エラー検出と処理時間の両面で圧倒的な性能を実証。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
