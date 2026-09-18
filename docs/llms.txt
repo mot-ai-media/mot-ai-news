@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-18 22:02
+最終更新: 2026-09-18 22:28
 
 ## 記事一覧
 
+- [OpenAI・Anthropic AIの安全評価 独立性求める声 専門家100人以上が公開書簡](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html): OpenAIやAnthropicなど大手AI企業が自社製品の安全性評価を自分たちで行っている現状に対し、100人を超えるAI研究者が「独立した第三者評価が必要」と公開書簡で要求。信頼性と透明性の強化を訴えている。 (出典: CNBC / 更新: 2026-09-18 22:28)
+- [AI企業の最前線で何が起きているのか。人工知能と人類の未来について](https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-ai-193c8bfa.html): 世界有数のAI研究機関で働く従業員たちが、高度なAIが人類に脅威をもたらす可能性について真剣に警告を発している。MIT Technology Reviewが読者向けに開催したライブイベントでは、このテーマについて多くの質問が寄せられ、AI研究の最前線における懸念事項が浮き彫りになった。 (出典: MIT Technology Review / 更新: 2026-09-18 22:27)
 - [チャールズ国王AIサミット開催、危険性警告で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html): 英国王主催のAIサミットで、OpenAIやNVIDIAなど業界トップが参加。国王がAIの悪用リスク警告。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:02)
 - [AWSが分散データをAI検索する方法公開、29万ファイル管理の実装例](https://mot-ai-media.github.io/mot-ai-news/articles/aws-amazon-s3-a677e130.html): 社内に散らばったデータをAIが一括検索できる仕組みを、AWSが航空業界の事例で実装公開。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
 - [AI導入と現場のIT環境ギャップが招く生産性低下の実態調査](https://mot-ai-media.github.io/mot-ai-news/articles/dx-it-c2dd3846.html): 経営者のAI導入熱とは裏腹に、古いPCやツール不足で従業員が疲弊し、年間147時間の労働時間が失われている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
@@ -205,5 +207,3 @@
 - [日立のフィジカルAI新サービスとは？チーム型アプローチの狙い](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-362b9aae.html): 日立が現場向けAIの新サービスを発表。1人の専門家に頼らないチーム型実装が特徴。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 14:30)
 - [OpenAI Daybreak for Frontline Defenders、重要インフラ保護に10億ドル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-5190d2a1.html): OpenAIが重要インフラを守る組織向けに、最先端のサイバーセキュリティAIと支援を10億ドル規模で提供するプログラムを開始。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
 - [GPT-6 Astra|41文書を数分でレビュー。金融業務への活用事例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-be4a3c54.html): OpenAIの最新AIが金融書類の審査で、エラー検出と処理時間の両面で圧倒的な性能を実証。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
-- [GPT-6 Astraでゲーム開発効率化、Playcoが手作業50%削減を実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-playco-7a45b185.html): PlaycoがOpenAIの最新AI「GPT-6 Astra」を使い、ゲーム開発の手作業を半減させた。 (出典: OpenAI News / 更新: 2026-09-07 11:02)
-- [OpenAIがAIエージェントで研究加速。導入効果をデータで公開](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-19672c48.html): OpenAI内で、AIエージェント活用により研究の実験スピードと効率が向上。組織内での導入状況が明らかに。 (出典: OpenAI News / 更新: 2026-09-07 11:01)

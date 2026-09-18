@@ -1,43 +1,6 @@
 [
   {
     "tokens": [
-      "abuse",
-      "ads",
-      "allowing",
-      "child",
-      "francisco",
-      "meta",
-      "orders",
-      "san",
-      "stop"
-    ],
-    "ts": "2026-09-10T13:28:09"
-  },
-  {
-    "tokens": [
-      "back",
-      "better",
-      "gemini",
-      "look",
-      "phev",
-      "sensors",
-      "volvo",
-      "xc40"
-    ],
-    "ts": "2026-09-10T16:28:16"
-  },
-  {
-    "tokens": [
-      "chaos",
-      "freaking",
-      "lawmakers",
-      "out",
-      "summer"
-    ],
-    "ts": "2026-09-10T16:28:32"
-  },
-  {
-    "tokens": [
       "china",
       "citing",
       "downplays",
@@ -397,5 +360,31 @@
       "urgent"
     ],
     "ts": "2026-09-18T13:28:07"
+  },
+  {
+    "tokens": [
+      "all",
+      "answered.",
+      "could",
+      "kill",
+      "questions",
+      "really"
+    ],
+    "ts": "2026-09-18T22:27:56"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "evaluators",
+      "experts",
+      "independent",
+      "letter",
+      "need",
+      "openai",
+      "public",
+      "safety",
+      "truly"
+    ],
+    "ts": "2026-09-18T22:28:08"
   }
 ]

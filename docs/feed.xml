@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>100人超のAI研究者が警告：ChatGPTやClaudeの安全性チェックは「第三者がやるべき」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html</guid>
+    <description>OpenAIやAnthropicなど大手AI企業が自社製品の安全性評価を自分たちで行っている現状に対し、100人を超えるAI研究者が「独立した第三者評価が必要」と公開書簡で要求。信頼性と透明性の強化を訴えている。</description>
+    <pubDate>Fri, 18 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>MIT Technology Reviewが直撃：AI研究者たちが「人類滅亡の可能性」を本気で議論している</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-ai-193c8bfa.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-ai-193c8bfa.html</guid>
+    <description>世界有数のAI研究機関で働く従業員たちが、高度なAIが人類に脅威をもたらす可能性について真剣に警告を発している。MIT Technology Reviewが読者向けに開催したライブイベントでは、このテーマについて多くの質問が寄せられ、AI研究の最前線における懸念事項が浮き彫りになった。</description>
+    <pubDate>Fri, 18 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>チャールズ国王、AI大手に「実存的危険」警告。OpenAI・NVIDIA・Anthropic幹部が集結</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cloudflare-google-b3948030.html</guid>
     <description>検索クロールは許可しつつ、AIモデル学習だけを拒否できる新設定がCloudflareから発表。大手テック企業も対応へ。</description>
     <pubDate>Thu, 17 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>医療現場が自前AIで革命　クリニック院長が医療機器より安い環境を自ら構築</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/llm-dx-add66f3a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/llm-dx-add66f3a.html</guid>
-    <description>院長が自ら構築したローカルLLM環境がクリニックで話題。従来の医療機器より低コストでAI活用が実現する可能性が浮上。</description>
-    <pubDate>Thu, 17 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>370年前の謎の暗号、AIが1日で解読。人間が解けなかった古い暗号もAIの時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-205bed45.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-205bed45.html</guid>
-    <description>AIが人類が370年間解けなかった古い暗号を1日で破った。過去の謎もAIが解く時代へ。</description>
-    <pubDate>Thu, 17 Sep 2026 16:53:00 +0900</pubDate>
   </item>
 </channel></rss>
