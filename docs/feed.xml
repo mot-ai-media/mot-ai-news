@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、OpenAIに対抗する新モデル検討。CEO減速宣言の直後に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-396cd09c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-396cd09c.html</guid>
+    <description>AnthropicがOpenAIの新モデルに対抗する新モデル開発を検討中。一方でCEOは減速を呼びかけている。</description>
+    <pubDate>Sat, 19 Sep 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI専門クラウド企業Nscaleが上場申請、ニッチなAI市場がいよいよ主流化へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-ai-35dedfcd.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-ai-35dedfcd.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html</guid>
     <description>AnthropicがClaude Platformの効率的な使い方を公式に公開。プロンプトでやりがちな6つの無駄と、コストを抑えながら精度を保つ3つの方法を、初心者にもわかる形で紹介します。</description>
     <pubDate>Fri, 18 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>音声や画像から3D CADが自動生成、トコシエが資金調達で海外展開加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ignite0-3d-cad-0e284752.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ignite0-3d-cad-0e284752.html</guid>
-    <description>自然言語や画像からCADモデルを自動生成するAIが資金調達、グローバル展開へ。設計業務の未来が変わる可能性。</description>
-    <pubDate>Fri, 18 Sep 2026 11:00:00 +0900</pubDate>
   </item>
 </channel></rss>

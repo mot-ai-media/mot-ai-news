@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-19 19:28
+最終更新: 2026-09-19 20:53
 
 ## 記事一覧
 
+- [Anthropic新モデル開発？OpenAI Astraに対抗、CEO発言との矛盾](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-396cd09c.html): AnthropicがOpenAIの新モデルに対抗する新モデル開発を検討中。一方でCEOは減速を呼びかけている。 (出典: storyboard18.com / 更新: 2026-09-19 20:53)
 - [Nscale上場申請とは？AI専門クラウドの急成長が示す市場転換点](https://mot-ai-media.github.io/mot-ai-news/articles/nscale-ai-35dedfcd.html): AI向けのクラウドインフラを提供するNscaleが上場を目指す申請を行った。一般的なクラウド企業ではなく、AI専門に特化したサービス提供者が株式市場を狙う動きが加速している。 (出典: CNBC / 更新: 2026-09-19 19:28)
 - [Anthropic Accenture提携でAI安全性評価強化、開発速度制限の試み](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-823c2887.html): AI企業のAnthropicが大手コンサルティング企業Accentureと提携し、AIシステムの安全性を第三者が定期的に評価する仕組みを導入。AI技術の危険性懸念に対応する業界初の試みとして注目されている。 (出典: CNBC / 更新: 2026-09-19 19:27)
 - [Anthropicがプロンプト改善法を公開。AIの精度が上がる使い方とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-700e2795.html): AI企業Anthropicが、ユーザーがより良い結果を得るためのプロンプト活用法をシェア。 (出典: ALM Corp / 更新: 2026-09-19 18:53)
@@ -206,4 +207,3 @@
 - [OpenAI科学者が未曾有の警告、GPT-6 Astra発表も「社会は準備不足」](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-348801b6.html): OpenAIが最新AI「GPT-6 Astra」をリリースする中、同社の最高科学者が衝撃的な警告を発出。AIの急速な発展がもたらす影響に対して、誰も十分な対策や心構えができていないという指摘は、業界内外で大きな反響を呼んでいる。 (出典: BBC / 更新: 2026-09-07 22:28)
 - [ドリー・パートン死去後、AIで生成された偽動画・偽曲が大量発生。遺族が対策求める](https://mot-ai-media.github.io/mot-ai-news/articles/ai-sns-49fa1c64.html): カントリー音楽の大スター・ドリー・パートン氏の死去後、AIで作られた本人になりすましの動画や曲が数十件もネット上に溢れた。遺族がプラットフォーム企業に対し、こうした『AI生成ゴミ』を削除するよう訴える事態に。一般人の誰もが被害者になる可能性を示すケースとして、海外で注視されている。 (出典: BBC / 更新: 2026-09-07 22:28)
 - [OpenAI、ウクライナの独立系メディア支援プログラム開始](https://mot-ai-media.github.io/mot-ai-news/articles/openai-e02ae19d.html): OpenAIがウクライナのニュース組織向けにAI活用プログラムを開始し、報道機関のイノベーションと独立性を強化する取り組みが本格化。 (出典: OpenAI News / 更新: 2026-09-07 22:02)
-- [GPT-6 Astraとは？Microsoft M365 Copilotに搭載、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-openai-577f3b24.html): MicrosoftがOpenAIの最新AI「GPT-6 Astra」を仕事用ツールに搭載。細かく分割した指示がなくても複雑な業務を任せられるようになった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-07 22:01)
