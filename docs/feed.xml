@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIの実力を正しく測る「評価基準」が変わる。ベンチマーク企業Valsが業界標準を作る</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/vals-andreessen-horowitz-17c3769d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/vals-andreessen-horowitz-17c3769d.html</guid>
+    <description>AIモデルの性能評価を公正に行うスタートアップValsが大型資金調達。企業による不正な高評価を防ぐ狙い。</description>
+    <pubDate>Sat, 19 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ブログ作成、AIエージェントなら4〜6時間が30分に短縮。全自動化の正しい使い方</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ed774500.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ed774500.html</guid>
+    <description>ChatGPTより賢いAIエージェントなら、ブログの企画から公開までを一気に自動化できる。実例では作業時間が大幅削減に。</description>
+    <pubDate>Sat, 19 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント導入で月末残業が消える。年4000時間削減した企業も</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-7ee0b42b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-7ee0b42b.html</guid>
+    <description>請求書処理や勤怠チェックなど判断が必要な事務作業を、AIエージェントなら自動化できる。ただし業務選びを間違えるとうまくいかない。</description>
+    <pubDate>Sat, 19 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント導入、9割が実証段階で止まる理由。3つの落とし穴を徹底解明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-17328a56.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-17328a56.html</guid>
+    <description>AIエージェント導入の失敗は技術の問題ではなく、計画段階の設計ミスが原因。導入・開発・運用の3段階で異なる課題がある。</description>
+    <pubDate>Sat, 19 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude、AI開発の26％を自力でこなす　半年で1％から急成長の衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ea7dc6ee.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ea7dc6ee.html</guid>
+    <description>AIモデル「Claude」がAI研究開発の4分の1を人間の監督下で自動実行。半年で急速に拡大し、業界の透明性強化につながる。</description>
+    <pubDate>Sat, 19 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、OpenAIに対抗する新モデル検討。CEO減速宣言の直後に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-396cd09c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-396cd09c.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html</guid>
     <description>OpenAIが法律専門家向けのAI「GPT-6 Astra」を発表。AI競争が法業界にも本格展開。</description>
     <pubDate>Fri, 18 Sep 2026 12:54:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、法務AI「Astra for Law」投入。2億件超のURLを検索対象に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-e94f8502.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-e94f8502.html</guid>
-    <description>OpenAIが法律分野に特化したAI「Astra for Law」をリリース。膨大な法律情報から最適な判例や法令を検索できる。</description>
-    <pubDate>Fri, 18 Sep 2026 12:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI導入で工数9割減なのに、社員は帰らない。DeNAも直面する意外な現実</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html</guid>
-    <description>AI導入で作業時間が大幅に削減されても、生み出された時間が別の業務に吸収される現象が起きている。</description>
-    <pubDate>Fri, 18 Sep 2026 11:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NEC、AIが問題を見つけて自動解決する物流システム披露</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-afa0bdd8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-afa0bdd8.html</guid>
-    <description>NECが複数の物流システムを統合し、問題検知から解決案まで自動実行するAIエージェントを公開。</description>
-    <pubDate>Fri, 18 Sep 2026 11:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>資生堂、AIエージェントで原料探索95%削減。研究員の目利きをLLMで再現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-3f748048.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-3f748048.html</guid>
-    <description>資生堂がAIエージェントを研究開発に導入し、原料探索の時間を大幅削減。研究員の経験と勘をAIで再現する取り組みが進む。</description>
-    <pubDate>Fri, 18 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claudeのプロンプト、無駄になっていませんか？ Anthropicが公開した6つの見直しポイント</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html</guid>
-    <description>AnthropicがClaude Platformの効率的な使い方を公式に公開。プロンプトでやりがちな6つの無駄と、コストを抑えながら精度を保つ3つの方法を、初心者にもわかる形で紹介します。</description>
-    <pubDate>Fri, 18 Sep 2026 11:01:00 +0900</pubDate>
   </item>
 </channel></rss>
