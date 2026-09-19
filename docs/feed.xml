@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、AIの精度を高める「プロンプト改善法」を公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-700e2795.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-700e2795.html</guid>
+    <description>AI企業Anthropicが、ユーザーがより良い結果を得るためのプロンプト活用法をシェア。</description>
+    <pubDate>Sat, 19 Sep 2026 18:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI導入した企業の8割が『チャットだけ』、業務自動化に進めない理由</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-7f6136d1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-7f6136d1.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9b42e43c.html</guid>
     <description>AIが一般ユーザーのDIYプロジェクトを支援。専門知識なしで自分専用ツールが作れる時代へ。</description>
     <pubDate>Fri, 18 Sep 2026 10:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、AI企業の「暴走」を防ぐ3つの測定指標を公開──開発スピード、エージェント監視、計算資源配分</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-1eb7c4cd.html</guid>
-    <description>AI開発企業Anthropicが、自社のAI研究開発の進捗速度、AI自動エージェントの監視体制、計算資源の配分方法という3つの測定指標を公開。AIの急速な進化に対する懸念が高まる中、業界全体の透明性と安全性を高める試みとして注目される。</description>
-    <pubDate>Fri, 18 Sep 2026 10:28:00 +0900</pubDate>
   </item>
 </channel></rss>

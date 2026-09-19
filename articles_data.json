@@ -21123,5 +21123,49 @@
     "image_kind": "real",
     "level": "easy",
     "generated_at": "2026-09-19 18:01"
+  },
+  {
+    "slug": "anthropic-claude-700e2795",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40TnJFZU1CVTBqUUZXeVl2dzdTbjFpalpSZ1VhVWxiLTdfOGN5VUM5cnNYWjFSMHlzSFN6aXpIMUp4VVg3Wk0zdlk2cVI4N2w4cmZLT0QtUnQ2LWF0RTN4Ri1RX1JBWmV2SE1samNVTlVOZ1VCQVpF?oc=5",
+    "headline": "Anthropic、AIの精度を高める「プロンプト改善法」を公開",
+    "seo_title": "Anthropicがプロンプト改善法を公開。AIの精度が上がる使い方とは",
+    "summary": "AI企業Anthropicが、ユーザーがより良い結果を得るためのプロンプト活用法をシェア。",
+    "importance_score": 55,
+    "buzz_score": 45,
+    "recommend_score": 70,
+    "tldr": "Anthropicが、ユーザーがClaudeを使いこなすためのプロンプト改善方法を提供開始。AIの回答精度が向上する可能性が広がる。",
+    "what_happened": "AI企業Anthropicが、ChatGPTのライバルとして知られるClaudeというAIを使う際に、より良い結果を引き出すためのプロンプト（命令文）の工夫方法をユーザーに向けて公開しました。AIに指示を出すやり方を工夫することで、回答の質が大きく変わることが知られており、この改善法はそうした活用を広げるための提供です。",
+    "why_it_matters": "AIツールの性能は「何を聞くか」だけでなく「どう聞くか」で大きく左右されます。同じ質問でも聞き方を工夫すれば、より正確で使えるAIの回答が得られることが研究で分かっています。Anthropicがこの方法を共有することで、一般的なAIの活用レベルが底上げされる可能性があります。",
+    "impact_on_reader": "ChatGPTやClaudeなどのAIを仕事や学習で使っている人なら、この改善法を知ることで、同じAIからより良い結果を引き出せるようになります。プレゼン資料の作成、文章作成、アイデア出しなど、日常的なAI活用がより効率的になる可能性があります。",
+    "reader_relevance": "MOT読者はAI初心者が多く、「AIって何かすごいらしいけど使いこなせていない」という人が多いはず。プロンプト改善法を知れば、すぐに実践できる活用スキルが身につきます。",
+    "risk_point": "プロンプト改善法を意識せずにAIを使い続ければ、同じツールを使っている人との間で、得られる結果に大きな差が生まれる可能性があります。",
+    "opportunity_point": "正しいプロンプトの書き方を学べば、現在使っているAIツールの能力をより引き出でき、仕事の効率化や創造的な活用の幅が広がります。新しいAIを買う必要なく、今あるツールの価値が上がる形での改善です。",
+    "mot_take": "Anthropicの提供は、AI企業が単に高性能なモデルを作るだけでなく、ユーザーが実際に使いこなせるような教育・サポートに力を入れ始めた兆候です。ChatGPTが人気を集めるなか、競争力は『性能』だけでなく『使いやすさ』『活用支援』にシフトしている。",
+    "what_to_watch_next": "Anthropicが今後、どのような具体的なプロンプト事例やガイドを提供していくか、また他のAI企業（OpenAIなど）がこうした教育支援にどう応じるかが注目ポイント。",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "プロンプト"
+    ],
+    "faq": [
+      {
+        "q": "プロンプト改善法とは何ですか？",
+        "a": "AIに指示を出すときの文章の書き方を工夫し、より正確で質の高い回答を引き出す方法です。同じ質問でも聞き方次第で結果が大きく変わります。"
+      },
+      {
+        "q": "どんな人が使う価値がありますか？",
+        "a": "ChatGPTやClaudeなどのAIを仕事や学習で活用している人全員です。営業資料作成、文章作成、アイデア出しなど、日常的なAI活用がより効率的になります。"
+      }
+    ],
+    "digest": {
+      "what": "Anthropicがプロンプト改善法を公開",
+      "why": "AIの使い方次第で精度が大きく変わるため",
+      "impact": "一般ユーザー・仕事でAIを活用する人"
+    },
+    "source": "ALM Corp",
+    "image_url": null,
+    "image_kind": "fallback",
+    "level": "easy",
+    "generated_at": "2026-09-19 18:53"
   }
 ]
