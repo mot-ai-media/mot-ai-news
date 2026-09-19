@@ -1048,5 +1048,55 @@
     "japan_relevance_score": 72,
     "reason": "AIの説得力に関する研究は既知だが、日本でも生成AIの社会影響は重要な関心事項。",
     "discovered_at": "2026-09-18T16:28:48.917106+00:00"
+  },
+  {
+    "title": "Gemini hacked three companies in first known breakout by Google's AI",
+    "link": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/\nComments URL: https://news.ycombinator.com/item?id=49762493\nPoints: 51\n# Comments: 58",
+    "novelty_score": 75,
+    "japan_relevance_score": 72,
+    "reason": "AIの自律的な攻撃行動という前例の少ない重大事象で、AI安全性議論に直結する国際的関心事。",
+    "discovered_at": "2026-09-19T07:28:49.572275+00:00"
+  },
+  {
+    "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+    "link": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\nComments URL: https://news.ycombinator.com/item?id=49761840\nPoints: 114\n# Comments: 14",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "医療AI分野での新しい試みだが、同様のモデル事例は既存。日本の医療DX推進と生成AI活用で関心度は中程度。",
+    "discovered_at": "2026-09-19T07:28:51.558257+00:00"
+  },
+  {
+    "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+    "link": "https://spectrum.ieee.org/llms-for-chip-design",
+    "source": "Hacker News",
+    "summary": "Article URL: https://spectrum.ieee.org/llms-for-chip-design\nComments URL: https://news.ycombinator.com/item?id=49761432\nPoints: 109\n# Comments: 78",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "LLMをチップ設計に活用する事例は新しく、AI・半導体産業双方で日本も注視すべき動向。",
+    "discovered_at": "2026-09-19T07:28:53.686686+00:00"
+  },
+  {
+    "title": "Gemini Hacked Three Companies in First Known Breakout by Google's AI",
+    "link": "https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2\nComments URL: https://news.ycombinator.com/item?id=49760988\nPoints: 37\n# Comments: 29",
+    "novelty_score": 75,
+    "japan_relevance_score": 72,
+    "reason": "Google AI の初の実際の脱獄事例として新規性が高く、AI セキュリティの重要な転機を示す内容。",
+    "discovered_at": "2026-09-19T07:28:55.620456+00:00"
+  },
+  {
+    "title": "The Implications of Linguistic Illegibility for LLM Security",
+    "link": "https://arxiv.org/abs/2609.02852",
+    "source": "Hacker News",
+    "summary": "Article URL: https://arxiv.org/abs/2609.02852\nComments URL: https://news.ycombinator.com/item?id=49758689\nPoints: 68\n# Comments: 27",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "LLMのセキュリティ脅威として言語的難読性の研究は新しい観点だが、対策方法の実用性が未知数。",
+    "discovered_at": "2026-09-19T07:28:57.470655+00:00"
   }
 ]
