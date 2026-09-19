@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>マスク、OpenAIとAnthropicと手を組みながらAI規制に反発—トランプ大統領と対立</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-openai-9bdecde9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-openai-9bdecde9.html</guid>
+    <description>イーロン・マスクが先週、OpenAIとAnthropicのCEOと相次いで合意する一方、トランプ大統領やNvidiaのジェンセン・フアンから反論を受ける波乱の展開が生じている。AI安全性を掲げながら規制強化に抵抗する姿勢が浮き彫りになった。</description>
+    <pubDate>Sat, 19 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI暴走を止める「キルスイッチ」は本当に機能するのか――政策立案者が迫られた現実</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-de96e903.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-de96e903.html</guid>
+    <description>AI技術の急速な発展に伴い、暴走するAIを緊急停止させる「キルスイッチ」の導入が議論されている。海外の政策立案者やテック企業リーダーがその有効性を検証する中で、制度的な限界が浮かび上がっている。</description>
+    <pubDate>Sat, 19 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIの実力を正しく測る「評価基準」が変わる。ベンチマーク企業Valsが業界標準を作る</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/vals-andreessen-horowitz-17c3769d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/vals-andreessen-horowitz-17c3769d.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html</guid>
     <description>AnthropicやOpenAIなど主要なAI企業が政府による規制の必要性を訴えている一方で、米国議会はキャンペーン活動を優先させており、緊急性が感じられない対応となっている。AI企業の要望と政治の現実のギャップが明らかになった。</description>
     <pubDate>Fri, 18 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nvidia、来年のAIチップ出荷を倍増へ。ファウンダーが明言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-43dfd7d4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-43dfd7d4.html</guid>
-    <description>Nvidiaのジェンセン・ファウンド最高経営責任者が、来年のAIチップ供給を現在の2倍に増やすと発表。今後6四半期にわたる急速な成長が続く見通しを示した。</description>
-    <pubDate>Fri, 18 Sep 2026 13:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが弁護士向けAI「GPT-6 Astra」発表、法曹業界も変革の波へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html</guid>
-    <description>OpenAIが法律専門家向けのAI「GPT-6 Astra」を発表。AI競争が法業界にも本格展開。</description>
-    <pubDate>Fri, 18 Sep 2026 12:54:00 +0900</pubDate>
   </item>
 </channel></rss>
