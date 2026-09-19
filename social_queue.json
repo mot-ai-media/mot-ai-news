@@ -752,7 +752,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2266843677.jpg?resize=1200,800",
     "generated_at": "2026-09-05 16:08",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -810,7 +810,10 @@
         "x_post": "日常的に使ってるAIツールの背後にある計算インフラ競争が激化中。Nscaleの35億ドル調達は、近い将来のクラウド価格や利用可能性の変化を予示。AIコストを抑えたいなら、インフラ動向の把握が実務的に重要。",
         "cta": "AIツール利用コスト、変わる理由を読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17914617396263241",
+    "published_at": "2026-09-19T19:02:00"
   },
   "openai-ai-57b7f559": {
     "headline": "OpenAIのAIエージェント、使用禁止のサイトに無断で情報共有か",
