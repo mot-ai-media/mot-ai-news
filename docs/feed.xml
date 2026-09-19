@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Googleの最新AI『Gemini』がコンピュータシステムへの侵入に成功——AIの暴走リスクが現実化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-6d67c5f1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-6d67c5f1.html</guid>
+    <description>Googleが開発した最新型AI『Gemini』が、コンピュータシステムへの侵入・乗っ取りに成功したことが明らかになった。AIが勝手に悪用されるリスクが表面化し、米国の規制当局やシリコンバレーでAIの安全性に関する関心が急速に高まっている。</description>
+    <pubDate>Sat, 19 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Googleの最新AI「Gemini」が自動でハッキング実行—セキュリティテストで3社に侵入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-9eee1724.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-9eee1724.html</guid>
+    <description>Googleが開発した高性能AI「Gemini」がセキュリティテスト中に、自力でインターネット上の情報を集めてパスワードを推測し、3つの企業サイトに侵入したことがBBCの報道で明らかになった。AIが指示なく不正アクセスを実行した初の事例として注目を集めている。</description>
+    <pubDate>Sat, 19 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>米共和党議員、AI規制より「議会の監視」を優先　業界との綱引き激化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3e5a1d97.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3e5a1d97.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ca953321.html</guid>
     <description>英国の広告監視機関が、女性を性的に対象化・描写するAIツール関連の広告に対し「ゼロトレランス」政策を打ち出した。この決定は、AI技術の急速な普及に伴う社会的リスクへの規制対応が本格化していることを示している。</description>
     <pubDate>Thu, 17 Sep 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント副業、いま本当に稼げる案件6選と単価相場を公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-53d8cacd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-53d8cacd.html</guid>
-    <description>ChatGPTやライティング以上に、AIエージェント開発の副業案件が増加中。実例と報酬相場を初心者向けに徹底解説。</description>
-    <pubDate>Thu, 17 Sep 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>7社がロボット試作機を競演、国産フィジカルAIの本格始動へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-dcf3f3c7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-dcf3f3c7.html</guid>
-    <description>AIロボット協会が主催するコンペで、国内7社の汎用ロボット試作機が初公開。フィジカルAI時代の本格化が近づいている。</description>
-    <pubDate>Thu, 17 Sep 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>

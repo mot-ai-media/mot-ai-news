@@ -3743,8 +3743,9 @@ def build_foreign_discovery(max_new: int = 2) -> None:
             meta = {"name": primary.source, "country": "US", "tier": 2, "reliability_score": 70, "speed_score": 70}
         source_name = meta.get("name") or primary.source
 
+        full_texts = [sources.fetch_article_text(a.link) for a in group[:3]]
         try:
-            result = generator.generate_foreign_discovery_article(group)
+            result = generator.generate_foreign_discovery_article(group, full_texts=full_texts)
         except Exception:
             logger.exception("海外発見記事の生成に失敗したためスキップ: %s", primary.link)
             continue
@@ -3864,8 +3865,9 @@ def build(feeds: list[str] | None = None, max_new: int | None = None) -> None:
             continue
 
         attempts += 1
+        full_text = sources.fetch_article_text(safe_link)
         try:
-            result = generator.generate_headline_and_summary(article)
+            result = generator.generate_headline_and_summary(article, full_text=full_text)
         except Exception:
             logger.exception("記事の生成に失敗したためスキップ: %s", article.link)
             continue

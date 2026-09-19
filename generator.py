@@ -28,7 +28,11 @@ MOTの読者はAIの専門家ではありません。
 # 元記事
 タイトル: {title}
 概要: {summary}
+本文抜粋: {body_excerpt}
 出典: {source}
+
+本文抜粋がある場合は、そちらを主な情報源として具体的な内容を反映すること(概要はタイトルの補足程度に扱う)。
+本文抜粋が取得できていない場合は、無理に具体化しようとせず、タイトルと概要の範囲で簡潔にまとめること。
 
 # 見出しのトーン
 ネットニュースのバズるタイトルのように、強く・断定的な言い回しにする。
@@ -105,6 +109,9 @@ MOTの読者はAIの専門家ではありません。「結局、自分に何が
 # 海外記事({num_sources}件、同一の出来事についての報道)
 {sources_block}
 
+本文抜粋がある出典は、そちらを主な情報源として具体的な内容を反映すること(概要はタイトルの補足程度に扱う)。
+本文抜粋が取得できていない出典は、無理に具体化しようとせず、タイトルと概要の範囲で判断すること。
+
 # 見出しのトーン
 ネットニュースのバズるタイトルのように、強く・断定的な言い回しにする。
 具体的な数字・固有名詞を前面に出す。誇張しすぎて安っぽくしない。
@@ -148,17 +155,20 @@ class GenerationError(Exception):
     """生成結果が期待したJSON形式でなかった場合に送出する。"""
 
 
-def generate_headline_and_summary(article: Article, client: anthropic.Anthropic | None = None) -> dict:
+def generate_headline_and_summary(
+    article: Article, client: anthropic.Anthropic | None = None, full_text: str | None = None
+) -> dict:
     client = client or anthropic.Anthropic()
     prompt = PROMPT_TEMPLATE.format(
         title=article.title,
         summary=article.summary or "(概要なし)",
+        body_excerpt=full_text or "(本文取得できず)",
         source=article.source,
     )
 
     message = client.messages.create(
         model=MODEL,
-        max_tokens=1500,
+        max_tokens=1800,
         messages=[{"role": "user", "content": prompt}],
     )
     text = message.content[0].text.strip()
@@ -208,13 +218,18 @@ def generate_headline_and_summary(article: Article, client: anthropic.Anthropic 
 
 
 def generate_foreign_discovery_article(
-    sources_list: list[Article], client: anthropic.Anthropic | None = None
+    sources_list: list[Article],
+    client: anthropic.Anthropic | None = None,
+    full_texts: list[str | None] | None = None,
 ) -> dict:
     """海外Tier1/2ソース(複数媒体が同一の出来事を報じている場合はまとめて渡す)から、
-    日本未報道ニュースの紹介記事を生成する。"""
+    日本未報道ニュースの紹介記事を生成する。full_textsはsources_list[:3]と同じ順序で対応する
+    (各ソースの本文抜粋。取得できなかったものはNone)。"""
     client = client or anthropic.Anthropic()
+    full_texts = full_texts or []
     sources_block = "\n\n".join(
-        f"[出典{i+1}: {a.source}]\nタイトル: {a.title}\n概要: {a.summary or '(概要なし)'}"
+        f"[出典{i+1}: {a.source}]\nタイトル: {a.title}\n概要: {a.summary or '(概要なし)'}\n"
+        f"本文抜粋: {(full_texts[i] if i < len(full_texts) and full_texts[i] else '(本文取得できず)')}"
         for i, a in enumerate(sources_list[:3])
     )
     overseas_instruction = (

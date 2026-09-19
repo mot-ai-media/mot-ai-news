@@ -13,6 +13,8 @@ import feedparser
 _OG_IMAGE_RE = re.compile(
     r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', re.IGNORECASE
 )
+_SCRIPT_STYLE_RE = re.compile(r"<(script|style|noscript)[^>]*>.*?</\1>", re.IGNORECASE | re.DOTALL)
+_PARAGRAPH_RE = re.compile(r"<p[^>]*>(.*?)</p>", re.IGNORECASE | re.DOTALL)
 
 # 検索ワードはここを編集すれば変更できる
 JP_QUERY = (
@@ -213,3 +215,26 @@ def fetch_og_image(url: str, timeout: int = 8) -> str | None:
 
     match = _OG_IMAGE_RE.search(chunk)
     return html.unescape(match.group(1)) if match else None
+
+
+def fetch_article_text(url: str, timeout: int = 8, max_chars: int = 2500) -> str | None:
+    """記事ページの本文らしき地の文を軽量に抽出する(<p>タグの中身だけを拾う簡易抽出であり、
+    高度なスクレイピングは行わない)。有料壁・JS描画のサイトでは本文が取れないことがあり、
+    その場合はNoneを返す(呼び出し側はRSSのタイトル+概要のみへフォールバックする)。"""
+    if urllib.parse.urlsplit(url).scheme not in ("http", "https"):
+        return None
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; AiNewsSiteBot/1.0)"})
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as resp:
+            raw = resp.read(400_000).decode("utf-8", errors="ignore")
+    except Exception:
+        return None
+
+    raw = _SCRIPT_STYLE_RE.sub(" ", raw)
+    paragraphs = [_clean_text(p) for p in _PARAGRAPH_RE.findall(raw)]
+    # ナビゲーション・リンク集等の短い断片を除外し、本文らしい段落だけを残す
+    paragraphs = [p for p in paragraphs if len(p) >= 20]
+    text = " ".join(paragraphs).strip()
+    if len(text) < 80:
+        return None
+    return text[:max_chars]
