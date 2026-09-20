@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-20 09:59
+最終更新: 2026-09-20 10:28
 
 ## 記事一覧
 
+- [Meta Muse AIアシスタント メッセージ・カレンダー自動アクセス 仕組み不透明](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-607ffaad.html): Metaが開発したAIアシスタント「Muse」のMacアプリが、ユーザーのメッセージやカレンダー、メモに自動でアクセスできることが明らかになった。効果的に機能する一方で、開発元すら自身の動作原理を説明できない『ブラックボックス』状態にあり、プライバシー懸念と技術的な不透明性の両面で問題を指摘されている。 (出典: The Verge / 更新: 2026-09-20 10:28)
+- [中国AI企業の『蒸留技術』はどこまで脅威か。米国とAnthropicの主張に疑問符](https://mot-ai-media.github.io/mot-ai-news/articles/ai-anthropic-9cbf93e0.html): 米国の行政府とAI企業Anthropicが、中国企業が『蒸留』という技術でAIの性能を高めているとして警告を鳴らしている。しかし、その実効性を疑問視する声が業界内で増えている。 (出典: CNBC / 更新: 2026-09-20 10:27)
 - [AIエージェント導入の壁は知識？アビームとNotionが示す組織改革アプローチ](https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-efdf3270.html): AIツール自体より、企業の知識をAIが使える形に整える方が重要だと両社が指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)
 - [AI導入後の課題とは？例外処理・人力確認まで任せるBPOサービス登場](https://mot-ai-media.github.io/mot-ai-news/articles/generative-partners-bpo-f4428e79.html): RPAや生成AI導入後も残る例外処理や目視確認を、AI と人力で分担して丸ごと引き受けるサービスが始まる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)
 - [中小企業のAI導入が失敗する理由。何を・誰が・どう変えるか](https://mot-ai-media.github.io/mot-ai-news/articles/exkey-forgent-aeaa6ae8.html): ツール導入だけでなく、業務選定から現場定着まで支援するAI人材常駐サービスが2026年9月に始動。中小企業のAI活用課題を解決へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)
@@ -205,5 +207,3 @@
 - [Meta Muse Spark 1.3とは？推論強化で対話削減](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-32e42d28.html): Metaが発表した新型AIモデルは推論精度を高め、開発時の質問回数を削減。料金体系も2種類から選べる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:01)
 - [AI創薬候補レントセルチブとは？老化時計で生物学的年齢低下を確認](https://mot-ai-media.github.io/mot-ai-news/articles/insilico-medicine-ai-3083cfb3.html): 生成AIで設計された肺線維症治療薬が、患者の生物学的年齢を最大6歳低下させたデータが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:01)
 - [GPT-6 Astraとは？OpenAIの新AIがロボット判定ゲームをクリア](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-f526a999.html): OpenAIの新型AIが人間判定ゲームを全レベルクリア。AIの知能進化を示す成果として注目。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:00)
-- [ChatGPT有料ユーザーがリセット、Astraの利用枠制限はどうなる？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-059bc475.html): ChatGPTの最新モデル「GPT-6 Astra」で利用枠を消費したユーザーに、OpenAIが平日継続利用を可能にする措置を実施。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:00)
-- [JTPのThird AI生成AIソリューションがGPT-6 Astraに対応](https://mot-ai-media.github.io/mot-ai-news/articles/jtp-third-ai-da3eddc4.html): JTPが企業向けのAIソリューションを最新モデルに対応させ、より高度なAI機能の導入が可能に。 (出典: kabu-ir.com / 更新: 2026-09-08 10:53)

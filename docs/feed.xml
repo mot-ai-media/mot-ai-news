@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Metaの新型AIアシスタント「Muse」、あなたのメッセージを勝手に読む可能性——でも本人も仕組みを理解していない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-607ffaad.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-607ffaad.html</guid>
+    <description>Metaが開発したAIアシスタント「Muse」のMacアプリが、ユーザーのメッセージやカレンダー、メモに自動でアクセスできることが明らかになった。効果的に機能する一方で、開発元すら自身の動作原理を説明できない『ブラックボックス』状態にあり、プライバシー懸念と技術的な不透明性の両面で問題を指摘されている。</description>
+    <pubDate>Sun, 20 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>アメリカが指摘する「中国のAI抜け道」は本当か。専門家から異論相次ぐ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-anthropic-9cbf93e0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-anthropic-9cbf93e0.html</guid>
+    <description>米国の行政府とAI企業Anthropicが、中国企業が『蒸留』という技術でAIの性能を高めているとして警告を鳴らしている。しかし、その実効性を疑問視する声が業界内で増えている。</description>
+    <pubDate>Sun, 20 Sep 2026 10:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIに攻撃されるスピードに人手では追いつけない　ゼットスケーラーが防御を自動化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/zscaler-ai-c1763671.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zscaler-ai-c1763671.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html</guid>
     <description>OpenAIやAnthropicなど大手AI企業が自社製品の安全性評価を自分たちで行っている現状に対し、100人を超えるAI研究者が「独立した第三者評価が必要」と公開書簡で要求。信頼性と透明性の強化を訴えている。</description>
     <pubDate>Fri, 18 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>MIT Technology Reviewが直撃：AI研究者たちが「人類滅亡の可能性」を本気で議論している</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-ai-193c8bfa.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-ai-193c8bfa.html</guid>
-    <description>世界有数のAI研究機関で働く従業員たちが、高度なAIが人類に脅威をもたらす可能性について真剣に警告を発している。MIT Technology Reviewが読者向けに開催したライブイベントでは、このテーマについて多くの質問が寄せられ、AI研究の最前線における懸念事項が浮き彫りになった。</description>
-    <pubDate>Fri, 18 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>チャールズ国王、AI大手に「実存的危険」警告。OpenAI・NVIDIA・Anthropic幹部が集結</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html</guid>
-    <description>英国王主催のAIサミットで、OpenAIやNVIDIAなど業界トップが参加。国王がAIの悪用リスク警告。</description>
-    <pubDate>Fri, 18 Sep 2026 22:02:00 +0900</pubDate>
   </item>
 </channel></rss>
