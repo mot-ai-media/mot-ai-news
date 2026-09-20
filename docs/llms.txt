@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-20 18:01
+最終更新: 2026-09-20 19:28
 
 ## 記事一覧
 
+- [AI開発速度とセキュリティリスク：チャットボットが露呈させる脆弱性の波](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-0e616293.html): AI企業が開発ペースを調整する動きを進める一方で、現在すでに広く利用可能なAIチャットボットがセキュリティ上の欠陥を大量に発見させている。開発の自粛議論と実際のリスク増加のズレが国際メディアで注目されている。 (出典: WIRED / 更新: 2026-09-20 19:28)
+- [ChatGPT メモリ機能とは？あなたの情報が保存される仕組みと設定方法](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-openai-9e934e36.html): OpenAIが新たに導入した「メモリ」機能により、ChatGPTはユーザーの個人情報や過去の会話を記憶し、それが回答内容に反映されるようになった。海外メディアはこの仕組みを理解し、ユーザーが設定を制御することの重要性を指摘している。 (出典: WIRED / 更新: 2026-09-20 19:27)
 - [Anthropic・Accentureが提携、AI安全評価に5年で10億ドル投資](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-8503b185.html): AIの安全性を外部から監視する「組み込み評価者」の仕組みが本格始動。大手企業が参入で信頼性の向上を狙う。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 18:01)
 - [ワールドモデル企業の秘密主義、実用化見通しは不透明](https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-6ce3a720.html): AI業界の注目技術「ワールドモデル」を手がける有力企業が、開発内容や商用化計画を明かさない。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 18:01)
 - [Jev（ジェブ）とは？OpenAI開発者による新型AI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-jev-b311cc82.html): OpenAI出身の研究者が開発した新型AI「Jev」は、従来のテキスト出力型AIと異なり、直接判断を出力。圧倒的に安く・速い (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 18:01)
@@ -205,5 +207,3 @@
 - [AlphaGenome Atlasとは？ゲノム変異予測データベースの意義を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-alphagenome-atlas-fc07b253.html): Google DeepMindが全塩基変異の影響を予測するデータベースを学術向けに無償提供。病気解明が加速する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:31)
 - [Google Workspace Studio使い方｜Geminiで業務自動化、4つの実例](https://mot-ai-media.github.io/mot-ai-news/articles/google-workspace-studio-4d05910e.html): Googleの自動化ツールWorkspace Studioとai・Geminiを組み合わせ、日常業務を効率化する具体的な方法を4つ紹介。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:30)
 - [ローカルLLMのメリット・デメリット。導入コストと価値を解説](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-bbfd0ce9.html): 生成AIを自分のコンピュータで動かすローカルLLMが注目されていますが、実は初期費用が想像以上に高くつく可能性があります。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:30)
-- [Meta Muse AI アシスタント 発表 OpenAI競争](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-726d5689.html): Metaが個人向けAIアシスタント「Muse」を発表。車の売却から飛行機のチケット予約まで、あらゆるタスクを自動化できるAIで、OpenAIやGoogleなど大手AIベンダーとの競争を加速させている。日本ではまだ報道されていないが、今後のAI市場に大きな影響を与える可能性がある。 (出典: The Verge / 更新: 2026-09-09 13:28)
-- [AI活用度が昇進に影響？欧米企業が導入する新しい人事評価の実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-75538fdf.html): 欧米の企業で、従業員がAIをどの程度仕事に活用しているかを昇進や昇給の判断基準に組み込む動きが広がっている。効率化の推進と公平性のジレンマが浮き彫りになっている。 (出典: BBC / 更新: 2026-09-09 13:28)

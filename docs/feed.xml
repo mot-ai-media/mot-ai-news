@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI企業が開発速度を落とす約束をしている裏で、すでに大量のセキュリティ欠陥が発見されている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-0e616293.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-0e616293.html</guid>
+    <description>AI企業が開発ペースを調整する動きを進める一方で、現在すでに広く利用可能なAIチャットボットがセキュリティ上の欠陥を大量に発見させている。開発の自粛議論と実際のリスク増加のズレが国際メディアで注目されている。</description>
+    <pubDate>Sun, 20 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPTが「あなたのこと」を覚えている。新機能『メモリ』で回答が変わる理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-openai-9e934e36.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-openai-9e934e36.html</guid>
+    <description>OpenAIが新たに導入した「メモリ」機能により、ChatGPTはユーザーの個人情報や過去の会話を記憶し、それが回答内容に反映されるようになった。海外メディアはこの仕組みを理解し、ユーザーが設定を制御することの重要性を指摘している。</description>
+    <pubDate>Sun, 20 Sep 2026 19:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPT開発者が新AI「Jev」で革命、テキスト不要の高速・低コスト化実現</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jev-b311cc82.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jev-b311cc82.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/stella-holdings-ai-df28b00d.html</guid>
     <description>AI導入後の現場定着と人材育成が課題の中小企業に向け、常時雇用ではなく必要に応じて専門家をつけるサービスが登場。</description>
     <pubDate>Sun, 20 Sep 2026 09:58:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マスク、OpenAIとAnthropicと手を組みながらAI規制に反発—トランプ大統領と対立</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-openai-9bdecde9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-openai-9bdecde9.html</guid>
-    <description>イーロン・マスクが先週、OpenAIとAnthropicのCEOと相次いで合意する一方、トランプ大統領やNvidiaのジェンセン・フアンから反論を受ける波乱の展開が生じている。AI安全性を掲げながら規制強化に抵抗する姿勢が浮き彫りになった。</description>
-    <pubDate>Sat, 19 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI暴走を止める「キルスイッチ」は本当に機能するのか――政策立案者が迫られた現実</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-de96e903.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-de96e903.html</guid>
-    <description>AI技術の急速な発展に伴い、暴走するAIを緊急停止させる「キルスイッチ」の導入が議論されている。海外の政策立案者やテック企業リーダーがその有効性を検証する中で、制度的な限界が浮かび上がっている。</description>
-    <pubDate>Sat, 19 Sep 2026 22:27:00 +0900</pubDate>
   </item>
 </channel></rss>

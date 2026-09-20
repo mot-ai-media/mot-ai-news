@@ -3998,7 +3998,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2020/07/GettyImages-567072595.jpg?w=1000",
     "generated_at": "2026-09-20 14:31",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4056,7 +4056,10 @@
         "x_post": "ChatGPTの出力=事実と判断した軍の失敗。あなたの職場でも同じ。対策：重要な数字・固有名詞は必ず外部情報で検証。AIは『たたき台』程度と考え、人手で再検証する癖をつける。これだけで誤判断が激減する。",
         "cta": "職場のAI活用ルール設計。MOTの実用ガイド。"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17907254049519860",
+    "published_at": "2026-09-20T19:02:04"
   },
   "flock-safety-ai-2c088408": {
     "headline": "警察の不正利用が相次ぎ、Flock Safetyが大規模人員削減へ",
