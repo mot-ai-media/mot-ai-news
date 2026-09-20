@@ -1148,5 +1148,55 @@
     "japan_relevance_score": 78,
     "reason": "AI幻覚による軍事誤判断は極めて重大だが、AI信頼性問題は既出。日本の防衛AI導入議論で直結する課題。",
     "discovered_at": "2026-09-19T10:28:52.790151+00:00"
+  },
+  {
+    "title": "Can you tell which images are AI-generated?",
+    "link": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://slop-sense.labtoagi.com/games/is-this-image-ai/\nComments URL: https://news.ycombinator.com/item?id=49770847\nPoints: 39\n# Comments: 39",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI画像判定ゲームは既に複数存在するが、生成AIの社会浸透に伴い日本でも関心が高まる重要なテーマ。",
+    "discovered_at": "2026-09-20T01:28:49.104432+00:00"
+  },
+  {
+    "title": "OpenAI and Anthropic oversold AI security breaches",
+    "link": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/\nComments URL: https://news.ycombinator.com/item?id=49769668\nPoints: 34\n# Comments: 19",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI企業の規制戦略に関する内部告発だが、既知の論争であり、一次情報の確度が不明確。",
+    "discovered_at": "2026-09-20T01:28:50.762135+00:00"
+  },
+  {
+    "title": "Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown",
+    "link": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+    "source": "Hacker News",
+    "summary": "Article URL: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b\nComments URL: https://news.ycombinator.com/item?id=49769050\nPoints: 43\n# Comments: 14",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI企業の独占禁止法問題は既出だが、具体的な違法合意疑惑は新しく、日本の規制当局も関心を持つ可能性が高い。",
+    "discovered_at": "2026-09-20T01:28:52.467926+00:00"
+  },
+  {
+    "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit\nComments URL: https://news.ycombinator.com/item?id=49768921\nPoints: 122\n# Comments: 36",
+    "novelty_score": 45,
+    "japan_relevance_score": 75,
+    "reason": "AI学習データ問題は既出だが、Microsoft内部の発言が法廷資料で明かされた点は新しく、日本の著作権・AI規制議論にも影響する。",
+    "discovered_at": "2026-09-20T01:28:54.550190+00:00"
+  },
+  {
+    "title": "Ask HN: How do you interview devs in a post-AI world?",
+    "link": "https://news.ycombinator.com/item?id=49768826",
+    "source": "Hacker News",
+    "summary": "Since the rise of AI coding assistants, about 80% of the dev candidates that I interview tell me that they aren't writing much code themselves anymore - they are directing agents instead. This makes me deeply uncomfortable (although maybe I'm just being old-fashioned). I still want to know that devs on my team can actually write code themselves, and have some idea of what they are doing when it comes to system design. This is increasingly challenging given how rapidly the AI tools are evolving.I'm curious what other folks are seeing in a post-AI hiring landscape and how you are approaching candidates that tell you they are fully agent-pilled when it comes to their development process. Should I keep doing the conventional leetcode and design interviews? Or just give up and expect everyone is going to use Claude Code no matter what?\n\nComments URL: https://news.ycombinator.com/item?id=49768826\nPoints: 28\n# Comments: 20",
+    "novelty_score": 62,
+    "japan_relevance_score": 75,
+    "reason": "AI時代の採用・評価基準の変化は喫緊の課題だが、議論はまだ初期段階で、実践的な答えが定着していない。",
+    "discovered_at": "2026-09-20T01:28:56.144319+00:00"
   }
 ]
