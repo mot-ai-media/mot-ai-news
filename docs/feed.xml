@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>NvidiaのCEO黄仁勳、トランプ政権のAI安全政策で最大の助言者に浮上</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-9079df5d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-9079df5d.html</guid>
+    <description>世界で最も時価総額が高い企業の指導者であるNvidiaのCEO黄仁勳が、トランプ次期大統領のAI安全に関する重要な方針決定で重要な役割を担いつつあることが明らかになった。</description>
+    <pubDate>Sun, 20 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>米国の黒人議員が立ち上がった。AI規制とデータセンター問題が政治的争点に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c3da02f0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c3da02f0.html</guid>
+    <description>米国の政治的影響力を持つ団体「議会黒人議員会議」の年次集会でAIとデータセンター問題が中心的なテーマとなった。AI推進派・規制派の両陣営が関心を寄せ、政策形成への影響力が高まっている。</description>
+    <pubDate>Sun, 20 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、10代向け安全設計「オーストラリア青少年安全ブループリント」発表</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-559b0cf1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-559b0cf1.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/donald-trump-ai-589c5060.html</guid>
     <description>トランプ大統領がAIの名称変更を提案し、AI批判は民主党の陰謀だと発言。独自の「AI軍」創設も検討中。</description>
     <pubDate>Sun, 20 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>警察の不正利用が相次ぎ、Flock Safetyが大規模人員削減へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/flock-safety-ai-2c088408.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/flock-safety-ai-2c088408.html</guid>
-    <description>警察による技術の不正使用が発覚したナンバープレート認識企業Flockが、希望退職パッケージで従業員を募集。</description>
-    <pubDate>Sun, 20 Sep 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Metaの新型AIアシスタント「Muse」、あなたのメッセージを勝手に読む可能性——でも本人も仕組みを理解していない</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-607ffaad.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-607ffaad.html</guid>
-    <description>Metaが開発したAIアシスタント「Muse」のMacアプリが、ユーザーのメッセージやカレンダー、メモに自動でアクセスできることが明らかになった。効果的に機能する一方で、開発元すら自身の動作原理を説明できない『ブラックボックス』状態にあり、プライバシー懸念と技術的な不透明性の両面で問題を指摘されている。</description>
-    <pubDate>Sun, 20 Sep 2026 10:28:00 +0900</pubDate>
   </item>
 </channel></rss>
