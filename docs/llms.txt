@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-20 14:31
+最終更新: 2026-09-20 14:53
 
 ## 記事一覧
 
+- [GPT-6 Astraとは？数学難問解決で何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-a198ef19.html): OpenAIの最新AI「GPT-6 Astra」が数学の難問を解く能力を初めて実証。専門家の仕事の形が変わり始めている。 (出典: 36Kr / 更新: 2026-09-20 14:53)
 - [Vantora（旧UP.Labs）が100億円調達、フィジカルAI企業の立ち上げに注力](https://mot-ai-media.github.io/mot-ai-news/articles/vantora-ai-23d6e2a4.html): スタートアップ向け育成企業が大型調達し、企業顧客向けの物理AIスタートアップ立ち上げに経営方針を転換。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 14:31)
 - [Anthropic生物実験室とは？AIが医学研究で何をするのか解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-7eae2044.html): AIの大手企業Anthropicがベイエリアに実験室を構え、AI理論を現実の実験で検証する取り組みをついに始動。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 14:31)
 - [AI幻覚とは？米軍事件で判明した危険性と対策](https://mot-ai-media.github.io/mot-ai-news/articles/u-s-military-llm-45094031.html): 米軍がAIチャットボットの誤った情報を基に中国船舶への作戦を実行寸前まで進め、直前に中止した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 14:31)
@@ -206,4 +207,3 @@
 - [日立のフィジカルAIとは？社長メッセージの意図を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b99c5ec9.html): 日立製作所の徳永社長がフィジカルAIについて講演。社員の心を揺さぶるトップメッセージの真意に迫る。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 07:01)
 - [GPT-6 Astraとは？OpenAIの最新AIモデルの能力と特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-19f57aa0.html): OpenAIが次世代AI「GPT-6 Astra」を発表。PC操作やプログラミング、セキュリティ検証の能力が大幅向上。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 07:01)
 - [ロボット救急車とは？GMOが導入する修理サービスの仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/gmo-a4d24dde.html): GMOが人型ロボットの故障対応を専門とする救急車を導入。診断から修理まで対応。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 07:01)
-- [Cairaの生成型動画編集機能とは？Gemini対応で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/caira-gemini-omni-50cee34f.html): 動画編集ツールCairaがAI動画生成機能を追加。高品質出力に対応し、より手軽な編集が可能に。 (出典: CineD / 更新: 2026-09-09 07:00)

@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6 Astra、数学の難問を初解決。数学者の仕事が激変する時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-a198ef19.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-a198ef19.html</guid>
+    <description>OpenAIの最新AI「GPT-6 Astra」が数学の難問を解く能力を初めて実証。専門家の仕事の形が変わり始めている。</description>
+    <pubDate>Sun, 20 Sep 2026 14:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>米軍の武装作戦、AIの幻覚データで寸前に中止。指揮官の盲信が招いた危機</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/u-s-military-llm-45094031.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/u-s-military-llm-45094031.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-823c2887.html</guid>
     <description>AI企業のAnthropicが大手コンサルティング企業Accentureと提携し、AIシステムの安全性を第三者が定期的に評価する仕組みを導入。AI技術の危険性懸念に対応する業界初の試みとして注目されている。</description>
     <pubDate>Sat, 19 Sep 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、AIの精度を高める「プロンプト改善法」を公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-700e2795.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-700e2795.html</guid>
-    <description>AI企業Anthropicが、ユーザーがより良い結果を得るためのプロンプト活用法をシェア。</description>
-    <pubDate>Sat, 19 Sep 2026 18:53:00 +0900</pubDate>
   </item>
 </channel></rss>
