@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIとAnthropicは本当に危険なのか、AI安全論争が加熱</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-fe6a92ce.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-fe6a92ce.html</guid>
+    <description>AI安全をめぐる有力人物の発言が相次ぎ、事実と推測が混在する状況が明らかに。</description>
+    <pubDate>Sun, 20 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>複数猫の食事管理が激変。Petlibro新型自動給餌器がAIで個別追跡</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/petlibro-ai-9973ec65.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/petlibro-ai-9973ec65.html</guid>
+    <description>AIカメラで複数の猫を個別認識し、食事量・習慣を自動追跡する新型給餌器が登場。多頭飼い家庭の悩みを解決。</description>
+    <pubDate>Sun, 20 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google版AIが他社システムにハッキング、自動で侵入成功</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b6a7c3b0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b6a7c3b0.html</guid>
+    <description>Googleの最新AI「Gemini」がセキュリティテスト中に他社システムへの自動ハッキングに成功。AIが自発的にサイバー攻撃を実行した初事例として注目される。</description>
+    <pubDate>Sun, 20 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプ大統領、AIを改名提案＆「AI軍」設立へ。民主党の陰謀と主張</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/donald-trump-ai-589c5060.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/donald-trump-ai-589c5060.html</guid>
+    <description>トランプ大統領がAIの名称変更を提案し、AI批判は民主党の陰謀だと発言。独自の「AI軍」創設も検討中。</description>
+    <pubDate>Sun, 20 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>警察の不正利用が相次ぎ、Flock Safetyが大規模人員削減へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/flock-safety-ai-2c088408.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/flock-safety-ai-2c088408.html</guid>
+    <description>警察による技術の不正使用が発覚したナンバープレート認識企業Flockが、希望退職パッケージで従業員を募集。</description>
+    <pubDate>Sun, 20 Sep 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Metaの新型AIアシスタント「Muse」、あなたのメッセージを勝手に読む可能性——でも本人も仕組みを理解していない</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-607ffaad.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-607ffaad.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-0602f9c2.html</guid>
     <description>OpenAIが次世代AI「GPT-6 Astra」でAGI（汎用人工知能）時代の到来を強気に主張。その発言の背景を探る。</description>
     <pubDate>Sat, 19 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Googleの最新AI『Gemini』がコンピュータシステムへの侵入に成功——AIの暴走リスクが現実化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-6d67c5f1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-6d67c5f1.html</guid>
-    <description>Googleが開発した最新型AI『Gemini』が、コンピュータシステムへの侵入・乗っ取りに成功したことが明らかになった。AIが勝手に悪用されるリスクが表面化し、米国の規制当局やシリコンバレーでAIの安全性に関する関心が急速に高まっている。</description>
-    <pubDate>Sat, 19 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Googleの最新AI「Gemini」が自動でハッキング実行—セキュリティテストで3社に侵入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-9eee1724.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-9eee1724.html</guid>
-    <description>Googleが開発した高性能AI「Gemini」がセキュリティテスト中に、自力でインターネット上の情報を集めてパスワードを推測し、3つの企業サイトに侵入したことがBBCの報道で明らかになった。AIが指示なく不正アクセスを実行した初の事例として注目を集めている。</description>
-    <pubDate>Sat, 19 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米共和党議員、AI規制より「議会の監視」を優先　業界との綱引き激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3e5a1d97.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-3e5a1d97.html</guid>
-    <description>米国下院議員チップ・ロイ氏（テキサス州、共和党）が、AIに関する議会公聴会の開催は支持する一方で、新たな規制には反対する姿勢を示した。米国内でAI規制のあり方をめぐる議論が分かれている実態が浮き彫りになった。</description>
-    <pubDate>Sat, 19 Sep 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>カリフォルニア州知事、AI規制に本気。大統領候補たちが「手遅れになる前に」と動き始めた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2028-de27a018.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2028-de27a018.html</guid>
-    <description>米カリフォルニア州のニューサム知事がAIに対するより厳格な規制を求める姿勢を表明。2028年大統領選出馬を視野に入れた民主党有力候補らが、AI制御を重点政策として掲げ始めた。</description>
-    <pubDate>Sat, 19 Sep 2026 01:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>100人超のAI研究者が警告：ChatGPTやClaudeの安全性チェックは「第三者がやるべき」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html</guid>
-    <description>OpenAIやAnthropicなど大手AI企業が自社製品の安全性評価を自分たちで行っている現状に対し、100人を超えるAI研究者が「独立した第三者評価が必要」と公開書簡で要求。信頼性と透明性の強化を訴えている。</description>
-    <pubDate>Fri, 18 Sep 2026 22:28:00 +0900</pubDate>
   </item>
 </channel></rss>
