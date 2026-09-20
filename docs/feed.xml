@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、次世代AI「Astra」へのロードマップ公表。安全性と能力の両立目指す</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-315c59a8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-315c59a8.html</guid>
+    <description>OpenAIが次世代AI「Astra」への道筋を示し、高度な能力と安全対策の両方が必要だと明示。</description>
+    <pubDate>Sun, 20 Sep 2026 09:58:00 +0900</pubDate>
+  </item>
+  <item>
     <title>マスク、OpenAIとAnthropicと手を組みながらAI規制に反発—トランプ大統領と対立</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-openai-9bdecde9.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-openai-9bdecde9.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5e315559.html</guid>
     <description>AI生成動画の利用で炎上したゲーム企業の、イベント当日の現場レポート。</description>
     <pubDate>Fri, 18 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AnthropicとOpenAI、規制強化を求めるも米議会は動かず——AI企業と政治家の温度差が露呈</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html</guid>
-    <description>AnthropicやOpenAIなど主要なAI企業が政府による規制の必要性を訴えている一方で、米国議会はキャンペーン活動を優先させており、緊急性が感じられない対応となっている。AI企業の要望と政治の現実のギャップが明らかになった。</description>
-    <pubDate>Fri, 18 Sep 2026 13:28:00 +0900</pubDate>
   </item>
 </channel></rss>
