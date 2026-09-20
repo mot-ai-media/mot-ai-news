@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPT開発者が新AI「Jev」で革命、テキスト不要の高速・低コスト化実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jev-b311cc82.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jev-b311cc82.html</guid>
+    <description>OpenAI出身の研究者が開発した新型AI「Jev」は、従来のテキスト出力型AIと異なり、直接判断を出力。圧倒的に安く・速い</description>
+    <pubDate>Sun, 20 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI企業が次世代技術を極秘開発、実用化時期は謎のまま</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-6ce3a720.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-6ce3a720.html</guid>
+    <description>AI業界の注目技術「ワールドモデル」を手がける有力企業が、開発内容や商用化計画を明かさない。</description>
+    <pubDate>Sun, 20 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、AIの安全性チェックに大手コンサル企業Accentureを招へい</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-8503b185.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-8503b185.html</guid>
+    <description>AIの安全性を外部から監視する「組み込み評価者」の仕組みが本格始動。大手企業が参入で信頼性の向上を狙う。</description>
+    <pubDate>Sun, 20 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI女優が記者会見で突然中国語を話し始める。Particle6のTilly Norwood、初プレスツアーで連続トラブル</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/particle6-group-ai-f0cf279d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/particle6-group-ai-f0cf279d.html</guid>
+    <description>AI生成の女優が75社メディアとのインタビューで次々と誤動作。Piers Morganとのインタビューでは突然中国語を話し始める。</description>
+    <pubDate>Sun, 20 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>文章を書かないAI「Jev」が業界を揺さぶる。元OpenAI研究者が20～200倍速いシステムを公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-d01ab444.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-d01ab444.html</guid>
+    <description>ChatGPTと違い、質問に「判断」だけを返す新型AI「Jev」が海外で大きな話題に。既存モデルより圧倒的に高速・低コスト。</description>
+    <pubDate>Sun, 20 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI減速を呼びかけたAnthropicが新モデル開発を検討、OpenAIへの圧力高まる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-f5b9253b.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-f5b9253b.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-de96e903.html</guid>
     <description>AI技術の急速な発展に伴い、暴走するAIを緊急停止させる「キルスイッチ」の導入が議論されている。海外の政策立案者やテック企業リーダーがその有効性を検証する中で、制度的な限界が浮かび上がっている。</description>
     <pubDate>Sat, 19 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの実力を正しく測る「評価基準」が変わる。ベンチマーク企業Valsが業界標準を作る</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/vals-andreessen-horowitz-17c3769d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/vals-andreessen-horowitz-17c3769d.html</guid>
-    <description>AIモデルの性能評価を公正に行うスタートアップValsが大型資金調達。企業による不正な高評価を防ぐ狙い。</description>
-    <pubDate>Sat, 19 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ブログ作成、AIエージェントなら4〜6時間が30分に短縮。全自動化の正しい使い方</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ed774500.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ed774500.html</guid>
-    <description>ChatGPTより賢いAIエージェントなら、ブログの企画から公開までを一気に自動化できる。実例では作業時間が大幅削減に。</description>
-    <pubDate>Sat, 19 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入で月末残業が消える。年4000時間削減した企業も</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-7ee0b42b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-7ee0b42b.html</guid>
-    <description>請求書処理や勤怠チェックなど判断が必要な事務作業を、AIエージェントなら自動化できる。ただし業務選びを間違えるとうまくいかない。</description>
-    <pubDate>Sat, 19 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入、9割が実証段階で止まる理由。3つの落とし穴を徹底解明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-17328a56.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-17328a56.html</guid>
-    <description>AIエージェント導入の失敗は技術の問題ではなく、計画段階の設計ミスが原因。導入・開発・運用の3段階で異なる課題がある。</description>
-    <pubDate>Sat, 19 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude、AI開発の26％を自力でこなす　半年で1％から急成長の衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ea7dc6ee.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ea7dc6ee.html</guid>
-    <description>AIモデル「Claude」がAI研究開発の4分の1を人間の監督下で自動実行。半年で急速に拡大し、業界の透明性強化につながる。</description>
-    <pubDate>Sat, 19 Sep 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>
