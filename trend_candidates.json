@@ -1,55 +1,5 @@
 [
   {
-    "title": "AI, Tools and Transformation",
-    "link": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation\nComments URL: https://news.ycombinator.com/item?id=49582656\nPoints: 64\n# Comments: 23",
-    "novelty_score": 35,
-    "japan_relevance_score": 60,
-    "reason": "AI導入の一般的な考察で新規性は低いが、日本企業のDX課題と関連が高い。",
-    "discovered_at": "2026-09-06T10:28:44.707758+00:00"
-  },
-  {
-    "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
-    "link": "https://github.com/okf-memory/okf-agent-memory",
-    "source": "Hacker News",
-    "summary": "Article URL: https://github.com/okf-memory/okf-agent-memory\nComments URL: https://news.ycombinator.com/item?id=49581240\nPoints: 66\n# Comments: 20",
-    "novelty_score": 62,
-    "japan_relevance_score": 58,
-    "reason": "AI coding agentの永続メモリ機構は新しいが、既存メモリ管理手法の応用で、日本でのAI開発関心層には限定的。",
-    "discovered_at": "2026-09-06T10:28:46.813780+00:00"
-  },
-  {
-    "title": "America's two largest school districts impose AI moratoriums",
-    "link": "https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/\nComments URL: https://news.ycombinator.com/item?id=49580980\nPoints: 59\n# Comments: 71",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "米国の学区によるAI規制の事例は参考になるが、既に類似の動きが複数存在しており、日本の教育現場でも同様の議論が生じる可能性が高い。",
-    "discovered_at": "2026-09-06T10:28:48.779443+00:00"
-  },
-  {
-    "title": "How AI is breaking the British state",
-    "link": "https://www.economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state\nComments URL: https://news.ycombinator.com/item?id=49580687\nPoints: 33\n# Comments: 58",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "AI導入による行政機関への影響は既知のテーマだが、英国の具体例は参考価値があり日本でも同様の課題に直面する可能性が高い。",
-    "discovered_at": "2026-09-06T10:28:50.843949+00:00"
-  },
-  {
-    "title": "Show HN: We Beat MLPerf: Modern Storage for KV Offload and LLM Training",
-    "link": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0\nComments URL: https://news.ycombinator.com/item?id=49578727\nPoints: 35\n# Comments: 1",
-    "novelty_score": 45,
-    "japan_relevance_score": 35,
-    "reason": "MLPerf実績は専門的価値があるが、ストレージ最適化は限定的な市場向けで、日本での関心度は低めと判断。",
-    "discovered_at": "2026-09-06T10:28:52.784514+00:00"
-  },
-  {
     "title": "Poetry book that Anthropic tried to censor",
     "link": "https://kk.org/cooltools/the-1930-poetry-book-that-anthropic-tried-to-censor/",
     "source": "Hacker News",
@@ -1278,5 +1228,55 @@
     "japan_relevance_score": 35,
     "reason": "HNでのAI話題の過剰性は既出の議論であり、新規性に欠け、日本での関心も限定的。",
     "discovered_at": "2026-09-20T07:28:49.098656+00:00"
+  },
+  {
+    "title": "If AI coding is lowering your code quality, you're not managing quality right",
+    "link": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code\nComments URL: https://news.ycombinator.com/item?id=49774795\nPoints: 50\n# Comments: 76",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI コーディング導入時の品質管理の重要性は既出テーマだが、日本企業の急速な AI 導入に伴い実践的な課題として高い関連性がある。",
+    "discovered_at": "2026-09-20T13:28:58.763542+00:00"
+  },
+  {
+    "title": "I'm Tired of the AI Tone",
+    "link": "https://sagivo.com/blog/im-tired-of-the-ai-tone",
+    "source": "Hacker News",
+    "summary": "Article URL: https://sagivo.com/blog/im-tired-of-the-ai-tone\nComments URL: https://news.ycombinator.com/item?id=49774665\nPoints: 38\n# Comments: 46",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI生成コンテンツの特有の文体への疲労感は共通課題だが、新しい議論ではなく個人的見解の域を出ていない。",
+    "discovered_at": "2026-09-20T13:29:00.572235+00:00"
+  },
+  {
+    "title": "AI and the Destruction of the Creative Commons",
+    "link": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/\nComments URL: https://news.ycombinator.com/item?id=49774329\nPoints: 152\n# Comments: 117",
+    "novelty_score": 35,
+    "japan_relevance_score": 75,
+    "reason": "AIによるCreative Commons破壊は既知の問題だが、日本でもAIと著作権の議論が急速に高まっており高い関連性がある。",
+    "discovered_at": "2026-09-20T13:29:02.174554+00:00"
+  },
+  {
+    "title": "OpenAI and Microsoft knew they were starting a 'doom loop' for the web",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero\nComments URL: https://news.ycombinator.com/item?id=49773624\nPoints: 23\n# Comments: 1",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "OpenAIとMicrosoftの訓練データ問題は既出だが、「doom loop」という具体的な害悪メカニズム指摘は比較的新しく、日本でも生成AI規制議論に関連する重要なテーマ。",
+    "discovered_at": "2026-09-20T13:29:03.988545+00:00"
+  },
+  {
+    "title": "KDE turns 30 and someone's brought an AI-native desktop proposal",
+    "link": "https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282\nComments URL: https://news.ycombinator.com/item?id=49773439\nPoints: 38\n# Comments: 47",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI統合デスクトップの概念自体は既出だが、KDE30周年での具体的提案は注目度あり。",
+    "discovered_at": "2026-09-20T13:29:05.456806+00:00"
   }
 ]
