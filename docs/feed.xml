@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI減速を呼びかけたAnthropicが新モデル開発を検討、OpenAIへの圧力高まる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-f5b9253b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-f5b9253b.html</guid>
+    <description>AI開発の減速を主張していたAnthropicが新モデル検討の動きで、業界内の緊張感が高まっている。</description>
+    <pubDate>Sun, 20 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI急成長の裏側で、米ヴァージニア州が「待った」。データセンター規制に動く</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80248695.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80248695.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ea7dc6ee.html</guid>
     <description>AIモデル「Claude」がAI研究開発の4分の1を人間の監督下で自動実行。半年で急速に拡大し、業界の透明性強化につながる。</description>
     <pubDate>Sat, 19 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、OpenAIに対抗する新モデル検討。CEO減速宣言の直後に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-396cd09c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-396cd09c.html</guid>
-    <description>AnthropicがOpenAIの新モデルに対抗する新モデル開発を検討中。一方でCEOは減速を呼びかけている。</description>
-    <pubDate>Sat, 19 Sep 2026 20:53:00 +0900</pubDate>
   </item>
 </channel></rss>
