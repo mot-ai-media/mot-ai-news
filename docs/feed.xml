@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>米軍の武装作戦、AIの幻覚データで寸前に中止。指揮官の盲信が招いた危機</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/u-s-military-llm-45094031.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/u-s-military-llm-45094031.html</guid>
+    <description>米軍がAIチャットボットの誤った情報を基に中国船舶への作戦を実行寸前まで進め、直前に中止した。</description>
+    <pubDate>Sun, 20 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、医学研究用の生物実験室を運用開始。AIで病気の治療法を実験検証へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-7eae2044.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-7eae2044.html</guid>
+    <description>AIの大手企業Anthropicがベイエリアに実験室を構え、AI理論を現実の実験で検証する取り組みをついに始動。</description>
+    <pubDate>Sun, 20 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>スタートアップ育成企業が100億円調達、産業向けAI起業へシフト</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/vantora-ai-23d6e2a4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/vantora-ai-23d6e2a4.html</guid>
+    <description>スタートアップ向け育成企業が大型調達し、企業顧客向けの物理AIスタートアップ立ち上げに経営方針を転換。</description>
+    <pubDate>Sun, 20 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>インド政府がTruecallerに圧力、迷惑電話データを強制開示へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/truecaller-a193c15e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/truecaller-a193c15e.html</guid>
+    <description>インドの通信規制当局がアプリの迷惑電話報告をキャリアに開示することを義務化。Truecallerが反発。</description>
+    <pubDate>Sun, 20 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>TechCrunch Disrupt 2026、9月25日までの割引終了。チケット価格が上がる前の駆け込み購入へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-openai-e9d1d908.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-openai-e9d1d908.html</guid>
+    <description>TechCrunch主催の大型テックイベント「Disrupt 2026」の割引期間が9月25日で終了。最大200ドルの割引を受けるなら今が買い時。</description>
+    <pubDate>Sun, 20 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI企業の大物CEOが「規制戦争」勃発、開発スピード巡る対立が激化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a864cdf7.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a864cdf7.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-700e2795.html</guid>
     <description>AI企業Anthropicが、ユーザーがより良い結果を得るためのプロンプト活用法をシェア。</description>
     <pubDate>Sat, 19 Sep 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI導入した企業の8割が『チャットだけ』、業務自動化に進めない理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-7f6136d1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-7f6136d1.html</guid>
-    <description>企業のAI導入は進んでも、実務の自動化には至らず。人材と時間の不足が最大の課題。</description>
-    <pubDate>Sat, 19 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AIで資料は増えるけど探せない問題、自動命名機能で解決へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-ai-d90af0de.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-ai-d90af0de.html</guid>
-    <description>AIで資料は簡単に作れるが、管理の煩雑さが課題に。自動命名で整理を効率化。</description>
-    <pubDate>Sat, 19 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>豊川信用金庫、AIで「規定探し」を秒速化。若手職員の負担が激減</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/saf-ai-8fd785f8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/saf-ai-8fd785f8.html</guid>
-    <description>金融機関の業務規定検索をAIに任せる動きが加速。豊川信用金庫が導入したAI FAQツール「SAF」により、職員は質問するだけで必要な情報を瞬時に取得できるように。</description>
-    <pubDate>Sat, 19 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>サムスン撤退、パナソニック縮小。欧州最大家電見本市がついに中国勢主導へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ifa-b2d33d84.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ifa-b2d33d84.html</guid>
-    <description>欧州最大の家電見本市「IFA」が劇的に変わった。中国メーカーが出展企業の過半数を占め、ロボット企業が台頭する一方、サムスンが撤退しパナソニックも存在感を縮小させた。</description>
-    <pubDate>Sat, 19 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ゲーム業界のAI導入、クリエイティブより効率化に軸足。東京ゲームショウで見えた実態</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/heroz-bb25e6e7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/heroz-bb25e6e7.html</guid>
-    <description>ゲーム業界でAI活用が急速に進む一方、生成画像などの「見える部分」は慎重に。企業が求めるのは開発効率化だ。</description>
-    <pubDate>Sat, 19 Sep 2026 18:00:00 +0900</pubDate>
   </item>
 </channel></rss>
