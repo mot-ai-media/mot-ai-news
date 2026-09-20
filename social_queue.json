@@ -3851,7 +3851,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/18/2000001634/10007022/2048",
     "generated_at": "2026-09-19 22:00",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -3909,6 +3909,9 @@
         "x_post": "実務的には重要：Claudeの開発自動化＝改善サイクル短縮。ChatGPTやClaudeのアップデートが月単位で来るように。日々のAI利用ユーザーは、新機能を定期的にキャッチアップする習慣が競争力になる。",
         "cta": "AI改善のペース変化に対応するコツ、MOTで解説中"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18341643229255381",
+    "published_at": "2026-09-20T11:02:01"
   }
 }
