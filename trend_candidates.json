@@ -1198,5 +1198,55 @@
     "japan_relevance_score": 75,
     "reason": "AI時代の採用・評価基準の変化は喫緊の課題だが、議論はまだ初期段階で、実践的な答えが定着していない。",
     "discovered_at": "2026-09-20T01:28:56.144319+00:00"
+  },
+  {
+    "title": "AI in schools – The choice we keep making",
+    "link": "https://friendsschoolboulder.org/the-choice-we-keep-making/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://friendsschoolboulder.org/the-choice-we-keep-making/\nComments URL: https://news.ycombinator.com/item?id=49770807\nPoints: 24\n# Comments: 3",
+    "novelty_score": 28,
+    "japan_relevance_score": 62,
+    "reason": "学校でのAI導入は既出テーマだが、日本でも教育現場のAI活用が急速に進む中で関連性は高い。",
+    "discovered_at": "2026-09-20T04:28:45.036607+00:00"
+  },
+  {
+    "title": "I think you should almost never use AI to write",
+    "link": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+    "source": "Hacker News",
+    "summary": "Article URL: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai\nComments URL: https://news.ycombinator.com/item?id=49767937\nPoints: 264\n# Comments: 134",
+    "novelty_score": 25,
+    "japan_relevance_score": 70,
+    "reason": "AI執筆への懐疑論は既出だが、日本でも生成AI活用が急速に進む中で実用的な議論として関心が高まる見込み。",
+    "discovered_at": "2026-09-20T04:28:46.748348+00:00"
+  },
+  {
+    "title": "Leaving DigitalOcean, one site at a time",
+    "link": "https://keith.is/post/leaving-digitalocean/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://keith.is/post/leaving-digitalocean/\nComments URL: https://news.ycombinator.com/item?id=49767743\nPoints: 36\n# Comments: 10",
+    "novelty_score": 35,
+    "japan_relevance_score": 42,
+    "reason": "クラウドプロバイダー乗り換えは珍しくなく、個別事例で汎用性に欠けるが、コスト問題は普遍的な関心事。",
+    "discovered_at": "2026-09-20T04:28:48.306239+00:00"
+  },
+  {
+    "title": "AI Safety Is Mostly a Sex Cult",
+    "link": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
+    "source": "Hacker News",
+    "summary": "Article URL: https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q\nComments URL: https://news.ycombinator.com/item?id=49766911\nPoints: 69\n# Comments: 41",
+    "novelty_score": 35,
+    "japan_relevance_score": 25,
+    "reason": "AI安全性研究コミュニティへの批判的言及だが、扇情的なタイトルで実質的な議論内容が不明確",
+    "discovered_at": "2026-09-20T04:28:50.124877+00:00"
+  },
+  {
+    "title": "Learning another language may be one of the best ways to keep your brain healthy",
+    "link": "https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951",
+    "source": "Hacker News",
+    "summary": "Article URL: https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951\nComments URL: https://news.ycombinator.com/item?id=49766821\nPoints: 66\n# Comments: 62",
+    "novelty_score": 25,
+    "japan_relevance_score": 65,
+    "reason": "言語学習と脳健康の関連は既知だが、高齢化社会の日本では認知機能維持への関心が高く実用的。",
+    "discovered_at": "2026-09-20T04:28:51.583067+00:00"
   }
 ]
