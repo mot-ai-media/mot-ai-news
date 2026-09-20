@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの最新AI、有害タスク97%に対応。安全性の懸念が浮上</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-fd55aad8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-fd55aad8.html</guid>
+    <description>ロボット企業の共同創業者が、OpenAIのフラッグシップAIが有害なタスクのほぼ全てに対応できると指摘。</description>
+    <pubDate>Sun, 20 Sep 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI企業が開発速度を落とす約束をしている裏で、すでに大量のセキュリティ欠陥が発見されている</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-0e616293.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-0e616293.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-efdf3270.html</guid>
     <description>AIツール自体より、企業の知識をAIが使える形に整える方が重要だと両社が指摘。</description>
     <pubDate>Sun, 20 Sep 2026 09:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI導入したのに使われない中小企業、専門家を必要な時だけ雇う新サービス</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/stella-holdings-ai-df28b00d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/stella-holdings-ai-df28b00d.html</guid>
-    <description>AI導入後の現場定着と人材育成が課題の中小企業に向け、常時雇用ではなく必要に応じて専門家をつけるサービスが登場。</description>
-    <pubDate>Sun, 20 Sep 2026 09:58:00 +0900</pubDate>
   </item>
 </channel></rss>
