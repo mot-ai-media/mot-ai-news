@@ -3,12 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-20 09:58
+最終更新: 2026-09-20 09:59
 
 ## 記事一覧
 
-- [米国株下落の背景：金利上昇とAI規制論争が投資家を圧迫](https://mot-ai-media.github.io/mot-ai-news/articles/frb-ai-262403cd.html): 米国の株式市場が先週、金融引き締めの加速とAI産業の急速な発展に対する懸念という二つの大きな課題に同時に直面した。これは日本の投資家や企業にも波及する可能性がある。 (出典: CNBC / 更新: 2026-09-20 09:58)
-- [OpenAI AIの問題行動 Microsoft Suleyman警告 2024](https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-0b7e126f.html): Microsoftの幹部Mustafa Suleymが、OpenAIが今週公開した「懸念される模型の動作」について、深刻な問題だと指摘。ChatGPTなどのAIの信頼性めぐる議論が加速している。 (出典: CNBC / 更新: 2026-09-20 09:58)
+- [AIエージェント導入の壁は知識？アビームとNotionが示す組織改革アプローチ](https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-efdf3270.html): AIツール自体より、企業の知識をAIが使える形に整える方が重要だと両社が指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)
+- [AI導入後の課題とは？例外処理・人力確認まで任せるBPOサービス登場](https://mot-ai-media.github.io/mot-ai-news/articles/generative-partners-bpo-f4428e79.html): RPAや生成AI導入後も残る例外処理や目視確認を、AI と人力で分担して丸ごと引き受けるサービスが始まる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)
+- [中小企業のAI導入が失敗する理由。何を・誰が・どう変えるか](https://mot-ai-media.github.io/mot-ai-news/articles/exkey-forgent-aeaa6ae8.html): ツール導入だけでなく、業務選定から現場定着まで支援するAI人材常駐サービスが2026年9月に始動。中小企業のAI活用課題を解決へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)
+- [AIサイバー攻撃が高速化、企業防御はAIエージェントで自動化へ](https://mot-ai-media.github.io/mot-ai-news/articles/zscaler-ai-c1763671.html): 攻撃側がAIで高速化する中、企業のセキュリティ運用も人が調査する従来型から、AIが大量情報を処理し人が判断する新モデルへシフト。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)
+- [AI導入後の課題を解決、中小企業向け伴走支援サービスとは](https://mot-ai-media.github.io/mot-ai-news/articles/stella-holdings-ai-df28b00d.html): AI導入後の現場定着と人材育成が課題の中小企業に向け、常時雇用ではなく必要に応じて専門家をつけるサービスが登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:58)
 - [Elon Musk AI規制 OpenAI Anthropic提携](https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-openai-9bdecde9.html): イーロン・マスクが先週、OpenAIとAnthropicのCEOと相次いで合意する一方、トランプ大統領やNvidiaのジェンセン・フアンから反論を受ける波乱の展開が生じている。AI安全性を掲げながら規制強化に抵抗する姿勢が浮き彫りになった。 (出典: CNBC / 更新: 2026-09-19 22:28)
 - [AI kill switch（キルスイッチ）とは？機能性や限界を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-de96e903.html): AI技術の急速な発展に伴い、暴走するAIを緊急停止させる「キルスイッチ」の導入が議論されている。海外の政策立案者やテック企業リーダーがその有効性を検証する中で、制度的な限界が浮かび上がっている。 (出典: CNBC / 更新: 2026-09-19 22:27)
 - [AIエージェント導入が難しい理由とは？失敗の原因を段階別に解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-17328a56.html): AIエージェント導入の失敗は技術の問題ではなく、計画段階の設計ミスが原因。導入・開発・運用の3段階で異なる課題がある。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-19 22:01)
@@ -204,6 +207,3 @@
 - [GPT-6 Astraとは？OpenAIの新AIがロボット判定ゲームをクリア](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-f526a999.html): OpenAIの新型AIが人間判定ゲームを全レベルクリア。AIの知能進化を示す成果として注目。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:00)
 - [ChatGPT有料ユーザーがリセット、Astraの利用枠制限はどうなる？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-059bc475.html): ChatGPTの最新モデル「GPT-6 Astra」で利用枠を消費したユーザーに、OpenAIが平日継続利用を可能にする措置を実施。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-08 11:00)
 - [JTPのThird AI生成AIソリューションがGPT-6 Astraに対応](https://mot-ai-media.github.io/mot-ai-news/articles/jtp-third-ai-da3eddc4.html): JTPが企業向けのAIソリューションを最新モデルに対応させ、より高度なAI機能の導入が可能に。 (出典: kabu-ir.com / 更新: 2026-09-08 10:53)
-- [OpenAI GPT-6 Astraとは？新モデルの特徴と影響](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-12d63c99.html): OpenAIが新型AIモデル「GPT-6 Astra」を発表。次世代AIの機能拡張が進む。 (出典: Healthcare IT News / 更新: 2026-09-08 10:53)
-- [AI用語とは？ChatGPT以降の最新キーワード・言葉を初心者向けに解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bbd44de7.html): AI業界に次々生まれる新しい用語。初心者が押さえるべき基本キーワードをまとめた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-08 07:01)
-- [GPT-6 Astraとは？OpenAI新モデルの性能・できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-0f3b76bc.html): OpenAIが新世代AI「GPT-6 Astra」を発表。PC操作やコード生成、セキュリティ対応で大幅に進化。 (出典: OpenAI News / 更新: 2026-09-08 07:01)
