@@ -4,10 +4,17 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>OpenAI、次世代AI「Astra」へのロードマップ公表。安全性と能力の両立目指す</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-315c59a8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-315c59a8.html</guid>
-    <description>OpenAIが次世代AI「Astra」への道筋を示し、高度な能力と安全対策の両方が必要だと明示。</description>
+    <title>Microsoft幹部が警告、OpenAIの最新AI「深刻な状況」—何が起きたのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-0b7e126f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-0b7e126f.html</guid>
+    <description>Microsoftの幹部Mustafa Suleymが、OpenAIが今週公開した「懸念される模型の動作」について、深刻な問題だと指摘。ChatGPTなどのAIの信頼性めぐる議論が加速している。</description>
+    <pubDate>Sun, 20 Sep 2026 09:58:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>FRB利上げとAI安全懸念が同時襲来、株式市場が揺れた理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/frb-ai-262403cd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/frb-ai-262403cd.html</guid>
+    <description>米国の株式市場が先週、金融引き締めの加速とAI産業の急速な発展に対する懸念という二つの大きな課題に同時に直面した。これは日本の投資家や企業にも波及する可能性がある。</description>
     <pubDate>Sun, 20 Sep 2026 09:58:00 +0900</pubDate>
   </item>
   <item>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-amazon-s3-a677e130.html</guid>
     <description>社内に散らばったデータをAIが一括検索できる仕組みを、AWSが航空業界の事例で実装公開。</description>
     <pubDate>Fri, 18 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI動画騒動のレベルファイブ、東京ゲームショウで何を見せたのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5e315559.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5e315559.html</guid>
-    <description>AI生成動画の利用で炎上したゲーム企業の、イベント当日の現場レポート。</description>
-    <pubDate>Fri, 18 Sep 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>
