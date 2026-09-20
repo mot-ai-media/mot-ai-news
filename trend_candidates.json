@@ -1248,5 +1248,35 @@
     "japan_relevance_score": 65,
     "reason": "言語学習と脳健康の関連は既知だが、高齢化社会の日本では認知機能維持への関心が高く実用的。",
     "discovered_at": "2026-09-20T04:28:51.583067+00:00"
+  },
+  {
+    "title": "Google AI Studio fakes data deletion. VRP auto-banned me in 60s for reporting it",
+    "link": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
+    "source": "Hacker News",
+    "summary": "Article URL: https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2\nComments URL: https://news.ycombinator.com/item?id=49772544\nPoints: 34\n# Comments: 16",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "Googleの脆弱性報告制度の問題を具体例で指摘した記事だが、VRP制度の課題は既知であり、個別事例としての一般性に欠ける。",
+    "discovered_at": "2026-09-20T07:28:45.920469+00:00"
+  },
+  {
+    "title": "The Case of Elias Thorne, Imaginary Man AI Chatbots Are Obsessed With",
+    "link": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with/\nComments URL: https://news.ycombinator.com/item?id=49764141\nPoints: 20\n# Comments: 9",
+    "novelty_score": 65,
+    "japan_relevance_score": 55,
+    "reason": "AI生成幻覚の実例研究として新しいが、専門的な深掘りに欠け、日本での関心は限定的か。",
+    "discovered_at": "2026-09-20T07:28:47.571821+00:00"
+  },
+  {
+    "title": "How come AI-related posts get so many points on HN?",
+    "link": "https://news.ycombinator.com/item?id=49764057",
+    "source": "Hacker News",
+    "summary": "Have we all decided to rebrand Hacker News as a platform for discussing AI? I think that the too many people love to discuss harshly about AI\n\nComments URL: https://news.ycombinator.com/item?id=49764057\nPoints: 27\n# Comments: 26",
+    "novelty_score": 15,
+    "japan_relevance_score": 35,
+    "reason": "HNでのAI話題の過剰性は既出の議論であり、新規性に欠け、日本での関心も限定的。",
+    "discovered_at": "2026-09-20T07:28:49.098656+00:00"
   }
 ]
