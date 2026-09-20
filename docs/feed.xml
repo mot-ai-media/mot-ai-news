@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI企業の大物CEOが「規制戦争」勃発、開発スピード巡る対立が激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a864cdf7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a864cdf7.html</guid>
+    <description>AIの安全性をめぐり、大手AI企業のトップ同士が相反する立場を表明。Anthropic CEOが開発ペース抑制の3段階プランを提案した一方で、他のAI企業との意見対立が深刻化している。この対立は規制の方向性と業界全体の成長戦略に大きく影響する可能性がある。</description>
+    <pubDate>Sun, 20 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI産業に「独占禁止法の例外」は必要か。米司法省元幹部が投じた問題提起</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-373f3d22.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-373f3d22.html</guid>
+    <description>米司法省の元反トラスト責任者が、AI産業の急速な発展と市場支配の懸念の板挟みの中で、AIが「皆を殺すような」リスクを回避するために独占禁止法の適用除外が必要かもしれないという問題を提起。業界の競争制限と安全性確保のジレンマが浮き彫りに。</description>
+    <pubDate>Sun, 20 Sep 2026 13:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIとAnthropicは本当に危険なのか、AI安全論争が加熱</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-fe6a92ce.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-fe6a92ce.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/heroz-bb25e6e7.html</guid>
     <description>ゲーム業界でAI活用が急速に進む一方、生成画像などの「見える部分」は慎重に。企業が求めるのは開発効率化だ。</description>
     <pubDate>Sat, 19 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、OpenAI対抗の新モデル開発を検討。CEO「AI減速」発言の直後に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9d6e9dbd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9d6e9dbd.html</guid>
-    <description>AI開発競争が急加速。AnthropicがOpenAIの新製品に対抗する独自モデルの開発を視野に入れた。</description>
-    <pubDate>Sat, 19 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、GPT-6 Astraで「AGI時代」到来を宣言。その本当の中身とは</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-0602f9c2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-0602f9c2.html</guid>
-    <description>OpenAIが次世代AI「GPT-6 Astra」でAGI（汎用人工知能）時代の到来を強気に主張。その発言の背景を探る。</description>
-    <pubDate>Sat, 19 Sep 2026 16:53:00 +0900</pubDate>
   </item>
 </channel></rss>
