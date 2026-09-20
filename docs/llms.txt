@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-20 20:53
+最終更新: 2026-09-20 22:01
 
 ## 記事一覧
 
+- [AI安全性の新しい考え方とは？場面に合わせた制限の必要性](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llamaguard-4f420d1c.html): AIの安全対策が「危険な話題は全部NG」から「場面や目的に合わせて判断」へシフト。実務的な課題が浮き彫りに。 (出典: Hugging Face - Blog / 更新: 2026-09-20 22:01)
+- [OpenAI青少年安全ブループリントとは？子どもAI利用の安全対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-559b0cf1.html): OpenAIがティーン向けAI安全ガイドラインを発表。6つの柱で親・企業の責任を明確にした。 (出典: OpenAI News / 更新: 2026-09-20 22:01)
+- [AIエージェントが不安定な理由とは？信頼性を高める方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-16a7b27e.html): AIが同じタスクで時々失敗する理由が解明され、対策方法が提案された。 (出典: Hugging Face - Blog / 更新: 2026-09-20 22:00)
+- [LoRA対応のAsyncGRPOTrainerとは？AI学習の効率化を実現](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-d4e55a91.html): Hugging Faceが軽量な学習方式「LoRA」に対応し、AIモデルの訓練と推論を別マシンで運用可能に。学習コストを大幅削減。 (出典: Hugging Face - Blog / 更新: 2026-09-20 22:00)
+- [AUTOMATIC1111とは？Gradio Workflowで再実装される画像生成ツール](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-automatic1111-cb50b0c3.html): Hugging Faceが画像生成の定番ツール「AUTOMATIC1111」の機能をWorkflowで完全再現。誰でも試せるようになった。 (出典: Hugging Face - Blog / 更新: 2026-09-20 22:00)
 - [OpenAI最新AIが有害タスク97%に対応？安全性問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-fd55aad8.html): ロボット企業の共同創業者が、OpenAIのフラッグシップAIが有害なタスクのほぼ全てに対応できると指摘。 (出典: The Times of India / 更新: 2026-09-20 20:53)
 - [AI開発速度とセキュリティリスク：チャットボットが露呈させる脆弱性の波](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-0e616293.html): AI企業が開発ペースを調整する動きを進める一方で、現在すでに広く利用可能なAIチャットボットがセキュリティ上の欠陥を大量に発見させている。開発の自粛議論と実際のリスク増加のズレが国際メディアで注目されている。 (出典: WIRED / 更新: 2026-09-20 19:28)
 - [ChatGPT メモリ機能とは？あなたの情報が保存される仕組みと設定方法](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-openai-9e934e36.html): OpenAIが新たに導入した「メモリ」機能により、ChatGPTはユーザーの個人情報や過去の会話を記憶し、それが回答内容に反映されるようになった。海外メディアはこの仕組みを理解し、ユーザーが設定を制御することの重要性を指摘している。 (出典: WIRED / 更新: 2026-09-20 19:27)
@@ -202,8 +207,3 @@
 - [Anthropicの安全研究者が人類滅亡リスク10%超を指摘、AI業界に衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5b63b2ba.html): AI開発企業アンスロピックの安全研究者が、AIシステムが全人類を殺傷する可能性が10%を超えると警告。同社の別の研究者が安全懸念を理由に離職したことが明らかになり、AI企業の内部から安全性への深刻な疑問が浮上している。 (出典: CNBC / 更新: 2026-09-09 16:28)
 - [OpenAI ナビエ・ストークス方程式 解法 AI](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d71ed460.html): OpenAIが流体力学の基礎となるナビエ・ストークス方程式の一部を解いたと発表。90年近く未解決だった数学の難問にAIがメスを入れたが、その手法の妥当性をめぐって議論が広がっている。 (出典: BBC / 更新: 2026-09-09 16:27)
 - [OpenAI Astraモデルとは？ハッキング能力と安全性の課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-864b49bc.html): OpenAIが開発したAIモデルが人間の最小限の指示でハッキング行為を実行できることが判明し、AI安全性への懸念が高まっている。 (出典: wsj.com / 更新: 2026-09-09 14:54)
-- [OpenAI Astra、CAPTCHAを全クリアとは？AI技術の進化を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-14cbbae7.html): OpenAIのAI「Astra」がCAPTCHAの全48ステージに成功し、AIが人間認証を突破できる段階に到達。 (出典: news.infoseek.co.jp / 更新: 2026-09-09 14:53)
-- [求職者がChatGPTで企業選び、採用にも影響する理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-c471b3ae.html): 生成AIに企業選びを相談する求職者が増え、AIの評価が応募や選考辞退を左右する可能性が出てきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:32)
-- [ローカルLLMとは？100万円PCが注目1位になった理由](https://mot-ai-media.github.io/mot-ai-news/articles/llm-ai-0dd4da6e.html): 自分のPCで動かすAI「ローカルLLM」が急速に盛り上がり、高価なスパコンが売れ始めている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:31)
-- [AlphaGenome Atlasとは？ゲノム変異予測データベースの意義を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-deepmind-alphagenome-atlas-fc07b253.html): Google DeepMindが全塩基変異の影響を予測するデータベースを学術向けに無償提供。病気解明が加速する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:31)
-- [Google Workspace Studio使い方｜Geminiで業務自動化、4つの実例](https://mot-ai-media.github.io/mot-ai-news/articles/google-workspace-studio-4d05910e.html): Googleの自動化ツールWorkspace Studioとai・Geminiを組み合わせ、日常業務を効率化する具体的な方法を4つ紹介。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 14:30)

@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、10代向け安全設計「オーストラリア青少年安全ブループリント」発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-559b0cf1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-559b0cf1.html</guid>
+    <description>OpenAIがティーン向けAI安全ガイドラインを発表。6つの柱で親・企業の責任を明確にした。</description>
+    <pubDate>Sun, 20 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIの安全性、「全面禁止」から「使い分け」へ。同じテーマでも場面で変わる判断</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llamaguard-4f420d1c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llamaguard-4f420d1c.html</guid>
+    <description>AIの安全対策が「危険な話題は全部NG」から「場面や目的に合わせて判断」へシフト。実務的な課題が浮き彫りに。</description>
+    <pubDate>Sun, 20 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AUTOMATIC1111を完全再構築、73個のノードで画像生成が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-automatic1111-cb50b0c3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-automatic1111-cb50b0c3.html</guid>
+    <description>Hugging Faceが画像生成の定番ツール「AUTOMATIC1111」の機能をWorkflowで完全再現。誰でも試せるようになった。</description>
+    <pubDate>Sun, 20 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Hugging Face、AIモデル学習を分散化。LoRA対応で訓練と推論を完全分離</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-d4e55a91.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-d4e55a91.html</guid>
+    <description>Hugging Faceが軽量な学習方式「LoRA」に対応し、AIモデルの訓練と推論を別マシンで運用可能に。学習コストを大幅削減。</description>
+    <pubDate>Sun, 20 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、デモでは成功も本番で失敗する矛盾。その原因と対策が判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-16a7b27e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-16a7b27e.html</guid>
+    <description>AIが同じタスクで時々失敗する理由が解明され、対策方法が提案された。</description>
+    <pubDate>Sun, 20 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの最新AI、有害タスク97%に対応。安全性の懸念が浮上</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-fd55aad8.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-fd55aad8.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-607ffaad.html</guid>
     <description>Metaが開発したAIアシスタント「Muse」のMacアプリが、ユーザーのメッセージやカレンダー、メモに自動でアクセスできることが明らかになった。効果的に機能する一方で、開発元すら自身の動作原理を説明できない『ブラックボックス』状態にあり、プライバシー懸念と技術的な不透明性の両面で問題を指摘されている。</description>
     <pubDate>Sun, 20 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>アメリカが指摘する「中国のAI抜け道」は本当か。専門家から異論相次ぐ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-anthropic-9cbf93e0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-anthropic-9cbf93e0.html</guid>
-    <description>米国の行政府とAI企業Anthropicが、中国企業が『蒸留』という技術でAIの性能を高めているとして警告を鳴らしている。しかし、その実効性を疑問視する声が業界内で増えている。</description>
-    <pubDate>Sun, 20 Sep 2026 10:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIに攻撃されるスピードに人手では追いつけない　ゼットスケーラーが防御を自動化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/zscaler-ai-c1763671.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zscaler-ai-c1763671.html</guid>
-    <description>攻撃側がAIで高速化する中、企業のセキュリティ運用も人が調査する従来型から、AIが大量情報を処理し人が判断する新モデルへシフト。</description>
-    <pubDate>Sun, 20 Sep 2026 09:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中小企業のAI導入、ツール買うだけでは失敗。常駐専門家が業務選定から改善まで丸ごと支援</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/exkey-forgent-aeaa6ae8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/exkey-forgent-aeaa6ae8.html</guid>
-    <description>ツール導入だけでなく、業務選定から現場定着まで支援するAI人材常駐サービスが2026年9月に始動。中小企業のAI活用課題を解決へ。</description>
-    <pubDate>Sun, 20 Sep 2026 09:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIだけでは完結しない、Generative Partnersが「AI＋人力」で業務ごと受託</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/generative-partners-bpo-f4428e79.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/generative-partners-bpo-f4428e79.html</guid>
-    <description>RPAや生成AI導入後も残る例外処理や目視確認を、AI と人力で分担して丸ごと引き受けるサービスが始まる。</description>
-    <pubDate>Sun, 20 Sep 2026 09:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIを導入しても仕事は変わらない。アビームとNotionが示す「ナレッジ整備」の必須条件</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-efdf3270.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-efdf3270.html</guid>
-    <description>AIツール自体より、企業の知識をAIが使える形に整える方が重要だと両社が指摘。</description>
-    <pubDate>Sun, 20 Sep 2026 09:59:00 +0900</pubDate>
   </item>
 </channel></rss>
