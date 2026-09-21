@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>米中がAI危機ホットライン構築へ。両国が「AI暴走時の通知制度」で合意に向け協議</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html</guid>
+    <description>米国と中国の両政府が、AIに関する国家安全保障上の脅威が発生した際に相互通知する仕組みの構築を協議している。核ミサイルの偶発的発射を防ぐ「ホットライン」のAI版と言え、国際的なAI安全規制の枠組みが動き出している。</description>
+    <pubDate>Tue, 22 Sep 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Appleが約250億円の和解金を支払う——約束したAI機能「Siri」を未納品で</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-335387d8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-335387d8.html</guid>
+    <description>Appleが、2024年中盤以降に購入したiPhone 15 ProおよびiPhone 16ユーザーに対し、AI強化版のSiriの提供に失敗したとして2億5000万ドル（約250億円）の和解金を支払う。対象ユーザーは2026年12月21日までに請求を提出できる。</description>
+    <pubDate>Tue, 22 Sep 2026 01:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、IPO前に新型AIモデル投入の方針、競争激化へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-7172c646.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-7172c646.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-43e0c03c.html</guid>
     <description>次期iOS 27にSiriのAIをClaudeやChatGPTに変更できる仕組みが発見された。一般提供時期は未定。</description>
     <pubDate>Mon, 21 Sep 2026 13:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NvidiaのCEO黄仁勳、トランプ政権のAI安全政策で最大の助言者に浮上</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-9079df5d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-9079df5d.html</guid>
-    <description>世界で最も時価総額が高い企業の指導者であるNvidiaのCEO黄仁勳が、トランプ次期大統領のAI安全に関する重要な方針決定で重要な役割を担いつつあることが明らかになった。</description>
-    <pubDate>Sun, 20 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米国の黒人議員が立ち上がった。AI規制とデータセンター問題が政治的争点に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c3da02f0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c3da02f0.html</guid>
-    <description>米国の政治的影響力を持つ団体「議会黒人議員会議」の年次集会でAIとデータセンター問題が中心的なテーマとなった。AI推進派・規制派の両陣営が関心を寄せ、政策形成への影響力が高まっている。</description>
-    <pubDate>Sun, 20 Sep 2026 22:27:00 +0900</pubDate>
   </item>
 </channel></rss>

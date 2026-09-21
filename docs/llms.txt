@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-22 00:53
+最終更新: 2026-09-22 01:28
 
 ## 記事一覧
 
+- [米国と中国がAI国家安全保障脅威の通知メカニズムを協議 - 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html): 米国と中国の両政府が、AIに関する国家安全保障上の脅威が発生した際に相互通知する仕組みの構築を協議している。核ミサイルの偶発的発射を防ぐ「ホットライン」のAI版と言え、国際的なAI安全規制の枠組みが動き出している。 (出典: WIRED / 更新: 2026-09-22 01:28)
+- [Apple Siri AI和解金 iPhone 15 Pro・iPhone 16ユーザーが請求可能に](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-335387d8.html): Appleが、2024年中盤以降に購入したiPhone 15 ProおよびiPhone 16ユーザーに対し、AI強化版のSiriの提供に失敗したとして2億5000万ドル（約250億円）の和解金を支払う。対象ユーザーは2026年12月21日までに請求を提出できる。 (出典: The Verge / 更新: 2026-09-22 01:27)
 - [AnthropicがOpus 5.5とFable 5.2をテスト、リリース前の動き](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-620c48dc.html): AnthropicがAIモデルの新バージョンをテスト段階へ。次世代AIの登場が近づいている。 (出典: TestingCatalog AI News / 更新: 2026-09-22 00:53)
 - [Anthropic新型AIモデル投入予定、IPO前の戦略とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-7172c646.html): IPO上場を控えるAnthropicが、新しいAIモデルのリリースを検討中と報じられた。 (出典: Reuters / 更新: 2026-09-22 00:53)
 - [Anthropic IPO延期、OpenAI Astra登場で競争激化の意味](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-0dc7b3c9.html): Claude開発のAnthropicが上場計画を先送り、一方OpenAIは新型AIで存在感を強化。AI企業の勢力図が変わる。 (出典: GuruFocus / 更新: 2026-09-21 22:53)
@@ -205,5 +207,3 @@
 - [Claude 3.5 Fableとは？100万トークン対応・料金改定の最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html): Anthropicが高性能AI「Claude 3.5 Fable」を一般提供。処理できるテキスト量が大幅増で、キャッシュ利用料も大幅値下げ。 (出典: BRIDGE（ブリッジ） / 更新: 2026-09-10 12:53)
 - [Listen Labs、メンロベンチャーズの資金調達をキャンセル。理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/listen-labs-salesforce-c1f34cbe.html): AIスタートアップが確定していた大型資金を手放し、別の買収・提携交渉を進める判断。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 11:02)
 - [OpenAIがAI安全研究者ポール・クリスチアーノを経営陣に迎える理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-2d263311.html): AI企業OpenAIが、AI安全性の研究で知られるポール・クリスチアーノを経営陣に招く。AIの安全性を重視する姿勢の表れ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 11:02)
-- [日立製作所のAI事業拡大戦略とは？フィジカルAIの実装で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-83c9398e.html): 日立がAIの実装を加速させる新サービスを発表。産業現場で実際に動くAIの活用を進める構え。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 11:01)
-- [Anthropic研究者が警告、AIが人類を滅ぼす確率とは？安全性の課題](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5ec9e5e9.html): AI企業Anthropicの研究幹部が、超知能開発の危機感を共有。安全制御なしの開発競争が続く現状を指摘 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 11:01)
