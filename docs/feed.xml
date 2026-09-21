@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、上場延期でOpenAIの新型AI「Astra」に後れ取る構図</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-0dc7b3c9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-0dc7b3c9.html</guid>
+    <description>Claude開発のAnthropicが上場計画を先送り、一方OpenAIは新型AIで存在感を強化。AI企業の勢力図が変わる。</description>
+    <pubDate>Mon, 21 Sep 2026 22:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AppleのMac Mini M6チップ登場、AI活用の「敷居」が家庭用に一気に下がる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-mini-6c5e1a1b.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-mini-6c5e1a1b.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llamaguard-4f420d1c.html</guid>
     <description>AIの安全対策が「危険な話題は全部NG」から「場面や目的に合わせて判断」へシフト。実務的な課題が浮き彫りに。</description>
     <pubDate>Sun, 20 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AUTOMATIC1111を完全再構築、73個のノードで画像生成が激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-automatic1111-cb50b0c3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-automatic1111-cb50b0c3.html</guid>
-    <description>Hugging Faceが画像生成の定番ツール「AUTOMATIC1111」の機能をWorkflowで完全再現。誰でも試せるようになった。</description>
-    <pubDate>Sun, 20 Sep 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>
