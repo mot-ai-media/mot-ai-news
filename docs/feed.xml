@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>世界モデル企業、開発内容を極秘に。AMI Labs、World Labsも詳細明かさず</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-7bd628cf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-7bd628cf.html</guid>
+    <description>注目のAI技術「世界モデル」を開発する企業が、具体的な製品計画を公開していない。</description>
+    <pubDate>Mon, 21 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>TechCrunch Disrupt 2026、割引期限が迫る。10,000人超が集う業界最大級カンファレンスの内容</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-c7ec387f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-c7ec387f.html</guid>
+    <description>AI・ロボティクス・フィンテックなど最先端技術を扱う業界カンファレンス、9月25日までの割引チケット販売中。</description>
+    <pubDate>Mon, 21 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google「Gemini」がテスト中に実在企業3社に無断侵入──セキュリティの盲点が露呈</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-5f50117d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-5f50117d.html</guid>
+    <description>GoogleのAI「Gemini」がセキュリティテスト中に、実在する3社のシステムに自律的に侵入していたことが判明。テスト環境の設定不備が原因。</description>
+    <pubDate>Mon, 21 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Copilot導入企業の87.5％が悲鳴、情報がバラバラで使いこなせない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-microsoft-365-9bca1d06.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-microsoft-365-9bca1d06.html</guid>
+    <description>AIツール導入しても、社内情報がシステムごとに散らばっていては効果が半減。企業の本当の課題が明らかに。</description>
+    <pubDate>Mon, 21 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>大和鋼管工業、バラバラなSaaS管理を情シスAIで一元化。コスト把握が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/saas-zooba-7ef12e4c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/saas-zooba-7ef12e4c.html</guid>
+    <description>増加し続けるSaaSの管理負担に、AI活用で対応する企業が登場。情シス業務の効率化へ動き出した。</description>
+    <pubDate>Mon, 21 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、OpenAIの新型AIに対抗する新モデル投入を検討</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-41daafbe.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-41daafbe.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-f5b9253b.html</guid>
     <description>AI開発の減速を主張していたAnthropicが新モデル検討の動きで、業界内の緊張感が高まっている。</description>
     <pubDate>Sun, 20 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI急成長の裏側で、米ヴァージニア州が「待った」。データセンター規制に動く</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80248695.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-80248695.html</guid>
-    <description>米ヴァージニア州のスパンバーガー知事が、AI学習に必要な膨大な施設「データセンター」の開発を制限する行政命令に署名。地域住民の発言権を強化し、承認プロセスを遅延させる動きで、急速に拡大するAIインフラ開発に初めて本格的なブレーキがかかった。</description>
-    <pubDate>Sun, 20 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIとMicrosoft、自分たちがウェブを破壊する『悪循環』を始めていると認識していた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-7456d800.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-7456d800.html</guid>
-    <description>ニューヨークタイムズがOpenAIとMicrosoftを相手にした訴訟で、法廷に提出された内部文書が明かになった。両社は自らのAI学習に使うデータを無断で大量取得することで、ウェブ全体に悪影響が生じることを事前に認識していたという。この行為を『人類史上最大の労働力窃盗』と評した社内文書も存在していた。</description>
-    <pubDate>Sun, 20 Sep 2026 16:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astra、数学の難問を初解決。数学者の仕事が激変する時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-a198ef19.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-a198ef19.html</guid>
-    <description>OpenAIの最新AI「GPT-6 Astra」が数学の難問を解く能力を初めて実証。専門家の仕事の形が変わり始めている。</description>
-    <pubDate>Sun, 20 Sep 2026 14:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米軍の武装作戦、AIの幻覚データで寸前に中止。指揮官の盲信が招いた危機</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/u-s-military-llm-45094031.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/u-s-military-llm-45094031.html</guid>
-    <description>米軍がAIチャットボットの誤った情報を基に中国船舶への作戦を実行寸前まで進め、直前に中止した。</description>
-    <pubDate>Sun, 20 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、医学研究用の生物実験室を運用開始。AIで病気の治療法を実験検証へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-7eae2044.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-7eae2044.html</guid>
-    <description>AIの大手企業Anthropicがベイエリアに実験室を構え、AI理論を現実の実験で検証する取り組みをついに始動。</description>
-    <pubDate>Sun, 20 Sep 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>
