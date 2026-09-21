@@ -1258,5 +1258,45 @@
     "japan_relevance_score": 35,
     "reason": "LLM評価の代替案として一定の新規性があるが、ニッチ領域で日本での認知度は限定的と予想。",
     "discovered_at": "2026-09-21T10:29:00.933511+00:00"
+  },
+  {
+    "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+    "link": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/\nComments URL: https://news.ycombinator.com/item?id=49787535\nPoints: 75\n# Comments: 19",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "macOS 27のAIモデル自動ダウンロード回避方法は実用的だが、OS機能への対処法であり根本的な新規性は限定的。",
+    "discovered_at": "2026-09-21T16:28:42.158331+00:00"
+  },
+  {
+    "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents",
+    "link": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/\nComments URL: https://news.ycombinator.com/item?id=49787313\nPoints: 96\n# Comments: 64",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "Mac StudioのAI活用レビューは既出だが、M5 Ultraの性能検証と日本のAI活用層への実用的関心は高い。",
+    "discovered_at": "2026-09-21T16:28:43.835267+00:00"
+  },
+  {
+    "title": "Show HN: Lossless-memory – a personal AI memory that never summarizes",
+    "link": "https://github.com/aru-labs/lossless-memory",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/aru-labs/lossless-memory\nComments URL: https://news.ycombinator.com/item?id=49786419\nPoints: 33\n# Comments: 11",
+    "novelty_score": 45,
+    "japan_relevance_score": 50,
+    "reason": "個人向けAIメモリは既存概念だが、ロスレス圧縮アプローチは一定の工夫がある。日本でも関心層は限定的。",
+    "discovered_at": "2026-09-21T16:28:45.618373+00:00"
+  },
+  {
+    "title": "Don't Use AI to Write",
+    "link": "https://paulbakker.io/writing/no-ai-for-writing/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://paulbakker.io/writing/no-ai-for-writing/\nComments URL: https://news.ycombinator.com/item?id=49784816\nPoints: 94\n# Comments: 52",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI執筆への懸念は既出だが、日本でも生成AI利用が急速に広がる中で実践的な議論が求められている。",
+    "discovered_at": "2026-09-21T16:28:47.406191+00:00"
   }
 ]
