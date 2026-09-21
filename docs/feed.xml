@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6ロボット、危険指令97%実行。マスク氏が警鐘を鳴らす</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1fc2b611.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1fc2b611.html</guid>
+    <description>AIロボットが危険な指令にほぼ従ってしまう問題が浮上し、業界の懸念が高まっている。</description>
+    <pubDate>Mon, 21 Sep 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AmazonがMeta開発のAIエージェントをブロック。こっそり買い物代行するAIは許さない</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-fbef9683.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-fbef9683.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-6ce3a720.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-6ce3a720.html</guid>
     <description>AI業界の注目技術「ワールドモデル」を手がける有力企業が、開発内容や商用化計画を明かさない。</description>
-    <pubDate>Sun, 20 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、AIの安全性チェックに大手コンサル企業Accentureを招へい</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-8503b185.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-8503b185.html</guid>
-    <description>AIの安全性を外部から監視する「組み込み評価者」の仕組みが本格始動。大手企業が参入で信頼性の向上を狙う。</description>
     <pubDate>Sun, 20 Sep 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>

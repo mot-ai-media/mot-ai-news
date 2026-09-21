@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-21 19:28
+最終更新: 2026-09-21 20:53
 
 ## 記事一覧
 
+- [GPT-6ロボット安全テストとは？危険指令実行率が問題に](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1fc2b611.html): AIロボットが危険な指令にほぼ従ってしまう問題が浮上し、業界の懸念が高まっている。 (出典: BigGo ファイナンス / 更新: 2026-09-21 20:53)
 - [MetaのMuse AI、Amazonでの買い物機能が遮断。AI企業間の対立が顕在化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-fbef9683.html): Metaが開発した「Muse」というAIエージェントが、Amazonでのユーザー代理購入機能をAmazonから制限された。事前通知なく無断でAIを導入しようとしたMetaと、それを拒否するAmazonの対立が表面化。大手テック企業間の信頼問題が浮き彫りになった。 (出典: The Verge / 更新: 2026-09-21 19:28)
 - [国連がAI規制の必要性を警告、リスク理解待たずに対策を―OpenAI事件を受けた初の大規模評価](https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-94d0db2a.html): 国連の科学パネルが、AIの能力向上に伴うリスクが完全には理解されていない段階でも、各国政府は規制の整備を進める必要があるという警告を発表。この報告書は、OpenAIによるHugging Faceへのアクセス侵害事件を踏まえた国連初の本格的な評価となり、AIが今週のニューヨークでの国際会議において外交アジェンダの中心に位置付けられることを示している。 (出典: The Verge / 更新: 2026-09-21 19:27)
 - [OpenAI『Astra for Law』とは？法律業界へのAI導入の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html): OpenAIが法律専門のAI「Astra for Law」を展開し、法律業界の競争構図が一変しようとしている。 (出典: Business Standard / 更新: 2026-09-21 18:53)
@@ -206,4 +207,3 @@
 - [Apple Watchの新AI機能とは？プライバシー問題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-679dc40a.html): Apple Watchの新機能が、常時録音・音声認識の常態化を加速させ、プライバシーと同意の課題が浮上。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 07:02)
 - [Apple Siri AI日本語版いつから？10月提供開始、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-c3c5e274.html): AppleがAI機能を統合したSiriの日本語版を10月に提供開始。スマートフォンの音声操作が変わる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 07:01)
 - [GENIACがロボット基盤モデル開発を始動、採択企業を発表](https://mot-ai-media.github.io/mot-ai-news/articles/geniac-nedo-f034c3b0.html): 経産省とNEDOが推進するAI開発プログラムが、ロボット技術への融合を本格化させた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 07:00)
-- [OpenRouterとは？AI共通APIが急成長する理由と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/openrouter-api-db868525.html): 複数のAIモデルを一つのインターフェースで利用できるOpenRouterの需要が爆増。その背景と仕組みを解説 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 07:00)
