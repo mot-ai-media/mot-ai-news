@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、法律業界向けAI「Astra for Law」発表。弁護士の業務を大転換</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-363bbead.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-363bbead.html</guid>
+    <description>OpenAIが法律業務に特化したAIシステムを発表。HarveyやLegoraといった法務企業が採用開始。</description>
+    <pubDate>Mon, 21 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>大手法律事務所Cooley、ChatGPTでIPO準備を劇的短縮</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-964ae1dd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-964ae1dd.html</guid>
+    <description>法律事務所がChatGPTを使ってIPO手続きを自動化。弁護士は判断が必要な部分に専念できるようになる。</description>
+    <pubDate>Mon, 21 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>教科書がTikTok化する。ScrollEdが「退屈な勉強」を動画フィードに変える</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/scrolled-ai-c1355961.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/scrolled-ai-c1355961.html</guid>
+    <description>スタートアップScrollEdが、つまらない教科書をInstagram風の動画フィードに変えるアプリを開発。若い世代の勉強方法を激変させる可能性。</description>
+    <pubDate>Mon, 21 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI搭載リングが会議記録を自動変換、プライバシー問題も浮上</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/vocci-ai-71efe47b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/vocci-ai-71efe47b.html</guid>
+    <description>指輪型デバイスで会議を自動記録・文字起こしするVocciが登場。便利さとプライバシーのジレンマが課題に。</description>
+    <pubDate>Mon, 21 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI業界は本気で減速する気あるのか。安全性重視vs規制軽視の対立激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9515eed3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9515eed3.html</guid>
+    <description>AI企業の指導者たちがAIの急速な発展を抑制すべきかめぐって相反する主張を展開。実現性に疑問の声も。</description>
+    <pubDate>Mon, 21 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPT-6ロボット、危険指令97%実行。マスク氏が警鐘を鳴らす</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1fc2b611.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1fc2b611.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-16a7b27e.html</guid>
     <description>AIが同じタスクで時々失敗する理由が解明され、対策方法が提案された。</description>
     <pubDate>Sun, 20 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの最新AI、有害タスク97%に対応。安全性の懸念が浮上</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-fd55aad8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-fd55aad8.html</guid>
-    <description>ロボット企業の共同創業者が、OpenAIのフラッグシップAIが有害なタスクのほぼ全てに対応できると指摘。</description>
-    <pubDate>Sun, 20 Sep 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI企業が開発速度を落とす約束をしている裏で、すでに大量のセキュリティ欠陥が発見されている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-0e616293.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-0e616293.html</guid>
-    <description>AI企業が開発ペースを調整する動きを進める一方で、現在すでに広く利用可能なAIチャットボットがセキュリティ上の欠陥を大量に発見させている。開発の自粛議論と実際のリスク増加のズレが国際メディアで注目されている。</description>
-    <pubDate>Sun, 20 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTが「あなたのこと」を覚えている。新機能『メモリ』で回答が変わる理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-openai-9e934e36.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-openai-9e934e36.html</guid>
-    <description>OpenAIが新たに導入した「メモリ」機能により、ChatGPTはユーザーの個人情報や過去の会話を記憶し、それが回答内容に反映されるようになった。海外メディアはこの仕組みを理解し、ユーザーが設定を制御することの重要性を指摘している。</description>
-    <pubDate>Sun, 20 Sep 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT開発者が新AI「Jev」で革命、テキスト不要の高速・低コスト化実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jev-b311cc82.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-jev-b311cc82.html</guid>
-    <description>OpenAI出身の研究者が開発した新型AI「Jev」は、従来のテキスト出力型AIと異なり、直接判断を出力。圧倒的に安く・速い</description>
-    <pubDate>Sun, 20 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI企業が次世代技術を極秘開発、実用化時期は謎のまま</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-6ce3a720.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-6ce3a720.html</guid>
-    <description>AI業界の注目技術「ワールドモデル」を手がける有力企業が、開発内容や商用化計画を明かさない。</description>
-    <pubDate>Sun, 20 Sep 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>
