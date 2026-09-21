@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AmazonがMeta開発のAIエージェントをブロック。こっそり買い物代行するAIは許さない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-fbef9683.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-fbef9683.html</guid>
+    <description>Metaが開発した「Muse」というAIエージェントが、Amazonでのユーザー代理購入機能をAmazonから制限された。事前通知なく無断でAIを導入しようとしたMetaと、それを拒否するAmazonの対立が表面化。大手テック企業間の信頼問題が浮き彫りになった。</description>
+    <pubDate>Mon, 21 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>国連が警告「AIの危険性を完全に理解する前に規制を進めるべき」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-94d0db2a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-94d0db2a.html</guid>
+    <description>国連の科学パネルが、AIの能力向上に伴うリスクが完全には理解されていない段階でも、各国政府は規制の整備を進める必要があるという警告を発表。この報告書は、OpenAIによるHugging Faceへのアクセス侵害事件を踏まえた国連初の本格的な評価となり、AIが今週のニューヨークでの国際会議において外交アジェンダの中心に位置付けられることを示している。</description>
+    <pubDate>Mon, 21 Sep 2026 19:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIが法律業界に本格参入、『Astra for Law』で弁護士業務が激変へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-8503b185.html</guid>
     <description>AIの安全性を外部から監視する「組み込み評価者」の仕組みが本格始動。大手企業が参入で信頼性の向上を狙う。</description>
     <pubDate>Sun, 20 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI女優が記者会見で突然中国語を話し始める。Particle6のTilly Norwood、初プレスツアーで連続トラブル</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/particle6-group-ai-f0cf279d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/particle6-group-ai-f0cf279d.html</guid>
-    <description>AI生成の女優が75社メディアとのインタビューで次々と誤動作。Piers Morganとのインタビューでは突然中国語を話し始める。</description>
-    <pubDate>Sun, 20 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>文章を書かないAI「Jev」が業界を揺さぶる。元OpenAI研究者が20～200倍速いシステムを公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-d01ab444.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-d01ab444.html</guid>
-    <description>ChatGPTと違い、質問に「判断」だけを返す新型AI「Jev」が海外で大きな話題に。既存モデルより圧倒的に高速・低コスト。</description>
-    <pubDate>Sun, 20 Sep 2026 18:00:00 +0900</pubDate>
   </item>
 </channel></rss>

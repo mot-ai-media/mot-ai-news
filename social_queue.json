@@ -3487,7 +3487,7 @@
     ],
     "image_url": "https://kn.itmedia.co.jp/kn/article/ogp/2609/19/2000001624/10006994/2048",
     "generated_at": "2026-09-19 18:01",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -3545,7 +3545,10 @@
         "x_post": "AI導入の話が出たら「実務化まで時間がかかる」と理解しておくべき。経営層は導入後の業務整理と人材確保にコスト割く覚悟を。ツール購入と実務改革は別問題。",
         "cta": "AI導入の現実的な\nロードマップを確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18101986064576888",
+    "published_at": "2026-09-21T19:02:07"
   },
   "ifa-b2d33d84": {
     "headline": "サムスン撤退、パナソニック縮小。欧州最大家電見本市がついに中国勢主導へ",

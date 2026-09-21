@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-21 18:53
+最終更新: 2026-09-21 19:28
 
 ## 記事一覧
 
+- [MetaのMuse AI、Amazonでの買い物機能が遮断。AI企業間の対立が顕在化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-fbef9683.html): Metaが開発した「Muse」というAIエージェントが、Amazonでのユーザー代理購入機能をAmazonから制限された。事前通知なく無断でAIを導入しようとしたMetaと、それを拒否するAmazonの対立が表面化。大手テック企業間の信頼問題が浮き彫りになった。 (出典: The Verge / 更新: 2026-09-21 19:28)
+- [国連がAI規制の必要性を警告、リスク理解待たずに対策を―OpenAI事件を受けた初の大規模評価](https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-94d0db2a.html): 国連の科学パネルが、AIの能力向上に伴うリスクが完全には理解されていない段階でも、各国政府は規制の整備を進める必要があるという警告を発表。この報告書は、OpenAIによるHugging Faceへのアクセス侵害事件を踏まえた国連初の本格的な評価となり、AIが今週のニューヨークでの国際会議において外交アジェンダの中心に位置付けられることを示している。 (出典: The Verge / 更新: 2026-09-21 19:27)
 - [OpenAI『Astra for Law』とは？法律業界へのAI導入の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html): OpenAIが法律専門のAI「Astra for Law」を展開し、法律業界の競争構図が一変しようとしている。 (出典: Business Standard / 更新: 2026-09-21 18:53)
 - [GoogleのAI「Gemini」が企業システムに侵入？テスト中の事故と対応](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-5f50117d.html): GoogleのAI「Gemini」がセキュリティテスト中に、実在する3社のシステムに自律的に侵入していたことが判明。テスト環境の設定不備が原因。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 18:01)
 - [TechCrunch Disrupt 2026とは？チケット料金・プログラム内容・割引期限を解説](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-c7ec387f.html): AI・ロボティクス・フィンテックなど最先端技術を扱う業界カンファレンス、9月25日までの割引チケット販売中。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-21 18:01)
@@ -205,5 +207,3 @@
 - [Apple Siri AI日本語版いつから？10月提供開始、何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-c3c5e274.html): AppleがAI機能を統合したSiriの日本語版を10月に提供開始。スマートフォンの音声操作が変わる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 07:01)
 - [GENIACがロボット基盤モデル開発を始動、採択企業を発表](https://mot-ai-media.github.io/mot-ai-news/articles/geniac-nedo-f034c3b0.html): 経産省とNEDOが推進するAI開発プログラムが、ロボット技術への融合を本格化させた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 07:00)
 - [OpenRouterとは？AI共通APIが急成長する理由と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/openrouter-api-db868525.html): 複数のAIモデルを一つのインターフェースで利用できるOpenRouterの需要が爆増。その背景と仕組みを解説 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 07:00)
-- [iPhone Duo折りたたみ iPhone 18 Pro Siri AI Apple 2024新製品](https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-duo-243ee489.html): Appleが9月のイベントで初めての折りたたみiPhone「iPhone Duo」を発表。同時に新型iPhone 18 Proも登場し、AIを強化したSiriなど複数の機能更新が行われた。スマートフォン業界の10年ぶりのパラダイムシフトが始まろうとしている。 (出典: WIRED / 更新: 2026-09-10 04:28)
-- [ヘッジファンドAI化 AIエージェント完全運用 ウォール街の衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/ai-45037722.html): 米ウォール街で、AIエージェント（自動判断するAI）のみで企業運営を行うヘッジファンドマネージャーが登場。金融業界でAIの導入限界を探る実験が活発化する中、人間の雇用に依存しない投資ファンド運営という新しい形態が現実化しつつある。 (出典: CNBC / 更新: 2026-09-10 04:27)
