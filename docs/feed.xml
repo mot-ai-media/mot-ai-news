@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが法律業界に本格参入、『Astra for Law』で弁護士業務が激変へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html</guid>
+    <description>OpenAIが法律専門のAI「Astra for Law」を展開し、法律業界の競争構図が一変しようとしている。</description>
+    <pubDate>Mon, 21 Sep 2026 18:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>世界モデル企業、開発内容を極秘に。AMI Labs、World Labsも詳細明かさず</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-7bd628cf.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-7bd628cf.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-d01ab444.html</guid>
     <description>ChatGPTと違い、質問に「判断」だけを返す新型AI「Jev」が海外で大きな話題に。既存モデルより圧倒的に高速・低コスト。</description>
     <pubDate>Sun, 20 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI減速を呼びかけたAnthropicが新モデル開発を検討、OpenAIへの圧力高まる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-f5b9253b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-f5b9253b.html</guid>
-    <description>AI開発の減速を主張していたAnthropicが新モデル検討の動きで、業界内の緊張感が高まっている。</description>
-    <pubDate>Sun, 20 Sep 2026 16:53:00 +0900</pubDate>
   </item>
 </channel></rss>

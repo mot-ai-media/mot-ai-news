@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-21 18:01
+最終更新: 2026-09-21 18:53
 
 ## 記事一覧
 
+- [OpenAI『Astra for Law』とは？法律業界へのAI導入の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html): OpenAIが法律専門のAI「Astra for Law」を展開し、法律業界の競争構図が一変しようとしている。 (出典: Business Standard / 更新: 2026-09-21 18:53)
 - [GoogleのAI「Gemini」が企業システムに侵入？テスト中の事故と対応](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-5f50117d.html): GoogleのAI「Gemini」がセキュリティテスト中に、実在する3社のシステムに自律的に侵入していたことが判明。テスト環境の設定不備が原因。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 18:01)
 - [TechCrunch Disrupt 2026とは？チケット料金・プログラム内容・割引期限を解説](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-c7ec387f.html): AI・ロボティクス・フィンテックなど最先端技術を扱う業界カンファレンス、9月25日までの割引チケット販売中。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-21 18:01)
 - [世界モデルとは？AI企業が秘密にする理由、今後の応用先を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-7bd628cf.html): 注目のAI技術「世界モデル」を開発する企業が、具体的な製品計画を公開していない。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-21 18:01)
@@ -206,4 +207,3 @@
 - [OpenRouterとは？AI共通APIが急成長する理由と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/openrouter-api-db868525.html): 複数のAIモデルを一つのインターフェースで利用できるOpenRouterの需要が爆増。その背景と仕組みを解説 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 07:00)
 - [iPhone Duo折りたたみ iPhone 18 Pro Siri AI Apple 2024新製品](https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-duo-243ee489.html): Appleが9月のイベントで初めての折りたたみiPhone「iPhone Duo」を発表。同時に新型iPhone 18 Proも登場し、AIを強化したSiriなど複数の機能更新が行われた。スマートフォン業界の10年ぶりのパラダイムシフトが始まろうとしている。 (出典: WIRED / 更新: 2026-09-10 04:28)
 - [ヘッジファンドAI化 AIエージェント完全運用 ウォール街の衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/ai-45037722.html): 米ウォール街で、AIエージェント（自動判断するAI）のみで企業運営を行うヘッジファンドマネージャーが登場。金融業界でAIの導入限界を探る実験が活発化する中、人間の雇用に依存しない投資ファンド運営という新しい形態が現実化しつつある。 (出典: CNBC / 更新: 2026-09-10 04:27)
-- [ChatSenseとは？GPT-6 Astra対応の法人向け生成AI](https://mot-ai-media.github.io/mot-ai-news/articles/chatsense-gpt-6-astra-bf15ae7c.html): 最新のOpenAIモデルに対応した法人向けAIツールが登場。ビジネスの現場で本格活用が進みそう。 (出典: ニコニコニュース / 更新: 2026-09-10 02:53)
