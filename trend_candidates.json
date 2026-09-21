@@ -1,135 +1,5 @@
 [
   {
-    "title": "Poetry book that Anthropic tried to censor",
-    "link": "https://kk.org/cooltools/the-1930-poetry-book-that-anthropic-tried-to-censor/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://kk.org/cooltools/the-1930-poetry-book-that-anthropic-tried-to-censor/\nComments URL: https://news.ycombinator.com/item?id=49577244\nPoints: 32\n# Comments: 16",
-    "novelty_score": 62,
-    "japan_relevance_score": 35,
-    "reason": "AI企業の検閲問題は新規だが、1930年代の詩集という限定的な事例で、日本での波及性は低い。",
-    "discovered_at": "2026-09-06T13:29:13.375385+00:00"
-  },
-  {
-    "title": "AMD unveils Threadripper Halo Station, an AI workstation packing 96 cores",
-    "link": "https://www.tomshardware.com/pc-components/cpus/amd-unveils-threadripper-halo-station-an-ai-workstation-packing-96-cores-and-dual-liquid-cooled-mi350p-accelerators-the-most-powerful-workstation-in-the-world-can-run-trillion-parameter-models-says-amd",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.tomshardware.com/pc-components/cpus/amd-unveils-threadripper-halo-station-an-ai-workstation-packing-96-cores-and-dual-liquid-cooled-mi350p-accelerators-the-most-powerful-workstation-in-the-world-can-run-trillion-parameter-models-says-amd\nComments URL: https://news.ycombinator.com/item?id=49576187\nPoints: 29\n# Comments: 9",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AIワークステーション市場の競争激化は注目だが、高級機種の発表自体は既出パターン。日本ではAI活用需要の高まりで関連性あり。",
-    "discovered_at": "2026-09-06T13:29:15.500504+00:00"
-  },
-  {
-    "title": "AI handles incidents, engineers lose touch with their systems",
-    "link": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems\nComments URL: https://news.ycombinator.com/item?id=49574167\nPoints: 388\n# Comments: 334",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "AI運用の懸念は既出だが、エンジニアのスキル低下という実践的課題は日本でも急速に重要化する。",
-    "discovered_at": "2026-09-06T13:29:17.443179+00:00"
-  },
-  {
-    "title": "Anthropic & friends caught paying religious NGO's 3.3M for propaganda",
-    "link": "https://www.effort.news/revelation",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.effort.news/revelation\nComments URL: https://news.ycombinator.com/item?id=49573677\nPoints: 51\n# Comments: 23",
-    "novelty_score": 45,
-    "japan_relevance_score": 35,
-    "reason": "大手AI企業の資金配分問題だが、具体的な根拠や詳細情報が不十分で、日本での関心も限定的と判断。",
-    "discovered_at": "2026-09-06T13:29:19.296576+00:00"
-  },
-  {
-    "title": "Tetris issues legal warning after White House releases arcade of parody games",
-    "link": "https://www.dexerto.com/gaming/tetris-issues-legal-warning-after-white-house-releases-arcade-full-of-parody-games-3405931/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.dexerto.com/gaming/tetris-issues-legal-warning-after-white-house-releases-arcade-full-of-parody-games-3405931/\nComments URL: https://news.ycombinator.com/item?id=49572610\nPoints: 54\n# Comments: 7",
-    "novelty_score": 42,
-    "japan_relevance_score": 35,
-    "reason": "企業の法的警告という定番の展開だが、ホワイトハウスのパロディゲームという珍しい文脈が新規性を持つ。",
-    "discovered_at": "2026-09-06T13:29:21.090475+00:00"
-  },
-  {
-    "title": "I Feel about AI",
-    "link": "https://beza1e1.tuxen.de/ai_feelings.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://beza1e1.tuxen.de/ai_feelings.html\nComments URL: https://news.ycombinator.com/item?id=49587128\nPoints: 110\n# Comments: 100",
-    "novelty_score": 35,
-    "japan_relevance_score": 42,
-    "reason": "AI感情論は既出テーマだが、個人の主観的視点による新しい切り口の可能性がある。",
-    "discovered_at": "2026-09-06T16:29:08.609292+00:00"
-  },
-  {
-    "title": "Fermat's Last Theorem: Anthropic has beaten me to it",
-    "link": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/\nComments URL: https://news.ycombinator.com/item?id=49570133\nPoints: 41\n# Comments: 2",
-    "novelty_score": 35,
-    "japan_relevance_score": 28,
-    "reason": "数学の定理証明のAI応用は新規だが、学術的な話題で一般向けニュース性に乏しく、日本での関心も限定的と見られる。",
-    "discovered_at": "2026-09-06T16:29:10.526673+00:00"
-  },
-  {
-    "title": "Can AI design circuit boards yet?",
-    "link": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://eebench.org/blog/can-ai-design-circuit-boards-yet/\nComments URL: https://news.ycombinator.com/item?id=49569366\nPoints: 413\n# Comments: 226",
-    "novelty_score": 62,
-    "japan_relevance_score": 75,
-    "reason": "AI による回路設計自動化は急速に進展中で、エレクトロニクス産業の日本企業にも重要な技術トレンド。",
-    "discovered_at": "2026-09-06T16:29:12.477642+00:00"
-  },
-  {
-    "title": "Nobody is saying why OpenAI and Anthropic had outages",
-    "link": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
-    "source": "Hacker News",
-    "summary": "https://archive.ph/3zcMG\n\nComments URL: https://news.ycombinator.com/item?id=49567594\nPoints: 206\n# Comments: 4",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "大手AI企業の障害は注目度高いが、原因不明という報道自体は珍しくなく、詳細情報が限定的。",
-    "discovered_at": "2026-09-06T16:29:14.278364+00:00"
-  },
-  {
-    "title": "Corporate America is getting hooked on open-source AI",
-    "link": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
-    "source": "Hacker News",
-    "summary": "https://archive.is/kmOqm\n\nComments URL: https://news.ycombinator.com/item?id=49566137\nPoints: 329\n# Comments: 303",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "企業のオープンソースAI採用は既知のトレンドだが、日本企業の戦略転換を考える上で重要な示唆を含む。",
-    "discovered_at": "2026-09-06T16:29:16.170411+00:00"
-  },
-  {
-    "title": "Research acceleration: The view inside OpenAI",
-    "link": "https://openai.com/index/research-acceleration-view-inside-openai",
-    "source": "Hacker News",
-    "summary": "Article URL: https://openai.com/index/research-acceleration-view-inside-openai\nComments URL: https://news.ycombinator.com/item?id=49587217\nPoints: 58\n# Comments: 35",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "OpenAIの内部情報は注目度高いが、公式ブログ記事のため新規性は限定的。日本でも生成AI関心層には影響力あり。",
-    "discovered_at": "2026-09-06T19:28:43.723914+00:00"
-  },
-  {
-    "title": "GOP issues stark warning to AI companies",
-    "link": "https://www.axios.com/2026/08/19/gop-data-center-memo-ai-election",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.axios.com/2026/08/19/gop-data-center-memo-ai-election\nComments URL: https://news.ycombinator.com/item?id=49591782\nPoints: 22\n# Comments: 15",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "米国政治とAIの関係性は既出だが、GOP からの具体的警告は注目度が限定的で、HN での反応も低調。",
-    "discovered_at": "2026-09-07T04:29:11.139135+00:00"
-  },
-  {
-    "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
-    "link": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/\nComments URL: https://news.ycombinator.com/item?id=49585644\nPoints: 594\n# Comments: 391",
-    "novelty_score": 45,
-    "japan_relevance_score": 75,
-    "reason": "LLM利用時の知的誠実性について既に議論されているテーマだが、日本でも生成AI時代の執筆倫理として今後重要性が高まる可能性がある。",
-    "discovered_at": "2026-09-07T04:29:13.222859+00:00"
-  },
-  {
     "title": "Tesla killing Solar Roof is leaving installers with six-figure losses",
     "link": "https://electrek.co/2026/09/01/tesla-solar-roof-exit-installers-losses/",
     "source": "Hacker News",
@@ -1278,5 +1148,55 @@
     "japan_relevance_score": 55,
     "reason": "AI統合デスクトップの概念自体は既出だが、KDE30周年での具体的提案は注目度あり。",
     "discovered_at": "2026-09-20T13:29:05.456806+00:00"
+  },
+  {
+    "title": "Can I Let My AI Agent Run on Shabbat?",
+    "link": "https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm\nComments URL: https://news.ycombinator.com/item?id=49782242\nPoints: 26\n# Comments: 12",
+    "novelty_score": 45,
+    "japan_relevance_score": 25,
+    "reason": "宗教的規範とAI技術の融合という興味深いテーマだが、ユダヤ教特有の議論であり日本での関心は限定的。",
+    "discovered_at": "2026-09-21T04:52:51.599757+00:00"
+  },
+  {
+    "title": "Not all AI workers think the tech could kill everyone",
+    "link": "https://www.bbc.com/news/articles/cm5y7qj54klpo",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bbc.com/news/articles/cm5y7qj54klpo\nComments URL: https://news.ycombinator.com/item?id=49780704\nPoints: 21\n# Comments: 19",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI安全性議論は既出だが、労働者視点の多様な見方は相対的に新しく、日本でも労働への影響議論が高まる中で関連性がある。",
+    "discovered_at": "2026-09-21T04:52:53.466937+00:00"
+  },
+  {
+    "title": "I stopped drinking the AI Kool-Aid",
+    "link": "https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/\nComments URL: https://news.ycombinator.com/item?id=49780162\nPoints: 61\n# Comments: 43",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI過度な期待への懐疑論は既出だが、実務者による具体的な失敗事例は参考価値がある。",
+    "discovered_at": "2026-09-21T04:52:56.393083+00:00"
+  },
+  {
+    "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
+    "link": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/\nComments URL: https://news.ycombinator.com/item?id=49779802\nPoints: 48\n# Comments: 57",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI規制の国際的議論が進む中、OpenAIが国連で発言する事例は注目度があるが、既に類似の国際的動きは複数存在。",
+    "discovered_at": "2026-09-21T04:52:59.587146+00:00"
+  },
+  {
+    "title": "Andrew Ng: AI Extinction Fears Are 'Science Fiction'",
+    "link": "https://www.youtube.com/watch?v=KnckQp-c388",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.youtube.com/watch?v=KnckQp-c388\nComments URL: https://news.ycombinator.com/item?id=49778367\nPoints: 20\n# Comments: 3",
+    "novelty_score": 25,
+    "japan_relevance_score": 55,
+    "reason": "AI安全性についての既出議論であり、著名人の意見表明に過ぎず、新規性に乏しい。",
+    "discovered_at": "2026-09-21T04:53:01.329423+00:00"
   }
 ]
