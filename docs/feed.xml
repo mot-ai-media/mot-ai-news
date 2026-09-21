@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AppleのMac Mini M6チップ登場、AI活用の「敷居」が家庭用に一気に下がる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-mini-6c5e1a1b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-mini-6c5e1a1b.html</guid>
+    <description>Appleが新型Mac MiniにAI機能を重視した最新チップM6を搭載。これまでAI活用は高価な専用機器が必要とされてきたが、手頃な価格のMacでも本格的なAI処理が可能になる可能性が指摘されている。</description>
+    <pubDate>Mon, 21 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>122万円のMac StudioがAI処理で圧倒的な性能を発揮。Appleの本気がみえた</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-m5-ultra-mac-studio-6803d737.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-m5-ultra-mac-studio-6803d737.html</guid>
+    <description>Appleが発表したハイエンドMac Studio（M5 Ultraチップ搭載）が、AI処理の高速化を視野に入れた設計となっていることが海外メディアのテストで判明。従来の映像編集や3Dモデリングではなく、AI実行環境として最適化されている点が注目されている。</description>
+    <pubDate>Mon, 21 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、法律業界向けAI「Astra for Law」発表。弁護士の業務を大転換</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-363bbead.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-363bbead.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-automatic1111-cb50b0c3.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-automatic1111-cb50b0c3.html</guid>
     <description>Hugging Faceが画像生成の定番ツール「AUTOMATIC1111」の機能をWorkflowで完全再現。誰でも試せるようになった。</description>
-    <pubDate>Sun, 20 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Hugging Face、AIモデル学習を分散化。LoRA対応で訓練と推論を完全分離</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-d4e55a91.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-trl-d4e55a91.html</guid>
-    <description>Hugging Faceが軽量な学習方式「LoRA」に対応し、AIモデルの訓練と推論を別マシンで運用可能に。学習コストを大幅削減。</description>
-    <pubDate>Sun, 20 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、デモでは成功も本番で失敗する矛盾。その原因と対策が判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-16a7b27e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-16a7b27e.html</guid>
-    <description>AIが同じタスクで時々失敗する理由が解明され、対策方法が提案された。</description>
     <pubDate>Sun, 20 Sep 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>

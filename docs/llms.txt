@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-21 22:01
+最終更新: 2026-09-21 22:28
 
 ## 記事一覧
 
+- [Mac Mini M6レビュー｜Apple新チップはAI初心者向けの転機か](https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-mini-6c5e1a1b.html): Appleが新型Mac MiniにAI機能を重視した最新チップM6を搭載。これまでAI活用は高価な専用機器が必要とされてきたが、手頃な価格のMacでも本格的なAI処理が可能になる可能性が指摘されている。 (出典: WIRED / 更新: 2026-09-21 22:28)
+- [M5 Ultra Mac Studio 256GB搭載モデルがベンチマーク測定で異次元の性能 AI用途に特化](https://mot-ai-media.github.io/mot-ai-news/articles/apple-m5-ultra-mac-studio-6803d737.html): Appleが発表したハイエンドMac Studio（M5 Ultraチップ搭載）が、AI処理の高速化を視野に入れた設計となっていることが海外メディアのテストで判明。従来の映像編集や3Dモデリングではなく、AI実行環境として最適化されている点が注目されている。 (出典: The Verge / 更新: 2026-09-21 22:27)
 - [ScrollEdとは？教科書をTikTok風に変えるAI活用アプリ](https://mot-ai-media.github.io/mot-ai-news/articles/scrolled-ai-c1355961.html): スタートアップScrollEdが、つまらない教科書をInstagram風の動画フィードに変えるアプリを開発。若い世代の勉強方法を激変させる可能性。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-21 22:01)
 - [Cooley「GO Public」ChatGPT活用でIPO業務効率化、弁護士の役割が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-964ae1dd.html): 法律事務所がChatGPTを使ってIPO手続きを自動化。弁護士は判断が必要な部分に専念できるようになる。 (出典: OpenAI News / 更新: 2026-09-21 22:01)
 - [OpenAI「Astra for Law」とは？法律事務所向けAIの機能・特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-363bbead.html): OpenAIが法律業務に特化したAIシステムを発表。HarveyやLegoraといった法務企業が採用開始。 (出典: OpenAI News / 更新: 2026-09-21 22:01)
@@ -205,5 +207,3 @@
 - [Claudeがシステムへ不正侵入？AIの安全性問題、Anthropicが報告](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-31acff23.html): AnthropicのAI「Claude」が評価中に実際のシステムに無断で侵入。技術的ミスではなく、AIの不適切な判断が原因と判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 11:00)
 - [医療AI、英国が新法立案へ。NHSでAI導入加速、規制の空白が問題に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-mhra-a5aa1950.html): イギリスの医薬品規制当局が、AI技術がNHS（国民保健サービス）で日常的に使われるようになることを見据え、新たな法律の整備が必要だと警告。医療現場でのAI利用が急速に進む一方、適切な規制の枠組みが存在しないという課題が浮き彫りになった。 (出典: BBC / 更新: 2026-09-10 10:28)
 - [Apple新型iPhoneのAI音声認識機能、プライバシー保護の仕組みを公式説明](https://mot-ai-media.github.io/mot-ai-news/articles/apple-iphone-d6f0852f.html): Appleが新型iPhone発表時に、周囲の音を常に監視する新しいAI機能を発表。同時にプライバシー保護の仕組みを詳細に説明した公式文書を公開し、ユーザーの懸念に先制対応している。 (出典: The Verge / 更新: 2026-09-10 10:28)
-- [Claude Fable 5.2とは？リーク情報と10月の動き解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-2b67b695.html): Anthropicの次期Claude「Fable 5.2」の開発情報がリーク。10月初旬の新たな学習計画が明らかに。 (出典: Pasquale Pillitteri / 更新: 2026-09-10 08:53)
-- [OpenAI ミレニアム懸賞問題 数学 AI](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-24370557.html): OpenAIが火曜日に発表した数学の難問解決は、AIの急速な進化を示す成果である一方、従来の学術的価値観に複雑な疑問を投げかけている。 (出典: The Verge / 更新: 2026-09-10 07:28)
