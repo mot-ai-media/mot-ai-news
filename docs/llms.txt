@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-21 13:54
+最終更新: 2026-09-21 16:28
 
 ## 記事一覧
 
+- [電力システムサイバー攻撃 人間が最大リスク AIより危険な理由](https://mot-ai-media.github.io/mot-ai-news/articles/d11b6893.html): 電力網などの重要インフラがサイバー攻撃に対して極めて脆弱な状態にあり、その危険性は増加中。海外メディアは『rogue AIによる攻撃』といった話題よりも、現在進行形で起きている人為的なサイバー脅威に警鐘を鳴らしている。 (出典: The Verge / 更新: 2026-09-21 16:28)
+- [トランプ政権がAI czar任命、新組織『AI Force』設立へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-vs-ba91ca58.html): 米国のトランプ大統領がAI開発を推し進めるための新しい政府機関「AI Force」の創設と、これを統括する「AI czar（AI皇帝）」ポストの設置を表明した。AI開発の規制を求める声が業界内外から高まる中、むしろ開発を加速させる姿勢を示した形だ。 (出典: The Verge / 更新: 2026-09-21 16:27)
 - [中小企業向け専用AI「Xブレイン」とは？経営ノウハウの属人化を解決](https://mot-ai-media.github.io/mot-ai-news/articles/x-ai-0d52d08b.html): ベテラン退職で失われる経営ノウハウを、企業専用AIに蓄積。社長の判断から営業現場の知恵まで、会社全体の知識として保存する仕組みが誕生した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 13:54)
 - [AI研修未経験9割なのに習得希望4割超。企業のDX推進に課題](https://mot-ai-media.github.io/mot-ai-news/articles/dx-ai-4b31023f.html): 企業でAI活用が求められる一方、研修機会は限定的。学習意欲と現実のギャップが判明した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 13:54)
 - [iOS 27 Siri AI切り替え機能とは？Claude・ChatGPT対応が判明](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-43e0c03c.html): 次期iOS 27にSiriのAIをClaudeやChatGPTに変更できる仕組みが発見された。一般提供時期は未定。 (出典: au Webポータル / 更新: 2026-09-21 13:53)
@@ -205,5 +207,3 @@
 - [AI基盤施設関連株が高騰 Qualcomm・Corningが契約獲得で市場活況](https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-corning-ce35bf4c.html): AI需要の急速な拡大に伴い、チップやネットワーク機器などのAI関連インフラを手がけるメーカー企業の株価が上昇。業界の好況が、見えない場所で進んでいる。 (出典: CNBC / 更新: 2026-09-09 22:28)
 - [AI データセンター投資で雇用が増えない？英シンクタンクが指摘する真実](https://mot-ai-media.github.io/mot-ai-news/articles/ai-f26a1453.html): 英国でAIインフラへの大規模投資が進む中、業界の雇用創出予想が過大評価されている可能性が指摘された。シンクタンクの分析は、技術産業全体の就業構造に関する従来の見通しに疑問を投げかけている。 (出典: CNBC / 更新: 2026-09-09 22:27)
 - [宇宙での半導体製造とは？Besxarが挑む軌道工場の実現](https://mot-ai-media.github.io/mot-ai-news/articles/besxar-spacex-646e8eb9.html): スタートアップが宇宙での半導体製造に乗り出し、SpaceXロケットで軌道と地上を往復させる新ビジネスモデルを構築。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-09 22:02)
-- [Claudeのトークン盗難被害が発生、ハッカー対策は？](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8910eda6.html): AnthropicのAI「Claude」の有料ユーザーが、ハッカーによるアカウント不正アクセスでトークンを盗まれる被害が報告されている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-09 22:02)
-- [採用AIエージェントとは？自動化できる業務と活用ツール](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-0ffcb38e.html): 採用業務の大半をAIが代行。採用担当者は戦略立案に注力できるように。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-09 22:01)
