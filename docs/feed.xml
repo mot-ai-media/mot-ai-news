@@ -4,17 +4,38 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>AI企業トップが「世界終焉の確率ゼロ」と断定。研究者との意見対立が浮き彫りに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-cb03d7f1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-cb03d7f1.html</guid>
-    <description>AI関連産業で最大の利益を見込むNvidiaのジェンスン・フアンCEOが、AIによる世界滅亡の可能性は「ゼロ」だと米メディアで発言。一方、AIの安全性に懸念を抱く研究者との対立が深まる中、誰を信じるべきか問うメディア報道が広がっている。</description>
+    <title>AI研修9割が未受講、なのに学びたい人4割超。企業の『やる気と機会』のズレが浮き彫り</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dx-ai-4b31023f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dx-ai-4b31023f.html</guid>
+    <description>企業でAI活用が求められる一方、研修機会は限定的。学習意欲と現実のギャップが判明した。</description>
+    <pubDate>Mon, 21 Sep 2026 13:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>社長の頭の中をAIに蓄積、中小企業の「人材喪失」を防ぐ専用AI登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/x-ai-0d52d08b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/x-ai-0d52d08b.html</guid>
+    <description>ベテラン退職で失われる経営ノウハウを、企業専用AIに蓄積。社長の判断から営業現場の知恵まで、会社全体の知識として保存する仕組みが誕生した。</description>
+    <pubDate>Mon, 21 Sep 2026 13:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>NVIDIA CEO、夕食相手の株価が翌日2倍になる。GPU投資マネーの影響力</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-0c575aae.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-0c575aae.html</guid>
+    <description>GPUを巡る巨額マネーがどこに流れるかで企業の運命が左右される現実が浮き彫りに。</description>
     <pubDate>Mon, 21 Sep 2026 13:53:00 +0900</pubDate>
   </item>
   <item>
-    <title>企業が『AI人事部』を本格導入、給与と仕事の自由度が一変する時代が来た</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9c5ece92.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9c5ece92.html</guid>
-    <description>世界の企業が、チャットボットから人型ロボット、自動管理システムまで、あらゆるAIを職場に導入し始めている。その結果、労働者の給与と自主性に大きな影響が及ぼうとしている。</description>
+    <title>トランプ大統領がAI規制に真っ向対立。「脅威論はでっちあげ」と新組織設立</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-ddfac851.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-ddfac851.html</guid>
+    <description>トランプ米大統領がAI担当の新組織を創設すると発表。AI業界の規制に強く反対する姿勢を示す。</description>
+    <pubDate>Mon, 21 Sep 2026 13:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>iOS 27、Siriの脳をClaudeやChatGPTに切り替え可能に。Appleの次の一手が判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-43e0c03c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-43e0c03c.html</guid>
+    <description>次期iOS 27にSiriのAIをClaudeやChatGPTに変更できる仕組みが発見された。一般提供時期は未定。</description>
     <pubDate>Mon, 21 Sep 2026 13:53:00 +0900</pubDate>
   </item>
   <item>
@@ -191,26 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a864cdf7.html</guid>
     <description>AIの安全性をめぐり、大手AI企業のトップ同士が相反する立場を表明。Anthropic CEOが開発ペース抑制の3段階プランを提案した一方で、他のAI企業との意見対立が深刻化している。この対立は規制の方向性と業界全体の成長戦略に大きく影響する可能性がある。</description>
     <pubDate>Sun, 20 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI産業に「独占禁止法の例外」は必要か。米司法省元幹部が投じた問題提起</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-373f3d22.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-373f3d22.html</guid>
-    <description>米司法省の元反トラスト責任者が、AI産業の急速な発展と市場支配の懸念の板挟みの中で、AIが「皆を殺すような」リスクを回避するために独占禁止法の適用除外が必要かもしれないという問題を提起。業界の競争制限と安全性確保のジレンマが浮き彫りに。</description>
-    <pubDate>Sun, 20 Sep 2026 13:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIとAnthropicは本当に危険なのか、AI安全論争が加熱</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-fe6a92ce.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-fe6a92ce.html</guid>
-    <description>AI安全をめぐる有力人物の発言が相次ぎ、事実と推測が混在する状況が明らかに。</description>
-    <pubDate>Sun, 20 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>複数猫の食事管理が激変。Petlibro新型自動給餌器がAIで個別追跡</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/petlibro-ai-9973ec65.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/petlibro-ai-9973ec65.html</guid>
-    <description>AIカメラで複数の猫を個別認識し、食事量・習慣を自動追跡する新型給餌器が登場。多頭飼い家庭の悩みを解決。</description>
-    <pubDate>Sun, 20 Sep 2026 11:01:00 +0900</pubDate>
   </item>
 </channel></rss>
