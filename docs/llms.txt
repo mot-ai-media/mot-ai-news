@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-21 16:28
+最終更新: 2026-09-21 16:53
 
 ## 記事一覧
 
+- [Claude Fable 5.1 vs GPT-5.6 Sol vs GLM-5.3 性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/claude-gpt-776fcf6e.html): 複数の大手AIモデルの最新版が比較検証され、開発競争の実態が浮き彫りに。 (出典: tech-insider.org / 更新: 2026-09-21 16:53)
+- [Anthropic vs OpenAI、AIモデル競争激化の最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-41daafbe.html): AnthropicがOpenAIの最新型AIに対抗するため、新たなモデルの発表を検討している。 (出典: TechCentral / 更新: 2026-09-21 16:53)
 - [電力システムサイバー攻撃 人間が最大リスク AIより危険な理由](https://mot-ai-media.github.io/mot-ai-news/articles/d11b6893.html): 電力網などの重要インフラがサイバー攻撃に対して極めて脆弱な状態にあり、その危険性は増加中。海外メディアは『rogue AIによる攻撃』といった話題よりも、現在進行形で起きている人為的なサイバー脅威に警鐘を鳴らしている。 (出典: The Verge / 更新: 2026-09-21 16:28)
 - [トランプ政権がAI czar任命、新組織『AI Force』設立へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-vs-ba91ca58.html): 米国のトランプ大統領がAI開発を推し進めるための新しい政府機関「AI Force」の創設と、これを統括する「AI czar（AI皇帝）」ポストの設置を表明した。AI開発の規制を求める声が業界内外から高まる中、むしろ開発を加速させる姿勢を示した形だ。 (出典: The Verge / 更新: 2026-09-21 16:27)
 - [中小企業向け専用AI「Xブレイン」とは？経営ノウハウの属人化を解決](https://mot-ai-media.github.io/mot-ai-news/articles/x-ai-0d52d08b.html): ベテラン退職で失われる経営ノウハウを、企業専用AIに蓄積。社長の判断から営業現場の知恵まで、会社全体の知識として保存する仕組みが誕生した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 13:54)
@@ -205,5 +207,3 @@
 - [OpenAI「Astra」とは？PC自動操作・AGIとの関係を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-7dfa7b69.html): OpenAIが新型AI「Astra」を発表。パソコンを自動で操作する能力を持ち、汎用AI実現に向けた大きな一歩と評価される。 (出典: itmedia.co.jp / 更新: 2026-09-10 00:53)
 - [OpenAI Astraとは？企業向けAIエージェント、市場評価に影響](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-9c416eb6.html): OpenAIが発表した新型AIエージェント「Astra」が、企業システム市場の見方を大きく変える可能性を指摘する声が上がっている。 (出典: Seeking Alpha / 更新: 2026-09-09 22:53)
 - [AI基盤施設関連株が高騰 Qualcomm・Corningが契約獲得で市場活況](https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-corning-ce35bf4c.html): AI需要の急速な拡大に伴い、チップやネットワーク機器などのAI関連インフラを手がけるメーカー企業の株価が上昇。業界の好況が、見えない場所で進んでいる。 (出典: CNBC / 更新: 2026-09-09 22:28)
-- [AI データセンター投資で雇用が増えない？英シンクタンクが指摘する真実](https://mot-ai-media.github.io/mot-ai-news/articles/ai-f26a1453.html): 英国でAIインフラへの大規模投資が進む中、業界の雇用創出予想が過大評価されている可能性が指摘された。シンクタンクの分析は、技術産業全体の就業構造に関する従来の見通しに疑問を投げかけている。 (出典: CNBC / 更新: 2026-09-09 22:27)
-- [宇宙での半導体製造とは？Besxarが挑む軌道工場の実現](https://mot-ai-media.github.io/mot-ai-news/articles/besxar-spacex-646e8eb9.html): スタートアップが宇宙での半導体製造に乗り出し、SpaceXロケットで軌道と地上を往復させる新ビジネスモデルを構築。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-09 22:02)

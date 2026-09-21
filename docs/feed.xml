@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、OpenAIの新型AIに対抗する新モデル投入を検討</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-41daafbe.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-41daafbe.html</guid>
+    <description>AnthropicがOpenAIの最新型AIに対抗するため、新たなモデルの発表を検討している。</description>
+    <pubDate>Mon, 21 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude、GPT、GLMが激突。最新AI言語モデルの性能比較が話題に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/claude-gpt-776fcf6e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/claude-gpt-776fcf6e.html</guid>
+    <description>複数の大手AIモデルの最新版が比較検証され、開発競争の実態が浮き彫りに。</description>
+    <pubDate>Mon, 21 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>電力網への最大の脅威は『AI』ではなく『人間』だ──海外専門家が警告する現実</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/d11b6893.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/d11b6893.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-7eae2044.html</guid>
     <description>AIの大手企業Anthropicがベイエリアに実験室を構え、AI理論を現実の実験で検証する取り組みをついに始動。</description>
     <pubDate>Sun, 20 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>スタートアップ育成企業が100億円調達、産業向けAI起業へシフト</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/vantora-ai-23d6e2a4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/vantora-ai-23d6e2a4.html</guid>
-    <description>スタートアップ向け育成企業が大型調達し、企業顧客向けの物理AIスタートアップ立ち上げに経営方針を転換。</description>
-    <pubDate>Sun, 20 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>インド政府がTruecallerに圧力、迷惑電話データを強制開示へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/truecaller-a193c15e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/truecaller-a193c15e.html</guid>
-    <description>インドの通信規制当局がアプリの迷惑電話報告をキャリアに開示することを義務化。Truecallerが反発。</description>
-    <pubDate>Sun, 20 Sep 2026 14:30:00 +0900</pubDate>
   </item>
 </channel></rss>
