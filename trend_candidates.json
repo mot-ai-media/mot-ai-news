@@ -1198,5 +1198,35 @@
     "japan_relevance_score": 55,
     "reason": "AI安全性についての既出議論であり、著名人の意見表明に過ぎず、新規性に乏しい。",
     "discovered_at": "2026-09-21T04:53:01.329423+00:00"
+  },
+  {
+    "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+    "link": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666\nComments URL: https://news.ycombinator.com/item?id=49783062\nPoints: 68\n# Comments: 27",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI信頼性の問題は既知だが、金融領域での具体的な検証結果として日本でも関心高い。",
+    "discovered_at": "2026-09-21T07:28:46.113671+00:00"
+  },
+  {
+    "title": "Pirate Face Rescues LLM Models from Deletion",
+    "link": "https://pirateface.co/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://pirateface.co/\nComments URL: https://news.ycombinator.com/item?id=49776699\nPoints: 531\n# Comments: 143",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "LLMモデルの保存サービス自体は目新しくないが、海賊版対抗という文脈が限定的で、日本での関心は低めと判断。",
+    "discovered_at": "2026-09-21T07:28:47.778874+00:00"
+  },
+  {
+    "title": "Big Tech uses guarantees to keep $300B AI exposure off balance sheets",
+    "link": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563\nComments URL: https://news.ycombinator.com/item?id=49774991\nPoints: 37\n# Comments: 67",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "Big Techの会計操作は既知だが、AI投資規模の具体的な暴露は新しく、日本企業の同様手法にも応用可能な示唆がある。",
+    "discovered_at": "2026-09-21T07:28:49.659040+00:00"
   }
 ]
