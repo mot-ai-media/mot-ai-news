@@ -1228,5 +1228,35 @@
     "japan_relevance_score": 58,
     "reason": "Big Techの会計操作は既知だが、AI投資規模の具体的な暴露は新しく、日本企業の同様手法にも応用可能な示唆がある。",
     "discovered_at": "2026-09-21T07:28:49.659040+00:00"
+  },
+  {
+    "title": "In September, AI generated code has made up 17.25% of all Linux Kernel patches",
+    "link": "https://twitter.com/LundukeJournal/status/2101841277432070210",
+    "source": "Hacker News",
+    "summary": "Article URL: https://twitter.com/LundukeJournal/status/2101841277432070210\nComments URL: https://news.ycombinator.com/item?id=49784366\nPoints: 26\n# Comments: 50",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "AI生成コードのOSS貢献比率は継続的な関心テーマだが、月単位の統計情報は既報多数。",
+    "discovered_at": "2026-09-21T10:28:56.405060+00:00"
+  },
+  {
+    "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+    "link": "https://github.com/volotat/mini-AGI/",
+    "source": "Hacker News",
+    "summary": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation. Before throwing rocks at me, please take a glance at the Readme, and I hope it will cover your mood a little bit.So, first of all it does work and you can see the sample from the whole training run here: https://raw.githubusercontent.com/volotat/mini-AGI/refs/head...Here is the scaling law graph I have so far, and it looks very promising:\nhttps://github.com/volotat/mini-AGI/blob/main/assets/scaling...The model was built under my deep dissatisfaction so we cannot really train even moderately big models (1B+ scale) on the consumer's hardware. We can inference and fine-tune them for sure, but I would like to have full control over what the model sees over the training run, so it is fully aligned with my interests, not some corporations.I was thinking about for some time and come up with two interesting ideas I thought worth pursuing: MoE with a lot of experts that gets added and pruned from the model while it trains, where only a small subset of of experts are actually in use at any particular moment + batch 1 training on the single continuous stream of data.First allows us to be bounded only by the disk space in terms of number of parameters and load and unload experts only when they are needed. The second (if figured out and it turns out to be doable) allows us to get aways with small VRAM capacity because we do not need to store big randomized batches and their respective gradients.I started brainstorming with Claude and after some time we found an approach that seems to be promising, and low and behold, a few weeks pass and you can see the results yourself.Obviously, I did use AI in the process of making this project and I am pretty sure it would be completely impossible for me to do something like this without it, so I hope it is more than justified.The model is still running over the first of 7.8B characters corpus I selected for training, so the weights are not out yet, and it's about a couple weeks of waiting until they are cooked at the current reading speed. And yeah, the model just read continuous interleaved passages from the dataset, each by 32K characters long each as a single stream. Just as you or I would do.The set up seems to be really simple so you can git clone the project, run it and observe everything for yourself.Thanks for your attention.\n\nComments URL: https://news.ycombinator.com/item?id=49783133\nPoints: 89\n# Comments: 12",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "MoE+連続学習の組み合わせは新規性があるが、実装途上で未検証な部分が多く、日本の技術者層には中程度の関心が見込まれる。",
+    "discovered_at": "2026-09-21T10:28:58.189595+00:00"
+  },
+  {
+    "title": "Show HN: jevals – replacing LLM judges with typed Jev decisions",
+    "link": "https://github.com/openlayer-ai/jevals",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/openlayer-ai/jevals\nComments URL: https://news.ycombinator.com/item?id=49780849\nPoints: 23\n# Comments: 1",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "LLM評価の代替案として一定の新規性があるが、ニッチ領域で日本での認知度は限定的と予想。",
+    "discovered_at": "2026-09-21T10:29:00.933511+00:00"
   }
 ]
