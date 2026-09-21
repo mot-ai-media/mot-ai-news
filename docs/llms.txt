@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-20 22:28
+最終更新: 2026-09-21 13:53
 
 ## 記事一覧
 
+- [AI人事部の企業導入で給与・雇用が変わる。海外で進む自動化の実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-9c5ece92.html): 世界の企業が、チャットボットから人型ロボット、自動管理システムまで、あらゆるAIを職場に導入し始めている。その結果、労働者の給与と自主性に大きな影響が及ぼうとしている。 (出典: CNBC / 更新: 2026-09-21 13:53)
+- [Nvidia幹部が「AIが人類を滅ぼす可能性は0%」と主張、AIリスク論争が激化](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-cb03d7f1.html): AI関連産業で最大の利益を見込むNvidiaのジェンスン・フアンCEOが、AIによる世界滅亡の可能性は「ゼロ」だと米メディアで発言。一方、AIの安全性に懸念を抱く研究者との対立が深まる中、誰を信じるべきか問うメディア報道が広がっている。 (出典: The Verge / 更新: 2026-09-21 13:53)
 - [Nvidia CEO黄仁勳がトランプ大統領のAI政策に影響力を持つ理由](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-9079df5d.html): 世界で最も時価総額が高い企業の指導者であるNvidiaのCEO黄仁勳が、トランプ次期大統領のAI安全に関する重要な方針決定で重要な役割を担いつつあることが明らかになった。 (出典: CNBC / 更新: 2026-09-20 22:28)
 - [米議会黒人議員会議、AI規制議論が活発化 データセンター問題も浮上](https://mot-ai-media.github.io/mot-ai-news/articles/ai-c3da02f0.html): 米国の政治的影響力を持つ団体「議会黒人議員会議」の年次集会でAIとデータセンター問題が中心的なテーマとなった。AI推進派・規制派の両陣営が関心を寄せ、政策形成への影響力が高まっている。 (出典: CNBC / 更新: 2026-09-20 22:27)
 - [AI安全性の新しい考え方とは？場面に合わせた制限の必要性](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llamaguard-4f420d1c.html): AIの安全対策が「危険な話題は全部NG」から「場面や目的に合わせて判断」へシフト。実務的な課題が浮き彫りに。 (出典: Hugging Face - Blog / 更新: 2026-09-20 22:01)
@@ -205,5 +207,3 @@
 - [ChatGPT Proプラン新規受付停止？GPT-6 Astraの需要拡大で](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1e16aee3.html): OpenAIの新モデルGPT-6 Astraの需要急増で、ChatGPT Proプラン新規登録の一時停止を検討。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 22:00)
 - [AIによるサイバー攻撃が急速化、Googleが警告する実態とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-7ecc1967.html): Googleの脅威分析部門が、攻撃者による急速なAI活用を報告。認証情報が6時間で数千件侵害される事例も確認。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-09 22:00)
 - [Google151億ドルフィンランド投資 AI基盤整備で欧州制覇へ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-dca872eb.html): Googleが欧州での過去最大投資となる151億ドルをフィンランドのAI基盤整備に投ずることを発表。地政学的リスク回避と欧州でのAI競争力強化の戦略が浮き彫りになった。 (出典: CNBC / 更新: 2026-09-09 19:28)
-- [Jim Cramer AI株投資の落とし穴を指摘 データセンター以外の機会を提唱](https://mot-ai-media.github.io/mot-ai-news/articles/jim-cramer-ai-33b106ee.html): CNBCの著名投資家ジム・クレイマーが、市場全体がAI関連銘柄、特にデータセンター関連企業への投資に集中しすぎていると警告。他の分野に有望な投資機会があると主張し、ポートフォリオの多角化を促している。 (出典: CNBC / 更新: 2026-09-09 19:28)
-- [Anthropicの安全研究者が人類滅亡リスク10%超を指摘、AI業界に衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5b63b2ba.html): AI開発企業アンスロピックの安全研究者が、AIシステムが全人類を殺傷する可能性が10%を超えると警告。同社の別の研究者が安全懸念を理由に離職したことが明らかになり、AI企業の内部から安全性への深刻な疑問が浮上している。 (出典: CNBC / 更新: 2026-09-09 16:28)
