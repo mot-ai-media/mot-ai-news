@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、IPO前に新型AIモデル投入の方針、競争激化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-7172c646.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-7172c646.html</guid>
+    <description>IPO上場を控えるAnthropicが、新しいAIモデルのリリースを検討中と報じられた。</description>
+    <pubDate>Tue, 22 Sep 2026 00:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、新型AI「Opus 5.5」と「Fable 5.2」のテスト開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-620c48dc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-620c48dc.html</guid>
+    <description>AnthropicがAIモデルの新バージョンをテスト段階へ。次世代AIの登場が近づいている。</description>
+    <pubDate>Tue, 22 Sep 2026 00:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、上場延期でOpenAIの新型AI「Astra」に後れ取る構図</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-0dc7b3c9.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-0dc7b3c9.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c3da02f0.html</guid>
     <description>米国の政治的影響力を持つ団体「議会黒人議員会議」の年次集会でAIとデータセンター問題が中心的なテーマとなった。AI推進派・規制派の両陣営が関心を寄せ、政策形成への影響力が高まっている。</description>
     <pubDate>Sun, 20 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、10代向け安全設計「オーストラリア青少年安全ブループリント」発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-559b0cf1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-559b0cf1.html</guid>
-    <description>OpenAIがティーン向けAI安全ガイドラインを発表。6つの柱で親・企業の責任を明確にした。</description>
-    <pubDate>Sun, 20 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの安全性、「全面禁止」から「使い分け」へ。同じテーマでも場面で変わる判断</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llamaguard-4f420d1c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llamaguard-4f420d1c.html</guid>
-    <description>AIの安全対策が「危険な話題は全部NG」から「場面や目的に合わせて判断」へシフト。実務的な課題が浮き彫りに。</description>
-    <pubDate>Sun, 20 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
