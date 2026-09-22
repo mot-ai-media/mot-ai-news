@@ -1288,5 +1288,55 @@
     "japan_relevance_score": 65,
     "reason": "AI企業への反トラスト訴訟は新しいが、規制懸念自体は既出。日本でも生成AI規制議論の参考になる可能性。",
     "discovered_at": "2026-09-22T13:29:14.760689+00:00"
+  },
+  {
+    "title": "OpenAI is well positioned to fast-follow Jev",
+    "link": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/\nComments URL: https://news.ycombinator.com/item?id=49802161\nPoints: 97\n# Comments: 80",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "OpenAIの競争戦略分析は既出テーマだが、新興企業Jevへの言及は限定的で、日本では関心層が限定的。",
+    "discovered_at": "2026-09-22T16:28:55.812908+00:00"
+  },
+  {
+    "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+    "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/\nComments URL: https://news.ycombinator.com/item?id=49802030\nPoints: 50\n# Comments: 22",
+    "novelty_score": 65,
+    "japan_relevance_score": 55,
+    "reason": "AIツールの権限濫用脆弱性は重要だが、Meta特有の事例のため汎用性がやや限定的。",
+    "discovered_at": "2026-09-22T16:28:57.390031+00:00"
+  },
+  {
+    "title": "Stanford R&DE Uses AI to Race Swap Students for Advertising",
+    "link": "https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/\nComments URL: https://news.ycombinator.com/item?id=49801330\nPoints: 70\n# Comments: 52",
+    "novelty_score": 65,
+    "japan_relevance_score": 55,
+    "reason": "AIによる顔認識・人種置換の広告利用という倫理的に問題のある事例で新規性はあるが、日本での実例報道は限定的",
+    "discovered_at": "2026-09-22T16:28:59.649085+00:00"
+  },
+  {
+    "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+    "link": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html\nComments URL: https://news.ycombinator.com/item?id=49801324\nPoints: 250\n# Comments: 245",
+    "novelty_score": 25,
+    "japan_relevance_score": 35,
+    "reason": "暗号解読は興味深いが、実際には2005年のパズル題材で実用性に乏しく、技術的な新規性も限定的。",
+    "discovered_at": "2026-09-22T16:29:01.276316+00:00"
+  },
+  {
+    "title": "People Training OpenAI's AI Fired for Using AI to Train the AI",
+    "link": "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/\nComments URL: https://news.ycombinator.com/item?id=49800953\nPoints: 59\n# Comments: 41",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "AI企業の内部問題として興味深いが、具体的な事実確認が必要。AIの倫理・労働問題として日本でも注目される可能性がある。",
+    "discovered_at": "2026-09-22T16:29:02.838472+00:00"
   }
 ]
