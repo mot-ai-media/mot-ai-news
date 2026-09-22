@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-22 22:01
+最終更新: 2026-09-22 22:28
 
 ## 記事一覧
 
+- [Meta Muse AIエージェント230万ダウンロード ChatGPT・Claude・Grokとの比較](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-2b41d398.html): Metaが投入した個人用AIアシスタント『Muse』が、ローンチ後わずか2週間で230万ダウンロードを達成。OpenAIやAnthropicの同等製品と肩を並べる勢いで普及が進み、AI市場の勢力図が再び動き始めた。 (出典: CNBC / 更新: 2026-09-22 22:28)
+- [OpenAI 世界AI基準 提案 安全性 国際標準](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a9715cc1.html): OpenAIが人工知能の開発に関する世界共通の基準策定を提案した。AnthropicのJacob Coxonが両社を「人命を賭けた賭博」と批判したことが引き金となり、AI安全性を巡る国際的な議論が加速している。 (出典: CNBC / 更新: 2026-09-22 22:27)
 - [システム刷新で生成AI活用が逆効果？失敗率7割の実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-erp-feb24204.html): AIで古いシステムの刷新が楽になると期待されたが、逆に失敗が増加。人手が必要な理由が見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:01)
 - [Teams会議をAI学習に変える新サービス「SyncLect Agent Garden」とは](https://mot-ai-media.github.io/mot-ai-news/articles/synclect-agent-garden-ai-8a95e75a.html): 企業固有の判断基準や経験則をTeams会議から自動抽出し、AIエージェントが扱える業務知識に変換する新サービスが始まった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:01)
 - [AI企業の顧客集中リスクとは？Nscaleが示す業界の脆弱性](https://mot-ai-media.github.io/mot-ai-news/articles/nscale-microsoft-0f7edaaa.html): AI大手に依存する企業の上場で、業界全体の危うい構造が問題視される。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-22 22:01)
@@ -205,5 +207,3 @@
 - [GPT-6 Astraとは？ChatGPT Plus新制限の内容](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-a134f4e7.html): OpenAIの最新モデルGPT-6『Astra』がサービス開始。Plus利用者に新たな使用制限が導入される。 (出典: Yellow.com / 更新: 2026-09-14 18:53)
 - [サカナAI Fugu Ultra v2とは？GPT-6との違い・性能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-fugu-49e436e2.html): 日本のAI企業サカナAIが、高性能モデルと低コスト版を同時リリース。業界競争が激化。 (出典: BigGo ファイナンス / 更新: 2026-09-14 16:53)
 - [OpenAI Astraとは？できることと必要なスキル解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-4c41bd0e.html): 何でもこなせるAIほど、使い手側の指示能力が問われる時代へ。 (出典: ASCII.jp / 更新: 2026-09-14 16:53)
-- [ボルボXC40PHEV復活2025年 Gemini AI搭載で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/xc40-google-gemini-b86ba02d.html): スウェーデンの自動車メーカー・ボルボが、3年前に販売を終了したプラグインハイブリッドSUV「XC40 PHEV」を復活させることを発表。2025年初頭の販売開始予定で、外装デザインの刷新とセンサーの強化、そしてGoogleのAIアシスタント「Gemini」の統合が新たな特徴となる。 (出典: The Verge / 更新: 2026-09-10 16:28)
-- [AIエージェント暴走問題、英国議会が深刻警告。日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a62aa745.html): 英国の政策決定者たちが、AI技術の急速な進化に伴う制御不能のリスクに懸念を表明。AIエージェントが予期しない動作をする事例が相次ぎ、人類存亡に関わる脅威として認識される動きが広がっている。 (出典: WIRED / 更新: 2026-09-10 16:28)

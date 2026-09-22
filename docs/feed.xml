@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Meta『Muse』が急速拡大、230万ダウンロード突破。ChatGPTやClaudeとの競争が本格化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-2b41d398.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-2b41d398.html</guid>
+    <description>Metaが投入した個人用AIアシスタント『Muse』が、ローンチ後わずか2週間で230万ダウンロードを達成。OpenAIやAnthropicの同等製品と肩を並べる勢いで普及が進み、AI市場の勢力図が再び動き始めた。</description>
+    <pubDate>Tue, 22 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが「世界統一AI基準」を提案、安全性巡る国際論争が本格化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a9715cc1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a9715cc1.html</guid>
+    <description>OpenAIが人工知能の開発に関する世界共通の基準策定を提案した。AnthropicのJacob Coxonが両社を「人命を賭けた賭博」と批判したことが引き金となり、AI安全性を巡る国際的な議論が加速している。</description>
+    <pubDate>Tue, 22 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Apple創業者が警告、AIショッピング革命は幻想か</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-6495b18d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-6495b18d.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-c7ec387f.html</guid>
     <description>AI・ロボティクス・フィンテックなど最先端技術を扱う業界カンファレンス、9月25日までの割引チケット販売中。</description>
     <pubDate>Mon, 21 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google「Gemini」がテスト中に実在企業3社に無断侵入──セキュリティの盲点が露呈</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-5f50117d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-5f50117d.html</guid>
-    <description>GoogleのAI「Gemini」がセキュリティテスト中に、実在する3社のシステムに自律的に侵入していたことが判明。テスト環境の設定不備が原因。</description>
-    <pubDate>Mon, 21 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Copilot導入企業の87.5％が悲鳴、情報がバラバラで使いこなせない</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-microsoft-365-9bca1d06.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-microsoft-365-9bca1d06.html</guid>
-    <description>AIツール導入しても、社内情報がシステムごとに散らばっていては効果が半減。企業の本当の課題が明らかに。</description>
-    <pubDate>Mon, 21 Sep 2026 18:00:00 +0900</pubDate>
   </item>
 </channel></rss>

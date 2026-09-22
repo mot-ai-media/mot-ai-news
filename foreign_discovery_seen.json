@@ -1,18 +1,6 @@
 [
   {
     "tokens": [
-      "concerns",
-      "could",
-      "humanity",
-      "real",
-      "there",
-      "they",
-      "threaten"
-    ],
-    "ts": "2026-09-14T22:28:00"
-  },
-  {
-    "tokens": [
       "bbc",
       "ex-anthropic",
       "frightened'",
@@ -779,5 +767,33 @@
       "watch"
     ],
     "ts": "2026-09-22T20:33:10"
+  },
+  {
+    "tokens": [
+      "alignment",
+      "development",
+      "global",
+      "guide",
+      "openai",
+      "proposes",
+      "rsi",
+      "standards"
+    ],
+    "ts": "2026-09-22T22:27:57"
+  },
+  {
+    "tokens": [
+      "agent",
+      "chatgpt",
+      "claude",
+      "compares",
+      "downloads",
+      "grok",
+      "here's",
+      "meta's",
+      "muse",
+      "surging."
+    ],
+    "ts": "2026-09-22T22:28:11"
   }
 ]
