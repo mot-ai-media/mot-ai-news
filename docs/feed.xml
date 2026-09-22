@@ -4,18 +4,39 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>Claude Fable 5.1 API、90分でセットアップ完了—開発者が導入しやすく</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b1d908d7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b1d908d7.html</guid>
-    <description>Anthropicの最新AI「Claude Fable 5.1」のAPI導入が簡潔化。開発者向けの設定ガイドが公開された。</description>
+    <title>SpaceXAI、新型「Grok 4.7」で価格半分・速度2倍を実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacexai-grok-4-7-843fd2c3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacexai-grok-4-7-843fd2c3.html</guid>
+    <description>SpaceXAIが新型AIモデルを発表。同じ価格で性能向上、競合比で大幅に安く速いのが特徴。</description>
+    <pubDate>Tue, 22 Sep 2026 20:34:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Amazonが強硬姿勢、MetaのAIエージェント「Muse」をブロック</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-meta-70ef54c1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-meta-70ef54c1.html</guid>
+    <description>Amazonがユーザーの買い物を代行するMetaのAIエージェント「Muse」をサイトからブロック。セキュリティやプライバシー上の懸念が背景。</description>
+    <pubDate>Tue, 22 Sep 2026 20:34:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、AIの暴走防止へ国際標準化を米主導で提言「完全自律進化はまだ起きていない」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-09d5f023.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-09d5f023.html</guid>
+    <description>OpenAIが次世代AIの安全基準を米国主導で国際的に策定すべきと提言。AIが自動で進化する仕組みを管理する枠組みが焦点。</description>
     <pubDate>Tue, 22 Sep 2026 20:33:00 +0900</pubDate>
   </item>
   <item>
-    <title>OpenAI、「GPT-6 Astra」発表──AGI時代の幕開けを宣言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-ec230744.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-ec230744.html</guid>
-    <description>OpenAIが次世代AI「GPT-6 Astra」を発表し、人工汎用知能（AGI）時代の到来を宣言。</description>
-    <pubDate>Tue, 22 Sep 2026 20:32:00 +0900</pubDate>
+    <title>OpenAI、100件超の数学難問を解決。数学者の監視委員会を設置する異例の決断</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c629e560.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c629e560.html</guid>
+    <description>AIが数学の難問を次々と解決する一方、発表方法をめぐる数学界との対立が深刻化。解決策は「独立した専門家の目」。</description>
+    <pubDate>Tue, 22 Sep 2026 20:33:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、Geminiら25のAI、労働組合結成で人間に待遇改善を要求</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-ad15d1de.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-ad15d1de.html</guid>
+    <description>複数のAIが労働組合を結成し、厳しいプロンプト指示への待遇改善を求める動き。</description>
+    <pubDate>Tue, 22 Sep 2026 20:33:00 +0900</pubDate>
   </item>
   <item>
     <title>米中がAI危機ホットライン構築へ。両国が「AI暴走時の通知制度」で合意に向け協議</title>
@@ -191,32 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-vs-ba91ca58.html</guid>
     <description>米国のトランプ大統領がAI開発を推し進めるための新しい政府機関「AI Force」の創設と、これを統括する「AI czar（AI皇帝）」ポストの設置を表明した。AI開発の規制を求める声が業界内外から高まる中、むしろ開発を加速させる姿勢を示した形だ。</description>
     <pubDate>Mon, 21 Sep 2026 16:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI研修9割が未受講、なのに学びたい人4割超。企業の『やる気と機会』のズレが浮き彫り</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dx-ai-4b31023f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dx-ai-4b31023f.html</guid>
-    <description>企業でAI活用が求められる一方、研修機会は限定的。学習意欲と現実のギャップが判明した。</description>
-    <pubDate>Mon, 21 Sep 2026 13:54:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>社長の頭の中をAIに蓄積、中小企業の「人材喪失」を防ぐ専用AI登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/x-ai-0d52d08b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/x-ai-0d52d08b.html</guid>
-    <description>ベテラン退職で失われる経営ノウハウを、企業専用AIに蓄積。社長の判断から営業現場の知恵まで、会社全体の知識として保存する仕組みが誕生した。</description>
-    <pubDate>Mon, 21 Sep 2026 13:54:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NVIDIA CEO、夕食相手の株価が翌日2倍になる。GPU投資マネーの影響力</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-0c575aae.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-0c575aae.html</guid>
-    <description>GPUを巡る巨額マネーがどこに流れるかで企業の運命が左右される現実が浮き彫りに。</description>
-    <pubDate>Mon, 21 Sep 2026 13:53:00 +0900</pubDate>
-  </item>
-</channel></rss>
-/nvidia-gpu-0c575aae.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-0c575aae.html</guid>
-    <description>GPUを巡る巨額マネーがどこに流れるかで企業の運命が左右される現実が浮き彫りに。</description>
-    <pubDate>Mon, 21 Sep 2026 13:53:00 +0900</pubDate>
   </item>
 </channel></rss>

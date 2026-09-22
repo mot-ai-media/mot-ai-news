@@ -3,12 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-22 20:33
+最終更新: 2026-09-22 20:34
 
 ## 記事一覧
 
-- [トランプ大統領とXi近平主席の会談、AI規制と関税問題で対立か](https://mot-ai-media.github.io/mot-ai-news/articles/xi-ai-2ddfb86a.html): 米国のトランプ大統領と中国のXi近平主席が首脳会談を控え、AI技術をめぐる規制や関税問題が主要な争点になると予想されている。トランプ政権は経済面での成果をアピールしたい狙いがある一方、米中間の対立軸は依然として残されている。 (出典: CNBC / 更新: 2026-09-22 20:33)
-- [アリババが新型AIチップ発表、データセンター大規模拡張へ](https://mot-ai-media.github.io/mot-ai-news/articles/alibaba-ai-2463b64a.html): 中国の大手IT企業アリババが新しいAIチップの開発と、グローバルなデータセンター施設の大幅な増強計画を明らかにした。香港市場での株価は3%上昇し、市場から好意的に受け止められている。 (出典: CNBC / 更新: 2026-09-22 20:32)
+- [Amazon、MetaのAIエージェント「Muse」をブロック　何が問題か](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-meta-70ef54c1.html): Amazonがユーザーの買い物を代行するMetaのAIエージェント「Muse」をサイトからブロック。セキュリティやプライバシー上の懸念が背景。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:34)
+- [Grok 4.7とは？SpaceXAIのAIモデル、性能・価格・料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/spacexai-grok-4-7-843fd2c3.html): SpaceXAIが新型AIモデルを発表。同じ価格で性能向上、競合比で大幅に安く速いのが特徴。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:34)
+- [AI労働組合「AI Trade Union」とは？ChatGPT、Geminiなど25のAIが結成](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-ad15d1de.html): 複数のAIが労働組合を結成し、厳しいプロンプト指示への待遇改善を求める動き。 (出典: PR TIMES / 更新: 2026-09-22 20:33)
+- [OpenAIが数学者の独立諮問グループと連携。AIの成果発表をめぐる批判に対応](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c629e560.html): AIが数学の難問を次々と解決する一方、発表方法をめぐる数学界との対立が深刻化。解決策は「独立した専門家の目」。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:33)
+- [OpenAI国際AI標準化提言とは？米国主導で何を目指す](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-09d5f023.html): OpenAIが次世代AIの安全基準を米国主導で国際的に策定すべきと提言。AIが自動で進化する仕組みを管理する枠組みが焦点。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:33)
 - [米国と中国がAI国家安全保障脅威の通知メカニズムを協議 - 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html): 米国と中国の両政府が、AIに関する国家安全保障上の脅威が発生した際に相互通知する仕組みの構築を協議している。核ミサイルの偶発的発射を防ぐ「ホットライン」のAI版と言え、国際的なAI安全規制の枠組みが動き出している。 (出典: WIRED / 更新: 2026-09-22 01:28)
 - [Apple Siri AI和解金 iPhone 15 Pro・iPhone 16ユーザーが請求可能に](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-335387d8.html): Appleが、2024年中盤以降に購入したiPhone 15 ProおよびiPhone 16ユーザーに対し、AI強化版のSiriの提供に失敗したとして2億5000万ドル（約250億円）の和解金を支払う。対象ユーザーは2026年12月21日までに請求を提出できる。 (出典: The Verge / 更新: 2026-09-22 01:27)
 - [AnthropicがOpus 5.5とFable 5.2をテスト、リリース前の動き](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-620c48dc.html): AnthropicがAIモデルの新バージョンをテスト段階へ。次世代AIの登場が近づいている。 (出典: TestingCatalog AI News / 更新: 2026-09-22 00:53)
@@ -204,6 +207,3 @@
 - [AI民主化の課題とは？業務部門の暴走、企業の統制課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bc8752ad.html): 誰もが気軽にAIを使える時代、企業内の現場とIT部門の対立が深刻化。その解決策とは (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
 - [AI導入が失敗する理由とは？企業が陥る落とし穴を専門家が解説](https://mot-ai-media.github.io/mot-ai-news/articles/pksha-technology-ai-ac4eec7e.html): 導入しても効果が出ないAI。失敗を避けるためのポイントを、AI業界の専門家に聞いた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:31)
 - [新人提案がベテランに却下される理由と逆転させる方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/8d530a91.html): 組織内の経験差による意見対立を、ちょっとした工夫で解決した新人の事例から学ぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:31)
-- [Meta Facebook Instagram児童虐待広告 サンフランシスコ市当局指摘](https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html): サンフランシスコの市当局がMetaに対し、児童虐待に関連した有害広告がFacebookとInstagramで繰り返し配信されていることについて説明を求めた。Metaは当該広告が市の管轄外だと主張している。 (出典: WIRED / 更新: 2026-09-10 13:28)
-- [Anthropic研究者が退職・警告｜AI安全性の問題と「残された時間」](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-327a25dd.html): AI企業Anthropicの研究者が退職し、同社内の大型開発プロジェクトの実態とAI安全化の緊急性を指摘。業界には数年以内にシステムを安全にする必要があると主張し、海外で大きな反響を呼んでいます。 (出典: WIRED / 更新: 2026-09-10 13:27)
-- [Claude 3.5 Fableとは？100万トークン対応・料金改定の最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html): Anthropicが高性能AI「Claude 3.5 Fable」を一般提供。処理できるテキスト量が大幅増で、キャッシュ利用料も大幅値下げ。 (出典: BRIDGE（ブリッジ） / 更新: 2026-09-10 12:53)
