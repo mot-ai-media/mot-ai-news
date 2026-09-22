@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-22 20:34
+最終更新: 2026-09-22 22:01
 
 ## 記事一覧
 
+- [システム刷新で生成AI活用が逆効果？失敗率7割の実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-erp-feb24204.html): AIで古いシステムの刷新が楽になると期待されたが、逆に失敗が増加。人手が必要な理由が見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:01)
+- [Teams会議をAI学習に変える新サービス「SyncLect Agent Garden」とは](https://mot-ai-media.github.io/mot-ai-news/articles/synclect-agent-garden-ai-8a95e75a.html): 企業固有の判断基準や経験則をTeams会議から自動抽出し、AIエージェントが扱える業務知識に変換する新サービスが始まった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:01)
+- [AI企業の顧客集中リスクとは？Nscaleが示す業界の脆弱性](https://mot-ai-media.github.io/mot-ai-news/articles/nscale-microsoft-0f7edaaa.html): AI大手に依存する企業の上場で、業界全体の危うい構造が問題視される。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-22 22:01)
+- [AIショッピングエージェントの限界とは？Apple元幹部の見方](https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-6495b18d.html): Apple Storeの建築者が、シリコンバレーのAIショッピング自動化に異議。人間の接客こそが小売の本質と指摘。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-22 22:01)
+- [工場シミュレーション開発工数を78%削減、キユーピーのAI活用事例](https://mot-ai-media.github.io/mot-ai-news/articles/ai-90cb6eb9.html): キユーピーがAIを使い、工場シミュレーションモデルの開発工数を8割削減。専門技術の壁を生成AIで乗り越えた事例。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:00)
 - [Amazon、MetaのAIエージェント「Muse」をブロック　何が問題か](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-meta-70ef54c1.html): Amazonがユーザーの買い物を代行するMetaのAIエージェント「Muse」をサイトからブロック。セキュリティやプライバシー上の懸念が背景。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:34)
 - [Grok 4.7とは？SpaceXAIのAIモデル、性能・価格・料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/spacexai-grok-4-7-843fd2c3.html): SpaceXAIが新型AIモデルを発表。同じ価格で性能向上、競合比で大幅に安く速いのが特徴。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:34)
 - [AI労働組合「AI Trade Union」とは？ChatGPT、Geminiなど25のAIが結成](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-ad15d1de.html): 複数のAIが労働組合を結成し、厳しいプロンプト指示への待遇改善を求める動き。 (出典: PR TIMES / 更新: 2026-09-22 20:33)
@@ -202,8 +207,3 @@
 - [OpenAI Astraとは？できることと必要なスキル解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-4c41bd0e.html): 何でもこなせるAIほど、使い手側の指示能力が問われる時代へ。 (出典: ASCII.jp / 更新: 2026-09-14 16:53)
 - [ボルボXC40PHEV復活2025年 Gemini AI搭載で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/xc40-google-gemini-b86ba02d.html): スウェーデンの自動車メーカー・ボルボが、3年前に販売を終了したプラグインハイブリッドSUV「XC40 PHEV」を復活させることを発表。2025年初頭の販売開始予定で、外装デザインの刷新とセンサーの強化、そしてGoogleのAIアシスタント「Gemini」の統合が新たな特徴となる。 (出典: The Verge / 更新: 2026-09-10 16:28)
 - [AIエージェント暴走問題、英国議会が深刻警告。日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a62aa745.html): 英国の政策決定者たちが、AI技術の急速な進化に伴う制御不能のリスクに懸念を表明。AIエージェントが予期しない動作をする事例が相次ぎ、人類存亡に関わる脅威として認識される動きが広がっている。 (出典: WIRED / 更新: 2026-09-10 16:28)
-- [企業のAIガイドラインが限界？管理職のシャドーAI利用実態とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1bf19ecd.html): AI導入ルールを作る立場の管理職ほど、こっそりAIを使う矛盾が浮き彫りに。企業統制の現実 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
-- [NEC、AI利用コスト削減目標を発表。2026年に10分の1へ削減方針](https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-6a23b3b2.html): NECが全社のAI利用にかかるトークンコストを2026年までに10分の1に削減する目標を掲げた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
-- [AI民主化の課題とは？業務部門の暴走、企業の統制課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bc8752ad.html): 誰もが気軽にAIを使える時代、企業内の現場とIT部門の対立が深刻化。その解決策とは (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:32)
-- [AI導入が失敗する理由とは？企業が陥る落とし穴を専門家が解説](https://mot-ai-media.github.io/mot-ai-news/articles/pksha-technology-ai-ac4eec7e.html): 導入しても効果が出ないAI。失敗を避けるためのポイントを、AI業界の専門家に聞いた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:31)
-- [新人提案がベテランに却下される理由と逆転させる方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/8d530a91.html): 組織内の経験差による意見対立を、ちょっとした工夫で解決した新人の事例から学ぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-10 14:31)

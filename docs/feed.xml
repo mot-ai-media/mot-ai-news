@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Apple創業者が警告、AIショッピング革命は幻想か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-6495b18d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-6495b18d.html</guid>
+    <description>Apple Storeの建築者が、シリコンバレーのAIショッピング自動化に異議。人間の接客こそが小売の本質と指摘。</description>
+    <pubDate>Tue, 22 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>MicrosoftとAnthropicに依存する英AI企業、IPO直前に業界の危険な集中構造が浮き彫り</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-microsoft-0f7edaaa.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-microsoft-0f7edaaa.html</guid>
+    <description>AI大手に依存する企業の上場で、業界全体の危うい構造が問題視される。</description>
+    <pubDate>Tue, 22 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Teams会議がAIの教科書に。埋もれた仕事のコツをAIに教える新ツール登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/synclect-agent-garden-ai-8a95e75a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/synclect-agent-garden-ai-8a95e75a.html</guid>
+    <description>企業固有の判断基準や経験則をTeams会議から自動抽出し、AIエージェントが扱える業務知識に変換する新サービスが始まった。</description>
+    <pubDate>Tue, 22 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>レガシーシステム刷新、7割が失敗。生成AIへの過信が裏目に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-erp-feb24204.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-erp-feb24204.html</guid>
+    <description>AIで古いシステムの刷新が楽になると期待されたが、逆に失敗が増加。人手が必要な理由が見えてきた。</description>
+    <pubDate>Tue, 22 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>キユーピー、AIで工場シミュレーション開発を78%削減。生成AIが属人化した現場を変える</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-90cb6eb9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-90cb6eb9.html</guid>
+    <description>キユーピーがAIを使い、工場シミュレーションモデルの開発工数を8割削減。専門技術の壁を生成AIで乗り越えた事例。</description>
+    <pubDate>Tue, 22 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>SpaceXAI、新型「Grok 4.7」で価格半分・速度2倍を実現</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacexai-grok-4-7-843fd2c3.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacexai-grok-4-7-843fd2c3.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-microsoft-365-9bca1d06.html</guid>
     <description>AIツール導入しても、社内情報がシステムごとに散らばっていては効果が半減。企業の本当の課題が明らかに。</description>
     <pubDate>Mon, 21 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>大和鋼管工業、バラバラなSaaS管理を情シスAIで一元化。コスト把握が激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/saas-zooba-7ef12e4c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/saas-zooba-7ef12e4c.html</guid>
-    <description>増加し続けるSaaSの管理負担に、AI活用で対応する企業が登場。情シス業務の効率化へ動き出した。</description>
-    <pubDate>Mon, 21 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、OpenAIの新型AIに対抗する新モデル投入を検討</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-41daafbe.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-41daafbe.html</guid>
-    <description>AnthropicがOpenAIの最新型AIに対抗するため、新たなモデルの発表を検討している。</description>
-    <pubDate>Mon, 21 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude、GPT、GLMが激突。最新AI言語モデルの性能比較が話題に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/claude-gpt-776fcf6e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/claude-gpt-776fcf6e.html</guid>
-    <description>複数の大手AIモデルの最新版が比較検証され、開発競争の実態が浮き彫りに。</description>
-    <pubDate>Mon, 21 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>電力網への最大の脅威は『AI』ではなく『人間』だ──海外専門家が警告する現実</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/d11b6893.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/d11b6893.html</guid>
-    <description>電力網などの重要インフラがサイバー攻撃に対して極めて脆弱な状態にあり、その危険性は増加中。海外メディアは『rogue AIによる攻撃』といった話題よりも、現在進行形で起きている人為的なサイバー脅威に警鐘を鳴らしている。</description>
-    <pubDate>Mon, 21 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領がAI開発を統括する「AI Force」創設を表明、業界の自主規制圧力に対抗</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-vs-ba91ca58.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-vs-ba91ca58.html</guid>
-    <description>米国のトランプ大統領がAI開発を推し進めるための新しい政府機関「AI Force」の創設と、これを統括する「AI czar（AI皇帝）」ポストの設置を表明した。AI開発の規制を求める声が業界内外から高まる中、むしろ開発を加速させる姿勢を示した形だ。</description>
-    <pubDate>Mon, 21 Sep 2026 16:27:00 +0900</pubDate>
   </item>
 </channel></rss>
