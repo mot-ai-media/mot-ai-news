@@ -1,20 +1,6 @@
 [
   {
     "tokens": [
-      "bbc",
-      "ex-anthropic",
-      "frightened'",
-      "future",
-      "genuinely",
-      "humanity's",
-      "researcher",
-      "staff",
-      "tells"
-    ],
-    "ts": "2026-09-14T22:28:15"
-  },
-  {
-    "tokens": [
       "concerned",
       "does",
       "people",
@@ -795,5 +781,27 @@
       "surging."
     ],
     "ts": "2026-09-22T22:28:11"
+  },
+  {
+    "tokens": [
+      "altman",
+      "amodei",
+      "council",
+      "expected",
+      "join",
+      "meeting",
+      "security"
+    ],
+    "ts": "2026-09-23T01:28:00"
+  },
+  {
+    "tokens": [
+      "intelligence",
+      "officially",
+      "renaming",
+      "super",
+      "trump"
+    ],
+    "ts": "2026-09-23T01:28:14"
   }
 ]
