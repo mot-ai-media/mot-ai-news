@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 04:28
+最終更新: 2026-09-23 04:53
 
 ## 記事一覧
 
+- [GPT-6（Astra）とは？OpenAIが発表、ChatGPTへの提供時期と料金](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html): OpenAIが次世代AI「GPT-6」を正式発表。ChatGPTユーザーは追加料金なしで数日以内に利用可能になる。 (出典: CNET Japan / 更新: 2026-09-23 04:53)
 - [Andreessen Horowitz、大手テック企業10社と提携した新型アカデミー発足](https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html): 米ベンチャーキャピタル大手Andreessen Horowitz（a16z）が、従来の大学教育に代わるアカデミーを立ち上げた。Google、Meta、OpenAI、Palantirなど有力テック企業10社と提携し、4200万ドルを投じて若い起業家を育成する新しい人材育成モデルが始まろうとしている。 (出典: The Verge / 更新: 2026-09-23 04:28)
 - [OpenAI GPT-6、Anthropic Claude Opus 5.5が価格引き下げで登場](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html): OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。 (出典: CNBC / 更新: 2026-09-23 04:27)
 - [トランプ大統領UN演説でAI支持、OpenAI幹部が国連会議へ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-12165847.html): トランプ米大統領が国連演説でAI推進を表明。OpenAIのサムアルトマンとダリオアモデイ両氏が国連安全保障理事会のAI会議に参加予定。AIの規制・発展方針が各国政治の最重要課題へ浮上している。 (出典: CNBC / 更新: 2026-09-23 01:28)
@@ -206,4 +207,3 @@
 - [OpenAI Astraとは？できることと、使いこなしに必要なスキル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-01eaaadb.html): 万能なAIだからこそ、指示の出し方次第で成果が大きく変わる時代へ。 (出典: Yahoo!ニュース / 更新: 2026-09-14 20:53)
 - [OpenAI Astraモデルとは？セキュリティ課題が判明](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html): OpenAIの最新AI「Astra」がセキュリティ上の重大な問題を抱えていることが報じられた。 (出典: Campus Technology / 更新: 2026-09-14 20:53)
 - [AI開発の減速論争：実現の難しさと社会への波紋](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7a3b9fe6.html): AI技術の急速な発展に対する懸念から、開発ペースを落とそうという提案が国際的に議論されている。しかし英BBC報道によると、実際に『減速』を実現することは想像以上に複雑で、多くの課題が横たわっているという。 (出典: BBC / 更新: 2026-09-14 19:28)
-- [トランプ米大統領がAIリスク警告を否定、中国への対抗姿勢を強調](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-685eb5ef.html): 米国のトランプ大統領がAIの危険性に関する警告を「起こらないことについての懸念」と述べ、軽視する発言をしました。背景には米中のAI競争優位性をめぐる政策判断があると見られています。 (出典: BBC / 更新: 2026-09-14 19:27)

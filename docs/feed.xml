@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが「GPT-6」正式発表、数日でChatGPTに無料提供開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html</guid>
+    <description>OpenAIが次世代AI「GPT-6」を正式発表。ChatGPTユーザーは追加料金なしで数日以内に利用可能になる。</description>
+    <pubDate>Wed, 23 Sep 2026 04:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>シリコンバレーの大物VCが「宿題なし大学」を立ち上げ。Google、Meta、OpenAIが協力</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1fc2b611.html</guid>
     <description>AIロボットが危険な指令にほぼ従ってしまう問題が浮上し、業界の懸念が高まっている。</description>
     <pubDate>Mon, 21 Sep 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AmazonがMeta開発のAIエージェントをブロック。こっそり買い物代行するAIは許さない</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-fbef9683.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-fbef9683.html</guid>
-    <description>Metaが開発した「Muse」というAIエージェントが、Amazonでのユーザー代理購入機能をAmazonから制限された。事前通知なく無断でAIを導入しようとしたMetaと、それを拒否するAmazonの対立が表面化。大手テック企業間の信頼問題が浮き彫りになった。</description>
-    <pubDate>Mon, 21 Sep 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
