@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude Fable 5.1 API、90分でセットアップ完了—開発者が導入しやすく</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b1d908d7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b1d908d7.html</guid>
+    <description>Anthropicの最新AI「Claude Fable 5.1」のAPI導入が簡潔化。開発者向けの設定ガイドが公開された。</description>
+    <pubDate>Tue, 22 Sep 2026 20:33:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、「GPT-6 Astra」発表──AGI時代の幕開けを宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-ec230744.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-ec230744.html</guid>
+    <description>OpenAIが次世代AI「GPT-6 Astra」を発表し、人工汎用知能（AGI）時代の到来を宣言。</description>
+    <pubDate>Tue, 22 Sep 2026 20:32:00 +0900</pubDate>
+  </item>
+  <item>
     <title>米中がAI危機ホットライン構築へ。両国が「AI暴走時の通知制度」で合意に向け協議</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html</guid>
@@ -199,18 +213,10 @@
     <description>GPUを巡る巨額マネーがどこに流れるかで企業の運命が左右される現実が浮き彫りに。</description>
     <pubDate>Mon, 21 Sep 2026 13:53:00 +0900</pubDate>
   </item>
-  <item>
-    <title>トランプ大統領がAI規制に真っ向対立。「脅威論はでっちあげ」と新組織設立</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-ddfac851.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-ddfac851.html</guid>
-    <description>トランプ米大統領がAI担当の新組織を創設すると発表。AI業界の規制に強く反対する姿勢を示す。</description>
-    <pubDate>Mon, 21 Sep 2026 13:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>iOS 27、Siriの脳をClaudeやChatGPTに切り替え可能に。Appleの次の一手が判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-43e0c03c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-43e0c03c.html</guid>
-    <description>次期iOS 27にSiriのAIをClaudeやChatGPTに変更できる仕組みが発見された。一般提供時期は未定。</description>
+</channel></rss>
+/nvidia-gpu-0c575aae.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-0c575aae.html</guid>
+    <description>GPUを巡る巨額マネーがどこに流れるかで企業の運命が左右される現実が浮き彫りに。</description>
     <pubDate>Mon, 21 Sep 2026 13:53:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-22 01:28
+最終更新: 2026-09-22 20:33
 
 ## 記事一覧
 
+- [トランプ大統領とXi近平主席の会談、AI規制と関税問題で対立か](https://mot-ai-media.github.io/mot-ai-news/articles/xi-ai-2ddfb86a.html): 米国のトランプ大統領と中国のXi近平主席が首脳会談を控え、AI技術をめぐる規制や関税問題が主要な争点になると予想されている。トランプ政権は経済面での成果をアピールしたい狙いがある一方、米中間の対立軸は依然として残されている。 (出典: CNBC / 更新: 2026-09-22 20:33)
+- [アリババが新型AIチップ発表、データセンター大規模拡張へ](https://mot-ai-media.github.io/mot-ai-news/articles/alibaba-ai-2463b64a.html): 中国の大手IT企業アリババが新しいAIチップの開発と、グローバルなデータセンター施設の大幅な増強計画を明らかにした。香港市場での株価は3%上昇し、市場から好意的に受け止められている。 (出典: CNBC / 更新: 2026-09-22 20:32)
 - [米国と中国がAI国家安全保障脅威の通知メカニズムを協議 - 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html): 米国と中国の両政府が、AIに関する国家安全保障上の脅威が発生した際に相互通知する仕組みの構築を協議している。核ミサイルの偶発的発射を防ぐ「ホットライン」のAI版と言え、国際的なAI安全規制の枠組みが動き出している。 (出典: WIRED / 更新: 2026-09-22 01:28)
 - [Apple Siri AI和解金 iPhone 15 Pro・iPhone 16ユーザーが請求可能に](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-335387d8.html): Appleが、2024年中盤以降に購入したiPhone 15 ProおよびiPhone 16ユーザーに対し、AI強化版のSiriの提供に失敗したとして2億5000万ドル（約250億円）の和解金を支払う。対象ユーザーは2026年12月21日までに請求を提出できる。 (出典: The Verge / 更新: 2026-09-22 01:27)
 - [AnthropicがOpus 5.5とFable 5.2をテスト、リリース前の動き](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-620c48dc.html): AnthropicがAIモデルの新バージョンをテスト段階へ。次世代AIの登場が近づいている。 (出典: TestingCatalog AI News / 更新: 2026-09-22 00:53)
@@ -205,5 +207,3 @@
 - [Meta Facebook Instagram児童虐待広告 サンフランシスコ市当局指摘](https://mot-ai-media.github.io/mot-ai-news/articles/meta-facebook-c5aab09e.html): サンフランシスコの市当局がMetaに対し、児童虐待に関連した有害広告がFacebookとInstagramで繰り返し配信されていることについて説明を求めた。Metaは当該広告が市の管轄外だと主張している。 (出典: WIRED / 更新: 2026-09-10 13:28)
 - [Anthropic研究者が退職・警告｜AI安全性の問題と「残された時間」](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-327a25dd.html): AI企業Anthropicの研究者が退職し、同社内の大型開発プロジェクトの実態とAI安全化の緊急性を指摘。業界には数年以内にシステムを安全にする必要があると主張し、海外で大きな反響を呼んでいます。 (出典: WIRED / 更新: 2026-09-10 13:27)
 - [Claude 3.5 Fableとは？100万トークン対応・料金改定の最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a0bcde92.html): Anthropicが高性能AI「Claude 3.5 Fable」を一般提供。処理できるテキスト量が大幅増で、キャッシュ利用料も大幅値下げ。 (出典: BRIDGE（ブリッジ） / 更新: 2026-09-10 12:53)
-- [Listen Labs、メンロベンチャーズの資金調達をキャンセル。理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/listen-labs-salesforce-c1f34cbe.html): AIスタートアップが確定していた大型資金を手放し、別の買収・提携交渉を進める判断。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 11:02)
-- [OpenAIがAI安全研究者ポール・クリスチアーノを経営陣に迎える理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-2d263311.html): AI企業OpenAIが、AI安全性の研究で知られるポール・クリスチアーノを経営陣に招く。AIの安全性を重視する姿勢の表れ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-10 11:02)
