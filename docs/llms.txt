@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 01:28
+最終更新: 2026-09-23 04:28
 
 ## 記事一覧
 
+- [Andreessen Horowitz、大手テック企業10社と提携した新型アカデミー発足](https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html): 米ベンチャーキャピタル大手Andreessen Horowitz（a16z）が、従来の大学教育に代わるアカデミーを立ち上げた。Google、Meta、OpenAI、Palantirなど有力テック企業10社と提携し、4200万ドルを投じて若い起業家を育成する新しい人材育成モデルが始まろうとしている。 (出典: The Verge / 更新: 2026-09-23 04:28)
+- [OpenAI GPT-6、Anthropic Claude Opus 5.5が価格引き下げで登場](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html): OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。 (出典: CNBC / 更新: 2026-09-23 04:27)
 - [トランプ大統領UN演説でAI支持、OpenAI幹部が国連会議へ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-12165847.html): トランプ米大統領が国連演説でAI推進を表明。OpenAIのサムアルトマンとダリオアモデイ両氏が国連安全保障理事会のAI会議に参加予定。AIの規制・発展方針が各国政治の最重要課題へ浮上している。 (出典: CNBC / 更新: 2026-09-23 01:28)
 - [トランプ米大統領がAIを『超知能』に公式改名——UN総会で宣言した理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d6a730c.html): トランプ米大統領が国連総会のスピーチで、米国がAI（人工知能）を「super intelligence（超知能）」に公式改名すると表明した。理由は「artificial（人工的）という言葉が知能を『偽物』に聞こえる」とのこと。政策的な根拠というより、用語のイメージ戦略に見える動きとして海外で注目を集めている。 (出典: The Verge / 更新: 2026-09-23 01:28)
 - [Meta Muse AIエージェント230万ダウンロード ChatGPT・Claude・Grokとの比較](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-2b41d398.html): Metaが投入した個人用AIアシスタント『Muse』が、ローンチ後わずか2週間で230万ダウンロードを達成。OpenAIやAnthropicの同等製品と肩を並べる勢いで普及が進み、AI市場の勢力図が再び動き始めた。 (出典: CNBC / 更新: 2026-09-22 22:28)
@@ -205,5 +207,3 @@
 - [OpenAI Astraモデルとは？セキュリティ課題が判明](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html): OpenAIの最新AI「Astra」がセキュリティ上の重大な問題を抱えていることが報じられた。 (出典: Campus Technology / 更新: 2026-09-14 20:53)
 - [AI開発の減速論争：実現の難しさと社会への波紋](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7a3b9fe6.html): AI技術の急速な発展に対する懸念から、開発ペースを落とそうという提案が国際的に議論されている。しかし英BBC報道によると、実際に『減速』を実現することは想像以上に複雑で、多くの課題が横たわっているという。 (出典: BBC / 更新: 2026-09-14 19:28)
 - [トランプ米大統領がAIリスク警告を否定、中国への対抗姿勢を強調](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-685eb5ef.html): 米国のトランプ大統領がAIの危険性に関する警告を「起こらないことについての懸念」と述べ、軽視する発言をしました。背景には米中のAI競争優位性をめぐる政策判断があると見られています。 (出典: BBC / 更新: 2026-09-14 19:27)
-- [Claude 3.5が古い暗号を解読、研究者が指摘する問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c695bba9.html): AIが歴史的な暗号解読に成功した一方で、研究者から検証方法を巡る疑問が上がっている。 (出典: Pasquale Pillitteri / 更新: 2026-09-14 18:54)
-- [GPT-6 Astraとは？ChatGPT Plus新制限の内容](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-a134f4e7.html): OpenAIの最新モデルGPT-6『Astra』がサービス開始。Plus利用者に新たな使用制限が導入される。 (出典: Yellow.com / 更新: 2026-09-14 18:53)

@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>シリコンバレーの大物VCが「宿題なし大学」を立ち上げ。Google、Meta、OpenAIが協力</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html</guid>
+    <description>米ベンチャーキャピタル大手Andreessen Horowitz（a16z）が、従来の大学教育に代わるアカデミーを立ち上げた。Google、Meta、OpenAI、Palantirなど有力テック企業10社と提携し、4200万ドルを投じて若い起業家を育成する新しい人材育成モデルが始まろうとしている。</description>
+    <pubDate>Wed, 23 Sep 2026 04:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIとAnthropicが低価格AI新モデルを相次ぎ投入―「減速要求」後の現実的な選択肢</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html</guid>
+    <description>OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。</description>
+    <pubDate>Wed, 23 Sep 2026 04:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>トランプ大統領が突然「AI」を「超知能」に改名宣言——用語変更の真意は</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d6a730c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d6a730c.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-fbef9683.html</guid>
     <description>Metaが開発した「Muse」というAIエージェントが、Amazonでのユーザー代理購入機能をAmazonから制限された。事前通知なく無断でAIを導入しようとしたMetaと、それを拒否するAmazonの対立が表面化。大手テック企業間の信頼問題が浮き彫りになった。</description>
     <pubDate>Mon, 21 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>国連が警告「AIの危険性を完全に理解する前に規制を進めるべき」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-94d0db2a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-94d0db2a.html</guid>
-    <description>国連の科学パネルが、AIの能力向上に伴うリスクが完全には理解されていない段階でも、各国政府は規制の整備を進める必要があるという警告を発表。この報告書は、OpenAIによるHugging Faceへのアクセス侵害事件を踏まえた国連初の本格的な評価となり、AIが今週のニューヨークでの国際会議において外交アジェンダの中心に位置付けられることを示している。</description>
-    <pubDate>Mon, 21 Sep 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが法律業界に本格参入、『Astra for Law』で弁護士業務が激変へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html</guid>
-    <description>OpenAIが法律専門のAI「Astra for Law」を展開し、法律業界の競争構図が一変しようとしている。</description>
-    <pubDate>Mon, 21 Sep 2026 18:53:00 +0900</pubDate>
   </item>
 </channel></rss>
