@@ -1238,5 +1238,55 @@
     "japan_relevance_score": 72,
     "reason": "AI規制議論は既出だが、企業リスク焦点は相対的に新しく、日本でも企業統治・規制課題として関心高い",
     "discovered_at": "2026-09-22T11:33:24.159807+00:00"
+  },
+  {
+    "title": "AI Has No Wisdom and Neither Will You",
+    "link": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/\nComments URL: https://news.ycombinator.com/item?id=49799965\nPoints: 134\n# Comments: 172",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "AIの限界を哲学的に論じるテーマは既出だが、知恵と技術の関係は日本でも関心が高い。",
+    "discovered_at": "2026-09-22T13:29:07.976617+00:00"
+  },
+  {
+    "title": "Study: Young users (9 to 18Y) ditch Google for AI, with unknown consequences",
+    "link": "https://norwegianscitechnews.com/2026/09/young-users-ditch-google-for-ai-with-unknown-consequences/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://norwegianscitechnews.com/2026/09/young-users-ditch-google-for-ai-with-unknown-consequences/\nComments URL: https://news.ycombinator.com/item?id=49798451\nPoints: 58\n# Comments: 95",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "若年層のGoogle離れは既知だが、AI検索への移行とその影響は現在進行形で重要なトレンド。",
+    "discovered_at": "2026-09-22T13:29:09.721912+00:00"
+  },
+  {
+    "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+    "link": "https://linear.app/now/ci-bottleneck-reworked",
+    "source": "Hacker News",
+    "summary": "Article URL: https://linear.app/now/ci-bottleneck-reworked\nComments URL: https://news.ycombinator.com/item?id=49792067\nPoints: 277\n# Comments: 321",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "AI開発の急速な進展に伴うCI/CD最適化は実務的で重要だが、Linear社による具体的な解決策の内容に依存する。",
+    "discovered_at": "2026-09-22T13:29:11.384648+00:00"
+  },
+  {
+    "title": "Frontier AI on Your Own Hardware",
+    "link": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://timdettmers.com/2026/09/21/dlab-open-source-week/\nComments URL: https://news.ycombinator.com/item?id=49791647\nPoints: 170\n# Comments: 87",
+    "novelty_score": 45,
+    "japan_relevance_score": 60,
+    "reason": "ローカルAI実行は既知だが、フロンティアモデルの民主化という観点では注目度あり。",
+    "discovered_at": "2026-09-22T13:29:12.998627+00:00"
+  },
+  {
+    "title": "Anthropic, OpenAI et al. face antitrust suit for agreeing to slow AI development",
+    "link": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving\nComments URL: https://news.ycombinator.com/item?id=49791384\nPoints: 32\n# Comments: 11",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "AI企業への反トラスト訴訟は新しいが、規制懸念自体は既出。日本でも生成AI規制議論の参考になる可能性。",
+    "discovered_at": "2026-09-22T13:29:14.760689+00:00"
   }
 ]
