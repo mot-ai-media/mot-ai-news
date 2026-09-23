@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6 SolとLuna登場、API料金が半額に激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5f3bc412.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5f3bc412.html</guid>
+    <description>OpenAIの新モデルGPT-6 SolとLunaが登場し、API利用料が大幅に値下がり。</description>
+    <pubDate>Wed, 23 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic新モデル「Claude Opus 5.5」がOpenAIのGPT-6越え、AI競争が激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a7a7ae22.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a7a7ae22.html</guid>
+    <description>AnthropicがClaude Opus 5.5を発表。一部の性能でGPT-6を上回り、AI企業間の技術競争が加速。</description>
+    <pubDate>Wed, 23 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIが新卒の仕事を奪い始めた。企業の採用戦略が大転換へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-60695165.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-60695165.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-620c48dc.html</guid>
     <description>AnthropicがAIモデルの新バージョンをテスト段階へ。次世代AIの登場が近づいている。</description>
     <pubDate>Tue, 22 Sep 2026 00:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、上場延期でOpenAIの新型AI「Astra」に後れ取る構図</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-0dc7b3c9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-0dc7b3c9.html</guid>
-    <description>Claude開発のAnthropicが上場計画を先送り、一方OpenAIは新型AIで存在感を強化。AI企業の勢力図が変わる。</description>
-    <pubDate>Mon, 21 Sep 2026 22:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AppleのMac Mini M6チップ登場、AI活用の「敷居」が家庭用に一気に下がる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-mini-6c5e1a1b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-mini-6c5e1a1b.html</guid>
-    <description>Appleが新型Mac MiniにAI機能を重視した最新チップM6を搭載。これまでAI活用は高価な専用機器が必要とされてきたが、手頃な価格のMacでも本格的なAI処理が可能になる可能性が指摘されている。</description>
-    <pubDate>Mon, 21 Sep 2026 22:28:00 +0900</pubDate>
   </item>
 </channel></rss>
