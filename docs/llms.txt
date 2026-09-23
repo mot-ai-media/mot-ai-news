@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 18:53
+最終更新: 2026-09-23 19:28
 
 ## 記事一覧
 
+- [Qualcomm AI チップ スマートフォン 2026年 販売減少](https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-android-3fd630c1.html): スマートフォン大手メーカーのチップ供給を担うQualcommがAI機能に特化した新型Androidチップを発表。一方で業界全体では2026年に世界的な端末販売台数が14%減少する見通しが出ており、AI搭載スマホへの転換が市場の急速な変化を示唆している。 (出典: CNBC / 更新: 2026-09-23 19:28)
+- [トランプ・習近平会談でAI安全保障が焦点、規制より競争優先の見方も](https://mot-ai-media.github.io/mot-ai-news/articles/ai-a340732f.html): 米国と中国の首脳会談でAI安全保障が主要議題として取り上げられた。しかし専門家は、安全性への懸念は共有されつつも、両国とも技術開発の競争ペースを緩和する意思は低いと指摘している。 (出典: CNBC / 更新: 2026-09-23 19:27)
 - [OpenAI GPT-6 Sol Luna とは？新型AIモデル発表](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-6f8660f7.html): OpenAIが新型AIモデル「GPT-6 Sol」と「Luna」を発表。 (出典: OpenAI / 更新: 2026-09-23 18:53)
 - [OpenAI新モデルGPT-6 Sol・Lunaとは？料金・性能の違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-25b056c5.html): OpenAIが低コスト・高精度を謳う新世代AIモデルGPT-6 Sol・Lunaを発表。利用企業の選択肢が広がる。 (出典: TechCrunch / 更新: 2026-09-23 18:53)
 - [AIの急速な発展に政府・首脳も対応できていない現実](https://mot-ai-media.github.io/mot-ai-news/articles/ai-233cf370.html): ギリシャ首相が、世界中の指導者がAIの急速な進展に対する答えを持っていないことを公開で認めた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
@@ -205,5 +207,3 @@
 - [AIエージェントでLP制作する方法とおすすめツール8選](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-4854b2b5.html): AIエージェントがLPの企画から実装まで自動化する段階へ。ただし人間が判断すべき部分が存在する。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-15 11:02)
 - [トランプ氏とのライブ通話で注目、NVIDIAが示したデバイスとは](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-jensen-huang-cf4c6f0a.html): NVIDIAのジェンスン・ファン最高経営責任者がトランプ氏とのライブ通話で使用した電話デバイスが、テック関係者の間で話題に。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-15 11:02)
 - [iOS 27のSiriがChatGPT・Claudeに変更可能？Apple新機能の詳細](https://mot-ai-media.github.io/mot-ai-news/articles/apple-chatgpt-6ea6bb9c.html): 次期iOS 27でSiriの中身をChatGPTやClaudeなど別のAIに置き換えられるようになる可能性。 (出典: VOI.ID / 更新: 2026-09-15 11:00)
-- [御曹司きよやす邸 鎌倉プリンスホテル店とは](https://mot-ai-media.github.io/mot-ai-news/articles/be4fa5f3.html): 鎌倉プリンスホテル内に新しい飲食店がオープンしました。 (出典: オズモール / 更新: 2026-09-15 11:00)
-- [AIに『kill switch』は不可能？英国政府が明かした人工知能制御の課題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-68f64883.html): 英国政府はAI安全性を監督する部門が、万が一AIが危険な状態になった場合も「単純にAIを止めることはできない」との見解を示した。この発言は、急速に拡大するAI技術をどう制御するかという世界的な課題の現実性を問い直すものとなっている。 (出典: BBC / 更新: 2026-09-15 10:28)
