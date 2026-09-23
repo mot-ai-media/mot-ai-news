@@ -3,12 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 15:09
+最終更新: 2026-09-23 15:10
 
 ## 記事一覧
 
-- [OpenAI、GPT-6 Sol/Luna発表・API価格50%値下げ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-34e1fd59.html): OpenAIが新モデル発表と大幅な価格引き下げで、高度なAIをより多くのユーザーに提供開始。 (出典: TradingView / 更新: 2026-09-23 15:09)
-- [GPT-6 Sol・Luna登場、API料金は半額以下に｜OpenAI新モデル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f0394af4.html): OpenAIの新型モデルGPT-6 Sol・Lunaが登場。性能が向上しながらAPI利用料は大幅に低下。 (出典: 窓の杜 / 更新: 2026-09-23 15:08)
+- [AWS・Salesforce連携強化とは？AIがデータを探さなくて済む仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/aws-salesforce-686de8e2.html): 企業データが分散している問題をAIと既存ツールの統合で解決。データを動かさずにAIが活用できる環境へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:10)
+- [AI導入後の課題「データ基盤問題」とは。パーソルが支援サービス開始](https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html): AIを入れたのに活用し続けられない企業が増加。データ整理不足やコスト増が原因で、パーソルが支援サービスを開始。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:10)
+- [トランプ大統領がAIを改称「Super Intelligence」とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-57b841c6.html): 米国がAI用語を「Super Intelligence」に変更し、国際管理枠組みを拒否する方針を表明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:09)
+- [OpenAI新モデルGPT-6 Sol・Luna公開、料金体系と性能は？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f2d10821.html): OpenAIが新AIモデルを発表。料金を大幅値下げする一方、倫理面での課題も報告。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:09)
+- [半導体とは？AI時代に重要視される理由を基礎知識から解説](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-f6901e69.html): AIの急速な発展に伴い、半導体がニュースでよく取り上げられている。その本質と重要性を基礎から学ぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:09)
 - [GPT-6（Astra）とは？OpenAIが発表、ChatGPTへの提供時期と料金](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html): OpenAIが次世代AI「GPT-6」を正式発表。ChatGPTユーザーは追加料金なしで数日以内に利用可能になる。 (出典: CNET Japan / 更新: 2026-09-23 04:53)
 - [Andreessen Horowitz、大手テック企業10社と提携した新型アカデミー発足](https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html): 米ベンチャーキャピタル大手Andreessen Horowitz（a16z）が、従来の大学教育に代わるアカデミーを立ち上げた。Google、Meta、OpenAI、Palantirなど有力テック企業10社と提携し、4200万ドルを投じて若い起業家を育成する新しい人材育成モデルが始まろうとしている。 (出典: The Verge / 更新: 2026-09-23 04:28)
 - [OpenAI GPT-6、Anthropic Claude Opus 5.5が価格引き下げで登場](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html): OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。 (出典: CNBC / 更新: 2026-09-23 04:27)
@@ -204,6 +207,3 @@
 - [Gemini Notebookとは？NotebookLMからの変更点・できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html): GoogleのAIツールが資料の読み込みから、データ分析や成果物作成まで対応へ。仕事のあり方が変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:02)
 - [トランプ大統領のAI規制論への反論。中国とのAI競争とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-07a38307.html): 米トランプ大統領がAI規制論に反発し、中国への競争優位性維持を重視する姿勢を示した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
 - [AIエージェント導入の課題とは？実例から見る落とし穴と対策](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f1e9114d.html): 万能型AIエージェントも実装すると問題が続出。実際の導入企業が語った失敗の原因と乗り越え方。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
-- [AIを無料公開する理由とは？米IT企業の戦略と日本の課題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-79d4a531.html): AI企業がなぜ最新技術を無料で公開するのか。その背景にある企業戦略と、日本が直面する課題を解説。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
-- [AI開発減速論とは？株価急落の理由と影響を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-9ca70683.html): AI企業が開発ペースの減速を警告し、AI関連株が急落。身近な企業の株価に影響が及ぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:00)
-- [OpenAI Astraとは？できることと、使いこなしに必要なスキル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-01eaaadb.html): 万能なAIだからこそ、指示の出し方次第で成果が大きく変わる時代へ。 (出典: Yahoo!ニュース / 更新: 2026-09-14 20:53)

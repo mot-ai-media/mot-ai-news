@@ -4,18 +4,39 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>OpenAIが新型AI「Sol」「Luna」発表、API料金を半額に引き下げ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-34e1fd59.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-34e1fd59.html</guid>
-    <description>OpenAIが新モデル発表と大幅な価格引き下げで、高度なAIをより多くのユーザーに提供開始。</description>
+    <title>AIを導入しても使い続けられない企業が続出。データ基盤の整備がいかに重要か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html</guid>
+    <description>AIを入れたのに活用し続けられない企業が増加。データ整理不足やコスト増が原因で、パーソルが支援サービスを開始。</description>
+    <pubDate>Wed, 23 Sep 2026 15:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AWSとSalesforce連携で、AIは「別の画面」を見なくなる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-salesforce-686de8e2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-salesforce-686de8e2.html</guid>
+    <description>企業データが分散している問題をAIと既存ツールの統合で解決。データを動かさずにAIが活用できる環境へ。</description>
+    <pubDate>Wed, 23 Sep 2026 15:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>半導体がAI時代の戦略物資に。その理由を基礎から理解する</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-f6901e69.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-f6901e69.html</guid>
+    <description>AIの急速な発展に伴い、半導体がニュースでよく取り上げられている。その本質と重要性を基礎から学ぶ。</description>
     <pubDate>Wed, 23 Sep 2026 15:09:00 +0900</pubDate>
   </item>
   <item>
-    <title>GPT-6が半額以下で登場、性能アップなのに費用削減の衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f0394af4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f0394af4.html</guid>
-    <description>OpenAIの新型モデルGPT-6 Sol・Lunaが登場。性能が向上しながらAPI利用料は大幅に低下。</description>
-    <pubDate>Wed, 23 Sep 2026 15:08:00 +0900</pubDate>
+    <title>OpenAI、新モデル「GPT-6 Sol」「Luna」公開　API料金は半額に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f2d10821.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f2d10821.html</guid>
+    <description>OpenAIが新AIモデルを発表。料金を大幅値下げする一方、倫理面での課題も報告。</description>
+    <pubDate>Wed, 23 Sep 2026 15:09:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプ大統領がAIを「Super Intelligence」に改称、国連で宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-57b841c6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-57b841c6.html</guid>
+    <description>米国がAI用語を「Super Intelligence」に変更し、国際管理枠組みを拒否する方針を表明。</description>
+    <pubDate>Wed, 23 Sep 2026 15:09:00 +0900</pubDate>
   </item>
   <item>
     <title>OpenAIが「GPT-6」正式発表、数日でChatGPTに無料提供開始</title>
@@ -191,26 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-363bbead.html</guid>
     <description>OpenAIが法律業務に特化したAIシステムを発表。HarveyやLegoraといった法務企業が採用開始。</description>
     <pubDate>Mon, 21 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>大手法律事務所Cooley、ChatGPTでIPO準備を劇的短縮</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-964ae1dd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-964ae1dd.html</guid>
-    <description>法律事務所がChatGPTを使ってIPO手続きを自動化。弁護士は判断が必要な部分に専念できるようになる。</description>
-    <pubDate>Mon, 21 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>教科書がTikTok化する。ScrollEdが「退屈な勉強」を動画フィードに変える</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/scrolled-ai-c1355961.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/scrolled-ai-c1355961.html</guid>
-    <description>スタートアップScrollEdが、つまらない教科書をInstagram風の動画フィードに変えるアプリを開発。若い世代の勉強方法を激変させる可能性。</description>
-    <pubDate>Mon, 21 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI搭載リングが会議記録を自動変換、プライバシー問題も浮上</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/vocci-ai-71efe47b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/vocci-ai-71efe47b.html</guid>
-    <description>指輪型デバイスで会議を自動記録・文字起こしするVocciが登場。便利さとプライバシーのジレンマが課題に。</description>
-    <pubDate>Mon, 21 Sep 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -975,7 +975,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2287301688.jpg?resize=1200,800",
     "generated_at": "2026-09-05 22:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1033,7 +1033,10 @@
         "x_post": "新CEO体制で、iPhone発表時期や価格戦略が変わる可能性あり。買い替え検討中の方は、この新体制の動きを見た上で判断する方が賢明。業績見通しも注視の的に。",
         "cta": "iPhone購入予定の方へ。新体制の影響をMOTで詳しく解説"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17985831302876813",
+    "published_at": "2026-09-23T15:10:17"
   },
   "nvidia-ai-88b52e93": {
     "headline": "Nvidiaが99億ドルの投資を宣言、AI産業の支配者としての地位を確立",
