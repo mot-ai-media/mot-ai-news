@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>カリフォルニア州がAIデータセンターの電力・水使用量を公開義務化——あなたの電気代に影響する可能性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-211a6281.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-211a6281.html</guid>
+    <description>カリフォルニア州知事がAIデータセンターに対し、電力・水使用量の公開を義務付ける法案に署名した。これまで「ブラックボックス」だったデータセンターの実態が明らかになることで、地域社会の環境負荷と電気代への影響が可視化される。</description>
+    <pubDate>Thu, 24 Sep 2026 04:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Metaの新型AIアシスタント「Muse」は便利だが、あなたの財布の紐を緩める魔力がある</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-54336ea9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-54336ea9.html</guid>
+    <description>Metaが開発したAIエージェント「Muse」は、やることリストの管理などを手伝うが、ショッピング機能では思わぬ出費を招く可能性が指摘されている。実際のテストで、AIが提案するままに購入してしまう危険性が浮き彫りになった。</description>
+    <pubDate>Thu, 24 Sep 2026 04:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>MetaのAIアシスタント「Muse」に重大な脆弱性。Mac乗っ取りの危険も</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f2d10821.html</guid>
     <description>OpenAIが新AIモデルを発表。料金を大幅値下げする一方、倫理面での課題も報告。</description>
     <pubDate>Wed, 23 Sep 2026 15:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領がAIを「Super Intelligence」に改称、国連で宣言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-57b841c6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-57b841c6.html</guid>
-    <description>米国がAI用語を「Super Intelligence」に変更し、国際管理枠組みを拒否する方針を表明。</description>
-    <pubDate>Wed, 23 Sep 2026 15:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが「GPT-6」正式発表、数日でChatGPTに無料提供開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html</guid>
-    <description>OpenAIが次世代AI「GPT-6」を正式発表。ChatGPTユーザーは追加料金なしで数日以内に利用可能になる。</description>
-    <pubDate>Wed, 23 Sep 2026 04:53:00 +0900</pubDate>
   </item>
 </channel></rss>
