@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが新型AI「GPT-6 Sol・Luna」発表、コスト削減と精度向上を実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-25b056c5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-25b056c5.html</guid>
+    <description>OpenAIが低コスト・高精度を謳う新世代AIモデルGPT-6 Sol・Lunaを発表。利用企業の選択肢が広がる。</description>
+    <pubDate>Wed, 23 Sep 2026 18:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、GPT-6 SolとLunaを発表。次世代AIの全貌が明かされる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-6f8660f7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-6f8660f7.html</guid>
+    <description>OpenAIが新型AIモデル「GPT-6 Sol」と「Luna」を発表。</description>
+    <pubDate>Wed, 23 Sep 2026 18:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Qualcomm新型チップ、スマホで30億パラメータのAIを動かせる時代へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-snapdragon-948ab460.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-snapdragon-948ab460.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-meta-70ef54c1.html</guid>
     <description>Amazonがユーザーの買い物を代行するMetaのAIエージェント「Muse」をサイトからブロック。セキュリティやプライバシー上の懸念が背景。</description>
     <pubDate>Tue, 22 Sep 2026 20:34:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、AIの暴走防止へ国際標準化を米主導で提言「完全自律進化はまだ起きていない」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-09d5f023.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-09d5f023.html</guid>
-    <description>OpenAIが次世代AIの安全基準を米国主導で国際的に策定すべきと提言。AIが自動で進化する仕組みを管理する枠組みが焦点。</description>
-    <pubDate>Tue, 22 Sep 2026 20:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、100件超の数学難問を解決。数学者の監視委員会を設置する異例の決断</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c629e560.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c629e560.html</guid>
-    <description>AIが数学の難問を次々と解決する一方、発表方法をめぐる数学界との対立が深刻化。解決策は「独立した専門家の目」。</description>
-    <pubDate>Tue, 22 Sep 2026 20:33:00 +0900</pubDate>
   </item>
 </channel></rss>
