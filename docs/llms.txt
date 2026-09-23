@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 04:53
+最終更新: 2026-09-23 15:09
 
 ## 記事一覧
 
+- [OpenAI、GPT-6 Sol/Luna発表・API価格50%値下げ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-34e1fd59.html): OpenAIが新モデル発表と大幅な価格引き下げで、高度なAIをより多くのユーザーに提供開始。 (出典: TradingView / 更新: 2026-09-23 15:09)
+- [GPT-6 Sol・Luna登場、API料金は半額以下に｜OpenAI新モデル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f0394af4.html): OpenAIの新型モデルGPT-6 Sol・Lunaが登場。性能が向上しながらAPI利用料は大幅に低下。 (出典: 窓の杜 / 更新: 2026-09-23 15:08)
 - [GPT-6（Astra）とは？OpenAIが発表、ChatGPTへの提供時期と料金](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html): OpenAIが次世代AI「GPT-6」を正式発表。ChatGPTユーザーは追加料金なしで数日以内に利用可能になる。 (出典: CNET Japan / 更新: 2026-09-23 04:53)
 - [Andreessen Horowitz、大手テック企業10社と提携した新型アカデミー発足](https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html): 米ベンチャーキャピタル大手Andreessen Horowitz（a16z）が、従来の大学教育に代わるアカデミーを立ち上げた。Google、Meta、OpenAI、Palantirなど有力テック企業10社と提携し、4200万ドルを投じて若い起業家を育成する新しい人材育成モデルが始まろうとしている。 (出典: The Verge / 更新: 2026-09-23 04:28)
 - [OpenAI GPT-6、Anthropic Claude Opus 5.5が価格引き下げで登場](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html): OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。 (出典: CNBC / 更新: 2026-09-23 04:27)
@@ -205,5 +207,3 @@
 - [AIを無料公開する理由とは？米IT企業の戦略と日本の課題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-79d4a531.html): AI企業がなぜ最新技術を無料で公開するのか。その背景にある企業戦略と、日本が直面する課題を解説。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
 - [AI開発減速論とは？株価急落の理由と影響を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-9ca70683.html): AI企業が開発ペースの減速を警告し、AI関連株が急落。身近な企業の株価に影響が及ぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:00)
 - [OpenAI Astraとは？できることと、使いこなしに必要なスキル](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-01eaaadb.html): 万能なAIだからこそ、指示の出し方次第で成果が大きく変わる時代へ。 (出典: Yahoo!ニュース / 更新: 2026-09-14 20:53)
-- [OpenAI Astraモデルとは？セキュリティ課題が判明](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-07c2deab.html): OpenAIの最新AI「Astra」がセキュリティ上の重大な問題を抱えていることが報じられた。 (出典: Campus Technology / 更新: 2026-09-14 20:53)
-- [AI開発の減速論争：実現の難しさと社会への波紋](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7a3b9fe6.html): AI技術の急速な発展に対する懸念から、開発ペースを落とそうという提案が国際的に議論されている。しかし英BBC報道によると、実際に『減速』を実現することは想像以上に複雑で、多くの課題が横たわっているという。 (出典: BBC / 更新: 2026-09-14 19:28)

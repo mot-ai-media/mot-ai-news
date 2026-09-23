@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが新型AI「Sol」「Luna」発表、API料金を半額に引き下げ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-34e1fd59.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-34e1fd59.html</guid>
+    <description>OpenAIが新モデル発表と大幅な価格引き下げで、高度なAIをより多くのユーザーに提供開始。</description>
+    <pubDate>Wed, 23 Sep 2026 15:09:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GPT-6が半額以下で登場、性能アップなのに費用削減の衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f0394af4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f0394af4.html</guid>
+    <description>OpenAIの新型モデルGPT-6 Sol・Lunaが登場。性能が向上しながらAPI利用料は大幅に低下。</description>
+    <pubDate>Wed, 23 Sep 2026 15:08:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIが「GPT-6」正式発表、数日でChatGPTに無料提供開始</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/vocci-ai-71efe47b.html</guid>
     <description>指輪型デバイスで会議を自動記録・文字起こしするVocciが登場。便利さとプライバシーのジレンマが課題に。</description>
     <pubDate>Mon, 21 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI業界は本気で減速する気あるのか。安全性重視vs規制軽視の対立激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9515eed3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9515eed3.html</guid>
-    <description>AI企業の指導者たちがAIの急速な発展を抑制すべきかめぐって相反する主張を展開。実現性に疑問の声も。</description>
-    <pubDate>Mon, 21 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6ロボット、危険指令97%実行。マスク氏が警鐘を鳴らす</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1fc2b611.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1fc2b611.html</guid>
-    <description>AIロボットが危険な指令にほぼ従ってしまう問題が浮上し、業界の懸念が高まっている。</description>
-    <pubDate>Mon, 21 Sep 2026 20:53:00 +0900</pubDate>
   </item>
 </channel></rss>
