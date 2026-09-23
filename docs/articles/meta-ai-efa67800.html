@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meta Muse AI 脆弱性 Mac セキュリティ | AI特化メディアMOT</title>
+<meta name="description" content="MetaがMac向けに展開したAIアシスタント「Muse」に、攻撃者がユーザーのパソコンを完全に支配できる重大な脆弱性が発見された。既に修正済みだが、AI助手の急速な普及に伴うセキュリティリスクが明らかになった。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="MetaのAIアシスタント「Muse」に重大な脆弱性。Mac乗っ取りの危険も">
+<meta property="og:description" content="MetaがMac向けに展開したAIアシスタント「Muse」に、攻撃者がユーザーのパソコンを完全に支配できる重大な脆弱性が発見された。既に修正済みだが、AI助手の急速な普及に伴うセキュリティリスクが明らかになった。">
+<meta property="og:image" content="https://media.wired.com/photos/6ab2cd9fca426ab5b46f084b/191:100/w_1280,c_limit/Security_Meta%E2%80%99s%20Muse%20AI%20Agent%20Has%20a%20Serious%20Security%20Flaw_v1.jpg">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html">
+<meta property="article:published_time" content="2026-09-24T01:28:00+09:00">
+<meta property="article:modified_time" content="2026-09-24T01:28:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "MetaのAIアシスタント「Muse」に重大な脆弱性。Mac乗っ取りの危険も", "description": "MetaがMac向けに展開したAIアシスタント「Muse」に、攻撃者がユーザーのパソコンを完全に支配できる重大な脆弱性が発見された。既に修正済みだが、AI助手の急速な普及に伴うセキュリティリスクが明らかになった。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-24T01:28:00+09:00", "dateModified": "2026-09-24T01:28:00+09:00", "image": ["https://media.wired.com/photos/6ab2cd9fca426ab5b46f084b/191:100/w_1280,c_limit/Security_Meta%E2%80%99s%20Muse%20AI%20Agent%20Has%20a%20Serious%20Security%20Flaw_v1.jpg"], "citation": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Muse AIってどんなツール？", "acceptedAnswer": {"@type": "Answer", "text": "MetaがMac向けに提供するAIアシスタント。ユーザーがAIの助言や支援を受けられるツール。"}}, {"@type": "Question", "name": "脆弱性はもう修正されたの？", "acceptedAnswer": {"@type": "Answer", "text": "はい。Metaは既に修正プログラムを配信済みだが、セキュリティリスクが存在したこと自体が問題。"}}, {"@type": "Question", "name": "日本のMacユーザーも影響を受ける可能性があった？", "acceptedAnswer": {"@type": "Answer", "text": "あったが、Metaから修正配信されているため、アップデート適用で対応可能。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Meta", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/meta.html"}, {"@type": "ListItem", "position": 3, "name": "MetaのAIアシスタント「Muse」に重大な脆弱性。Mac乗っ取りの危険も", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://media.wired.com/photos/6ab2cd9fca426ab5b46f084b/191:100/w_1280,c_limit/Security_Meta%E2%80%99s%20Muse%20AI%20Agent%20Has%20a%20Serious%20Security%20Flaw_v1.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">MetaのAIアシスタント「Muse」に重大な脆弱性。Mac乗っ取りの危険も</span></div></div>
+  <h1 class="headline">MetaのAIアシスタント「Muse」に重大な脆弱性。Mac乗っ取りの危険も</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>WIRED</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-24 01:28</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> MetaのMuse AIに、ユーザーのMacを乗っ取り可能な深刻な脆弱性が存在。急速に広がるAI助手の防御体制の甘さが露呈。</p><h3>何が起きたか</h3><p>Metaが提供するAIアシスタント「Muse」に、ゼロデイ脆弱性と呼ばれる未知の重大バグが見つかった。この脆弱性を悪用されると、攻撃者がユーザーのMacを完全に支配できる可能性があった。Metaは既に修正を配信しているが、AIツールのセキュリティ対策の課題が浮き彫りになった。</p><div class="overseas-box"><h3>海外ではどう報道されているか</h3><p>WIREDなど海外メディアが、Metaの急速に広がるAI助手サービスに対する警告として報道。ゼロデイ脆弱性が実在したことは、AI企業が新機能をリリースする際、セキュリティテストが十分でない可能性を示唆している。</p></div><h3>なぜ重要か</h3><p>AI助手は今後、多くの人がパソコンやスマートフォンで日常的に使うようになる。こうしたツールに脆弱性があると、個人情報の盗難や詐欺被害につながるリスクが高まる。今回の事例は、利便性と安全性のバランスがまだ取れていない現状を示す重要な警告。</p><div class="japan-impact-box"><h3>日本への影響</h3><p>日本国内ではMeta製品の利用者も多く、今後AIアシスタントの普及が進めば、同様のセキュリティリスクが身近になる可能性がある。企業や個人が利用するAIツール選びの際、セキュリティ対応体制を重視する姿勢がより重要になるだろう。</p></div><h3>今後どうなる</h3><p>AI企業のセキュリティ対応がどこまで強化されるかが焦点。ユーザーも定期的なアップデート適用の重要性をあらためて認識する必要がある。今後、AI助手のセキュリティ基準がどう設定されるかが業界全体に影響する。</p><div class="mot-take-box"><h3>MOTの見解</h3><p>AIが便利だからこそ、その安全性に対する不安は避けて通れない。急成長するAI産業では、新機能の開発スピードがセキュリティ対策を上回るリスクがある。メーカーとユーザーが協力して、信頼できるAI環境を作る必要がある。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>他のAI企業（OpenAI、Google、Microsoft等）のセキュリティ対応体制の公開情報。AI助手に対する業界統一セキュリティ基準の動き。日本国内でのAI セキュリティガイドライン策定の進展。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/meta.html">#Meta</a></div>
+  <script>window.motPageTags=["Meta", "AI助手", "セキュリティ脆弱性", "Mac"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">会話やメモを録音するだけで、AIが自動で要約してくれる</h3><p class="sponsor-desc">AIボイスレコーダー「PLAUD」。録音した音声をAIが自動で文字起こし・要約する。全世界100万ユーザーが利用(スポンサー公表値)。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36L+FSKZHU+5J4W+67JU9" rel="sponsored nofollow" target="_blank"><img border="0" width="336" height="280" alt="PLAUD" loading="lazy" src="https://www22.a8.net/svt/bgt?aid=260904477955&wid=001&eno=01&mid=s00000025808001043000&mc=1"></a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36L+FSKZHU+5J4W+67JU9" alt=""></div><span class="sponsor-cta">詳しく見る &rarr;</span><p class="sponsor-name">PLAUD</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.wired.com/story/metas-muse-ai-agent-zero-day/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>WIRED</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.wired.com/story/metas-muse-ai-agent-zero-day/" target="_blank" rel="noopener noreferrer">元記事（<cite>WIRED</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Muse AIってどんなツール？</p>
+    <p class="faq-a">MetaがMac向けに提供するAIアシスタント。ユーザーがAIの助言や支援を受けられるツール。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 脆弱性はもう修正されたの？</p>
+    <p class="faq-a">はい。Metaは既に修正プログラムを配信済みだが、セキュリティリスクが存在したこと自体が問題。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 日本のMacユーザーも影響を受ける可能性があった？</p>
+    <p class="faq-a">あったが、Metaから修正配信されているため、アップデート適用で対応可能。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Meta%E3%81%AEAI%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%80%8CMuse%E3%80%8D%E3%81%AB%E9%87%8D%E5%A4%A7%E3%81%AA%E8%84%86%E5%BC%B1%E6%80%A7%E3%80%82Mac%E4%B9%97%E3%81%A3%E5%8F%96%E3%82%8A%E3%81%AE%E5%8D%B1%E9%99%BA%E3%82%82&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html&text=Meta%E3%81%AEAI%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%80%8CMuse%E3%80%8D%E3%81%AB%E9%87%8D%E5%A4%A7%E3%81%AA%E8%84%86%E5%BC%B1%E6%80%A7%E3%80%82Mac%E4%B9%97%E3%81%A3%E5%8F%96%E3%82%8A%E3%81%AE%E5%8D%B1%E9%99%BA%E3%82%82" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html" data-share-title="MetaのAIアシスタント「Muse」に重大な脆弱性。Mac乗っ取りの危険も">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="meta-ai-efa67800">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="meta-openclaw-047d6bba.html">
+    <img src="https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024" alt="" loading="lazy">
+    <span class="next-up-headline">Meta、AIアシスタント「Muse」がOpenClawの丸パクリだったことを認める</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="meta-ai-607ffaad.html">Metaの新型AIアシスタント「Muse」、あなたのメッセージを勝手に読む可能性——でも本人も仕組みを理解していない</a></li>
+  <li><a href="meta-ai-726d5689.html">Metaが新型AI「Muse」を発表、誰でも使えるAIアシスタント時代へ</a></li>
+  <li><a href="meta-ai-18969755.html">Meta、月額2,000円のAIアシスタント「Muse」発表。プライバシー問題の渦中での戦略転換</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

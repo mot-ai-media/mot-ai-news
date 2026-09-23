@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>MetaのAIアシスタント「Muse」に重大な脆弱性。Mac乗っ取りの危険も</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html</guid>
+    <description>MetaがMac向けに展開したAIアシスタント「Muse」に、攻撃者がユーザーのパソコンを完全に支配できる重大な脆弱性が発見された。既に修正済みだが、AI助手の急速な普及に伴うセキュリティリスクが明らかになった。</description>
+    <pubDate>Thu, 24 Sep 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>YouTubeがAIで動画クリエイターの仕事を「ほぼ自動化」。アルゴリズム対策の時代は終わる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-5ef7b4da.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-5ef7b4da.html</guid>
+    <description>YouTubeが年次イベント「Made on YouTube」で発表した新しいAIツールセットは、クリエイターが何をすべきかを指示してくれる機能を備える。従来、クリエイターが試行錯誤で解き明かしていた「アルゴリズム対策」を、YouTubeが直接ガイダンスする方針へのシフトを示唆している。</description>
+    <pubDate>Thu, 24 Sep 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、法律業務向けAI「Astra for Law」を正式ローンチ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-cd02be98.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-cd02be98.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html</guid>
     <description>OpenAIが次世代AI「GPT-6」を正式発表。ChatGPTユーザーは追加料金なしで数日以内に利用可能になる。</description>
     <pubDate>Wed, 23 Sep 2026 04:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>シリコンバレーの大物VCが「宿題なし大学」を立ち上げ。Google、Meta、OpenAIが協力</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html</guid>
-    <description>米ベンチャーキャピタル大手Andreessen Horowitz（a16z）が、従来の大学教育に代わるアカデミーを立ち上げた。Google、Meta、OpenAI、Palantirなど有力テック企業10社と提携し、4200万ドルを投じて若い起業家を育成する新しい人材育成モデルが始まろうとしている。</description>
-    <pubDate>Wed, 23 Sep 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIとAnthropicが低価格AI新モデルを相次ぎ投入―「減速要求」後の現実的な選択肢</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html</guid>
-    <description>OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。</description>
-    <pubDate>Wed, 23 Sep 2026 04:27:00 +0900</pubDate>
   </item>
 </channel></rss>

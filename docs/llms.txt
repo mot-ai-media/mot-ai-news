@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 22:53
+最終更新: 2026-09-24 01:28
 
 ## 記事一覧
 
+- [YouTube AI creator tools 2024：動画制作自動化ツール](https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-5ef7b4da.html): YouTubeが年次イベント「Made on YouTube」で発表した新しいAIツールセットは、クリエイターが何をすべきかを指示してくれる機能を備える。従来、クリエイターが試行錯誤で解き明かしていた「アルゴリズム対策」を、YouTubeが直接ガイダンスする方針へのシフトを示唆している。 (出典: The Verge / 更新: 2026-09-24 01:28)
+- [Meta Muse AI 脆弱性 Mac セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html): MetaがMac向けに展開したAIアシスタント「Muse」に、攻撃者がユーザーのパソコンを完全に支配できる重大な脆弱性が発見された。既に修正済みだが、AI助手の急速な普及に伴うセキュリティリスクが明らかになった。 (出典: WIRED / 更新: 2026-09-24 01:28)
 - [GPT-6 Sol・Lunaとは？API料金が半額、コスト効率が向上](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5e87270f.html): OpenAIが新モデル「GPT-6 Sol」「GPT-6 Luna」を発表。API利用料が前世代比で大幅に削減され、AI導入のハードルが下がる。 (出典: au Webポータル / 更新: 2026-09-23 22:53)
 - [OpenAI Astra for Lawとは？法律分野AIの概要・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-cd02be98.html): OpenAIが法律専門職向けのAIツール「Astra for Law」を発表。法務業務の効率化へ。 (出典: NeoTeo / 更新: 2026-09-23 22:53)
 - [OpenAI ウクライナ サイバー防御 Daybreak](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-504b1f32.html): OpenAIはウクライナ政府に対し、AIを活用したサイバー防御システム「Daybreak」を無償提供することを発表。ウクライナは2025年に約6000件のサイバー攻撃を記録しており、病院や発電所などの重要インフラを守るため、最新のGPT 5.6 Solモデルへのアクセスが与えられる。西側技術企業によるウクライナへの支援が強まっている。 (出典: BBC / 更新: 2026-09-23 22:28)
@@ -205,5 +207,3 @@
 - [Grok 5とは？マスク氏が明かす開発状況、AGIとAstraクラスの違い](https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-grok-8521d00b.html): イーロン・マスク氏が自社AIの開発進捗を公表。次世代モデルの位置づけと業界全体の動向を語る。 (出典: Infoseek / 更新: 2026-09-15 20:53)
 - [AIの危機的状況は既に手遅れ：CrowdStrike CEOが指摘する現実](https://mot-ai-media.github.io/mot-ai-news/articles/crowdstrike-ai-4e41fa14.html): サイバーセキュリティ企業CrowdStrikeのCEOが、AI開発の減速ではリスクは解決しないと明言。危険性を持つAIモデルは既に広く流通しているため、対策の重点が変わるべきだと示唆。 (出典: CNBC / 更新: 2026-09-15 19:28)
 - [AI需要の減速でデータセンター企業に逆風、投資家が懸念](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0bc1f58.html): AIブームを支えてきたデータセンター関連企業が、AI成長の鈍化という新たなリスクに直面している。ウォール街の投資家たちは、AIの急成長が一服する可能性を指摘し、この分野への巨額投資の継続性に疑問を呈し始めた。 (出典: CNBC / 更新: 2026-09-15 19:27)
-- [OpenAI新AI「Astra」とは？PC自動操作機能の衝撃を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-9dbf17af.html): OpenAIが新しいAI「Astra」を発表。PCを自動で操作する能力を持ち、AI業界に激震が走っている。 (出典: Yahoo!ニュース / 更新: 2026-09-15 16:53)
-- [Broadcom CEO、AI インフラ需要の強気見通し。モデル高度化で投資加速](https://mot-ai-media.github.io/mot-ai-news/articles/broadcom-ai-fb264a33.html): 半導体大手Broadcomの最高経営責任者Hock Tanは、AIモデルの高度化に対する懸念が広がる中でも、AI向けインフラストラクチャへの需要は依然として堅調だと述べた。同社のAI関連売上目標に変更はないという。 (出典: CNBC / 更新: 2026-09-15 16:28)
