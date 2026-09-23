@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>宇宙スタートアップが小型AIで無人探査機を自動操縦、2027年初飛行へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/astroforge-ai-b9dfdf1a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/astroforge-ai-b9dfdf1a.html</guid>
+    <description>NASAの支援を受けるスタートアップが、トランスフォーマー型AIで探査機を完全自動操縦する計画。スタートアップにも本格的な宇宙ミッションが可能になる転機。</description>
+    <pubDate>Wed, 23 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、新型AI「Opus 5.5」を発表。性能向上で価格は2割安に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8fee313a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8fee313a.html</guid>
+    <description>Anthropic傘下のClaudeが最新版Opus 5.5にアップデート。性能は大幅向上、料金は大幅値下げ。</description>
+    <pubDate>Wed, 23 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、GPT-6の廉価版「Sol」「Luna」で半額提供開始。精度向上で実務活用が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-11b52430.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-11b52430.html</guid>
+    <description>OpenAIが小型AI「Sol」「Luna」の最新版を発表。価格は半額に、エラーも削減。</description>
+    <pubDate>Wed, 23 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta、AIアシスタント「Muse」がOpenClawの丸パクリだったことを認める</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openclaw-047d6bba.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openclaw-047d6bba.html</guid>
+    <description>Metaが開発したAIアシスタント「Muse」はOpenClawに「強く影響を受けた」と公式認め、ファイル名まで似ていた。</description>
+    <pubDate>Wed, 23 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが企業ソフト市場を侵食、Emaが7700万ドル調達で勢力拡大</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ema-ai-343438d8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ema-ai-343438d8.html</guid>
+    <description>AIエージェントが従来の企業向けソフトの仕事を奪い始め、急速な事業化が進行中。</description>
+    <pubDate>Wed, 23 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Qualcommが「AI専用スマホチップ」を発表、2026年は世界的なスマートフォン販売の危機へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-android-3fd630c1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-android-3fd630c1.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a9715cc1.html</guid>
     <description>OpenAIが人工知能の開発に関する世界共通の基準策定を提案した。AnthropicのJacob Coxonが両社を「人命を賭けた賭博」と批判したことが引き金となり、AI安全性を巡る国際的な議論が加速している。</description>
     <pubDate>Tue, 22 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple創業者が警告、AIショッピング革命は幻想か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-6495b18d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-6495b18d.html</guid>
-    <description>Apple Storeの建築者が、シリコンバレーのAIショッピング自動化に異議。人間の接客こそが小売の本質と指摘。</description>
-    <pubDate>Tue, 22 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>MicrosoftとAnthropicに依存する英AI企業、IPO直前に業界の危険な集中構造が浮き彫り</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-microsoft-0f7edaaa.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nscale-microsoft-0f7edaaa.html</guid>
-    <description>AI大手に依存する企業の上場で、業界全体の危うい構造が問題視される。</description>
-    <pubDate>Tue, 22 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Teams会議がAIの教科書に。埋もれた仕事のコツをAIに教える新ツール登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/synclect-agent-garden-ai-8a95e75a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/synclect-agent-garden-ai-8a95e75a.html</guid>
-    <description>企業固有の判断基準や経験則をTeams会議から自動抽出し、AIエージェントが扱える業務知識に変換する新サービスが始まった。</description>
-    <pubDate>Tue, 22 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>レガシーシステム刷新、7割が失敗。生成AIへの過信が裏目に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-erp-feb24204.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-erp-feb24204.html</guid>
-    <description>AIで古いシステムの刷新が楽になると期待されたが、逆に失敗が増加。人手が必要な理由が見えてきた。</description>
-    <pubDate>Tue, 22 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>キユーピー、AIで工場シミュレーション開発を78%削減。生成AIが属人化した現場を変える</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-90cb6eb9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-90cb6eb9.html</guid>
-    <description>キユーピーがAIを使い、工場シミュレーションモデルの開発工数を8割削減。専門技術の壁を生成AIで乗り越えた事例。</description>
-    <pubDate>Tue, 22 Sep 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>

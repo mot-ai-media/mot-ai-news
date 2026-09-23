@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 19:28
+最終更新: 2026-09-23 22:01
 
 ## 記事一覧
 
+- [MetaのMuseはOpenClawのコピー？Meta認める、何が違う](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openclaw-047d6bba.html): Metaが開発したAIアシスタント「Muse」はOpenClawに「強く影響を受けた」と公式認め、ファイル名まで似ていた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)
+- [GPT-6 Sol・Luna新版とは？料金・性能を解説【OpenAI】](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-11b52430.html): OpenAIが小型AI「Sol」「Luna」の最新版を発表。価格は半額に、エラーも削減。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)
+- [Anthropic Opus 5.5とは？性能・料金・提供開始時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8fee313a.html): Anthropic傘下のClaudeが最新版Opus 5.5にアップデート。性能は大幅向上、料金は大幅値下げ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)
+- [AstroForge、AI搭載宇宙探査機とは？2027年ミッションの意味](https://mot-ai-media.github.io/mot-ai-news/articles/astroforge-ai-b9dfdf1a.html): NASAの支援を受けるスタートアップが、トランスフォーマー型AIで探査機を完全自動操縦する計画。スタートアップにも本格的な宇宙ミッションが可能になる転機。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)
+- [AI企業ソフト市場侵食とは？Emaが調達した理由・今後の影響を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ema-ai-343438d8.html): AIエージェントが従来の企業向けソフトの仕事を奪い始め、急速な事業化が進行中。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:00)
 - [Qualcomm AI チップ スマートフォン 2026年 販売減少](https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-android-3fd630c1.html): スマートフォン大手メーカーのチップ供給を担うQualcommがAI機能に特化した新型Androidチップを発表。一方で業界全体では2026年に世界的な端末販売台数が14%減少する見通しが出ており、AI搭載スマホへの転換が市場の急速な変化を示唆している。 (出典: CNBC / 更新: 2026-09-23 19:28)
 - [トランプ・習近平会談でAI安全保障が焦点、規制より競争優先の見方も](https://mot-ai-media.github.io/mot-ai-news/articles/ai-a340732f.html): 米国と中国の首脳会談でAI安全保障が主要議題として取り上げられた。しかし専門家は、安全性への懸念は共有されつつも、両国とも技術開発の競争ペースを緩和する意思は低いと指摘している。 (出典: CNBC / 更新: 2026-09-23 19:27)
 - [OpenAI GPT-6 Sol Luna とは？新型AIモデル発表](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-6f8660f7.html): OpenAIが新型AIモデル「GPT-6 Sol」と「Luna」を発表。 (出典: OpenAI / 更新: 2026-09-23 18:53)
@@ -202,8 +207,3 @@
 - [Anthropic AIで生物兵器製造の試みをブロック、初の具体的事例報告](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html): AI企業Anthropicが、自社の会話型AI「Claude」を使って生物兵器の製造情報を得ようとした利用者を検出し、対策を講じたことを明らかにした。AIが悪意ある目的に使われる現実的な危険性が初めて具体的に報告された。 (出典: BBC / 更新: 2026-09-15 13:28)
 - [トランプ大統領AI安全規制否定 vs Anthropic「キルスイッチ」必須論争](https://mot-ai-media.github.io/mot-ai-news/articles/trump-anthropic-bb8c8562.html): 米国のトランプ大統領がAI技術の安全性を巡る懸念を「根拠のないデマ」と退け、規制強化に反対する姿勢を示した。一方、AI大手Anthropicの創業者ジャック・クラークはBBCのインタビューで、システムの暴走を止める「キルスイッチ」の義務化が必要だと主張。AIの安全性規制をめぐる米国内の立場の違いが鮮明になっている。 (出典: BBC / 更新: 2026-09-15 13:27)
 - [Claude Fable 5とは？Anthropicがゲーム開発を加速](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-c421ee3f.html): AnthropicがゲームAI開発用の新モデルClause Fable 5を発表。開発効率が向上する可能性。 (出典: Межа. Новини України. / 更新: 2026-09-15 12:53)
-- [OpenAI GPT-6 Amazon Bedrockとは？AWS新サービス一覧](https://mot-ai-media.github.io/mot-ai-news/articles/aws-openai-52b4b896.html): AWSがOpenAI GPT-6をはじめ複数の新AI機能を発表。ビジネス向けAIツールが次々と実装される。 (出典: Amazon Web Services (AWS) / 更新: 2026-09-15 12:53)
-- [AIエージェントでWebサイト制作する方法・おすすめツール10選](https://mot-ai-media.github.io/mot-ai-news/articles/ai-web-178753f9.html): AIエージェントを使えば、企画からデザイン・コーディング・公開まで対話で完結。従来のサイト制作が大きく変わる (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-15 11:02)
-- [AIエージェントでLP制作する方法とおすすめツール8選](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-4854b2b5.html): AIエージェントがLPの企画から実装まで自動化する段階へ。ただし人間が判断すべき部分が存在する。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-15 11:02)
-- [トランプ氏とのライブ通話で注目、NVIDIAが示したデバイスとは](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-jensen-huang-cf4c6f0a.html): NVIDIAのジェンスン・ファン最高経営責任者がトランプ氏とのライブ通話で使用した電話デバイスが、テック関係者の間で話題に。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-15 11:02)
-- [iOS 27のSiriがChatGPT・Claudeに変更可能？Apple新機能の詳細](https://mot-ai-media.github.io/mot-ai-news/articles/apple-chatgpt-6ea6bb9c.html): 次期iOS 27でSiriの中身をChatGPTやClaudeなど別のAIに置き換えられるようになる可能性。 (出典: VOI.ID / 更新: 2026-09-15 11:00)
