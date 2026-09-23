@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIがPatreon創業者を引き抜き、クリエイター向け新サービスに本気</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-patreon-6fd27f05.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-patreon-6fd27f05.html</guid>
+    <description>OpenAIがクリエイター向けサブスクリプションプラットフォーム「Patreon」の創業者兼技術責任者サム・ヤムと、元プロダクトヘッド、エンジニアリングヘッドの3名を採用。AI時代のクリエイター経済に本格参入する意思を示した。</description>
+    <pubDate>Wed, 23 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIがウクライナにAIサイバー防御システムを無償提供、年間6000件の攻撃から病院や発電所を守へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-504b1f32.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-504b1f32.html</guid>
+    <description>OpenAIはウクライナ政府に対し、AIを活用したサイバー防御システム「Daybreak」を無償提供することを発表。ウクライナは2025年に約6000件のサイバー攻撃を記録しており、病院や発電所などの重要インフラを守るため、最新のGPT 5.6 Solモデルへのアクセスが与えられる。西側技術企業によるウクライナへの支援が強まっている。</description>
+    <pubDate>Wed, 23 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>宇宙スタートアップが小型AIで無人探査機を自動操縦、2027年初飛行へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/astroforge-ai-b9dfdf1a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/astroforge-ai-b9dfdf1a.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-12165847.html</guid>
     <description>トランプ米大統領が国連演説でAI推進を表明。OpenAIのサムアルトマンとダリオアモデイ両氏が国連安全保障理事会のAI会議に参加予定。AIの規制・発展方針が各国政治の最重要課題へ浮上している。</description>
     <pubDate>Wed, 23 Sep 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta『Muse』が急速拡大、230万ダウンロード突破。ChatGPTやClaudeとの競争が本格化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-2b41d398.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-2b41d398.html</guid>
-    <description>Metaが投入した個人用AIアシスタント『Muse』が、ローンチ後わずか2週間で230万ダウンロードを達成。OpenAIやAnthropicの同等製品と肩を並べる勢いで普及が進み、AI市場の勢力図が再び動き始めた。</description>
-    <pubDate>Tue, 22 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが「世界統一AI基準」を提案、安全性巡る国際論争が本格化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a9715cc1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a9715cc1.html</guid>
-    <description>OpenAIが人工知能の開発に関する世界共通の基準策定を提案した。AnthropicのJacob Coxonが両社を「人命を賭けた賭博」と批判したことが引き金となり、AI安全性を巡る国際的な議論が加速している。</description>
-    <pubDate>Tue, 22 Sep 2026 22:27:00 +0900</pubDate>
   </item>
 </channel></rss>

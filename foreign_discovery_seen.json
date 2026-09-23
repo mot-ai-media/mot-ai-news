@@ -1,50 +1,6 @@
 [
   {
     "tokens": [
-      "anthropic",
-      "bottle",
-      "ceo",
-      "crowdstrike",
-      "genie",
-      "out",
-      "safety",
-      "warning"
-    ],
-    "ts": "2026-09-15T19:28:13"
-  },
-  {
-    "tokens": [
-      "hassett",
-      "house's",
-      "place'",
-      "private",
-      "right",
-      "sector",
-      "solve",
-      "threats",
-      "white"
-    ],
-    "ts": "2026-09-15T22:27:54"
-  },
-  {
-    "tokens": [
-      "center",
-      "ceo",
-      "data",
-      "digital",
-      "end",
-      "estate",
-      "not",
-      "potential",
-      "real",
-      "realty",
-      "slowdown",
-      "world"
-    ],
-    "ts": "2026-09-15T22:28:15"
-  },
-  {
-    "tokens": [
       "life",
       "tech"
     ],
@@ -794,5 +750,29 @@
       "weighs"
     ],
     "ts": "2026-09-23T19:28:10"
+  },
+  {
+    "tokens": [
+      "cyber",
+      "defence",
+      "gives",
+      "openai",
+      "tools",
+      "ukraine"
+    ],
+    "ts": "2026-09-23T22:28:02"
+  },
+  {
+    "tokens": [
+      "ahead",
+      "announcement",
+      "execs",
+      "key",
+      "nabs",
+      "openai",
+      "patreon",
+      "upcoming"
+    ],
+    "ts": "2026-09-23T22:28:22"
   }
 ]
