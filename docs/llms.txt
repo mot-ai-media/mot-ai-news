@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 15:10
+最終更新: 2026-09-23 16:28
 
 ## 記事一覧
 
+- [中国AI開発の進展と米国との競争、自律ロボット技術が鍵に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b336b2d8.html): 中国がAI技術開発で米国や他国と激しく競争を繰り広げている。5万台の自律ロボット技術の進展から、ロボティクスの未来を見つめるBBCの報道。日本の産業競争力にも影響を及ぼす可能性がある。 (出典: BBC / 更新: 2026-09-23 16:28)
+- [AIが新卒採用を直撃。企業がエントリーレベルの人材採用を再考](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-60695165.html): AIが従来は新入社員に任せていた定型業務を急速に代替し始めている。これにより世界中の企業が初級職の採用戦略の見直しを迫られており、若年層の就職市場に大きな変化をもたらす可能性が指摘されている。 (出典: CNBC / 更新: 2026-09-23 16:28)
 - [AWS・Salesforce連携強化とは？AIがデータを探さなくて済む仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/aws-salesforce-686de8e2.html): 企業データが分散している問題をAIと既存ツールの統合で解決。データを動かさずにAIが活用できる環境へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:10)
 - [AI導入後の課題「データ基盤問題」とは。パーソルが支援サービス開始](https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html): AIを入れたのに活用し続けられない企業が増加。データ整理不足やコスト増が原因で、パーソルが支援サービスを開始。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:10)
 - [トランプ大統領がAIを改称「Super Intelligence」とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-57b841c6.html): 米国がAI用語を「Super Intelligence」に変更し、国際管理枠組みを拒否する方針を表明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:09)
@@ -205,5 +207,3 @@
 - [AI企業Anthropic元研究者が懸念表明、AI開発の危機感が業界内に広がる](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html): AI企業Anthropicの元研究者がBBCのインタビューで、開発現場のスタッフが人類の未来に対して真摯な危機感を持っていることを明かした。同社のCEOも技術開発の減速を呼びかけており、AI産業内部からの警告の声が強まっている。 (出典: BBC / 更新: 2026-09-14 22:28)
 - [AI 人類脅威論 BBC 報道 実在する危険性](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-2882773e.html): AIの存在的リスクについて再び注目が集まっている。BBC が報道した「AI が人類に本当にもたらすのか」という根本的な問い。その危機の実態と、現実的な懸念の内容を解説する。 (出典: BBC / 更新: 2026-09-14 22:27)
 - [Gemini Notebookとは？NotebookLMからの変更点・できることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-6c360ec6.html): GoogleのAIツールが資料の読み込みから、データ分析や成果物作成まで対応へ。仕事のあり方が変わる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:02)
-- [トランプ大統領のAI規制論への反論。中国とのAI競争とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-07a38307.html): 米トランプ大統領がAI規制論に反発し、中国への競争優位性維持を重視する姿勢を示した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)
-- [AIエージェント導入の課題とは？実例から見る落とし穴と対策](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f1e9114d.html): 万能型AIエージェントも実装すると問題が続出。実際の導入企業が語った失敗の原因と乗り越え方。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-14 22:01)

@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIが新卒の仕事を奪い始めた。企業の採用戦略が大転換へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-60695165.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-60695165.html</guid>
+    <description>AIが従来は新入社員に任せていた定型業務を急速に代替し始めている。これにより世界中の企業が初級職の採用戦略の見直しを迫られており、若年層の就職市場に大きな変化をもたらす可能性が指摘されている。</description>
+    <pubDate>Wed, 23 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>中国のAI開発、米国と激しく競争——5万台の自律ロボットが示す「次の覇権争い」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b336b2d8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b336b2d8.html</guid>
+    <description>中国がAI技術開発で米国や他国と激しく競争を繰り広げている。5万台の自律ロボット技術の進展から、ロボティクスの未来を見つめるBBCの報道。日本の産業競争力にも影響を及ぼす可能性がある。</description>
+    <pubDate>Wed, 23 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIを導入しても使い続けられない企業が続出。データ基盤の整備がいかに重要か</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-mini-6c5e1a1b.html</guid>
     <description>Appleが新型Mac MiniにAI機能を重視した最新チップM6を搭載。これまでAI活用は高価な専用機器が必要とされてきたが、手頃な価格のMacでも本格的なAI処理が可能になる可能性が指摘されている。</description>
     <pubDate>Mon, 21 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>122万円のMac StudioがAI処理で圧倒的な性能を発揮。Appleの本気がみえた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-m5-ultra-mac-studio-6803d737.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-m5-ultra-mac-studio-6803d737.html</guid>
-    <description>Appleが発表したハイエンドMac Studio（M5 Ultraチップ搭載）が、AI処理の高速化を視野に入れた設計となっていることが海外メディアのテストで判明。従来の映像編集や3Dモデリングではなく、AI実行環境として最適化されている点が注目されている。</description>
-    <pubDate>Mon, 21 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、法律業界向けAI「Astra for Law」発表。弁護士の業務を大転換</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-363bbead.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-363bbead.html</guid>
-    <description>OpenAIが法律業務に特化したAIシステムを発表。HarveyやLegoraといった法務企業が採用開始。</description>
-    <pubDate>Mon, 21 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
