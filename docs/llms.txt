@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 16:53
+最終更新: 2026-09-23 18:01
 
 ## 記事一覧
 
+- [AIの急速な発展に政府・首脳も対応できていない現実](https://mot-ai-media.github.io/mot-ai-news/articles/ai-233cf370.html): ギリシャ首相が、世界中の指導者がAIの急速な進展に対する答えを持っていないことを公開で認めた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
+- [TechCrunch Founder Summit 2026とは？スタートアップ向けイベント内容](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d93240d4.html): 資金調達・採用・AI戦略まで、起業家が直面する課題を投資家やベテラン創業者から学べるイベント。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
+- [Snorkel AIとは？AI学習データ企業が急成長する理由](https://mot-ai-media.github.io/mot-ai-news/articles/snorkel-ai-ai-7e5d39ad.html): AI開発に不可欠な学習データを手がけるSnorkel AIが、わずか17カ月で評価額を3倍に引き上げた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
+- [Qualcomm Snapdragon 8 Elite Gen 6とは？新AI機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-snapdragon-948ab460.html): スマートフォンに搭載される新チップが、大規模なAIモデルをローカルで実行可能に。個人情報を守りながらAI機能が使える時代が来る。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
+- [Claude Opus 5.5とは？料金・性能・提供開始時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-7dc86b66.html): Anthropicが新AIモデルを発表。上位モデル並みの性能を保ちながら、利用コストを大幅に削減。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 18:00)
 - [Claude Opus 5.5とは？性能・GPT-6との違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a7a7ae22.html): AnthropicがClaude Opus 5.5を発表。一部の性能でGPT-6を上回り、AI企業間の技術競争が加速。 (出典: ビジネス+IT / 更新: 2026-09-23 16:53)
 - [GPT-6 SolとLunaの料金は？前世代比較・コスト効率](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5f3bc412.html): OpenAIの新モデルGPT-6 SolとLunaが登場し、API利用料が大幅に値下がり。 (出典: gigazine.net / 更新: 2026-09-23 16:53)
 - [中国AI開発の進展と米国との競争、自律ロボット技術が鍵に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b336b2d8.html): 中国がAI技術開発で米国や他国と激しく競争を繰り広げている。5万台の自律ロボット技術の進展から、ロボティクスの未来を見つめるBBCの報道。日本の産業競争力にも影響を及ぼす可能性がある。 (出典: BBC / 更新: 2026-09-23 16:28)
@@ -202,8 +207,3 @@
 - [AIに『kill switch』は不可能？英国政府が明かした人工知能制御の課題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-68f64883.html): 英国政府はAI安全性を監督する部門が、万が一AIが危険な状態になった場合も「単純にAIを止めることはできない」との見解を示した。この発言は、急速に拡大するAI技術をどう制御するかという世界的な課題の現実性を問い直すものとなっている。 (出典: BBC / 更新: 2026-09-15 10:28)
 - [AI芸人は笑わせられるか？コメディアンが自作ネタでAIアバター化、海外で話題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea25f97d.html): イギリスの芸人ギャレット・ミラリックが、自分のコメディ素材をAIアバターに学習させ、自動生成されたパフォーマンスを実施する実験を進めている。笑いの質を保ちながら人間を超えられるか、という根本的な問いが浮上している。 (出典: BBC / 更新: 2026-09-15 10:28)
 - [AIエージェントのAPIキー管理とは？セキュリティリスク解説](https://mot-ai-media.github.io/mot-ai-news/articles/api-ai-20cb3e33.html): AIエージェント活用の拡大に伴い、従来のAPIキー管理方法が破綻しつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 09:40)
-- [AIエージェントで事務作業を自動化する方法とは？導入手順と事例を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-282867df.html): 請求書入力や経費精算などの定型事務業務をAIエージェントで自動化する具体的な8つの方法と導入ステップを紹介。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-15 09:40)
-- [ビル管理の属人化問題とは。東京建物が新対策](https://mot-ai-media.github.io/mot-ai-news/articles/cf499ceb.html): ビルメンテナンス業界の深刻な人手不足と属人化課題に、大手が新たな拠点で対抗。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 09:39)
-- [中国がAI開発減速論に反論、オープンソースAI推進へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-4a38ad44.html): 中国外務省がAI開発減速論を批判し、グローバルなAI協調を主張。オープンソースAIコミュニティ設立も提唱。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 09:39)
-- [トランプ大統領のAI規制論とは？ガードレール・Anthropic批判の意味](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-413bf6c9.html): トランプ大統領がAI企業への規制強化を語り、Anthropicを名指し批判。米国のAI優位性維持へ独自の姿勢を示す。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 09:38)
-- [AI企業Anthropic元研究者が懸念表明、AI開発の危機感が業界内に広がる](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9e45ff75.html): AI企業Anthropicの元研究者がBBCのインタビューで、開発現場のスタッフが人類の未来に対して真摯な危機感を持っていることを明かした。同社のCEOも技術開発の減速を呼びかけており、AI産業内部からの警告の声が強まっている。 (出典: BBC / 更新: 2026-09-14 22:28)

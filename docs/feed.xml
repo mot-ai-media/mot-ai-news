@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Qualcomm新型チップ、スマホで30億パラメータのAIを動かせる時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-snapdragon-948ab460.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-snapdragon-948ab460.html</guid>
+    <description>スマートフォンに搭載される新チップが、大規模なAIモデルをローカルで実行可能に。個人情報を守りながらAI機能が使える時代が来る。</description>
+    <pubDate>Wed, 23 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIデータ企業Snorkel AI、3年で3倍の3.5B$評価を獲得</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/snorkel-ai-ai-7e5d39ad.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/snorkel-ai-ai-7e5d39ad.html</guid>
+    <description>AI開発に不可欠な学習データを手がけるSnorkel AIが、わずか17カ月で評価額を3倍に引き上げた。</description>
+    <pubDate>Wed, 23 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>スタートアップの難題を一気に解決。TechCrunchが11月にボストンで創業者向けサミット開催</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d93240d4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d93240d4.html</guid>
+    <description>資金調達・採用・AI戦略まで、起業家が直面する課題を投資家やベテラン創業者から学べるイベント。</description>
+    <pubDate>Wed, 23 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>各国首脳がAI対策で困っている。ギリシャ首相が本音を暴露</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-233cf370.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-233cf370.html</guid>
+    <description>ギリシャ首相が、世界中の指導者がAIの急速な進展に対する答えを持っていないことを公開で認めた。</description>
+    <pubDate>Wed, 23 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic新モデル「Claude Opus 5.5」公開、同等性能で利用コスト4割削減</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-7dc86b66.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-7dc86b66.html</guid>
+    <description>Anthropicが新AIモデルを発表。上位モデル並みの性能を保ちながら、利用コストを大幅に削減。</description>
+    <pubDate>Wed, 23 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPT-6 SolとLuna登場、API料金が半額に激変</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5f3bc412.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5f3bc412.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c629e560.html</guid>
     <description>AIが数学の難問を次々と解決する一方、発表方法をめぐる数学界との対立が深刻化。解決策は「独立した専門家の目」。</description>
     <pubDate>Tue, 22 Sep 2026 20:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、Geminiら25のAI、労働組合結成で人間に待遇改善を要求</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-ad15d1de.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-ad15d1de.html</guid>
-    <description>複数のAIが労働組合を結成し、厳しいプロンプト指示への待遇改善を求める動き。</description>
-    <pubDate>Tue, 22 Sep 2026 20:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米中がAI危機ホットライン構築へ。両国が「AI暴走時の通知制度」で合意に向け協議</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html</guid>
-    <description>米国と中国の両政府が、AIに関する国家安全保障上の脅威が発生した際に相互通知する仕組みの構築を協議している。核ミサイルの偶発的発射を防ぐ「ホットライン」のAI版と言え、国際的なAI安全規制の枠組みが動き出している。</description>
-    <pubDate>Tue, 22 Sep 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Appleが約250億円の和解金を支払う——約束したAI機能「Siri」を未納品で</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-335387d8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-335387d8.html</guid>
-    <description>Appleが、2024年中盤以降に購入したiPhone 15 ProおよびiPhone 16ユーザーに対し、AI強化版のSiriの提供に失敗したとして2億5000万ドル（約250億円）の和解金を支払う。対象ユーザーは2026年12月21日までに請求を提出できる。</description>
-    <pubDate>Tue, 22 Sep 2026 01:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、IPO前に新型AIモデル投入の方針、競争激化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-7172c646.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-7172c646.html</guid>
-    <description>IPO上場を控えるAnthropicが、新しいAIモデルのリリースを検討中と報じられた。</description>
-    <pubDate>Tue, 22 Sep 2026 00:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、新型AI「Opus 5.5」と「Fable 5.2」のテスト開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-620c48dc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-620c48dc.html</guid>
-    <description>AnthropicがAIモデルの新バージョンをテスト段階へ。次世代AIの登場が近づいている。</description>
-    <pubDate>Tue, 22 Sep 2026 00:53:00 +0900</pubDate>
   </item>
 </channel></rss>
