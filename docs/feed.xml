@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、法律業務向けAI「Astra for Law」を正式ローンチ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-cd02be98.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-cd02be98.html</guid>
+    <description>OpenAIが法律専門職向けのAIツール「Astra for Law」を発表。法務業務の効率化へ。</description>
+    <pubDate>Wed, 23 Sep 2026 22:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GPT-6 Sol・Luna登場、API料金が半額に。コスト負担が急激に下がる時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5e87270f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5e87270f.html</guid>
+    <description>OpenAIが新モデル「GPT-6 Sol」「GPT-6 Luna」を発表。API利用料が前世代比で大幅に削減され、AI導入のハードルが下がる。</description>
+    <pubDate>Wed, 23 Sep 2026 22:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIがPatreon創業者を引き抜き、クリエイター向け新サービスに本気</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-patreon-6fd27f05.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-patreon-6fd27f05.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html</guid>
     <description>OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。</description>
     <pubDate>Wed, 23 Sep 2026 04:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領が突然「AI」を「超知能」に改名宣言——用語変更の真意は</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d6a730c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d6a730c.html</guid>
-    <description>トランプ米大統領が国連総会のスピーチで、米国がAI（人工知能）を「super intelligence（超知能）」に公式改名すると表明した。理由は「artificial（人工的）という言葉が知能を『偽物』に聞こえる」とのこと。政策的な根拠というより、用語のイメージ戦略に見える動きとして海外で注目を集めている。</description>
-    <pubDate>Wed, 23 Sep 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領がAI支持を表明、AltmanとAmodeiが国連安全保障理事会へ——AIの未来は政治的段階へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-12165847.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-12165847.html</guid>
-    <description>トランプ米大統領が国連演説でAI推進を表明。OpenAIのサムアルトマンとダリオアモデイ両氏が国連安全保障理事会のAI会議に参加予定。AIの規制・発展方針が各国政治の最重要課題へ浮上している。</description>
-    <pubDate>Wed, 23 Sep 2026 01:28:00 +0900</pubDate>
   </item>
 </channel></rss>

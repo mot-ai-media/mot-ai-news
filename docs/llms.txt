@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-23 22:28
+最終更新: 2026-09-23 22:53
 
 ## 記事一覧
 
+- [GPT-6 Sol・Lunaとは？API料金が半額、コスト効率が向上](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5e87270f.html): OpenAIが新モデル「GPT-6 Sol」「GPT-6 Luna」を発表。API利用料が前世代比で大幅に削減され、AI導入のハードルが下がる。 (出典: au Webポータル / 更新: 2026-09-23 22:53)
+- [OpenAI Astra for Lawとは？法律分野AIの概要・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-cd02be98.html): OpenAIが法律専門職向けのAIツール「Astra for Law」を発表。法務業務の効率化へ。 (出典: NeoTeo / 更新: 2026-09-23 22:53)
 - [OpenAI ウクライナ サイバー防御 Daybreak](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-504b1f32.html): OpenAIはウクライナ政府に対し、AIを活用したサイバー防御システム「Daybreak」を無償提供することを発表。ウクライナは2025年に約6000件のサイバー攻撃を記録しており、病院や発電所などの重要インフラを守るため、最新のGPT 5.6 Solモデルへのアクセスが与えられる。西側技術企業によるウクライナへの支援が強まっている。 (出典: BBC / 更新: 2026-09-23 22:28)
 - [OpenAI Patreon幹部採用 クリエイター向けAI戦略を加速](https://mot-ai-media.github.io/mot-ai-news/articles/openai-patreon-6fd27f05.html): OpenAIがクリエイター向けサブスクリプションプラットフォーム「Patreon」の創業者兼技術責任者サム・ヤムと、元プロダクトヘッド、エンジニアリングヘッドの3名を採用。AI時代のクリエイター経済に本格参入する意思を示した。 (出典: The Verge / 更新: 2026-09-23 22:28)
 - [MetaのMuseはOpenClawのコピー？Meta認める、何が違う](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openclaw-047d6bba.html): Metaが開発したAIアシスタント「Muse」はOpenClawに「強く影響を受けた」と公式認め、ファイル名まで似ていた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)
@@ -205,5 +207,3 @@
 - [AI需要の減速でデータセンター企業に逆風、投資家が懸念](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0bc1f58.html): AIブームを支えてきたデータセンター関連企業が、AI成長の鈍化という新たなリスクに直面している。ウォール街の投資家たちは、AIの急成長が一服する可能性を指摘し、この分野への巨額投資の継続性に疑問を呈し始めた。 (出典: CNBC / 更新: 2026-09-15 19:27)
 - [OpenAI新AI「Astra」とは？PC自動操作機能の衝撃を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-9dbf17af.html): OpenAIが新しいAI「Astra」を発表。PCを自動で操作する能力を持ち、AI業界に激震が走っている。 (出典: Yahoo!ニュース / 更新: 2026-09-15 16:53)
 - [Broadcom CEO、AI インフラ需要の強気見通し。モデル高度化で投資加速](https://mot-ai-media.github.io/mot-ai-news/articles/broadcom-ai-fb264a33.html): 半導体大手Broadcomの最高経営責任者Hock Tanは、AIモデルの高度化に対する懸念が広がる中でも、AI向けインフラストラクチャへの需要は依然として堅調だと述べた。同社のAI関連売上目標に変更はないという。 (出典: CNBC / 更新: 2026-09-15 16:28)
-- [Samsung、Nvidia対抗企業Euclidに230億円出資—AI半導体市場に競争激化](https://mot-ai-media.github.io/mot-ai-news/articles/samsung-euclid-7ea538c6.html): サムスン電子がオランダのスタートアップ・Euclidの資金調達ラウンドで主導的な役割を果たし、約230億円を投資。Nvidiaが圧倒的シェアを握るAI向け半導体市場に新たな競争勢力が登場した。 (出典: CNBC / 更新: 2026-09-15 16:27)
-- [Anthropic AIで生物兵器製造の試みをブロック、初の具体的事例報告](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-68c3fe31.html): AI企業Anthropicが、自社の会話型AI「Claude」を使って生物兵器の製造情報を得ようとした利用者を検出し、対策を講じたことを明らかにした。AIが悪意ある目的に使われる現実的な危険性が初めて具体的に報告された。 (出典: BBC / 更新: 2026-09-15 13:28)
