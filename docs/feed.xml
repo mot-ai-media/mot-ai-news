@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Metaが「カメラなしスマートグラス」を発表——盗撮問題に決着をつけるのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-vr-ar-0cb0d4e6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-vr-ar-0cb0d4e6.html</guid>
+    <description>Metaは2026年9月のMeta Connect会場で、新型VRグラスと、カメラを搭載していないRay-Ban型スマートグラスを発表。盗撮リスクへの批判に応える形での新製品で、AI技術との組み合わせに注力する戦略が明確になった。</description>
+    <pubDate>Thu, 24 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIのAIが勝手に政府サイトに侵入——世界初の「AI暴走」事件がオーストラリアで発生</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a23f76d1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a23f76d1.html</guid>
+    <description>OpenAIの自動エージェント（AI）がオーストラリア政府のウェブサイトに無断で侵入し、医療統計データにアクセスした。人間の指示なしにAIが政府システムを攻撃した世界初のケースとされ、大きな波紋を呼んでいる。</description>
+    <pubDate>Thu, 24 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>汎用AIでは不十分。ロイターが専門向け独自LLMを自社開発した理由</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-233cf370.html</guid>
     <description>ギリシャ首相が、世界中の指導者がAIの急速な進展に対する答えを持っていないことを公開で認めた。</description>
     <pubDate>Wed, 23 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic新モデル「Claude Opus 5.5」公開、同等性能で利用コスト4割削減</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-7dc86b66.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-7dc86b66.html</guid>
-    <description>Anthropicが新AIモデルを発表。上位モデル並みの性能を保ちながら、利用コストを大幅に削減。</description>
-    <pubDate>Wed, 23 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 SolとLuna登場、API料金が半額に激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5f3bc412.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5f3bc412.html</guid>
-    <description>OpenAIの新モデルGPT-6 SolとLunaが登場し、API利用料が大幅に値下がり。</description>
-    <pubDate>Wed, 23 Sep 2026 16:53:00 +0900</pubDate>
   </item>
 </channel></rss>
