@@ -290,7 +290,15 @@ def run(limit: int = 3) -> list[str]:
         logger.info("SNSコンテンツ生成成功: %s", slug)
 
     if processed:
-        _save_queue(queue)
+        # 保存直前にファイルを読み直し、今回追加した分だけをマージする。
+        # ここまでの生成処理(Claude API呼び出し×数回、数分かかる)の間に
+        # social_auto_post.py側がstatusを"published"に更新している場合があり、
+        # 起動時に読み込んだ古いqueueをそのまま丸ごと書き戻すとその更新が消えてしまう
+        # (実際に同一記事が複数回投稿される事故が発生した)。
+        fresh_queue = _load_queue()
+        for slug in processed:
+            fresh_queue[slug] = queue[slug]
+        _save_queue(fresh_queue)
     return processed
 
 
