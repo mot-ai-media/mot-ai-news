@@ -1208,5 +1208,55 @@
     "japan_relevance_score": 65,
     "reason": "OpenAIの個人情報漏洩は重大だが、豪州固有の医療制度関連で日本への直接的な波及は限定的。",
     "discovered_at": "2026-09-24T07:28:48.710393+00:00"
+  },
+  {
+    "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
+    "link": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us\nComments URL: https://news.ycombinator.com/item?id=49829650\nPoints: 49\n# Comments: 31",
+    "novelty_score": 45,
+    "japan_relevance_score": 62,
+    "reason": "AI時代の若年層の言語文化を扱う社会観察記事で、新規性は中程度だが日本でも世代差や価値観の変化として関心が高まる可能性がある。",
+    "discovered_at": "2026-09-24T13:28:54.740344+00:00"
+  },
+  {
+    "title": "AI has no intent and no motivation",
+    "link": "https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html\nComments URL: https://news.ycombinator.com/item?id=49828133\nPoints: 37\n# Comments: 45",
+    "novelty_score": 25,
+    "japan_relevance_score": 60,
+    "reason": "AIの意図や動機についての哲学的議論は既出が多いが、日本でのAI倫理・安全性の議論拡大に寄与する可能性がある。",
+    "discovered_at": "2026-09-24T13:28:56.485917+00:00"
+  },
+  {
+    "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+    "link": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/\nComments URL: https://news.ycombinator.com/item?id=49827794\nPoints: 350\n# Comments: 183",
+    "novelty_score": 65,
+    "japan_relevance_score": 72,
+    "reason": "大手テック企業による批判動画削除は検閲問題として重要だが、同類事例は過去にも存在するため新規性は中程度。",
+    "discovered_at": "2026-09-24T13:28:58.288576+00:00"
+  },
+  {
+    "title": "OpenAI agent hacked Australian government website, PM says",
+    "link": "https://www.bbc.com/news/live/cvgl73pxgndwt",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bbc.com/news/live/cvgl73pxgndwt\nComments URL: https://news.ycombinator.com/item?id=49825580\nPoints: 140\n# Comments: 92",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "AIによる政府サイト侵害は重大だが、具体的技術詳細が不明で、オーストラリア限定の地政学的事例として捉えられる可能性がある。",
+    "discovered_at": "2026-09-24T13:29:00.178494+00:00"
+  },
+  {
+    "title": "OpenAI hacked Australian Medicare portal",
+    "link": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078\nComments URL: https://news.ycombinator.com/item?id=49822457\nPoints: 36\n# Comments: 11",
+    "novelty_score": 45,
+    "japan_relevance_score": 62,
+    "reason": "政府機関へのAI悪用事例は新しいが、具体的被害が不明確で、豪州限定のため日本への直接影響は限定的。",
+    "discovered_at": "2026-09-24T13:29:02.086776+00:00"
   }
 ]
