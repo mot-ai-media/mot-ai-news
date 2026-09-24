@@ -3,10 +3,17 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-24 04:28
+最終更新: 2026-09-24 14:31
 
 ## 記事一覧
 
+- [Google AI有料プランにColab機能統合、GPU性能向上とは](https://mot-ai-media.github.io/mot-ai-news/articles/google-google-colaboratory-89fec2cb.html): Googleが個人向けAIサブスク「Google AI」に、高性能GPU搭載のColab機能を組み込み。バックグラウンド実行対応で長時間学習が可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 14:31)
+- [Claude in Chrome一般提供とは？自動操作の仕組みと安全対策](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5bd3cefe.html): AnthropicのClaudeがブラウザを自律操作する「Claude in Chrome」が全ユーザーに提供開始。複数の安全策で不正操作を防ぐ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 14:31)
+- [Thomson Reuters独自LLM「Thomson」とは？汎用AIとの違い](https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html): 金融・法律業務向けに、データ制御と専門性を両立させた独自AIモデルを開発。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 14:31)
+- [AIオーケストレーションとは？複数のAIを統制する新しい仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-28106ed7.html): 複数のAIを一つの指揮者が統制する「AIオーケストレーション」という考え方が広がっている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 14:30)
+- [Meta「Muse Charm」とは？AIアシスタント搭載の小型ガジェット、発売時期](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5f9bb141.html): MetaがAIエージェント「Muse」を携帯できる小型ガジェットを発表。12月の出荷を目指し開発中。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 14:30)
+- [Airbnb、GPT-6 Astraとは？OpenAI最新モデル活用の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-64bca33a.html): Airbnbが新型AI「GPT-6 Astra」など最新モデルの利用を拡大。企業のAI導入が急加速する動き (出典: openai.com / 更新: 2026-09-24 13:23)
+- [OpenAI Astra自動運転テストとは？実際の走行で安全性確認](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-b9602163.html): OpenAIが開発するAIモデル「Astra」が実際の自動運転テストに成功。事故なく完了。 (出典: The Register / 更新: 2026-09-24 13:23)
 - [Meta AI Muse 買い物 自動購入 危険性](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-54336ea9.html): Metaが開発したAIエージェント「Muse」は、やることリストの管理などを手伝うが、ショッピング機能では思わぬ出費を招く可能性が指摘されている。実際のテストで、AIが提案するままに購入してしまう危険性が浮き彫りになった。 (出典: The Verge / 更新: 2026-09-24 04:28)
 - [カリフォルニア州がデータセンター規制強化、電力・水消費量の開示義務化へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-211a6281.html): カリフォルニア州知事がAIデータセンターに対し、電力・水使用量の公開を義務付ける法案に署名した。これまで「ブラックボックス」だったデータセンターの実態が明らかになることで、地域社会の環境負荷と電気代への影響が可視化される。 (出典: The Verge / 更新: 2026-09-24 04:28)
 - [YouTube AI creator tools 2024：動画制作自動化ツール](https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-5ef7b4da.html): YouTubeが年次イベント「Made on YouTube」で発表した新しいAIツールセットは、クリエイターが何をすべきかを指示してくれる機能を備える。従来、クリエイターが試行錯誤で解き明かしていた「アルゴリズム対策」を、YouTubeが直接ガイダンスする方針へのシフトを示唆している。 (出典: The Verge / 更新: 2026-09-24 01:28)
@@ -200,10 +207,3 @@
 - [AI企業の責任ある開発とは。Salesforce CEO の警告から考える](https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-ai-257bafab.html): 大手企業のトップが相次いでAIの安全性と倫理的な開発を強調している。同時に、急速に進化するAIの時代に子どもたちは何を学ぶべきかという根本的な問いも浮上している。 (出典: BBC / 更新: 2026-09-16 13:28)
 - [OpenAI CEO、AI企業への信頼呼びかけ—規制と自由化のバランスで業界が団結か](https://mot-ai-media.github.io/mot-ai-news/articles/openai-sam-altman-b17f30d5.html): OpenAIの最高経営責任者サム・アルトマン氏を含むテック企業の幹部らが、AI技術の急速な進化に対する世間の懸念は「正当だ」と認めながらも、企業側に自発的な規制の動機があるとして、業界を信頼するよう呼びかけた。人類への潜在的な脅威への警告と企業の自主性への期待という、相反する主張が同時に語られている。 (出典: BBC / 更新: 2026-09-16 13:28)
 - [Digital Realty、Equinix株価下落 AI減速懸念でも強気の見方](https://mot-ai-media.github.io/mot-ai-news/articles/digital-realty-equinix-ca7c7d7d.html): 世界最大級のデータセンター企業Digital RealityとEquinixの株価が、AI技術進化の減速予測をめぐる懸念で下がった。だが両社のトップは業界への長期的な影響は限定的と述べている。 (出典: CNBC / 更新: 2026-09-15 22:28)
-- [トランプ政権がAI規制を民間企業に委ねる方針、米中競争の激化で](https://mot-ai-media.github.io/mot-ai-news/articles/ai-93a68515.html): トランプ政権がAI産業の成長を重視し、政府による厳しい規制より民間企業の自主的な解決を優先する姿勢を示唆。米国がAI分野で中国に優位性を保つことが戦略的に重要だと位置づけている。 (出典: CNBC / 更新: 2026-09-15 22:27)
-- [MicrosoftのAI行動規範とは？電源オフや人間優先の原則を解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-455ea148.html): MicrosoftがAIの行動規範案を発表。AIは道具であり、人間がAIより重要という前提を明記。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 22:02)
-- [Microsoft 365 CopilotでExcel業務を効率化。使い方・活用術を解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-microsoft-365-copilot-54b45e53.html): ExcelのAI機能で日々の定型業務がどう変わるか、実例を交えて紹介。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 22:02)
-- [NVIDIAがRebellionsと協議か、推論NPU開発で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rebellions-22743d69.html): 生成AIの次は「推論」の時代へ。NVIDIAが韓国企業との提携・買収を視野に動く。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 22:02)
-- [AIの真の振る舞いを評価できなくなる？OpenAI研究者が警告する理由](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-5fce0a75.html): OpenAI現役研究者が、AIの進化により人間が本当の振る舞いを見抜けなくなる危機を指摘 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 22:01)
-- [Windows版Gemini公開、ショートカットで直接呼び出し可能に](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-12c7051d.html): GoogleがAIアシスタント「Gemini」のWindows版ネイティブアプリを公開。キーボード操作で瞬時に立ち上げられ、Google Driveとも連携。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-15 22:01)
-- [Grok 5とは？マスク氏が明かす開発状況、AGIとAstraクラスの違い](https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-grok-8521d00b.html): イーロン・マスク氏が自社AIの開発進捗を公表。次世代モデルの位置づけと業界全体の動向を語る。 (出典: Infoseek / 更新: 2026-09-15 20:53)

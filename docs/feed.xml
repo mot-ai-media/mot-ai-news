@@ -4,6 +4,55 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>汎用AIでは不十分。ロイターが専門向け独自LLMを自社開発した理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html</guid>
+    <description>金融・法律業務向けに、データ制御と専門性を両立させた独自AIモデルを開発。</description>
+    <pubDate>Thu, 24 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude、ついに自動でブラウザを操作。安全性をどう確保する？</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5bd3cefe.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5bd3cefe.html</guid>
+    <description>AnthropicのClaudeがブラウザを自律操作する「Claude in Chrome」が全ユーザーに提供開始。複数の安全策で不正操作を防ぐ。</description>
+    <pubDate>Thu, 24 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、AI有料プランにColab高性能GPU機能を統合。コード学習が効率化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-colaboratory-89fec2cb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-colaboratory-89fec2cb.html</guid>
+    <description>Googleが個人向けAIサブスク「Google AI」に、高性能GPU搭載のColab機能を組み込み。バックグラウンド実行対応で長時間学習が可能に。</description>
+    <pubDate>Thu, 24 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta、AIエージェントを持ち歩く「Muse Charm」発表。たまごっちのような新ガジェット</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5f9bb141.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5f9bb141.html</guid>
+    <description>MetaがAIエージェント「Muse」を携帯できる小型ガジェットを発表。12月の出荷を目指し開発中。</description>
+    <pubDate>Thu, 24 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが部下のAIを操る時代へ。「AIオーケストレーション」とは何か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-28106ed7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-28106ed7.html</guid>
+    <description>複数のAIを一つの指揮者が統制する「AIオーケストレーション」という考え方が広がっている。</description>
+    <pubDate>Thu, 24 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIのAstra、実際に自動運転テスト実施。安全に完走</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-b9602163.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-b9602163.html</guid>
+    <description>OpenAIが開発するAIモデル「Astra」が実際の自動運転テストに成功。事故なく完了。</description>
+    <pubDate>Thu, 24 Sep 2026 13:23:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Airbnb、OpenAIの最新モデルGPT-6 Astraへのアクセス拡大を発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-64bca33a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-64bca33a.html</guid>
+    <description>Airbnbが新型AI「GPT-6 Astra」など最新モデルの利用を拡大。企業のAI導入が急加速する動き</description>
+    <pubDate>Thu, 24 Sep 2026 13:23:00 +0900</pubDate>
+  </item>
+  <item>
     <title>カリフォルニア州がAIデータセンターの電力・水使用量を公開義務化——あなたの電気代に影響する可能性</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-211a6281.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-211a6281.html</guid>
@@ -163,54 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5f3bc412.html</guid>
     <description>OpenAIの新モデルGPT-6 SolとLunaが登場し、API利用料が大幅に値下がり。</description>
     <pubDate>Wed, 23 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic新モデル「Claude Opus 5.5」がOpenAIのGPT-6越え、AI競争が激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a7a7ae22.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a7a7ae22.html</guid>
-    <description>AnthropicがClaude Opus 5.5を発表。一部の性能でGPT-6を上回り、AI企業間の技術競争が加速。</description>
-    <pubDate>Wed, 23 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが新卒の仕事を奪い始めた。企業の採用戦略が大転換へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-60695165.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-60695165.html</guid>
-    <description>AIが従来は新入社員に任せていた定型業務を急速に代替し始めている。これにより世界中の企業が初級職の採用戦略の見直しを迫られており、若年層の就職市場に大きな変化をもたらす可能性が指摘されている。</description>
-    <pubDate>Wed, 23 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国のAI開発、米国と激しく競争——5万台の自律ロボットが示す「次の覇権争い」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b336b2d8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b336b2d8.html</guid>
-    <description>中国がAI技術開発で米国や他国と激しく競争を繰り広げている。5万台の自律ロボット技術の進展から、ロボティクスの未来を見つめるBBCの報道。日本の産業競争力にも影響を及ぼす可能性がある。</description>
-    <pubDate>Wed, 23 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIを導入しても使い続けられない企業が続出。データ基盤の整備がいかに重要か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html</guid>
-    <description>AIを入れたのに活用し続けられない企業が増加。データ整理不足やコスト増が原因で、パーソルが支援サービスを開始。</description>
-    <pubDate>Wed, 23 Sep 2026 15:10:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AWSとSalesforce連携で、AIは「別の画面」を見なくなる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-salesforce-686de8e2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-salesforce-686de8e2.html</guid>
-    <description>企業データが分散している問題をAIと既存ツールの統合で解決。データを動かさずにAIが活用できる環境へ。</description>
-    <pubDate>Wed, 23 Sep 2026 15:10:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>半導体がAI時代の戦略物資に。その理由を基礎から理解する</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-f6901e69.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-f6901e69.html</guid>
-    <description>AIの急速な発展に伴い、半導体がニュースでよく取り上げられている。その本質と重要性を基礎から学ぶ。</description>
-    <pubDate>Wed, 23 Sep 2026 15:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、新モデル「GPT-6 Sol」「Luna」公開　API料金は半額に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f2d10821.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f2d10821.html</guid>
-    <description>OpenAIが新AIモデルを発表。料金を大幅値下げする一方、倫理面での課題も報告。</description>
-    <pubDate>Wed, 23 Sep 2026 15:09:00 +0900</pubDate>
   </item>
 </channel></rss>

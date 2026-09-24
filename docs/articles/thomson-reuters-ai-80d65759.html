@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thomson Reuters独自LLM「Thomson」とは？汎用AIとの違い | AI特化メディアMOT</title>
+<meta name="description" content="金融・法律業務向けに、データ制御と専門性を両立させた独自AIモデルを開発。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="汎用AIでは不十分。ロイターが専門向け独自LLMを自社開発した理由">
+<meta property="og:description" content="金融・法律業務向けに、データ制御と専門性を両立させた独自AIモデルを開発。">
+<meta property="og:image" content="https://image.itmedia.co.jp/ait/articles/2609/24/cover_news019.jpg">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html">
+<meta property="article:published_time" content="2026-09-24T14:31:00+09:00">
+<meta property="article:modified_time" content="2026-09-24T14:31:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "汎用AIでは不十分。ロイターが専門向け独自LLMを自社開発した理由", "description": "金融・法律業務向けに、データ制御と専門性を両立させた独自AIモデルを開発。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-24T14:31:00+09:00", "dateModified": "2026-09-24T14:31:00+09:00", "image": ["https://image.itmedia.co.jp/ait/articles/2609/24/cover_news019.jpg"], "citation": "https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news019.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "汎用AIと専門特化AIで何が違うのか？", "acceptedAnswer": {"@type": "Answer", "text": "汎用AIは広範な知識を持ちますが、特定業界のルールやデータ管理は十分ではありません。Thomson のような専門特化型は、業界特有の知識と企業のデータを完全に制御できるのが特徴です。"}}, {"@type": "Question", "name": "なぜロイターが自社開発にこだわるのか？", "acceptedAnswer": {"@type": "Answer", "text": "金融・法律分野では、顧客データや機密情報の保護が極めて重要。汎用AIに預けるよりも、自社でモデルとデータを管理する方がリスク管理ができるからです。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "LLM", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/llm.html"}, {"@type": "ListItem", "position": 3, "name": "汎用AIでは不十分。ロイターが専門向け独自LLMを自社開発した理由", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://image.itmedia.co.jp/ait/articles/2609/24/cover_news019.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">汎用AIでは不十分。ロイターが専門向け独自LLMを自社開発した理由</span></div></div>
+  <h1 class="headline">汎用AIでは不十分。ロイターが専門向け独自LLMを自社開発した理由</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>ITmedia AI＋ 最新記事一覧</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-24 14:31</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> ロイターが汎用AIではなく独自開発の専門特化LLMを構築。高い専門性とデータ保護を両立し、金融・法律分野での利用を目指す。</p><h3>何が起きたか</h3><p>ロイター通信の親会社Thomson Reutersが、自社開発の大規模言語モデル「Thomson」を発表しました。既存の汎用AIモデルをベースにしながら、自社が蓄積した19万件のトレーニング用データで特化させた専門向けモデルです。推論コストを抑えつつ、金融・法律業務に必要な高い専門性と完全なデータ管理を実現したと説明しています。</p><h3>なぜ重要か</h3><p>生成AIの普及により、企業が汎用モデルに機密データを直接入力する光景が増えています。しかし金融や法律といった極めて専門性の高い業界では、単に「賢いAI」では不足。データの完全管理と業界特有の知識が不可欠です。Thomson Reutersのアプローチは、こうした課題への現実的な回答を示しています。</p><h3>あなたへの影響</h3><p>もし勤務先が金融・法律・コンサルティング業界なら、こうした専門特化AIの登場で業務効率が大きく変わる可能性があります。一般的には、汎用AIより「特定分野に最適化されたAI」が今後増えることを意味し、業界ごとに使いやすいツールが揃っていく流れが加速するでしょう。</p><h3>MOT読者が知っておくべき理由</h3><p>AIは汎用型だけでなく、業界・業務別の専門型が台頭する転換点にあります。自分の業界にどんなAIツールが生まれつつあるのか、早めに知ることが競争力になります。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>企業が独自のAIモデル構築に動くと、小規模企業は汎用型のみに依存せざるを得ず、情報セキュリティ面での不安が増す可能性があります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>逆に大手企業や専門性の高い業界では、データを守りながら業務を高度化できるチャンスが生まれます。自社データの活用価値が一層高まる時代への転換です。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>「汎用AIで全て解決」という単純な期待が現実に衝突する局面が来ています。Thomson Reutersの動きは、ChatGPTなどの汎用モデルの限界を認識した業界プレイヤーが、自前の専門型構築に動き出した象徴。今後は『どのAIを選ぶか』より『自分たちに必要な専門特化型は何か』という発想が主流化するでしょう。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>他の金融機関や法律事務所が同様の専門特化AIを発表するか。また、Thomson Reutersの「Fiduciary-Grade」という高い信頼基準が業界標準になっていくかが注目点です。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/llm.html">#LLM</a><a class="tag-pill" href="../topics/d5fbc60c38.html">#データセキュリティ</a></div>
+  <script>window.motPageTags=["Thomson Reuters", "専門特化AI", "LLM", "データセキュリティ"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">AIスパコン時代を、手のひらサイズのミニPCから</h3><p class="sponsor-desc">ミニPCブランド「GMKtec」。ローカルAI環境や自宅サーバー用途にも使えるコンパクトな一台。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" rel="sponsored nofollow" target="_blank"><img border="0" width="120" height="60" alt="GMKtec" loading="lazy" src="https://www28.a8.net/svt/bgt?aid=260904481474&wid=001&eno=01&mid=s00000027479001005000&mc=1"></a><img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">GMKtec</p></div></article></div>
+  <blockquote class="fact-check" cite="https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news019.html">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>ITmedia AI＋ 最新記事一覧</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news019.html" target="_blank" rel="noopener noreferrer">元記事（<cite>ITmedia AI＋ 最新記事一覧</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. 汎用AIと専門特化AIで何が違うのか？</p>
+    <p class="faq-a">汎用AIは広範な知識を持ちますが、特定業界のルールやデータ管理は十分ではありません。Thomson のような専門特化型は、業界特有の知識と企業のデータを完全に制御できるのが特徴です。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. なぜロイターが自社開発にこだわるのか？</p>
+    <p class="faq-a">金融・法律分野では、顧客データや機密情報の保護が極めて重要。汎用AIに預けるよりも、自社でモデルとデータを管理する方がリスク管理ができるからです。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=%E6%B1%8E%E7%94%A8AI%E3%81%A7%E3%81%AF%E4%B8%8D%E5%8D%81%E5%88%86%E3%80%82%E3%83%AD%E3%82%A4%E3%82%BF%E3%83%BC%E3%81%8C%E5%B0%82%E9%96%80%E5%90%91%E3%81%91%E7%8B%AC%E8%87%AALLM%E3%82%92%E8%87%AA%E7%A4%BE%E9%96%8B%E7%99%BA%E3%81%97%E3%81%9F%E7%90%86%E7%94%B1&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html&text=%E6%B1%8E%E7%94%A8AI%E3%81%A7%E3%81%AF%E4%B8%8D%E5%8D%81%E5%88%86%E3%80%82%E3%83%AD%E3%82%A4%E3%82%BF%E3%83%BC%E3%81%8C%E5%B0%82%E9%96%80%E5%90%91%E3%81%91%E7%8B%AC%E8%87%AALLM%E3%82%92%E8%87%AA%E7%A4%BE%E9%96%8B%E7%99%BA%E3%81%97%E3%81%9F%E7%90%86%E7%94%B1" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html" data-share-title="汎用AIでは不十分。ロイターが専門向け独自LLMを自社開発した理由">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="thomson-reuters-ai-80d65759">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="ai-llm-3f748048.html">
+    <img src="https://image.itmedia.co.jp/enterprise/articles/2609/18/cover_news020.jpg" alt="" loading="lazy">
+    <span class="next-up-headline">資生堂、AIエージェントで原料探索95%削減。研究員の目利きをLLMで再現</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="llm-ai-0dd4da6e.html">100万円のAIスパコンが急上昇。「ローカルLLM」ブームを生んだ3つの条件</a></li>
+  <li><a href="llm-ai-bbfd0ce9.html">ローカルLLM、無料でも意外に高い。企業と個人が導入する本当の理由</a></li>
+  <li><a href="llm-ai-c56fdd9f.html">ChatGPT導入が失敗する理由、実践者たちが暴露。必要なのはプロンプトじゃなく「ハーネス」だ</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
