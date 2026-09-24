@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Meta、AIエージェント「Muse」を全デバイス対応に。眼鏡まで侵食する日常助手</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f9b2dff.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f9b2dff.html</guid>
+    <description>Metaが個人向けAIエージェント「Muse」を急速に進化させ、眼鏡を含む全デバイスで利用可能にする方針を発表。</description>
+    <pubDate>Thu, 24 Sep 2026 17:05:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Copilot案件が1年半で13倍激増、企業が求める人材が急変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-github-copilot-dbe9f4f4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-github-copilot-dbe9f4f4.html</guid>
+    <description>企業のCopilot導入支援案件が1年半で約13倍に増加。単なるツール活用から業務プロセスへの組み込みへ需要がシフト。</description>
+    <pubDate>Thu, 24 Sep 2026 17:05:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>営業の新人が初受注まで「1年→5ヶ月」に短縮、AIが営業育成を激変させる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-ai-2fdda322.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-ai-2fdda322.html</guid>
+    <description>AIが営業スキルの習得を加速。企業事例で新人の初受注期間が大幅短縮。</description>
+    <pubDate>Thu, 24 Sep 2026 17:04:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIを導入しても組織では使われない。個人の効率化で止まる衝撃的な実態</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-c03a3f11.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-c03a3f11.html</guid>
+    <description>企業がAIを導入しても、実際の利用は個人レベルの効率化にとどまり、組織全体での活用に至らない実情が調査で明らかに。</description>
+    <pubDate>Thu, 24 Sep 2026 17:04:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>秋田県・札幌市が実証、Googleの生成AIが自治体業務を激変させた</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-e69d418a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-e69d418a.html</guid>
+    <description>秋田県・札幌市の事例から、生成AIを既存システムに組み込む実践的なやり方が見えてくる。</description>
+    <pubDate>Thu, 24 Sep 2026 17:04:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Metaが「カメラなしスマートグラス」を発表——盗撮問題に決着をつけるのか</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-vr-ar-0cb0d4e6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-vr-ar-0cb0d4e6.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-25b056c5.html</guid>
     <description>OpenAIが低コスト・高精度を謳う新世代AIモデルGPT-6 Sol・Lunaを発表。利用企業の選択肢が広がる。</description>
     <pubDate>Wed, 23 Sep 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、GPT-6 SolとLunaを発表。次世代AIの全貌が明かされる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-6f8660f7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-6f8660f7.html</guid>
-    <description>OpenAIが新型AIモデル「GPT-6 Sol」と「Luna」を発表。</description>
-    <pubDate>Wed, 23 Sep 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Qualcomm新型チップ、スマホで30億パラメータのAIを動かせる時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-snapdragon-948ab460.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-snapdragon-948ab460.html</guid>
-    <description>スマートフォンに搭載される新チップが、大規模なAIモデルをローカルで実行可能に。個人情報を守りながらAI機能が使える時代が来る。</description>
-    <pubDate>Wed, 23 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIデータ企業Snorkel AI、3年で3倍の3.5B$評価を獲得</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/snorkel-ai-ai-7e5d39ad.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/snorkel-ai-ai-7e5d39ad.html</guid>
-    <description>AI開発に不可欠な学習データを手がけるSnorkel AIが、わずか17カ月で評価額を3倍に引き上げた。</description>
-    <pubDate>Wed, 23 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>スタートアップの難題を一気に解決。TechCrunchが11月にボストンで創業者向けサミット開催</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d93240d4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d93240d4.html</guid>
-    <description>資金調達・採用・AI戦略まで、起業家が直面する課題を投資家やベテラン創業者から学べるイベント。</description>
-    <pubDate>Wed, 23 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>各国首脳がAI対策で困っている。ギリシャ首相が本音を暴露</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-233cf370.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-233cf370.html</guid>
-    <description>ギリシャ首相が、世界中の指導者がAIの急速な進展に対する答えを持っていないことを公開で認めた。</description>
-    <pubDate>Wed, 23 Sep 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>
