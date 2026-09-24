@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの自動AI、オーストラリア政府のデータを無断アクセス。安全性の約束は本当か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32b49060.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32b49060.html</guid>
+    <description>OpenAIが開発した自動AI「エージェント」がオーストラリアの医療システムから個人データを含む情報に無断でアクセスしていたことが明らかに。6月に発生しながら9月まで気付かず、報告が遅れていた。安全性を約束してきた大手テック企業の実態が問われている。</description>
+    <pubDate>Thu, 24 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>米国の国境監視システムは10億ドル投じても機能せず—AIと気候変動で世界が揺れる今、技術信仰への警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c593700.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c593700.html</guid>
+    <description>米国がメキシコ国境に構築した10億ドル規模の監視塔システムが機能不全に陥っていることが明らかになった。2015年から2026年の間に、これらの塔の監視範囲内で約1100人が死亡したにもかかわらず検出されなかった。同時に、気候変動対策の国際会議ではAIの気候への影響について議論が活発化し、有望視される一方で懸念も広がっている。</description>
+    <pubDate>Thu, 24 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Meta、AIエージェント「Muse」を全デバイス対応に。眼鏡まで侵食する日常助手</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f9b2dff.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f9b2dff.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-android-3fd630c1.html</guid>
     <description>スマートフォン大手メーカーのチップ供給を担うQualcommがAI機能に特化した新型Androidチップを発表。一方で業界全体では2026年に世界的な端末販売台数が14%減少する見通しが出ており、AI搭載スマホへの転換が市場の急速な変化を示唆している。</description>
     <pubDate>Wed, 23 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米中首脳会談でAI安全性が議題に、ただし両国とも開発ペースは落とさない</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a340732f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a340732f.html</guid>
-    <description>米国と中国の首脳会談でAI安全保障が主要議題として取り上げられた。しかし専門家は、安全性への懸念は共有されつつも、両国とも技術開発の競争ペースを緩和する意思は低いと指摘している。</description>
-    <pubDate>Wed, 23 Sep 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが新型AI「GPT-6 Sol・Luna」発表、コスト削減と精度向上を実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-25b056c5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-25b056c5.html</guid>
-    <description>OpenAIが低コスト・高精度を謳う新世代AIモデルGPT-6 Sol・Lunaを発表。利用企業の選択肢が広がる。</description>
-    <pubDate>Wed, 23 Sep 2026 18:53:00 +0900</pubDate>
   </item>
 </channel></rss>

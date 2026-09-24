@@ -109,7 +109,19 @@ hook/carouselの文中で、意味の区切りが良い場所には改行文字(
   2つ目 = 「なぜ重要か」と「読者への影響」を1つの文にまとめる(背景説明ではなく、
     読んだ人が"自分にも関係あるかも"と思える一文にする)
   各30字程度、長い説明文にしない(1スライド1メッセージ)
-- caption_instagram: Instagram用キャプション。hookで始め2〜3文、最後に軽くハッシュタグ2〜3個
+- caption_instagram: Instagram用キャプション。他のプラットフォーム向けより大幅に長く、
+  内容を詰め込んで書くこと(他のcaptionの2〜3倍のボリュームを目安にする。記事に材料が
+  多ければ遠慮なくもっと長くしてよい)。構成:
+    1. hookと同じか近い一文で始める
+    2. 元記事の「何が起きたか」「なぜ重要か」「影響」を、数字・固有名詞を使って
+       具体的に掘り下げる(短くまとめすぎない。詳しく書く)
+    3. 元記事に複数の理由・変化点・数字・手順が並んでいる場合は、「・」で始める
+       箇条書きにして整理する(2〜4項目、1項目15〜30字程度)。箇条書きにできるほどの
+       材料が無い記事では無理に作らず、通常の文章のままでよい
+    4. 最後に一言のまとめと、MOTでもっと詳しく読める旨の一文
+    5. ハッシュタグ2〜3個
+  箇条書きの各項目・段落の間は改行(JSON文字列内のエスケープ済み\n。生の改行は使わない)で区切る。
+  元記事に無い数字・固有名詞を新たに作らない(箇条書きの項目も同様)
 - caption_facebook: Facebook用。IGより会話的・説明的に3〜4文、ハッシュタグは付けない
 - caption_tiktok: TikTok用。カジュアルな話し言葉で2文程度、ハッシュタグは最小限
 - caption_youtube: YouTube Shorts用。検索されそうな言葉を含めた説明的な1〜2文(タイトル寄り)
@@ -211,7 +223,7 @@ def _validate(data: dict) -> dict:
 
 
 def _call_once(prompt: str, client: anthropic.Anthropic) -> dict:
-    message = client.messages.create(model=MODEL, max_tokens=4000, messages=[{"role": "user", "content": prompt}])
+    message = client.messages.create(model=MODEL, max_tokens=6000, messages=[{"role": "user", "content": prompt}])
     text = message.content[0].text.strip()
     text = text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
 
