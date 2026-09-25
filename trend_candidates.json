@@ -1258,5 +1258,55 @@
     "japan_relevance_score": 62,
     "reason": "政府機関へのAI悪用事例は新しいが、具体的被害が不明確で、豪州限定のため日本への直接影響は限定的。",
     "discovered_at": "2026-09-24T13:29:02.086776+00:00"
+  },
+  {
+    "title": "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
+    "link": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd\nComments URL: https://news.ycombinator.com/item?id=49833264\nPoints: 23\n# Comments: 11",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI投資の経済的影響は既出テーマだが、米国の歴史的規模での投資動向は日本の産業政策にも影響する重要性がある。",
+    "discovered_at": "2026-09-25T10:28:42.080224+00:00"
+  },
+  {
+    "title": "Oracle invokes force majeure on New Mexico AI data center",
+    "link": "https://qz.com/oracle-force-majeure-new-mexico-ai-data-center-092426",
+    "source": "Hacker News",
+    "summary": "Article URL: https://qz.com/oracle-force-majeure-new-mexico-ai-data-center-092426\nComments URL: https://news.ycombinator.com/item?id=49832564\nPoints: 28\n# Comments: 1",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "大手企業の天災免責条項の発動は珍しいが、AI施設の脆弱性という普遍的な課題を浮き彫りにしている。",
+    "discovered_at": "2026-09-25T10:28:43.717800+00:00"
+  },
+  {
+    "title": "I Have a Confession: I Built This Site with AI – Please Forgive Me",
+    "link": "https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai",
+    "source": "Hacker News",
+    "summary": "Article URL: https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai\nComments URL: https://news.ycombinator.com/item?id=49832491\nPoints: 43\n# Comments: 47",
+    "novelty_score": 25,
+    "japan_relevance_score": 60,
+    "reason": "AI使用の透明性という重要なテーマだが、個人的な告白形式で一般的な議論の深さに欠ける。",
+    "discovered_at": "2026-09-25T10:28:45.559241+00:00"
+  },
+  {
+    "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+    "link": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r\nComments URL: https://news.ycombinator.com/item?id=49831690\nPoints: 117\n# Comments: 179",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AIが教育産業を破壊する具体例として注目度は高いが、同様の議論は既に複数報道されている。",
+    "discovered_at": "2026-09-25T10:28:47.348035+00:00"
+  },
+  {
+    "title": "AI safety is mostly a sex cult in Berkeley",
+    "link": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in\nComments URL: https://news.ycombinator.com/item?id=49831269\nPoints: 116\n# Comments: 29",
+    "novelty_score": 35,
+    "japan_relevance_score": 25,
+    "reason": "AI安全研究コミュニティへの個人的攻撃記事で、事実検証が必要な扇動的内容であり新規性に欠ける。",
+    "discovered_at": "2026-09-25T10:28:49.024993+00:00"
   }
 ]
