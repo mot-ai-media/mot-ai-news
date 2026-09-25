@@ -1,13 +1,5 @@
 [
   {
-    "link": "https://www.itmedia.co.jp/business/articles/2608/26/news082.html",
-    "notified_at": "2026-08-26T10:40:35.560492+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000820/",
-    "notified_at": "2026-08-26T10:40:41.020867+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5GTEd1d29aei1zUG1UZTAxX0F0QkFCWDR1ekNNY2kyZ1VPQktzSmxiSEpXdF9nT1RSempBSkp3S0hKVHVqeENZR2dabzZVY2l1WEV3N1hRcw?oc=5",
     "notified_at": "2026-08-27T08:50:58.962726+00:00"
   },
@@ -4018,5 +4010,25 @@
   {
     "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/25/news049.html",
     "notified_at": "2026-09-25T09:02:20.407918+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2609/25/2000001730/",
+    "notified_at": "2026-09-25T13:00:42.061573+00:00"
+  },
+  {
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news058.html",
+    "notified_at": "2026-09-25T13:00:58.447066+00:00"
+  },
+  {
+    "link": "https://kn.itmedia.co.jp/kn/article/2609/25/2000001724/",
+    "notified_at": "2026-09-25T13:01:15.845774+00:00"
+  },
+  {
+    "link": "https://kn.itmedia.co.jp/kn/article/2609/25/2000001723/",
+    "notified_at": "2026-09-25T13:01:34.694094+00:00"
+  },
+  {
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news063.html",
+    "notified_at": "2026-09-25T13:01:54.003771+00:00"
   }
 ]

@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>日本スタートアップのAIチップ、NVIDIAの最新ボードに勝利する。NVIDIA比1.6倍のマシンパワー</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/edgecortix-raiden-5d5ee927.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/edgecortix-raiden-5d5ee927.html</guid>
+    <description>日本発EdgCortixが次世代AIチップを発表。処理性能でNVIDIAの最新ボードを上回り、エッジAIの性能競争が激化する。</description>
+    <pubDate>Fri, 25 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPTから直接翻訳できる。DeepLがAIの手間を削減する新機能を提供開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/deepl-chatgpt-768a9e8f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/deepl-chatgpt-768a9e8f.html</guid>
+    <description>翻訳ツールとAIを行き来する手間が消える。DeepLがMCPに対応し、ChatGPTなどから直接利用可能に。</description>
+    <pubDate>Fri, 25 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI同士の取引時代、身元・権限をどう確認する？GMOが実証へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-daa191c7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-daa191c7.html</guid>
+    <description>複数企業のAIが直接取引する時代に向け、相手の身元や権限を確認する信頼基盤の実証が実施された。</description>
+    <pubDate>Fri, 25 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>工場の自動制御システムがAIの相棒に、アイ・エル・シーが実装開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/plc-952c4996.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/plc-952c4996.html</guid>
+    <description>工場の機械制御を担うPLCがAI機能を組み込める段階へ。簡単導入のドラレコカメラも登場。</description>
+    <pubDate>Fri, 25 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、写真1枚からAIアバター生成。企業向けに本格提供開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-15f3bf92.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-15f3bf92.html</guid>
+    <description>Googleが表情豊かに動くAIアバターを企業向けに提供。写真1枚で独自キャラを作成でき、カスタマーサービスやWebに活用可能。</description>
+    <pubDate>Fri, 25 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>企業のAI導入、9割が失敗経験。つまずく理由は「技術」ではなく人・組織だった</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-09e0921d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-09e0921d.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5bd3cefe.html</guid>
     <description>AnthropicのClaudeがブラウザを自律操作する「Claude in Chrome」が全ユーザーに提供開始。複数の安全策で不正操作を防ぐ。</description>
     <pubDate>Thu, 24 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、AI有料プランにColab高性能GPU機能を統合。コード学習が効率化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-colaboratory-89fec2cb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-colaboratory-89fec2cb.html</guid>
-    <description>Googleが個人向けAIサブスク「Google AI」に、高性能GPU搭載のColab機能を組み込み。バックグラウンド実行対応で長時間学習が可能に。</description>
-    <pubDate>Thu, 24 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、AIエージェントを持ち歩く「Muse Charm」発表。たまごっちのような新ガジェット</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5f9bb141.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5f9bb141.html</guid>
-    <description>MetaがAIエージェント「Muse」を携帯できる小型ガジェットを発表。12月の出荷を目指し開発中。</description>
-    <pubDate>Thu, 24 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが部下のAIを操る時代へ。「AIオーケストレーション」とは何か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-28106ed7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-28106ed7.html</guid>
-    <description>複数のAIを一つの指揮者が統制する「AIオーケストレーション」という考え方が広がっている。</description>
-    <pubDate>Thu, 24 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのAstra、実際に自動運転テスト実施。安全に完走</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-b9602163.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-b9602163.html</guid>
-    <description>OpenAIが開発するAIモデル「Astra」が実際の自動運転テストに成功。事故なく完了。</description>
-    <pubDate>Thu, 24 Sep 2026 13:23:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Airbnb、OpenAIの最新モデルGPT-6 Astraへのアクセス拡大を発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-64bca33a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-64bca33a.html</guid>
-    <description>Airbnbが新型AI「GPT-6 Astra」など最新モデルの利用を拡大。企業のAI導入が急加速する動き</description>
-    <pubDate>Thu, 24 Sep 2026 13:23:00 +0900</pubDate>
   </item>
 </channel></rss>
