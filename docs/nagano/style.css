@@ -100,16 +100,12 @@ h1.ng-coming-soon {
 }
 
 /* 仮配置: 「長野」グラフィックの配置確認用(最終デザインではない)。
-   COMING SOONと同じ行に収め、コンテンツ幅を超えて右端に寄せすぎないよう
-   margin-leftのautoで押し出すだけに留める。 */
+   「MOTの新しいプロジェクト」の下、ロゴ文字(.ng-logo)と同じ見た目の大きさで表示する。 */
 .ng-nagano-test-mark {
-  height: 0.5em;
-  width: auto;
   display: block;
-  margin-left: auto;
-}
-@media (max-width: 480px) {
-  .ng-nagano-test-mark { margin-left: 0; }
+  height: 14px;
+  width: auto;
+  margin-top: 14px;
 }
 
 .ng-river {

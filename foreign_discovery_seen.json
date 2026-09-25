@@ -1,33 +1,6 @@
 [
   {
     "tokens": [
-      "bid",
-      "biology",
-      "data",
-      "download",
-      "gamble",
-      "openai",
-      "trillion-dollar"
-    ],
-    "ts": "2026-09-17T13:28:09"
-  },
-  {
-    "tokens": [
-      "disclose",
-      "incidents",
-      "issues",
-      "more",
-      "openai",
-      "plan",
-      "reveals",
-      "safety",
-      "six",
-      "unveils"
-    ],
-    "ts": "2026-09-17T13:28:25"
-  },
-  {
-    "tokens": [
       "ads",
       "app",
       "banned",
@@ -865,5 +838,33 @@
       "things'"
     ],
     "ts": "2026-09-24T22:28:16"
+  },
+  {
+    "tokens": [
+      "australia",
+      "biggest",
+      "chose",
+      "hack",
+      "openai",
+      "political",
+      "reveal",
+      "stage",
+      "world's"
+    ],
+    "ts": "2026-09-25T16:28:08"
+  },
+  {
+    "tokens": [
+      "australia's",
+      "can",
+      "did",
+      "future",
+      "hack",
+      "health",
+      "openai",
+      "stopped",
+      "system"
+    ],
+    "ts": "2026-09-25T16:28:27"
   }
 ]
