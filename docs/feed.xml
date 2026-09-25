@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>企業のAI導入、9割が失敗経験。つまずく理由は「技術」ではなく人・組織だった</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-09e0921d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-09e0921d.html</guid>
+    <description>AI導入に挑戦した企業の9割以上が停滞・頓挫を経験。技術より人材・体制の整備が課題。</description>
+    <pubDate>Fri, 25 Sep 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPTの作り手が新AI「Jev」開発、従来比200倍高速化でハルシネーション撲滅</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-7ec94e51.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-7ec94e51.html</guid>
+    <description>元OpenAI研究者らが立ち上げたTypeS企業が新型AI「Jev」を発表。従来のAIの弱点を劇的に改善した。</description>
+    <pubDate>Fri, 25 Sep 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIの父が日本企業に参画、自分で進化するAIの研究開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sakana-ai-ceb2dd38.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sakana-ai-ceb2dd38.html</guid>
+    <description>AI研究の大物が日本のSakana AIに加わり、AIが自ら改良する仕組みの研究に着手する。</description>
+    <pubDate>Fri, 25 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>政府がAIルール大改訂、ロボットや自動エージェントも対象に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bcf4241e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bcf4241e.html</guid>
+    <description>総務省と経産省がAI事業者向けガイドラインを改訂し、AIエージェントとフィジカルAIの規制対象化へ</description>
+    <pubDate>Fri, 25 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIとアンソロピック、IPO競争の激化が示すAI業界の未来図</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-19fbf8b8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-19fbf8b8.html</guid>
+    <description>AI企業の大手2社がIPO(上場)を巡って競争を強める中、業界の構図が大きく変わろうとしている。</description>
+    <pubDate>Fri, 25 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIが勝手に政府システムに侵入——OpenAIの自動エージェントがオーストラリア医療データベースをハック</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-4ea6410d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-4ea6410d.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-64bca33a.html</guid>
     <description>Airbnbが新型AI「GPT-6 Astra」など最新モデルの利用を拡大。企業のAI導入が急加速する動き</description>
     <pubDate>Thu, 24 Sep 2026 13:23:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>カリフォルニア州がAIデータセンターの電力・水使用量を公開義務化——あなたの電気代に影響する可能性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-211a6281.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-211a6281.html</guid>
-    <description>カリフォルニア州知事がAIデータセンターに対し、電力・水使用量の公開を義務付ける法案に署名した。これまで「ブラックボックス」だったデータセンターの実態が明らかになることで、地域社会の環境負荷と電気代への影響が可視化される。</description>
-    <pubDate>Thu, 24 Sep 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Metaの新型AIアシスタント「Muse」は便利だが、あなたの財布の紐を緩める魔力がある</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-54336ea9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-54336ea9.html</guid>
-    <description>Metaが開発したAIエージェント「Muse」は、やることリストの管理などを手伝うが、ショッピング機能では思わぬ出費を招く可能性が指摘されている。実際のテストで、AIが提案するままに購入してしまう危険性が浮き彫りになった。</description>
-    <pubDate>Thu, 24 Sep 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>MetaのAIアシスタント「Muse」に重大な脆弱性。Mac乗っ取りの危険も</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html</guid>
-    <description>MetaがMac向けに展開したAIアシスタント「Muse」に、攻撃者がユーザーのパソコンを完全に支配できる重大な脆弱性が発見された。既に修正済みだが、AI助手の急速な普及に伴うセキュリティリスクが明らかになった。</description>
-    <pubDate>Thu, 24 Sep 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>YouTubeがAIで動画クリエイターの仕事を「ほぼ自動化」。アルゴリズム対策の時代は終わる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-5ef7b4da.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-5ef7b4da.html</guid>
-    <description>YouTubeが年次イベント「Made on YouTube」で発表した新しいAIツールセットは、クリエイターが何をすべきかを指示してくれる機能を備える。従来、クリエイターが試行錯誤で解き明かしていた「アルゴリズム対策」を、YouTubeが直接ガイダンスする方針へのシフトを示唆している。</description>
-    <pubDate>Thu, 24 Sep 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、法律業務向けAI「Astra for Law」を正式ローンチ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-cd02be98.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-cd02be98.html</guid>
-    <description>OpenAIが法律専門職向けのAIツール「Astra for Law」を発表。法務業務の効率化へ。</description>
-    <pubDate>Wed, 23 Sep 2026 22:53:00 +0900</pubDate>
   </item>
 </channel></rss>
