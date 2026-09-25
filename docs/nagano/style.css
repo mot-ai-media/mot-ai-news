@@ -99,6 +99,19 @@ h1.ng-coming-soon {
   .ng-dot { animation: none; opacity: 0.7; }
 }
 
+/* 仮配置: 「長野」グラフィックの配置確認用(最終デザインではない)。
+   COMING SOONと同じ行に収め、コンテンツ幅を超えて右端に寄せすぎないよう
+   margin-leftのautoで押し出すだけに留める。 */
+.ng-nagano-test-mark {
+  height: 0.5em;
+  width: auto;
+  display: block;
+  margin-left: auto;
+}
+@media (max-width: 480px) {
+  .ng-nagano-test-mark { margin-left: 0; }
+}
+
 .ng-river {
   display: block;
   width: 100%;

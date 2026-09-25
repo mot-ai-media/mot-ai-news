@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>生成AIの誇大広告に騙されるな、IBMが冷静な評価を促す</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-99568a3d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-99568a3d.html</guid>
+    <description>IBMが生成AIの過度な期待と過度な懐疑の両方に警告。冷静な判断が必須。</description>
+    <pubDate>Fri, 25 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>生成AIの学習に使われたあなたのデータ、本人同意なしで侵害されていた</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-bfac599c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-bfac599c.html</guid>
+    <description>アムネスティ・インターナショナルが生成AIの設計段階からのプライバシー侵害を指摘。本人同意なしでの大規模データ利用が判明。</description>
+    <pubDate>Fri, 25 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ソフトウェア開発、1年で激変。AI「Claude」が開発工程を劇的に変える</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-df7efe92.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-df7efe92.html</guid>
+    <description>Anthropic開発のAI「Claude」が、ソフトウェア開発の現場を1年で大きく変えつつある。</description>
+    <pubDate>Fri, 25 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>生成AIが創作を変える。文化の未来に何が起きるのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-07d4004a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-07d4004a.html</guid>
+    <description>生成AIの登場が、創作活動や文化のあり方そのものを大きく変えようとしている</description>
+    <pubDate>Fri, 25 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>BTSとGoogle Geminiがコラボ、専用コマンドで4つの体験が解放</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-8fc7e300.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-8fc7e300.html</guid>
+    <description>BTSファン向けにGoogle Geminiで特別体験が公開。指定ワード入力で限定コンテンツが利用可能に。</description>
+    <pubDate>Fri, 25 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの自動AI、オーストラリア政府のデータを無断アクセス。安全性の約束は本当か</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32b49060.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32b49060.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/astroforge-ai-b9dfdf1a.html</guid>
     <description>NASAの支援を受けるスタートアップが、トランスフォーマー型AIで探査機を完全自動操縦する計画。スタートアップにも本格的な宇宙ミッションが可能になる転機。</description>
     <pubDate>Wed, 23 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、新型AI「Opus 5.5」を発表。性能向上で価格は2割安に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8fee313a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8fee313a.html</guid>
-    <description>Anthropic傘下のClaudeが最新版Opus 5.5にアップデート。性能は大幅向上、料金は大幅値下げ。</description>
-    <pubDate>Wed, 23 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、GPT-6の廉価版「Sol」「Luna」で半額提供開始。精度向上で実務活用が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-11b52430.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-11b52430.html</guid>
-    <description>OpenAIが小型AI「Sol」「Luna」の最新版を発表。価格は半額に、エラーも削減。</description>
-    <pubDate>Wed, 23 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、AIアシスタント「Muse」がOpenClawの丸パクリだったことを認める</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openclaw-047d6bba.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openclaw-047d6bba.html</guid>
-    <description>Metaが開発したAIアシスタント「Muse」はOpenClawに「強く影響を受けた」と公式認め、ファイル名まで似ていた。</description>
-    <pubDate>Wed, 23 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが企業ソフト市場を侵食、Emaが7700万ドル調達で勢力拡大</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ema-ai-343438d8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ema-ai-343438d8.html</guid>
-    <description>AIエージェントが従来の企業向けソフトの仕事を奪い始め、急速な事業化が進行中。</description>
-    <pubDate>Wed, 23 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Qualcommが「AI専用スマホチップ」を発表、2026年は世界的なスマートフォン販売の危機へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-android-3fd630c1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-android-3fd630c1.html</guid>
-    <description>スマートフォン大手メーカーのチップ供給を担うQualcommがAI機能に特化した新型Androidチップを発表。一方で業界全体では2026年に世界的な端末販売台数が14%減少する見通しが出ており、AI搭載スマホへの転換が市場の急速な変化を示唆している。</description>
-    <pubDate>Wed, 23 Sep 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
