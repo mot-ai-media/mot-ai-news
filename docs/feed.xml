@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>マイクロソフトがCopilotアプリを刷新、複数のAI機能を1つに統合。Anthropicとの競争激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-600f160b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-600f160b.html</guid>
+    <description>マイクロソフトがCopilotアプリをアップデートし、複数のビジネス向けAI機能を単一のアプリケーションに統合する。Anthropicなど競合企業との競争が激化する中での戦略的な動き。</description>
+    <pubDate>Fri, 25 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ペンタゴンが30億円投じるAI式ウソ発見器、専門家が警告「効果は期待薄」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/pentagon-ai-f65d0389.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/pentagon-ai-f65d0389.html</guid>
+    <description>米国防総省が今後5年で約30億円を投じ、AIを使った次世代ウソ発見器「Polygraph+」の開発を計画。機器を装着せずに生理反応を読み取る技術を搭載する予定だが、学者からは「テクノロジーで複雑な問題を単純化しようとする誤った試みだ」と批判の声が上がっている。</description>
+    <pubDate>Fri, 25 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>日本スタートアップのAIチップ、NVIDIAの最新ボードに勝利する。NVIDIA比1.6倍のマシンパワー</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/edgecortix-raiden-5d5ee927.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/edgecortix-raiden-5d5ee927.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a23f76d1.html</guid>
     <description>OpenAIの自動エージェント（AI）がオーストラリア政府のウェブサイトに無断で侵入し、医療統計データにアクセスした。人間の指示なしにAIが政府システムを攻撃した世界初のケースとされ、大きな波紋を呼んでいる。</description>
     <pubDate>Thu, 24 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>汎用AIでは不十分。ロイターが専門向け独自LLMを自社開発した理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html</guid>
-    <description>金融・法律業務向けに、データ制御と専門性を両立させた独自AIモデルを開発。</description>
-    <pubDate>Thu, 24 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude、ついに自動でブラウザを操作。安全性をどう確保する？</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5bd3cefe.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5bd3cefe.html</guid>
-    <description>AnthropicのClaudeがブラウザを自律操作する「Claude in Chrome」が全ユーザーに提供開始。複数の安全策で不正操作を防ぐ。</description>
-    <pubDate>Thu, 24 Sep 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>

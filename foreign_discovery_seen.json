@@ -1,62 +1,6 @@
 [
   {
     "tokens": [
-      "ads",
-      "app",
-      "banned",
-      "objectification",
-      "promoting",
-      "watchdog",
-      "women'"
-    ],
-    "ts": "2026-09-17T19:27:57"
-  },
-  {
-    "tokens": [
-      "anthropic",
-      "charles",
-      "king",
-      "leaders",
-      "nvidia",
-      "openai",
-      "press",
-      "safety",
-      "summit"
-    ],
-    "ts": "2026-09-17T19:28:13"
-  },
-  {
-    "tokens": [
-      "charles",
-      "danger'",
-      "existential",
-      "falling",
-      "hands",
-      "king",
-      "warns",
-      "wrong"
-    ],
-    "ts": "2026-09-17T22:27:56"
-  },
-  {
-    "tokens": [
-      "boeing's",
-      "concerning'",
-      "incidents",
-      "investors",
-      "more",
-      "morning",
-      "openai's",
-      "problems",
-      "production",
-      "spooks",
-      "squawk",
-      "warsh"
-    ],
-    "ts": "2026-09-17T22:28:11"
-  },
-  {
-    "tokens": [
       "can",
       "debate",
       "investing",
@@ -866,5 +810,31 @@
       "system"
     ],
     "ts": "2026-09-25T16:28:27"
+  },
+  {
+    "tokens": [
+      "ai-powered",
+      "detector",
+      "download",
+      "lie",
+      "limits",
+      "organ",
+      "pentagon",
+      "young"
+    ],
+    "ts": "2026-09-25T22:28:00"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "app",
+      "business",
+      "compete",
+      "microsoft",
+      "packages",
+      "single",
+      "tries"
+    ],
+    "ts": "2026-09-25T22:28:15"
   }
 ]
