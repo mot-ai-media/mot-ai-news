@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude最新版、仕事で即戦力の「実用テンプレ」10選公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-4be41807.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-4be41807.html</guid>
+    <description>進化したClaudeを使いこなすための実践的なテンプレ集が公開。仕事効率化の具体例を紹介。</description>
+    <pubDate>Fri, 25 Sep 2026 14:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Airbnb、OpenAIと契約拡大。GPT-6導入で新機能を前年比80%増に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-openai-ff5c1aca.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-openai-ff5c1aca.html</guid>
+    <description>Airbnbが最新AI「GPT-6」を採用し、新機能開発を大幅加速。サービス向上に本気で取り組む動き。</description>
+    <pubDate>Fri, 25 Sep 2026 14:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>生成AIの誇大広告に騙されるな、IBMが冷静な評価を促す</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-99568a3d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-99568a3d.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-patreon-6fd27f05.html</guid>
     <description>OpenAIがクリエイター向けサブスクリプションプラットフォーム「Patreon」の創業者兼技術責任者サム・ヤムと、元プロダクトヘッド、エンジニアリングヘッドの3名を採用。AI時代のクリエイター経済に本格参入する意思を示した。</description>
     <pubDate>Wed, 23 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIがウクライナにAIサイバー防御システムを無償提供、年間6000件の攻撃から病院や発電所を守へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-504b1f32.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-504b1f32.html</guid>
-    <description>OpenAIはウクライナ政府に対し、AIを活用したサイバー防御システム「Daybreak」を無償提供することを発表。ウクライナは2025年に約6000件のサイバー攻撃を記録しており、病院や発電所などの重要インフラを守るため、最新のGPT 5.6 Solモデルへのアクセスが与えられる。西側技術企業によるウクライナへの支援が強まっている。</description>
-    <pubDate>Wed, 23 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>宇宙スタートアップが小型AIで無人探査機を自動操縦、2027年初飛行へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/astroforge-ai-b9dfdf1a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/astroforge-ai-b9dfdf1a.html</guid>
-    <description>NASAの支援を受けるスタートアップが、トランスフォーマー型AIで探査機を完全自動操縦する計画。スタートアップにも本格的な宇宙ミッションが可能になる転機。</description>
-    <pubDate>Wed, 23 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

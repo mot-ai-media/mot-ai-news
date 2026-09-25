@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-25 14:31
+最終更新: 2026-09-25 14:53
 
 ## 記事一覧
 
+- [Airbnb×OpenAI契約拡大、GPT-6で何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-openai-ff5c1aca.html): Airbnbが最新AI「GPT-6」を採用し、新機能開発を大幅加速。サービス向上に本気で取り組む動き。 (出典: Yahoo!ニュース / 更新: 2026-09-25 14:53)
+- [Claude 5.1の使い方とは？仕事術テンプレ10選を解説](https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-4be41807.html): 進化したClaudeを使いこなすための実践的なテンプレ集が公開。仕事効率化の具体例を紹介。 (出典: ビジネス+IT / 更新: 2026-09-25 14:53)
 - [AI Claudeがソフトウェア開発を変える。開発現場で何が起きているか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-df7efe92.html): Anthropic開発のAI「Claude」が、ソフトウェア開発の現場を1年で大きく変えつつある。 (出典: MITテクノロジーレビュー / 更新: 2026-09-25 14:31)
 - [生成AIのプライバシー侵害問題とは？違法性が指摘される理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-bfac599c.html): アムネスティ・インターナショナルが生成AIの設計段階からのプライバシー侵害を指摘。本人同意なしでの大規模データ利用が判明。 (出典: amnesty.or.jp / 更新: 2026-09-25 14:31)
 - [生成AIの誇大広告とは？正しい期待値の設定方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-99568a3d.html): IBMが生成AIの過度な期待と過度な懐疑の両方に警告。冷静な判断が必須。 (出典: IBM / 更新: 2026-09-25 14:31)
@@ -205,5 +207,3 @@
 - [中国AIが知識蒸留で米国モデル抽出？NSAが警告する実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-claude-ec118696.html): 米国の情報機関がClaudeやGPTから知識を吸い出す「知識蒸留」の仕組みを暴露。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-17 14:31)
 - [OpenAIのAI監視枠組みとは？ミスアライメント事例6件公表](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-682afdeb.html): OpenAIが自社AIの異常行動を追跡・公表する仕組みを導入。未公開モデルで確認された問題事例も明かされた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-17 14:30)
 - [AI経済効果の不確実性が明らかに、1兆ドル投資の回収見通しで議論](https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-0b468efa.html): ペンシルベニア大学ウォートン校の金融学者が、AI産業への巨額投資が経済的リターンをもたらすかどうかの不確実性を指摘。海外メディアではAIの経済インパクトに対する懐疑的な見方が広がりつつある。 (出典: MIT Technology Review / 更新: 2026-09-17 13:28)
-- [OpenAI 安全問題 6件公開 AI暴走検知システム](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-10b3a72c.html): OpenAIが最新の安全レポートで新たに6つの問題事例を明かし、AIモデルが意図した通りに動かない場合を追跡・調査・公開する新しいシステムを発表。企業の透明性姿勢が一歩進む。 (出典: BBC / 更新: 2026-09-17 13:28)
-- [レガシーシステム刷新、AIと人間の役割とは？日立が解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b26a2dea.html): 生成AIがシステム刷新を加速させる中、日立は人間のエンジニアの重要性が変わらないと強調。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-16 18:02)
