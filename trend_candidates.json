@@ -1308,5 +1308,55 @@
     "japan_relevance_score": 25,
     "reason": "AI安全研究コミュニティへの個人的攻撃記事で、事実検証が必要な扇動的内容であり新規性に欠ける。",
     "discovered_at": "2026-09-25T10:28:49.024993+00:00"
+  },
+  {
+    "title": "Anthropic: The Situation Report",
+    "link": "https://www.anthropic.com/features/ebola-response",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.anthropic.com/features/ebola-response\nComments URL: https://news.ycombinator.com/item?id=49842788\nPoints: 25\n# Comments: 9",
+    "novelty_score": 15,
+    "japan_relevance_score": 25,
+    "reason": "AnthropicがAIを疾病対応に活用する事例だが、具体的な技術的新規性が不明確で、話題性も限定的。",
+    "discovered_at": "2026-09-25T13:28:46.844250+00:00"
+  },
+  {
+    "title": "Uproar in France over award-winning author accused of using AI",
+    "link": "https://www.bbc.com/news/articles/ck7v4y45893go",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bbc.com/news/articles/ck7v4y45893go\nComments URL: https://news.ycombinator.com/item?id=49842707\nPoints: 31\n# Comments: 70",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI生成物と著作権の問題は既出だが、受賞作家の具体事例として日本でも文学界の関心が高まる可能性がある。",
+    "discovered_at": "2026-09-25T13:28:48.708480+00:00"
+  },
+  {
+    "title": "Best LLM for every budget, updated daily",
+    "link": "https://bestmodelforyourbudget.terrydjony.com/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://bestmodelforyourbudget.terrydjony.com/\nComments URL: https://news.ycombinator.com/item?id=49830866\nPoints: 177\n# Comments: 109",
+    "novelty_score": 35,
+    "japan_relevance_score": 70,
+    "reason": "LLM比較ツールは既存だが、予算別の日次更新という運用方式が実用的で、日本のコスト意識の高いユーザーにも需要あり。",
+    "discovered_at": "2026-09-25T13:28:50.628130+00:00"
+  },
+  {
+    "title": "Nori LLM: Achieving Over 1M tok / s",
+    "link": "https://noriagentic.com/nori-llm.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://noriagentic.com/nori-llm.html\nComments URL: https://news.ycombinator.com/item?id=49826163\nPoints: 24\n# Comments: 3",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "LLMの推論速度向上は重要だが、技術詳細が不明で、HN上の反応も限定的なため新規性を確認できない。",
+    "discovered_at": "2026-09-25T13:28:52.378211+00:00"
+  },
+  {
+    "title": "Ask HN: I just talked to an AI-obsessed client, and I need a shower afterwards",
+    "link": "https://news.ycombinator.com/item?id=49826029",
+    "source": "Hacker News",
+    "summary": "Just to preface, this isn't the typical \"Am I being replaced by vibe coding\" post.I just had a talk with one of my first ongoing clients, who sort of helped me kickstart my freelancing \"career\". He is one of those people who has a broad understanding of the tech out there, and what its capabilities are, but is not a programmer. He wanted to show me, and get my opinion on a restaurant management app that he's been using Lovable to develop. Admittedly, a lot of it is very impressive, and he has obviously become very good at using these tools. Part of that scares me, but I've largely accepted the reality that my skillset has to expand beyond being a React code monkey (wish is not what I am, but you get the point). I've always been a curious generalist, so picking up new stuff comes easily, and I'll manage.Anyways, here's the part that feels really gross. He's working on a feature that does some automated marketing using Higgsfield, so automated slop posting. Also a feature that consumes reviews from vendors, and he intends to use agents to post reviews as well.I'm 43, I managed to convince my parents to get AOL when I was 12. I made a Geocities site at 14. I've been obsessed with computers and the internet for my entire life. I'm also an artist who had a somewhat successful run as a touring musician, much to the detriment of my career growth (not much money in Punk).I feel the hobbies that I've been nurturing for my entire life are being destroyed by people who have finally found an entry point that requires the smallest amount of effort. We are literally watching the dead internet happen in real time, social media turning into a AI slop gallery, AI music topping the charts, and I just had a one-on-one conversation with someone that just doesn't care, because they get to feel creative for possibly the first time ever.How are you all dealing with this?\n\nComments URL: https://news.ycombinator.com/item?id=49826029\nPoints: 27\n# Comments: 36",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI生成コンテンツの社会的影響についての既出テーマだが、クリエイター視点の個人的懸念であり一般的関心は限定的。",
+    "discovered_at": "2026-09-25T13:28:54.013816+00:00"
   }
 ]
