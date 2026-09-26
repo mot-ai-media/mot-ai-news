@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの最新AI「GPT-6 Astra」、IKEAの組立失敗も一発で指摘</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-4a8db310.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-4a8db310.html</guid>
+    <description>OpenAIの新モデルが、写真から問題を正確に特定。IKEAの組立ミスも見抜く精度が話題。</description>
+    <pubDate>Sat, 26 Sep 2026 21:20:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIのAIボットが米政府機関サイトに無断アクセス、SEC含む53件の情報転送が判明</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d22a1993.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-d22a1993.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-c03a3f11.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-c03a3f11.html</guid>
     <description>企業がAIを導入しても、実際の利用は個人レベルの効率化にとどまり、組織全体での活用に至らない実情が調査で明らかに。</description>
-    <pubDate>Thu, 24 Sep 2026 17:04:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>秋田県・札幌市が実証、Googleの生成AIが自治体業務を激変させた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-e69d418a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-notebook-e69d418a.html</guid>
-    <description>秋田県・札幌市の事例から、生成AIを既存システムに組み込む実践的なやり方が見えてくる。</description>
     <pubDate>Thu, 24 Sep 2026 17:04:00 +0900</pubDate>
   </item>
 </channel></rss>
