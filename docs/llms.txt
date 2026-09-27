@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-27 14:32
+最終更新: 2026-09-27 16:28
 
 ## 記事一覧
 
+- [中国AI モデル 世界中で利用拡大 2026年 米国懸念](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57ddc56.html): 2026年、中国開発のAIモデルが世界中の企業に採用される動きが加速している。米国政府がこの傾向に警戒を強めており、AI市場の地政学的な分裂が進む可能性がある。日本企業もAIベンダー選択の岐路に立たされている。 (出典: CNBC / 更新: 2026-09-27 16:28)
+- [中国データセンター企業、米国AI基盤需要に参入。半導体争奪戦へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-83c66dd8.html): ChatGPTなどAIサービスの急速な普及で、アメリカではデータセンター建設が急増している。この需要に目をつけた中国のデータセンター製造業者が市場参入を狙っているが、政治的・技術的な障壁が立ちはだかっている。 (出典: CNBC / 更新: 2026-09-27 16:27)
 - [OpenAI Codex障害とは？1時間のサービス停止で補償内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-0c4d4bbe.html): AIコーディングツール「Codex」で約1時間の障害が発生し、OpenAIが全有料ユーザーの利用制限をリセットで補償。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 14:32)
 - [NTTドコモの対話AI、ユーザーの短い質問から意図を読み取る仕組みとは](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f582fc7a.html): ドコモが生成AIで顧客に聞き返しながら問題を解決する新システム導入。FAQを自分で探す手間が減る。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 14:31)
 - [AIのコーディング能力はどこまで？Googleが1週間タスク検証](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-de2a090a.html): Googleが公開した新しいAI評価ツールで、複雑な実務タスクに対するAIの正答率が大幅低下。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 14:31)
@@ -205,5 +207,3 @@
 - [OpenAIの法務特化AI「Astra for Law」とは？検索範囲・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-e94f8502.html): OpenAIが法律分野に特化したAI「Astra for Law」をリリース。膨大な法律情報から最適な判例や法令を検索できる。 (出典: 디지털투데이 / 更新: 2026-09-18 12:53)
 - [NEC SCM AIエージェントとは？7つの専門AIが問題解決](https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-afa0bdd8.html): NECが複数の物流システムを統合し、問題検知から解決案まで自動実行するAIエージェントを公開。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:02)
 - [AI導入で業務効率化しても帰宅時間が変わらない理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html): AI導入で作業時間が大幅に削減されても、生み出された時間が別の業務に吸収される現象が起きている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:02)
-- [Claudeのプロンプトを効率化する方法｜コスト削減の6つの見直しポイント](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-33a91f95.html): AnthropicがClaude Platformの効率的な使い方を公式に公開。プロンプトでやりがちな6つの無駄と、コストを抑えながら精度を保つ3つの方法を、初心者にもわかる形で紹介します。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:01)
-- [資生堂のAIエージェント導入で原料探索が激変。何ができるのか解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-3f748048.html): 資生堂がAIエージェントを研究開発に導入し、原料探索の時間を大幅削減。研究員の経験と勘をAIで再現する取り組みが進む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:01)
