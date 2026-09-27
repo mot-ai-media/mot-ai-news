@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6 Astra、ロボットに搭載されて未知の台所を自動整理。AI時代の「汎用ロボット」が現実化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1c375614.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1c375614.html</guid>
+    <description>最新AIモデルをロボットに組み込むと、初めての環境でも自律的に掃除を完遂できることが実証された。</description>
+    <pubDate>Sun, 27 Sep 2026 20:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>複数AIを連携させるSwarm AI、Claude級の性能を1/10コストで実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/swarm-ai-fuga-v2-41a29f23.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/swarm-ai-fuga-v2-41a29f23.html</guid>
+    <description>複数のAIを協調させる「Fuga v2」がClaude同等の性能を大幅な低コストで達成。大規模運用にも対応。</description>
+    <pubDate>Sun, 27 Sep 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>トランプがAI最高責任者ポスト新設も、財務長官ベッセント氏は辞退</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-7ec94e51.html</guid>
     <description>元OpenAI研究者らが立ち上げたTypeS企業が新型AI「Jev」を発表。従来のAIの弱点を劇的に改善した。</description>
     <pubDate>Fri, 25 Sep 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの父が日本企業に参画、自分で進化するAIの研究開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sakana-ai-ceb2dd38.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sakana-ai-ceb2dd38.html</guid>
-    <description>AI研究の大物が日本のSakana AIに加わり、AIが自ら改良する仕組みの研究に着手する。</description>
-    <pubDate>Fri, 25 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>政府がAIルール大改訂、ロボットや自動エージェントも対象に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bcf4241e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bcf4241e.html</guid>
-    <description>総務省と経産省がAI事業者向けガイドラインを改訂し、AIエージェントとフィジカルAIの規制対象化へ</description>
-    <pubDate>Fri, 25 Sep 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>
