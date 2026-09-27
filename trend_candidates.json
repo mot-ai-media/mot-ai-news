@@ -1508,5 +1508,15 @@
     "japan_relevance_score": 78,
     "reason": "AI規制の重要な転換点。FTCの開発企業責任追求方針は日本の今後の法整備にも影響を与える見通し。",
     "discovered_at": "2026-09-27T10:28:54.881742+00:00"
+  },
+  {
+    "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+    "link": "https://arxiv.org/abs/2609.25021",
+    "source": "Hacker News",
+    "summary": "Article URL: https://arxiv.org/abs/2609.25021\nComments URL: https://news.ycombinator.com/item?id=49865343\nPoints: 65\n# Comments: 63",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "LLMの自己参照表現がチャットテンプレートで変わる現象の研究で、学術的に新しいが応用範囲は限定的。",
+    "discovered_at": "2026-09-27T13:28:52.155608+00:00"
   }
 ]
