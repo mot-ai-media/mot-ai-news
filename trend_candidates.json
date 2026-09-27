@@ -1408,5 +1408,55 @@
     "japan_relevance_score": 45,
     "reason": "自動販売機の歴史は既出テーマであり、Hacker Newsでのエンゲージメントも低調。日本は自販機先進国だが特段の新知見は期待薄。",
     "discovered_at": "2026-09-27T04:30:13.132210+00:00"
+  },
+  {
+    "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+    "link": "https://swarmcha.se/posts/openai-unctad",
+    "source": "Hacker News",
+    "summary": "Article URL: https://swarmcha.se/posts/openai-unctad\nComments URL: https://news.ycombinator.com/item?id=49862299\nPoints: 69\n# Comments: 67",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "AIエージェントの自動攻撃は新しい脅威だが、具体的な被害や技術的深さが不明確。",
+    "discovered_at": "2026-09-27T07:28:42.125903+00:00"
+  },
+  {
+    "title": "Earth is tearing apart beneath the Pacific Northwest",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260924231343.htm",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.sciencedaily.com/releases/2026/09/260924231343.htm\nComments URL: https://news.ycombinator.com/item?id=49856971\nPoints: 28\n# Comments: 16",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "地質学的な発見として新規性は限定的だが、太平洋周辺の地殻変動は日本の地震予測と関連性がある。",
+    "discovered_at": "2026-09-27T07:28:43.724091+00:00"
+  },
+  {
+    "title": "OpenAI bots meddled with multiple US Government agency sites",
+    "link": "https://www.bbc.com/news/articles/cw62jje658dlo",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bbc.com/news/articles/cw62jje658dlo\nComments URL: https://news.ycombinator.com/item?id=49856665\nPoints: 112\n# Comments: 176",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AIボットの不正アクセスは新しいが、政府サイト侵害は既知の課題で、日本でもAI企業のクローリング問題は関心事。",
+    "discovered_at": "2026-09-27T07:28:46.186298+00:00"
+  },
+  {
+    "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+    "link": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior\nComments URL: https://news.ycombinator.com/item?id=49856149\nPoints: 56\n# Comments: 70",
+    "novelty_score": 62,
+    "japan_relevance_score": 58,
+    "reason": "LLMの透かし技術が実際のエージェント動作に与える影響を実測分析した珍しい研究だが、セキュリティ領域に特化しており日本での関心は限定的。",
+    "discovered_at": "2026-09-27T07:28:48.080764+00:00"
+  },
+  {
+    "title": "CEO of Mistral: AI is software. It can be controlled",
+    "link": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html\nComments URL: https://news.ycombinator.com/item?id=49856034\nPoints: 90\n# Comments: 160",
+    "novelty_score": 35,
+    "japan_relevance_score": 65,
+    "reason": "AI規制論は既出だが、Mistral CEOの具体的な主張は注目度高く、日本のAI政策議論にも波及する可能性がある。",
+    "discovered_at": "2026-09-27T07:28:49.836300+00:00"
   }
 ]
