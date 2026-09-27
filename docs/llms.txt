@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-27 16:28
+最終更新: 2026-09-27 18:02
 
 ## 記事一覧
 
+- [資料作成AIエージェント10選の比較と使い方。選び方のコツ](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-claude-75989e0b.html): ChatGPTで構成を作っても結局スライドは手作業。AIエージェントなら初稿から編集可能なファイル形式で出力、手直しの時間を大幅削減できる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 18:02)
+- [あいち銀行がバクラク請求書受取と連携、請求書DXで経理業務を効率化](https://mot-ai-media.github.io/mot-ai-news/articles/layerx-ai-ocr-b1bc754c.html): 紙やExcel管理が当たり前の経理業務を、AI-OCRと銀行決済プラットフォームで自動化・統合。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:01)
+- [生成AIで業務時間を月28時間削減、トラコムの活用方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b24f1d26.html): 生成AIを導入しても使い方が個人頼みでは効果が限定される。トラコムが個人の工夫を組織全体で使える仕組みに変えた結果、大幅な時間削減を実現。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:01)
+- [AIエージェントでリサーチ効率化。おすすめツール比較と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-c0698052.html): ChatGPTなどのAIエージェントなら、市場調査が数分で終わる。ツール選びと誤情報対策が鍵。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 18:01)
+- [AI利用コスト削減とは？トークンコスト44%カットの方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/accenture-ai-97d7832f.html): 生成AIの急増で膨らむコスト問題。適切な運用で大幅削減が可能という調査結果が出た。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:00)
 - [中国AI モデル 世界中で利用拡大 2026年 米国懸念](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57ddc56.html): 2026年、中国開発のAIモデルが世界中の企業に採用される動きが加速している。米国政府がこの傾向に警戒を強めており、AI市場の地政学的な分裂が進む可能性がある。日本企業もAIベンダー選択の岐路に立たされている。 (出典: CNBC / 更新: 2026-09-27 16:28)
 - [中国データセンター企業、米国AI基盤需要に参入。半導体争奪戦へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-83c66dd8.html): ChatGPTなどAIサービスの急速な普及で、アメリカではデータセンター建設が急増している。この需要に目をつけた中国のデータセンター製造業者が市場参入を狙っているが、政治的・技術的な障壁が立ちはだかっている。 (出典: CNBC / 更新: 2026-09-27 16:27)
 - [OpenAI Codex障害とは？1時間のサービス停止で補償内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-0c4d4bbe.html): AIコーディングツール「Codex」で約1時間の障害が発生し、OpenAIが全有料ユーザーの利用制限をリセットで補償。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 14:32)
@@ -202,8 +207,3 @@
 - [中国フィジカルAI産業とは？主要企業と地域集積で見る全体像](https://mot-ai-media.github.io/mot-ai-news/articles/ai-1f9edced.html): 中国のロボット・フィジカルAI産業が、企業単体ではなく産業全体として急速に構造化され、集積地を中心に組織されている実態が浮かぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
 - [レベルファイブのAI動画騒動とは？東京ゲームショウでの対応](https://mot-ai-media.github.io/mot-ai-news/articles/ai-5e315559.html): AI生成動画の利用で炎上したゲーム企業の、イベント当日の現場レポート。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:00)
 - [米AI企業が規制を求める一方、議会は選挙キャンペーンで対応遅延](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html): AnthropicやOpenAIなど主要なAI企業が政府による規制の必要性を訴えている一方で、米国議会はキャンペーン活動を優先させており、緊急性が感じられない対応となっている。AI企業の要望と政治の現実のギャップが明らかになった。 (出典: CNBC / 更新: 2026-09-18 13:28)
-- [Nvidia Jensen Huang CEO、2025年のチップ供給を2倍に拡大を宣言](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-43dfd7d4.html): Nvidiaのジェンセン・ファウンド最高経営責任者が、来年のAIチップ供給を現在の2倍に増やすと発表。今後6四半期にわたる急速な成長が続く見通しを示した。 (出典: CNBC / 更新: 2026-09-18 13:27)
-- [OpenAIのGPT-6 Astra とは？弁護士向けAI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-804d6592.html): OpenAIが法律専門家向けのAI「GPT-6 Astra」を発表。AI競争が法業界にも本格展開。 (出典: NDTV / 更新: 2026-09-18 12:54)
-- [OpenAIの法務特化AI「Astra for Law」とは？検索範囲・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-e94f8502.html): OpenAIが法律分野に特化したAI「Astra for Law」をリリース。膨大な法律情報から最適な判例や法令を検索できる。 (出典: 디지털투데이 / 更新: 2026-09-18 12:53)
-- [NEC SCM AIエージェントとは？7つの専門AIが問題解決](https://mot-ai-media.github.io/mot-ai-news/articles/nec-ai-afa0bdd8.html): NECが複数の物流システムを統合し、問題検知から解決案まで自動実行するAIエージェントを公開。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:02)
-- [AI導入で業務効率化しても帰宅時間が変わらない理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/dena-ai-2a3f27a6.html): AI導入で作業時間が大幅に削減されても、生み出された時間が別の業務に吸収される現象が起きている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 11:02)
