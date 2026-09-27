@@ -1,20 +1,6 @@
 [
   {
     "tokens": [
-      "explained",
-      "it's",
-      "kill",
-      "late'",
-      "little",
-      "not",
-      "probably",
-      "switch",
-      "too"
-    ],
-    "ts": "2026-09-19T22:27:58"
-  },
-  {
-    "tokens": [
       "alliances",
       "elon",
       "fighting",
@@ -777,5 +763,33 @@
       "won't"
     ],
     "ts": "2026-09-27T19:28:18"
+  },
+  {
+    "tokens": [
+      "bond",
+      "companies",
+      "debt-hungry",
+      "face",
+      "increased",
+      "risk",
+      "spike",
+      "yields"
+    ],
+    "ts": "2026-09-27T22:27:55"
+  },
+  {
+    "tokens": [
+      "ai's",
+      "biggest",
+      "dined",
+      "far",
+      "here's",
+      "know",
+      "names.",
+      "talks",
+      "tech",
+      "trump"
+    ],
+    "ts": "2026-09-27T22:28:10"
   }
 ]
