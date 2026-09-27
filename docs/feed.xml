@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Codex、エンジニア以外も使い始めた。Excel集計から資料作成まで業務ごと丸投げ可能に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-82b614b6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-82b614b6.html</guid>
+    <description>OpenAIのCodexは、ファイル操作を自動化するAIエージェント。エンジニア以外の利用者が急増し、営業・マーケティング・企画職も実務で活用し始めている。</description>
+    <pubDate>Sun, 27 Sep 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Codex、企業が導入すべき理由。ChatGPT法人プランの選び方が判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6c0438f7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6c0438f7.html</guid>
+    <description>OpenAIのCodexを会社で安全に使うには、個人プランではなくChatGPT法人プランの契約が必須。BusinessかEnterpriseかの選び方を解説。</description>
+    <pubDate>Sun, 27 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント市場、5年で10倍成長へ。2030年までの進化ロードマップ明かす</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b8d08d49.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b8d08d49.html</guid>
+    <description>ブームではなく確実な需要に支えられたAIエージェント市場が、2030年に向けて急速拡大。企業導入の現実的な時間軸も判明した。</description>
+    <pubDate>Sun, 27 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>開発者の31%がもう導入。AIエージェントがコード作成を完全自動化する時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html</guid>
+    <description>AIが企画から実装・テストまで自律的に進める新しい開発手法が急速に普及。開発効率が大きく変わる可能性がある。</description>
+    <pubDate>Sun, 27 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Microsoft「Copilot」が仕事のOSに進化、AIが勝手に業務をこなす時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-2d804fa5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-2d804fa5.html</guid>
+    <description>MicrosoftがCopilotを大幅リニューアル。AIが自ら業務を進める「Autopilot」が登場し、仕事の流れが変わる。</description>
+    <pubDate>Sun, 27 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPT-6 Astra、ロボットに搭載されて未知の台所を自動整理。AI時代の「汎用ロボット」が現実化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1c375614.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1c375614.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/deepl-chatgpt-768a9e8f.html</guid>
     <description>翻訳ツールとAIを行き来する手間が消える。DeepLがMCPに対応し、ChatGPTなどから直接利用可能に。</description>
     <pubDate>Fri, 25 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI同士の取引時代、身元・権限をどう確認する？GMOが実証へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-daa191c7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-daa191c7.html</guid>
-    <description>複数企業のAIが直接取引する時代に向け、相手の身元や権限を確認する信頼基盤の実証が実施された。</description>
-    <pubDate>Fri, 25 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>工場の自動制御システムがAIの相棒に、アイ・エル・シーが実装開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/plc-952c4996.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/plc-952c4996.html</guid>
-    <description>工場の機械制御を担うPLCがAI機能を組み込める段階へ。簡単導入のドラレコカメラも登場。</description>
-    <pubDate>Fri, 25 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、写真1枚からAIアバター生成。企業向けに本格提供開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-15f3bf92.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-15f3bf92.html</guid>
-    <description>Googleが表情豊かに動くAIアバターを企業向けに提供。写真1枚で独自キャラを作成でき、カスタマーサービスやWebに活用可能。</description>
-    <pubDate>Fri, 25 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>企業のAI導入、9割が失敗経験。つまずく理由は「技術」ではなく人・組織だった</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-09e0921d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-09e0921d.html</guid>
-    <description>AI導入に挑戦した企業の9割以上が停滞・頓挫を経験。技術より人材・体制の整備が課題。</description>
-    <pubDate>Fri, 25 Sep 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTの作り手が新AI「Jev」開発、従来比200倍高速化でハルシネーション撲滅</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-7ec94e51.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-7ec94e51.html</guid>
-    <description>元OpenAI研究者らが立ち上げたTypeS企業が新型AI「Jev」を発表。従来のAIの弱点を劇的に改善した。</description>
-    <pubDate>Fri, 25 Sep 2026 18:02:00 +0900</pubDate>
   </item>
 </channel></rss>

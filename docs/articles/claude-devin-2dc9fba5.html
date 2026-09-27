@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIエージェントによるプログラミングとは？できることと主要ツール7選 | AI特化メディアMOT</title>
+<meta name="description" content="AIが企画から実装・テストまで自律的に進める新しい開発手法が急速に普及。開発効率が大きく変わる可能性がある。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="開発者の31%がもう導入。AIエージェントがコード作成を完全自動化する時代へ">
+<meta property="og:description" content="AIが企画から実装・テストまで自律的に進める新しい開発手法が急速に普及。開発効率が大きく変わる可能性がある。">
+<meta property="og:image" content="https://ainow.ai/wp-content/uploads/2026/09/thumbnail-14.jpg">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html">
+<meta property="article:published_time" content="2026-09-27T22:01:00+09:00">
+<meta property="article:modified_time" content="2026-09-27T22:01:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "開発者の31%がもう導入。AIエージェントがコード作成を完全自動化する時代へ", "description": "AIが企画から実装・テストまで自律的に進める新しい開発手法が急速に普及。開発効率が大きく変わる可能性がある。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-27T22:01:00+09:00", "dateModified": "2026-09-27T22:01:00+09:00", "image": ["https://ainow.ai/wp-content/uploads/2026/09/thumbnail-14.jpg"], "citation": "https://ainow.ai/2026/09/25/278386/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ab%25e3%2582%2588%25e3%2582%258b%25e3%2583%2597%25e3%2583%25ad%25e3%2582%25b0%25e3%2583%25a9%25e3%2583%259f%25e3%2583%25b3%25e3%2582%25b0%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "AIエージェントによるプログラミングとは何が違う？", "acceptedAnswer": {"@type": "Answer", "text": "従来のコード補完ツールは入力中のコードの続きを人が確認しながら選ぶのに対し、AIエージェントはファイル編集やテスト実行まで自分で進め、結果を見て次の行動を自律的に判断します。"}}, {"@type": "Question", "name": "AIエージェントにはどんな作業を任せられる？", "acceptedAnswer": {"@type": "Answer", "text": "複数ファイルにまたがる機能実装、バグの原因調査と修正、テストコード作成、コードの構造整理（リファクタリング）など、入力と出力が明確な定型業務が向いています。"}}, {"@type": "Question", "name": "バイブコーディングとAI駆動開発の違いは？", "acceptedAnswer": {"@type": "Answer", "text": "バイブコーディングはAIの出力をほぼ確認しないで動作だけ見て進める方法で、AI駆動開発は各工程でAIを使いつつ人がレビューして品質を担保する方法です。試作にはバイブコーディング、本番にはAI駆動開発という使い分けがあります。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Claude", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/claude.html"}, {"@type": "ListItem", "position": 3, "name": "開発者の31%がもう導入。AIエージェントがコード作成を完全自動化する時代へ", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://ainow.ai/wp-content/uploads/2026/09/thumbnail-14.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">開発者の31%がもう導入。AIエージェントがコード作成を完全自動化する時代へ</span></div></div>
+  <h1 class="headline">開発者の31%がもう導入。AIエージェントがコード作成を完全自動化する時代へ</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>AI専門ニュースメディア AINOW</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-27 22:01</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> AIエージェントは単なるコード補完ではなく、複数ファイル対応や自動テスト実行まで自律的に進める開発手法であり、すでに開発者の約31%が業務で採用している。</p><h3>何が起きたか</h3><p>AIがプログラミング作業を人間に代わって自律的に実行する「AIエージェント」が急速に普及しています。Claude CodeやDevinなどのツールが相次いで登場し、Stack Overflowの2025年調査では開発者の約31%が業務で活用していることが判明。単なるコード補完ではなく、複数ファイルの編集やテスト実行まで自分で完結する点が従来のAIコーディングツールとの大きな違いです。</p><h3>なぜ重要か</h3><p>開発現場ではエンジニアが単純作業に時間を取られ、重要な設計やレビューに時間が割けない課題がありました。AIエージェントはこの課題を抜本的に変える可能性を持ちます。テスト作成やバグ修正といった定型業務をAIに委ねることで、人間はより高度な思考が必要な業務に集中できるようになり、チームの生産性が大きく向上する可能性があります。</p><h3>あなたへの影響</h3><p>IT企業や開発チームに属する人にとっては、業務の流れが大きく変わることが予想されます。また、採用を決断する経営層にとっては、導入タイミングが組織の競争力を左右する判断材料になります。一般的な職業の人でも、ソフトウェア開発の外注コストが低下すれば、アプリやシステム導入の敷居が下がるなど間接的な恩恵を受ける可能性があります。</p><h3>MOT読者が知っておくべき理由</h3><p>AIの実務活用がどこまで進んでいるのか、何ができるのかを理解することで、職場での関連ツール導入の判断や、キャリアの方向性を考える際の根拠が生まれます。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>同じチーム規模でも導入企業と未導入企業の開発速度に差が開く可能性があり、開発効率が競争優位性を左右する業界では、導入戦略を後回しにすることが企業の生産性低下につながるリスクが高まります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>定型的な実装やテスト、バグ修正といった作業をAIに任せることで、エンジニアは本来時間をかけるべき設計・要件の詰めや難しい判断に資源を再配分でき、結果的にチーム全体の付加価値が向上する可能性があります。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>コード補完ツールの進化系として語られることもありますが、これは質的な転換です。従来は「人が書く速度を上げる」という補助的な役割でしたが、AIエージェントは「人が判断する工程を増やす」という主体の交代をもたらします。バイブコーディング（品質確認を後回しにする開発）と、従来の堅牢性重視の開発の使い分けが、実務レベルで重要になる局面に入っています。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>Claude CodeやDevin等の主要ツールが企業導入でどの程度の実績を生み出すのか、また開発チームが実際にこうしたツールをどう組み込むかについての事例報告。さらに、AIエージェントの出力品質が業界別・タスク別でどの程度のばらつきがあるかの実測データが今後の普及を左右する重要な指標になります。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/claude.html">#Claude</a><a class="tag-pill" href="../topics/0a91c56b47.html">#AIエージェント</a></div>
+  <script>window.motPageTags=["Claude", "Devin", "AIエージェント"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">睡眠の質を、指先のリングで可視化</h3><p class="sponsor-desc">スマートリング「RingConn」。装着するだけで睡眠データを記録・分析できる。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" rel="sponsored nofollow" target="_blank"><img border="0" width="300" height="250" alt="RingConn" loading="lazy" src="https://www20.a8.net/svt/bgt?aid=260905484110&wid=001&eno=01&mid=s00000026776002004000&mc=1"></a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">RingConn</p></div></article></div>
+  <blockquote class="fact-check" cite="https://ainow.ai/2026/09/25/278386/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ab%25e3%2582%2588%25e3%2582%258b%25e3%2583%2597%25e3%2583%25ad%25e3%2582%25b0%25e3%2583%25a9%25e3%2583%259f%25e3%2583%25b3%25e3%2582%25b0%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>AI専門ニュースメディア AINOW</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://ainow.ai/2026/09/25/278386/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ab%25e3%2582%2588%25e3%2582%258b%25e3%2583%2597%25e3%2583%25ad%25e3%2582%25b0%25e3%2583%25a9%25e3%2583%259f%25e3%2583%25b3%25e3%2582%25b0%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b" target="_blank" rel="noopener noreferrer">元記事（<cite>AI専門ニュースメディア AINOW</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. AIエージェントによるプログラミングとは何が違う？</p>
+    <p class="faq-a">従来のコード補完ツールは入力中のコードの続きを人が確認しながら選ぶのに対し、AIエージェントはファイル編集やテスト実行まで自分で進め、結果を見て次の行動を自律的に判断します。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. AIエージェントにはどんな作業を任せられる？</p>
+    <p class="faq-a">複数ファイルにまたがる機能実装、バグの原因調査と修正、テストコード作成、コードの構造整理（リファクタリング）など、入力と出力が明確な定型業務が向いています。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. バイブコーディングとAI駆動開発の違いは？</p>
+    <p class="faq-a">バイブコーディングはAIの出力をほぼ確認しないで動作だけ見て進める方法で、AI駆動開発は各工程でAIを使いつつ人がレビューして品質を担保する方法です。試作にはバイブコーディング、本番にはAI駆動開発という使い分けがあります。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AE31%25%E3%81%8C%E3%82%82%E3%81%86%E5%B0%8E%E5%85%A5%E3%80%82AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%8C%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90%E3%82%92%E5%AE%8C%E5%85%A8%E8%87%AA%E5%8B%95%E5%8C%96%E3%81%99%E3%82%8B%E6%99%82%E4%BB%A3%E3%81%B8&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html&text=%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AE31%25%E3%81%8C%E3%82%82%E3%81%86%E5%B0%8E%E5%85%A5%E3%80%82AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%8C%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90%E3%82%92%E5%AE%8C%E5%85%A8%E8%87%AA%E5%8B%95%E5%8C%96%E3%81%99%E3%82%8B%E6%99%82%E4%BB%A3%E3%81%B8" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html" data-share-title="開発者の31%がもう導入。AIエージェントがコード作成を完全自動化する時代へ">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="claude-devin-2dc9fba5">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="ai-b8d08d49.html">
+    <img src="https://ainow.ai/wp-content/uploads/2026/09/thumbnail-12.jpg" alt="" loading="lazy">
+    <span class="next-up-headline">AIエージェント市場、5年で10倍成長へ。2030年までの進化ロードマップ明かす</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="microsoft-copilot-claude-75989e0b.html">資料作成AIが選び方で全て決まる。ツール10選の比較ポイント</a></li>
+  <li><a href="ai-ai-17328a56.html">AIエージェント導入、9割が実証段階で止まる理由。3つの落とし穴を徹底解明</a></li>
+  <li><a href="ai-rpa-7ee0b42b.html">AIエージェント導入で月末残業が消える。年4000時間削減した企業も</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

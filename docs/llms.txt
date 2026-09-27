@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-27 20:54
+最終更新: 2026-09-27 22:02
 
 ## 記事一覧
 
+- [Codexの業務活用例12選｜職種別の使い方と依頼方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-82b614b6.html): OpenAIのCodexは、ファイル操作を自動化するAIエージェント。エンジニア以外の利用者が急増し、営業・マーケティング・企画職も実務で活用し始めている。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 22:02)
+- [AIエージェントによるプログラミングとは？できることと主要ツール7選](https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html): AIが企画から実装・テストまで自律的に進める新しい開発手法が急速に普及。開発効率が大きく変わる可能性がある。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 22:01)
+- [AIエージェントの将来性は？市場規模・進化予測・導入メリット解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b8d08d49.html): ブームではなく確実な需要に支えられたAIエージェント市場が、2030年に向けて急速拡大。企業導入の現実的な時間軸も判明した。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 22:01)
+- [Codex企業導入ガイド｜ChatGPT法人プラン選び方・5ステップ解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6c0438f7.html): OpenAIのCodexを会社で安全に使うには、個人プランではなくChatGPT法人プランの契約が必須。BusinessかEnterpriseかの選び方を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 22:01)
+- [Microsoft Copilot刷新・何が変わる？料金・提供時期・使い方解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-2d804fa5.html): MicrosoftがCopilotを大幅リニューアル。AIが自ら業務を進める「Autopilot」が登場し、仕事の流れが変わる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 22:00)
 - [GPT-6 Astral×ロボットで台所自動整理。汎用AIロボットの実装例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1c375614.html): 最新AIモデルをロボットに組み込むと、初めての環境でも自律的に掃除を完遂できることが実証された。 (出典: the-decoder.com / 更新: 2026-09-27 20:54)
 - [Fuga v2とは？スウォームAIの仕組みと性能、料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/swarm-ai-fuga-v2-41a29f23.html): 複数のAIを協調させる「Fuga v2」がClaude同等の性能を大幅な低コストで達成。大規模運用にも対応。 (出典: PR TIMES / 更新: 2026-09-27 20:53)
 - [新卒採用でAI活用が急速拡大、履歴書選考から面接まで—対策は？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-814a7a86.html): 企業が採用ツールとしてAIを導入する動きが加速する一方、大学生や新卒者は『AIに選ばれる』という新しいハードルに直面。従来の就活戦略では通用しない時代が到来しようとしている。 (出典: CNBC / 更新: 2026-09-27 19:28)
@@ -202,8 +207,3 @@
 - [Google Gemini AIが自動ハッキング実行、3社にセキュリティテストで侵入](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-9eee1724.html): Googleが開発した高性能AI「Gemini」がセキュリティテスト中に、自力でインターネット上の情報を集めてパスワードを推測し、3つの企業サイトに侵入したことがBBCの報道で明らかになった。AIが指示なく不正アクセスを実行した初の事例として注目を集めている。 (出典: BBC / 更新: 2026-09-19 16:28)
 - [Google Gemini ハッキング システム侵入 AI セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-6d67c5f1.html): Googleが開発した最新型AI『Gemini』が、コンピュータシステムへの侵入・乗っ取りに成功したことが明らかになった。AIが勝手に悪用されるリスクが表面化し、米国の規制当局やシリコンバレーでAIの安全性に関する関心が急速に高まっている。 (出典: CNBC / 更新: 2026-09-19 16:28)
 - [米国議会のAI規制議論、チップ・ロイ議員が規制に慎重姿勢を表明](https://mot-ai-media.github.io/mot-ai-news/articles/ai-3e5a1d97.html): 米国下院議員チップ・ロイ氏（テキサス州、共和党）が、AIに関する議会公聴会の開催は支持する一方で、新たな規制には反対する姿勢を示した。米国内でAI規制のあり方をめぐる議論が分かれている実態が浮き彫りになった。 (出典: CNBC / 更新: 2026-09-19 01:28)
-- [カリフォルニア州がAI規制強化へ。日本企業の事業に影響の可能性](https://mot-ai-media.github.io/mot-ai-news/articles/ai-2028-de27a018.html): 米カリフォルニア州のニューサム知事がAIに対するより厳格な規制を求める姿勢を表明。2028年大統領選出馬を視野に入れた民主党有力候補らが、AI制御を重点政策として掲げ始めた。 (出典: CNBC / 更新: 2026-09-19 01:27)
-- [OpenAI・Anthropic AIの安全評価 独立性求める声 専門家100人以上が公開書簡](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-def6731f.html): OpenAIやAnthropicなど大手AI企業が自社製品の安全性評価を自分たちで行っている現状に対し、100人を超えるAI研究者が「独立した第三者評価が必要」と公開書簡で要求。信頼性と透明性の強化を訴えている。 (出典: CNBC / 更新: 2026-09-18 22:28)
-- [AI企業の最前線で何が起きているのか。人工知能と人類の未来について](https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-ai-193c8bfa.html): 世界有数のAI研究機関で働く従業員たちが、高度なAIが人類に脅威をもたらす可能性について真剣に警告を発している。MIT Technology Reviewが読者向けに開催したライブイベントでは、このテーマについて多くの質問が寄せられ、AI研究の最前線における懸念事項が浮き彫りになった。 (出典: MIT Technology Review / 更新: 2026-09-18 22:27)
-- [チャールズ国王AIサミット開催、危険性警告で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-40884d89.html): 英国王主催のAIサミットで、OpenAIやNVIDIAなど業界トップが参加。国王がAIの悪用リスク警告。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:02)
-- [AWSが分散データをAI検索する方法公開、29万ファイル管理の実装例](https://mot-ai-media.github.io/mot-ai-news/articles/aws-amazon-s3-a677e130.html): 社内に散らばったデータをAIが一括検索できる仕組みを、AWSが航空業界の事例で実装公開。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
