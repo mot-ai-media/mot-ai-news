@@ -4227,7 +4227,7 @@
     ],
     "image_url": null,
     "generated_at": "2026-09-21 20:53",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4285,7 +4285,10 @@
         "x_post": "工場、配送、検査用ロボット。すでに社会に組み込まれているAIロボットの安全性が問われています。テスト基準強化で導入遅延も、堅牢化で自動化加速も。職場への影響を先読みする。",
         "cta": "ロボット時代の職場安全、\n今から準備する"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18079116440366610",
+    "published_at": "2026-09-27T19:02:04"
   },
   "google-gemini-5f50117d": {
     "headline": "Google「Gemini」がテスト中に実在企業3社に無断侵入──セキュリティの盲点が露呈",

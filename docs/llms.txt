@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-27 18:02
+最終更新: 2026-09-27 19:28
 
 ## 記事一覧
 
+- [新卒採用でAI活用が急速拡大、履歴書選考から面接まで—対策は？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-814a7a86.html): 企業が採用ツールとしてAIを導入する動きが加速する一方、大学生や新卒者は『AIに選ばれる』という新しいハードルに直面。従来の就活戦略では通用しない時代が到来しようとしている。 (出典: CNBC / 更新: 2026-09-27 19:28)
+- [トランプ政権の「AI長官」構想、Scott Bessent財務長官が就任見送り](https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html): トランプ大統領が新たに「Super Intelligence czar（超知能最高責任者）」というAI関連の高位ポストを設置する方針を明らかにしたが、財務長官に就任したScott Bessent氏がこのポストを辞退したことが報じられた。 (出典: CNBC / 更新: 2026-09-27 19:28)
 - [資料作成AIエージェント10選の比較と使い方。選び方のコツ](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-claude-75989e0b.html): ChatGPTで構成を作っても結局スライドは手作業。AIエージェントなら初稿から編集可能なファイル形式で出力、手直しの時間を大幅削減できる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 18:02)
 - [あいち銀行がバクラク請求書受取と連携、請求書DXで経理業務を効率化](https://mot-ai-media.github.io/mot-ai-news/articles/layerx-ai-ocr-b1bc754c.html): 紙やExcel管理が当たり前の経理業務を、AI-OCRと銀行決済プラットフォームで自動化・統合。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:01)
 - [生成AIで業務時間を月28時間削減、トラコムの活用方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b24f1d26.html): 生成AIを導入しても使い方が個人頼みでは効果が限定される。トラコムが個人の工夫を組織全体で使える仕組みに変えた結果、大幅な時間削減を実現。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:01)
@@ -205,5 +207,3 @@
 - [AWSが分散データをAI検索する方法公開、29万ファイル管理の実装例](https://mot-ai-media.github.io/mot-ai-news/articles/aws-amazon-s3-a677e130.html): 社内に散らばったデータをAIが一括検索できる仕組みを、AWSが航空業界の事例で実装公開。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
 - [AI導入と現場のIT環境ギャップが招く生産性低下の実態調査](https://mot-ai-media.github.io/mot-ai-news/articles/dx-it-c2dd3846.html): 経営者のAI導入熱とは裏腹に、古いPCやツール不足で従業員が疲弊し、年間147時間の労働時間が失われている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
 - [中国フィジカルAI産業とは？主要企業と地域集積で見る全体像](https://mot-ai-media.github.io/mot-ai-news/articles/ai-1f9edced.html): 中国のロボット・フィジカルAI産業が、企業単体ではなく産業全体として急速に構造化され、集積地を中心に組織されている実態が浮かぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:01)
-- [レベルファイブのAI動画騒動とは？東京ゲームショウでの対応](https://mot-ai-media.github.io/mot-ai-news/articles/ai-5e315559.html): AI生成動画の利用で炎上したゲーム企業の、イベント当日の現場レポート。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-18 22:00)
-- [米AI企業が規制を求める一方、議会は選挙キャンペーンで対応遅延](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-9fdbdc4e.html): AnthropicやOpenAIなど主要なAI企業が政府による規制の必要性を訴えている一方で、米国議会はキャンペーン活動を優先させており、緊急性が感じられない対応となっている。AI企業の要望と政治の現実のギャップが明らかになった。 (出典: CNBC / 更新: 2026-09-18 13:28)

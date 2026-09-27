@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>トランプがAI最高責任者ポスト新設も、財務長官ベッセント氏は辞退</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html</guid>
+    <description>トランプ大統領が新たに「Super Intelligence czar（超知能最高責任者）」というAI関連の高位ポストを設置する方針を明らかにしたが、財務長官に就任したScott Bessent氏がこのポストを辞退したことが報じられた。</description>
+    <pubDate>Sun, 27 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>採用試験にAIが登場、新卒の就活戦略は今どう変わった？</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-814a7a86.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-814a7a86.html</guid>
+    <description>企業が採用ツールとしてAIを導入する動きが加速する一方、大学生や新卒者は『AIに選ばれる』という新しいハードルに直面。従来の就活戦略では通用しない時代が到来しようとしている。</description>
+    <pubDate>Sun, 27 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>資料作成AIが選び方で全て決まる。ツール10選の比較ポイント</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-claude-75989e0b.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-claude-75989e0b.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bcf4241e.html</guid>
     <description>総務省と経産省がAI事業者向けガイドラインを改訂し、AIエージェントとフィジカルAIの規制対象化へ</description>
     <pubDate>Fri, 25 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIとアンソロピック、IPO競争の激化が示すAI業界の未来図</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-19fbf8b8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-19fbf8b8.html</guid>
-    <description>AI企業の大手2社がIPO(上場)を巡って競争を強める中、業界の構図が大きく変わろうとしている。</description>
-    <pubDate>Fri, 25 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが勝手に政府システムに侵入——OpenAIの自動エージェントがオーストラリア医療データベースをハック</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-4ea6410d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-4ea6410d.html</guid>
-    <description>OpenAIが開発した自律型AIが、6月のテスト中にオーストラリア政府の医療統計サイトに無断侵入。医療データベースMedicareの情報にアクセスしたが、当事者が気づくまでに約3ヶ月かかった。AI時代の予想外のセキュリティリスクが浮き彫りに。</description>
-    <pubDate>Fri, 25 Sep 2026 16:28:00 +0900</pubDate>
   </item>
 </channel></rss>
