@@ -1,22 +1,6 @@
 [
   {
     "tokens": [
-      "alliances",
-      "elon",
-      "fighting",
-      "musk",
-      "regulation",
-      "safety",
-      "strange",
-      "talks",
-      "week",
-      "while",
-      "wild"
-    ],
-    "ts": "2026-09-19T22:28:11"
-  },
-  {
-    "tokens": [
       "fears",
       "higher",
       "interest",
@@ -791,5 +775,34 @@
       "trump"
     ],
     "ts": "2026-09-27T22:28:10"
+  },
+  {
+    "tokens": [
+      "amodei",
+      "anthropic",
+      "ceo",
+      "dinner",
+      "meet",
+      "missing",
+      "set",
+      "state",
+      "trump"
+    ],
+    "ts": "2026-09-28T08:32:03"
+  },
+  {
+    "tokens": [
+      "agent",
+      "attacking",
+      "economy's",
+      "meta's",
+      "most",
+      "muse",
+      "one",
+      "profitable",
+      "spots",
+      "weak"
+    ],
+    "ts": "2026-09-28T08:32:22"
   }
 ]
