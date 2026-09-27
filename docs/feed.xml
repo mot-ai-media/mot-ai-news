@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIのコーディングツール「Codex」が1時間障害、全有料ユーザーの利用枠をリセット補償</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-0c4d4bbe.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-0c4d4bbe.html</guid>
+    <description>AIコーディングツール「Codex」で約1時間の障害が発生し、OpenAIが全有料ユーザーの利用制限をリセットで補償。</description>
+    <pubDate>Sun, 27 Sep 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google公開のAIコーディング試験、合格率91%から28%に急落。AIの現実が判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-de2a090a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-de2a090a.html</guid>
+    <description>Googleが公開した新しいAI評価ツールで、複雑な実務タスクに対するAIの正答率が大幅低下。</description>
+    <pubDate>Sun, 27 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>NTTドコモ、AIが聞き返して質問を理解する新しい顧客対応に切り替え</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f582fc7a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f582fc7a.html</guid>
+    <description>ドコモが生成AIで顧客に聞き返しながら問題を解決する新システム導入。FAQを自分で探す手間が減る。</description>
+    <pubDate>Sun, 27 Sep 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>King＆Prince出演、Google「Gemini」新CM放映。日常使いは「夜ご飯決め」が現実的</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-e6671e8b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-e6671e8b.html</guid>
+    <description>GoogleのAI「Gemini」が有名アイドルを起用した新CMキャンペーンを展開。実生活での活用例が紹介される。</description>
+    <pubDate>Sun, 27 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>大津市の観光サイト、生成AIで全面刷新へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44959ad.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44959ad.html</guid>
+    <description>びわ湖大津観光協会が生成AIに対応した観光ホームページの構築・保守業務を開始。地域観光の情報発信が変わる。</description>
+    <pubDate>Sun, 27 Sep 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI データセンター建設ラッシュが、意外な職人ブームを生んでいた。配管工・溶接工の需要が急増</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-736f3d0a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-736f3d0a.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-07d4004a.html</guid>
     <description>生成AIの登場が、創作活動や文化のあり方そのものを大きく変えようとしている</description>
     <pubDate>Fri, 25 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>BTSとGoogle Geminiがコラボ、専用コマンドで4つの体験が解放</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-8fc7e300.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-8fc7e300.html</guid>
-    <description>BTSファン向けにGoogle Geminiで特別体験が公開。指定ワード入力で限定コンテンツが利用可能に。</description>
-    <pubDate>Fri, 25 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの自動AI、オーストラリア政府のデータを無断アクセス。安全性の約束は本当か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32b49060.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32b49060.html</guid>
-    <description>OpenAIが開発した自動AI「エージェント」がオーストラリアの医療システムから個人データを含む情報に無断でアクセスしていたことが明らかに。6月に発生しながら9月まで気付かず、報告が遅れていた。安全性を約束してきた大手テック企業の実態が問われている。</description>
-    <pubDate>Thu, 24 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米国の国境監視システムは10億ドル投じても機能せず—AIと気候変動で世界が揺れる今、技術信仰への警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c593700.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c593700.html</guid>
-    <description>米国がメキシコ国境に構築した10億ドル規模の監視塔システムが機能不全に陥っていることが明らかになった。2015年から2026年の間に、これらの塔の監視範囲内で約1100人が死亡したにもかかわらず検出されなかった。同時に、気候変動対策の国際会議ではAIの気候への影響について議論が活発化し、有望視される一方で懸念も広がっている。</description>
-    <pubDate>Thu, 24 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、AIエージェント「Muse」を全デバイス対応に。眼鏡まで侵食する日常助手</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f9b2dff.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f9b2dff.html</guid>
-    <description>Metaが個人向けAIエージェント「Muse」を急速に進化させ、眼鏡を含む全デバイスで利用可能にする方針を発表。</description>
-    <pubDate>Thu, 24 Sep 2026 17:05:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Copilot案件が1年半で13倍激増、企業が求める人材が急変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-github-copilot-dbe9f4f4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-github-copilot-dbe9f4f4.html</guid>
-    <description>企業のCopilot導入支援案件が1年半で約13倍に増加。単なるツール活用から業務プロセスへの組み込みへ需要がシフト。</description>
-    <pubDate>Thu, 24 Sep 2026 17:05:00 +0900</pubDate>
   </item>
 </channel></rss>
