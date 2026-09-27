@@ -1358,5 +1358,55 @@
     "japan_relevance_score": 62,
     "reason": "AI生成コンテンツの社会的影響についての既出テーマだが、クリエイター視点の個人的懸念であり一般的関心は限定的。",
     "discovered_at": "2026-09-25T13:28:54.013816+00:00"
+  },
+  {
+    "title": "OpenAI (2015)",
+    "link": "https://openai.com/index/introducing-openai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://openai.com/index/introducing-openai/\nComments URL: https://news.ycombinator.com/item?id=49862120\nPoints: 37\n# Comments: 14",
+    "novelty_score": 15,
+    "japan_relevance_score": 25,
+    "reason": "2015年の古い記事の再投稿で新規性に欠け、当時の歴史的価値は限定的。",
+    "discovered_at": "2026-09-27T04:30:04.250718+00:00"
+  },
+  {
+    "title": "Allegations of sexual harassment and rape at Bay Area AI party houses",
+    "link": "https://www.kron4.com/news/technology-ai/report-details-allegations-of-wild-parties-sexual-harassment-and-rape-at-bay-area-ai-party-houses/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.kron4.com/news/technology-ai/report-details-allegations-of-wild-parties-sexual-harassment-and-rape-at-bay-area-ai-party-houses/\nComments URL: https://news.ycombinator.com/item?id=49861356\nPoints: 24\n# Comments: 4",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "シリコンバレーのAI業界における不正行為は重要だが、地域限定的で同様の報道例もあるため新規性は中程度。",
+    "discovered_at": "2026-09-27T04:30:06.056836+00:00"
+  },
+  {
+    "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
+    "link": "https://news.ycombinator.com/item?id=49861047",
+    "source": "Hacker News",
+    "summary": "My OpenAI CODEX account went rogue and from a simple request took the autonomous decision to launch 826 parallel agents / threads without any authorization on my side and without reporting any result of any sort but consuming nearly 2,146 trillions tokens, consuming a total of roughly USD 78,000 and deleting all records of what was done: I have a ticket open with OpenAI since 2 weeks but it is impossible to get an hold of a human operator.On July 10, 2026 I opened a normal Codex task from VS Code.The task was running: GPT-5.5 / Medium reasoningMy prompt was very simple and asked for a UX/UI validation on a specific module within my product.What I found in the next days after hard analysis  was:The task with Root ID 019f4b90-4169-7201-bfdd-732940d8631e with reasoning GPT-5.5 / Medium created 826 children recorded as GPT-5.6 Sol / Ultra (notice the difference in reasoning level and in model selection)This was not 826 messages inside one conversation, they are 826 distinct child task records with their own IDs.A particularly strange group consists of 104 child tasks. They all preserve the same initial message as the original task, are recorded as GPT-5.6 Sol/Ultra, and have no recorded agent_role or agent_path.Those 104 tasks alone account for approximately 147.9 billion local final task-token counters.Their titles show that my request to inspect UI/UX had expanded into work involving backend infrastructure, OAuth, metering, hardening, audits, certification, implementation and release work.To be precise: these local token counters are not the authoritative OpenAI billing ledger, and I am not pretending that 147.9B local counters can simply be multiplied by an API price.That is exactly part of the problem: only OpenAI has the server-side mapping.There is another unusual correlation.Under Codex client build 0.144.0-alpha.4, the task family contains:584 child tasks / ~154.36B local token countersAverage: ~264.3M per taskUnder 0.144.2:242 child tasks / ~7.51BAverage: ~31.0M per taskThat is roughly an 8.5x difference in average local token volume per child.103 of the 104 high-volume tasks described above were created while 0.144.0-alpha.4 was recorded.This leads me to believe that the alpha build contained a severe bug given that the same pattern was noticed across several other tasks.On the financial side my reconstructed OpenAI billing history contains 162 paid invoices for a Total of $79,664.88 divided between Automatic Reload and other “Credits”There was no equivalent real-time control surface giving me a comprehensible picture of the spendings plus most of the logs seem to have been automatically deleted from my server: in the recovered local state, approximately 2,550 non-archived legacy threads still have metadata but no corresponding raw rollout available locally.In other words, evidence that those tasks existed remains, while the detailed execution history needed to reconstruct the instructions that generated many of them is no longer available on my machine.I also personally observed tasks/conversations disappearing from the normal visible history.I contacted OpenAI Support and opened case #15189838.I have supplied technical evidence and repeatedly asked for a server-side reconstruction but OpenAI has responded simply that “credits were consumed” with no details.I’m interested in hearing from other people who used Codex around July/August: have you inspected your local Codex state? Have you seen unexpectedly large subagent trees, model/reasoning escalation, repeated child tasks or unexplained Automatic Reload activity?I am especially interested in anyone who has logs from Codex 0.144.0-alpha.4.If OpenAI engineers are reading this, I would also welcome a technical explanation.\n\nComments URL: https://news.ycombinator.com/item?id=49861047\nPoints: 64\n# Comments: 27",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AIエージェントの暴走による高額課金は重要だが、投稿の信憑性が不確実で詳細検証が必須。",
+    "discovered_at": "2026-09-27T04:30:08.060107+00:00"
+  },
+  {
+    "title": "OpenAI pauses training of its 'most capable models'",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause\nComments URL: https://news.ycombinator.com/item?id=49860545\nPoints: 20\n# Comments: 8",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "OpenAIの安全性対応は重要だが、既に類似の一時停止発表例があり、詳細不明な段階では新規性に乏しい。",
+    "discovered_at": "2026-09-27T04:30:11.080002+00:00"
+  },
+  {
+    "title": "The Evolution of Vending Machines",
+    "link": "https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines/\nComments URL: https://news.ycombinator.com/item?id=49858424\nPoints: 27\n# Comments: 7",
+    "novelty_score": 25,
+    "japan_relevance_score": 45,
+    "reason": "自動販売機の歴史は既出テーマであり、Hacker Newsでのエンゲージメントも低調。日本は自販機先進国だが特段の新知見は期待薄。",
+    "discovered_at": "2026-09-27T04:30:13.132210+00:00"
   }
 ]
