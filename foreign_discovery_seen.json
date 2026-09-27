@@ -1,63 +1,6 @@
 [
   {
     "tokens": [
-      "all",
-      "answered.",
-      "could",
-      "kill",
-      "questions",
-      "really"
-    ],
-    "ts": "2026-09-18T22:27:56"
-  },
-  {
-    "tokens": [
-      "anthropic",
-      "evaluators",
-      "experts",
-      "independent",
-      "letter",
-      "need",
-      "openai",
-      "public",
-      "safety",
-      "truly"
-    ],
-    "ts": "2026-09-18T22:28:08"
-  },
-  {
-    "tokens": [
-      "before",
-      "california",
-      "executive",
-      "gov.",
-      "issues",
-      "it's",
-      "late'",
-      "newsom",
-      "order",
-      "rein",
-      "too"
-    ],
-    "ts": "2026-09-19T01:27:58"
-  },
-  {
-    "tokens": [
-      "chip",
-      "congress",
-      "doesn't",
-      "oversight",
-      "regulate",
-      "rep.",
-      "role",
-      "roy",
-      "should",
-      "want"
-    ],
-    "ts": "2026-09-19T01:28:11"
-  },
-  {
-    "tokens": [
       "companies",
       "gemini",
       "google's",
@@ -811,5 +754,34 @@
       "sites"
     ],
     "ts": "2026-09-26T19:28:37"
+  },
+  {
+    "tokens": [
+      "agent",
+      "behavior",
+      "emerge",
+      "expands",
+      "incidents",
+      "model",
+      "more",
+      "openai",
+      "review",
+      "rogue"
+    ],
+    "ts": "2026-09-27T13:30:39"
+  },
+  {
+    "tokens": [
+      "backlash",
+      "blue-collar",
+      "booming.",
+      "bust",
+      "center",
+      "data",
+      "job",
+      "make",
+      "market"
+    ],
+    "ts": "2026-09-27T13:31:13"
   }
 ]

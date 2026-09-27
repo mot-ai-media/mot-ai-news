@@ -1,109 +1,5 @@
 [
   {
-    "link": "https://huggingface.co/blog/train-multi-vector-encoder",
-    "notified_at": "2026-08-27T13:53:53.410659+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-    "notified_at": "2026-08-27T13:54:00.455169+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-    "notified_at": "2026-08-27T13:54:08.438042+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/gradio-workflow-guide",
-    "notified_at": "2026-08-27T13:54:18.940641+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/pwc-search",
-    "notified_at": "2026-08-27T13:54:27.232694+00:00"
-  },
-  {
-    "link": "https://ainow.ai/2026/08/27/278335/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e4%25ba%25ba%25e5%2593%25a1%25e3%2581%25af%25e6%25b8%259b%25e3%2582%258b%25e3%2581%25ae%25e3%2581%258b-%25e5%2586%258d%25e9%2585%258d%25e7%25bd%25ae%25e3%2581%25ae%25e5%25ae%259f%25e6%2585%258b%25e3%2581%25a8",
-    "notified_at": "2026-08-27T14:18:58.338360+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/asr-benchmark-optimization",
-    "notified_at": "2026-08-27T14:19:05.722284+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-    "notified_at": "2026-08-27T14:19:13.421172+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-    "notified_at": "2026-08-27T14:19:21.614252+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/multi-vector-encoder",
-    "notified_at": "2026-08-27T14:19:29.032809+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-    "notified_at": "2026-08-27T17:35:04.055536+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-    "notified_at": "2026-08-27T17:35:14.833863+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
-    "notified_at": "2026-08-27T17:35:22.262761+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-    "notified_at": "2026-08-27T17:35:29.223862+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-    "notified_at": "2026-08-27T17:35:35.447990+00:00"
-  },
-  {
-    "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-    "notified_at": "2026-08-27T17:36:41.443368+00:00"
-  },
-  {
-    "link": "https://openai.com/index/expanding-our-presence-in-brazil",
-    "notified_at": "2026-08-27T17:36:49.144985+00:00"
-  },
-  {
-    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-    "notified_at": "2026-08-27T17:36:56.984628+00:00"
-  },
-  {
-    "link": "https://openai.com/index/learning-never-stops",
-    "notified_at": "2026-08-27T17:37:06.246545+00:00"
-  },
-  {
-    "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-    "notified_at": "2026-08-27T17:37:13.349965+00:00"
-  },
-  {
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0bHR0Q1ozZV9sRFNkZmEweTVFZmRIMm5rNEp3cm9IVnlQQ2tNdXlwWHJOZDd1SjhnbzROU2ZQQ2pmZFFhNjcyUGd2TjBpREZSWDhYYnNZTVJ6dw?oc=5",
-    "notified_at": "2026-08-28T03:06:55.771148+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2608/28/2000000873/",
-    "notified_at": "2026-08-28T03:12:48.829869+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2608/28/2000000878/",
-    "notified_at": "2026-08-28T03:12:57.030387+00:00"
-  },
-  {
-    "link": "https://monoist.itmedia.co.jp/mn/articles/2608/28/news061.html",
-    "notified_at": "2026-08-28T03:13:04.658912+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/enterprise/articles/2608/27/news042.html",
-    "notified_at": "2026-08-28T03:13:15.301499+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/enterprise/articles/2608/28/news045.html",
-    "notified_at": "2026-08-28T03:13:25.235454+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13Z2g4NVdsbnZFclR4ZF9kZ2p5eW1VTi15OHExMEQyLTBJRDRINW0xcjExbUVrQ0tGa1h5czh4aWR0TERHMXZFR1A0NWhHWlNQQnBLVnF3?oc=5",
     "notified_at": "2026-08-28T08:17:32.170900+00:00"
   },
@@ -4050,5 +3946,13 @@
   {
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaUJTY1NjbW52a1IwY0cwS3MwNnFSc1lNZWplM1ZyQVFIdF9SNDI2N0JYSnNJb2ltMm8wX3hfNk4yRlRtSXNSZDhiQjg2c0pzTlY5d1g5eHE3RkE4QlZKaE9VWGFOT3RsZWdNNWlQbE5TY3YxYjd2REU5YnBLTmoyUWxNY2NOVEE?oc=5",
     "notified_at": "2026-09-26T12:20:05.080079+00:00"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html",
+    "notified_at": "2026-09-27T04:30:38.687406+00:00"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
+    "notified_at": "2026-09-27T04:31:12.210209+00:00"
   }
 ]
