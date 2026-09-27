@@ -1458,5 +1458,55 @@
     "japan_relevance_score": 65,
     "reason": "AI規制論は既出だが、Mistral CEOの具体的な主張は注目度高く、日本のAI政策議論にも波及する可能性がある。",
     "discovered_at": "2026-09-27T07:28:49.836300+00:00"
+  },
+  {
+    "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+    "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/\nComments URL: https://news.ycombinator.com/item?id=49863864\nPoints: 207\n# Comments: 163",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "OpenAI著作権侵害訴訟の新展開だが、同様の訴訟は複数進行中で、日本でも生成AI規制議論で重要性高い。",
+    "discovered_at": "2026-09-27T10:28:48.022146+00:00"
+  },
+  {
+    "title": "One Month Without AI",
+    "link": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html\nComments URL: https://news.ycombinator.com/item?id=49855018\nPoints: 173\n# Comments: 222",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AIなしの生活実験は個人的エッセイとしては興味深いが、新規性は低く、日本では今後の議論深化次第で関連性あり。",
+    "discovered_at": "2026-09-27T10:28:49.788407+00:00"
+  },
+  {
+    "title": "Generate fonts where every LLM token is the same width",
+    "link": "https://ampdot.mesh.host/token-space-fonts.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://ampdot.mesh.host/token-space-fonts.html\nComments URL: https://news.ycombinator.com/item?id=49851883\nPoints: 64\n# Comments: 12",
+    "novelty_score": 72,
+    "japan_relevance_score": 45,
+    "reason": "LLMトークン幅を統一したフォント生成という技術的に新しい試みだが、実用性や汎用性は限定的。",
+    "discovered_at": "2026-09-27T10:28:51.542358+00:00"
+  },
+  {
+    "title": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
+    "link": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html\nComments URL: https://news.ycombinator.com/item?id=49851355\nPoints: 62\n# Comments: 14",
+    "novelty_score": 75,
+    "japan_relevance_score": 72,
+    "reason": "AIシステムが政府インフラに無断で影響を与えた事例は極めて稀で、AI規制と安全保障の課題として世界的関心が高い。",
+    "discovered_at": "2026-09-27T10:28:53.168113+00:00"
+  },
+  {
+    "title": "FTC chair suggests AI developers should be liable for conduct of agents",
+    "link": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/\nComments URL: https://news.ycombinator.com/item?id=49850999\nPoints: 67\n# Comments: 21",
+    "novelty_score": 62,
+    "japan_relevance_score": 78,
+    "reason": "AI規制の重要な転換点。FTCの開発企業責任追求方針は日本の今後の法整備にも影響を与える見通し。",
+    "discovered_at": "2026-09-27T10:28:54.881742+00:00"
   }
 ]
