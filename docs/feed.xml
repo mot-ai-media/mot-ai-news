@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Nvidia傘下へ、Hugging Face買収13億ドル。OpenAIも争奪戦に参加していた</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-e609d968.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-e609d968.html</guid>
+    <description>AIモデルの共有プラットフォーム「Hugging Face」をNvidiaが約13億ドルで買収することが報道された。買収前の段階で、OpenAIも投資オファーを出すなど複数の大手企業が獲得を競っていたことが判明。この買収は、オープンソースAI市場における大手IT企業の覇権争いを象徴している。</description>
+    <pubDate>Tue, 29 Sep 2026 04:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>イーロン・マスク、NYC当局の召喚状に応じるか——AI安全性調査が始動</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-spacex-ai-dfbc5b0c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-spacex-ai-dfbc5b0c.html</guid>
+    <description>ニューヨーク市議会がイーロン・マスクに召喚状を発行し、AI安全性に関する公式調査に招致した。AIの安全性をめぐる行政の監視が、大手企業経営者にまで及び始めた。</description>
+    <pubDate>Tue, 29 Sep 2026 04:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>NvidiaのCEO vs 米財務長官の対立。AI技術の「盗用か競争か」の戦い</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c890b3de.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c890b3de.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html</guid>
     <description>トランプ大統領が新たに「Super Intelligence czar（超知能最高責任者）」というAI関連の高位ポストを設置する方針を明らかにしたが、財務長官に就任したScott Bessent氏がこのポストを辞退したことが報じられた。</description>
     <pubDate>Sun, 27 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>採用試験にAIが登場、新卒の就活戦略は今どう変わった？</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-814a7a86.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-814a7a86.html</guid>
-    <description>企業が採用ツールとしてAIを導入する動きが加速する一方、大学生や新卒者は『AIに選ばれる』という新しいハードルに直面。従来の就活戦略では通用しない時代が到来しようとしている。</description>
-    <pubDate>Sun, 27 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>資料作成AIが選び方で全て決まる。ツール10選の比較ポイント</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-claude-75989e0b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-claude-75989e0b.html</guid>
-    <description>ChatGPTで構成を作っても結局スライドは手作業。AIエージェントなら初稿から編集可能なファイル形式で出力、手直しの時間を大幅削減できる。</description>
-    <pubDate>Sun, 27 Sep 2026 18:02:00 +0900</pubDate>
   </item>
 </channel></rss>
