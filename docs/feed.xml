@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIが法律業界向けAI「Astra for Law」投入、弁護士事務所の仕事激変へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-c67b87d4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-c67b87d4.html</guid>
+    <description>OpenAIが法律専門のAIツール「Astra for Law」をリリース。弁護士事務所の業務がどう変わるかが焦点に。</description>
+    <pubDate>Tue, 29 Sep 2026 06:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Nvidia傘下へ、Hugging Face買収13億ドル。OpenAIも争奪戦に参加していた</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-e609d968.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-e609d968.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/swarm-ai-fuga-v2-41a29f23.html</guid>
     <description>複数のAIを協調させる「Fuga v2」がClaude同等の性能を大幅な低コストで達成。大規模運用にも対応。</description>
     <pubDate>Sun, 27 Sep 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプがAI最高責任者ポスト新設も、財務長官ベッセント氏は辞退</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html</guid>
-    <description>トランプ大統領が新たに「Super Intelligence czar（超知能最高責任者）」というAI関連の高位ポストを設置する方針を明らかにしたが、財務長官に就任したScott Bessent氏がこのポストを辞退したことが報じられた。</description>
-    <pubDate>Sun, 27 Sep 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
