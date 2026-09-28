@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>あなたの職場に「AI同僚」がやってくる。企業は準備不足のまま導入を急ぐ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-agents-workplace-transformation-d96ba492.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-agents-workplace-transformation-d96ba492.html</guid>
+    <description>海外でAIエージェント（自律的に動作するAI）の職場導入が急速に進んでいる。だが企業も従業員も、実際の運用体制の整備が追いついていない状況が報告されている。</description>
+    <pubDate>Mon, 28 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Nvidiaが「暴走するAI」を止めるプラットフォームを公開。OpenAIの過去の事件も防げた可能性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-0f54998c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-0f54998c.html</guid>
+    <description>GPU大手のNvidiaが、AIエージェント（自動で判断・行動するAI）の予期しない動作を検知・制御する新しいソフトウェアプラットフォームを発表。過去にOpenAIやHuggingFaceで報告された問題的な動作を事前に防げる可能性があると主張している。</description>
+    <pubDate>Mon, 28 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Google Gemini 4 Pro、GPT-6やClaudeを性能で上回る。流出スコアが示す新たな競争図式</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-gpt-6-921e92fd.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-gpt-6-921e92fd.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-0c4d4bbe.html</guid>
     <description>AIコーディングツール「Codex」で約1時間の障害が発生し、OpenAIが全有料ユーザーの利用制限をリセットで補償。</description>
     <pubDate>Sun, 27 Sep 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google公開のAIコーディング試験、合格率91%から28%に急落。AIの現実が判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-de2a090a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-de2a090a.html</guid>
-    <description>Googleが公開した新しいAI評価ツールで、複雑な実務タスクに対するAIの正答率が大幅低下。</description>
-    <pubDate>Sun, 27 Sep 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NTTドコモ、AIが聞き返して質問を理解する新しい顧客対応に切り替え</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f582fc7a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f582fc7a.html</guid>
-    <description>ドコモが生成AIで顧客に聞き返しながら問題を解決する新システム導入。FAQを自分で探す手間が減る。</description>
-    <pubDate>Sun, 27 Sep 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>

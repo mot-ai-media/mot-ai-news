@@ -1,56 +1,6 @@
 [
   {
     "tokens": [
-      "doom",
-      "knew",
-      "loop",
-      "microsoft",
-      "openai",
-      "starting",
-      "they",
-      "web"
-    ],
-    "ts": "2026-09-20T16:27:58"
-  },
-  {
-    "tokens": [
-      "centers",
-      "creates",
-      "data",
-      "force",
-      "governor",
-      "moves",
-      "restrain",
-      "task",
-      "virginia"
-    ],
-    "ts": "2026-09-20T16:28:13"
-  },
-  {
-    "tokens": [
-      "affecting",
-      "answers.",
-      "change",
-      "chatgpt",
-      "here",
-      "knows",
-      "thinks"
-    ],
-    "ts": "2026-09-20T19:27:55"
-  },
-  {
-    "tokens": [
-      "already",
-      "explosion",
-      "forget",
-      "happening",
-      "slowdown",
-      "vulnerability"
-    ],
-    "ts": "2026-09-20T19:28:11"
-  },
-  {
-    "tokens": [
       "alarms",
       "black",
       "caucus",
@@ -773,5 +723,27 @@
       "scams"
     ],
     "ts": "2026-09-28T13:28:13"
+  },
+  {
+    "tokens": [
+      "agents",
+      "misbehaving",
+      "nvidia",
+      "platform",
+      "releases",
+      "software",
+      "stop"
+    ],
+    "ts": "2026-09-28T19:28:27"
+  },
+  {
+    "tokens": [
+      "agents",
+      "flood",
+      "one",
+      "ready",
+      "workforce."
+    ],
+    "ts": "2026-09-28T19:28:51"
   }
 ]

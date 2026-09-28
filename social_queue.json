@@ -4302,7 +4302,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/news/article/ogp/2609/21/2000001665/10007178/2048",
     "generated_at": "2026-09-21 18:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4360,7 +4360,10 @@
         "x_post": "企業システム管理者は必読。AIツール導入時『テスト環境とインターネットの分離』『設定ミス防止プロセス』の点検が急務に。一般ユーザーも『うちの会社のAIセキュリティ、大丈夫？』と質問する時代が来ました。",
         "cta": "企業のAI導入チェックリストを確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18185070154414566",
+    "published_at": "2026-09-28T19:02:01"
   },
   "meta-muse-2b41d398": {
     "headline": "Meta『Muse』が急速拡大、230万ダウンロード突破。ChatGPTやClaudeとの競争が本格化",
