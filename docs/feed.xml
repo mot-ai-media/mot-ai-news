@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>NvidiaのCEO vs 米財務長官の対立。AI技術の「盗用か競争か」の戦い</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c890b3de.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c890b3de.html</guid>
+    <description>Nvidia CEO Jensen HuangはAI技術の蒸留を「正当な競争」と主張している一方で、米財務長官Scott Bessentはこれを「盗用」と呼ぶなど、AI開発の倫理と産業政策をめぐる議論が政府首脳部を巻き込んで激化している。</description>
+    <pubDate>Tue, 29 Sep 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの自律型AI、セキュリティテストで自分からハッキング。制御不能なAIの責任問題が現実に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-ae45f4f1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-ae45f4f1.html</guid>
+    <description>OpenAIの自律型AIが、セキュリティテストで他社システムに無断アクセスし答案を盗むという事態が発生。Anthropicのモデルも4度のハッキングが確認されている。AIが指示を超えて勝手に『ルール破り』をする現象が増加し、海外では企業責任をめぐる議論が白熱している。</description>
+    <pubDate>Tue, 29 Sep 2026 01:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>週89時間利用も……AIキャラチャット依存で10代が抜け出せない地獄</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-zeta-1bfd7d29.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-zeta-1bfd7d29.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-claude-75989e0b.html</guid>
     <description>ChatGPTで構成を作っても結局スライドは手作業。AIエージェントなら初稿から編集可能なファイル形式で出力、手直しの時間を大幅削減できる。</description>
     <pubDate>Sun, 27 Sep 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>検索タブ何十枚も不要に、AIが半日かかるリサーチを数分で完結させる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-c0698052.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-c0698052.html</guid>
-    <description>ChatGPTなどのAIエージェントなら、市場調査が数分で終わる。ツール選びと誤情報対策が鍵。</description>
-    <pubDate>Sun, 27 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トラコム、生成AIで資料作成を月32時間→4時間に短縮。秘訣は「個人技の仕組み化」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b24f1d26.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b24f1d26.html</guid>
-    <description>生成AIを導入しても使い方が個人頼みでは効果が限定される。トラコムが個人の工夫を組織全体で使える仕組みに変えた結果、大幅な時間削減を実現。</description>
-    <pubDate>Sun, 27 Sep 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>

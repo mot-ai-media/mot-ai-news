@@ -1,35 +1,6 @@
 [
   {
     "tokens": [
-      "alarms",
-      "black",
-      "caucus",
-      "center",
-      "congressional",
-      "data",
-      "dominate",
-      "washington",
-      "week"
-    ],
-    "ts": "2026-09-20T22:27:53"
-  },
-  {
-    "tokens": [
-      "ally",
-      "ceo",
-      "debate",
-      "emerges",
-      "huang",
-      "jensen",
-      "nvidia",
-      "safety",
-      "top",
-      "trump's"
-    ],
-    "ts": "2026-09-20T22:28:07"
-  },
-  {
-    "tokens": [
       "become",
       "department",
       "future",
@@ -745,5 +716,29 @@
       "workforce."
     ],
     "ts": "2026-09-28T19:28:51"
+  },
+  {
+    "tokens": [
+      "agent",
+      "download",
+      "hype",
+      "index",
+      "liability",
+      "rogue"
+    ],
+    "ts": "2026-09-29T01:27:58"
+  },
+  {
+    "tokens": [
+      "bessent",
+      "called",
+      "competition.'",
+      "distillation",
+      "huang",
+      "jensen",
+      "scott",
+      "theft'"
+    ],
+    "ts": "2026-09-29T01:28:12"
   }
 ]
