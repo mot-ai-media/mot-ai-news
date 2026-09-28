@@ -31813,5 +31813,127 @@
     "image_kind": "real",
     "level": "easy",
     "generated_at": "2026-09-29 07:01"
+  },
+  {
+    "slug": "amd-world-labs-dd8828b4",
+    "link": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
+    "headline": "AMD、82億ドルでAI研究企業を買収—設立1年未満のスタートアップに破格評価",
+    "seo_title": "AMD World Labs買収 82億ドル Fei-Fei Li",
+    "summary": "半導体大手のAMDが、AI研究企業World Labsを約82億ドルで買収することを発表。設立から数ヶ月で企業価値が急騰した同社の最高経営責任者Fei-Fei Liは、AMD最高科学顧問に就任する。",
+    "importance_score": 72,
+    "buzz_score": 65,
+    "recommend_score": 70,
+    "content_format": "foreign_discovery",
+    "tldr": "AMD、設立1年未満のAI企業World Labsを82億ドルで買収。著名なAI研究者Fei-Fei Liが率いる同社は、わずか数ヶ月で企業価値が10倍に膨張した。",
+    "what_happened": "チップ製造大手のAMDが、AI研究スタートアップ企業のWorld Labsを現物株交換で買収することを発表しました。買収額は約82億ドルにのぼります。World Labsは2024年に設立されたばかりの企業ですが、わずか数ヶ月で企業価値が10億ドルから82億ドルへと大きく膨張。設立者兼CEOのFei-Fei Liは買収後、AMDの最高科学顧問に就任します。",
+    "overseas_report": "複数の海外テック媒体が報じています。Techは買収額と背景を報道し、この買収がAMDの歴史上2番目の大型買収であることを指摘。The Vergeは、World Labsが2024年の設立後、短期間で初の商用製品（世界生成モデル）をリリースした点と、Fei-Fei Liの職務内容に焦点を当てています。",
+    "why_it_matters": "AIの急速な進化に対応するため、半導体企業が優秀なAI人材と技術を直接取り込む流れが加速しています。Fei-Fei Liはスタンフォード大学でAI研究の第一人者として知られており、その獲得はAMDのAI戦略において極めて重要。企業評価が短期間に急騰した背景には、生成AI市場における競争の激化と、優れたAI技術への投資熱が世界中で高まっていることがあります。",
+    "japan_impact": "日本のAI関連企業や半導体メーカーにとって、海外の有力AI人材・企業の争奪戦が激化していることを示す事例となります。日本企業も競争力を維持するため、AI研究開発への投資加速が求められる状況がより鮮明になります。また、AI産業におけるグローバル標準の主導権が、一層米国企業に集中する可能性も示唆しています。",
+    "outlook": "AMDとWorld Labsの統合がどのように進むか、特にFei-Fei Liが率いるAI研究がどのような製品・サービスに結実するかが注目点です。また、AIの急速な進化に伴い、今後も大型買収や技術獲得の動きが加速する可能性が高まっています。",
+    "mot_take": "",
+    "what_to_watch_next": "",
+    "tags": [
+      "AMD",
+      "World Labs",
+      "Fei-Fei Li",
+      "AI企業買収"
+    ],
+    "faq": [
+      {
+        "q": "World Labsはどのような企業ですか？",
+        "a": "2024年に設立されたAI研究企業で、世界生成モデルなどの商用製品を開発しています。設立者兼CEOはAI研究の権威Fei-Fei Liです。"
+      },
+      {
+        "q": "なぜAMDはこのような高額で買収したのですか？",
+        "a": "AI市場での競争が激化する中、優秀なAI研究者と技術を直接取り込むことで、自社のAI関連事業を加速させるためです。"
+      },
+      {
+        "q": "Fei-Fei Liの職務は変わるのですか？",
+        "a": "買収後、Fei-Fei LiはWorld LabsのCEOからAMDの最高科学顧問に就任します。"
+      }
+    ],
+    "digest": {
+      "what": "AMD、AI企業World Labsを82億ドルで買収。著名研究者Fei-Fei Liが最高科学顧問に就任。",
+      "why": "AI競争の激化に対応し、優秀なAI人材と最先端技術の直接取り込みを目指す。",
+      "impact": "日本企業を含むグローバルなAI人材争奪戦が激化する可能性が高まり、研究開発投資の加速が求められる状況に。"
+    },
+    "source": "CNBC",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/108302225-1777987368584-gettyimages-2254257193-AFP_89QD2TJ.jpeg?v=1777987486&w=1920&h=1080",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-09-29 07:27",
+    "source_country": "US",
+    "source_tier": 1,
+    "reliability_score": 85,
+    "speed_score": 80,
+    "novelty_score": 68,
+    "japan_relevance_score": 58,
+    "growth_potential_score": 75,
+    "seo_potential_score": 62,
+    "social_impact_score": 64,
+    "verification_status": "multiple_sources",
+    "corroborating_sources": [
+      "The Verge"
+    ]
+  },
+  {
+    "slug": "ai-ai-7981bf26",
+    "link": "https://www.cnbc.com/2026/09/28/khanna-ai-safety-bill.html",
+    "headline": "米国議会が「自己改善するAI」の規制に乗り出す—日本企業にも波及の可能性",
+    "seo_title": "Khanna議員がAI安全法案提出—再帰型技術に規制枠組み",
+    "summary": "米国の下院議員が、自らを改善し続けるAI技術の危険性に対応する法案を提出予定。安全対策が整うまで該当技術の利用を制限する内容で、AI規制の国際的な動きが加速している。",
+    "importance_score": 68,
+    "buzz_score": 55,
+    "recommend_score": 62,
+    "content_format": "foreign_discovery",
+    "tldr": "米国議会がAI自己改善機能を規制する法案提出へ。日本のAI産業も国際ルール化の影響を受ける可能性。",
+    "what_happened": "米国下院のロ・カンナ議員がAIの安全性に関する法案を議会に提出する予定です。この法案の特徴は、AIが自分自身をアップデート・改善し続けるという「再帰型」の技術に焦点を当て、十分な安全対策が確立されるまでその使用を制限するというもの。AI規制をめぐって複数の法案が議会で検討されている中での動きです。",
+    "overseas_report": "海外メディアはこの法案を、AI開発企業への規制強化の一環として報道。米国議会がAIの潜在的リスクに本格的に向き合い始めたことを示す動きとして注目されています。既に複数の規制案が並行して検討されており、業界全体の規制枠組み構築に向けた議論が加速している段階です。",
+    "why_it_matters": "AIが自動的に自分自身を改善する技術は、開発者による制御が難しくなるリスクがあります。このため各国の政策立案者が、企業による独断的な開発よりも「安全性の確認→許可」という順序を重視する方針に傾きつつあります。これは今後のAI開発全体のルール化につながる重要な局面です。",
+    "japan_impact": "日本企業がAI技術を米国で展開または米国企業と協業する際、将来的にこうした規制の影響を受ける可能性があります。また日本国内でも、米国や欧州の規制動向を参考にしたAI規制枠組みの議論が加速する可能性があり、国内のAI関連企業にとって先制的な対応が重要になってくるでしょう。",
+    "outlook": "米国のAI規制は今後もより具体的で厳格な方向へ進む見通しです。各国がこの動きに追従する可能性も高く、AIグローバル市場全体に影響を与える転換点になる可能性があります。各国の規制内容がどの程度統一されるかが鍵となります。",
+    "mot_take": "AIの「自己改善能力」という聞き慣れない概念を規制の対象にすることは、技術の進化スピードに立法がどこまで追いついているかを示す象徴的な事例。日本では海外の規制動向への追従が常になりやすいため、主体的な議論構築が求められます。",
+    "what_to_watch_next": "Khanna議員の法案が実際に提出されるタイミング、および議会での審議進展。同時に他の規制案との調整や、業界からの反発がどの程度あるかも注視する価値があります。",
+    "tags": [
+      "AI規制",
+      "米国議会",
+      "AI安全性",
+      "再帰型AI"
+    ],
+    "faq": [
+      {
+        "q": "『再帰型』のAIって何ですか？",
+        "a": "AIが自動的に自分自身を学習・改善し続ける技術のこと。人間の監視なしに自己進化するため、制御が難しくなる可能性があります。"
+      },
+      {
+        "q": "この法案が日本に影響するのですか？",
+        "a": "直接的ではありませんが、米国の規制枠組みが国際標準化する可能性があり、日本企業や国内規制に波及する懸念があります。"
+      },
+      {
+        "q": "いつこの法案は可決されるのですか？",
+        "a": "記事では提出予定と述べられており、現段階では可決時期は不明です。議会の審議プロセスを見守る必要があります。"
+      }
+    ],
+    "digest": {
+      "what": "米国議員がAI自己改善技術の規制法案を議会提出予定。安全対策完成まで使用制限が柱。",
+      "why": "開発者が制御しきれないAI技術のリスク増加に対応。規制ルール化の国際的加速を反映。",
+      "impact": "日本企業の米国展開や国内AI規制議論に影響。主体的な政策形成が課題に。"
+    },
+    "source": "CNBC",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/108368847-1790610558721-gettyimages-2292801324-khanna_178_090326.jpeg?v=1790610581&w=1920&h=1080",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-09-29 07:28",
+    "source_country": "US",
+    "source_tier": 1,
+    "reliability_score": 85,
+    "speed_score": 80,
+    "novelty_score": 72,
+    "japan_relevance_score": 58,
+    "growth_potential_score": 75,
+    "seo_potential_score": 64,
+    "social_impact_score": 70,
+    "verification_status": "single_source",
+    "corroborating_sources": []
   }
 ]

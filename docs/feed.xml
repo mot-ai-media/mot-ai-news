@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>米国議会が「自己改善するAI」の規制に乗り出す—日本企業にも波及の可能性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7981bf26.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7981bf26.html</guid>
+    <description>米国の下院議員が、自らを改善し続けるAI技術の危険性に対応する法案を提出予定。安全対策が整うまで該当技術の利用を制限する内容で、AI規制の国際的な動きが加速している。</description>
+    <pubDate>Tue, 29 Sep 2026 07:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AMD、82億ドルでAI研究企業を買収—設立1年未満のスタートアップに破格評価</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-dd8828b4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-dd8828b4.html</guid>
+    <description>半導体大手のAMDが、AI研究企業World Labsを約82億ドルで買収することを発表。設立から数ヶ月で企業価値が急騰した同社の最高経営責任者Fei-Fei Liは、AMD最高科学顧問に就任する。</description>
+    <pubDate>Tue, 29 Sep 2026 07:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>SaaS終焉は大誤解。AIエージェントが本当にもたらす変化とは</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-94dfe2e7.html</guid>
     <description>ChatGPTやクラウドAIサービスを支える大規模データセンター建設の資金調達が、米国の金利上昇によってコスト増になっている。AI企業の積極投資は続くが、金銭的な負担が増す局面に突入した。</description>
     <pubDate>Sun, 27 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Codex、エンジニア以外も使い始めた。Excel集計から資料作成まで業務ごと丸投げ可能に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-82b614b6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-82b614b6.html</guid>
-    <description>OpenAIのCodexは、ファイル操作を自動化するAIエージェント。エンジニア以外の利用者が急増し、営業・マーケティング・企画職も実務で活用し始めている。</description>
-    <pubDate>Sun, 27 Sep 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Codex、企業が導入すべき理由。ChatGPT法人プランの選び方が判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6c0438f7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6c0438f7.html</guid>
-    <description>OpenAIのCodexを会社で安全に使うには、個人プランではなくChatGPT法人プランの契約が必須。BusinessかEnterpriseかの選び方を解説。</description>
-    <pubDate>Sun, 27 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

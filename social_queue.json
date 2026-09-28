@@ -5538,7 +5538,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/news/article/ogp/2609/28/2000001762/10007538/2048",
     "generated_at": "2026-09-28 22:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -5596,7 +5596,10 @@
         "x_post": "子どもがやめたくてもやめられないAIチャット依存。個人の努力だけは解決しにくい行動嗜癖です。親の役割は『責めること』ではなく、見守り＋家族ぐるみのサポート体制。米大学調査から学ぶ実用対策。",
         "cta": "依存チェックリストと対策をMOTで確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17909330127551112",
+    "published_at": "2026-09-29T07:02:08"
   },
   "ai-agents-workplace-transformation-d96ba492": {
     "headline": "あなたの職場に「AI同僚」がやってくる。企業は準備不足のまま導入を急ぐ",
