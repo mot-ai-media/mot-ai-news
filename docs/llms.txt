@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-29 06:53
+最終更新: 2026-09-29 07:01
 
 ## 記事一覧
 
+- [AIコード生成は確認が必要？Anthropicの見解と実践方法](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-b87ea3e2.html): AIが書いたコードは「ブラックボックス」でいいのか。Claude Code開発者が、プロトタイプと本番環境での使い分けを解説。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 07:01)
+- [FDEとは？日立SIerの仕事が変わる理由・従来SEとの違い](https://mot-ai-media.github.io/mot-ai-news/articles/fde-03fe300f.html): AIの登場で、システム開発企業の仕事の流れが一変。要件を聞くだけの時代は終わり、顧客の課題を一緒に見つけて解決する新職種「FDE」へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 07:01)
+- [AIエージェントはSaaSを消す？IDCが示す本当の構造変化とは](https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html): AIがSaaSを代替するという通説は間違い。データの役割拡張が本質で、むしろビジネスモデルと課金方式が激変する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 07:01)
+- [BTS×Google Geminiコラボ機能とは？使い方・体験内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html): Google Geminiに韓国の超人気グループBTSとのコラボ機能が追加。特定のワードで限定体験が楽しめる。 (出典: Real Sound / 更新: 2026-09-29 07:00)
+- [AIエージェントとは？日本企業の導入が遅れる理由と対策](https://mot-ai-media.github.io/mot-ai-news/articles/ai-44793139.html): AIの性能競争が一区切りした今、自律動作する環境づくりが勝負。日本企業はここでも大きく遅れている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 07:00)
 - [OpenAI Astra for Lawとは？法律業界へAI導入で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-c67b87d4.html): OpenAIが法律専門のAIツール「Astra for Law」をリリース。弁護士事務所の業務がどう変わるかが焦点に。 (出典: Law.com / 更新: 2026-09-29 06:53)
 - [Hugging Face買収Nvidia13億ドル、OpenAIも投資オファー](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-e609d968.html): AIモデルの共有プラットフォーム「Hugging Face」をNvidiaが約13億ドルで買収することが報道された。買収前の段階で、OpenAIも投資オファーを出すなど複数の大手企業が獲得を競っていたことが判明。この買収は、オープンソースAI市場における大手IT企業の覇権争いを象徴している。 (出典: CNBC / 更新: 2026-09-29 04:28)
 - [イーロン・マスク、ニューヨーク市議会のAI安全調査で召喚状——SpaceX AIの動向](https://mot-ai-media.github.io/mot-ai-news/articles/ai-spacex-ai-dfbc5b0c.html): ニューヨーク市議会がイーロン・マスクに召喚状を発行し、AI安全性に関する公式調査に招致した。AIの安全性をめぐる行政の監視が、大手企業経営者にまで及び始めた。 (出典: CNBC / 更新: 2026-09-29 04:27)
@@ -202,8 +207,3 @@
 - [Petlibro Granary 2とは？AI搭載自動給餌器の機能・料金](https://mot-ai-media.github.io/mot-ai-news/articles/petlibro-ai-9973ec65.html): AIカメラで複数の猫を個別認識し、食事量・習慣を自動追跡する新型給餌器が登場。多頭飼い家庭の悩みを解決。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 11:01)
 - [AI安全問題の真実とは？OpenAI・Anthropicの主張を検証](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-fe6a92ce.html): AI安全をめぐる有力人物の発言が相次ぎ、事実と推測が混在する状況が明らかに。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 11:01)
 - [Flock Safety人員削減、ナンバープレート認識技術の信頼危機とは](https://mot-ai-media.github.io/mot-ai-news/articles/flock-safety-ai-2c088408.html): 警察による技術の不正使用が発覚したナンバープレート認識企業Flockが、希望退職パッケージで従業員を募集。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 11:00)
-- [Meta Muse AIアシスタント メッセージ・カレンダー自動アクセス 仕組み不透明](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-607ffaad.html): Metaが開発したAIアシスタント「Muse」のMacアプリが、ユーザーのメッセージやカレンダー、メモに自動でアクセスできることが明らかになった。効果的に機能する一方で、開発元すら自身の動作原理を説明できない『ブラックボックス』状態にあり、プライバシー懸念と技術的な不透明性の両面で問題を指摘されている。 (出典: The Verge / 更新: 2026-09-20 10:28)
-- [中国AI企業の『蒸留技術』はどこまで脅威か。米国とAnthropicの主張に疑問符](https://mot-ai-media.github.io/mot-ai-news/articles/ai-anthropic-9cbf93e0.html): 米国の行政府とAI企業Anthropicが、中国企業が『蒸留』という技術でAIの性能を高めているとして警告を鳴らしている。しかし、その実効性を疑問視する声が業界内で増えている。 (出典: CNBC / 更新: 2026-09-20 10:27)
-- [AIエージェント導入の壁は知識？アビームとNotionが示す組織改革アプローチ](https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-efdf3270.html): AIツール自体より、企業の知識をAIが使える形に整える方が重要だと両社が指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)
-- [AI導入後の課題とは？例外処理・人力確認まで任せるBPOサービス登場](https://mot-ai-media.github.io/mot-ai-news/articles/generative-partners-bpo-f4428e79.html): RPAや生成AI導入後も残る例外処理や目視確認を、AI と人力で分担して丸ごと引き受けるサービスが始まる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)
-- [中小企業のAI導入が失敗する理由。何を・誰が・どう変えるか](https://mot-ai-media.github.io/mot-ai-news/articles/exkey-forgent-aeaa6ae8.html): ツール導入だけでなく、業務選定から現場定着まで支援するAI人材常駐サービスが2026年9月に始動。中小企業のAI活用課題を解決へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 09:59)

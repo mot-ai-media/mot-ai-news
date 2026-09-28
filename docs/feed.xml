@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>SaaS終焉は大誤解。AIエージェントが本当にもたらす変化とは</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html</guid>
+    <description>AIがSaaSを代替するという通説は間違い。データの役割拡張が本質で、むしろビジネスモデルと課金方式が激変する。</description>
+    <pubDate>Tue, 29 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日立が仕掛ける「FDE」戦略、かつての御用聞きSIerは本当に生まれ変わったのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/fde-03fe300f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/fde-03fe300f.html</guid>
+    <description>AIの登場で、システム開発企業の仕事の流れが一変。要件を聞くだけの時代は終わり、顧客の課題を一緒に見つけて解決する新職種「FDE」へ。</description>
+    <pubDate>Tue, 29 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが書いたコード、中身を確認すべき？Anthropic開発者が示した線引き</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-b87ea3e2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-b87ea3e2.html</guid>
+    <description>AIが書いたコードは「ブラックボックス」でいいのか。Claude Code開発者が、プロトタイプと本番環境での使い分けを解説。</description>
+    <pubDate>Tue, 29 Sep 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日本企業、AIエージェント導入で致命的な遅れ。勝ち組と負け組を分ける「あと5年」の現実</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-44793139.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-44793139.html</guid>
+    <description>AIの性能競争が一区切りした今、自律動作する環境づくりが勝負。日本企業はここでも大きく遅れている。</description>
+    <pubDate>Tue, 29 Sep 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>BTS×Google Gemini、特別コラボ機能で4つの体験を解放</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</guid>
+    <description>Google Geminiに韓国の超人気グループBTSとのコラボ機能が追加。特定のワードで限定体験が楽しめる。</description>
+    <pubDate>Tue, 29 Sep 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIが法律業界向けAI「Astra for Law」投入、弁護士事務所の仕事激変へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-c67b87d4.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-c67b87d4.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6c0438f7.html</guid>
     <description>OpenAIのCodexを会社で安全に使うには、個人プランではなくChatGPT法人プランの契約が必須。BusinessかEnterpriseかの選び方を解説。</description>
     <pubDate>Sun, 27 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント市場、5年で10倍成長へ。2030年までの進化ロードマップ明かす</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b8d08d49.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b8d08d49.html</guid>
-    <description>ブームではなく確実な需要に支えられたAIエージェント市場が、2030年に向けて急速拡大。企業導入の現実的な時間軸も判明した。</description>
-    <pubDate>Sun, 27 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>開発者の31%がもう導入。AIエージェントがコード作成を完全自動化する時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html</guid>
-    <description>AIが企画から実装・テストまで自律的に進める新しい開発手法が急速に普及。開発効率が大きく変わる可能性がある。</description>
-    <pubDate>Sun, 27 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Microsoft「Copilot」が仕事のOSに進化、AIが勝手に業務をこなす時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-2d804fa5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-2d804fa5.html</guid>
-    <description>MicrosoftがCopilotを大幅リニューアル。AIが自ら業務を進める「Autopilot」が登場し、仕事の流れが変わる。</description>
-    <pubDate>Sun, 27 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astra、ロボットに搭載されて未知の台所を自動整理。AI時代の「汎用ロボット」が現実化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1c375614.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1c375614.html</guid>
-    <description>最新AIモデルをロボットに組み込むと、初めての環境でも自律的に掃除を完遂できることが実証された。</description>
-    <pubDate>Sun, 27 Sep 2026 20:54:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>複数AIを連携させるSwarm AI、Claude級の性能を1/10コストで実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/swarm-ai-fuga-v2-41a29f23.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/swarm-ai-fuga-v2-41a29f23.html</guid>
-    <description>複数のAIを協調させる「Fuga v2」がClaude同等の性能を大幅な低コストで達成。大規模運用にも対応。</description>
-    <pubDate>Sun, 27 Sep 2026 20:53:00 +0900</pubDate>
   </item>
 </channel></rss>
