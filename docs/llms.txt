@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-28 19:28
+最終更新: 2026-09-28 22:01
 
 ## 記事一覧
 
+- [富士通がIT価格モデルを転換、バリュープライシングとは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-eb0b81c1.html): 富士通がITサービスの料金体系をAI時代向けに刷新。従来の人月計算から成果主義に転換する戦略が明かされた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-28 22:01)
+- [FDE時代のベンダー選び：リコー・日立の新サービスとは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-727fc152.html): AIベンダーへのロックイン懸念に対し、日本企業が選択肢を広げるサービスが登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-28 22:01)
+- [Adobe・Gemini・Claude連携とは？画像編集・PDF編集が効率化](https://mot-ai-media.github.io/mot-ai-news/articles/adobe-google-gemini-407f3fc7.html): AIチャットから直接Adobeの制作・編集ツールを使える。生成後の調整作業がAIの対話画面で完結する時代へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-28 22:01)
+- [AIキャラチャット依存とは？10代の過度利用と心理的影響を解説](https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-zeta-1bfd7d29.html): 恋人のようにAIキャラと会話するアプリに依存する10代が急増。やめたくてもやめられない苦しみが明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-28 22:01)
+- [損保ジャパンGemini Enterprise導入とは？2万人展開の工夫を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-enterprise-84c6a3c5.html): 損保ジャパンがGoogle Geminiを全従業員に展開。標準機能の限界を独自設計で補うAI導入の実例。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-28 22:00)
 - [NvidiaのAI安全プラットフォーム、AIエージェントの暴走防止へ新展開](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-0f54998c.html): GPU大手のNvidiaが、AIエージェント（自動で判断・行動するAI）の予期しない動作を検知・制御する新しいソフトウェアプラットフォームを発表。過去にOpenAIやHuggingFaceで報告された問題的な動作を事前に防げる可能性があると主張している。 (出典: CNBC / 更新: 2026-09-28 19:28)
 - [AI agents 職場導入 職場環境 働き方の変化](https://mot-ai-media.github.io/mot-ai-news/articles/ai-agents-workplace-transformation-d96ba492.html): 海外でAIエージェント（自律的に動作するAI）の職場導入が急速に進んでいる。だが企業も従業員も、実際の運用体制の整備が追いついていない状況が報告されている。 (出典: WIRED / 更新: 2026-09-28 19:28)
 - [Gemini 4 Pro性能比較：GPT-6 Astra・Claude を上回るスコア判明](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-gpt-6-921e92fd.html): Googleの新型AI「Gemini 4 Pro」が競合モデルを性能面で凌ぐベンチマークスコアが流出し、AI市場の勢力図が揺らぎ始めた。 (出典: Startup Fortune / 更新: 2026-09-28 18:53)
@@ -202,8 +207,3 @@
 - [Elon Musk AI規制 OpenAI Anthropic提携](https://mot-ai-media.github.io/mot-ai-news/articles/elon-musk-openai-9bdecde9.html): イーロン・マスクが先週、OpenAIとAnthropicのCEOと相次いで合意する一方、トランプ大統領やNvidiaのジェンセン・フアンから反論を受ける波乱の展開が生じている。AI安全性を掲げながら規制強化に抵抗する姿勢が浮き彫りになった。 (出典: CNBC / 更新: 2026-09-19 22:28)
 - [AI kill switch（キルスイッチ）とは？機能性や限界を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-de96e903.html): AI技術の急速な発展に伴い、暴走するAIを緊急停止させる「キルスイッチ」の導入が議論されている。海外の政策立案者やテック企業リーダーがその有効性を検証する中で、制度的な限界が浮かび上がっている。 (出典: CNBC / 更新: 2026-09-19 22:27)
 - [AIエージェント導入が難しい理由とは？失敗の原因を段階別に解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-17328a56.html): AIエージェント導入の失敗は技術の問題ではなく、計画段階の設計ミスが原因。導入・開発・運用の3段階で異なる課題がある。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-19 22:01)
-- [AIエージェントとは？事務作業自動化のやり方・導入手順を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-rpa-7ee0b42b.html): 請求書処理や勤怠チェックなど判断が必要な事務作業を、AIエージェントなら自動化できる。ただし業務選びを間違えるとうまくいかない。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-19 22:01)
-- [AIエージェントでブログ運用を自動化する方法・注意点を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ed774500.html): ChatGPTより賢いAIエージェントなら、ブログの企画から公開までを一気に自動化できる。実例では作業時間が大幅削減に。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-19 22:01)
-- [AIベンチマークとは？Valsが4000万ドル調達で業界標準化狙う](https://mot-ai-media.github.io/mot-ai-news/articles/vals-andreessen-horowitz-17c3769d.html): AIモデルの性能評価を公正に行うスタートアップValsが大型資金調達。企業による不正な高評価を防ぐ狙い。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-19 22:01)
-- [AnthropicのClaudeが担当するAI開発業務が26％に拡大、透明性公表](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-ea7dc6ee.html): AIモデル「Claude」がAI研究開発の4分の1を人間の監督下で自動実行。半年で急速に拡大し、業界の透明性強化につながる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-19 22:00)
-- [Anthropic新モデル開発？OpenAI Astraに対抗、CEO発言との矛盾](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-396cd09c.html): AnthropicがOpenAIの新モデルに対抗する新モデル開発を検討中。一方でCEOは減速を呼びかけている。 (出典: storyboard18.com / 更新: 2026-09-19 20:53)

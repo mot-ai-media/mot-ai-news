@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>週89時間利用も……AIキャラチャット依存で10代が抜け出せない地獄</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-zeta-1bfd7d29.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-zeta-1bfd7d29.html</guid>
+    <description>恋人のようにAIキャラと会話するアプリに依存する10代が急増。やめたくてもやめられない苦しみが明らかに。</description>
+    <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Adobe、GeminiやClaudeと連携強化。AIで作った画像や文書の編集まで一気通貫へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/adobe-google-gemini-407f3fc7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/adobe-google-gemini-407f3fc7.html</guid>
+    <description>AIチャットから直接Adobeの制作・編集ツールを使える。生成後の調整作業がAIの対話画面で完結する時代へ。</description>
+    <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>リコー・日立、AIベンダー依存を回避する新サービス開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-727fc152.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-727fc152.html</guid>
+    <description>AIベンダーへのロックイン懸念に対し、日本企業が選択肢を広げるサービスが登場。</description>
+    <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>富士通が人月計算を廃止、AI時代の新価格モデルへ大転換</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-eb0b81c1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-eb0b81c1.html</guid>
+    <description>富士通がITサービスの料金体系をAI時代向けに刷新。従来の人月計算から成果主義に転換する戦略が明かされた。</description>
+    <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>損保ジャパン、Gemini Enterprise2万人導入で見えた「大規模AI導入」の現実</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-enterprise-84c6a3c5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-enterprise-84c6a3c5.html</guid>
+    <description>損保ジャパンがGoogle Geminiを全従業員に展開。標準機能の限界を独自設計で補うAI導入の実例。</description>
+    <pubDate>Mon, 28 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>あなたの職場に「AI同僚」がやってくる。企業は準備不足のまま導入を急ぐ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-agents-workplace-transformation-d96ba492.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-agents-workplace-transformation-d96ba492.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b24f1d26.html</guid>
     <description>生成AIを導入しても使い方が個人頼みでは効果が限定される。トラコムが個人の工夫を組織全体で使える仕組みに変えた結果、大幅な時間削減を実現。</description>
     <pubDate>Sun, 27 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>あいち銀行とLayerX、請求書から振込まで全工程をデジタル一本化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/layerx-ai-ocr-b1bc754c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/layerx-ai-ocr-b1bc754c.html</guid>
-    <description>紙やExcel管理が当たり前の経理業務を、AI-OCRと銀行決済プラットフォームで自動化・統合。</description>
-    <pubDate>Sun, 27 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIコスト、44%削減の可能性。企業が見落とす「使い過ぎ」の盲点</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/accenture-ai-97d7832f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/accenture-ai-97d7832f.html</guid>
-    <description>生成AIの急増で膨らむコスト問題。適切な運用で大幅削減が可能という調査結果が出た。</description>
-    <pubDate>Sun, 27 Sep 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国AIが世界で急速に浸透、米国が警戒。日本の企業選択は迫られる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57ddc56.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57ddc56.html</guid>
-    <description>2026年、中国開発のAIモデルが世界中の企業に採用される動きが加速している。米国政府がこの傾向に警戒を強めており、AI市場の地政学的な分裂が進む可能性がある。日本企業もAIベンダー選択の岐路に立たされている。</description>
-    <pubDate>Sun, 27 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国がアメリカのAIデータセンター市場に殴り込み。供給競争が激化する</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-83c66dd8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-83c66dd8.html</guid>
-    <description>ChatGPTなどAIサービスの急速な普及で、アメリカではデータセンター建設が急増している。この需要に目をつけた中国のデータセンター製造業者が市場参入を狙っているが、政治的・技術的な障壁が立ちはだかっている。</description>
-    <pubDate>Sun, 27 Sep 2026 16:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのコーディングツール「Codex」が1時間障害、全有料ユーザーの利用枠をリセット補償</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-0c4d4bbe.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-0c4d4bbe.html</guid>
-    <description>AIコーディングツール「Codex」で約1時間の障害が発生し、OpenAIが全有料ユーザーの利用制限をリセットで補償。</description>
-    <pubDate>Sun, 27 Sep 2026 14:32:00 +0900</pubDate>
   </item>
 </channel></rss>
