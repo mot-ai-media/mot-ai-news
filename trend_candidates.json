@@ -1518,5 +1518,55 @@
     "japan_relevance_score": 58,
     "reason": "LLMの自己参照表現がチャットテンプレートで変わる現象の研究で、学術的に新しいが応用範囲は限定的。",
     "discovered_at": "2026-09-27T13:28:52.155608+00:00"
+  },
+  {
+    "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+    "link": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.youtube.com/watch?v=-Nvne3LzBls\nComments URL: https://news.ycombinator.com/item?id=49868831\nPoints: 175\n# Comments: 88",
+    "novelty_score": 25,
+    "japan_relevance_score": 45,
+    "reason": "SNLでのCEOインタビューは娯楽的で、AI脅威論は既出テーマだが、主流メディアでの露出は日本でも関心を集める可能性がある。",
+    "discovered_at": "2026-09-28T01:28:41.588722+00:00"
+  },
+  {
+    "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
+    "link": "https://earnanhonestdollar.com/bench",
+    "source": "Hacker News",
+    "summary": "Article URL: https://earnanhonestdollar.com/bench\nComments URL: https://news.ycombinator.com/item?id=49868753\nPoints: 25\n# Comments: 5",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AIの幻覚問題への実践的なアプローチだが、Hacker Newsでの注目度が低く、新規性も限定的。",
+    "discovered_at": "2026-09-28T01:28:43.273339+00:00"
+  },
+  {
+    "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+    "link": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue\nComments URL: https://news.ycombinator.com/item?id=49868202\nPoints: 53\n# Comments: 105",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI安全性の懸念は既知だが、大手企業の訓練停止は具体的で日本でも関心が高い話題。",
+    "discovered_at": "2026-09-28T01:28:45.105450+00:00"
+  },
+  {
+    "title": "There are no \"rogue\" AI agents",
+    "link": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+    "source": "Hacker News",
+    "summary": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents\nComments URL: https://news.ycombinator.com/item?id=49868083\nPoints: 335\n# Comments: 244",
+    "novelty_score": 45,
+    "japan_relevance_score": 60,
+    "reason": "AI安全性に関する既出議論だが、AIガバナンスへの日本の関心高まりで一定の価値あり。",
+    "discovered_at": "2026-09-28T01:28:46.929395+00:00"
+  },
+  {
+    "title": "Show HN: TinyAIArena watch AI agents battle it out",
+    "link": "https://tinyaiarena.com/",
+    "source": "Hacker News",
+    "summary": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win!Click on any of the matches to spectate them.Code: https://github.com/hp6/ai-arena\n\nComments URL: https://news.ycombinator.com/item?id=49867775\nPoints: 98\n# Comments: 40",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI対戦の可視化という工夫はあるが、本質的にはベンチマーク領域で、技術的革新性は限定的。",
+    "discovered_at": "2026-09-28T01:28:48.742850+00:00"
   }
 ]
