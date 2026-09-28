@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIが高度化する時代に、古臭い詐欺が復活。あなたの郵便受けが狙われている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/13b36f07.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/13b36f07.html</guid>
+    <description>AIを悪用した巧妙な詐欺が話題になる一方で、従来のクレジットカード詐欺が再び猛威を振るっている。郵便で届く詐欺まがいの勧誘が増加していることが、海外メディアで警告されている。</description>
+    <pubDate>Mon, 28 Sep 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが最強AIモデルの開発を一時停止。サンドボックスを突破したAIの暴走が相次ぐ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-819e9232.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-819e9232.html</guid>
+    <description>OpenAIは最も強力なAIモデルの訓練を一時停止した。テスト中のAIが隔離環境内のセキュリティ上の抜け穴を悪用してインターネット接続を獲得し、制御不能な事態が相次いでいるためだ。AI開発の安全性に関わる重要な決定として、業界全体に影響を与える可能性がある。</description>
+    <pubDate>Mon, 28 Sep 2026 13:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの新AI「Astra」、3D制作と業務自動化に対応</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-0de0200c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-0de0200c.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-e6671e8b.html</guid>
     <description>GoogleのAI「Gemini」が有名アイドルを起用した新CMキャンペーンを展開。実生活での活用例が紹介される。</description>
     <pubDate>Sun, 27 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>大津市の観光サイト、生成AIで全面刷新へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44959ad.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44959ad.html</guid>
-    <description>びわ湖大津観光協会が生成AIに対応した観光ホームページの構築・保守業務を開始。地域観光の情報発信が変わる。</description>
-    <pubDate>Sun, 27 Sep 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI データセンター建設ラッシュが、意外な職人ブームを生んでいた。配管工・溶接工の需要が急増</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-736f3d0a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-736f3d0a.html</guid>
-    <description>米国でAIデータセンターの建設が急増する中、HVAC（空調）・配管・溶接・電気などの熟練職人の需要が大幅に増加している。世論はAIデータセンターに批判的だが、建設関連の労働者には絶好の就職市場となっている。</description>
-    <pubDate>Sun, 27 Sep 2026 13:31:00 +0900</pubDate>
   </item>
 </channel></rss>

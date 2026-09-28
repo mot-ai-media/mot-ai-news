@@ -1,26 +1,6 @@
 [
   {
     "tokens": [
-      "antitrust",
-      "does",
-      "doesn",
-      "everyone",
-      "exemption",
-      "kill",
-      "need"
-    ],
-    "ts": "2026-09-20T13:27:55"
-  },
-  {
-    "tokens": [
-      "isn",
-      "regulation",
-      "smackdown"
-    ],
-    "ts": "2026-09-20T13:28:11"
-  },
-  {
-    "tokens": [
       "doom",
       "knew",
       "loop",
@@ -771,5 +751,27 @@
       "website"
     ],
     "ts": "2026-09-28T10:28:21"
+  },
+  {
+    "tokens": [
+      "capable",
+      "models",
+      "most",
+      "openai",
+      "pauses",
+      "training"
+    ],
+    "ts": "2026-09-28T13:27:58"
+  },
+  {
+    "tokens": [
+      "card",
+      "credit",
+      "dead",
+      "far",
+      "old-school",
+      "scams"
+    ],
+    "ts": "2026-09-28T13:28:13"
   }
 ]
