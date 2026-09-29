@@ -1418,5 +1418,55 @@
     "japan_relevance_score": 55,
     "reason": "大手調査機関のAI活用事例紹介だが、新規性は低く、日本でも関心は限定的と予想。",
     "discovered_at": "2026-09-29T07:28:49.018305+00:00"
+  },
+  {
+    "title": "AI companies leak data to advertisers [pdf]",
+    "link": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+    "source": "Hacker News",
+    "summary": "Article URL: https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf\nComments URL: https://news.ycombinator.com/item?id=49890226\nPoints: 32\n# Comments: 5",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI企業のデータ漏洩は重要だが、具体的内容が不明で、HNでの反応も限定的なため新規性は中程度。",
+    "discovered_at": "2026-09-29T10:28:40.734455+00:00"
+  },
+  {
+    "title": "OpenAI: Tomorrow we are re-opening the Pro $200 subscription",
+    "link": "https://twitter.com/thsottiaux/status/2104823812042940713",
+    "source": "Hacker News",
+    "summary": "Article URL: https://twitter.com/thsottiaux/status/2104823812042940713\nComments URL: https://news.ycombinator.com/item?id=49889306\nPoints: 52\n# Comments: 61",
+    "novelty_score": 25,
+    "japan_relevance_score": 65,
+    "reason": "OpenAIの既存サブスク施策の再開で新規性は低いが、AIサービス価格戦略として日本でも関心は高い。",
+    "discovered_at": "2026-09-29T10:28:42.626122+00:00"
+  },
+  {
+    "title": "Uncensored and Offensive Security AI Models Benchmark",
+    "link": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/JoasASantos/Offensive-Security-AI-Models\nComments URL: https://news.ycombinator.com/item?id=49888937\nPoints: 31\n# Comments: 9",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "AIセキュリティベンチマークは重要だが、既存研究との差別化が不明確で、ポイント数・コメント数も限定的。",
+    "discovered_at": "2026-09-29T10:28:44.424373+00:00"
+  },
+  {
+    "title": "We Can't Let Enormous Weirdos Regulate AI",
+    "link": "https://little-flying-robots.ghost.io/why-we-cant-let-enormous-weirdos-regulate-ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://little-flying-robots.ghost.io/why-we-cant-let-enormous-weirdos-regulate-ai/\nComments URL: https://news.ycombinator.com/item?id=49880968\nPoints: 45\n# Comments: 8",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "AI規制論は既出だが、個性的な論調は新しく、日本でも規制議論が進む中で参考になる可能性がある。",
+    "discovered_at": "2026-09-29T10:28:46.257140+00:00"
+  },
+  {
+    "title": "The problem is not AI code, but not knowing about system architecture or intent",
+    "link": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/\nComments URL: https://news.ycombinator.com/item?id=49880312\nPoints: 365\n# Comments: 233",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AIコード生成時のシステム理解不足という既知課題だが、開発現場での実践的な問題提起として日本でも関心高い。",
+    "discovered_at": "2026-09-29T10:28:49.072788+00:00"
   }
 ]
