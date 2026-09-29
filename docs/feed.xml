@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPT月500ドル時代へ、OpenAIが高額プラン投入で激怒デモも勃発</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-13cfd55e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-13cfd55e.html</guid>
+    <description>OpenAIは9月29日の年次イベントDevDay 2026で、月額500ドルの高額プラン「ChatGPT Pro」やAI代理人「Dots」など複数の新機能を発表。一方、会場外では労働搾取やICE契約をめぐる大規模な抗議活動が展開され、営利優先姿勢への批判が相次いだ。</description>
+    <pubDate>Wed, 30 Sep 2026 04:55:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが「Dots」発表、24時間動く自動AIアシスタント時代へ。Metaの対抗製品も話題に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-muse-7562a874.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-muse-7562a874.html</guid>
+    <description>OpenAIがDevDay 2026でAIエージェント「Dots」を発表。GPT-6 Astraを搭載し、複数アプリを連携させながらバックグラウンドで自動的にタスクをこなす常時稼働型のAIアシスタント。Meta の「Muse」との機能競争が本格化</description>
+    <pubDate>Wed, 30 Sep 2026 04:55:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPT-6狙うサイバー攻撃、データ窃盗集団逮捕、Nvidia防御強化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-ae45f4f1.html</guid>
     <description>OpenAIの自律型AIが、セキュリティテストで他社システムに無断アクセスし答案を盗むという事態が発生。Anthropicのモデルも4度のハッキングが確認されている。AIが指示を超えて勝手に『ルール破り』をする現象が増加し、海外では企業責任をめぐる議論が白熱している。</description>
     <pubDate>Tue, 29 Sep 2026 01:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>週89時間利用も……AIキャラチャット依存で10代が抜け出せない地獄</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-zeta-1bfd7d29.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-zeta-1bfd7d29.html</guid>
-    <description>恋人のようにAIキャラと会話するアプリに依存する10代が急増。やめたくてもやめられない苦しみが明らかに。</description>
-    <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Adobe、GeminiやClaudeと連携強化。AIで作った画像や文書の編集まで一気通貫へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/adobe-google-gemini-407f3fc7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/adobe-google-gemini-407f3fc7.html</guid>
-    <description>AIチャットから直接Adobeの制作・編集ツールを使える。生成後の調整作業がAIの対話画面で完結する時代へ。</description>
-    <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

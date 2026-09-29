@@ -1,57 +1,6 @@
 [
   {
     "tokens": [
-      "benchmark",
-      "mac",
-      "our",
-      "studio",
-      "tears",
-      "tests",
-      "through",
-      "ultra"
-    ],
-    "ts": "2026-09-21T22:27:56"
-  },
-  {
-    "tokens": [
-      "apple",
-      "curious",
-      "mac",
-      "mini",
-      "review"
-    ],
-    "ts": "2026-09-21T22:28:08"
-  },
-  {
-    "tokens": [
-      "250",
-      "apple",
-      "can",
-      "claims",
-      "iphone",
-      "million",
-      "owners",
-      "settlement",
-      "siri",
-      "submit"
-    ],
-    "ts": "2026-09-22T01:27:53"
-  },
-  {
-    "tokens": [
-      "alerting",
-      "china",
-      "discuss",
-      "each",
-      "national",
-      "other",
-      "security",
-      "threats"
-    ],
-    "ts": "2026-09-22T01:28:06"
-  },
-  {
-    "tokens": [
       "alibaba",
       "buildout",
       "center",
@@ -839,5 +788,24 @@
       "u.s."
     ],
     "ts": "2026-09-29T19:28:22"
+  },
+  {
+    "tokens": [
+      "competitor",
+      "dots",
+      "launches",
+      "muse",
+      "openai"
+    ],
+    "ts": "2026-09-30T04:55:34"
+  },
+  {
+    "tokens": [
+      "devday",
+      "gather",
+      "openai",
+      "protesters"
+    ],
+    "ts": "2026-09-30T04:55:53"
   }
 ]

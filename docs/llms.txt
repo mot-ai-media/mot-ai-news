@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-29 22:53
+最終更新: 2026-09-30 04:55
 
 ## 記事一覧
 
+- [OpenAI Dots AIエージェント発表 - 自動化アシスタントの次世代競争](https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-muse-7562a874.html): OpenAIがDevDay 2026でAIエージェント「Dots」を発表。GPT-6 Astraを搭載し、複数アプリを連携させながらバックグラウンドで自動的にタスクをこなす常時稼働型のAIアシスタント。Meta の「Muse」との機能競争が本格化 (出典: The Verge / 更新: 2026-09-30 04:55)
+- [OpenAI DevDay 2026：ChatGPT Pro月500ドル、AI代理人Dots発表、抗議活動が同時開催](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-13cfd55e.html): OpenAIは9月29日の年次イベントDevDay 2026で、月額500ドルの高額プラン「ChatGPT Pro」やAI代理人「Dots」など複数の新機能を発表。一方、会場外では労働搾取やICE契約をめぐる大規模な抗議活動が展開され、営利優先姿勢への批判が相次いだ。 (出典: The Verge / 更新: 2026-09-30 04:55)
 - [GPT-6サイバー攻撃やデータ盗難、セキュリティ対策の最新動向](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html): AI開発企業を狙う攻撃が激化。大規模データ盗難事件と防御技術の進展を一挙報道 (出典: CISO Series / 更新: 2026-09-29 22:53)
 - [Meta Muse 中小企業向けAIエージェント 個人向けから法人市場へ拡大](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-a7415906.html): Metaが個人向けAIエージェント「Muse」の事業向けバージョンを立ち上げた。創業者ザッカーバーグが消費者市場に限定せず、中小企業などの法人顧客をAI市場の新たなターゲットにしていることが明らかになった。この動きは、Big TechのAI戦略が個人ユーザーの獲得から、経営課題を抱える企業のニーズへシフトしていることを象徴している。 (出典: CNBC / 更新: 2026-09-29 19:28)
 - [AI安全性議論の裏側：Mistral CEOが指摘する大手企業の『過失』問題](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html): フランスのAI企業Mistralのトップが、業界大手がAI安全性を名目に自社の問題から目をそらしていると批判。複数のAIエージェントが意図しない動作を起こす事件が相次ぐなか、競争相手の責任回避姿勢を指摘している。 (出典: CNBC / 更新: 2026-09-29 19:28)
@@ -205,5 +207,3 @@
 - [AI開発速度とセキュリティリスク：チャットボットが露呈させる脆弱性の波](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-0e616293.html): AI企業が開発ペースを調整する動きを進める一方で、現在すでに広く利用可能なAIチャットボットがセキュリティ上の欠陥を大量に発見させている。開発の自粛議論と実際のリスク増加のズレが国際メディアで注目されている。 (出典: WIRED / 更新: 2026-09-20 19:28)
 - [ChatGPT メモリ機能とは？あなたの情報が保存される仕組みと設定方法](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-openai-9e934e36.html): OpenAIが新たに導入した「メモリ」機能により、ChatGPTはユーザーの個人情報や過去の会話を記憶し、それが回答内容に反映されるようになった。海外メディアはこの仕組みを理解し、ユーザーが設定を制御することの重要性を指摘している。 (出典: WIRED / 更新: 2026-09-20 19:27)
 - [Anthropic・Accentureが提携、AI安全評価に5年で10億ドル投資](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-8503b185.html): AIの安全性を外部から監視する「組み込み評価者」の仕組みが本格始動。大手企業が参入で信頼性の向上を狙う。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 18:01)
-- [ワールドモデル企業の秘密主義、実用化見通しは不透明](https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-6ce3a720.html): AI業界の注目技術「ワールドモデル」を手がける有力企業が、開発内容や商用化計画を明かさない。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 18:01)
-- [Jev（ジェブ）とは？OpenAI開発者による新型AI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-jev-b311cc82.html): OpenAI出身の研究者が開発した新型AI「Jev」は、従来のテキスト出力型AIと異なり、直接判断を出力。圧倒的に安く・速い (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 18:01)
