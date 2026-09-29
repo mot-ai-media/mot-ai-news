@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Nvidia、1500億ドルの自社株買い戻しで株価の「軌道を変える」—米著名投資家が指摘</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c397fad7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c397fad7.html</guid>
+    <description>AI半導体大手Nvidiaが150億ドル規模の追加自社株買い戻しプログラムを実施することが明らかになった。米著名投資家ジム・クレイマー氏は、この施策が同社の株価動向に大きな影響を与える可能性があると指摘している。</description>
+    <pubDate>Tue, 29 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、廉価版AI「Sonnet 5.5」をリリース——CEOの「減速論」から一転、コーディング特化で勝負</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html</guid>
+    <description>AI企業Anthropicが、新型AI「Sonnet 5.5」をリリースした。同社CEOが「AI開発の減速」を主張していたが、この発表は一見矛盾している。ただしSonnet 5.5は最先端性を求めず、むしろコーディングや知識系の実務作業に特化し、より手頃な価格設定を目指す製品となっている。</description>
+    <pubDate>Tue, 29 Sep 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ザッカーバーグ、OpenAI幹部がトランプ次期大統領と会談へ――AI規制論争が政治化する転機</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-4cb770cd.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-4cb770cd.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-0f54998c.html</guid>
     <description>GPU大手のNvidiaが、AIエージェント（自動で判断・行動するAI）の予期しない動作を検知・制御する新しいソフトウェアプラットフォームを発表。過去にOpenAIやHuggingFaceで報告された問題的な動作を事前に防げる可能性があると主張している。</description>
     <pubDate>Mon, 28 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google Gemini 4 Pro、GPT-6やClaudeを性能で上回る。流出スコアが示す新たな競争図式</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-gpt-6-921e92fd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-gpt-6-921e92fd.html</guid>
-    <description>Googleの新型AI「Gemini 4 Pro」が競合モデルを性能面で凌ぐベンチマークスコアが流出し、AI市場の勢力図が揺らぎ始めた。</description>
-    <pubDate>Mon, 28 Sep 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが高度化する時代に、古臭い詐欺が復活。あなたの郵便受けが狙われている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/13b36f07.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/13b36f07.html</guid>
-    <description>AIを悪用した巧妙な詐欺が話題になる一方で、従来のクレジットカード詐欺が再び猛威を振るっている。郵便で届く詐欺まがいの勧誘が増加していることが、海外メディアで警告されている。</description>
-    <pubDate>Mon, 28 Sep 2026 13:28:00 +0900</pubDate>
   </item>
 </channel></rss>

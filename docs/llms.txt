@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-29 13:28
+最終更新: 2026-09-29 16:28
 
 ## 記事一覧
 
+- [Anthropic Sonnet 5.5発表：安価なAIモデルがコーディング向けに強化](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html): AI企業Anthropicが、新型AI「Sonnet 5.5」をリリースした。同社CEOが「AI開発の減速」を主張していたが、この発表は一見矛盾している。ただしSonnet 5.5は最先端性を求めず、むしろコーディングや知識系の実務作業に特化し、より手頃な価格設定を目指す製品となっている。 (出典: CNBC / 更新: 2026-09-29 16:28)
+- [Nvidia 1500億ドル自社株買戻し発表、株価上昇期待](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c397fad7.html): AI半導体大手Nvidiaが150億ドル規模の追加自社株買い戻しプログラムを実施することが明らかになった。米著名投資家ジム・クレイマー氏は、この施策が同社の株価動向に大きな影響を与える可能性があると指摘している。 (出典: CNBC / 更新: 2026-09-29 16:28)
 - [ザッカーバーグ・Amodei・Altmanがトランプと会談、AI開発ペース巡る議論が本格化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-4cb770cd.html): Meta、OpenAI、Anthropicなど大手AI企業の経営陣がトランプ次期大統領と会談予定。AI開発の速度を緩めるべきか加速させるべきかという業界内の対立が、米政治への働きかけに発展しており、今後の規制方針に大きな影響を与える可能性がある。 (出典: CNBC / 更新: 2026-09-29 13:28)
 - [AMD株価1兆ドル超え、エージェントAI需要で次のステージへ。日本の産業にも影響か](https://mot-ai-media.github.io/mot-ai-news/articles/amd-ai-19edbf96.html): 米半導体大手AMDが時価総額1兆ドルを突破した。背景には、将来のAI技術である「エージェントAI」が高性能CPUへの需要を大幅に拡大させるとの見方がある。CNBCの著名コメンテーターは、この上昇がまだ序章に過ぎないと指摘している。 (出典: CNBC / 更新: 2026-09-29 13:27)
 - [構造解析ソフトに「AI Expert」搭載、自然言語で条件設定から結果確認まで自動化](https://mot-ai-media.github.io/mot-ai-news/articles/adventurecluster-cae-2c6940f1.html): エンジニアが自然言語でAIに指示するだけで構造解析が完結する新機能が登場。専門知識不要の時代へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:01)
@@ -205,5 +207,3 @@
 - [AnthropicがAI減速後に新モデル開発？OpenAIとの競争激化の背景](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-f5b9253b.html): AI開発の減速を主張していたAnthropicが新モデル検討の動きで、業界内の緊張感が高まっている。 (出典: TradingKey / 更新: 2026-09-20 16:53)
 - [ヴァージニア州がAIデータセンター規制へ、地域コミュニティに決定権。日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-80248695.html): 米ヴァージニア州のスパンバーガー知事が、AI学習に必要な膨大な施設「データセンター」の開発を制限する行政命令に署名。地域住民の発言権を強化し、承認プロセスを遅延させる動きで、急速に拡大するAIインフラ開発に初めて本格的なブレーキがかかった。 (出典: The Verge / 更新: 2026-09-20 16:28)
 - [OpenAI Microsoft ニューヨークタイムズ訴訟 内部文書 データ無断学習](https://mot-ai-media.github.io/mot-ai-news/articles/openai-microsoft-7456d800.html): ニューヨークタイムズがOpenAIとMicrosoftを相手にした訴訟で、法廷に提出された内部文書が明かになった。両社は自らのAI学習に使うデータを無断で大量取得することで、ウェブ全体に悪影響が生じることを事前に認識していたという。この行為を『人類史上最大の労働力窃盗』と評した社内文書も存在していた。 (出典: The Verge / 更新: 2026-09-20 16:27)
-- [GPT-6 Astraとは？数学難問解決で何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-a198ef19.html): OpenAIの最新AI「GPT-6 Astra」が数学の難問を解く能力を初めて実証。専門家の仕事の形が変わり始めている。 (出典: 36Kr / 更新: 2026-09-20 14:53)
-- [Vantora（旧UP.Labs）が100億円調達、フィジカルAI企業の立ち上げに注力](https://mot-ai-media.github.io/mot-ai-news/articles/vantora-ai-23d6e2a4.html): スタートアップ向け育成企業が大型調達し、企業顧客向けの物理AIスタートアップ立ち上げに経営方針を転換。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 14:31)

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anthropic Sonnet 5.5発表：安価なAIモデルがコーディング向けに強化 | AI特化メディアMOT</title>
+<meta name="description" content="AI企業Anthropicが、新型AI「Sonnet 5.5」をリリースした。同社CEOが「AI開発の減速」を主張していたが、この発表は一見矛盾している。ただしSonnet 5.5は最先端性を求めず、むしろコーディングや知識系の実務作業に特化し、より手頃な価格設定を目指す製品となっている。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Anthropic、廉価版AI「Sonnet 5.5」をリリース——CEOの「減速論」から一転、コーディング特化で勝負">
+<meta property="og:description" content="AI企業Anthropicが、新型AI「Sonnet 5.5」をリリースした。同社CEOが「AI開発の減速」を主張していたが、この発表は一見矛盾している。ただしSonnet 5.5は最先端性を求めず、むしろコーディングや知識系の実務作業に特化し、より手頃な価格設定を目指す製品となっている。">
+<meta property="og:image" content="https://image.cnbcfm.com/api/v1/image/108363256-1789499134411-gettyimages-2294938529-2026_sep_14_dreamforce_1602.jpeg?v=1789499168&amp;w=1920&amp;h=1080">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html">
+<meta property="article:published_time" content="2026-09-29T16:28:00+09:00">
+<meta property="article:modified_time" content="2026-09-29T16:28:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Anthropic、廉価版AI「Sonnet 5.5」をリリース——CEOの「減速論」から一転、コーディング特化で勝負", "description": "AI企業Anthropicが、新型AI「Sonnet 5.5」をリリースした。同社CEOが「AI開発の減速」を主張していたが、この発表は一見矛盾している。ただしSonnet 5.5は最先端性を求めず、むしろコーディングや知識系の実務作業に特化し、より手頃な価格設定を目指す製品となっている。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-09-29T16:28:00+09:00", "dateModified": "2026-09-29T16:28:00+09:00", "image": ["https://image.cnbcfm.com/api/v1/image/108363256-1789499134411-gettyimages-2294938529-2026_sep_14_dreamforce_1602.jpeg?v=1789499168&w=1920&h=1080"], "citation": "https://www.cnbc.com/2026/09/28/anthropic-sonnet-5-5-launch.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Sonnet 5.5は今までのAIモデルと何が違うのか", "acceptedAnswer": {"@type": "Answer", "text": "最先端性よりも、プログラミングや知識作業など実務領域での実用性を重視した設計になっており、より廉価に提供されることが想定されます。"}}, {"@type": "Question", "name": "なぜAnthropicのCEOが『減速論』を唱えながら新製品を出すのか", "acceptedAnswer": {"@type": "Answer", "text": "『減速』は最先端競争の過度な加熱を批判したもので、実務的で有用なAIを提供することとは矛盾していません。戦略の転換を示しています。"}}, {"@type": "Question", "name": "日本のユーザーにはどんなメリットがあるのか", "acceptedAnswer": {"@type": "Answer", "text": "コーディングなど実務作業のAI支援を、より手頃な価格で利用できるようになる可能性があり、中小企業や個人開発者の負担軽減につながります。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Anthropic", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/anthropic.html"}, {"@type": "ListItem", "position": 3, "name": "Anthropic、廉価版AI「Sonnet 5.5」をリリース——CEOの「減速論」から一転、コーディング特化で勝負", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://image.cnbcfm.com/api/v1/image/108363256-1789499134411-gettyimages-2294938529-2026_sep_14_dreamforce_1602.jpeg?v=1789499168&amp;w=1920&amp;h=1080" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Anthropic、廉価版AI「Sonnet 5.5」をリリース——CEOの「減速論」から一転、コーディング特化で勝負</span></div></div>
+  <h1 class="headline">Anthropic、廉価版AI「Sonnet 5.5」をリリース——CEOの「減速論」から一転、コーディング特化で勝負</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>CNBC</span>
+    <span><span class="trust-label">UPDATED</span>2026-09-29 16:28</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Anthropicが廉価版AI「Sonnet 5.5」発表。最先端競争ではなく、コーディングなど実務タスクの効率化に重点を置く戦略転換。</p><h3>何が起きたか</h3><p>AI開発企業Anthropicが新型AI「Sonnet 5.5」をリリースしました。このモデルは「最先端の性能追求」ではなく、プログラミングやデータ分析など知識集約的な実務作業における実用性を重視した設計になっています。前世代との比較で、こうした領域での性能向上が報告されています。</p><div class="overseas-box"><h3>海外ではどう報道されているか</h3><p>海外メディアは、同社CEOが掲げた「AI開発の減速」路線との関連性に注目しています。Sonnet 5.5は最先端性よりも、プログラマーや知識労働者向けの実用的な性能改善に主眼を置いた製品として報道されており、Anthropicの事業戦略の転換を示すものと見なされています。</p></div><h3>なぜ重要か</h3><p>AIの競争が「性能の最大化」から「実務での有用性と価格のバランス」へシフトしていることが見えます。これまで多くのユーザーは最新鋭のAIモデルを求めていましたが、実際には日常業務で必要な機能は限定的。廉価で実用的なAIが登場することで、一般企業や個人開発者の導入ハードルが下がる可能性があります。</p><div class="japan-impact-box"><h3>日本への影響</h3><p>日本国内では、プログラミング支援ツールやビジネス資料作成などの知識労働分野でAI導入が急速に進んでいます。コーディング特化の廉価版AIが提供されることで、中小企業や個人事業主でも手頃に導入できるようになり、日本のIT人材不足の緩和につながるかもしれません。また、価格競争の激化はAI市場全体の活性化を促す可能性もあります。</p></div><h3>今後どうなる</h3><p>今後、AI市場は「超高性能モデル」と「実務特化の廉価版」に二極化する傾向が強まるでしょう。注目すべきは、各企業がどの領域に特化し、どこまで価格を下げていくのかという競争軸の変化です。</p><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>Sonnet 5.5の導入実績と、他のAI企業（OpenAI、Googleなど）の類似製品の展開。また、日本の企業や開発者がこのモデルをどの程度採用するか、その利用シーンは何か。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/anthropic.html">#Anthropic</a><a class="tag-pill" href="../topics/ai.html">#AI</a></div>
+  <script>window.motPageTags=["Anthropic", "Sonnet 5.5", "AI", "コーディング"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">会話やメモを録音するだけで、AIが自動で要約してくれる</h3><p class="sponsor-desc">AIボイスレコーダー「PLAUD」。録音した音声をAIが自動で文字起こし・要約する。全世界100万ユーザーが利用(スポンサー公表値)。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36L+FSKZHU+5J4W+67JU9" rel="sponsored nofollow" target="_blank"><img border="0" width="336" height="280" alt="PLAUD" loading="lazy" src="https://www22.a8.net/svt/bgt?aid=260904477955&wid=001&eno=01&mid=s00000025808001043000&mc=1"></a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36L+FSKZHU+5J4W+67JU9" alt=""></div><span class="sponsor-cta">詳しく見る &rarr;</span><p class="sponsor-name">PLAUD</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.cnbc.com/2026/09/28/anthropic-sonnet-5-5-launch.html">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>CNBC</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.cnbc.com/2026/09/28/anthropic-sonnet-5-5-launch.html" target="_blank" rel="noopener noreferrer">元記事（<cite>CNBC</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Sonnet 5.5は今までのAIモデルと何が違うのか</p>
+    <p class="faq-a">最先端性よりも、プログラミングや知識作業など実務領域での実用性を重視した設計になっており、より廉価に提供されることが想定されます。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. なぜAnthropicのCEOが『減速論』を唱えながら新製品を出すのか</p>
+    <p class="faq-a">『減速』は最先端競争の過度な加熱を批判したもので、実務的で有用なAIを提供することとは矛盾していません。戦略の転換を示しています。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 日本のユーザーにはどんなメリットがあるのか</p>
+    <p class="faq-a">コーディングなど実務作業のAI支援を、より手頃な価格で利用できるようになる可能性があり、中小企業や個人開発者の負担軽減につながります。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Anthropic%E3%80%81%E5%BB%89%E4%BE%A1%E7%89%88AI%E3%80%8CSonnet%205.5%E3%80%8D%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E2%80%94%E2%80%94CEO%E3%81%AE%E3%80%8C%E6%B8%9B%E9%80%9F%E8%AB%96%E3%80%8D%E3%81%8B%E3%82%89%E4%B8%80%E8%BB%A2%E3%80%81%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E7%89%B9%E5%8C%96%E3%81%A7%E5%8B%9D%E8%B2%A0&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html&text=Anthropic%E3%80%81%E5%BB%89%E4%BE%A1%E7%89%88AI%E3%80%8CSonnet%205.5%E3%80%8D%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E2%80%94%E2%80%94CEO%E3%81%AE%E3%80%8C%E6%B8%9B%E9%80%9F%E8%AB%96%E3%80%8D%E3%81%8B%E3%82%89%E4%B8%80%E8%BB%A2%E3%80%81%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E7%89%B9%E5%8C%96%E3%81%A7%E5%8B%9D%E8%B2%A0" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html" data-share-title="Anthropic、廉価版AI「Sonnet 5.5」をリリース——CEOの「減速論」から一転、コーディング特化で勝負">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="anthropic-sonnet-5-5-3546d09d">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="anthropic-ai-92111621.html">
+    <img src="https://image.cnbcfm.com/api/v1/image/108342843-1785448090042-gettyimages-2280291466-ANTHROPIC_CIRCUIT.jpeg?v=1785448353&amp;w=1920&amp;h=1080" alt="" loading="lazy">
+    <span class="next-up-headline">トランプがAnthropicのCEOと個別面談、AI企業の政治的影響力が加速する</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="crowdstrike-ai-4e41fa14.html">AIの危険性を止めることはもう不可能。CrowdStrike CEO、Anthropicの警告に対して</a></li>
+  <li><a href="nvidia-ai-c890b3de.html">NvidiaのCEO vs 米財務長官の対立。AI技術の「盗用か競争か」の戦い</a></li>
+  <li><a href="anthropic-ai-5e8bd66c.html">米国防総省がAnthropicをサプライチェーンリスク指定、AI企業の規制が現実に</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
