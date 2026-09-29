@@ -1,25 +1,5 @@
 [
   {
-    "title": "Transitions.dev: UI transitions for AI agents",
-    "link": "https://transitions.dev/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://transitions.dev/\nComments URL: https://news.ycombinator.com/item?id=49698443\nPoints: 23\n# Comments: 8",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "AI agentのUI/UX改善は需要があるが、transitions自体は既存技術の応用で革新性は限定的。",
-    "discovered_at": "2026-09-15T01:29:03.605577+00:00"
-  },
-  {
-    "title": "RubyGems Open Source Supply Chain Security and OpenAI",
-    "link": "https://rietta.com/blog/rubygems-supply-chain-openai/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://rietta.com/blog/rubygems-supply-chain-openai/\nComments URL: https://news.ycombinator.com/item?id=49697666\nPoints: 45\n# Comments: 6",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "RubyGemsのセキュリティ問題は既知だが、AIを活用した対策アプローチに中程度の新規性があり、日本の開発者にも関心があるトピック。",
-    "discovered_at": "2026-09-15T01:29:05.464038+00:00"
-  },
-  {
     "title": "Stay discoverable in search while disallowing AI training",
     "link": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
     "source": "Hacker News",
@@ -1388,5 +1368,55 @@
     "japan_relevance_score": 72,
     "reason": "AI企業の規制・監視の必要性は既出だが、日本でも生成AI政策議論が活発化しており関連性は高い。",
     "discovered_at": "2026-09-29T01:29:02.702512+00:00"
+  },
+  {
+    "title": "OpenAI Scraps Release of New AI Model over Safety Concerns",
+    "link": "https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42\nComments URL: https://news.ycombinator.com/item?id=49885133\nPoints: 24\n# Comments: 5",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "AIの安全性懸念による開発中止は業界として重要だが、OpenAIの内部判断であり前例がある程度ある。",
+    "discovered_at": "2026-09-29T07:28:41.776873+00:00"
+  },
+  {
+    "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+    "link": "https://stateofutopia.com/experiments/microllmlab/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://stateofutopia.com/experiments/microllmlab/\nComments URL: https://news.ycombinator.com/item?id=49882781\nPoints: 216\n# Comments: 79",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "ブラウザで軽量LLMを試すデモは新しくないが、AIの民主化テーマは日本でも関心が高い。",
+    "discovered_at": "2026-09-29T07:28:43.497049+00:00"
+  },
+  {
+    "title": "I made a visual workspace for AI Automations",
+    "link": "https://www.biom.dev/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.biom.dev/\nComments URL: https://news.ycombinator.com/item?id=49881777\nPoints: 29\n# Comments: 24",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "ビジュアルワークフロー系AIツールは既に複数存在するが、実装の工夫次第で差別化可能性あり。",
+    "discovered_at": "2026-09-29T07:28:45.314016+00:00"
+  },
+  {
+    "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
+    "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/\nComments URL: https://news.ycombinator.com/item?id=49881484\nPoints: 106\n# Comments: 109",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "OpenAIの内部管理問題は継続的な懸念だが、具体的な新展開が不明確。AI規制への国際的関心から日本でも注視される。",
+    "discovered_at": "2026-09-29T07:28:47.262844+00:00"
+  },
+  {
+    "title": "How Pew Research Center is – and is not – using AI in our work",
+    "link": "https://www.pewresearch.org/decoded/2026/09/28/how-pew-research-center-is-and-is-not-using-ai-in-our-work-2/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.pewresearch.org/decoded/2026/09/28/how-pew-research-center-is-and-is-not-using-ai-in-our-work-2/\nComments URL: https://news.ycombinator.com/item?id=49881135\nPoints: 21\n# Comments: 3",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "大手調査機関のAI活用事例紹介だが、新規性は低く、日本でも関心は限定的と予想。",
+    "discovered_at": "2026-09-29T07:28:49.018305+00:00"
   }
 ]
