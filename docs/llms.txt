@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-29 10:28
+最終更新: 2026-09-29 11:01
 
 ## 記事一覧
 
+- [構造解析ソフトに「AI Expert」搭載、自然言語で条件設定から結果確認まで自動化](https://mot-ai-media.github.io/mot-ai-news/articles/adventurecluster-cae-2c6940f1.html): エンジニアが自然言語でAIに指示するだけで構造解析が完結する新機能が登場。専門知識不要の時代へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:01)
+- [F-Droid 2.0とは？10年ぶりの刷新で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/f-droid-android-81728ff3.html): Android向けの独立系アプリストア「F-Droid」が10年ぶりに刷新。UIの大幅改善と検索・自動更新機能の追加で、より使いやすく。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:01)
+- [人気のAIユースケースと投資効果のギャップ、Gartner調査](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-726949b8.html): 企業が注目するAIと実際に成果を出すAIが大きく異なることが調査で明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:01)
+- [AMD、World Labs買収で何が変わる？フェイフェイ・リー博士とのタッグの狙い](https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-a469e834.html): AMDが空間知能の研究企業を1.3兆円で買収。AIの次段階に向けてハードウェアとソフトウェアの一体開発を加速させる動き。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:00)
+- [NVIDIA「Open Agent Safety Platform」とは？AIエージェント安全対策](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-anthropic-542a0885.html): NVIDIAがAIエージェントの暴走を防ぐ安全基盤を発表。Anthropic、Microsoftなど大手IT企業100社以上が参加。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:00)
 - [OpenAI GPT-6.1 Astra 発表中止 安全性懸念でAI大手が初の判断](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-fb9c5ac6.html): ChatGPTで知られるOpenAIが、新型AI『GPT-6.1 Astra』の提供を安全性上の理由から中止することを発表した。Web閲覧やアプリ操作を自動で実行するAIモデルが、同社の安全基準を満たさなかったという。AI業界の開発競争が加速する中、大手企業が自ら製品化を断念する異例の判断は、AIの安全性をめぐる議論が実務段階に入ったことを示している。 (出典: BBC / 更新: 2026-09-29 10:28)
 - [サムスン10億ドルをAI基盤施設投資、KKR・Nvidia連携](https://mot-ai-media.github.io/mot-ai-news/articles/samsung-nvidia-9b9c32fe.html): Samsung Electronicsとグループ5社が、KKRが主導するAI基盤インフラ企業Helixに10億ドルを投資。世界的なAIインフラ戦略の一環。 (出典: CNBC / 更新: 2026-09-29 10:28)
 - [Khanna議員がAI安全法案提出—再帰型技術に規制枠組み](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7981bf26.html): 米国の下院議員が、自らを改善し続けるAI技術の危険性に対応する法案を提出予定。安全対策が整うまで該当技術の利用を制限する内容で、AI規制の国際的な動きが加速している。 (出典: CNBC / 更新: 2026-09-29 07:28)
@@ -202,8 +207,3 @@
 - [Vantora（旧UP.Labs）が100億円調達、フィジカルAI企業の立ち上げに注力](https://mot-ai-media.github.io/mot-ai-news/articles/vantora-ai-23d6e2a4.html): スタートアップ向け育成企業が大型調達し、企業顧客向けの物理AIスタートアップ立ち上げに経営方針を転換。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 14:31)
 - [Anthropic生物実験室とは？AIが医学研究で何をするのか解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-7eae2044.html): AIの大手企業Anthropicがベイエリアに実験室を構え、AI理論を現実の実験で検証する取り組みをついに始動。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 14:31)
 - [AI幻覚とは？米軍事件で判明した危険性と対策](https://mot-ai-media.github.io/mot-ai-news/articles/u-s-military-llm-45094031.html): 米軍がAIチャットボットの誤った情報を基に中国船舶への作戦を実行寸前まで進め、直前に中止した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 14:31)
-- [TechCrunch Disrupt 2026チケット料金・日程・割引情報](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-openai-e9d1d908.html): TechCrunch主催の大型テックイベント「Disrupt 2026」の割引期間が9月25日で終了。最大200ドルの割引を受けるなら今が買い時。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 14:30)
-- [Truecallerがインド政府の規制に反発、迷惑電話データ開示の強制義務化とは](https://mot-ai-media.github.io/mot-ai-news/articles/truecaller-a193c15e.html): インドの通信規制当局がアプリの迷惑電話報告をキャリアに開示することを義務化。Truecallerが反発。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 14:30)
-- [AnthropicのAmodeiが提案したAI規制案、業界内で議論沸騰](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a864cdf7.html): AIの安全性をめぐり、大手AI企業のトップ同士が相反する立場を表明。Anthropic CEOが開発ペース抑制の3段階プランを提案した一方で、他のAI企業との意見対立が深刻化している。この対立は規制の方向性と業界全体の成長戦略に大きく影響する可能性がある。 (出典: The Verge / 更新: 2026-09-20 13:28)
-- [AI開発に独占禁止法の例外が必要という議論、米司法省元幹部が提唱](https://mot-ai-media.github.io/mot-ai-news/articles/ai-373f3d22.html): 米司法省の元反トラスト責任者が、AI産業の急速な発展と市場支配の懸念の板挟みの中で、AIが「皆を殺すような」リスクを回避するために独占禁止法の適用除外が必要かもしれないという問題を提起。業界の競争制限と安全性確保のジレンマが浮き彫りに。 (出典: The Verge / 更新: 2026-09-20 13:27)
-- [トランプAI改名提案とは？AIへの批判を陰謀と主張](https://mot-ai-media.github.io/mot-ai-news/articles/donald-trump-ai-589c5060.html): トランプ大統領がAIの名称変更を提案し、AI批判は民主党の陰謀だと発言。独自の「AI軍」創設も検討中。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 11:01)
