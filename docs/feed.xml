@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>サムスン、AI基盤インフラに10億ドル投資——Nvidiaと組む大型案件</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-nvidia-9b9c32fe.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-nvidia-9b9c32fe.html</guid>
+    <description>Samsung Electronicsとグループ5社が、KKRが主導するAI基盤インフラ企業Helixに10億ドルを投資。世界的なAIインフラ戦略の一環。</description>
+    <pubDate>Tue, 29 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが次世代AIモデルの発表を中止。安全性が理由の初の大型判断</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-fb9c5ac6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-fb9c5ac6.html</guid>
+    <description>ChatGPTで知られるOpenAIが、新型AI『GPT-6.1 Astra』の提供を安全性上の理由から中止することを発表した。Web閲覧やアプリ操作を自動で実行するAIモデルが、同社の安全基準を満たさなかったという。AI業界の開発競争が加速する中、大手企業が自ら製品化を断念する異例の判断は、AIの安全性をめぐる議論が実務段階に入ったことを示している。</description>
+    <pubDate>Tue, 29 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>米国議会が「自己改善するAI」の規制に乗り出す—日本企業にも波及の可能性</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7981bf26.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7981bf26.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-4e9c4c56.html</guid>
     <description>最新鋭のAIモデルを自動運転車に組み込み、実際の路上テストを実施する実験が行われた。</description>
     <pubDate>Sun, 27 Sep 2026 22:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプとXiがAI大手と会食。米中が安全性で初めて直接対話</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1a6858b2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1a6858b2.html</guid>
-    <description>米国のトランプ前大統領と中国の習近平国家主席が木曜日に会談し、AI安全保障が主要な議論テーマとなった。両国の指導者がAI業界の有力者らと食事をともにし、安全性懸念について直接対話したことが報道されている。</description>
-    <pubDate>Sun, 27 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI企業の資金調達コストが急上昇、巨大インフラ投資の重圧に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-94dfe2e7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-94dfe2e7.html</guid>
-    <description>ChatGPTやクラウドAIサービスを支える大規模データセンター建設の資金調達が、米国の金利上昇によってコスト増になっている。AI企業の積極投資は続くが、金銭的な負担が増す局面に突入した。</description>
-    <pubDate>Sun, 27 Sep 2026 22:27:00 +0900</pubDate>
   </item>
 </channel></rss>
