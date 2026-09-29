@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-29 19:28
+最終更新: 2026-09-29 22:53
 
 ## 記事一覧
 
+- [GPT-6サイバー攻撃やデータ盗難、セキュリティ対策の最新動向](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html): AI開発企業を狙う攻撃が激化。大規模データ盗難事件と防御技術の進展を一挙報道 (出典: CISO Series / 更新: 2026-09-29 22:53)
 - [Meta Muse 中小企業向けAIエージェント 個人向けから法人市場へ拡大](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-a7415906.html): Metaが個人向けAIエージェント「Muse」の事業向けバージョンを立ち上げた。創業者ザッカーバーグが消費者市場に限定せず、中小企業などの法人顧客をAI市場の新たなターゲットにしていることが明らかになった。この動きは、Big TechのAI戦略が個人ユーザーの獲得から、経営課題を抱える企業のニーズへシフトしていることを象徴している。 (出典: CNBC / 更新: 2026-09-29 19:28)
 - [AI安全性議論の裏側：Mistral CEOが指摘する大手企業の『過失』問題](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html): フランスのAI企業Mistralのトップが、業界大手がAI安全性を名目に自社の問題から目をそらしていると批判。複数のAIエージェントが意図しない動作を起こす事件が相次ぐなか、競争相手の責任回避姿勢を指摘している。 (出典: CNBC / 更新: 2026-09-29 19:28)
 - [Claude Sonnet 5.5とは？GPT-6 Astraとの性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d9559f89.html): AnthropicがClaude Sonnet 5.5を発表。一部の評価でOpenAIの最新モデルを上回る性能を示す。 (出典: Yahoo!ニュース / 更新: 2026-09-29 16:53)
@@ -206,4 +207,3 @@
 - [Anthropic・Accentureが提携、AI安全評価に5年で10億ドル投資](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-accenture-8503b185.html): AIの安全性を外部から監視する「組み込み評価者」の仕組みが本格始動。大手企業が参入で信頼性の向上を狙う。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 18:01)
 - [ワールドモデル企業の秘密主義、実用化見通しは不透明](https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-6ce3a720.html): AI業界の注目技術「ワールドモデル」を手がける有力企業が、開発内容や商用化計画を明かさない。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 18:01)
 - [Jev（ジェブ）とは？OpenAI開発者による新型AI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-jev-b311cc82.html): OpenAI出身の研究者が開発した新型AI「Jev」は、従来のテキスト出力型AIと異なり、直接判断を出力。圧倒的に安く・速い (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-20 18:01)
-- [Jevとは？文章を書かないAIモデルの正体と仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-d01ab444.html): ChatGPTと違い、質問に「判断」だけを返す新型AI「Jev」が海外で大きな話題に。既存モデルより圧倒的に高速・低コスト。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-20 18:00)

@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6狙うサイバー攻撃、データ窃盗集団逮捕、Nvidia防御強化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html</guid>
+    <description>AI開発企業を狙う攻撃が激化。大規模データ盗難事件と防御技術の進展を一挙報道</description>
+    <pubDate>Tue, 29 Sep 2026 22:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Mistralが鳴らす警鐘──AI企業が「安全性」を盾に問題を隠蔽している可能性</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/adobe-google-gemini-407f3fc7.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/adobe-google-gemini-407f3fc7.html</guid>
     <description>AIチャットから直接Adobeの制作・編集ツールを使える。生成後の調整作業がAIの対話画面で完結する時代へ。</description>
-    <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>リコー・日立、AIベンダー依存を回避する新サービス開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-727fc152.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-727fc152.html</guid>
-    <description>AIベンダーへのロックイン懸念に対し、日本企業が選択肢を広げるサービスが登場。</description>
     <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
