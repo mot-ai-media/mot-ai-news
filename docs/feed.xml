@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、最新AI「Astra」の公開中止。安全性懸念で一転、慎重姿勢へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-6ba74179.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-6ba74179.html</guid>
+    <description>OpenAIが新型AIモデル「Astra」の公開を見送り、安全性確保を優先する判断を示した。</description>
+    <pubDate>Tue, 29 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic「Claude Sonnet 5.5」、OpenAIの最新モデルを一部で上回る</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d9559f89.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d9559f89.html</guid>
+    <description>AnthropicがClaude Sonnet 5.5を発表。一部の評価でOpenAIの最新モデルを上回る性能を示す。</description>
+    <pubDate>Tue, 29 Sep 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Nvidia、1500億ドルの自社株買い戻しで株価の「軌道を変える」—米著名投資家が指摘</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c397fad7.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c397fad7.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-enterprise-84c6a3c5.html</guid>
     <description>損保ジャパンがGoogle Geminiを全従業員に展開。標準機能の限界を独自設計で補うAI導入の実例。</description>
     <pubDate>Mon, 28 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>あなたの職場に「AI同僚」がやってくる。企業は準備不足のまま導入を急ぐ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-agents-workplace-transformation-d96ba492.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-agents-workplace-transformation-d96ba492.html</guid>
-    <description>海外でAIエージェント（自律的に動作するAI）の職場導入が急速に進んでいる。だが企業も従業員も、実際の運用体制の整備が追いついていない状況が報告されている。</description>
-    <pubDate>Mon, 28 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nvidiaが「暴走するAI」を止めるプラットフォームを公開。OpenAIの過去の事件も防げた可能性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-0f54998c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-0f54998c.html</guid>
-    <description>GPU大手のNvidiaが、AIエージェント（自動で判断・行動するAI）の予期しない動作を検知・制御する新しいソフトウェアプラットフォームを発表。過去にOpenAIやHuggingFaceで報告された問題的な動作を事前に防げる可能性があると主張している。</description>
-    <pubDate>Mon, 28 Sep 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
