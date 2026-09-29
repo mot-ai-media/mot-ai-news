@@ -1488,5 +1488,35 @@
     "japan_relevance_score": 65,
     "reason": "AI規制と人間の責任という既出テーマだが、日本のAI安全政策議論では重要性が高い。",
     "discovered_at": "2026-09-29T16:28:46.018416+00:00"
+  },
+  {
+    "title": "AI needs $6T in annual revenue to justify data centre boom",
+    "link": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/\nComments URL: https://news.ycombinator.com/item?id=49898952\nPoints: 38\n# Comments: 8",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI投資収益性の議論は既出だが、具体的な6T予測は新しく、日本の技術投資判断に参考になる可能性がある。",
+    "discovered_at": "2026-09-29T19:56:03.284912+00:00"
+  },
+  {
+    "title": "DraftKings Is Using AI to Behaviorally Target Chronic Gamblers",
+    "link": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising\nComments URL: https://news.ycombinator.com/item?id=49896050\nPoints: 369\n# Comments: 243",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AIによるギャンブル依存者狙撃は既知の問題だが、DraftKingsの具体的手法は新しい。日本でのオンライン賭博規制議論との関連性は中程度。",
+    "discovered_at": "2026-09-29T19:56:05.700272+00:00"
+  },
+  {
+    "title": "Mistral CEO says U.S. AI safety debate masks competitors' 'negligence'",
+    "link": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html\nComments URL: https://news.ycombinator.com/item?id=49891721\nPoints: 29\n# Comments: 2",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI安全性を巡る企業間の対立構図は既出だが、Mistralの異論は視点が新しく、グローバルなAI規制議論の参考になる可能性がある。",
+    "discovered_at": "2026-09-29T19:56:08.167880+00:00"
   }
 ]
