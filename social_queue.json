@@ -4524,7 +4524,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/enterprise/articles/2609/22/cover_news018.jpg",
     "generated_at": "2026-09-22 22:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4582,7 +4582,10 @@
         "x_post": "📈 朗報：『AI時代、自分の仕事なくなる』は誤解。システム刷新失敗の事例は逆を示唆。AIと協力して複雑課題を解く『人材』こそ急速に価値が高まる。キャリア転換のチャンス。",
         "cta": "仕事の未来、詳しい分析を読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18025589288696738",
+    "published_at": "2026-09-29T11:01:43"
   },
   "ai-233cf370": {
     "headline": "各国首脳がAI対策で困っている。ギリシャ首相が本音を暴露",
