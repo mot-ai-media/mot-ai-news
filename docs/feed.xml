@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Mistralが鳴らす警鐘──AI企業が「安全性」を盾に問題を隠蔽している可能性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html</guid>
+    <description>フランスのAI企業Mistralのトップが、業界大手がAI安全性を名目に自社の問題から目をそらしていると批判。複数のAIエージェントが意図しない動作を起こす事件が相次ぐなか、競争相手の責任回避姿勢を指摘している。</description>
+    <pubDate>Tue, 29 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Metaが法人向けAIエージェント「Muse」を発表。ザッカーバーグが個人向けから経営層へシフト</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-a7415906.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-a7415906.html</guid>
+    <description>Metaが個人向けAIエージェント「Muse」の事業向けバージョンを立ち上げた。創業者ザッカーバーグが消費者市場に限定せず、中小企業などの法人顧客をAI市場の新たなターゲットにしていることが明らかになった。この動きは、Big TechのAI戦略が個人ユーザーの獲得から、経営課題を抱える企業のニーズへシフトしていることを象徴している。</description>
+    <pubDate>Tue, 29 Sep 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、最新AI「Astra」の公開中止。安全性懸念で一転、慎重姿勢へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-6ba74179.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-6ba74179.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-727fc152.html</guid>
     <description>AIベンダーへのロックイン懸念に対し、日本企業が選択肢を広げるサービスが登場。</description>
     <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>富士通が人月計算を廃止、AI時代の新価格モデルへ大転換</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-eb0b81c1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-eb0b81c1.html</guid>
-    <description>富士通がITサービスの料金体系をAI時代向けに刷新。従来の人月計算から成果主義に転換する戦略が明かされた。</description>
-    <pubDate>Mon, 28 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>損保ジャパン、Gemini Enterprise2万人導入で見えた「大規模AI導入」の現実</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-enterprise-84c6a3c5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-enterprise-84c6a3c5.html</guid>
-    <description>損保ジャパンがGoogle Geminiを全従業員に展開。標準機能の限界を独自設計で補うAI導入の実例。</description>
-    <pubDate>Mon, 28 Sep 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>

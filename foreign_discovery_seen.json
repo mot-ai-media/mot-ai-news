@@ -1,26 +1,6 @@
 [
   {
     "tokens": [
-      "can",
-      "certainty",
-      "safeguards",
-      "wait"
-    ],
-    "ts": "2026-09-21T19:27:54"
-  },
-  {
-    "tokens": [
-      "agent",
-      "amazon",
-      "doesn",
-      "meta",
-      "muse",
-      "trust"
-    ],
-    "ts": "2026-09-21T19:28:11"
-  },
-  {
-    "tokens": [
       "benchmark",
       "mac",
       "our",
@@ -831,5 +811,33 @@
       "trajectory"
     ],
     "ts": "2026-09-29T16:28:19"
+  },
+  {
+    "tokens": [
+      "beyond",
+      "business",
+      "consumer",
+      "launches",
+      "market",
+      "meta",
+      "muse",
+      "pushes",
+      "small",
+      "zuckerberg"
+    ],
+    "ts": "2026-09-29T19:28:02"
+  },
+  {
+    "tokens": [
+      "ceo",
+      "competitors",
+      "debate",
+      "masks",
+      "mistral",
+      "negligence'",
+      "safety",
+      "u.s."
+    ],
+    "ts": "2026-09-29T19:28:22"
   }
 ]
