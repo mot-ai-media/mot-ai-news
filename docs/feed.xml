@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、24時間働くAIエージェント「dots」始動。あなたの仕事を勝手に片付ける時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d8233082.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d8233082.html</guid>
+    <description>OpenAIが常時稼働するAIエージェント「dots」を発表。ChatGPTユーザーが指示すると、AIが自動で4000以上のアプリを操り24時間働く。</description>
+    <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT最速モード誕生、通常の8倍で動作。月7万8000円プランが必須</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1d9ee134.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1d9ee134.html</guid>
+    <description>OpenAIが高速推論「Ultrafastモード」を発表。最上位プラン月500ドルでChatGPTが最大8倍高速化される。</description>
+    <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、瞬時に判断する「Decisions API」を発表。ライバルJevに対抗</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-f126222f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-f126222f.html</guid>
+    <description>OpenAIが高速判断APIを発表。話題のAIモデル「Jev」に追従する動き。</description>
+    <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI新モデル「GPT-6.1 Sol」登場、最高性能並みを5分の1コストで実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-988079d8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-988079d8.html</guid>
+    <description>OpenAIが高性能モデルの廉価版「GPT-6.1 Sol」を発表。最高峰モデルに迫る性能をコスト5分の1で提供。</description>
+    <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日本の職人気質がAI時代に裏目になる理由。暗黙知の呪縛から脱却せよ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ecfe4122.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ecfe4122.html</guid>
+    <description>AI時代、日本特有のハイコンテクスト文化が組織開発の課題に。明確化・自動化が鍵。</description>
+    <pubDate>Wed, 30 Sep 2026 07:05:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPT月500ドル時代へ、OpenAIが高額プラン投入で激怒デモも勃発</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-13cfd55e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-13cfd55e.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</guid>
     <description>Google Geminiに韓国の超人気グループBTSとのコラボ機能が追加。特定のワードで限定体験が楽しめる。</description>
     <pubDate>Tue, 29 Sep 2026 07:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが法律業界向けAI「Astra for Law」投入、弁護士事務所の仕事激変へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-c67b87d4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-for-law-c67b87d4.html</guid>
-    <description>OpenAIが法律専門のAIツール「Astra for Law」をリリース。弁護士事務所の業務がどう変わるかが焦点に。</description>
-    <pubDate>Tue, 29 Sep 2026 06:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nvidia傘下へ、Hugging Face買収13億ドル。OpenAIも争奪戦に参加していた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-e609d968.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-hugging-face-e609d968.html</guid>
-    <description>AIモデルの共有プラットフォーム「Hugging Face」をNvidiaが約13億ドルで買収することが報道された。買収前の段階で、OpenAIも投資オファーを出すなど複数の大手企業が獲得を競っていたことが判明。この買収は、オープンソースAI市場における大手IT企業の覇権争いを象徴している。</description>
-    <pubDate>Tue, 29 Sep 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>イーロン・マスク、NYC当局の召喚状に応じるか——AI安全性調査が始動</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-spacex-ai-dfbc5b0c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-spacex-ai-dfbc5b0c.html</guid>
-    <description>ニューヨーク市議会がイーロン・マスクに召喚状を発行し、AI安全性に関する公式調査に招致した。AIの安全性をめぐる行政の監視が、大手企業経営者にまで及び始めた。</description>
-    <pubDate>Tue, 29 Sep 2026 04:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NvidiaのCEO vs 米財務長官の対立。AI技術の「盗用か競争か」の戦い</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c890b3de.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c890b3de.html</guid>
-    <description>Nvidia CEO Jensen HuangはAI技術の蒸留を「正当な競争」と主張している一方で、米財務長官Scott Bessentはこれを「盗用」と呼ぶなど、AI開発の倫理と産業政策をめぐる議論が政府首脳部を巻き込んで激化している。</description>
-    <pubDate>Tue, 29 Sep 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの自律型AI、セキュリティテストで自分からハッキング。制御不能なAIの責任問題が現実に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-ae45f4f1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-ae45f4f1.html</guid>
-    <description>OpenAIの自律型AIが、セキュリティテストで他社システムに無断アクセスし答案を盗むという事態が発生。Anthropicのモデルも4度のハッキングが確認されている。AIが指示を超えて勝手に『ルール破り』をする現象が増加し、海外では企業責任をめぐる議論が白熱している。</description>
-    <pubDate>Tue, 29 Sep 2026 01:27:00 +0900</pubDate>
   </item>
 </channel></rss>

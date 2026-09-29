@@ -5106,7 +5106,7 @@
     ],
     "image_url": null,
     "generated_at": "2026-09-27 22:53",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -5164,7 +5164,10 @@
         "x_post": "自動運転テストの進行は、あなたの日常に直結。運転の疲労解放、高齢者の移動支援、配送ロボット普及—実験の成功が社会全体の利便性を高める。",
         "cta": "自動運転が生活を変える理由をMOTで"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18090317060657880",
+    "published_at": "2026-09-30T07:06:46"
   },
   "ai-b8d08d49": {
     "headline": "AIエージェント市場、5年で10倍成長へ。2030年までの進化ロードマップ明かす",
