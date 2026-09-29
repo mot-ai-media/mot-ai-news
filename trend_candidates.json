@@ -1468,5 +1468,25 @@
     "japan_relevance_score": 72,
     "reason": "AIコード生成時のシステム理解不足という既知課題だが、開発現場での実践的な問題提起として日本でも関心高い。",
     "discovered_at": "2026-09-29T10:28:49.072788+00:00"
+  },
+  {
+    "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+    "link": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+    "source": "Hacker News",
+    "summary": "Article URL: https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions\nComments URL: https://news.ycombinator.com/item?id=49893709\nPoints: 135\n# Comments: 28",
+    "novelty_score": 45,
+    "japan_relevance_score": 62,
+    "reason": "AIのプライバシー侵害は既知の問題だが、具体的な事例として報道価値あり、日本でも規制議論の参考になる。",
+    "discovered_at": "2026-09-29T16:28:44.662526+00:00"
+  },
+  {
+    "title": "AI risk is not sentience by computers, it is negligence by humans",
+    "link": "https://www.seattletimes.com/opinion/wa-needs-to-do-these-3-things-to-protect-us-from-ai-harm/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.seattletimes.com/opinion/wa-needs-to-do-these-3-things-to-protect-us-from-ai-harm/\nComments URL: https://news.ycombinator.com/item?id=49887963\nPoints: 29\n# Comments: 5",
+    "novelty_score": 35,
+    "japan_relevance_score": 65,
+    "reason": "AI規制と人間の責任という既出テーマだが、日本のAI安全政策議論では重要性が高い。",
+    "discovered_at": "2026-09-29T16:28:46.018416+00:00"
   }
 ]
