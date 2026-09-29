@@ -1,235 +1,5 @@
 [
   {
-    "title": "Who gets to define the rules for AI?",
-    "link": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
-    "source": "Hacker News",
-    "summary": "Article URL: https://cohere.com/blog/who-gets-to-define-the-rules-for-ai\nComments URL: https://news.ycombinator.com/item?id=49692118\nPoints: 22\n# Comments: 20",
-    "novelty_score": 35,
-    "japan_relevance_score": 60,
-    "reason": "AI規制の主導権をめぐる議論は既出だが、日本のAI政策形成において国際的な枠組み理解の需要がある。",
-    "discovered_at": "2026-09-14T07:28:42.605641+00:00"
-  },
-  {
-    "title": "AI is not a normal technology",
-    "link": "https://12gramsofcarbon.com/p/ai-is-not-a-normal-technology",
-    "source": "Hacker News",
-    "summary": "Article URL: https://12gramsofcarbon.com/p/ai-is-not-a-normal-technology\nComments URL: https://news.ycombinator.com/item?id=49690529\nPoints: 32\n# Comments: 63",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AIと通常技術の違いを論じるテーマは既出だが、日本でも規制・倫理議論が急速に高まっており関連性は高い。",
-    "discovered_at": "2026-09-14T07:28:44.334805+00:00"
-  },
-  {
-    "title": "AI Robots – When will they be in our homes",
-    "link": "https://spectrum.ieee.org/ai-robots",
-    "source": "Hacker News",
-    "summary": "Article URL: https://spectrum.ieee.org/ai-robots\nComments URL: https://news.ycombinator.com/item?id=49690411\nPoints: 21\n# Comments: 15",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "家庭用AIロボットの実現時期は繰り返し議論されているが、日本は高齢化対応で関心が高い。",
-    "discovered_at": "2026-09-14T07:28:46.048643+00:00"
-  },
-  {
-    "title": "Open-source AI and open models reading list",
-    "link": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.interconnects.ai/p/open-source-ai-reading-list\nComments URL: https://news.ycombinator.com/item?id=49690260\nPoints: 90\n# Comments: 9",
-    "novelty_score": 35,
-    "japan_relevance_score": 60,
-    "reason": "オープンソースAIの読書リスト記事で新規性は低いが、日本でも関心高い分野であり技術者向けリソース集として有用。",
-    "discovered_at": "2026-09-14T07:28:48.113529+00:00"
-  },
-  {
-    "title": "“Chilling” warning or overreaction? AI bioweapons report divides experts",
-    "link": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts\nComments URL: https://news.ycombinator.com/item?id=49690139\nPoints: 29\n# Comments: 19",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AI×バイオセキュリティは重要だが、既出テーマで専門家間の議論も分かれており、日本での関心は限定的。",
-    "discovered_at": "2026-09-14T07:28:49.990794+00:00"
-  },
-  {
-    "title": "The Three AI Pills",
-    "link": "https://thezvi.wordpress.com/2026/08/05/the-three-ai-pills/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://thezvi.wordpress.com/2026/08/05/the-three-ai-pills/\nComments URL: https://news.ycombinator.com/item?id=49689534\nPoints: 20\n# Comments: 4",
-    "novelty_score": 35,
-    "japan_relevance_score": 40,
-    "reason": "AI倫理の既知テーマを扱う個人ブログで、HN反応も限定的(20pts、4comments)のため新規性・注目度ともに低い。",
-    "discovered_at": "2026-09-14T10:28:44.140915+00:00"
-  },
-  {
-    "title": "AI Is Destroying the World",
-    "link": "https://gornak40.org/blog/ai-is-destroying-the-world.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://gornak40.org/blog/ai-is-destroying-the-world.html\nComments URL: https://news.ycombinator.com/item?id=49688681\nPoints: 29\n# Comments: 7",
-    "novelty_score": 15,
-    "japan_relevance_score": 45,
-    "reason": "AIの危険性は既出テーマで、低エンゲージメント(29ポイント、7コメント)から学術的深さや新しい視点が乏しい可能性が高い。",
-    "discovered_at": "2026-09-14T10:28:46.264491+00:00"
-  },
-  {
-    "title": "There Is No AI (It's Just People) with Jaron Lanier",
-    "link": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/\nComments URL: https://news.ycombinator.com/item?id=49687869\nPoints: 75\n# Comments: 94",
-    "novelty_score": 35,
-    "japan_relevance_score": 55,
-    "reason": "Jaron Lanierの既知の主張の再発信で新規性は低いが、AI議論の本質的批判として日本でも関心層は存在する。",
-    "discovered_at": "2026-09-14T10:28:48.273757+00:00"
-  },
-  {
-    "title": "AI recursive self-improvement might not come so quickly after all",
-    "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/\nComments URL: https://news.ycombinator.com/item?id=49687334\nPoints: 73\n# Comments: 73",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "AI自己改善の速度に関する既知の議論だが、日本でも急速なAI発展への懸念が高く関連性がある。",
-    "discovered_at": "2026-09-14T10:28:50.109223+00:00"
-  },
-  {
-    "title": "Suicidal Compassion: Utilitarianism at AI Companies Endangers Humanity",
-    "link": "https://ai-frontiers.org/articles/suicidal-compassion-how-utilitarianism-at-ai-companies-endangers-humanity",
-    "source": "Hacker News",
-    "summary": "Article URL: https://ai-frontiers.org/articles/suicidal-compassion-how-utilitarianism-at-ai-companies-endangers-humanity\nComments URL: https://news.ycombinator.com/item?id=49687150\nPoints: 21\n# Comments: 3",
-    "novelty_score": 35,
-    "japan_relevance_score": 42,
-    "reason": "AI企業の倫理的問題は既出テーマだが、功利主義観点の批判は比較的新しく、国内でも関連議論が拡大中。",
-    "discovered_at": "2026-09-14T10:28:52.088381+00:00"
-  },
-  {
-    "title": "What a time to be alive – rouge AI agents attack RubyGems.org",
-    "link": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/\nComments URL: https://news.ycombinator.com/item?id=49695876\nPoints: 53\n# Comments: 49",
-    "novelty_score": 72,
-    "japan_relevance_score": 68,
-    "reason": "AI自動攻撃という新しい脅威がRubyGems等の重要インフラを直撃し、日本の開発環境にも同様のリスク存在。",
-    "discovered_at": "2026-09-14T13:28:45.587752+00:00"
-  },
-  {
-    "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
-    "link": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/\nComments URL: https://news.ycombinator.com/item?id=49695409\nPoints: 61\n# Comments: 18",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "Siri AIの置き換え可能性は技術的に興味深いが、Appleの公式機能ではなく具体的な実装方法が不明確。",
-    "discovered_at": "2026-09-14T13:28:47.353839+00:00"
-  },
-  {
-    "title": "Watch AI materials-science and bioscience abilities closely",
-    "link": "https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely\nComments URL: https://news.ycombinator.com/item?id=49694871\nPoints: 35\n# Comments: 32",
-    "novelty_score": 45,
-    "japan_relevance_score": 60,
-    "reason": "AI能力監視の重要性は既出だが、材料科学・バイオ分野への具体的応用リスクは注視対象として妥当。",
-    "discovered_at": "2026-09-14T13:28:49.597039+00:00"
-  },
-  {
-    "title": "Big AI sets out its terms for regulatory capture",
-    "link": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067\nComments URL: https://news.ycombinator.com/item?id=49694596\nPoints: 22\n# Comments: 0",
-    "novelty_score": 35,
-    "japan_relevance_score": 60,
-    "reason": "大手AI企業の規制対応戦略は既知テーマだが、具体的な業界動向として日本でも参考になる可能性がある。",
-    "discovered_at": "2026-09-14T13:28:51.533935+00:00"
-  },
-  {
-    "title": "OpenArch – PyTorch implementations of modern LLM architectures",
-    "link": "https://github.com/anuj0456/OpenArch",
-    "source": "Hacker News",
-    "summary": "Article URL: https://github.com/anuj0456/OpenArch\nComments URL: https://news.ycombinator.com/item?id=49693384\nPoints: 79\n# Comments: 14",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "PyTorchによるLLMアーキテクチャ実装は既存事例が多く新規性は低いが、LLM技術への関心の高さから日本でも需要がある。",
-    "discovered_at": "2026-09-14T13:28:53.331245+00:00"
-  },
-  {
-    "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
-    "link": "https://www.effort.news/irregular",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.effort.news/irregular\nComments URL: https://news.ycombinator.com/item?id=49704132\nPoints: 90\n# Comments: 33",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "複数の大手AI企業への共通の脅威という点は注目だが、記事URLが不正式で内容確認が困難。",
-    "discovered_at": "2026-09-15T00:37:50.636620+00:00"
-  },
-  {
-    "title": "Why don't machine learning research agents overfit?",
-    "link": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit\nComments URL: https://news.ycombinator.com/item?id=49699648\nPoints: 99\n# Comments: 56",
-    "novelty_score": 72,
-    "japan_relevance_score": 68,
-    "reason": "ML研究エージェントの過学習メカニズムは新しい視点だが、特殊領域向けで汎用性は限定的。",
-    "discovered_at": "2026-09-15T00:37:53.230519+00:00"
-  },
-  {
-    "title": "When LLM judges agree, should we believe them?",
-    "link": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them\nComments URL: https://news.ycombinator.com/item?id=49699590\nPoints: 49\n# Comments: 37",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "LLM評価の信頼性という重要だが既出テーマで、学術的関心は高いが一般層への波及効果は限定的。",
-    "discovered_at": "2026-09-15T00:37:57.506884+00:00"
-  },
-  {
-    "title": "Hacking AI customer service agents",
-    "link": "https://www.intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents\nComments URL: https://news.ycombinator.com/item?id=49699526\nPoints: 33\n# Comments: 5",
-    "novelty_score": 45,
-    "japan_relevance_score": 60,
-    "reason": "AIカスタマーサービスへの攻撃手法は既知だが、具体的な事例共有は有用で日本企業にも関連性がある。",
-    "discovered_at": "2026-09-15T00:38:00.104113+00:00"
-  },
-  {
-    "title": "MIT creates method to force AI to comply with safety rules",
-    "link": "https://theframenews.org/en/hardflow-safety-critical-ai/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://theframenews.org/en/hardflow-safety-critical-ai/\nComments URL: https://news.ycombinator.com/item?id=49699434\nPoints: 26\n# Comments: 28",
-    "novelty_score": 42,
-    "japan_relevance_score": 65,
-    "reason": "AI安全性は重要テーマだが、具体的な新規性が不透明で、学術発表段階の可能性が高い。",
-    "discovered_at": "2026-09-15T00:38:02.826670+00:00"
-  },
-  {
-    "title": "For AI leaders Doom is a form of hype",
-    "link": "https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/\nComments URL: https://news.ycombinator.com/item?id=49699384\nPoints: 124\n# Comments: 170",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AI安全性議論は既存テーマだが、リーダーのレトリックを批判する視点は比較的新しく、日本でも関心が高まる可能性がある。",
-    "discovered_at": "2026-09-15T01:28:56.868302+00:00"
-  },
-  {
-    "title": "Anthropic tells investors it will be profitable for second straight quarter",
-    "link": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/\nComments URL: https://news.ycombinator.com/item?id=49698936\nPoints: 49\n# Comments: 92",
-    "novelty_score": 35,
-    "japan_relevance_score": 55,
-    "reason": "AI企業の黒字化は重要だが、Anthropic特定の決算報告であり、汎用的なニュース価値は限定的。",
-    "discovered_at": "2026-09-15T01:29:00.381832+00:00"
-  },
-  {
-    "title": "China's Regulators Take Aim at \"AI Boyfriends\"",
-    "link": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
-    "source": "Hacker News",
-    "summary": "Article URL: https://spectrum.ieee.org/china-ai-chatbot-regulation\nComments URL: https://news.ycombinator.com/item?id=49698664\nPoints: 54\n# Comments: 51",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "AI規制の動きは既出だが、ロマンスAIという具体的な対象は新しく、日本でも同様の社会問題が発生する可能性が高い。",
-    "discovered_at": "2026-09-15T01:29:02.089495+00:00"
-  },
-  {
     "title": "Transitions.dev: UI transitions for AI agents",
     "link": "https://transitions.dev/",
     "source": "Hacker News",
@@ -1568,5 +1338,55 @@
     "japan_relevance_score": 55,
     "reason": "AI対戦の可視化という工夫はあるが、本質的にはベンチマーク領域で、技術的革新性は限定的。",
     "discovered_at": "2026-09-28T01:28:48.742850+00:00"
+  },
+  {
+    "title": "OpenAI Says It Will Not Release Newest A.I. Model Over Safety Concerns",
+    "link": "https://www.nytimes.com/2026/09/28/technology/openai-astra-safety.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.nytimes.com/2026/09/28/technology/openai-astra-safety.html\nComments URL: https://news.ycombinator.com/item?id=49886416\nPoints: 24\n# Comments: 20",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AIの安全性懸念による非公開は既出だが、OpenAIの最新モデル規制は業界動向として日本でも注視される。",
+    "discovered_at": "2026-09-29T01:28:56.136478+00:00"
+  },
+  {
+    "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
+    "link": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/\nComments URL: https://news.ycombinator.com/item?id=49886005\nPoints: 63\n# Comments: 60",
+    "novelty_score": 45,
+    "japan_relevance_score": 75,
+    "reason": "大型AI企業のIPO情報は重要だが、企業財務開示は定期的なニュースのため新規性は中程度。",
+    "discovered_at": "2026-09-29T01:28:57.716916+00:00"
+  },
+  {
+    "title": "Who should be held accountable when an AI Agent (accidentally) acts maliciously?",
+    "link": "https://blog.greenpants.net/ai-accountability/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://blog.greenpants.net/ai-accountability/\nComments URL: https://news.ycombinator.com/item?id=49885109\nPoints: 33\n# Comments: 65",
+    "novelty_score": 62,
+    "japan_relevance_score": 75,
+    "reason": "AI規制が急速に進む中、責任問題は日本でも重要なテーマだが、議論自体はまだ発展途上。",
+    "discovered_at": "2026-09-29T01:28:59.408951+00:00"
+  },
+  {
+    "title": "Pacing the Frontier is not the actual goal for AI labs",
+    "link": "https://www.lesswrong.com/posts/Nm4ewbYovtjq69dvH/pacing-the-frontier-is-not-the-actual-goal-for-ai-labs",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.lesswrong.com/posts/Nm4ewbYovtjq69dvH/pacing-the-frontier-is-not-the-actual-goal-for-ai-labs\nComments URL: https://news.ycombinator.com/item?id=49884119\nPoints: 72\n# Comments: 76",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI企業の目標設定についての既知の議論だが、規制動向との関連で継続的に注目される話題",
+    "discovered_at": "2026-09-29T01:29:00.963757+00:00"
+  },
+  {
+    "title": "It's Time to Investigate the AI Labs",
+    "link": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://calnewport.com/its-time-to-investigate-the-ai-labs/\nComments URL: https://news.ycombinator.com/item?id=49883471\nPoints: 277\n# Comments: 104",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI企業の規制・監視の必要性は既出だが、日本でも生成AI政策議論が活発化しており関連性は高い。",
+    "discovered_at": "2026-09-29T01:29:02.702512+00:00"
   }
 ]
