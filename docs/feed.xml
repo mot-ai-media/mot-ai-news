@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Meta、2億ユーザーの小規模事業者向けAIツール「Muse」を本格展開へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-431c635d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-431c635d.html</guid>
+    <description>Metaが小規模事業者向けのAI機能「Muse for Small Business」を発表。同社プラットフォーム上の2億を超える小規模事業者に対してAIを提供する動きが加速している。これまでのAIツールは大企業向けが中心だったが、小規模事業者にも浸透し始めている。</description>
+    <pubDate>Wed, 30 Sep 2026 07:29:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプ、AI産業への肩入れで共和党内に亀裂。「超知能」の名称変更で世論対策</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2d1cfdb8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2d1cfdb8.html</guid>
+    <description>米国の政治家がAI・データセンター産業への支援を掲げる一方で、有権者の間では慎重論が広がっている。トランプは用語の言い換えで世論を切り抜けようとしているが、中間選挙での共和党の支持基盤が揺らいでいる可能性が指摘されている。</description>
+    <pubDate>Wed, 30 Sep 2026 07:29:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、24時間働くAIエージェント「dots」始動。あなたの仕事を勝手に片付ける時代へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d8233082.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d8233082.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-b87ea3e2.html</guid>
     <description>AIが書いたコードは「ブラックボックス」でいいのか。Claude Code開発者が、プロトタイプと本番環境での使い分けを解説。</description>
     <pubDate>Tue, 29 Sep 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日本企業、AIエージェント導入で致命的な遅れ。勝ち組と負け組を分ける「あと5年」の現実</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-44793139.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-44793139.html</guid>
-    <description>AIの性能競争が一区切りした今、自律動作する環境づくりが勝負。日本企業はここでも大きく遅れている。</description>
-    <pubDate>Tue, 29 Sep 2026 07:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>BTS×Google Gemini、特別コラボ機能で4つの体験を解放</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html</guid>
-    <description>Google Geminiに韓国の超人気グループBTSとのコラボ機能が追加。特定のワードで限定体験が楽しめる。</description>
-    <pubDate>Tue, 29 Sep 2026 07:00:00 +0900</pubDate>
   </item>
 </channel></rss>

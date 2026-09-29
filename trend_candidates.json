@@ -1518,5 +1518,35 @@
     "japan_relevance_score": 45,
     "reason": "AI安全性を巡る企業間の対立構図は既出だが、Mistralの異論は視点が新しく、グローバルなAI規制議論の参考になる可能性がある。",
     "discovered_at": "2026-09-29T19:56:08.167880+00:00"
+  },
+  {
+    "title": "McDonald's push to have AI price your Big Mac",
+    "link": "https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html\nComments URL: https://news.ycombinator.com/item?id=49899453\nPoints: 26\n# Comments: 5",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "AI価格設定は既に議論されているが、大手チェーンの具体的導入事例として一定の注目度がある。日本でも価格戦略の新潮流として関心を持つ可能性がある。",
+    "discovered_at": "2026-09-29T22:29:27.985260+00:00"
+  },
+  {
+    "title": "OpenAI Targets $30B in New Funding at $1.4T Value",
+    "link": "https://www.bloomberg.com/news/articles/2026-09-29/openai-targets-30-billion-in-new-funding-at-1-4-trillion-value",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-09-29/openai-targets-30-billion-in-new-funding-at-1-4-trillion-value\nComments URL: https://news.ycombinator.com/item?id=49897336\nPoints: 29\n# Comments: 13",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI企業の大型資金調達は既出テーマだが、OpenAIの時価総額1.4T達成は注目度が高く日本でも関心が集まりやすい。",
+    "discovered_at": "2026-09-29T22:29:32.038778+00:00"
+  },
+  {
+    "title": "Stupid Over-Reliance on Palantir AI Helped Lead to US Bombing of Iranian School",
+    "link": "https://www.techdirt.com/2026/09/29/reporting-confirms-stupid-over-reliance-on-palantir-ai-helped-lead-to-us-bombing-of-iranian-schoolgirls/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.techdirt.com/2026/09/29/reporting-confirms-stupid-over-reliance-on-palantir-ai-helped-lead-to-us-bombing-of-iranian-schoolgirls/\nComments URL: https://news.ycombinator.com/item?id=49893248\nPoints: 21\n# Comments: 0",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI兵器システムの過信による人道的被害という重要テーマだが、具体的な新情報や検証が不明確で、日本での関心度も限定的。",
+    "discovered_at": "2026-09-29T22:29:37.780061+00:00"
   }
 ]
