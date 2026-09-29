@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6.1 Sol登場、高性能なのに5分の1の価格で衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-a7c005b0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-a7c005b0.html</guid>
+    <description>高性能AIモデル並みの機能を大幅に安い価格で提供する新しいAIモデルが登場。</description>
+    <pubDate>Wed, 30 Sep 2026 08:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、GPT-6.1 Sol発表　最新ライバルに迫る性能で料金は5分の1</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-04bc77ec.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-04bc77ec.html</guid>
+    <description>OpenAIが新型AI「GPT-6.1 Sol」を発表。高い性能を持ちながら、API利用料を大幅に削減。</description>
+    <pubDate>Wed, 30 Sep 2026 08:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Meta、2億ユーザーの小規模事業者向けAIツール「Muse」を本格展開へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-431c635d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-431c635d.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html</guid>
     <description>AIがSaaSを代替するという通説は間違い。データの役割拡張が本質で、むしろビジネスモデルと課金方式が激変する。</description>
-    <pubDate>Tue, 29 Sep 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日立が仕掛ける「FDE」戦略、かつての御用聞きSIerは本当に生まれ変わったのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/fde-03fe300f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/fde-03fe300f.html</guid>
-    <description>AIの登場で、システム開発企業の仕事の流れが一変。要件を聞くだけの時代は終わり、顧客の課題を一緒に見つけて解決する新職種「FDE」へ。</description>
-    <pubDate>Tue, 29 Sep 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが書いたコード、中身を確認すべき？Anthropic開発者が示した線引き</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-b87ea3e2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-b87ea3e2.html</guid>
-    <description>AIが書いたコードは「ブラックボックス」でいいのか。Claude Code開発者が、プロトタイプと本番環境での使い分けを解説。</description>
     <pubDate>Tue, 29 Sep 2026 07:01:00 +0900</pubDate>
   </item>
 </channel></rss>

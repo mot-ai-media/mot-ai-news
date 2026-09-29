@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-30 07:29
+最終更新: 2026-09-30 08:53
 
 ## 記事一覧
 
+- [GPT-6.1 Solとは？OpenAI新モデルの性能・料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-04bc77ec.html): OpenAIが新型AI「GPT-6.1 Sol」を発表。高い性能を持ちながら、API利用料を大幅に削減。 (出典: topics.smt.docomo.ne.jp / 更新: 2026-09-30 08:53)
+- [GPT-6.1 Solとは？Astra並みの性能で低価格を実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-a7c005b0.html): 高性能AIモデル並みの機能を大幅に安い価格で提供する新しいAIモデルが登場。 (出典: thenextweb.com / 更新: 2026-09-30 08:53)
 - [トランプ AI推進 選挙への影響 共和党の支持率低下](https://mot-ai-media.github.io/mot-ai-news/articles/ai-2d1cfdb8.html): 米国の政治家がAI・データセンター産業への支援を掲げる一方で、有権者の間では慎重論が広がっている。トランプは用語の言い換えで世論を切り抜けようとしているが、中間選挙での共和党の支持基盤が揺らいでいる可能性が指摘されている。 (出典: CNBC / 更新: 2026-09-30 07:29)
 - [Meta Muse AIが小規模事業者向けに——200万事業者が既に利用可能](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-431c635d.html): Metaが小規模事業者向けのAI機能「Muse for Small Business」を発表。同社プラットフォーム上の2億を超える小規模事業者に対してAIを提供する動きが加速している。これまでのAIツールは大企業向けが中心だったが、小規模事業者にも浸透し始めている。 (出典: CNBC / 更新: 2026-09-30 07:29)
 - [GPT-6.1 Solとは？料金・性能・使える人を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-988079d8.html): OpenAIが高性能モデルの廉価版「GPT-6.1 Sol」を発表。最高峰モデルに迫る性能をコスト5分の1で提供。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 07:06)
@@ -205,5 +207,3 @@
 - [NVIDIA CEO発言、AI企業への投資マネーが及ぼす影響とは](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-0c575aae.html): GPUを巡る巨額マネーがどこに流れるかで企業の運命が左右される現実が浮き彫りに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 13:53)
 - [Nvidia CEO黄仁勳がトランプ大統領のAI政策に影響力を持つ理由](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-9079df5d.html): 世界で最も時価総額が高い企業の指導者であるNvidiaのCEO黄仁勳が、トランプ次期大統領のAI安全に関する重要な方針決定で重要な役割を担いつつあることが明らかになった。 (出典: CNBC / 更新: 2026-09-20 22:28)
 - [米議会黒人議員会議、AI規制議論が活発化 データセンター問題も浮上](https://mot-ai-media.github.io/mot-ai-news/articles/ai-c3da02f0.html): 米国の政治的影響力を持つ団体「議会黒人議員会議」の年次集会でAIとデータセンター問題が中心的なテーマとなった。AI推進派・規制派の両陣営が関心を寄せ、政策形成への影響力が高まっている。 (出典: CNBC / 更新: 2026-09-20 22:27)
-- [AI安全性の新しい考え方とは？場面に合わせた制限の必要性](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llamaguard-4f420d1c.html): AIの安全対策が「危険な話題は全部NG」から「場面や目的に合わせて判断」へシフト。実務的な課題が浮き彫りに。 (出典: Hugging Face - Blog / 更新: 2026-09-20 22:01)
-- [OpenAI青少年安全ブループリントとは？子どもAI利用の安全対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-559b0cf1.html): OpenAIがティーン向けAI安全ガイドラインを発表。6つの柱で親・企業の責任を明確にした。 (出典: OpenAI News / 更新: 2026-09-20 22:01)
