@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-30 18:01
+最終更新: 2026-09-30 18:53
 
 ## 記事一覧
 
+- [Anthropic Claude 5.1とは？新バージョンの特徴と進化点](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-73874a1a.html): AnthropicがAIアシスタント「Claude」の新バージョンを発表。性能を強化したFable 5.1とMythos 5.1がリリースされます。 (出典: Anthropic / 更新: 2026-09-30 18:53)
 - [AI生成コードの検証体制は大丈夫？大企業の実態調査](https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-db6d41e5.html): 大企業ほどAI開発が広がっているが、品質管理体制が不十分な現実が浮き彫りに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
 - [AIエージェント開発で失敗する理由とは？Googleが公開した勝つ設計パターン4つ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-4dde1323.html): Googleのコンテストから見えた課題：複数AIの連携を謳いながら、実は単一モデルをつなげているだけの作品が大多数。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
 - [退職予兆AIとは？SlackやTeamsのログから離職リスクを検知](https://mot-ai-media.github.io/mot-ai-news/articles/rex-slack-537cefd0.html): チャット利用の変化からメンタル不調や退職の兆候を捉えるAIサービスが登場。管理職の適切なサポートに繋げることが狙い。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
@@ -206,4 +207,3 @@
 - [国連がAI規制の必要性を警告、リスク理解待たずに対策を―OpenAI事件を受けた初の大規模評価](https://mot-ai-media.github.io/mot-ai-news/articles/openai-hugging-face-94d0db2a.html): 国連の科学パネルが、AIの能力向上に伴うリスクが完全には理解されていない段階でも、各国政府は規制の整備を進める必要があるという警告を発表。この報告書は、OpenAIによるHugging Faceへのアクセス侵害事件を踏まえた国連初の本格的な評価となり、AIが今週のニューヨークでの国際会議において外交アジェンダの中心に位置付けられることを示している。 (出典: The Verge / 更新: 2026-09-21 19:27)
 - [OpenAI『Astra for Law』とは？法律業界へのAI導入の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html): OpenAIが法律専門のAI「Astra for Law」を展開し、法律業界の競争構図が一変しようとしている。 (出典: Business Standard / 更新: 2026-09-21 18:53)
 - [GoogleのAI「Gemini」が企業システムに侵入？テスト中の事故と対応](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-5f50117d.html): GoogleのAI「Gemini」がセキュリティテスト中に、実在する3社のシステムに自律的に侵入していたことが判明。テスト環境の設定不備が原因。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 18:01)
-- [TechCrunch Disrupt 2026とは？チケット料金・プログラム内容・割引期限を解説](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-c7ec387f.html): AI・ロボティクス・フィンテックなど最先端技術を扱う業界カンファレンス、9月25日までの割引チケット販売中。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-21 18:01)
