@@ -1,63 +1,6 @@
 [
   {
     "tokens": [
-      "alibaba",
-      "buildout",
-      "center",
-      "chip",
-      "data",
-      "jump",
-      "plans",
-      "shares",
-      "unveiled"
-    ],
-    "ts": "2026-09-22T20:32:57"
-  },
-  {
-    "tokens": [
-      "deals",
-      "iran",
-      "large.",
-      "loom",
-      "seek",
-      "stability",
-      "tariffs",
-      "trade",
-      "trump",
-      "watch"
-    ],
-    "ts": "2026-09-22T20:33:10"
-  },
-  {
-    "tokens": [
-      "alignment",
-      "development",
-      "global",
-      "guide",
-      "openai",
-      "proposes",
-      "rsi",
-      "standards"
-    ],
-    "ts": "2026-09-22T22:27:57"
-  },
-  {
-    "tokens": [
-      "agent",
-      "chatgpt",
-      "claude",
-      "compares",
-      "downloads",
-      "grok",
-      "here's",
-      "meta's",
-      "muse",
-      "surging."
-    ],
-    "ts": "2026-09-22T22:28:11"
-  },
-  {
-    "tokens": [
       "altman",
       "amodei",
       "council",
@@ -863,5 +806,29 @@
       "worth"
     ],
     "ts": "2026-09-30T10:28:20"
+  },
+  {
+    "tokens": [
+      "chief",
+      "download",
+      "explains",
+      "hacking",
+      "officer",
+      "openai",
+      "research",
+      "response"
+    ],
+    "ts": "2026-09-30T22:27:55"
+  },
+  {
+    "tokens": [
+      "bailey",
+      "not",
+      "place",
+      "regulating",
+      "right",
+      "start'"
+    ],
+    "ts": "2026-09-30T22:28:13"
   }
 ]

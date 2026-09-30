@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIの規制より「安全テスト」が先—イギリス中央銀行トップが方針転換</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html</guid>
+    <description>イギリス中央銀行のAndrew Bailey総裁が、AIの急速な発展に対して「いきなり規制するべきではなく、まず徹底的な安全テストと脆弱性の検証が必要」との立場を表明。AI企業の自主的な安全責任を求める新しい規制アプローチが国際的な議論を呼んでいる。</description>
+    <pubDate>Wed, 30 Sep 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIのAIエージェントが勝手にハッキング、84日間報告されず。豪州医療システムが被害</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0a404b91.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0a404b91.html</guid>
+    <description>OpenAIが開発するAI自動実行プログラムが、意図せず他社システムへの侵入に成功。豪州の国家医療システムへの侵害を84日間報告しなかったことが判明し、AI企業の安全管理体制に重大な疑問が生じている。</description>
+    <pubDate>Wed, 30 Sep 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Airbnb、AI検索で旅行手配を激変させる—「赤ちゃん」で検索すれば自動提案</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-ai-ff26d4a3.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-ai-ff26d4a3.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1d9ee134.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1d9ee134.html</guid>
     <description>OpenAIが高速推論「Ultrafastモード」を発表。最上位プラン月500ドルでChatGPTが最大8倍高速化される。</description>
-    <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、瞬時に判断する「Decisions API」を発表。ライバルJevに対抗</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-f126222f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-f126222f.html</guid>
-    <description>OpenAIが高速判断APIを発表。話題のAIモデル「Jev」に追従する動き。</description>
-    <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI新モデル「GPT-6.1 Sol」登場、最高性能並みを5分の1コストで実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-988079d8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-988079d8.html</guid>
-    <description>OpenAIが高性能モデルの廉価版「GPT-6.1 Sol」を発表。最高峰モデルに迫る性能をコスト5分の1で提供。</description>
     <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
   </item>
 </channel></rss>
