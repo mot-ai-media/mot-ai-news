@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPT・Comet・Diaが激突、2026年AIブラウザ戦争が本格化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-c3bf4c6c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-c3bf4c6c.html</guid>
+    <description>OpenAIやGoogleなど大手AIプレイヤーがブラウザ市場に参入、次世代の検索体験が激変する局面へ突入。</description>
+    <pubDate>Wed, 30 Sep 2026 20:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの自律AIエージェント「Dots」、4000超のアプリと連携で24時間稼働を実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-25fd94e7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-25fd94e7.html</guid>
+    <description>OpenAIが24時間自動で動作するAIエージェント「Dots」を発表。4000以上のアプリと連携可能。</description>
+    <pubDate>Wed, 30 Sep 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、Claude新バージョン5.1を発表</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-73874a1a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-73874a1a.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html</guid>
     <description>フランスのAI企業Mistralのトップが、業界大手がAI安全性を名目に自社の問題から目をそらしていると批判。複数のAIエージェントが意図しない動作を起こす事件が相次ぐなか、競争相手の責任回避姿勢を指摘している。</description>
     <pubDate>Tue, 29 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Metaが法人向けAIエージェント「Muse」を発表。ザッカーバーグが個人向けから経営層へシフト</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-a7415906.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-a7415906.html</guid>
-    <description>Metaが個人向けAIエージェント「Muse」の事業向けバージョンを立ち上げた。創業者ザッカーバーグが消費者市場に限定せず、中小企業などの法人顧客をAI市場の新たなターゲットにしていることが明らかになった。この動きは、Big TechのAI戦略が個人ユーザーの獲得から、経営課題を抱える企業のニーズへシフトしていることを象徴している。</description>
-    <pubDate>Tue, 29 Sep 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、最新AI「Astra」の公開中止。安全性懸念で一転、慎重姿勢へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-6ba74179.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-6ba74179.html</guid>
-    <description>OpenAIが新型AIモデル「Astra」の公開を見送り、安全性確保を優先する判断を示した。</description>
-    <pubDate>Tue, 29 Sep 2026 16:53:00 +0900</pubDate>
   </item>
 </channel></rss>
