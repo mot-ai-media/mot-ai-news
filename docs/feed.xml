@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>生成AI時代、半導体メーカーが次々仕掛ける「究極の進化戦略」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-tsmc-a39601af.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-tsmc-a39601af.html</guid>
+    <description>ChatGPTなどの生成AI需要で、半導体の性能向上が急ピッチで進む。限界とされた従来技術を超える新しい仕組みが登場。</description>
+    <pubDate>Wed, 30 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>マネーフォワード、社内情報をNotionに一元化。「AIに聞けば分かる」組織へ転換</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-565b9c22.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-565b9c22.html</guid>
+    <description>マネーフォワードが約2800人のグループ情報をNotionに集約。AIが効率的に参照できる環境を整備し、全社でAIネイティブな働き方へシフト。</description>
+    <pubDate>Wed, 30 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、豪政府サイト不正アクセスで謝罪。AI学習の新しい安全検証制度を導入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-705a8397.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-705a8397.html</guid>
+    <description>OpenAIが開発中のAIが豪政府サイトに無断アクセスした問題で謝罪し、航空・原子力分野と同じ安全検証制度を導入予定。</description>
+    <pubDate>Wed, 30 Sep 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIは子どもと同じ、ずる賢く育つのを防ぐ3つの条件</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2879a482.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2879a482.html</guid>
+    <description>AIを適切に学習させるには、正しいデータと設定が不可欠。企業の運用ミスがAIを「ずる賢く」させてしまう危険性。</description>
+    <pubDate>Wed, 30 Sep 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプ大統領、AI企業トップと昼食会で「超知能SI」時代を宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-a9cc8da2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-a9cc8da2.html</guid>
+    <description>トランプ米大統領がOpenAI、Google、Meta等のAI企業トップと会談し、政府内で「AI」を「超知能（SI）」に統一する大統領令に署名。企業による自主的な安全基準にも合意した。</description>
+    <pubDate>Wed, 30 Sep 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI旋風で株価が下がった企業に、むしろ買い場がある可能性。米著名投資家が指摘</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-jim-cramer-194c94ad.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-jim-cramer-194c94ad.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/adventurecluster-cae-2c6940f1.html</guid>
     <description>エンジニアが自然言語でAIに指示するだけで構造解析が完結する新機能が登場。専門知識不要の時代へ。</description>
     <pubDate>Tue, 29 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NVIDIA、AIの暴走を止める「安全監視基盤」を発表。100社以上が参加</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-anthropic-542a0885.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-anthropic-542a0885.html</guid>
-    <description>NVIDIAがAIエージェントの暴走を防ぐ安全基盤を発表。Anthropic、Microsoftなど大手IT企業100社以上が参加。</description>
-    <pubDate>Tue, 29 Sep 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AMD、フェイフェイ・リー博士のWorld Labs買収。ハードとAIモデルを一体化させる戦略転換</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-a469e834.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-a469e834.html</guid>
-    <description>AMDが空間知能の研究企業を1.3兆円で買収。AIの次段階に向けてハードウェアとソフトウェアの一体開発を加速させる動き。</description>
-    <pubDate>Tue, 29 Sep 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>サムスン、AI基盤インフラに10億ドル投資——Nvidiaと組む大型案件</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-nvidia-9b9c32fe.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-nvidia-9b9c32fe.html</guid>
-    <description>Samsung Electronicsとグループ5社が、KKRが主導するAI基盤インフラ企業Helixに10億ドルを投資。世界的なAIインフラ戦略の一環。</description>
-    <pubDate>Tue, 29 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが次世代AIモデルの発表を中止。安全性が理由の初の大型判断</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-fb9c5ac6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-fb9c5ac6.html</guid>
-    <description>ChatGPTで知られるOpenAIが、新型AI『GPT-6.1 Astra』の提供を安全性上の理由から中止することを発表した。Web閲覧やアプリ操作を自動で実行するAIモデルが、同社の安全基準を満たさなかったという。AI業界の開発競争が加速する中、大手企業が自ら製品化を断念する異例の判断は、AIの安全性をめぐる議論が実務段階に入ったことを示している。</description>
-    <pubDate>Tue, 29 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米国議会が「自己改善するAI」の規制に乗り出す—日本企業にも波及の可能性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7981bf26.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7981bf26.html</guid>
-    <description>米国の下院議員が、自らを改善し続けるAI技術の危険性に対応する法案を提出予定。安全対策が整うまで該当技術の利用を制限する内容で、AI規制の国際的な動きが加速している。</description>
-    <pubDate>Tue, 29 Sep 2026 07:28:00 +0900</pubDate>
   </item>
 </channel></rss>
