@@ -5909,7 +5909,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/enterprise/articles/2609/19/cover_news009.jpg",
     "generated_at": "2026-09-29 11:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -5967,7 +5967,10 @@
         "x_post": "職場でAI導入が決まったら、導入前に『何が改善されるのか』を具体的に確認しておく。数ヶ月後に『実際に効果が出たか』を測定する。効果測定の視点が、これからのAI時代の仕事環境を変える。",
         "cta": "職場のAI導入、効果を判断する方法を確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18429555925149232",
+    "published_at": "2026-09-30T11:01:55"
   },
   "swarm-ai-fuga-v2-41a29f23": {
     "headline": "複数AIを連携させるSwarm AI、Claude級の性能を1/10コストで実現",

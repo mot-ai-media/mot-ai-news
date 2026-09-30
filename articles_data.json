@@ -33668,5 +33668,93 @@
     "image_kind": "real",
     "level": "easy",
     "generated_at": "2026-09-30 11:01"
+  },
+  {
+    "slug": "openai-gpt-6-1-sol-48a830a2",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03U2U4SnJlcVlCWmFmelVNS0ltaVdUckJJRC1aem1KZVlKWmgtQTYyWXJGRG1tLWp3eUtwS3dzRGlEUEhTM3kxSDFoM1FyYk81NTNNSnNiQmdLa0I3c0h2aUR3SQ?oc=5",
+    "headline": "OpenAI、高性能AI「GPT-6.1 Sol」を5分の1の価格で投入",
+    "seo_title": "OpenAI GPT-6.1 Solとは？Astra並み性能で低価格実現",
+    "summary": "OpenAIが高性能な新モデルGPT-6.1 Solをリリース。従来比で大幅な価格削減を実現した。",
+    "importance_score": 62,
+    "buzz_score": 72,
+    "recommend_score": 75,
+    "tldr": "OpenAIが新モデル「GPT-6.1 Sol」をリリース。競合レベルの性能を大幅に安い価格で提供することで、AI利用のハードルを下げる動き。",
+    "what_happened": "OpenAIが新しいAIモデル「GPT-6.1 Sol」をリリースしました。このモデルは、競合他社の高性能モデル「Astra」と同等の性能を持ちながら、価格を5分の1に抑えることに成功。これまで高い費用がネックとなっていたユーザーも、より低コストでハイレベルなAIを利用できるようになります。",
+    "why_it_matters": "AIの活用は企業や個人にとって競争力の源泉となりつつありますが、高性能なモデルは利用コストが高いのが課題でした。今回の価格低下は、これまでAI導入をためらっていた中小企業や個人ユーザーの参入を促進し、AI技術の民主化を加速させる可能性があります。",
+    "impact_on_reader": "仕事でAIを使いたいと思っている人にとって、利用コストの低下は大きなメリット。企業の担当者であれば、より少ない予算でAI導入が実現しやすくなります。一般ユーザーでも、これまで契約をためらっていたサービスを試しやすくなるかもしれません。",
+    "reader_relevance": "ChatGPT以降、AIツールの選択肢が増える中で、性能と価格のバランスは多くの人の関心事。この動きは業界全体の競争を示す重要な指標になります。",
+    "risk_point": "低価格化は市場競争の激化を意味し、AIサービス提供企業の経営戦略が急速に変わる可能性があります。今後のサービス内容や利用規約の変更に注意が必要です。",
+    "opportunity_point": "利用コストの低下により、これまでAI導入に二の足を踏んでいた個人や小規模事業者も、実験的な利用を始めやすくなります。導入のハードルが下がることで、新しいビジネス活用が生まれる可能性も高まります。",
+    "mot_take": "価格競争が激化する中で、OpenAIが性能維持のまま価格を引き下げるのは、技術進化と効率化の成果です。同時に業界全体のAI価格低下が加速する前触れと見られ、ユーザーにとっては追い風、サービス提供側の収益構造を問い直す局面でもあります。",
+    "what_to_watch_next": "他のAI企業（Google、Anthropic等）の価格対応や新モデル投入の動き、そして実際のユーザー導入事例の増加を注視する価値があります。",
+    "tags": [
+      "OpenAI",
+      "GPT-6.1 Sol",
+      "AI価格"
+    ],
+    "faq": [
+      {
+        "q": "GPT-6.1 Solとは何ですか？",
+        "a": "OpenAIが新たにリリースしたAIモデル。競合モデル「Astra」と同等の性能を持ちながら、価格を5分の1に抑えたもの。"
+      },
+      {
+        "q": "これまでのOpenAIのモデルと何が違いますか？",
+        "a": "性能を維持しつつ大幅な価格低下を実現した点が大きな違い。より多くのユーザーが高性能なAIにアクセスしやすくなります。"
+      }
+    ],
+    "digest": {
+      "what": "OpenAIが新モデル「GPT-6.1 Sol」をリリース",
+      "why": "競合レベルの性能を5分の1の価格で実現。AI利用のコストバリアを低下させる動き",
+      "impact": "企業・個人ユーザー、AI導入検討者"
+    },
+    "source": "株式会社インプレス",
+    "image_url": null,
+    "image_kind": "fallback",
+    "level": "easy",
+    "generated_at": "2026-09-30 12:53"
+  },
+  {
+    "slug": "openai-gpt-6-astra-c9c835b3",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM1dNTEJmd0EzT19lTG8tTmVDWndzZmxFUGs0aFpMTTM5OHRoMVUzRmRPdEFfZlVOb1VWRUNBV2tnbWVHSGFrTkNZNnFFN0FSYi1ZeVpkU1l5UXNPQzJtMUJIZjR1T2FRN0NaVzBWYUFqaTYyQmg4MFkxS21tTFJwZA?oc=5",
+    "headline": "OpenAI、常時稼働のAIエージェント「dots」発表—GPT-6 Astraで何が変わる",
+    "seo_title": "OpenAIの新型AIエージェント「dots」とは？GPT-6 Astraの機能と特徴",
+    "summary": "OpenAIが常時稼働可能な新しいAIエージェント「dots」を発表。最新モデルのGPT-6 Astraを搭載する。",
+    "importance_score": 72,
+    "buzz_score": 68,
+    "recommend_score": 75,
+    "tldr": "OpenAIが常時稼働するAIエージェント「dots」を発表。最新のGPT-6 Astraを搭載し、AIの実用化を次のステップへ進める動き。",
+    "what_happened": "OpenAIが新たなAIエージェント「dots」を発表しました。このシステムは継続的に稼働することが可能で、最新のAIモデル「GPT-6 Astra」を搭載しています。これまでのChatGPTのようにユーザーの質問に答えるだけでなく、より自律的に動作し、タスクを処理できるAIへの進化を示しています。",
+    "why_it_matters": "AIの進化は「答える」から「動く」段階へシフトしています。常時稼働するエージェントは、人間の介入なしに継続的に業務を実行できるため、自動化の可能性が大きく広がります。これはAIが日常業務の中に深く組み込まれていく過程の重要な転機を表しています。",
+    "impact_on_reader": "常時稼働するAIエージェントが普及すれば、ルーティン業務の大幅な自動化が加速する可能性があります。事務作業やデータ処理、スケジュール管理など、現在人間が行っている多くの業務がAIに任されるようになるかもしれません。これは職業選択や仕事のあり方に影響を与える可能性があります。",
+    "reader_relevance": "ChatGPTを超える次世代のAI活用が始まろうとしており、AIの仕事への影響がより現実的になってきたからです。",
+    "risk_point": "常時稼働するAIエージェントの普及が進むと、自動化に適した職種と適さない職種の二極化が起こる可能性があり、個人がどの分野のスキルを磨くべきか判断が難しくなる段階に入ります。",
+    "opportunity_point": "AIエージェントが定型業務を担当することで、人間はより創造的や戦略的な仕事に集中できるようになり、働き方そのものをアップグレードするチャンスが生まれます。",
+    "mot_take": "OpenAIが「エージェント化」を打ち出したことは、AI業界全体がChatGPT的な対話型モデルから、より実用的な自動化ツールへの転換を加速させるシグナルになりそうです。これは競合企業も追随する可能性が高く、今後のAI競争の新しい軸になるでしょう。",
+    "what_to_watch_next": "dotsの実際の導入事例がどのような業界・企業で出始めるか、そして既存の自動化ツールやRPA企業がこの流れにどう対抗するかが注目ポイントです。",
+    "tags": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "AIエージェント"
+    ],
+    "faq": [
+      {
+        "q": "AIエージェント「dots」とChatGPTの違いは？",
+        "a": "ChatGPTはユーザーの質問に答えるツールですが、dotsは常時稼働して自律的にタスクを実行できるエージェントです。人間の指示を待たずに継続的に動作します。"
+      },
+      {
+        "q": "GPT-6 Astraとは？",
+        "a": "OpenAIの最新AIモデル。dotsに搭載されており、より高度な推論と自動実行能力を持つとされています。"
+      }
+    ],
+    "digest": {
+      "what": "OpenAI、常時稼働型AIエージェント「dots」を発表",
+      "why": "ChatGPT型から自動実行型へ。AIの実用化が新段階に",
+      "impact": "企業・職業人"
+    },
+    "source": "UQライフ",
+    "image_url": null,
+    "image_kind": "fallback",
+    "level": "easy",
+    "generated_at": "2026-09-30 12:53"
   }
 ]

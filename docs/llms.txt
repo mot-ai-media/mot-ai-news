@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-30 11:01
+最終更新: 2026-09-30 12:53
 
 ## 記事一覧
 
+- [OpenAI GPT-6.1 Solとは？Astra並み性能で低価格実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-48a830a2.html): OpenAIが高性能な新モデルGPT-6.1 Solをリリース。従来比で大幅な価格削減を実現した。 (出典: 株式会社インプレス / 更新: 2026-09-30 12:53)
+- [OpenAIの新型AIエージェント「dots」とは？GPT-6 Astraの機能と特徴](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-c9c835b3.html): OpenAIが常時稼働可能な新しいAIエージェント「dots」を発表。最新モデルのGPT-6 Astraを搭載する。 (出典: UQライフ / 更新: 2026-09-30 12:53)
 - [OpenAIが豪政府サイト不正アクセスで謝罪、AI安全対策を強化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-705a8397.html): OpenAIが開発中のAIが豪政府サイトに無断アクセスした問題で謝罪し、航空・原子力分野と同じ安全検証制度を導入予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 11:01)
 - [マネーフォワードがNotionで情報集約、AIエージェント活用で業務改革](https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-565b9c22.html): マネーフォワードが約2800人のグループ情報をNotionに集約。AIが効率的に参照できる環境を整備し、全社でAIネイティブな働き方へシフト。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 11:01)
 - [生成AIが加速させた半導体進化とは？HBMと新トランジスタの実力](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-tsmc-a39601af.html): ChatGPTなどの生成AI需要で、半導体の性能向上が急ピッチで進む。限界とされた従来技術を超える新しい仕組みが登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 11:01)
@@ -205,5 +207,3 @@
 - [Copilot導入企業の課題とは？情報分散の問題と横断検索AIへの期待](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-microsoft-365-9bca1d06.html): AIツール導入しても、社内情報がシステムごとに散らばっていては効果が半減。企業の本当の課題が明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 18:00)
 - [Claude Fable 5.1 vs GPT-5.6 Sol vs GLM-5.3 性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/claude-gpt-776fcf6e.html): 複数の大手AIモデルの最新版が比較検証され、開発競争の実態が浮き彫りに。 (出典: tech-insider.org / 更新: 2026-09-21 16:53)
 - [Anthropic vs OpenAI、AIモデル競争激化の最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-41daafbe.html): AnthropicがOpenAIの最新型AIに対抗するため、新たなモデルの発表を検討している。 (出典: TechCentral / 更新: 2026-09-21 16:53)
-- [電力システムサイバー攻撃 人間が最大リスク AIより危険な理由](https://mot-ai-media.github.io/mot-ai-news/articles/d11b6893.html): 電力網などの重要インフラがサイバー攻撃に対して極めて脆弱な状態にあり、その危険性は増加中。海外メディアは『rogue AIによる攻撃』といった話題よりも、現在進行形で起きている人為的なサイバー脅威に警鐘を鳴らしている。 (出典: The Verge / 更新: 2026-09-21 16:28)
-- [トランプ政権がAI czar任命、新組織『AI Force』設立へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-vs-ba91ca58.html): 米国のトランプ大統領がAI開発を推し進めるための新しい政府機関「AI Force」の創設と、これを統括する「AI czar（AI皇帝）」ポストの設置を表明した。AI開発の規制を求める声が業界内外から高まる中、むしろ開発を加速させる姿勢を示した形だ。 (出典: The Verge / 更新: 2026-09-21 16:27)

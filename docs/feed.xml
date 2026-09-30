@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、常時稼働のAIエージェント「dots」発表—GPT-6 Astraで何が変わる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-c9c835b3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-c9c835b3.html</guid>
+    <description>OpenAIが常時稼働可能な新しいAIエージェント「dots」を発表。最新モデルのGPT-6 Astraを搭載する。</description>
+    <pubDate>Wed, 30 Sep 2026 12:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、高性能AI「GPT-6.1 Sol」を5分の1の価格で投入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-48a830a2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-48a830a2.html</guid>
+    <description>OpenAIが高性能な新モデルGPT-6.1 Solをリリース。従来比で大幅な価格削減を実現した。</description>
+    <pubDate>Wed, 30 Sep 2026 12:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>生成AI時代、半導体メーカーが次々仕掛ける「究極の進化戦略」</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-tsmc-a39601af.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-tsmc-a39601af.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-726949b8.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-726949b8.html</guid>
     <description>企業が注目するAIと実際に成果を出すAIが大きく異なることが調査で明らかに。</description>
-    <pubDate>Tue, 29 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Android向けアプリストア「F-Droid」10年ぶり全面刷新、何が変わったのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/f-droid-android-81728ff3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/f-droid-android-81728ff3.html</guid>
-    <description>Android向けの独立系アプリストア「F-Droid」が10年ぶりに刷新。UIの大幅改善と検索・自動更新機能の追加で、より使いやすく。</description>
-    <pubDate>Tue, 29 Sep 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>「最大応力はどこ？」AIに質問するだけで解析完結、エンジニアの仕事激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/adventurecluster-cae-2c6940f1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/adventurecluster-cae-2c6940f1.html</guid>
-    <description>エンジニアが自然言語でAIに指示するだけで構造解析が完結する新機能が登場。専門知識不要の時代へ。</description>
     <pubDate>Tue, 29 Sep 2026 11:01:00 +0900</pubDate>
   </item>
 </channel></rss>
