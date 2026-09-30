@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://www.itmedia.co.jp/enterprise/articles/2608/31/news095.html",
-    "notified_at": "2026-08-31T13:00:37.529880+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2608/31/2000000951/",
-    "notified_at": "2026-08-31T13:00:51.637106+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/news/article/2608/31/2000000950/",
-    "notified_at": "2026-08-31T13:01:04.666488+00:00"
-  },
-  {
-    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news015.html",
-    "notified_at": "2026-08-31T13:01:16.028204+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/enterprise/articles/2608/27/news091.html",
-    "notified_at": "2026-08-31T13:01:30.440069+00:00"
-  },
-  {
     "link": "https://www.itmedia.co.jp/news/article/2609/01/2000001005/",
     "notified_at": "2026-09-01T02:10:35.550444+00:00"
   },
@@ -4422,5 +4402,25 @@
   {
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GWkl2RmRyLXlFWnNHYUp0em9xdE12UG5aX2RLOV80Wi1XaGZ4OHNDN1dyUUN2UTZNUVpJS1BKYXFVM0hPX2gwRWhGTFVuUlRleWMxLUhvbnVscGk1dHRwMmZYUHZOQUxWSUhoeWV2UVhRcW1MRjlCR1pQdw?oc=5",
     "notified_at": "2026-09-30T11:54:11.768450+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjTVUyUUoxOWtLNFRDcWFVLUNyMW1CYjNLMkkzLXhfS3YwYWQ1UlU3U1QyUDRoS3J1QzgtNXNFeWhNbkZ4M0x0OC1FUEVqRnh0eWRJVWZuREp0VHYtN0duWQ?oc=5",
+    "notified_at": "2026-09-30T13:00:44.036777+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2609/29/2000001860/",
+    "notified_at": "2026-09-30T13:01:08.606388+00:00"
+  },
+  {
+    "link": "https://ainow.ai/2026/09/28/278398/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25af%25e4%25b8%25ad%25e5%25b0%258f%25e4%25bc%2581%25e6%25a5%25ad%25e3%2581%2593%25e3%2581%259d%25e4%25bd%25bf%25e3%2581%2588%25e3%2582%258b%25ef%25bc%2581%25e6%25b4%25bb%25e7%2594%25a8%25e4%25be%258b8%25e9%2581%25b8",
+    "notified_at": "2026-09-30T13:01:25.952945+00:00"
+  },
+  {
+    "link": "https://ainow.ai/2026/09/28/278395/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e3%2582%25b9%25e3%2582%25b1%25e3%2582%25b8%25e3%2583%25a5%25e3%2583%25bc%25e3%2583%25ab%25e7%25ae%25a1%25e7%2590%2586%25e3%2582%2592%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9",
+    "notified_at": "2026-09-30T13:01:42.361015+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+    "notified_at": "2026-09-30T13:01:59.287103+00:00"
   }
 ]

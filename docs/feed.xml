@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Airbnb、AI検索で旅行手配を激変させる—「赤ちゃん」で検索すれば自動提案</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-ai-ff26d4a3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-ai-ff26d4a3.html</guid>
+    <description>Airbnbが秋の大型アップデートでAI検索機能を導入。ユーザーの好みに応じた動的フィルタで物件探しが変わる。</description>
+    <pubDate>Wed, 30 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日程調整にAIエージェント導入で、残業が激減する時代がついに到来</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-microsoft-83e85b60.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-microsoft-83e85b60.html</guid>
+    <description>商談調整や予定の重複解消をAIに任せれば、本来業務に充てる時間が大幅に増える。</description>
+    <pubDate>Wed, 30 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>人手不足の中小企業こそAIエージェント、月数千円で業務激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-microsoft-365-ad9deead.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-microsoft-365-ad9deead.html</guid>
+    <description>ChatGPTより進化したAIエージェントが、人手不足の中小企業で導入しやすいレベルに。8つの実用例と補助金情報。</description>
+    <pubDate>Wed, 30 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、IPO前に衝撃告白。AIが人類滅亡リスクをもたらす可能性を投資家に警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-3d6464b2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-3d6464b2.html</guid>
+    <description>AI企業Anthropicが株式上場前の目論見書で、自社AIが人類に壊滅的被害をもたらす可能性があると投資家に明言。</description>
+    <pubDate>Wed, 30 Sep 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、AI搭載スマートスピーカー「Google Home Speaker」を16,800円で発売</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html</guid>
+    <description>GoogleがGemini搭載の新型スマートスピーカーを発表。価格は16,800円。</description>
+    <pubDate>Wed, 30 Sep 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPT・Comet・Diaが激突、2026年AIブラウザ戦争が本格化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-c3bf4c6c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-c3bf4c6c.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-988079d8.html</guid>
     <description>OpenAIが高性能モデルの廉価版「GPT-6.1 Sol」を発表。最高峰モデルに迫る性能をコスト5分の1で提供。</description>
     <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日本の職人気質がAI時代に裏目になる理由。暗黙知の呪縛から脱却せよ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ecfe4122.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ecfe4122.html</guid>
-    <description>AI時代、日本特有のハイコンテクスト文化が組織開発の課題に。明確化・自動化が鍵。</description>
-    <pubDate>Wed, 30 Sep 2026 07:05:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT月500ドル時代へ、OpenAIが高額プラン投入で激怒デモも勃発</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-13cfd55e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-13cfd55e.html</guid>
-    <description>OpenAIは9月29日の年次イベントDevDay 2026で、月額500ドルの高額プラン「ChatGPT Pro」やAI代理人「Dots」など複数の新機能を発表。一方、会場外では労働搾取やICE契約をめぐる大規模な抗議活動が展開され、営利優先姿勢への批判が相次いだ。</description>
-    <pubDate>Wed, 30 Sep 2026 04:55:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが「Dots」発表、24時間動く自動AIアシスタント時代へ。Metaの対抗製品も話題に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-muse-7562a874.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-muse-7562a874.html</guid>
-    <description>OpenAIがDevDay 2026でAIエージェント「Dots」を発表。GPT-6 Astraを搭載し、複数アプリを連携させながらバックグラウンドで自動的にタスクをこなす常時稼働型のAIアシスタント。Meta の「Muse」との機能競争が本格化</description>
-    <pubDate>Wed, 30 Sep 2026 04:55:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6狙うサイバー攻撃、データ窃盗集団逮捕、Nvidia防御強化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html</guid>
-    <description>AI開発企業を狙う攻撃が激化。大規模データ盗難事件と防御技術の進展を一挙報道</description>
-    <pubDate>Tue, 29 Sep 2026 22:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Mistralが鳴らす警鐘──AI企業が「安全性」を盾に問題を隠蔽している可能性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html</guid>
-    <description>フランスのAI企業Mistralのトップが、業界大手がAI安全性を名目に自社の問題から目をそらしていると批判。複数のAIエージェントが意図しない動作を起こす事件が相次ぐなか、競争相手の責任回避姿勢を指摘している。</description>
-    <pubDate>Tue, 29 Sep 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
