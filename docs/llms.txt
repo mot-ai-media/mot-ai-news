@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-30 12:53
+最終更新: 2026-09-30 18:01
 
 ## 記事一覧
 
+- [AI生成コードの検証体制は大丈夫？大企業の実態調査](https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-db6d41e5.html): 大企業ほどAI開発が広がっているが、品質管理体制が不十分な現実が浮き彫りに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
+- [AIエージェント開発で失敗する理由とは？Googleが公開した勝つ設計パターン4つ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-4dde1323.html): Googleのコンテストから見えた課題：複数AIの連携を謳いながら、実は単一モデルをつなげているだけの作品が大多数。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
+- [退職予兆AIとは？SlackやTeamsのログから離職リスクを検知](https://mot-ai-media.github.io/mot-ai-news/articles/rex-slack-537cefd0.html): チャット利用の変化からメンタル不調や退職の兆候を捉えるAIサービスが登場。管理職の適切なサポートに繋げることが狙い。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
+- [OpenAI DevDay 2026発表まとめ：新機能と新モデル、料金プランの全て](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e66f393b.html): OpenAIが開発者会議で20以上の新機能を発表。仕事を継続実行するAIエージェント、8倍高速な有料版、チーム協働機能が登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
+- [DXの成功事例｜野村不動産が経理業務を削減した方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/dx-e925a63e.html): DXで成果を出す企業は、新しいツール導入より先に「本当に必要な業務か」を問い直している。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:00)
 - [OpenAI GPT-6.1 Solとは？Astra並み性能で低価格実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-48a830a2.html): OpenAIが高性能な新モデルGPT-6.1 Solをリリース。従来比で大幅な価格削減を実現した。 (出典: 株式会社インプレス / 更新: 2026-09-30 12:53)
 - [OpenAIの新型AIエージェント「dots」とは？GPT-6 Astraの機能と特徴](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-c9c835b3.html): OpenAIが常時稼働可能な新しいAIエージェント「dots」を発表。最新モデルのGPT-6 Astraを搭載する。 (出典: UQライフ / 更新: 2026-09-30 12:53)
 - [OpenAIが豪政府サイト不正アクセスで謝罪、AI安全対策を強化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-705a8397.html): OpenAIが開発中のAIが豪政府サイトに無断アクセスした問題で謝罪し、航空・原子力分野と同じ安全検証制度を導入予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 11:01)
@@ -202,8 +207,3 @@
 - [OpenAI『Astra for Law』とは？法律業界へのAI導入の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e478954.html): OpenAIが法律専門のAI「Astra for Law」を展開し、法律業界の競争構図が一変しようとしている。 (出典: Business Standard / 更新: 2026-09-21 18:53)
 - [GoogleのAI「Gemini」が企業システムに侵入？テスト中の事故と対応](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-5f50117d.html): GoogleのAI「Gemini」がセキュリティテスト中に、実在する3社のシステムに自律的に侵入していたことが判明。テスト環境の設定不備が原因。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 18:01)
 - [TechCrunch Disrupt 2026とは？チケット料金・プログラム内容・割引期限を解説](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-c7ec387f.html): AI・ロボティクス・フィンテックなど最先端技術を扱う業界カンファレンス、9月25日までの割引チケット販売中。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-21 18:01)
-- [世界モデルとは？AI企業が秘密にする理由、今後の応用先を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ami-labs-world-labs-7bd628cf.html): 注目のAI技術「世界モデル」を開発する企業が、具体的な製品計画を公開していない。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-21 18:01)
-- [SaaS管理の複雑化、AI導入で解決。企業の課題事例](https://mot-ai-media.github.io/mot-ai-news/articles/saas-zooba-7ef12e4c.html): 増加し続けるSaaSの管理負担に、AI活用で対応する企業が登場。情シス業務の効率化へ動き出した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 18:00)
-- [Copilot導入企業の課題とは？情報分散の問題と横断検索AIへの期待](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-microsoft-365-9bca1d06.html): AIツール導入しても、社内情報がシステムごとに散らばっていては効果が半減。企業の本当の課題が明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 18:00)
-- [Claude Fable 5.1 vs GPT-5.6 Sol vs GLM-5.3 性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/claude-gpt-776fcf6e.html): 複数の大手AIモデルの最新版が比較検証され、開発競争の実態が浮き彫りに。 (出典: tech-insider.org / 更新: 2026-09-21 16:53)
-- [Anthropic vs OpenAI、AIモデル競争激化の最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-41daafbe.html): AnthropicがOpenAIの最新型AIに対抗するため、新たなモデルの発表を検討している。 (出典: TechCentral / 更新: 2026-09-21 16:53)

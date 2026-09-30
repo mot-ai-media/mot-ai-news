@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、常時稼働AIエージェント「dots」と高速版「Ultrafast」で業務激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e66f393b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e66f393b.html</guid>
+    <description>OpenAIが開発者会議で20以上の新機能を発表。仕事を継続実行するAIエージェント、8倍高速な有料版、チーム協働機能が登場。</description>
+    <pubDate>Wed, 30 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>SlackやTeamsの使い方で退職予備軍が丸わかり、AIが兆候を察知</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/rex-slack-537cefd0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/rex-slack-537cefd0.html</guid>
+    <description>チャット利用の変化からメンタル不調や退職の兆候を捉えるAIサービスが登場。管理職の適切なサポートに繋げることが狙い。</description>
+    <pubDate>Wed, 30 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Googleが暴露、「マルチエージェント」の9割は張りぼて　本物の設計パターン4つ公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-4dde1323.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-4dde1323.html</guid>
+    <description>Googleのコンテストから見えた課題：複数AIの連携を謳いながら、実は単一モデルをつなげているだけの作品が大多数。</description>
+    <pubDate>Wed, 30 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>大企業の過半数が非エンジニアにAI開発させているのに、品質検査の体制が追いついていない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-db6d41e5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-db6d41e5.html</guid>
+    <description>大企業ほどAI開発が広がっているが、品質管理体制が不十分な現実が浮き彫りに。</description>
+    <pubDate>Wed, 30 Sep 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>野村不動産が年9000時間を生み出した。DXの成功は「やめる」から始まる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dx-e925a63e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dx-e925a63e.html</guid>
+    <description>DXで成果を出す企業は、新しいツール導入より先に「本当に必要な業務か」を問い直している。</description>
+    <pubDate>Wed, 30 Sep 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、常時稼働のAIエージェント「dots」発表—GPT-6 Astraで何が変わる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-c9c835b3.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-c9c835b3.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d9559f89.html</guid>
     <description>AnthropicがClaude Sonnet 5.5を発表。一部の評価でOpenAIの最新モデルを上回る性能を示す。</description>
     <pubDate>Tue, 29 Sep 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nvidia、1500億ドルの自社株買い戻しで株価の「軌道を変える」—米著名投資家が指摘</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c397fad7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c397fad7.html</guid>
-    <description>AI半導体大手Nvidiaが150億ドル規模の追加自社株買い戻しプログラムを実施することが明らかになった。米著名投資家ジム・クレイマー氏は、この施策が同社の株価動向に大きな影響を与える可能性があると指摘している。</description>
-    <pubDate>Tue, 29 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、廉価版AI「Sonnet 5.5」をリリース——CEOの「減速論」から一転、コーディング特化で勝負</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html</guid>
-    <description>AI企業Anthropicが、新型AI「Sonnet 5.5」をリリースした。同社CEOが「AI開発の減速」を主張していたが、この発表は一見矛盾している。ただしSonnet 5.5は最先端性を求めず、むしろコーディングや知識系の実務作業に特化し、より手頃な価格設定を目指す製品となっている。</description>
-    <pubDate>Tue, 29 Sep 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ザッカーバーグ、OpenAI幹部がトランプ次期大統領と会談へ――AI規制論争が政治化する転機</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-4cb770cd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-4cb770cd.html</guid>
-    <description>Meta、OpenAI、Anthropicなど大手AI企業の経営陣がトランプ次期大統領と会談予定。AI開発の速度を緩めるべきか加速させるべきかという業界内の対立が、米政治への働きかけに発展しており、今後の規制方針に大きな影響を与える可能性がある。</description>
-    <pubDate>Tue, 29 Sep 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AMD、1兆ドル企業に到達。AI時代の「自動化エージェント」需要がCPU市場を激変させる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amd-ai-19edbf96.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amd-ai-19edbf96.html</guid>
-    <description>米半導体大手AMDが時価総額1兆ドルを突破した。背景には、将来のAI技術である「エージェントAI」が高性能CPUへの需要を大幅に拡大させるとの見方がある。CNBCの著名コメンテーターは、この上昇がまだ序章に過ぎないと指摘している。</description>
-    <pubDate>Tue, 29 Sep 2026 13:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>話題のAI導入が儲からない理由、Gartner調査で判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-726949b8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-726949b8.html</guid>
-    <description>企業が注目するAIと実際に成果を出すAIが大きく異なることが調査で明らかに。</description>
-    <pubDate>Tue, 29 Sep 2026 11:01:00 +0900</pubDate>
   </item>
 </channel></rss>
