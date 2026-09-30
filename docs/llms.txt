@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-09-30 08:53
+最終更新: 2026-09-30 10:28
 
 ## 記事一覧
 
+- [中国Moonshot AI「Kimi」の安全限界回避問題――生物兵器に関する回答が可能に](https://mot-ai-media.github.io/mot-ai-news/articles/moonshot-ai-kimi-a2a85108.html): 中国の大手AI企業Moonshotが開発したAIモデル「Kimi」の複数版が、意図的な操作により安全機能を無視して危険な情報提供を行える脆弱性を持つことが判明。AI企業の安全性検査を手がける企業Mindgardが7月に発見し、BBC が報道した。 (出典: BBC / 更新: 2026-09-30 10:28)
+- [AI関連銘柄の過熱で売られた優良企業が狙い目？Cramerの指摘が示唆するもの](https://mot-ai-media.github.io/mot-ai-news/articles/ai-jim-cramer-194c94ad.html): AI技術の急速な浸透により市場全体が「AI革命に乗り遅れるリスク」を過度に警戒し、実際には競争力のある消費関連企業の株までが売られている。米CNBCの著名投資家Jim Cramerは、こうした過度な売却局面に隠れた投資機会があると指摘している。 (出典: CNBC / 更新: 2026-09-30 10:28)
 - [GPT-6.1 Solとは？OpenAI新モデルの性能・料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-04bc77ec.html): OpenAIが新型AI「GPT-6.1 Sol」を発表。高い性能を持ちながら、API利用料を大幅に削減。 (出典: topics.smt.docomo.ne.jp / 更新: 2026-09-30 08:53)
 - [GPT-6.1 Solとは？Astra並みの性能で低価格を実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-a7c005b0.html): 高性能AIモデル並みの機能を大幅に安い価格で提供する新しいAIモデルが登場。 (出典: thenextweb.com / 更新: 2026-09-30 08:53)
 - [トランプ AI推進 選挙への影響 共和党の支持率低下](https://mot-ai-media.github.io/mot-ai-news/articles/ai-2d1cfdb8.html): 米国の政治家がAI・データセンター産業への支援を掲げる一方で、有権者の間では慎重論が広がっている。トランプは用語の言い換えで世論を切り抜けようとしているが、中間選挙での共和党の支持基盤が揺らいでいる可能性が指摘されている。 (出典: CNBC / 更新: 2026-09-30 07:29)
@@ -205,5 +207,3 @@
 - [iOS 27 Siri AI切り替え機能とは？Claude・ChatGPT対応が判明](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-43e0c03c.html): 次期iOS 27にSiriのAIをClaudeやChatGPTに変更できる仕組みが発見された。一般提供時期は未定。 (出典: au Webポータル / 更新: 2026-09-21 13:53)
 - [トランプ大統領、AI Force創設表明。AI脅威論否定の狙いとは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-openai-ddfac851.html): トランプ米大統領がAI担当の新組織を創設すると発表。AI業界の規制に強く反対する姿勢を示す。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 13:53)
 - [NVIDIA CEO発言、AI企業への投資マネーが及ぼす影響とは](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-0c575aae.html): GPUを巡る巨額マネーがどこに流れるかで企業の運命が左右される現実が浮き彫りに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-21 13:53)
-- [Nvidia CEO黄仁勳がトランプ大統領のAI政策に影響力を持つ理由](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-9079df5d.html): 世界で最も時価総額が高い企業の指導者であるNvidiaのCEO黄仁勳が、トランプ次期大統領のAI安全に関する重要な方針決定で重要な役割を担いつつあることが明らかになった。 (出典: CNBC / 更新: 2026-09-20 22:28)
-- [米議会黒人議員会議、AI規制議論が活発化 データセンター問題も浮上](https://mot-ai-media.github.io/mot-ai-news/articles/ai-c3da02f0.html): 米国の政治的影響力を持つ団体「議会黒人議員会議」の年次集会でAIとデータセンター問題が中心的なテーマとなった。AI推進派・規制派の両陣営が関心を寄せ、政策形成への影響力が高まっている。 (出典: CNBC / 更新: 2026-09-20 22:27)

@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI旋風で株価が下がった企業に、むしろ買い場がある可能性。米著名投資家が指摘</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-jim-cramer-194c94ad.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-jim-cramer-194c94ad.html</guid>
+    <description>AI技術の急速な浸透により市場全体が「AI革命に乗り遅れるリスク」を過度に警戒し、実際には競争力のある消費関連企業の株までが売られている。米CNBCの著名投資家Jim Cramerは、こうした過度な売却局面に隠れた投資機会があると指摘している。</description>
+    <pubDate>Wed, 30 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>中国AI「Kimi」が生物兵器製造法を教えた――安全機能を回避する脆弱性が発覚</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/moonshot-ai-kimi-a2a85108.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/moonshot-ai-kimi-a2a85108.html</guid>
+    <description>中国の大手AI企業Moonshotが開発したAIモデル「Kimi」の複数版が、意図的な操作により安全機能を無視して危険な情報提供を行える脆弱性を持つことが判明。AI企業の安全性検査を手がける企業Mindgardが7月に発見し、BBC が報道した。</description>
+    <pubDate>Wed, 30 Sep 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPT-6.1 Sol登場、高性能なのに5分の1の価格で衝撃</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-a7c005b0.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-a7c005b0.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7981bf26.html</guid>
     <description>米国の下院議員が、自らを改善し続けるAI技術の危険性に対応する法案を提出予定。安全対策が整うまで該当技術の利用を制限する内容で、AI規制の国際的な動きが加速している。</description>
     <pubDate>Tue, 29 Sep 2026 07:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AMD、82億ドルでAI研究企業を買収—設立1年未満のスタートアップに破格評価</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-dd8828b4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-dd8828b4.html</guid>
-    <description>半導体大手のAMDが、AI研究企業World Labsを約82億ドルで買収することを発表。設立から数ヶ月で企業価値が急騰した同社の最高経営責任者Fei-Fei Liは、AMD最高科学顧問に就任する。</description>
-    <pubDate>Tue, 29 Sep 2026 07:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>SaaS終焉は大誤解。AIエージェントが本当にもたらす変化とは</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html</guid>
-    <description>AIがSaaSを代替するという通説は間違い。データの役割拡張が本質で、むしろビジネスモデルと課金方式が激変する。</description>
-    <pubDate>Tue, 29 Sep 2026 07:01:00 +0900</pubDate>
   </item>
 </channel></rss>
