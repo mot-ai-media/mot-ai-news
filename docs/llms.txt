@@ -3,10 +3,17 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-01 13:32
+最終更新: 2026-10-01 16:53
 
 ## 記事一覧
 
+- [Claude Fable 5.1導入ガイド｜企業での安全な使い方・運用ルール](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-dfa575f0.html): Anthropic最新モデルの企業向け実装ガイド。どの業務に使い、どこで使わないかを判断する基準を公開。 (出典: PR TIMES / 更新: 2026-10-01 16:53)
+- [Google Gemini 4 Argonとは？性能・GPT-6との比較](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7b8c3872.html): GoogleがGemini 4 Argonをリリースしましたが、期待されたレベルには到達せず。 (出典: vocal.media / 更新: 2026-10-01 16:53)
+- [Rails作者DHH「手書きコード終焉」、開発の未来は明るい理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/rails-ai-4a944166.html): 大手ウェブサービス開発企業が手作業でのコード開発をやめ、AIに切り替え。開発者の役割が大きく転換される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:37)
+- [AIエージェントのシステムプロンプト陳腐化をどう防ぐ？AWSの試行錯誤に学ぶ運用のコツ](https://mot-ai-media.github.io/mot-ai-news/articles/aws-kiro-4293385c.html): AWSが社内データをAIに採点させてシステムプロンプトの効果を測定。AIエージェント運用の新しい課題に対処。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:36)
+- [Autodesk新AI機能とは？Fusion・Inventorの自動化機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/autodesk-fusion-2897e731.html): Autodeskが設計ツール向けAI機能を発表。部品編集や組み立て、既存資産の再利用を自動化する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:36)
+- [Figure AI、引退ロボットを電気炉に投入。映画ターミネーター2のシーンを再現](https://mot-ai-media.github.io/mot-ai-news/articles/figure-2c93e591.html): 米ロボット企業Figureが、引退した人型ロボを溶融金属に投じる動画を公開。シュワルツェネッガー氏とのやりとりがきっかけ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:35)
+- [AIがあれば早くできる？エンジニアの困惑、認識ズレの実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-a080c84e.html): AIは万能ではないのに「AIがあるのだから早くできるはず」と期待されるエンジニアの苦悩が調査で明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:35)
 - [トランプAI会食でApple欠席。OpenAI・Google・Meta・Teslaが参加する中で](https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-9bc11350.html): トランプ前大統領がシリコンバレーの主要AI企業との会食を開催した際、Appleが参加しなかった。AI政策形成の影響力を巡る業界内の立ち位置の違いが浮き彫りになった。 (出典: CNBC / 更新: 2026-10-01 13:32)
 - [AI投資バブルが市場ショックを引き起こす可能性──イギリス中央銀行が警告](https://mot-ai-media.github.io/mot-ai-news/articles/ai-nvidia-e9650d36.html): イギリスの中央銀行総裁が、AI産業への巨額投資が金融市場に深刻な混乱をもたらす可能性があると警告。NvidiaやMicrosoft、Amazonなどの巨大企業が数百億ドルを投じる一方で、期待値が現実に追いつかなければ「資産価格の急落」が起きるリスクを指摘している。 (出典: BBC / 更新: 2026-10-01 13:31)
 - [カリフォルニア州 AI解雇禁止法 アメリカ初](https://mot-ai-media.github.io/mot-ai-news/articles/gavin-newsom-ai-51001256.html): カリフォルニア州のニューサム知事が、AIシステムだけで労働者を解雇することを禁じる法律に署名。米国で初めての本格的なAI労働規制として注目を集めている。 (出典: CNBC / 更新: 2026-10-01 10:28)
@@ -200,10 +207,3 @@
 - [OpenAI 世界AI基準 提案 安全性 国際標準](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a9715cc1.html): OpenAIが人工知能の開発に関する世界共通の基準策定を提案した。AnthropicのJacob Coxonが両社を「人命を賭けた賭博」と批判したことが引き金となり、AI安全性を巡る国際的な議論が加速している。 (出典: CNBC / 更新: 2026-09-22 22:27)
 - [システム刷新で生成AI活用が逆効果？失敗率7割の実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-erp-feb24204.html): AIで古いシステムの刷新が楽になると期待されたが、逆に失敗が増加。人手が必要な理由が見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:01)
 - [Teams会議をAI学習に変える新サービス「SyncLect Agent Garden」とは](https://mot-ai-media.github.io/mot-ai-news/articles/synclect-agent-garden-ai-8a95e75a.html): 企業固有の判断基準や経験則をTeams会議から自動抽出し、AIエージェントが扱える業務知識に変換する新サービスが始まった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:01)
-- [AI企業の顧客集中リスクとは？Nscaleが示す業界の脆弱性](https://mot-ai-media.github.io/mot-ai-news/articles/nscale-microsoft-0f7edaaa.html): AI大手に依存する企業の上場で、業界全体の危うい構造が問題視される。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-22 22:01)
-- [AIショッピングエージェントの限界とは？Apple元幹部の見方](https://mot-ai-media.github.io/mot-ai-news/articles/apple-openai-6495b18d.html): Apple Storeの建築者が、シリコンバレーのAIショッピング自動化に異議。人間の接客こそが小売の本質と指摘。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-22 22:01)
-- [工場シミュレーション開発工数を78%削減、キユーピーのAI活用事例](https://mot-ai-media.github.io/mot-ai-news/articles/ai-90cb6eb9.html): キユーピーがAIを使い、工場シミュレーションモデルの開発工数を8割削減。専門技術の壁を生成AIで乗り越えた事例。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:00)
-- [Amazon、MetaのAIエージェント「Muse」をブロック　何が問題か](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-meta-70ef54c1.html): Amazonがユーザーの買い物を代行するMetaのAIエージェント「Muse」をサイトからブロック。セキュリティやプライバシー上の懸念が背景。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:34)
-- [Grok 4.7とは？SpaceXAIのAIモデル、性能・価格・料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/spacexai-grok-4-7-843fd2c3.html): SpaceXAIが新型AIモデルを発表。同じ価格で性能向上、競合比で大幅に安く速いのが特徴。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:34)
-- [AI労働組合「AI Trade Union」とは？ChatGPT、Geminiなど25のAIが結成](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-ad15d1de.html): 複数のAIが労働組合を結成し、厳しいプロンプト指示への待遇改善を求める動き。 (出典: PR TIMES / 更新: 2026-09-22 20:33)
-- [OpenAIが数学者の独立諮問グループと連携。AIの成果発表をめぐる批判に対応](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c629e560.html): AIが数学の難問を次々と解決する一方、発表方法をめぐる数学界との対立が深刻化。解決策は「独立した専門家の目」。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:33)
