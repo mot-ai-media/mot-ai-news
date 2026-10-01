@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-01 22:01
+最終更新: 2026-10-01 22:34
 
 ## 記事一覧
 
+- [Google Gemini 4発表 何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-2665a525.html): Googleが新型AI「Gemini 4」を発表。同日、株式市場ではダウ平均が下落、Micronは好決算を発表するなど、AI産業の勢力図が変わりつつある動きが加速している。 (出典: CNBC / 更新: 2026-10-01 22:34)
+- [AIを「Super Intelligence」に改名で、スロベニア.siドメイン登録が殺到](https://mot-ai-media.github.io/mot-ai-news/articles/trump-super-intelligence-7256ec82.html): トランプ米大統領がAIを「Super Intelligence（SI）」に改名するよう提唱したことで、スロベニアのドメイン「.si」の登録申請が9月に2100%以上増加。44,000件の新規登録が殺到した背景には、投機目的での「サイバースクワッティング」の可能性が指摘されている。 (出典: BBC / 更新: 2026-10-01 22:33)
 - [衛星でAI実行するSatlyt、800万ドル調達　SpaceXとの違いは](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-google-de11222d.html): 元GoogleとSpaceX出身のエンジニアが、複数の衛星でAIを共有実行するソフトウェア企業を創業し資金調達。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 22:01)
 - [OpenAIの新「Decisions API」とは？何ができる・Jevとの違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-c2747f33.html): OpenAIが素早く安価に判断を下すAPI発表。AI自動化の実用化が進む。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 22:01)
 - [ElevenLabs企業価値220億ドルに倍増、AI音声市場が急成長](https://mot-ai-media.github.io/mot-ai-news/articles/elevenlabs-ai-6e1523d2.html): リアルな人間の声を生成するAI企業ElevenLabsが、わずか1年で企業価値を倍にした。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 22:01)
@@ -205,5 +207,3 @@
 - [中国AI開発の進展と米国との競争、自律ロボット技術が鍵に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b336b2d8.html): 中国がAI技術開発で米国や他国と激しく競争を繰り広げている。5万台の自律ロボット技術の進展から、ロボティクスの未来を見つめるBBCの報道。日本の産業競争力にも影響を及ぼす可能性がある。 (出典: BBC / 更新: 2026-09-23 16:28)
 - [AIが新卒採用を直撃。企業がエントリーレベルの人材採用を再考](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-60695165.html): AIが従来は新入社員に任せていた定型業務を急速に代替し始めている。これにより世界中の企業が初級職の採用戦略の見直しを迫られており、若年層の就職市場に大きな変化をもたらす可能性が指摘されている。 (出典: CNBC / 更新: 2026-09-23 16:28)
 - [AWS・Salesforce連携強化とは？AIがデータを探さなくて済む仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/aws-salesforce-686de8e2.html): 企業データが分散している問題をAIと既存ツールの統合で解決。データを動かさずにAIが活用できる環境へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:10)
-- [AI導入後の課題「データ基盤問題」とは。パーソルが支援サービス開始](https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html): AIを入れたのに活用し続けられない企業が増加。データ整理不足やコスト増が原因で、パーソルが支援サービスを開始。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:10)
-- [トランプ大統領がAIを改称「Super Intelligence」とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-57b841c6.html): 米国がAI用語を「Super Intelligence」に変更し、国際管理枠組みを拒否する方針を表明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:09)

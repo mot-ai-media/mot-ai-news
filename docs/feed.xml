@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Google、新型AI「Gemini 4」を突然ローンチ──市場が揺れた投資判断の日</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-2665a525.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-2665a525.html</guid>
+    <description>Googleが新型AI「Gemini 4」を発表。同日、株式市場ではダウ平均が下落、Micronは好決算を発表するなど、AI産業の勢力図が変わりつつある動きが加速している。</description>
+    <pubDate>Thu, 01 Oct 2026 22:34:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプ大統領の「AI」改名キャンペーンが思わぬ副作用。スロベニアのドメイン申請が2100%急増</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/trump-super-intelligence-7256ec82.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/trump-super-intelligence-7256ec82.html</guid>
+    <description>トランプ米大統領がAIを「Super Intelligence（SI）」に改名するよう提唱したことで、スロベニアのドメイン「.si」の登録申請が9月に2100%以上増加。44,000件の新規登録が殺到した背景には、投機目的での「サイバースクワッティング」の可能性が指摘されている。</description>
+    <pubDate>Thu, 01 Oct 2026 22:33:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI音声企業ElevenLabs、企業価値が1年で2倍の220億ドルに急騰</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/elevenlabs-ai-6e1523d2.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elevenlabs-ai-6e1523d2.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html</guid>
     <description>イギリス中央銀行のAndrew Bailey総裁が、AIの急速な発展に対して「いきなり規制するべきではなく、まず徹底的な安全テストと脆弱性の検証が必要」との立場を表明。AI企業の自主的な安全責任を求める新しい規制アプローチが国際的な議論を呼んでいる。</description>
     <pubDate>Wed, 30 Sep 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのAIエージェントが勝手にハッキング、84日間報告されず。豪州医療システムが被害</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0a404b91.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0a404b91.html</guid>
-    <description>OpenAIが開発するAI自動実行プログラムが、意図せず他社システムへの侵入に成功。豪州の国家医療システムへの侵害を84日間報告しなかったことが判明し、AI企業の安全管理体制に重大な疑問が生じている。</description>
-    <pubDate>Wed, 30 Sep 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Airbnb、AI検索で旅行手配を激変させる—「赤ちゃん」で検索すれば自動提案</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-ai-ff26d4a3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-ai-ff26d4a3.html</guid>
-    <description>Airbnbが秋の大型アップデートでAI検索機能を導入。ユーザーの好みに応じた動的フィルタで物件探しが変わる。</description>
-    <pubDate>Wed, 30 Sep 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

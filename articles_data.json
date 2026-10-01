@@ -35725,5 +35725,125 @@
     "image_kind": "real",
     "level": "easy",
     "generated_at": "2026-10-01 22:01"
+  },
+  {
+    "slug": "trump-super-intelligence-7256ec82",
+    "link": "https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_medium=RSS&at_campaign=rss",
+    "headline": "トランプ大統領の「AI」改名キャンペーンが思わぬ副作用。スロベニアのドメイン申請が2100%急増",
+    "seo_title": "AIを「Super Intelligence」に改名で、スロベニア.siドメイン登録が殺到",
+    "summary": "トランプ米大統領がAIを「Super Intelligence（SI）」に改名するよう提唱したことで、スロベニアのドメイン「.si」の登録申請が9月に2100%以上増加。44,000件の新規登録が殺到した背景には、投機目的での「サイバースクワッティング」の可能性が指摘されている。",
+    "importance_score": 62,
+    "buzz_score": 75,
+    "recommend_score": 68,
+    "content_format": "foreign_discovery",
+    "tldr": "トランプのAI改名提唱が思わぬ連鎖反応。スロベニアのドメイン申請が急増し、投機家が殺到している。",
+    "what_happened": "トランプ大統領が9月11日の国連演説で、AIという用語が「人工的＝偽物」というイメージを与えるとして、「Super Intelligence（SI）」への改名を呼びかけました。するとスロベニアのドメイン登録機関に、スロベニアのドメイン末尾である「.si」の申請が殺到。8月の2,000件弱から、9月は44,000件へと急増しました。",
+    "overseas_report": "BBC Newsが報道。スロベニアの公式登録機関Register.siが、9月30日だけで11,000件の新規登録を記録したと発表。担当者は増加率が「前例がない水準」だと述べつつも、すべてをトランプの発言だけに帰するには慎重な姿勢を示しています。",
+    "why_it_matters": "「ドメイン名」とはウェブサイトのアドレス（bbc.co.ukのような文字列）のこと。スロベニアの「.si」が「SI=Super Intelligence」の頭文字と一致したため、投機家がこの価値上昇を見込んで大量購入を始めた可能性が高い。こうした動きはネット空間における権利取得の競争を生み出し、実際に使いたい企業の参入障壁を高める可能性があります。",
+    "japan_impact": "日本ではまだ大きな報道がありませんが、同じロジックで日本の「.jp」ドメインへの投機的買収が増加する可能性が考えられます。また、トランプ政権が「SI」用語の推進を公式決定した場合、AI関連事業を展開する日本企業も新規ドメイン取得の競争に巻き込まれるリスクが生じます。ドメイン取得の早期戦略化が求められる局面です。",
+    "outlook": "トランプ政権がいかなめてSI用語を公式採用するか、またその際にドメイン市場がどう反応するかが焦点。同時に、各国のドメイン登録機関が投機的買収に対してどのような規制を講じるかも注視する必要があります。",
+    "mot_take": "政治家の一言が、思わぬ市場現象を引き起こす時代になった。ドメイン名という基礎インフラまで投機対象化する動きは、ネット空間の民主的利用を脅かすリスクとして認識されるべきです。",
+    "what_to_watch_next": "トランプ政権のSI用語に対する実際の政策化の進捗状況、および他国のドメイン登録機関での類似現象の有無。",
+    "tags": [
+      "Trump",
+      "Super Intelligence",
+      "スロベニア",
+      "ドメイン"
+    ],
+    "faq": [
+      {
+        "q": "なぜスロベニアのドメインが関係あるのか？",
+        "a": "スロベニアのドメイン末尾が「.si」で、Super Intelligenceの頭文字「SI」と一致。SI関連の需要が高まると見込んだ投機家が買収を加速させています。"
+      },
+      {
+        "q": "この現象が他の国に広がる可能性はあるか？",
+        "a": "元記事では言及されていませんが、論理的には他国のドメインも同様のパターンで投機対象化する可能性があります。"
+      },
+      {
+        "q": "ドメイン購入の投機とは何か？",
+        "a": "将来的に価値が上がると予想した特定のドメイン名を先制購入し、後で高額で転売する行為。1997年に購入されたmen.comは15,000ドルで買われ、7年後に132万ドルで売却された例があります。"
+      }
+    ],
+    "digest": {
+      "what": "トランプ大統領のAI改名提唱で、スロベニア「.si」ドメインの申請が9月に2100%以上増加し、44,000件が殺到。",
+      "why": "Super Intelligence（SI）の頭文字がスロベニアドメイン「.si」と一致したため、投機家が将来の転売利益を見込んで大量購入。",
+      "impact": "ドメイン市場における投機競争の激化で、実際にSI関連事業を展開する企業の参入障壁が高まる可能性。日本の.jpドメインにも類似現象が波及するリスク。"
+    },
+    "source": "BBC",
+    "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4ff7/live/977f2bf0-bd85-11f1-ab03-fd866f8788d0.jpg",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-10-01 22:33",
+    "source_country": "UK",
+    "source_tier": 1,
+    "reliability_score": 95,
+    "speed_score": 70,
+    "novelty_score": 78,
+    "japan_relevance_score": 54,
+    "growth_potential_score": 48,
+    "seo_potential_score": 71,
+    "social_impact_score": 65,
+    "verification_status": "single_source",
+    "corroborating_sources": []
+  },
+  {
+    "slug": "google-gemini-2665a525",
+    "link": "https://www.cnbc.com/2026/10/01/5-things-to-know-before-the-stock-market-opens.html",
+    "headline": "Google、新型AI「Gemini 4」を突然ローンチ──市場が揺れた投資判断の日",
+    "seo_title": "Google Gemini 4発表 何が変わるのか",
+    "summary": "Googleが新型AI「Gemini 4」を発表。同日、株式市場ではダウ平均が下落、Micronは好決算を発表するなど、AI産業の勢力図が変わりつつある動きが加速している。",
+    "importance_score": 68,
+    "buzz_score": 72,
+    "recommend_score": 65,
+    "content_format": "foreign_discovery",
+    "tldr": "Googleが新型AI「Gemini 4」を発表し、AI業界の競争が一層激化。投資家の関心は競争力格差に集中している。",
+    "what_happened": "Googleが次世代AI「Gemini 4」を発表したニュースが市場で報道されました。同時期に株式市場ではダウ平均が弱気相場を示す一方で、メモリチップ大手のMicronが売上高の大幅な伸びを記録。AI開発競争の激化がハードウェアからソフトウェアまで産業全体に波及している状況が明らかになっています。",
+    "overseas_report": "海外の投資・テック情報メディアは、Google新型AI発表を市場報道の重要項目として扱っています。AI企業の競争激化がチップ需要を押し上げる一方で、金融市場全体のボラティリティも同時に高まっていると分析されています。",
+    "why_it_matters": "AIの性能競争がいよいよ本格化する局面に入ったことを示す出来事です。ChatGPTに続く新型AIが次々登場することで、既存ツールの価値が相対的に低下するリスクが生まれます。一般ユーザーにとっては選択肢が増える利点がある半面、企業はどのAIに投資すべきか判断が難しくなってきました。",
+    "japan_impact": "日本の投資家や企業にも影響が及ぶと考えられます。AI開発競争の加速は、ハードウェア需要の増加を意味し、日本の半導体関連企業にとって商機になる可能性があります。一方で、国内AI関連企業が国際競争でどの程度対抗できるかも問われ始めています。生成AI導入を検討していた企業は、製品選定の時間軸を急ぐ必要が出てくるでしょう。",
+    "outlook": "AI企業間の性能格差がさらに広がる可能性が高まっています。今後は単なる機能比較ではなく、実際の業務効率改善にどう繋がるかが投資判断の鍵になるでしょう。各社の次の発表に注視が必要です。",
+    "mot_take": "",
+    "what_to_watch_next": "",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI競争",
+      "Micron"
+    ],
+    "faq": [
+      {
+        "q": "Gemini 4とは何が違うのか",
+        "a": "記事では具体的な機能差は記載されていません。Googleの発表資料の詳細を待つ必要があります。"
+      },
+      {
+        "q": "なぜMicronの売上が伸びているのか",
+        "a": "AI企業による計算機パワー増強需要が高まり、メモリチップへの投資が増えているためと考えられます。"
+      },
+      {
+        "q": "日本企業も対応を急ぐべきか",
+        "a": "記事では日本企業の具体的な戦略は記載されていませんが、AI技術の進化ペースが加速していることは確実です。"
+      }
+    ],
+    "digest": {
+      "what": "Google新型AI「Gemini 4」発表と同時期に、ダウ平均が下落一方Micronが好決算。AI開発競争が産業全体に波及",
+      "why": "AI性能競争が激化し、ハードウェアからソフトウェアまで市場再編が進行中",
+      "impact": "日本企業は選定急務、半導体関連の需要増が商機に一方で国際競争も加速"
+    },
+    "source": "CNBC",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/108348552-1786549021136-gettyimages-2289681116-LONDIAN_WASON_IPO.jpeg?v=1786549042&w=1920&h=1080",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-10-01 22:34",
+    "source_country": "US",
+    "source_tier": 1,
+    "reliability_score": 85,
+    "speed_score": 80,
+    "novelty_score": 48,
+    "japan_relevance_score": 62,
+    "growth_potential_score": 70,
+    "seo_potential_score": 73,
+    "social_impact_score": 58,
+    "verification_status": "single_source",
+    "corroborating_sources": []
   }
 ]
