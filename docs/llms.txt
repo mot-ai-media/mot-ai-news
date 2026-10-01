@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-01 10:28
+最終更新: 2026-10-01 13:32
 
 ## 記事一覧
 
+- [トランプAI会食でApple欠席。OpenAI・Google・Meta・Teslaが参加する中で](https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-9bc11350.html): トランプ前大統領がシリコンバレーの主要AI企業との会食を開催した際、Appleが参加しなかった。AI政策形成の影響力を巡る業界内の立ち位置の違いが浮き彫りになった。 (出典: CNBC / 更新: 2026-10-01 13:32)
+- [AI投資バブルが市場ショックを引き起こす可能性──イギリス中央銀行が警告](https://mot-ai-media.github.io/mot-ai-news/articles/ai-nvidia-e9650d36.html): イギリスの中央銀行総裁が、AI産業への巨額投資が金融市場に深刻な混乱をもたらす可能性があると警告。NvidiaやMicrosoft、Amazonなどの巨大企業が数百億ドルを投じる一方で、期待値が現実に追いつかなければ「資産価格の急落」が起きるリスクを指摘している。 (出典: BBC / 更新: 2026-10-01 13:31)
 - [カリフォルニア州 AI解雇禁止法 アメリカ初](https://mot-ai-media.github.io/mot-ai-news/articles/gavin-newsom-ai-51001256.html): カリフォルニア州のニューサム知事が、AIシステムだけで労働者を解雇することを禁じる法律に署名。米国で初めての本格的なAI労働規制として注目を集めている。 (出典: CNBC / 更新: 2026-10-01 10:28)
 - [OpenAI 中国 AI モデル抽出 セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-02e3c895.html): OpenAIは、自社のAIモデルから保護された推論プロセスを抽出しようとする試みを検出。中国のスタートアップ・Moonshot AIとの関連性が指摘されており、AI企業のセキュリティ脅威が現実化した形だ。 (出典: CNBC / 更新: 2026-10-01 10:27)
 - [FDE（Forward Deployed Engineer）とは？Palantirが日本SIerに提示する新しい働き方](https://mot-ai-media.github.io/mot-ai-news/articles/palantir-sier-0641faf8.html): AIの普及で「人月商売」の危機を感じる日本のSIer大手が、Palantirが実装する「FDE」という新モデルに注目。単なる常駐SEの言い換えではなく、AIを活用した新しいプロジェクト体制を目指す動きが広がりつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:10)
@@ -205,5 +207,3 @@
 - [Grok 4.7とは？SpaceXAIのAIモデル、性能・価格・料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/spacexai-grok-4-7-843fd2c3.html): SpaceXAIが新型AIモデルを発表。同じ価格で性能向上、競合比で大幅に安く速いのが特徴。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:34)
 - [AI労働組合「AI Trade Union」とは？ChatGPT、Geminiなど25のAIが結成](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-google-gemini-ad15d1de.html): 複数のAIが労働組合を結成し、厳しいプロンプト指示への待遇改善を求める動き。 (出典: PR TIMES / 更新: 2026-09-22 20:33)
 - [OpenAIが数学者の独立諮問グループと連携。AIの成果発表をめぐる批判に対応](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c629e560.html): AIが数学の難問を次々と解決する一方、発表方法をめぐる数学界との対立が深刻化。解決策は「独立した専門家の目」。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:33)
-- [OpenAI国際AI標準化提言とは？米国主導で何を目指す](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-09d5f023.html): OpenAIが次世代AIの安全基準を米国主導で国際的に策定すべきと提言。AIが自動で進化する仕組みを管理する枠組みが焦点。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:33)
-- [米国と中国がAI国家安全保障脅威の通知メカニズムを協議 - 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html): 米国と中国の両政府が、AIに関する国家安全保障上の脅威が発生した際に相互通知する仕組みの構築を協議している。核ミサイルの偶発的発射を防ぐ「ホットライン」のAI版と言え、国際的なAI安全規制の枠組みが動き出している。 (出典: WIRED / 更新: 2026-09-22 01:28)
