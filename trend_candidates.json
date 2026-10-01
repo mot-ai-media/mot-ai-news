@@ -1,55 +1,5 @@
 [
   {
-    "title": "Pangram – AI detector for text and images",
-    "link": "https://www.pangram.com",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.pangram.com\nComments URL: https://news.ycombinator.com/item?id=49735241\nPoints: 21\n# Comments: 15",
-    "novelty_score": 35,
-    "japan_relevance_score": 55,
-    "reason": "AI検出ツールは既に複数存在し新規性は低いが、テキスト・画像両対応と実用性があり日本でも関心は高まる可能性がある。",
-    "discovered_at": "2026-09-17T04:29:01.626410+00:00"
-  },
-  {
-    "title": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior",
-    "link": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html\nComments URL: https://news.ycombinator.com/item?id=49735180\nPoints: 58\n# Comments: 61",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "AIの安全性問題は継続的なテーマだが、具体的な事例開示は業界の透明性向上につながり日本でも規制議論に影響を与える可能性がある。",
-    "discovered_at": "2026-09-17T04:29:04.027400+00:00"
-  },
-  {
-    "title": "OpenSpec – A lightweight and configurable AI spec framework",
-    "link": "https://openspec.dev/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://openspec.dev/\nComments URL: https://news.ycombinator.com/item?id=49734264\nPoints: 97\n# Comments: 38",
-    "novelty_score": 45,
-    "japan_relevance_score": 52,
-    "reason": "AI仕様フレームワークは需要があるが、類似ツールが既に複数存在し、採用実績が不明な段階。",
-    "discovered_at": "2026-09-17T04:29:06.371178+00:00"
-  },
-  {
-    "title": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs",
-    "link": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9\nComments URL: https://news.ycombinator.com/item?id=49731395\nPoints: 73\n# Comments: 255",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI生成コンテンツの社会的反発は既知だが、小規模事業者の実例として日本でも関心高い",
-    "discovered_at": "2026-09-17T04:29:08.590433+00:00"
-  },
-  {
-    "title": "Ask HN: AI Panic, you buying it?",
-    "link": "https://news.ycombinator.com/item?id=49729849",
-    "source": "Hacker News",
-    "summary": "In your opinion, do you buy into the panic about AI eliminating humanity or potentially disrupting and taking down the internet? Is this a marketing ploy?Give me your best thoughts on this most recent call for AI slowdown.\n\nComments URL: https://news.ycombinator.com/item?id=49729849\nPoints: 28\n# Comments: 57",
-    "novelty_score": 25,
-    "japan_relevance_score": 60,
-    "reason": "AI安全性への議論は既出だが、日本でも規制やリスク認識の高まりと共に関心が増す可能性がある。",
-    "discovered_at": "2026-09-17T04:29:11.081837+00:00"
-  },
-  {
     "title": "How to Write with an LLM",
     "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
     "source": "Hacker News",
@@ -1578,5 +1528,55 @@
     "japan_relevance_score": 62,
     "reason": "AIが機密情報漏洩する問題は既知だが、スクリーンショット投稿という具体的事例として注目価値あり。",
     "discovered_at": "2026-09-30T13:28:48.180844+00:00"
+  },
+  {
+    "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+    "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html\nComments URL: https://news.ycombinator.com/item?id=49921050\nPoints: 25\n# Comments: 7",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "AI企業への規制調査は既出だが、FTCの具体的な動きは継続的に報道価値あり。日本でも規制議論の参考になる。",
+    "discovered_at": "2026-10-01T13:32:19.246112+00:00"
+  },
+  {
+    "title": "AI borrowers face tough sell in risky corners of US credit market",
+    "link": "https://www.reuters.com/legal/transactional/ai-borrowers-face-tough-sell-risky-corners-us-credit-market-2026-09-30/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/legal/transactional/ai-borrowers-face-tough-sell-risky-corners-us-credit-market-2026-09-30/\nComments URL: https://news.ycombinator.com/item?id=49918147\nPoints: 21\n# Comments: 7",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI企業の信用調査は既出テーマだが、米国信用市場での具体的課題は参考値あり。",
+    "discovered_at": "2026-10-01T13:32:26.246462+00:00"
+  },
+  {
+    "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
+    "link": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
+    "source": "Hacker News",
+    "summary": "Article URL: https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus\nComments URL: https://news.ycombinator.com/item?id=49914149\nPoints: 66\n# Comments: 30",
+    "novelty_score": 72,
+    "japan_relevance_score": 75,
+    "reason": "AI大手の上場書類分析は業界動向として重要だが、既に複数メディアが報道済みの二次情報のため新規性は中程度。",
+    "discovered_at": "2026-10-01T13:32:33.396397+00:00"
+  },
+  {
+    "title": "CS240 AI Cheating Retrospective",
+    "link": "https://turkeyland.net/thoughts/ai.php",
+    "source": "Hacker News",
+    "summary": "Article URL: https://turkeyland.net/thoughts/ai.php\nComments URL: https://news.ycombinator.com/item?id=49913458\nPoints: 107\n# Comments: 100",
+    "novelty_score": 45,
+    "japan_relevance_score": 75,
+    "reason": "大学のAI不正事例分析は実用的だが、類似の議論は既に多数存在。日本の教育現場でも急速に関連性が高まっている。",
+    "discovered_at": "2026-10-01T13:32:40.163821+00:00"
+  },
+  {
+    "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+    "link": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/\nComments URL: https://news.ycombinator.com/item?id=49912499\nPoints: 32\n# Comments: 27",
+    "novelty_score": 45,
+    "japan_relevance_score": 60,
+    "reason": "大手プラットフォームのAPI制限は既出だが、AI対策という文脈で日本でも関心が高まる可能性がある。",
+    "discovered_at": "2026-10-01T13:32:46.994944+00:00"
   }
 ]
