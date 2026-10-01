@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-01 18:02
+最終更新: 2026-10-01 20:53
 
 ## 記事一覧
 
+- [OpenAI Dots とは？ChatGPT 6搭載の自律エージェント機能](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2f5d5645.html): OpenAIが新型AIエージェント「Dots」を発表。自動で複雑なタスクをこなす能力を備える。 (出典: Geeky Gadgets / 更新: 2026-10-01 20:53)
 - [Flow Engineering とは？AI による設計自動化の可能性](https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html): ハードウェア設計にAIエージェントを導入するFlow Engineeringが750億円の資金調達に成功。実務的な設計業務の転換点。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 18:02)
 - [AIエージェントのリスク10選とは？導入時の管理方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-24687ef2.html): ChatGPTと違い、自ら行動するAIエージェントは誤りが実行されてしまう。企業が押さえるべき10大リスクと管理方法を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
 - [AIエージェント導入事例10選・日本企業の成果と導入パターン](https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-674dbca6.html): 日本企業や自治体のAIエージェント導入事例を「全社展開型」「業務特化型」に分類。パナソニックは全社員への導入で年間78万時間の削減を実現している。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
@@ -206,4 +207,3 @@
 - [GPT-6（Astra）とは？OpenAIが発表、ChatGPTへの提供時期と料金](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html): OpenAIが次世代AI「GPT-6」を正式発表。ChatGPTユーザーは追加料金なしで数日以内に利用可能になる。 (出典: CNET Japan / 更新: 2026-09-23 04:53)
 - [Andreessen Horowitz、大手テック企業10社と提携した新型アカデミー発足](https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html): 米ベンチャーキャピタル大手Andreessen Horowitz（a16z）が、従来の大学教育に代わるアカデミーを立ち上げた。Google、Meta、OpenAI、Palantirなど有力テック企業10社と提携し、4200万ドルを投じて若い起業家を育成する新しい人材育成モデルが始まろうとしている。 (出典: The Verge / 更新: 2026-09-23 04:28)
 - [OpenAI GPT-6、Anthropic Claude Opus 5.5が価格引き下げで登場](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html): OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。 (出典: CNBC / 更新: 2026-09-23 04:27)
-- [トランプ大統領UN演説でAI支持、OpenAI幹部が国連会議へ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-12165847.html): トランプ米大統領が国連演説でAI推進を表明。OpenAIのサムアルトマンとダリオアモデイ両氏が国連安全保障理事会のAI会議に参加予定。AIの規制・発展方針が各国政治の最重要課題へ浮上している。 (出典: CNBC / 更新: 2026-09-23 01:28)

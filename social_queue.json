@@ -6709,7 +6709,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/enterprise/articles/2609/30/cover_news017.jpg",
     "generated_at": "2026-09-30 11:00",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -6767,7 +6767,10 @@
         "x_post": "AIツール導入したのに効果が出ない？その理由は『育て方』かも。古い問題の継承、不適切な投資、設定ミス…この環境を見直すだけで効果が激変する可能性あります。",
         "cta": "あなたのAIが本当に機能しているか確認する"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18128316901763645",
+    "published_at": "2026-10-01T19:01:53"
   },
   "gavin-newsom-ai-51001256": {
     "headline": "カリフォルニア州が「AI上司による解雇」を禁止。米国初の法制化が示す労働の未来",

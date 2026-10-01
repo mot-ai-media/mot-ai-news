@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、ChatGPT 6搭載の自律AIエージェント「Dots」を発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2f5d5645.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2f5d5645.html</guid>
+    <description>OpenAIが新型AIエージェント「Dots」を発表。自動で複雑なタスクをこなす能力を備える。</description>
+    <pubDate>Thu, 01 Oct 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>750億円調達のFlow Engineering、AI が部品設計を自動化する時代到来</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-c3bf4c6c.html</guid>
     <description>OpenAIやGoogleなど大手AIプレイヤーがブラウザ市場に参入、次世代の検索体験が激変する局面へ突入。</description>
     <pubDate>Wed, 30 Sep 2026 20:54:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの自律AIエージェント「Dots」、4000超のアプリと連携で24時間稼働を実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-25fd94e7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-25fd94e7.html</guid>
-    <description>OpenAIが24時間自動で動作するAIエージェント「Dots」を発表。4000以上のアプリと連携可能。</description>
-    <pubDate>Wed, 30 Sep 2026 20:53:00 +0900</pubDate>
   </item>
 </channel></rss>
