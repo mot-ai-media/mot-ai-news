@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-01 16:53
+最終更新: 2026-10-01 18:02
 
 ## 記事一覧
 
+- [Flow Engineering とは？AI による設計自動化の可能性](https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html): ハードウェア設計にAIエージェントを導入するFlow Engineeringが750億円の資金調達に成功。実務的な設計業務の転換点。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 18:02)
+- [AIエージェントのリスク10選とは？導入時の管理方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-24687ef2.html): ChatGPTと違い、自ら行動するAIエージェントは誤りが実行されてしまう。企業が押さえるべき10大リスクと管理方法を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
+- [AIエージェント導入事例10選・日本企業の成果と導入パターン](https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-674dbca6.html): 日本企業や自治体のAIエージェント導入事例を「全社展開型」「業務特化型」に分類。パナソニックは全社員への導入で年間78万時間の削減を実現している。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
+- [Google Gemini 4 Argonとは？サイバーセキュリティ対応AI](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-1237634e.html): Googleが新型AI『Gemini 4 Argon』を発表。脆弱性の自動検出や修正に特化し、セキュリティ企業向けに提供開始。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 18:01)
+- [OpenAI敵対的蒸留とは？中国Moonshot AI関与、推論保護の最新対策](https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html): OpenAIが推論過程を狙った大規模な不正抽出を阻止。中国Kimi開発元の関与が判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 18:00)
 - [Claude Fable 5.1導入ガイド｜企業での安全な使い方・運用ルール](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-dfa575f0.html): Anthropic最新モデルの企業向け実装ガイド。どの業務に使い、どこで使わないかを判断する基準を公開。 (出典: PR TIMES / 更新: 2026-10-01 16:53)
 - [Google Gemini 4 Argonとは？性能・GPT-6との比較](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7b8c3872.html): GoogleがGemini 4 Argonをリリースしましたが、期待されたレベルには到達せず。 (出典: vocal.media / 更新: 2026-10-01 16:53)
 - [Rails作者DHH「手書きコード終焉」、開発の未来は明るい理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/rails-ai-4a944166.html): 大手ウェブサービス開発企業が手作業でのコード開発をやめ、AIに切り替え。開発者の役割が大きく転換される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:37)
@@ -202,8 +207,3 @@
 - [Andreessen Horowitz、大手テック企業10社と提携した新型アカデミー発足](https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html): 米ベンチャーキャピタル大手Andreessen Horowitz（a16z）が、従来の大学教育に代わるアカデミーを立ち上げた。Google、Meta、OpenAI、Palantirなど有力テック企業10社と提携し、4200万ドルを投じて若い起業家を育成する新しい人材育成モデルが始まろうとしている。 (出典: The Verge / 更新: 2026-09-23 04:28)
 - [OpenAI GPT-6、Anthropic Claude Opus 5.5が価格引き下げで登場](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html): OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。 (出典: CNBC / 更新: 2026-09-23 04:27)
 - [トランプ大統領UN演説でAI支持、OpenAI幹部が国連会議へ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-12165847.html): トランプ米大統領が国連演説でAI推進を表明。OpenAIのサムアルトマンとダリオアモデイ両氏が国連安全保障理事会のAI会議に参加予定。AIの規制・発展方針が各国政治の最重要課題へ浮上している。 (出典: CNBC / 更新: 2026-09-23 01:28)
-- [トランプ米大統領がAIを『超知能』に公式改名——UN総会で宣言した理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-5d6a730c.html): トランプ米大統領が国連総会のスピーチで、米国がAI（人工知能）を「super intelligence（超知能）」に公式改名すると表明した。理由は「artificial（人工的）という言葉が知能を『偽物』に聞こえる」とのこと。政策的な根拠というより、用語のイメージ戦略に見える動きとして海外で注目を集めている。 (出典: The Verge / 更新: 2026-09-23 01:28)
-- [Meta Muse AIエージェント230万ダウンロード ChatGPT・Claude・Grokとの比較](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-2b41d398.html): Metaが投入した個人用AIアシスタント『Muse』が、ローンチ後わずか2週間で230万ダウンロードを達成。OpenAIやAnthropicの同等製品と肩を並べる勢いで普及が進み、AI市場の勢力図が再び動き始めた。 (出典: CNBC / 更新: 2026-09-22 22:28)
-- [OpenAI 世界AI基準 提案 安全性 国際標準](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a9715cc1.html): OpenAIが人工知能の開発に関する世界共通の基準策定を提案した。AnthropicのJacob Coxonが両社を「人命を賭けた賭博」と批判したことが引き金となり、AI安全性を巡る国際的な議論が加速している。 (出典: CNBC / 更新: 2026-09-22 22:27)
-- [システム刷新で生成AI活用が逆効果？失敗率7割の実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-erp-feb24204.html): AIで古いシステムの刷新が楽になると期待されたが、逆に失敗が増加。人手が必要な理由が見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:01)
-- [Teams会議をAI学習に変える新サービス「SyncLect Agent Garden」とは](https://mot-ai-media.github.io/mot-ai-news/articles/synclect-agent-garden-ai-8a95e75a.html): 企業固有の判断基準や経験則をTeams会議から自動抽出し、AIエージェントが扱える業務知識に変換する新サービスが始まった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 22:01)

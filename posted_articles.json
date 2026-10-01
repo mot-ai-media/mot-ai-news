@@ -1,45 +1,5 @@
 [
   {
-    "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-    "notified_at": "2026-09-01T07:58:48.161189+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-    "notified_at": "2026-09-01T07:59:02.496056+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-    "notified_at": "2026-09-01T07:59:13.188074+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-    "notified_at": "2026-09-01T07:59:23.580041+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
-    "notified_at": "2026-09-01T07:59:36.382067+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2609/01/2000001033/",
-    "notified_at": "2026-09-01T08:06:01.504485+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
-    "notified_at": "2026-09-01T08:06:15.997013+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
-    "notified_at": "2026-09-01T08:06:27.270817+00:00"
-  },
-  {
-    "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-    "notified_at": "2026-09-01T08:06:42.725342+00:00"
-  },
-  {
-    "link": "https://openai.com/index/polimill",
-    "notified_at": "2026-09-01T08:06:56.350203+00:00"
-  },
-  {
     "link": "https://www.itmedia.co.jp/aiplus/article/2609/01/2000001044/",
     "notified_at": "2026-09-01T11:48:13.593270+00:00"
   },
@@ -4514,5 +4474,25 @@
   {
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMDNWVXg2MkQydWthelpCMlppOFNjdXVQT0RZemdYcEcwSFU1RHIxaGVKek84Nkk5V1JlTEtib0ZLMGJwUzNRVUNlWllzWk9zSUdzb0ZGbVVDXzZTemtiQ1V2dzVkd1pTQWo0NFo4cE9hcGE0STVnU3JxVWVOVnB1TmRwVzlJZGtwM2RIOVVJd0VaczdzMjBpeGNvYWdqTUV2NFE0TWJ3?oc=5",
     "notified_at": "2026-10-01T07:53:53.924821+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001929/",
+    "notified_at": "2026-10-01T09:00:54.838061+00:00"
+  },
+  {
+    "link": "https://ainow.ai/2026/09/30/278404/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae10%25e5%25a4%25a7%25e3%2583%25aa%25e3%2582%25b9%25e3%2582%25af%25e3%2581%25a8%25e4%25ba%258b%25e6%2595%2585%25e4%25ba%258b%25e4%25be%258b%25e3%2581%258b%25e3%2582%2589%25e5%25ad%25a6%25e3%2581%25b6%25e7%25ae%25a1",
+    "notified_at": "2026-10-01T09:01:14.040734+00:00"
+  },
+  {
+    "link": "https://ainow.ai/2026/09/30/278401/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e5%25b0%258e%25e5%2585%25a5%25e4%25ba%258b%25e4%25be%258b10%25e9%2581%25b8%25ef%25bc%2581%25e6%2597%25a5%25e6%259c%25ac%25e4%25bc%2581%25e6%25a5%25ad%25e3%2583%25bb%25e8%2587%25aa%25e6%25b2%25bb%25e4%25bd%2593%25e3%2581%25ae",
+    "notified_at": "2026-10-01T09:01:32.324662+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+    "notified_at": "2026-10-01T09:01:48.496724+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+    "notified_at": "2026-10-01T09:02:07.027963+00:00"
   }
 ]

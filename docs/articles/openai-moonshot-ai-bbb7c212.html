@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenAI敵対的蒸留とは？中国Moonshot AI関与、推論保護の最新対策 | AI特化メディアMOT</title>
+<meta name="description" content="OpenAIが推論過程を狙った大規模な不正抽出を阻止。中国Kimi開発元の関与が判明。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="OpenAI、中国企業による「AI盗用作戦」を摘発。推論プロセス1万6000件を違法抽出">
+<meta property="og:description" content="OpenAIが推論過程を狙った大規模な不正抽出を阻止。中国Kimi開発元の関与が判明。">
+<meta property="og:image" content="https://www.itmedia.co.jp/news/article/ogp/2610/01/2000001929/10008165/2048">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html">
+<meta property="article:published_time" content="2026-10-01T18:00:00+09:00">
+<meta property="article:modified_time" content="2026-10-01T18:00:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "OpenAI、中国企業による「AI盗用作戦」を摘発。推論プロセス1万6000件を違法抽出", "description": "OpenAIが推論過程を狙った大規模な不正抽出を阻止。中国Kimi開発元の関与が判明。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-01T18:00:00+09:00", "dateModified": "2026-10-01T18:00:00+09:00", "image": ["https://www.itmedia.co.jp/news/article/ogp/2610/01/2000001929/10008165/2048"], "citation": "https://www.itmedia.co.jp/news/article/2610/01/2000001929/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "敵対的蒸留とは何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "あるAIモデルの出力や内部プロセスを無断で大量に取得し、別のモデル開発に利用すること。今回の事件では、OpenAIモデルの推論過程を抜き出して、別企業のAI開発に転用しようとしていました。"}}, {"@type": "Question", "name": "どのような手口が使われていましたか？", "acceptedAnswer": {"@type": "Answer", "text": "ユーザーとの会話から得た暗号化された推論を別の会話にコピーして、モデルに復号させるといった新しい技法が確認されました。ハッキングではなく、APIの利用規約に違反する操作的な方法です。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "OpenAI", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/openai.html"}, {"@type": "ListItem", "position": 3, "name": "OpenAI、中国企業による「AI盗用作戦」を摘発。推論プロセス1万6000件を違法抽出", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://www.itmedia.co.jp/news/article/ogp/2610/01/2000001929/10008165/2048" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">OpenAI、中国企業による「AI盗用作戦」を摘発。推論プロセス1万6000件を違法抽出</span></div></div>
+  <h1 class="headline">OpenAI、中国企業による「AI盗用作戦」を摘発。推論プロセス1万6000件を違法抽出</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>ITmedia AI＋ 最新記事一覧</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-01 18:00</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> OpenAIは推論過程を無断抽出しようとする組織的な不正行為を摘発し、中国Moonshot AIの関係者が関与していたと発表。4000人以上のユーザーから1万6000件超のリクエストが集中していた。</p><h3>何が起きたか</h3><p>OpenAIのAIモデルから、内部の思考プロセス（推論）を違法に抜き出す大規模な活動が検出されました。7月から始まった組織的な行為で、7月下旬に急増し、4000人以上のユーザーから1万6000件を超える抽出パターンのリクエストが送られていました。OpenAIの調査では、中国のAI企業Moonshot AI（Kimi開発元）の関係者が中心となっていたと判明しています。</p><h3>なぜ重要か</h3><p>AIモデルの推論過程は、企業が投資して開発した最も機密性の高い部分です。この情報が盗まれると、他の企業が同等の能力を持つAIを低コストで作成できるようになります。特に安全対策や軍事応用の可能性がある高度な能力が無制限に広がるリスクが問題視されています。</p><h3>あなたへの影響</h3><p>一般ユーザーにとって直接的な影響は限定的ですが、今後このような攻撃が多くのAI企業に対して試みられる可能性があります。信頼できるAI企業を選ぶことの重要性が高まり、利用規約や情報保護方針を確認する必要がより重要になります。</p><h3>MOT読者が知っておくべき理由</h3><p>AIサービスの信頼性がビジネス競争の根本を左右する時代になりつつあることを示す事例。自分が使うAIツールがどう守られているかの関心が、個人レベルでも必要になってきています。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>今後さらに巧妙な不正抽出手法が登場する可能性があり、すべての企業が同じレベルの防御を持つわけではないため、利用するAIサービスによって情報流出リスクに差が生まれる恐れがあります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>この事例によって業界全体でAI保護技術の重要性が認識され、より堅牢なセキュリティ対策が標準化されるチャンスが生まれます。消費者も企業の防御姿勢で選別できるようになるでしょう。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>本件は単なるセキュリティ事件ではなく、AI競争の本質的な課題を浮き彫りにしています。AIの開発コストが天文学的であるほど、先発企業の知識を後発企業がいかに効率的に習得するかが勝負になる構造。違法な蒸留は技術格差を急速に埋める手段として、今後さらに組織化される可能性を示唆しています。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>業界団体Frontier Model Forumを通じた他社への情報共有がどこまで有効か、または政府機関がこれを安全保障問題としてどう規制するかの動きが重要。また中国のAI企業側の公式反応や防御強化への対抗措置に注目が必要です。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/openai.html">#OpenAI</a><a class="tag-pill" href="../topics/moonshot-ai.html">#Moonshot AI</a><a class="tag-pill" href="../topics/6a20542072.html">#AI セキュリティ</a></div>
+  <script>window.motPageTags=["OpenAI", "Moonshot AI", "AI セキュリティ"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">アラミド繊維100%使用、日本製</h3><p class="sponsor-desc">耐久性に優れたアラミド繊維を100%使用した日本製プロダクト。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1LR2GI+34VM+2T7WK2" rel="sponsored nofollow" target="_blank" class="sponsor-text-link">アラミド繊維100%使用 Made in Japan</a><img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4BC3YK+1LR2GI+34VM+2T7WK2" alt=""></div><span class="sponsor-cta">詳しく見る &rarr;</span><p class="sponsor-name">アラミド繊維プロダクト</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.itmedia.co.jp/news/article/2610/01/2000001929/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>ITmedia AI＋ 最新記事一覧</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.itmedia.co.jp/news/article/2610/01/2000001929/" target="_blank" rel="noopener noreferrer">元記事（<cite>ITmedia AI＋ 最新記事一覧</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. 敵対的蒸留とは何ですか？</p>
+    <p class="faq-a">あるAIモデルの出力や内部プロセスを無断で大量に取得し、別のモデル開発に利用すること。今回の事件では、OpenAIモデルの推論過程を抜き出して、別企業のAI開発に転用しようとしていました。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. どのような手口が使われていましたか？</p>
+    <p class="faq-a">ユーザーとの会話から得た暗号化された推論を別の会話にコピーして、モデルに復号させるといった新しい技法が確認されました。ハッキングではなく、APIの利用規約に違反する操作的な方法です。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=OpenAI%E3%80%81%E4%B8%AD%E5%9B%BD%E4%BC%81%E6%A5%AD%E3%81%AB%E3%82%88%E3%82%8B%E3%80%8CAI%E7%9B%97%E7%94%A8%E4%BD%9C%E6%88%A6%E3%80%8D%E3%82%92%E6%91%98%E7%99%BA%E3%80%82%E6%8E%A8%E8%AB%96%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B91%E4%B8%876000%E4%BB%B6%E3%82%92%E9%81%95%E6%B3%95%E6%8A%BD%E5%87%BA&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html&text=OpenAI%E3%80%81%E4%B8%AD%E5%9B%BD%E4%BC%81%E6%A5%AD%E3%81%AB%E3%82%88%E3%82%8B%E3%80%8CAI%E7%9B%97%E7%94%A8%E4%BD%9C%E6%88%A6%E3%80%8D%E3%82%92%E6%91%98%E7%99%BA%E3%80%82%E6%8E%A8%E8%AB%96%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B91%E4%B8%876000%E4%BB%B6%E3%82%92%E9%81%95%E6%B3%95%E6%8A%BD%E5%87%BA" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html" data-share-title="OpenAI、中国企業による「AI盗用作戦」を摘発。推論プロセス1万6000件を違法抽出">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="openai-moonshot-ai-bbb7c212">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="openai-moonshot-ai-02e3c895.html">
+    <img src="https://image.cnbcfm.com/api/v1/image/108360206-1788935108315-gettyimages-2271060387-boivin-notitle260416_npYv5.jpeg?v=1788935125&amp;w=1920&amp;h=1080" alt="" loading="lazy">
+    <span class="next-up-headline">OpenAIが中国関連の「AI推論盗難」に警告。Moonshot AIとのリンクも判明</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="openai-chatgpt-e66f393b.html">OpenAI、常時稼働AIエージェント「dots」と高速版「Ultrafast」で業務激変</a></li>
+  <li><a href="openai-ai-705a8397.html">OpenAI、豪政府サイト不正アクセスで謝罪。AI学習の新しい安全検証制度を導入</a></li>
+  <li><a href="openai-google-a9cc8da2.html">トランプ大統領、AI企業トップと昼食会で「超知能SI」時代を宣言</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

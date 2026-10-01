@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>750億円調達のFlow Engineering、AI が部品設計を自動化する時代到来</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html</guid>
+    <description>ハードウェア設計にAIエージェントを導入するFlow Engineeringが750億円の資金調達に成功。実務的な設計業務の転換点。</description>
+    <pubDate>Thu, 01 Oct 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、最強AI『Gemini 4 Argon』を発表。サイバーセキュリティに特化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-1237634e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-1237634e.html</guid>
+    <description>Googleが新型AI『Gemini 4 Argon』を発表。脆弱性の自動検出や修正に特化し、セキュリティ企業向けに提供開始。</description>
+    <pubDate>Thu, 01 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>パナソニック・トヨタ・GMOが実績公開、AIエージェント導入で業務時間を激減させている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-674dbca6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-674dbca6.html</guid>
+    <description>日本企業や自治体のAIエージェント導入事例を「全社展開型」「業務特化型」に分類。パナソニックは全社員への導入で年間78万時間の削減を実現している。</description>
+    <pubDate>Thu, 01 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント導入で本番データ削除も、10大リスクと管理の鉄則</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-24687ef2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-24687ef2.html</guid>
+    <description>ChatGPTと違い、自ら行動するAIエージェントは誤りが実行されてしまう。企業が押さえるべき10大リスクと管理方法を解説。</description>
+    <pubDate>Thu, 01 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、中国企業による「AI盗用作戦」を摘発。推論プロセス1万6000件を違法抽出</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html</guid>
+    <description>OpenAIが推論過程を狙った大規模な不正抽出を阻止。中国Kimi開発元の関与が判明。</description>
+    <pubDate>Thu, 01 Oct 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Googleの新型AI「Gemini 4 Argon」、期待外れの性能に終わる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7b8c3872.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7b8c3872.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-25fd94e7.html</guid>
     <description>OpenAIが24時間自動で動作するAIエージェント「Dots」を発表。4000以上のアプリと連携可能。</description>
     <pubDate>Wed, 30 Sep 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、Claude新バージョン5.1を発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-73874a1a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-73874a1a.html</guid>
-    <description>AnthropicがAIアシスタント「Claude」の新バージョンを発表。性能を強化したFable 5.1とMythos 5.1がリリースされます。</description>
-    <pubDate>Wed, 30 Sep 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、常時稼働AIエージェント「dots」と高速版「Ultrafast」で業務激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e66f393b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e66f393b.html</guid>
-    <description>OpenAIが開発者会議で20以上の新機能を発表。仕事を継続実行するAIエージェント、8倍高速な有料版、チーム協働機能が登場。</description>
-    <pubDate>Wed, 30 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>SlackやTeamsの使い方で退職予備軍が丸わかり、AIが兆候を察知</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/rex-slack-537cefd0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/rex-slack-537cefd0.html</guid>
-    <description>チャット利用の変化からメンタル不調や退職の兆候を捉えるAIサービスが登場。管理職の適切なサポートに繋げることが狙い。</description>
-    <pubDate>Wed, 30 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Googleが暴露、「マルチエージェント」の9割は張りぼて　本物の設計パターン4つ公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-4dde1323.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-4dde1323.html</guid>
-    <description>Googleのコンテストから見えた課題：複数AIの連携を謳いながら、実は単一モデルをつなげているだけの作品が大多数。</description>
-    <pubDate>Wed, 30 Sep 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>大企業の過半数が非エンジニアにAI開発させているのに、品質検査の体制が追いついていない</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-db6d41e5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-db6d41e5.html</guid>
-    <description>大企業ほどAI開発が広がっているが、品質管理体制が不十分な現実が浮き彫りに。</description>
-    <pubDate>Wed, 30 Sep 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>
