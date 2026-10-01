@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI音声企業ElevenLabs、企業価値が1年で2倍の220億ドルに急騰</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elevenlabs-ai-6e1523d2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elevenlabs-ai-6e1523d2.html</guid>
+    <description>リアルな人間の声を生成するAI企業ElevenLabsが、わずか1年で企業価値を倍にした。</description>
+    <pubDate>Thu, 01 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、高速で安価な判断機能を搭載した新API発表。AIエージェント時代が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-c2747f33.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-c2747f33.html</guid>
+    <description>OpenAIが素早く安価に判断を下すAPI発表。AI自動化の実用化が進む。</description>
+    <pubDate>Thu, 01 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>衛星でAIを動かす新興企業、Google・SpaceXに対抗して800万ドル調達</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-google-de11222d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-google-de11222d.html</guid>
+    <description>元GoogleとSpaceX出身のエンジニアが、複数の衛星でAIを共有実行するソフトウェア企業を創業し資金調達。</description>
+    <pubDate>Thu, 01 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>2.3兆円、千葉にAIデータセンター建設。JERA・Dell・RHAELMが日本最大級に挑む</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/jera-dell-technologies-d25b604a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/jera-dell-technologies-d25b604a.html</guid>
+    <description>大手電力会社JERAなど3社が千葉市に日本最大のAIデータセンターを建設。2028年の稼働開始を目指す。</description>
+    <pubDate>Thu, 01 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>HENNGE、AIエージェント100%の新会社を設立。人間は取締役2人だけ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hennge-ai-04440a51.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hennge-ai-04440a51.html</guid>
+    <description>セキュリティ企業HENNGEが、取締役2人を除き全業務をAIエージェントが担う新会社を設立。AI管理ツールの開発と、最適な組織構造の検証を進める。</description>
+    <pubDate>Thu, 01 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、ChatGPT 6搭載の自律AIエージェント「Dots」を発表</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2f5d5645.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2f5d5645.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-ai-ff26d4a3.html</guid>
     <description>Airbnbが秋の大型アップデートでAI検索機能を導入。ユーザーの好みに応じた動的フィルタで物件探しが変わる。</description>
     <pubDate>Wed, 30 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日程調整にAIエージェント導入で、残業が激減する時代がついに到来</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-microsoft-83e85b60.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-microsoft-83e85b60.html</guid>
-    <description>商談調整や予定の重複解消をAIに任せれば、本来業務に充てる時間が大幅に増える。</description>
-    <pubDate>Wed, 30 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>人手不足の中小企業こそAIエージェント、月数千円で業務激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-microsoft-365-ad9deead.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-microsoft-365-ad9deead.html</guid>
-    <description>ChatGPTより進化したAIエージェントが、人手不足の中小企業で導入しやすいレベルに。8つの実用例と補助金情報。</description>
-    <pubDate>Wed, 30 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、IPO前に衝撃告白。AIが人類滅亡リスクをもたらす可能性を投資家に警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-3d6464b2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-3d6464b2.html</guid>
-    <description>AI企業Anthropicが株式上場前の目論見書で、自社AIが人類に壊滅的被害をもたらす可能性があると投資家に明言。</description>
-    <pubDate>Wed, 30 Sep 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、AI搭載スマートスピーカー「Google Home Speaker」を16,800円で発売</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html</guid>
-    <description>GoogleがGemini搭載の新型スマートスピーカーを発表。価格は16,800円。</description>
-    <pubDate>Wed, 30 Sep 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT・Comet・Diaが激突、2026年AIブラウザ戦争が本格化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-c3bf4c6c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-c3bf4c6c.html</guid>
-    <description>OpenAIやGoogleなど大手AIプレイヤーがブラウザ市場に参入、次世代の検索体験が激変する局面へ突入。</description>
-    <pubDate>Wed, 30 Sep 2026 20:54:00 +0900</pubDate>
   </item>
 </channel></rss>

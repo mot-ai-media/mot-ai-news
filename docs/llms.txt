@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-01 20:53
+最終更新: 2026-10-01 22:01
 
 ## 記事一覧
 
+- [衛星でAI実行するSatlyt、800万ドル調達　SpaceXとの違いは](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-google-de11222d.html): 元GoogleとSpaceX出身のエンジニアが、複数の衛星でAIを共有実行するソフトウェア企業を創業し資金調達。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 22:01)
+- [OpenAIの新「Decisions API」とは？何ができる・Jevとの違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-c2747f33.html): OpenAIが素早く安価に判断を下すAPI発表。AI自動化の実用化が進む。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 22:01)
+- [ElevenLabs企業価値220億ドルに倍増、AI音声市場が急成長](https://mot-ai-media.github.io/mot-ai-news/articles/elevenlabs-ai-6e1523d2.html): リアルな人間の声を生成するAI企業ElevenLabsが、わずか1年で企業価値を倍にした。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 22:01)
+- [HENNGE、AIエージェントが実務を担う新会社「HENNGE AI」設立](https://mot-ai-media.github.io/mot-ai-news/articles/hennge-ai-04440a51.html): セキュリティ企業HENNGEが、取締役2人を除き全業務をAIエージェントが担う新会社を設立。AI管理ツールの開発と、最適な組織構造の検証を進める。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 22:00)
+- [AIデータセンターとは？千葉に2.3兆円投資の理由・意味を解説](https://mot-ai-media.github.io/mot-ai-news/articles/jera-dell-technologies-d25b604a.html): 大手電力会社JERAなど3社が千葉市に日本最大のAIデータセンターを建設。2028年の稼働開始を目指す。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 22:00)
 - [OpenAI Dots とは？ChatGPT 6搭載の自律エージェント機能](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2f5d5645.html): OpenAIが新型AIエージェント「Dots」を発表。自動で複雑なタスクをこなす能力を備える。 (出典: Geeky Gadgets / 更新: 2026-10-01 20:53)
 - [Flow Engineering とは？AI による設計自動化の可能性](https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html): ハードウェア設計にAIエージェントを導入するFlow Engineeringが750億円の資金調達に成功。実務的な設計業務の転換点。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 18:02)
 - [AIエージェントのリスク10選とは？導入時の管理方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-24687ef2.html): ChatGPTと違い、自ら行動するAIエージェントは誤りが実行されてしまう。企業が押さえるべき10大リスクと管理方法を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
@@ -202,8 +207,3 @@
 - [AWS・Salesforce連携強化とは？AIがデータを探さなくて済む仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/aws-salesforce-686de8e2.html): 企業データが分散している問題をAIと既存ツールの統合で解決。データを動かさずにAIが活用できる環境へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:10)
 - [AI導入後の課題「データ基盤問題」とは。パーソルが支援サービス開始](https://mot-ai-media.github.io/mot-ai-news/articles/ai-4b5575c3.html): AIを入れたのに活用し続けられない企業が増加。データ整理不足やコスト増が原因で、パーソルが支援サービスを開始。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:10)
 - [トランプ大統領がAIを改称「Super Intelligence」とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-57b841c6.html): 米国がAI用語を「Super Intelligence」に変更し、国際管理枠組みを拒否する方針を表明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:09)
-- [OpenAI新モデルGPT-6 Sol・Luna公開、料金体系と性能は？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-f2d10821.html): OpenAIが新AIモデルを発表。料金を大幅値下げする一方、倫理面での課題も報告。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:09)
-- [半導体とは？AI時代に重要視される理由を基礎知識から解説](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-f6901e69.html): AIの急速な発展に伴い、半導体がニュースでよく取り上げられている。その本質と重要性を基礎から学ぶ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 15:09)
-- [GPT-6（Astra）とは？OpenAIが発表、ChatGPTへの提供時期と料金](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-60d2be5d.html): OpenAIが次世代AI「GPT-6」を正式発表。ChatGPTユーザーは追加料金なしで数日以内に利用可能になる。 (出典: CNET Japan / 更新: 2026-09-23 04:53)
-- [Andreessen Horowitz、大手テック企業10社と提携した新型アカデミー発足](https://mot-ai-media.github.io/mot-ai-news/articles/andreessen-horowitz-openai-97f4d944.html): 米ベンチャーキャピタル大手Andreessen Horowitz（a16z）が、従来の大学教育に代わるアカデミーを立ち上げた。Google、Meta、OpenAI、Palantirなど有力テック企業10社と提携し、4200万ドルを投じて若い起業家を育成する新しい人材育成モデルが始まろうとしている。 (出典: The Verge / 更新: 2026-09-23 04:28)
-- [OpenAI GPT-6、Anthropic Claude Opus 5.5が価格引き下げで登場](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-23b05835.html): OpenAIは「GPT-6 Sol」「GPT-6 Luna」を、Anthropicは「Claude Opus 5.5」をそれぞれ発表。AI業界の「開発減速要求」の後、両社とも実用性を重視した低価格モデルの投入で競争激化の局面に入った。 (出典: CNBC / 更新: 2026-09-23 04:27)
