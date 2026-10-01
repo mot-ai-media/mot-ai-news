@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>トランプ大統領がAI大手7社と「安全協定」に調印。業界の自主規制が本格化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-b4989f4a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-b4989f4a.html</guid>
+    <description>トランプ米大統領がホワイトハウスでOpenAI、Google、Meta、Nvidiaなど主要AI企業のトップと会談し、AIの安全性に関する「道徳的拘束力を持つ文書」に調印した。企業が自社技術の安全管理に責任を持つ内容で、独立した監査人による評価も実施される。AI規制を求める声が強まるなか、政府が企業の自主規制枠組みを支援する形となった。</description>
+    <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>リンゴ農家がAIに「収穫日」の判断を任せ始めた。気象と熟度を同時に読むカメラシステム</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-vivid-machines-fa3f05d9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-vivid-machines-fa3f05d9.html</guid>
+    <description>米ワシントン州のリンゴ農場がカナダ企業の画像認識AIを導入。トラクターに搭載したカメラが果実の成熟度と天候を組み合わせて最適な収穫時期を予測し、労務管理と収益性を大幅に改善する取り組みが進行中。</description>
+    <pubDate>Thu, 01 Oct 2026 09:08:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIの規制より「安全テスト」が先—イギリス中央銀行トップが方針転換</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2d1cfdb8.html</guid>
     <description>米国の政治家がAI・データセンター産業への支援を掲げる一方で、有権者の間では慎重論が広がっている。トランプは用語の言い換えで世論を切り抜けようとしているが、中間選挙での共和党の支持基盤が揺らいでいる可能性が指摘されている。</description>
     <pubDate>Wed, 30 Sep 2026 07:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、24時間働くAIエージェント「dots」始動。あなたの仕事を勝手に片付ける時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d8233082.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d8233082.html</guid>
-    <description>OpenAIが常時稼働するAIエージェント「dots」を発表。ChatGPTユーザーが指示すると、AIが自動で4000以上のアプリを操り24時間働く。</description>
-    <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT最速モード誕生、通常の8倍で動作。月7万8000円プランが必須</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1d9ee134.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1d9ee134.html</guid>
-    <description>OpenAIが高速推論「Ultrafastモード」を発表。最上位プラン月500ドルでChatGPTが最大8倍高速化される。</description>
-    <pubDate>Wed, 30 Sep 2026 07:06:00 +0900</pubDate>
   </item>
 </channel></rss>
