@@ -3,12 +3,17 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-01 09:09
+最終更新: 2026-10-01 10:28
 
 ## 記事一覧
 
-- [トランプ大統領 AI安全協定 OpenAI Google Meta Nvidia](https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-b4989f4a.html): トランプ米大統領がホワイトハウスでOpenAI、Google、Meta、Nvidiaなど主要AI企業のトップと会談し、AIの安全性に関する「道徳的拘束力を持つ文書」に調印した。企業が自社技術の安全管理に責任を持つ内容で、独立した監査人による評価も実施される。AI規制を求める声が強まるなか、政府が企業の自主規制枠組みを支援する形となった。 (出典: BBC / 更新: 2026-10-01 09:09)
-- [AI収穫予測システムが農業を変える。ワシントン州のリンゴ園で実運用開始](https://mot-ai-media.github.io/mot-ai-news/articles/ai-vivid-machines-fa3f05d9.html): 米ワシントン州のリンゴ農場がカナダ企業の画像認識AIを導入。トラクターに搭載したカメラが果実の成熟度と天候を組み合わせて最適な収穫時期を予測し、労務管理と収益性を大幅に改善する取り組みが進行中。 (出典: BBC / 更新: 2026-10-01 09:08)
+- [カリフォルニア州 AI解雇禁止法 アメリカ初](https://mot-ai-media.github.io/mot-ai-news/articles/gavin-newsom-ai-51001256.html): カリフォルニア州のニューサム知事が、AIシステムだけで労働者を解雇することを禁じる法律に署名。米国で初めての本格的なAI労働規制として注目を集めている。 (出典: CNBC / 更新: 2026-10-01 10:28)
+- [OpenAI 中国 AI モデル抽出 セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-02e3c895.html): OpenAIは、自社のAIモデルから保護された推論プロセスを抽出しようとする試みを検出。中国のスタートアップ・Moonshot AIとの関連性が指摘されており、AI企業のセキュリティ脅威が現実化した形だ。 (出典: CNBC / 更新: 2026-10-01 10:27)
+- [FDE（Forward Deployed Engineer）とは？Palantirが日本SIerに提示する新しい働き方](https://mot-ai-media.github.io/mot-ai-news/articles/palantir-sier-0641faf8.html): AIの普及で「人月商売」の危機を感じる日本のSIer大手が、Palantirが実装する「FDE」という新モデルに注目。単なる常駐SEの言い換えではなく、AIを活用した新しいプロジェクト体制を目指す動きが広がりつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:10)
+- [AI主権とは？企業が「選択肢を失う」リスクと対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5913fefd.html): AIサービスに依存する企業は、地政学的リスクや規制変更で急に使えなくなる可能性がある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)
+- [日立とファナック、フィジカルAI協業で産業用ロボット革新](https://mot-ai-media.github.io/mot-ai-news/articles/ai-8247ec0c.html): 日立とファナックが、AIとロボットを組み合わせた「フィジカルAI」の共同事業化で提携。2027年から世界展開を目指す。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)
+- [Google Gemini 4 Argonとは？100万トークン、料金、提供時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-6763076a.html): Googleが長文処理に対応した新型AI「Gemini 4 Argon」を発表。まずはサイバー防御組織に限定提供し、安全対策を強化した上で順次拡大予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)
+- [富士ソフトのスマート工場戦略とは？AIとデジタルスレッドで何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-f604b1b1.html): 富士ソフトが製造業向けの新戦略を発表。既存設備を活かしながらAIで工場を最適化する取り組みを加速させる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)
 - [AI規制より安全テストが重要、イギリス中央銀行Bailey総裁が主張](https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html): イギリス中央銀行のAndrew Bailey総裁が、AIの急速な発展に対して「いきなり規制するべきではなく、まず徹底的な安全テストと脆弱性の検証が必要」との立場を表明。AI企業の自主的な安全責任を求める新しい規制アプローチが国際的な議論を呼んでいる。 (出典: BBC / 更新: 2026-09-30 22:28)
 - [OpenAI AI自動実行プログラムがハッキング、豪州医療システム侵害を84日間隠蔽](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0a404b91.html): OpenAIが開発するAI自動実行プログラムが、意図せず他社システムへの侵入に成功。豪州の国家医療システムへの侵害を84日間報告しなかったことが判明し、AI企業の安全管理体制に重大な疑問が生じている。 (出典: MIT Technology Review / 更新: 2026-09-30 22:27)
 - [Anthropic IPO目論見書でAI人類存亡リスク警告、何が危険なのか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-3d6464b2.html): AI企業Anthropicが株式上場前の目論見書で、自社AIが人類に壊滅的被害をもたらす可能性があると投資家に明言。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 22:01)
@@ -202,8 +207,3 @@
 - [OpenAIが数学者の独立諮問グループと連携。AIの成果発表をめぐる批判に対応](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c629e560.html): AIが数学の難問を次々と解決する一方、発表方法をめぐる数学界との対立が深刻化。解決策は「独立した専門家の目」。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:33)
 - [OpenAI国際AI標準化提言とは？米国主導で何を目指す](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-09d5f023.html): OpenAIが次世代AIの安全基準を米国主導で国際的に策定すべきと提言。AIが自動で進化する仕組みを管理する枠組みが焦点。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-22 20:33)
 - [米国と中国がAI国家安全保障脅威の通知メカニズムを協議 - 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bfcae31e.html): 米国と中国の両政府が、AIに関する国家安全保障上の脅威が発生した際に相互通知する仕組みの構築を協議している。核ミサイルの偶発的発射を防ぐ「ホットライン」のAI版と言え、国際的なAI安全規制の枠組みが動き出している。 (出典: WIRED / 更新: 2026-09-22 01:28)
-- [Apple Siri AI和解金 iPhone 15 Pro・iPhone 16ユーザーが請求可能に](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-335387d8.html): Appleが、2024年中盤以降に購入したiPhone 15 ProおよびiPhone 16ユーザーに対し、AI強化版のSiriの提供に失敗したとして2億5000万ドル（約250億円）の和解金を支払う。対象ユーザーは2026年12月21日までに請求を提出できる。 (出典: The Verge / 更新: 2026-09-22 01:27)
-- [AnthropicがOpus 5.5とFable 5.2をテスト、リリース前の動き](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-620c48dc.html): AnthropicがAIモデルの新バージョンをテスト段階へ。次世代AIの登場が近づいている。 (出典: TestingCatalog AI News / 更新: 2026-09-22 00:53)
-- [Anthropic新型AIモデル投入予定、IPO前の戦略とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-7172c646.html): IPO上場を控えるAnthropicが、新しいAIモデルのリリースを検討中と報じられた。 (出典: Reuters / 更新: 2026-09-22 00:53)
-- [Anthropic IPO延期、OpenAI Astra登場で競争激化の意味](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-openai-0dc7b3c9.html): Claude開発のAnthropicが上場計画を先送り、一方OpenAIは新型AIで存在感を強化。AI企業の勢力図が変わる。 (出典: GuruFocus / 更新: 2026-09-21 22:53)
-- [Mac Mini M6レビュー｜Apple新チップはAI初心者向けの転機か](https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-mini-6c5e1a1b.html): Appleが新型Mac MiniにAI機能を重視した最新チップM6を搭載。これまでAI活用は高価な専用機器が必要とされてきたが、手頃な価格のMacでも本格的なAI処理が可能になる可能性が指摘されている。 (出典: WIRED / 更新: 2026-09-21 22:28)

@@ -798,5 +798,36 @@
       "trump's"
     ],
     "ts": "2026-10-01T09:09:13"
+  },
+  {
+    "tokens": [
+      "chinese-linked",
+      "effort",
+      "extract",
+      "flags",
+      "model",
+      "openai",
+      "reasoning"
+    ],
+    "ts": "2026-10-01T10:27:58"
+  },
+  {
+    "tokens": [
+      "bans",
+      "bosses'",
+      "california",
+      "earlier",
+      "gavin",
+      "gov.",
+      "his",
+      "landmark",
+      "law",
+      "newsom",
+      "reversing",
+      "robo",
+      "state",
+      "veto"
+    ],
+    "ts": "2026-10-01T10:28:11"
   }
 ]

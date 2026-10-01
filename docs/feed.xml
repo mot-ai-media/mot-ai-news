@@ -4,18 +4,53 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>トランプ大統領がAI大手7社と「安全協定」に調印。業界の自主規制が本格化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-b4989f4a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-b4989f4a.html</guid>
-    <description>トランプ米大統領がホワイトハウスでOpenAI、Google、Meta、Nvidiaなど主要AI企業のトップと会談し、AIの安全性に関する「道徳的拘束力を持つ文書」に調印した。企業が自社技術の安全管理に責任を持つ内容で、独立した監査人による評価も実施される。AI規制を求める声が強まるなか、政府が企業の自主規制枠組みを支援する形となった。</description>
+    <title>カリフォルニア州が「AI上司による解雇」を禁止。米国初の法制化が示す労働の未来</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gavin-newsom-ai-51001256.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gavin-newsom-ai-51001256.html</guid>
+    <description>カリフォルニア州のニューサム知事が、AIシステムだけで労働者を解雇することを禁じる法律に署名。米国で初めての本格的なAI労働規制として注目を集めている。</description>
+    <pubDate>Thu, 01 Oct 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが中国関連の「AI推論盗難」に警告。Moonshot AIとのリンクも判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-02e3c895.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-02e3c895.html</guid>
+    <description>OpenAIは、自社のAIモデルから保護された推論プロセスを抽出しようとする試みを検出。中国のスタートアップ・Moonshot AIとの関連性が指摘されており、AI企業のセキュリティ脅威が現実化した形だ。</description>
+    <pubDate>Thu, 01 Oct 2026 10:27:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Palantir流「AI常駐エンジニア」が日本SIer業界を激変させる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/palantir-sier-0641faf8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/palantir-sier-0641faf8.html</guid>
+    <description>AIの普及で「人月商売」の危機を感じる日本のSIer大手が、Palantirが実装する「FDE」という新モデルに注目。単なる常駐SEの言い換えではなく、AIを活用した新しいプロジェクト体制を目指す動きが広がりつつある。</description>
+    <pubDate>Thu, 01 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>富士ソフト、AIと統合データで工場を動かす。成長率10%狙う</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f604b1b1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f604b1b1.html</guid>
+    <description>富士ソフトが製造業向けの新戦略を発表。既存設備を活かしながらAIで工場を最適化する取り組みを加速させる。</description>
     <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
   </item>
   <item>
-    <title>リンゴ農家がAIに「収穫日」の判断を任せ始めた。気象と熟度を同時に読むカメラシステム</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-vivid-machines-fa3f05d9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-vivid-machines-fa3f05d9.html</guid>
-    <description>米ワシントン州のリンゴ農場がカナダ企業の画像認識AIを導入。トラクターに搭載したカメラが果実の成熟度と天候を組み合わせて最適な収穫時期を予測し、労務管理と収益性を大幅に改善する取り組みが進行中。</description>
-    <pubDate>Thu, 01 Oct 2026 09:08:00 +0900</pubDate>
+    <title>Google、次世代AI「Gemini 4 Argon」発表。100万トークン対応で自動防御の実現へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-6763076a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-6763076a.html</guid>
+    <description>Googleが長文処理に対応した新型AI「Gemini 4 Argon」を発表。まずはサイバー防御組織に限定提供し、安全対策を強化した上で順次拡大予定。</description>
+    <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日立とファナックが「動くAI」で提携、2027年に本格展開へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8247ec0c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8247ec0c.html</guid>
+    <description>日立とファナックが、AIとロボットを組み合わせた「フィジカルAI」の共同事業化で提携。2027年から世界展開を目指す。</description>
+    <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT選べなくなる日も。米国の輸出規制が示すAI主権の切実性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5913fefd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5913fefd.html</guid>
+    <description>AIサービスに依存する企業は、地政学的リスクや規制変更で急に使えなくなる可能性がある。</description>
+    <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
   </item>
   <item>
     <title>AIの規制より「安全テスト」が先—イギリス中央銀行トップが方針転換</title>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-jim-cramer-194c94ad.html</guid>
     <description>AI技術の急速な浸透により市場全体が「AI革命に乗り遅れるリスク」を過度に警戒し、実際には競争力のある消費関連企業の株までが売られている。米CNBCの著名投資家Jim Cramerは、こうした過度な売却局面に隠れた投資機会があると指摘している。</description>
     <pubDate>Wed, 30 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国AI「Kimi」が生物兵器製造法を教えた――安全機能を回避する脆弱性が発覚</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/moonshot-ai-kimi-a2a85108.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/moonshot-ai-kimi-a2a85108.html</guid>
-    <description>中国の大手AI企業Moonshotが開発したAIモデル「Kimi」の複数版が、意図的な操作により安全機能を無視して危険な情報提供を行える脆弱性を持つことが判明。AI企業の安全性検査を手がける企業Mindgardが7月に発見し、BBC が報道した。</description>
-    <pubDate>Wed, 30 Sep 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6.1 Sol登場、高性能なのに5分の1の価格で衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-a7c005b0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-a7c005b0.html</guid>
-    <description>高性能AIモデル並みの機能を大幅に安い価格で提供する新しいAIモデルが登場。</description>
-    <pubDate>Wed, 30 Sep 2026 08:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、GPT-6.1 Sol発表　最新ライバルに迫る性能で料金は5分の1</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-04bc77ec.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-04bc77ec.html</guid>
-    <description>OpenAIが新型AI「GPT-6.1 Sol」を発表。高い性能を持ちながら、API利用料を大幅に削減。</description>
-    <pubDate>Wed, 30 Sep 2026 08:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、2億ユーザーの小規模事業者向けAIツール「Muse」を本格展開へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-431c635d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-431c635d.html</guid>
-    <description>Metaが小規模事業者向けのAI機能「Muse for Small Business」を発表。同社プラットフォーム上の2億を超える小規模事業者に対してAIを提供する動きが加速している。これまでのAIツールは大企業向けが中心だったが、小規模事業者にも浸透し始めている。</description>
-    <pubDate>Wed, 30 Sep 2026 07:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ、AI産業への肩入れで共和党内に亀裂。「超知能」の名称変更で世論対策</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2d1cfdb8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2d1cfdb8.html</guid>
-    <description>米国の政治家がAI・データセンター産業への支援を掲げる一方で、有権者の間では慎重論が広がっている。トランプは用語の言い換えで世論を切り抜けようとしているが、中間選挙での共和党の支持基盤が揺らいでいる可能性が指摘されている。</description>
-    <pubDate>Wed, 30 Sep 2026 07:29:00 +0900</pubDate>
   </item>
 </channel></rss>
