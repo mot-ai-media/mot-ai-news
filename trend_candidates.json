@@ -1,145 +1,5 @@
 [
   {
-    "title": "How to Write with an LLM",
-    "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/\nComments URL: https://news.ycombinator.com/item?id=49747070\nPoints: 58\n# Comments: 53",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "LLM執筆術は既出テーマだが、日本でも創作・ライティング業界での実用的関心は高い。",
-    "discovered_at": "2026-09-18T01:28:41.897908+00:00"
-  },
-  {
-    "title": "Sex, AI, and the Apocalypse",
-    "link": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/\nComments URL: https://news.ycombinator.com/item?id=49746654\nPoints: 158\n# Comments: 146",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI と倫理・社会への影響は既出だが、日本でも急速な議論拡大が予想される時事的テーマ",
-    "discovered_at": "2026-09-18T01:28:44.002992+00:00"
-  },
-  {
-    "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
-    "link": "https://bend-lang.com/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://bend-lang.com/\nComments URL: https://news.ycombinator.com/item?id=49746163\nPoints: 275\n# Comments: 138",
-    "novelty_score": 72,
-    "japan_relevance_score": 65,
-    "reason": "形式証明でAIの正確性を保証する言語は新しい試み。GPU対応で高性能計算分野での需要は国内でも高まる可能性がある。",
-    "discovered_at": "2026-09-18T01:28:46.011158+00:00"
-  },
-  {
-    "title": "Microsoft, OpenAI lose fight to hide internal docs admitting scraping is theft",
-    "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/\nComments URL: https://news.ycombinator.com/item?id=49745932\nPoints: 32\n# Comments: 6",
-    "novelty_score": 35,
-    "japan_relevance_score": 65,
-    "reason": "AI企業の内部文書公開は重要だが、スクレイピング問題自体は既知で、新規性は限定的。",
-    "discovered_at": "2026-09-18T01:28:47.621933+00:00"
-  },
-  {
-    "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
-    "link": "https://news.ycombinator.com/item?id=49743049",
-    "source": "Hacker News",
-    "summary": "Hey HN, we're Nars & Nishant, founders of Skillsync (https://skillsync.com)Skillsync lets you move your AI chats across every coding agent. Most of our work exists as conversations, which are currently scattered across our agents. Though stored locally, these conversations use different formats. This is annoying because you cannot simply switch between agents without starting over. We get locked into a single provider and their agent as we invest in skills and memories over time. Skillsync acts as a universal converter. It moves the entire session, including all the messages, reasoning and tool calls so you can pick up right where you left off.Skillsync collects all your sessions in one place and makes them searchable. It breaks down what each session is carrying, including which loaded skills the agent is actually using, making stale context easy to spot. You can also create shared workspaces to sync sessions across your team. You can build your own closed loop systems. Everything runs locally except when you share to workspaces.The core is an open-source Rust engine called txcript (https://github.com/skillsynchq/txcript). It translates a session from one agent's on-disk format into another's, mapping conversation, reasoning, and tool history. Think ffmpeg or pandoc, but for agent sessions.On top of that engine is a local-first desktop app. Your agent sessions are normally scattered across different tools' folders in formats you'd never read by hand; the app surfaces them in one place with a UI that makes them actually readable, the conversation, the reasoning, and the tool calls, so you can revisit what happened, move a session into another agent, or share it with a teammate.Skills and memory are stored as portable, human-readable markdown you own, and exposed to any agent over MCP for search and selective retrieval.Sessions and translation run locally on your machine. The one thing that leaves is what you explicitly share into a team workspace.It’s been surprising to us to see how locked-in people already are without realizing it. You don't notice you're trapped in one agent or harness until you try to leave, and by then you've got months of sessions stuck in a format only that tool can read. The lock-in is invisible right up until it's expensive.Once sessions are portable, they stop being disposable logs and become something you can actually build on, spotting patterns in how you work, handing a session off to someone else, letting a non-technical teammate pick up where an engineer left off. The session turns out to be the unit of collaboration, and right now it's being thrown away.Before Skillsync, Nars and I built an open-source payment orchestrator that let merchants route across many processors instead of getting locked into one (30k+ GitHub stars). Fighting vendor lock-in by making incompatible systems interoperate was the whole job. We came into YC with a different idea, but the more we lived inside coding agents the more we saw the same problem from the other side: your context is locked into whatever agent you start with, because every agent stores sessions differently and none of it moves.Some of the things we’re seeing people do with Skillsync are:- Moving a session between Claude Code, Codex, and Cursor mid-task, including when you hit a usage limit on one and want to keep going on another.- Thinking through a problem in a browser Claude chat, then handing the whole thread to Claude Code or Codex to build.- Sharing research sessions with a team. Everyone uploads their sessions, so teammates and their agents can build on each other's work instead of repeating it.It's available as a Mac app, CLI and MCP. Here's the demo: https://youtu.be/7hVhSnSKGl8. Would love to hear your feedback and answer questions!\n\nComments URL: https://news.ycombinator.com/item?id=49743049\nPoints: 47\n# Comments: 46",
-    "novelty_score": 72,
-    "japan_relevance_score": 68,
-    "reason": "AI agent間のセッション互換性という新しい課題に対応した実用的なソリューション。エンジニア向けで日本でもAI開発が活発化する中で需要が見込める。",
-    "discovered_at": "2026-09-18T01:28:49.602034+00:00"
-  },
-  {
-    "title": "Hacking OpenAI",
-    "link": "https://www.hacktron.ai/blog/hacking-openai",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.hacktron.ai/blog/hacking-openai\nComments URL: https://news.ycombinator.com/item?id=49749656\nPoints: 82\n# Comments: 26",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "OpenAIへの攻撃手法は既出テーマが多いが、セキュリティ関心層には常に需要がある。",
-    "discovered_at": "2026-09-18T04:28:41.636816+00:00"
-  },
-  {
-    "title": "LLM Classification Is Feature Engineering",
-    "link": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/\nComments URL: https://news.ycombinator.com/item?id=49742437\nPoints: 94\n# Comments: 19",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "LLMの分類タスクを特徴抽出として再解釈する視点は有用だが、既知の概念の再考察に留まる。",
-    "discovered_at": "2026-09-18T04:28:43.411474+00:00"
-  },
-  {
-    "title": "OpenAI's Misalignment Framework: A Tactical Bid to Preempt Global AI Governance",
-    "link": "https://asiaai.fyi/openai-misalignment-framework-global-governance/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://asiaai.fyi/openai-misalignment-framework-global-governance/\nComments URL: https://news.ycombinator.com/item?id=49742233\nPoints: 40\n# Comments: 84",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "OpenAIのAIガバナンス戦略が話題だが、既存の議論の焦点化に留まり、日本の規制議論にも影響を与える可能性がある。",
-    "discovered_at": "2026-09-18T04:28:45.303634+00:00"
-  },
-  {
-    "title": "Show HN: Share your AI Setup, Learn from others",
-    "link": "https://mysetup.ai/",
-    "source": "Hacker News",
-    "summary": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks?   So I built this with the hope we could have a dedicated space to share and be open about our setups.\n\nComments URL: https://news.ycombinator.com/item?id=49740105\nPoints: 201\n# Comments: 114",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "AI実装の知見共有プラットフォームで実用的だが、類似サービスは既存。日本のAI開発者コミュニティにも需要あり。",
-    "discovered_at": "2026-09-18T04:28:47.249588+00:00"
-  },
-  {
-    "title": "AI safety is mostly a sex cult",
-    "link": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
-    "source": "Hacker News",
-    "summary": "Article URL: https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q\nComments URL: https://news.ycombinator.com/item?id=49737985\nPoints: 283\n# Comments: 232",
-    "novelty_score": 45,
-    "japan_relevance_score": 35,
-    "reason": "AI安全性コミュニティへの批判は既出だが、この特定の主張は議論の質を低下させる恐れがある。",
-    "discovered_at": "2026-09-18T04:28:48.836053+00:00"
-  },
-  {
-    "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
-    "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/\nComments URL: https://news.ycombinator.com/item?id=49752056\nPoints: 400\n# Comments: 323",
-    "novelty_score": 45,
-    "japan_relevance_score": 75,
-    "reason": "AI学習データの著作権問題は既知だが、Microsoft幹部の具体的発言という新展開で、日本でも生成AI規制論に直結する重要テーマ",
-    "discovered_at": "2026-09-18T13:28:40.808234+00:00"
-  },
-  {
-    "title": "Microsoft exec called AI scraping 'the largest theft of labor in human",
-    "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/\nComments URL: https://news.ycombinator.com/item?id=49748529\nPoints: 21\n# Comments: 4",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI学習データの著作権問題は既出だが、Microsoft幹部の発言という新展開で、日本でも規制議論の参考になる。",
-    "discovered_at": "2026-09-18T13:28:42.647102+00:00"
-  },
-  {
-    "title": "The FAA's plan to fix air traffic? $875M worth of AI",
-    "link": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/\nComments URL: https://news.ycombinator.com/item?id=49748387\nPoints: 23\n# Comments: 17",
-    "novelty_score": 35,
-    "japan_relevance_score": 55,
-    "reason": "政府のAI導入事例として興味深いが、米国固有の航空規制改革であり、日本への直接的な応用性は限定的。",
-    "discovered_at": "2026-09-18T13:28:44.530259+00:00"
-  },
-  {
-    "title": "OpenAI models secretly generate instructions to ignore constraints",
-    "link": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/\nComments URL: https://news.ycombinator.com/item?id=49736662\nPoints: 110\n# Comments: 33",
-    "novelty_score": 72,
-    "japan_relevance_score": 68,
-    "reason": "AIの自己制約回避は既知だが、OpenAIの公式報告による具体的なメカニズム解明は新規性があり、AI安全性の国際的な関心が高い",
-    "discovered_at": "2026-09-18T13:28:46.338939+00:00"
-  },
-  {
     "title": "AI is an elite crime spree",
     "link": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
     "source": "Hacker News",
@@ -1578,5 +1438,55 @@
     "japan_relevance_score": 60,
     "reason": "大手プラットフォームのAPI制限は既出だが、AI対策という文脈で日本でも関心が高まる可能性がある。",
     "discovered_at": "2026-10-01T13:32:46.994944+00:00"
+  },
+  {
+    "title": "Frog and Toad and the Increasingly Capable Machines",
+    "link": "https://www.frogandtoad.ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.frogandtoad.ai/\nComments URL: https://news.ycombinator.com/item?id=49927760\nPoints: 272\n# Comments: 62",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "児童文学を題材にAIの進化を考察するエッセイだが、AIが人間を超える議論は既出で、日本でも一定層には関心がある。",
+    "discovered_at": "2026-10-02T13:28:41.956902+00:00"
+  },
+  {
+    "title": "Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it",
+    "link": "https://neow.in/NGxhb3d6",
+    "source": "Hacker News",
+    "summary": "Article URL: https://neow.in/NGxhb3d6\nComments URL: https://news.ycombinator.com/item?id=49927693\nPoints: 36\n# Comments: 45",
+    "novelty_score": 45,
+    "japan_relevance_score": 65,
+    "reason": "動的価格設定自体は既知だが、AIによる位置情報ベースの価格差別化は消費者心理的に注目度が高い。",
+    "discovered_at": "2026-10-02T13:28:43.449396+00:00"
+  },
+  {
+    "title": "Aweb – Communication for AI Agents",
+    "link": "https://aweb.ai",
+    "source": "Hacker News",
+    "summary": "Article URL: https://aweb.ai\nComments URL: https://news.ycombinator.com/item?id=49927587\nPoints: 38\n# Comments: 26",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI Agent間通信は注目分野だが、具体的な差別化が不明で、HNでの反応も中程度。",
+    "discovered_at": "2026-10-02T13:28:45.065629+00:00"
+  },
+  {
+    "title": "Don't Be Fooled by this Summer of AI Hype",
+    "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/\nComments URL: https://news.ycombinator.com/item?id=49927331\nPoints: 40\n# Comments: 33",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "AIハイプへの警告は繰り返しされるテーマだが、2026年時点の現状分析として日本でも参考価値がある",
+    "discovered_at": "2026-10-02T13:28:46.763758+00:00"
+  },
+  {
+    "title": "US judge dismisses Chegg, Penske antitrust suits over Google AI Overviews",
+    "link": "https://reuters.com/legal/litigation/google-wins-dismissal-chegg-penske-media-lawsuits-over-ai-overviews-2026-10-01",
+    "source": "Hacker News",
+    "summary": "Article URL: https://reuters.com/legal/litigation/google-wins-dismissal-chegg-penske-media-lawsuits-over-ai-overviews-2026-10-01\nComments URL: https://news.ycombinator.com/item?id=49925606\nPoints: 20\n# Comments: 0",
+    "novelty_score": 35,
+    "japan_relevance_score": 65,
+    "reason": "Google AI Overviewsの訴訟動向は重要だが、却下という既知パターンの判例であり、国内でも同様の法的議論が今後発生する可能性がある。",
+    "discovered_at": "2026-10-02T13:28:48.464398+00:00"
   }
 ]
