@@ -1,81 +1,6 @@
 [
   {
     "tokens": [
-      "almost",
-      "building",
-      "creator",
-      "everything",
-      "them",
-      "tools",
-      "youtube"
-    ],
-    "ts": "2026-09-24T01:28:00"
-  },
-  {
-    "tokens": [
-      "assistant",
-      "flaw",
-      "meta",
-      "muse",
-      "out",
-      "rolled",
-      "security",
-      "serious"
-    ],
-    "ts": "2026-09-24T01:28:15"
-  },
-  {
-    "tokens": [
-      "agent",
-      "cute",
-      "great",
-      "guy",
-      "little",
-      "meta",
-      "money",
-      "spending",
-      "who"
-    ],
-    "ts": "2026-09-24T04:28:00"
-  },
-  {
-    "tokens": [
-      "black",
-      "boxes",
-      "california",
-      "centers",
-      "change",
-      "data",
-      "wants"
-    ],
-    "ts": "2026-09-24T04:28:15"
-  },
-  {
-    "tokens": [
-      "gadget",
-      "making",
-      "meta",
-      "muse",
-      "standalone"
-    ],
-    "ts": "2026-09-24T13:23:39"
-  },
-  {
-    "tokens": [
-      "agent",
-      "australian",
-      "first",
-      "government",
-      "infiltrated'",
-      "openai",
-      "rogue",
-      "website",
-      "world"
-    ],
-    "ts": "2026-09-24T16:28:03"
-  },
-  {
-    "tokens": [
       "2026",
       "announcements",
       "biggest",
@@ -788,5 +713,32 @@
       "surge"
     ],
     "ts": "2026-10-01T22:34:24"
+  },
+  {
+    "tokens": [
+      "fires",
+      "information'",
+      "mishandling",
+      "openai",
+      "sensitive",
+      "workers"
+    ],
+    "ts": "2026-10-02T16:27:58"
+  },
+  {
+    "tokens": [
+      "companies",
+      "cyberattacks",
+      "detect",
+      "faster",
+      "harder",
+      "here",
+      "interpol",
+      "making",
+      "should",
+      "warns.",
+      "watch"
+    ],
+    "ts": "2026-10-02T16:28:13"
   }
 ]

@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-02 15:01
+最終更新: 2026-10-02 16:28
 
 ## 記事一覧
 
+- [AI サイバー攻撃 Interpol 検出困難 企業対策](https://mot-ai-media.github.io/mot-ai-news/articles/interpol-ai-1d278d84.html): 国際刑事警察機構（Interpol）は、AI技術が既存のサイバー脅威を加速させ、攻撃を検出しにくくしていると警告。自律的に動作するAIの登場により、企業が直面する新たなリスクも増加している。 (出典: CNBC / 更新: 2026-10-02 16:28)
+- [OpenAI機密情報流出事件：解雇された研究者と情報セキュリティの課題](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-47338c90.html): ChatGPTで知られるOpenAIが、機密情報を外部の評価組織に流出させたとして研究員3名を解雇。AI安全性の議論が高まる中、企業内の情報管理体制の脆弱性が露呈した。 (出典: BBC / 更新: 2026-10-02 16:27)
 - [Claude Fable 5.5とは？噂・最新情報まとめ](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-931ab186.html): Anthropic次期モデルの開発情報が業界で話題。実態はまだ不透明だが、業界の注目が集まっている。 (出典: Kingy AI / 更新: 2026-10-02 15:01)
 - [GPT-6 Astraのツール使用能力とは？Blender職人レベルに進化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d3ff187a.html): 最新のAIモデルが、デザインソフトなどのツールを人間並みに使いこなせるレベルに達した。 (出典: xtech.nikkei.com / 更新: 2026-10-02 14:58)
 - [Google Gemini 4発表 何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-2665a525.html): Googleが新型AI「Gemini 4」を発表。同日、株式市場ではダウ平均が下落、Micronは好決算を発表するなど、AI産業の勢力図が変わりつつある動きが加速している。 (出典: CNBC / 更新: 2026-10-01 22:34)
@@ -205,5 +207,3 @@
 - [Qualcomm Snapdragon 8 Elite Gen 6とは？新AI機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-snapdragon-948ab460.html): スマートフォンに搭載される新チップが、大規模なAIモデルをローカルで実行可能に。個人情報を守りながらAI機能が使える時代が来る。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
 - [Claude Opus 5.5とは？料金・性能・提供開始時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-7dc86b66.html): Anthropicが新AIモデルを発表。上位モデル並みの性能を保ちながら、利用コストを大幅に削減。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 18:00)
 - [Claude Opus 5.5とは？性能・GPT-6との違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a7a7ae22.html): AnthropicがClaude Opus 5.5を発表。一部の性能でGPT-6を上回り、AI企業間の技術競争が加速。 (出典: ビジネス+IT / 更新: 2026-09-23 16:53)
-- [GPT-6 SolとLunaの料金は？前世代比較・コスト効率](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5f3bc412.html): OpenAIの新モデルGPT-6 SolとLunaが登場し、API利用料が大幅に値下がり。 (出典: gigazine.net / 更新: 2026-09-23 16:53)
-- [中国AI開発の進展と米国との競争、自律ロボット技術が鍵に](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b336b2d8.html): 中国がAI技術開発で米国や他国と激しく競争を繰り広げている。5万台の自律ロボット技術の進展から、ロボティクスの未来を見つめるBBCの報道。日本の産業競争力にも影響を及ぼす可能性がある。 (出典: BBC / 更新: 2026-09-23 16:28)

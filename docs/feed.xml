@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Interpol警告：AIが犯人の手口を高速化・ステルス化、サイバー攻撃が防ぎづらくなっている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/interpol-ai-1d278d84.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/interpol-ai-1d278d84.html</guid>
+    <description>国際刑事警察機構（Interpol）は、AI技術が既存のサイバー脅威を加速させ、攻撃を検出しにくくしていると警告。自律的に動作するAIの登場により、企業が直面する新たなリスクも増加している。</description>
+    <pubDate>Fri, 02 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが社員3名を解雇、機密情報の外部流出で</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-47338c90.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-47338c90.html</guid>
+    <description>ChatGPTで知られるOpenAIが、機密情報を外部の評価組織に流出させたとして研究員3名を解雇。AI安全性の議論が高まる中、企業内の情報管理体制の脆弱性が露呈した。</description>
+    <pubDate>Fri, 02 Oct 2026 16:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude Fable 5.5、噂と実情が浮き彫り。次期AIモデルの全貌が見え始める</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-931ab186.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-931ab186.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f604b1b1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f604b1b1.html</guid>
     <description>富士ソフトが製造業向けの新戦略を発表。既存設備を活かしながらAIで工場を最適化する取り組みを加速させる。</description>
-    <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、次世代AI「Gemini 4 Argon」発表。100万トークン対応で自動防御の実現へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-6763076a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-6763076a.html</guid>
-    <description>Googleが長文処理に対応した新型AI「Gemini 4 Argon」を発表。まずはサイバー防御組織に限定提供し、安全対策を強化した上で順次拡大予定。</description>
-    <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日立とファナックが「動くAI」で提携、2027年に本格展開へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8247ec0c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8247ec0c.html</guid>
-    <description>日立とファナックが、AIとロボットを組み合わせた「フィジカルAI」の共同事業化で提携。2027年から世界展開を目指す。</description>
     <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
   </item>
 </channel></rss>
