@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Googleが反撃開始。Gemini 4で「AI三国志」の勢力図が塗り替わる可能性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-e80ccd23.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-e80ccd23.html</guid>
+    <description>OpenAIやAnthropicに後れを取っていたGoogleが、新しいフラッグシップモデル「Gemini 4」を投入。アナリストは、これが最先端AI開発競争の舞台でGoogleを復活させる可能性を指摘している。</description>
+    <pubDate>Fri, 02 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>需要1,721%急増、ウォール街が猛烈に採用する『AI新職種』とは</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c6e1f20.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c6e1f20.html</guid>
+    <description>ウォール街の銀行がAIエンジニアの採用を大幅に増やしている。特に『複数のAIを組み合わせて動かす』という新しいスキルへの需要が過去1年で1,721%も急増。金融機関がAIの使い方を変えようとしている兆候として海外で注目を集めている。</description>
+    <pubDate>Fri, 02 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ソニーがPS5向けAI画質向上技術を解放、上位モデル独占から全機種対応へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/playstation-ai-dca24d54.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/playstation-ai-dca24d54.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7b8c3872.html</guid>
     <description>GoogleがGemini 4 Argonをリリースしましたが、期待されたレベルには到達せず。</description>
     <pubDate>Thu, 01 Oct 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude Fable 5.1の企業導入ガイド、無料公開。安全運用の5ルール</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-dfa575f0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-dfa575f0.html</guid>
-    <description>Anthropic最新モデルの企業向け実装ガイド。どの業務に使い、どこで使わないかを判断する基準を公開。</description>
-    <pubDate>Thu, 01 Oct 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Rails作者が宣言「手でコード書かない」AIが開発現場を完全に変える</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/rails-ai-4a944166.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/rails-ai-4a944166.html</guid>
-    <description>大手ウェブサービス開発企業が手作業でのコード開発をやめ、AIに切り替え。開発者の役割が大きく転換される。</description>
-    <pubDate>Thu, 01 Oct 2026 14:37:00 +0900</pubDate>
   </item>
 </channel></rss>
