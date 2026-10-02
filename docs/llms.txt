@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-02 16:28
+最終更新: 2026-10-02 18:02
 
 ## 記事一覧
 
+- [BTS×Google Geminiコラボ機能とは？「Unlock BTS」「7777」で何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-b7809ea2.html): Google GeminiがBTSとのコラボ機能を公開。特定のワードを入力すると4つの体験が利用可能に。 (出典: chiba-tv.com / 更新: 2026-10-02 18:02)
+- [MiMouseとは？ChatGPT・Gemini対応のAIキーボード、料金・使い方](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-2d25b758.html): 月額料金なしでChatGPTやGeminiをキーボードから直接使える新製品が登場。AIツールがより身近に。 (出典: hermitage akihabara [エルミタージュ秋葉原] / 更新: 2026-10-02 18:02)
+- [Claude CodeのMod機能とは？カスタマイズ方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fd14519b.html): AnthropicのAIコーディングアシスタント「Claude Code」がカスタマイズ機能を追加。ユーザーの好みに合わせた設定が可能に。 (出典: au Webポータル / 更新: 2026-10-02 18:01)
+- [MINISFORUM MS-02 Ultra とは？192GBメモリで70B級LLM動作](https://mot-ai-media.github.io/mot-ai-news/articles/minisforum-ai-4c04c264.html): 最新型ミニワークステーションが、従来はサーバー級の機器でしか動かせなかった大規模AI言語モデルをコンパクト設計で実行可能に。 (出典: hermitage akihabara [エルミタージュ秋葉原] / 更新: 2026-10-02 18:01)
+- [GoogleのGemini・Flowに透かし削除機能追加、AIコンテンツの真正性確認の仕組みとは](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ae92d604.html): GoogleのAIツールで生成した画像・動画・音楽から見える透かしを外す選択肢が追加。ただし目に見えない認証情報は残る。 (出典: GIGAZINE / 更新: 2026-10-02 18:01)
 - [AI サイバー攻撃 Interpol 検出困難 企業対策](https://mot-ai-media.github.io/mot-ai-news/articles/interpol-ai-1d278d84.html): 国際刑事警察機構（Interpol）は、AI技術が既存のサイバー脅威を加速させ、攻撃を検出しにくくしていると警告。自律的に動作するAIの登場により、企業が直面する新たなリスクも増加している。 (出典: CNBC / 更新: 2026-10-02 16:28)
 - [OpenAI機密情報流出事件：解雇された研究者と情報セキュリティの課題](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-47338c90.html): ChatGPTで知られるOpenAIが、機密情報を外部の評価組織に流出させたとして研究員3名を解雇。AI安全性の議論が高まる中、企業内の情報管理体制の脆弱性が露呈した。 (出典: BBC / 更新: 2026-10-02 16:27)
 - [Claude Fable 5.5とは？噂・最新情報まとめ](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-931ab186.html): Anthropic次期モデルの開発情報が業界で話題。実態はまだ不透明だが、業界の注目が集まっている。 (出典: Kingy AI / 更新: 2026-10-02 15:01)
@@ -202,8 +207,3 @@
 - [OpenAI GPT-6 Sol Luna とは？新型AIモデル発表](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-6f8660f7.html): OpenAIが新型AIモデル「GPT-6 Sol」と「Luna」を発表。 (出典: OpenAI / 更新: 2026-09-23 18:53)
 - [OpenAI新モデルGPT-6 Sol・Lunaとは？料金・性能の違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-25b056c5.html): OpenAIが低コスト・高精度を謳う新世代AIモデルGPT-6 Sol・Lunaを発表。利用企業の選択肢が広がる。 (出典: TechCrunch / 更新: 2026-09-23 18:53)
 - [AIの急速な発展に政府・首脳も対応できていない現実](https://mot-ai-media.github.io/mot-ai-news/articles/ai-233cf370.html): ギリシャ首相が、世界中の指導者がAIの急速な進展に対する答えを持っていないことを公開で認めた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
-- [TechCrunch Founder Summit 2026とは？スタートアップ向けイベント内容](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d93240d4.html): 資金調達・採用・AI戦略まで、起業家が直面する課題を投資家やベテラン創業者から学べるイベント。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
-- [Snorkel AIとは？AI学習データ企業が急成長する理由](https://mot-ai-media.github.io/mot-ai-news/articles/snorkel-ai-ai-7e5d39ad.html): AI開発に不可欠な学習データを手がけるSnorkel AIが、わずか17カ月で評価額を3倍に引き上げた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
-- [Qualcomm Snapdragon 8 Elite Gen 6とは？新AI機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-snapdragon-948ab460.html): スマートフォンに搭載される新チップが、大規模なAIモデルをローカルで実行可能に。個人情報を守りながらAI機能が使える時代が来る。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
-- [Claude Opus 5.5とは？料金・性能・提供開始時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-7dc86b66.html): Anthropicが新AIモデルを発表。上位モデル並みの性能を保ちながら、利用コストを大幅に削減。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-23 18:00)
-- [Claude Opus 5.5とは？性能・GPT-6との違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-a7a7ae22.html): AnthropicがClaude Opus 5.5を発表。一部の性能でGPT-6を上回り、AI企業間の技術競争が加速。 (出典: ビジネス+IT / 更新: 2026-09-23 16:53)

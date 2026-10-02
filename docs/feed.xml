@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPTやGeminiが1クリック。月額不要のAIキーボード「MiMouse」登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-2d25b758.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-2d25b758.html</guid>
+    <description>月額料金なしでChatGPTやGeminiをキーボードから直接使える新製品が登場。AIツールがより身近に。</description>
+    <pubDate>Fri, 02 Oct 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>BTS×Google Gemini、特別コラボ機能がついに解禁。4つの体験が楽しめる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-b7809ea2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-b7809ea2.html</guid>
+    <description>Google GeminiがBTSとのコラボ機能を公開。特定のワードを入力すると4つの体験が利用可能に。</description>
+    <pubDate>Fri, 02 Oct 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、AI生成コンテンツの「見える透かし」を削除可能に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ae92d604.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ae92d604.html</guid>
+    <description>GoogleのAIツールで生成した画像・動画・音楽から見える透かしを外す選択肢が追加。ただし目に見えない認証情報は残る。</description>
+    <pubDate>Fri, 02 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>192GBメモリ搭載の小型ワークステーション、大規模AI実行を手の平サイズで実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/minisforum-ai-4c04c264.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/minisforum-ai-4c04c264.html</guid>
+    <description>最新型ミニワークステーションが、従来はサーバー級の機器でしか動かせなかった大規模AI言語モデルをコンパクト設計で実行可能に。</description>
+    <pubDate>Fri, 02 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude Codeに「Mod機能」登場、AIコーダーを自分好みにカスタマイズ可能に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fd14519b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fd14519b.html</guid>
+    <description>AnthropicのAIコーディングアシスタント「Claude Code」がカスタマイズ機能を追加。ユーザーの好みに合わせた設定が可能に。</description>
+    <pubDate>Fri, 02 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Interpol警告：AIが犯人の手口を高速化・ステルス化、サイバー攻撃が防ぎづらくなっている</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/interpol-ai-1d278d84.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/interpol-ai-1d278d84.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-9bc11350.html</guid>
     <description>トランプ前大統領がシリコンバレーの主要AI企業との会食を開催した際、Appleが参加しなかった。AI政策形成の影響力を巡る業界内の立ち位置の違いが浮き彫りになった。</description>
     <pubDate>Thu, 01 Oct 2026 13:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI企業に5.5兆ドルの投資が殺到、イギリス中央銀行が「バブル崩壊」の危機警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-nvidia-e9650d36.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-nvidia-e9650d36.html</guid>
-    <description>イギリスの中央銀行総裁が、AI産業への巨額投資が金融市場に深刻な混乱をもたらす可能性があると警告。NvidiaやMicrosoft、Amazonなどの巨大企業が数百億ドルを投じる一方で、期待値が現実に追いつかなければ「資産価格の急落」が起きるリスクを指摘している。</description>
-    <pubDate>Thu, 01 Oct 2026 13:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>カリフォルニア州が「AI上司による解雇」を禁止。米国初の法制化が示す労働の未来</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gavin-newsom-ai-51001256.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gavin-newsom-ai-51001256.html</guid>
-    <description>カリフォルニア州のニューサム知事が、AIシステムだけで労働者を解雇することを禁じる法律に署名。米国で初めての本格的なAI労働規制として注目を集めている。</description>
-    <pubDate>Thu, 01 Oct 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが中国関連の「AI推論盗難」に警告。Moonshot AIとのリンクも判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-02e3c895.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-02e3c895.html</guid>
-    <description>OpenAIは、自社のAIモデルから保護された推論プロセスを抽出しようとする試みを検出。中国のスタートアップ・Moonshot AIとの関連性が指摘されており、AI企業のセキュリティ脅威が現実化した形だ。</description>
-    <pubDate>Thu, 01 Oct 2026 10:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Palantir流「AI常駐エンジニア」が日本SIer業界を激変させる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/palantir-sier-0641faf8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/palantir-sier-0641faf8.html</guid>
-    <description>AIの普及で「人月商売」の危機を感じる日本のSIer大手が、Palantirが実装する「FDE」という新モデルに注目。単なる常駐SEの言い換えではなく、AIを活用した新しいプロジェクト体制を目指す動きが広がりつつある。</description>
-    <pubDate>Thu, 01 Oct 2026 09:10:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>富士ソフト、AIと統合データで工場を動かす。成長率10%狙う</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f604b1b1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f604b1b1.html</guid>
-    <description>富士ソフトが製造業向けの新戦略を発表。既存設備を活かしながらAIで工場を最適化する取り組みを加速させる。</description>
-    <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
   </item>
 </channel></rss>
