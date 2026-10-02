@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Microsoft音声AI新モデル発表。文字起こし・合成の料金・性能比較 | AI特化メディアMOT</title>
+<meta name="description" content="Microsoftが音声認識と合成の新モデルを公開。低遅延で複数言語対応し、音声エージェント構築が加速する。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Microsoft、リアルタイム音声AIで業界の流れを加速。音声アシスタント時代の本格化へ">
+<meta property="og:description" content="Microsoftが音声認識と合成の新モデルを公開。低遅延で複数言語対応し、音声エージェント構築が加速する。">
+<meta property="og:image" content="https://www.itmedia.co.jp/news/article/ogp/2610/02/2000001950/10008228/2048">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html">
+<meta property="article:published_time" content="2026-10-02T22:01:00+09:00">
+<meta property="article:modified_time" content="2026-10-02T22:01:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Microsoft、リアルタイム音声AIで業界の流れを加速。音声アシスタント時代の本格化へ", "description": "Microsoftが音声認識と合成の新モデルを公開。低遅延で複数言語対応し、音声エージェント構築が加速する。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-02T22:01:00+09:00", "dateModified": "2026-10-02T22:01:00+09:00", "image": ["https://www.itmedia.co.jp/news/article/ogp/2610/02/2000001950/10008228/2048"], "citation": "https://www.itmedia.co.jp/news/article/2610/02/2000001950/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "MAI-Transcribe-2-Streamingとは何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "話している途中に文字起こし結果をリアルタイムで返すMicrosoftの音声認識モデル。100ミリ秒程度の低遅延で60言語に対応しており、音声エージェントが相手の話を途中で理解して反応できます。"}}, {"@type": "Question", "name": "料金はいくらですか？", "acceptedAnswer": {"@type": "Answer", "text": "文字起こしは年末までの導入価格で音声1時間当たり0.54ドル。音声合成は100万文字当たり22ドル、高速版は15ドルです。"}}, {"@type": "Question", "name": "日本語には対応していますか？", "acceptedAnswer": {"@type": "Answer", "text": "文字起こしモデルは日本語を含む60言語に対応していますが、合成モデルの標準音声にはまだ日本語が含まれていません。東日本リージョンでは利用可能です。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Microsoft", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/microsoft.html"}, {"@type": "ListItem", "position": 3, "name": "Microsoft、リアルタイム音声AIで業界の流れを加速。音声アシスタント時代の本格化へ", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://www.itmedia.co.jp/news/article/ogp/2610/02/2000001950/10008228/2048" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Microsoft、リアルタイム音声AIで業界の流れを加速。音声アシスタント時代の本格化へ</span></div></div>
+  <h1 class="headline">Microsoft、リアルタイム音声AIで業界の流れを加速。音声アシスタント時代の本格化へ</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>ITmedia AI＋ 最新記事一覧</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-02 22:01</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Microsoftが低遅延のリアルタイム文字起こしと多言語音声合成モデルを発表。音声で対話するAIエージェント構築の基盤が整備される。</p><h3>何が起きたか</h3><p>Microsoftは音声認識モデル「MAI-Transcribe-2-Streaming」と音声合成モデル「MAI-Voice-2.1」を発表しました。前者は話している途中に文字起こし結果を瞬時に返す仕組みで、60言語対応。後者は23言語で1つの声のまま言語を切り替えられます。音声エージェント（人と音声で対話するAI）の構築を想定した設計です。</p><h3>なぜ重要か</h3><p>これまで音声AIの課題だった「応答の遅さ」と「複数言語での自然さ」が同時に解決されたことが重要です。OpenAiやGoogleも同時期に類似機能を発表しており、業界全体が音声インタフェースへシフトしている証拠。スマートスピーカーやカスタマーサポートなど、実用化が加速します。</p><h3>あなたへの影響</h3><p>数年内に、テキストでなく『音声で話しかけるAI』が日常的になる可能性が高まりました。仕事ではカスタマーサポートが自動化され、生活ではスマートスピーカーの精度が大幅向上。ただし日本語対応が完全ではないため、実際の導入には若干の時間がかかる見込みです。</p><h3>MOT読者が知っておくべき理由</h3><p>AIが『使う側の工夫が必要な道具』から『使い手に合わせるもの』へ変わるターニングポイント。音声AIを理解することは、今後のAI活用の基本になります。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>日本語の標準音声がまだ用意されていないため、日本企業の実導入は数ヶ月遅れる可能性があります。先行企業との差が広がる懸念があります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>音声UI対応のサービスを早期に構築した企業は、競合より高い顧客満足度を得られるようになります。技術的なハードルが下がったため、スタートアップの参入機会も増えます。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>OpenAI（5月）→Google（9月）→Microsoft（10月）と、主要AI企業が立て続けに音声能力を強化していることが象徴的。これはAI産業が『テキスト中心』から『マルチモーダル対応』への本格転換を示唆しており、テキストベースのChatGPTの優位性が相対的に低下していく局面に入ったと言えます。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>日本語標準音声の提供時期と、実際の企業導入事例の登場。特にコンタクトセンターやカスタマーサービス業界での導入が進むかが、音声AIの現実度を測る重要な指標になります。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/microsoft.html">#Microsoft</a><a class="tag-pill" href="../topics/5088cc69bb.html">#音声AI</a><a class="tag-pill" href="../topics/chatgpt.html">#ChatGPT</a></div>
+  <script>window.motPageTags=["Microsoft", "音声AI", "ChatGPT"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">睡眠の質を、指先のリングで可視化</h3><p class="sponsor-desc">スマートリング「RingConn」。装着するだけで睡眠データを記録・分析できる。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" rel="sponsored nofollow" target="_blank"><img border="0" width="300" height="250" alt="RingConn" loading="lazy" src="https://www20.a8.net/svt/bgt?aid=260905484110&wid=001&eno=01&mid=s00000026776002004000&mc=1"></a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">RingConn</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.itmedia.co.jp/news/article/2610/02/2000001950/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>ITmedia AI＋ 最新記事一覧</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.itmedia.co.jp/news/article/2610/02/2000001950/" target="_blank" rel="noopener noreferrer">元記事（<cite>ITmedia AI＋ 最新記事一覧</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. MAI-Transcribe-2-Streamingとは何ですか？</p>
+    <p class="faq-a">話している途中に文字起こし結果をリアルタイムで返すMicrosoftの音声認識モデル。100ミリ秒程度の低遅延で60言語に対応しており、音声エージェントが相手の話を途中で理解して反応できます。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 料金はいくらですか？</p>
+    <p class="faq-a">文字起こしは年末までの導入価格で音声1時間当たり0.54ドル。音声合成は100万文字当たり22ドル、高速版は15ドルです。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 日本語には対応していますか？</p>
+    <p class="faq-a">文字起こしモデルは日本語を含む60言語に対応していますが、合成モデルの標準音声にはまだ日本語が含まれていません。東日本リージョンでは利用可能です。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Microsoft%E3%80%81%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E9%9F%B3%E5%A3%B0AI%E3%81%A7%E6%A5%AD%E7%95%8C%E3%81%AE%E6%B5%81%E3%82%8C%E3%82%92%E5%8A%A0%E9%80%9F%E3%80%82%E9%9F%B3%E5%A3%B0%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E6%99%82%E4%BB%A3%E3%81%AE%E6%9C%AC%E6%A0%BC%E5%8C%96%E3%81%B8&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html&text=Microsoft%E3%80%81%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E9%9F%B3%E5%A3%B0AI%E3%81%A7%E6%A5%AD%E7%95%8C%E3%81%AE%E6%B5%81%E3%82%8C%E3%82%92%E5%8A%A0%E9%80%9F%E3%80%82%E9%9F%B3%E5%A3%B0%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E6%99%82%E4%BB%A3%E3%81%AE%E6%9C%AC%E6%A0%BC%E5%8C%96%E3%81%B8" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html" data-share-title="Microsoft、リアルタイム音声AIで業界の流れを加速。音声アシスタント時代の本格化へ">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="microsoft-ai-8b377831">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="openai-chatgpt-9882387d.html">
+    <img src="https://www.itmedia.co.jp/aiplus/article/ogp/2610/02/2000001961/10004749/2048" alt="" loading="lazy">
+    <span class="next-up-headline">ChatGPT有料ユーザーの利用制限がリセット、10月3日実施</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="google-gemini-4-argon-02fadfe9.html">Google新AIモデル「Gemini 4 Argon」、ChatGPT・Claudeを性能で上回る</a></li>
+  <li><a href="anthropic-ai-5913fefd.html">ChatGPT選べなくなる日も。米国の輸出規制が示すAI主権の切実性</a></li>
+  <li><a href="openai-chatgpt-e66f393b.html">OpenAI、常時稼働AIエージェント「dots」と高速版「Ultrafast」で業務激変</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

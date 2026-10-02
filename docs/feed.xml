@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ソニーがPS5向けAI画質向上技術を解放、上位モデル独占から全機種対応へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/playstation-ai-dca24d54.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/playstation-ai-dca24d54.html</guid>
+    <description>ソニーが通常のPS5でもAIによる画質向上を実現する技術「QSSR」を発表。これまでPS5 Proのみの機能が、アップデートで全PS5ユーザーに広がる。</description>
+    <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Microsoft、リアルタイム音声AIで業界の流れを加速。音声アシスタント時代の本格化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html</guid>
+    <description>Microsoftが音声認識と合成の新モデルを公開。低遅延で複数言語対応し、音声エージェント構築が加速する。</description>
+    <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google新AIモデル「Gemini 4 Argon」、ChatGPT・Claudeを性能で上回る</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-02fadfe9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-02fadfe9.html</guid>
+    <description>Googleが最新AIモデルを発表。知識労働やコーディングで競合を凌ぐが、一般提供は未定。</description>
+    <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT有料ユーザーの利用制限がリセット、10月3日実施</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9882387d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9882387d.html</guid>
+    <description>OpenAIが有料ユーザーを対象にChatGPTの利用枠をリセット。性能低下への対応措置。</description>
+    <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>KDDI傘下ELYZAが国産AI「LLM-jp-4」改良版を無料公開、商用利用も可能</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/kddi-elyza-fd293565.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/kddi-elyza-fd293565.html</guid>
+    <description>日本の大手企業KDDIグループが、国産AIを改良したモデルを誰でも無料で使える形で公開。商用利用もOK。</description>
+    <pubDate>Fri, 02 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPTやGeminiが1クリック。月額不要のAIキーボード「MiMouse」登場</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-2d25b758.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-2d25b758.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/rails-ai-4a944166.html</guid>
     <description>大手ウェブサービス開発企業が手作業でのコード開発をやめ、AIに切り替え。開発者の役割が大きく転換される。</description>
     <pubDate>Thu, 01 Oct 2026 14:37:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Autodesk、AIが設計を自動化。部品組み立てから製造まで業務激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/autodesk-fusion-2897e731.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/autodesk-fusion-2897e731.html</guid>
-    <description>Autodeskが設計ツール向けAI機能を発表。部品編集や組み立て、既存資産の再利用を自動化する。</description>
-    <pubDate>Thu, 01 Oct 2026 14:36:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AWSのAIコーディングエージェント「Kiro」、システムプロンプトを自動評価・改善する仕組みで陳腐化を防止</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-kiro-4293385c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-kiro-4293385c.html</guid>
-    <description>AWSが社内データをAIに採点させてシステムプロンプトの効果を測定。AIエージェント運用の新しい課題に対処。</description>
-    <pubDate>Thu, 01 Oct 2026 14:36:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>エンジニアが悲鳴、AIあれば早くできるでしょ問題の衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a080c84e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a080c84e.html</guid>
-    <description>AIは万能ではないのに「AIがあるのだから早くできるはず」と期待されるエンジニアの苦悩が調査で明らかに。</description>
-    <pubDate>Thu, 01 Oct 2026 14:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>引退ロボが溶鋼に沈む、シュワルツェネッガー氏が仕掛ける</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/figure-2c93e591.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/figure-2c93e591.html</guid>
-    <description>米ロボット企業Figureが、引退した人型ロボを溶融金属に投じる動画を公開。シュワルツェネッガー氏とのやりとりがきっかけ。</description>
-    <pubDate>Thu, 01 Oct 2026 14:35:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ氏のAI会食から、なぜかAppleだけが欠席。シリコンバレー主要企業が集結する中での異例の判断</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-9bc11350.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-9bc11350.html</guid>
-    <description>トランプ前大統領がシリコンバレーの主要AI企業との会食を開催した際、Appleが参加しなかった。AI政策形成の影響力を巡る業界内の立ち位置の違いが浮き彫りになった。</description>
-    <pubDate>Thu, 01 Oct 2026 13:32:00 +0900</pubDate>
   </item>
 </channel></rss>

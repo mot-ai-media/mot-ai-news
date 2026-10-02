@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-02 18:02
+最終更新: 2026-10-02 22:01
 
 ## 記事一覧
 
+- [ChatGPT利用制限リセットとは？有料ユーザー対象、実施日時は](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9882387d.html): OpenAIが有料ユーザーを対象にChatGPTの利用枠をリセット。性能低下への対応措置。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-02 22:01)
+- [Google Gemini 4 Argonとは？OpenAI・Anthropicとの性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-02fadfe9.html): Googleが最新AIモデルを発表。知識労働やコーディングで競合を凌ぐが、一般提供は未定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-02 22:01)
+- [Microsoft音声AI新モデル発表。文字起こし・合成の料金・性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html): Microsoftが音声認識と合成の新モデルを公開。低遅延で複数言語対応し、音声エージェント構築が加速する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-02 22:01)
+- [PS5向けAI技術「QSSR」とは？画質向上の仕組みと対応ゲーム](https://mot-ai-media.github.io/mot-ai-news/articles/playstation-ai-dca24d54.html): ソニーが通常のPS5でもAIによる画質向上を実現する技術「QSSR」を発表。これまでPS5 Proのみの機能が、アップデートで全PS5ユーザーに広がる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-02 22:01)
+- [ELYZA国産AIモデル無料公開とは？LLM-jp-4の改良版、商用利用OK](https://mot-ai-media.github.io/mot-ai-news/articles/kddi-elyza-fd293565.html): 日本の大手企業KDDIグループが、国産AIを改良したモデルを誰でも無料で使える形で公開。商用利用もOK。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-02 22:00)
 - [BTS×Google Geminiコラボ機能とは？「Unlock BTS」「7777」で何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-b7809ea2.html): Google GeminiがBTSとのコラボ機能を公開。特定のワードを入力すると4つの体験が利用可能に。 (出典: chiba-tv.com / 更新: 2026-10-02 18:02)
 - [MiMouseとは？ChatGPT・Gemini対応のAIキーボード、料金・使い方](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-2d25b758.html): 月額料金なしでChatGPTやGeminiをキーボードから直接使える新製品が登場。AIツールがより身近に。 (出典: hermitage akihabara [エルミタージュ秋葉原] / 更新: 2026-10-02 18:02)
 - [Claude CodeのMod機能とは？カスタマイズ方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fd14519b.html): AnthropicのAIコーディングアシスタント「Claude Code」がカスタマイズ機能を追加。ユーザーの好みに合わせた設定が可能に。 (出典: au Webポータル / 更新: 2026-10-02 18:01)
@@ -202,8 +207,3 @@
 - [Anthropic Opus 5.5とは？性能・料金・提供開始時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8fee313a.html): Anthropic傘下のClaudeが最新版Opus 5.5にアップデート。性能は大幅向上、料金は大幅値下げ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)
 - [AstroForge、AI搭載宇宙探査機とは？2027年ミッションの意味](https://mot-ai-media.github.io/mot-ai-news/articles/astroforge-ai-b9dfdf1a.html): NASAの支援を受けるスタートアップが、トランスフォーマー型AIで探査機を完全自動操縦する計画。スタートアップにも本格的な宇宙ミッションが可能になる転機。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)
 - [AI企業ソフト市場侵食とは？Emaが調達した理由・今後の影響を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ema-ai-343438d8.html): AIエージェントが従来の企業向けソフトの仕事を奪い始め、急速な事業化が進行中。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:00)
-- [Qualcomm AI チップ スマートフォン 2026年 販売減少](https://mot-ai-media.github.io/mot-ai-news/articles/qualcomm-android-3fd630c1.html): スマートフォン大手メーカーのチップ供給を担うQualcommがAI機能に特化した新型Androidチップを発表。一方で業界全体では2026年に世界的な端末販売台数が14%減少する見通しが出ており、AI搭載スマホへの転換が市場の急速な変化を示唆している。 (出典: CNBC / 更新: 2026-09-23 19:28)
-- [トランプ・習近平会談でAI安全保障が焦点、規制より競争優先の見方も](https://mot-ai-media.github.io/mot-ai-news/articles/ai-a340732f.html): 米国と中国の首脳会談でAI安全保障が主要議題として取り上げられた。しかし専門家は、安全性への懸念は共有されつつも、両国とも技術開発の競争ペースを緩和する意思は低いと指摘している。 (出典: CNBC / 更新: 2026-09-23 19:27)
-- [OpenAI GPT-6 Sol Luna とは？新型AIモデル発表](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-6f8660f7.html): OpenAIが新型AIモデル「GPT-6 Sol」と「Luna」を発表。 (出典: OpenAI / 更新: 2026-09-23 18:53)
-- [OpenAI新モデルGPT-6 Sol・Lunaとは？料金・性能の違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-25b056c5.html): OpenAIが低コスト・高精度を謳う新世代AIモデルGPT-6 Sol・Lunaを発表。利用企業の選択肢が広がる。 (出典: TechCrunch / 更新: 2026-09-23 18:53)
-- [AIの急速な発展に政府・首脳も対応できていない現実](https://mot-ai-media.github.io/mot-ai-news/articles/ai-233cf370.html): ギリシャ首相が、世界中の指導者がAIの急速な進展に対する答えを持っていないことを公開で認めた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 18:01)
