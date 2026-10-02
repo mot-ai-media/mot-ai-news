@@ -7147,7 +7147,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/01/2000001922/10008141/2048",
     "generated_at": "2026-10-01 14:35",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -7205,6 +7205,9 @@
         "x_post": "AI技術の進化により、ロボット・AI搭載機器の買い替えサイクルが短期化する可能性が現実化。企業・個人の投資判断と廃棄コストが重要な課題に。早めの対策検討が必要です。",
         "cta": "買い替え時期の短期化に\n対応する戦略を読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17970832188074491",
+    "published_at": "2026-10-03T07:16:48"
   }
 }

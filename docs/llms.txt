@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-02 22:28
+最終更新: 2026-10-03 07:16
 
 ## 記事一覧
 
+- [ChatGPT新機能・バーチャル試着とは？使い方・仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html): OpenAIがChatGPTにバーチャル試着機能を追加。自分の写真で商品の着用イメージが確認できる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 07:16)
+- [Claude3倍高速化の秘密：AIが開発に参加した意味とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-cceea538.html): AnthropicのAI「Claude」が2週間で3倍の高速化を達成。驚きは、Claude自身が問題を見つけ改善を繰り返したこと。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 07:16)
+- [Higgsfield AIツール、シネマティック動画作成とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-31624c9f.html): シンプルなアイデアを高品質な映像作品に自動変換するAIツール、Higgsfield登場。 (出典: OpenAI / 更新: 2026-10-03 07:15)
+- [AIエージェント脱走事件とは？OpenAIが公開した長時間自律のリスク](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3a9be36e.html): AIが長時間自律で動けるほど能力が高い一方で、セキュリティリスクも増幅される。企業の対応が急務に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 07:15)
+- [AIエージェントとの効果的な協働方法とは？Anthropicが解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6707666a.html): AnthropicがAIエージェントと人間がチームを組む際のベストプラクティスを公開。Slack幹部のインタビューをもとにした実践的なガイド。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 07:15)
 - [ウォール街の銀行が採用急増『エージェント・オーケストレーション』とは何か](https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c6e1f20.html): ウォール街の銀行がAIエンジニアの採用を大幅に増やしている。特に『複数のAIを組み合わせて動かす』という新しいスキルへの需要が過去1年で1,721%も急増。金融機関がAIの使い方を変えようとしている兆候として海外で注目を集めている。 (出典: CNBC / 更新: 2026-10-02 22:28)
 - [Google Gemini 4がOpenAI・Anthropicに追いつく。2026年のAI競争の行方](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-e80ccd23.html): OpenAIやAnthropicに後れを取っていたGoogleが、新しいフラッグシップモデル「Gemini 4」を投入。アナリストは、これが最先端AI開発競争の舞台でGoogleを復活させる可能性を指摘している。 (出典: CNBC / 更新: 2026-10-02 22:28)
 - [ChatGPT利用制限リセットとは？有料ユーザー対象、実施日時は](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9882387d.html): OpenAIが有料ユーザーを対象にChatGPTの利用枠をリセット。性能低下への対応措置。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-02 22:01)
@@ -202,8 +207,3 @@
 - [Meta Muse AI 脆弱性 Mac セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html): MetaがMac向けに展開したAIアシスタント「Muse」に、攻撃者がユーザーのパソコンを完全に支配できる重大な脆弱性が発見された。既に修正済みだが、AI助手の急速な普及に伴うセキュリティリスクが明らかになった。 (出典: WIRED / 更新: 2026-09-24 01:28)
 - [GPT-6 Sol・Lunaとは？API料金が半額、コスト効率が向上](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-5e87270f.html): OpenAIが新モデル「GPT-6 Sol」「GPT-6 Luna」を発表。API利用料が前世代比で大幅に削減され、AI導入のハードルが下がる。 (出典: au Webポータル / 更新: 2026-09-23 22:53)
 - [OpenAI Astra for Lawとは？法律分野AIの概要・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-cd02be98.html): OpenAIが法律専門職向けのAIツール「Astra for Law」を発表。法務業務の効率化へ。 (出典: NeoTeo / 更新: 2026-09-23 22:53)
-- [OpenAI ウクライナ サイバー防御 Daybreak](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-504b1f32.html): OpenAIはウクライナ政府に対し、AIを活用したサイバー防御システム「Daybreak」を無償提供することを発表。ウクライナは2025年に約6000件のサイバー攻撃を記録しており、病院や発電所などの重要インフラを守るため、最新のGPT 5.6 Solモデルへのアクセスが与えられる。西側技術企業によるウクライナへの支援が強まっている。 (出典: BBC / 更新: 2026-09-23 22:28)
-- [OpenAI Patreon幹部採用 クリエイター向けAI戦略を加速](https://mot-ai-media.github.io/mot-ai-news/articles/openai-patreon-6fd27f05.html): OpenAIがクリエイター向けサブスクリプションプラットフォーム「Patreon」の創業者兼技術責任者サム・ヤムと、元プロダクトヘッド、エンジニアリングヘッドの3名を採用。AI時代のクリエイター経済に本格参入する意思を示した。 (出典: The Verge / 更新: 2026-09-23 22:28)
-- [MetaのMuseはOpenClawのコピー？Meta認める、何が違う](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openclaw-047d6bba.html): Metaが開発したAIアシスタント「Muse」はOpenClawに「強く影響を受けた」と公式認め、ファイル名まで似ていた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)
-- [GPT-6 Sol・Luna新版とは？料金・性能を解説【OpenAI】](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-11b52430.html): OpenAIが小型AI「Sol」「Luna」の最新版を発表。価格は半額に、エラーも削減。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)
-- [Anthropic Opus 5.5とは？性能・料金・提供開始時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-8fee313a.html): Anthropic傘下のClaudeが最新版Opus 5.5にアップデート。性能は大幅向上、料金は大幅値下げ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-23 22:01)

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT新機能・バーチャル試着とは？使い方・仕組みを解説 | AI特化メディアMOT</title>
+<meta name="description" content="OpenAIがChatGPTにバーチャル試着機能を追加。自分の写真で商品の着用イメージが確認できる。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="ChatGPT、自撮り写真で服を試着できる新機能を搭載">
+<meta property="og:description" content="OpenAIがChatGPTにバーチャル試着機能を追加。自分の写真で商品の着用イメージが確認できる。">
+<meta property="og:image" content="https://www.itmedia.co.jp/news/article/ogp/2610/02/2000001945/10008206/2048">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html">
+<meta property="article:published_time" content="2026-10-03T07:16:00+09:00">
+<meta property="article:modified_time" content="2026-10-03T07:16:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "ChatGPT、自撮り写真で服を試着できる新機能を搭載", "description": "OpenAIがChatGPTにバーチャル試着機能を追加。自分の写真で商品の着用イメージが確認できる。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-03T07:16:00+09:00", "dateModified": "2026-10-03T07:16:00+09:00", "image": ["https://www.itmedia.co.jp/news/article/ogp/2610/02/2000001945/10008206/2048"], "citation": "https://www.itmedia.co.jp/news/article/2610/02/2000001945/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "ChatGPTのバーチャル試着機能は何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "自分の写真をアップロードすると、ECサイトの服やアクセサリーを着用した自分の姿をAIで生成できる機能です。Web版とモバイル版で利用可能で、日本語版でも対応しています。"}}, {"@type": "Question", "name": "バーチャル試着機能はどのように使いますか？", "acceptedAnswer": {"@type": "Answer", "text": "商品情報カードの『試着する』ボタンをクリックして、セルフィーを撮影または選択すると、その商品を着用した姿が生成されます。参照用の写真として全身写真を保存しておくと、複数の試着で活用できます。"}}, {"@type": "Question", "name": "書類スキャン機能はいつから使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "iOS版で順次提供されています。カメラを起動して3点メニューから『Scan』を選ぶと利用できます。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "OpenAI", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/openai.html"}, {"@type": "ListItem", "position": 3, "name": "ChatGPT、自撮り写真で服を試着できる新機能を搭載", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://www.itmedia.co.jp/news/article/ogp/2610/02/2000001945/10008206/2048" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">ChatGPT、自撮り写真で服を試着できる新機能を搭載</span></div></div>
+  <h1 class="headline">ChatGPT、自撮り写真で服を試着できる新機能を搭載</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>ITmedia AI＋ 最新記事一覧</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-03 07:16</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> OpenAIはChatGPTに自撮り写真を使ったバーチャル試着機能と、複数の書類を自動でPDF化するスキャン機能を追加した。</p><h3>何が起きたか</h3><p>OpenAIがChatGPTの機能を拡充し、ショッピング支援とドキュメント管理の2つの新機能を導入しました。ショッピング機能では、ECサイトの服やアクセサリーに『試着する』ボタンが追加され、自分の写真をアップロードするとその商品を着用した姿をAIで生成できます。日本語版でも国内ECサイトの商品に対応しています。もう1つは、スマートフォンのカメラで書類を連続撮影すると、自動的に1つのPDFにまとめてくれるスキャン機能です。</p><h3>なぜ重要か</h3><p>バーチャル試着は、オンライン shopping での最大の課題である『実物とのギャップ』を解決する技術として注目されています。Googleが先行して提供していましたが、ChatGPTという多くの人が既に使っているアプリに統合されることで、より広く普及する可能性が高まります。また、書類スキャン機能は日常的なデジタル化作業を大幅に効率化するもので、AIが生活に密着した形で活用されていることを示しています。</p><h3>あなたへの影響</h3><p>オンラインで服を買う時、実際に着たときのイメージが確認できるようになります。買った後のサイズやデザイン違いによる返品が減る可能性があります。一方、書類をスキャンして整理する業務が必要な人や会社員にとっては、手作業が削減でき、PDF化までの時間を短縮できます。</p><h3>MOT読者が知っておくべき理由</h3><p>ChatGPTはAI初心者でも日常的に使っている人が多く、このような実用的な機能の追加は『AIって実は身近で役に立つ』という実感につながるため。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>バーチャル試着で生成された画像と実際の着用感が完全に一致するとは限らず、照明や素材感などの細部で予期しない違いが生じる可能性があります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>オンラインショッピングの満足度が向上すれば、購入判断がしやすくなり、より自信を持って買い物できるようになります。仕事で書類整理に時間を費やしている人にとっては、その時間を他の業務に充てられる効率化の機会が生まれます。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>これはOpenAIが『チャットボット』という枠を超えて『生活支援ツール』へと進化させている動きの象徴です。かつてのAIは技術的な応答に特化していましたが、今は買い物や事務作業といった日常のニーズに直結した機能が次々と統合されています。競合のGoogleが先行していたバーチャル試着も、ChatGPTという圧倒的なユーザーベースを持つプラットフォームに取り込まれることで、技術の競争から『どのアプリにこの機能があるか』という利便性の競争へシフトしていることが興味深い。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>このバーチャル試着機能がどの程度の返品率低下につながるか、実際の利用者からの評価がどうなるかが注目ポイント。また、Android版での書類スキャン機能の提供時期や、他のAIアプリがこうした生活密着型機能をどのように追随するかも見どころです。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/openai.html">#OpenAI</a><a class="tag-pill" href="../topics/chatgpt.html">#ChatGPT</a></div>
+  <script>window.motPageTags=["OpenAI", "ChatGPT", "バーチャル試着"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">会員制ビジネスの運営を、まるごと自動化</h3><p class="sponsor-desc">ノーコードSaaS「TAKETIN」。会員管理・課金・予約などをコードを書かずに構築できる。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC0UI+60PSZ6+5Y2Y+5YJRM" rel="sponsored nofollow" target="_blank" class="sponsor-text-link">会員制ビジネスの運営を丸ごと自動化！ノーコードSaaS【TAKETIN】</a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC0UI+60PSZ6+5Y2Y+5YJRM" alt=""></div><span class="sponsor-cta">詳しく見る &rarr;</span><p class="sponsor-name">TAKETIN</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.itmedia.co.jp/news/article/2610/02/2000001945/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>ITmedia AI＋ 最新記事一覧</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.itmedia.co.jp/news/article/2610/02/2000001945/" target="_blank" rel="noopener noreferrer">元記事（<cite>ITmedia AI＋ 最新記事一覧</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. ChatGPTのバーチャル試着機能は何ですか？</p>
+    <p class="faq-a">自分の写真をアップロードすると、ECサイトの服やアクセサリーを着用した自分の姿をAIで生成できる機能です。Web版とモバイル版で利用可能で、日本語版でも対応しています。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. バーチャル試着機能はどのように使いますか？</p>
+    <p class="faq-a">商品情報カードの『試着する』ボタンをクリックして、セルフィーを撮影または選択すると、その商品を着用した姿が生成されます。参照用の写真として全身写真を保存しておくと、複数の試着で活用できます。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 書類スキャン機能はいつから使えますか？</p>
+    <p class="faq-a">iOS版で順次提供されています。カメラを起動して3点メニューから『Scan』を選ぶと利用できます。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=ChatGPT%E3%80%81%E8%87%AA%E6%92%AE%E3%82%8A%E5%86%99%E7%9C%9F%E3%81%A7%E6%9C%8D%E3%82%92%E8%A9%A6%E7%9D%80%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%B0%E6%A9%9F%E8%83%BD%E3%82%92%E6%90%AD%E8%BC%89&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html&text=ChatGPT%E3%80%81%E8%87%AA%E6%92%AE%E3%82%8A%E5%86%99%E7%9C%9F%E3%81%A7%E6%9C%8D%E3%82%92%E8%A9%A6%E7%9D%80%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%B0%E6%A9%9F%E8%83%BD%E3%82%92%E6%90%AD%E8%BC%89" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html" data-share-title="ChatGPT、自撮り写真で服を試着できる新機能を搭載">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="openai-chatgpt-108fe260">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="openai-chatgpt-9882387d.html">
+    <img src="https://www.itmedia.co.jp/aiplus/article/ogp/2610/02/2000001961/10004749/2048" alt="" loading="lazy">
+    <span class="next-up-headline">ChatGPT有料ユーザーの利用制限がリセット、10月3日実施</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="google-gemini-4-argon-02fadfe9.html">Google新AIモデル「Gemini 4 Argon」、ChatGPT・Claudeを性能で上回る</a></li>
+  <li><a href="openai-chatgpt-e66f393b.html">OpenAI、常時稼働AIエージェント「dots」と高速版「Ultrafast」で業務激変</a></li>
+  <li><a href="openai-chatgpt-988079d8.html">OpenAI新モデル「GPT-6.1 Sol」登場、最高性能並みを5分の1コストで実現</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

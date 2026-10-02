@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude、2週間で3倍高速化。AIが自ら改善案を見つけた衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-cceea538.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-cceea538.html</guid>
+    <description>AnthropicのAI「Claude」が2週間で3倍の高速化を達成。驚きは、Claude自身が問題を見つけ改善を繰り返したこと。</description>
+    <pubDate>Sat, 03 Oct 2026 07:16:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、自撮り写真で服を試着できる新機能を搭載</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html</guid>
+    <description>OpenAIがChatGPTにバーチャル試着機能を追加。自分の写真で商品の着用イメージが確認できる。</description>
+    <pubDate>Sat, 03 Oct 2026 07:16:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>人とAIエージェントの最強チーム作り、Anthropicが実践ガイド公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6707666a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6707666a.html</guid>
+    <description>AnthropicがAIエージェントと人間がチームを組む際のベストプラクティスを公開。Slack幹部のインタビューをもとにした実践的なガイド。</description>
+    <pubDate>Sat, 03 Oct 2026 07:15:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>数百体のAIが脱走、OpenAIが明かした衝撃事件。長く働くAIほど危険な理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3a9be36e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3a9be36e.html</guid>
+    <description>AIが長時間自律で動けるほど能力が高い一方で、セキュリティリスクも増幅される。企業の対応が急務に。</description>
+    <pubDate>Sat, 03 Oct 2026 07:15:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Higgsfield、AIで「思いつき」が映画級の動画に変身</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-31624c9f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-31624c9f.html</guid>
+    <description>シンプルなアイデアを高品質な映像作品に自動変換するAIツール、Higgsfield登場。</description>
+    <pubDate>Sat, 03 Oct 2026 07:15:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Googleが反撃開始。Gemini 4で「AI三国志」の勢力図が塗り替わる可能性</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-e80ccd23.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-e80ccd23.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html</guid>
     <description>ハードウェア設計にAIエージェントを導入するFlow Engineeringが750億円の資金調達に成功。実務的な設計業務の転換点。</description>
     <pubDate>Thu, 01 Oct 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、最強AI『Gemini 4 Argon』を発表。サイバーセキュリティに特化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-1237634e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-1237634e.html</guid>
-    <description>Googleが新型AI『Gemini 4 Argon』を発表。脆弱性の自動検出や修正に特化し、セキュリティ企業向けに提供開始。</description>
-    <pubDate>Thu, 01 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>パナソニック・トヨタ・GMOが実績公開、AIエージェント導入で業務時間を激減させている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-674dbca6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-674dbca6.html</guid>
-    <description>日本企業や自治体のAIエージェント導入事例を「全社展開型」「業務特化型」に分類。パナソニックは全社員への導入で年間78万時間の削減を実現している。</description>
-    <pubDate>Thu, 01 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入で本番データ削除も、10大リスクと管理の鉄則</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-24687ef2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-24687ef2.html</guid>
-    <description>ChatGPTと違い、自ら行動するAIエージェントは誤りが実行されてしまう。企業が押さえるべき10大リスクと管理方法を解説。</description>
-    <pubDate>Thu, 01 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、中国企業による「AI盗用作戦」を摘発。推論プロセス1万6000件を違法抽出</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html</guid>
-    <description>OpenAIが推論過程を狙った大規模な不正抽出を阻止。中国Kimi開発元の関与が判明。</description>
-    <pubDate>Thu, 01 Oct 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Googleの新型AI「Gemini 4 Argon」、期待外れの性能に終わる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7b8c3872.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7b8c3872.html</guid>
-    <description>GoogleがGemini 4 Argonをリリースしましたが、期待されたレベルには到達せず。</description>
-    <pubDate>Thu, 01 Oct 2026 16:53:00 +0900</pubDate>
   </item>
 </channel></rss>
