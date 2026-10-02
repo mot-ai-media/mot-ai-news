@@ -1,19 +1,6 @@
 [
   {
     "tokens": [
-      "back",
-      "big",
-      "break",
-      "era",
-      "fast",
-      "move",
-      "tech's",
-      "things'"
-    ],
-    "ts": "2026-09-24T22:28:16"
-  },
-  {
-    "tokens": [
       "australia",
       "biggest",
       "chose",
@@ -750,5 +737,33 @@
       "really"
     ],
     "ts": "2026-10-02T22:28:14"
+  },
+  {
+    "tokens": [
+      "cerebras",
+      "expiration",
+      "hits",
+      "lockup",
+      "low",
+      "nvidia",
+      "post-ipo",
+      "pressure",
+      "stock",
+      "tumbling",
+      "week"
+    ],
+    "ts": "2026-10-03T07:27:58"
+  },
+  {
+    "tokens": [
+      "100",
+      "anthropic",
+      "engineer",
+      "invest",
+      "million",
+      "talent",
+      "train"
+    ],
+    "ts": "2026-10-03T07:28:11"
   }
 ]

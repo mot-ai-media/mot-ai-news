@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、100億円規模で1万人のAIエンジニア育成へ。人材不足が深刻化する業界に激震</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ba69b66d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ba69b66d.html</guid>
+    <description>AI企業Anthropicが約100億円を投じてAIエンジニア人材の育成プログラムを開始。コンサルティング企業との提携により、最大1万人の技術者育成を目指す施策が業界全体に与える影響は大きい。</description>
+    <pubDate>Sat, 03 Oct 2026 07:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI専門チップメーカーのセレブラスが上場後最安値を記録——ニvidia圧力で株価20%急落</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/cerebras-nvidia-89f9edb3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cerebras-nvidia-89f9edb3.html</guid>
+    <description>AI向け専門プロセッサーを開発するスタートアップ・セレブラスの株価が、ニビディアの圧力と上場後ロックアップ期間の終了により週間で20%下落し、上場後の最安値をつけた。AI半導体産業の競争構図が変わりつつあることを示す動きとして注目されている。</description>
+    <pubDate>Sat, 03 Oct 2026 07:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude、2週間で3倍高速化。AIが自ら改善案を見つけた衝撃</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-cceea538.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-cceea538.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hennge-ai-04440a51.html</guid>
     <description>セキュリティ企業HENNGEが、取締役2人を除き全業務をAIエージェントが担う新会社を設立。AI管理ツールの開発と、最適な組織構造の検証を進める。</description>
     <pubDate>Thu, 01 Oct 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、ChatGPT 6搭載の自律AIエージェント「Dots」を発表</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2f5d5645.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2f5d5645.html</guid>
-    <description>OpenAIが新型AIエージェント「Dots」を発表。自動で複雑なタスクをこなす能力を備える。</description>
-    <pubDate>Thu, 01 Oct 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>750億円調達のFlow Engineering、AI が部品設計を自動化する時代到来</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html</guid>
-    <description>ハードウェア設計にAIエージェントを導入するFlow Engineeringが750億円の資金調達に成功。実務的な設計業務の転換点。</description>
-    <pubDate>Thu, 01 Oct 2026 18:02:00 +0900</pubDate>
   </item>
 </channel></rss>
