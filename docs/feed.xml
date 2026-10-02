@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude Fable 5.5、噂と実情が浮き彫り。次期AIモデルの全貌が見え始める</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-931ab186.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-931ab186.html</guid>
+    <description>Anthropic次期モデルの開発情報が業界で話題。実態はまだ不透明だが、業界の注目が集まっている。</description>
+    <pubDate>Fri, 02 Oct 2026 15:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GPT-6 Astraが「Blender職人」へ進化、AIがツール使いこなす時代に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d3ff187a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d3ff187a.html</guid>
+    <description>最新のAIモデルが、デザインソフトなどのツールを人間並みに使いこなせるレベルに達した。</description>
+    <pubDate>Fri, 02 Oct 2026 14:58:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Google、新型AI「Gemini 4」を突然ローンチ──市場が揺れた投資判断の日</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-2665a525.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-2665a525.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8247ec0c.html</guid>
     <description>日立とファナックが、AIとロボットを組み合わせた「フィジカルAI」の共同事業化で提携。2027年から世界展開を目指す。</description>
     <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT選べなくなる日も。米国の輸出規制が示すAI主権の切実性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5913fefd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5913fefd.html</guid>
-    <description>AIサービスに依存する企業は、地政学的リスクや規制変更で急に使えなくなる可能性がある。</description>
-    <pubDate>Thu, 01 Oct 2026 09:09:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの規制より「安全テスト」が先—イギリス中央銀行トップが方針転換</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html</guid>
-    <description>イギリス中央銀行のAndrew Bailey総裁が、AIの急速な発展に対して「いきなり規制するべきではなく、まず徹底的な安全テストと脆弱性の検証が必要」との立場を表明。AI企業の自主的な安全責任を求める新しい規制アプローチが国際的な議論を呼んでいる。</description>
-    <pubDate>Wed, 30 Sep 2026 22:28:00 +0900</pubDate>
   </item>
 </channel></rss>

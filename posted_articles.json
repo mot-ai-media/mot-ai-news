@@ -1,73 +1,5 @@
 [
   {
-    "link": "https://ainow.ai/2026/09/02/278341/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e6%25b4%25bb%25e7%2594%25a8%25e6%2596%25b9%25e6%25b3%2595-%25e6%25a5%25ad%25e5%258b%2599%25e5%2588%25a5%25e3%2582%25b7%25e3%2583%25bc%25e3%2583%25b310%25e9%2581%25b8%25e3%2581%25a8%25e5%25ae%259a%25e7%259d%2580",
-    "notified_at": "2026-09-01T22:14:23.482148+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
-    "notified_at": "2026-09-01T22:14:37.969833+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-    "notified_at": "2026-09-01T22:14:53.991907+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
-    "notified_at": "2026-09-01T22:15:09.878199+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
-    "notified_at": "2026-09-01T22:15:23.891454+00:00"
-  },
-  {
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9kQ09yMDZMTFlFZV9XNlpXQTRwWGtjbmxld2Z6UTBFSjlmb25uR1pRS3V1WjR2Z2RWVENYckt0VGkzTXFLa292ZW80Y1ExZk9FV0pCUA?oc=5",
-    "notified_at": "2026-09-02T04:21:41.937996+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/enterprise/articles/2609/02/news025.html",
-    "notified_at": "2026-09-02T04:21:57.899004+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001060/",
-    "notified_at": "2026-09-02T04:22:33.398141+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001058/",
-    "notified_at": "2026-09-02T04:22:49.907507+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2609/02/2000001056/",
-    "notified_at": "2026-09-02T04:23:06.141903+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001062/",
-    "notified_at": "2026-09-02T05:30:39.530008+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/enterprise/articles/2609/02/news047.html",
-    "notified_at": "2026-09-02T05:30:55.310172+00:00"
-  },
-  {
-    "link": "https://monoist.itmedia.co.jp/mn/articles/2609/02/news032.html",
-    "notified_at": "2026-09-02T05:31:08.760076+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001049/",
-    "notified_at": "2026-09-02T05:31:26.627352+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001048/",
-    "notified_at": "2026-09-02T05:32:20.402215+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2609/02/2000001068/",
-    "notified_at": "2026-09-02T06:00:44.868051+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2609/02/2000000979/",
-    "notified_at": "2026-09-02T06:01:09.195695+00:00"
-  },
-  {
     "link": "https://monoist.itmedia.co.jp/mn/articles/2609/02/news001.html",
     "notified_at": "2026-09-02T06:01:28.253701+00:00"
   },
@@ -4498,5 +4430,37 @@
   {
     "link": "https://www.cnbc.com/2026/10/01/5-things-to-know-before-the-stock-market-opens.html",
     "notified_at": "2026-10-01T13:34:24.978563+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ibkZoNWNNaG1MVzBJWk40cjdZeW9IMTRHNVJEbk9peFJwbFBOb01YcVphVWkzS1dzM1dLOTB0Qk1nTGkwMkJwdGdzMms3a21pelQ4ZFk1dlpMMGNJLVpZcG93STZiTk1SSGc?oc=5",
+    "notified_at": "2026-10-02T05:58:47.772257+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTlhFbWx0bWE2SUstS0pZZ1diTWJUWG85VXdZSFNreXFqQmFuVEdPNVJxZVRVUVpQaGFfRzlkSjkyU0xVZ0xWa3lOcnJEWkE1YldYc2xwNVV0dHd1ZWJvR0ZGeWxLNUVXancyUUhlVTh1a0dMdnliSTV1ZTBrOTVXcTI4bmUyUEo2a2FtZzV3?oc=5",
+    "notified_at": "2026-10-02T05:58:47.851632+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KcU1JWEFGdV96M2o5aF9HdU14SzRNTU5PVWh3RnRQUUJTa3RZT05YZkJNTHZ0RnpveXBhODdoSnNxcU1DSmg2dUFpWGV6c2FPR1FoV3B4QnB2MWJkXzhNbWdTdjVZaW5adDV2SlFYWXAwQQ?oc=5",
+    "notified_at": "2026-10-02T05:58:47.904575+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV053Y2RBRkxRM2hVVWtwSDZLNkdBUm5MVTg2dEo5Rmc0cGRvMGozRVBDdEl0dW42UUZPemFYZXlsbW4zMW5hSVczOEpsMWJHc1hHa0VTSktybzNBMFhoZTNLSjVBSmdxTFplWmtKRnJVUWtaYlA3NmhJTWxMZmNyRGxqaXdMNFl1di1HMHFya0hWcEh4d09iRQ?oc=5",
+    "notified_at": "2026-10-02T05:58:47.934961+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zb0VuUGxZa3lqdzFLdV9sVWtuc1RfbVBkSFBSS3RiQzhDd3cyVl9pc1RyMlpNam1BLVV1VG9ZWFZGOFVIWUZpZmlENHlHMGhBOFloVXkycEpjMGJqZFdsSldONlFZLU0ybG1hNXctYnU3aHIyQlE?oc=5",
+    "notified_at": "2026-10-02T05:58:47.959859+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5NSy0wUDhpYXRTb0VBLXRNRzc5RDFacG1ieWNlQXlGYnNqQXU3YmNtMUJNbk8yN1FOVy0tRzBvLVZwbS1kVUphMTF6WURQQm1Ldk9J?oc=5",
+    "notified_at": "2026-10-02T05:58:47.987372+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSEdGWjlwZFVYMFpIRENCdDdMM3NBcmlVaDNzWUhRZmxJU2tLNEk2cnJDZkJVTzhEQnFmYi1QcXdQVXMtbE5OSE5rX3FrbXVjM3lSdlAwT3VkQXVfd096MGxqSFNPeEVlMmgzVXczRzFtTWVMd2VWeHZfM2RWVUJMX3I5bFIxMnVNaHFOSURURUJ0NGZkX1dXamc4QWNyUkdQSVJOU1d6M0xGZ2FwQ3c?oc=5",
+    "notified_at": "2026-10-02T05:58:48.021278+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1YcWZvYVNTeHBQT0lEeWFVOExxaEswcG9DQlBmQzJLLW1QRkhQVkM1cWpmZDFIUkFzMWlUVW1fNDFSZTVxbTN2bVZQeFZlemRU?oc=5",
+    "notified_at": "2026-10-02T06:01:18.449142+00:00"
   }
 ]
