@@ -4,6 +4,48 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>217年前の暗号、AIが6時間で解読。歴史の謎もAIで解ける時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-89ce94ef.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-89ce94ef.html</guid>
+    <description>AIモデルが200年以上前の難解な暗号を数時間で破った。AIの解析能力が歴史学の領域にも及び始めている。</description>
+    <pubDate>Sun, 04 Oct 2026 00:58:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>リストラされた人、TechCrunch Disruptで75ドルパスで一発逆転のチャンス</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c73e8583.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c73e8583.html</guid>
+    <description>解雇者向けに割引パスを提供し、テック業界のネットワーキング機会を開放。</description>
+    <pubDate>Sun, 04 Oct 2026 00:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Napster創業者パーカー、Stability AIを音楽AIで再興。大手レーベルが資金と楽曲許可</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/stability-ai-sean-parker-3cc6542c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/stability-ai-sean-parker-3cc6542c.html</guid>
+    <description>かつての音楽業界の敵は今や味方に。Napster創業者が率いるStability AIが、Sony・Warner・Universalから資金と楽曲ライセンスを獲得、AI音楽生成ツールの開発を本格化させた。</description>
+    <pubDate>Sun, 04 Oct 2026 00:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta、AIエージェント「Muse」をあらゆるデバイスに対応させるコードを無償公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-83485a4e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-83485a4e.html</guid>
+    <description>Metaが個人用AIエージェント「Muse」を自作デバイスに組み込める仕組みを開放。開発者は自由に家電やガジェットと連携させられるように。</description>
+    <pubDate>Sun, 04 Oct 2026 00:43:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>テキストメッセージで動く AI エージェント、アプリ不要で日常業務を自動化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-41a7e440.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-41a7e440.html</guid>
+    <description>スマホのメッセージアプリにテキストするだけで、予定管理や調べ物などが完結するAIエージェントが続々登場。</description>
+    <pubDate>Sun, 04 Oct 2026 00:42:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Amazon、AI データセンター批判に反撃　10億ドル超の地域支援で懐柔作戦</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-2145f863.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-2145f863.html</guid>
+    <description>AWSが米国内の強い反発に直面するAIデータセンター建設について、CEO自ら誤情報説を唱え、地域支援基金10億ドル超を発表。</description>
+    <pubDate>Sun, 04 Oct 2026 00:42:00 +0900</pubDate>
+  </item>
+  <item>
     <title>音楽サンプル大手Spliceの CEOが警告「AI自動返信メールが人間らしい会話を殺している」</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/splice-ai-2b2053e0.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/splice-ai-2b2053e0.html</guid>
@@ -170,47 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ae92d604.html</guid>
     <description>GoogleのAIツールで生成した画像・動画・音楽から見える透かしを外す選択肢が追加。ただし目に見えない認証情報は残る。</description>
     <pubDate>Fri, 02 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>192GBメモリ搭載の小型ワークステーション、大規模AI実行を手の平サイズで実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/minisforum-ai-4c04c264.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/minisforum-ai-4c04c264.html</guid>
-    <description>最新型ミニワークステーションが、従来はサーバー級の機器でしか動かせなかった大規模AI言語モデルをコンパクト設計で実行可能に。</description>
-    <pubDate>Fri, 02 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude Codeに「Mod機能」登場、AIコーダーを自分好みにカスタマイズ可能に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fd14519b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fd14519b.html</guid>
-    <description>AnthropicのAIコーディングアシスタント「Claude Code」がカスタマイズ機能を追加。ユーザーの好みに合わせた設定が可能に。</description>
-    <pubDate>Fri, 02 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Interpol警告：AIが犯人の手口を高速化・ステルス化、サイバー攻撃が防ぎづらくなっている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/interpol-ai-1d278d84.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/interpol-ai-1d278d84.html</guid>
-    <description>国際刑事警察機構（Interpol）は、AI技術が既存のサイバー脅威を加速させ、攻撃を検出しにくくしていると警告。自律的に動作するAIの登場により、企業が直面する新たなリスクも増加している。</description>
-    <pubDate>Fri, 02 Oct 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが社員3名を解雇、機密情報の外部流出で</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-47338c90.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-47338c90.html</guid>
-    <description>ChatGPTで知られるOpenAIが、機密情報を外部の評価組織に流出させたとして研究員3名を解雇。AI安全性の議論が高まる中、企業内の情報管理体制の脆弱性が露呈した。</description>
-    <pubDate>Fri, 02 Oct 2026 16:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude Fable 5.5、噂と実情が浮き彫り。次期AIモデルの全貌が見え始める</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-931ab186.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-931ab186.html</guid>
-    <description>Anthropic次期モデルの開発情報が業界で話題。実態はまだ不透明だが、業界の注目が集まっている。</description>
-    <pubDate>Fri, 02 Oct 2026 15:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astraが「Blender職人」へ進化、AIがツール使いこなす時代に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d3ff187a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d3ff187a.html</guid>
-    <description>最新のAIモデルが、デザインソフトなどのツールを人間並みに使いこなせるレベルに達した。</description>
-    <pubDate>Fri, 02 Oct 2026 14:58:00 +0900</pubDate>
   </item>
 </channel></rss>
