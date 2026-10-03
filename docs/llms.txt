@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-03 15:42
+最終更新: 2026-10-04 00:32
 
 ## 記事一覧
 
+- [Nvidia Micron 株価 AI業界 市場動向 2024](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-micron-3627a651.html): 米国の株式市場で先週、AI関連企業の Nvidia と半導体メーカー Micron の動きが大きな注目を集めた。同時に雇用統計の予想外の結果も相場を動かした。この3つの要因から、AI産業への投資熱の高まりと市場の構造的な変化が見える。 (出典: CNBC / 更新: 2026-10-04 00:32)
+- [Splice CEO が AI メール問題を指摘、コミュニケーション劣化の懸念](https://mot-ai-media.github.io/mot-ai-news/articles/splice-ai-2b2053e0.html): 音楽制作用サンプル配信プラットフォーム・Spliceの CEO カクル・スリヴァスタヴァが、AI による自動生成メールが人間同士の対話を損なっているという懸念を表明。仕事のやりとりにおける会話の質低下が、ビジネスに及ぼす影響について指摘している。 (出典: The Verge / 更新: 2026-10-04 00:32)
 - [Meta Muse対応DIYガジェットSDKとは？Raspberry Pi対応で何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-79054280.html): MetaがAIエージェント「Muse」と連携するガジェットをハッカー向けにオープンソース公開。手持ちのボードやラズパイで自作できる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 15:42)
 - [Apple macOSフルディスクアクセス制御強化とは？AIエージェントのリスク](https://mot-ai-media.github.io/mot-ai-news/articles/apple-macos-3c82d213.html): Appleが、AIが勝手にあなたのメッセージやファイルを読み込むリスクに対応。Macの重要な権限付与を厳しくする。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 15:42)
 - [AIエージェント導入の課題とは？失敗を避ける対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-f167f551.html): AIエージェント導入の成否を左右する導入前後の課題10個と解決策を調査データで整理。先行企業の差がつく時期に入った。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-03 15:42)
@@ -205,5 +207,3 @@
 - [Claude in Chrome一般提供とは？自動操作の仕組みと安全対策](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5bd3cefe.html): AnthropicのClaudeがブラウザを自律操作する「Claude in Chrome」が全ユーザーに提供開始。複数の安全策で不正操作を防ぐ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 14:31)
 - [Thomson Reuters独自LLM「Thomson」とは？汎用AIとの違い](https://mot-ai-media.github.io/mot-ai-news/articles/thomson-reuters-ai-80d65759.html): 金融・法律業務向けに、データ制御と専門性を両立させた独自AIモデルを開発。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 14:31)
 - [AIオーケストレーションとは？複数のAIを統制する新しい仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-28106ed7.html): 複数のAIを一つの指揮者が統制する「AIオーケストレーション」という考え方が広がっている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 14:30)
-- [Meta「Muse Charm」とは？AIアシスタント搭載の小型ガジェット、発売時期](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5f9bb141.html): MetaがAIエージェント「Muse」を携帯できる小型ガジェットを発表。12月の出荷を目指し開発中。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 14:30)
-- [Airbnb、GPT-6 Astraとは？OpenAI最新モデル活用の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-64bca33a.html): Airbnbが新型AI「GPT-6 Astra」など最新モデルの利用を拡大。企業のAI導入が急加速する動き (出典: openai.com / 更新: 2026-09-24 13:23)
