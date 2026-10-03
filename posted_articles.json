@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41WXlvMm9mN0N3emo1Q2czZDY1MkE5N0JKVEFvSmhMUDUwYmVEUkh0eWtKeTdmaHNTbzNUWURULUw2TTd1UjhSeHAtYzM0cFNWNm1kQw?oc=5",
-    "notified_at": "2026-09-03T04:39:00.092556+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/enterprise/articles/2609/03/news041.html",
-    "notified_at": "2026-09-03T04:39:20.115179+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/business/articles/2609/03/news043.html",
-    "notified_at": "2026-09-03T04:39:38.175199+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2609/03/2000001101/",
-    "notified_at": "2026-09-03T04:39:55.576631+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2609/03/2000001099/",
-    "notified_at": "2026-09-03T04:40:12.495009+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jOHNSR0NxS0FnN0xYV3NuTWZ0eEJDeFFER0toYWJLSjJWS3laelBtMVYwM0txU3pTQ3V2akRlRkRlY3oyU0xVRHpmOS1KQWp1RWhWWmxTcGVmdTZPUmFObENn?oc=5",
     "notified_at": "2026-09-03T20:38:42.855834+00:00"
   },
@@ -4518,5 +4498,21 @@
   {
     "link": "https://www.cnbc.com/2026/10/02/anthropic-to-invest-100-million-to-train-ai-engineer-talent.html",
     "notified_at": "2026-10-02T22:28:11.401145+00:00"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
+    "notified_at": "2026-10-03T06:41:30.715066+00:00"
+  },
+  {
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53RlJEeV83OFJXZmFjeDF2ZWZNaWIybFJnd29nZ2lrdXRKVzdGemVzR2hTUXByaVRYblRjS2YydERwWnRuYjBJN2JFb3JkYmwzZDFMNzNZUzdsUFVVbVJNQ3FucGVXYmUw?oc=5",
+    "notified_at": "2026-10-03T06:41:39.554750+00:00"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/10/02/frances-haugen-ai-self-regulation.html",
+    "notified_at": "2026-10-03T06:41:47.572946+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001984/",
+    "notified_at": "2026-10-03T06:42:01.222990+00:00"
   }
 ]

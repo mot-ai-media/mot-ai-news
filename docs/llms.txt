@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-03 07:28
+最終更新: 2026-10-03 15:41
 
 ## 記事一覧
 
+- [データセンター問題がアメリカから世界へ拡大、AI基盤整備の隠れたコスト](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dd417ad8.html): AI技術の急速な普及に必要なデータセンターをめぐり、米国で起きていた地域コミュニティとの対立が欧州やアジアにも広がっている。電力需要の急増による経済的・環境的負担への懸念が世界的課題として浮上しつつある。 (出典: CNBC / 更新: 2026-10-03 15:41)
+- [Frances Haugen AI企業自主規制批判、SNS自浄作用に疑問符](https://mot-ai-media.github.io/mot-ai-news/articles/facebook-ai-ec5d7c49.html): 2021年に機密文書を暴露したフェイスブック元社員が、AI企業が自分たちで安全性を管理できるのかという根本的な疑問を投げかけている。利益を優先する企業文化では、危険な技術の規制は期待できないという指摘が海外で注目を集めている。 (出典: CNBC / 更新: 2026-10-03 15:41)
 - [Anthropic 100億円投資 AIエンジニア育成 10000人養成計画](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ba69b66d.html): AI企業Anthropicが約100億円を投じてAIエンジニア人材の育成プログラムを開始。コンサルティング企業との提携により、最大1万人の技術者育成を目指す施策が業界全体に与える影響は大きい。 (出典: CNBC / 更新: 2026-10-03 07:28)
 - [Cerebasの株価が暴落、上場後最安値を更新——Nvidiaとの競争が激化](https://mot-ai-media.github.io/mot-ai-news/articles/cerebras-nvidia-89f9edb3.html): AI向け専門プロセッサーを開発するスタートアップ・セレブラスの株価が、ニビディアの圧力と上場後ロックアップ期間の終了により週間で20%下落し、上場後の最安値をつけた。AI半導体産業の競争構図が変わりつつあることを示す動きとして注目されている。 (出典: CNBC / 更新: 2026-10-03 07:27)
 - [ChatGPT新機能・バーチャル試着とは？使い方・仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html): OpenAIがChatGPTにバーチャル試着機能を追加。自分の写真で商品の着用イメージが確認できる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 07:16)
@@ -205,5 +207,3 @@
 - [OpenAI Astra自動運転テストとは？実際の走行で安全性確認](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-b9602163.html): OpenAIが開発するAIモデル「Astra」が実際の自動運転テストに成功。事故なく完了。 (出典: The Register / 更新: 2026-09-24 13:23)
 - [Meta AI Muse 買い物 自動購入 危険性](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-54336ea9.html): Metaが開発したAIエージェント「Muse」は、やることリストの管理などを手伝うが、ショッピング機能では思わぬ出費を招く可能性が指摘されている。実際のテストで、AIが提案するままに購入してしまう危険性が浮き彫りになった。 (出典: The Verge / 更新: 2026-09-24 04:28)
 - [カリフォルニア州がデータセンター規制強化、電力・水消費量の開示義務化へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-211a6281.html): カリフォルニア州知事がAIデータセンターに対し、電力・水使用量の公開を義務付ける法案に署名した。これまで「ブラックボックス」だったデータセンターの実態が明らかになることで、地域社会の環境負荷と電気代への影響が可視化される。 (出典: The Verge / 更新: 2026-09-24 04:28)
-- [YouTube AI creator tools 2024：動画制作自動化ツール](https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-5ef7b4da.html): YouTubeが年次イベント「Made on YouTube」で発表した新しいAIツールセットは、クリエイターが何をすべきかを指示してくれる機能を備える。従来、クリエイターが試行錯誤で解き明かしていた「アルゴリズム対策」を、YouTubeが直接ガイダンスする方針へのシフトを示唆している。 (出典: The Verge / 更新: 2026-09-24 01:28)
-- [Meta Muse AI 脆弱性 Mac セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-efa67800.html): MetaがMac向けに展開したAIアシスタント「Muse」に、攻撃者がユーザーのパソコンを完全に支配できる重大な脆弱性が発見された。既に修正済みだが、AI助手の急速な普及に伴うセキュリティリスクが明らかになった。 (出典: WIRED / 更新: 2026-09-24 01:28)
