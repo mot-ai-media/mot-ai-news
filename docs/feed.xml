@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html</guid>
+    <description>Metaが新型AIエージェント「Muse」のコードを公開し、ユーザーが独自のハードウェアにインストール可能にした。電子ペーパーディスプレイやRaspberry Piなど、様々なデバイスでAIアシスタントを実行できるようになる。</description>
+    <pubDate>Sun, 04 Oct 2026 01:29:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの安全性責任者が退職し告発。AIの危険性チェック体制に「赤信号」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-91c2390c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-91c2390c.html</guid>
+    <description>OpenAIで主要モデル公開時の安全性報告書を担当していたデイビッド・ロビンソン氏が退職し、同社の企業文化が「壊れている」と指摘する記事をメディアに発表。AI企業の内部統制に関わる重要な証言として海外メディアが報道している。</description>
+    <pubDate>Sun, 04 Oct 2026 01:29:00 +0900</pubDate>
+  </item>
+  <item>
     <title>217年前の暗号、AIが6時間で解読。歴史の謎もAIで解ける時代へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-89ce94ef.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-89ce94ef.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-2d25b758.html</guid>
     <description>月額料金なしでChatGPTやGeminiをキーボードから直接使える新製品が登場。AIツールがより身近に。</description>
     <pubDate>Fri, 02 Oct 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>BTS×Google Gemini、特別コラボ機能がついに解禁。4つの体験が楽しめる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-b7809ea2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-b7809ea2.html</guid>
-    <description>Google GeminiがBTSとのコラボ機能を公開。特定のワードを入力すると4つの体験が利用可能に。</description>
-    <pubDate>Fri, 02 Oct 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、AI生成コンテンツの「見える透かし」を削除可能に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ae92d604.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ae92d604.html</guid>
-    <description>GoogleのAIツールで生成した画像・動画・音楽から見える透かしを外す選択肢が追加。ただし目に見えない認証情報は残る。</description>
-    <pubDate>Fri, 02 Oct 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -37583,5 +37583,124 @@
     "image_kind": "fallback",
     "level": "easy",
     "generated_at": "2026-10-04 00:58"
+  },
+  {
+    "slug": "openai-ai-91c2390c",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+    "headline": "OpenAIの安全性責任者が退職し告発。AIの危険性チェック体制に「赤信号」",
+    "seo_title": "OpenAI安全性責任者が辞職・告発｜AIの安全管理体制に問題指摘",
+    "summary": "OpenAIで主要モデル公開時の安全性報告書を担当していたデイビッド・ロビンソン氏が退職し、同社の企業文化が「壊れている」と指摘する記事をメディアに発表。AI企業の内部統制に関わる重要な証言として海外メディアが報道している。",
+    "importance_score": 72,
+    "buzz_score": 68,
+    "recommend_score": 70,
+    "content_format": "foreign_discovery",
+    "tldr": "ChatGPTを開発するOpenAI内部で安全チェック責任者が退職し、企業体制の問題を公言。AIの安全管理に懸念が浮上。",
+    "what_happened": "OpenAIで新しいAIモデルが公開されるたびに安全性の審査報告書を作成していたデイビッド・ロビンソン氏が、今週退職を表明しました。彼は辞職後、メディアの記事で同社の企業文化が機能していないと述べています。AI開発企業の内部統制に関わる重要な告発として注目されています。",
+    "overseas_report": "米The Vergeなど海外メディアが報道。ロビンソン氏は毎回のモデル公開に付随する安全報告書を担当していた立場から、企業文化に問題があると指摘。AIの危険性に関する内部警告システムの実効性に疑問が生じています。",
+    "why_it_matters": "ChatGPTなどのAIモデルは、一般ユーザーから企業まで広く利用されています。開発企業による安全チェックが機能していないとすれば、有害な出力や不正利用のリスクが高まる可能性があります。AI企業の内部統制は、今後のAI導入時の信頼性を左右する重要な要素です。",
+    "japan_impact": "日本でもChatGPTやGenAIの導入が進みつつある中、このニュースは日本企業のAI選定判断に影響を与える可能性があります。内部告発がOpenAI特有の問題なのか、業界全体の構造的課題なのかは、日本でのAI導入リスク評価を左右する重要な判断材料となるでしょう。",
+    "outlook": "今後、OpenAIを含むAI大手企業の安全管理体制の詳細が明らかになるかに注目。同時に、AIの危険性対策が産業全体でどう強化されるかが、利用者の安心度を決める要素になります。",
+    "mot_take": "AIツールが生活に浸透する今、開発企業の内部ガバナンスは『中身の見えない部分』です。今回の告発は、AIの性能や機能だけでなく、企業の誠実性や透明性がユーザー選択の新しい基準になることを示唆しています。",
+    "what_to_watch_next": "OpenAIの対応発表。他のAI企業（AnthropicやGoogle）の安全管理体制の情報。日本国内のAI企業による安全ガバナンス宣言の動向。",
+    "tags": [
+      "OpenAI",
+      "AI安全性",
+      "ガバナンス"
+    ],
+    "faq": [
+      {
+        "q": "デイビッド・ロビンソンは何をしていた人なのか？",
+        "a": "OpenAIで、ChatGPTなどの新しいAIモデルが公開されるたびに、そのモデルが安全かどうかを審査し、報告書を作成する仕事をしていました。"
+      },
+      {
+        "q": "なぜこれが問題なのか？",
+        "a": "AIの安全性をチェックする責任者が『企業文化が壊れている』と言って退職したことで、OpenAIのAIが本当に安全なのかという疑問が生じたためです。"
+      },
+      {
+        "q": "日本でChatGPTを使う人にはどう影響するのか？",
+        "a": "直接的な影響は不明ですが、今後OpenAIのサービスを選ぶ際に、企業の安全管理体制を確認する必要が出てくる可能性があります。"
+      }
+    ],
+    "digest": {
+      "what": "OpenAI の安全性チェック責任者が退職し、同社の体制に問題があると告発した",
+      "why": "AIモデルの安全審査の実効性に疑問が生じ、利用者のリスクが懸念される",
+      "impact": "日本でのAI導入検討時に、企業の信頼性・ガバナンス評価が重要になる可能性"
+    },
+    "source": "The Verge",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-10-04 01:29",
+    "source_country": "US",
+    "source_tier": 2,
+    "reliability_score": 80,
+    "speed_score": 90,
+    "novelty_score": 65,
+    "japan_relevance_score": 64,
+    "growth_potential_score": 75,
+    "seo_potential_score": 72,
+    "social_impact_score": 78,
+    "verification_status": "single_source",
+    "corroborating_sources": []
+  },
+  {
+    "slug": "meta-muse-c0a74765",
+    "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+    "headline": "Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ",
+    "seo_title": "Meta Muse AIエージェント オープンソース化 自作デバイス対応",
+    "summary": "Metaが新型AIエージェント「Muse」のコードを公開し、ユーザーが独自のハードウェアにインストール可能にした。電子ペーパーディスプレイやRaspberry Piなど、様々なデバイスでAIアシスタントを実行できるようになる。",
+    "importance_score": 68,
+    "buzz_score": 55,
+    "recommend_score": 72,
+    "content_format": "foreign_discovery",
+    "tldr": "MetaがAIエージェント「Muse」をオープンソース化。自分のデバイスにAIアシスタントをインストールして自由にカスタマイズできる時代が始まる。",
+    "what_happened": "Metaが開発したAIエージェント「Muse」のソースコードを一般公開しました。これにより、開発者やユーザーが自分たちのハードウェア上でMuseを動作させることが可能になります。電子ペーパーディスプレイでリマインダーを表示したり、HDMIスティックを通じてテレビに映したりと、様々な用途でのカスタマイズが想定されています。",
+    "overseas_report": "The Vergeは、Metaがユーザー自身がMuseを搭載したガジェットを作製できるようにしたと報道。色付き電子インク画面への実装やRaspberry Piでの動作など、複数のプロジェクト例を挙げており、エコシステムの拡大を促す戦略として注目されています。",
+    "why_it_matters": "これまでAIアシスタントは各企業が提供するアプリやデバイスに限定されていました。オープンソース化により、技術者が独自にAI機能を組み込んだ製品を開発できるようになります。つまり、AIがより身近で、より多様な形で私たちの日常に統合される可能性が広がるということです。",
+    "japan_impact": "日本国内ではまだ大きく報道されていませんが、DIY文化や組み込み技術への関心が高い日本の開発者コミュニティにとって、実験的なAIデバイス開発の新たな選択肢になる可能性があります。また、家電メーカーがMuseを組み込んだ製品開発を検討する道も開かれます。",
+    "outlook": "今後、Muse以外のAIモデルでも同様のオープンソース化が進む可能性があります。クローズドな生態系から、より開放的で分散化したAI利用環境へのシフトが加速するかどうか、業界全体の動向を注視する必要があります。",
+    "mot_take": "プロプライエタリなAIサービスから「ユーザーが所有し、カスタマイズするAI」への転換点。技術的なハードルが下がることで、想像もしない新しいAI応用が生まれるかもしれません。",
+    "what_to_watch_next": "日本の開発者やスタートアップからMuseを活用したデバイス提案が出てくるか、大手家電メーカーがMuseの統合を発表するか、といった動きが注目ポイントです。",
+    "tags": [
+      "Meta",
+      "Muse",
+      "AIエージェント",
+      "オープンソース"
+    ],
+    "faq": [
+      {
+        "q": "Museって何ですか？",
+        "a": "Metaが開発した新型のAIエージェント。リマインダー表示など日常のタスク処理を担当するAIアシスタントです。"
+      },
+      {
+        "q": "オープンソース化すると何が変わるのか？",
+        "a": "これまで企業提供の限られたデバイスのみでしか使えなかったAIを、個人や開発者が自分たちのハードウェアにカスタマイズして導入できるようになります。"
+      },
+      {
+        "q": "Raspberry Piで実際に動きますか？",
+        "a": "Metaがオープンソース化した資料で、Raspberry Piでの動作が想定される使用例の一つとして挙げられています。"
+      }
+    ],
+    "digest": {
+      "what": "MetaがAIエージェント「Muse」のコードを公開し、ユーザーが自分のデバイスにインストール・カスタマイズ可能に",
+      "why": "プロプライエタリなAI活用から、より開放的で分散化した利用環境へのシフトを促進",
+      "impact": "個人開発者や企業がAI機能を組み込んだ独自デバイスを創出しやすくなり、AIの社会実装が加速する可能性"
+    },
+    "source": "The Verge",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-10-04 01:29",
+    "source_country": "US",
+    "source_tier": 2,
+    "reliability_score": 80,
+    "speed_score": 90,
+    "novelty_score": 72,
+    "japan_relevance_score": 58,
+    "growth_potential_score": 76,
+    "seo_potential_score": 64,
+    "social_impact_score": 62,
+    "verification_status": "single_source",
+    "corroborating_sources": []
   }
 ]

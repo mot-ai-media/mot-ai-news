@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meta Muse AIエージェント オープンソース化 自作デバイス対応 | AI特化メディアMOT</title>
+<meta name="description" content="Metaが新型AIエージェント「Muse」のコードを公開し、ユーザーが独自のハードウェアにインストール可能にした。電子ペーパーディスプレイやRaspberry Piなど、様々なデバイスでAIアシスタントを実行できるようになる。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ">
+<meta property="og:description" content="Metaが新型AIエージェント「Muse」のコードを公開し、ユーザーが独自のハードウェアにインストール可能にした。電子ペーパーディスプレイやRaspberry Piなど、様々なデバイスでAIアシスタントを実行できるようになる。">
+<meta property="og:image" content="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html">
+<meta property="article:published_time" content="2026-10-04T01:29:00+09:00">
+<meta property="article:modified_time" content="2026-10-04T01:29:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ", "description": "Metaが新型AIエージェント「Muse」のコードを公開し、ユーザーが独自のハードウェアにインストール可能にした。電子ペーパーディスプレイやRaspberry Piなど、様々なデバイスでAIアシスタントを実行できるようになる。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-04T01:29:00+09:00", "dateModified": "2026-10-04T01:29:00+09:00", "image": ["https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200"], "citation": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Museって何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "Metaが開発した新型のAIエージェント。リマインダー表示など日常のタスク処理を担当するAIアシスタントです。"}}, {"@type": "Question", "name": "オープンソース化すると何が変わるのか？", "acceptedAnswer": {"@type": "Answer", "text": "これまで企業提供の限られたデバイスのみでしか使えなかったAIを、個人や開発者が自分たちのハードウェアにカスタマイズして導入できるようになります。"}}, {"@type": "Question", "name": "Raspberry Piで実際に動きますか？", "acceptedAnswer": {"@type": "Answer", "text": "Metaがオープンソース化した資料で、Raspberry Piでの動作が想定される使用例の一つとして挙げられています。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Meta", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/meta.html"}, {"@type": "ListItem", "position": 3, "name": "Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ</span></div></div>
+  <h1 class="headline">Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>The Verge</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-04 01:29</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> MetaがAIエージェント「Muse」をオープンソース化。自分のデバイスにAIアシスタントをインストールして自由にカスタマイズできる時代が始まる。</p><h3>何が起きたか</h3><p>Metaが開発したAIエージェント「Muse」のソースコードを一般公開しました。これにより、開発者やユーザーが自分たちのハードウェア上でMuseを動作させることが可能になります。電子ペーパーディスプレイでリマインダーを表示したり、HDMIスティックを通じてテレビに映したりと、様々な用途でのカスタマイズが想定されています。</p><div class="overseas-box"><h3>海外ではどう報道されているか</h3><p>The Vergeは、Metaがユーザー自身がMuseを搭載したガジェットを作製できるようにしたと報道。色付き電子インク画面への実装やRaspberry Piでの動作など、複数のプロジェクト例を挙げており、エコシステムの拡大を促す戦略として注目されています。</p></div><h3>なぜ重要か</h3><p>これまでAIアシスタントは各企業が提供するアプリやデバイスに限定されていました。オープンソース化により、技術者が独自にAI機能を組み込んだ製品を開発できるようになります。つまり、AIがより身近で、より多様な形で私たちの日常に統合される可能性が広がるということです。</p><div class="japan-impact-box"><h3>日本への影響</h3><p>日本国内ではまだ大きく報道されていませんが、DIY文化や組み込み技術への関心が高い日本の開発者コミュニティにとって、実験的なAIデバイス開発の新たな選択肢になる可能性があります。また、家電メーカーがMuseを組み込んだ製品開発を検討する道も開かれます。</p></div><h3>今後どうなる</h3><p>今後、Muse以外のAIモデルでも同様のオープンソース化が進む可能性があります。クローズドな生態系から、より開放的で分散化したAI利用環境へのシフトが加速するかどうか、業界全体の動向を注視する必要があります。</p><div class="mot-take-box"><h3>MOTの見解</h3><p>プロプライエタリなAIサービスから「ユーザーが所有し、カスタマイズするAI」への転換点。技術的なハードルが下がることで、想像もしない新しいAI応用が生まれるかもしれません。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>日本の開発者やスタートアップからMuseを活用したデバイス提案が出てくるか、大手家電メーカーがMuseの統合を発表するか、といった動きが注目ポイントです。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/meta.html">#Meta</a><a class="tag-pill" href="../topics/muse.html">#Muse</a><a class="tag-pill" href="../topics/0a91c56b47.html">#AIエージェント</a><a class="tag-pill" href="../topics/140331e908.html">#オープンソース</a></div>
+  <script>window.motPageTags=["Meta", "Muse", "AIエージェント", "オープンソース"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">AIスパコン時代を、手のひらサイズのミニPCから</h3><p class="sponsor-desc">ミニPCブランド「GMKtec」。ローカルAI環境や自宅サーバー用途にも使えるコンパクトな一台。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" rel="sponsored nofollow" target="_blank"><img border="0" width="120" height="60" alt="GMKtec" loading="lazy" src="https://www28.a8.net/svt/bgt?aid=260904481474&wid=001&eno=01&mid=s00000027479001005000&mc=1"></a><img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=4BC36P+7U7HIQ+5W12+5ZEMP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">GMKtec</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>The Verge</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link" target="_blank" rel="noopener noreferrer">元記事（<cite>The Verge</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Museって何ですか？</p>
+    <p class="faq-a">Metaが開発した新型のAIエージェント。リマインダー表示など日常のタスク処理を担当するAIアシスタントです。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. オープンソース化すると何が変わるのか？</p>
+    <p class="faq-a">これまで企業提供の限られたデバイスのみでしか使えなかったAIを、個人や開発者が自分たちのハードウェアにカスタマイズして導入できるようになります。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. Raspberry Piで実際に動きますか？</p>
+    <p class="faq-a">Metaがオープンソース化した資料で、Raspberry Piでの動作が想定される使用例の一つとして挙げられています。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Meta%E3%81%8C%E3%80%8CMuse%E3%80%8DAI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E5%8C%96%E3%80%82%E8%87%AA%E4%BD%9C%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%A7AI%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%92%E5%8B%95%E3%81%8B%E3%81%9B%E3%82%8B%E6%99%82%E4%BB%A3%E3%81%B8&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html&text=Meta%E3%81%8C%E3%80%8CMuse%E3%80%8DAI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E5%8C%96%E3%80%82%E8%87%AA%E4%BD%9C%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%A7AI%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%92%E5%8B%95%E3%81%8B%E3%81%9B%E3%82%8B%E6%99%82%E4%BB%A3%E3%81%B8" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html" data-share-title="Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="meta-muse-c0a74765">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="meta-muse-83485a4e.html">
+    <img src="https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800" alt="" loading="lazy">
+    <span class="next-up-headline">Meta、AIエージェント「Muse」をあらゆるデバイスに対応させるコードを無償公開</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="openai-meta-muse-7562a874.html">OpenAIが「Dots」発表、24時間動く自動AIアシスタント時代へ。Metaの対抗製品も話題に</a></li>
+  <li><a href="meta-muse-5f9b2dff.html">Meta、AIエージェント「Muse」を全デバイス対応に。眼鏡まで侵食する日常助手</a></li>
+  <li><a href="meta-ai-54336ea9.html">Metaの新型AIアシスタント「Muse」は便利だが、あなたの財布の紐を緩める魔力がある</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
