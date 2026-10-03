@@ -4,17 +4,38 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>フェイスブック内部告発者が警告「AI企業の自主規制は機能しない」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/facebook-ai-ec5d7c49.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/facebook-ai-ec5d7c49.html</guid>
-    <description>2021年に機密文書を暴露したフェイスブック元社員が、AI企業が自分たちで安全性を管理できるのかという根本的な疑問を投げかけている。利益を優先する企業文化では、危険な技術の規制は期待できないという指摘が海外で注目を集めている。</description>
-    <pubDate>Sat, 03 Oct 2026 15:41:00 +0900</pubDate>
+    <title>AIエージェント導入で業務時間が大幅削減、でも9割の企業が効果測定に失敗</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-55814ec6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-55814ec6.html</guid>
+    <description>コスト削減から顧客体験向上まで8つの効果が期待できるAIエージェント。だが企業の多くが成果を正しく測定できていない現状が明らかに。</description>
+    <pubDate>Sat, 03 Oct 2026 15:42:00 +0900</pubDate>
   </item>
   <item>
-    <title>AI時代の「電気代爆発」問題が世界規模に。欧州・アジアでコミュニティが反発</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dd417ad8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dd417ad8.html</guid>
-    <description>AI技術の急速な普及に必要なデータセンターをめぐり、米国で起きていた地域コミュニティとの対立が欧州やアジアにも広がっている。電力需要の急増による経済的・環境的負担への懸念が世界的課題として浮上しつつある。</description>
+    <title>AIエージェント導入で4割超が失敗する理由。企業が陥る10の落とし穴</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-f167f551.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-f167f551.html</guid>
+    <description>AIエージェント導入の成否を左右する導入前後の課題10個と解決策を調査データで整理。先行企業の差がつく時期に入った。</description>
+    <pubDate>Sat, 03 Oct 2026 15:42:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Apple、AIエージェントの脅威に対抗　Mac全体データへのアクセス制御を強化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-macos-3c82d213.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-macos-3c82d213.html</guid>
+    <description>Appleが、AIが勝手にあなたのメッセージやファイルを読み込むリスクに対応。Macの重要な権限付与を厳しくする。</description>
+    <pubDate>Sat, 03 Oct 2026 15:42:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta、AIがスマートホーム操作できるDIYガジェット向けSDK公開。Raspberry Piで自作可能に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-79054280.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-79054280.html</guid>
+    <description>MetaがAIエージェント「Muse」と連携するガジェットをハッカー向けにオープンソース公開。手持ちのボードやラズパイで自作できる。</description>
+    <pubDate>Sat, 03 Oct 2026 15:42:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>生成AIが中学の探究学習を変える、ふたば未来学園の実践から見えた教育の未来</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-31bc499b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-31bc499b.html</guid>
+    <description>中学校の探究学習に生成AIが導入され、生徒の学び方がどう変わるかの実践例が報告された。</description>
     <pubDate>Sat, 03 Oct 2026 15:41:00 +0900</pubDate>
   </item>
   <item>
@@ -191,26 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/trump-super-intelligence-7256ec82.html</guid>
     <description>トランプ米大統領がAIを「Super Intelligence（SI）」に改名するよう提唱したことで、スロベニアのドメイン「.si」の登録申請が9月に2100%以上増加。44,000件の新規登録が殺到した背景には、投機目的での「サイバースクワッティング」の可能性が指摘されている。</description>
     <pubDate>Thu, 01 Oct 2026 22:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI音声企業ElevenLabs、企業価値が1年で2倍の220億ドルに急騰</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elevenlabs-ai-6e1523d2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elevenlabs-ai-6e1523d2.html</guid>
-    <description>リアルな人間の声を生成するAI企業ElevenLabsが、わずか1年で企業価値を倍にした。</description>
-    <pubDate>Thu, 01 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、高速で安価な判断機能を搭載した新API発表。AIエージェント時代が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-c2747f33.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-c2747f33.html</guid>
-    <description>OpenAIが素早く安価に判断を下すAPI発表。AI自動化の実用化が進む。</description>
-    <pubDate>Thu, 01 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>衛星でAIを動かす新興企業、Google・SpaceXに対抗して800万ドル調達</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-google-de11222d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-google-de11222d.html</guid>
-    <description>元GoogleとSpaceX出身のエンジニアが、複数の衛星でAIを共有実行するソフトウェア企業を創業し資金調達。</description>
-    <pubDate>Thu, 01 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
