@@ -1408,5 +1408,55 @@
     "japan_relevance_score": 65,
     "reason": "Redis創作者による新しいLLM実行ツールだが、ローカルLLM実行自体は既に多数の選択肢が存在する領域。",
     "discovered_at": "2026-10-03T15:31:03.153256+00:00"
+  },
+  {
+    "title": "US killer's sentence quashed because of AI video of victim shown in court",
+    "link": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bbc.com/news/articles/cwgkvygg5nzvo\nComments URL: https://news.ycombinator.com/item?id=49944127\nPoints: 39\n# Comments: 21",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AI生成映像の法廷使用が判決を覆す初事例で、AI証拠の法的妥当性が問われる重要な判例となる可能性がある。",
+    "discovered_at": "2026-10-03T16:29:05.028970+00:00"
+  },
+  {
+    "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+    "link": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832\nComments URL: https://news.ycombinator.com/item?id=49934569\nPoints: 49\n# Comments: 23",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "大型AI施設の規制遅延は増加傾向だが、個別案件のため新規性は中程度。日本でも同様の電力・規制課題が発生する可能性あり。",
+    "discovered_at": "2026-10-03T16:29:12.011174+00:00"
+  },
+  {
+    "title": "Mozilla shutting down Solo AI website creator",
+    "link": "https://support.soloist.ai/doc/solo-shutdown-faq",
+    "source": "Hacker News",
+    "summary": "Article URL: https://support.soloist.ai/doc/solo-shutdown-faq\nComments URL: https://news.ycombinator.com/item?id=49934502\nPoints: 31\n# Comments: 64",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AIツール廃止は増加傾向だが、Mozillaの決定としては注目度あり、日本でも類似サービス撤退の参考例となる可能性がある",
+    "discovered_at": "2026-10-03T16:29:18.825223+00:00"
+  },
+  {
+    "title": "AI Makes Me Sad",
+    "link": "https://mondobe.com/ai-makes-me-sad",
+    "source": "Hacker News",
+    "summary": "Article URL: https://mondobe.com/ai-makes-me-sad\nComments URL: https://news.ycombinator.com/item?id=49934487\nPoints: 189\n# Comments: 231",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI への感情的反応は普遍的だが、個人的エッセイのため新規性は低い。ただし日本でも AI 不安は急速に広がっている。",
+    "discovered_at": "2026-10-03T16:29:25.599140+00:00"
+  },
+  {
+    "title": "With most information hidden, the game Stratego had stumped AI until now",
+    "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+    "source": "Hacker News",
+    "summary": "https://www.nature.com/articles/s41586-026-11036-yhttps://arxiv.org/abs/2511.07312\n\nComments URL: https://news.ycombinator.com/item?id=49933740\nPoints: 255\n# Comments: 122",
+    "novelty_score": 78,
+    "japan_relevance_score": 62,
+    "reason": "不完全情報ゲームのAI攻略は新規性が高く、技術的に重要だが日本の一般関心は限定的。",
+    "discovered_at": "2026-10-03T16:29:32.800638+00:00"
   }
 ]
