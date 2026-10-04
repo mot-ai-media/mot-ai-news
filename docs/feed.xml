@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>脳スキャンからあなたの思考を「読み取る」AI、イスラエルの研究所が開発</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/fmri-ai-8e23ff79.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/fmri-ai-8e23ff79.html</guid>
+    <description>イスラエルの研究機関が、脳のMRI画像からAIで見ている景像を復元する技術を開発。かつてない精度で脳活動と視覚情報を相互変換できるようになった。医療応用の期待がある一方、本人の同意なく思考を抽出される懸念も指摘されている。</description>
+    <pubDate>Mon, 05 Oct 2026 08:41:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>脳スキャンからあなたが見た映像を復元する、MIT開発のAI「心読み」ツールが登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-02f09e59.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-02f09e59.html</guid>
+    <description>米MITが、脳スキャン画像からあなたが見た映像を高精度で復元するAIツールを開発。医療応用の可能性がある一方で、プライバシー侵害のリスクも指摘されている。</description>
+    <pubDate>Mon, 05 Oct 2026 08:40:00 +0900</pubDate>
+  </item>
+  <item>
     <title>企業のAI投資が2.5兆ドルに到達も、8割が成果ゼロ――「つながらないAI」の危機</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-06382107.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-06382107.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-41a7e440.html</guid>
     <description>スマホのメッセージアプリにテキストするだけで、予定管理や調べ物などが完結するAIエージェントが続々登場。</description>
     <pubDate>Sun, 04 Oct 2026 00:42:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Amazon、AI データセンター批判に反撃　10億ドル超の地域支援で懐柔作戦</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-2145f863.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-2145f863.html</guid>
-    <description>AWSが米国内の強い反発に直面するAIデータセンター建設について、CEO自ら誤情報説を唱え、地域支援基金10億ドル超を発表。</description>
-    <pubDate>Sun, 04 Oct 2026 00:42:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>音楽サンプル大手Spliceの CEOが警告「AI自動返信メールが人間らしい会話を殺している」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/splice-ai-2b2053e0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/splice-ai-2b2053e0.html</guid>
-    <description>音楽制作用サンプル配信プラットフォーム・Spliceの CEO カクル・スリヴァスタヴァが、AI による自動生成メールが人間同士の対話を損なっているという懸念を表明。仕事のやりとりにおける会話の質低下が、ビジネスに及ぼす影響について指摘している。</description>
-    <pubDate>Sun, 04 Oct 2026 00:32:00 +0900</pubDate>
   </item>
 </channel></rss>
