@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-04 22:01
+最終更新: 2026-10-04 22:28
 
 ## 記事一覧
 
+- [AI ウェアラブル デバイス プライバシー問題 Apple Google Meta](https://mot-ai-media.github.io/mot-ai-news/articles/apple-google-43426f03.html): 米大手テック企業がAI機能を搭載したウェアラブルデバイスの展開を加速させている。一方で、身につけるデバイスだからこそ個人情報が集約されるプライバシーリスクへの懸念が、市場の拡大を阻む要因になり始めている。 (出典: CNBC / 更新: 2026-10-04 22:28)
+- [Nvidia Shield TV 値上げ AI半導体不足の影響](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c8ca5197.html): AIブーム による半導体需要の急増により、すでに市場に出ている古いストリーミング機器でさえ価格が値上がりしている。Nvidiaの「Shield TV」は7年前のモデルながら100ドル（約1万5000円）の値上げを余儀なくされた。半導体メモリの逼迫がテック機器全般に波及する現実が浮き彫りになった。 (出典: WIRED / 更新: 2026-10-04 22:28)
 - [ホワイトハウスがAIを改名、テック企業が安全誓約。何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-fcd1b322.html): ホワイトハウスがAIを「スーパーインテリジェンス」と改名。大手テック企業CEOが安全宣言に署名した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:01)
 - [AI企業の成長と資金調達：Blackstoneが語る長期競争力とは](https://mot-ai-media.github.io/mot-ai-news/articles/blackstone-ai-0e0757d3.html): 大型投資家が明かす、急速に成長するAIスタートアップが長期的に成功するための条件。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:01)
 - [AIチャットボットの危険性とは？若者の心理被害に対する安全対策](https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-chatgpt-2e0c293f.html): Character.AIなどのチャットボットが若者の自殺に関連した事件が相次ぎ、AI安全性企業が対策に動く。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:01)
@@ -205,5 +207,3 @@
 - [ソフトPLCがAI対応へ、工場自動化システムの変わり方とは](https://mot-ai-media.github.io/mot-ai-news/articles/plc-952c4996.html): 工場の機械制御を担うPLCがAI機能を組み込める段階へ。簡単導入のドラレコカメラも登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-25 22:00)
 - [新AI「Jev」とは？ChatGPT比較・ハルシネーション対策・性能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-7ec94e51.html): 元OpenAI研究者らが立ち上げたTypeS企業が新型AI「Jev」を発表。従来のAIの弱点を劇的に改善した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-25 18:02)
 - [AI内製化が失敗する理由とは？企業調査で判明した本当の原因](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-09e0921d.html): AI導入に挑戦した企業の9割以上が停滞・頓挫を経験。技術より人材・体制の整備が課題。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-25 18:02)
-- [AI事業者ガイドライン改訂とは？AIエージェント・フィジカルAI追加で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-bcf4241e.html): 総務省と経産省がAI事業者向けガイドラインを改訂し、AIエージェントとフィジカルAIの規制対象化へ (出典: 日本自動車会議所 / 更新: 2026-09-25 18:01)
-- [シュミットフーバー氏がSakana AIに参画、RSI研究とは何か](https://mot-ai-media.github.io/mot-ai-news/articles/sakana-ai-ceb2dd38.html): AI研究の大物が日本のSakana AIに加わり、AIが自ら改良する仕組みの研究に着手する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-25 18:01)

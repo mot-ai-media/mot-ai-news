@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>7年前の古いストリーミング端末が突然1万円値上げ。AI需要で半導体が奪われている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c8ca5197.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c8ca5197.html</guid>
+    <description>AIブーム による半導体需要の急増により、すでに市場に出ている古いストリーミング機器でさえ価格が値上がりしている。Nvidiaの「Shield TV」は7年前のモデルながら100ドル（約1万5000円）の値上げを余儀なくされた。半導体メモリの逼迫がテック機器全般に波及する現実が浮き彫りになった。</description>
+    <pubDate>Sun, 04 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Apple、Google、Meta が AI ウェアラブル市場に殺到。だがプライバシー問題が足かせに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-google-43426f03.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-google-43426f03.html</guid>
+    <description>米大手テック企業がAI機能を搭載したウェアラブルデバイスの展開を加速させている。一方で、身につけるデバイスだからこそ個人情報が集約されるプライバシーリスクへの懸念が、市場の拡大を阻む要因になり始めている。</description>
+    <pubDate>Sun, 04 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPTやAIチャットボットで若者が自殺。スタートアップが「安全性テスト」に乗り出す</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-chatgpt-2e0c293f.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-chatgpt-2e0c293f.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-macos-3c82d213.html</guid>
     <description>Appleが、AIが勝手にあなたのメッセージやファイルを読み込むリスクに対応。Macの重要な権限付与を厳しくする。</description>
     <pubDate>Sat, 03 Oct 2026 15:42:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、AIがスマートホーム操作できるDIYガジェット向けSDK公開。Raspberry Piで自作可能に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-79054280.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-79054280.html</guid>
-    <description>MetaがAIエージェント「Muse」と連携するガジェットをハッカー向けにオープンソース公開。手持ちのボードやラズパイで自作できる。</description>
-    <pubDate>Sat, 03 Oct 2026 15:42:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AIが中学の探究学習を変える、ふたば未来学園の実践から見えた教育の未来</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-31bc499b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-31bc499b.html</guid>
-    <description>中学校の探究学習に生成AIが導入され、生徒の学び方がどう変わるかの実践例が報告された。</description>
-    <pubDate>Sat, 03 Oct 2026 15:41:00 +0900</pubDate>
   </item>
 </channel></rss>

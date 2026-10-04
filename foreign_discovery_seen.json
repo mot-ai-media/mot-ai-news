@@ -1,33 +1,6 @@
 [
   {
     "tokens": [
-      "anthropic",
-      "appeals",
-      "chain",
-      "court",
-      "designation",
-      "pentagon",
-      "risk",
-      "supply",
-      "u.s.",
-      "upholds"
-    ],
-    "ts": "2026-09-26T19:28:15"
-  },
-  {
-    "tokens": [
-      "agency",
-      "bots",
-      "government",
-      "meddled",
-      "multiple",
-      "openai",
-      "sites"
-    ],
-    "ts": "2026-09-26T19:28:37"
-  },
-  {
-    "tokens": [
       "agent",
       "behavior",
       "emerge",
@@ -818,5 +791,33 @@
       "substantially"
     ],
     "ts": "2026-10-04T16:28:32"
+  },
+  {
+    "tokens": [
+      "breakout",
+      "ipo",
+      "moment",
+      "pull",
+      "reputation",
+      "stalled",
+      "tainted",
+      "wearables",
+      "weird'"
+    ],
+    "ts": "2026-10-04T22:28:09"
+  },
+  {
+    "tokens": [
+      "100",
+      "got",
+      "hike",
+      "just",
+      "nvidia",
+      "old.",
+      "price",
+      "shield",
+      "years"
+    ],
+    "ts": "2026-10-04T22:28:23"
   }
 ]
