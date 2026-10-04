@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Appleが「AI時代の新ルール」を宣言。Macの全ディスクアクセスを厳格化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-e148a12b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-e148a12b.html</guid>
+    <description>Appleは、AI エージェントがもたらすセキュリティリスクに対応するため、Macの「フルディスクアクセス」権限の付与プロセスを大幅に厳格化する新たなコントロール機能を導入します。ユーザーが明確な意思確認を通じてのみこの高度な権限を与えられるようにする仕組みです。</description>
+    <pubDate>Sun, 04 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>カプコンがAIとの共同開発宣言。ゲーム制作の未来は人間とAIで一緒に作る時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-re-engine-f1c80105.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-re-engine-f1c80105.html</guid>
+    <description>カプコンが開発エンジン「RE Engine」の進化について発表し、AI技術をゲーム開発の制作フローに取り込む計画を明かした。人間とAIが共同でゲームを作る時代が現実になりつつある。</description>
+    <pubDate>Sun, 04 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9882387d.html</guid>
     <description>OpenAIが有料ユーザーを対象にChatGPTの利用枠をリセット。性能低下への対応措置。</description>
     <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>KDDI傘下ELYZAが国産AI「LLM-jp-4」改良版を無料公開、商用利用も可能</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/kddi-elyza-fd293565.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/kddi-elyza-fd293565.html</guid>
-    <description>日本の大手企業KDDIグループが、国産AIを改良したモデルを誰でも無料で使える形で公開。商用利用もOK。</description>
-    <pubDate>Fri, 02 Oct 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTやGeminiが1クリック。月額不要のAIキーボード「MiMouse」登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-2d25b758.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-2d25b758.html</guid>
-    <description>月額料金なしでChatGPTやGeminiをキーボードから直接使える新製品が登場。AIツールがより身近に。</description>
-    <pubDate>Fri, 02 Oct 2026 18:02:00 +0900</pubDate>
   </item>
 </channel></rss>
