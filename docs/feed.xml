@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI安全性責任者が内部告発「企業文化は崩壊している」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a17db24a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a17db24a.html</guid>
+    <description>OpenAIの安全性報告書を執筆してきた3年以上勤務した従業員が、企業文化の破綻を理由に退職し告発。</description>
+    <pubDate>Sun, 04 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Amazon、政府との秘密保持契約廃止。データセンター計画の透明性を強化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-web-services-ai-f8ba7ef5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-web-services-ai-f8ba7ef5.html</guid>
+    <description>AWSがNDA廃止を発表し、地域社会との対立が強まるデータセンター建設計画で透明性を重視する姿勢を示した。</description>
+    <pubDate>Sun, 04 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI安全責任者が退社、「文化が壊れている」と告発</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-b859c99c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-b859c99c.html</guid>
+    <description>ChatGPTなど主要モデルの安全性報告を統括していたOpenAI幹部が退社し、企業文化の問題を指摘する記事を公表。</description>
+    <pubDate>Sun, 04 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google Gemini、無料ユーザーは最弱モデルのみに。有料プラン強制へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b70e906a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b70e906a.html</guid>
+    <description>Googleが個人向けGeminiで利用可能なAIモデルを契約プランで制限。無料ユーザーは最もシンプルな「Flash-Lite」のみ利用可能に。</description>
+    <pubDate>Sun, 04 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>スペースX、テスラやxAIとの合併を検討か――マスク氏の経営判断が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-16f1a43b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-16f1a43b.html</guid>
+    <description>イーロン・マスク氏率いるスペースXが、テスラまたはxAIとの合併の可能性を検討していると報道された。</description>
+    <pubDate>Sun, 04 Oct 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic、Claude Fable 5.1とClaude Mythos 5.1を発表</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-94b02e59.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-94b02e59.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3a9be36e.html</guid>
     <description>AIが長時間自律で動けるほど能力が高い一方で、セキュリティリスクも増幅される。企業の対応が急務に。</description>
     <pubDate>Sat, 03 Oct 2026 07:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Higgsfield、AIで「思いつき」が映画級の動画に変身</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-31624c9f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-31624c9f.html</guid>
-    <description>シンプルなアイデアを高品質な映像作品に自動変換するAIツール、Higgsfield登場。</description>
-    <pubDate>Sat, 03 Oct 2026 07:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Googleが反撃開始。Gemini 4で「AI三国志」の勢力図が塗り替わる可能性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-e80ccd23.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-e80ccd23.html</guid>
-    <description>OpenAIやAnthropicに後れを取っていたGoogleが、新しいフラッグシップモデル「Gemini 4」を投入。アナリストは、これが最先端AI開発競争の舞台でGoogleを復活させる可能性を指摘している。</description>
-    <pubDate>Fri, 02 Oct 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>需要1,721%急増、ウォール街が猛烈に採用する『AI新職種』とは</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c6e1f20.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c6e1f20.html</guid>
-    <description>ウォール街の銀行がAIエンジニアの採用を大幅に増やしている。特に『複数のAIを組み合わせて動かす』という新しいスキルへの需要が過去1年で1,721%も急増。金融機関がAIの使い方を変えようとしている兆候として海外で注目を集めている。</description>
-    <pubDate>Fri, 02 Oct 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ソニーがPS5向けAI画質向上技術を解放、上位モデル独占から全機種対応へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/playstation-ai-dca24d54.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/playstation-ai-dca24d54.html</guid>
-    <description>ソニーが通常のPS5でもAIによる画質向上を実現する技術「QSSR」を発表。これまでPS5 Proのみの機能が、アップデートで全PS5ユーザーに広がる。</description>
-    <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Microsoft、リアルタイム音声AIで業界の流れを加速。音声アシスタント時代の本格化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html</guid>
-    <description>Microsoftが音声認識と合成の新モデルを公開。低遅延で複数言語対応し、音声エージェント構築が加速する。</description>
-    <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

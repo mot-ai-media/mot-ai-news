@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-04 16:53
+最終更新: 2026-10-04 18:01
 
 ## 記事一覧
 
+- [Google Gemini料金体系が変更。無料ユーザーが使えるモデルは？](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b70e906a.html): Googleが個人向けGeminiで利用可能なAIモデルを契約プランで制限。無料ユーザーは最もシンプルな「Flash-Lite」のみ利用可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-04 18:01)
+- [OpenAI安全性報告書の責任者が退社・告発、何が問題か](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-b859c99c.html): ChatGPTなど主要モデルの安全性報告を統括していたOpenAI幹部が退社し、企業文化の問題を指摘する記事を公表。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-04 18:01)
+- [Amazonがデータセンター計画で秘密保持契約廃止、透明性強化の背景とは](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-web-services-ai-f8ba7ef5.html): AWSがNDA廃止を発表し、地域社会との対立が強まるデータセンター建設計画で透明性を重視する姿勢を示した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 18:01)
+- [OpenAI安全性チームの長期従業員が辞職、企業文化の問題を指摘](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a17db24a.html): OpenAIの安全性報告書を執筆してきた3年以上勤務した従業員が、企業文化の破綻を理由に退職し告発。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 18:01)
+- [スペースXがテスラ・xAIとの合併を検討？マスク氏の経営戦略は](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-16f1a43b.html): イーロン・マスク氏率いるスペースXが、テスラまたはxAIとの合併の可能性を検討していると報道された。 (出典: Bloomberg.com / 更新: 2026-10-04 18:00)
 - [Claude Opus 5.5 vs OpenAI Astra比較|性能・価格・コーディング](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9f8ec0ae.html): AnthropicのClaudeが最新ベンチマークでOpenAIの新モデルに勝利し、価格面でも優位に立つ。 (出典: Startup Fortune / 更新: 2026-10-04 16:53)
 - [Claude Fable 5.1とMythos 5.1とは？Anthropicの新版を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-94b02e59.html): Anthropicが新バージョンのClaudeを発表。AIの性能向上や機能強化が進む。 (出典: anthropic.com / 更新: 2026-10-04 16:53)
 - [カプコン AI ゲーム開発 2026 RE Engine](https://mot-ai-media.github.io/mot-ai-news/articles/ai-re-engine-f1c80105.html): カプコンが開発エンジン「RE Engine」の進化について発表し、AI技術をゲーム開発の制作フローに取り込む計画を明かした。人間とAIが共同でゲームを作る時代が現実になりつつある。 (出典: The Verge / 更新: 2026-10-04 16:28)
@@ -202,8 +207,3 @@
 - [Airbnb×OpenAI契約拡大、GPT-6で何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-openai-ff5c1aca.html): Airbnbが最新AI「GPT-6」を採用し、新機能開発を大幅加速。サービス向上に本気で取り組む動き。 (出典: Yahoo!ニュース / 更新: 2026-09-25 14:53)
 - [Claude 5.1の使い方とは？仕事術テンプレ10選を解説](https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-4be41807.html): 進化したClaudeを使いこなすための実践的なテンプレ集が公開。仕事効率化の具体例を紹介。 (出典: ビジネス+IT / 更新: 2026-09-25 14:53)
 - [AI Claudeがソフトウェア開発を変える。開発現場で何が起きているか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-df7efe92.html): Anthropic開発のAI「Claude」が、ソフトウェア開発の現場を1年で大きく変えつつある。 (出典: MITテクノロジーレビュー / 更新: 2026-09-25 14:31)
-- [生成AIのプライバシー侵害問題とは？違法性が指摘される理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-bfac599c.html): アムネスティ・インターナショナルが生成AIの設計段階からのプライバシー侵害を指摘。本人同意なしでの大規模データ利用が判明。 (出典: amnesty.or.jp / 更新: 2026-09-25 14:31)
-- [生成AIの誇大広告とは？正しい期待値の設定方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ibm-ai-99568a3d.html): IBMが生成AIの過度な期待と過度な懐疑の両方に警告。冷静な判断が必須。 (出典: IBM / 更新: 2026-09-25 14:31)
-- [BTS×Google Gemini コラボ機能とは？使い方・楽しみ方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-8fc7e300.html): BTSファン向けにGoogle Geminiで特別体験が公開。指定ワード入力で限定コンテンツが利用可能に。 (出典: Yahoo!ニュース / 更新: 2026-09-25 14:30)
-- [生成AIが文化・創作に与える影響とは？今後の変化を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-07d4004a.html): 生成AIの登場が、創作活動や文化のあり方そのものを大きく変えようとしている (出典: tkfd.or.jp / 更新: 2026-09-25 14:30)
-- [米国境監視塔プログラム失敗：1100人死亡、AIの有効性が問われる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c593700.html): 米国がメキシコ国境に構築した10億ドル規模の監視塔システムが機能不全に陥っていることが明らかになった。2015年から2026年の間に、これらの塔の監視範囲内で約1100人が死亡したにもかかわらず検出されなかった。同時に、気候変動対策の国際会議ではAIの気候への影響について議論が活発化し、有望視される一方で懸念も広がっている。 (出典: MIT Technology Review / 更新: 2026-09-24 22:28)
