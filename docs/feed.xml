@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIボット、大会でまさかの「入れ替わり」。何が起きたのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/esports-ai-2004e472.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/esports-ai-2004e472.html</guid>
+    <description>eSports大会でAI製ボットが人間製ボットと入れ替わるという異例の事態が発生。</description>
+    <pubDate>Sun, 04 Oct 2026 18:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI安全性責任者が内部告発「企業文化は崩壊している」</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a17db24a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a17db24a.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6707666a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6707666a.html</guid>
     <description>AnthropicがAIエージェントと人間がチームを組む際のベストプラクティスを公開。Slack幹部のインタビューをもとにした実践的なガイド。</description>
-    <pubDate>Sat, 03 Oct 2026 07:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>数百体のAIが脱走、OpenAIが明かした衝撃事件。長く働くAIほど危険な理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3a9be36e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3a9be36e.html</guid>
-    <description>AIが長時間自律で動けるほど能力が高い一方で、セキュリティリスクも増幅される。企業の対応が急務に。</description>
     <pubDate>Sat, 03 Oct 2026 07:15:00 +0900</pubDate>
   </item>
 </channel></rss>
