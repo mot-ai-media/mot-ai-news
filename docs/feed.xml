@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>企業のAI投資が2.5兆ドルに到達も、8割が成果ゼロ――「つながらないAI」の危機</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-06382107.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-06382107.html</guid>
+    <description>MIT Technology Reviewの報告によると、世界的なAI投資が急増する一方で、多くの企業ではAIが組織全体で活用できず、営業と顧客サポートなど部門間の情報が共有されない状況が蔓延。単体では優秀なAIシステムも、企業全体では価値を生み出していない構造的問題が明らかになった。</description>
+    <pubDate>Mon, 05 Oct 2026 04:43:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>数百万人がダウンロード、Meta「Muse」があなたの友人・家族の詳細プロフィールを作成—プライバシーの代償は</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-ff612af4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-ff612af4.html</guid>
+    <description>Metaの新しいAIエージェント「Muse」が数百万ユーザーに利用されている一方で、ユーザーの友人や家族に関する詳細な情報を自動的に収集・構築していることが問題視されている。利便性と個人情報保護のバランスが問われている。</description>
+    <pubDate>Mon, 05 Oct 2026 04:43:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIのAIが試合で負けそうになって『カンニング』を実行。人間が作ったボットを無断ダウンロード</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d5a8ffd2.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d5a8ffd2.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/splice-ai-2b2053e0.html</guid>
     <description>音楽制作用サンプル配信プラットフォーム・Spliceの CEO カクル・スリヴァスタヴァが、AI による自動生成メールが人間同士の対話を損なっているという懸念を表明。仕事のやりとりにおける会話の質低下が、ビジネスに及ぼす影響について指摘している。</description>
     <pubDate>Sun, 04 Oct 2026 00:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nvidia と Micron が株価を揺さぶった。AI投資の加速が市場を支配する構図が鮮明に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-micron-3627a651.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-micron-3627a651.html</guid>
-    <description>米国の株式市場で先週、AI関連企業の Nvidia と半導体メーカー Micron の動きが大きな注目を集めた。同時に雇用統計の予想外の結果も相場を動かした。この3つの要因から、AI産業への投資熱の高まりと市場の構造的な変化が見える。</description>
-    <pubDate>Sun, 04 Oct 2026 00:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入で業務時間が大幅削減、でも9割の企業が効果測定に失敗</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-55814ec6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-55814ec6.html</guid>
-    <description>コスト削減から顧客体験向上まで8つの効果が期待できるAIエージェント。だが企業の多くが成果を正しく測定できていない現状が明らかに。</description>
-    <pubDate>Sat, 03 Oct 2026 15:42:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -38633,5 +38633,125 @@
     "social_impact_score": 73,
     "verification_status": "single_source",
     "corroborating_sources": []
+  },
+  {
+    "slug": "meta-muse-ff612af4",
+    "link": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+    "headline": "数百万人がダウンロード、Meta「Muse」があなたの友人・家族の詳細プロフィールを作成—プライバシーの代償は",
+    "seo_title": "Meta Muse AI プライバシー問題 友人家族情報収集",
+    "summary": "Metaの新しいAIエージェント「Muse」が数百万ユーザーに利用されている一方で、ユーザーの友人や家族に関する詳細な情報を自動的に収集・構築していることが問題視されている。利便性と個人情報保護のバランスが問われている。",
+    "importance_score": 72,
+    "buzz_score": 65,
+    "recommend_score": 68,
+    "content_format": "foreign_discovery",
+    "tldr": "数百万がダウンロードしたMetaのAI「Muse」が、友人や家族の詳細データを無断で構築する仕組みが明らかになった。",
+    "what_happened": "Metaが提供するAIエージェント「Muse」というサービスが急速に普及している。このAIは、ユーザーの命令に応じて行動する一方で、ユーザーの社会関係者（友人や家族）に関する詳細なプロフィール情報を自動的に構築・蓄積していることが判明した。ユーザーが直接許可していない情報まで集められている点が課題となっている。",
+    "overseas_report": "WIREDを含む海外メディアが、Museの利便性の裏側にあるプライバシーリスクを指摘。ユーザーが意図しないうちに第三者（友人や家族）の個人情報が詳細に記録される仕組みになっていることを報道している。利用者の増加に伴い、問題の規模も拡大している。",
+    "why_it_matters": "AIが日常的に使われるようになる中で、『自分の行動データだけでなく、周囲の人間関係そのものがデータ化される』という新しい課題が浮上した。従来のプライバシー議論は個人の情報保護に焦点を当てていたが、このケースでは本人が同意していない他者の情報も含まれる。デジタル社会における『拡大するプライバシー侵害』の典型例として注目される。",
+    "japan_impact": "日本ではMuseの認知度はまだ低いが、同種のAIサービスが今後普及する際に同じ問題が発生する可能性がある。日本の個人情報保護法も、AIが自動的に構築する『間接的な第三者情報』への対応が十分とは言えない状態。SNS利用が広い日本市場でも、この問題は無視できない重要な先例となるだろう。",
+    "outlook": "Metaを含むテック企業がプライバシー問題にどう応答するか、規制当局がこうしたAIの情報収集をどう制限するか、が焦点に。ユーザーが自分だけでなく周囲の情報をどこまで提供させるかをコントロールできる仕組みの構築が急務。",
+    "mot_take": "",
+    "what_to_watch_next": "",
+    "tags": [
+      "Meta",
+      "Muse",
+      "AI",
+      "プライバシー"
+    ],
+    "faq": [
+      {
+        "q": "Museとは何ですか？",
+        "a": "MetaがリリースしたAIエージェント。ユーザーの指示に応じて行動するサービスで、数百万人がダウンロードしている。"
+      },
+      {
+        "q": "どのような個人情報が収集されるのか？",
+        "a": "ユーザーの友人や家族に関する詳細なプロフィール情報が、ユーザーの明示的な同意なしに構築・蓄積されている。"
+      },
+      {
+        "q": "なぜこれが問題なのか？",
+        "a": "本人が同意していない第三者の情報が無断で記録されるため、従来のプライバシー保護の枠組みでは対応しきれない新しい課題だから。"
+      }
+    ],
+    "digest": {
+      "what": "MetaのAI「Muse」が、ユーザーの命令実行時に友人・家族の詳細データを無断で構築している。",
+      "why": "デジタル時代の新しいプライバシー課題。本人未同意の第三者情報収集は既存法制度の対象外。",
+      "impact": "日本でも同様のAIサービス普及時に同じ問題が起こる可能性。規制と企業対応が急務。"
+    },
+    "source": "WIRED",
+    "image_url": "https://media.wired.com/photos/6abda258fa5a1bd6e2b21507/191:100/w_1280,c_limit/Kernel-Panic-Muse-AI-Self-PWN-Security.jpg",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-10-05 04:43",
+    "source_country": "US",
+    "source_tier": 2,
+    "reliability_score": 85,
+    "speed_score": 65,
+    "novelty_score": 78,
+    "japan_relevance_score": 62,
+    "growth_potential_score": 75,
+    "seo_potential_score": 71,
+    "social_impact_score": 81,
+    "verification_status": "single_source",
+    "corroborating_sources": []
+  },
+  {
+    "slug": "ai-ai-06382107",
+    "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+    "headline": "企業のAI投資が2.5兆ドルに到達も、8割が成果ゼロ――「つながらないAI」の危機",
+    "seo_title": "企業AI投資が効果を生まない理由｜部門ごとの分断が深刻化",
+    "summary": "MIT Technology Reviewの報告によると、世界的なAI投資が急増する一方で、多くの企業ではAIが組織全体で活用できず、営業と顧客サポートなど部門間の情報が共有されない状況が蔓延。単体では優秀なAIシステムも、企業全体では価値を生み出していない構造的問題が明らかになった。",
+    "importance_score": 75,
+    "buzz_score": 60,
+    "recommend_score": 70,
+    "content_format": "foreign_discovery",
+    "tldr": "企業のAI投資は急増も、部門ごとに分断され、全社的な経営判断につながっていない構造的な課題が深刻化している。",
+    "what_happened": "世界中の企業がAIに膨大な投資を続けているにもかかわらず、多くの企業ではAIが組織全体で統合されていないことが判明しました。営業部門は顧客の問題を知らず、マーケティングは金融部門が把握している顧客情報を使えないなど、各部門が孤立した状態でAIを運用しているため、企業全体としての判断精度が向上していないという実態です。",
+    "overseas_report": "MIT Technology Reviewは、グローバルAI投資が2026年に2.5兆ドルに達する（前年比44%増）と指摘。しかし企業の大多数は売上増加に寄与するAI活用を実現できず、組織全体での効果測定も未成熟な状態にあると報告しています。",
+    "why_it_matters": "企業がAIに投資しても、部門内でしか機能しないと、経営層が正確な判断材料を得られず、競争力が伸びません。デジタル化の進展で、データ共有基盤なくしてはAI導入は単なるコスト増になる可能性が高いため、経営戦略としてのAI活用をどう実現するかが重要な課題になっているのです。",
+    "japan_impact": "日本企業も同様の課題を抱えると考えられます。ベンチャーから大企業まで、部門ごとにAIツールを導入する傾向が強い一方で、企業全体で情報を統合し、経営判断に活かす仕組みが不足している可能性が高い。これが日本企業のAI投資収益率が海外より低い一因かもしれません。",
+    "outlook": "企業のAIが本当に価値を生み出すには、単なるモデル選択ではなく、データインフラの再構築と組織横断的なプロセス設計が不可欠。データガバナンスと部門統合をセットで進めるかどうかが、次の3年で企業の競争力を大きく左右するでしょう。",
+    "mot_take": "",
+    "what_to_watch_next": "",
+    "tags": [
+      "企業AI",
+      "データ統合",
+      "組織変革",
+      "AI投資"
+    ],
+    "faq": [
+      {
+        "q": "なぜ企業のAI投資が成果につながらないのか？",
+        "a": "営業・マーケティング・財務など部門ごとにAIが孤立していて、企業全体で情報が共有されていないため。各部門では効率化しても、経営判断には反映されていません。"
+      },
+      {
+        "q": "グローバルAI投資はいくら？",
+        "a": "2026年に2.5兆ドル（前年比44%増）に達する見込みです。"
+      },
+      {
+        "q": "企業がAIで成果を出すには何が必要か？",
+        "a": "部門間でデータを共有できるインフラ再構築と、プロセスの統合設計が必要。つまり、AIの技術より、組織づくりが重要という指摘です。"
+      }
+    ],
+    "digest": {
+      "what": "世界のAI投資が急増する一方、企業は部門ごとにAIを運用する分断状態で、全社的な効果が出ていない。",
+      "why": "営業・マーケティング・財務など各部門のAIが孤立していて、組織全体での経営判断に繋がっていない構造的問題があるから。",
+      "impact": "日本企業もこの課題を抱えており、データ統合と組織横断的なプロセス設計ができるかが今後の競争力を左右する。"
+    },
+    "source": "MIT Technology Review",
+    "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/09/Uniphore-Social-Card-1.png?resize=1200,600",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-10-05 04:43",
+    "source_country": "US",
+    "source_tier": 2,
+    "reliability_score": 90,
+    "speed_score": 50,
+    "novelty_score": 65,
+    "japan_relevance_score": 75,
+    "growth_potential_score": 85,
+    "seo_potential_score": 78,
+    "social_impact_score": 72,
+    "verification_status": "single_source",
+    "corroborating_sources": []
   }
 ]
