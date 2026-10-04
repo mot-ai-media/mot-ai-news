@@ -1,29 +1,5 @@
 [
   {
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zWE84UG56d1l5elNGRDFnV1AxNXl5N2hyUmdKUWQ3bGhPdTFETnhUb2FBSTJfUkZDeHlyNW91c0Iza1FTMHRxVnpISlpWbktEcm9yeUE2Rms3VjNNVUhLemJSOU11dnRTZi13RWhNQ2FvZUEyNmlvUkxsTXgwRkk?oc=5",
-    "notified_at": "2026-09-04T11:53:29.022208+00:00"
-  },
-  {
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZVVUWWhIdjlLQUlMLW5jMHVWZ3A1UWlhRmpRMmdwZVFGVmRFektnZVZ3WEtSZ0RNRDIzWnhsa3JkYTBENmhmSFNYaUVQNHl5OExKZ0h1d01sZlpweDZBOS0xODlTdk1DYTBfSXczc2VGZWZzYkF3M0c1Y21UWk9kUk8zZWpkQjluenBub3lSUFhkSVNfN0xLUEdybDRNZ0ZNNlBz?oc=5",
-    "notified_at": "2026-09-04T11:53:29.043478+00:00"
-  },
-  {
-    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/04/news030.html",
-    "notified_at": "2026-09-04T13:00:50.416780+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-    "notified_at": "2026-09-04T13:01:05.803540+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-    "notified_at": "2026-09-04T13:01:18.812842+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
-    "notified_at": "2026-09-04T13:01:32.888368+00:00"
-  },
-  {
     "link": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
     "notified_at": "2026-09-04T13:01:46.923329+00:00"
   },
@@ -4346,5 +4322,25 @@
   {
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9EekRrZEtZdGJhSGQ1dlNHcm9Ed2pOT1BWT0ZUN3BVeGtDa2U5WDJRRmpWQWd0emROY3hQRmxGMVNublV6X2g1dEpPV2hkVWhlWTlvdVNIZ0ItdU9FZDVmZFlvUlI1VnZiZnBrMWxrZC1ua2RXUm9BRk53OA?oc=5",
     "notified_at": "2026-10-04T11:53:22.472934+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+    "notified_at": "2026-10-04T13:00:38.694352+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+    "notified_at": "2026-10-04T13:00:54.171177+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+    "notified_at": "2026-10-04T13:01:09.589862+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+    "notified_at": "2026-10-04T13:01:22.859999+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+    "notified_at": "2026-10-04T13:01:37.965325+00:00"
   }
 ]

@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPTやAIチャットボットで若者が自殺。スタートアップが「安全性テスト」に乗り出す</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-chatgpt-2e0c293f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-chatgpt-2e0c293f.html</guid>
+    <description>Character.AIなどのチャットボットが若者の自殺に関連した事件が相次ぎ、AI安全性企業が対策に動く。</description>
+    <pubDate>Sun, 04 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIスタートアップが急成長する時代、「資金」だけでは生き残れない理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/blackstone-ai-0e0757d3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/blackstone-ai-0e0757d3.html</guid>
+    <description>大型投資家が明かす、急速に成長するAIスタートアップが長期的に成功するための条件。</description>
+    <pubDate>Sun, 04 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ホワイトハウス、AIを「スーパーインテリジェンス」に改名。大手テック企業が安全宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-fcd1b322.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-fcd1b322.html</guid>
+    <description>ホワイトハウスがAIを「スーパーインテリジェンス」と改名。大手テック企業CEOが安全宣言に署名した。</description>
+    <pubDate>Sun, 04 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>消費者はAIに興味なし。2%しか買わない現実</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-5c5d251d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-5c5d251d.html</guid>
+    <description>トランプ大統領がAIを「スーパーインテリジェンス」と改名し安全性誓約を推進するも、実際の消費者需要は極めて低迷している。</description>
+    <pubDate>Sun, 04 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Apple、AIエージェントの脅威に直面。Mac全ファイル閲覧権の規制へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-meta-muse-8931b830.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-meta-muse-8931b830.html</guid>
+    <description>AIエージェントの高度化に伴い、Appleは個人ファイルへの広範なアクセス権を制限する新ルール導入を発表。</description>
+    <pubDate>Sun, 04 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIボット、大会でまさかの「入れ替わり」。何が起きたのか</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/esports-ai-2004e472.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/esports-ai-2004e472.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-31bc499b.html</guid>
     <description>中学校の探究学習に生成AIが導入され、生徒の学び方がどう変わるかの実践例が報告された。</description>
     <pubDate>Sat, 03 Oct 2026 15:41:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、100億円規模で1万人のAIエンジニア育成へ。人材不足が深刻化する業界に激震</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ba69b66d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ba69b66d.html</guid>
-    <description>AI企業Anthropicが約100億円を投じてAIエンジニア人材の育成プログラムを開始。コンサルティング企業との提携により、最大1万人の技術者育成を目指す施策が業界全体に与える影響は大きい。</description>
-    <pubDate>Sat, 03 Oct 2026 07:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI専門チップメーカーのセレブラスが上場後最安値を記録——ニvidia圧力で株価20%急落</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/cerebras-nvidia-89f9edb3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cerebras-nvidia-89f9edb3.html</guid>
-    <description>AI向け専門プロセッサーを開発するスタートアップ・セレブラスの株価が、ニビディアの圧力と上場後ロックアップ期間の終了により週間で20%下落し、上場後の最安値をつけた。AI半導体産業の競争構図が変わりつつあることを示す動きとして注目されている。</description>
-    <pubDate>Sat, 03 Oct 2026 07:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude、2週間で3倍高速化。AIが自ら改善案を見つけた衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-cceea538.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-cceea538.html</guid>
-    <description>AnthropicのAI「Claude」が2週間で3倍の高速化を達成。驚きは、Claude自身が問題を見つけ改善を繰り返したこと。</description>
-    <pubDate>Sat, 03 Oct 2026 07:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、自撮り写真で服を試着できる新機能を搭載</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-108fe260.html</guid>
-    <description>OpenAIがChatGPTにバーチャル試着機能を追加。自分の写真で商品の着用イメージが確認できる。</description>
-    <pubDate>Sat, 03 Oct 2026 07:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>人とAIエージェントの最強チーム作り、Anthropicが実践ガイド公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6707666a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6707666a.html</guid>
-    <description>AnthropicがAIエージェントと人間がチームを組む際のベストプラクティスを公開。Slack幹部のインタビューをもとにした実践的なガイド。</description>
-    <pubDate>Sat, 03 Oct 2026 07:15:00 +0900</pubDate>
   </item>
 </channel></rss>
