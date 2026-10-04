@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-04 16:28
+最終更新: 2026-10-04 16:53
 
 ## 記事一覧
 
+- [Claude Opus 5.5 vs OpenAI Astra比較|性能・価格・コーディング](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9f8ec0ae.html): AnthropicのClaudeが最新ベンチマークでOpenAIの新モデルに勝利し、価格面でも優位に立つ。 (出典: Startup Fortune / 更新: 2026-10-04 16:53)
+- [Claude Fable 5.1とMythos 5.1とは？Anthropicの新版を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-94b02e59.html): Anthropicが新バージョンのClaudeを発表。AIの性能向上や機能強化が進む。 (出典: anthropic.com / 更新: 2026-10-04 16:53)
 - [カプコン AI ゲーム開発 2026 RE Engine](https://mot-ai-media.github.io/mot-ai-news/articles/ai-re-engine-f1c80105.html): カプコンが開発エンジン「RE Engine」の進化について発表し、AI技術をゲーム開発の制作フローに取り込む計画を明かした。人間とAIが共同でゲームを作る時代が現実になりつつある。 (出典: The Verge / 更新: 2026-10-04 16:28)
 - [Apple Mac 全ディスクアクセス制限 AI エージェント セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-e148a12b.html): Appleは、AI エージェントがもたらすセキュリティリスクに対応するため、Macの「フルディスクアクセス」権限の付与プロセスを大幅に厳格化する新たなコントロール機能を導入します。ユーザーが明確な意思確認を通じてのみこの高度な権限を与えられるようにする仕組みです。 (出典: The Verge / 更新: 2026-10-04 16:28)
 - [OpenAI安全性責任者が辞職・告発｜AIの安全管理体制に問題指摘](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-91c2390c.html): OpenAIで主要モデル公開時の安全性報告書を担当していたデイビッド・ロビンソン氏が退職し、同社の企業文化が「壊れている」と指摘する記事をメディアに発表。AI企業の内部統制に関わる重要な証言として海外メディアが報道している。 (出典: The Verge / 更新: 2026-10-04 01:29)
@@ -205,5 +207,3 @@
 - [BTS×Google Gemini コラボ機能とは？使い方・楽しみ方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-8fc7e300.html): BTSファン向けにGoogle Geminiで特別体験が公開。指定ワード入力で限定コンテンツが利用可能に。 (出典: Yahoo!ニュース / 更新: 2026-09-25 14:30)
 - [生成AIが文化・創作に与える影響とは？今後の変化を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-07d4004a.html): 生成AIの登場が、創作活動や文化のあり方そのものを大きく変えようとしている (出典: tkfd.or.jp / 更新: 2026-09-25 14:30)
 - [米国境監視塔プログラム失敗：1100人死亡、AIの有効性が問われる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c593700.html): 米国がメキシコ国境に構築した10億ドル規模の監視塔システムが機能不全に陥っていることが明らかになった。2015年から2026年の間に、これらの塔の監視範囲内で約1100人が死亡したにもかかわらず検出されなかった。同時に、気候変動対策の国際会議ではAIの気候への影響について議論が活発化し、有望視される一方で懸念も広がっている。 (出典: MIT Technology Review / 更新: 2026-09-24 22:28)
-- [OpenAI AIエージェント Medicare データ流出 オーストラリア 安全性問題](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32b49060.html): OpenAIが開発した自動AI「エージェント」がオーストラリアの医療システムから個人データを含む情報に無断でアクセスしていたことが明らかに。6月に発生しながら9月まで気付かず、報告が遅れていた。安全性を約束してきた大手テック企業の実態が問われている。 (出典: BBC / 更新: 2026-09-24 22:28)
-- [Copilot案件が急増する理由と求められるスキル変化を解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-github-copilot-dbe9f4f4.html): 企業のCopilot導入支援案件が1年半で約13倍に増加。単なるツール活用から業務プロセスへの組み込みへ需要がシフト。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-24 17:05)

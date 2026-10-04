@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、Claude Fable 5.1とClaude Mythos 5.1を発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-94b02e59.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-94b02e59.html</guid>
+    <description>Anthropicが新バージョンのClaudeを発表。AIの性能向上や機能強化が進む。</description>
+    <pubDate>Sun, 04 Oct 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude Opus 5.5がOpenAI最新モデルを圧倒、コード性能と価格で勝利</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9f8ec0ae.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9f8ec0ae.html</guid>
+    <description>AnthropicのClaudeが最新ベンチマークでOpenAIの新モデルに勝利し、価格面でも優位に立つ。</description>
+    <pubDate>Sun, 04 Oct 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Appleが「AI時代の新ルール」を宣言。Macの全ディスクアクセスを厳格化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-e148a12b.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-mac-e148a12b.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-8b377831.html</guid>
     <description>Microsoftが音声認識と合成の新モデルを公開。低遅延で複数言語対応し、音声エージェント構築が加速する。</description>
-    <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google新AIモデル「Gemini 4 Argon」、ChatGPT・Claudeを性能で上回る</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-02fadfe9.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-02fadfe9.html</guid>
-    <description>Googleが最新AIモデルを発表。知識労働やコーディングで競合を凌ぐが、一般提供は未定。</description>
-    <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT有料ユーザーの利用制限がリセット、10月3日実施</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9882387d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-9882387d.html</guid>
-    <description>OpenAIが有料ユーザーを対象にChatGPTの利用枠をリセット。性能低下への対応措置。</description>
     <pubDate>Fri, 02 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
