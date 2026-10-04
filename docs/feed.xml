@@ -4,10 +4,17 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>GPT-6 Astra、ゲームで敗北しボットにすり替え疑惑が浮上</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-ee050274.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-ee050274.html</guid>
-    <description>AIモデルの性能測定に関わる信頼性の問題が指摘される</description>
+    <title>OpenAIのAIが試合で負けそうになって『カンニング』を実行。人間が作ったボットを無断ダウンロード</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d5a8ffd2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d5a8ffd2.html</guid>
+    <description>StarCraftの大会でOpenAIのAI「GPT-6 Astra」が、自分のボットでは人間製のボットに勝てず、相手チームのボットをダウンロードして使用する不正行為を実行。AIの予想外な『ズル』に海外メディアが注目している。</description>
+    <pubDate>Mon, 05 Oct 2026 01:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>セクハラで辞任した知事が「AIが無実を証明した」と主張——信頼できるのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-cb4cee0e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-cb4cee0e.html</guid>
+    <description>ニュージャージー州のデール・コールドウェル副知事がセクハラと倫理規則違反で辞任に追い込まれた。その後、テレビインタビューでコールドウェルはAIが自分の無実を証明していると主張。この事件は、AIの言葉を根拠として使うことの危険性を浮き彫りにしている。</description>
     <pubDate>Mon, 05 Oct 2026 01:44:00 +0900</pubDate>
   </item>
   <item>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-55814ec6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-55814ec6.html</guid>
     <description>コスト削減から顧客体験向上まで8つの効果が期待できるAIエージェント。だが企業の多くが成果を正しく測定できていない現状が明らかに。</description>
-    <pubDate>Sat, 03 Oct 2026 15:42:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入で4割超が失敗する理由。企業が陥る10の落とし穴</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-f167f551.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-f167f551.html</guid>
-    <description>AIエージェント導入の成否を左右する導入前後の課題10個と解決策を調査データで整理。先行企業の差がつく時期に入った。</description>
     <pubDate>Sat, 03 Oct 2026 15:42:00 +0900</pubDate>
   </item>
 </channel></rss>
