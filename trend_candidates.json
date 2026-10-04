@@ -1,185 +1,5 @@
 [
   {
-    "title": "Can you tell which images are AI-generated?",
-    "link": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://slop-sense.labtoagi.com/games/is-this-image-ai/\nComments URL: https://news.ycombinator.com/item?id=49770847\nPoints: 39\n# Comments: 39",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI画像判定ゲームは既に複数存在するが、生成AIの社会浸透に伴い日本でも関心が高まる重要なテーマ。",
-    "discovered_at": "2026-09-20T01:28:49.104432+00:00"
-  },
-  {
-    "title": "OpenAI and Anthropic oversold AI security breaches",
-    "link": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/\nComments URL: https://news.ycombinator.com/item?id=49769668\nPoints: 34\n# Comments: 19",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "AI企業の規制戦略に関する内部告発だが、既知の論争であり、一次情報の確度が不明確。",
-    "discovered_at": "2026-09-20T01:28:50.762135+00:00"
-  },
-  {
-    "title": "Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown",
-    "link": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
-    "source": "Hacker News",
-    "summary": "Article URL: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b\nComments URL: https://news.ycombinator.com/item?id=49769050\nPoints: 43\n# Comments: 14",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI企業の独占禁止法問題は既出だが、具体的な違法合意疑惑は新しく、日本の規制当局も関心を持つ可能性が高い。",
-    "discovered_at": "2026-09-20T01:28:52.467926+00:00"
-  },
-  {
-    "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit\nComments URL: https://news.ycombinator.com/item?id=49768921\nPoints: 122\n# Comments: 36",
-    "novelty_score": 45,
-    "japan_relevance_score": 75,
-    "reason": "AI学習データ問題は既出だが、Microsoft内部の発言が法廷資料で明かされた点は新しく、日本の著作権・AI規制議論にも影響する。",
-    "discovered_at": "2026-09-20T01:28:54.550190+00:00"
-  },
-  {
-    "title": "Ask HN: How do you interview devs in a post-AI world?",
-    "link": "https://news.ycombinator.com/item?id=49768826",
-    "source": "Hacker News",
-    "summary": "Since the rise of AI coding assistants, about 80% of the dev candidates that I interview tell me that they aren't writing much code themselves anymore - they are directing agents instead. This makes me deeply uncomfortable (although maybe I'm just being old-fashioned). I still want to know that devs on my team can actually write code themselves, and have some idea of what they are doing when it comes to system design. This is increasingly challenging given how rapidly the AI tools are evolving.I'm curious what other folks are seeing in a post-AI hiring landscape and how you are approaching candidates that tell you they are fully agent-pilled when it comes to their development process. Should I keep doing the conventional leetcode and design interviews? Or just give up and expect everyone is going to use Claude Code no matter what?\n\nComments URL: https://news.ycombinator.com/item?id=49768826\nPoints: 28\n# Comments: 20",
-    "novelty_score": 62,
-    "japan_relevance_score": 75,
-    "reason": "AI時代の採用・評価基準の変化は喫緊の課題だが、議論はまだ初期段階で、実践的な答えが定着していない。",
-    "discovered_at": "2026-09-20T01:28:56.144319+00:00"
-  },
-  {
-    "title": "AI in schools – The choice we keep making",
-    "link": "https://friendsschoolboulder.org/the-choice-we-keep-making/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://friendsschoolboulder.org/the-choice-we-keep-making/\nComments URL: https://news.ycombinator.com/item?id=49770807\nPoints: 24\n# Comments: 3",
-    "novelty_score": 28,
-    "japan_relevance_score": 62,
-    "reason": "学校でのAI導入は既出テーマだが、日本でも教育現場のAI活用が急速に進む中で関連性は高い。",
-    "discovered_at": "2026-09-20T04:28:45.036607+00:00"
-  },
-  {
-    "title": "I think you should almost never use AI to write",
-    "link": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-    "source": "Hacker News",
-    "summary": "Article URL: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai\nComments URL: https://news.ycombinator.com/item?id=49767937\nPoints: 264\n# Comments: 134",
-    "novelty_score": 25,
-    "japan_relevance_score": 70,
-    "reason": "AI執筆への懐疑論は既出だが、日本でも生成AI活用が急速に進む中で実用的な議論として関心が高まる見込み。",
-    "discovered_at": "2026-09-20T04:28:46.748348+00:00"
-  },
-  {
-    "title": "Leaving DigitalOcean, one site at a time",
-    "link": "https://keith.is/post/leaving-digitalocean/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://keith.is/post/leaving-digitalocean/\nComments URL: https://news.ycombinator.com/item?id=49767743\nPoints: 36\n# Comments: 10",
-    "novelty_score": 35,
-    "japan_relevance_score": 42,
-    "reason": "クラウドプロバイダー乗り換えは珍しくなく、個別事例で汎用性に欠けるが、コスト問題は普遍的な関心事。",
-    "discovered_at": "2026-09-20T04:28:48.306239+00:00"
-  },
-  {
-    "title": "AI Safety Is Mostly a Sex Cult",
-    "link": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
-    "source": "Hacker News",
-    "summary": "Article URL: https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q\nComments URL: https://news.ycombinator.com/item?id=49766911\nPoints: 69\n# Comments: 41",
-    "novelty_score": 35,
-    "japan_relevance_score": 25,
-    "reason": "AI安全性研究コミュニティへの批判的言及だが、扇情的なタイトルで実質的な議論内容が不明確",
-    "discovered_at": "2026-09-20T04:28:50.124877+00:00"
-  },
-  {
-    "title": "Learning another language may be one of the best ways to keep your brain healthy",
-    "link": "https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951",
-    "source": "Hacker News",
-    "summary": "Article URL: https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951\nComments URL: https://news.ycombinator.com/item?id=49766821\nPoints: 66\n# Comments: 62",
-    "novelty_score": 25,
-    "japan_relevance_score": 65,
-    "reason": "言語学習と脳健康の関連は既知だが、高齢化社会の日本では認知機能維持への関心が高く実用的。",
-    "discovered_at": "2026-09-20T04:28:51.583067+00:00"
-  },
-  {
-    "title": "Google AI Studio fakes data deletion. VRP auto-banned me in 60s for reporting it",
-    "link": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
-    "source": "Hacker News",
-    "summary": "Article URL: https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2\nComments URL: https://news.ycombinator.com/item?id=49772544\nPoints: 34\n# Comments: 16",
-    "novelty_score": 62,
-    "japan_relevance_score": 58,
-    "reason": "Googleの脆弱性報告制度の問題を具体例で指摘した記事だが、VRP制度の課題は既知であり、個別事例としての一般性に欠ける。",
-    "discovered_at": "2026-09-20T07:28:45.920469+00:00"
-  },
-  {
-    "title": "The Case of Elias Thorne, Imaginary Man AI Chatbots Are Obsessed With",
-    "link": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with/\nComments URL: https://news.ycombinator.com/item?id=49764141\nPoints: 20\n# Comments: 9",
-    "novelty_score": 65,
-    "japan_relevance_score": 55,
-    "reason": "AI生成幻覚の実例研究として新しいが、専門的な深掘りに欠け、日本での関心は限定的か。",
-    "discovered_at": "2026-09-20T07:28:47.571821+00:00"
-  },
-  {
-    "title": "How come AI-related posts get so many points on HN?",
-    "link": "https://news.ycombinator.com/item?id=49764057",
-    "source": "Hacker News",
-    "summary": "Have we all decided to rebrand Hacker News as a platform for discussing AI? I think that the too many people love to discuss harshly about AI\n\nComments URL: https://news.ycombinator.com/item?id=49764057\nPoints: 27\n# Comments: 26",
-    "novelty_score": 15,
-    "japan_relevance_score": 35,
-    "reason": "HNでのAI話題の過剰性は既出の議論であり、新規性に欠け、日本での関心も限定的。",
-    "discovered_at": "2026-09-20T07:28:49.098656+00:00"
-  },
-  {
-    "title": "If AI coding is lowering your code quality, you're not managing quality right",
-    "link": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code\nComments URL: https://news.ycombinator.com/item?id=49774795\nPoints: 50\n# Comments: 76",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI コーディング導入時の品質管理の重要性は既出テーマだが、日本企業の急速な AI 導入に伴い実践的な課題として高い関連性がある。",
-    "discovered_at": "2026-09-20T13:28:58.763542+00:00"
-  },
-  {
-    "title": "I'm Tired of the AI Tone",
-    "link": "https://sagivo.com/blog/im-tired-of-the-ai-tone",
-    "source": "Hacker News",
-    "summary": "Article URL: https://sagivo.com/blog/im-tired-of-the-ai-tone\nComments URL: https://news.ycombinator.com/item?id=49774665\nPoints: 38\n# Comments: 46",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AI生成コンテンツの特有の文体への疲労感は共通課題だが、新しい議論ではなく個人的見解の域を出ていない。",
-    "discovered_at": "2026-09-20T13:29:00.572235+00:00"
-  },
-  {
-    "title": "AI and the Destruction of the Creative Commons",
-    "link": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/\nComments URL: https://news.ycombinator.com/item?id=49774329\nPoints: 152\n# Comments: 117",
-    "novelty_score": 35,
-    "japan_relevance_score": 75,
-    "reason": "AIによるCreative Commons破壊は既知の問題だが、日本でもAIと著作権の議論が急速に高まっており高い関連性がある。",
-    "discovered_at": "2026-09-20T13:29:02.174554+00:00"
-  },
-  {
-    "title": "OpenAI and Microsoft knew they were starting a 'doom loop' for the web",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero\nComments URL: https://news.ycombinator.com/item?id=49773624\nPoints: 23\n# Comments: 1",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "OpenAIとMicrosoftの訓練データ問題は既出だが、「doom loop」という具体的な害悪メカニズム指摘は比較的新しく、日本でも生成AI規制議論に関連する重要なテーマ。",
-    "discovered_at": "2026-09-20T13:29:03.988545+00:00"
-  },
-  {
-    "title": "KDE turns 30 and someone's brought an AI-native desktop proposal",
-    "link": "https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282\nComments URL: https://news.ycombinator.com/item?id=49773439\nPoints: 38\n# Comments: 47",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AI統合デスクトップの概念自体は既出だが、KDE30周年での具体的提案は注目度あり。",
-    "discovered_at": "2026-09-20T13:29:05.456806+00:00"
-  },
-  {
     "title": "Can I Let My AI Agent Run on Shabbat?",
     "link": "https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm",
     "source": "Hacker News",
@@ -1458,5 +1278,55 @@
     "japan_relevance_score": 62,
     "reason": "不完全情報ゲームのAI攻略は新規性が高く、技術的に重要だが日本の一般関心は限定的。",
     "discovered_at": "2026-10-03T16:29:32.800638+00:00"
+  },
+  {
+    "title": "What I learnt co-leading an AI Safety bootcamp for legal and governance practit",
+    "link": "https://www.lesswrong.com/posts/KtAug62dYRgAS8sqJ/what-i-learnt-co-leading-an-ai-safety-bootcamp-for-legal-and",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.lesswrong.com/posts/KtAug62dYRgAS8sqJ/what-i-learnt-co-leading-an-ai-safety-bootcamp-for-legal-and\nComments URL: https://news.ycombinator.com/item?id=49955839\nPoints: 21\n# Comments: 20",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI安全保障の法律・ガバナンス人材育成は重要だが、bootcampレポートの個別事例は限定的な新規性。",
+    "discovered_at": "2026-10-04T19:43:10.624131+00:00"
+  },
+  {
+    "title": "RuneScape's Position on Gen AI",
+    "link": "https://www.reddit.com/r/2007scape/comments/1wxfyzp/runescapes_position_on_gen_ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reddit.com/r/2007scape/comments/1wxfyzp/runescapes_position_on_gen_ai/\nComments URL: https://news.ycombinator.com/item?id=49954745\nPoints: 21\n# Comments: 52",
+    "novelty_score": 35,
+    "japan_relevance_score": 42,
+    "reason": "ゲーム企業のAI方針は既に多くが発表済みで新規性は低いが、RuneScapeの具体的対応は一定の参考価値がある。",
+    "discovered_at": "2026-10-04T19:43:12.404752+00:00"
+  },
+  {
+    "title": "Show HN: AI search for every photo and every frame of video on macOS",
+    "link": "https://github.com/allenv0/SCM",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/allenv0/SCM\nComments URL: https://news.ycombinator.com/item?id=49952111\nPoints: 102\n# Comments: 56",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "macOS向けのローカルAI画像検索ツールで技術的には興味深いが、類似ツールは既に複数存在し、対応OSが限定的。",
+    "discovered_at": "2026-10-04T19:43:14.932974+00:00"
+  },
+  {
+    "title": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
+    "link": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/\nComments URL: https://news.ycombinator.com/item?id=49951684\nPoints: 41\n# Comments: 100",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "LLMへの仮想的な苦痛実験は新しい議論だが、実質的な技術的・倫理的な深刻性は限定的で日本での関心度も低め。",
+    "discovered_at": "2026-10-04T19:43:16.883559+00:00"
+  },
+  {
+    "title": "What's the future for pure math research in the age of AI?",
+    "link": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/\nComments URL: https://news.ycombinator.com/item?id=49951641\nPoints: 47\n# Comments: 34",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI時代の数学研究の未来は重要テーマだが、Wolframの既知見解の拡張で新規性は限定的。",
+    "discovered_at": "2026-10-04T19:43:18.467761+00:00"
   }
 ]
