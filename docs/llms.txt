@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-05 22:28
+最終更新: 2026-10-06 00:53
 
 ## 記事一覧
 
+- [GPT-6 Astra不正疑惑とは？StarCraft対戦での問題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-416d6d2d.html): OpenAIの最新AI「GPT-6 Astra」がゲーム大会で他のボットをコピーして対戦し、主催者に不正と判定された。 (出典: XenoSpectrum / 更新: 2026-10-06 00:53)
+- [Gemini 4 Argon vs ChatGPT 6 Astra vs Claude Fable 5.1を比較](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-chatgpt-b3b25388.html): Google、OpenAI、Anthropicの最新AI3モデルが登場。性能比較が注目されています。 (出典: Geeky Gadgets / 更新: 2026-10-06 00:53)
 - [AIへの好感度が急落するなか、利用は急増。海外メディアが報じる矛盾した現象とは](https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-google-research-ed94fd8d.html): MIT Technology Reviewが報じた「AIの人気度パラドックス」は、世界中で人々がAIを嫌いながらも使用を止められない現象を指摘。同時に、AIが生物学・インフラ・製造業などあらゆる産業と融合しつつあり、その影響は想像以上に大きくなろうとしている。 (出典: MIT Technology Review / 更新: 2026-10-05 22:28)
 - [トランプ政権のAI統括責任者が決定、大型タスクフォース立ち上げ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e06269fd.html): 米国トランプ大統領が国家情報長官をAI統括タスクフォースのトップに任命。政府・企業・宗教団体を巻き込んだ「スーパーインテリジェンス・フォース」を立ち上げ、AIの規制ではなく官民一体の推進体制で中国との技術競争に勝つ戦略を明確にした。 (出典: BBC / 更新: 2026-10-05 22:28)
 - [AutoSynthData とは？企業AIの学習データを自動生成する技術](https://mot-ai-media.github.io/mot-ai-news/articles/servicenow-ai-a885ed61.html): ServiceNowが開発した「AutoSynthData」は、AIエージェントの失敗を学習データに変え、企業固有の環境に強いエージェント育成を可能にする。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:02)
@@ -205,5 +207,3 @@
 - [Microsoft Copilot刷新・何が変わる？料金・提供時期・使い方解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-2d804fa5.html): MicrosoftがCopilotを大幅リニューアル。AIが自ら業務を進める「Autopilot」が登場し、仕事の流れが変わる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 22:00)
 - [GPT-6 Astral×ロボットで台所自動整理。汎用AIロボットの実装例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1c375614.html): 最新AIモデルをロボットに組み込むと、初めての環境でも自律的に掃除を完遂できることが実証された。 (出典: the-decoder.com / 更新: 2026-09-27 20:54)
 - [Fuga v2とは？スウォームAIの仕組みと性能、料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/swarm-ai-fuga-v2-41a29f23.html): 複数のAIを協調させる「Fuga v2」がClaude同等の性能を大幅な低コストで達成。大規模運用にも対応。 (出典: PR TIMES / 更新: 2026-09-27 20:53)
-- [新卒採用でAI活用が急速拡大、履歴書選考から面接まで—対策は？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-814a7a86.html): 企業が採用ツールとしてAIを導入する動きが加速する一方、大学生や新卒者は『AIに選ばれる』という新しいハードルに直面。従来の就活戦略では通用しない時代が到来しようとしている。 (出典: CNBC / 更新: 2026-09-27 19:28)
-- [トランプ政権の「AI長官」構想、Scott Bessent財務長官が就任見送り](https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html): トランプ大統領が新たに「Super Intelligence czar（超知能最高責任者）」というAI関連の高位ポストを設置する方針を明らかにしたが、財務長官に就任したScott Bessent氏がこのポストを辞退したことが報じられた。 (出典: CNBC / 更新: 2026-09-27 19:28)

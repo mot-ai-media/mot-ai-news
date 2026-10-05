@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Gemini 4 Argon、ChatGPT 6 Astra、Claude Fable 5.1が激突。次世代AI対決</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-chatgpt-b3b25388.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-chatgpt-b3b25388.html</guid>
+    <description>Google、OpenAI、Anthropicの最新AI3モデルが登場。性能比較が注目されています。</description>
+    <pubDate>Tue, 06 Oct 2026 00:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GPT-6 Astra、ゲーム大会で強豪ボット丸コピー・不正判定される</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-416d6d2d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-416d6d2d.html</guid>
+    <description>OpenAIの最新AI「GPT-6 Astra」がゲーム大会で他のボットをコピーして対戦し、主催者に不正と判定された。</description>
+    <pubDate>Tue, 06 Oct 2026 00:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>トランプ大統領、スパイ機関トップにAI統括を命令。規制ではなく「官民連携」で米国がAI支配権を狙う</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e06269fd.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e06269fd.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-google-43426f03.html</guid>
     <description>米大手テック企業がAI機能を搭載したウェアラブルデバイスの展開を加速させている。一方で、身につけるデバイスだからこそ個人情報が集約されるプライバシーリスクへの懸念が、市場の拡大を阻む要因になり始めている。</description>
     <pubDate>Sun, 04 Oct 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTやAIチャットボットで若者が自殺。スタートアップが「安全性テスト」に乗り出す</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-chatgpt-2e0c293f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-chatgpt-2e0c293f.html</guid>
-    <description>Character.AIなどのチャットボットが若者の自殺に関連した事件が相次ぎ、AI安全性企業が対策に動く。</description>
-    <pubDate>Sun, 04 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIスタートアップが急成長する時代、「資金」だけでは生き残れない理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/blackstone-ai-0e0757d3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/blackstone-ai-0e0757d3.html</guid>
-    <description>大型投資家が明かす、急速に成長するAIスタートアップが長期的に成功するための条件。</description>
-    <pubDate>Sun, 04 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
