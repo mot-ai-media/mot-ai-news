@@ -1,155 +1,5 @@
 [
   {
-    "title": "Can I Let My AI Agent Run on Shabbat?",
-    "link": "https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm\nComments URL: https://news.ycombinator.com/item?id=49782242\nPoints: 26\n# Comments: 12",
-    "novelty_score": 45,
-    "japan_relevance_score": 25,
-    "reason": "宗教的規範とAI技術の融合という興味深いテーマだが、ユダヤ教特有の議論であり日本での関心は限定的。",
-    "discovered_at": "2026-09-21T04:52:51.599757+00:00"
-  },
-  {
-    "title": "Not all AI workers think the tech could kill everyone",
-    "link": "https://www.bbc.com/news/articles/cm5y7qj54klpo",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.bbc.com/news/articles/cm5y7qj54klpo\nComments URL: https://news.ycombinator.com/item?id=49780704\nPoints: 21\n# Comments: 19",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AI安全性議論は既出だが、労働者視点の多様な見方は相対的に新しく、日本でも労働への影響議論が高まる中で関連性がある。",
-    "discovered_at": "2026-09-21T04:52:53.466937+00:00"
-  },
-  {
-    "title": "I stopped drinking the AI Kool-Aid",
-    "link": "https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/\nComments URL: https://news.ycombinator.com/item?id=49780162\nPoints: 61\n# Comments: 43",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AI過度な期待への懐疑論は既出だが、実務者による具体的な失敗事例は参考価値がある。",
-    "discovered_at": "2026-09-21T04:52:56.393083+00:00"
-  },
-  {
-    "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
-    "link": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/\nComments URL: https://news.ycombinator.com/item?id=49779802\nPoints: 48\n# Comments: 57",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AI規制の国際的議論が進む中、OpenAIが国連で発言する事例は注目度があるが、既に類似の国際的動きは複数存在。",
-    "discovered_at": "2026-09-21T04:52:59.587146+00:00"
-  },
-  {
-    "title": "Andrew Ng: AI Extinction Fears Are 'Science Fiction'",
-    "link": "https://www.youtube.com/watch?v=KnckQp-c388",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.youtube.com/watch?v=KnckQp-c388\nComments URL: https://news.ycombinator.com/item?id=49778367\nPoints: 20\n# Comments: 3",
-    "novelty_score": 25,
-    "japan_relevance_score": 55,
-    "reason": "AI安全性についての既出議論であり、著名人の意見表明に過ぎず、新規性に乏しい。",
-    "discovered_at": "2026-09-21T04:53:01.329423+00:00"
-  },
-  {
-    "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
-    "link": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666\nComments URL: https://news.ycombinator.com/item?id=49783062\nPoints: 68\n# Comments: 27",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI信頼性の問題は既知だが、金融領域での具体的な検証結果として日本でも関心高い。",
-    "discovered_at": "2026-09-21T07:28:46.113671+00:00"
-  },
-  {
-    "title": "Pirate Face Rescues LLM Models from Deletion",
-    "link": "https://pirateface.co/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://pirateface.co/\nComments URL: https://news.ycombinator.com/item?id=49776699\nPoints: 531\n# Comments: 143",
-    "novelty_score": 45,
-    "japan_relevance_score": 35,
-    "reason": "LLMモデルの保存サービス自体は目新しくないが、海賊版対抗という文脈が限定的で、日本での関心は低めと判断。",
-    "discovered_at": "2026-09-21T07:28:47.778874+00:00"
-  },
-  {
-    "title": "Big Tech uses guarantees to keep $300B AI exposure off balance sheets",
-    "link": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563\nComments URL: https://news.ycombinator.com/item?id=49774991\nPoints: 37\n# Comments: 67",
-    "novelty_score": 62,
-    "japan_relevance_score": 58,
-    "reason": "Big Techの会計操作は既知だが、AI投資規模の具体的な暴露は新しく、日本企業の同様手法にも応用可能な示唆がある。",
-    "discovered_at": "2026-09-21T07:28:49.659040+00:00"
-  },
-  {
-    "title": "In September, AI generated code has made up 17.25% of all Linux Kernel patches",
-    "link": "https://twitter.com/LundukeJournal/status/2101841277432070210",
-    "source": "Hacker News",
-    "summary": "Article URL: https://twitter.com/LundukeJournal/status/2101841277432070210\nComments URL: https://news.ycombinator.com/item?id=49784366\nPoints: 26\n# Comments: 50",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "AI生成コードのOSS貢献比率は継続的な関心テーマだが、月単位の統計情報は既報多数。",
-    "discovered_at": "2026-09-21T10:28:56.405060+00:00"
-  },
-  {
-    "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
-    "link": "https://github.com/volotat/mini-AGI/",
-    "source": "Hacker News",
-    "summary": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation. Before throwing rocks at me, please take a glance at the Readme, and I hope it will cover your mood a little bit.So, first of all it does work and you can see the sample from the whole training run here: https://raw.githubusercontent.com/volotat/mini-AGI/refs/head...Here is the scaling law graph I have so far, and it looks very promising:\nhttps://github.com/volotat/mini-AGI/blob/main/assets/scaling...The model was built under my deep dissatisfaction so we cannot really train even moderately big models (1B+ scale) on the consumer's hardware. We can inference and fine-tune them for sure, but I would like to have full control over what the model sees over the training run, so it is fully aligned with my interests, not some corporations.I was thinking about for some time and come up with two interesting ideas I thought worth pursuing: MoE with a lot of experts that gets added and pruned from the model while it trains, where only a small subset of of experts are actually in use at any particular moment + batch 1 training on the single continuous stream of data.First allows us to be bounded only by the disk space in terms of number of parameters and load and unload experts only when they are needed. The second (if figured out and it turns out to be doable) allows us to get aways with small VRAM capacity because we do not need to store big randomized batches and their respective gradients.I started brainstorming with Claude and after some time we found an approach that seems to be promising, and low and behold, a few weeks pass and you can see the results yourself.Obviously, I did use AI in the process of making this project and I am pretty sure it would be completely impossible for me to do something like this without it, so I hope it is more than justified.The model is still running over the first of 7.8B characters corpus I selected for training, so the weights are not out yet, and it's about a couple weeks of waiting until they are cooked at the current reading speed. And yeah, the model just read continuous interleaved passages from the dataset, each by 32K characters long each as a single stream. Just as you or I would do.The set up seems to be really simple so you can git clone the project, run it and observe everything for yourself.Thanks for your attention.\n\nComments URL: https://news.ycombinator.com/item?id=49783133\nPoints: 89\n# Comments: 12",
-    "novelty_score": 62,
-    "japan_relevance_score": 58,
-    "reason": "MoE+連続学習の組み合わせは新規性があるが、実装途上で未検証な部分が多く、日本の技術者層には中程度の関心が見込まれる。",
-    "discovered_at": "2026-09-21T10:28:58.189595+00:00"
-  },
-  {
-    "title": "Show HN: jevals – replacing LLM judges with typed Jev decisions",
-    "link": "https://github.com/openlayer-ai/jevals",
-    "source": "Hacker News",
-    "summary": "Article URL: https://github.com/openlayer-ai/jevals\nComments URL: https://news.ycombinator.com/item?id=49780849\nPoints: 23\n# Comments: 1",
-    "novelty_score": 45,
-    "japan_relevance_score": 35,
-    "reason": "LLM評価の代替案として一定の新規性があるが、ニッチ領域で日本での認知度は限定的と予想。",
-    "discovered_at": "2026-09-21T10:29:00.933511+00:00"
-  },
-  {
-    "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
-    "link": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/\nComments URL: https://news.ycombinator.com/item?id=49787535\nPoints: 75\n# Comments: 19",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "macOS 27のAIモデル自動ダウンロード回避方法は実用的だが、OS機能への対処法であり根本的な新規性は限定的。",
-    "discovered_at": "2026-09-21T16:28:42.158331+00:00"
-  },
-  {
-    "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents",
-    "link": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/\nComments URL: https://news.ycombinator.com/item?id=49787313\nPoints: 96\n# Comments: 64",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "Mac StudioのAI活用レビューは既出だが、M5 Ultraの性能検証と日本のAI活用層への実用的関心は高い。",
-    "discovered_at": "2026-09-21T16:28:43.835267+00:00"
-  },
-  {
-    "title": "Show HN: Lossless-memory – a personal AI memory that never summarizes",
-    "link": "https://github.com/aru-labs/lossless-memory",
-    "source": "Hacker News",
-    "summary": "Article URL: https://github.com/aru-labs/lossless-memory\nComments URL: https://news.ycombinator.com/item?id=49786419\nPoints: 33\n# Comments: 11",
-    "novelty_score": 45,
-    "japan_relevance_score": 50,
-    "reason": "個人向けAIメモリは既存概念だが、ロスレス圧縮アプローチは一定の工夫がある。日本でも関心層は限定的。",
-    "discovered_at": "2026-09-21T16:28:45.618373+00:00"
-  },
-  {
-    "title": "Don't Use AI to Write",
-    "link": "https://paulbakker.io/writing/no-ai-for-writing/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://paulbakker.io/writing/no-ai-for-writing/\nComments URL: https://news.ycombinator.com/item?id=49784816\nPoints: 94\n# Comments: 52",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI執筆への懸念は既出だが、日本でも生成AI利用が急速に広がる中で実践的な議論が求められている。",
-    "discovered_at": "2026-09-21T16:28:47.406191+00:00"
-  },
-  {
     "title": "Jev introduces a new shape of LLM",
     "link": "https://simonwillison.net/2026/Sep/21/jev/",
     "source": "Hacker News",
@@ -1378,5 +1228,55 @@
     "japan_relevance_score": 35,
     "reason": "著名人の法的問題だが個人スキャンダル色が強く、技術産業への影響が限定的。",
     "discovered_at": "2026-10-05T01:29:10.236565+00:00"
+  },
+  {
+    "title": "Altman: The world should accept some bad things happening for the benefits of AI",
+    "link": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217\nComments URL: https://news.ycombinator.com/item?id=49965786\nPoints: 32\n# Comments: 36",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI利益と社会的リスクのトレードオフは既出だが、OpenAI CEOの明確な発言として日本のAI議論でも参照される可能性がある。",
+    "discovered_at": "2026-10-05T16:28:42.374630+00:00"
+  },
+  {
+    "title": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
+    "link": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a\nComments URL: https://news.ycombinator.com/item?id=49964537\nPoints: 48\n# Comments: 70",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AI導入企業の予算計画の難しさは既知だが、具体的な事例と対策提示で日本企業にも実用的な参考価値がある。",
+    "discovered_at": "2026-10-05T16:28:43.967500+00:00"
+  },
+  {
+    "title": "Accept 'bad things' in return for benefits of AI, says Sam Altman",
+    "link": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks\nComments URL: https://news.ycombinator.com/item?id=49964248\nPoints: 46\n# Comments: 105",
+    "novelty_score": 25,
+    "japan_relevance_score": 65,
+    "reason": "AI企業の倫理的トレードオフは既出テーマだが、生成AIの規制議論が進む日本でも関心が高い。",
+    "discovered_at": "2026-10-05T16:28:45.681447+00:00"
+  },
+  {
+    "title": "Anthropic wants your thoughts on AI",
+    "link": "https://www.anthropic.com/research/your-thoughts-on-ai",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.anthropic.com/research/your-thoughts-on-ai\nComments URL: https://news.ycombinator.com/item?id=49963895\nPoints: 25\n# Comments: 60",
+    "novelty_score": 15,
+    "japan_relevance_score": 35,
+    "reason": "Anthropicの意見募集は企業PR的で新規性が低く、技術的なニュース価値も限定的。",
+    "discovered_at": "2026-10-05T16:28:47.196491+00:00"
+  },
+  {
+    "title": "Anthropic reported diary entry to police, woman faces felony charge",
+    "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html\nComments URL: https://news.ycombinator.com/item?id=49961057\nPoints: 94\n# Comments: 74",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AIが利用者の危険な意図を報告する初の事例で、AIプロバイダーの法的責任と倫理が問われる重要なケース。",
+    "discovered_at": "2026-10-05T16:28:48.914476+00:00"
   }
 ]
