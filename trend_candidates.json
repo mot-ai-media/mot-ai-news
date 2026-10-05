@@ -1328,5 +1328,55 @@
     "japan_relevance_score": 62,
     "reason": "AI時代の数学研究の未来は重要テーマだが、Wolframの既知見解の拡張で新規性は限定的。",
     "discovered_at": "2026-10-04T19:43:18.467761+00:00"
+  },
+  {
+    "title": "Homa: The end of TCP for AI clusters [video]",
+    "link": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+    "source": "Hacker News",
+    "summary": "Paper: \nhttps://www.usenix.org/system/files/atc21-ousterhout.pdfRelated: https://lwn.net/Articles/1003059/, https://www.theregister.com/networks/2026/10/01/stanford-pro...\n\nComments URL: https://news.ycombinator.com/item?id=49957117\nPoints: 54\n# Comments: 17",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AI基盤のネットワーク最適化は技術的に新規性が高く、日本のAI産業でも今後重要になる可能性がある。",
+    "discovered_at": "2026-10-05T01:29:03.917221+00:00"
+  },
+  {
+    "title": "How to scale intent, quality, and artistry with AI [video]",
+    "link": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.youtube.com/watch?v=GLvFTMtw4Jk\nComments URL: https://news.ycombinator.com/item?id=49951891\nPoints: 49\n# Comments: 15",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "AIとクリエイティブの組み合わせは既出だが、スケーリングの観点は参考価値がある。",
+    "discovered_at": "2026-10-05T01:29:05.347613+00:00"
+  },
+  {
+    "title": "AI can clone your indie game, but not its soul",
+    "link": "https://twitter.com/robertvaradan/status/2106061989122334778",
+    "source": "Hacker News",
+    "summary": "Article URL: https://twitter.com/robertvaradan/status/2106061989122334778\nComments URL: https://news.ycombinator.com/item?id=49950288\nPoints: 20\n# Comments: 19",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "AIによるゲーム模倣は既知のテーマだが、インディーゲーム開発者への影響は日本でも関心が高まる可能性がある。",
+    "discovered_at": "2026-10-05T01:29:06.960348+00:00"
+  },
+  {
+    "title": "Religious scholars met with Anthropic",
+    "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+    "source": "Hacker News",
+    "summary": "https://archive.is/y8FW0\n\nComments URL: https://news.ycombinator.com/item?id=49950052\nPoints: 156\n# Comments: 402",
+    "novelty_score": 65,
+    "japan_relevance_score": 55,
+    "reason": "AI企業と宗教指導者の対話は新しい試みだが、企業のPR活動として既視感があり、日本での関心度は中程度。",
+    "discovered_at": "2026-10-05T01:29:08.631062+00:00"
+  },
+  {
+    "title": "Sam Altman's sister amends lawsuit accusing OpenAI CEO of sexual abuse",
+    "link": "https://www.reuters.com/legal/government/judge-now-dismisses-lawsuit-by-sam-altmans-sister-accusing-openai-ceo-sexual-2026-03-20/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/legal/government/judge-now-dismisses-lawsuit-by-sam-altmans-sister-accusing-openai-ceo-sexual-2026-03-20/\nComments URL: https://news.ycombinator.com/item?id=49948566\nPoints: 20\n# Comments: 15",
+    "novelty_score": 25,
+    "japan_relevance_score": 35,
+    "reason": "著名人の法的問題だが個人スキャンダル色が強く、技術産業への影響が限定的。",
+    "discovered_at": "2026-10-05T01:29:10.236565+00:00"
   }
 ]
