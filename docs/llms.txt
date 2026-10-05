@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-05 22:02
+最終更新: 2026-10-05 22:28
 
 ## 記事一覧
 
+- [AIへの好感度が急落するなか、利用は急増。海外メディアが報じる矛盾した現象とは](https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-google-research-ed94fd8d.html): MIT Technology Reviewが報じた「AIの人気度パラドックス」は、世界中で人々がAIを嫌いながらも使用を止められない現象を指摘。同時に、AIが生物学・インフラ・製造業などあらゆる産業と融合しつつあり、その影響は想像以上に大きくなろうとしている。 (出典: MIT Technology Review / 更新: 2026-10-05 22:28)
+- [トランプ政権のAI統括責任者が決定、大型タスクフォース立ち上げ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e06269fd.html): 米国トランプ大統領が国家情報長官をAI統括タスクフォースのトップに任命。政府・企業・宗教団体を巻き込んだ「スーパーインテリジェンス・フォース」を立ち上げ、AIの規制ではなく官民一体の推進体制で中国との技術競争に勝つ戦略を明確にした。 (出典: BBC / 更新: 2026-10-05 22:28)
 - [AutoSynthData とは？企業AIの学習データを自動生成する技術](https://mot-ai-media.github.io/mot-ai-news/articles/servicenow-ai-a885ed61.html): ServiceNowが開発した「AutoSynthData」は、AIエージェントの失敗を学習データに変え、企業固有の環境に強いエージェント育成を可能にする。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:02)
 - [音声合成(TTS)モデル評価とは？Hugging Face新ランキング](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html): 音声合成AIの急増で評価が追いつかない。公平な人気投票型ランキングがついに登場。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:02)
 - [AI搭載ロボットの安全性問題とは？Safeworldが取り組む課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/safeworld-ai-8219cfaf.html): 生成AIを使うロボットの予測不可能性に対し、シミュレーション検証で安全性を確保する新企業が登場。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 22:01)
@@ -205,5 +207,3 @@
 - [Fuga v2とは？スウォームAIの仕組みと性能、料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/swarm-ai-fuga-v2-41a29f23.html): 複数のAIを協調させる「Fuga v2」がClaude同等の性能を大幅な低コストで達成。大規模運用にも対応。 (出典: PR TIMES / 更新: 2026-09-27 20:53)
 - [新卒採用でAI活用が急速拡大、履歴書選考から面接まで—対策は？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-814a7a86.html): 企業が採用ツールとしてAIを導入する動きが加速する一方、大学生や新卒者は『AIに選ばれる』という新しいハードルに直面。従来の就活戦略では通用しない時代が到来しようとしている。 (出典: CNBC / 更新: 2026-09-27 19:28)
 - [トランプ政権の「AI長官」構想、Scott Bessent財務長官が就任見送り](https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html): トランプ大統領が新たに「Super Intelligence czar（超知能最高責任者）」というAI関連の高位ポストを設置する方針を明らかにしたが、財務長官に就任したScott Bessent氏がこのポストを辞退したことが報じられた。 (出典: CNBC / 更新: 2026-09-27 19:28)
-- [資料作成AIエージェント10選の比較と使い方。選び方のコツ](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-claude-75989e0b.html): ChatGPTで構成を作っても結局スライドは手作業。AIエージェントなら初稿から編集可能なファイル形式で出力、手直しの時間を大幅削減できる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 18:02)
-- [あいち銀行がバクラク請求書受取と連携、請求書DXで経理業務を効率化](https://mot-ai-media.github.io/mot-ai-news/articles/layerx-ai-ocr-b1bc754c.html): 紙やExcel管理が当たり前の経理業務を、AI-OCRと銀行決済プラットフォームで自動化・統合。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:01)

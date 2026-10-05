@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>トランプ大統領、スパイ機関トップにAI統括を命令。規制ではなく「官民連携」で米国がAI支配権を狙う</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e06269fd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e06269fd.html</guid>
+    <description>米国トランプ大統領が国家情報長官をAI統括タスクフォースのトップに任命。政府・企業・宗教団体を巻き込んだ「スーパーインテリジェンス・フォース」を立ち上げ、AIの規制ではなく官民一体の推進体制で中国との技術競争に勝つ戦略を明確にした。</description>
+    <pubDate>Mon, 05 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>世界中がAIを「嫌いながら使い続ける」矛盾に陥っている。MIT Technology Reviewが指摘する普及のパラドックス</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-google-research-ed94fd8d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-google-research-ed94fd8d.html</guid>
+    <description>MIT Technology Reviewが報じた「AIの人気度パラドックス」は、世界中で人々がAIを嫌いながらも使用を止められない現象を指摘。同時に、AIが生物学・インフラ・製造業などあらゆる産業と融合しつつあり、その影響は想像以上に大きくなろうとしている。</description>
+    <pubDate>Mon, 05 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>8000超のTTSモデル時代、人間評価ベースの統一ランキング誕生</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/blackstone-ai-0e0757d3.html</guid>
     <description>大型投資家が明かす、急速に成長するAIスタートアップが長期的に成功するための条件。</description>
     <pubDate>Sun, 04 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ホワイトハウス、AIを「スーパーインテリジェンス」に改名。大手テック企業が安全宣言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-fcd1b322.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-fcd1b322.html</guid>
-    <description>ホワイトハウスがAIを「スーパーインテリジェンス」と改名。大手テック企業CEOが安全宣言に署名した。</description>
-    <pubDate>Sun, 04 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>消費者はAIに興味なし。2%しか買わない現実</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-5c5d251d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-5c5d251d.html</guid>
-    <description>トランプ大統領がAIを「スーパーインテリジェンス」と改名し安全性誓約を推進するも、実際の消費者需要は極めて低迷している。</description>
-    <pubDate>Sun, 04 Oct 2026 22:00:00 +0900</pubDate>
   </item>
 </channel></rss>

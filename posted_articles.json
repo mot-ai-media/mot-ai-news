@@ -1,13 +1,5 @@
 [
   {
-    "link": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-    "notified_at": "2026-09-05T13:28:12.348052+00:00"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/03/5-things-to-know-before-the-stock-market-opens.html",
-    "notified_at": "2026-09-05T13:28:30.809833+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEUFc3aHVxN2k2WnNSNnpkb3hUU09TT0RkWmlpWUt2S3hFWHE4ZmJyX2NHLUZJRFlpZ1g4a0tZRW9SYmdHblhyRHFrcjdsUkI3M2xXb184SmFydVJlLWhibWRidUI1bzVaVVFka0dJV0I3dw?oc=5",
     "notified_at": "2026-09-05T13:53:13.281899+00:00"
   },
@@ -4382,5 +4374,17 @@
   {
     "link": "https://huggingface.co/blog/open-tts-leaderboard",
     "notified_at": "2026-10-05T13:02:30.343636+00:00"
+  },
+  {
+    "link": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+    "notified_at": "2026-10-05T13:28:16.746494+00:00"
+  },
+  {
+    "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+    "notified_at": "2026-10-05T13:28:16.765836+00:00"
+  },
+  {
+    "link": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+    "notified_at": "2026-10-05T13:28:40.531529+00:00"
   }
 ]

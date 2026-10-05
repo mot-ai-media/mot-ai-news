@@ -1,110 +1,6 @@
 [
   {
     "tokens": [
-      "agent",
-      "behavior",
-      "emerge",
-      "expands",
-      "incidents",
-      "model",
-      "more",
-      "openai",
-      "review",
-      "rogue"
-    ],
-    "ts": "2026-09-27T13:30:39"
-  },
-  {
-    "tokens": [
-      "backlash",
-      "blue-collar",
-      "booming.",
-      "bust",
-      "center",
-      "data",
-      "job",
-      "make",
-      "market"
-    ],
-    "ts": "2026-09-27T13:31:13"
-  },
-  {
-    "tokens": [
-      "boom.",
-      "center",
-      "china",
-      "data",
-      "here's",
-      "u.s.",
-      "wants"
-    ],
-    "ts": "2026-09-27T16:27:59"
-  },
-  {
-    "tokens": [
-      "chinese",
-      "global",
-      "models",
-      "popularity",
-      "surge",
-      "washington",
-      "worried"
-    ],
-    "ts": "2026-09-27T16:28:19"
-  },
-  {
-    "tokens": [
-      "college",
-      "grads",
-      "job",
-      "market",
-      "recent",
-      "should",
-      "students",
-      "thinking"
-    ],
-    "ts": "2026-09-27T19:28:04"
-  },
-  {
-    "tokens": [
-      "bessent",
-      "czar",
-      "scott",
-      "trump",
-      "won't"
-    ],
-    "ts": "2026-09-27T19:28:18"
-  },
-  {
-    "tokens": [
-      "bond",
-      "companies",
-      "debt-hungry",
-      "face",
-      "increased",
-      "risk",
-      "spike",
-      "yields"
-    ],
-    "ts": "2026-09-27T22:27:55"
-  },
-  {
-    "tokens": [
-      "ai's",
-      "biggest",
-      "dined",
-      "far",
-      "here's",
-      "know",
-      "names.",
-      "talks",
-      "tech",
-      "trump"
-    ],
-    "ts": "2026-09-27T22:28:10"
-  },
-  {
-    "tokens": [
       "amodei",
       "anthropic",
       "ceo",
@@ -894,5 +790,28 @@
       "watch"
     ],
     "ts": "2026-10-05T10:28:09"
+  },
+  {
+    "tokens": [
+      "2026",
+      "download",
+      "emtech",
+      "future",
+      "paradox",
+      "popularity"
+    ],
+    "ts": "2026-10-05T22:28:16"
+  },
+  {
+    "tokens": [
+      "boss",
+      "chooses",
+      "run",
+      "spy",
+      "taskforce",
+      "top",
+      "trump"
+    ],
+    "ts": "2026-10-05T22:28:40"
   }
 ]
