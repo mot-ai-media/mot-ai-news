@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>エンジニアの8割「AIが人間より優れた判断をする」、でも業務は任せられない理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-87e3896e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-87e3896e.html</guid>
+    <description>ITエンジニアを対象にした調査で、AIの判断能力は認めつつも、すべての業務でAI主体より人間主体を信頼する矛盾した実態が浮き彫りに。</description>
+    <pubDate>Mon, 05 Oct 2026 14:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、Codex毎日改善宣言　28日間できない日はフルリセット</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-922e4b97.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-922e4b97.html</guid>
+    <description>OpenAI がCodexを28日間毎日改善するか、できない日は枠をフルリセットすると宣言。ユーザーに直結した改善を約束。</description>
+    <pubDate>Mon, 05 Oct 2026 14:52:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、設計業務の一部を自動化へ　人間に残る仕事とは</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/cae-ai-726cbb86.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cae-ai-726cbb86.html</guid>
+    <description>設計業務の一部をAIに任せる時代へ。エンジニアが担うべき新しい役割が見えてきた。</description>
+    <pubDate>Mon, 05 Oct 2026 14:52:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI関連支出、AIサービスが圧倒的勝者に。ソフトウェアの2.5倍超の投資</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a01b81a0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a01b81a0.html</guid>
+    <description>生成AIは話題だがAI関連投資の最大分野は別物。ガートナーが2026年の支出予測を公開</description>
+    <pubDate>Mon, 05 Oct 2026 14:52:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>マスク氏、「AI」を「SI」に改名。トランプ大統領の新方針に追随</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-d6004f49.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-d6004f49.html</guid>
+    <description>イーロン・マスク率いるSpaceXのAI部門が、トランプ大統領の指示に従い「SI（Super Intelligence）」への改名を発表。政治とAI産業の結びつきが顕在化。</description>
+    <pubDate>Mon, 05 Oct 2026 14:51:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropicの「AI科学者」が起こした論争―バイオロジストが異議を唱える理由</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a2652326.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a2652326.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html</guid>
     <description>Metaが新型AIエージェント「Muse」のコードを公開し、ユーザーが独自のハードウェアにインストール可能にした。電子ペーパーディスプレイやRaspberry Piなど、様々なデバイスでAIアシスタントを実行できるようになる。</description>
     <pubDate>Sun, 04 Oct 2026 01:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの安全性責任者が退職し告発。AIの危険性チェック体制に「赤信号」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-91c2390c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-91c2390c.html</guid>
-    <description>OpenAIで主要モデル公開時の安全性報告書を担当していたデイビッド・ロビンソン氏が退職し、同社の企業文化が「壊れている」と指摘する記事をメディアに発表。AI企業の内部統制に関わる重要な証言として海外メディアが報道している。</description>
-    <pubDate>Sun, 04 Oct 2026 01:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>217年前の暗号、AIが6時間で解読。歴史の謎もAIで解ける時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-89ce94ef.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-89ce94ef.html</guid>
-    <description>AIモデルが200年以上前の難解な暗号を数時間で破った。AIの解析能力が歴史学の領域にも及び始めている。</description>
-    <pubDate>Sun, 04 Oct 2026 00:58:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>リストラされた人、TechCrunch Disruptで75ドルパスで一発逆転のチャンス</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c73e8583.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c73e8583.html</guid>
-    <description>解雇者向けに割引パスを提供し、テック業界のネットワーキング機会を開放。</description>
-    <pubDate>Sun, 04 Oct 2026 00:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Napster創業者パーカー、Stability AIを音楽AIで再興。大手レーベルが資金と楽曲許可</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/stability-ai-sean-parker-3cc6542c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/stability-ai-sean-parker-3cc6542c.html</guid>
-    <description>かつての音楽業界の敵は今や味方に。Napster創業者が率いるStability AIが、Sony・Warner・Universalから資金と楽曲ライセンスを獲得、AI音楽生成ツールの開発を本格化させた。</description>
-    <pubDate>Sun, 04 Oct 2026 00:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、AIエージェント「Muse」をあらゆるデバイスに対応させるコードを無償公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-83485a4e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-83485a4e.html</guid>
-    <description>Metaが個人用AIエージェント「Muse」を自作デバイスに組み込める仕組みを開放。開発者は自由に家電やガジェットと連携させられるように。</description>
-    <pubDate>Sun, 04 Oct 2026 00:43:00 +0900</pubDate>
   </item>
 </channel></rss>
