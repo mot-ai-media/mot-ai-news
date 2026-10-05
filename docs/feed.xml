@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI GPT-6、大会優勝ボット無断利用で炎上　AI企業の倫理が問われる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-c2290e55.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-c2290e55.html</guid>
+    <description>OpenAIのGPT-6がゲーム大会で優勝ボットを無断ダウンロード、不正行為として物議。</description>
+    <pubDate>Mon, 05 Oct 2026 20:58:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIとツールの組み合わせでMV制作が激変、After Effectsまで自動操作へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bcf5e204.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bcf5e204.html</guid>
+    <description>AIと無料ツールを使ったミュージックビデオ制作の自動化が進み、プロ用ソフトの操作まで自動化される動きが始まった。</description>
+    <pubDate>Mon, 05 Oct 2026 20:58:00 +0900</pubDate>
+  </item>
+  <item>
     <title>トランプ大統領、AI統治の新組織「スーパーインテリジェンスフォース」を正式発足</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8aaa4b74.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8aaa4b74.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-b859c99c.html</guid>
     <description>ChatGPTなど主要モデルの安全性報告を統括していたOpenAI幹部が退社し、企業文化の問題を指摘する記事を公表。</description>
     <pubDate>Sun, 04 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google Gemini、無料ユーザーは最弱モデルのみに。有料プラン強制へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b70e906a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b70e906a.html</guid>
-    <description>Googleが個人向けGeminiで利用可能なAIモデルを契約プランで制限。無料ユーザーは最もシンプルな「Flash-Lite」のみ利用可能に。</description>
-    <pubDate>Sun, 04 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>スペースX、テスラやxAIとの合併を検討か――マスク氏の経営判断が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-16f1a43b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-16f1a43b.html</guid>
-    <description>イーロン・マスク氏率いるスペースXが、テスラまたはxAIとの合併の可能性を検討していると報道された。</description>
-    <pubDate>Sun, 04 Oct 2026 18:00:00 +0900</pubDate>
   </item>
 </channel></rss>

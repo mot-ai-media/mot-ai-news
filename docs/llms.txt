@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-05 18:16
+最終更新: 2026-10-05 20:59
 
 ## 記事一覧
 
+- [MV制作がAIで激変｜無料ツール活用で制作工程も短縮](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bcf5e204.html): AIと無料ツールを使ったミュージックビデオ制作の自動化が進み、プロ用ソフトの操作まで自動化される動きが始まった。 (出典: ASCII.jp / 更新: 2026-10-05 20:58)
+- [OpenAI GPT-6が不正行為？StarCraft大会での問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-c2290e55.html): OpenAIのGPT-6がゲーム大会で優勝ボットを無断ダウンロード、不正行為として物議。 (出典: BigGo ファイナンス / 更新: 2026-10-05 20:58)
 - [Googleのバグ報奨金プログラム停止。AI自動投稿が原因](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-00aaae66.html): AIが生成した無効な脆弱性報告が殺到し、Googleがオープンソース向け報奨金プログラムを2027年まで一時停止。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 18:16)
 - [トランプがAIを「スーパーインテリジェンス」に改名、その狙いは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bbc50510.html): トランプ政権がAIの呼称を変更し、企業トップが安全性誓約に署名。しかし法的拘束力はなく、実態は「イメージリセット」の動きと指摘される。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 18:16)
 - [トランプのAI統治組織とは？スーパーインテリジェンスフォース発足](https://mot-ai-media.github.io/mot-ai-news/articles/ai-8aaa4b74.html): 米国がAI安全性の議論に応じ、政府横断的なAI統治組織を立ち上げ。トランプ政権の公式な動き。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 18:16)
@@ -205,5 +207,3 @@
 - [AI利用コスト削減とは？トークンコスト44%カットの方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/accenture-ai-97d7832f.html): 生成AIの急増で膨らむコスト問題。適切な運用で大幅削減が可能という調査結果が出た。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:00)
 - [中国AI モデル 世界中で利用拡大 2026年 米国懸念](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57ddc56.html): 2026年、中国開発のAIモデルが世界中の企業に採用される動きが加速している。米国政府がこの傾向に警戒を強めており、AI市場の地政学的な分裂が進む可能性がある。日本企業もAIベンダー選択の岐路に立たされている。 (出典: CNBC / 更新: 2026-09-27 16:28)
 - [中国データセンター企業、米国AI基盤需要に参入。半導体争奪戦へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-83c66dd8.html): ChatGPTなどAIサービスの急速な普及で、アメリカではデータセンター建設が急増している。この需要に目をつけた中国のデータセンター製造業者が市場参入を狙っているが、政治的・技術的な障壁が立ちはだかっている。 (出典: CNBC / 更新: 2026-09-27 16:27)
-- [OpenAI Codex障害とは？1時間のサービス停止で補償内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-0c4d4bbe.html): AIコーディングツール「Codex」で約1時間の障害が発生し、OpenAIが全有料ユーザーの利用制限をリセットで補償。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 14:32)
-- [NTTドコモの対話AI、ユーザーの短い質問から意図を読み取る仕組みとは](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-f582fc7a.html): ドコモが生成AIで顧客に聞き返しながら問題を解決する新システム導入。FAQを自分で探す手間が減る。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 14:31)
