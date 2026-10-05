@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-    "notified_at": "2026-09-05T13:00:51.311376+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
-    "notified_at": "2026-09-05T13:01:07.358117+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-    "notified_at": "2026-09-05T13:01:25.102521+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-    "notified_at": "2026-09-05T13:01:59.459793+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
-    "notified_at": "2026-09-05T13:02:16.753064+00:00"
-  },
-  {
     "link": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
     "notified_at": "2026-09-05T13:28:12.348052+00:00"
   },
@@ -4382,5 +4362,25 @@
   {
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOZ2NEQ2hzTkIwRDdGcHJRdXpOR3VNa0JYZXd6LUdsREFNOHd1RDJjTlZEalVOVXkxR0tTU0xqdi1JX0hjelVKdDhNajh4XzRqcWZwOVotQzdDc2p5dmRHc1FmMFQwNmlnVWtNYUxUeXU5TGhY?oc=5",
     "notified_at": "2026-10-05T11:58:33.492176+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+    "notified_at": "2026-10-05T13:01:07.604855+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "notified_at": "2026-10-05T13:01:31.644913+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/allenai/astabrief",
+    "notified_at": "2026-10-05T13:01:51.298135+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+    "notified_at": "2026-10-05T13:02:11.917244+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/open-tts-leaderboard",
+    "notified_at": "2026-10-05T13:02:30.343636+00:00"
   }
 ]

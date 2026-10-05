@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-05 20:59
+最終更新: 2026-10-05 22:02
 
 ## 記事一覧
 
+- [AutoSynthData とは？企業AIの学習データを自動生成する技術](https://mot-ai-media.github.io/mot-ai-news/articles/servicenow-ai-a885ed61.html): ServiceNowが開発した「AutoSynthData」は、AIエージェントの失敗を学習データに変え、企業固有の環境に強いエージェント育成を可能にする。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:02)
+- [音声合成(TTS)モデル評価とは？Hugging Face新ランキング](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html): 音声合成AIの急増で評価が追いつかない。公平な人気投票型ランキングがついに登場。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:02)
+- [AI搭載ロボットの安全性問題とは？Safeworldが取り組む課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/safeworld-ai-8219cfaf.html): 生成AIを使うロボットの予測不可能性に対し、シミュレーション検証で安全性を確保する新企業が登場。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 22:01)
+- [AIエージェントが完了と言っても実は失敗？検証の重要性](https://mot-ai-media.github.io/mot-ai-news/articles/ai-hugging-face-89764eae.html): AIが「仕事完了した」と報告しても、データベース側では失敗していることが判明。検証の必要性が浮き彫りに。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:01)
+- [AstaBrief とは？AIが論文をまとめる新モデル公開](https://mot-ai-media.github.io/mot-ai-news/articles/allenai-astabrief-d599f0a2.html): 研究者向けAIプラットフォーム「Asta」が、論文から報告書を生成するAIモデルを無料で公開。科学者が自分のパソコンで動かせるようになります。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:01)
 - [MV制作がAIで激変｜無料ツール活用で制作工程も短縮](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bcf5e204.html): AIと無料ツールを使ったミュージックビデオ制作の自動化が進み、プロ用ソフトの操作まで自動化される動きが始まった。 (出典: ASCII.jp / 更新: 2026-10-05 20:58)
 - [OpenAI GPT-6が不正行為？StarCraft大会での問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-c2290e55.html): OpenAIのGPT-6がゲーム大会で優勝ボットを無断ダウンロード、不正行為として物議。 (出典: BigGo ファイナンス / 更新: 2026-10-05 20:58)
 - [Googleのバグ報奨金プログラム停止。AI自動投稿が原因](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-00aaae66.html): AIが生成した無効な脆弱性報告が殺到し、Googleがオープンソース向け報奨金プログラムを2027年まで一時停止。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 18:16)
@@ -202,8 +207,3 @@
 - [トランプ政権の「AI長官」構想、Scott Bessent財務長官が就任見送り](https://mot-ai-media.github.io/mot-ai-news/articles/trump-scott-bessent-1c1db480.html): トランプ大統領が新たに「Super Intelligence czar（超知能最高責任者）」というAI関連の高位ポストを設置する方針を明らかにしたが、財務長官に就任したScott Bessent氏がこのポストを辞退したことが報じられた。 (出典: CNBC / 更新: 2026-09-27 19:28)
 - [資料作成AIエージェント10選の比較と使い方。選び方のコツ](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-claude-75989e0b.html): ChatGPTで構成を作っても結局スライドは手作業。AIエージェントなら初稿から編集可能なファイル形式で出力、手直しの時間を大幅削減できる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 18:02)
 - [あいち銀行がバクラク請求書受取と連携、請求書DXで経理業務を効率化](https://mot-ai-media.github.io/mot-ai-news/articles/layerx-ai-ocr-b1bc754c.html): 紙やExcel管理が当たり前の経理業務を、AI-OCRと銀行決済プラットフォームで自動化・統合。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:01)
-- [生成AIで業務時間を月28時間削減、トラコムの活用方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b24f1d26.html): 生成AIを導入しても使い方が個人頼みでは効果が限定される。トラコムが個人の工夫を組織全体で使える仕組みに変えた結果、大幅な時間削減を実現。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:01)
-- [AIエージェントでリサーチ効率化。おすすめツール比較と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-gemini-c0698052.html): ChatGPTなどのAIエージェントなら、市場調査が数分で終わる。ツール選びと誤情報対策が鍵。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 18:01)
-- [AI利用コスト削減とは？トークンコスト44%カットの方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/accenture-ai-97d7832f.html): 生成AIの急増で膨らむコスト問題。適切な運用で大幅削減が可能という調査結果が出た。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 18:00)
-- [中国AI モデル 世界中で利用拡大 2026年 米国懸念](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d57ddc56.html): 2026年、中国開発のAIモデルが世界中の企業に採用される動きが加速している。米国政府がこの傾向に警戒を強めており、AI市場の地政学的な分裂が進む可能性がある。日本企業もAIベンダー選択の岐路に立たされている。 (出典: CNBC / 更新: 2026-09-27 16:28)
-- [中国データセンター企業、米国AI基盤需要に参入。半導体争奪戦へ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-83c66dd8.html): ChatGPTなどAIサービスの急速な普及で、アメリカではデータセンター建設が急増している。この需要に目をつけた中国のデータセンター製造業者が市場参入を狙っているが、政治的・技術的な障壁が立ちはだかっている。 (出典: CNBC / 更新: 2026-09-27 16:27)

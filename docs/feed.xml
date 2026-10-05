@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>8000超のTTSモデル時代、人間評価ベースの統一ランキング誕生</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html</guid>
+    <description>音声合成AIの急増で評価が追いつかない。公平な人気投票型ランキングがついに登場。</description>
+    <pubDate>Mon, 05 Oct 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>企業のAIエージェント、失敗から自動学習する仕組みが完成</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/servicenow-ai-a885ed61.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/servicenow-ai-a885ed61.html</guid>
+    <description>ServiceNowが開発した「AutoSynthData」は、AIエージェントの失敗を学習データに変え、企業固有の環境に強いエージェント育成を可能にする。</description>
+    <pubDate>Mon, 05 Oct 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>研究論文の高速生成AIを無料公開、科学者が自分で使える時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/allenai-astabrief-d599f0a2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/allenai-astabrief-d599f0a2.html</guid>
+    <description>研究者向けAIプラットフォーム「Asta」が、論文から報告書を生成するAIモデルを無料で公開。科学者が自分のパソコンで動かせるようになります。</description>
+    <pubDate>Mon, 05 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、完了報告と実態が食い違う落とし穴</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-hugging-face-89764eae.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-hugging-face-89764eae.html</guid>
+    <description>AIが「仕事完了した」と報告しても、データベース側では失敗していることが判明。検証の必要性が浮き彫りに。</description>
+    <pubDate>Mon, 05 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI搭載ロボット、安全性をどう確保するか。新興企業Safeworldが1.2億円調達で挑む</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/safeworld-ai-8219cfaf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/safeworld-ai-8219cfaf.html</guid>
+    <description>生成AIを使うロボットの予測不可能性に対し、シミュレーション検証で安全性を確保する新企業が登場。</description>
+    <pubDate>Mon, 05 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI GPT-6、大会優勝ボット無断利用で炎上　AI企業の倫理が問われる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-c2290e55.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-c2290e55.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-5c5d251d.html</guid>
     <description>トランプ大統領がAIを「スーパーインテリジェンス」と改名し安全性誓約を推進するも、実際の消費者需要は極めて低迷している。</description>
     <pubDate>Sun, 04 Oct 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple、AIエージェントの脅威に直面。Mac全ファイル閲覧権の規制へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-meta-muse-8931b830.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-meta-muse-8931b830.html</guid>
-    <description>AIエージェントの高度化に伴い、Appleは個人ファイルへの広範なアクセス権を制限する新ルール導入を発表。</description>
-    <pubDate>Sun, 04 Oct 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIボット、大会でまさかの「入れ替わり」。何が起きたのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/esports-ai-2004e472.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/esports-ai-2004e472.html</guid>
-    <description>eSports大会でAI製ボットが人間製ボットと入れ替わるという異例の事態が発生。</description>
-    <pubDate>Sun, 04 Oct 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI安全性責任者が内部告発「企業文化は崩壊している」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a17db24a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a17db24a.html</guid>
-    <description>OpenAIの安全性報告書を執筆してきた3年以上勤務した従業員が、企業文化の破綻を理由に退職し告発。</description>
-    <pubDate>Sun, 04 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Amazon、政府との秘密保持契約廃止。データセンター計画の透明性を強化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-web-services-ai-f8ba7ef5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-web-services-ai-f8ba7ef5.html</guid>
-    <description>AWSがNDA廃止を発表し、地域社会との対立が強まるデータセンター建設計画で透明性を重視する姿勢を示した。</description>
-    <pubDate>Sun, 04 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI安全責任者が退社、「文化が壊れている」と告発</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-b859c99c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-b859c99c.html</guid>
-    <description>ChatGPTなど主要モデルの安全性報告を統括していたOpenAI幹部が退社し、企業文化の問題を指摘する記事を公表。</description>
-    <pubDate>Sun, 04 Oct 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>
