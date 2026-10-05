@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropicの「AI科学者」が起こした論争―バイオロジストが異議を唱える理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a2652326.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a2652326.html</guid>
+    <description>AI企業Anthropicが新設した分子生物学ラボで、AI が未知のタンパク質パターンを発見したと発表。しかし実際の生物学者から「それは本当に発見か」という疑問が噴出。AI企業と科学コミュニティの間にある「成果の定義」のズレが浮き彫りになった。</description>
+    <pubDate>Mon, 05 Oct 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>脳スキャンからあなたの思考を「読み取る」AI、イスラエルの研究所が開発</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/fmri-ai-8e23ff79.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/fmri-ai-8e23ff79.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-83485a4e.html</guid>
     <description>Metaが個人用AIエージェント「Muse」を自作デバイスに組み込める仕組みを開放。開発者は自由に家電やガジェットと連携させられるように。</description>
     <pubDate>Sun, 04 Oct 2026 00:43:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>テキストメッセージで動く AI エージェント、アプリ不要で日常業務を自動化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-41a7e440.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-41a7e440.html</guid>
-    <description>スマホのメッセージアプリにテキストするだけで、予定管理や調べ物などが完結するAIエージェントが続々登場。</description>
-    <pubDate>Sun, 04 Oct 2026 00:42:00 +0900</pubDate>
   </item>
 </channel></rss>
