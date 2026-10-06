@@ -4,17 +4,38 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>AI腕時計が投資家の注目集める、ウェアラブル市場が転換点へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2bc48712.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2bc48712.html</guid>
-    <description>海外の投資家向けニュースでAIウェアラブルが重要トピックとして報道される。スマートウォッチやリストバンド型デバイスにAI機能が統合される動きが加速しており、市場の転換期を迎えている。</description>
+    <title>InstinctのAIエージェント、友人のアカウント無しでグループチャット利用可能に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/instinct-ai-ddc310eb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/instinct-ai-ddc310eb.html</guid>
+    <description>AIエージェントがグループチャットで使え、アカウント無しの友人も参加可能に。旅行計画や予定調整が楽になる。</description>
+    <pubDate>Tue, 06 Oct 2026 14:56:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>中国AIに対抗、Reflection「Beam」登場—コスト3分の1で同等性能を実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html</guid>
+    <description>米スタートアップReflectionが、中国のAIモデルに対抗できる新型AI「Beam」を発表。少ない計算量で高性能を実現。</description>
+    <pubDate>Tue, 06 Oct 2026 14:56:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが欧州でChatGPTに「見えない透かし」埋め込み開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-549ccc4a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-549ccc4a.html</guid>
+    <description>欧州のAI規制対応で、OpenAIがChatGPTに目に見えない透かしを追加。AI生成テキストを自動判定できる仕組み。</description>
+    <pubDate>Tue, 06 Oct 2026 14:56:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>焼肉きんぐ1000万件流出、AIじゃなく「情報の狙われ方」が変わった</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a91244f6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a91244f6.html</guid>
+    <description>9月末から相次ぐ個人情報流出は単一の攻撃ではなく、攻撃者の戦略そのものが変化している。</description>
     <pubDate>Tue, 06 Oct 2026 14:55:00 +0900</pubDate>
   </item>
   <item>
-    <title>Nvidia200億ドル買収案に訴訟、スタートアップ株主が「買い叩かれた」と提訴</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-groq-58e01520.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-groq-58e01520.html</guid>
-    <description>NvidiaがAIスタートアップGroqの買収を進める中、既存株主が不公正な条件での取引だとして提訴。スタートアップの所有権をめぐる紛争が浮上し、AI企業統合の透明性が問われている。</description>
+    <title>合成紙ユポが半世紀の「クレーム対応」をAIで継承。課題解決が新ビジネスに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-d0722cc0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-d0722cc0.html</guid>
+    <description>製造業の現場知をAIで継承し、クレームを商機に変える組織改革が進行中。</description>
     <pubDate>Tue, 06 Oct 2026 14:55:00 +0900</pubDate>
   </item>
   <item>
@@ -191,26 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-87e3896e.html</guid>
     <description>ITエンジニアを対象にした調査で、AIの判断能力は認めつつも、すべての業務でAI主体より人間主体を信頼する矛盾した実態が浮き彫りに。</description>
     <pubDate>Mon, 05 Oct 2026 14:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、Codex毎日改善宣言　28日間できない日はフルリセット</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-922e4b97.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-922e4b97.html</guid>
-    <description>OpenAI がCodexを28日間毎日改善するか、できない日は枠をフルリセットすると宣言。ユーザーに直結した改善を約束。</description>
-    <pubDate>Mon, 05 Oct 2026 14:52:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、設計業務の一部を自動化へ　人間に残る仕事とは</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/cae-ai-726cbb86.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cae-ai-726cbb86.html</guid>
-    <description>設計業務の一部をAIに任せる時代へ。エンジニアが担うべき新しい役割が見えてきた。</description>
-    <pubDate>Mon, 05 Oct 2026 14:52:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI関連支出、AIサービスが圧倒的勝者に。ソフトウェアの2.5倍超の投資</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a01b81a0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a01b81a0.html</guid>
-    <description>生成AIは話題だがAI関連投資の最大分野は別物。ガートナーが2026年の支出予測を公開</description>
-    <pubDate>Mon, 05 Oct 2026 14:52:00 +0900</pubDate>
   </item>
 </channel></rss>

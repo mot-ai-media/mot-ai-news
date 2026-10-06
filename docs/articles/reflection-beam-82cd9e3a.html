@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reflectionの新AI「Beam」とは？中国モデル対抗で何が変わる | AI特化メディアMOT</title>
+<meta name="description" content="米スタートアップReflectionが、中国のAIモデルに対抗できる新型AI「Beam」を発表。少ない計算量で高性能を実現。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="中国AIに対抗、Reflection「Beam」登場—コスト3分の1で同等性能を実現">
+<meta property="og:description" content="米スタートアップReflectionが、中国のAIモデルに対抗できる新型AI「Beam」を発表。少ない計算量で高性能を実現。">
+<meta property="og:image" content="https://techcrunch.com/wp-content/uploads/2026/10/Reflection-AI-Beam.png?resize=1200,669">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html">
+<meta property="article:published_time" content="2026-10-06T14:56:00+09:00">
+<meta property="article:modified_time" content="2026-10-06T14:56:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "中国AIに対抗、Reflection「Beam」登場—コスト3分の1で同等性能を実現", "description": "米スタートアップReflectionが、中国のAIモデルに対抗できる新型AI「Beam」を発表。少ない計算量で高性能を実現。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-06T14:56:00+09:00", "dateModified": "2026-10-06T14:56:00+09:00", "image": ["https://techcrunch.com/wp-content/uploads/2026/10/Reflection-AI-Beam.png?resize=1200,669"], "citation": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Beamの大きな特徴は何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "中国の先端AIモデルと同等の性能を持ちながら、推論時の計算コストを3～4分の1に削減したことが最大の特徴です。"}}, {"@type": "Question", "name": "Beamはどのような用途を想定していますか？", "acceptedAnswer": {"@type": "Answer", "text": "企業や公共機関が自社のデータでカスタマイズしたAIシステム（AI factories）を構築するための基盤モデルとして位置付けられています。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "AI競争", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/788db92c87.html"}, {"@type": "ListItem", "position": 3, "name": "中国AIに対抗、Reflection「Beam」登場—コスト3分の1で同等性能を実現", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2026/10/Reflection-AI-Beam.png?resize=1200,669" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">中国AIに対抗、Reflection「Beam」登場—コスト3分の1で同等性能を実現</span></div></div>
+  <h1 class="headline">中国AIに対抗、Reflection「Beam」登場—コスト3分の1で同等性能を実現</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>AI News &amp; Artificial Intelligence | TechCrunch</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-06 14:56</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Brooklyn発のスタートアップReflectionが、推論コストを3～4分の1に抑えながら中国の先端AIに匹敵する性能を持つ「Beam」を発表した。</p><h3>何が起きたか</h3><p>Reflectionが新しいAIモデル「Beam」を公開しました。このモデルは501億個のパラメータを持ち、推論時の計算コストが中国のAIモデル（DeepSeekやQwenなど）と比べて3～4倍低いながら、同等の性能を備えているとされています。推論時の計算量が少ないということは、サーバー運用コストが大幅に削減できる可能性を意味します。</p><h3>なぜ重要か</h3><p>現在、AIの競争は米国と中国を中心に繰り広げられています。これまで中国のAIモデルが低コストで高性能を実現する傾向が強かったため、Western企業による対抗手段が求められていました。Beamはこの構図を変える可能性があり、AIの産業化・実用化におけるコスト競争力が大きく変わるターニングポイントになるかもしれません。</p><h3>あなたへの影響</h3><p>企業のAI導入コストが下がる可能性が高まります。また、政府や各機関が自分たちのデータでカスタマイズしたAIを安く運用できるようになれば、社会全体でAI活用が加速する可能性があります。一般ユーザーにとっても、より多くの企業がAIを導入しやすくなることで、サービスや製品の質向上につながる間接的な恩恵があるかもしれません。</p><h3>MOT読者が知っておくべき理由</h3><p>AI業界の競争構図が大きく変わろうとしており、今後のAI開発の方向性を知るために重要なニュースです。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>Beamの性能がまだ独立した第三者によって検証されていないため、Reflectionの発表通りの性能が実現されるかは不確定です。また、実際に企業や機関に採用されるかどうかは別問題となります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>推論コストが低いAIが普及すれば、より多くの企業や組織がAI導入に踏み切りやすくなり、AIの応用分野が急速に拡大する可能性があります。また、自社データでカスタマイズできる仕組みも用意されているため、独自のAIシステム構築機会も増えるでしょう。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>米国がAIの性能競争で中国に後塵を拝していた構図から、コスト効率による新たな競争軸へシフトしようとしている動きが見えます。これは単なる企業間競争ではなく、Western企業がAI産業化において生き残るための戦略転換を示唆しており、今後のAI市場の民主化に大きく影響する可能性があります。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>Beamが実際に企業や公共機関で導入され、独立した性能評価がなされるかどうか。また、OpenAIやAnthropicなどの大手企業がどのような対抗策を打ち出すかが注視点となります。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/788db92c87.html">#AI競争</a></div>
+  <script>window.motPageTags=["Reflection", "Beam", "DeepSeek", "AI競争"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">睡眠の質を、指先のリングで可視化</h3><p class="sponsor-desc">スマートリング「RingConn」。装着するだけで睡眠データを記録・分析できる。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" rel="sponsored nofollow" target="_blank"><img border="0" width="300" height="250" alt="RingConn" loading="lazy" src="https://www20.a8.net/svt/bgt?aid=260905484110&wid=001&eno=01&mid=s00000026776002004000&mc=1"></a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">RingConn</p></div></article></div>
+  <blockquote class="fact-check" cite="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/" target="_blank" rel="noopener noreferrer">元記事（<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Beamの大きな特徴は何ですか？</p>
+    <p class="faq-a">中国の先端AIモデルと同等の性能を持ちながら、推論時の計算コストを3～4分の1に削減したことが最大の特徴です。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. Beamはどのような用途を想定していますか？</p>
+    <p class="faq-a">企業や公共機関が自社のデータでカスタマイズしたAIシステム（AI factories）を構築するための基盤モデルとして位置付けられています。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=%E4%B8%AD%E5%9B%BDAI%E3%81%AB%E5%AF%BE%E6%8A%97%E3%80%81Reflection%E3%80%8CBeam%E3%80%8D%E7%99%BB%E5%A0%B4%E2%80%94%E3%82%B3%E3%82%B9%E3%83%883%E5%88%86%E3%81%AE1%E3%81%A7%E5%90%8C%E7%AD%89%E6%80%A7%E8%83%BD%E3%82%92%E5%AE%9F%E7%8F%BE&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html&text=%E4%B8%AD%E5%9B%BDAI%E3%81%AB%E5%AF%BE%E6%8A%97%E3%80%81Reflection%E3%80%8CBeam%E3%80%8D%E7%99%BB%E5%A0%B4%E2%80%94%E3%82%B3%E3%82%B9%E3%83%883%E5%88%86%E3%81%AE1%E3%81%A7%E5%90%8C%E7%AD%89%E6%80%A7%E8%83%BD%E3%82%92%E5%AE%9F%E7%8F%BE" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/reflection-beam-82cd9e3a.html" data-share-title="中国AIに対抗、Reflection「Beam」登場—コスト3分の1で同等性能を実現">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="reflection-beam-82cd9e3a">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="anthropic-claude-8fee313a.html">
+    <img src="https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024" alt="" loading="lazy">
+    <span class="next-up-headline">Anthropic、新型AI「Opus 5.5」を発表。性能向上で価格は2割安に</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="openai-jev-b311cc82.html">ChatGPT開発者が新AI「Jev」で革命、テキスト不要の高速・低コスト化実現</a></li>
+  <li><a href="anthropic-fable-d6a02419.html">Anthropic、Fable 5.1で大転換。コスト削減と規制緩和で実用性向上</a></li>
+  <li><a href="openai-chatgpt-549ccc4a.html">OpenAIが欧州でChatGPTに「見えない透かし」埋め込み開始</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
