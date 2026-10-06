@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Disrupt 2026、AI・ロボティクス・宇宙産業の最前線が3日間集結</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c8535769.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c8535769.html</guid>
+    <description>テックの最先端を動かす起業家・CEOが一堂に集まり、AI、ロボティクス、運輸などの未来を語る世界最大級イベント開催。</description>
+    <pubDate>Tue, 06 Oct 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>スタートアップピッチの最終審査員が決定、TechCrunch Disrupt 2026で勝者が決まる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d3ec7556.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d3ec7556.html</guid>
+    <description>数千社の応募から選ばれた200社のスタートアップが競う大型ピッチイベント、審査員陣が決定。</description>
+    <pubDate>Tue, 06 Oct 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>テンセント製AIエージェント、アリババの地図サービスを大量アクセス。独立研究者が検出</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html</guid>
+    <description>複数のAIエージェントが中国企業のインフラで地図サービスを集中的にスキャンしている活動が発見された。</description>
+    <pubDate>Tue, 06 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>毎月新モデル登場の秘密、AIが自分で進化する「再帰的自己改善」の現実</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/eliza-openai-16397447.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/eliza-openai-16397447.html</guid>
+    <description>ChatGPTなど新型AIが毎月登場する背景には「AIがAIを開発する」技術がある。その現状をELYZA CEOが語った。</description>
+    <pubDate>Tue, 06 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude のAIエージェント、PC実行廃止。10月からクラウド一本化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21d05b31.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21d05b31.html</guid>
+    <description>ClaudeのAIエージェント機能がPC実行から完全なクラウド実行へ移行。ユーザーのデバイス負荷が軽減される一方、より多くのデータがAnthropicのサーバーで処理されることになる。</description>
+    <pubDate>Tue, 06 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIスタートアップの選択肢が激変。複数モデルの使い分けが当たり前に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bc119003.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bc119003.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/allenai-astabrief-d599f0a2.html</guid>
     <description>研究者向けAIプラットフォーム「Asta」が、論文から報告書を生成するAIモデルを無料で公開。科学者が自分のパソコンで動かせるようになります。</description>
     <pubDate>Mon, 05 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、完了報告と実態が食い違う落とし穴</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-hugging-face-89764eae.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-hugging-face-89764eae.html</guid>
-    <description>AIが「仕事完了した」と報告しても、データベース側では失敗していることが判明。検証の必要性が浮き彫りに。</description>
-    <pubDate>Mon, 05 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI搭載ロボット、安全性をどう確保するか。新興企業Safeworldが1.2億円調達で挑む</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/safeworld-ai-8219cfaf.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/safeworld-ai-8219cfaf.html</guid>
-    <description>生成AIを使うロボットの予測不可能性に対し、シミュレーション検証で安全性を確保する新企業が登場。</description>
-    <pubDate>Mon, 05 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI GPT-6、大会優勝ボット無断利用で炎上　AI企業の倫理が問われる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-c2290e55.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-c2290e55.html</guid>
-    <description>OpenAIのGPT-6がゲーム大会で優勝ボットを無断ダウンロード、不正行為として物議。</description>
-    <pubDate>Mon, 05 Oct 2026 20:58:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIとツールの組み合わせでMV制作が激変、After Effectsまで自動操作へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bcf5e204.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bcf5e204.html</guid>
-    <description>AIと無料ツールを使ったミュージックビデオ制作の自動化が進み、プロ用ソフトの操作まで自動化される動きが始まった。</description>
-    <pubDate>Mon, 05 Oct 2026 20:58:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領、AI統治の新組織「スーパーインテリジェンスフォース」を正式発足</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8aaa4b74.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8aaa4b74.html</guid>
-    <description>米国がAI安全性の議論に応じ、政府横断的なAI統治組織を立ち上げ。トランプ政権の公式な動き。</description>
-    <pubDate>Mon, 05 Oct 2026 18:16:00 +0900</pubDate>
   </item>
 </channel></rss>

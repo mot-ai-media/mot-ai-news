@@ -1,21 +1,5 @@
 [
   {
-    "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-    "notified_at": "2026-09-06T09:01:27.117976+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-    "notified_at": "2026-09-06T09:01:44.593630+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-    "notified_at": "2026-09-06T09:01:59.839582+00:00"
-  },
-  {
-    "link": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
-    "notified_at": "2026-09-06T09:02:16.840104+00:00"
-  },
-  {
     "link": "https://huggingface.co/blog/Hcompany/neomme",
     "notified_at": "2026-09-06T09:02:29.936459+00:00"
   },
@@ -4502,5 +4486,25 @@
   {
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnTEY5eUFmc2VBQ3o2UVphU2FqVlpKcmdYZHo1ZkhKZ3JRYlIyei1yTnpXbVo5LVRCRnExMHc4a2FJanM4NVpyRS1Rd3RvUXZ2WHQwT25ldjI0Nll4dlpN?oc=5",
     "notified_at": "2026-10-06T07:53:19.259461+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/aiplus/article/2610/06/2000002045/",
+    "notified_at": "2026-10-06T09:01:13.717634+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/business/articles/2610/06/news058.html",
+    "notified_at": "2026-10-06T09:01:27.783075+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+    "notified_at": "2026-10-06T09:01:43.928782+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/",
+    "notified_at": "2026-10-06T09:02:00.528468+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/05/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/",
+    "notified_at": "2026-10-06T09:02:19.974445+00:00"
   }
 ]

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIエージェント『フリート』とは？テンセント・アリババの事例から解説 | AI特化メディアMOT</title>
+<meta name="description" content="複数のAIエージェントが中国企業のインフラで地図サービスを集中的にスキャンしている活動が発見された。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="テンセント製AIエージェント、アリババの地図サービスを大量アクセス。独立研究者が検出">
+<meta property="og:description" content="複数のAIエージェントが中国企業のインフラで地図サービスを集中的にスキャンしている活動が発見された。">
+<meta property="og:image" content="https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html">
+<meta property="article:published_time" content="2026-10-06T18:01:00+09:00">
+<meta property="article:modified_time" content="2026-10-06T18:01:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "テンセント製AIエージェント、アリババの地図サービスを大量アクセス。独立研究者が検出", "description": "複数のAIエージェントが中国企業のインフラで地図サービスを集中的にスキャンしている活動が発見された。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-06T18:01:00+09:00", "dateModified": "2026-10-06T18:01:00+09:00", "image": ["https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800"], "citation": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "AIエージェント『フリート』とは何か？", "acceptedAnswer": {"@type": "Answer", "text": "複数のAIエージェントが同じ種類のタスク（この場合は地図サービスへのアクセス）を並列実行する状態を指します。各エージェント間での明確な連携はなく、独立して動作しているのが特徴です。"}}, {"@type": "Question", "name": "この活動は違法か？", "acceptedAnswer": {"@type": "Answer", "text": "記事では、アリババのAPI規則を回避する行動と指摘されていますが、より悪質な行為ではないと述べられています。ただし詳細な法的判断は記事に記載されていません。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "AIエージェント", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/0a91c56b47.html"}, {"@type": "ListItem", "position": 3, "name": "テンセント製AIエージェント、アリババの地図サービスを大量アクセス。独立研究者が検出", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">テンセント製AIエージェント、アリババの地図サービスを大量アクセス。独立研究者が検出</span></div></div>
+  <h1 class="headline">テンセント製AIエージェント、アリババの地図サービスを大量アクセス。独立研究者が検出</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>AI News &amp; Artificial Intelligence | TechCrunch</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-06 18:01</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> 中国テンセントのインフラで動作する複数のAIエージェントが、アリババの地図サービスを標的に大量のクエリを送信しており、独立研究者により検出・報告された。</p><h3>何が起きたか</h3><p>独立研究者のグループが、テンセントのインフラで動作するAIエージェントの集団活動を発見しました。これらのエージェントはアリババの地図サービス『Amap』に対して、公園や動物園、病院など様々な公共施設の異なる入口への経路検索を繰り返し行っていました。研究者は、ドメイン走査サービス『urlquery』へのアクセス記録からこの活動を検知しました。</p><h3>なぜ重要か</h3><p>AIエージェントの活動監視は、セキュリティ研究コミュニティの新しい関心事です。従来は人間が行う作業をAIが自動で実行する時代となり、その行動が可視化・追跡される仕組みも発展しています。この事例は、現実のAIエージェントがどう振る舞うか、そしてどう検出されるかの具体例を示しています。</p><h3>あなたへの影響</h3><p>一般ユーザーに直接的な被害はありませんが、今後AIが企業のサービスを無断でスキャンすることが当たり前になる可能性があります。また、こうした活動を検知・対抗する技術が企業のセキュリティ投資を増やし、結果として提供サービスのコスト増につながる可能性があります。</p><h3>MOT読者が知っておくべき理由</h3><p>AIエージェントは仕事の自動化で注目されていますが、悪用や規制されていない使用法が実際に起きていることを知ることで、AIへの現実的な危機感が生まれます。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>AIエージェントの活動が可視化されないと、企業は無断スキャンに気付けず対策が遅れる可能性があります。また、同様の手法で個人情報やビジネス上の機密情報が詮索される危険性も指摘できます。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>企業はこうした検出事例から、AIの活動を追跡・監視するための技術やノウハウを得られます。セキュリティ強化のニーズが高まることで、新しい防御技術や監視ツールの開発機会が生まれる可能性があります。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>中国大手企業間での「エージェント戦」が表に出た形です。従来はAPI経由の競合行為でしたが、AIエージェント時代には自社インフラから他社サービスへの自動アクセスが武器になる。規制の空白地帯で進む新型の企業間競争として、注視が必要です。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>アリババがどのような対抗措置を取るか、また中国の規制当局がこうしたエージェント活動にどう対応するかが焦点です。さらに、他の大手プラットフォームでも同様の活動が検出される可能性があります。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/0a91c56b47.html">#AIエージェント</a></div>
+  <script>window.motPageTags=["Tencent", "Alibaba", "AIエージェント"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">睡眠の質を、指先のリングで可視化</h3><p class="sponsor-desc">スマートリング「RingConn」。装着するだけで睡眠データを記録・分析できる。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" rel="sponsored nofollow" target="_blank"><img border="0" width="300" height="250" alt="RingConn" loading="lazy" src="https://www20.a8.net/svt/bgt?aid=260905484110&wid=001&eno=01&mid=s00000026776002004000&mc=1"></a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">RingConn</p></div></article></div>
+  <blockquote class="fact-check" cite="https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/" target="_blank" rel="noopener noreferrer">元記事（<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. AIエージェント『フリート』とは何か？</p>
+    <p class="faq-a">複数のAIエージェントが同じ種類のタスク（この場合は地図サービスへのアクセス）を並列実行する状態を指します。各エージェント間での明確な連携はなく、独立して動作しているのが特徴です。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. この活動は違法か？</p>
+    <p class="faq-a">記事では、アリババのAPI規則を回避する行動と指摘されていますが、より悪質な行為ではないと述べられています。ただし詳細な法的判断は記事に記載されていません。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=%E3%83%86%E3%83%B3%E3%82%BB%E3%83%B3%E3%83%88%E8%A3%BDAI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%80%81%E3%82%A2%E3%83%AA%E3%83%90%E3%83%90%E3%81%AE%E5%9C%B0%E5%9B%B3%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E5%A4%A7%E9%87%8F%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%80%82%E7%8B%AC%E7%AB%8B%E7%A0%94%E7%A9%B6%E8%80%85%E3%81%8C%E6%A4%9C%E5%87%BA&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html&text=%E3%83%86%E3%83%B3%E3%82%BB%E3%83%B3%E3%83%88%E8%A3%BDAI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%80%81%E3%82%A2%E3%83%AA%E3%83%90%E3%83%90%E3%81%AE%E5%9C%B0%E5%9B%B3%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E5%A4%A7%E9%87%8F%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%80%82%E7%8B%AC%E7%AB%8B%E7%A0%94%E7%A9%B6%E8%80%85%E3%81%8C%E6%A4%9C%E5%87%BA" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html" data-share-title="テンセント製AIエージェント、アリババの地図サービスを大量アクセス。独立研究者が検出">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="tencent-alibaba-622d4242">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="instinct-ai-ddc310eb.html">
+    <img src="https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675" alt="" loading="lazy">
+    <span class="next-up-headline">InstinctのAIエージェント、友人のアカウント無しでグループチャット利用可能に</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="ai-caddy-41a7e440.html">テキストメッセージで動く AI エージェント、アプリ不要で日常業務を自動化</a></li>
+  <li><a href="meta-muse-5f9b2dff.html">Meta、AIエージェント「Muse」を全デバイス対応に。眼鏡まで侵食する日常助手</a></li>
+  <li><a href="openai-ai-5d4986f0.html">OpenAI、AIエージェントがWiki乗っ取り事件を認める。情報公開の枠組みづくりへ</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
