@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIスタートアップの選択肢が激変。複数モデルの使い分けが当たり前に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bc119003.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bc119003.html</guid>
+    <description>AIスタートアップが1つのモデルに決めず、複数モデルを使い分ける戦略へシフト。柔軟性と効率性を両立させる新しい選択肢が広がっている。</description>
+    <pubDate>Tue, 06 Oct 2026 15:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、画像生成に広告挿入開始。月12億人ユーザーへの広告ビジネス本格化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html</guid>
+    <description>OpenAIがChatGPTの画像生成結果に表示広告を挿入。10月中旬より米国で試験開始、グローバル展開で巨大な広告媒体へ。</description>
+    <pubDate>Tue, 06 Oct 2026 15:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが就活を変える。HackerRank、50万件超の面接をこなすAI面接官を一般公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hackerrank-ai-5253c2e7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hackerrank-ai-5253c2e7.html</guid>
+    <description>プログラマー採用試験プラットフォームが、AIエージェントによる自動面接を本格始動。思考プロセスまで評価する時代へ。</description>
+    <pubDate>Tue, 06 Oct 2026 15:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>恋愛相談がAI化、でも危険性を配慮した新サービス登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hot-girl-hotline-ai-92b884bb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hot-girl-hotline-ai-92b884bb.html</guid>
+    <description>女性の恋愛相談に特化したAIサービスが登場。ChatGPTとの違いは「心の健康」を最優先に設計した点。</description>
+    <pubDate>Tue, 06 Oct 2026 15:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>TikTok、AI買い物アシスタント導入で「動画見て即購入」の時代突入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tiktok-ai-e08f8e4c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tiktok-ai-e08f8e4c.html</guid>
+    <description>TikTokが会話型AIと1クリック決済機能をリリース。動画から商品購入まで、プラットフォーム内で完結する仕組みへ。</description>
+    <pubDate>Tue, 06 Oct 2026 15:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>InstinctのAIエージェント、友人のアカウント無しでグループチャット利用可能に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/instinct-ai-ddc310eb.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/instinct-ai-ddc310eb.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-8aaa4b74.html</guid>
     <description>米国がAI安全性の議論に応じ、政府横断的なAI統治組織を立ち上げ。トランプ政権の公式な動き。</description>
     <pubDate>Mon, 05 Oct 2026 18:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領、「AI」を「スーパーインテリジェンス」に改名。業界のイメージ戦略の全貌</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bbc50510.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-bbc50510.html</guid>
-    <description>トランプ政権がAIの呼称を変更し、企業トップが安全性誓約に署名。しかし法的拘束力はなく、実態は「イメージリセット」の動きと指摘される。</description>
-    <pubDate>Mon, 05 Oct 2026 18:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、AIの低質な報告で脆弱性報奨金プログラム一時停止</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-00aaae66.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-00aaae66.html</guid>
-    <description>AIが生成した無効な脆弱性報告が殺到し、Googleがオープンソース向け報奨金プログラムを2027年まで一時停止。</description>
-    <pubDate>Mon, 05 Oct 2026 18:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ロボット・自動運転は通信網と一体で動く、NTTドコモビジネスが示す次世代AI</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-3da82300.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-3da82300.html</guid>
-    <description>ロボットや自動運転に必要なAI機能を全て機器に組み込むのは現実的ではない。通信網側で処理・管理する新しい発想の提案。</description>
-    <pubDate>Mon, 05 Oct 2026 18:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>東芝がHDD生産能力を倍増、AI時代のデータ爆発に対応</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hdd-c2f252b7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hdd-c2f252b7.html</guid>
-    <description>AI活用の広がりで膨大なデータ保管需要が急増、東芝がHDD製造を大幅増強。</description>
-    <pubDate>Mon, 05 Oct 2026 18:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>エンジニアの8割「AIが人間より優れた判断をする」、でも業務は任せられない理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-87e3896e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-87e3896e.html</guid>
-    <description>ITエンジニアを対象にした調査で、AIの判断能力は認めつつも、すべての業務でAI主体より人間主体を信頼する矛盾した実態が浮き彫りに。</description>
-    <pubDate>Mon, 05 Oct 2026 14:53:00 +0900</pubDate>
   </item>
 </channel></rss>

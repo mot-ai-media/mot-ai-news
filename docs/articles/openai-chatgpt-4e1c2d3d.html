@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPTに広告機能が追加。画像生成時に表示される仕組みを解説 | AI特化メディアMOT</title>
+<meta name="description" content="OpenAIがChatGPTの画像生成結果に表示広告を挿入。10月中旬より米国で試験開始、グローバル展開で巨大な広告媒体へ。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="ChatGPT、画像生成に広告挿入開始。月12億人ユーザーへの広告ビジネス本格化">
+<meta property="og:description" content="OpenAIがChatGPTの画像生成結果に表示広告を挿入。10月中旬より米国で試験開始、グローバル展開で巨大な広告媒体へ。">
+<meta property="og:image" content="https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html">
+<meta property="article:published_time" content="2026-10-06T15:01:00+09:00">
+<meta property="article:modified_time" content="2026-10-06T15:01:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "ChatGPT、画像生成に広告挿入開始。月12億人ユーザーへの広告ビジネス本格化", "description": "OpenAIがChatGPTの画像生成結果に表示広告を挿入。10月中旬より米国で試験開始、グローバル展開で巨大な広告媒体へ。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-06T15:01:00+09:00", "dateModified": "2026-10-06T15:01:00+09:00", "image": ["https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200"], "citation": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "ChatGPTの広告機能はいつから利用可能？", "acceptedAnswer": {"@type": "Answer", "text": "10月中旬から米国でテストが開始される予定です。今のところ米国限定で、その後グローバル展開を予定しています。"}}, {"@type": "Question", "name": "広告を避けるにはどうすればいい？", "acceptedAnswer": {"@type": "Answer", "text": "OpenAIの公式発表によれば、有料プランへのアップグレードで広告を回避できる可能性がありますが、具体的な詳細は記載されていません。"}}, {"@type": "Question", "name": "広告は画像生成時だけに表示される？", "acceptedAnswer": {"@type": "Answer", "text": "今回発表された広告機能は画像生成結果に表示されるビジュアル広告です。その他の場面での広告展開については発表されていません。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "OpenAI", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/openai.html"}, {"@type": "ListItem", "position": 3, "name": "ChatGPT、画像生成に広告挿入開始。月12億人ユーザーへの広告ビジネス本格化", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">ChatGPT、画像生成に広告挿入開始。月12億人ユーザーへの広告ビジネス本格化</span></div></div>
+  <h1 class="headline">ChatGPT、画像生成に広告挿入開始。月12億人ユーザーへの広告ビジネス本格化</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>AI News &amp; Artificial Intelligence | TechCrunch</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-06 15:01</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> OpenAIがChatGPTの画像生成機能に広告を挿入する新機能を10月中旬から米国で開始。将来的には12億人超の週間ユーザーへのリーチを目指す広告事業の拡大。</p><h3>何が起きたか</h3><p>OpenAIが、ChatGPTで生成した画像の横に広告を表示する新機能をリリース。10月中旬から米国でテスト開始され、複数の広告主が参加する予定です。表示される広告は明確にラベル付けされ、ChatGPTの回答内容には影響しないとのこと。同時に、広告の効果測定ツールや測定パートナーも拡充しています。</p><h3>なぜ重要か</h3><p>ChatGPTは月間ユーザー数が12億人を超える巨大なプラットフォーム。これまでテキストベースの広告のみでしたが、画像という視覚的な広告スペースが追加されることで、広告市場における価値が大きく高まります。企業にとって、AIプロダクト内での広告配信が主要なマーケティング手段の一つになる可能性を示しています。</p><h3>あなたへの影響</h3><p>ChatGPTの無料・低価格プランを使う一般ユーザーにとって、今後ますます広告が増える可能性があります。一方、広告を見たくない場合は有料プランへの加入で回避できるようになります。また、デジタル広告に関わる企業では、ChatGPT内での広告配信が新たな営業チャネルとして重要性が増すでしょう。</p><h3>MOT読者が知っておくべき理由</h3><p>ChatGPTが「広告で支える無料サービス」へシフトしている実態を知ることで、AIプロダクトのビジネスモデルの変化を理解でき、AI時代のサービス利用戦略が立てやすくなります。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>広告の増加がユーザー体験を損なう可能性があり、特に無料プランユーザーは広告の頻度や質に不満を感じる恐れがあります。企業側も、広告配置が悪いと顧客満足度低下につながるリスクがあります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>ビジネス側からは、ChatGPTという巨大かつ高度なAIユーザーが集中するプラットフォームで、ターゲット層へ効率的にアプローチできる新しい広告チャネルが生まれることで、マーケティング施策の選択肢が広がります。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>これはOpenAIが「AIの能力を提供するだけでなく、その利用活動そのものを広告媒体化する」戦略を示した重要な転機です。検索エンジンがGoogleの広告ビジネスを支えたように、生成AIプラットフォームも広告を主要な収益源とする構図が確立しつつあります。AIツールの無料利用が前提だった時代から、広告か課金かの選択を迫られる時代への移行を象徴する動きです。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>グローバル展開時の規制対応。EUなどの広告規制が厳格な地域でどのような調整が加えられるか、また競合のMeta製AIアプリなど他のプラットフォームの広告戦略がどう反応するかが焦点となります。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/openai.html">#OpenAI</a><a class="tag-pill" href="../topics/chatgpt.html">#ChatGPT</a></div>
+  <script>window.motPageTags=["OpenAI", "ChatGPT", "デジタル広告"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">睡眠の質を、指先のリングで可視化</h3><p class="sponsor-desc">スマートリング「RingConn」。装着するだけで睡眠データを記録・分析できる。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" rel="sponsored nofollow" target="_blank"><img border="0" width="300" height="250" alt="RingConn" loading="lazy" src="https://www20.a8.net/svt/bgt?aid=260905484110&wid=001&eno=01&mid=s00000026776002004000&mc=1"></a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">RingConn</p></div></article></div>
+  <blockquote class="fact-check" cite="https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/" target="_blank" rel="noopener noreferrer">元記事（<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. ChatGPTの広告機能はいつから利用可能？</p>
+    <p class="faq-a">10月中旬から米国でテストが開始される予定です。今のところ米国限定で、その後グローバル展開を予定しています。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 広告を避けるにはどうすればいい？</p>
+    <p class="faq-a">OpenAIの公式発表によれば、有料プランへのアップグレードで広告を回避できる可能性がありますが、具体的な詳細は記載されていません。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 広告は画像生成時だけに表示される？</p>
+    <p class="faq-a">今回発表された広告機能は画像生成結果に表示されるビジュアル広告です。その他の場面での広告展開については発表されていません。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=ChatGPT%E3%80%81%E7%94%BB%E5%83%8F%E7%94%9F%E6%88%90%E3%81%AB%E5%BA%83%E5%91%8A%E6%8C%BF%E5%85%A5%E9%96%8B%E5%A7%8B%E3%80%82%E6%9C%8812%E5%84%84%E4%BA%BA%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%B8%E3%81%AE%E5%BA%83%E5%91%8A%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%9C%AC%E6%A0%BC%E5%8C%96&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html&text=ChatGPT%E3%80%81%E7%94%BB%E5%83%8F%E7%94%9F%E6%88%90%E3%81%AB%E5%BA%83%E5%91%8A%E6%8C%BF%E5%85%A5%E9%96%8B%E5%A7%8B%E3%80%82%E6%9C%8812%E5%84%84%E4%BA%BA%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%B8%E3%81%AE%E5%BA%83%E5%91%8A%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%9C%AC%E6%A0%BC%E5%8C%96" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html" data-share-title="ChatGPT、画像生成に広告挿入開始。月12億人ユーザーへの広告ビジネス本格化">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="openai-chatgpt-4e1c2d3d">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="openai-chatgpt-549ccc4a.html">
+    <img src="https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800" alt="" loading="lazy">
+    <span class="next-up-headline">OpenAIが欧州でChatGPTに「見えない透かし」埋め込み開始</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="openai-jev-b311cc82.html">ChatGPT開発者が新AI「Jev」で革命、テキスト不要の高速・低コスト化実現</a></li>
+  <li><a href="openai-chatgpt-bb1d02ab.html">ペンタゴンがChatGPT・Grokを正式導入、防衛省のAI戦略が激変</a></li>
+  <li><a href="openai-ai-bc119003.html">AIスタートアップの選択肢が激変。複数モデルの使い分けが当たり前に</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
