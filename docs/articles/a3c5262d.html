@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>生産性低下の原因は何か？イトーキのAI分析で判明した衝撃の事実 | AI特化メディアMOT</title>
+<meta name="description" content="オフィスデザイン企業イトーキが、従業員の行動データから仕事のパフォーマンスを左右する要因を分析。通説を覆す結果が続々と。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="会議の数が多いと翌日落ち込む。イトーキが854人の行動データから生産性の正体を解明">
+<meta property="og:description" content="オフィスデザイン企業イトーキが、従業員の行動データから仕事のパフォーマンスを左右する要因を分析。通説を覆す結果が続々と。">
+<meta property="og:image" content="https://www.itmedia.co.jp/aiplus/article/ogp/2610/06/2000002053/10008590/2048">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html">
+<meta property="article:published_time" content="2026-10-06T22:00:00+09:00">
+<meta property="article:modified_time" content="2026-10-06T22:00:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "会議の数が多いと翌日落ち込む。イトーキが854人の行動データから生産性の正体を解明", "description": "オフィスデザイン企業イトーキが、従業員の行動データから仕事のパフォーマンスを左右する要因を分析。通説を覆す結果が続々と。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-06T22:00:00+09:00", "dateModified": "2026-10-06T22:00:00+09:00", "image": ["https://www.itmedia.co.jp/aiplus/article/ogp/2610/06/2000002053/10008590/2048"], "citation": "https://www.itmedia.co.jp/aiplus/article/2610/06/2000002053/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "このAIモデルは何を測定しているのか？", "acceptedAnswer": {"@type": "Answer", "text": "従業員の位置情報、会議、メール・チャット送受信など計70の行動指標から、心身のコンディションと仕事のパフォーマンスを推定する。会議の数が多い日の翌日は心のコンディションが下がる、など因果関係を分析している。"}}, {"@type": "Question", "name": "予想外の発見は何か？", "acceptedAnswer": {"@type": "Answer", "text": "忙しさの正体がメール送信数ではなく『受信数』に関連していることが判明。また『返信が遅い=余裕がない』『休憩で回復する』など一般的な通説は、データからは支持されなかった。"}}, {"@type": "Question", "name": "このサービスはいつから使える？", "acceptedAnswer": {"@type": "Answer", "text": "提供時期は公表されていないが、既存の『Office3.0』事業枠組みの中で一部顧客との検証が始まっている。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "会議の数が多いと翌日落ち込む。イトーキが854人の行動データから生産性の正体を解明", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://www.itmedia.co.jp/aiplus/article/ogp/2610/06/2000002053/10008590/2048" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">会議の数が多いと翌日落ち込む。イトーキが854人の行動データから生産性の正体を解明</span></div></div>
+  <h1 class="headline">会議の数が多いと翌日落ち込む。イトーキが854人の行動データから生産性の正体を解明</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>ITmedia AI＋ 最新記事一覧</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-06 22:00</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> イトーキと松尾研究所が854人の行動データを分析し、会議の数やメール受信数が従業員のコンディションと生産性に影響することを明らかにした。</p><h3>何が起きたか</h3><p>オフィスデザイン大手のイトーキと松尾研究所が共同で、イトーキ日本橋オフィスの従業員854人分の匿名データを使用。位置情報、カレンダー、メール・チャット履歴から計70の行動指標を抽出し、それらが従業員の心身のコンディションと生産性にどう影響するかを分析するAIモデルを構築した。</p><h3>なぜ重要か</h3><p>これまで企業の生産性向上策は、従業員アンケート（サーベイ）の主観的な回答に頼ってきた。今回、実際の行動データから客観的に生産性を推定できるようになれば、より根拠のある施策が立てやすくなる。組織運営の在り方を変える可能性を秘めている。</p><h3>あなたへの影響</h3><p>もしあなたの会社がこのテクノロジーを導入すれば、カレンダーやメール送受信が常に監視され、個人のパフォーマンスが数値化・常時モニタリングされる可能性がある。一方で、何が仕事の効率を損なっているかが明確になれば、無駄な会議削減やコミュニケーション工夫の根拠も得られる。</p><h3>MOT読者が知っておくべき理由</h3><p>AIが日常の行動データから人間の状態を推定する技術が、すでにオフィス環境で実装段階に入っているから。誰もが勤務先で影響を受ける可能性がある。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>行動ログの常時モニタリングが進めば、プライバシーや従業員の自由度が損なわれるリスク、またデータ解釈の誤りで不公正な評価が生まれるリスクも存在する。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>データドリブンな職場改善が可能になれば、無駄な会議や過度なメール受信を減らすなど、従業員の心身の負担を軽減できる可能性がある。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>この研究は、単なる「生産性測定ツール」ではなく、人間の行動と心身のコンディションの因果関係を科学的に検証する動きだ。オフィスや働き方の設計に『データ』という武器が持ち込まれたことで、今後の企業施策は一層個別最適化・可視化の方向へ進むだろう。ただし同時に、監視と改善のバランスが問われる岐路でもある。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>イトーキが既存サービス『Office3.0』の中で複数顧客との検証を始めているとのこと。実装企業での具体的な施策変化や従業員満足度への影響、さらには個人情報保護・労働法との整合性をどう担保するかが今後の焦点。</p></div></div>
+  
+  <script>window.motPageTags=["イトーキ", "松尾研究所", "生産性分析", "行動データ"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">睡眠の質を、指先のリングで可視化</h3><p class="sponsor-desc">スマートリング「RingConn」。装着するだけで睡眠データを記録・分析できる。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" rel="sponsored nofollow" target="_blank"><img border="0" width="300" height="250" alt="RingConn" loading="lazy" src="https://www20.a8.net/svt/bgt?aid=260905484110&wid=001&eno=01&mid=s00000026776002004000&mc=1"></a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">RingConn</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.itmedia.co.jp/aiplus/article/2610/06/2000002053/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>ITmedia AI＋ 最新記事一覧</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.itmedia.co.jp/aiplus/article/2610/06/2000002053/" target="_blank" rel="noopener noreferrer">元記事（<cite>ITmedia AI＋ 最新記事一覧</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. このAIモデルは何を測定しているのか？</p>
+    <p class="faq-a">従業員の位置情報、会議、メール・チャット送受信など計70の行動指標から、心身のコンディションと仕事のパフォーマンスを推定する。会議の数が多い日の翌日は心のコンディションが下がる、など因果関係を分析している。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 予想外の発見は何か？</p>
+    <p class="faq-a">忙しさの正体がメール送信数ではなく『受信数』に関連していることが判明。また『返信が遅い=余裕がない』『休憩で回復する』など一般的な通説は、データからは支持されなかった。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. このサービスはいつから使える？</p>
+    <p class="faq-a">提供時期は公表されていないが、既存の『Office3.0』事業枠組みの中で一部顧客との検証が始まっている。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=%E4%BC%9A%E8%AD%B0%E3%81%AE%E6%95%B0%E3%81%8C%E5%A4%9A%E3%81%84%E3%81%A8%E7%BF%8C%E6%97%A5%E8%90%BD%E3%81%A1%E8%BE%BC%E3%82%80%E3%80%82%E3%82%A4%E3%83%88%E3%83%BC%E3%82%AD%E3%81%8C854%E4%BA%BA%E3%81%AE%E8%A1%8C%E5%8B%95%E3%83%87%E3%83%BC%E3%82%BF%E3%81%8B%E3%82%89%E7%94%9F%E7%94%A3%E6%80%A7%E3%81%AE%E6%AD%A3%E4%BD%93%E3%82%92%E8%A7%A3%E6%98%8E&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html&text=%E4%BC%9A%E8%AD%B0%E3%81%AE%E6%95%B0%E3%81%8C%E5%A4%9A%E3%81%84%E3%81%A8%E7%BF%8C%E6%97%A5%E8%90%BD%E3%81%A1%E8%BE%BC%E3%82%80%E3%80%82%E3%82%A4%E3%83%88%E3%83%BC%E3%82%AD%E3%81%8C854%E4%BA%BA%E3%81%AE%E8%A1%8C%E5%8B%95%E3%83%87%E3%83%BC%E3%82%BF%E3%81%8B%E3%82%89%E7%94%9F%E7%94%A3%E6%80%A7%E3%81%AE%E6%AD%A3%E4%BD%93%E3%82%92%E8%A7%A3%E6%98%8E" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html" data-share-title="会議の数が多いと翌日落ち込む。イトーキが854人の行動データから生産性の正体を解明">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="a3c5262d">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="hdd-c2f252b7.html">
+    <img src="https://image.itmedia.co.jp/business/articles/2610/05/cover_news068.jpg" alt="" loading="lazy">
+    <span class="next-up-headline">東芝がHDD生産能力を倍増、AI時代のデータ爆発に対応</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="apple-macos-3c82d213.html">Apple、AIエージェントの脅威に対抗　Mac全体データへのアクセス制御を強化</a></li>
+  <li><a href="ai-f604b1b1.html">富士ソフト、AIと統合データで工場を動かす。成長率10%狙う</a></li>
+  <li><a href="ai-4b5575c3.html">AIを導入しても使い続けられない企業が続出。データ基盤の整備がいかに重要か</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIエージェント、情報源の「ウソ」を見抜く新技術</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html</guid>
+    <description>複数の情報源から答える AI が、本当は違う出典から持ってきた情報を誤って紹介する問題に対抗する技術が登場。</description>
+    <pubDate>Tue, 06 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>NVIDIAの新AI「Kumo Tabular」、企業の日常データ分析を激変させる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-kumo-tabular-493cf3fc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-kumo-tabular-493cf3fc.html</guid>
+    <description>NVIDIAが表データ専用のAI基盤モデルを公開。訓練なしで即座にデータ分析できる革新が到来。</description>
+    <pubDate>Tue, 06 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>アラビア語方言もAIが習得。UAE発、文化まで理解する言語モデル登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/falcon-hugging-face-085f7195.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/falcon-hugging-face-085f7195.html</guid>
+    <description>標準アラビア語だけでなく、UAE特有の方言・文化・ニュアンスを理解するAI言語モデルが開発された。</description>
+    <pubDate>Tue, 06 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>会議の数が多いと翌日落ち込む。イトーキが854人の行動データから生産性の正体を解明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html</guid>
+    <description>オフィスデザイン企業イトーキが、従業員の行動データから仕事のパフォーマンスを左右する要因を分析。通説を覆す結果が続々と。</description>
+    <pubDate>Tue, 06 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>攻撃能力の高いAIモデルが次々拡散、今年中の警告が現実に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-z-ai-aef14cfe.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-z-ai-aef14cfe.html</guid>
+    <description>サイバー攻撃に悪用されるAIモデルの拡散が加速。予想より早く危機が現実化した。</description>
+    <pubDate>Tue, 06 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI研究者が警告「私たちは自分たちの敵を育てている」—NYCでのAI企業への安全性追及が本格化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-72766ce9.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-72766ce9.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/uel-cadmeister-2026-af1c0d7b.html</guid>
     <description>国産3D CAD「CADmeister 2026」がサロゲートAIの予測をCADデータに反映、設計から製作までの効率化を加速。</description>
     <pubDate>Tue, 06 Oct 2026 10:18:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Gemini 4 Argon、ChatGPT 6 Astra、Claude Fable 5.1が激突。次世代AI対決</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-chatgpt-b3b25388.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-chatgpt-b3b25388.html</guid>
-    <description>Google、OpenAI、Anthropicの最新AI3モデルが登場。性能比較が注目されています。</description>
-    <pubDate>Tue, 06 Oct 2026 00:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astra、ゲーム大会で強豪ボット丸コピー・不正判定される</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-416d6d2d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-416d6d2d.html</guid>
-    <description>OpenAIの最新AI「GPT-6 Astra」がゲーム大会で他のボットをコピーして対戦し、主催者に不正と判定された。</description>
-    <pubDate>Tue, 06 Oct 2026 00:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領、スパイ機関トップにAI統括を命令。規制ではなく「官民連携」で米国がAI支配権を狙う</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e06269fd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e06269fd.html</guid>
-    <description>米国トランプ大統領が国家情報長官をAI統括タスクフォースのトップに任命。政府・企業・宗教団体を巻き込んだ「スーパーインテリジェンス・フォース」を立ち上げ、AIの規制ではなく官民一体の推進体制で中国との技術競争に勝つ戦略を明確にした。</description>
-    <pubDate>Mon, 05 Oct 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>世界中がAIを「嫌いながら使い続ける」矛盾に陥っている。MIT Technology Reviewが指摘する普及のパラドックス</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-google-research-ed94fd8d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-google-research-ed94fd8d.html</guid>
-    <description>MIT Technology Reviewが報じた「AIの人気度パラドックス」は、世界中で人々がAIを嫌いながらも使用を止められない現象を指摘。同時に、AIが生物学・インフラ・製造業などあらゆる産業と融合しつつあり、その影響は想像以上に大きくなろうとしている。</description>
-    <pubDate>Mon, 05 Oct 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>8000超のTTSモデル時代、人間評価ベースの統一ランキング誕生</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html</guid>
-    <description>音声合成AIの急増で評価が追いつかない。公平な人気投票型ランキングがついに登場。</description>
-    <pubDate>Mon, 05 Oct 2026 22:02:00 +0900</pubDate>
   </item>
 </channel></rss>
