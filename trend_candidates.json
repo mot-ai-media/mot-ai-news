@@ -1358,5 +1358,45 @@
     "japan_relevance_score": 35,
     "reason": "ジャズピアニストのスタイル学習は専門的だが、クロスアテンション自体は既知技術で応用事例としての新規性は限定的。",
     "discovered_at": "2026-10-06T05:55:28.989856+00:00"
+  },
+  {
+    "title": "German Bundeswehr Uses AI to Screen Applicants for Right-Wing Extremism",
+    "link": "https://news.osna.fm/german-military-intelligence-uses-ai-to-screen-bundeswehr-applicants-for-right-wing-extremism/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://news.osna.fm/german-military-intelligence-uses-ai-to-screen-bundeswehr-applicants-for-right-wing-extremism/\nComments URL: https://news.ycombinator.com/item?id=49975484\nPoints: 29\n# Comments: 46",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "政府機関によるAI採用スクリーニングは注目すべきが、極右排除という文脈が日本への汎用性に限界",
+    "discovered_at": "2026-10-06T10:29:01.376959+00:00"
+  },
+  {
+    "title": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+    "link": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+    "source": "Hacker News",
+    "summary": "Article URL: https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x\nComments URL: https://news.ycombinator.com/item?id=49975345\nPoints: 39\n# Comments: 30",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI企業の価格比較分析は既出テーマだが、Anthropicの台頭を受けた日本でのAI導入検討に参考になる。",
+    "discovered_at": "2026-10-06T10:29:02.976611+00:00"
+  },
+  {
+    "title": "Autolith: A self-modifiable general purpose Lisp AI agent",
+    "link": "https://github.com/lambda-symbolics/autolith",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/lambda-symbolics/autolith\nComments URL: https://news.ycombinator.com/item?id=49975081\nPoints: 28\n# Comments: 0",
+    "novelty_score": 35,
+    "japan_relevance_score": 28,
+    "reason": "自己修正可能なLisp AIエージェントは興味深いが、GitHubリポジトリのみで学術的実績や実用化例が不明瞭。",
+    "discovered_at": "2026-10-06T10:29:04.545462+00:00"
+  },
+  {
+    "title": "The AI boom is making the cheapest smartphones disappear",
+    "link": "https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/\nComments URL: https://news.ycombinator.com/item?id=49974238\nPoints: 26\n# Comments: 6",
+    "novelty_score": 45,
+    "japan_relevance_score": 62,
+    "reason": "AI需要によるメモリ不足が低価格スマホに影響する論点は新しいが、供給不足の構造的課題自体は既知で、日本の格安スマホ市場にも関連性がある。",
+    "discovered_at": "2026-10-06T10:29:06.709811+00:00"
   }
 ]
