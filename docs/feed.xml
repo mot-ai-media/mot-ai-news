@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>SpaceXの株価が8月以降60%急騰、マスクが再び兆万長者に。AI事業とStarship進展が評価</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-c9eac27a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-c9eac27a.html</guid>
+    <description>イーロン・マスク率いるSpaceXの株価が8月の底値から60%近く上昇し、同社のAIビジネスとStarship開発の進展が買い材料となっている。この株価上昇により、マスク本人の資産規模も再び1兆ドル超の大台に到達したとみられている。</description>
+    <pubDate>Tue, 06 Oct 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Nokia CEO激白：AI需要は衰えず、むしろ供給不足が足かせ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nokia-ai-8547cea3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nokia-ai-8547cea3.html</guid>
+    <description>ノキアのCEOが、AI用データセンターの建設速度は現在の供給制約がなければ2倍に加速できると発言。AIの急速な展開に対し、半導体やインフラの不足が実際のボトルネックになっていることが明らかになった。</description>
+    <pubDate>Tue, 06 Oct 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの『Astra』名称、別企業との混同で波紋</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a2652326.html</guid>
     <description>AI企業Anthropicが新設した分子生物学ラボで、AI が未知のタンパク質パターンを発見したと発表。しかし実際の生物学者から「それは本当に発見か」という疑問が噴出。AI企業と科学コミュニティの間にある「成果の定義」のズレが浮き彫りになった。</description>
     <pubDate>Mon, 05 Oct 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>脳スキャンからあなたの思考を「読み取る」AI、イスラエルの研究所が開発</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/fmri-ai-8e23ff79.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/fmri-ai-8e23ff79.html</guid>
-    <description>イスラエルの研究機関が、脳のMRI画像からAIで見ている景像を復元する技術を開発。かつてない精度で脳活動と視覚情報を相互変換できるようになった。医療応用の期待がある一方、本人の同意なく思考を抽出される懸念も指摘されている。</description>
-    <pubDate>Mon, 05 Oct 2026 08:41:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>脳スキャンからあなたが見た映像を復元する、MIT開発のAI「心読み」ツールが登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-02f09e59.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-02f09e59.html</guid>
-    <description>米MITが、脳スキャン画像からあなたが見た映像を高精度で復元するAIツールを開発。医療応用の可能性がある一方で、プライバシー侵害のリスクも指摘されている。</description>
-    <pubDate>Mon, 05 Oct 2026 08:40:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-06 10:22
+最終更新: 2026-10-06 10:28
 
 ## 記事一覧
 
+- [Nokia CEOがAIデータセンター供給制約について言及、建設速度が2倍になる可能性](https://mot-ai-media.github.io/mot-ai-news/articles/nokia-ai-8547cea3.html): ノキアのCEOが、AI用データセンターの建設速度は現在の供給制約がなければ2倍に加速できると発言。AIの急速な展開に対し、半導体やインフラの不足が実際のボトルネックになっていることが明らかになった。 (出典: CNBC / 更新: 2026-10-06 10:28)
+- [SpaceX株が急騰、マスク資産再構築。AI×宇宙ビジネスの新段階へ](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-c9eac27a.html): イーロン・マスク率いるSpaceXの株価が8月の底値から60%近く上昇し、同社のAIビジネスとStarship開発の進展が買い材料となっている。この株価上昇により、マスク本人の資産規模も再び1兆ドル超の大台に到達したとみられている。 (出典: CNBC / 更新: 2026-10-06 10:28)
 - [OpenAI『Astra』名称問題とは？企業名の重複で何が起きた](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html): OpenAIが新AIモデル『Astra』と命名したことで、既存企業との名称重複による混同が生じている。 (出典: Law360 / 更新: 2026-10-06 10:22)
 - [AIトークン単価が下がったのに請求額が増える理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html): AI利用料金がなぜか膨れ続ける。安くなったはずなのに、企業の実際の負担は増加中。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:19)
 - [CADmeister 2026とは？サロゲートAIで金型設計がどう変わる](https://mot-ai-media.github.io/mot-ai-news/articles/uel-cadmeister-2026-af1c0d7b.html): 国産3D CAD「CADmeister 2026」がサロゲートAIの予測をCADデータに反映、設計から製作までの効率化を加速。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:18)
@@ -205,5 +207,3 @@
 - [Meta Muse AIエージェント クレジットカード支出管理 サブスク経済への脅威](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-ca6c0248.html): Metaが開発中のAI個人助手「Muse」は、ユーザーのクレジットカード利用を監視・管理し、不要な支出を削減する機能を備えている。サブスクリプション経済が経営課題となっている業界にとって、この技術は想定外の脅威となり得る。 (出典: CNBC / 更新: 2026-09-28 08:32)
 - [最先端AIを自動運転車に搭載、実走テストの衝撃とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-4e9c4c56.html): 最新鋭のAIモデルを自動運転車に組み込み、実際の路上テストを実施する実験が行われた。 (出典: futurism.com / 更新: 2026-09-27 22:53)
 - [トランプXi会談でAI安全性が議題に。米中AI対立に転機か](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-1a6858b2.html): 米国のトランプ前大統領と中国の習近平国家主席が木曜日に会談し、AI安全保障が主要な議論テーマとなった。両国の指導者がAI業界の有力者らと食事をともにし、安全性懸念について直接対話したことが報道されている。 (出典: CNBC / 更新: 2026-09-27 22:28)
-- [AI企業の借金コスト増加、米国債利回り上昇で資金調達が難化](https://mot-ai-media.github.io/mot-ai-news/articles/ai-94dfe2e7.html): ChatGPTやクラウドAIサービスを支える大規模データセンター建設の資金調達が、米国の金利上昇によってコスト増になっている。AI企業の積極投資は続くが、金銭的な負担が増す局面に突入した。 (出典: CNBC / 更新: 2026-09-27 22:27)
-- [Codexの業務活用例12選｜職種別の使い方と依頼方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-82b614b6.html): OpenAIのCodexは、ファイル操作を自動化するAIエージェント。エンジニア以外の利用者が急増し、営業・マーケティング・企画職も実務で活用し始めている。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 22:02)
