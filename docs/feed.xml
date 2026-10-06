@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>イタリア首相が「自分の声」を商標登録。AI deepfakeから身を守る動き、欧米セレブに広がる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-deepfake-euipo-1bed4d68.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-deepfake-euipo-1bed4d68.html</guid>
+    <description>イタリアのジョルジア・メローニ首相が、自分の声をEU知的財産庁に商標登録申請した。AIによる音声合成技術の悪用を防ぐ防衛策で、テイラー・スウィフトやマシュー・マコノヒーら海外セレブに続く動きだ。日本でも同様の脅威が迫りつつある。</description>
+    <pubDate>Tue, 06 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>フランス発の「Le Chonk」が1兆パラメータで中国AIに対抗、西側の独立系開発が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-le-chonk-49966735.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-le-chonk-49966735.html</guid>
+    <description>フランスのAI企業Mistralが新型大規模言語モデル「Le Chonk」を発表。中国企業との競争が激化するなか、欧米系の独立系AI開発が新段階に入った。</description>
+    <pubDate>Tue, 06 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIエージェント、情報源の「ウソ」を見抜く新技術</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-4531b58e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-4531b58e.html</guid>
     <description>3DCADモデルを生成AIとレンダリングで魅力的に表現する実践的な方法が解説される。</description>
-    <pubDate>Tue, 06 Oct 2026 10:18:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ツダケンAI裁判、声優の請求棄却も「AI音声は合法」には至らず</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-767c9dbc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-767c9dbc.html</guid>
-    <description>声優の声に似たAI音声をめぐる訴訟で裁判所は請求を棄却。ただしこれは「AI音声が合法」という判断ではない。</description>
-    <pubDate>Tue, 06 Oct 2026 10:18:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>金型設計にAIの予測力を直結、国産CADの最新版が業務効率化に本気</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/uel-cadmeister-2026-af1c0d7b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/uel-cadmeister-2026-af1c0d7b.html</guid>
-    <description>国産3D CAD「CADmeister 2026」がサロゲートAIの予測をCADデータに反映、設計から製作までの効率化を加速。</description>
     <pubDate>Tue, 06 Oct 2026 10:18:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -1,21 +1,5 @@
 [
   {
-    "link": "https://huggingface.co/blog/train-to-paint-with-code",
-    "notified_at": "2026-09-06T13:02:00.170539+00:00"
-  },
-  {
-    "link": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-    "notified_at": "2026-09-06T13:02:16.329749+00:00"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
-    "notified_at": "2026-09-06T13:27:58.294745+00:00"
-  },
-  {
-    "link": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
-    "notified_at": "2026-09-06T13:28:17.195742+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdGZ5NTYtSnJ1dE9kUG9SaGd2bXNEYVVGZkQ3OUUxRnlQR096N20yNmcwVkJETHhLQVNON2JaNUhDLU55TGFsZTk2WlVjQUZJMTF4VUM1RFNNMkQ2VGtEbTJTMnk5ODh5NVFMMlA3eFphOGZVQ2c2WUhVa0JaSDBXXzhmOTBuRXZqMFRrVlNpTWd2RUdCZHdGb1g5RW8tdFl3NHNJR0JIQ0o?oc=5",
     "notified_at": "2026-09-06T15:53:15.896970+00:00"
   },
@@ -4498,5 +4482,17 @@
   {
     "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
     "notified_at": "2026-10-06T13:01:44.706374+00:00"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
+    "notified_at": "2026-10-06T13:28:02.154869+00:00"
+  },
+  {
+    "link": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+    "notified_at": "2026-10-06T13:28:02.186231+00:00"
+  },
+  {
+    "link": "https://www.bbc.co.uk/news/articles/ckly0g1ljq2yo?at_medium=RSS&at_campaign=rss",
+    "notified_at": "2026-10-06T13:28:19.689087+00:00"
   }
 ]

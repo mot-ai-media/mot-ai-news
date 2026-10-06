@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-06 22:01
+最終更新: 2026-10-06 22:28
 
 ## 記事一覧
 
+- [Mistral Le Chonk AI 1兆パラメータ 中国対抗 日本への影響](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-le-chonk-49966735.html): フランスのAI企業Mistralが新型大規模言語モデル「Le Chonk」を発表。中国企業との競争が激化するなか、欧米系の独立系AI開発が新段階に入った。 (出典: CNBC / 更新: 2026-10-06 22:28)
+- [イタリア首相メローニが音声商標登録 AI deepfake対策 テイラー・スウィフトも](https://mot-ai-media.github.io/mot-ai-news/articles/ai-deepfake-euipo-1bed4d68.html): イタリアのジョルジア・メローニ首相が、自分の声をEU知的財産庁に商標登録申請した。AIによる音声合成技術の悪用を防ぐ防衛策で、テイラー・スウィフトやマシュー・マコノヒーら海外セレブに続く動きだ。日本でも同様の脅威が迫りつつある。 (出典: BBC / 更新: 2026-10-06 22:28)
 - [Falcon-Emiratiとは？UAE方言AIモデルの仕組みと何が違うのか](https://mot-ai-media.github.io/mot-ai-news/articles/falcon-hugging-face-085f7195.html): 標準アラビア語だけでなく、UAE特有の方言・文化・ニュアンスを理解するAI言語モデルが開発された。 (出典: Hugging Face - Blog / 更新: 2026-10-06 22:01)
 - [NVIDIA Kumo Tabularとは？表データ予測AIの実力と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-kumo-tabular-493cf3fc.html): NVIDIAが表データ専用のAI基盤モデルを公開。訓練なしで即座にデータ分析できる革新が到来。 (出典: Hugging Face - Blog / 更新: 2026-10-06 22:01)
 - [AIエージェント情報源検証とは？ProvenanceGuardの仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html): 複数の情報源から答える AI が、本当は違う出典から持ってきた情報を誤って紹介する問題に対抗する技術が登場。 (出典: Hugging Face - Blog / 更新: 2026-10-06 22:01)
@@ -205,5 +207,3 @@
 - [AIコード生成は確認が必要？Anthropicの見解と実践方法](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-code-b87ea3e2.html): AIが書いたコードは「ブラックボックス」でいいのか。Claude Code開発者が、プロトタイプと本番環境での使い分けを解説。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 07:01)
 - [FDEとは？日立SIerの仕事が変わる理由・従来SEとの違い](https://mot-ai-media.github.io/mot-ai-news/articles/fde-03fe300f.html): AIの登場で、システム開発企業の仕事の流れが一変。要件を聞くだけの時代は終わり、顧客の課題を一緒に見つけて解決する新職種「FDE」へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 07:01)
 - [AIエージェントはSaaSを消す？IDCが示す本当の構造変化とは](https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-workday-8ebd2302.html): AIがSaaSを代替するという通説は間違い。データの役割拡張が本質で、むしろビジネスモデルと課金方式が激変する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 07:01)
-- [BTS×Google Geminiコラボ機能とは？使い方・体験内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-bts-e4c93d6c.html): Google Geminiに韓国の超人気グループBTSとのコラボ機能が追加。特定のワードで限定体験が楽しめる。 (出典: Real Sound / 更新: 2026-09-29 07:00)
-- [AIエージェントとは？日本企業の導入が遅れる理由と対策](https://mot-ai-media.github.io/mot-ai-news/articles/ai-44793139.html): AIの性能競争が一区切りした今、自律動作する環境づくりが勝負。日本企業はここでも大きく遅れている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 07:00)
