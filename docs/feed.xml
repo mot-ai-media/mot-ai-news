@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI研究者が警告「私たちは自分たちの敵を育てている」—NYCでのAI企業への安全性追及が本格化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-72766ce9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-72766ce9.html</guid>
+    <description>米国の大手AI研究機関がニューヨークシティの公開審査で、AI企業の安全保障体制の不備を指摘。自社で開発したAIが将来的に制御不能になるリスクについて警告が発せられた。世界的なAI産業の規制化の動きが加速する中、日本企業や利用者への影響も視野に入れた対応が求められている。</description>
+    <pubDate>Tue, 06 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>マイクロソフトのナデラCEO、クラウド覇者から「AI時代の変革者」へ。10年ぶりの経営転換が始まる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-satya-nadella-888b7ccb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-satya-nadella-888b7ccb.html</guid>
+    <description>マイクロソフトのサティア・ナデラCEOが、2014年の就任以来成し遂げたクラウド事業の大転換に続き、AI時代における企業の再構築に挑もうとしている。同社がAI分野で競争力を持つ組織へと進化できるかが、次の大きな試金石となる。</description>
+    <pubDate>Tue, 06 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Disrupt 2026、AI・ロボティクス・宇宙産業の最前線が3日間集結</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c8535769.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c8535769.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html</guid>
     <description>音声合成AIの急増で評価が追いつかない。公平な人気投票型ランキングがついに登場。</description>
     <pubDate>Mon, 05 Oct 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>企業のAIエージェント、失敗から自動学習する仕組みが完成</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/servicenow-ai-a885ed61.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/servicenow-ai-a885ed61.html</guid>
-    <description>ServiceNowが開発した「AutoSynthData」は、AIエージェントの失敗を学習データに変え、企業固有の環境に強いエージェント育成を可能にする。</description>
-    <pubDate>Mon, 05 Oct 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>研究論文の高速生成AIを無料公開、科学者が自分で使える時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/allenai-astabrief-d599f0a2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/allenai-astabrief-d599f0a2.html</guid>
-    <description>研究者向けAIプラットフォーム「Asta」が、論文から報告書を生成するAIモデルを無料で公開。科学者が自分のパソコンで動かせるようになります。</description>
-    <pubDate>Mon, 05 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
