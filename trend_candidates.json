@@ -1348,5 +1348,15 @@
     "japan_relevance_score": 72,
     "reason": "AI による教育への影響は既出だが、著名心理学者の見解として日本の教育現場でも議論になりやすい。",
     "discovered_at": "2026-10-06T01:28:49.564950+00:00"
+  },
+  {
+    "title": "Learning Jazz Pianist Style with Cross-Attention Conditioning",
+    "link": "https://almostimplemented.github.io/jazz-pianist-style/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://almostimplemented.github.io/jazz-pianist-style/\nComments URL: https://news.ycombinator.com/item?id=49971726\nPoints: 39\n# Comments: 7",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "ジャズピアニストのスタイル学習は専門的だが、クロスアテンション自体は既知技術で応用事例としての新規性は限定的。",
+    "discovered_at": "2026-10-06T05:55:28.989856+00:00"
   }
 ]
