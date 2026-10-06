@@ -1328,5 +1328,25 @@
     "japan_relevance_score": 68,
     "reason": "AI企業による無断編集問題は新しい論点で、日本のAI規制議論にも関連性がある。",
     "discovered_at": "2026-10-06T01:22:03.625495+00:00"
+  },
+  {
+    "title": "Florida woman arrested for allegedly making threats in an AI chat",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat\nComments URL: https://news.ycombinator.com/item?id=49965895\nPoints: 49\n# Comments: 74",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AIチャットでの脅迫罪化は法的先例として注目だが、米国の特殊事例である可能性がある。",
+    "discovered_at": "2026-10-06T01:28:47.324728+00:00"
+  },
+  {
+    "title": "Jonathan Haidt: AI Is the 'Neutron Bomb for Education' [video]",
+    "link": "https://www.youtube.com/watch?v=RFTfANuLBF4",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.youtube.com/watch?v=RFTfANuLBF4\nComments URL: https://news.ycombinator.com/item?id=49965042\nPoints: 33\n# Comments: 64",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI による教育への影響は既出だが、著名心理学者の見解として日本の教育現場でも議論になりやすい。",
+    "discovered_at": "2026-10-06T01:28:49.564950+00:00"
   }
 ]
