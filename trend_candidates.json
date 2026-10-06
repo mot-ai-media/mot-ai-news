@@ -1278,5 +1278,55 @@
     "japan_relevance_score": 68,
     "reason": "AIが利用者の危険な意図を報告する初の事例で、AIプロバイダーの法的責任と倫理が問われる重要なケース。",
     "discovered_at": "2026-10-05T16:28:48.914476+00:00"
+  },
+  {
+    "title": "AI Tutoring with Khanmigo in a Two-Year School Experiment",
+    "link": "https://edworkingpapers.com/ai26-1551",
+    "source": "Hacker News",
+    "summary": "Article URL: https://edworkingpapers.com/ai26-1551\nComments URL: https://news.ycombinator.com/item?id=49972419\nPoints: 22\n# Comments: 12",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI家庭教師の実験結果は参考になるが、Khanacademyの既知プロジェクトで新規性に欠ける。",
+    "discovered_at": "2026-10-06T01:21:53.967106+00:00"
+  },
+  {
+    "title": "AI Companies Are Parasites",
+    "link": "https://www.coryd.dev/posts/2026/ai-companies-are-parasites",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.coryd.dev/posts/2026/ai-companies-are-parasites\nComments URL: https://news.ycombinator.com/item?id=49969369\nPoints: 61\n# Comments: 35",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI企業の倫理的問題は既出だが、日本でも生成AI規制論議が活発化する中で関連性は高い。",
+    "discovered_at": "2026-10-06T01:21:56.359237+00:00"
+  },
+  {
+    "title": "Questions for believers in AI consciousness",
+    "link": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+    "source": "Hacker News",
+    "summary": "Article URL: https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness\nComments URL: https://news.ycombinator.com/item?id=49968964\nPoints: 40\n# Comments: 190",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "AI意識論は既出だが、信奉者への批判的問い直しは視点が新しく、日本でも哲学・倫理議論として浸透する可能性がある。",
+    "discovered_at": "2026-10-06T01:21:58.831638+00:00"
+  },
+  {
+    "title": "A Series of Unfortunate Events for OpenAI Users",
+    "link": "https://insufferable.dev/posts/a-series-of-unfortunate-events-for-openai-users/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://insufferable.dev/posts/a-series-of-unfortunate-events-for-openai-users/\nComments URL: https://news.ycombinator.com/item?id=49968947\nPoints: 29\n# Comments: 1",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "OpenAIユーザーへの問題指摘だが、具体的内容不明で、Hacker Newsでの関心度も低い。",
+    "discovered_at": "2026-10-06T01:22:01.066671+00:00"
+  },
+  {
+    "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+    "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/\nComments URL: https://news.ycombinator.com/item?id=49968105\nPoints: 256\n# Comments: 178",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AI企業による無断編集問題は新しい論点で、日本のAI規制議論にも関連性がある。",
+    "discovered_at": "2026-10-06T01:22:03.625495+00:00"
   }
 ]

@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの『Astra』名称、別企業との混同で波紋</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html</guid>
+    <description>OpenAIが新AIモデル『Astra』と命名したことで、既存企業との名称重複による混同が生じている。</description>
+    <pubDate>Tue, 06 Oct 2026 10:22:00 +0900</pubDate>
+  </item>
+  <item>
     <title>トークン単価8割下げなのに請求額は増加。AIの『見えない浪費』の正体</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-02f09e59.html</guid>
     <description>米MITが、脳スキャン画像からあなたが見た映像を高精度で復元するAIツールを開発。医療応用の可能性がある一方で、プライバシー侵害のリスクも指摘されている。</description>
     <pubDate>Mon, 05 Oct 2026 08:40:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>企業のAI投資が2.5兆ドルに到達も、8割が成果ゼロ――「つながらないAI」の危機</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-06382107.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-06382107.html</guid>
-    <description>MIT Technology Reviewの報告によると、世界的なAI投資が急増する一方で、多くの企業ではAIが組織全体で活用できず、営業と顧客サポートなど部門間の情報が共有されない状況が蔓延。単体では優秀なAIシステムも、企業全体では価値を生み出していない構造的問題が明らかになった。</description>
-    <pubDate>Mon, 05 Oct 2026 04:43:00 +0900</pubDate>
   </item>
 </channel></rss>

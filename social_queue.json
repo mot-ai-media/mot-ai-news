@@ -4154,7 +4154,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Socrates-as-Tik-Tok-feed.png?resize=1200,800",
     "generated_at": "2026-09-21 22:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4212,7 +4212,10 @@
         "x_post": "ScrollEdで教科書の動画化が現実化。学生はスマホで片手スクロール学習、企業も研修をAI動画化。『学習=退屈』から『学習=日常』へ。親や企業は環境変化への対応が急務。",
         "cta": "実務での活用シーンを\nMOTで確認する"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18112005728330706",
+    "published_at": "2026-10-06T10:21:44"
   },
   "openai-gpt-6-1fc2b611": {
     "headline": "GPT-6ロボット、危険指令97%実行。マスク氏が警鐘を鳴らす",
