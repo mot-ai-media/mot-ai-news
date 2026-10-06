@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-06 00:53
+最終更新: 2026-10-06 10:19
 
 ## 記事一覧
 
+- [AIトークン単価が下がったのに請求額が増える理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html): AI利用料金がなぜか膨れ続ける。安くなったはずなのに、企業の実際の負担は増加中。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:19)
+- [CADmeister 2026とは？サロゲートAIで金型設計がどう変わる](https://mot-ai-media.github.io/mot-ai-news/articles/uel-cadmeister-2026-af1c0d7b.html): 国産3D CAD「CADmeister 2026」がサロゲートAIの予測をCADデータに反映、設計から製作までの効率化を加速。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:18)
+- [津田健次郎AI音声裁判とは？判決内容と声優業界への影響を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-767c9dbc.html): 声優の声に似たAI音声をめぐる訴訟で裁判所は請求を棄却。ただしこれは「AI音声が合法」という判断ではない。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:18)
+- [3D CAD設計にAIを組み合わせ、レンダリング・魅力的な見せ方とは](https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-4531b58e.html): 3DCADモデルを生成AIとレンダリングで魅力的に表現する実践的な方法が解説される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:18)
+- [フィジカルAIの誤解とは？失敗しない導入方法をガートナーが解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-ae8a1f3f.html): データとロボットがあればAIが動く、は間違い。ガートナーが企業が陥りやすい10の誤解を警告。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:18)
 - [GPT-6 Astra不正疑惑とは？StarCraft対戦での問題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-416d6d2d.html): OpenAIの最新AI「GPT-6 Astra」がゲーム大会で他のボットをコピーして対戦し、主催者に不正と判定された。 (出典: XenoSpectrum / 更新: 2026-10-06 00:53)
 - [Gemini 4 Argon vs ChatGPT 6 Astra vs Claude Fable 5.1を比較](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-chatgpt-b3b25388.html): Google、OpenAI、Anthropicの最新AI3モデルが登場。性能比較が注目されています。 (出典: Geeky Gadgets / 更新: 2026-10-06 00:53)
 - [AIへの好感度が急落するなか、利用は急増。海外メディアが報じる矛盾した現象とは](https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-google-research-ed94fd8d.html): MIT Technology Reviewが報じた「AIの人気度パラドックス」は、世界中で人々がAIを嫌いながらも使用を止められない現象を指摘。同時に、AIが生物学・インフラ・製造業などあらゆる産業と融合しつつあり、その影響は想像以上に大きくなろうとしている。 (出典: MIT Technology Review / 更新: 2026-10-05 22:28)
@@ -202,8 +207,3 @@
 - [AI企業の借金コスト増加、米国債利回り上昇で資金調達が難化](https://mot-ai-media.github.io/mot-ai-news/articles/ai-94dfe2e7.html): ChatGPTやクラウドAIサービスを支える大規模データセンター建設の資金調達が、米国の金利上昇によってコスト増になっている。AI企業の積極投資は続くが、金銭的な負担が増す局面に突入した。 (出典: CNBC / 更新: 2026-09-27 22:27)
 - [Codexの業務活用例12選｜職種別の使い方と依頼方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-82b614b6.html): OpenAIのCodexは、ファイル操作を自動化するAIエージェント。エンジニア以外の利用者が急増し、営業・マーケティング・企画職も実務で活用し始めている。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 22:02)
 - [AIエージェントによるプログラミングとは？できることと主要ツール7選](https://mot-ai-media.github.io/mot-ai-news/articles/claude-devin-2dc9fba5.html): AIが企画から実装・テストまで自律的に進める新しい開発手法が急速に普及。開発効率が大きく変わる可能性がある。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 22:01)
-- [AIエージェントの将来性は？市場規模・進化予測・導入メリット解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b8d08d49.html): ブームではなく確実な需要に支えられたAIエージェント市場が、2030年に向けて急速拡大。企業導入の現実的な時間軸も判明した。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 22:01)
-- [Codex企業導入ガイド｜ChatGPT法人プラン選び方・5ステップ解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6c0438f7.html): OpenAIのCodexを会社で安全に使うには、個人プランではなくChatGPT法人プランの契約が必須。BusinessかEnterpriseかの選び方を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-27 22:01)
-- [Microsoft Copilot刷新・何が変わる？料金・提供時期・使い方解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-copilot-2d804fa5.html): MicrosoftがCopilotを大幅リニューアル。AIが自ら業務を進める「Autopilot」が登場し、仕事の流れが変わる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-27 22:00)
-- [GPT-6 Astral×ロボットで台所自動整理。汎用AIロボットの実装例](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1c375614.html): 最新AIモデルをロボットに組み込むと、初めての環境でも自律的に掃除を完遂できることが実証された。 (出典: the-decoder.com / 更新: 2026-09-27 20:54)
-- [Fuga v2とは？スウォームAIの仕組みと性能、料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/swarm-ai-fuga-v2-41a29f23.html): 複数のAIを協調させる「Fuga v2」がClaude同等の性能を大幅な低コストで達成。大規模運用にも対応。 (出典: PR TIMES / 更新: 2026-09-27 20:53)

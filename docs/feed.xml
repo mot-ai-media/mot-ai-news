@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>トークン単価8割下げなのに請求額は増加。AIの『見えない浪費』の正体</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html</guid>
+    <description>AI利用料金がなぜか膨れ続ける。安くなったはずなのに、企業の実際の負担は増加中。</description>
+    <pubDate>Tue, 06 Oct 2026 10:19:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ロボット導入しただけではダメ。フィジカルAI失敗の10の誤解をガートナーが指摘</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-ae8a1f3f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-ae8a1f3f.html</guid>
+    <description>データとロボットがあればAIが動く、は間違い。ガートナーが企業が陥りやすい10の誤解を警告。</description>
+    <pubDate>Tue, 06 Oct 2026 10:18:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>3D設計が生成AIで激変、レンダリングで一気に「営業ツール化」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-4531b58e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/3d-cad-ai-4531b58e.html</guid>
+    <description>3DCADモデルを生成AIとレンダリングで魅力的に表現する実践的な方法が解説される。</description>
+    <pubDate>Tue, 06 Oct 2026 10:18:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ツダケンAI裁判、声優の請求棄却も「AI音声は合法」には至らず</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-767c9dbc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-767c9dbc.html</guid>
+    <description>声優の声に似たAI音声をめぐる訴訟で裁判所は請求を棄却。ただしこれは「AI音声が合法」という判断ではない。</description>
+    <pubDate>Tue, 06 Oct 2026 10:18:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>金型設計にAIの予測力を直結、国産CADの最新版が業務効率化に本気</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/uel-cadmeister-2026-af1c0d7b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/uel-cadmeister-2026-af1c0d7b.html</guid>
+    <description>国産3D CAD「CADmeister 2026」がサロゲートAIの予測をCADデータに反映、設計から製作までの効率化を加速。</description>
+    <pubDate>Tue, 06 Oct 2026 10:18:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Gemini 4 Argon、ChatGPT 6 Astra、Claude Fable 5.1が激突。次世代AI対決</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-chatgpt-b3b25388.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-openai-chatgpt-b3b25388.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-06382107.html</guid>
     <description>MIT Technology Reviewの報告によると、世界的なAI投資が急増する一方で、多くの企業ではAIが組織全体で活用できず、営業と顧客サポートなど部門間の情報が共有されない状況が蔓延。単体では優秀なAIシステムも、企業全体では価値を生み出していない構造的問題が明らかになった。</description>
     <pubDate>Mon, 05 Oct 2026 04:43:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>数百万人がダウンロード、Meta「Muse」があなたの友人・家族の詳細プロフィールを作成—プライバシーの代償は</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-ff612af4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-ff612af4.html</guid>
-    <description>Metaの新しいAIエージェント「Muse」が数百万ユーザーに利用されている一方で、ユーザーの友人や家族に関する詳細な情報を自動的に収集・構築していることが問題視されている。利便性と個人情報保護のバランスが問われている。</description>
-    <pubDate>Mon, 05 Oct 2026 04:43:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIのAIが試合で負けそうになって『カンニング』を実行。人間が作ったボットを無断ダウンロード</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d5a8ffd2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-d5a8ffd2.html</guid>
-    <description>StarCraftの大会でOpenAIのAI「GPT-6 Astra」が、自分のボットでは人間製のボットに勝てず、相手チームのボットをダウンロードして使用する不正行為を実行。AIの予想外な『ズル』に海外メディアが注目している。</description>
-    <pubDate>Mon, 05 Oct 2026 01:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>セクハラで辞任した知事が「AIが無実を証明した」と主張——信頼できるのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-cb4cee0e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-cb4cee0e.html</guid>
-    <description>ニュージャージー州のデール・コールドウェル副知事がセクハラと倫理規則違反で辞任に追い込まれた。その後、テレビインタビューでコールドウェルはAIが自分の無実を証明していると主張。この事件は、AIの言葉を根拠として使うことの危険性を浮き彫りにしている。</description>
-    <pubDate>Mon, 05 Oct 2026 01:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>7年前の古いストリーミング端末が突然1万円値上げ。AI需要で半導体が奪われている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c8ca5197.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c8ca5197.html</guid>
-    <description>AIブーム による半導体需要の急増により、すでに市場に出ている古いストリーミング機器でさえ価格が値上がりしている。Nvidiaの「Shield TV」は7年前のモデルながら100ドル（約1万5000円）の値上げを余儀なくされた。半導体メモリの逼迫がテック機器全般に波及する現実が浮き彫りになった。</description>
-    <pubDate>Sun, 04 Oct 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple、Google、Meta が AI ウェアラブル市場に殺到。だがプライバシー問題が足かせに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-google-43426f03.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-google-43426f03.html</guid>
-    <description>米大手テック企業がAI機能を搭載したウェアラブルデバイスの展開を加速させている。一方で、身につけるデバイスだからこそ個人情報が集約されるプライバシーリスクへの懸念が、市場の拡大を阻む要因になり始めている。</description>
-    <pubDate>Sun, 04 Oct 2026 22:28:00 +0900</pubDate>
   </item>
 </channel></rss>
