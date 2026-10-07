@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>シンガポール投資大手が警告「AI相場の急落が市場最大のリスク」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/temasek-ai-344e9f30.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/temasek-ai-344e9f30.html</guid>
+    <description>シンガポール政府系投資ファンドのTemasekが、現在の市場が直面する最大のリスクとしてAI関連投資の急速な巻き戻しを指摘。好況が急転する可能性を警告している。</description>
+    <pubDate>Wed, 07 Oct 2026 16:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>IMF事務局長が警告：AIは経済成長の切り札だが、インフレと借金を同時に加速させている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-d4d8ffb6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-d4d8ffb6.html</guid>
+    <description>国際通貨基金（IMF）の事務局長クリスタリナ・ゲオルギエワが、AIが経済成長を支える一方で、インフレ率の上昇と利回り圧力を招き、各国の負債問題を悪化させるリスクを同時に抱えていると指摘。世界の指導者層に対し、テクノロジーもたらす恩恵と危機の両面に目を向けるよう警告した。</description>
+    <pubDate>Wed, 07 Oct 2026 16:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPTの役割演技では不十分。人間の行動予測を根本から変える「世界モデル」が登場</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/mirror-particle-ai-c0a0a7f4.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mirror-particle-ai-c0a0a7f4.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html</guid>
     <description>複数の情報源から答える AI が、本当は違う出典から持ってきた情報を誤って紹介する問題に対抗する技術が登場。</description>
-    <pubDate>Tue, 06 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NVIDIAの新AI「Kumo Tabular」、企業の日常データ分析を激変させる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-kumo-tabular-493cf3fc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-kumo-tabular-493cf3fc.html</guid>
-    <description>NVIDIAが表データ専用のAI基盤モデルを公開。訓練なしで即座にデータ分析できる革新が到来。</description>
-    <pubDate>Tue, 06 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>アラビア語方言もAIが習得。UAE発、文化まで理解する言語モデル登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/falcon-hugging-face-085f7195.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/falcon-hugging-face-085f7195.html</guid>
-    <description>標準アラビア語だけでなく、UAE特有の方言・文化・ニュアンスを理解するAI言語モデルが開発された。</description>
     <pubDate>Tue, 06 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
