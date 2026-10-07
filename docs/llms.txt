@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-07 16:30
+最終更新: 2026-10-07 19:00
 
 ## 記事一覧
 
+- [GPT-6 Astraとは？何が変わる・ChatGPTとの違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf06e547.html): OpenAIの新型AI「GPT-6 Astra」が公式発表。複数の進化が判明し、AIの使い方が大きく変わる可能性がある。 (出典: Unisba Media / 更新: 2026-10-07 18:59)
 - [IMFが指摘するAIの二面性—成長と物価上昇のジレンマ](https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-d4d8ffb6.html): 国際通貨基金（IMF）の事務局長クリスタリナ・ゲオルギエワが、AIが経済成長を支える一方で、インフレ率の上昇と利回り圧力を招き、各国の負債問題を悪化させるリスクを同時に抱えていると指摘。世界の指導者層に対し、テクノロジーもたらす恩恵と危機の両面に目を向けるよう警告した。 (出典: CNBC / 更新: 2026-10-07 16:30)
 - [AI投資の巻き戻しが株価暴落を招く？Temasekが指摘する市場危機](https://mot-ai-media.github.io/mot-ai-news/articles/temasek-ai-344e9f30.html): シンガポール政府系投資ファンドのTemasekが、現在の市場が直面する最大のリスクとしてAI関連投資の急速な巻き戻しを指摘。好況が急転する可能性を警告している。 (出典: CNBC / 更新: 2026-10-07 16:30)
 - [Hark Pro とは？プライバシー対応のAI個人助手、料金・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hark-ai-e5d1b198.html): プライバシーを重視したAI個人助手『Hark Pro』が公開。PCを代わりに操作するAIが実用化段階へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:26)
@@ -206,4 +207,3 @@
 - [GPT-6.1 Solとは？Astra並みの性能で低価格を実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-a7c005b0.html): 高性能AIモデル並みの機能を大幅に安い価格で提供する新しいAIモデルが登場。 (出典: thenextweb.com / 更新: 2026-09-30 08:53)
 - [トランプ AI推進 選挙への影響 共和党の支持率低下](https://mot-ai-media.github.io/mot-ai-news/articles/ai-2d1cfdb8.html): 米国の政治家がAI・データセンター産業への支援を掲げる一方で、有権者の間では慎重論が広がっている。トランプは用語の言い換えで世論を切り抜けようとしているが、中間選挙での共和党の支持基盤が揺らいでいる可能性が指摘されている。 (出典: CNBC / 更新: 2026-09-30 07:29)
 - [Meta Muse AIが小規模事業者向けに——200万事業者が既に利用可能](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-431c635d.html): Metaが小規模事業者向けのAI機能「Muse for Small Business」を発表。同社プラットフォーム上の2億を超える小規模事業者に対してAIを提供する動きが加速している。これまでのAIツールは大企業向けが中心だったが、小規模事業者にも浸透し始めている。 (出典: CNBC / 更新: 2026-09-30 07:29)
-- [GPT-6.1 Solとは？料金・性能・使える人を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-988079d8.html): OpenAIが高性能モデルの廉価版「GPT-6.1 Sol」を発表。最高峰モデルに迫る性能をコスト5分の1で提供。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 07:06)

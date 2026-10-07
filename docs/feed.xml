@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6 Astra登場、ChatGPTの次世代AIがついに発表される</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf06e547.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf06e547.html</guid>
+    <description>OpenAIの新型AI「GPT-6 Astra」が公式発表。複数の進化が判明し、AIの使い方が大きく変わる可能性がある。</description>
+    <pubDate>Wed, 07 Oct 2026 18:59:00 +0900</pubDate>
+  </item>
+  <item>
     <title>シンガポール投資大手が警告「AI相場の急落が市場最大のリスク」</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/temasek-ai-344e9f30.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/temasek-ai-344e9f30.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-le-chonk-49966735.html</guid>
     <description>フランスのAI企業Mistralが新型大規模言語モデル「Le Chonk」を発表。中国企業との競争が激化するなか、欧米系の独立系AI開発が新段階に入った。</description>
     <pubDate>Tue, 06 Oct 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、情報源の「ウソ」を見抜く新技術</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html</guid>
-    <description>複数の情報源から答える AI が、本当は違う出典から持ってきた情報を誤って紹介する問題に対抗する技術が登場。</description>
-    <pubDate>Tue, 06 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

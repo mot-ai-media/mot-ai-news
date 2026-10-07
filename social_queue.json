@@ -7597,7 +7597,7 @@
     ],
     "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4ff7/live/977f2bf0-bd85-11f1-ab03-fd866f8788d0.jpg",
     "generated_at": "2026-10-01 22:33",
-    "status": "draft",
+    "status": "approved",
     "angles": [
       {
         "type": "fear",
@@ -7964,7 +7964,7 @@
     ],
     "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/09/brain-image-output.jpg?resize=1200,600",
     "generated_at": "2026-10-05 08:41",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -8022,7 +8022,10 @@
         "x_post": "脳スキャン×AI医療応用の現実化。課題はプライバシー法整備・装置コスト・倫理ガイドライン。これらが解決されれば数年内に医療現場導入も見えてくる段階へ。",
         "cta": "医療応用の課題と実装時期を詳細解説"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18588116845069016",
+    "published_at": "2026-10-07T16:32:42"
   },
   "apple-meta-muse-8931b830": {
     "headline": "Apple、AIエージェントの脅威に直面。Mac全ファイル閲覧権の規制へ",
