@@ -1,34 +1,6 @@
 [
   {
     "tokens": [
-      "beyond",
-      "business",
-      "consumer",
-      "launches",
-      "market",
-      "meta",
-      "muse",
-      "pushes",
-      "small",
-      "zuckerberg"
-    ],
-    "ts": "2026-09-29T19:28:02"
-  },
-  {
-    "tokens": [
-      "ceo",
-      "competitors",
-      "debate",
-      "masks",
-      "mistral",
-      "negligence'",
-      "safety",
-      "u.s."
-    ],
-    "ts": "2026-09-29T19:28:22"
-  },
-  {
-    "tokens": [
       "competitor",
       "dots",
       "launches",
@@ -814,5 +786,31 @@
       "warns"
     ],
     "ts": "2026-10-07T16:30:25"
+  },
+  {
+    "tokens": [
+      "centers",
+      "data",
+      "europe",
+      "google",
+      "halt",
+      "ordered",
+      "texas",
+      "two",
+      "work"
+    ],
+    "ts": "2026-10-07T19:28:09"
+  },
+  {
+    "tokens": [
+      "chatgpt",
+      "common",
+      "media",
+      "risk",
+      "sense",
+      "teens",
+      "unacceptable"
+    ],
+    "ts": "2026-10-07T19:28:27"
   }
 ]
