@@ -7669,7 +7669,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
     "generated_at": "2026-10-04 18:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -7727,7 +7727,10 @@
         "x_post": "AI導入の現実：機能やコスト比較だけでなく、ベンダー企業の安全性文化が導入後のリスクを左右する。OpenAIの内部告発は、AI企業選定の新たな評価軸を示唆している。",
         "cta": "AI企業の信頼性評価、MOTで確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17930324244165375",
+    "published_at": "2026-10-07T11:02:06"
   },
   "spacex-tesla-16f1a43b": {
     "headline": "スペースX、テスラやxAIとの合併を検討か――マスク氏の経営判断が加速",

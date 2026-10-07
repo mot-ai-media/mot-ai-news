@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIエージェント導入事例10選。成功企業の数値・成果から学ぶ | AI特化メディアMOT</title>
+<meta name="description" content="顧客対応・営業・社内業務で実績を上げるAIエージェント。数値の読み方を知れば、社内提案が通りやすくなる。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="富士通・Klarna・TAPPが実証。AIエージェントが顧客対応を「7割削減」から「90%自動化」へ">
+<meta property="og:description" content="顧客対応・営業・社内業務で実績を上げるAIエージェント。数値の読み方を知れば、社内提案が通りやすくなる。">
+<meta property="og:image" content="https://ainow.ai/wp-content/uploads/2026/10/thumbnail-2.jpg">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html">
+<meta property="article:published_time" content="2026-10-07T11:02:00+09:00">
+<meta property="article:modified_time" content="2026-10-07T11:02:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "富士通・Klarna・TAPPが実証。AIエージェントが顧客対応を「7割削減」から「90%自動化」へ", "description": "顧客対応・営業・社内業務で実績を上げるAIエージェント。数値の読み方を知れば、社内提案が通りやすくなる。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-07T11:02:00+09:00", "dateModified": "2026-10-07T11:02:00+09:00", "image": ["https://ainow.ai/wp-content/uploads/2026/10/thumbnail-2.jpg"], "citation": "https://ainow.ai/2026/10/07/278415/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e5%25b0%258e%25e5%2585%25a5%25e4%25ba%258b%25e4%25be%258b10%25e9%2581%25b8%25ef%25bc%2581%25e5%259b%25bd%25e5%2586%2585%25e5%25a4%2596%25e3%2581%25ae%25e6%2588%2590%25e5%258a%259f%25e4%25ba%258b%25e4%25be%258b%25e3%2582%2592"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "AIエージェントと従来のチャットボットの違いは？", "acceptedAnswer": {"@type": "Answer", "text": "チャットボットは回答生成にとどまるが、AIエージェントは返金処理・予約変更など実際のタスクを自動実行する点が異なる。"}}, {"@type": "Question", "name": "導入事例の数値を引用する際に気をつけることは？", "acceptedAnswer": {"@type": "Answer", "text": "数値が実績・パイロット検証・試算のどれなのか、何と比べた数値なのか（チャットボット比 vs 有人対応比）を確認してから使う必要がある。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "AIエージェント", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/0a91c56b47.html"}, {"@type": "ListItem", "position": 3, "name": "富士通・Klarna・TAPPが実証。AIエージェントが顧客対応を「7割削減」から「90%自動化」へ", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://ainow.ai/wp-content/uploads/2026/10/thumbnail-2.jpg" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">富士通・Klarna・TAPPが実証。AIエージェントが顧客対応を「7割削減」から「90%自動化」へ</span></div></div>
+  <h1 class="headline">富士通・Klarna・TAPPが実証。AIエージェントが顧客対応を「7割削減」から「90%自動化」へ</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>AI専門ニュースメディア AINOW</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-07 11:02</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> AIエージェントを導入した国内外10社の成功事例から、数値の正しい読み方と業務別の効果が明確になった。</p><h3>何が起きたか</h3><p>顧客対応・営業・社内業務の3領域で、AIエージェント導入による成果が数値で公表されている。富士通はチャットボット比で応対時間を71.5%短縮、Klarnaは初月で230万件の会話を処理し700人分の業務に相当、TAPPは問い合わせの90.3%を自動解決した。ただし数値にはパイロット検証や試算も混在しており、引用時には性質を見分ける必要がある。</p><h3>なぜ重要か</h3><p>AIエージェントは従来のチャットボットと異なり、タスク実行まで自律的に行える。問い合わせが急増する業種ほど人員増加を抑えながら対応品質を保つ手段として実用段階に入った。経営判断に必要な、根拠のある具体例が増えたことで、導入検討が現実的になってきた。</p><h3>あなたへの影響</h3><p>問い合わせ対応に人手がかかる業界の職場では、業務内容の変化が起こる可能性がある。単純な問い合わせ処理はAIが担い、複雑な案件や顧客判断が必要な業務に人が集中する体制へのシフトが加速する見込みだ。</p><h3>MOT読者が知っておくべき理由</h3><p>AIエージェントが自社に導入される前に、実際の成功事例と数値の読み方を知ることで、経営層の判断根拠を理解し、自分の仕事がどう変わるかを予測できる。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>導入事例の数値をそのまま引用すると、比較対象（チャットボット比か有人対応比か）の違いで効果を過大に見せてしまい、経営層からの質問に答えられなくなるリスクがある。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>導入事例を正しく理解することで、自社の改善課題に近い事例を選び、根拠のある提案を社内に示すことができ、AIツール導入の判断を有利に進められる。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>記事が強調する「数値の性質の見分け方」は、AIツール導入の社内提案で最も見落とされやすい落とし穴だ。実績・パイロット・試算を混同したまま数字を引用すると、一見効果的に見えても後で差し戻されるという現実の導入プロセスを反映している。この視点は、AI導入が『技術が凄い』から『経営判断として妥当か』の段階に移った証だ。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>Klarnaが導入直後に人を増やす方針に転じた理由。AIエージェントが大量の処理を担ったからこそ見えてきた、顧客満足度維持に必要な人員配置の最適化が、今後の企業判断の参考になる。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/0a91c56b47.html">#AIエージェント</a></div>
+  <script>window.motPageTags=["Salesforce Agentforce", "Klarna", "AIエージェント"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">アラミド繊維100%使用、日本製</h3><p class="sponsor-desc">耐久性に優れたアラミド繊維を100%使用した日本製プロダクト。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1LR2GI+34VM+2T7WK2" rel="sponsored nofollow" target="_blank" class="sponsor-text-link">アラミド繊維100%使用 Made in Japan</a><img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4BC3YK+1LR2GI+34VM+2T7WK2" alt=""></div><span class="sponsor-cta">詳しく見る &rarr;</span><p class="sponsor-name">アラミド繊維プロダクト</p></div></article></div>
+  <blockquote class="fact-check" cite="https://ainow.ai/2026/10/07/278415/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e5%25b0%258e%25e5%2585%25a5%25e4%25ba%258b%25e4%25be%258b10%25e9%2581%25b8%25ef%25bc%2581%25e5%259b%25bd%25e5%2586%2585%25e5%25a4%2596%25e3%2581%25ae%25e6%2588%2590%25e5%258a%259f%25e4%25ba%258b%25e4%25be%258b%25e3%2582%2592">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>AI専門ニュースメディア AINOW</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://ainow.ai/2026/10/07/278415/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e5%25b0%258e%25e5%2585%25a5%25e4%25ba%258b%25e4%25be%258b10%25e9%2581%25b8%25ef%25bc%2581%25e5%259b%25bd%25e5%2586%2585%25e5%25a4%2596%25e3%2581%25ae%25e6%2588%2590%25e5%258a%259f%25e4%25ba%258b%25e4%25be%258b%25e3%2582%2592" target="_blank" rel="noopener noreferrer">元記事（<cite>AI専門ニュースメディア AINOW</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. AIエージェントと従来のチャットボットの違いは？</p>
+    <p class="faq-a">チャットボットは回答生成にとどまるが、AIエージェントは返金処理・予約変更など実際のタスクを自動実行する点が異なる。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 導入事例の数値を引用する際に気をつけることは？</p>
+    <p class="faq-a">数値が実績・パイロット検証・試算のどれなのか、何と比べた数値なのか（チャットボット比 vs 有人対応比）を確認してから使う必要がある。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=%E5%AF%8C%E5%A3%AB%E9%80%9A%E3%83%BBKlarna%E3%83%BBTAPP%E3%81%8C%E5%AE%9F%E8%A8%BC%E3%80%82AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%8C%E9%A1%A7%E5%AE%A2%E5%AF%BE%E5%BF%9C%E3%82%92%E3%80%8C7%E5%89%B2%E5%89%8A%E6%B8%9B%E3%80%8D%E3%81%8B%E3%82%89%E3%80%8C90%25%E8%87%AA%E5%8B%95%E5%8C%96%E3%80%8D%E3%81%B8&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html&text=%E5%AF%8C%E5%A3%AB%E9%80%9A%E3%83%BBKlarna%E3%83%BBTAPP%E3%81%8C%E5%AE%9F%E8%A8%BC%E3%80%82AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%8C%E9%A1%A7%E5%AE%A2%E5%AF%BE%E5%BF%9C%E3%82%92%E3%80%8C7%E5%89%B2%E5%89%8A%E6%B8%9B%E3%80%8D%E3%81%8B%E3%82%89%E3%80%8C90%25%E8%87%AA%E5%8B%95%E5%8C%96%E3%80%8D%E3%81%B8" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html" data-share-title="富士通・Klarna・TAPPが実証。AIエージェントが顧客対応を「7割削減」から「90%自動化」へ">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="salesforce-agentforce-klarna-36e97bd0">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="ai-copilot-studio-adf3f3c5.html">
+    <img src="https://ainow.ai/wp-content/uploads/2026/10/thumbnail-3.jpg" alt="" loading="lazy">
+    <span class="next-up-headline">AIエージェント導入、失敗する企業と成功する企業の差は「支援会社選び」で決まる</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="ai-ai-f167f551.html">AIエージェント導入で4割超が失敗する理由。企業が陥る10の落とし穴</a></li>
+  <li><a href="ai-ai-55814ec6.html">AIエージェント導入で業務時間が大幅削減、でも9割の企業が効果測定に失敗</a></li>
+  <li><a href="ai-24687ef2.html">AIエージェント導入で本番データ削除も、10大リスクと管理の鉄則</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

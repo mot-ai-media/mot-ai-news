@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenAIのAIが数学難問722個を証明・公開。リーマン予想関連も | AI特化メディアMOT</title>
+<meta name="description" content="OpenAIが社内AIによる数学の成果722本をGitHubで公開。過去の論争を受けて検証可能な形での発表に転換。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="OpenAI、AIが未解決の数学難問を722個解いて公開。信頼構築に本腰">
+<meta property="og:description" content="OpenAIが社内AIによる数学の成果722本をGitHubで公開。過去の論争を受けて検証可能な形での発表に転換。">
+<meta property="og:image" content="https://www.itmedia.co.jp/news/article/ogp/2610/07/2000002071/10008636/2048">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html">
+<meta property="article:published_time" content="2026-10-07T11:01:00+09:00">
+<meta property="article:modified_time" content="2026-10-07T11:01:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "OpenAI、AIが未解決の数学難問を722個解いて公開。信頼構築に本腰", "description": "OpenAIが社内AIによる数学の成果722本をGitHubで公開。過去の論争を受けて検証可能な形での発表に転換。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-07T11:01:00+09:00", "dateModified": "2026-10-07T11:01:00+09:00", "image": ["https://www.itmedia.co.jp/news/article/ogp/2610/07/2000002071/10008636/2048"], "citation": "https://www.itmedia.co.jp/news/article/2610/07/2000002071/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "OpenAIが公開した722本の論文は何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "社内の最新AIが未解決の数学問題を解いて導き出した成果です。AIに約4000問の問題を与えた評価の過程で得られたもので、一定の重要性を満たすものに絞られました。"}}, {"@type": "Question", "name": "今回の公開では何が検証可能になったのですか？", "acceptedAnswer": {"@type": "Answer", "text": "計算に使ったモデル名、プロンプト、要した計算時間やコスト、証明の形式検証（Lean）などが開示され、数学者が内容を確認できるようになりました。ただしすべての結果が形式化されているわけではありません。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "OpenAI", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/openai.html"}, {"@type": "ListItem", "position": 3, "name": "OpenAI、AIが未解決の数学難問を722個解いて公開。信頼構築に本腰", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://www.itmedia.co.jp/news/article/ogp/2610/07/2000002071/10008636/2048" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">OpenAI、AIが未解決の数学難問を722個解いて公開。信頼構築に本腰</span></div></div>
+  <h1 class="headline">OpenAI、AIが未解決の数学難問を722個解いて公開。信頼構築に本腰</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>ITmedia AI＋ 最新記事一覧</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-07 11:01</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> OpenAIが社内AIが解いた数学の成果722本を公開し、証明の検証可能性や計算コストを明記することで、数学界との信頼構築を図った。</p><h3>何が起きたか</h3><p>OpenAIが10月6日、自社の最新AIが未解決の数学問題を解いた成果を大量に公開しました。論文722本とその証明をGitHubに登録。計算コストや推論過程も記載し、数学者が内容を確認・検証できる形にしたのが特徴です。多くの成果には「Lean」という証明検証ツール対応の形式証明が付属しています。</p><h3>なぜ重要か</h3><p>AIが数学の難問を解く能力を示すこと自体は注目ですが、今回のポイントは『信頼の作り方』の転換です。OpenAIは以前、AIの成果を発表した際に数学者から疑問や批判を受けました。今回は数学者による独立組織の助言を受け、誰もが検証できる形で公表。AIの研究成果が学問界でどう位置づけられるかという根本的な問題に向き合い始めたということです。</p><h3>あなたへの影響</h3><p>企業が発表するAI成果をより批判的に・懐疑的に読む習慣がつきます。また、AIが『頭の良い計算機』から『研究パートナー』へ変わろうとしていることが見えてきます。学生や研究者、あるいは企業で新規事業を考える人にとって、『AIが本当に何ができるのか』を判断する基準が今後厳しくなる可能性があります。</p><h3>MOT読者が知っておくべき理由</h3><p>AIがどこまで信頼できるのか、企業の主張をどう読み解くかは、ChatGPT時代の必須リテラシーだからです。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>公開した成果の中には形式化されていない結果も含まれ、問題が後で見つかる可能性があります。また、外部の独立組織が『この発表過程は支持しない』と明言したように、AIの高度な研究への依存が進む一方で、その過程は企業に閉じられたままという矛盾が解決されていません。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>今回の公開パターンが今後の標準になれば、AI企業の成果がより検証しやすく・信頼しやすくなります。また数学者がAI成果を理解するためのワークショップなど支援施策が始まることで、人間とAIが協働できる環境が整い始める可能性があります。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>OpenAIの今回の動きは『沈黙と言い張り』から『検証可能な開示』への転換ですが、独立組織が「企業管理下の社内モデルで高度な問題を試すこと自体に反対」と指摘した点が見逃せません。つまり今回の公開は信頼醸成の一歩であり、AIの研究開発がより開放的になるべきか否かという根本的な論争はまだ決着していないということです。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>数学界がこの公開成果をどう評価するか、特に形式化されていない結果に問題が見つかるか。また、OpenAIが約束した『コミュニティ運営の公開先』の検討がどう進むか、企業外のリポジトリへの移行が実現するかが焦点です。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/openai.html">#OpenAI</a><a class="tag-pill" href="../topics/b79624b8ae.html">#数学</a><a class="tag-pill" href="../topics/104d07c92d.html">#AI検証</a></div>
+  <script>window.motPageTags=["OpenAI", "数学", "AI検証"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">会員制ビジネスの運営を、まるごと自動化</h3><p class="sponsor-desc">ノーコードSaaS「TAKETIN」。会員管理・課金・予約などをコードを書かずに構築できる。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC0UI+60PSZ6+5Y2Y+5YJRM" rel="sponsored nofollow" target="_blank" class="sponsor-text-link">会員制ビジネスの運営を丸ごと自動化！ノーコードSaaS【TAKETIN】</a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC0UI+60PSZ6+5Y2Y+5YJRM" alt=""></div><span class="sponsor-cta">詳しく見る &rarr;</span><p class="sponsor-name">TAKETIN</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.itmedia.co.jp/news/article/2610/07/2000002071/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>ITmedia AI＋ 最新記事一覧</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.itmedia.co.jp/news/article/2610/07/2000002071/" target="_blank" rel="noopener noreferrer">元記事（<cite>ITmedia AI＋ 最新記事一覧</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. OpenAIが公開した722本の論文は何ですか？</p>
+    <p class="faq-a">社内の最新AIが未解決の数学問題を解いて導き出した成果です。AIに約4000問の問題を与えた評価の過程で得られたもので、一定の重要性を満たすものに絞られました。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 今回の公開では何が検証可能になったのですか？</p>
+    <p class="faq-a">計算に使ったモデル名、プロンプト、要した計算時間やコスト、証明の形式検証（Lean）などが開示され、数学者が内容を確認できるようになりました。ただしすべての結果が形式化されているわけではありません。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=OpenAI%E3%80%81AI%E3%81%8C%E6%9C%AA%E8%A7%A3%E6%B1%BA%E3%81%AE%E6%95%B0%E5%AD%A6%E9%9B%A3%E5%95%8F%E3%82%92722%E5%80%8B%E8%A7%A3%E3%81%84%E3%81%A6%E5%85%AC%E9%96%8B%E3%80%82%E4%BF%A1%E9%A0%BC%E6%A7%8B%E7%AF%89%E3%81%AB%E6%9C%AC%E8%85%B0&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html&text=OpenAI%E3%80%81AI%E3%81%8C%E6%9C%AA%E8%A7%A3%E6%B1%BA%E3%81%AE%E6%95%B0%E5%AD%A6%E9%9B%A3%E5%95%8F%E3%82%92722%E5%80%8B%E8%A7%A3%E3%81%84%E3%81%A6%E5%85%AC%E9%96%8B%E3%80%82%E4%BF%A1%E9%A0%BC%E6%A7%8B%E7%AF%89%E3%81%AB%E6%9C%AC%E8%85%B0" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html" data-share-title="OpenAI、AIが未解決の数学難問を722個解いて公開。信頼構築に本腰">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="openai-ai-1fa658b4">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="openai-ai-c629e560.html">
+    <img src="https://www.itmedia.co.jp/news/article/ogp/2609/22/2000001671/10007203/2048" alt="" loading="lazy">
+    <span class="next-up-headline">OpenAI、100件超の数学難問を解決。数学者の監視委員会を設置する異例の決断</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="openai-anthropic-16c9d8f2.html">OpenAI vs Anthropic、AI安全論争が激化。アルトマンが衝撃発言</a></li>
+  <li><a href="eliza-openai-16397447.html">毎月新モデル登場の秘密、AIが自分で進化する「再帰的自己改善」の現実</a></li>
+  <li><a href="openai-anthropic-2e07b625.html">トークン単価8割下げなのに請求額は増加。AIの『見えない浪費』の正体</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

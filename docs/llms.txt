@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-07 10:28
+最終更新: 2026-10-07 11:02
 
 ## 記事一覧
 
+- [AIエージェント導入事例10選。成功企業の数値・成果から学ぶ](https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html): 顧客対応・営業・社内業務で実績を上げるAIエージェント。数値の読み方を知れば、社内提案が通りやすくなる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-07 11:02)
+- [商品開発プロセスをAIで一元化、NTTデータが新連携](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-b205a5d6.html): インテージとNTTデータが連携し、消費財メーカーの商品開発をAIで支援する仕組みを構築。データ分析から商品化まで自動化される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 11:01)
+- [OpenAIのAIが数学難問722個を証明・公開。リーマン予想関連も](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html): OpenAIが社内AIによる数学の成果722本をGitHubで公開。過去の論争を受けて検証可能な形での発表に転換。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 11:01)
+- [AIエージェント導入支援とは？費用相場・選び方・補助金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-copilot-studio-adf3f3c5.html): AIエージェント導入で失敗しないために、支援会社選びの判断軸と支援内容の相場を知ることが必須。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-07 11:01)
+- [FreeCAD×Claude/ChatGPT連携とは？MCPインターフェースの仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/claude-chatgpt-4a39bd0b.html): 大規模言語モデルがCAD設計ツールと直結し、AIの指示で3Dモデルを自動生成できる時代へ。 (出典: 3Druck.com / 更新: 2026-10-07 11:00)
 - [Anthropic Claude Startups プログラム拡大：スタートアップへの支援強化の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fad16983.html): AI企業Anthropicが、自社のAIモデル「Claude」をスタートアップ企業向けに提供するプログラムを拡大している。創業期の企業と急成長する企業をターゲットに、AIツールの普及を急速に進める戦略だ。 (出典: CNBC / 更新: 2026-10-07 10:28)
 - [AI産業の過度な投資は危険。BitMEX元CEO、仮想通貨との関係性を指摘](https://mot-ai-media.github.io/mot-ai-news/articles/ai-fd095d65.html): 暗号資産取引所BitMEXの元CEOが、現在のAI関連インフラへの莫大な投資が過剰だと警告。設備投資バブルの崩壊とそれに伴う金融危機がやってくると予測し、その後の相場変動に賭けている。 (出典: CNBC / 更新: 2026-10-07 10:27)
 - [PyMCとは？ベイズ統計モデルの可視化方法を初心者向けに解説](https://mot-ai-media.github.io/mot-ai-news/articles/pymc-python-d1ba134a.html): データ分析ツールPyMCのモデル構造を図で理解する方法が詳しく解説されています。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:27)
@@ -202,8 +207,3 @@
 - [Anthropic Sonnet 5.5発表：安価なAIモデルがコーディング向けに強化](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html): AI企業Anthropicが、新型AI「Sonnet 5.5」をリリースした。同社CEOが「AI開発の減速」を主張していたが、この発表は一見矛盾している。ただしSonnet 5.5は最先端性を求めず、むしろコーディングや知識系の実務作業に特化し、より手頃な価格設定を目指す製品となっている。 (出典: CNBC / 更新: 2026-09-29 16:28)
 - [Nvidia 1500億ドル自社株買戻し発表、株価上昇期待](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c397fad7.html): AI半導体大手Nvidiaが150億ドル規模の追加自社株買い戻しプログラムを実施することが明らかになった。米著名投資家ジム・クレイマー氏は、この施策が同社の株価動向に大きな影響を与える可能性があると指摘している。 (出典: CNBC / 更新: 2026-09-29 16:28)
 - [ザッカーバーグ・Amodei・Altmanがトランプと会談、AI開発ペース巡る議論が本格化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-4cb770cd.html): Meta、OpenAI、Anthropicなど大手AI企業の経営陣がトランプ次期大統領と会談予定。AI開発の速度を緩めるべきか加速させるべきかという業界内の対立が、米政治への働きかけに発展しており、今後の規制方針に大きな影響を与える可能性がある。 (出典: CNBC / 更新: 2026-09-29 13:28)
-- [AMD株価1兆ドル超え、エージェントAI需要で次のステージへ。日本の産業にも影響か](https://mot-ai-media.github.io/mot-ai-news/articles/amd-ai-19edbf96.html): 米半導体大手AMDが時価総額1兆ドルを突破した。背景には、将来のAI技術である「エージェントAI」が高性能CPUへの需要を大幅に拡大させるとの見方がある。CNBCの著名コメンテーターは、この上昇がまだ序章に過ぎないと指摘している。 (出典: CNBC / 更新: 2026-09-29 13:27)
-- [構造解析ソフトに「AI Expert」搭載、自然言語で条件設定から結果確認まで自動化](https://mot-ai-media.github.io/mot-ai-news/articles/adventurecluster-cae-2c6940f1.html): エンジニアが自然言語でAIに指示するだけで構造解析が完結する新機能が登場。専門知識不要の時代へ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:01)
-- [F-Droid 2.0とは？10年ぶりの刷新で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/f-droid-android-81728ff3.html): Android向けの独立系アプリストア「F-Droid」が10年ぶりに刷新。UIの大幅改善と検索・自動更新機能の追加で、より使いやすく。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:01)
-- [人気のAIユースケースと投資効果のギャップ、Gartner調査](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-726949b8.html): 企業が注目するAIと実際に成果を出すAIが大きく異なることが調査で明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:01)
-- [AMD、World Labs買収で何が変わる？フェイフェイ・リー博士とのタッグの狙い](https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-a469e834.html): AMDが空間知能の研究企業を1.3兆円で買収。AIの次段階に向けてハードウェアとソフトウェアの一体開発を加速させる動き。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:00)
