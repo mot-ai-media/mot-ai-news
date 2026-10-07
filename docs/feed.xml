@@ -4,17 +4,52 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>MetaとOpenAIが「AI営業マン」の統一ルール作成へ。企業間の契約を自動化する標準化に動く</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-sierra-c47ec692.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-sierra-c47ec692.html</guid>
-    <description>MetaとOpenAIの経営者Bret Taylorが率いるスタートアップSierraが、AI ボットとのビジネス取引を容易にするための技術標準の構築に乗り出した。企業間のAI活用を整理する動き。</description>
-    <pubDate>Wed, 07 Oct 2026 09:25:00 +0900</pubDate>
+    <title>Anthropic、スタートアップ向けプログラム拡大。Claude普及の次の一手</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fad16983.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fad16983.html</guid>
+    <description>AI企業Anthropicが、自社のAIモデル「Claude」をスタートアップ企業向けに提供するプログラムを拡大している。創業期の企業と急成長する企業をターゲットに、AIツールの普及を急速に進める戦略だ。</description>
+    <pubDate>Wed, 07 Oct 2026 10:28:00 +0900</pubDate>
   </item>
   <item>
-    <title>有名投資家クレーマーが指摘、AI投資で勝つなら『大手テック企業』が最適解</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-312954ca.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-312954ca.html</guid>
-    <description>米投資家ジム・クレーマーが、AI時代の投資戦略として「確立した事業基盤を持つ大手テック企業」に注目するよう提言。多角的にAIの恩恵を受けられる企業が、AI投資の最良の選択肢だという論点が海外で注目を集めています。</description>
+    <title>AI産業に「兆単位の無駄」か。大物投資家が警告する過度な設備投資の危険性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-fd095d65.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-fd095d65.html</guid>
+    <description>暗号資産取引所BitMEXの元CEOが、現在のAI関連インフラへの莫大な投資が過剰だと警告。設備投資バブルの崩壊とそれに伴う金融危機がやってくると予測し、その後の相場変動に賭けている。</description>
+    <pubDate>Wed, 07 Oct 2026 10:27:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>PyMCでベイズ統計が可視化できる、データ分析の複雑さが一気に解ける</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/pymc-python-d1ba134a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/pymc-python-d1ba134a.html</guid>
+    <description>データ分析ツールPyMCのモデル構造を図で理解する方法が詳しく解説されています。</description>
+    <pubDate>Wed, 07 Oct 2026 09:27:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIの急速進化が産業用システムの脅威に、新たな防御戦略が急務</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/txone-networks-ot-3e9518fb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/txone-networks-ot-3e9518fb.html</guid>
+    <description>AI技術の発展に伴い、工場やインフラなどの産業用システムへの攻撃が高度化。新しい防御モデルが注目を集めている。</description>
+    <pubDate>Wed, 07 Oct 2026 09:26:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI vs Anthropic、AI安全論争が激化。アルトマンが衝撃発言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-16c9d8f2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-16c9d8f2.html</guid>
+    <description>AIの利便性と危険性のバランスについて、OpenAIとAnthropicの主張が真っ向から対立。</description>
+    <pubDate>Wed, 07 Oct 2026 09:26:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが自分自身を改善する時代へ。ELYZAが「RSI研究」開始で何が変わるか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elyza-ai-24d1ca55.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elyza-ai-24d1ca55.html</guid>
+    <description>AIが人間の指示なしに自動で学習・改善する技術の研究が本格始動。AIの進化が加速する可能性。</description>
+    <pubDate>Wed, 07 Oct 2026 09:26:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、毎回答えが変わる理由。「確率で動く」生成AIの正体</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-4dd5c8f2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-4dd5c8f2.html</guid>
+    <description>生成AIは「次の言葉を確率で予測する」仕組みのため、毎回答えが変わり、存在しない情報を信じ込ませる危険性がある。</description>
     <pubDate>Wed, 07 Oct 2026 09:25:00 +0900</pubDate>
   </item>
   <item>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-549ccc4a.html</guid>
     <description>欧州のAI規制対応で、OpenAIがChatGPTに目に見えない透かしを追加。AI生成テキストを自動判定できる仕組み。</description>
     <pubDate>Tue, 06 Oct 2026 14:56:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>焼肉きんぐ1000万件流出、AIじゃなく「情報の狙われ方」が変わった</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a91244f6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a91244f6.html</guid>
-    <description>9月末から相次ぐ個人情報流出は単一の攻撃ではなく、攻撃者の戦略そのものが変化している。</description>
-    <pubDate>Tue, 06 Oct 2026 14:55:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>合成紙ユポが半世紀の「クレーム対応」をAIで継承。課題解決が新ビジネスに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-d0722cc0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-d0722cc0.html</guid>
-    <description>製造業の現場知をAIで継承し、クレームを商機に変える組織改革が進行中。</description>
-    <pubDate>Tue, 06 Oct 2026 14:55:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>SpaceXの株価が8月以降60%急騰、マスクが再び兆万長者に。AI事業とStarship進展が評価</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-c9eac27a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-c9eac27a.html</guid>
-    <description>イーロン・マスク率いるSpaceXの株価が8月の底値から60%近く上昇し、同社のAIビジネスとStarship開発の進展が買い材料となっている。この株価上昇により、マスク本人の資産規模も再び1兆ドル超の大台に到達したとみられている。</description>
-    <pubDate>Tue, 06 Oct 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Nokia CEO激白：AI需要は衰えず、むしろ供給不足が足かせ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nokia-ai-8547cea3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nokia-ai-8547cea3.html</guid>
-    <description>ノキアのCEOが、AI用データセンターの建設速度は現在の供給制約がなければ2倍に加速できると発言。AIの急速な展開に対し、半導体やインフラの不足が実際のボトルネックになっていることが明らかになった。</description>
-    <pubDate>Tue, 06 Oct 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの『Astra』名称、別企業との混同で波紋</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html</guid>
-    <description>OpenAIが新AIモデル『Astra』と命名したことで、既存企業との名称重複による混同が生じている。</description>
-    <pubDate>Tue, 06 Oct 2026 10:22:00 +0900</pubDate>
   </item>
 </channel></rss>

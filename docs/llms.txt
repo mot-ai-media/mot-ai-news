@@ -3,12 +3,17 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-07 09:25
+最終更新: 2026-10-07 10:28
 
 ## 記事一覧
 
-- [AI投資で失敗しない選択肢は大手テック企業。投資家クレーマーの指摘が示すもの](https://mot-ai-media.github.io/mot-ai-news/articles/ai-312954ca.html): 米投資家ジム・クレーマーが、AI時代の投資戦略として「確立した事業基盤を持つ大手テック企業」に注目するよう提言。多角的にAIの恩恵を受けられる企業が、AI投資の最良の選択肢だという論点が海外で注目を集めています。 (出典: CNBC / 更新: 2026-10-07 09:25)
-- [Meta OpenAI Sierra AI統一標準 ビジネス自動化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-sierra-c47ec692.html): MetaとOpenAIの経営者Bret Taylorが率いるスタートアップSierraが、AI ボットとのビジネス取引を容易にするための技術標準の構築に乗り出した。企業間のAI活用を整理する動き。 (出典: CNBC / 更新: 2026-10-07 09:25)
+- [Anthropic Claude Startups プログラム拡大：スタートアップへの支援強化の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fad16983.html): AI企業Anthropicが、自社のAIモデル「Claude」をスタートアップ企業向けに提供するプログラムを拡大している。創業期の企業と急成長する企業をターゲットに、AIツールの普及を急速に進める戦略だ。 (出典: CNBC / 更新: 2026-10-07 10:28)
+- [AI産業の過度な投資は危険。BitMEX元CEO、仮想通貨との関係性を指摘](https://mot-ai-media.github.io/mot-ai-news/articles/ai-fd095d65.html): 暗号資産取引所BitMEXの元CEOが、現在のAI関連インフラへの莫大な投資が過剰だと警告。設備投資バブルの崩壊とそれに伴う金融危機がやってくると予測し、その後の相場変動に賭けている。 (出典: CNBC / 更新: 2026-10-07 10:27)
+- [PyMCとは？ベイズ統計モデルの可視化方法を初心者向けに解説](https://mot-ai-media.github.io/mot-ai-news/articles/pymc-python-d1ba134a.html): データ分析ツールPyMCのモデル構造を図で理解する方法が詳しく解説されています。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:27)
+- [ELYZA「RSI研究」とは？AIが自己改善する仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/elyza-ai-24d1ca55.html): AIが人間の指示なしに自動で学習・改善する技術の研究が本格始動。AIの進化が加速する可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:26)
+- [OpenAIアルトマン vs Anthropic、AI安全方針の対立が明らかに](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-16c9d8f2.html): AIの利便性と危険性のバランスについて、OpenAIとAnthropicの主張が真っ向から対立。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:26)
+- [OTセキュリティとは？AI時代に求められる防御戦略を解説](https://mot-ai-media.github.io/mot-ai-news/articles/txone-networks-ot-3e9518fb.html): AI技術の発展に伴い、工場やインフラなどの産業用システムへの攻撃が高度化。新しい防御モデルが注目を集めている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:26)
+- [生成AIが間違える理由とは？ハルシネーション対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-4dd5c8f2.html): 生成AIは「次の言葉を確率で予測する」仕組みのため、毎回答えが変わり、存在しない情報を信じ込ませる危険性がある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:25)
 - [GPT-6 Astraがナポレオンの暗号書簡を解読、217年ぶりに内容判明](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7696047e.html): OpenAIの最新AI「GPT-6 Astra」が、200年以上前のナポレオンの暗号書簡を初めて解読。AIの能力の広がりを示す事例。 (出典: Yahoo!ニュース / 更新: 2026-10-06 22:53)
 - [Mistral Le Chonk AI 1兆パラメータ 中国対抗 日本への影響](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-le-chonk-49966735.html): フランスのAI企業Mistralが新型大規模言語モデル「Le Chonk」を発表。中国企業との競争が激化するなか、欧米系の独立系AI開発が新段階に入った。 (出典: CNBC / 更新: 2026-10-06 22:28)
 - [イタリア首相メローニが音声商標登録 AI deepfake対策 テイラー・スウィフトも](https://mot-ai-media.github.io/mot-ai-news/articles/ai-deepfake-euipo-1bed4d68.html): イタリアのジョルジア・メローニ首相が、自分の声をEU知的財産庁に商標登録申請した。AIによる音声合成技術の悪用を防ぐ防衛策で、テイラー・スウィフトやマシュー・マコノヒーら海外セレブに続く動きだ。日本でも同様の脅威が迫りつつある。 (出典: BBC / 更新: 2026-10-06 22:28)
@@ -202,8 +207,3 @@
 - [F-Droid 2.0とは？10年ぶりの刷新で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/f-droid-android-81728ff3.html): Android向けの独立系アプリストア「F-Droid」が10年ぶりに刷新。UIの大幅改善と検索・自動更新機能の追加で、より使いやすく。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:01)
 - [人気のAIユースケースと投資効果のギャップ、Gartner調査](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-726949b8.html): 企業が注目するAIと実際に成果を出すAIが大きく異なることが調査で明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:01)
 - [AMD、World Labs買収で何が変わる？フェイフェイ・リー博士とのタッグの狙い](https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-a469e834.html): AMDが空間知能の研究企業を1.3兆円で買収。AIの次段階に向けてハードウェアとソフトウェアの一体開発を加速させる動き。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:00)
-- [NVIDIA「Open Agent Safety Platform」とは？AIエージェント安全対策](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-anthropic-542a0885.html): NVIDIAがAIエージェントの暴走を防ぐ安全基盤を発表。Anthropic、Microsoftなど大手IT企業100社以上が参加。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-29 11:00)
-- [OpenAI GPT-6.1 Astra 発表中止 安全性懸念でAI大手が初の判断](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-fb9c5ac6.html): ChatGPTで知られるOpenAIが、新型AI『GPT-6.1 Astra』の提供を安全性上の理由から中止することを発表した。Web閲覧やアプリ操作を自動で実行するAIモデルが、同社の安全基準を満たさなかったという。AI業界の開発競争が加速する中、大手企業が自ら製品化を断念する異例の判断は、AIの安全性をめぐる議論が実務段階に入ったことを示している。 (出典: BBC / 更新: 2026-09-29 10:28)
-- [サムスン10億ドルをAI基盤施設投資、KKR・Nvidia連携](https://mot-ai-media.github.io/mot-ai-news/articles/samsung-nvidia-9b9c32fe.html): Samsung Electronicsとグループ5社が、KKRが主導するAI基盤インフラ企業Helixに10億ドルを投資。世界的なAIインフラ戦略の一環。 (出典: CNBC / 更新: 2026-09-29 10:28)
-- [Khanna議員がAI安全法案提出—再帰型技術に規制枠組み](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-7981bf26.html): 米国の下院議員が、自らを改善し続けるAI技術の危険性に対応する法案を提出予定。安全対策が整うまで該当技術の利用を制限する内容で、AI規制の国際的な動きが加速している。 (出典: CNBC / 更新: 2026-09-29 07:28)
-- [AMD World Labs買収 82億ドル Fei-Fei Li](https://mot-ai-media.github.io/mot-ai-news/articles/amd-world-labs-dd8828b4.html): 半導体大手のAMDが、AI研究企業World Labsを約82億ドルで買収することを発表。設立から数ヶ月で企業価値が急騰した同社の最高経営責任者Fei-Fei Liは、AMD最高科学顧問に就任する。 (出典: CNBC / 更新: 2026-09-29 07:27)

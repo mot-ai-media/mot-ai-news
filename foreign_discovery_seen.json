@@ -1,17 +1,6 @@
 [
   {
     "tokens": [
-      "concerns",
-      "model",
-      "openai",
-      "rollout",
-      "safety",
-      "scraps"
-    ],
-    "ts": "2026-09-29T10:28:00"
-  },
-  {
-    "tokens": [
       "billion",
       "firm",
       "infrastructure",
@@ -805,5 +794,35 @@
       "tame"
     ],
     "ts": "2026-10-07T09:25:43"
+  },
+  {
+    "tokens": [
+      "arthur",
+      "being",
+      "betting",
+      "boom",
+      "comes",
+      "hayes",
+      "next",
+      "says.",
+      "trillions",
+      "wasted"
+    ],
+    "ts": "2026-10-07T10:27:55"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "bid",
+      "claude",
+      "companies",
+      "expands",
+      "fast-growing",
+      "founders",
+      "program",
+      "snag",
+      "startups"
+    ],
+    "ts": "2026-10-07T10:28:10"
   }
 ]
