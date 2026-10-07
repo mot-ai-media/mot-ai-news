@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Pinterest、AIが美容Pinを美容室の専門用語に変換。サロン予約の準備が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/pinterest-ai-fcad74ce.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/pinterest-ai-fcad74ce.html</guid>
+    <description>PinterestのAI機能が、ヘアスタイルやネイルの画像を美容師の用語で説明し、料金や所要時間もセットで提案。</description>
+    <pubDate>Wed, 07 Oct 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>フランスのMistral AI、1兆パラメータ「Le Chonk」で米中勢に挑戦</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-mistral-large-4-dfb231c3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-mistral-large-4-dfb231c3.html</guid>
+    <description>フランスのMistral AIが新型AI「Mistral Large 4」を発表。米国や中国の競合に対抗する独自路線を模索。</description>
+    <pubDate>Wed, 07 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>LibreOffice、AIなしを逆に武器に。プライバシー重視の「非AI方針」を宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/libreoffice-ai-f37dd1b5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/libreoffice-ai-f37dd1b5.html</guid>
+    <description>オープンソースのLibreOfficeが、AIを搭載しない方針を明確に宣言。ユーザーデータの保護を優先する戦略。</description>
+    <pubDate>Wed, 07 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、スタートアップに「Claude」を1年無料提供。AIの民主化が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-34171419.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-34171419.html</guid>
+    <description>AI企業Anthropicが、スタートアップ向けに有料プランを1年無料で提供するプログラムを発表。AIアクセスの垣根が低くなる。</description>
+    <pubDate>Wed, 07 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、7割が放棄される衝撃。ガートナーが警告する「偽りのAI導入」の罠</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-6f7ce66e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-6f7ce66e.html</guid>
+    <description>企業が導入したAIエージェントの7割が2028年までに放棄される見通し。単なるコンサルティングをAIソリューションとして売る危険性も指摘されている。</description>
+    <pubDate>Wed, 07 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPT「ティーン版」は危険だ。米国の子ども安全団体が使用警告</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f81ac359.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f81ac359.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/pymc-python-d1ba134a.html</guid>
     <description>データ分析ツールPyMCのモデル構造を図で理解する方法が詳しく解説されています。</description>
     <pubDate>Wed, 07 Oct 2026 09:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの急速進化が産業用システムの脅威に、新たな防御戦略が急務</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/txone-networks-ot-3e9518fb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/txone-networks-ot-3e9518fb.html</guid>
-    <description>AI技術の発展に伴い、工場やインフラなどの産業用システムへの攻撃が高度化。新しい防御モデルが注目を集めている。</description>
-    <pubDate>Wed, 07 Oct 2026 09:26:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI vs Anthropic、AI安全論争が激化。アルトマンが衝撃発言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-16c9d8f2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-16c9d8f2.html</guid>
-    <description>AIの利便性と危険性のバランスについて、OpenAIとAnthropicの主張が真っ向から対立。</description>
-    <pubDate>Wed, 07 Oct 2026 09:26:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが自分自身を改善する時代へ。ELYZAが「RSI研究」開始で何が変わるか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elyza-ai-24d1ca55.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elyza-ai-24d1ca55.html</guid>
-    <description>AIが人間の指示なしに自動で学習・改善する技術の研究が本格始動。AIの進化が加速する可能性。</description>
-    <pubDate>Wed, 07 Oct 2026 09:26:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、毎回答えが変わる理由。「確率で動く」生成AIの正体</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-4dd5c8f2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-4dd5c8f2.html</guid>
-    <description>生成AIは「次の言葉を確率で予測する」仕組みのため、毎回答えが変わり、存在しない情報を信じ込ませる危険性がある。</description>
-    <pubDate>Wed, 07 Oct 2026 09:25:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>217年間の謎を解く、GPT-6 Astraがナポレオン暗号書簡を解読</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7696047e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7696047e.html</guid>
-    <description>OpenAIの最新AI「GPT-6 Astra」が、200年以上前のナポレオンの暗号書簡を初めて解読。AIの能力の広がりを示す事例。</description>
-    <pubDate>Tue, 06 Oct 2026 22:53:00 +0900</pubDate>
   </item>
 </channel></rss>
