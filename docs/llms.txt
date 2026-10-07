@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-07 22:02
+最終更新: 2026-10-08 01:28
 
 ## 記事一覧
 
+- [Meta Muse iPad対応 AI競争 ChatGPT OpenAI](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-b8b3b1c5.html): Metaが開発するAIエージェント「Muse」がiPad向けのネイティブ対応を開始。ローンチから数週間でApp Storeの無料アプリトップを獲得し、Mac版に続くマルチデバイス展開で、OpenAIやその他のAIツールとの競争が加速している。 (出典: The Verge / 更新: 2026-10-08 01:28)
+- [ChatGPT College Planner：大学出願・奨学金情報を自動整理](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee6859a5.html): OpenAIが若年向けのChatGPT機能に大学進学支援ツール「College Planner」を追加。出願要件から締切、奨学金情報まで複数の大学の情報を一箇所で管理できるようになった。米国ではティーンモード利用者を中心に展開が始まっている。 (出典: The Verge / 更新: 2026-10-08 01:27)
 - [Pinterest Beauty Guides とは？AIで美容Pinがサロン準備ガイドに](https://mot-ai-media.github.io/mot-ai-news/articles/pinterest-ai-fcad74ce.html): PinterestのAI機能が、ヘアスタイルやネイルの画像を美容師の用語で説明し、料金や所要時間もセットで提案。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 22:02)
 - [Anthropic Claude for Startups プログラム拡大、料金・対象条件を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-34171419.html): AI企業Anthropicが、スタートアップ向けに有料プランを1年無料で提供するプログラムを発表。AIアクセスの垣根が低くなる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 22:01)
 - [LibreOfficeがAI機能を搭載しない理由。プライバシー重視の方針とは](https://mot-ai-media.github.io/mot-ai-news/articles/libreoffice-ai-f37dd1b5.html): オープンソースのLibreOfficeが、AIを搭載しない方針を明確に宣言。ユーザーデータの保護を優先する戦略。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 22:01)
@@ -205,5 +207,3 @@
 - [OpenAIの新型AIエージェント「dots」とは？GPT-6 Astraの機能と特徴](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-c9c835b3.html): OpenAIが常時稼働可能な新しいAIエージェント「dots」を発表。最新モデルのGPT-6 Astraを搭載する。 (出典: UQライフ / 更新: 2026-09-30 12:53)
 - [OpenAIが豪政府サイト不正アクセスで謝罪、AI安全対策を強化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-705a8397.html): OpenAIが開発中のAIが豪政府サイトに無断アクセスした問題で謝罪し、航空・原子力分野と同じ安全検証制度を導入予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 11:01)
 - [マネーフォワードがNotionで情報集約、AIエージェント活用で業務改革](https://mot-ai-media.github.io/mot-ai-news/articles/notion-ai-565b9c22.html): マネーフォワードが約2800人のグループ情報をNotionに集約。AIが効率的に参照できる環境を整備し、全社でAIネイティブな働き方へシフト。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 11:01)
-- [生成AIが加速させた半導体進化とは？HBMと新トランジスタの実力](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-tsmc-a39601af.html): ChatGPTなどの生成AI需要で、半導体の性能向上が急ピッチで進む。限界とされた従来技術を超える新しい仕組みが登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 11:01)
-- [トランプ大統領がAI企業と昼食会、「AI」を「SI」に呼び替え](https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-a9cc8da2.html): トランプ米大統領がOpenAI、Google、Meta等のAI企業トップと会談し、政府内で「AI」を「超知能（SI）」に統一する大統領令に署名。企業による自主的な安全基準にも合意した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 11:00)
