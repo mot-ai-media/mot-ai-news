@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-07 14:31
+最終更新: 2026-10-07 16:26
 
 ## 記事一覧
 
+- [Hark Pro とは？プライバシー対応のAI個人助手、料金・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hark-ai-e5d1b198.html): プライバシーを重視したAI個人助手『Hark Pro』が公開。PCを代わりに操作するAIが実用化段階へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:26)
+- [人間行動予測AIとは？ChatGPTとの違い・Mirror Particleが開発中](https://mot-ai-media.github.io/mot-ai-news/articles/mirror-particle-ai-c0a0a7f4.html): 人間の行動を予測するAIで、LLMの役割演技アプローチでは不足している視覚や社会知性まで含む新型AIが注目を集めている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:26)
+- [Lambda IPO予定、44億ドル調達・企業価値145億ドルに](https://mot-ai-media.github.io/mot-ai-news/articles/lambda-nvidia-4e425615.html): AI企業向けGPU供給のLambdaが大型調達を実施、2027年の上場を控えて資金確保を急ぐ (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:25)
+- [AIエージェントがWebサイトで使用不可に。Amazon・Walmartの対応は](https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-a9ee6e88.html): ショッピングや予約を自動化するAIエージェントが、Webサイトのブロック機能で機能できなくなる事態が相次いでいる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:25)
+- [AI投稿審査ツール「PolicyLM-1.7B」とは？Musubiが発表した内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/musubi-c3d8360c.html): Musubiが新型AIモデルで、英語のルールをそのまま投稿チェックに使える仕組みを開発。従来より低コストで柔軟になる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:24)
 - [Google新型画像生成AI「Nano Banana 2.1」料金は前モデル比で半額に](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-90ba66cb.html): Googleが画像生成AIの新版を発表。性能向上と同時に、APIの画像出力料金がほぼ半額になった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:31)
 - [Mistral Large 4とは？1兆パラメータAIの性能・料金・公開時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-llm-6016f5b1.html): フランスのMistral AIが最大規模モデルを発表。セキュリティとコーディング能力で他社モデルを上回り、月末にオープンウェイト公開予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:31)
 - [Melius（メリウス）とは？AI広告生成プラットフォーム、25M資金調達](https://mot-ai-media.github.io/mot-ai-news/articles/melius-ai-049bf6f5.html): 前職でのアイデアを全て捨て、AIで広告クリエイティブを自動生成するプロダクトに絞った結果、2ヶ月で100万ドル超の年間売上を達成。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 14:31)
@@ -202,8 +207,3 @@
 - [GPT-6.1 Solとは？料金・性能・使える人を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-988079d8.html): OpenAIが高性能モデルの廉価版「GPT-6.1 Sol」を発表。最高峰モデルに迫る性能をコスト5分の1で提供。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 07:06)
 - [OpenAI「Decisions API」とは？Jevとの違い・使い方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-f126222f.html): OpenAIが高速判断APIを発表。話題のAIモデル「Jev」に追従する動き。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 07:06)
 - [ChatGPT Ultrafastモード料金・速度の全容、Pro 500プラン新設の意味](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-1d9ee134.html): OpenAIが高速推論「Ultrafastモード」を発表。最上位プラン月500ドルでChatGPTが最大8倍高速化される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 07:06)
-- [OpenAIの「dots」とは？24時間稼働するAIエージェント機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d8233082.html): OpenAIが常時稼働するAIエージェント「dots」を発表。ChatGPTユーザーが指示すると、AIが自動で4000以上のアプリを操り24時間働く。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 07:06)
-- [日本企業がAI時代に置き去りになる理由とは？職人気質と暗黙知の課題](https://mot-ai-media.github.io/mot-ai-news/articles/ecfe4122.html): AI時代、日本特有のハイコンテクスト文化が組織開発の課題に。明確化・自動化が鍵。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 07:05)
-- [OpenAI Dots AIエージェント発表 - 自動化アシスタントの次世代競争](https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-muse-7562a874.html): OpenAIがDevDay 2026でAIエージェント「Dots」を発表。GPT-6 Astraを搭載し、複数アプリを連携させながらバックグラウンドで自動的にタスクをこなす常時稼働型のAIアシスタント。Meta の「Muse」との機能競争が本格化 (出典: The Verge / 更新: 2026-09-30 04:55)
-- [OpenAI DevDay 2026：ChatGPT Pro月500ドル、AI代理人Dots発表、抗議活動が同時開催](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-13cfd55e.html): OpenAIは9月29日の年次イベントDevDay 2026で、月額500ドルの高額プラン「ChatGPT Pro」やAI代理人「Dots」など複数の新機能を発表。一方、会場外では労働搾取やICE契約をめぐる大規模な抗議活動が展開され、営利優先姿勢への批判が相次いだ。 (出典: The Verge / 更新: 2026-09-30 04:55)
-- [GPT-6サイバー攻撃やデータ盗難、セキュリティ対策の最新動向](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html): AI開発企業を狙う攻撃が激化。大規模データ盗難事件と防御技術の進展を一挙報道 (出典: CISO Series / 更新: 2026-09-29 22:53)

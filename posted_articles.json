@@ -1,13 +1,5 @@
 [
   {
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbl9YNGE0elowOHR3OHFZSVhGVGFhbjFQZ0p3dFg4NWFTdGZYdUwzQkpIZlNLUzg2aEk3YVZFRXY5TG9qTW90RjFVYnVZZUo1Y1FNMjIyREhJOTlHT19GNTZSWG56WnE0TW9jZ0FCcWZlZmY4UFB4OWIxbHpvWURXZmVJSlllZTlMc09uVi1R?oc=5",
-    "notified_at": "2026-09-07T05:53:13.776725+00:00"
-  },
-  {
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KaWNSc0k4eWYyM2tVTEVTdEowVk9VbEgycjN4LVBUalFBQTh6MDhpcUNFMmRoME1nV3MzaVVaSlhlN1JsbnY4ZUM3NVZ3LV9rbVd0aEtrSmF5SHk0OV81YjVZUHI0YjJKMkxqZEFPaFM?oc=5",
-    "notified_at": "2026-09-07T05:53:13.776725+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mXzBJNFRjUi1VYXI0Vm5sMWZ5MENPZEFTMktSVEMwc0VnUF9DUWt6eGxYd0hrTTlOYWkzb003c1pBQUVHWkdPeG9HZk5sRWhiVlFqV0lDd0llM1hOcHVFMDl4SWpYRDJfNmxraw?oc=5",
     "notified_at": "2026-09-07T07:49:02.561353+00:00"
   },
@@ -4506,5 +4498,25 @@
   {
     "link": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
     "notified_at": "2026-10-07T05:31:52.029269+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+    "notified_at": "2026-10-07T07:24:46.750997+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+    "notified_at": "2026-10-07T07:25:13.938946+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+    "notified_at": "2026-10-07T07:25:37.926119+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+    "notified_at": "2026-10-07T07:26:07.372120+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+    "notified_at": "2026-10-07T07:26:28.655234+00:00"
   }
 ]
