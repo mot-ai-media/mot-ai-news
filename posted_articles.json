@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news040.html",
-    "notified_at": "2026-09-07T05:30:32.107763+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001209/",
-    "notified_at": "2026-09-07T05:31:04.181258+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news049.html",
-    "notified_at": "2026-09-07T05:31:18.082245+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001207/",
-    "notified_at": "2026-09-07T05:31:34.646329+00:00"
-  },
-  {
-    "link": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001205/",
-    "notified_at": "2026-09-07T05:31:51.385007+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbl9YNGE0elowOHR3OHFZSVhGVGFhbjFQZ0p3dFg4NWFTdGZYdUwzQkpIZlNLUzg2aEk3YVZFRXY5TG9qTW90RjFVYnVZZUo1Y1FNMjIyREhJOTlHT19GNTZSWG56WnE0TW9jZ0FCcWZlZmY4UFB4OWIxbHpvWURXZmVJSlllZTlMc09uVi1R?oc=5",
     "notified_at": "2026-09-07T05:53:13.776725+00:00"
   },
@@ -4506,5 +4486,25 @@
   {
     "link": "https://www.cnbc.com/2026/10/06/meta-muse-gives-amd-a-boost-as-ai-momentum-shifts-to-personal-agents-.html",
     "notified_at": "2026-10-07T04:32:09.708848+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002084/",
+    "notified_at": "2026-10-07T05:30:42.943843+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002055/",
+    "notified_at": "2026-10-07T05:30:58.266010+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002078/",
+    "notified_at": "2026-10-07T05:31:14.290335+00:00"
+  },
+  {
+    "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002075/",
+    "notified_at": "2026-10-07T05:31:34.256601+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+    "notified_at": "2026-10-07T05:31:52.029269+00:00"
   }
 ]

@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Ramp出身エンジニア、広告AI「Melius」で2500万ドル調達—全コード破棄した理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/melius-ai-049bf6f5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/melius-ai-049bf6f5.html</guid>
+    <description>前職でのアイデアを全て捨て、AIで広告クリエイティブを自動生成するプロダクトに絞った結果、2ヶ月で100万ドル超の年間売上を達成。</description>
+    <pubDate>Wed, 07 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Mistral、1兆パラメータの巨大AI「Le Chonk」発表　サイバーセキュリティで全モデル最高性能</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-llm-6016f5b1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-llm-6016f5b1.html</guid>
+    <description>フランスのMistral AIが最大規模モデルを発表。セキュリティとコーディング能力で他社モデルを上回り、月末にオープンウェイト公開予定。</description>
+    <pubDate>Wed, 07 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、画像生成AI「Nano Banana 2.1」公開　料金は半額に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-90ba66cb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-90ba66cb.html</guid>
+    <description>Googleが画像生成AIの新版を発表。性能向上と同時に、APIの画像出力料金がほぼ半額になった。</description>
+    <pubDate>Wed, 07 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが作ったアプリ9割に脆弱性、Microsoftら調査で判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-4fe914b2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-4fe914b2.html</guid>
+    <description>AIが自動生成したWebアプリの91%から脆弱性が見つかった。プロンプトの工夫で改善できる可能性も。</description>
+    <pubDate>Wed, 07 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、セキュリティ専門家向けプログラムを大幅拡充。AIの安全制限を段階的に緩和</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-bf5bd898.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-bf5bd898.html</guid>
+    <description>Anthropicが、セキュリティ専門家向けプログラムを3段階のアクセス枠に整理。防御側により強力なツールを提供し、脆弱性検出の実績も公表した。</description>
+    <pubDate>Wed, 07 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Meta傘下のMuse人気がAMDの株価を押し上げ。AIエージェント時代が半導体産業を激変させる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c8535769.html</guid>
     <description>テックの最先端を動かす起業家・CEOが一堂に集まり、AI、ロボティクス、運輸などの未来を語る世界最大級イベント開催。</description>
     <pubDate>Tue, 06 Oct 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>スタートアップピッチの最終審査員が決定、TechCrunch Disrupt 2026で勝者が決まる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d3ec7556.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d3ec7556.html</guid>
-    <description>数千社の応募から選ばれた200社のスタートアップが競う大型ピッチイベント、審査員陣が決定。</description>
-    <pubDate>Tue, 06 Oct 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>テンセント製AIエージェント、アリババの地図サービスを大量アクセス。独立研究者が検出</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tencent-alibaba-622d4242.html</guid>
-    <description>複数のAIエージェントが中国企業のインフラで地図サービスを集中的にスキャンしている活動が発見された。</description>
-    <pubDate>Tue, 06 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>毎月新モデル登場の秘密、AIが自分で進化する「再帰的自己改善」の現実</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/eliza-openai-16397447.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/eliza-openai-16397447.html</guid>
-    <description>ChatGPTなど新型AIが毎月登場する背景には「AIがAIを開発する」技術がある。その現状をELYZA CEOが語った。</description>
-    <pubDate>Tue, 06 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude のAIエージェント、PC実行廃止。10月からクラウド一本化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21d05b31.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21d05b31.html</guid>
-    <description>ClaudeのAIエージェント機能がPC実行から完全なクラウド実行へ移行。ユーザーのデバイス負荷が軽減される一方、より多くのデータがAnthropicのサーバーで処理されることになる。</description>
-    <pubDate>Tue, 06 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIスタートアップの選択肢が激変。複数モデルの使い分けが当たり前に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bc119003.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bc119003.html</guid>
-    <description>AIスタートアップが1つのモデルに決めず、複数モデルを使い分ける戦略へシフト。柔軟性と効率性を両立させる新しい選択肢が広がっている。</description>
-    <pubDate>Tue, 06 Oct 2026 15:01:00 +0900</pubDate>
   </item>
 </channel></rss>

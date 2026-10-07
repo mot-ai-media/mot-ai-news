@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-07 13:32
+最終更新: 2026-10-07 14:31
 
 ## 記事一覧
 
+- [Google新型画像生成AI「Nano Banana 2.1」料金は前モデル比で半額に](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-90ba66cb.html): Googleが画像生成AIの新版を発表。性能向上と同時に、APIの画像出力料金がほぼ半額になった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:31)
+- [Mistral Large 4とは？1兆パラメータAIの性能・料金・公開時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-llm-6016f5b1.html): フランスのMistral AIが最大規模モデルを発表。セキュリティとコーディング能力で他社モデルを上回り、月末にオープンウェイト公開予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:31)
+- [Melius（メリウス）とは？AI広告生成プラットフォーム、25M資金調達](https://mot-ai-media.github.io/mot-ai-news/articles/melius-ai-049bf6f5.html): 前職でのアイデアを全て捨て、AIで広告クリエイティブを自動生成するプロダクトに絞った結果、2ヶ月で100万ドル超の年間売上を達成。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 14:31)
+- [Anthropic「Cyber Verification Program」拡充とは？3段階アクセス新設の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-bf5bd898.html): Anthropicが、セキュリティ専門家向けプログラムを3段階のアクセス枠に整理。防御側により強力なツールを提供し、脆弱性検出の実績も公表した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:30)
+- [AIコーディングで作ったアプリの脆弱性とは？9割に欠陥](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-4fe914b2.html): AIが自動生成したWebアプリの91%から脆弱性が見つかった。プロンプトの工夫で改善できる可能性も。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:30)
 - [Meta Muse AIエージェント AMD Intel 株価上昇 CPU需要](https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html): Metaが提供するAIエージェント「Muse」の利用者増加に伴い、プロセッサーを製造するAMDとIntelの株価が過去1ヶ月で大手テック企業を上回るパフォーマンスを示している。AI時代の次の波が、ハードウェア産業にもたらす変化に注目が集まっている。 (出典: CNBC / 更新: 2026-10-07 13:32)
 - [AI研究者の警告が海外で話題に。日本への影響は？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-3f928b2b.html): 海外で報道されているAI研究者による警告が、業界の急速な成長に対する懸念を示唆。日本ではまだ大きな注目を集めていないが、今後のAI産業や社会への影響を考える上で重要な指摘とされている。 (出典: CNBC / 更新: 2026-10-07 13:31)
 - [AIエージェント導入事例10選。成功企業の数値・成果から学ぶ](https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html): 顧客対応・営業・社内業務で実績を上げるAIエージェント。数値の読み方を知れば、社内提案が通りやすくなる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-07 11:02)
@@ -202,8 +207,3 @@
 - [OpenAI Dots AIエージェント発表 - 自動化アシスタントの次世代競争](https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-muse-7562a874.html): OpenAIがDevDay 2026でAIエージェント「Dots」を発表。GPT-6 Astraを搭載し、複数アプリを連携させながらバックグラウンドで自動的にタスクをこなす常時稼働型のAIアシスタント。Meta の「Muse」との機能競争が本格化 (出典: The Verge / 更新: 2026-09-30 04:55)
 - [OpenAI DevDay 2026：ChatGPT Pro月500ドル、AI代理人Dots発表、抗議活動が同時開催](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-13cfd55e.html): OpenAIは9月29日の年次イベントDevDay 2026で、月額500ドルの高額プラン「ChatGPT Pro」やAI代理人「Dots」など複数の新機能を発表。一方、会場外では労働搾取やICE契約をめぐる大規模な抗議活動が展開され、営利優先姿勢への批判が相次いだ。 (出典: The Verge / 更新: 2026-09-30 04:55)
 - [GPT-6サイバー攻撃やデータ盗難、セキュリティ対策の最新動向](https://mot-ai-media.github.io/mot-ai-news/articles/openai-nvidia-15ad077a.html): AI開発企業を狙う攻撃が激化。大規模データ盗難事件と防御技術の進展を一挙報道 (出典: CISO Series / 更新: 2026-09-29 22:53)
-- [Meta Muse 中小企業向けAIエージェント 個人向けから法人市場へ拡大](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-a7415906.html): Metaが個人向けAIエージェント「Muse」の事業向けバージョンを立ち上げた。創業者ザッカーバーグが消費者市場に限定せず、中小企業などの法人顧客をAI市場の新たなターゲットにしていることが明らかになった。この動きは、Big TechのAI戦略が個人ユーザーの獲得から、経営課題を抱える企業のニーズへシフトしていることを象徴している。 (出典: CNBC / 更新: 2026-09-29 19:28)
-- [AI安全性議論の裏側：Mistral CEOが指摘する大手企業の『過失』問題](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-9851d393.html): フランスのAI企業Mistralのトップが、業界大手がAI安全性を名目に自社の問題から目をそらしていると批判。複数のAIエージェントが意図しない動作を起こす事件が相次ぐなか、競争相手の責任回避姿勢を指摘している。 (出典: CNBC / 更新: 2026-09-29 19:28)
-- [Claude Sonnet 5.5とは？GPT-6 Astraとの性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d9559f89.html): AnthropicがClaude Sonnet 5.5を発表。一部の評価でOpenAIの最新モデルを上回る性能を示す。 (出典: Yahoo!ニュース / 更新: 2026-09-29 16:53)
-- [OpenAI最新モデルAstraとは？公開中止の理由と何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-6ba74179.html): OpenAIが新型AIモデル「Astra」の公開を見送り、安全性確保を優先する判断を示した。 (出典: The New York Times / 更新: 2026-09-29 16:53)
-- [Anthropic Sonnet 5.5発表：安価なAIモデルがコーディング向けに強化](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html): AI企業Anthropicが、新型AI「Sonnet 5.5」をリリースした。同社CEOが「AI開発の減速」を主張していたが、この発表は一見矛盾している。ただしSonnet 5.5は最先端性を求めず、むしろコーディングや知識系の実務作業に特化し、より手頃な価格設定を目指す製品となっている。 (出典: CNBC / 更新: 2026-09-29 16:28)
