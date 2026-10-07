@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>MetaとOpenAIが「AI営業マン」の統一ルール作成へ。企業間の契約を自動化する標準化に動く</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-sierra-c47ec692.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-sierra-c47ec692.html</guid>
+    <description>MetaとOpenAIの経営者Bret Taylorが率いるスタートアップSierraが、AI ボットとのビジネス取引を容易にするための技術標準の構築に乗り出した。企業間のAI活用を整理する動き。</description>
+    <pubDate>Wed, 07 Oct 2026 09:25:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>有名投資家クレーマーが指摘、AI投資で勝つなら『大手テック企業』が最適解</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-312954ca.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-312954ca.html</guid>
+    <description>米投資家ジム・クレーマーが、AI時代の投資戦略として「確立した事業基盤を持つ大手テック企業」に注目するよう提言。多角的にAIの恩恵を受けられる企業が、AI投資の最良の選択肢だという論点が海外で注目を集めています。</description>
+    <pubDate>Wed, 07 Oct 2026 09:25:00 +0900</pubDate>
+  </item>
+  <item>
     <title>217年間の謎を解く、GPT-6 Astraがナポレオン暗号書簡を解読</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7696047e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7696047e.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html</guid>
     <description>OpenAIが新AIモデル『Astra』と命名したことで、既存企業との名称重複による混同が生じている。</description>
     <pubDate>Tue, 06 Oct 2026 10:22:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トークン単価8割下げなのに請求額は増加。AIの『見えない浪費』の正体</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html</guid>
-    <description>AI利用料金がなぜか膨れ続ける。安くなったはずなのに、企業の実際の負担は増加中。</description>
-    <pubDate>Tue, 06 Oct 2026 10:19:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ロボット導入しただけではダメ。フィジカルAI失敗の10の誤解をガートナーが指摘</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-ae8a1f3f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dx-ae8a1f3f.html</guid>
-    <description>データとロボットがあればAIが動く、は間違い。ガートナーが企業が陥りやすい10の誤解を警告。</description>
-    <pubDate>Tue, 06 Oct 2026 10:18:00 +0900</pubDate>
   </item>
 </channel></rss>

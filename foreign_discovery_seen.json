@@ -1,90 +1,6 @@
 [
   {
     "tokens": [
-      "agent",
-      "download",
-      "hype",
-      "index",
-      "liability",
-      "rogue"
-    ],
-    "ts": "2026-09-29T01:27:58"
-  },
-  {
-    "tokens": [
-      "bessent",
-      "called",
-      "competition.'",
-      "distillation",
-      "huang",
-      "jensen",
-      "scott",
-      "theft'"
-    ],
-    "ts": "2026-09-29T01:28:12"
-  },
-  {
-    "tokens": [
-      "elon",
-      "investigation",
-      "musk",
-      "nyc",
-      "safety",
-      "spacexai",
-      "subpoenaed"
-    ],
-    "ts": "2026-09-29T04:27:53"
-  },
-  {
-    "tokens": [
-      "ahead",
-      "bids",
-      "billion",
-      "deal",
-      "early",
-      "face",
-      "hugging",
-      "investment",
-      "nvidia's",
-      "offer",
-      "openai",
-      "sparked"
-    ],
-    "ts": "2026-09-29T04:28:10"
-  },
-  {
-    "tokens": [
-      "8.2",
-      "acquiring",
-      "amd",
-      "billion",
-      "deal",
-      "fei-fei",
-      "firm",
-      "labs",
-      "li's",
-      "world",
-      "worth"
-    ],
-    "ts": "2026-09-29T07:27:55"
-  },
-  {
-    "tokens": [
-      "ban",
-      "bill",
-      "exist",
-      "introduce",
-      "khanna",
-      "recursive'",
-      "safeguards",
-      "safety",
-      "technology",
-      "until"
-    ],
-    "ts": "2026-09-29T07:28:13"
-  },
-  {
-    "tokens": [
       "concerns",
       "model",
       "openai",
@@ -861,5 +777,33 @@
       "voice"
     ],
     "ts": "2026-10-06T22:28:19"
+  },
+  {
+    "tokens": [
+      "among",
+      "best",
+      "blue-chip",
+      "boom",
+      "cramer",
+      "invest",
+      "stocks",
+      "these",
+      "ways"
+    ],
+    "ts": "2026-10-07T09:25:25"
+  },
+  {
+    "tokens": [
+      "bots",
+      "business",
+      "chaos",
+      "companies",
+      "doing",
+      "group",
+      "joins",
+      "meta",
+      "tame"
+    ],
+    "ts": "2026-10-07T09:25:43"
   }
 ]
