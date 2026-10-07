@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-07 11:02
+最終更新: 2026-10-07 13:32
 
 ## 記事一覧
 
+- [Meta Muse AIエージェント AMD Intel 株価上昇 CPU需要](https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html): Metaが提供するAIエージェント「Muse」の利用者増加に伴い、プロセッサーを製造するAMDとIntelの株価が過去1ヶ月で大手テック企業を上回るパフォーマンスを示している。AI時代の次の波が、ハードウェア産業にもたらす変化に注目が集まっている。 (出典: CNBC / 更新: 2026-10-07 13:32)
+- [AI研究者の警告が海外で話題に。日本への影響は？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-3f928b2b.html): 海外で報道されているAI研究者による警告が、業界の急速な成長に対する懸念を示唆。日本ではまだ大きな注目を集めていないが、今後のAI産業や社会への影響を考える上で重要な指摘とされている。 (出典: CNBC / 更新: 2026-10-07 13:31)
 - [AIエージェント導入事例10選。成功企業の数値・成果から学ぶ](https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html): 顧客対応・営業・社内業務で実績を上げるAIエージェント。数値の読み方を知れば、社内提案が通りやすくなる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-07 11:02)
 - [商品開発プロセスをAIで一元化、NTTデータが新連携](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-b205a5d6.html): インテージとNTTデータが連携し、消費財メーカーの商品開発をAIで支援する仕組みを構築。データ分析から商品化まで自動化される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 11:01)
 - [OpenAIのAIが数学難問722個を証明・公開。リーマン予想関連も](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html): OpenAIが社内AIによる数学の成果722本をGitHubで公開。過去の論争を受けて検証可能な形での発表に転換。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 11:01)
@@ -205,5 +207,3 @@
 - [Claude Sonnet 5.5とは？GPT-6 Astraとの性能比較](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-d9559f89.html): AnthropicがClaude Sonnet 5.5を発表。一部の評価でOpenAIの最新モデルを上回る性能を示す。 (出典: Yahoo!ニュース / 更新: 2026-09-29 16:53)
 - [OpenAI最新モデルAstraとは？公開中止の理由と何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-6ba74179.html): OpenAIが新型AIモデル「Astra」の公開を見送り、安全性確保を優先する判断を示した。 (出典: The New York Times / 更新: 2026-09-29 16:53)
 - [Anthropic Sonnet 5.5発表：安価なAIモデルがコーディング向けに強化](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-sonnet-5-5-3546d09d.html): AI企業Anthropicが、新型AI「Sonnet 5.5」をリリースした。同社CEOが「AI開発の減速」を主張していたが、この発表は一見矛盾している。ただしSonnet 5.5は最先端性を求めず、むしろコーディングや知識系の実務作業に特化し、より手頃な価格設定を目指す製品となっている。 (出典: CNBC / 更新: 2026-09-29 16:28)
-- [Nvidia 1500億ドル自社株買戻し発表、株価上昇期待](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c397fad7.html): AI半導体大手Nvidiaが150億ドル規模の追加自社株買い戻しプログラムを実施することが明らかになった。米著名投資家ジム・クレイマー氏は、この施策が同社の株価動向に大きな影響を与える可能性があると指摘している。 (出典: CNBC / 更新: 2026-09-29 16:28)
-- [ザッカーバーグ・Amodei・Altmanがトランプと会談、AI開発ペース巡る議論が本格化](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-4cb770cd.html): Meta、OpenAI、Anthropicなど大手AI企業の経営陣がトランプ次期大統領と会談予定。AI開発の速度を緩めるべきか加速させるべきかという業界内の対立が、米政治への働きかけに発展しており、今後の規制方針に大きな影響を与える可能性がある。 (出典: CNBC / 更新: 2026-09-29 13:28)

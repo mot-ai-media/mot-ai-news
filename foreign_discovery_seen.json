@@ -1,46 +1,6 @@
 [
   {
     "tokens": [
-      "billion",
-      "firm",
-      "infrastructure",
-      "inject",
-      "kkr-backed",
-      "nvidia-",
-      "samsung"
-    ],
-    "ts": "2026-09-29T10:28:16"
-  },
-  {
-    "tokens": [
-      "amd",
-      "briefly",
-      "club.",
-      "cramer",
-      "isn",
-      "joined",
-      "monster",
-      "run",
-      "trillion"
-    ],
-    "ts": "2026-09-29T13:27:58"
-  },
-  {
-    "tokens": [
-      "amodei",
-      "among",
-      "executives",
-      "meet",
-      "set",
-      "tech",
-      "trump",
-      "tuesday",
-      "zuckerberg"
-    ],
-    "ts": "2026-09-29T13:28:15"
-  },
-  {
-    "tokens": [
       "anthropic",
       "call",
       "ceo's",
@@ -824,5 +784,37 @@
       "startups"
     ],
     "ts": "2026-10-07T10:28:10"
+  },
+  {
+    "tokens": [
+      "merger",
+      "more",
+      "morning",
+      "musk's",
+      "paramount-wbd",
+      "researchers'",
+      "return",
+      "squawk",
+      "trillionaire",
+      "warning"
+    ],
+    "ts": "2026-10-07T13:31:40"
+  },
+  {
+    "tokens": [
+      "agents",
+      "amd",
+      "cpu",
+      "fresh",
+      "highs",
+      "juice",
+      "lifts",
+      "meta",
+      "muse",
+      "popularity",
+      "sales",
+      "stock"
+    ],
+    "ts": "2026-10-07T13:32:09"
   }
 ]

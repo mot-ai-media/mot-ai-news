@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Meta傘下のMuse人気がAMDの株価を押し上げ。AIエージェント時代が半導体産業を激変させる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html</guid>
+    <description>Metaが提供するAIエージェント「Muse」の利用者増加に伴い、プロセッサーを製造するAMDとIntelの株価が過去1ヶ月で大手テック企業を上回るパフォーマンスを示している。AI時代の次の波が、ハードウェア産業にもたらす変化に注目が集まっている。</description>
+    <pubDate>Wed, 07 Oct 2026 13:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI研究者が警告、業界の急速な成長に潜む危機とは</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-3f928b2b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-3f928b2b.html</guid>
+    <description>海外で報道されているAI研究者による警告が、業界の急速な成長に対する懸念を示唆。日本ではまだ大きな注目を集めていないが、今後のAI産業や社会への影響を考える上で重要な指摘とされている。</description>
+    <pubDate>Wed, 07 Oct 2026 13:31:00 +0900</pubDate>
+  </item>
+  <item>
     <title>富士通・Klarna・TAPPが実証。AIエージェントが顧客対応を「7割削減」から「90%自動化」へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bc119003.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bc119003.html</guid>
     <description>AIスタートアップが1つのモデルに決めず、複数モデルを使い分ける戦略へシフト。柔軟性と効率性を両立させる新しい選択肢が広がっている。</description>
-    <pubDate>Tue, 06 Oct 2026 15:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、画像生成に広告挿入開始。月12億人ユーザーへの広告ビジネス本格化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-4e1c2d3d.html</guid>
-    <description>OpenAIがChatGPTの画像生成結果に表示広告を挿入。10月中旬より米国で試験開始、グローバル展開で巨大な広告媒体へ。</description>
-    <pubDate>Tue, 06 Oct 2026 15:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが就活を変える。HackerRank、50万件超の面接をこなすAI面接官を一般公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hackerrank-ai-5253c2e7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hackerrank-ai-5253c2e7.html</guid>
-    <description>プログラマー採用試験プラットフォームが、AIエージェントによる自動面接を本格始動。思考プロセスまで評価する時代へ。</description>
     <pubDate>Tue, 06 Oct 2026 15:01:00 +0900</pubDate>
   </item>
 </channel></rss>
