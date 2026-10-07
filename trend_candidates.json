@@ -1,145 +1,5 @@
 [
   {
-    "title": "Jev introduces a new shape of LLM",
-    "link": "https://simonwillison.net/2026/Sep/21/jev/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://simonwillison.net/2026/Sep/21/jev/\nComments URL: https://news.ycombinator.com/item?id=49796843\nPoints: 36\n# Comments: 8",
-    "novelty_score": 45,
-    "japan_relevance_score": 35,
-    "reason": "LLMの新しい構造提案だが、低エンゲージメント(36ポイント、8コメント)から学術的深掘りや実装インパクトの不確実性が伺える。",
-    "discovered_at": "2026-09-22T11:33:15.079685+00:00"
-  },
-  {
-    "title": "Robin Williams' Daughter to Fans Creating AI Videos: 'Have Some Shame'",
-    "link": "https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568/\nComments URL: https://news.ycombinator.com/item?id=49795718\nPoints: 89\n# Comments: 55",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AI生成動画の倫理問題は既出だが、著名人の家族による直接的な異議申し立ては日本でも関心層が存在する。",
-    "discovered_at": "2026-09-22T11:33:17.751534+00:00"
-  },
-  {
-    "title": "Did OpenAI solve the wrong Navier-Stokes problem?",
-    "link": "https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/\nComments URL: https://news.ycombinator.com/item?id=49795260\nPoints: 20\n# Comments: 1",
-    "novelty_score": 45,
-    "japan_relevance_score": 35,
-    "reason": "OpenAIの科学的成果への批判という視点は新しいが、Hacker Newsでの関心度が低く、日本での波及効果も限定的と考えられる。",
-    "discovered_at": "2026-09-22T11:33:20.659688+00:00"
-  },
-  {
-    "title": "Do not fear AI. Fear AI companies",
-    "link": "https://df7sc6o35ljoz.cloudfront.net/posts/do-not-fear-ai-rev-2.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://df7sc6o35ljoz.cloudfront.net/posts/do-not-fear-ai-rev-2.html\nComments URL: https://news.ycombinator.com/item?id=49794422\nPoints: 30\n# Comments: 15",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI規制議論は既出だが、企業リスク焦点は相対的に新しく、日本でも企業統治・規制課題として関心高い",
-    "discovered_at": "2026-09-22T11:33:24.159807+00:00"
-  },
-  {
-    "title": "AI Has No Wisdom and Neither Will You",
-    "link": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/\nComments URL: https://news.ycombinator.com/item?id=49799965\nPoints: 134\n# Comments: 172",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "AIの限界を哲学的に論じるテーマは既出だが、知恵と技術の関係は日本でも関心が高い。",
-    "discovered_at": "2026-09-22T13:29:07.976617+00:00"
-  },
-  {
-    "title": "Study: Young users (9 to 18Y) ditch Google for AI, with unknown consequences",
-    "link": "https://norwegianscitechnews.com/2026/09/young-users-ditch-google-for-ai-with-unknown-consequences/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://norwegianscitechnews.com/2026/09/young-users-ditch-google-for-ai-with-unknown-consequences/\nComments URL: https://news.ycombinator.com/item?id=49798451\nPoints: 58\n# Comments: 95",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "若年層のGoogle離れは既知だが、AI検索への移行とその影響は現在進行形で重要なトレンド。",
-    "discovered_at": "2026-09-22T13:29:09.721912+00:00"
-  },
-  {
-    "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-    "link": "https://linear.app/now/ci-bottleneck-reworked",
-    "source": "Hacker News",
-    "summary": "Article URL: https://linear.app/now/ci-bottleneck-reworked\nComments URL: https://news.ycombinator.com/item?id=49792067\nPoints: 277\n# Comments: 321",
-    "novelty_score": 62,
-    "japan_relevance_score": 58,
-    "reason": "AI開発の急速な進展に伴うCI/CD最適化は実務的で重要だが、Linear社による具体的な解決策の内容に依存する。",
-    "discovered_at": "2026-09-22T13:29:11.384648+00:00"
-  },
-  {
-    "title": "Frontier AI on Your Own Hardware",
-    "link": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://timdettmers.com/2026/09/21/dlab-open-source-week/\nComments URL: https://news.ycombinator.com/item?id=49791647\nPoints: 170\n# Comments: 87",
-    "novelty_score": 45,
-    "japan_relevance_score": 60,
-    "reason": "ローカルAI実行は既知だが、フロンティアモデルの民主化という観点では注目度あり。",
-    "discovered_at": "2026-09-22T13:29:12.998627+00:00"
-  },
-  {
-    "title": "Anthropic, OpenAI et al. face antitrust suit for agreeing to slow AI development",
-    "link": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving\nComments URL: https://news.ycombinator.com/item?id=49791384\nPoints: 32\n# Comments: 11",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "AI企業への反トラスト訴訟は新しいが、規制懸念自体は既出。日本でも生成AI規制議論の参考になる可能性。",
-    "discovered_at": "2026-09-22T13:29:14.760689+00:00"
-  },
-  {
-    "title": "OpenAI is well positioned to fast-follow Jev",
-    "link": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/\nComments URL: https://news.ycombinator.com/item?id=49802161\nPoints: 97\n# Comments: 80",
-    "novelty_score": 35,
-    "japan_relevance_score": 55,
-    "reason": "OpenAIの競争戦略分析は既出テーマだが、新興企業Jevへの言及は限定的で、日本では関心層が限定的。",
-    "discovered_at": "2026-09-22T16:28:55.812908+00:00"
-  },
-  {
-    "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-    "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/\nComments URL: https://news.ycombinator.com/item?id=49802030\nPoints: 50\n# Comments: 22",
-    "novelty_score": 65,
-    "japan_relevance_score": 55,
-    "reason": "AIツールの権限濫用脆弱性は重要だが、Meta特有の事例のため汎用性がやや限定的。",
-    "discovered_at": "2026-09-22T16:28:57.390031+00:00"
-  },
-  {
-    "title": "Stanford R&DE Uses AI to Race Swap Students for Advertising",
-    "link": "https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/\nComments URL: https://news.ycombinator.com/item?id=49801330\nPoints: 70\n# Comments: 52",
-    "novelty_score": 65,
-    "japan_relevance_score": 55,
-    "reason": "AIによる顔認識・人種置換の広告利用という倫理的に問題のある事例で新規性はあるが、日本での実例報道は限定的",
-    "discovered_at": "2026-09-22T16:28:59.649085+00:00"
-  },
-  {
-    "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-    "link": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html\nComments URL: https://news.ycombinator.com/item?id=49801324\nPoints: 250\n# Comments: 245",
-    "novelty_score": 25,
-    "japan_relevance_score": 35,
-    "reason": "暗号解読は興味深いが、実際には2005年のパズル題材で実用性に乏しく、技術的な新規性も限定的。",
-    "discovered_at": "2026-09-22T16:29:01.276316+00:00"
-  },
-  {
-    "title": "People Training OpenAI's AI Fired for Using AI to Train the AI",
-    "link": "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/\nComments URL: https://news.ycombinator.com/item?id=49800953\nPoints: 59\n# Comments: 41",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "AI企業の内部問題として興味深いが、具体的な事実確認が必要。AIの倫理・労働問題として日本でも注目される可能性がある。",
-    "discovered_at": "2026-09-22T16:29:02.838472+00:00"
-  },
-  {
     "title": "Community condemn Bedminster AI mural as 'insult' to artists",
     "link": "https://www.bbc.co.uk/news/articles/cmlyq09jp49eo",
     "source": "Hacker News",
@@ -1398,5 +1258,55 @@
     "japan_relevance_score": 62,
     "reason": "AI需要によるメモリ不足が低価格スマホに影響する論点は新しいが、供給不足の構造的課題自体は既知で、日本の格安スマホ市場にも関連性がある。",
     "discovered_at": "2026-10-06T10:29:06.709811+00:00"
+  },
+  {
+    "title": "Reasons to Dislike AI Coding",
+    "link": "https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/\nComments URL: https://news.ycombinator.com/item?id=49990204\nPoints: 44\n# Comments: 80",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI コーディングの課題は既出だが、日本の技術者コミュニティでも実務的な関心が高まっている話題。",
+    "discovered_at": "2026-10-07T13:28:54.300317+00:00"
+  },
+  {
+    "title": "Forever Junior: The Skills AI Can't Develop for You",
+    "link": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers/\nComments URL: https://news.ycombinator.com/item?id=49989684\nPoints: 27\n# Comments: 21",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "AI時代の人材育成における課題は重要だが、同様のテーマは既に多く論じられている。",
+    "discovered_at": "2026-10-07T13:28:55.790174+00:00"
+  },
+  {
+    "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+    "link": "https://github.com/nano-muse/nanoMuse",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/nano-muse/nanoMuse\nComments URL: https://news.ycombinator.com/item?id=49987765\nPoints: 35\n# Comments: 10",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "AIエージェント自体は既知だが、オープンソースでスマートフォン/PC統合型は差別化ポイント。ただし初期段階で採用は限定的。",
+    "discovered_at": "2026-10-07T13:28:57.740820+00:00"
+  },
+  {
+    "title": "South Korea says AI agents appear to have been used to hack the country's banks",
+    "link": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/\nComments URL: https://news.ycombinator.com/item?id=49985861\nPoints: 87\n# Comments: 22",
+    "novelty_score": 72,
+    "japan_relevance_score": 78,
+    "reason": "AI悪用による金融機関へのサイバー攻撃は新しい脅威であり、日本の銀行セキュリティにも直結する重要なテーマ。",
+    "discovered_at": "2026-10-07T13:28:59.498269+00:00"
+  },
+  {
+    "title": "OpenAI just dropped 700 preprints of mathematical proofs and counterexamples",
+    "link": "https://github.com/openai/math/tree/main/preprints",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/openai/math/tree/main/preprints\nComments URL: https://news.ycombinator.com/item?id=49985740\nPoints: 41\n# Comments: 2",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AIによる数学証明の大規模公開は新しい試みだが、学術的な評価待ちで即報性は中程度。",
+    "discovered_at": "2026-10-07T13:29:01.253357+00:00"
   }
 ]
