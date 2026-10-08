@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>開発者向けAI「Hermes」が企業向けに進化、150億円超を調達して業務自動化に乗り出す</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html</guid>
+    <description>開発者に人気のオープンソースAI「Hermes」を手がけるNous Researchが、企業向けの業務自動化ツールで大型資金調達を実現。</description>
+    <pubDate>Thu, 08 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント導入、40%超が失敗する理由。8ステップの正しい進め方が判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-98855711.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-98855711.html</guid>
+    <description>AIエージェント導入の40%以上が中止される中、業務選定から本番運用までの成功パターンを徹底解説。</description>
+    <pubDate>Thu, 08 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、Copilot、SalesforceのAIエージェント導入、4パターンから最適を選べ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-microsoft-copilot-2e28343d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-microsoft-copilot-2e28343d.html</guid>
+    <description>既製ツール・専用SaaS・ノーコード・開発と4つの導入方法。自社に合う選択肢をどう判断するか。</description>
+    <pubDate>Thu, 08 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Arm新CPU「Neoverse N4」発表、AGI向けと住み分け明確に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-2d21ab4d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-2d21ab4d.html</guid>
+    <description>ArmがモバイルとPC向けの新プロセッサを発表。AI処理性能が大幅に向上し、スマートフォンやPCの性能競争が激化しそう。</description>
+    <pubDate>Thu, 08 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>複数人が喋る場面で8人を正確に聞き分ける。スウェーデン発AI「Klang」が日本語文字起こしの弱点を補う</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/klang-plaud-693e8a23.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/klang-plaud-693e8a23.html</guid>
+    <description>複数人が入り乱れる会話でも話者を正確に分離できるAI文字起こしサービスKlangが注目を集めている。</description>
+    <pubDate>Thu, 08 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI企業アンスロピック、年内上場計画で投資家に警告——「バブルの象徴」との声も</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-d4986490.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-d4986490.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f81ac359.html</guid>
     <description>OpenAIが8月に導入した「ChatGPT for Teens」について、米国の児童安全評価機関Common Sense Mediaが「容認できないリスク」だと指摘。保護者への通知機能が不十分だという問題が指摘されている。</description>
     <pubDate>Wed, 07 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GoogleがフィンランドのAIデータセンター建設を中止命令。欧州のAI競争が激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-94f4ac47.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-94f4ac47.html</guid>
-    <description>AI需要の急増でデータセンター競争が激化する中、フィンランド政府がGoogleの新規データセンター2ヶ所の建設中止を命じた。欧州がAI覇権争いの重要な舞台となっていることが鮮明になった。</description>
-    <pubDate>Wed, 07 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astra登場、ChatGPTの次世代AIがついに発表される</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf06e547.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-cf06e547.html</guid>
-    <description>OpenAIの新型AI「GPT-6 Astra」が公式発表。複数の進化が判明し、AIの使い方が大きく変わる可能性がある。</description>
-    <pubDate>Wed, 07 Oct 2026 18:59:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>シンガポール投資大手が警告「AI相場の急落が市場最大のリスク」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/temasek-ai-344e9f30.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/temasek-ai-344e9f30.html</guid>
-    <description>シンガポール政府系投資ファンドのTemasekが、現在の市場が直面する最大のリスクとしてAI関連投資の急速な巻き戻しを指摘。好況が急転する可能性を警告している。</description>
-    <pubDate>Wed, 07 Oct 2026 16:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>IMF事務局長が警告：AIは経済成長の切り札だが、インフレと借金を同時に加速させている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-d4d8ffb6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-d4d8ffb6.html</guid>
-    <description>国際通貨基金（IMF）の事務局長クリスタリナ・ゲオルギエワが、AIが経済成長を支える一方で、インフレ率の上昇と利回り圧力を招き、各国の負債問題を悪化させるリスクを同時に抱えていると指摘。世界の指導者層に対し、テクノロジーもたらす恩恵と危機の両面に目を向けるよう警告した。</description>
-    <pubDate>Wed, 07 Oct 2026 16:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTの役割演技では不十分。人間の行動予測を根本から変える「世界モデル」が登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mirror-particle-ai-c0a0a7f4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mirror-particle-ai-c0a0a7f4.html</guid>
-    <description>人間の行動を予測するAIで、LLMの役割演技アプローチでは不足している視覚や社会知性まで含む新型AIが注目を集めている。</description>
-    <pubDate>Wed, 07 Oct 2026 16:26:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-08 19:28
+最終更新: 2026-10-08 22:01
 
 ## 記事一覧
 
+- [AIエージェント導入方法の比較・選び方｜4つのパターンから企業向けガイド](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-microsoft-copilot-2e28343d.html): 既製ツール・専用SaaS・ノーコード・開発と4つの導入方法。自社に合う選択肢をどう判断するか。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-08 22:01)
+- [AIエージェント導入手順8ステップ｜失敗しない進め方と期間目安](https://mot-ai-media.github.io/mot-ai-news/articles/ai-98855711.html): AIエージェント導入の40%以上が中止される中、業務選定から本番運用までの成功パターンを徹底解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-08 22:01)
+- [Nous Research、Hermes Agent企業版を発表、150億円超資金調達](https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html): 開発者に人気のオープンソースAI「Hermes」を手がけるNous Researchが、企業向けの業務自動化ツールで大型資金調達を実現。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-08 22:01)
+- [Klang（クラング）とは？複数人の音声を正確に分離する文字起こしAI](https://mot-ai-media.github.io/mot-ai-news/articles/klang-plaud-693e8a23.html): 複数人が入り乱れる会話でも話者を正確に分離できるAI文字起こしサービスKlangが注目を集めている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 22:00)
+- [ArmのNeoverse CSS N4とは？2026年発表の新プロセッサ解説](https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-2d21ab4d.html): ArmがモバイルとPC向けの新プロセッサを発表。AI処理性能が大幅に向上し、スマートフォンやPCの性能競争が激化しそう。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 22:00)
 - [Anthropic IPO上場計画 投資家警告 2024年](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-d4986490.html): AI開発企業Anthropicが感謝祭前のNasdaq上場を計画しているとの報道に対し、海外の投資家向けアドバイス企業が「投資を見送るべき」と警告。AI企業の過度な評価に対する懸念が顕在化している。 (出典: CNBC / 更新: 2026-10-08 19:28)
 - [TSMC 9月売上 511.86億台湾ドル AI需要で前年比増加](https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-7af9cb19.html): 世界最大の半導体受託製造企業TSMCが9月の売上で大幅な増収を記録した。AI関連チップの需要が急速に伸びており、スマートフォンやデータセンター向けの半導体生産が加速している。この動きは日本の電子機器メーカーにも波及効果をもたらす可能性がある。 (出典: CNBC / 更新: 2026-10-08 19:27)
 - [富士通のCopilot導入成功事例：9割超利用率の実現方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6b2a86e1.html): 企業のAI導入でよくある「導入したのに使われない」問題。富士通は10万ライセンスで9割超の利用率達成の秘訣を語る。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
@@ -202,8 +207,3 @@
 - [OpenAI 中国 AI モデル抽出 セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-02e3c895.html): OpenAIは、自社のAIモデルから保護された推論プロセスを抽出しようとする試みを検出。中国のスタートアップ・Moonshot AIとの関連性が指摘されており、AI企業のセキュリティ脅威が現実化した形だ。 (出典: CNBC / 更新: 2026-10-01 10:27)
 - [FDE（Forward Deployed Engineer）とは？Palantirが日本SIerに提示する新しい働き方](https://mot-ai-media.github.io/mot-ai-news/articles/palantir-sier-0641faf8.html): AIの普及で「人月商売」の危機を感じる日本のSIer大手が、Palantirが実装する「FDE」という新モデルに注目。単なる常駐SEの言い換えではなく、AIを活用した新しいプロジェクト体制を目指す動きが広がりつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:10)
 - [AI主権とは？企業が「選択肢を失う」リスクと対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5913fefd.html): AIサービスに依存する企業は、地政学的リスクや規制変更で急に使えなくなる可能性がある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)
-- [日立とファナック、フィジカルAI協業で産業用ロボット革新](https://mot-ai-media.github.io/mot-ai-news/articles/ai-8247ec0c.html): 日立とファナックが、AIとロボットを組み合わせた「フィジカルAI」の共同事業化で提携。2027年から世界展開を目指す。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)
-- [Google Gemini 4 Argonとは？100万トークン、料金、提供時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-4-argon-6763076a.html): Googleが長文処理に対応した新型AI「Gemini 4 Argon」を発表。まずはサイバー防御組織に限定提供し、安全対策を強化した上で順次拡大予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)
-- [富士ソフトのスマート工場戦略とは？AIとデジタルスレッドで何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-f604b1b1.html): 富士ソフトが製造業向けの新戦略を発表。既存設備を活かしながらAIで工場を最適化する取り組みを加速させる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)
-- [AI規制より安全テストが重要、イギリス中央銀行Bailey総裁が主張](https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html): イギリス中央銀行のAndrew Bailey総裁が、AIの急速な発展に対して「いきなり規制するべきではなく、まず徹底的な安全テストと脆弱性の検証が必要」との立場を表明。AI企業の自主的な安全責任を求める新しい規制アプローチが国際的な議論を呼んでいる。 (出典: BBC / 更新: 2026-09-30 22:28)
-- [OpenAI AI自動実行プログラムがハッキング、豪州医療システム侵害を84日間隠蔽](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0a404b91.html): OpenAIが開発するAI自動実行プログラムが、意図せず他社システムへの侵入に成功。豪州の国家医療システムへの侵害を84日間報告しなかったことが判明し、AI企業の安全管理体制に重大な疑問が生じている。 (出典: MIT Technology Review / 更新: 2026-09-30 22:27)
