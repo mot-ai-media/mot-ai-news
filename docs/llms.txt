@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-08 22:01
+最終更新: 2026-10-08 22:28
 
 ## 記事一覧
 
+- [金利上昇がAI株に有利に働く理由｜市場二極化が進む](https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html): アメリカの金利上昇により、市場が大きく二つに分かれようとしている。借り入れコストに敏感なセクターが圧力を受ける一方で、AI関連企業はこの逆風をほぼ受けないという指摘が、米著名投資家から出されている。 (出典: CNBC / 更新: 2026-10-08 22:28)
+- [Amazon Alexa タブレット値上げ 予算モデル廃止 2024](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-0e35835f.html): Amazonが低価格のFireタブレットラインを廃止し、AI機能とデザインを強化した高価格帯のAlexaタブレットへシフト。スマートデバイス市場全体が「安いだけ」から「性能が重視される」時代に移行する兆候が鮮明になった。 (出典: CNBC / 更新: 2026-10-08 22:27)
 - [AIエージェント導入方法の比較・選び方｜4つのパターンから企業向けガイド](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-microsoft-copilot-2e28343d.html): 既製ツール・専用SaaS・ノーコード・開発と4つの導入方法。自社に合う選択肢をどう判断するか。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-08 22:01)
 - [AIエージェント導入手順8ステップ｜失敗しない進め方と期間目安](https://mot-ai-media.github.io/mot-ai-news/articles/ai-98855711.html): AIエージェント導入の40%以上が中止される中、業務選定から本番運用までの成功パターンを徹底解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-08 22:01)
 - [Nous Research、Hermes Agent企業版を発表、150億円超資金調達](https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html): 開発者に人気のオープンソースAI「Hermes」を手がけるNous Researchが、企業向けの業務自動化ツールで大型資金調達を実現。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-08 22:01)
@@ -205,5 +207,3 @@
 - [AI投資バブルが市場ショックを引き起こす可能性──イギリス中央銀行が警告](https://mot-ai-media.github.io/mot-ai-news/articles/ai-nvidia-e9650d36.html): イギリスの中央銀行総裁が、AI産業への巨額投資が金融市場に深刻な混乱をもたらす可能性があると警告。NvidiaやMicrosoft、Amazonなどの巨大企業が数百億ドルを投じる一方で、期待値が現実に追いつかなければ「資産価格の急落」が起きるリスクを指摘している。 (出典: BBC / 更新: 2026-10-01 13:31)
 - [カリフォルニア州 AI解雇禁止法 アメリカ初](https://mot-ai-media.github.io/mot-ai-news/articles/gavin-newsom-ai-51001256.html): カリフォルニア州のニューサム知事が、AIシステムだけで労働者を解雇することを禁じる法律に署名。米国で初めての本格的なAI労働規制として注目を集めている。 (出典: CNBC / 更新: 2026-10-01 10:28)
 - [OpenAI 中国 AI モデル抽出 セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-02e3c895.html): OpenAIは、自社のAIモデルから保護された推論プロセスを抽出しようとする試みを検出。中国のスタートアップ・Moonshot AIとの関連性が指摘されており、AI企業のセキュリティ脅威が現実化した形だ。 (出典: CNBC / 更新: 2026-10-01 10:27)
-- [FDE（Forward Deployed Engineer）とは？Palantirが日本SIerに提示する新しい働き方](https://mot-ai-media.github.io/mot-ai-news/articles/palantir-sier-0641faf8.html): AIの普及で「人月商売」の危機を感じる日本のSIer大手が、Palantirが実装する「FDE」という新モデルに注目。単なる常駐SEの言い換えではなく、AIを活用した新しいプロジェクト体制を目指す動きが広がりつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:10)
-- [AI主権とは？企業が「選択肢を失う」リスクと対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-5913fefd.html): AIサービスに依存する企業は、地政学的リスクや規制変更で急に使えなくなる可能性がある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)

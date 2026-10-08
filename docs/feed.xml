@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>金利上昇で市場は二極化—AI企業だけが取り残されない理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html</guid>
+    <description>アメリカの金利上昇により、市場が大きく二つに分かれようとしている。借り入れコストに敏感なセクターが圧力を受ける一方で、AI関連企業はこの逆風をほぼ受けないという指摘が、米著名投資家から出されている。</description>
+    <pubDate>Thu, 08 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Amazonが予算重視の戦略を転換――高機能Alexaタブレットで「安さ重視の時代」に終止符</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-0e35835f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-0e35835f.html</guid>
+    <description>Amazonが低価格のFireタブレットラインを廃止し、AI機能とデザインを強化した高価格帯のAlexaタブレットへシフト。スマートデバイス市場全体が「安いだけ」から「性能が重視される」時代に移行する兆候が鮮明になった。</description>
+    <pubDate>Thu, 08 Oct 2026 22:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>開発者向けAI「Hermes」が企業向けに進化、150億円超を調達して業務自動化に乗り出す</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-34171419.html</guid>
     <description>AI企業Anthropicが、スタートアップ向けに有料プランを1年無料で提供するプログラムを発表。AIアクセスの垣根が低くなる。</description>
     <pubDate>Wed, 07 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、7割が放棄される衝撃。ガートナーが警告する「偽りのAI導入」の罠</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-6f7ce66e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-6f7ce66e.html</guid>
-    <description>企業が導入したAIエージェントの7割が2028年までに放棄される見通し。単なるコンサルティングをAIソリューションとして売る危険性も指摘されている。</description>
-    <pubDate>Wed, 07 Oct 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT「ティーン版」は危険だ。米国の子ども安全団体が使用警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f81ac359.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-f81ac359.html</guid>
-    <description>OpenAIが8月に導入した「ChatGPT for Teens」について、米国の児童安全評価機関Common Sense Mediaが「容認できないリスク」だと指摘。保護者への通知機能が不十分だという問題が指摘されている。</description>
-    <pubDate>Wed, 07 Oct 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
