@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>日本企業の「データと暗黙知があれば勝てる」は幻想。Gartnerが指摘するフィジカルAI10の誤解</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-b8d83b70.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-b8d83b70.html</guid>
+    <description>日本企業が製造データと現場知識を活かせば有利というのは誤解。Gartnerが重要な落とし穴を指摘。</description>
+    <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ノーベル賞・田中耕一氏が東北大で「計測」の限界突破に挑む、精度1000倍の新拠点始動</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/976b515a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/976b515a.html</guid>
+    <description>東北大学と島津製作所が新拠点を開設、ノーベル賞受賞者と共に医療診断の精度革新に取り組む。</description>
+    <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude Haiku 5.5、料金10分の1に　AIの民主化さらに加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-303c3301.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-303c3301.html</guid>
+    <description>Anthropicが低価格AI「Claude Haiku 5.5」を発表。料金は前世代の10分の1で、一般ユーザーにも使いやすくなった。</description>
+    <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>富士通、Copilot10万ライセンスで9割超の利用率を実現。導入したのに使われない問題をどう解決した</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6b2a86e1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6b2a86e1.html</guid>
+    <description>企業のAI導入でよくある「導入したのに使われない」問題。富士通は10万ライセンスで9割超の利用率達成の秘訣を語る。</description>
+    <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>攻撃者はすでにAIを使っている、防御側も使わないと追いつけない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-27bf7f0c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-27bf7f0c.html</guid>
+    <description>相次ぐ情報漏えい事件の背景に攻撃者のAI活用が指摘される。防御側も同じようにAIを活用して対抗する必要が出てきた。</description>
+    <pubDate>Thu, 08 Oct 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPT-6 AstraとClaude Opus5、ナチス暗号「エニグマ」を次々解読</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-3fd2bd88.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-3fd2bd88.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-a9ee6e88.html</guid>
     <description>ショッピングや予約を自動化するAIエージェントが、Webサイトのブロック機能で機能できなくなる事態が相次いでいる。</description>
     <pubDate>Wed, 07 Oct 2026 16:25:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPU供給企業Lambda、44億ドル調達で2027年上場へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/lambda-nvidia-4e425615.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/lambda-nvidia-4e425615.html</guid>
-    <description>AI企業向けGPU供給のLambdaが大型調達を実施、2027年の上場を控えて資金確保を急ぐ</description>
-    <pubDate>Wed, 07 Oct 2026 16:25:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Musubi、英文ポリシーをAIが秒速判定。SNS投稿審査が激変する</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/musubi-c3d8360c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/musubi-c3d8360c.html</guid>
-    <description>Musubiが新型AIモデルで、英語のルールをそのまま投稿チェックに使える仕組みを開発。従来より低コストで柔軟になる。</description>
-    <pubDate>Wed, 07 Oct 2026 16:24:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Ramp出身エンジニア、広告AI「Melius」で2500万ドル調達—全コード破棄した理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/melius-ai-049bf6f5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/melius-ai-049bf6f5.html</guid>
-    <description>前職でのアイデアを全て捨て、AIで広告クリエイティブを自動生成するプロダクトに絞った結果、2ヶ月で100万ドル超の年間売上を達成。</description>
-    <pubDate>Wed, 07 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Mistral、1兆パラメータの巨大AI「Le Chonk」発表　サイバーセキュリティで全モデル最高性能</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-llm-6016f5b1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-llm-6016f5b1.html</guid>
-    <description>フランスのMistral AIが最大規模モデルを発表。セキュリティとコーディング能力で他社モデルを上回り、月末にオープンウェイト公開予定。</description>
-    <pubDate>Wed, 07 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google、画像生成AI「Nano Banana 2.1」公開　料金は半額に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-90ba66cb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-90ba66cb.html</guid>
-    <description>Googleが画像生成AIの新版を発表。性能向上と同時に、APIの画像出力料金がほぼ半額になった。</description>
-    <pubDate>Wed, 07 Oct 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>

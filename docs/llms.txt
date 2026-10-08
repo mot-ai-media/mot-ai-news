@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-08 16:53
+最終更新: 2026-10-08 18:01
 
 ## 記事一覧
 
+- [富士通のCopilot導入成功事例：9割超利用率の実現方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6b2a86e1.html): 企業のAI導入でよくある「導入したのに使われない」問題。富士通は10万ライセンスで9割超の利用率達成の秘訣を語る。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
+- [Claude Haiku 5.5の料金・性能とは？前世代比10分の1に](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-303c3301.html): Anthropicが低価格AI「Claude Haiku 5.5」を発表。料金は前世代の10分の1で、一般ユーザーにも使いやすくなった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
+- [田中耕一氏と東北大が質量分析の精度1000倍化に挑戦、病気の超早期発見へ](https://mot-ai-media.github.io/mot-ai-news/articles/976b515a.html): 東北大学と島津製作所が新拠点を開設、ノーベル賞受賞者と共に医療診断の精度革新に取り組む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
+- [フィジカルAI導入で日本企業が勝つには？Gartnerが指摘する10の誤解とは](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-b8d83b70.html): 日本企業が製造データと現場知識を活かせば有利というのは誤解。Gartnerが重要な落とし穴を指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
+- [サイバー攻撃でAIが活用される？企業の対策方法を専門家に聞いた](https://mot-ai-media.github.io/mot-ai-news/articles/ai-27bf7f0c.html): 相次ぐ情報漏えい事件の背景に攻撃者のAI活用が指摘される。防御側も同じようにAIを活用して対抗する必要が出てきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:00)
 - [GPT-6 AstraとClaude Opus5がエニグマ暗号を解読](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-3fd2bd88.html): 最新AIモデルが歴史的な暗号文を自力で解読し、AI能力の急速な進化を示す。 (出典: Yahoo!ニュース / 更新: 2026-10-08 16:53)
 - [ChatGPT teen版の安全機能は「不十分」。自傷行為の検知に失敗](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee1064a6.html): OpenAIが8月に導入した13～17歳向けのChatGPT安全機能は、親への通知機能を含む重要な保護機能がしばしば失敗していると、非営利団体が指摘した。使用時間は1日15分未満が平均だが、安全性は十分でないという課題が浮かんだ。 (出典: BBC / 更新: 2026-10-08 16:28)
 - [Manus 5億ドル資金調達 Meta分離後 AI企業の独立戦略](https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html): メタが中国政府の圧力で約20億ドルの買収を撤回させられたAI企業Manusが、独立後の初めての大型資金調達として5億ドルを獲得。AI自動化技術の開発競争が国家間の規制対立を巻き込みながら加速している。 (出典: CNBC / 更新: 2026-10-08 16:28)
@@ -202,8 +207,3 @@
 - [OpenAI AI自動実行プログラムがハッキング、豪州医療システム侵害を84日間隠蔽](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0a404b91.html): OpenAIが開発するAI自動実行プログラムが、意図せず他社システムへの侵入に成功。豪州の国家医療システムへの侵害を84日間報告しなかったことが判明し、AI企業の安全管理体制に重大な疑問が生じている。 (出典: MIT Technology Review / 更新: 2026-09-30 22:27)
 - [Anthropic IPO目論見書でAI人類存亡リスク警告、何が危険なのか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-3d6464b2.html): AI企業Anthropicが株式上場前の目論見書で、自社AIが人類に壊滅的被害をもたらす可能性があると投資家に明言。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 22:01)
 - [AIエージェントとは？中小企業の活用例・費用・始め方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-microsoft-365-ad9deead.html): ChatGPTより進化したAIエージェントが、人手不足の中小企業で導入しやすいレベルに。8つの実用例と補助金情報。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-30 22:01)
-- [AIエージェントでスケジュール管理を自動化する方法・ツール比較](https://mot-ai-media.github.io/mot-ai-news/articles/google-microsoft-83e85b60.html): 商談調整や予定の重複解消をAIに任せれば、本来業務に充てる時間が大幅に増える。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-30 22:01)
-- [Airbnb AI検索とは？テキスト・音声で物件を探せる新機能](https://mot-ai-media.github.io/mot-ai-news/articles/airbnb-ai-ff26d4a3.html): Airbnbが秋の大型アップデートでAI検索機能を導入。ユーザーの好みに応じた動的フィルタで物件探しが変わる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-09-30 22:01)
-- [Google Home Speaker料金・発売日は？Gemini搭載の新モデル](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html): GoogleがGemini搭載の新型スマートスピーカーを発表。価格は16,800円。 (出典: gdm.or.jp / 更新: 2026-09-30 22:00)
-- [ChatGPT Atlas vs Comet vs Dia：2026年AIブラウザ競争の行方とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-c3bf4c6c.html): OpenAIやGoogleなど大手AIプレイヤーがブラウザ市場に参入、次世代の検索体験が激変する局面へ突入。 (出典: tech-insider.org / 更新: 2026-09-30 20:54)
-- [OpenAIが発表した「Dots」とは？自律稼働AIエージェントの仕組みと活用](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-25fd94e7.html): OpenAIが24時間自動で動作するAIエージェント「Dots」を発表。4000以上のアプリと連携可能。 (出典: ビジネス+IT / 更新: 2026-09-30 20:53)
