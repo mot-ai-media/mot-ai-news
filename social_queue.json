@@ -7597,7 +7597,7 @@
     ],
     "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4ff7/live/977f2bf0-bd85-11f1-ab03-fd866f8788d0.jpg",
     "generated_at": "2026-10-01 22:33",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -7655,7 +7655,10 @@
         "x_post": "ドメイン『.si』が44倍に急増した理由を読むと、自分のビジネスに応用できます。トレンド化する前に『名前』を押さえるのが戦略。いま関連ドメインを確保しないと、後で割高買いすることになる。",
         "cta": "AI時代のドメイン戦略、今から始めるなら。"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18053580971804366",
+    "published_at": "2026-10-08T19:02:03"
   },
   "openai-ai-a17db24a": {
     "headline": "OpenAI安全性責任者が内部告発「企業文化は崩壊している」",

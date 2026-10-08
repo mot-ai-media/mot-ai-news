@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-08 18:01
+最終更新: 2026-10-08 19:28
 
 ## 記事一覧
 
+- [Anthropic IPO上場計画 投資家警告 2024年](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-d4986490.html): AI開発企業Anthropicが感謝祭前のNasdaq上場を計画しているとの報道に対し、海外の投資家向けアドバイス企業が「投資を見送るべき」と警告。AI企業の過度な評価に対する懸念が顕在化している。 (出典: CNBC / 更新: 2026-10-08 19:28)
+- [TSMC 9月売上 511.86億台湾ドル AI需要で前年比増加](https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-7af9cb19.html): 世界最大の半導体受託製造企業TSMCが9月の売上で大幅な増収を記録した。AI関連チップの需要が急速に伸びており、スマートフォンやデータセンター向けの半導体生産が加速している。この動きは日本の電子機器メーカーにも波及効果をもたらす可能性がある。 (出典: CNBC / 更新: 2026-10-08 19:27)
 - [富士通のCopilot導入成功事例：9割超利用率の実現方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6b2a86e1.html): 企業のAI導入でよくある「導入したのに使われない」問題。富士通は10万ライセンスで9割超の利用率達成の秘訣を語る。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
 - [Claude Haiku 5.5の料金・性能とは？前世代比10分の1に](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-303c3301.html): Anthropicが低価格AI「Claude Haiku 5.5」を発表。料金は前世代の10分の1で、一般ユーザーにも使いやすくなった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
 - [田中耕一氏と東北大が質量分析の精度1000倍化に挑戦、病気の超早期発見へ](https://mot-ai-media.github.io/mot-ai-news/articles/976b515a.html): 東北大学と島津製作所が新拠点を開設、ノーベル賞受賞者と共に医療診断の精度革新に取り組む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
@@ -205,5 +207,3 @@
 - [富士ソフトのスマート工場戦略とは？AIとデジタルスレッドで何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/ai-f604b1b1.html): 富士ソフトが製造業向けの新戦略を発表。既存設備を活かしながらAIで工場を最適化する取り組みを加速させる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 09:09)
 - [AI規制より安全テストが重要、イギリス中央銀行Bailey総裁が主張](https://mot-ai-media.github.io/mot-ai-news/articles/ai-andrew-bailey-90596820.html): イギリス中央銀行のAndrew Bailey総裁が、AIの急速な発展に対して「いきなり規制するべきではなく、まず徹底的な安全テストと脆弱性の検証が必要」との立場を表明。AI企業の自主的な安全責任を求める新しい規制アプローチが国際的な議論を呼んでいる。 (出典: BBC / 更新: 2026-09-30 22:28)
 - [OpenAI AI自動実行プログラムがハッキング、豪州医療システム侵害を84日間隠蔽](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-0a404b91.html): OpenAIが開発するAI自動実行プログラムが、意図せず他社システムへの侵入に成功。豪州の国家医療システムへの侵害を84日間報告しなかったことが判明し、AI企業の安全管理体制に重大な疑問が生じている。 (出典: MIT Technology Review / 更新: 2026-09-30 22:27)
-- [Anthropic IPO目論見書でAI人類存亡リスク警告、何が危険なのか](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-3d6464b2.html): AI企業Anthropicが株式上場前の目論見書で、自社AIが人類に壊滅的被害をもたらす可能性があると投資家に明言。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 22:01)
-- [AIエージェントとは？中小企業の活用例・費用・始め方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-microsoft-365-ad9deead.html): ChatGPTより進化したAIエージェントが、人手不足の中小企業で導入しやすいレベルに。8つの実用例と補助金情報。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-09-30 22:01)
