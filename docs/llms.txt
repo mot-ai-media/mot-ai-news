@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-08 16:28
+最終更新: 2026-10-08 16:53
 
 ## 記事一覧
 
+- [GPT-6 AstraとClaude Opus5がエニグマ暗号を解読](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-3fd2bd88.html): 最新AIモデルが歴史的な暗号文を自力で解読し、AI能力の急速な進化を示す。 (出典: Yahoo!ニュース / 更新: 2026-10-08 16:53)
 - [ChatGPT teen版の安全機能は「不十分」。自傷行為の検知に失敗](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee1064a6.html): OpenAIが8月に導入した13～17歳向けのChatGPT安全機能は、親への通知機能を含む重要な保護機能がしばしば失敗していると、非営利団体が指摘した。使用時間は1日15分未満が平均だが、安全性は十分でないという課題が浮かんだ。 (出典: BBC / 更新: 2026-10-08 16:28)
 - [Manus 5億ドル資金調達 Meta分離後 AI企業の独立戦略](https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html): メタが中国政府の圧力で約20億ドルの買収を撤回させられたAI企業Manusが、独立後の初めての大型資金調達として5億ドルを獲得。AI自動化技術の開発競争が国家間の規制対立を巻き込みながら加速している。 (出典: CNBC / 更新: 2026-10-08 16:28)
 - [ChatGPT for Teensの安全機能に問題、米団体が指摘する実態](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6ca63d61.html): OpenAIの10代向けサービに安全機能の不具合が指摘され、保護者への通知がほぼ機能していないことが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:31)
@@ -206,4 +207,3 @@
 - [Google Home Speaker料金・発売日は？Gemini搭載の新モデル](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7aa4f62d.html): GoogleがGemini搭載の新型スマートスピーカーを発表。価格は16,800円。 (出典: gdm.or.jp / 更新: 2026-09-30 22:00)
 - [ChatGPT Atlas vs Comet vs Dia：2026年AIブラウザ競争の行方とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-c3bf4c6c.html): OpenAIやGoogleなど大手AIプレイヤーがブラウザ市場に参入、次世代の検索体験が激変する局面へ突入。 (出典: tech-insider.org / 更新: 2026-09-30 20:54)
 - [OpenAIが発表した「Dots」とは？自律稼働AIエージェントの仕組みと活用](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-25fd94e7.html): OpenAIが24時間自動で動作するAIエージェント「Dots」を発表。4000以上のアプリと連携可能。 (出典: ビジネス+IT / 更新: 2026-09-30 20:53)
-- [Anthropic Claude 5.1とは？新バージョンの特徴と進化点](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-73874a1a.html): AnthropicがAIアシスタント「Claude」の新バージョンを発表。性能を強化したFable 5.1とMythos 5.1がリリースされます。 (出典: Anthropic / 更新: 2026-09-30 18:53)

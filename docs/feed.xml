@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6 AstraとClaude Opus5、ナチス暗号「エニグマ」を次々解読</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-3fd2bd88.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-3fd2bd88.html</guid>
+    <description>最新AIモデルが歴史的な暗号文を自力で解読し、AI能力の急速な進化を示す。</description>
+    <pubDate>Thu, 08 Oct 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Meta傘下のAI企業Manus、中国の圧力で分離後に5億ドル調達——AIエージェント開発競争は激化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-90ba66cb.html</guid>
     <description>Googleが画像生成AIの新版を発表。性能向上と同時に、APIの画像出力料金がほぼ半額になった。</description>
     <pubDate>Wed, 07 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが作ったアプリ9割に脆弱性、Microsoftら調査で判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-4fe914b2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-4fe914b2.html</guid>
-    <description>AIが自動生成したWebアプリの91%から脆弱性が見つかった。プロンプトの工夫で改善できる可能性も。</description>
-    <pubDate>Wed, 07 Oct 2026 14:30:00 +0900</pubDate>
   </item>
 </channel></rss>
