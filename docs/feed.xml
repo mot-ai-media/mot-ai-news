@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Meta傘下のAI企業Manus、中国の圧力で分離後に5億ドル調達——AIエージェント開発競争は激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html</guid>
+    <description>メタが中国政府の圧力で約20億ドルの買収を撤回させられたAI企業Manusが、独立後の初めての大型資金調達として5億ドルを獲得。AI自動化技術の開発競争が国家間の規制対立を巻き込みながら加速している。</description>
+    <pubDate>Thu, 08 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT「ティーン版」の安全機能が実は機能していない。研究機関が警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee1064a6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee1064a6.html</guid>
+    <description>OpenAIが8月に導入した13～17歳向けのChatGPT安全機能は、親への通知機能を含む重要な保護機能がしばしば失敗していると、非営利団体が指摘した。使用時間は1日15分未満が平均だが、安全性は十分でないという課題が浮かんだ。</description>
+    <pubDate>Thu, 08 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPT全ユーザーにGPT-6搭載、回答に操作できる画面が自動生成される</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-b69fb065.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-b69fb065.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-4fe914b2.html</guid>
     <description>AIが自動生成したWebアプリの91%から脆弱性が見つかった。プロンプトの工夫で改善できる可能性も。</description>
     <pubDate>Wed, 07 Oct 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、セキュリティ専門家向けプログラムを大幅拡充。AIの安全制限を段階的に緩和</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-bf5bd898.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-bf5bd898.html</guid>
-    <description>Anthropicが、セキュリティ専門家向けプログラムを3段階のアクセス枠に整理。防御側により強力なツールを提供し、脆弱性検出の実績も公表した。</description>
-    <pubDate>Wed, 07 Oct 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta傘下のMuse人気がAMDの株価を押し上げ。AIエージェント時代が半導体産業を激変させる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html</guid>
-    <description>Metaが提供するAIエージェント「Muse」の利用者増加に伴い、プロセッサーを製造するAMDとIntelの株価が過去1ヶ月で大手テック企業を上回るパフォーマンスを示している。AI時代の次の波が、ハードウェア産業にもたらす変化に注目が集まっている。</description>
-    <pubDate>Wed, 07 Oct 2026 13:32:00 +0900</pubDate>
   </item>
 </channel></rss>
