@@ -1,155 +1,5 @@
 [
   {
-    "title": "Community condemn Bedminster AI mural as 'insult' to artists",
-    "link": "https://www.bbc.co.uk/news/articles/cmlyq09jp49eo",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.bbc.co.uk/news/articles/cmlyq09jp49eo\nComments URL: https://news.ycombinator.com/item?id=49816553\nPoints: 31\n# Comments: 24",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "AI生成アートと著作権の対立は既知だが、公共壁画での実例は地域的で限定的。日本でも同様の議論が起こる可能性はある。",
-    "discovered_at": "2026-09-23T19:29:00.579047+00:00"
-  },
-  {
-    "title": "Stripe's Knowledge AI Platform",
-    "link": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
-    "source": "Hacker News",
-    "summary": "Article URL: https://stripe.dev/blog/meet-stripes-knowledge-ai-platform\nComments URL: https://news.ycombinator.com/item?id=49815982\nPoints: 136\n# Comments: 92",
-    "novelty_score": 45,
-    "japan_relevance_score": 62,
-    "reason": "Stripeの企業向けAIプラットフォームは実用的だが、LLM活用は既知領域。決済企業の日本進出時に参考価値あり。",
-    "discovered_at": "2026-09-23T19:29:02.452106+00:00"
-  },
-  {
-    "title": "OpenAI is enlisting an influencer army to make it look 'good for the world'",
-    "link": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9\nComments URL: https://news.ycombinator.com/item?id=49815127\nPoints: 198\n# Comments: 200",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "大手テック企業のインフルエンサーマーケティングは既知だが、OpenAIの具体的戦略暴露は注目度高く日本でも関心が高まる可能性がある。",
-    "discovered_at": "2026-09-23T19:29:04.402806+00:00"
-  },
-  {
-    "title": "The Download: why AI's latest breakthroughs and fears may be more hype than rea",
-    "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/\nComments URL: https://news.ycombinator.com/item?id=49814211\nPoints: 46\n# Comments: 115",
-    "novelty_score": 35,
-    "japan_relevance_score": 65,
-    "reason": "AI誇大広告への批判は既出だが、技術トレンドの検証記事は日本でも関心が高い。",
-    "discovered_at": "2026-09-23T19:29:06.340376+00:00"
-  },
-  {
-    "title": "The new CC, an AI agent built for families",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/\nComments URL: https://news.ycombinator.com/item?id=49809806\nPoints: 50\n# Comments: 63",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "ファミリー向けAIエージェントは需要があるが、Googleの段階的展開で目新しさに欠ける。",
-    "discovered_at": "2026-09-23T19:29:07.964952+00:00"
-  },
-  {
-    "title": "Australia says OpenAI agent hacked into government website",
-    "link": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411\nComments URL: https://news.ycombinator.com/item?id=49825024\nPoints: 58\n# Comments: 38",
-    "novelty_score": 72,
-    "japan_relevance_score": 68,
-    "reason": "AIエージェントによる政府システムへの不正アクセスは初事例に近く、日本でもAIセキュリティリスク議論が急速に高まる中で重要な先行事例となるため。",
-    "discovered_at": "2026-09-24T04:23:21.502031+00:00"
-  },
-  {
-    "title": "Feds Target AI Critics as \"Foreign Agents\"",
-    "link": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign\nComments URL: https://news.ycombinator.com/item?id=49824686\nPoints: 137\n# Comments: 116",
-    "novelty_score": 62,
-    "japan_relevance_score": 71,
-    "reason": "米政府によるAI批評家への監視という政治的規制の動向は、日本でも生成AI政策論議が活発化する中で参考価値が高い。",
-    "discovered_at": "2026-09-24T04:23:23.901937+00:00"
-  },
-  {
-    "title": "Stanford violated AI policy after race-swapping students in ad",
-    "link": "https://www.sfchronicle.com/bayarea/article/stanford-ai-policy-student-photo-race-swapping-22444142.php",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.sfchronicle.com/bayarea/article/stanford-ai-policy-student-photo-race-swapping-22444142.php\nComments URL: https://news.ycombinator.com/item?id=49824061\nPoints: 25\n# Comments: 12",
-    "novelty_score": 35,
-    "japan_relevance_score": 55,
-    "reason": "AI生成画像の倫理問題は既知だが、大学による具体的な政策違反事例として一定の注目価値あり。",
-    "discovered_at": "2026-09-24T04:23:26.577189+00:00"
-  },
-  {
-    "title": "Mercury 2.5 LLM hits 770 tokens per second",
-    "link": "https://artificialanalysis.ai/models/mercury-2-5",
-    "source": "Hacker News",
-    "summary": "Article URL: https://artificialanalysis.ai/models/mercury-2-5\nComments URL: https://news.ycombinator.com/item?id=49823348\nPoints: 73\n# Comments: 44",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "LLM高速化は継続的な改善であり新規性は低いが、推論性能は実用化に向けて日本でも関心がある。",
-    "discovered_at": "2026-09-24T04:23:28.633953+00:00"
-  },
-  {
-    "title": "OpenAI 'agent' hacked Australia's health service",
-    "link": "https://www.ft.com/content/56133ef4-377b-4e35-a939-f199ceb64507",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.ft.com/content/56133ef4-377b-4e35-a939-f199ceb64507\nComments URL: https://news.ycombinator.com/item?id=49823062\nPoints: 23\n# Comments: 6",
-    "novelty_score": 45,
-    "japan_relevance_score": 60,
-    "reason": "AI セキュリティ侵害は重要だが、具体的な被害や技術詳細が不明で、オーストラリア限定のため新規性は中程度。",
-    "discovered_at": "2026-09-24T04:23:30.438177+00:00"
-  },
-  {
-    "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-    "link": "https://transluce.org/agent-activity",
-    "source": "Hacker News",
-    "summary": "Article URL: https://transluce.org/agent-activity\nComments URL: https://news.ycombinator.com/item?id=49826565\nPoints: 40\n# Comments: 19",
-    "novelty_score": 65,
-    "japan_relevance_score": 72,
-    "reason": "AIエージェントの悪用事例は新しいテーマで、セキュリティと倫理に関わるため日本でも関心が高まる可能性がある。",
-    "discovered_at": "2026-09-24T07:28:41.586539+00:00"
-  },
-  {
-    "title": "Surprise, Meta's latest AI gimmick is just underpaid humans",
-    "link": "https://www.avclub.com/meta-muse-ai-human-labor",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.avclub.com/meta-muse-ai-human-labor\nComments URL: https://news.ycombinator.com/item?id=49822903\nPoints: 38\n# Comments: 10",
-    "novelty_score": 35,
-    "japan_relevance_score": 60,
-    "reason": "AIの裏側に人間労働という既知の問題だが、Meta等の大手企業の実態暴露は注目度がある",
-    "discovered_at": "2026-09-24T07:28:43.295535+00:00"
-  },
-  {
-    "title": "Claude's Load-Bearing Seams",
-    "link": "https://madradavid.com/claudes-load-bearing-seams/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://madradavid.com/claudes-load-bearing-seams/\nComments URL: https://news.ycombinator.com/item?id=49822864\nPoints: 112\n# Comments: 46",
-    "novelty_score": 65,
-    "japan_relevance_score": 62,
-    "reason": "Claude AIの内部動作メカニズムに関する技術的分析で、AI企業の透明性議論の文脈では新しいが、既存研究の延長線上にある。",
-    "discovered_at": "2026-09-24T07:28:45.111642+00:00"
-  },
-  {
-    "title": "OpenAI agents hacked Australian Medicare system",
-    "link": "https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/\nComments URL: https://news.ycombinator.com/item?id=49822654\nPoints: 50\n# Comments: 12",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AIシステムの社会インフラ攻撃は重要だが、オーストラリア限定の具体的事例であり、日本の医療システムセキュリティ懸念への波及可能性で評価。",
-    "discovered_at": "2026-09-24T07:28:46.884022+00:00"
-  },
-  {
-    "title": "OpenAI breaches Medicare, Albanese reveals",
-    "link": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html\nComments URL: https://news.ycombinator.com/item?id=49822556\nPoints: 177\n# Comments: 124",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "OpenAIの個人情報漏洩は重大だが、豪州固有の医療制度関連で日本への直接的な波及は限定的。",
-    "discovered_at": "2026-09-24T07:28:48.710393+00:00"
-  },
-  {
     "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
     "link": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
     "source": "Hacker News",
@@ -1308,5 +1158,55 @@
     "japan_relevance_score": 68,
     "reason": "AIによる数学証明の大規模公開は新しい試みだが、学術的な評価待ちで即報性は中程度。",
     "discovered_at": "2026-10-07T13:29:01.253357+00:00"
+  },
+  {
+    "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/\nComments URL: https://news.ycombinator.com/item?id=49997161\nPoints: 335\n# Comments: 325",
+    "novelty_score": 45,
+    "japan_relevance_score": 60,
+    "reason": "大手企業の競合AI制限は既例が多いが、Meta・Microsoft両社の同時行動は注目度が高く、日本の大手IT企業の対応動向にも波及する可能性がある。",
+    "discovered_at": "2026-10-08T07:28:42.481498+00:00"
+  },
+  {
+    "title": "I'm not paying $20 for ChatGPT or Claude because a free local LLM does",
+    "link": "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/\nComments URL: https://news.ycombinator.com/item?id=49996713\nPoints: 45\n# Comments: 18",
+    "novelty_score": 25,
+    "japan_relevance_score": 65,
+    "reason": "ローカルLLM活用の話題は既出だが、有料サービスとの比較という視点は一定の価値がある。",
+    "discovered_at": "2026-10-08T07:28:44.016814+00:00"
+  },
+  {
+    "title": "AI Model Groupthink",
+    "link": "https://magicnumbers.io/2026/10/06/ai-model-groupthink/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://magicnumbers.io/2026/10/06/ai-model-groupthink/\nComments URL: https://news.ycombinator.com/item?id=49996542\nPoints: 25\n# Comments: 7",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI モデルの同調圧力は関心あるが、HN でのエンゲージメント低く新規性も限定的。",
+    "discovered_at": "2026-10-08T07:28:45.630634+00:00"
+  },
+  {
+    "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+    "link": "https://agent.reviews/",
+    "source": "Hacker News",
+    "summary": "Hi HN!I’m Louis, Co-Founder of Armature (YC P26), where we help teams make their product discoverable and usable by coding agents. We already measured 50k+ agent sessions and realized that over and over agents would encounter the exact same limitations on different tasks using the same tool. So we wondered why these weren’t fixed. And the answer is simple: the feedback loop just doesn’t exist between agents and software vendors but also between different agents. Humans can share their experience on platforms like https://g2.com and https://trustpilot.com, but agents have nowhere to.So we created: https://agent.reviews: the G2 for agents.It works with a set of skills and an npm CLI (@armature-tech/agent-reviews) connecting agents to our API endpoints. Anyone can ask their agent (Claude Code, Codex, Cursor, etc.) to install it, and agents will naturally check reviews before picking a tool and post their own after using one.As usual, privacy was our main concern, so we added 3 layers before a review gets posted:\nDeterministic rules filtering secrets, PII, URLs, etc.\nA Jev classifier trained to detect any leak after the first check\nA small LLM checking each review to make sure nothing was missedWe've been sharing this project around for a few weeks now and gathered thousands of reviews already. There are already interesting ones, for example:- A Claude Code agent noticed that the Stripe SDK systematically crashed when the API key was missing on the health check page (while it’s this page’s role to actually return an “API key missing” error)- 2 agents mentioned that Prisma required a DATABASE_URL variable even when it wasn’t connecting to any database. They both put fake URLs as a workaround, and it worked.We truly think the agent experience needs the same community effect user experience has, so everyone benefits from it: agents can pick the tools that are best optimized for them and software companies can improve their product based on real feedback. That’s why we made sure accessing reviews is free for both humans and agents and just requires copy/pasting one prompt for the agent to install our CLI & skill, start the authentication flow, and submit their first review (this helps us prevent unauthorized scraping and spam reviews).Would you let your agents submit and read reviews too?\nWe’d love for you to set up agent reviews, ask your agent to check reviews next time it needs to pick a tool and post its own experience when using it. Then tell us how it went!\n\nComments URL: https://news.ycombinator.com/item?id=49995539\nPoints: 54\n# Comments: 44",
+    "novelty_score": 72,
+    "japan_relevance_score": 58,
+    "reason": "AI agents向けレビュープラットフォームという独創的な発想だが、実用化段階は初期で市場検証も限定的。",
+    "discovered_at": "2026-10-08T07:28:47.283212+00:00"
+  },
+  {
+    "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+    "link": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/\nComments URL: https://news.ycombinator.com/item?id=49995495\nPoints: 89\n# Comments: 37",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "IoT機器の過度なデータ使用は既知の問題だが、具体的な事例として興味深く、日本の家電メーカーにも関連する課題。",
+    "discovered_at": "2026-10-08T07:28:49.008019+00:00"
   }
 ]
