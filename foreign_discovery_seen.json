@@ -1,81 +1,6 @@
 [
   {
     "tokens": [
-      "competitor",
-      "dots",
-      "launches",
-      "muse",
-      "openai"
-    ],
-    "ts": "2026-09-30T04:55:34"
-  },
-  {
-    "tokens": [
-      "devday",
-      "gather",
-      "openai",
-      "protesters"
-    ],
-    "ts": "2026-09-30T04:55:53"
-  },
-  {
-    "tokens": [
-      "him",
-      "intelligence'",
-      "issue",
-      "key",
-      "polls",
-      "rename",
-      "show",
-      "sinking",
-      "super",
-      "tries",
-      "trump"
-    ],
-    "ts": "2026-09-30T07:29:11"
-  },
-  {
-    "tokens": [
-      "already",
-      "bringing",
-      "businesses",
-      "head",
-      "huge",
-      "meta",
-      "muse",
-      "small",
-      "start"
-    ],
-    "ts": "2026-09-30T07:29:29"
-  },
-  {
-    "tokens": [
-      "bioweapons",
-      "chinese",
-      "make",
-      "researchers",
-      "told",
-      "tool"
-    ],
-    "ts": "2026-09-30T10:28:05"
-  },
-  {
-    "tokens": [
-      "consumer",
-      "cramer",
-      "crushing",
-      "look",
-      "may",
-      "muse",
-      "some",
-      "stocks.",
-      "these",
-      "worth"
-    ],
-    "ts": "2026-09-30T10:28:20"
-  },
-  {
-    "tokens": [
       "chief",
       "download",
       "explains",
@@ -830,5 +755,31 @@
       "muse"
     ],
     "ts": "2026-10-08T01:28:18"
+  },
+  {
+    "tokens": [
+      "80bn",
+      "boom",
+      "chip",
+      "profits",
+      "pushes",
+      "record",
+      "samsung"
+    ],
+    "ts": "2026-10-08T11:28:30"
+  },
+  {
+    "tokens": [
+      "599",
+      "chip",
+      "containing",
+      "laptop",
+      "microsoft",
+      "nvidia",
+      "sell",
+      "surface",
+      "ultra"
+    ],
+    "ts": "2026-10-08T11:28:48"
   }
 ]

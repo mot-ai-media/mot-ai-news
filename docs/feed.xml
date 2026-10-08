@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>マイクロソフト、26万円のAI搭載ノートPC「Surface Laptop Ultra」を10月発売。Nvidia最新チップ搭載で何が変わるのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-85d0ed30.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-85d0ed30.html</guid>
+    <description>マイクロソフトが独自開発のノートパソコン「Surface Laptop Ultra」を発表。Nvidiaの最新AI向けチップを搭載し、10月16日に2,599ドル（日本円で約26万円）から販売開始。WindowsにAI機能を統合した「Hybrid Intelligence」も同時展開される。</description>
+    <pubDate>Thu, 08 Oct 2026 11:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Samsung、AI特需で過去最高の80億ドル利益。あなたのスマホやPC価格に影響する可能性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-ai-55dfc7be.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-ai-55dfc7be.html</guid>
+    <description>AI開発の急速な拡大に伴い、メモリチップ需要が急増。Samsung Electronicsが3四半期連続で過去最高益を更新する見通しを発表。ただし需給逼迫により、スマートフォンやPCなどの消費者向け製品の価格上昇が懸念されている。</description>
+    <pubDate>Thu, 08 Oct 2026 11:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>MetaのAIアシスタント「Muse」がiPadに対応、ChatGPTやGrokと競争激化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-b8b3b1c5.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-b8b3b1c5.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-b205a5d6.html</guid>
     <description>インテージとNTTデータが連携し、消費財メーカーの商品開発をAIで支援する仕組みを構築。データ分析から商品化まで自動化される。</description>
     <pubDate>Wed, 07 Oct 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude・ChatGPT、FreeCADと連携でAI操作の3Dモデル制作が現実に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/claude-chatgpt-4a39bd0b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/claude-chatgpt-4a39bd0b.html</guid>
-    <description>大規模言語モデルがCAD設計ツールと直結し、AIの指示で3Dモデルを自動生成できる時代へ。</description>
-    <pubDate>Wed, 07 Oct 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、スタートアップ向けプログラム拡大。Claude普及の次の一手</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fad16983.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fad16983.html</guid>
-    <description>AI企業Anthropicが、自社のAIモデル「Claude」をスタートアップ企業向けに提供するプログラムを拡大している。創業期の企業と急成長する企業をターゲットに、AIツールの普及を急速に進める戦略だ。</description>
-    <pubDate>Wed, 07 Oct 2026 10:28:00 +0900</pubDate>
   </item>
 </channel></rss>
