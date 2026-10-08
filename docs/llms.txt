@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-08 22:28
+最終更新: 2026-10-09 01:28
 
 ## 記事一覧
 
+- [Google Gemini Enterprise エージェント、複数アプリ・デバイス対応で業務自動化](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html): Googleが企業向けの「Gemini」AIエージェントを発表。複数のアプリやデバイスを背景で自動制御し、ユーザーが1つのインターフェースから指示するだけで複数の業務をこなせる。従来は個別アプリごとにAIを使い分けていた作業が大きく変わる可能性がある。 (出典: The Verge / 更新: 2026-10-09 01:28)
+- [Google AI Edge Foresight オフライン会議録音アプリ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html): Googleが実験的なメモアプリ「Google AI Edge Foresight」をmacOSで公開。会議やオーディオファイルの録音・文字起こし・要約をすべてデバイス内で処理し、クラウドに送信しない。プライバシーを重視するビジネスユーザーの需要に対応する。 (出典: The Verge / 更新: 2026-10-09 01:27)
 - [金利上昇がAI株に有利に働く理由｜市場二極化が進む](https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html): アメリカの金利上昇により、市場が大きく二つに分かれようとしている。借り入れコストに敏感なセクターが圧力を受ける一方で、AI関連企業はこの逆風をほぼ受けないという指摘が、米著名投資家から出されている。 (出典: CNBC / 更新: 2026-10-08 22:28)
 - [Amazon Alexa タブレット値上げ 予算モデル廃止 2024](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-0e35835f.html): Amazonが低価格のFireタブレットラインを廃止し、AI機能とデザインを強化した高価格帯のAlexaタブレットへシフト。スマートデバイス市場全体が「安いだけ」から「性能が重視される」時代に移行する兆候が鮮明になった。 (出典: CNBC / 更新: 2026-10-08 22:27)
 - [AIエージェント導入方法の比較・選び方｜4つのパターンから企業向けガイド](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-microsoft-copilot-2e28343d.html): 既製ツール・専用SaaS・ノーコード・開発と4つの導入方法。自社に合う選択肢をどう判断するか。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-08 22:01)
@@ -205,5 +207,3 @@
 - [AIがあれば早くできる？エンジニアの困惑、認識ズレの実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-a080c84e.html): AIは万能ではないのに「AIがあるのだから早くできるはず」と期待されるエンジニアの苦悩が調査で明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:35)
 - [トランプAI会食でApple欠席。OpenAI・Google・Meta・Teslaが参加する中で](https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-9bc11350.html): トランプ前大統領がシリコンバレーの主要AI企業との会食を開催した際、Appleが参加しなかった。AI政策形成の影響力を巡る業界内の立ち位置の違いが浮き彫りになった。 (出典: CNBC / 更新: 2026-10-01 13:32)
 - [AI投資バブルが市場ショックを引き起こす可能性──イギリス中央銀行が警告](https://mot-ai-media.github.io/mot-ai-news/articles/ai-nvidia-e9650d36.html): イギリスの中央銀行総裁が、AI産業への巨額投資が金融市場に深刻な混乱をもたらす可能性があると警告。NvidiaやMicrosoft、Amazonなどの巨大企業が数百億ドルを投じる一方で、期待値が現実に追いつかなければ「資産価格の急落」が起きるリスクを指摘している。 (出典: BBC / 更新: 2026-10-01 13:31)
-- [カリフォルニア州 AI解雇禁止法 アメリカ初](https://mot-ai-media.github.io/mot-ai-news/articles/gavin-newsom-ai-51001256.html): カリフォルニア州のニューサム知事が、AIシステムだけで労働者を解雇することを禁じる法律に署名。米国で初めての本格的なAI労働規制として注目を集めている。 (出典: CNBC / 更新: 2026-10-01 10:28)
-- [OpenAI 中国 AI モデル抽出 セキュリティ](https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-02e3c895.html): OpenAIは、自社のAIモデルから保護された推論プロセスを抽出しようとする試みを検出。中国のスタートアップ・Moonshot AIとの関連性が指摘されており、AI企業のセキュリティ脅威が現実化した形だ。 (出典: CNBC / 更新: 2026-10-01 10:27)

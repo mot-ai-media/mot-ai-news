@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Googleが仕事用AIエージェント「Gemini」を一元化、複数アプリを自動操作する時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html</guid>
+    <description>Googleが企業向けの「Gemini」AIエージェントを発表。複数のアプリやデバイスを背景で自動制御し、ユーザーが1つのインターフェースから指示するだけで複数の業務をこなせる。従来は個別アプリごとにAIを使い分けていた作業が大きく変わる可能性がある。</description>
+    <pubDate>Fri, 09 Oct 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Googleが「完全オフライン」の会議録音アプリをリリース。あなたの音声データはクラウドに送信されない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html</guid>
+    <description>Googleが実験的なメモアプリ「Google AI Edge Foresight」をmacOSで公開。会議やオーディオファイルの録音・文字起こし・要約をすべてデバイス内で処理し、クラウドに送信しない。プライバシーを重視するビジネスユーザーの需要に対応する。</description>
+    <pubDate>Fri, 09 Oct 2026 01:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>金利上昇で市場は二極化—AI企業だけが取り残されない理由</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-mistral-large-4-dfb231c3.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-mistral-large-4-dfb231c3.html</guid>
     <description>フランスのMistral AIが新型AI「Mistral Large 4」を発表。米国や中国の競合に対抗する独自路線を模索。</description>
-    <pubDate>Wed, 07 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>LibreOffice、AIなしを逆に武器に。プライバシー重視の「非AI方針」を宣言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/libreoffice-ai-f37dd1b5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/libreoffice-ai-f37dd1b5.html</guid>
-    <description>オープンソースのLibreOfficeが、AIを搭載しない方針を明確に宣言。ユーザーデータの保護を優先する戦略。</description>
-    <pubDate>Wed, 07 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、スタートアップに「Claude」を1年無料提供。AIの民主化が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-34171419.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-34171419.html</guid>
-    <description>AI企業Anthropicが、スタートアップ向けに有料プランを1年無料で提供するプログラムを発表。AIアクセスの垣根が低くなる。</description>
     <pubDate>Wed, 07 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

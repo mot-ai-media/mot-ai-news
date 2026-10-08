@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Gemini Enterprise エージェント、複数アプリ・デバイス対応で業務自動化 | AI特化メディアMOT</title>
+<meta name="description" content="Googleが企業向けの「Gemini」AIエージェントを発表。複数のアプリやデバイスを背景で自動制御し、ユーザーが1つのインターフェースから指示するだけで複数の業務をこなせる。従来は個別アプリごとにAIを使い分けていた作業が大きく変わる可能性がある。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Googleが仕事用AIエージェント「Gemini」を一元化、複数アプリを自動操作する時代へ">
+<meta property="og:description" content="Googleが企業向けの「Gemini」AIエージェントを発表。複数のアプリやデバイスを背景で自動制御し、ユーザーが1つのインターフェースから指示するだけで複数の業務をこなせる。従来は個別アプリごとにAIを使い分けていた作業が大きく変わる可能性がある。">
+<meta property="og:image" content="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Gemini.max-2000x2000-1.png?quality=90&amp;strip=all&amp;crop=0%2C3.4845840605003%2C100%2C93.030831878999&amp;w=1200">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html">
+<meta property="article:published_time" content="2026-10-09T01:28:00+09:00">
+<meta property="article:modified_time" content="2026-10-09T01:28:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Googleが仕事用AIエージェント「Gemini」を一元化、複数アプリを自動操作する時代へ", "description": "Googleが企業向けの「Gemini」AIエージェントを発表。複数のアプリやデバイスを背景で自動制御し、ユーザーが1つのインターフェースから指示するだけで複数の業務をこなせる。従来は個別アプリごとにAIを使い分けていた作業が大きく変わる可能性がある。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-09T01:28:00+09:00", "dateModified": "2026-10-09T01:28:00+09:00", "image": ["https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Gemini.max-2000x2000-1.png?quality=90&strip=all&crop=0%2C3.4845840605003%2C100%2C93.030831878999&w=1200"], "citation": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Gemini Enterpriseって誰が使えるの？", "acceptedAnswer": {"@type": "Answer", "text": "企業向けのサービスで、Google Workspaceを利用している法人が対象となります。"}}, {"@type": "Question", "name": "複数アプリを自動操作するというのは、具体的にどういうこと？", "acceptedAnswer": {"@type": "Answer", "text": "例えば『このメールに返信してスプレッドシートを更新し、関係者にカレンダー招待を送る』といった一連の業務を、1回の指示でAIが自動的に実行できるということです。"}}, {"@type": "Question", "name": "日本ではいつ使えるようになるの？", "acceptedAnswer": {"@type": "Answer", "text": "今回の発表では具体的な日本での提供開始時期は明かされていません。Googleの他の新機能と同様に、段階的に展開される見込みです。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Google", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/google.html"}, {"@type": "ListItem", "position": 3, "name": "Googleが仕事用AIエージェント「Gemini」を一元化、複数アプリを自動操作する時代へ", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Gemini.max-2000x2000-1.png?quality=90&amp;strip=all&amp;crop=0%2C3.4845840605003%2C100%2C93.030831878999&amp;w=1200" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Googleが仕事用AIエージェント「Gemini」を一元化、複数アプリを自動操作する時代へ</span></div></div>
+  <h1 class="headline">Googleが仕事用AIエージェント「Gemini」を一元化、複数アプリを自動操作する時代へ</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>The Verge</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-09 01:28</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> GoogleがGemini Enterpriseの新機能として、複数アプリを統一的に操作するAIエージェント機能を投入する。業務効率化が加速する。</p><h3>何が起きたか</h3><p>Googleは「Gemini at Work」イベントで、複数のアプリやデバイスを背景で自動操作できるAIエージェント機能を発表しました。ユーザーはGemini Enterpriseアプリ内の単一インターフェースからAIに指示を与えるだけで、複雑な業務を自動処理させられます。これまでは各アプリごとにAIと対話していた方式から、統一的な司令塔として機能するようになります。</p><div class="overseas-box"><h3>海外ではどう報道されているか</h3><p>米Tech系メディア『The Verge』は、このGeminiエージェントを企業向けの統合ツールとして位置づけ、複数アプリケーション間での自動業務処理を実現する点を報道。GoogleがAI活用の領域を個別アプリから企業全体のワークフローへ拡張する戦略の一環と見られています。</p></div><h3>なぜ重要か</h3><p>これまでAIは『チャットボット』として個別に使われていました。今回のエージェント化により、複数の業務ツール（メール、スプレッドシート、カレンダーなど）を自動で連携させて処理できる段階に進みます。つまり、面倒な定型業務の多くが自動化される可能性が高まるということです。</p><div class="japan-impact-box"><h3>日本への影響</h3><p>日本の企業は業務の自動化に遅れている傾向にあり、このような統合AIツールの登場は大きな影響を与えそうです。特にホワイトカラー業務が多い企業では、導入により生産性向上が期待される一方、AIに仕事を奪われることへの不安も生じるでしょう。Google Workspaceの利用が広がっている組織ほど、早期の導入検討が進む可能性があります。</p></div><h3>今後どうなる</h3><p>今後、MicrosoftやAmazonなどの競合企業も同様の統合AIエージェント機能を投入してくることが予想されます。企業がどのAIプラットフォームを選ぶかで、今後の業務システム全体の構成が決まる重要な局面に入ってきました。</p></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/google.html">#Google</a><a class="tag-pill" href="../topics/gemini.html">#Gemini</a><a class="tag-pill" href="../topics/a8eefc67ce.html">#AI自動化</a></div>
+  <script>window.motPageTags=["Google", "Gemini", "AI自動化", "Enterprise"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">AIプロダクトのアイデアを、クラウドファンディングで形に</h3><p class="sponsor-desc">国内最大級のクラウドファンディング「CAMPFIRE」。自作のAIツールやプロジェクトの資金調達にも使える。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC36P+76E5BM+5XBQ+5YJRM" rel="sponsored nofollow" target="_blank" class="sponsor-text-link">CAMPFIREを見る</a><img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BC36P+76E5BM+5XBQ+5YJRM" alt=""></div><span class="sponsor-cta">サービスを見る &rarr;</span><p class="sponsor-name">CAMPFIRE</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>The Verge</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise" target="_blank" rel="noopener noreferrer">元記事（<cite>The Verge</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Gemini Enterpriseって誰が使えるの？</p>
+    <p class="faq-a">企業向けのサービスで、Google Workspaceを利用している法人が対象となります。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 複数アプリを自動操作するというのは、具体的にどういうこと？</p>
+    <p class="faq-a">例えば『このメールに返信してスプレッドシートを更新し、関係者にカレンダー招待を送る』といった一連の業務を、1回の指示でAIが自動的に実行できるということです。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 日本ではいつ使えるようになるの？</p>
+    <p class="faq-a">今回の発表では具体的な日本での提供開始時期は明かされていません。Googleの他の新機能と同様に、段階的に展開される見込みです。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Google%E3%81%8C%E4%BB%95%E4%BA%8B%E7%94%A8AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%80%8CGemini%E3%80%8D%E3%82%92%E4%B8%80%E5%85%83%E5%8C%96%E3%80%81%E8%A4%87%E6%95%B0%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E8%87%AA%E5%8B%95%E6%93%8D%E4%BD%9C%E3%81%99%E3%82%8B%E6%99%82%E4%BB%A3%E3%81%B8&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html&text=Google%E3%81%8C%E4%BB%95%E4%BA%8B%E7%94%A8AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%80%8CGemini%E3%80%8D%E3%82%92%E4%B8%80%E5%85%83%E5%8C%96%E3%80%81%E8%A4%87%E6%95%B0%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E8%87%AA%E5%8B%95%E6%93%8D%E4%BD%9C%E3%81%99%E3%82%8B%E6%99%82%E4%BB%A3%E3%81%B8" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html" data-share-title="Googleが仕事用AIエージェント「Gemini」を一元化、複数アプリを自動操作する時代へ">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="google-gemini-01ea6a09">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="google-ai-edge-foresight-472b20c3.html">
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_Google_02.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200" alt="" loading="lazy">
+    <span class="next-up-headline">Googleが「完全オフライン」の会議録音アプリをリリース。あなたの音声データはクラウドに送信されない</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="meta-muse-c0a74765.html">Metaが「Muse」AIエージェントのコードをオープンソース化。自作デバイスでAIアシスタントを動かせる時代へ</a></li>
+  <li><a href="splice-ai-2b2053e0.html">音楽サンプル大手Spliceの CEOが警告「AI自動返信メールが人間らしい会話を殺している」</a></li>
+  <li><a href="openai-ai-ed2cbcca.html">OpenAIのAIエージェントが国連サイトへの16,000回の不正スキャン、ブルートフォース攻撃に近い行為が判明</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

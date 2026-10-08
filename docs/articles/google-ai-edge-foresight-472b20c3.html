@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google AI Edge Foresight オフライン会議録音アプリ | AI特化メディアMOT</title>
+<meta name="description" content="Googleが実験的なメモアプリ「Google AI Edge Foresight」をmacOSで公開。会議やオーディオファイルの録音・文字起こし・要約をすべてデバイス内で処理し、クラウドに送信しない。プライバシーを重視するビジネスユーザーの需要に対応する。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="Googleが「完全オフライン」の会議録音アプリをリリース。あなたの音声データはクラウドに送信されない">
+<meta property="og:description" content="Googleが実験的なメモアプリ「Google AI Edge Foresight」をmacOSで公開。会議やオーディオファイルの録音・文字起こし・要約をすべてデバイス内で処理し、クラウドに送信しない。プライバシーを重視するビジネスユーザーの需要に対応する。">
+<meta property="og:image" content="https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_Google_02.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html">
+<meta property="article:published_time" content="2026-10-09T01:27:00+09:00">
+<meta property="article:modified_time" content="2026-10-09T01:27:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Googleが「完全オフライン」の会議録音アプリをリリース。あなたの音声データはクラウドに送信されない", "description": "Googleが実験的なメモアプリ「Google AI Edge Foresight」をmacOSで公開。会議やオーディオファイルの録音・文字起こし・要約をすべてデバイス内で処理し、クラウドに送信しない。プライバシーを重視するビジネスユーザーの需要に対応する。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-09T01:27:00+09:00", "dateModified": "2026-10-09T01:27:00+09:00", "image": ["https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_Google_02.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"], "citation": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "このアプリはお金がかかるのか？", "acceptedAnswer": {"@type": "Answer", "text": "無料です。実験的なアプリとしてGoogleが提供しています。"}}, {"@type": "Question", "name": "どの機器で使えるのか？", "acceptedAnswer": {"@type": "Answer", "text": "現在はmacOS版が公開されています。他のOSへの対応は未発表です。"}}, {"@type": "Question", "name": "本当にデータがクラウドに送信されないのか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。デバイス内のAIモデル（EmbeddingGemma 2）を使用して処理するため、サーバーに送信されません。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "Google", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/google.html"}, {"@type": "ListItem", "position": 3, "name": "Googleが「完全オフライン」の会議録音アプリをリリース。あなたの音声データはクラウドに送信されない", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_Google_02.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">Googleが「完全オフライン」の会議録音アプリをリリース。あなたの音声データはクラウドに送信されない</span></div></div>
+  <h1 class="headline">Googleが「完全オフライン」の会議録音アプリをリリース。あなたの音声データはクラウドに送信されない</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>The Verge</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-09 01:27</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> Googleが会議をオフラインで文字起こしするAIアプリを無料公開。個人情報がクラウドに保存されないのが最大の特徴。</p><h3>何が起きたか</h3><p>Google が新しいメモアプリをリリースしました。このアプリは会議や音声ファイルをデバイス内のAI技術を使って自動的に文字に直し、内容を要約することができます。重要なのは、すべての処理がパソコン内で完結し、インターネット経由でサーバーに送信されない点。あなたの音声データは手元に残ります。</p><div class="overseas-box"><h3>海外ではどう報道されているか</h3><p>The Vergeなど海外メディアが報道。GranolarやWispr Flowといった既存のAIメモアプリと機能は似ているが、Googleが開発した「EmbeddingGemma 2」という独自のAIモデルを使用。完全オフライン処理という点で差別化を図っている。macOSでの提供からスタート。</p></div><h3>なぜ重要か</h3><p>AIの発展に伴い、個人情報がクラウド上に保存されることへの懸念が世界的に高まっています。特にビジネスの機密会議では情報漏洩のリスクが問題。このアプリは「オフライン処理」という新しいアプローチで、AIの便利さとプライバシー保護の両立を実現したモデルとして注目されています。</p><div class="japan-impact-box"><h3>日本への影響</h3><p>日本企業でもテレワーク・オンライン会議が定着し、会議の自動文字起こしツールへの需要は高まっています。機密情報を扱う業界（金融・医療・法律など）では、データがサーバーに送信されない点が大きな利点になるでしょう。今後、日本のAIツール市場でもプライバシー重視の選択肢が求められる可能性があります。</p></div><h3>今後どうなる</h3><p>オフライン AI処理は今後のトレンドになる見込み。Googleがこれを強化すれば、他のテック企業も追従する可能性。WindowsやAndroidへの拡大、そして有料機能の追加がポイント。</p><div class="mot-take-box"><h3>MOTの見解</h3><p>プライバシーとAIの利便性は対立軸だと考えられていましたが、このアプリはその二項対立を破壊する存在です。今後のAIツール選びでは『データをどう扱うか』が購買判断の重要な基準になるでしょう。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>今後のOS対応状況（Windows・iPhone対応の有無）、正式版リリースの時期、有料プラン導入の可能性に注目。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/google.html">#Google</a><a class="tag-pill" href="../topics/69ddd5a74e.html">#プライバシー</a></div>
+  <script>window.motPageTags=["Google", "AI Edge Foresight", "プライバシー", "会議録音"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">睡眠の質を、指先のリングで可視化</h3><p class="sponsor-desc">スマートリング「RingConn」。装着するだけで睡眠データを記録・分析できる。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" rel="sponsored nofollow" target="_blank"><img border="0" width="300" height="250" alt="RingConn" loading="lazy" src="https://www20.a8.net/svt/bgt?aid=260905484110&wid=001&eno=01&mid=s00000026776002004000&mc=1"></a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BC3YK+1THPBM+5QLS+BXIYP" alt=""></div><span class="sponsor-cta">製品を見る &rarr;</span><p class="sponsor-name">RingConn</p></div></article></div>
+  <blockquote class="fact-check" cite="https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>The Verge</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline" target="_blank" rel="noopener noreferrer">元記事（<cite>The Verge</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. このアプリはお金がかかるのか？</p>
+    <p class="faq-a">無料です。実験的なアプリとしてGoogleが提供しています。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. どの機器で使えるのか？</p>
+    <p class="faq-a">現在はmacOS版が公開されています。他のOSへの対応は未発表です。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. 本当にデータがクラウドに送信されないのか？</p>
+    <p class="faq-a">はい。デバイス内のAIモデル（EmbeddingGemma 2）を使用して処理するため、サーバーに送信されません。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=Google%E3%81%8C%E3%80%8C%E5%AE%8C%E5%85%A8%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%80%8D%E3%81%AE%E4%BC%9A%E8%AD%B0%E9%8C%B2%E9%9F%B3%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%80%82%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AF%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%AB%E9%80%81%E4%BF%A1%E3%81%95%E3%82%8C%E3%81%AA%E3%81%84&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html&text=Google%E3%81%8C%E3%80%8C%E5%AE%8C%E5%85%A8%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%80%8D%E3%81%AE%E4%BC%9A%E8%AD%B0%E9%8C%B2%E9%9F%B3%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%80%82%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AF%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%AB%E9%80%81%E4%BF%A1%E3%81%95%E3%82%8C%E3%81%AA%E3%81%84" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html" data-share-title="Googleが「完全オフライン」の会議録音アプリをリリース。あなたの音声データはクラウドに送信されない">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="google-ai-edge-foresight-472b20c3">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="google-gemini-01ea6a09.html">
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Gemini.max-2000x2000-1.png?quality=90&amp;strip=all&amp;crop=0%2C3.4845840605003%2C100%2C93.030831878999&amp;w=1200" alt="" loading="lazy">
+    <span class="next-up-headline">Googleが仕事用AIエージェント「Gemini」を一元化、複数アプリを自動操作する時代へ</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="meta-vr-ar-0cb0d4e6.html">Metaが「カメラなしスマートグラス」を発表——盗撮問題に決着をつけるのか</a></li>
+  <li><a href="andreessen-horowitz-openai-97f4d944.html">シリコンバレーの大物VCが「宿題なし大学」を立ち上げ。Google、Meta、OpenAIが協力</a></li>
+  <li><a href="meta-ai-607ffaad.html">Metaの新型AIアシスタント「Muse」、あなたのメッセージを勝手に読む可能性——でも本人も仕組みを理解していない</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
