@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-08 11:28
+最終更新: 2026-10-08 14:31
 
 ## 記事一覧
 
+- [ChatGPT for Teensの安全機能に問題、米団体が指摘する実態](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6ca63d61.html): OpenAIの10代向けサービに安全機能の不具合が指摘され、保護者への通知がほぼ機能していないことが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:31)
+- [サイバー攻撃とAI悪用の実態、セキュリティ専門家が見解](https://mot-ai-media.github.io/mot-ai-news/articles/ai-210555db.html): 今年夏からサイバー攻撃による情報漏えいが急増。セキュリティ専門家がAI悪用の可能性を指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:31)
+- [ChatGPT GPT-6とは？Intelligent UIの使い方・いつから使える](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-b69fb065.html): OpenAIがChatGPTに新モデルGPT-6と、テキストだけでなく操作可能な図やボタンを含む回答を生成する機能を追加。無料版からも利用可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:31)
+- [SynthID Detectorとは？AI生成コンテンツの判定ツール、使い方と対応企業](https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-5163dda7.html): Googleが誰でも使えるAI生成判定ツールを公開。画像・動画・音声をアップロードするだけでAIの仕業が分かる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:30)
+- [不正アクセス多発の背景にAI？識者が指摘する攻撃手法の変化とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d507fbcf.html): タイムズカーシェアや焼肉きんぐなど大手企業への不正アクセスが相次ぐ中、セキュリティ専門家は『AI使用が不自然ではない』と指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:30)
 - [Samsung利益80億ドル AI需要 チップ価格上昇](https://mot-ai-media.github.io/mot-ai-news/articles/samsung-ai-55dfc7be.html): AI開発の急速な拡大に伴い、メモリチップ需要が急増。Samsung Electronicsが3四半期連続で過去最高益を更新する見通しを発表。ただし需給逼迫により、スマートフォンやPCなどの消費者向け製品の価格上昇が懸念されている。 (出典: BBC / 更新: 2026-10-08 11:28)
 - [Surface Laptop Ultra 2599ドル Nvidia RTX Spark搭載 発売日10月16日](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-85d0ed30.html): マイクロソフトが独自開発のノートパソコン「Surface Laptop Ultra」を発表。Nvidiaの最新AI向けチップを搭載し、10月16日に2,599ドル（日本円で約26万円）から販売開始。WindowsにAI機能を統合した「Hybrid Intelligence」も同時展開される。 (出典: CNBC / 更新: 2026-10-08 11:28)
 - [Meta Muse iPad対応 AI競争 ChatGPT OpenAI](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-b8b3b1c5.html): Metaが開発するAIエージェント「Muse」がiPad向けのネイティブ対応を開始。ローンチから数週間でApp Storeの無料アプリトップを獲得し、Mac版に続くマルチデバイス展開で、OpenAIやその他のAIツールとの競争が加速している。 (出典: The Verge / 更新: 2026-10-08 01:28)
@@ -202,8 +207,3 @@
 - [Anthropic Claude 5.1とは？新バージョンの特徴と進化点](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-73874a1a.html): AnthropicがAIアシスタント「Claude」の新バージョンを発表。性能を強化したFable 5.1とMythos 5.1がリリースされます。 (出典: Anthropic / 更新: 2026-09-30 18:53)
 - [AI生成コードの検証体制は大丈夫？大企業の実態調査](https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-db6d41e5.html): 大企業ほどAI開発が広がっているが、品質管理体制が不十分な現実が浮き彫りに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
 - [AIエージェント開発で失敗する理由とは？Googleが公開した勝つ設計パターン4つ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-4dde1323.html): Googleのコンテストから見えた課題：複数AIの連携を謳いながら、実は単一モデルをつなげているだけの作品が大多数。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
-- [退職予兆AIとは？SlackやTeamsのログから離職リスクを検知](https://mot-ai-media.github.io/mot-ai-news/articles/rex-slack-537cefd0.html): チャット利用の変化からメンタル不調や退職の兆候を捉えるAIサービスが登場。管理職の適切なサポートに繋げることが狙い。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
-- [OpenAI DevDay 2026発表まとめ：新機能と新モデル、料金プランの全て](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-e66f393b.html): OpenAIが開発者会議で20以上の新機能を発表。仕事を継続実行するAIエージェント、8倍高速な有料版、チーム協働機能が登場。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:01)
-- [DXの成功事例｜野村不動産が経理業務を削減した方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/dx-e925a63e.html): DXで成果を出す企業は、新しいツール導入より先に「本当に必要な業務か」を問い直している。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-09-30 18:00)
-- [OpenAI GPT-6.1 Solとは？Astra並み性能で低価格実現](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-1-sol-48a830a2.html): OpenAIが高性能な新モデルGPT-6.1 Solをリリース。従来比で大幅な価格削減を実現した。 (出典: 株式会社インプレス / 更新: 2026-09-30 12:53)
-- [OpenAIの新型AIエージェント「dots」とは？GPT-6 Astraの機能と特徴](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-c9c835b3.html): OpenAIが常時稼働可能な新しいAIエージェント「dots」を発表。最新モデルのGPT-6 Astraを搭載する。 (出典: UQライフ / 更新: 2026-09-30 12:53)

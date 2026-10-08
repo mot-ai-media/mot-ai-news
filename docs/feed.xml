@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPT全ユーザーにGPT-6搭載、回答に操作できる画面が自動生成される</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-b69fb065.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-b69fb065.html</guid>
+    <description>OpenAIがChatGPTに新モデルGPT-6と、テキストだけでなく操作可能な図やボタンを含む回答を生成する機能を追加。無料版からも利用可能に。</description>
+    <pubDate>Thu, 08 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>サイバー攻撃が急増、AIが悪用されている可能性は「否定できない」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-210555db.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-210555db.html</guid>
+    <description>今年夏からサイバー攻撃による情報漏えいが急増。セキュリティ専門家がAI悪用の可能性を指摘。</description>
+    <pubDate>Thu, 08 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT for Teens、保護者通知が機能せず「容認できないリスク」と警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6ca63d61.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6ca63d61.html</guid>
+    <description>OpenAIの10代向けサービに安全機能の不具合が指摘され、保護者への通知がほぼ機能していないことが判明。</description>
+    <pubDate>Thu, 08 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>相次ぐ企業への不正アクセス、専門家が指摘する『AIによる超高速攻撃』の現実</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d507fbcf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d507fbcf.html</guid>
+    <description>タイムズカーシェアや焼肉きんぐなど大手企業への不正アクセスが相次ぐ中、セキュリティ専門家は『AI使用が不自然ではない』と指摘。</description>
+    <pubDate>Thu, 08 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google、AI生成画像・動画を見分けるツール一般公開。OpenAIやNVIDIA製も対象に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-5163dda7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-5163dda7.html</guid>
+    <description>Googleが誰でも使えるAI生成判定ツールを公開。画像・動画・音声をアップロードするだけでAIの仕業が分かる。</description>
+    <pubDate>Thu, 08 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>マイクロソフト、26万円のAI搭載ノートPC「Surface Laptop Ultra」を10月発売。Nvidia最新チップ搭載で何が変わるのか</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-85d0ed30.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-85d0ed30.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html</guid>
     <description>Metaが提供するAIエージェント「Muse」の利用者増加に伴い、プロセッサーを製造するAMDとIntelの株価が過去1ヶ月で大手テック企業を上回るパフォーマンスを示している。AI時代の次の波が、ハードウェア産業にもたらす変化に注目が集まっている。</description>
     <pubDate>Wed, 07 Oct 2026 13:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI研究者が警告、業界の急速な成長に潜む危機とは</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-3f928b2b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-3f928b2b.html</guid>
-    <description>海外で報道されているAI研究者による警告が、業界の急速な成長に対する懸念を示唆。日本ではまだ大きな注目を集めていないが、今後のAI産業や社会への影響を考える上で重要な指摘とされている。</description>
-    <pubDate>Wed, 07 Oct 2026 13:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>富士通・Klarna・TAPPが実証。AIエージェントが顧客対応を「7割削減」から「90%自動化」へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html</guid>
-    <description>顧客対応・営業・社内業務で実績を上げるAIエージェント。数値の読み方を知れば、社内提案が通りやすくなる。</description>
-    <pubDate>Wed, 07 Oct 2026 11:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入、失敗する企業と成功する企業の差は「支援会社選び」で決まる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-copilot-studio-adf3f3c5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-copilot-studio-adf3f3c5.html</guid>
-    <description>AIエージェント導入で失敗しないために、支援会社選びの判断軸と支援内容の相場を知ることが必須。</description>
-    <pubDate>Wed, 07 Oct 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、AIが未解決の数学難問を722個解いて公開。信頼構築に本腰</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html</guid>
-    <description>OpenAIが社内AIによる数学の成果722本をGitHubで公開。過去の論争を受けて検証可能な形での発表に転換。</description>
-    <pubDate>Wed, 07 Oct 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが商品企画から発売まで一気通貫、NTTデータらが新システム構築</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-b205a5d6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-b205a5d6.html</guid>
-    <description>インテージとNTTデータが連携し、消費財メーカーの商品開発をAIで支援する仕組みを構築。データ分析から商品化まで自動化される。</description>
-    <pubDate>Wed, 07 Oct 2026 11:01:00 +0900</pubDate>
   </item>
 </channel></rss>
