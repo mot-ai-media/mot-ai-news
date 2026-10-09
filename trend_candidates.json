@@ -1208,5 +1208,55 @@
     "japan_relevance_score": 70,
     "reason": "AI安全性は既出テーマだが、日本でも関心高く、継続的な報道価値がある。",
     "discovered_at": "2026-10-08T16:28:56.113530+00:00"
+  },
+  {
+    "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+    "link": "https://github.com/edrisranjbar/lifeos",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/edrisranjbar/lifeos\nComments URL: https://news.ycombinator.com/item?id=50014150\nPoints: 34\n# Comments: 12",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "self-hosted dashboardとMCP serverの組み合わせは新しいが、ライフトラッキング系は既存プロダクト多く、日本ではニッチな需要と考えられる。",
+    "discovered_at": "2026-10-09T07:29:03.345457+00:00"
+  },
+  {
+    "title": "OpenAI, the Partition Principle, and Mathematics",
+    "link": "https://karagila.org/2026/openai-pp/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://karagila.org/2026/openai-pp/\nComments URL: https://news.ycombinator.com/item?id=50013902\nPoints: 100\n# Comments: 141",
+    "novelty_score": 72,
+    "japan_relevance_score": 58,
+    "reason": "OpenAIと数学の基礎原理の関係を扱う専門的テーマだが、学術的興味に限定される傾向。",
+    "discovered_at": "2026-10-09T07:29:08.130475+00:00"
+  },
+  {
+    "title": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
+    "link": "https://github.com/thesnarkitecht/rembrandt",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/thesnarkitecht/rembrandt\nComments URL: https://news.ycombinator.com/item?id=50012199\nPoints: 43\n# Comments: 51",
+    "novelty_score": 35,
+    "japan_relevance_score": 60,
+    "reason": "ローカルAI画像編集ツールは既に複数存在するが、オープンソース化されたLightroom代替品として日本の創作者層には関心が高まる可能性がある。",
+    "discovered_at": "2026-10-09T07:29:11.094440+00:00"
+  },
+  {
+    "title": "AI-ready biological data: $1.8B global commitment",
+    "link": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://biohub.org/news/virtual-biology-initiative-expansion/\nComments URL: https://news.ycombinator.com/item?id=50011999\nPoints: 113\n# Comments: 17",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "生物データのAI化は既に進行中だが、大型投資コミットメントとしての規模感が注目される。",
+    "discovered_at": "2026-10-09T07:29:16.249770+00:00"
+  },
+  {
+    "title": "License update: AI derivation prohibited on all my art, lore, stories, comics",
+    "link": "https://www.davidrevoy.com/article1178/license-update-ai-derivation-prohibited-on-all-my-art-lore-stories-and-comics",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.davidrevoy.com/article1178/license-update-ai-derivation-prohibited-on-all-my-art-lore-stories-and-comics\nComments URL: https://news.ycombinator.com/item?id=50011028\nPoints: 39\n# Comments: 24",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI学習禁止ライセンスの個別事例で新規性は低いが、クリエイター側の権利保護への関心が日本でも高まっており話題化の余地あり",
+    "discovered_at": "2026-10-09T07:29:20.040051+00:00"
   }
 ]
