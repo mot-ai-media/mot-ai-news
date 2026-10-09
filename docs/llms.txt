@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-09 22:02
+最終更新: 2026-10-10 01:28
 
 ## 記事一覧
 
+- [Nikon Small World in Motion コンテスト優勝作品がAI生成で失格、ルール改正へ](https://mot-ai-media.github.io/mot-ai-news/articles/nikon-ai-21442acb.html): 顕微鏡を使った科学写真の国際的な権威あるコンテストで、優勝作品がAI生成画像を使用していたことが判明し失格となった。医学専門家から『医学的に存在しない映像』と指摘され、Nikonは大会ルールの見直しを決定。AIと人間の業績判定の境界線が問われる問題へ発展している。 (出典: BBC / 更新: 2026-10-10 01:28)
+- [Anthropic Claude 暴言禁止ポリシー 2025年最新](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-753fc11f.html): AI企業Anthropicが、AIに対する継続的な暴言や虐待行為を禁止する利用規約の改正を発表。シンプルな数式に過ぎないAIに対する「虐待」の禁止は、AIとの向き合い方や人間の倫理観に関する根本的な問い直しを引き起こしている。 (出典: BBC / 更新: 2026-10-10 01:28)
 - [ラピダスとは？2兆円支援の日本半導体企業、課題と可能性を解説](https://mot-ai-media.github.io/mot-ai-news/articles/e9031cc4.html): 日本の半導体復興を目指すラピダスが設計企業17社と提携も、実際の顧客確保への不安が拭えない状況。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 22:02)
 - [不正アクセスとAI悪用の脅威、日本政府の対策は？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0b3cf3b.html): サイバー攻撃にAIが悪用される懸念が広がる中、国家サイバー統括室が対策を推し進める。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 22:02)
 - [AIと協調する「スーパーヒューマン」とは？サプライチェーン最適化の新戦略](https://mot-ai-media.github.io/mot-ai-news/articles/ai-5f1e8329.html): キナクシスCEOが語る、AIと人間が協働することで実現する意思決定スピード向上と製造業の競争力強化。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 22:02)
@@ -205,5 +207,3 @@
 - [MINISFORUM MS-02 Ultra とは？192GBメモリで70B級LLM動作](https://mot-ai-media.github.io/mot-ai-news/articles/minisforum-ai-4c04c264.html): 最新型ミニワークステーションが、従来はサーバー級の機器でしか動かせなかった大規模AI言語モデルをコンパクト設計で実行可能に。 (出典: hermitage akihabara [エルミタージュ秋葉原] / 更新: 2026-10-02 18:01)
 - [GoogleのGemini・Flowに透かし削除機能追加、AIコンテンツの真正性確認の仕組みとは](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ae92d604.html): GoogleのAIツールで生成した画像・動画・音楽から見える透かしを外す選択肢が追加。ただし目に見えない認証情報は残る。 (出典: GIGAZINE / 更新: 2026-10-02 18:01)
 - [AI サイバー攻撃 Interpol 検出困難 企業対策](https://mot-ai-media.github.io/mot-ai-news/articles/interpol-ai-1d278d84.html): 国際刑事警察機構（Interpol）は、AI技術が既存のサイバー脅威を加速させ、攻撃を検出しにくくしていると警告。自律的に動作するAIの登場により、企業が直面する新たなリスクも増加している。 (出典: CNBC / 更新: 2026-10-02 16:28)
-- [OpenAI機密情報流出事件：解雇された研究者と情報セキュリティの課題](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-47338c90.html): ChatGPTで知られるOpenAIが、機密情報を外部の評価組織に流出させたとして研究員3名を解雇。AI安全性の議論が高まる中、企業内の情報管理体制の脆弱性が露呈した。 (出典: BBC / 更新: 2026-10-02 16:27)
-- [Claude Fable 5.5とは？噂・最新情報まとめ](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-931ab186.html): Anthropic次期モデルの開発情報が業界で話題。実態はまだ不透明だが、業界の注目が集まっている。 (出典: Kingy AI / 更新: 2026-10-02 15:01)

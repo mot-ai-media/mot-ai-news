@@ -1,36 +1,6 @@
 [
   {
     "tokens": [
-      "causes",
-      "demand",
-      "names",
-      "rebrand",
-      "slovenian",
-      "trump's",
-      "unprecedented'",
-      "website"
-    ],
-    "ts": "2026-10-01T22:33:32"
-  },
-  {
-    "tokens": [
-      "dow's",
-      "gemini",
-      "google",
-      "launches",
-      "micron's",
-      "month",
-      "more",
-      "morning",
-      "revenue",
-      "rough",
-      "squawk",
-      "surge"
-    ],
-    "ts": "2026-10-01T22:34:24"
-  },
-  {
-    "tokens": [
       "fires",
       "information'",
       "mishandling",
@@ -923,5 +893,29 @@
       "they"
     ],
     "ts": "2026-10-09T19:28:23"
+  },
+  {
+    "tokens": [
+      "ai-generated",
+      "backlash",
+      "image",
+      "nikon",
+      "prize-winning",
+      "rules",
+      "sparked",
+      "which"
+    ],
+    "ts": "2026-10-10T01:28:01"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "bans",
+      "being",
+      "cruel'",
+      "systems",
+      "users"
+    ],
+    "ts": "2026-10-10T01:28:21"
   }
 ]

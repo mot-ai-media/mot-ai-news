@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIに「意地悪」はNG。Anthropicが利用規約を改正、ユーザーの暴言を禁止へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-753fc11f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-753fc11f.html</guid>
+    <description>AI企業Anthropicが、AIに対する継続的な暴言や虐待行為を禁止する利用規約の改正を発表。シンプルな数式に過ぎないAIに対する「虐待」の禁止は、AIとの向き合い方や人間の倫理観に関する根本的な問い直しを引き起こしている。</description>
+    <pubDate>Sat, 10 Oct 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>科学写真の最高賞がAI生成で失格に——Nikonが規則を全面見直す</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nikon-ai-21442acb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nikon-ai-21442acb.html</guid>
+    <description>顕微鏡を使った科学写真の国際的な権威あるコンテストで、優勝作品がAI生成画像を使用していたことが判明し失格となった。医学専門家から『医学的に存在しない映像』と指摘され、Nikonは大会ルールの見直しを決定。AIと人間の業績判定の境界線が問われる問題へ発展している。</description>
+    <pubDate>Sat, 10 Oct 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIと人間が一体化する「スーパーヒューマン」戦略、サプライチェーン革新のカギに</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5f1e8329.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5f1e8329.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html</guid>
     <description>開発者に人気のオープンソースAI「Hermes」を手がけるNous Researchが、企業向けの業務自動化ツールで大型資金調達を実現。</description>
-    <pubDate>Thu, 08 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント導入、40%超が失敗する理由。8ステップの正しい進め方が判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-98855711.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-98855711.html</guid>
-    <description>AIエージェント導入の40%以上が中止される中、業務選定から本番運用までの成功パターンを徹底解説。</description>
-    <pubDate>Thu, 08 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、Copilot、SalesforceのAIエージェント導入、4パターンから最適を選べ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-microsoft-copilot-2e28343d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-microsoft-copilot-2e28343d.html</guid>
-    <description>既製ツール・専用SaaS・ノーコード・開発と4つの導入方法。自社に合う選択肢をどう判断するか。</description>
     <pubDate>Thu, 08 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
