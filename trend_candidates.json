@@ -1,105 +1,5 @@
 [
   {
-    "title": "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
-    "link": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd\nComments URL: https://news.ycombinator.com/item?id=49833264\nPoints: 23\n# Comments: 11",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI投資の経済的影響は既出テーマだが、米国の歴史的規模での投資動向は日本の産業政策にも影響する重要性がある。",
-    "discovered_at": "2026-09-25T10:28:42.080224+00:00"
-  },
-  {
-    "title": "Oracle invokes force majeure on New Mexico AI data center",
-    "link": "https://qz.com/oracle-force-majeure-new-mexico-ai-data-center-092426",
-    "source": "Hacker News",
-    "summary": "Article URL: https://qz.com/oracle-force-majeure-new-mexico-ai-data-center-092426\nComments URL: https://news.ycombinator.com/item?id=49832564\nPoints: 28\n# Comments: 1",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "大手企業の天災免責条項の発動は珍しいが、AI施設の脆弱性という普遍的な課題を浮き彫りにしている。",
-    "discovered_at": "2026-09-25T10:28:43.717800+00:00"
-  },
-  {
-    "title": "I Have a Confession: I Built This Site with AI – Please Forgive Me",
-    "link": "https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai",
-    "source": "Hacker News",
-    "summary": "Article URL: https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai\nComments URL: https://news.ycombinator.com/item?id=49832491\nPoints: 43\n# Comments: 47",
-    "novelty_score": 25,
-    "japan_relevance_score": 60,
-    "reason": "AI使用の透明性という重要なテーマだが、個人的な告白形式で一般的な議論の深さに欠ける。",
-    "discovered_at": "2026-09-25T10:28:45.559241+00:00"
-  },
-  {
-    "title": "Tutoring company tells parents to save their money and 'use AI instead'",
-    "link": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r\nComments URL: https://news.ycombinator.com/item?id=49831690\nPoints: 117\n# Comments: 179",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "AIが教育産業を破壊する具体例として注目度は高いが、同様の議論は既に複数報道されている。",
-    "discovered_at": "2026-09-25T10:28:47.348035+00:00"
-  },
-  {
-    "title": "AI safety is mostly a sex cult in Berkeley",
-    "link": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in\nComments URL: https://news.ycombinator.com/item?id=49831269\nPoints: 116\n# Comments: 29",
-    "novelty_score": 35,
-    "japan_relevance_score": 25,
-    "reason": "AI安全研究コミュニティへの個人的攻撃記事で、事実検証が必要な扇動的内容であり新規性に欠ける。",
-    "discovered_at": "2026-09-25T10:28:49.024993+00:00"
-  },
-  {
-    "title": "Anthropic: The Situation Report",
-    "link": "https://www.anthropic.com/features/ebola-response",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.anthropic.com/features/ebola-response\nComments URL: https://news.ycombinator.com/item?id=49842788\nPoints: 25\n# Comments: 9",
-    "novelty_score": 15,
-    "japan_relevance_score": 25,
-    "reason": "AnthropicがAIを疾病対応に活用する事例だが、具体的な技術的新規性が不明確で、話題性も限定的。",
-    "discovered_at": "2026-09-25T13:28:46.844250+00:00"
-  },
-  {
-    "title": "Uproar in France over award-winning author accused of using AI",
-    "link": "https://www.bbc.com/news/articles/ck7v4y45893go",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.bbc.com/news/articles/ck7v4y45893go\nComments URL: https://news.ycombinator.com/item?id=49842707\nPoints: 31\n# Comments: 70",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI生成物と著作権の問題は既出だが、受賞作家の具体事例として日本でも文学界の関心が高まる可能性がある。",
-    "discovered_at": "2026-09-25T13:28:48.708480+00:00"
-  },
-  {
-    "title": "Best LLM for every budget, updated daily",
-    "link": "https://bestmodelforyourbudget.terrydjony.com/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://bestmodelforyourbudget.terrydjony.com/\nComments URL: https://news.ycombinator.com/item?id=49830866\nPoints: 177\n# Comments: 109",
-    "novelty_score": 35,
-    "japan_relevance_score": 70,
-    "reason": "LLM比較ツールは既存だが、予算別の日次更新という運用方式が実用的で、日本のコスト意識の高いユーザーにも需要あり。",
-    "discovered_at": "2026-09-25T13:28:50.628130+00:00"
-  },
-  {
-    "title": "Nori LLM: Achieving Over 1M tok / s",
-    "link": "https://noriagentic.com/nori-llm.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://noriagentic.com/nori-llm.html\nComments URL: https://news.ycombinator.com/item?id=49826163\nPoints: 24\n# Comments: 3",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "LLMの推論速度向上は重要だが、技術詳細が不明で、HN上の反応も限定的なため新規性を確認できない。",
-    "discovered_at": "2026-09-25T13:28:52.378211+00:00"
-  },
-  {
-    "title": "Ask HN: I just talked to an AI-obsessed client, and I need a shower afterwards",
-    "link": "https://news.ycombinator.com/item?id=49826029",
-    "source": "Hacker News",
-    "summary": "Just to preface, this isn't the typical \"Am I being replaced by vibe coding\" post.I just had a talk with one of my first ongoing clients, who sort of helped me kickstart my freelancing \"career\". He is one of those people who has a broad understanding of the tech out there, and what its capabilities are, but is not a programmer. He wanted to show me, and get my opinion on a restaurant management app that he's been using Lovable to develop. Admittedly, a lot of it is very impressive, and he has obviously become very good at using these tools. Part of that scares me, but I've largely accepted the reality that my skillset has to expand beyond being a React code monkey (wish is not what I am, but you get the point). I've always been a curious generalist, so picking up new stuff comes easily, and I'll manage.Anyways, here's the part that feels really gross. He's working on a feature that does some automated marketing using Higgsfield, so automated slop posting. Also a feature that consumes reviews from vendors, and he intends to use agents to post reviews as well.I'm 43, I managed to convince my parents to get AOL when I was 12. I made a Geocities site at 14. I've been obsessed with computers and the internet for my entire life. I'm also an artist who had a somewhat successful run as a touring musician, much to the detriment of my career growth (not much money in Punk).I feel the hobbies that I've been nurturing for my entire life are being destroyed by people who have finally found an entry point that requires the smallest amount of effort. We are literally watching the dead internet happen in real time, social media turning into a AI slop gallery, AI music topping the charts, and I just had a one-on-one conversation with someone that just doesn't care, because they get to feel creative for possibly the first time ever.How are you all dealing with this?\n\nComments URL: https://news.ycombinator.com/item?id=49826029\nPoints: 27\n# Comments: 36",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AI生成コンテンツの社会的影響についての既出テーマだが、クリエイター視点の個人的懸念であり一般的関心は限定的。",
-    "discovered_at": "2026-09-25T13:28:54.013816+00:00"
-  },
-  {
     "title": "OpenAI (2015)",
     "link": "https://openai.com/index/introducing-openai/",
     "source": "Hacker News",
@@ -1258,5 +1158,55 @@
     "japan_relevance_score": 72,
     "reason": "AI学習禁止ライセンスの個別事例で新規性は低いが、クリエイター側の権利保護への関心が日本でも高まっており話題化の余地あり",
     "discovered_at": "2026-10-09T07:29:20.040051+00:00"
+  },
+  {
+    "title": "The super intelligence shit is a humiliation ritual for OpenAI",
+    "link": "https://bsky.app/profile/opinionhaver.bsky.social/post/3mxfo2mdjqs2z",
+    "source": "Hacker News",
+    "summary": "Article URL: https://bsky.app/profile/opinionhaver.bsky.social/post/3mxfo2mdjqs2z\nComments URL: https://news.ycombinator.com/item?id=50021763\nPoints: 55\n# Comments: 35",
+    "novelty_score": 25,
+    "japan_relevance_score": 45,
+    "reason": "OpenAIの批判は既出だが、個人的意見の投稿で記事化には根拠・詳細が不足している。",
+    "discovered_at": "2026-10-09T16:28:40.274067+00:00"
+  },
+  {
+    "title": "Court throws out killer's sentence after judge said he loved AI video of victim",
+    "link": "https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457\nComments URL: https://news.ycombinator.com/item?id=50020856\nPoints: 61\n# Comments: 65",
+    "novelty_score": 75,
+    "japan_relevance_score": 72,
+    "reason": "AI生成コンテンツの法的問題という新しい領域で、日本でも生成AI規制の議論に直結する判例",
+    "discovered_at": "2026-10-09T16:28:41.873777+00:00"
+  },
+  {
+    "title": "Let your AI agents paint big arrows, boxes and text on your screen",
+    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/franzenzenhofer/big-arrow-on-the-screen\nComments URL: https://news.ycombinator.com/item?id=50018817\nPoints: 256\n# Comments: 106",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI画面操作は既存だが、矢印・テキスト描画ツールは補助的で、開発者向けニッチな需要の限定的な拡張機能。",
+    "discovered_at": "2026-10-09T16:28:43.768236+00:00"
+  },
+  {
+    "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+    "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/\nComments URL: https://news.ycombinator.com/item?id=50018350\nPoints: 174\n# Comments: 88",
+    "novelty_score": 65,
+    "japan_relevance_score": 72,
+    "reason": "AI企業の安全性研究者解雇は業界の透明性問題として重要だが、組織内紛争の具体例としては既出パターン。",
+    "discovered_at": "2026-10-09T16:28:45.390318+00:00"
+  },
+  {
+    "title": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+    "link": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
+    "source": "Hacker News",
+    "summary": "Article URL: https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months\nComments URL: https://news.ycombinator.com/item?id=50010656\nPoints: 63\n# Comments: 60",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI による暗号資産セキュリティ脅威は重要だが、仮想通貨コミュニティ内の既知の議論であり、一般への影響は限定的。",
+    "discovered_at": "2026-10-09T16:28:47.170508+00:00"
   }
 ]
