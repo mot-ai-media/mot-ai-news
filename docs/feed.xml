@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIと人間が一体化する「スーパーヒューマン」戦略、サプライチェーン革新のカギに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5f1e8329.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5f1e8329.html</guid>
+    <description>キナクシスCEOが語る、AIと人間が協働することで実現する意思決定スピード向上と製造業の競争力強化。</description>
+    <pubDate>Fri, 09 Oct 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>攻撃者がAIを悪用する時代、日本の情報防衛は大丈夫か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0b3cf3b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0b3cf3b.html</guid>
+    <description>サイバー攻撃にAIが悪用される懸念が広がる中、国家サイバー統括室が対策を推し進める。</description>
+    <pubDate>Fri, 09 Oct 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>2兆円投じた日本の半導体戦略、顧客企業との信頼に赤信号か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e9031cc4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e9031cc4.html</guid>
+    <description>日本の半導体復興を目指すラピダスが設計企業17社と提携も、実際の顧客確保への不安が拭えない状況。</description>
+    <pubDate>Fri, 09 Oct 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、ついに犯罪に本格活用。韓国銀行襲撃の黒幕は「26歳」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-5d5f9ae2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-5d5f9ae2.html</guid>
+    <description>Claudeなどの生成AIを悪用した韓国銀行への大規模サイバー攻撃。攻撃者はAIの利用記録から身元が特定される可能性に。</description>
+    <pubDate>Fri, 09 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、音声ファイル対応で一気に便利に。文字起こしから要約まで有料ユーザーが使える</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d60f64ec.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d60f64ec.html</guid>
+    <description>ChatGPTが音声ファイルのアップロードに対応。有料ユーザーは文字起こしや要約が可能に。</description>
+    <pubDate>Fri, 09 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPTを開発するOpenAI、安全性を重視した研究者3人を解雇──海外で「言論弾圧では」と批判</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e250ba0.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e250ba0.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-microsoft-copilot-2e28343d.html</guid>
     <description>既製ツール・専用SaaS・ノーコード・開発と4つの導入方法。自社に合う選択肢をどう判断するか。</description>
     <pubDate>Thu, 08 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Arm新CPU「Neoverse N4」発表、AGI向けと住み分け明確に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-2d21ab4d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-2d21ab4d.html</guid>
-    <description>ArmがモバイルとPC向けの新プロセッサを発表。AI処理性能が大幅に向上し、スマートフォンやPCの性能競争が激化しそう。</description>
-    <pubDate>Thu, 08 Oct 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>複数人が喋る場面で8人を正確に聞き分ける。スウェーデン発AI「Klang」が日本語文字起こしの弱点を補う</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/klang-plaud-693e8a23.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/klang-plaud-693e8a23.html</guid>
-    <description>複数人が入り乱れる会話でも話者を正確に分離できるAI文字起こしサービスKlangが注目を集めている。</description>
-    <pubDate>Thu, 08 Oct 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI企業アンスロピック、年内上場計画で投資家に警告——「バブルの象徴」との声も</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-d4986490.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-d4986490.html</guid>
-    <description>AI開発企業Anthropicが感謝祭前のNasdaq上場を計画しているとの報道に対し、海外の投資家向けアドバイス企業が「投資を見送るべき」と警告。AI企業の過度な評価に対する懸念が顕在化している。</description>
-    <pubDate>Thu, 08 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>TSMCが9月売上で過去最高を更新、AI需要がチップ市場を加速させている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-7af9cb19.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-7af9cb19.html</guid>
-    <description>世界最大の半導体受託製造企業TSMCが9月の売上で大幅な増収を記録した。AI関連チップの需要が急速に伸びており、スマートフォンやデータセンター向けの半導体生産が加速している。この動きは日本の電子機器メーカーにも波及効果をもたらす可能性がある。</description>
-    <pubDate>Thu, 08 Oct 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日本企業の「データと暗黙知があれば勝てる」は幻想。Gartnerが指摘するフィジカルAI10の誤解</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-b8d83b70.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-b8d83b70.html</guid>
-    <description>日本企業が製造データと現場知識を活かせば有利というのは誤解。Gartnerが重要な落とし穴を指摘。</description>
-    <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>
