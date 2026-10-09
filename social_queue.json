@@ -4678,7 +4678,7 @@
     ],
     "image_url": "https://image.cnbcfm.com/api/v1/image/108366109-1790078283997-gettyimages-2232978809-codingbg-5.jpeg?v=1790087145&w=1920&h=1080",
     "generated_at": "2026-09-23 16:28",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4736,7 +4736,10 @@
         "x_post": "実務的に：企業の新卒採用削減・人材育成転換は、採用計画・育成方針・配置転換に即座に影響。子どもの就活や部下育成の方針も今から調整すべき段階。",
         "cta": "企業の新しい育成戦略を知る"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18124290334700040",
+    "published_at": "2026-10-09T19:02:33"
   },
   "ai-b336b2d8": {
     "headline": "中国のAI開発、米国と激しく競争——5万台の自律ロボットが示す「次の覇権争い」",

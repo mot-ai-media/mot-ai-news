@@ -893,5 +893,35 @@
       "subscribers"
     ],
     "ts": "2026-10-09T16:28:27"
+  },
+  {
+    "tokens": [
+      "concerns",
+      "decision",
+      "decisions",
+      "defends",
+      "fire",
+      "not",
+      "openai",
+      "out'",
+      "raising",
+      "researchers",
+      "safety",
+      "speaking",
+      "these"
+    ],
+    "ts": "2026-10-09T19:28:05"
+  },
+  {
+    "tokens": [
+      "fired",
+      "let",
+      "openai",
+      "prioritising",
+      "researchers",
+      "safety'",
+      "they"
+    ],
+    "ts": "2026-10-09T19:28:23"
   }
 ]

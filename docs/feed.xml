@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPTを開発するOpenAI、安全性を重視した研究者3人を解雇──海外で「言論弾圧では」と批判</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e250ba0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e250ba0.html</guid>
+    <description>OpenAIがAI安全性に関する懸念を上げていた研究者3人を「機密情報の不適切な取り扱い」を理由に解雇。本人たちは「安全性を優先させたために報復された」と主張。BBCなど海外メディアが報道する中、AI企業の内部統制と言論の自由をめぐる議論が勃発している。</description>
+    <pubDate>Fri, 09 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、安全性研究者3名を解雇—「信頼侵害」で方針転換か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c8f23c5b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c8f23c5b.html</guid>
+    <description>AI大手OpenAIが安全性研究者3名を解雇。機密情報の扱いを巡る「信頼侵害」が理由とされるが、解雇の背景が安全性への異議申し立てではないと強調する発表が、業界内で議論を呼んでいる。</description>
+    <pubDate>Fri, 09 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>損保ジャパン2万人のGemini導入、「使われない」リスクをどう防ぐ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-b8d83b70.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-b8d83b70.html</guid>
     <description>日本企業が製造データと現場知識を活かせば有利というのは誤解。Gartnerが重要な落とし穴を指摘。</description>
-    <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ノーベル賞・田中耕一氏が東北大で「計測」の限界突破に挑む、精度1000倍の新拠点始動</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/976b515a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/976b515a.html</guid>
-    <description>東北大学と島津製作所が新拠点を開設、ノーベル賞受賞者と共に医療診断の精度革新に取り組む。</description>
-    <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude Haiku 5.5、料金10分の1に　AIの民主化さらに加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-303c3301.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-303c3301.html</guid>
-    <description>Anthropicが低価格AI「Claude Haiku 5.5」を発表。料金は前世代の10分の1で、一般ユーザーにも使いやすくなった。</description>
     <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>

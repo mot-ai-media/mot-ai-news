@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
-    "notified_at": "2026-09-09T10:27:43.217547+00:00"
-  },
-  {
-    "link": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
-    "notified_at": "2026-09-09T10:27:43.234740+00:00"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html",
-    "notified_at": "2026-09-09T10:27:43.267229+00:00"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/09/google-finland-ai-infrastructure-investment.html",
-    "notified_at": "2026-09-09T10:28:01.989672+00:00"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/08/jim-cramer-investors-focused-ai-stocks.html",
-    "notified_at": "2026-09-09T10:28:19.831115+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJZWdPTDZWUjdnWDBPNEF0MnEyeTU1bnczQ2ZNWlB5Q3dPLTlIUkNRMm5obWZPZUEtZHBpQ0Q0b1E0VkR3a1dlMkNzcWtud2xKUzdNUXVwTWVHOEpKdklFc0d0RGR5LU9IQVE?oc=5",
     "notified_at": "2026-09-09T11:53:16.668435+00:00"
   },
@@ -4286,5 +4266,17 @@
   {
     "link": "https://kn.itmedia.co.jp/kn/article/2610/09/2000002145/",
     "notified_at": "2026-10-09T09:01:59.504678+00:00"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
+    "notified_at": "2026-10-09T10:28:05.700574+00:00"
+  },
+  {
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+    "notified_at": "2026-10-09T10:28:05.714637+00:00"
+  },
+  {
+    "link": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+    "notified_at": "2026-10-09T10:28:23.790922+00:00"
   }
 ]
