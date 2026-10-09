@@ -1,26 +1,6 @@
 [
   {
     "tokens": [
-      "farmers",
-      "harvest",
-      "telling",
-      "when"
-    ],
-    "ts": "2026-10-01T09:08:55"
-  },
-  {
-    "tokens": [
-      "intelligence'",
-      "summit",
-      "super",
-      "takeaways",
-      "three",
-      "trump's"
-    ],
-    "ts": "2026-10-01T09:09:13"
-  },
-  {
-    "tokens": [
       "chinese-linked",
       "effort",
       "extract",
@@ -866,5 +846,33 @@
       "work"
     ],
     "ts": "2026-10-09T01:28:12"
+  },
+  {
+    "tokens": [
+      "aussie",
+      "citing",
+      "firm",
+      "firmus",
+      "historic",
+      "ipo",
+      "market",
+      "nvidia-backed",
+      "volatility",
+      "withdraws"
+    ],
+    "ts": "2026-10-09T10:12:46"
+  },
+  {
+    "tokens": [
+      "age-old",
+      "cramer",
+      "investing",
+      "proves",
+      "sell-off",
+      "strategy",
+      "thursday's",
+      "value"
+    ],
+    "ts": "2026-10-09T10:13:01"
   }
 ]

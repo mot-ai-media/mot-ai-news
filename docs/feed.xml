@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI株の急落が示唆する「古い投資法則」の復権—多角化戦略がなぜ今、重要なのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f376eeb0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f376eeb0.html</guid>
+    <description>AI関連株の急騰と急落を受け、米CNBCの著名アナリストが改めて投資の基本原則である「多角化」の重要性を指摘。成長性だけに目を奪われるリスクと、長期的な資産構築の方法論が改めて問い直されている。</description>
+    <pubDate>Fri, 09 Oct 2026 10:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Nvidia傘下の豪州AI企業が上場を撤回。市場混乱が映す『ハイテク投資の現実』</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-firmus-3451671a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-firmus-3451671a.html</guid>
+    <description>Nvidiaが出資するオーストラリアのAIデータセンター企業Firmusが、計画していた株式公開（IPO）を市場変動を理由に中止した。AI関連企業の資金調達環境の厳しさを象徴する動きとして海外で報道されている。</description>
+    <pubDate>Fri, 09 Oct 2026 10:12:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Googleが仕事用AIエージェント「Gemini」を一元化、複数アプリを自動操作する時代へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee6859a5.html</guid>
     <description>OpenAIが若年向けのChatGPT機能に大学進学支援ツール「College Planner」を追加。出願要件から締切、奨学金情報まで複数の大学の情報を一箇所で管理できるようになった。米国ではティーンモード利用者を中心に展開が始まっている。</description>
     <pubDate>Thu, 08 Oct 2026 01:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Pinterest、AIが美容Pinを美容室の専門用語に変換。サロン予約の準備が激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/pinterest-ai-fcad74ce.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/pinterest-ai-fcad74ce.html</guid>
-    <description>PinterestのAI機能が、ヘアスタイルやネイルの画像を美容師の用語で説明し、料金や所要時間もセットで提案。</description>
-    <pubDate>Wed, 07 Oct 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>フランスのMistral AI、1兆パラメータ「Le Chonk」で米中勢に挑戦</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-mistral-large-4-dfb231c3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-mistral-large-4-dfb231c3.html</guid>
-    <description>フランスのMistral AIが新型AI「Mistral Large 4」を発表。米国や中国の競合に対抗する独自路線を模索。</description>
-    <pubDate>Wed, 07 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
