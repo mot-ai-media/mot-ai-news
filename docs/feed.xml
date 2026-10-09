@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>損保ジャパン2万人のGemini導入、「使われない」リスクをどう防ぐ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html</guid>
+    <description>2万人へのGemini導入で、単なるライセンス配布ではなく「使われないこと」「不適切な使い方」をリスクとして対策。</description>
+    <pubDate>Fri, 09 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Amazon、「Fire」廃止して新タブレット投入　AI搭載で使い勝手が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-efc86905.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-efc86905.html</guid>
+    <description>AmazonがFireタブレットをリブランド。AI搭載で画面認識機能が登場し、GooglePlayにも対応。日本では子ども向けモデルが10月14日発売。</description>
+    <pubDate>Fri, 09 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプ大統領が「AI」という言葉を禁止、政府が「SI」への呼称変更を強制</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-4f20a2dc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-4f20a2dc.html</guid>
+    <description>トランプ大統領が「AI」という言葉の使用を禁止し、「Super Intelligence（SI）」への統一を指示。政府サイトのロゴや大統領令で改称が進む。</description>
+    <pubDate>Fri, 09 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>マスク氏、フアン氏ら受賞。米国が半導体・AI業界の功労者に最高栄誉</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-elon-musk-6147f31c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-elon-musk-6147f31c.html</guid>
+    <description>マスク氏やNVIDIAのフアン氏ら6人が米国の科学技術分野の最高栄誉を受賞。半導体やAI、クラウドなど戦略産業での貢献を認定。</description>
+    <pubDate>Fri, 09 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>履歴書100通に1通、AIに見えない文字で改ざん　20万件調査で判明した就活ハック</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa97718.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa97718.html</guid>
+    <description>企業の採用AI審査をだます隠し文字入りの履歴書が、約100通に1通の割合で実際に提出されていることが判明。</description>
+    <pubDate>Fri, 09 Oct 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Microsoft 365ファミリープランついにAI機能を共有可能に。これまでは主契約者だけの特権</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-225886f7.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-225886f7.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-303c3301.html</guid>
     <description>Anthropicが低価格AI「Claude Haiku 5.5」を発表。料金は前世代の10分の1で、一般ユーザーにも使いやすくなった。</description>
     <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>富士通、Copilot10万ライセンスで9割超の利用率を実現。導入したのに使われない問題をどう解決した</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6b2a86e1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6b2a86e1.html</guid>
-    <description>企業のAI導入でよくある「導入したのに使われない」問題。富士通は10万ライセンスで9割超の利用率達成の秘訣を語る。</description>
-    <pubDate>Thu, 08 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>攻撃者はすでにAIを使っている、防御側も使わないと追いつけない</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-27bf7f0c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-27bf7f0c.html</guid>
-    <description>相次ぐ情報漏えい事件の背景に攻撃者のAI活用が指摘される。防御側も同じようにAIを活用して対抗する必要が出てきた。</description>
-    <pubDate>Thu, 08 Oct 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 AstraとClaude Opus5、ナチス暗号「エニグマ」を次々解読</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-3fd2bd88.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-3fd2bd88.html</guid>
-    <description>最新AIモデルが歴史的な暗号文を自力で解読し、AI能力の急速な進化を示す。</description>
-    <pubDate>Thu, 08 Oct 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta傘下のAI企業Manus、中国の圧力で分離後に5億ドル調達——AIエージェント開発競争は激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html</guid>
-    <description>メタが中国政府の圧力で約20億ドルの買収を撤回させられたAI企業Manusが、独立後の初めての大型資金調達として5億ドルを獲得。AI自動化技術の開発競争が国家間の規制対立を巻き込みながら加速している。</description>
-    <pubDate>Thu, 08 Oct 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT「ティーン版」の安全機能が実は機能していない。研究機関が警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee1064a6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee1064a6.html</guid>
-    <description>OpenAIが8月に導入した13～17歳向けのChatGPT安全機能は、親への通知機能を含む重要な保護機能がしばしば失敗していると、非営利団体が指摘した。使用時間は1日15分未満が平均だが、安全性は十分でないという課題が浮かんだ。</description>
-    <pubDate>Thu, 08 Oct 2026 16:28:00 +0900</pubDate>
   </item>
 </channel></rss>

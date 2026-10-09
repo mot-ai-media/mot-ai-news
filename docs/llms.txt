@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-09 16:28
+最終更新: 2026-10-09 18:02
 
 ## 記事一覧
 
+- [トランプ大統領、マスク氏ら6人に国家科学賞授与。何が評価された？](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-elon-musk-6147f31c.html): マスク氏やNVIDIAのフアン氏ら6人が米国の科学技術分野の最高栄誉を受賞。半導体やAI、クラウドなど戦略産業での貢献を認定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
+- [トランプ米大統領、AI（人工知能）を「SI」に改称する方針とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-4f20a2dc.html): トランプ大統領が「AI」という言葉の使用を禁止し、「Super Intelligence（SI）」への統一を指示。政府サイトのロゴや大統領令で改称が進む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
+- [Amazon新タブレット「Amazon Alexa Tablet」とは？FireOSから何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-efc86905.html): AmazonがFireタブレットをリブランド。AI搭載で画面認識機能が登場し、GooglePlayにも対応。日本では子ども向けモデルが10月14日発売。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
+- [生成AI全社導入のリスク管理とは？損保ジャパンの運用方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html): 2万人へのGemini導入で、単なるライセンス配布ではなく「使われないこと」「不適切な使い方」をリスクとして対策。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
+- [履歴書のAI改ざん詐欺とは？1%の割合で発生、採用現場の最新脅威](https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa97718.html): 企業の採用AI審査をだます隠し文字入りの履歴書が、約100通に1通の割合で実際に提出されていることが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:00)
 - [AI専門家Meredith Whittaker、AIの本当のリスクは過度な懸念ではなく杜撰な利用にあると指摘](https://mot-ai-media.github.io/mot-ai-news/articles/signal-meredith-whittaker-3606b0f5.html): Signal財団トップで時代の人物100にも選ばれたMeredith Whittakerが、AIの「終末シナリオ」への懸念は科学的根拠に乏しく、むしろ現在のAIを不注意に運用することの方がはるかに危険だと主張。米情報機関の秘密契約による、ドローン攻撃システムの開発経験から語る。 (出典: BBC / 更新: 2026-10-09 16:28)
 - [Microsoft 365 Family、Copilot AI機能が家族全員で使用可能に。共有OneDrive容量は2TB統一](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-225886f7.html): マイクロソフトが、Microsoft 365 Familyプランの加入者全員がCopilotなどのAI機能を共有利用できるようにする。これまでは主契約者のみの利用に限定されていたが、Office・OneDriveと同じ感覚で家族間で共有されるようになる。ただしOneDrive容量は家族全体で2TB の共有プールに統一される。 (出典: The Verge / 更新: 2026-10-09 16:28)
 - [Firmus上場中止 AI投資に冷え込みの兆し 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/firmus-nvidia-fe6a8c17.html): AI企業向けの大規模データセンターを運営するFirmusが、300億ドル規模の豪州での株式上場計画を中止。市場の不安定性と評価額への投資家の懸念が理由。AI産業への巨額投資の持続可能性に疑問符が付き始めた。 (出典: BBC / 更新: 2026-10-09 13:28)
@@ -202,8 +207,3 @@
 - [OpenAIの新「Decisions API」とは？何ができる・Jevとの違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-decisions-api-c2747f33.html): OpenAIが素早く安価に判断を下すAPI発表。AI自動化の実用化が進む。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 22:01)
 - [ElevenLabs企業価値220億ドルに倍増、AI音声市場が急成長](https://mot-ai-media.github.io/mot-ai-news/articles/elevenlabs-ai-6e1523d2.html): リアルな人間の声を生成するAI企業ElevenLabsが、わずか1年で企業価値を倍にした。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 22:01)
 - [HENNGE、AIエージェントが実務を担う新会社「HENNGE AI」設立](https://mot-ai-media.github.io/mot-ai-news/articles/hennge-ai-04440a51.html): セキュリティ企業HENNGEが、取締役2人を除き全業務をAIエージェントが担う新会社を設立。AI管理ツールの開発と、最適な組織構造の検証を進める。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 22:00)
-- [AIデータセンターとは？千葉に2.3兆円投資の理由・意味を解説](https://mot-ai-media.github.io/mot-ai-news/articles/jera-dell-technologies-d25b604a.html): 大手電力会社JERAなど3社が千葉市に日本最大のAIデータセンターを建設。2028年の稼働開始を目指す。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 22:00)
-- [OpenAI Dots とは？ChatGPT 6搭載の自律エージェント機能](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2f5d5645.html): OpenAIが新型AIエージェント「Dots」を発表。自動で複雑なタスクをこなす能力を備える。 (出典: Geeky Gadgets / 更新: 2026-10-01 20:53)
-- [Flow Engineering とは？AI による設計自動化の可能性](https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html): ハードウェア設計にAIエージェントを導入するFlow Engineeringが750億円の資金調達に成功。実務的な設計業務の転換点。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 18:02)
-- [AIエージェントのリスク10選とは？導入時の管理方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-24687ef2.html): ChatGPTと違い、自ら行動するAIエージェントは誤りが実行されてしまう。企業が押さえるべき10大リスクと管理方法を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
-- [AIエージェント導入事例10選・日本企業の成果と導入パターン](https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-674dbca6.html): 日本企業や自治体のAIエージェント導入事例を「全社展開型」「業務特化型」に分類。パナソニックは全社員への導入で年間78万時間の削減を実現している。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
