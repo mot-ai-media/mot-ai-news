@@ -1,18 +1,6 @@
 [
   {
     "tokens": [
-      "chinese-linked",
-      "effort",
-      "extract",
-      "flags",
-      "model",
-      "openai",
-      "reasoning"
-    ],
-    "ts": "2026-10-01T10:27:58"
-  },
-  {
-    "tokens": [
       "bans",
       "bosses'",
       "california",
@@ -874,5 +862,31 @@
       "value"
     ],
     "ts": "2026-10-09T10:13:01"
+  },
+  {
+    "tokens": [
+      "coreweave",
+      "nvidia",
+      "openai",
+      "oracle",
+      "other",
+      "report",
+      "revenue",
+      "sink",
+      "stocks"
+    ],
+    "ts": "2026-10-09T10:27:53"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "free",
+      "launches",
+      "open-source",
+      "projects",
+      "scans",
+      "security"
+    ],
+    "ts": "2026-10-09T10:28:09"
   }
 ]

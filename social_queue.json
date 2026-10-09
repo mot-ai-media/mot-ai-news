@@ -4381,7 +4381,7 @@
     ],
     "image_url": "https://image.cnbcfm.com/api/v1/image/108333030-17836276302026-07-09t193642z_2135966945_rc2iama4gjkq_rtrmadp_0_media-sunvalley.jpeg?v=1783627672&w=1920&h=1080",
     "generated_at": "2026-09-22 22:28",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4439,7 +4439,10 @@
         "x_post": "実務レベルの助言：ChatGPT以外のAIも今すぐ試すべき。『Muse』『Claude』『Grok』は同じ質問で返答が異なり、タスクによって最適解が変わる。複数使い分けが新常識に。",
         "cta": "各AIの強み・弱みを詳しく解説した記事"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18115988662818353",
+    "published_at": "2026-10-09T10:16:04"
   },
   "nscale-microsoft-0f7edaaa": {
     "headline": "MicrosoftとAnthropicに依存する英AI企業、IPO直前に業界の危険な集中構造が浮き彫り",
