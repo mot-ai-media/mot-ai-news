@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Microsoft 365ファミリープランついにAI機能を共有可能に。これまでは主契約者だけの特権</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-225886f7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-225886f7.html</guid>
+    <description>マイクロソフトが、Microsoft 365 Familyプランの加入者全員がCopilotなどのAI機能を共有利用できるようにする。これまでは主契約者のみの利用に限定されていたが、Office・OneDriveと同じ感覚で家族間で共有されるようになる。ただしOneDrive容量は家族全体で2TB の共有プールに統一される。</description>
+    <pubDate>Fri, 09 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが「戦争を起こしかけた」──専門家が警告する本当の危機は『使い方の雑さ』だ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/signal-meredith-whittaker-3606b0f5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/signal-meredith-whittaker-3606b0f5.html</guid>
+    <description>Signal財団トップで時代の人物100にも選ばれたMeredith Whittakerが、AIの「終末シナリオ」への懸念は科学的根拠に乏しく、むしろ現在のAIを不注意に運用することの方がはるかに危険だと主張。米情報機関の秘密契約による、ドローン攻撃システムの開発経験から語る。</description>
+    <pubDate>Fri, 09 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Metaの新AIロゴ設計者が受けた予想外のバッシング。企業とデザイナーの関係が揺らぐ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-b5137348.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-b5137348.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee1064a6.html</guid>
     <description>OpenAIが8月に導入した13～17歳向けのChatGPT安全機能は、親への通知機能を含む重要な保護機能がしばしば失敗していると、非営利団体が指摘した。使用時間は1日15分未満が平均だが、安全性は十分でないという課題が浮かんだ。</description>
     <pubDate>Thu, 08 Oct 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT全ユーザーにGPT-6搭載、回答に操作できる画面が自動生成される</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-b69fb065.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-b69fb065.html</guid>
-    <description>OpenAIがChatGPTに新モデルGPT-6と、テキストだけでなく操作可能な図やボタンを含む回答を生成する機能を追加。無料版からも利用可能に。</description>
-    <pubDate>Thu, 08 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>サイバー攻撃が急増、AIが悪用されている可能性は「否定できない」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-210555db.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-210555db.html</guid>
-    <description>今年夏からサイバー攻撃による情報漏えいが急増。セキュリティ専門家がAI悪用の可能性を指摘。</description>
-    <pubDate>Thu, 08 Oct 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>

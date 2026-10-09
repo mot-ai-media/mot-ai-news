@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-09 13:28
+最終更新: 2026-10-09 16:28
 
 ## 記事一覧
 
+- [AI専門家Meredith Whittaker、AIの本当のリスクは過度な懸念ではなく杜撰な利用にあると指摘](https://mot-ai-media.github.io/mot-ai-news/articles/signal-meredith-whittaker-3606b0f5.html): Signal財団トップで時代の人物100にも選ばれたMeredith Whittakerが、AIの「終末シナリオ」への懸念は科学的根拠に乏しく、むしろ現在のAIを不注意に運用することの方がはるかに危険だと主張。米情報機関の秘密契約による、ドローン攻撃システムの開発経験から語る。 (出典: BBC / 更新: 2026-10-09 16:28)
+- [Microsoft 365 Family、Copilot AI機能が家族全員で使用可能に。共有OneDrive容量は2TB統一](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-225886f7.html): マイクロソフトが、Microsoft 365 Familyプランの加入者全員がCopilotなどのAI機能を共有利用できるようにする。これまでは主契約者のみの利用に限定されていたが、Office・OneDriveと同じ感覚で家族間で共有されるようになる。ただしOneDrive容量は家族全体で2TB の共有プールに統一される。 (出典: The Verge / 更新: 2026-10-09 16:28)
 - [Firmus上場中止 AI投資に冷え込みの兆し 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/firmus-nvidia-fe6a8c17.html): AI企業向けの大規模データセンターを運営するFirmusが、300億ドル規模の豪州での株式上場計画を中止。市場の不安定性と評価額への投資家の懸念が理由。AI産業への巨額投資の持続可能性に疑問符が付き始めた。 (出典: BBC / 更新: 2026-10-09 13:28)
 - [Meta AI ロゴ デザイナー Jessica Hische 批判 炎上](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-b5137348.html): Metaの新しいAIロゴをデザインしたデザイナーのJessica Hischemが、想定以上の批判や悪意のある反応にさらされている。企業の顔となるビジュアル設計がもたらす社会的責任と、デザイナーの個人への影響について議論が起きている。 (出典: WIRED / 更新: 2026-10-09 13:28)
 - [Anthropic OSS Scanner 無料セキュリティ診断 オープンソース](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-df7e5433.html): AI企業Anthropicが、オープンソースソフトウェアの脆弱性を自動検出する「OSS Scanner」という無料サービスを開始した。参加するプロジェクトは定期的なセキュリティスキャンを無償で受けられる。 (出典: The Verge / 更新: 2026-10-09 10:28)
@@ -205,5 +207,3 @@
 - [Flow Engineering とは？AI による設計自動化の可能性](https://mot-ai-media.github.io/mot-ai-news/articles/flow-engineering-ai-agents-f9953f3a.html): ハードウェア設計にAIエージェントを導入するFlow Engineeringが750億円の資金調達に成功。実務的な設計業務の転換点。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 18:02)
 - [AIエージェントのリスク10選とは？導入時の管理方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-24687ef2.html): ChatGPTと違い、自ら行動するAIエージェントは誤りが実行されてしまう。企業が押さえるべき10大リスクと管理方法を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
 - [AIエージェント導入事例10選・日本企業の成果と導入パターン](https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-674dbca6.html): 日本企業や自治体のAIエージェント導入事例を「全社展開型」「業務特化型」に分類。パナソニックは全社員への導入で年間78万時間の削減を実現している。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
-- [Google Gemini 4 Argonとは？サイバーセキュリティ対応AI](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-1237634e.html): Googleが新型AI『Gemini 4 Argon』を発表。脆弱性の自動検出や修正に特化し、セキュリティ企業向けに提供開始。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 18:01)
-- [OpenAI敵対的蒸留とは？中国Moonshot AI関与、推論保護の最新対策](https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html): OpenAIが推論過程を狙った大規模な不正抽出を阻止。中国Kimi開発元の関与が判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 18:00)
