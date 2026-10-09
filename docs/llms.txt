@@ -3,10 +3,14 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-09 10:14
+最終更新: 2026-10-09 13:28
 
 ## 記事一覧
 
+- [Firmus上場中止 AI投資に冷え込みの兆し 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/firmus-nvidia-fe6a8c17.html): AI企業向けの大規模データセンターを運営するFirmusが、300億ドル規模の豪州での株式上場計画を中止。市場の不安定性と評価額への投資家の懸念が理由。AI産業への巨額投資の持続可能性に疑問符が付き始めた。 (出典: BBC / 更新: 2026-10-09 13:28)
+- [Meta AI ロゴ デザイナー Jessica Hische 批判 炎上](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-b5137348.html): Metaの新しいAIロゴをデザインしたデザイナーのJessica Hischemが、想定以上の批判や悪意のある反応にさらされている。企業の顔となるビジュアル設計がもたらす社会的責任と、デザイナーの個人への影響について議論が起きている。 (出典: WIRED / 更新: 2026-10-09 13:28)
+- [Anthropic OSS Scanner 無料セキュリティ診断 オープンソース](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-df7e5433.html): AI企業Anthropicが、オープンソースソフトウェアの脆弱性を自動検出する「OSS Scanner」という無料サービスを開始した。参加するプロジェクトは定期的なセキュリティスキャンを無償で受けられる。 (出典: The Verge / 更新: 2026-10-09 10:28)
+- [OpenAI 500億ドル売上 AI株下落 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7bdbb683.html): OpenAIが9月末時点で年間売上500億ドル（約7.5兆円）に達したと発表。この報道を受けてNvidiaやOracleなどAI関連銘柄が売られた。高い期待値に対して実績が限定的と判断された可能性を示唆する。 (出典: CNBC / 更新: 2026-10-09 10:27)
 - [中国のAIモデルが企業利用で急増、オープンモデルの勢力図が激変](https://mot-ai-media.github.io/mot-ai-news/articles/deepseek-ai-0794ff24.html): 企業が使うオープンなAIモデルの大半が中国製に。DeepSeekなどの台頭で、AIの主導権の構図が大きく変わりつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 10:14)
 - [ChatGPT Workの自動化機能とは？ログイン操作の安全な自動実行が開始](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-89ea0730.html): ChatGPT Workが新たに、ウェブサイトのログイン操作を安全に自動化する機能を提供開始。複雑な認証プロセスをAIが担当。 (出典: X / 更新: 2026-10-09 10:13)
 - [Google「Gemini Agent」とは？Claude対応、複数AI利用可能に](https://mot-ai-media.github.io/mot-ai-news/articles/google-claude-3842feda.html): GoogleがマルチAI対応の新サービスを発表。GeminiだけでなくClaudeなど複数モデルから最適なものを選べる時代に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 10:13)
@@ -203,7 +207,3 @@
 - [AIエージェント導入事例10選・日本企業の成果と導入パターン](https://mot-ai-media.github.io/mot-ai-news/articles/gmo-ai-674dbca6.html): 日本企業や自治体のAIエージェント導入事例を「全社展開型」「業務特化型」に分類。パナソニックは全社員への導入で年間78万時間の削減を実現している。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-01 18:01)
 - [Google Gemini 4 Argonとは？サイバーセキュリティ対応AI](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-1237634e.html): Googleが新型AI『Gemini 4 Argon』を発表。脆弱性の自動検出や修正に特化し、セキュリティ企業向けに提供開始。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-01 18:01)
 - [OpenAI敵対的蒸留とは？中国Moonshot AI関与、推論保護の最新対策](https://mot-ai-media.github.io/mot-ai-news/articles/openai-moonshot-ai-bbb7c212.html): OpenAIが推論過程を狙った大規模な不正抽出を阻止。中国Kimi開発元の関与が判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 18:00)
-- [Claude Fable 5.1導入ガイド｜企業での安全な使い方・運用ルール](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-dfa575f0.html): Anthropic最新モデルの企業向け実装ガイド。どの業務に使い、どこで使わないかを判断する基準を公開。 (出典: PR TIMES / 更新: 2026-10-01 16:53)
-- [Google Gemini 4 Argonとは？性能・GPT-6との比較](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7b8c3872.html): GoogleがGemini 4 Argonをリリースしましたが、期待されたレベルには到達せず。 (出典: vocal.media / 更新: 2026-10-01 16:53)
-- [Rails作者DHH「手書きコード終焉」、開発の未来は明るい理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/rails-ai-4a944166.html): 大手ウェブサービス開発企業が手作業でのコード開発をやめ、AIに切り替え。開発者の役割が大きく転換される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:37)
-- [AIエージェントのシステムプロンプト陳腐化をどう防ぐ？AWSの試行錯誤に学ぶ運用のコツ](https://mot-ai-media.github.io/mot-ai-news/articles/aws-kiro-4293385c.html): AWSが社内データをAIに採点させてシステムプロンプトの効果を測定。AIエージェント運用の新しい課題に対処。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:36)
