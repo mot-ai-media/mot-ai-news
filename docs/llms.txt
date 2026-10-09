@@ -3,12 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-09 10:13
+最終更新: 2026-10-09 10:14
 
 ## 記事一覧
 
-- [AI株売却で注目のポートフォリオ多角化戦略とは？投資の基本ルール再考](https://mot-ai-media.github.io/mot-ai-news/articles/ai-f376eeb0.html): AI関連株の急騰と急落を受け、米CNBCの著名アナリストが改めて投資の基本原則である「多角化」の重要性を指摘。成長性だけに目を奪われるリスクと、長期的な資産構築の方法論が改めて問い直されている。 (出典: CNBC / 更新: 2026-10-09 10:13)
-- [Firmus IPO撤回：Nvidia支援企業も上場延期、AI市場の冷え込み鮮明に](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-firmus-3451671a.html): Nvidiaが出資するオーストラリアのAIデータセンター企業Firmusが、計画していた株式公開（IPO）を市場変動を理由に中止した。AI関連企業の資金調達環境の厳しさを象徴する動きとして海外で報道されている。 (出典: CNBC / 更新: 2026-10-09 10:12)
+- [中国のAIモデルが企業利用で急増、オープンモデルの勢力図が激変](https://mot-ai-media.github.io/mot-ai-news/articles/deepseek-ai-0794ff24.html): 企業が使うオープンなAIモデルの大半が中国製に。DeepSeekなどの台頭で、AIの主導権の構図が大きく変わりつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 10:14)
+- [ChatGPT Workの自動化機能とは？ログイン操作の安全な自動実行が開始](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-89ea0730.html): ChatGPT Workが新たに、ウェブサイトのログイン操作を安全に自動化する機能を提供開始。複雑な認証プロセスをAIが担当。 (出典: X / 更新: 2026-10-09 10:13)
+- [Google「Gemini Agent」とは？Claude対応、複数AI利用可能に](https://mot-ai-media.github.io/mot-ai-news/articles/google-claude-3842feda.html): GoogleがマルチAI対応の新サービスを発表。GeminiだけでなくClaudeなど複数モデルから最適なものを選べる時代に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 10:13)
+- [Anthropic、Claude利用ポリシー改定。AIへの虐待禁止やプロパガンダ対策](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-804b1fcf.html): Anthropicが生成AIの「Claude」の利用ルールを改定。AIへの継続的な虐待の禁止や影響工作対策を強化。11月12日から実施。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 10:13)
+- [WebMCPとは？ChatGPTデスクトップ版の新機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2c11e12c.html): デスクトップ版ChatGPTがWebMCPに対応し、AIとウェブサイトの連携がさらに強化される。 (出典: GIGAZINE / 更新: 2026-10-09 10:12)
 - [Google Gemini Enterprise エージェント、複数アプリ・デバイス対応で業務自動化](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html): Googleが企業向けの「Gemini」AIエージェントを発表。複数のアプリやデバイスを背景で自動制御し、ユーザーが1つのインターフェースから指示するだけで複数の業務をこなせる。従来は個別アプリごとにAIを使い分けていた作業が大きく変わる可能性がある。 (出典: The Verge / 更新: 2026-10-09 01:28)
 - [Google AI Edge Foresight オフライン会議録音アプリ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html): Googleが実験的なメモアプリ「Google AI Edge Foresight」をmacOSで公開。会議やオーディオファイルの録音・文字起こし・要約をすべてデバイス内で処理し、クラウドに送信しない。プライバシーを重視するビジネスユーザーの需要に対応する。 (出典: The Verge / 更新: 2026-10-09 01:27)
 - [金利上昇がAI株に有利に働く理由｜市場二極化が進む](https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html): アメリカの金利上昇により、市場が大きく二つに分かれようとしている。借り入れコストに敏感なセクターが圧力を受ける一方で、AI関連企業はこの逆風をほぼ受けないという指摘が、米著名投資家から出されている。 (出典: CNBC / 更新: 2026-10-08 22:28)
@@ -204,6 +207,3 @@
 - [Google Gemini 4 Argonとは？性能・GPT-6との比較](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-7b8c3872.html): GoogleがGemini 4 Argonをリリースしましたが、期待されたレベルには到達せず。 (出典: vocal.media / 更新: 2026-10-01 16:53)
 - [Rails作者DHH「手書きコード終焉」、開発の未来は明るい理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/rails-ai-4a944166.html): 大手ウェブサービス開発企業が手作業でのコード開発をやめ、AIに切り替え。開発者の役割が大きく転換される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:37)
 - [AIエージェントのシステムプロンプト陳腐化をどう防ぐ？AWSの試行錯誤に学ぶ運用のコツ](https://mot-ai-media.github.io/mot-ai-news/articles/aws-kiro-4293385c.html): AWSが社内データをAIに採点させてシステムプロンプトの効果を測定。AIエージェント運用の新しい課題に対処。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:36)
-- [Autodesk新AI機能とは？Fusion・Inventorの自動化機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/autodesk-fusion-2897e731.html): Autodeskが設計ツール向けAI機能を発表。部品編集や組み立て、既存資産の再利用を自動化する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:36)
-- [Figure AI、引退ロボットを電気炉に投入。映画ターミネーター2のシーンを再現](https://mot-ai-media.github.io/mot-ai-news/articles/figure-2c93e591.html): 米ロボット企業Figureが、引退した人型ロボを溶融金属に投じる動画を公開。シュワルツェネッガー氏とのやりとりがきっかけ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:35)
-- [AIがあれば早くできる？エンジニアの困惑、認識ズレの実態](https://mot-ai-media.github.io/mot-ai-news/articles/ai-a080c84e.html): AIは万能ではないのに「AIがあるのだから早くできるはず」と期待されるエンジニアの苦悩が調査で明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-01 14:35)

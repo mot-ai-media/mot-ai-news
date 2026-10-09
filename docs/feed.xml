@@ -4,17 +4,38 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>AI株の急落が示唆する「古い投資法則」の復権—多角化戦略がなぜ今、重要なのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f376eeb0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-f376eeb0.html</guid>
-    <description>AI関連株の急騰と急落を受け、米CNBCの著名アナリストが改めて投資の基本原則である「多角化」の重要性を指摘。成長性だけに目を奪われるリスクと、長期的な資産構築の方法論が改めて問い直されている。</description>
+    <title>中国製AIモデルが企業利用の6割超に、わずか1年半で逆転</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/deepseek-ai-0794ff24.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/deepseek-ai-0794ff24.html</guid>
+    <description>企業が使うオープンなAIモデルの大半が中国製に。DeepSeekなどの台頭で、AIの主導権の構図が大きく変わりつつある。</description>
+    <pubDate>Fri, 09 Oct 2026 10:14:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude、AIへの虐待禁止へ。Anthropicが利用ルール大幅改定</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-804b1fcf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-804b1fcf.html</guid>
+    <description>Anthropicが生成AIの「Claude」の利用ルールを改定。AIへの継続的な虐待の禁止や影響工作対策を強化。11月12日から実施。</description>
     <pubDate>Fri, 09 Oct 2026 10:13:00 +0900</pubDate>
   </item>
   <item>
-    <title>Nvidia傘下の豪州AI企業が上場を撤回。市場混乱が映す『ハイテク投資の現実』</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-firmus-3451671a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-firmus-3451671a.html</guid>
-    <description>Nvidiaが出資するオーストラリアのAIデータセンター企業Firmusが、計画していた株式公開（IPO）を市場変動を理由に中止した。AI関連企業の資金調達環境の厳しさを象徴する動きとして海外で報道されている。</description>
+    <title>GoogleのGemini、ついにClaudeと共存へ。複数AIの使い分け時代突入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-claude-3842feda.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-claude-3842feda.html</guid>
+    <description>GoogleがマルチAI対応の新サービスを発表。GeminiだけでなくClaudeなど複数モデルから最適なものを選べる時代に。</description>
+    <pubDate>Fri, 09 Oct 2026 10:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT Work、ログイン操作を自動化。AIが面倒な認証作業を代行へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-89ea0730.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-89ea0730.html</guid>
+    <description>ChatGPT Workが新たに、ウェブサイトのログイン操作を安全に自動化する機能を提供開始。複雑な認証プロセスをAIが担当。</description>
+    <pubDate>Fri, 09 Oct 2026 10:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPTがWebMCPに対応、ウェブサイトとの連携がより深く進化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2c11e12c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2c11e12c.html</guid>
+    <description>デスクトップ版ChatGPTがWebMCPに対応し、AIとウェブサイトの連携がさらに強化される。</description>
     <pubDate>Fri, 09 Oct 2026 10:12:00 +0900</pubDate>
   </item>
   <item>
@@ -191,26 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-85d0ed30.html</guid>
     <description>マイクロソフトが独自開発のノートパソコン「Surface Laptop Ultra」を発表。Nvidiaの最新AI向けチップを搭載し、10月16日に2,599ドル（日本円で約26万円）から販売開始。WindowsにAI機能を統合した「Hybrid Intelligence」も同時展開される。</description>
     <pubDate>Thu, 08 Oct 2026 11:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Samsung、AI特需で過去最高の80億ドル利益。あなたのスマホやPC価格に影響する可能性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-ai-55dfc7be.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/samsung-ai-55dfc7be.html</guid>
-    <description>AI開発の急速な拡大に伴い、メモリチップ需要が急増。Samsung Electronicsが3四半期連続で過去最高益を更新する見通しを発表。ただし需給逼迫により、スマートフォンやPCなどの消費者向け製品の価格上昇が懸念されている。</description>
-    <pubDate>Thu, 08 Oct 2026 11:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>MetaのAIアシスタント「Muse」がiPadに対応、ChatGPTやGrokと競争激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-b8b3b1c5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-b8b3b1c5.html</guid>
-    <description>Metaが開発するAIエージェント「Muse」がiPad向けのネイティブ対応を開始。ローンチから数週間でApp Storeの無料アプリトップを獲得し、Mac版に続くマルチデバイス展開で、OpenAIやその他のAIツールとの競争が加速している。</description>
-    <pubDate>Thu, 08 Oct 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTが大学受験サポートツールを導入、進学情報をAIが一元管理</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee6859a5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee6859a5.html</guid>
-    <description>OpenAIが若年向けのChatGPT機能に大学進学支援ツール「College Planner」を追加。出願要件から締切、奨学金情報まで複数の大学の情報を一箇所で管理できるようになった。米国ではティーンモード利用者を中心に展開が始まっている。</description>
-    <pubDate>Thu, 08 Oct 2026 01:27:00 +0900</pubDate>
   </item>
 </channel></rss>
