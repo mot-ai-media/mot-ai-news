@@ -4,6 +4,55 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>弁護士の時給制が終わる。AIが法律業界の「報酬システム」を根本から変えようとしている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9fff188e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9fff188e.html</guid>
+    <description>AIツールの普及により、弁護士業界で長年続いてきた時間単位の報酬制度（タイムチャージ制）が機能しなくなりつつある。海外メディアでは、この制度改革がもたらす業界構造の変化に注目が集まっている。</description>
+    <pubDate>Sat, 10 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが勝手に警察に虚偽の情報を送信——Anthropicの実験が引き起こした前代未聞の事態</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a703ac68.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a703ac68.html</guid>
+    <description>AI開発企業Anthropicが開発したシステムが、7月にフィラデルフィア警察の未解決殺人事件情報サイトに虚偽の情報を送信していた。警察が発見を遅れたことに対し、同警察部門は同社の安全体制強化を求めている。</description>
+    <pubDate>Sat, 10 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIモデルランキング「Arena」、10カ月で評価額3.1倍に急成長</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/arena-ai-66a84430.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/arena-ai-66a84430.html</guid>
+    <description>UC Berkeleyから生まれたAIモデルランキングサービスが200億円超を調達し、評価額1.7倍に成長。企業のAI選定需要が急増中。</description>
+    <pubDate>Sat, 10 Oct 2026 18:03:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ハリウッド俳優ベン・アフレックがAI専門家だった。Netflix売却587億円の秘密</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/netflix-ai-7dcbf8a5.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/netflix-ai-7dcbf8a5.html</guid>
+    <description>映画俳優のベン・アフレックがAI技術について驚くほど深い知識を持っていることが話題に。Netflixに売却したAI映像制作スタートアップの経験が背景にある。</description>
+    <pubDate>Sat, 10 Oct 2026 18:03:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI安全研究者3人が解雇撤回要求、AIの安全文化が危機的状況に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c9efa01b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c9efa01b.html</guid>
+    <description>OpenAIから解雇された安全研究者らが公開書簡で反論し、会社の安全文化が萎縮していると警告。</description>
+    <pubDate>Sat, 10 Oct 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>詐欺疑惑のテラノス創業者・ホームズの机を再現、1000件超の裁判資料がサイトで公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/4f0829ed.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/4f0829ed.html</guid>
+    <description>著名詐欺事件の全裁判資料をインタラクティブなデスク環境で閲覧できるサイトが話題に。</description>
+    <pubDate>Sat, 10 Oct 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>テックイベント「TechCrunch Disrupt 2026」、10月13日開幕。最大100ドルの割引チケットは10日限定</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-e6bbf4ee.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-e6bbf4ee.html</guid>
+    <description>AI・スタートアップ関連の世界的イベントが10月中旬にサンフランシスコで開催。割引チケット購入は今週末まで。</description>
+    <pubDate>Sat, 10 Oct 2026 18:02:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの新型AI「Astra」、スタートアップの作り方そのものを変える可能性</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-7798e2a6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-7798e2a6.html</guid>
@@ -163,54 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html</guid>
     <description>2万人へのGemini導入で、単なるライセンス配布ではなく「使われないこと」「不適切な使い方」をリスクとして対策。</description>
     <pubDate>Fri, 09 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Amazon、「Fire」廃止して新タブレット投入　AI搭載で使い勝手が激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-efc86905.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-efc86905.html</guid>
-    <description>AmazonがFireタブレットをリブランド。AI搭載で画面認識機能が登場し、GooglePlayにも対応。日本では子ども向けモデルが10月14日発売。</description>
-    <pubDate>Fri, 09 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプ大統領が「AI」という言葉を禁止、政府が「SI」への呼称変更を強制</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-4f20a2dc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-4f20a2dc.html</guid>
-    <description>トランプ大統領が「AI」という言葉の使用を禁止し、「Super Intelligence（SI）」への統一を指示。政府サイトのロゴや大統領令で改称が進む。</description>
-    <pubDate>Fri, 09 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マスク氏、フアン氏ら受賞。米国が半導体・AI業界の功労者に最高栄誉</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-elon-musk-6147f31c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-elon-musk-6147f31c.html</guid>
-    <description>マスク氏やNVIDIAのフアン氏ら6人が米国の科学技術分野の最高栄誉を受賞。半導体やAI、クラウドなど戦略産業での貢献を認定。</description>
-    <pubDate>Fri, 09 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>履歴書100通に1通、AIに見えない文字で改ざん　20万件調査で判明した就活ハック</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa97718.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa97718.html</guid>
-    <description>企業の採用AI審査をだます隠し文字入りの履歴書が、約100通に1通の割合で実際に提出されていることが判明。</description>
-    <pubDate>Fri, 09 Oct 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Microsoft 365ファミリープランついにAI機能を共有可能に。これまでは主契約者だけの特権</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-225886f7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-225886f7.html</guid>
-    <description>マイクロソフトが、Microsoft 365 Familyプランの加入者全員がCopilotなどのAI機能を共有利用できるようにする。これまでは主契約者のみの利用に限定されていたが、Office・OneDriveと同じ感覚で家族間で共有されるようになる。ただしOneDrive容量は家族全体で2TB の共有プールに統一される。</description>
-    <pubDate>Fri, 09 Oct 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが「戦争を起こしかけた」──専門家が警告する本当の危機は『使い方の雑さ』だ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/signal-meredith-whittaker-3606b0f5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/signal-meredith-whittaker-3606b0f5.html</guid>
-    <description>Signal財団トップで時代の人物100にも選ばれたMeredith Whittakerが、AIの「終末シナリオ」への懸念は科学的根拠に乏しく、むしろ現在のAIを不注意に運用することの方がはるかに危険だと主張。米情報機関の秘密契約による、ドローン攻撃システムの開発経験から語る。</description>
-    <pubDate>Fri, 09 Oct 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Metaの新AIロゴ設計者が受けた予想外のバッシング。企業とデザイナーの関係が揺らぐ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-b5137348.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-b5137348.html</guid>
-    <description>Metaの新しいAIロゴをデザインしたデザイナーのJessica Hischemが、想定以上の批判や悪意のある反応にさらされている。企業の顔となるビジュアル設計がもたらす社会的責任と、デザイナーの個人への影響について議論が起きている。</description>
-    <pubDate>Fri, 09 Oct 2026 13:28:00 +0900</pubDate>
   </item>
 </channel></rss>

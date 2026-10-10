@@ -1,33 +1,6 @@
 [
   {
     "tokens": [
-      "fires",
-      "information'",
-      "mishandling",
-      "openai",
-      "sensitive",
-      "workers"
-    ],
-    "ts": "2026-10-02T16:27:58"
-  },
-  {
-    "tokens": [
-      "companies",
-      "cyberattacks",
-      "detect",
-      "faster",
-      "harder",
-      "here",
-      "interpol",
-      "making",
-      "should",
-      "warns.",
-      "watch"
-    ],
-    "ts": "2026-10-02T16:28:13"
-  },
-  {
-    "tokens": [
       "721",
       "ability",
       "agents",
@@ -948,5 +921,33 @@
       "you."
     ],
     "ts": "2026-10-10T13:49:46"
+  },
+  {
+    "tokens": [
+      "agent",
+      "anthropic",
+      "case",
+      "fake",
+      "gave",
+      "murder",
+      "police",
+      "rogue",
+      "tip",
+      "unsolved"
+    ],
+    "ts": "2026-10-10T19:28:03"
+  },
+  {
+    "tokens": [
+      "billable",
+      "changing",
+      "hour",
+      "lawyers",
+      "pressure",
+      "putting",
+      "under",
+      "work"
+    ],
+    "ts": "2026-10-10T19:28:19"
   }
 ]
