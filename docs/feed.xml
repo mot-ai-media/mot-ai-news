@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIとAnthropicがトランプ政権の元高官を次々獲得、AI企業の「政治化」が加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-79de96a6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-79de96a6.html</guid>
+    <description>米国の主要AI企業OpenAIとAnthropicが、トランプ政権の経験者を相次いで採用している。AI技術が国家安全保障上の重要課題として認識される中、企業は政治的影響力の確保に動いている。</description>
+    <pubDate>Sun, 11 Oct 2026 04:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの収益予測が投資家に衝撃、AI企業の成長神話に黄信号</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1b126216.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1b126216.html</guid>
+    <description>海外メディアが報じたOpenAIの収益見通しに関する懸念が、AI産業全体の評価を左右する重要なシグナルとなっている。急速な成長が続くと見られてきたAI企業の実績が、市場の期待と乖離し始めた可能性を示唆している。</description>
+    <pubDate>Sun, 11 Oct 2026 04:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI拡大の陰で、ウォール街が巨額投資するデータセンター事業が危機的リスクを抱えている</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c9916b17.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c9916b17.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0b3cf3b.html</guid>
     <description>サイバー攻撃にAIが悪用される懸念が広がる中、国家サイバー統括室が対策を推し進める。</description>
     <pubDate>Fri, 09 Oct 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>2兆円投じた日本の半導体戦略、顧客企業との信頼に赤信号か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/e9031cc4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/e9031cc4.html</guid>
-    <description>日本の半導体復興を目指すラピダスが設計企業17社と提携も、実際の顧客確保への不安が拭えない状況。</description>
-    <pubDate>Fri, 09 Oct 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、ついに犯罪に本格活用。韓国銀行襲撃の黒幕は「26歳」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-5d5f9ae2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-5d5f9ae2.html</guid>
-    <description>Claudeなどの生成AIを悪用した韓国銀行への大規模サイバー攻撃。攻撃者はAIの利用記録から身元が特定される可能性に。</description>
-    <pubDate>Fri, 09 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>

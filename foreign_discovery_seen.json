@@ -973,5 +973,36 @@
       "wall"
     ],
     "ts": "2026-10-11T01:28:22"
+  },
+  {
+    "tokens": [
+      "deal",
+      "delta",
+      "earnings",
+      "investors",
+      "more",
+      "morning",
+      "openai's",
+      "revenue",
+      "scare",
+      "squawk",
+      "starbucks-chipotle",
+      "think"
+    ],
+    "ts": "2026-10-11T04:28:02"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "fights",
+      "industry",
+      "officials",
+      "openai",
+      "poach",
+      "trump",
+      "trust",
+      "washington"
+    ],
+    "ts": "2026-10-11T04:28:20"
   }
 ]
