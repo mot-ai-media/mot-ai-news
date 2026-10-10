@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-11 04:28
+最終更新: 2026-10-11 07:01
 
 ## 記事一覧
 
+- [TechCrunch Disrupt 2026とは？開催日・出展企業・参加方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-6801da09.html): AI・テック系スタートアップが300社以上集結する大型展示会が3日後に開幕。今から登録すると割引が受けられる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-11 07:01)
+- [AIエージェントとは？テキストメッセージで使える最新サービス比較](https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-a893947d.html): アプリをダウンロードせず、LINEやメッセージアプリでAIに指示するだけで予約やメール送信などの日常業務を自動化する新型AIエージェントが続々登場。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-11 07:01)
+- [GPU クラスタスケジューラーとは？AI2が導入した新システムの仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/ai2-gpu-43ef54e7.html): AI研究機関Ai2が、GPUの公平で効果的な配分を実現する新しいスケジューラーシステムを導入。従来の優先度制から予算制へ転換。 (出典: Hugging Face - Blog / 更新: 2026-10-11 07:01)
+- [Microsoft CEOがAI安全対策を提案。緊急停止機能が必要な理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-d05facb8.html): Microsoft CEOが、AIモデルの暴走に備えた緊急停止機能など新たな安全対策の導入を呼びかけた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-11 07:00)
+- [Appleが個人用ポッドキャストスタートアップHuxeを買収、AI音声技術を確保](https://mot-ai-media.github.io/mot-ai-news/articles/apple-huxe-9fe15a12.html): Appleが人工知能生成ポッドキャスト企業Huxeの人材と技術ライセンスを獲得。規制回避を狙った「逆買収」の手法を使用。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-11 07:00)
 - [OpenAI収益減速懸念、投資家が警戒 AI業界の持続性に疑問符](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1b126216.html): 海外メディアが報じたOpenAIの収益見通しに関する懸念が、AI産業全体の評価を左右する重要なシグナルとなっている。急速な成長が続くと見られてきたAI企業の実績が、市場の期待と乖離し始めた可能性を示唆している。 (出典: CNBC / 更新: 2026-10-11 04:28)
 - [OpenAI Anthropic トランプ政権 高官採用 AI政治化](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-79de96a6.html): 米国の主要AI企業OpenAIとAnthropicが、トランプ政権の経験者を相次いで採用している。AI技術が国家安全保障上の重要課題として認識される中、企業は政治的影響力の確保に動いている。 (出典: CNBC / 更新: 2026-10-11 04:28)
 - [AI株の変動相場、投資家が戦略転換——何が起きているのか](https://mot-ai-media.github.io/mot-ai-news/articles/ai-c93c8dc7.html): 海外の投資家がAI関連株への過度な集中から脱却を始めている。現金を有効活用しながらポートフォリオのバランスを取り直す動きが加速。AI産業の成長期待は変わらないが、短期的な相場の不安定性が浮き彫りになった。 (出典: CNBC / 更新: 2026-10-11 01:28)
@@ -202,8 +207,3 @@
 - [Meta Muse AIエージェント オープンソース化 自作デバイス対応](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-c0a74765.html): Metaが新型AIエージェント「Muse」のコードを公開し、ユーザーが独自のハードウェアにインストール可能にした。電子ペーパーディスプレイやRaspberry Piなど、様々なデバイスでAIアシスタントを実行できるようになる。 (出典: The Verge / 更新: 2026-10-04 01:29)
 - [ナポレオン戦争の暗号をAIが解読？GPT-6の最新モデルの実力](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-89ce94ef.html): AIモデルが200年以上前の難解な暗号を数時間で破った。AIの解析能力が歴史学の領域にも及び始めている。 (出典: Startup Fortune / 更新: 2026-10-04 00:58)
 - [Stability AI音楽事業とは？パーカーが大手レーベルと提携の衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/stability-ai-sean-parker-3cc6542c.html): かつての音楽業界の敵は今や味方に。Napster創業者が率いるStability AIが、Sony・Warner・Universalから資金と楽曲ライセンスを獲得、AI音楽生成ツールの開発を本格化させた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 00:44)
-- [TechCrunch Disrupt 2026とは？開催日時・参加方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c73e8583.html): 解雇者向けに割引パスを提供し、テック業界のネットワーキング機会を開放。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 00:44)
-- [MetaのMuseとは？Muse Gadgetsでできることを解説](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-83485a4e.html): Metaが個人用AIエージェント「Muse」を自作デバイスに組み込める仕組みを開放。開発者は自由に家電やガジェットと連携させられるように。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 00:43)
-- [Amazonのデータセンター建設、米国で批判相次ぐ理由と対策は？](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-2145f863.html): AWSが米国内の強い反発に直面するAIデータセンター建設について、CEO自ら誤情報説を唱え、地域支援基金10億ドル超を発表。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-04 00:42)
-- [AIエージェントがテキストメッセージで使える仕組み。何ができるのか解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-41a7e440.html): スマホのメッセージアプリにテキストするだけで、予定管理や調べ物などが完結するAIエージェントが続々登場。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 00:42)
-- [Nvidia Micron 株価 AI業界 市場動向 2024](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-micron-3627a651.html): 米国の株式市場で先週、AI関連企業の Nvidia と半導体メーカー Micron の動きが大きな注目を集めた。同時に雇用統計の予想外の結果も相場を動かした。この3つの要因から、AI産業への投資熱の高まりと市場の構造的な変化が見える。 (出典: CNBC / 更新: 2026-10-04 00:32)

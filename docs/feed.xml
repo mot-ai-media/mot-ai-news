@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI研究機関が導入した新型スケジューラー、限られたGPU資源の配分ルールを大改革</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai2-gpu-43ef54e7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai2-gpu-43ef54e7.html</guid>
+    <description>AI研究機関Ai2が、GPUの公平で効果的な配分を実現する新しいスケジューラーシステムを導入。従来の優先度制から予算制へ転換。</description>
+    <pubDate>Sun, 11 Oct 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、テキストメッセージで常駐。アプリ不要の新しい使い方が続々</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-a893947d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-a893947d.html</guid>
+    <description>アプリをダウンロードせず、LINEやメッセージアプリでAIに指示するだけで予約やメール送信などの日常業務を自動化する新型AIエージェントが続々登場。</description>
+    <pubDate>Sun, 11 Oct 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>300超のスタートアップ、サンフランシスコで一堂に。TechCrunch Disrupt 2026が10月13日開幕</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-6801da09.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-6801da09.html</guid>
+    <description>AI・テック系スタートアップが300社以上集結する大型展示会が3日後に開幕。今から登録すると割引が受けられる。</description>
+    <pubDate>Sun, 11 Oct 2026 07:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Apple、AI音声スタートアップHuxeを買収　ポッドキャスト生成技術を獲得</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-huxe-9fe15a12.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-huxe-9fe15a12.html</guid>
+    <description>Appleが人工知能生成ポッドキャスト企業Huxeの人材と技術ライセンスを獲得。規制回避を狙った「逆買収」の手法を使用。</description>
+    <pubDate>Sun, 11 Oct 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>マイクロソフト、AIに「緊急停止ボタン」を要求。Nadella CEOが安全対策の強化を宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-d05facb8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-d05facb8.html</guid>
+    <description>Microsoft CEOが、AIモデルの暴走に備えた緊急停止機能など新たな安全対策の導入を呼びかけた。</description>
+    <pubDate>Sun, 11 Oct 2026 07:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIとAnthropicがトランプ政権の元高官を次々獲得、AI企業の「政治化」が加速</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-79de96a6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-79de96a6.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-4c79a2ae.html</guid>
     <description>ChatGPTの試作で終わらせないAIエージェント開発。成功と失敗を分ける要件定義から運用改善までの進め方を公開。</description>
     <pubDate>Sat, 10 Oct 2026 13:50:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、安全性研究者3人を突然解雇。本人は「機密漏洩」否定、外部監査受け入れを要求</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-722f5c88.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-722f5c88.html</guid>
-    <description>AI安全性を研究していたOpenAIの研究者3人が解雇され、処遇の透明性と外部監査の継続を要求する書簡を公開。</description>
-    <pubDate>Sat, 10 Oct 2026 13:49:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIに「意地悪」はNG。Anthropicが利用規約を改正、ユーザーの暴言を禁止へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-753fc11f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-753fc11f.html</guid>
-    <description>AI企業Anthropicが、AIに対する継続的な暴言や虐待行為を禁止する利用規約の改正を発表。シンプルな数式に過ぎないAIに対する「虐待」の禁止は、AIとの向き合い方や人間の倫理観に関する根本的な問い直しを引き起こしている。</description>
-    <pubDate>Sat, 10 Oct 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>科学写真の最高賞がAI生成で失格に——Nikonが規則を全面見直す</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nikon-ai-21442acb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nikon-ai-21442acb.html</guid>
-    <description>顕微鏡を使った科学写真の国際的な権威あるコンテストで、優勝作品がAI生成画像を使用していたことが判明し失格となった。医学専門家から『医学的に存在しない映像』と指摘され、Nikonは大会ルールの見直しを決定。AIと人間の業績判定の境界線が問われる問題へ発展している。</description>
-    <pubDate>Sat, 10 Oct 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIと人間が一体化する「スーパーヒューマン」戦略、サプライチェーン革新のカギに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5f1e8329.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5f1e8329.html</guid>
-    <description>キナクシスCEOが語る、AIと人間が協働することで実現する意思決定スピード向上と製造業の競争力強化。</description>
-    <pubDate>Fri, 09 Oct 2026 22:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>攻撃者がAIを悪用する時代、日本の情報防衛は大丈夫か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0b3cf3b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-b0b3cf3b.html</guid>
-    <description>サイバー攻撃にAIが悪用される懸念が広がる中、国家サイバー統括室が対策を推し進める。</description>
-    <pubDate>Fri, 09 Oct 2026 22:02:00 +0900</pubDate>
   </item>
 </channel></rss>

@@ -4122,5 +4122,25 @@
   {
     "link": "https://www.cnbc.com/2026/10/09/openai-anthropic-poach-trump-officials.html",
     "notified_at": "2026-10-10T19:28:20.435606+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+    "notified_at": "2026-10-10T22:00:41.628511+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+    "notified_at": "2026-10-10T22:00:57.277817+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+    "notified_at": "2026-10-10T22:01:13.590277+00:00"
+  },
+  {
+    "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "notified_at": "2026-10-10T22:01:32.612641+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
+    "notified_at": "2026-10-10T22:01:49.757393+00:00"
   }
 ]
