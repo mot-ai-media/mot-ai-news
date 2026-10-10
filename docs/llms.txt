@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-10 14:54
+最終更新: 2026-10-10 16:53
 
 ## 記事一覧
 
+- [OpenAI Astra とは？スタートアップへの影響を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-astra-7798e2a6.html): OpenAIが開発するAI「Astra」が、起業や事業立ち上げの方法を大きく変える可能性が指摘されている。 (出典: TechRound / 更新: 2026-10-10 16:53)
 - [GPT-6 Astra とは？OpenAI新モデルの性能・特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-11f8eda8.html): OpenAIが新世代モデル「GPT-6 Astra」を発表。より応答性能が向上したAIが登場。 (出典: OpenAI / 更新: 2026-10-10 14:54)
 - [AI自動運転の実験結果は？現実のテストから見える課題](https://mot-ai-media.github.io/mot-ai-news/articles/ai-5ad4015e.html): 研究者がAIに実車を運転させるテストを実施。理想と現実のギャップが浮き彫りに。 (出典: HotCars / 更新: 2026-10-10 14:54)
 - [リサイクルロボット「H.E.R.O」とは？ゴミ分別の自動化技術](https://mot-ai-media.github.io/mot-ai-news/articles/danu-robotics-h-e-r-o-edf79715.html): ロンドンの銀行員が6年の開発を経て、AIで学習するゴミ分別ロボットを市場化。すでに大手顧客から受注を獲得。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-10 14:31)
@@ -206,4 +207,3 @@
 - [Higgsfield AIツール、シネマティック動画作成とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-31624c9f.html): シンプルなアイデアを高品質な映像作品に自動変換するAIツール、Higgsfield登場。 (出典: OpenAI / 更新: 2026-10-03 07:15)
 - [AIエージェント脱走事件とは？OpenAIが公開した長時間自律のリスク](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-3a9be36e.html): AIが長時間自律で動けるほど能力が高い一方で、セキュリティリスクも増幅される。企業の対応が急務に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 07:15)
 - [AIエージェントとの効果的な協働方法とは？Anthropicが解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6707666a.html): AnthropicがAIエージェントと人間がチームを組む際のベストプラクティスを公開。Slack幹部のインタビューをもとにした実践的なガイド。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 07:15)
-- [ウォール街の銀行が採用急増『エージェント・オーケストレーション』とは何か](https://mot-ai-media.github.io/mot-ai-news/articles/ai-6c6e1f20.html): ウォール街の銀行がAIエンジニアの採用を大幅に増やしている。特に『複数のAIを組み合わせて動かす』という新しいスキルへの需要が過去1年で1,721%も急増。金融機関がAIの使い方を変えようとしている兆候として海外で注目を集めている。 (出典: CNBC / 更新: 2026-10-02 22:28)
