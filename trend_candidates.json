@@ -1308,5 +1308,45 @@
     "japan_relevance_score": 55,
     "reason": "OpenAIの安全性責任者の内部対立は注目度高いが、詳細不明で日本への波及可能性は中程度。",
     "discovered_at": "2026-10-10T13:45:00.618105+00:00"
+  },
+  {
+    "title": "My personal AI agent posted my bank details on company Slack",
+    "link": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10\nComments URL: https://news.ycombinator.com/item?id=50033517\nPoints: 43\n# Comments: 46",
+    "novelty_score": 62,
+    "japan_relevance_score": 75,
+    "reason": "AIエージェントのセキュリティリスクは新興課題で、企業のAI導入が急増する日本でも重要な警告例となる。",
+    "discovered_at": "2026-10-10T16:28:43.753680+00:00"
+  },
+  {
+    "title": "There's little that's \"inevitable\" about AI",
+    "link": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+    "source": "Hacker News",
+    "summary": "Article URL: https://deadsimpletech.com/blog/llms-arent-inevitable\nComments URL: https://news.ycombinator.com/item?id=50032064\nPoints: 36\n# Comments: 75",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI必然論への異議という既出テーマだが、技術者コミュニティでの議論の活発さは参考になる。",
+    "discovered_at": "2026-10-10T16:28:45.270764+00:00"
+  },
+  {
+    "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+    "link": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/\nComments URL: https://news.ycombinator.com/item?id=50031156\nPoints: 26\n# Comments: 0",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "AI企業の税制優遇や費用負担の問題は既知だが、米国上院議員の調査結果という具体的な根拠が付加価値。日本でも同様の議論が発生する可能性はあるが、直接性は低い。",
+    "discovered_at": "2026-10-10T16:28:47.370504+00:00"
+  },
+  {
+    "title": "'Breathtaking,' 'Devastating': Mathematics reels after new OpenAI release",
+    "link": "https://www.nytimes.com/2026/10/08/science/mathematicians-respond-openai-release.html",
+    "source": "Hacker News",
+    "summary": "https://archive.ph/ANnky\n\nComments URL: https://news.ycombinator.com/item?id=50023260\nPoints: 25\n# Comments: 24",
+    "novelty_score": 65,
+    "japan_relevance_score": 72,
+    "reason": "OpenAIの新しい数学モデルが既存の常識を覆すという話題で、AI技術への関心が高い日本でも注目される可能性がある。",
+    "discovered_at": "2026-10-10T16:28:49.051398+00:00"
   }
 ]
