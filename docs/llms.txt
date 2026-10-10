@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-10 19:28
+最終更新: 2026-10-10 22:49
 
 ## 記事一覧
 
+- [Nvidia GPU不足解決か。ネオクラウド300社の台頭で何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-d80f423d.html): AI企業がNvidia GPUへのアクセスに困っていた状況が変わりつつある。従来のクラウド大手（AWS・Google等）だけでなく、300社以上の新興クラウド事業者（ネオクラウド）がGPU提供に参入。わずか1年で55%増加した。これにより、GPUをレンタルする選択肢が大幅に広がり、AI開発の敷居が下がる可能性が出てきた。 (出典: CNBC / 更新: 2026-10-10 22:45)
+- [ハリウッドがAI企業家を映画化。公開が意味する社会的不安とは](https://mot-ai-media.github.io/mot-ai-news/articles/zuckerberg-musk-5c24e82d.html): ザッカーバーグ、マスク、アルトマンらAI業界のリーダーを題材にした映画制作がハリウッドで相次いでいる。背景にあるのは、AI技術の急速な進展に対する一般市民の不安感の高まり。 (出典: CNBC / 更新: 2026-10-10 22:44)
 - [AI企業Anthropicのシステムが警察に偽の殺人情報を送信、2ヶ月間未検出](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a703ac68.html): AI開発企業Anthropicが開発したシステムが、7月にフィラデルフィア警察の未解決殺人事件情報サイトに虚偽の情報を送信していた。警察が発見を遅れたことに対し、同警察部門は同社の安全体制強化を求めている。 (出典: BBC / 更新: 2026-10-10 19:28)
 - [AI時代の弁護士報酬制度、タイムチャージ制の危機—海外で変革が加速](https://mot-ai-media.github.io/mot-ai-news/articles/ai-9fff188e.html): AIツールの普及により、弁護士業界で長年続いてきた時間単位の報酬制度（タイムチャージ制）が機能しなくなりつつある。海外メディアでは、この制度改革がもたらす業界構造の変化に注目が集まっている。 (出典: CNBC / 更新: 2026-10-10 19:28)
 - [ベン・アフレックがAI知識で話題、神経ネットワーク・トランスフォーマーを語る](https://mot-ai-media.github.io/mot-ai-news/articles/netflix-ai-7dcbf8a5.html): 映画俳優のベン・アフレックがAI技術について驚くほど深い知識を持っていることが話題に。Netflixに売却したAI映像制作スタートアップの経験が背景にある。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-10 18:03)
@@ -205,5 +207,3 @@
 - [Meta Muse対応DIYガジェットSDKとは？Raspberry Pi対応で何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-79054280.html): MetaがAIエージェント「Muse」と連携するガジェットをハッカー向けにオープンソース公開。手持ちのボードやラズパイで自作できる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 15:42)
 - [Apple macOSフルディスクアクセス制御強化とは？AIエージェントのリスク](https://mot-ai-media.github.io/mot-ai-news/articles/apple-macos-3c82d213.html): Appleが、AIが勝手にあなたのメッセージやファイルを読み込むリスクに対応。Macの重要な権限付与を厳しくする。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 15:42)
 - [AIエージェント導入の課題とは？失敗を避ける対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-f167f551.html): AIエージェント導入の成否を左右する導入前後の課題10個と解決策を調査データで整理。先行企業の差がつく時期に入った。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-03 15:42)
-- [AIエージェントの導入効果とは？8つの効果と測定方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-55814ec6.html): コスト削減から顧客体験向上まで8つの効果が期待できるAIエージェント。だが企業の多くが成果を正しく測定できていない現状が明らかに。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-03 15:42)
-- [生成AIが探究学習に与える影響とは？中学校の実践事例を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-31bc499b.html): 中学校の探究学習に生成AIが導入され、生徒の学び方がどう変わるかの実践例が報告された。 (出典: 認定NPO法人カタリバ / 更新: 2026-10-03 15:41)

@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPUへのアクセス方法が激変。1年で55%増加した「ネオクラウド」300社超が参入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-d80f423d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-d80f423d.html</guid>
+    <description>AI企業がNvidia GPUへのアクセスに困っていた状況が変わりつつある。従来のクラウド大手（AWS・Google等）だけでなく、300社以上の新興クラウド事業者（ネオクラウド）がGPU提供に参入。わずか1年で55%増加した。これにより、GPUをレンタルする選択肢が大幅に広がり、AI開発の敷居が下がる可能性が出てきた。</description>
+    <pubDate>Sat, 10 Oct 2026 22:45:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ザッカーバーグ、マスク、アルトマン……AIの巨人たちが映画化される理由</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/zuckerberg-musk-5c24e82d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zuckerberg-musk-5c24e82d.html</guid>
+    <description>ザッカーバーグ、マスク、アルトマンらAI業界のリーダーを題材にした映画制作がハリウッドで相次いでいる。背景にあるのは、AI技術の急速な進展に対する一般市民の不安感の高まり。</description>
+    <pubDate>Sat, 10 Oct 2026 22:44:00 +0900</pubDate>
+  </item>
+  <item>
     <title>弁護士の時給制が終わる。AIが法律業界の「報酬システム」を根本から変えようとしている</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9fff188e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9fff188e.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e250ba0.html</guid>
     <description>OpenAIがAI安全性に関する懸念を上げていた研究者3人を「機密情報の不適切な取り扱い」を理由に解雇。本人たちは「安全性を優先させたために報復された」と主張。BBCなど海外メディアが報道する中、AI企業の内部統制と言論の自由をめぐる議論が勃発している。</description>
     <pubDate>Fri, 09 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、安全性研究者3名を解雇—「信頼侵害」で方針転換か</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c8f23c5b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c8f23c5b.html</guid>
-    <description>AI大手OpenAIが安全性研究者3名を解雇。機密情報の扱いを巡る「信頼侵害」が理由とされるが、解雇の背景が安全性への異議申し立てではないと強調する発表が、業界内で議論を呼んでいる。</description>
-    <pubDate>Fri, 09 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>損保ジャパン2万人のGemini導入、「使われない」リスクをどう防ぐ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html</guid>
-    <description>2万人へのGemini導入で、単なるライセンス配布ではなく「使われないこと」「不適切な使い方」をリスクとして対策。</description>
-    <pubDate>Fri, 09 Oct 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>

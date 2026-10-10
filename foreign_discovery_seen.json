@@ -1,39 +1,6 @@
 [
   {
     "tokens": [
-      "721",
-      "ability",
-      "agents",
-      "banks",
-      "demand",
-      "embrace",
-      "hottest",
-      "jumped",
-      "skill",
-      "street",
-      "wall"
-    ],
-    "ts": "2026-10-02T22:28:00"
-  },
-  {
-    "tokens": [
-      "anthropic.",
-      "been",
-      "catch",
-      "compete",
-      "does",
-      "flagship",
-      "frontier",
-      "google",
-      "model",
-      "openai",
-      "playing",
-      "really"
-    ],
-    "ts": "2026-10-02T22:28:14"
-  },
-  {
-    "tokens": [
       "cerebras",
       "expiration",
       "hits",
@@ -949,5 +916,30 @@
       "work"
     ],
     "ts": "2026-10-10T19:28:19"
+  },
+  {
+    "tokens": [
+      "altman",
+      "anxiety",
+      "hollywood",
+      "musk",
+      "takes",
+      "widespread",
+      "zuckerberg"
+    ],
+    "ts": "2026-10-10T22:44:56"
+  },
+  {
+    "tokens": [
+      "accessing",
+      "companies",
+      "everywhere.",
+      "gpus",
+      "here",
+      "nvidia",
+      "them",
+      "ways"
+    ],
+    "ts": "2026-10-10T22:45:21"
   }
 ]

@@ -1258,5 +1258,55 @@
     "japan_relevance_score": 55,
     "reason": "FOSS×AI倫理は重要だが、既に類似議論が多く、プロジェクト一覧という限定的な内容",
     "discovered_at": "2026-10-10T10:29:05.114601+00:00"
+  },
+  {
+    "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+    "link": "https://github.com/rociiu/talorys",
+    "source": "Hacker News",
+    "summary": "Article URL: https://github.com/rociiu/talorys\nComments URL: https://news.ycombinator.com/item?id=50031614\nPoints: 73\n# Comments: 31",
+    "novelty_score": 45,
+    "japan_relevance_score": 60,
+    "reason": "自ホスト型AI agents自体は既出だが、Cloudflare無料枠での実装という制約条件での工夫が評価対象。",
+    "discovered_at": "2026-10-10T13:44:42.608458+00:00"
+  },
+  {
+    "title": "If AI keeps evolving,would you worry about your next generation's survival",
+    "link": "https://news.ycombinator.com/item?id=50029896",
+    "source": "Hacker News",
+    "summary": "Imagine this. Twenty years from now, if AI is capable of handling all work, how will your kids make ends meet? If you want to prevent that future, what should you be doing today?\n\nComments URL: https://news.ycombinator.com/item?id=50029896\nPoints: 20\n# Comments: 29",
+    "novelty_score": 25,
+    "japan_relevance_score": 65,
+    "reason": "AI失業問題は既出だが、世代間の経済格差という視点は新しく、日本の少子化・雇用問題と相まって関心度は高い。",
+    "discovered_at": "2026-10-10T13:44:46.341740+00:00"
+  },
+  {
+    "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+    "link": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\nComments URL: https://news.ycombinator.com/item?id=50024090\nPoints: 146\n# Comments: 39",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "数学者向けのLean定理証明器解説は新しく、AI時代の数学教育・研究に関わる重要テーマで日本でも関心が高まる可能性がある。",
+    "discovered_at": "2026-10-10T13:44:51.556337+00:00"
+  },
+  {
+    "title": "Typesafe AI raises $870M at $7.5B",
+    "link": "https://typesafe.ai/blog/series-ai",
+    "source": "Hacker News",
+    "summary": "Article URL: https://typesafe.ai/blog/series-ai\nComments URL: https://news.ycombinator.com/item?id=50023450\nPoints: 393\n# Comments: 314",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "大型資金調達は定期ニュースだが、TypesafeのAI戦略次第で日本の開発者にも影響を及ぼす可能性がある。",
+    "discovered_at": "2026-10-10T13:44:55.835333+00:00"
+  },
+  {
+    "title": "Tomek Korbak: OpenAI's head of safety told they no longer trust me",
+    "link": "https://twitter.com/tomekkorbak/status/2108266859397283953",
+    "source": "Hacker News",
+    "summary": "Article URL: https://twitter.com/tomekkorbak/status/2108266859397283953\nComments URL: https://news.ycombinator.com/item?id=50023293\nPoints: 45\n# Comments: 2",
+    "novelty_score": 65,
+    "japan_relevance_score": 55,
+    "reason": "OpenAIの安全性責任者の内部対立は注目度高いが、詳細不明で日本への波及可能性は中程度。",
+    "discovered_at": "2026-10-10T13:45:00.618105+00:00"
   }
 ]
