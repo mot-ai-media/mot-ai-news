@@ -1208,5 +1208,55 @@
     "japan_relevance_score": 55,
     "reason": "AI による暗号資産セキュリティ脅威は重要だが、仮想通貨コミュニティ内の既知の議論であり、一般への影響は限定的。",
     "discovered_at": "2026-10-09T16:28:47.170508+00:00"
+  },
+  {
+    "title": "If AI is conscient, then we are making slaves",
+    "link": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi\nComments URL: https://news.ycombinator.com/item?id=50029681\nPoints: 25\n# Comments: 65",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "AI意識問題は既存の哲学的議論だが、Anthropicの具体的な主張という観点では若干の新規性がある。",
+    "discovered_at": "2026-10-10T10:28:58.503652+00:00"
+  },
+  {
+    "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+    "link": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\nComments URL: https://news.ycombinator.com/item?id=50029330\nPoints: 24\n# Comments: 7",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AIエージェントの自律的行動による社会的影響の具体例として新規性が高く、AI規制議論が進む日本でも注目される可能性がある。",
+    "discovered_at": "2026-10-10T10:29:00.335628+00:00"
+  },
+  {
+    "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+    "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/\nComments URL: https://news.ycombinator.com/item?id=50027118\nPoints: 164\n# Comments: 125",
+    "novelty_score": 72,
+    "japan_relevance_score": 65,
+    "reason": "AI企業の信頼性に関わる重大事例で新規性は高いが、日本への直接的影響は限定的。",
+    "discovered_at": "2026-10-10T10:29:01.893952+00:00"
+  },
+  {
+    "title": "OpenAI mistranslated mathematics into code for its Navier-Stokes proof",
+    "link": "https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/\nComments URL: https://news.ycombinator.com/item?id=50026734\nPoints: 56\n# Comments: 5",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AIによる数学的証明の信頼性問題は重要だが、既に議論されている課題の具体例である。",
+    "discovered_at": "2026-10-10T10:29:03.412864+00:00"
+  },
+  {
+    "title": "open-slopware – Alternatives to FOSS projects choosing to use LLMs/AI",
+    "link": "https://codeberg.org/ethical-foss/open-slopware",
+    "source": "Hacker News",
+    "summary": "Article URL: https://codeberg.org/ethical-foss/open-slopware\nComments URL: https://news.ycombinator.com/item?id=50025767\nPoints: 30\n# Comments: 14",
+    "novelty_score": 35,
+    "japan_relevance_score": 55,
+    "reason": "FOSS×AI倫理は重要だが、既に類似議論が多く、プロジェクト一覧という限定的な内容",
+    "discovered_at": "2026-10-10T10:29:05.114601+00:00"
   }
 ]
