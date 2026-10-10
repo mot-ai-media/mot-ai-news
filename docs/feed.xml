@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI運転、現実の道路でテスト。結果は期待通りでなかった</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5ad4015e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-5ad4015e.html</guid>
+    <description>研究者がAIに実車を運転させるテストを実施。理想と現実のギャップが浮き彫りに。</description>
+    <pubDate>Sat, 10 Oct 2026 14:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが「GPT-6 Astra」発表、次世代AI応答性能がついに進化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-11f8eda8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-11f8eda8.html</guid>
+    <description>OpenAIが新世代モデル「GPT-6 Astra」を発表。より応答性能が向上したAIが登場。</description>
+    <pubDate>Sat, 10 Oct 2026 14:54:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPT独占時代に終止符、SunoやElevenLabsが台頭—消費者AI市場の真の勝者は？</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-b7942fed.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-b7942fed.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/firmus-nvidia-fe6a8c17.html</guid>
     <description>AI企業向けの大規模データセンターを運営するFirmusが、300億ドル規模の豪州での株式上場計画を中止。市場の不安定性と評価額への投資家の懸念が理由。AI産業への巨額投資の持続可能性に疑問符が付き始めた。</description>
     <pubDate>Fri, 09 Oct 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、オープンソースプロジェクト向けに無料のセキュリティ診断を開始。AIが脆弱性を自動検出</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-df7e5433.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-df7e5433.html</guid>
-    <description>AI企業Anthropicが、オープンソースソフトウェアの脆弱性を自動検出する「OSS Scanner」という無料サービスを開始した。参加するプロジェクトは定期的なセキュリティスキャンを無償で受けられる。</description>
-    <pubDate>Fri, 09 Oct 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI年間売上500億ドル達成でAI関連株が急落——AI投資の現実が問われ始めた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7bdbb683.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7bdbb683.html</guid>
-    <description>OpenAIが9月末時点で年間売上500億ドル（約7.5兆円）に達したと発表。この報道を受けてNvidiaやOracleなどAI関連銘柄が売られた。高い期待値に対して実績が限定的と判断された可能性を示唆する。</description>
-    <pubDate>Fri, 09 Oct 2026 10:27:00 +0900</pubDate>
   </item>
 </channel></rss>
