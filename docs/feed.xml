@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIが買い物代行する時代が到来。Amazon・Costcoの小売大手も対応迫られる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-shopping-agent-amazon-54a95e7e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-shopping-agent-amazon-54a95e7e.html</guid>
+    <description>AI技術が進化し、「Muse」のような買い物代行AI（ショッピングエージェント）が登場。ユーザーの指示で自動的に商品を検索・購入するこの仕組みは、AmazonやCostco、TJXといった小売大手にとって脅威にもビジネス機会にもなり得ることが、海外メディアで報道されている。</description>
+    <pubDate>Sat, 10 Oct 2026 13:49:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>銀行とチップメーカーが同時に試される週。決算シーズンがAI相場の本気度を判定する</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2e6f5d6d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-2e6f5d6d.html</guid>
+    <description>米国で来週、金融機関と半導体企業の四半期決算が相次いで発表される。投資家の注目は、これらの企業がAI関連ビジネスからどの程度の利益を生み出しているかにある。決算内容によっては、AI相場全体の評価が大きく変わる可能性がある。</description>
+    <pubDate>Sat, 10 Oct 2026 13:49:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIに「意地悪」はNG。Anthropicが利用規約を改正、ユーザーの暴言を禁止へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-753fc11f.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-753fc11f.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html</guid>
     <description>アメリカの金利上昇により、市場が大きく二つに分かれようとしている。借り入れコストに敏感なセクターが圧力を受ける一方で、AI関連企業はこの逆風をほぼ受けないという指摘が、米著名投資家から出されている。</description>
     <pubDate>Thu, 08 Oct 2026 22:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Amazonが予算重視の戦略を転換――高機能Alexaタブレットで「安さ重視の時代」に終止符</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-0e35835f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-0e35835f.html</guid>
-    <description>Amazonが低価格のFireタブレットラインを廃止し、AI機能とデザインを強化した高価格帯のAlexaタブレットへシフト。スマートデバイス市場全体が「安いだけ」から「性能が重視される」時代に移行する兆候が鮮明になった。</description>
-    <pubDate>Thu, 08 Oct 2026 22:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>開発者向けAI「Hermes」が企業向けに進化、150億円超を調達して業務自動化に乗り出す</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html</guid>
-    <description>開発者に人気のオープンソースAI「Hermes」を手がけるNous Researchが、企業向けの業務自動化ツールで大型資金調達を実現。</description>
-    <pubDate>Thu, 08 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
