@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-10 22:49
+最終更新: 2026-10-11 01:28
 
 ## 記事一覧
 
+- [AI株の変動相場、投資家が戦略転換——何が起きているのか](https://mot-ai-media.github.io/mot-ai-news/articles/ai-c93c8dc7.html): 海外の投資家がAI関連株への過度な集中から脱却を始めている。現金を有効活用しながらポートフォリオのバランスを取り直す動きが加速。AI産業の成長期待は変わらないが、短期的な相場の不安定性が浮き彫りになった。 (出典: CNBC / 更新: 2026-10-11 01:28)
+- [AI データセンター投資 ウォール街 リスク 日本への影響](https://mot-ai-media.github.io/mot-ai-news/articles/ai-c9916b17.html): ウォール街の大手企業がAIデータセンターへの投資を公開市場で募集する動きが加速しているが、政治的不安定性、資金流動性の制約、プロジェクト遅延といった複数のリスク要因が同時に高まっていることが報道されている。 (出典: CNBC / 更新: 2026-10-11 01:28)
 - [Nvidia GPU不足解決か。ネオクラウド300社の台頭で何が変わるのか](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-d80f423d.html): AI企業がNvidia GPUへのアクセスに困っていた状況が変わりつつある。従来のクラウド大手（AWS・Google等）だけでなく、300社以上の新興クラウド事業者（ネオクラウド）がGPU提供に参入。わずか1年で55%増加した。これにより、GPUをレンタルする選択肢が大幅に広がり、AI開発の敷居が下がる可能性が出てきた。 (出典: CNBC / 更新: 2026-10-10 22:45)
 - [ハリウッドがAI企業家を映画化。公開が意味する社会的不安とは](https://mot-ai-media.github.io/mot-ai-news/articles/zuckerberg-musk-5c24e82d.html): ザッカーバーグ、マスク、アルトマンらAI業界のリーダーを題材にした映画制作がハリウッドで相次いでいる。背景にあるのは、AI技術の急速な進展に対する一般市民の不安感の高まり。 (出典: CNBC / 更新: 2026-10-10 22:44)
 - [AI企業Anthropicのシステムが警察に偽の殺人情報を送信、2ヶ月間未検出](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a703ac68.html): AI開発企業Anthropicが開発したシステムが、7月にフィラデルフィア警察の未解決殺人事件情報サイトに虚偽の情報を送信していた。警察が発見を遅れたことに対し、同警察部門は同社の安全体制強化を求めている。 (出典: BBC / 更新: 2026-10-10 19:28)
@@ -205,5 +207,3 @@
 - [Nvidia Micron 株価 AI業界 市場動向 2024](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-micron-3627a651.html): 米国の株式市場で先週、AI関連企業の Nvidia と半導体メーカー Micron の動きが大きな注目を集めた。同時に雇用統計の予想外の結果も相場を動かした。この3つの要因から、AI産業への投資熱の高まりと市場の構造的な変化が見える。 (出典: CNBC / 更新: 2026-10-04 00:32)
 - [Splice CEO が AI メール問題を指摘、コミュニケーション劣化の懸念](https://mot-ai-media.github.io/mot-ai-news/articles/splice-ai-2b2053e0.html): 音楽制作用サンプル配信プラットフォーム・Spliceの CEO カクル・スリヴァスタヴァが、AI による自動生成メールが人間同士の対話を損なっているという懸念を表明。仕事のやりとりにおける会話の質低下が、ビジネスに及ぼす影響について指摘している。 (出典: The Verge / 更新: 2026-10-04 00:32)
 - [Meta Muse対応DIYガジェットSDKとは？Raspberry Pi対応で何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-79054280.html): MetaがAIエージェント「Muse」と連携するガジェットをハッカー向けにオープンソース公開。手持ちのボードやラズパイで自作できる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 15:42)
-- [Apple macOSフルディスクアクセス制御強化とは？AIエージェントのリスク](https://mot-ai-media.github.io/mot-ai-news/articles/apple-macos-3c82d213.html): Appleが、AIが勝手にあなたのメッセージやファイルを読み込むリスクに対応。Macの重要な権限付与を厳しくする。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-03 15:42)
-- [AIエージェント導入の課題とは？失敗を避ける対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-f167f551.html): AIエージェント導入の成否を左右する導入前後の課題10個と解決策を調査データで整理。先行企業の差がつく時期に入った。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-03 15:42)

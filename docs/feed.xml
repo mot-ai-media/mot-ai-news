@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI拡大の陰で、ウォール街が巨額投資するデータセンター事業が危機的リスクを抱えている</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c9916b17.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c9916b17.html</guid>
+    <description>ウォール街の大手企業がAIデータセンターへの投資を公開市場で募集する動きが加速しているが、政治的不安定性、資金流動性の制約、プロジェクト遅延といった複数のリスク要因が同時に高まっていることが報道されている。</description>
+    <pubDate>Sun, 11 Oct 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI株が乱高下、投資家は慎重シフト。市場は「AI過熱」の冷却局面へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c93c8dc7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c93c8dc7.html</guid>
+    <description>海外の投資家がAI関連株への過度な集中から脱却を始めている。現金を有効活用しながらポートフォリオのバランスを取り直す動きが加速。AI産業の成長期待は変わらないが、短期的な相場の不安定性が浮き彫りになった。</description>
+    <pubDate>Sun, 11 Oct 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPUへのアクセス方法が激変。1年で55%増加した「ネオクラウド」300社超が参入</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-d80f423d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-d80f423d.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-5d5f9ae2.html</guid>
     <description>Claudeなどの生成AIを悪用した韓国銀行への大規模サイバー攻撃。攻撃者はAIの利用記録から身元が特定される可能性に。</description>
     <pubDate>Fri, 09 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、音声ファイル対応で一気に便利に。文字起こしから要約まで有料ユーザーが使える</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d60f64ec.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-d60f64ec.html</guid>
-    <description>ChatGPTが音声ファイルのアップロードに対応。有料ユーザーは文字起こしや要約が可能に。</description>
-    <pubDate>Fri, 09 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTを開発するOpenAI、安全性を重視した研究者3人を解雇──海外で「言論弾圧では」と批判</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e250ba0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e250ba0.html</guid>
-    <description>OpenAIがAI安全性に関する懸念を上げていた研究者3人を「機密情報の不適切な取り扱い」を理由に解雇。本人たちは「安全性を優先させたために報復された」と主張。BBCなど海外メディアが報道する中、AI企業の内部統制と言論の自由をめぐる議論が勃発している。</description>
-    <pubDate>Fri, 09 Oct 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
