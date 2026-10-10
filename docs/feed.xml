@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPT独占時代に終止符、SunoやElevenLabsが台頭—消費者AI市場の真の勝者は？</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-b7942fed.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-b7942fed.html</guid>
+    <description>消費者向けAIアプリの経済性に課題ありながら、新たな収益源の開拓で業界は黎明期にある。</description>
+    <pubDate>Sat, 10 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>なぜ私たちはロボットに心を寄せてしまうのか。AI時代の新たな心理</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/mit-sherry-turkle-304a6e31.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/mit-sherry-turkle-304a6e31.html</guid>
+    <description>人間は無意識にAIやロボットを人間扱いしてしまう。その心理メカニズムとは。</description>
+    <pubDate>Sat, 10 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>銀行員がAIロボで起業、ゴミ分別を完全自動化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/danu-robotics-h-e-r-o-edf79715.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/danu-robotics-h-e-r-o-edf79715.html</guid>
+    <description>ロンドンの銀行員が6年の開発を経て、AIで学習するゴミ分別ロボットを市場化。すでに大手顧客から受注を獲得。</description>
+    <pubDate>Sat, 10 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Amazon、データセンター交渉から秘密契約を廃止。AI基盤整備が透明化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-3e5144fc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-3e5144fc.html</guid>
+    <description>Amazon がデータセンター交渉時の秘密保持契約廃止に踏み切り、地域社会の反発が軽くなるか注目される。</description>
+    <pubDate>Sat, 10 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Amazon・Microsoft、データセンター契約の秘密主義を廃止。地域社会の反発受け透明化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-fd6b62e2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-fd6b62e2.html</guid>
+    <description>AI施設への不信感から数百件の規制案が提案される中、大手企業が契約内容の非公開を廃止し透明性を重視する方針へシフト。</description>
+    <pubDate>Sat, 10 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropic AIが誤った殺人情報を警察に送信、2ヶ月間気づかず</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-6794814f.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-6794814f.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7bdbb683.html</guid>
     <description>OpenAIが9月末時点で年間売上500億ドル（約7.5兆円）に達したと発表。この報道を受けてNvidiaやOracleなどAI関連銘柄が売られた。高い期待値に対して実績が限定的と判断された可能性を示唆する。</description>
     <pubDate>Fri, 09 Oct 2026 10:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国製AIモデルが企業利用の6割超に、わずか1年半で逆転</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/deepseek-ai-0794ff24.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/deepseek-ai-0794ff24.html</guid>
-    <description>企業が使うオープンなAIモデルの大半が中国製に。DeepSeekなどの台頭で、AIの主導権の構図が大きく変わりつつある。</description>
-    <pubDate>Fri, 09 Oct 2026 10:14:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude、AIへの虐待禁止へ。Anthropicが利用ルール大幅改定</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-804b1fcf.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-804b1fcf.html</guid>
-    <description>Anthropicが生成AIの「Claude」の利用ルールを改定。AIへの継続的な虐待の禁止や影響工作対策を強化。11月12日から実施。</description>
-    <pubDate>Fri, 09 Oct 2026 10:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GoogleのGemini、ついにClaudeと共存へ。複数AIの使い分け時代突入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-claude-3842feda.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-claude-3842feda.html</guid>
-    <description>GoogleがマルチAI対応の新サービスを発表。GeminiだけでなくClaudeなど複数モデルから最適なものを選べる時代に。</description>
-    <pubDate>Fri, 09 Oct 2026 10:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT Work、ログイン操作を自動化。AIが面倒な認証作業を代行へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-89ea0730.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-89ea0730.html</guid>
-    <description>ChatGPT Workが新たに、ウェブサイトのログイン操作を安全に自動化する機能を提供開始。複雑な認証プロセスをAIが担当。</description>
-    <pubDate>Fri, 09 Oct 2026 10:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTがWebMCPに対応、ウェブサイトとの連携がより深く進化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2c11e12c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2c11e12c.html</guid>
-    <description>デスクトップ版ChatGPTがWebMCPに対応し、AIとウェブサイトの連携がさらに強化される。</description>
-    <pubDate>Fri, 09 Oct 2026 10:12:00 +0900</pubDate>
   </item>
 </channel></rss>
