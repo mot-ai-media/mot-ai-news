@@ -1,58 +1,6 @@
 [
   {
     "tokens": [
-      "action",
-      "drove",
-      "jobs",
-      "last",
-      "micron",
-      "nvidia",
-      "report",
-      "stock",
-      "surprising",
-      "week's"
-    ],
-    "ts": "2026-10-04T00:32:33"
-  },
-  {
-    "tokens": [
-      "ceo",
-      "conversations",
-      "emails",
-      "kakul",
-      "killing",
-      "splice",
-      "srivastava",
-      "thinks"
-    ],
-    "ts": "2026-10-04T00:32:57"
-  },
-  {
-    "tokens": [
-      "alarm",
-      "employee",
-      "openai",
-      "quit",
-      "safety",
-      "sounding"
-    ],
-    "ts": "2026-10-04T01:29:26"
-  },
-  {
-    "tokens": [
-      "code",
-      "gadgets",
-      "let",
-      "make",
-      "meta",
-      "muse",
-      "open",
-      "sources"
-    ],
-    "ts": "2026-10-04T01:29:50"
-  },
-  {
-    "tokens": [
       "capcom",
       "create",
       "future",
@@ -998,5 +946,17 @@
       "umg"
     ],
     "ts": "2026-10-11T19:28:18"
+  },
+  {
+    "tokens": [
+      "automating",
+      "coding.",
+      "developer",
+      "job",
+      "postings",
+      "rise",
+      "software"
+    ],
+    "ts": "2026-10-12T01:36:41"
   }
 ]
