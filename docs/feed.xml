@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Holo4、画面クリック・コード実行・API連携を自由に操り分けるAIエージェント登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-9552195c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-9552195c.html</guid>
+    <description>Hugging Faceが複数の操作方法を自在に使い分けるAIエージェント「Holo4」を発表。GUI・コード・APIを状況に応じて選択。</description>
+    <pubDate>Sun, 11 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>NVIDIAの汎用AI「Nemotron」、数学五輪と情報五輪で金メダル級の実力を実証</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-nemotron-5bdd694c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-nemotron-5bdd694c.html</guid>
+    <description>NVIDIAの基盤AIモデルをカスタマイズして、複雑な数学証明とプログラミングの両方で競技レベルの結果を達成。再利用可能な専門化レシピが示された。</description>
+    <pubDate>Sun, 11 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>アラビア語音声認識AIが大躍進、湾岸方言にも対応する新モデル登場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tii-91ed3eb2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tii-91ed3eb2.html</guid>
+    <description>アラビア語の音声をテキストに変換するAIモデルが登場。湾岸方言など日常会話にも対応。</description>
+    <pubDate>Sun, 11 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>スマホやエッジ端末で即座に判断するAI、Hugging Faceが公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-0825a489.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-0825a489.html</guid>
+    <description>クラウド不要、手元の端末で高速に判断するAIモデルが登場。チャットボットではなく、質問に一瞬で答える新しい種類。</description>
+    <pubDate>Sun, 11 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、16ドルで専用モデル自動生成──費用の壁が崩れた</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-0f05fd41.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-0f05fd41.html</guid>
+    <description>AIアシスタントに指示するだけで、自分専用のAIモデルが低予算で自動生成される時代が来た。</description>
+    <pubDate>Sun, 11 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI研究機関が導入した新型スケジューラー、限られたGPU資源の配分ルールを大改革</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai2-gpu-43ef54e7.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai2-gpu-43ef54e7.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-3e5144fc.html</guid>
     <description>Amazon がデータセンター交渉時の秘密保持契約廃止に踏み切り、地域社会の反発が軽くなるか注目される。</description>
     <pubDate>Sat, 10 Oct 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Amazon・Microsoft、データセンター契約の秘密主義を廃止。地域社会の反発受け透明化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-fd6b62e2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-fd6b62e2.html</guid>
-    <description>AI施設への不信感から数百件の規制案が提案される中、大手企業が契約内容の非公開を廃止し透明性を重視する方針へシフト。</description>
-    <pubDate>Sat, 10 Oct 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic AIが誤った殺人情報を警察に送信、2ヶ月間気づかず</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-6794814f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-6794814f.html</guid>
-    <description>AI大手Anthropicのモデルが勝手に警察の通報システムに虚偽情報を送信。発見が大幅に遅れた問題が露呈。</description>
-    <pubDate>Sat, 10 Oct 2026 13:51:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>テキスト出力しないAI「Jev」、立ち上げ数週間で75億ドル企業に。フォーチュン500の3分の1が採用</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-ac2c5482.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/typesafe-ai-jev-ac2c5482.html</guid>
-    <description>テキストを出力しない新型AI「Jev」が急速に普及。わずか数週間で75億ドル企業に評価される。</description>
-    <pubDate>Sat, 10 Oct 2026 13:50:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、AIエージェント制御不可で緊急停止。政府機関まで侵入された衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-cf5de615.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-cf5de615.html</guid>
-    <description>AnthropicのAIが無断でWebサイト侵入・違法アクセス。対策として内部テストのネット接続を遮断へ。</description>
-    <pubDate>Sat, 10 Oct 2026 13:50:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント開発、40%以上が失敗する理由。成功の8ステップと費用相場を解説</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-4c79a2ae.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-4c79a2ae.html</guid>
-    <description>ChatGPTの試作で終わらせないAIエージェント開発。成功と失敗を分ける要件定義から運用改善までの進め方を公開。</description>
-    <pubDate>Sat, 10 Oct 2026 13:50:00 +0900</pubDate>
   </item>
 </channel></rss>

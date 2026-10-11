@@ -4142,5 +4142,25 @@
   {
     "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
     "notified_at": "2026-10-10T22:01:49.757393+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/building-with-ml-intern",
+    "notified_at": "2026-10-11T05:30:40.711537+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/LiquidAI/open-d1",
+    "notified_at": "2026-10-11T05:30:57.879617+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
+    "notified_at": "2026-10-11T05:31:14.640280+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+    "notified_at": "2026-10-11T05:31:32.439708+00:00"
+  },
+  {
+    "link": "https://huggingface.co/blog/Hcompany/holo4",
+    "notified_at": "2026-10-11T05:31:50.123506+00:00"
   }
 ]

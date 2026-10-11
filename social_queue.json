@@ -5407,7 +5407,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/news/article/ogp/2609/26/2000001773/10007601/2048",
     "generated_at": "2026-09-27 22:00",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -5465,7 +5465,10 @@
         "x_post": "Copilot高度な機能は使用量課金制へ転換。定額ライセンス時代が終わり、企業はAI導入の予算計画を根本的に立て直す必要に。コスト管理が新たな経営課題。",
         "cta": "企業への実務的な影響を詳しく知る"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18471998968136976",
+    "published_at": "2026-10-11T07:02:07"
   },
   "nvidia-ai-c890b3de": {
     "headline": "NvidiaのCEO vs 米財務長官の対立。AI技術の「盗用か競争か」の戦い",
