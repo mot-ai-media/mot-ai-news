@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-11 19:28
+最終更新: 2026-10-12 01:37
 
 ## 記事一覧
 
+- [AI安全性評価の第三者機関とは？海外で急速に注目される理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e0487b99.html): AIの急速な発展に伴い、AIモデルの安全性を独立して検証する第三者評価機関が海外で台頭している。数兆ドル規模のAI産業全体の信頼性を左右する存在として、注目が集まっている。 (出典: CNBC / 更新: 2026-10-12 01:37)
+- [AI時代のプログラマー需要、初級職消滅で上級職が急増する理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d211048e.html): AIがプログラミングを自動化する中で、ソフトウェア開発職の求人数が増加している。ただし内訳が変わっており、AIスキルを持つ経験者や上級職の採用が拡大する一方、初級職の求人は減少。企業の採用戦略が大きく転換している。 (出典: CNBC / 更新: 2026-10-12 01:36)
 - [DistroKid楽曲削除 UMG訴訟 AI生成音楽問題](https://mot-ai-media.github.io/mot-ai-news/articles/distrokid-umg-e77e9ae8.html): 独立系アーティスト向けの音楽配信サービス「DistroKid」が、予告なく楽曲を削除する事態が発生。同社は大手レーベルUMGからの訴訟に対応する形での削除だと認めた。訴訟は、DistroKidが「AI生成音楽の一大製造工場」となっているという主張が背景にある。 (出典: The Verge / 更新: 2026-10-11 19:28)
 - [マイクロソフト CEO Nadella「AIモデルはすべて危険」緊急ブレーキ必要](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-35dc9169.html): マイクロソフトのサティア・ナデラCEOが、高度に進化したAIモデルの危険性を指摘し、不透明なAIの判断を盲目的に受け入れる現状の改善を求めた。AIの意思決定プロセスの透明化と検証可能性の確保が急務だと提言している。 (出典: The Verge / 更新: 2026-10-11 19:27)
 - [GPT-6 Astraとは？BIMモデリング活用で建築業界はどう変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-30daab27.html): GPT-6 Astraが建築設計業務に導入され、BIMモデリングプロセスの革新が進む動き。 (出典: AEC Magazine / 更新: 2026-10-11 16:53)
@@ -205,5 +207,3 @@
 - [Apple macOS Full Disk Access規制とは？AIエージェントのセキュリティリスク](https://mot-ai-media.github.io/mot-ai-news/articles/apple-meta-muse-8931b830.html): AIエージェントの高度化に伴い、Appleは個人ファイルへの広範なアクセス権を制限する新ルール導入を発表。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:00)
 - [AIの消費者採用率、わずか2%。何が課題？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-5c5d251d.html): トランプ大統領がAIを「スーパーインテリジェンス」と改名し安全性誓約を推進するも、実際の消費者需要は極めて低迷している。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:00)
 - [StarCraft AIボット入れ替わり事件とは。大会で何が起きた](https://mot-ai-media.github.io/mot-ai-news/articles/esports-ai-2004e472.html): eSports大会でAI製ボットが人間製ボットと入れ替わるという異例の事態が発生。 (出典: Kotaku / 更新: 2026-10-04 18:53)
-- [Google Gemini料金体系が変更。無料ユーザーが使えるモデルは？](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b70e906a.html): Googleが個人向けGeminiで利用可能なAIモデルを契約プランで制限。無料ユーザーは最もシンプルな「Flash-Lite」のみ利用可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-04 18:01)
-- [OpenAI安全性報告書の責任者が退社・告発、何が問題か](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-b859c99c.html): ChatGPTなど主要モデルの安全性報告を統括していたOpenAI幹部が退社し、企業文化の問題を指摘する記事を公表。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-04 18:01)
