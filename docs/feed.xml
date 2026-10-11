@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>クラウドに個人情報を預けたくない人たちが、AIを自分のパソコンで動かし始めた</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea95eacb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea95eacb.html</guid>
+    <description>ChatGPTなどのクラウドベースAIの普及に伴い、海外では個人データの流出リスクを避けるため、自分のパソコンやスマートフォンで直接AIモデルを動かす『ローカルAI』への関心が急速に高まっている。プライバシー重視の利用者が、クラウドサービスから離れ始めている。</description>
+    <pubDate>Mon, 12 Oct 2026 07:29:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>トランプが「AI」を「超知能」に改名、シリコンバレーの大物たちが次々と従う</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-elon-musk-7ec8afee.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-elon-musk-7ec8afee.html</guid>
+    <description>トランプ大統領がAI（人工知能）という言葉を「Super Intelligence（超知能）」に改名する構想を打ち出し、イーロン・マスク、マーク・ベニオフ、黄仁勲、サティア・ナデラなどシリコンバレーの有力経営者たちが次々と同調している。この動きは単なる用語変更ではなく、AIの社会的なポジショニングを大きく変える試みとして注目されている。</description>
+    <pubDate>Mon, 12 Oct 2026 07:29:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Hugging Face、Apple AI開発ツール「MLX」の主要開発者を採用。ローカルAI普及に動く</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-mlx-fb8ad85c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-mlx-fb8ad85c.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-d80f423d.html</guid>
     <description>AI企業がNvidia GPUへのアクセスに困っていた状況が変わりつつある。従来のクラウド大手（AWS・Google等）だけでなく、300社以上の新興クラウド事業者（ネオクラウド）がGPU提供に参入。わずか1年で55%増加した。これにより、GPUをレンタルする選択肢が大幅に広がり、AI開発の敷居が下がる可能性が出てきた。</description>
     <pubDate>Sat, 10 Oct 2026 22:45:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ザッカーバーグ、マスク、アルトマン……AIの巨人たちが映画化される理由</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/zuckerberg-musk-5c24e82d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zuckerberg-musk-5c24e82d.html</guid>
-    <description>ザッカーバーグ、マスク、アルトマンらAI業界のリーダーを題材にした映画制作がハリウッドで相次いでいる。背景にあるのは、AI技術の急速な進展に対する一般市民の不安感の高まり。</description>
-    <pubDate>Sat, 10 Oct 2026 22:44:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>弁護士の時給制が終わる。AIが法律業界の「報酬システム」を根本から変えようとしている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9fff188e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9fff188e.html</guid>
-    <description>AIツールの普及により、弁護士業界で長年続いてきた時間単位の報酬制度（タイムチャージ制）が機能しなくなりつつある。海外メディアでは、この制度改革がもたらす業界構造の変化に注目が集まっている。</description>
-    <pubDate>Sat, 10 Oct 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
