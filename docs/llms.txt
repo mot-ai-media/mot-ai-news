@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-11 14:53
+最終更新: 2026-10-11 16:28
 
 ## 記事一覧
 
+- [AI個人別価格設定が現実化？小売業界が導入で消費者に影響](https://mot-ai-media.github.io/mot-ai-news/articles/ai-19c7f0da.html): 小売企業がAIツールの導入を進める中で、消費者データを詳細に分析する仕組みが広がりつつある。その結果、同じ商品でも顧客ごとに異なる価格が提示される「パーソナライズド・プライシング」のリスクが指摘されている。 (出典: CNBC / 更新: 2026-10-11 16:28)
+- [Microsoft Nadella AI緊急ブレーキ 人間による制御を主張](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-f7f34cfe.html): マイクロソフトのサティア・ナデラCEOが、AI開発には人間が制御できる「緊急ブレーキ」機能が必要だと主張。他のテック大手経営者や研究者も強化された安全対策と開発ペースの調整を求める動きが広がっている。 (出典: CNBC / 更新: 2026-10-11 16:28)
 - [AI設計ロボットとは？競技会で実装技能テスト](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dc8a7b74.html): AIが設計したロボットがアリーナで実践的なスキルを競う試験が実施される。 (出典: 조선일보 / 更新: 2026-10-11 14:53)
 - [Falcon ASR とは？アラビア語音声認識AI、精度と対応言語を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tii-91ed3eb2.html): アラビア語の音声をテキストに変換するAIモデルが登場。湾岸方言など日常会話にも対応。 (出典: Hugging Face - Blog / 更新: 2026-10-11 14:31)
 - [NVIDIA Nemotronとは？IOI・IMOで金メダル獲得の意味を解説](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-nemotron-5bdd694c.html): NVIDIAの基盤AIモデルをカスタマイズして、複雑な数学証明とプログラミングの両方で競技レベルの結果を達成。再利用可能な専門化レシピが示された。 (出典: Hugging Face - Blog / 更新: 2026-10-11 14:31)
@@ -205,5 +207,3 @@
 - [Amazonがデータセンター計画で秘密保持契約廃止、透明性強化の背景とは](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-web-services-ai-f8ba7ef5.html): AWSがNDA廃止を発表し、地域社会との対立が強まるデータセンター建設計画で透明性を重視する姿勢を示した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 18:01)
 - [OpenAI安全性チームの長期従業員が辞職、企業文化の問題を指摘](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-a17db24a.html): OpenAIの安全性報告書を執筆してきた3年以上勤務した従業員が、企業文化の破綻を理由に退職し告発。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 18:01)
 - [スペースXがテスラ・xAIとの合併を検討？マスク氏の経営戦略は](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-16f1a43b.html): イーロン・マスク氏率いるスペースXが、テスラまたはxAIとの合併の可能性を検討していると報道された。 (出典: Bloomberg.com / 更新: 2026-10-04 18:00)
-- [Claude Opus 5.5 vs OpenAI Astra比較|性能・価格・コーディング](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9f8ec0ae.html): AnthropicのClaudeが最新ベンチマークでOpenAIの新モデルに勝利し、価格面でも優位に立つ。 (出典: Startup Fortune / 更新: 2026-10-04 16:53)
-- [Claude Fable 5.1とMythos 5.1とは？Anthropicの新版を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-94b02e59.html): Anthropicが新バージョンのClaudeを発表。AIの性能向上や機能強化が進む。 (出典: anthropic.com / 更新: 2026-10-04 16:53)

@@ -1,63 +1,6 @@
 [
   {
     "tokens": [
-      "cerebras",
-      "expiration",
-      "hits",
-      "lockup",
-      "low",
-      "nvidia",
-      "post-ipo",
-      "pressure",
-      "stock",
-      "tumbling",
-      "week"
-    ],
-    "ts": "2026-10-03T07:27:58"
-  },
-  {
-    "tokens": [
-      "100",
-      "anthropic",
-      "engineer",
-      "invest",
-      "million",
-      "talent",
-      "train"
-    ],
-    "ts": "2026-10-03T07:28:11"
-  },
-  {
-    "tokens": [
-      "america",
-      "center",
-      "come",
-      "data",
-      "fight",
-      "preview",
-      "rest",
-      "what's",
-      "world"
-    ],
-    "ts": "2026-10-03T15:41:30"
-  },
-  {
-    "tokens": [
-      "can",
-      "companies",
-      "facebook",
-      "frances",
-      "haugen",
-      "police",
-      "questions",
-      "themselves",
-      "whether",
-      "whistleblower"
-    ],
-    "ts": "2026-10-03T15:41:47"
-  },
-  {
-    "tokens": [
       "action",
       "drove",
       "jobs",
@@ -1004,5 +947,30 @@
       "washington"
     ],
     "ts": "2026-10-11T04:28:20"
+  },
+  {
+    "tokens": [
+      "big",
+      "change",
+      "groceries",
+      "mac",
+      "may",
+      "means",
+      "price",
+      "shoppers"
+    ],
+    "ts": "2026-10-11T16:28:03"
+  },
+  {
+    "tokens": [
+      "brake",
+      "control",
+      "emergency",
+      "humans",
+      "microsoft's",
+      "nadella",
+      "needs"
+    ],
+    "ts": "2026-10-11T16:28:22"
   }
 ]
