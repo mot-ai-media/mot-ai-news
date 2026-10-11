@@ -5631,7 +5631,7 @@
     ],
     "image_url": "https://media.wired.com/photos/6ab67a543b15d40264a17301/191:100/w_1280,c_limit/092526-AI%20Coworker.jpg",
     "generated_at": "2026-09-28 19:28",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -5689,7 +5689,10 @@
         "x_post": "【実用情報】AIエージェント導入時に必要な準備は、ルール作り。データ共有・責任の所在・人間との役割分担を明確にしておくと、導入後の混乱を最小限に抑えられます。個人レベルでも、今から業務を分類しておく価値あり。",
         "cta": "AIエージェント時代の働き方、実践的に理解する。"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18116768165048210",
+    "published_at": "2026-10-11T19:02:02"
   },
   "amd-world-labs-dd8828b4": {
     "headline": "AMD、82億ドルでAI研究企業を買収—設立1年未満のスタートアップに破格評価",
