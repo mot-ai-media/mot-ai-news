@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-11 14:31
+最終更新: 2026-10-11 14:53
 
 ## 記事一覧
 
+- [AI設計ロボットとは？競技会で実装技能テスト](https://mot-ai-media.github.io/mot-ai-news/articles/ai-dc8a7b74.html): AIが設計したロボットがアリーナで実践的なスキルを競う試験が実施される。 (出典: 조선일보 / 更新: 2026-10-11 14:53)
 - [Falcon ASR とは？アラビア語音声認識AI、精度と対応言語を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tii-91ed3eb2.html): アラビア語の音声をテキストに変換するAIモデルが登場。湾岸方言など日常会話にも対応。 (出典: Hugging Face - Blog / 更新: 2026-10-11 14:31)
 - [NVIDIA Nemotronとは？IOI・IMOで金メダル獲得の意味を解説](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-nemotron-5bdd694c.html): NVIDIAの基盤AIモデルをカスタマイズして、複雑な数学証明とプログラミングの両方で競技レベルの結果を達成。再利用可能な専門化レシピが示された。 (出典: Hugging Face - Blog / 更新: 2026-10-11 14:31)
 - [Holo4とは？AIが複数インターフェース操作、Hugging Face開発](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-9552195c.html): Hugging Faceが複数の操作方法を自在に使い分けるAIエージェント「Holo4」を発表。GUI・コード・APIを状況に応じて選択。 (出典: Hugging Face - Blog / 更新: 2026-10-11 14:31)
@@ -206,4 +207,3 @@
 - [スペースXがテスラ・xAIとの合併を検討？マスク氏の経営戦略は](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-16f1a43b.html): イーロン・マスク氏率いるスペースXが、テスラまたはxAIとの合併の可能性を検討していると報道された。 (出典: Bloomberg.com / 更新: 2026-10-04 18:00)
 - [Claude Opus 5.5 vs OpenAI Astra比較|性能・価格・コーディング](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9f8ec0ae.html): AnthropicのClaudeが最新ベンチマークでOpenAIの新モデルに勝利し、価格面でも優位に立つ。 (出典: Startup Fortune / 更新: 2026-10-04 16:53)
 - [Claude Fable 5.1とMythos 5.1とは？Anthropicの新版を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-94b02e59.html): Anthropicが新バージョンのClaudeを発表。AIの性能向上や機能強化が進む。 (出典: anthropic.com / 更新: 2026-10-04 16:53)
-- [カプコン AI ゲーム開発 2026 RE Engine](https://mot-ai-media.github.io/mot-ai-news/articles/ai-re-engine-f1c80105.html): カプコンが開発エンジン「RE Engine」の進化について発表し、AI技術をゲーム開発の制作フローに取り込む計画を明かした。人間とAIが共同でゲームを作る時代が現実になりつつある。 (出典: The Verge / 更新: 2026-10-04 16:28)

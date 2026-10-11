@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI設計ロボット、実戦試験で技能を競う</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dc8a7b74.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dc8a7b74.html</guid>
+    <description>AIが設計したロボットがアリーナで実践的なスキルを競う試験が実施される。</description>
+    <pubDate>Sun, 11 Oct 2026 14:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Holo4、画面クリック・コード実行・API連携を自由に操り分けるAIエージェント登場</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-9552195c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-9552195c.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/danu-robotics-h-e-r-o-edf79715.html</guid>
     <description>ロンドンの銀行員が6年の開発を経て、AIで学習するゴミ分別ロボットを市場化。すでに大手顧客から受注を獲得。</description>
     <pubDate>Sat, 10 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Amazon、データセンター交渉から秘密契約を廃止。AI基盤整備が透明化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-3e5144fc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-3e5144fc.html</guid>
-    <description>Amazon がデータセンター交渉時の秘密保持契約廃止に踏み切り、地域社会の反発が軽くなるか注目される。</description>
-    <pubDate>Sat, 10 Oct 2026 14:30:00 +0900</pubDate>
   </item>
 </channel></rss>
