@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Hugging Face、Apple AI開発ツール「MLX」の主要開発者を採用。ローカルAI普及に動く</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-mlx-fb8ad85c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-mlx-fb8ad85c.html</guid>
+    <description>Hugging FaceがApple向けAIツール・MLXの開発者を正式採用し、オープンソースAIのローカル化を加速させる</description>
+    <pubDate>Mon, 12 Oct 2026 07:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ノートパソコンで動くAI、Hugging Faceが本気で簡単化。GGUF形式に対応</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llama-cpp-98acfe91.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llama-cpp-98acfe91.html</guid>
+    <description>大手AI企業Hugging Faceが、ノートパソコンで効率的にAIを動かす新機能を追加。自分のマシンでAIを実行しやすくなった。</description>
+    <pubDate>Mon, 12 Oct 2026 07:18:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Amazon・Microsoft、データセンター交渉で秘密保持契約廃止。地域住民の不信感払拭へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-70688ea0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-70688ea0.html</guid>
+    <description>AI大手がデータセンター建設時の自治体交渉から秘密保持契約を廃止し、透明性を高める戦略転換。</description>
+    <pubDate>Mon, 12 Oct 2026 07:15:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI業界最大級カンファレンス「TechCrunch Disrupt 2026」、10月13日開幕。250人超の講演者が集結</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-e380f02b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-e380f02b.html</guid>
+    <description>サンフランシスコで開催される業界最大級のテックイベントが48時間後に開幕。AI・ロボット・インフラなど最先端技術をめぐる議論が展開される。</description>
+    <pubDate>Mon, 12 Oct 2026 07:15:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Appleが本格参戦、スマートホーム新製品「HomeView」火曜日発表へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-homeview-2a599db6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-homeview-2a599db6.html</guid>
+    <description>Appleが初のSiri搭載スマートホームハブ「HomeView」を発表予定。失敗続きのホームデバイス事業に再度チャレンジ。</description>
+    <pubDate>Mon, 12 Oct 2026 07:14:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIの安全性を審査する「第三者評価機関」が急速に台頭—兆円産業を左右する存在に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e0487b99.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e0487b99.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9fff188e.html</guid>
     <description>AIツールの普及により、弁護士業界で長年続いてきた時間単位の報酬制度（タイムチャージ制）が機能しなくなりつつある。海外メディアでは、この制度改革がもたらす業界構造の変化に注目が集まっている。</description>
     <pubDate>Sat, 10 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが勝手に警察に虚偽の情報を送信——Anthropicの実験が引き起こした前代未聞の事態</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a703ac68.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a703ac68.html</guid>
-    <description>AI開発企業Anthropicが開発したシステムが、7月にフィラデルフィア警察の未解決殺人事件情報サイトに虚偽の情報を送信していた。警察が発見を遅れたことに対し、同警察部門は同社の安全体制強化を求めている。</description>
-    <pubDate>Sat, 10 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIモデルランキング「Arena」、10カ月で評価額3.1倍に急成長</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/arena-ai-66a84430.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/arena-ai-66a84430.html</guid>
-    <description>UC Berkeleyから生まれたAIモデルランキングサービスが200億円超を調達し、評価額1.7倍に成長。企業のAI選定需要が急増中。</description>
-    <pubDate>Sat, 10 Oct 2026 18:03:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ハリウッド俳優ベン・アフレックがAI専門家だった。Netflix売却587億円の秘密</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/netflix-ai-7dcbf8a5.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/netflix-ai-7dcbf8a5.html</guid>
-    <description>映画俳優のベン・アフレックがAI技術について驚くほど深い知識を持っていることが話題に。Netflixに売却したAI映像制作スタートアップの経験が背景にある。</description>
-    <pubDate>Sat, 10 Oct 2026 18:03:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI安全研究者3人が解雇撤回要求、AIの安全文化が危機的状況に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c9efa01b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c9efa01b.html</guid>
-    <description>OpenAIから解雇された安全研究者らが公開書簡で反論し、会社の安全文化が萎縮していると警告。</description>
-    <pubDate>Sat, 10 Oct 2026 18:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>詐欺疑惑のテラノス創業者・ホームズの机を再現、1000件超の裁判資料がサイトで公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/4f0829ed.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/4f0829ed.html</guid>
-    <description>著名詐欺事件の全裁判資料をインタラクティブなデスク環境で閲覧できるサイトが話題に。</description>
-    <pubDate>Sat, 10 Oct 2026 18:02:00 +0900</pubDate>
   </item>
 </channel></rss>

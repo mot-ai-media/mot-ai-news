@@ -5780,7 +5780,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/ait/articles/2609/28/cover_news036.jpg",
     "generated_at": "2026-09-29 07:01",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -5838,7 +5838,10 @@
         "x_post": "ソフトウェアの課金が固定月額から成果・実行件数型へ転換中。業務フロー単純化の期待と新ツール適応の負担が同時にやってくる。準備が必須です。",
         "cta": "課金体系の変化と実務への影響を、詳しく読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17893543485434453",
+    "published_at": "2026-10-12T07:08:13"
   },
   "google-gemini-bts-e4c93d6c": {
     "headline": "BTS×Google Gemini、特別コラボ機能で4つの体験を解放",

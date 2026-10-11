@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-12 01:37
+最終更新: 2026-10-12 07:20
 
 ## 記事一覧
 
+- [Hugging FaceがMLX開発者Jun Kimを採用。ローカルAIの主流化に向けた布石](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-mlx-fb8ad85c.html): Hugging FaceがApple向けAIツール・MLXの開発者を正式採用し、オープンソースAIのローカル化を加速させる (出典: Hugging Face - Blog / 更新: 2026-10-12 07:20)
+- [Transformers GGUF対応とは？ローカルAI実行が簡単に](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llama-cpp-98acfe91.html): 大手AI企業Hugging Faceが、ノートパソコンで効率的にAIを動かす新機能を追加。自分のマシンでAIを実行しやすくなった。 (出典: Hugging Face - Blog / 更新: 2026-10-12 07:18)
+- [TechCrunch Disrupt 2026とは？日程・参加方法・注目スピーカーを解説](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-e380f02b.html): サンフランシスコで開催される業界最大級のテックイベントが48時間後に開幕。AI・ロボット・インフラなど最先端技術をめぐる議論が展開される。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-12 07:15)
+- [データセンター秘密保持契約とは？Amazon・Microsoft廃止の理由](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-70688ea0.html): AI大手がデータセンター建設時の自治体交渉から秘密保持契約を廃止し、透明性を高める戦略転換。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-12 07:15)
+- [Apple HomeViewとは？スマートホーム新製品の機能・発表日を解説](https://mot-ai-media.github.io/mot-ai-news/articles/apple-homeview-2a599db6.html): Appleが初のSiri搭載スマートホームハブ「HomeView」を発表予定。失敗続きのホームデバイス事業に再度チャレンジ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-12 07:14)
 - [AI安全性評価の第三者機関とは？海外で急速に注目される理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e0487b99.html): AIの急速な発展に伴い、AIモデルの安全性を独立して検証する第三者評価機関が海外で台頭している。数兆ドル規模のAI産業全体の信頼性を左右する存在として、注目が集まっている。 (出典: CNBC / 更新: 2026-10-12 01:37)
 - [AI時代のプログラマー需要、初級職消滅で上級職が急増する理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d211048e.html): AIがプログラミングを自動化する中で、ソフトウェア開発職の求人数が増加している。ただし内訳が変わっており、AIスキルを持つ経験者や上級職の採用が拡大する一方、初級職の求人は減少。企業の採用戦略が大きく転換している。 (出典: CNBC / 更新: 2026-10-12 01:36)
 - [DistroKid楽曲削除 UMG訴訟 AI生成音楽問題](https://mot-ai-media.github.io/mot-ai-news/articles/distrokid-umg-e77e9ae8.html): 独立系アーティスト向けの音楽配信サービス「DistroKid」が、予告なく楽曲を削除する事態が発生。同社は大手レーベルUMGからの訴訟に対応する形での削除だと認めた。訴訟は、DistroKidが「AI生成音楽の一大製造工場」となっているという主張が背景にある。 (出典: The Verge / 更新: 2026-10-11 19:28)
@@ -202,8 +207,3 @@
 - [AI ウェアラブル デバイス プライバシー問題 Apple Google Meta](https://mot-ai-media.github.io/mot-ai-news/articles/apple-google-43426f03.html): 米大手テック企業がAI機能を搭載したウェアラブルデバイスの展開を加速させている。一方で、身につけるデバイスだからこそ個人情報が集約されるプライバシーリスクへの懸念が、市場の拡大を阻む要因になり始めている。 (出典: CNBC / 更新: 2026-10-04 22:28)
 - [Nvidia Shield TV 値上げ AI半導体不足の影響](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-c8ca5197.html): AIブーム による半導体需要の急増により、すでに市場に出ている古いストリーミング機器でさえ価格が値上がりしている。Nvidiaの「Shield TV」は7年前のモデルながら100ドル（約1万5000円）の値上げを余儀なくされた。半導体メモリの逼迫がテック機器全般に波及する現実が浮き彫りになった。 (出典: WIRED / 更新: 2026-10-04 22:28)
 - [ホワイトハウスがAIを改名、テック企業が安全誓約。何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-fcd1b322.html): ホワイトハウスがAIを「スーパーインテリジェンス」と改名。大手テック企業CEOが安全宣言に署名した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:01)
-- [AI企業の成長と資金調達：Blackstoneが語る長期競争力とは](https://mot-ai-media.github.io/mot-ai-news/articles/blackstone-ai-0e0757d3.html): 大型投資家が明かす、急速に成長するAIスタートアップが長期的に成功するための条件。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:01)
-- [AIチャットボットの危険性とは？若者の心理被害に対する安全対策](https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-chatgpt-2e0c293f.html): Character.AIなどのチャットボットが若者の自殺に関連した事件が相次ぎ、AI安全性企業が対策に動く。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:01)
-- [Apple macOS Full Disk Access規制とは？AIエージェントのセキュリティリスク](https://mot-ai-media.github.io/mot-ai-news/articles/apple-meta-muse-8931b830.html): AIエージェントの高度化に伴い、Appleは個人ファイルへの広範なアクセス権を制限する新ルール導入を発表。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:00)
-- [AIの消費者採用率、わずか2%。何が課題？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-meta-5c5d251d.html): トランプ大統領がAIを「スーパーインテリジェンス」と改名し安全性誓約を推進するも、実際の消費者需要は極めて低迷している。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-04 22:00)
-- [StarCraft AIボット入れ替わり事件とは。大会で何が起きた](https://mot-ai-media.github.io/mot-ai-news/articles/esports-ai-2004e472.html): eSports大会でAI製ボットが人間製ボットと入れ替わるという異例の事態が発生。 (出典: Kotaku / 更新: 2026-10-04 18:53)
