@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Googleの生成AI「ゲーム作成ツール」で誰もが手軽にゲームを作れるが、クオリティは...</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-746b4399.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-746b4399.html</guid>
+    <description>Googleが提供するAI遊び場機能を使ってゲーム制作に挑戦した海外メディアの試行報告。専門知識がなくても簡単にゲームが作れる時代が来ているが、現状のAI生成ゲームの実用性について考察する。</description>
+    <pubDate>Mon, 12 Oct 2026 10:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIは牛乳より規制が緩い。マイクロソフト会長が警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-cc70a9dd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-cc70a9dd.html</guid>
+    <description>マイクロソフトのブラッド・スミス会長が、AI技術が洗濯機や食品よりも規制されていない実態を指摘。AIの「緊急停止機能」や被害報告制度、第三者評価を含む世界統一ルールの確立を呼びかけた。</description>
+    <pubDate>Mon, 12 Oct 2026 10:29:00 +0900</pubDate>
+  </item>
+  <item>
     <title>クラウドに個人情報を預けたくない人たちが、AIを自分のパソコンで動かし始めた</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea95eacb.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea95eacb.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c9916b17.html</guid>
     <description>ウォール街の大手企業がAIデータセンターへの投資を公開市場で募集する動きが加速しているが、政治的不安定性、資金流動性の制約、プロジェクト遅延といった複数のリスク要因が同時に高まっていることが報道されている。</description>
     <pubDate>Sun, 11 Oct 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI株が乱高下、投資家は慎重シフト。市場は「AI過熱」の冷却局面へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c93c8dc7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c93c8dc7.html</guid>
-    <description>海外の投資家がAI関連株への過度な集中から脱却を始めている。現金を有効活用しながらポートフォリオのバランスを取り直す動きが加速。AI産業の成長期待は変わらないが、短期的な相場の不安定性が浮き彫りになった。</description>
-    <pubDate>Sun, 11 Oct 2026 01:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPUへのアクセス方法が激変。1年で55%増加した「ネオクラウド」300社超が参入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-d80f423d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-gpu-d80f423d.html</guid>
-    <description>AI企業がNvidia GPUへのアクセスに困っていた状況が変わりつつある。従来のクラウド大手（AWS・Google等）だけでなく、300社以上の新興クラウド事業者（ネオクラウド）がGPU提供に参入。わずか1年で55%増加した。これにより、GPUをレンタルする選択肢が大幅に広がり、AI開発の敷居が下がる可能性が出てきた。</description>
-    <pubDate>Sat, 10 Oct 2026 22:45:00 +0900</pubDate>
   </item>
 </channel></rss>
