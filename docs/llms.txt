@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-12 18:01
+最終更新: 2026-10-12 18:53
 
 ## 記事一覧
 
+- [Claude Opus 5.5とは？2026年Epoch AIランキング首位の実力](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-46c17921.html): AnthropicのClaude最新版がAI業界の性能評価で1位に。次世代AIの実力が明らかに。 (出典: https://tech-insider.org/ / 更新: 2026-10-12 18:53)
 - [ChatGPT for Teens新機能・College Plannerとは？学習支援の最新動向](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ad4e1464.html): OpenAIが10代向けChatGPTに大学受験対策ツールと学習機能を追加。既に270万件以上の学習質問が活用されている。 (出典: OpenAI News / 更新: 2026-10-12 18:01)
 - [Radisson ChatGPTプラグイン、ホテル予約機能とは・使い方・効果を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-04e9dc38.html): ラディソンホテルがChatGPTと連携し、AIの中でホテル検索・比較・予約ができるようになった。 (出典: OpenAI News / 更新: 2026-10-12 18:01)
 - [GPT-6とは？ChatGPTの新UI「Intelligent UI」何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-0ca14509.html): OpenAIが次世代モデルGPT-6をChatGPTに搭載。ビジュアル・インタラクティブな新UIで、より素早く、使いやすい体験へ (出典: OpenAI News / 更新: 2026-10-12 18:01)
@@ -206,4 +207,3 @@
 - [AI搭載ロボットの安全性問題とは？Safeworldが取り組む課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/safeworld-ai-8219cfaf.html): 生成AIを使うロボットの予測不可能性に対し、シミュレーション検証で安全性を確保する新企業が登場。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 22:01)
 - [AIエージェントが完了と言っても実は失敗？検証の重要性](https://mot-ai-media.github.io/mot-ai-news/articles/ai-hugging-face-89764eae.html): AIが「仕事完了した」と報告しても、データベース側では失敗していることが判明。検証の必要性が浮き彫りに。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:01)
 - [AstaBrief とは？AIが論文をまとめる新モデル公開](https://mot-ai-media.github.io/mot-ai-news/articles/allenai-astabrief-d599f0a2.html): 研究者向けAIプラットフォーム「Asta」が、論文から報告書を生成するAIモデルを無料で公開。科学者が自分のパソコンで動かせるようになります。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:01)
-- [MV制作がAIで激変｜無料ツール活用で制作工程も短縮](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bcf5e204.html): AIと無料ツールを使ったミュージックビデオ制作の自動化が進み、プロ用ソフトの操作まで自動化される動きが始まった。 (出典: ASCII.jp / 更新: 2026-10-05 20:58)

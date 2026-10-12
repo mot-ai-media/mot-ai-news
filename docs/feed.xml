@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude Opus 5.5、AI性能ランキングで頂点奪取</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-46c17921.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-46c17921.html</guid>
+    <description>AnthropicのClaude最新版がAI業界の性能評価で1位に。次世代AIの実力が明らかに。</description>
+    <pubDate>Mon, 12 Oct 2026 18:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPT-6登場、ChatGPTがUI大刷新。回答速度と見やすさが激変</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-0ca14509.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-0ca14509.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/distrokid-umg-e77e9ae8.html</guid>
     <description>独立系アーティスト向けの音楽配信サービス「DistroKid」が、予告なく楽曲を削除する事態が発生。同社は大手レーベルUMGからの訴訟に対応する形での削除だと認めた。訴訟は、DistroKidが「AI生成音楽の一大製造工場」となっているという主張が背景にある。</description>
     <pubDate>Sun, 11 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マイクロソフトCEOが警告「すべてのAIは危険」、ブラックボックス化する人工知能に緊急措置を要求</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-35dc9169.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-35dc9169.html</guid>
-    <description>マイクロソフトのサティア・ナデラCEOが、高度に進化したAIモデルの危険性を指摘し、不透明なAIの判断を盲目的に受け入れる現状の改善を求めた。AIの意思決定プロセスの透明化と検証可能性の確保が急務だと提言している。</description>
-    <pubDate>Sun, 11 Oct 2026 19:27:00 +0900</pubDate>
   </item>
 </channel></rss>
