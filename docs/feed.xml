@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAI、GPT-6 Astraの手書き認識精度を50%向上</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-0bbf1d9c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-0bbf1d9c.html</guid>
+    <description>OpenAIの最新モデルGPT-6 Astraが手書き文字認識の精度を大幅に改善。</description>
+    <pubDate>Tue, 13 Oct 2026 08:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AmazonがAWS上でClaude Fable 5.1を提供開始、エンタープライズAI競争が激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-3846d24b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-3846d24b.html</guid>
+    <description>AmazonがAWS経由でClaude Fable 5.1の提供を開始。大手クラウドプロバイダーのAI機能充実が加速。</description>
+    <pubDate>Tue, 13 Oct 2026 08:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>IMF警告：AI失業の波が押し寄せている。若年層が最大のリスク</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-c5c1aedd.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-c5c1aedd.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-e380f02b.html</guid>
     <description>サンフランシスコで開催される業界最大級のテックイベントが48時間後に開幕。AI・ロボット・インフラなど最先端技術をめぐる議論が展開される。</description>
     <pubDate>Mon, 12 Oct 2026 07:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Appleが本格参戦、スマートホーム新製品「HomeView」火曜日発表へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-homeview-2a599db6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-homeview-2a599db6.html</guid>
-    <description>Appleが初のSiri搭載スマートホームハブ「HomeView」を発表予定。失敗続きのホームデバイス事業に再度チャレンジ。</description>
-    <pubDate>Mon, 12 Oct 2026 07:14:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの安全性を審査する「第三者評価機関」が急速に台頭—兆円産業を左右する存在に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e0487b99.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e0487b99.html</guid>
-    <description>AIの急速な発展に伴い、AIモデルの安全性を独立して検証する第三者評価機関が海外で台頭している。数兆ドル規模のAI産業全体の信頼性を左右する存在として、注目が集まっている。</description>
-    <pubDate>Mon, 12 Oct 2026 01:37:00 +0900</pubDate>
   </item>
 </channel></rss>

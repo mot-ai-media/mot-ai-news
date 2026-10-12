@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-12 19:28
+最終更新: 2026-10-13 08:53
 
 ## 記事一覧
 
+- [Claude Fable 5.1とは？AWSでの提供開始と使い方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-3846d24b.html): AmazonがAWS経由でClaude Fable 5.1の提供を開始。大手クラウドプロバイダーのAI機能充実が加速。 (出典: Amazon Web Services (AWS) / 更新: 2026-10-13 08:53)
+- [GPT-6 Astra手書き認識50%精度向上とは｜OpenAI最新版](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-0bbf1d9c.html): OpenAIの最新モデルGPT-6 Astraが手書き文字認識の精度を大幅に改善。 (出典: OpenAI / 更新: 2026-10-13 08:53)
 - [IMF「AI津波」警告：若い世代の雇用危機が始まる](https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-c5c1aedd.html): 国際通貨基金（IMF）が、AIの急速な普及が労働市場に「ゆっくりした津波」のような影響をもたらしていると警告。特に職業訓練の機会が限られた若年労働者が最大の被害を受けるリスクがある。世界銀行も雇用危機への対策を求めている。 (出典: CNBC / 更新: 2026-10-12 19:28)
 - [AI業界の隠れた危機：資金不足がAI成長を止めるかもしれない](https://mot-ai-media.github.io/mot-ai-news/articles/intel-broadcom-49a13711.html): 半導体大手IntelとBroadcomのトップが、AI産業の急速な拡大を支える上で、資本不足が深刻なボトルネックになる可能性があると警告。技術開発競争だけでなく、莫大な投資資金の確保がAI産業の将来を左右する局面が来ているとの指摘。 (出典: CNBC / 更新: 2026-10-12 19:27)
 - [Claude Opus 5.5とは？2026年Epoch AIランキング首位の実力](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-46c17921.html): AnthropicのClaude最新版がAI業界の性能評価で1位に。次世代AIの実力が明らかに。 (出典: https://tech-insider.org/ / 更新: 2026-10-12 18:53)
@@ -205,5 +207,3 @@
 - [AIへの好感度が急落するなか、利用は急増。海外メディアが報じる矛盾した現象とは](https://mot-ai-media.github.io/mot-ai-news/articles/mit-technology-review-google-research-ed94fd8d.html): MIT Technology Reviewが報じた「AIの人気度パラドックス」は、世界中で人々がAIを嫌いながらも使用を止められない現象を指摘。同時に、AIが生物学・インフラ・製造業などあらゆる産業と融合しつつあり、その影響は想像以上に大きくなろうとしている。 (出典: MIT Technology Review / 更新: 2026-10-05 22:28)
 - [トランプ政権のAI統括責任者が決定、大型タスクフォース立ち上げ](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e06269fd.html): 米国トランプ大統領が国家情報長官をAI統括タスクフォースのトップに任命。政府・企業・宗教団体を巻き込んだ「スーパーインテリジェンス・フォース」を立ち上げ、AIの規制ではなく官民一体の推進体制で中国との技術競争に勝つ戦略を明確にした。 (出典: BBC / 更新: 2026-10-05 22:28)
 - [AutoSynthData とは？企業AIの学習データを自動生成する技術](https://mot-ai-media.github.io/mot-ai-news/articles/servicenow-ai-a885ed61.html): ServiceNowが開発した「AutoSynthData」は、AIエージェントの失敗を学習データに変え、企業固有の環境に強いエージェント育成を可能にする。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:02)
-- [音声合成(TTS)モデル評価とは？Hugging Face新ランキング](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tts-581ab311.html): 音声合成AIの急増で評価が追いつかない。公平な人気投票型ランキングがついに登場。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:02)
-- [AI搭載ロボットの安全性問題とは？Safeworldが取り組む課題を解説](https://mot-ai-media.github.io/mot-ai-news/articles/safeworld-ai-8219cfaf.html): 生成AIを使うロボットの予測不可能性に対し、シミュレーション検証で安全性を確保する新企業が登場。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 22:01)
