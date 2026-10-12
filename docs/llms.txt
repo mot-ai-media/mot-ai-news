@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-12 13:30
+最終更新: 2026-10-12 14:31
 
 ## 記事一覧
 
+- [AI安全管理とは？Microsoft CEOが提言する7つの設計原則](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-326f2842.html): Microsoft のナデラCEOが、高度なAIモデルを組織内の脅威と同じく扱い、モデル外部に統制を置くべきだと主張。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-12 14:31)
+- [Oracle、ChatGPTで業務時間を劇的短縮。採用・企画の事例](https://mot-ai-media.github.io/mot-ai-news/articles/oracle-chatgpt-112b5f00.html): オラクルが10万人の従業員でChatGPTを導入し、数日かかる専門業務を数分で完結させている。 (出典: OpenAI News / 更新: 2026-10-12 14:31)
+- [Pollo AIとは？OpenAIで動画広告を自動制作、使い方と機能解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-pollo-ai-ca1ec6c6.html): OpenAIの最新AIモデルを活用し、Pollo AIがクリエイターのアイデアを映像や広告に自動変換するサービスを強化。 (出典: OpenAI News / 更新: 2026-10-12 14:31)
+- [生成AIのトークンコスト削減とは？企業の予算超過が深刻化](https://mot-ai-media.github.io/mot-ai-news/articles/ai-9e0c713f.html): 生成AIの利用増に伴うトークンコストが経営課題に。先進企業が実施する管理方法で最大44%削減可能。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-12 14:30)
+- [AIエージェント導入が失敗する理由とは？Gartnerが2028年予測](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-8b486f9b.html): ベンダーと協力して構築したAIエージェントを、2028年までに企業の7割が放棄する見通し。技術的な未熟さではなく、プロジェクト設計の根本的な問題が原因だという。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-12 14:30)
 - [AIが詐欺師を騙す時代へ。サイバー犯罪対策の最前線](https://mot-ai-media.github.io/mot-ai-news/articles/ai-39d20796.html): 海外のサイバー犯罪対策機関が、AIで作られた「偽の被害者ボット」を使って詐欺師を引き付け、時間を浪費させる新しい戦術を展開している。犯罪者が本物だと思って話しかけるのは実はAIで、本来の犯行を遅延させるという逆転の防御戦略だ。 (出典: WIRED / 更新: 2026-10-12 13:30)
 - [AI拒否機能の限界、バイオ兵器や無人機開発の悪用リスクが顕在化](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-da96ac82.html): MIT Technology Reviewが指摘するAIの「拒否問題」。企業は有害な指示に従わないよう訓練しているが、悪意ある利用者による工作で突破される事例が増加。生物兵器開発やドローン自動化など極めて危険な用途に転用される懸念が急速に高まっている。 (出典: MIT Technology Review / 更新: 2026-10-12 13:30)
 - [Sophos OpenAI Daybreakとは？サイバー脅威調査が96%高速化](https://mot-ai-media.github.io/mot-ai-news/articles/sophos-openai-edd58468.html): セキュリティ企業Sophosが生成AI活用で脅威調査の大幅な時間短縮に成功、業務の自動化が急速に進展。 (出典: OpenAI News / 更新: 2026-10-12 11:16)
@@ -202,8 +207,3 @@
 - [トランプがAIを「スーパーインテリジェンス」に改名、その狙いは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bbc50510.html): トランプ政権がAIの呼称を変更し、企業トップが安全性誓約に署名。しかし法的拘束力はなく、実態は「イメージリセット」の動きと指摘される。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 18:16)
 - [トランプのAI統治組織とは？スーパーインテリジェンスフォース発足](https://mot-ai-media.github.io/mot-ai-news/articles/ai-8aaa4b74.html): 米国がAI安全性の議論に応じ、政府横断的なAI統治組織を立ち上げ。トランプ政権の公式な動き。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 18:16)
 - [東芝HDD生産強化、なぜ今AI時代に必要なのか](https://mot-ai-media.github.io/mot-ai-news/articles/hdd-c2f252b7.html): AI活用の広がりで膨大なデータ保管需要が急増、東芝がHDD製造を大幅増強。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-05 18:15)
-- [フィジカルAIの仕組みとは？ロボット単体では限界、通信網への機能移行がカギ](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-3da82300.html): ロボットや自動運転に必要なAI機能を全て機器に組み込むのは現実的ではない。通信網側で処理・管理する新しい発想の提案。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-05 18:15)
-- [AIエージェント導入済みは52%、判断は信頼も業務は慎重な理由](https://mot-ai-media.github.io/mot-ai-news/articles/ai-it-87e3896e.html): ITエンジニアを対象にした調査で、AIの判断能力は認めつつも、すべての業務でAI主体より人間主体を信頼する矛盾した実態が浮き彫りに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-05 14:53)
-- [AI関連市場の支出分野とは？ガートナー調査で最大支出先が判明](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-a01b81a0.html): 生成AIは話題だがAI関連投資の最大分野は別物。ガートナーが2026年の支出予測を公開 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-05 14:52)
-- [AIエージェントがCAE解析を自動化、エンジニアの役割はどう変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/cae-ai-726cbb86.html): 設計業務の一部をAIに任せる時代へ。エンジニアが担うべき新しい役割が見えてきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-05 14:52)
-- [OpenAI Codexが毎日改善、失敗時はリセット：何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-922e4b97.html): OpenAI がCodexを28日間毎日改善するか、できない日は枠をフルリセットすると宣言。ユーザーに直結した改善を約束。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-05 14:52)

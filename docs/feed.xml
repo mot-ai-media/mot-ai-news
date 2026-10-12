@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの最新モデルでPollo AIが躍進、クリエイターの映像制作が激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-pollo-ai-ca1ec6c6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-pollo-ai-ca1ec6c6.html</guid>
+    <description>OpenAIの最新AIモデルを活用し、Pollo AIがクリエイターのアイデアを映像や広告に自動変換するサービスを強化。</description>
+    <pubDate>Mon, 12 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>数日かかる業務が数分に、オラクルが10万人でAI導入の衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/oracle-chatgpt-112b5f00.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/oracle-chatgpt-112b5f00.html</guid>
+    <description>オラクルが10万人の従業員でChatGPTを導入し、数日かかる専門業務を数分で完結させている。</description>
+    <pubDate>Mon, 12 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Microsoft CEO、AIは「内部リスク」として管理せよ。モデルの外に安全装置を置く必要がある</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-326f2842.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-326f2842.html</guid>
+    <description>Microsoft のナデラCEOが、高度なAIモデルを組織内の脅威と同じく扱い、モデル外部に統制を置くべきだと主張。</description>
+    <pubDate>Mon, 12 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>企業の7割がAIエージェント放棄へ、Gartner予測。理由は技術ではなく「構造」の問題</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-8b486f9b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-8b486f9b.html</guid>
+    <description>ベンダーと協力して構築したAIエージェントを、2028年までに企業の7割が放棄する見通し。技術的な未熟さではなく、プロジェクト設計の根本的な問題が原因だという。</description>
+    <pubDate>Mon, 12 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>生成AI、3社に1社が予算オーバー。コスト44%削減の方法が判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9e0c713f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9e0c713f.html</guid>
+    <description>生成AIの利用増に伴うトークンコストが経営課題に。先進企業が実施する管理方法で最大44%削減可能。</description>
+    <pubDate>Mon, 12 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPTは「危険な質問」を断るが、確実ではない—AI企業が直面する根本的な矛盾</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-da96ac82.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-da96ac82.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-9552195c.html</guid>
     <description>Hugging Faceが複数の操作方法を自在に使い分けるAIエージェント「Holo4」を発表。GUI・コード・APIを状況に応じて選択。</description>
     <pubDate>Sun, 11 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>NVIDIAの汎用AI「Nemotron」、数学五輪と情報五輪で金メダル級の実力を実証</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-nemotron-5bdd694c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-nemotron-5bdd694c.html</guid>
-    <description>NVIDIAの基盤AIモデルをカスタマイズして、複雑な数学証明とプログラミングの両方で競技レベルの結果を達成。再利用可能な専門化レシピが示された。</description>
-    <pubDate>Sun, 11 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>アラビア語音声認識AIが大躍進、湾岸方言にも対応する新モデル登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tii-91ed3eb2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tii-91ed3eb2.html</guid>
-    <description>アラビア語の音声をテキストに変換するAIモデルが登場。湾岸方言など日常会話にも対応。</description>
-    <pubDate>Sun, 11 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>スマホやエッジ端末で即座に判断するAI、Hugging Faceが公開</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-0825a489.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-0825a489.html</guid>
-    <description>クラウド不要、手元の端末で高速に判断するAIモデルが登場。チャットボットではなく、質問に一瞬で答える新しい種類。</description>
-    <pubDate>Sun, 11 Oct 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、16ドルで専用モデル自動生成──費用の壁が崩れた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-0f05fd41.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-0f05fd41.html</guid>
-    <description>AIアシスタントに指示するだけで、自分専用のAIモデルが低予算で自動生成される時代が来た。</description>
-    <pubDate>Sun, 11 Oct 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI研究機関が導入した新型スケジューラー、限られたGPU資源の配分ルールを大改革</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai2-gpu-43ef54e7.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai2-gpu-43ef54e7.html</guid>
-    <description>AI研究機関Ai2が、GPUの公平で効果的な配分を実現する新しいスケジューラーシステムを導入。従来の優先度制から予算制へ転換。</description>
-    <pubDate>Sun, 11 Oct 2026 07:01:00 +0900</pubDate>
   </item>
 </channel></rss>
