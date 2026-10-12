@@ -1,65 +1,5 @@
 [
   {
-    "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
-    "link": "https://arxiv.org/abs/2609.25021",
-    "source": "Hacker News",
-    "summary": "Article URL: https://arxiv.org/abs/2609.25021\nComments URL: https://news.ycombinator.com/item?id=49865343\nPoints: 65\n# Comments: 63",
-    "novelty_score": 62,
-    "japan_relevance_score": 58,
-    "reason": "LLMの自己参照表現がチャットテンプレートで変わる現象の研究で、学術的に新しいが応用範囲は限定的。",
-    "discovered_at": "2026-09-27T13:28:52.155608+00:00"
-  },
-  {
-    "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
-    "link": "https://www.youtube.com/watch?v=-Nvne3LzBls",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.youtube.com/watch?v=-Nvne3LzBls\nComments URL: https://news.ycombinator.com/item?id=49868831\nPoints: 175\n# Comments: 88",
-    "novelty_score": 25,
-    "japan_relevance_score": 45,
-    "reason": "SNLでのCEOインタビューは娯楽的で、AI脅威論は既出テーマだが、主流メディアでの露出は日本でも関心を集める可能性がある。",
-    "discovered_at": "2026-09-28T01:28:41.588722+00:00"
-  },
-  {
-    "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
-    "link": "https://earnanhonestdollar.com/bench",
-    "source": "Hacker News",
-    "summary": "Article URL: https://earnanhonestdollar.com/bench\nComments URL: https://news.ycombinator.com/item?id=49868753\nPoints: 25\n# Comments: 5",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AIの幻覚問題への実践的なアプローチだが、Hacker Newsでの注目度が低く、新規性も限定的。",
-    "discovered_at": "2026-09-28T01:28:43.273339+00:00"
-  },
-  {
-    "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
-    "link": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue\nComments URL: https://news.ycombinator.com/item?id=49868202\nPoints: 53\n# Comments: 105",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI安全性の懸念は既知だが、大手企業の訓練停止は具体的で日本でも関心が高い話題。",
-    "discovered_at": "2026-09-28T01:28:45.105450+00:00"
-  },
-  {
-    "title": "There are no \"rogue\" AI agents",
-    "link": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-    "source": "Hacker News",
-    "summary": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents\nComments URL: https://news.ycombinator.com/item?id=49868083\nPoints: 335\n# Comments: 244",
-    "novelty_score": 45,
-    "japan_relevance_score": 60,
-    "reason": "AI安全性に関する既出議論だが、AIガバナンスへの日本の関心高まりで一定の価値あり。",
-    "discovered_at": "2026-09-28T01:28:46.929395+00:00"
-  },
-  {
-    "title": "Show HN: TinyAIArena watch AI agents battle it out",
-    "link": "https://tinyaiarena.com/",
-    "source": "Hacker News",
-    "summary": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win!Click on any of the matches to spectate them.Code: https://github.com/hp6/ai-arena\n\nComments URL: https://news.ycombinator.com/item?id=49867775\nPoints: 98\n# Comments: 40",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AI対戦の可視化という工夫はあるが、本質的にはベンチマーク領域で、技術的革新性は限定的。",
-    "discovered_at": "2026-09-28T01:28:48.742850+00:00"
-  },
-  {
     "title": "OpenAI Says It Will Not Release Newest A.I. Model Over Safety Concerns",
     "link": "https://www.nytimes.com/2026/09/28/technology/openai-astra-safety.html",
     "source": "Hacker News",
@@ -1288,5 +1228,55 @@
     "japan_relevance_score": 72,
     "reason": "生成AI悪用は既知だが、カメラメーカーの公式コンテストという具体事例で日本でも関心が高まる可能性がある。",
     "discovered_at": "2026-10-11T10:29:04.640562+00:00"
+  },
+  {
+    "title": "The gap in shared understanding of LLM capability is widening",
+    "link": "https://twitter.com/karpathy/status/2109361546505966046",
+    "source": "Hacker News",
+    "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046\nComments URL: https://news.ycombinator.com/item?id=50047422\nPoints: 323\n# Comments: 495",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "LLM能力への理解格差は既知の課題だが、Karpathy発信で注目度高く、日本でも急速に関心が高まる領域。",
+    "discovered_at": "2026-10-12T04:28:55.722514+00:00"
+  },
+  {
+    "title": "Anthropic is out with new nonsense about Claude",
+    "link": "https://dair-community.social/@emilymbender/117412868905734653",
+    "source": "Hacker News",
+    "summary": "Article URL: https://dair-community.social/@emilymbender/117412868905734653\nComments URL: https://news.ycombinator.com/item?id=50046117\nPoints: 23\n# Comments: 29",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "Anthropicへの批判は繰り返されており、具体的な新情報が不明だが、AI企業の主張検証は継続的に関心を集める。",
+    "discovered_at": "2026-10-12T04:29:02.343476+00:00"
+  },
+  {
+    "title": "AI is creating a 'human premium' for art created by people",
+    "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.bbc.com/news/articles/c5vgjm3gk7rzo\nComments URL: https://news.ycombinator.com/item?id=50042107\nPoints: 70\n# Comments: 114",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI時代の人間による創作物の価値再評価は既出だが、日本の著作権・クリエイター保護議論で重要性が高まっている。",
+    "discovered_at": "2026-10-12T04:29:08.976506+00:00"
+  },
+  {
+    "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+    "link": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute\nComments URL: https://news.ycombinator.com/item?id=50041873\nPoints: 86\n# Comments: 31",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "有名俳優のAI利用に対する立場表明は一例だが、AI著作権問題は日本でも重要な課題として今後議論が深まる見込み。",
+    "discovered_at": "2026-10-12T04:29:15.708613+00:00"
+  },
+  {
+    "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+    "link": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+    "source": "Hacker News",
+    "summary": "Article URL: https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things\nComments URL: https://news.ycombinator.com/item?id=50041765\nPoints: 84\n# Comments: 93",
+    "novelty_score": 45,
+    "japan_relevance_score": 72,
+    "reason": "AI利用が認知機能に与える影響は注目テーマだが、因果関係の実証レベルや具体的な応用は未確定。",
+    "discovered_at": "2026-10-12T04:29:22.407663+00:00"
   }
 ]
