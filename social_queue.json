@@ -6514,7 +6514,7 @@
     ],
     "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/09/2026-07-22_BT_0663.jpg?resize=1200,600",
     "generated_at": "2026-09-24 22:28",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -6572,7 +6572,10 @@
         "x_post": "10億ドル投じても失敗することがある。実務的には、導入前の期待値設定と導入後の継続検証が全て。成功事例だけでなく失敗事例から学ぶことが、あなたの組織のAI投資を守ります。",
         "cta": "AI導入の失敗を防ぐ\n実践的なポイント"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17991756483026109",
+    "published_at": "2026-10-12T19:03:10"
   },
   "rex-slack-537cefd0": {
     "headline": "SlackやTeamsの使い方で退職予備軍が丸わかり、AIが兆候を察知",

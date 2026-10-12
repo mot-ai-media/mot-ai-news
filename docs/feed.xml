@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>IMF警告：AI失業の波が押し寄せている。若年層が最大のリスク</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-c5c1aedd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-c5c1aedd.html</guid>
+    <description>国際通貨基金（IMF）が、AIの急速な普及が労働市場に「ゆっくりした津波」のような影響をもたらしていると警告。特に職業訓練の機会が限られた若年労働者が最大の被害を受けるリスクがある。世界銀行も雇用危機への対策を求めている。</description>
+    <pubDate>Mon, 12 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>IntelとBroadcomが警告、AI産業の本当の敵は「お金の不足」だ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/intel-broadcom-49a13711.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/intel-broadcom-49a13711.html</guid>
+    <description>半導体大手IntelとBroadcomのトップが、AI産業の急速な拡大を支える上で、資本不足が深刻なボトルネックになる可能性があると警告。技術開発競争だけでなく、莫大な投資資金の確保がAI産業の将来を左右する局面が来ているとの指摘。</description>
+    <pubDate>Mon, 12 Oct 2026 19:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude Opus 5.5、AI性能ランキングで頂点奪取</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-46c17921.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-46c17921.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-e0487b99.html</guid>
     <description>AIの急速な発展に伴い、AIモデルの安全性を独立して検証する第三者評価機関が海外で台頭している。数兆ドル規模のAI産業全体の信頼性を左右する存在として、注目が集まっている。</description>
     <pubDate>Mon, 12 Oct 2026 01:37:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが「コード書き」を奪う時代、なぜか求人は増加。企業が求める人材が急変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d211048e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d211048e.html</guid>
-    <description>AIがプログラミングを自動化する中で、ソフトウェア開発職の求人数が増加している。ただし内訳が変わっており、AIスキルを持つ経験者や上級職の採用が拡大する一方、初級職の求人は減少。企業の採用戦略が大きく転換している。</description>
-    <pubDate>Mon, 12 Oct 2026 01:36:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>音楽配信プラットフォーム「DistroKid」が突然、アーティストの楽曲を削除。その理由はAI問題の訴訟だった</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/distrokid-umg-e77e9ae8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/distrokid-umg-e77e9ae8.html</guid>
-    <description>独立系アーティスト向けの音楽配信サービス「DistroKid」が、予告なく楽曲を削除する事態が発生。同社は大手レーベルUMGからの訴訟に対応する形での削除だと認めた。訴訟は、DistroKidが「AI生成音楽の一大製造工場」となっているという主張が背景にある。</description>
-    <pubDate>Sun, 11 Oct 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>
