@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPTは「危険な質問」を断るが、確実ではない—AI企業が直面する根本的な矛盾</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-da96ac82.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-da96ac82.html</guid>
+    <description>MIT Technology Reviewが指摘するAIの「拒否問題」。企業は有害な指示に従わないよう訓練しているが、悪意ある利用者による工作で突破される事例が増加。生物兵器開発やドローン自動化など極めて危険な用途に転用される懸念が急速に高まっている。</description>
+    <pubDate>Mon, 12 Oct 2026 13:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>詐欺師を騙すAIが登場—サイバー犯罪対策に逆転の発想</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-39d20796.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-39d20796.html</guid>
+    <description>海外のサイバー犯罪対策機関が、AIで作られた「偽の被害者ボット」を使って詐欺師を引き付け、時間を浪費させる新しい戦術を展開している。犯罪者が本物だと思って話しかけるのは実はAIで、本来の犯行を遅延させるという逆転の防御戦略だ。</description>
+    <pubDate>Mon, 12 Oct 2026 13:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Asana、AIで業務自動化が76倍安くなる。新モデルで劇的なコスト削減実現</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/asana-openai-90995f7d.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/asana-openai-90995f7d.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai2-gpu-43ef54e7.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai2-gpu-43ef54e7.html</guid>
     <description>AI研究機関Ai2が、GPUの公平で効果的な配分を実現する新しいスケジューラーシステムを導入。従来の優先度制から予算制へ転換。</description>
-    <pubDate>Sun, 11 Oct 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、テキストメッセージで常駐。アプリ不要の新しい使い方が続々</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-a893947d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-caddy-a893947d.html</guid>
-    <description>アプリをダウンロードせず、LINEやメッセージアプリでAIに指示するだけで予約やメール送信などの日常業務を自動化する新型AIエージェントが続々登場。</description>
-    <pubDate>Sun, 11 Oct 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>300超のスタートアップ、サンフランシスコで一堂に。TechCrunch Disrupt 2026が10月13日開幕</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-6801da09.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-6801da09.html</guid>
-    <description>AI・テック系スタートアップが300社以上集結する大型展示会が3日後に開幕。今から登録すると割引が受けられる。</description>
     <pubDate>Sun, 11 Oct 2026 07:01:00 +0900</pubDate>
   </item>
 </channel></rss>
