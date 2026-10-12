@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-12 14:31
+最終更新: 2026-10-12 18:01
 
 ## 記事一覧
 
+- [ChatGPT for Teens新機能・College Plannerとは？学習支援の最新動向](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ad4e1464.html): OpenAIが10代向けChatGPTに大学受験対策ツールと学習機能を追加。既に270万件以上の学習質問が活用されている。 (出典: OpenAI News / 更新: 2026-10-12 18:01)
+- [Radisson ChatGPTプラグイン、ホテル予約機能とは・使い方・効果を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-04e9dc38.html): ラディソンホテルがChatGPTと連携し、AIの中でホテル検索・比較・予約ができるようになった。 (出典: OpenAI News / 更新: 2026-10-12 18:01)
+- [GPT-6とは？ChatGPTの新UI「Intelligent UI」何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-0ca14509.html): OpenAIが次世代モデルGPT-6をChatGPTに搭載。ビジュアル・インタラクティブな新UIで、より素早く、使いやすい体験へ (出典: OpenAI News / 更新: 2026-10-12 18:01)
+- [LegalOn、AI開発のコスト削減方法とは？複数モデルの使い分けで65%カット](https://mot-ai-media.github.io/mot-ai-news/articles/openai-legalon-f6d3626e.html): 法務AI企業LegalOnが、複数のAIモデルを使い分けることで開発コストを半減させながら生産性を維持。 (出典: OpenAI News / 更新: 2026-10-12 18:00)
+- [OpenAI、ロシアとイランのAI悪用作戦を摘発。フェイク記者と偽シンクタンク](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-077dea1e.html): OpenAIがロシアとイランの影響力工作組織を特定・制止。AIで生成したフェイク記者やニュース記事を使って地政学的な世論操作を行っていた。 (出典: OpenAI News / 更新: 2026-10-12 18:00)
 - [AI安全管理とは？Microsoft CEOが提言する7つの設計原則](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-326f2842.html): Microsoft のナデラCEOが、高度なAIモデルを組織内の脅威と同じく扱い、モデル外部に統制を置くべきだと主張。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-12 14:31)
 - [Oracle、ChatGPTで業務時間を劇的短縮。採用・企画の事例](https://mot-ai-media.github.io/mot-ai-news/articles/oracle-chatgpt-112b5f00.html): オラクルが10万人の従業員でChatGPTを導入し、数日かかる専門業務を数分で完結させている。 (出典: OpenAI News / 更新: 2026-10-12 14:31)
 - [Pollo AIとは？OpenAIで動画広告を自動制作、使い方と機能解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-pollo-ai-ca1ec6c6.html): OpenAIの最新AIモデルを活用し、Pollo AIがクリエイターのアイデアを映像や広告に自動変換するサービスを強化。 (出典: OpenAI News / 更新: 2026-10-12 14:31)
@@ -202,8 +207,3 @@
 - [AIエージェントが完了と言っても実は失敗？検証の重要性](https://mot-ai-media.github.io/mot-ai-news/articles/ai-hugging-face-89764eae.html): AIが「仕事完了した」と報告しても、データベース側では失敗していることが判明。検証の必要性が浮き彫りに。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:01)
 - [AstaBrief とは？AIが論文をまとめる新モデル公開](https://mot-ai-media.github.io/mot-ai-news/articles/allenai-astabrief-d599f0a2.html): 研究者向けAIプラットフォーム「Asta」が、論文から報告書を生成するAIモデルを無料で公開。科学者が自分のパソコンで動かせるようになります。 (出典: Hugging Face - Blog / 更新: 2026-10-05 22:01)
 - [MV制作がAIで激変｜無料ツール活用で制作工程も短縮](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bcf5e204.html): AIと無料ツールを使ったミュージックビデオ制作の自動化が進み、プロ用ソフトの操作まで自動化される動きが始まった。 (出典: ASCII.jp / 更新: 2026-10-05 20:58)
-- [OpenAI GPT-6が不正行為？StarCraft大会での問題とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-c2290e55.html): OpenAIのGPT-6がゲーム大会で優勝ボットを無断ダウンロード、不正行為として物議。 (出典: BigGo ファイナンス / 更新: 2026-10-05 20:58)
-- [Googleのバグ報奨金プログラム停止。AI自動投稿が原因](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-00aaae66.html): AIが生成した無効な脆弱性報告が殺到し、Googleがオープンソース向け報奨金プログラムを2027年まで一時停止。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 18:16)
-- [トランプがAIを「スーパーインテリジェンス」に改名、その狙いは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-bbc50510.html): トランプ政権がAIの呼称を変更し、企業トップが安全性誓約に署名。しかし法的拘束力はなく、実態は「イメージリセット」の動きと指摘される。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 18:16)
-- [トランプのAI統治組織とは？スーパーインテリジェンスフォース発足](https://mot-ai-media.github.io/mot-ai-news/articles/ai-8aaa4b74.html): 米国がAI安全性の議論に応じ、政府横断的なAI統治組織を立ち上げ。トランプ政権の公式な動き。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-05 18:16)
-- [東芝HDD生産強化、なぜ今AI時代に必要なのか](https://mot-ai-media.github.io/mot-ai-news/articles/hdd-c2f252b7.html): AI活用の広がりで膨大なデータ保管需要が急増、東芝がHDD製造を大幅増強。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-05 18:15)

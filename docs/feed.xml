@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6登場、ChatGPTがUI大刷新。回答速度と見やすさが激変</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-0ca14509.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-0ca14509.html</guid>
+    <description>OpenAIが次世代モデルGPT-6をChatGPTに搭載。ビジュアル・インタラクティブな新UIで、より素早く、使いやすい体験へ</description>
+    <pubDate>Mon, 12 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ラディソン、ChatGPT内でホテル予約が完結。旅行計画がAI上で完成する時代到来</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-04e9dc38.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-04e9dc38.html</guid>
+    <description>ラディソンホテルがChatGPTと連携し、AIの中でホテル検索・比較・予約ができるようになった。</description>
+    <pubDate>Mon, 12 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT、10代向けに大学受験対策ツール投入。学習支援は標準化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ad4e1464.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ad4e1464.html</guid>
+    <description>OpenAIが10代向けChatGPTに大学受験対策ツールと学習機能を追加。既に270万件以上の学習質問が活用されている。</description>
+    <pubDate>Mon, 12 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI、ロシア・イランのAI悪用作戦を摘発。フェイク記者・偽シンクタンクの実態</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-077dea1e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-077dea1e.html</guid>
+    <description>OpenAIがロシアとイランの影響力工作組織を特定・制止。AIで生成したフェイク記者やニュース記事を使って地政学的な世論操作を行っていた。</description>
+    <pubDate>Mon, 12 Oct 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>LegalOn、AI開発コスト65%削減。速度は維持したまま実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-legalon-f6d3626e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-legalon-f6d3626e.html</guid>
+    <description>法務AI企業LegalOnが、複数のAIモデルを使い分けることで開発コストを半減させながら生産性を維持。</description>
+    <pubDate>Mon, 12 Oct 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの最新モデルでPollo AIが躍進、クリエイターの映像制作が激変</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-pollo-ai-ca1ec6c6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-pollo-ai-ca1ec6c6.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-35dc9169.html</guid>
     <description>マイクロソフトのサティア・ナデラCEOが、高度に進化したAIモデルの危険性を指摘し、不透明なAIの判断を盲目的に受け入れる現状の改善を求めた。AIの意思決定プロセスの透明化と検証可能性の確保が急務だと提言している。</description>
     <pubDate>Sun, 11 Oct 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6 Astraが建築設計を変える、BIMモデリングの未来が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-30daab27.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-30daab27.html</guid>
-    <description>GPT-6 Astraが建築設計業務に導入され、BIMモデリングプロセスの革新が進む動き。</description>
-    <pubDate>Sun, 11 Oct 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マイクロソフトのナデラCEOが宣言「AIに人間が操作する緊急ブレーキが必要」</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-f7f34cfe.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-f7f34cfe.html</guid>
-    <description>マイクロソフトのサティア・ナデラCEOが、AI開発には人間が制御できる「緊急ブレーキ」機能が必要だと主張。他のテック大手経営者や研究者も強化された安全対策と開発ペースの調整を求める動きが広がっている。</description>
-    <pubDate>Sun, 11 Oct 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが「あなた専用の価格」を決める時代へ。ビッグマックも食料品も値段が変わる可能性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-19c7f0da.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-19c7f0da.html</guid>
-    <description>小売企業がAIツールの導入を進める中で、消費者データを詳細に分析する仕組みが広がりつつある。その結果、同じ商品でも顧客ごとに異なる価格が提示される「パーソナライズド・プライシング」のリスクが指摘されている。</description>
-    <pubDate>Sun, 11 Oct 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI設計ロボット、実戦試験で技能を競う</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dc8a7b74.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-dc8a7b74.html</guid>
-    <description>AIが設計したロボットがアリーナで実践的なスキルを競う試験が実施される。</description>
-    <pubDate>Sun, 11 Oct 2026 14:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Holo4、画面クリック・コード実行・API連携を自由に操り分けるAIエージェント登場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-9552195c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-9552195c.html</guid>
-    <description>Hugging Faceが複数の操作方法を自在に使い分けるAIエージェント「Holo4」を発表。GUI・コード・APIを状況に応じて選択。</description>
-    <pubDate>Sun, 11 Oct 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>
