@@ -6438,7 +6438,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/ait/articles/2609/25/cover_news049.jpg",
     "generated_at": "2026-09-25 18:02",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -6496,7 +6496,10 @@
         "x_post": "企業のAI導入9割失敗。AI人材争奪戦が激化し、職場でのAI知識の必要性が急速に高まっています。転職市場でも差がつき始める。あなたのキャリアにも影響するこの現実を理解することが、今のあなたの選択肢を広げます。",
         "cta": "AI知識がキャリアに与える影響を詳しく知る"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17919575649239980",
+    "published_at": "2026-10-12T11:08:12"
   },
   "ai-6c593700": {
     "headline": "米国の国境監視システムは10億ドル投じても機能せず—AIと気候変動で世界が揺れる今、技術信仰への警告",

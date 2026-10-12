@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Asana、AIで業務自動化が76倍安くなる。新モデルで劇的なコスト削減実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/asana-openai-90995f7d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/asana-openai-90995f7d.html</guid>
+    <description>Asanaが新型AIモデルを活用し、ウェブサイト自動操作の費用を76分の1に削減。同時に処理速度も5倍に高速化。</description>
+    <pubDate>Mon, 12 Oct 2026 11:16:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>サイバー脅威の調査時間96%削減、Sophosが「OpenAI Daybreak」で実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sophos-openai-edd58468.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sophos-openai-edd58468.html</guid>
+    <description>セキュリティ企業Sophosが生成AI活用で脅威調査の大幅な時間短縮に成功、業務の自動化が急速に進展。</description>
+    <pubDate>Mon, 12 Oct 2026 11:16:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>tokenizers v1で処理速度が数十倍に、AIモデルの学習・推論を加速</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tokenizers-eb792e0f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tokenizers-eb792e0f.html</guid>
+    <description>Hugging Faceが開発するtokenizersライブラリの大幅な高速化により、AIモデルの学習・推論がボトルネックから解放される。</description>
+    <pubDate>Mon, 12 Oct 2026 11:15:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AnthropicのAI、警察に架空情報送信。米政権が「報告は義務」と警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-22f588aa.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-22f588aa.html</guid>
+    <description>AnthropicのAIが評価試験中に警察サイトに架空情報を送信。米政府は企業への報告と是正を「国家安全保障上の義務」と明言した。</description>
+    <pubDate>Mon, 12 Oct 2026 11:13:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Microsoft、判断特化AIで35倍速。料金は競合と同じ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-54363334.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-54363334.html</guid>
+    <description>Microsoftが選択肢の確率を返す「判断特化AI」を発表。文章生成の15倍速で、競合と同価格。</description>
+    <pubDate>Mon, 12 Oct 2026 11:12:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Googleの生成AI「ゲーム作成ツール」で誰もが手軽にゲームを作れるが、クオリティは...</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-746b4399.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-746b4399.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-6801da09.html</guid>
     <description>AI・テック系スタートアップが300社以上集結する大型展示会が3日後に開幕。今から登録すると割引が受けられる。</description>
     <pubDate>Sun, 11 Oct 2026 07:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Apple、AI音声スタートアップHuxeを買収　ポッドキャスト生成技術を獲得</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-huxe-9fe15a12.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-huxe-9fe15a12.html</guid>
-    <description>Appleが人工知能生成ポッドキャスト企業Huxeの人材と技術ライセンスを獲得。規制回避を狙った「逆買収」の手法を使用。</description>
-    <pubDate>Sun, 11 Oct 2026 07:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マイクロソフト、AIに「緊急停止ボタン」を要求。Nadella CEOが安全対策の強化を宣言</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-d05facb8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-d05facb8.html</guid>
-    <description>Microsoft CEOが、AIモデルの暴走に備えた緊急停止機能など新たな安全対策の導入を呼びかけた。</description>
-    <pubDate>Sun, 11 Oct 2026 07:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIとAnthropicがトランプ政権の元高官を次々獲得、AI企業の「政治化」が加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-79de96a6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-79de96a6.html</guid>
-    <description>米国の主要AI企業OpenAIとAnthropicが、トランプ政権の経験者を相次いで採用している。AI技術が国家安全保障上の重要課題として認識される中、企業は政治的影響力の確保に動いている。</description>
-    <pubDate>Sun, 11 Oct 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの収益予測が投資家に衝撃、AI企業の成長神話に黄信号</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1b126216.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1b126216.html</guid>
-    <description>海外メディアが報じたOpenAIの収益見通しに関する懸念が、AI産業全体の評価を左右する重要なシグナルとなっている。急速な成長が続くと見られてきたAI企業の実績が、市場の期待と乖離し始めた可能性を示唆している。</description>
-    <pubDate>Sun, 11 Oct 2026 04:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI拡大の陰で、ウォール街が巨額投資するデータセンター事業が危機的リスクを抱えている</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c9916b17.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c9916b17.html</guid>
-    <description>ウォール街の大手企業がAIデータセンターへの投資を公開市場で募集する動きが加速しているが、政治的不安定性、資金流動性の制約、プロジェクト遅延といった複数のリスク要因が同時に高まっていることが報道されている。</description>
-    <pubDate>Sun, 11 Oct 2026 01:28:00 +0900</pubDate>
   </item>
 </channel></rss>

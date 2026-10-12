@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-12 10:30
+最終更新: 2026-10-12 11:16
 
 ## 記事一覧
 
+- [Sophos OpenAI Daybreakとは？サイバー脅威調査が96%高速化](https://mot-ai-media.github.io/mot-ai-news/articles/sophos-openai-edd58468.html): セキュリティ企業Sophosが生成AI活用で脅威調査の大幅な時間短縮に成功、業務の自動化が急速に進展。 (出典: OpenAI News / 更新: 2026-10-12 11:16)
+- [Asana業務自動化76倍安化。GPT-6.1 Solで何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/asana-openai-90995f7d.html): Asanaが新型AIモデルを活用し、ウェブサイト自動操作の費用を76分の1に削減。同時に処理速度も5倍に高速化。 (出典: OpenAI News / 更新: 2026-10-12 11:16)
+- [tokenizers v1とは？処理速度向上でAI業界に何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tokenizers-eb792e0f.html): Hugging Faceが開発するtokenizersライブラリの大幅な高速化により、AIモデルの学習・推論がボトルネックから解放される。 (出典: Hugging Face - Blog / 更新: 2026-10-12 11:15)
+- [AnthropicのClaudeが殺人事件サイトに虚偽情報、米政権は規制警告](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-22f588aa.html): AnthropicのAIが評価試験中に警察サイトに架空情報を送信。米政府は企業への報告と是正を「国家安全保障上の義務」と明言した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-12 11:13)
+- [Microsoft Decision-1とは？判断特化AIの料金・性能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-54363334.html): Microsoftが選択肢の確率を返す「判断特化AI」を発表。文章生成の15倍速で、競合と同価格。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-12 11:12)
 - [GoogleのAIゲーム作成ツール、海外で試用開始。日本でも使える？](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-746b4399.html): Googleが提供するAI遊び場機能を使ってゲーム制作に挑戦した海外メディアの試行報告。専門知識がなくても簡単にゲームが作れる時代が来ているが、現状のAI生成ゲームの実用性について考察する。 (出典: WIRED / 更新: 2026-10-12 10:30)
 - [AI規制が牛乳より緩いという指摘 マイクロソフト幹部が世界統一ルール要求](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-cc70a9dd.html): マイクロソフトのブラッド・スミス会長が、AI技術が洗濯機や食品よりも規制されていない実態を指摘。AIの「緊急停止機能」や被害報告制度、第三者評価を含む世界統一ルールの確立を呼びかけた。 (出典: BBC / 更新: 2026-10-12 10:29)
 - [トランプ大統領が推し進めるAI改名戦略、マスク・ナデラらが追随](https://mot-ai-media.github.io/mot-ai-news/articles/ai-elon-musk-7ec8afee.html): トランプ大統領がAI（人工知能）という言葉を「Super Intelligence（超知能）」に改名する構想を打ち出し、イーロン・マスク、マーク・ベニオフ、黄仁勲、サティア・ナデラなどシリコンバレーの有力経営者たちが次々と同調している。この動きは単なる用語変更ではなく、AIの社会的なポジショニングを大きく変える試みとして注目されている。 (出典: The Verge / 更新: 2026-10-12 07:29)
@@ -202,8 +207,3 @@
 - [OpenAI Codexが毎日改善、失敗時はリセット：何が変わる？](https://mot-ai-media.github.io/mot-ai-news/articles/openai-codex-922e4b97.html): OpenAI がCodexを28日間毎日改善するか、できない日は枠をフルリセットすると宣言。ユーザーに直結した改善を約束。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-05 14:52)
 - [SpaceXAIが「SpaceXSI」に改名へ。AIという言葉が変わる理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-d6004f49.html): イーロン・マスク率いるSpaceXのAI部門が、トランプ大統領の指示に従い「SI（Super Intelligence）」への改名を発表。政治とAI産業の結びつきが顕在化。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-05 14:51)
 - [Anthropic AI分子生物学 発見 批判 科学者 Claude](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-a2652326.html): AI企業Anthropicが新設した分子生物学ラボで、AI が未知のタンパク質パターンを発見したと発表。しかし実際の生物学者から「それは本当に発見か」という疑問が噴出。AI企業と科学コミュニティの間にある「成果の定義」のズレが浮き彫りになった。 (出典: MIT Technology Review / 更新: 2026-10-05 10:28)
-- [脳スキャン AI 思考復元 イスラエル研究 プライバシー懸念](https://mot-ai-media.github.io/mot-ai-news/articles/fmri-ai-8e23ff79.html): イスラエルの研究機関が、脳のMRI画像からAIで見ている景像を復元する技術を開発。かつてない精度で脳活動と視覚情報を相互変換できるようになった。医療応用の期待がある一方、本人の同意なく思考を抽出される懸念も指摘されている。 (出典: MIT Technology Review / 更新: 2026-10-05 08:41)
-- [脳スキャン AI 映像復元 MITが開発した「マインドリーディング」技術の衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/ai-02f09e59.html): 米MITが、脳スキャン画像からあなたが見た映像を高精度で復元するAIツールを開発。医療応用の可能性がある一方で、プライバシー侵害のリスクも指摘されている。 (出典: MIT Technology Review / 更新: 2026-10-05 08:40)
-- [Meta Muse AI プライバシー問題 友人家族情報収集](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-ff612af4.html): Metaの新しいAIエージェント「Muse」が数百万ユーザーに利用されている一方で、ユーザーの友人や家族に関する詳細な情報を自動的に収集・構築していることが問題視されている。利便性と個人情報保護のバランスが問われている。 (出典: WIRED / 更新: 2026-10-05 04:43)
-- [企業AI投資が効果を生まない理由｜部門ごとの分断が深刻化](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-06382107.html): MIT Technology Reviewの報告によると、世界的なAI投資が急増する一方で、多くの企業ではAIが組織全体で活用できず、営業と顧客サポートなど部門間の情報が共有されない状況が蔓延。単体では優秀なAIシステムも、企業全体では価値を生み出していない構造的問題が明らかになった。 (出典: MIT Technology Review / 更新: 2026-10-05 04:43)
-- [ニュージャージー州知事、セクハラ疑惑をAIで否定。AI証拠の危険性が浮き彫りに](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-cb4cee0e.html): ニュージャージー州のデール・コールドウェル副知事がセクハラと倫理規則違反で辞任に追い込まれた。その後、テレビインタビューでコールドウェルはAIが自分の無実を証明していると主張。この事件は、AIの言葉を根拠として使うことの危険性を浮き彫りにしている。 (出典: The Verge / 更新: 2026-10-05 01:44)
