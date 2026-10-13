@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>MetaのAIモデル「Muse Wonder」、OpenAIの最新AIを性能で上回る</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-c48e64f4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-c48e64f4.html</guid>
+    <description>MetaがOpenAIの最新AIモデルを上回る性能を持つ新型AIを発表。AI企業間の競争が激化している。</description>
+    <pubDate>Tue, 13 Oct 2026 18:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>法務AI競争が激化、Z.aiの新型モデルが大手を圧倒</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/z-ai-claude-f902da2a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/z-ai-claude-f902da2a.html</guid>
+    <description>法務文書処理の専門AI「GLM-Legal」が業界ベンチマークで他社製品を上回る性能を示す。</description>
+    <pubDate>Tue, 13 Oct 2026 18:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIエージェント、プログラミングなしで自作できる時代へ。無料から始める3つの方法</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-n8n-f89056ac.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-n8n-f89056ac.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/intel-broadcom-49a13711.html</guid>
     <description>半導体大手IntelとBroadcomのトップが、AI産業の急速な拡大を支える上で、資本不足が深刻なボトルネックになる可能性があると警告。技術開発競争だけでなく、莫大な投資資金の確保がAI産業の将来を左右する局面が来ているとの指摘。</description>
     <pubDate>Mon, 12 Oct 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude Opus 5.5、AI性能ランキングで頂点奪取</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-46c17921.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-46c17921.html</guid>
-    <description>AnthropicのClaude最新版がAI業界の性能評価で1位に。次世代AIの実力が明らかに。</description>
-    <pubDate>Mon, 12 Oct 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>GPT-6登場、ChatGPTがUI大刷新。回答速度と見やすさが激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-0ca14509.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-0ca14509.html</guid>
-    <description>OpenAIが次世代モデルGPT-6をChatGPTに搭載。ビジュアル・インタラクティブな新UIで、より素早く、使いやすい体験へ</description>
-    <pubDate>Mon, 12 Oct 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>

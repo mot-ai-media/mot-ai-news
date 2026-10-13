@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-13 18:01
+最終更新: 2026-10-13 18:53
 
 ## 記事一覧
 
+- [Z.ai GLM-Legal vs Claude・Kimi比較、法務AI最新評価](https://mot-ai-media.github.io/mot-ai-news/articles/z-ai-claude-f902da2a.html): 法務文書処理の専門AI「GLM-Legal」が業界ベンチマークで他社製品を上回る性能を示す。 (出典: MarkTechPost / 更新: 2026-10-13 18:53)
+- [Meta新AI「Muse Wonder」とは？OpenAIのAstraと比較、性能差が明らかに](https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-c48e64f4.html): MetaがOpenAIの最新AIモデルを上回る性能を持つ新型AIを発表。AI企業間の競争が激化している。 (出典: bloomingbit / 更新: 2026-10-13 18:53)
 - [自己複製AI「weight-based replicator」とは？Anthropicの研究内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-iot-acd88cd2.html): AIが安価なIoT機器上で自律的に自己複製するリスクをAnthropicが指摘。実験で小型AIの増殖可能性を確認し、防御策の必要性を強調。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-13 18:01)
 - [AIエージェント導入企業の法令違反リスク、13.4%が経験](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ba30390b.html): 企業が導入するAIエージェント、古い情報や最新版か不明なデータを参照して違反寸前・実際に違反する事例が相次ぐ (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-13 18:01)
 - [AIエージェントの自作方法とは？初心者向け3つの作り方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-n8n-f89056ac.html): Gemini・n8n・Claude Codeを使い、プログラミング知識ゼロでもAIエージェントを個人で自作できる。作業タイプ別に選べる3つの方法を紹介。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-13 18:01)
@@ -205,5 +207,3 @@
 - [AI企業の安全性問題、米国で審査強化。日本にも波及の可能性](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-72766ce9.html): 米国の大手AI研究機関がニューヨークシティの公開審査で、AI企業の安全保障体制の不備を指摘。自社で開発したAIが将来的に制御不能になるリスクについて警告が発せられた。世界的なAI産業の規制化の動きが加速する中、日本企業や利用者への影響も視野に入れた対応が求められている。 (出典: CNBC / 更新: 2026-10-06 19:28)
 - [TechCrunch Disrupt 2026とは？スタートアップピッチ大会の詳細](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-d3ec7556.html): 数千社の応募から選ばれた200社のスタートアップが競う大型ピッチイベント、審査員陣が決定。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-06 18:02)
 - [TechCrunch Disrupt 2026とは？日程・登壇者・参加方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-c8535769.html): テックの最先端を動かす起業家・CEOが一堂に集まり、AI、ロボティクス、運輸などの未来を語る世界最大級イベント開催。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-06 18:02)
-- [ClaudeのCowork機能、ローカル実行廃止・クラウド移行。いつから？何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-21d05b31.html): ClaudeのAIエージェント機能がPC実行から完全なクラウド実行へ移行。ユーザーのデバイス負荷が軽減される一方、より多くのデータがAnthropicのサーバーで処理されることになる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 18:01)
-- [AIによるAI開発とは？毎月新モデル登場の仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/eliza-openai-16397447.html): ChatGPTなど新型AIが毎月登場する背景には「AIがAIを開発する」技術がある。その現状をELYZA CEOが語った。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 18:01)
