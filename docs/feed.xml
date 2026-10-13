@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>マイクロソフト、NVIDIA依存から脱却へ。独自AIチップ『Maia 300』2027年投入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-f4a85891.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-f4a85891.html</guid>
+    <description>マイクロソフトが自社開発のAIチップ第3世代を発表。2027年から本格展開し、電力効率を4割向上させる。</description>
+    <pubDate>Tue, 13 Oct 2026 14:33:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ソフトバンク傘下、国産AI「Sarashina」を無料公開　誰でも試せるβ版スタート</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-63040305.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-63040305.html</guid>
+    <description>ソフトバンク傘下がChatGPTの代替候補となる国産AI「Sarashina」の無料β版を公開。誰でも試せる。</description>
+    <pubDate>Tue, 13 Oct 2026 14:33:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>SpaceX、AI部門を「超知能」に改名　トランプ政権の呼称変更に追随</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-03bbe806.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-03bbe806.html</guid>
+    <description>SpaceXのAI部門がXアカウント名を「SpaceXSI」に改名。トランプ政権が推し進める「AI」から「Super Intelligence」への呼称変更に対応した動き。</description>
+    <pubDate>Tue, 13 Oct 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ChatGPT不要、PCで完全に動くAI「LLM Checker」で自分のマシンが最強化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-b1eff07f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-b1eff07f.html</guid>
+    <description>自分のパソコンで無料で動かせるAIモデルを探せるツール登場。クラウド不要の新しい選択肢。</description>
+    <pubDate>Tue, 13 Oct 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>インテル、3000億パラメーターLLM対応の専用GPU発表。AI企業の競争激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/intel-nvidia-11327899.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/intel-nvidia-11327899.html</guid>
+    <description>インテルが大規模言語モデル対応のAI専用GPU「D270」を発表。生成AIの開発・運用を支えるハードウェア競争が本格化</description>
+    <pubDate>Tue, 13 Oct 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
     <title>TikTok CEOが明言「3年以内にAIが科学の大発見をもたらす」—ただし安全策が急務</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/tiktok-ai-c3622838.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tiktok-ai-c3622838.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-8b486f9b.html</guid>
     <description>ベンダーと協力して構築したAIエージェントを、2028年までに企業の7割が放棄する見通し。技術的な未熟さではなく、プロジェクト設計の根本的な問題が原因だという。</description>
     <pubDate>Mon, 12 Oct 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AI、3社に1社が予算オーバー。コスト44%削減の方法が判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9e0c713f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-9e0c713f.html</guid>
-    <description>生成AIの利用増に伴うトークンコストが経営課題に。先進企業が実施する管理方法で最大44%削減可能。</description>
-    <pubDate>Mon, 12 Oct 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPTは「危険な質問」を断るが、確実ではない—AI企業が直面する根本的な矛盾</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-da96ac82.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-da96ac82.html</guid>
-    <description>MIT Technology Reviewが指摘するAIの「拒否問題」。企業は有害な指示に従わないよう訓練しているが、悪意ある利用者による工作で突破される事例が増加。生物兵器開発やドローン自動化など極めて危険な用途に転用される懸念が急速に高まっている。</description>
-    <pubDate>Mon, 12 Oct 2026 13:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>詐欺師を騙すAIが登場—サイバー犯罪対策に逆転の発想</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-39d20796.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-39d20796.html</guid>
-    <description>海外のサイバー犯罪対策機関が、AIで作られた「偽の被害者ボット」を使って詐欺師を引き付け、時間を浪費させる新しい戦術を展開している。犯罪者が本物だと思って話しかけるのは実はAIで、本来の犯行を遅延させるという逆転の防御戦略だ。</description>
-    <pubDate>Mon, 12 Oct 2026 13:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Asana、AIで業務自動化が76倍安くなる。新モデルで劇的なコスト削減実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/asana-openai-90995f7d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/asana-openai-90995f7d.html</guid>
-    <description>Asanaが新型AIモデルを活用し、ウェブサイト自動操作の費用を76分の1に削減。同時に処理速度も5倍に高速化。</description>
-    <pubDate>Mon, 12 Oct 2026 11:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>サイバー脅威の調査時間96%削減、Sophosが「OpenAI Daybreak」で実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sophos-openai-edd58468.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sophos-openai-edd58468.html</guid>
-    <description>セキュリティ企業Sophosが生成AI活用で脅威調査の大幅な時間短縮に成功、業務の自動化が急速に進展。</description>
-    <pubDate>Mon, 12 Oct 2026 11:16:00 +0900</pubDate>
   </item>
 </channel></rss>
