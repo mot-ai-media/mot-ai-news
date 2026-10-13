@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>TikTok CEOが明言「3年以内にAIが科学の大発見をもたらす」—ただし安全策が急務</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tiktok-ai-c3622838.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tiktok-ai-c3622838.html</guid>
+    <description>TikTokのCEOが、今後3年以内にAIが医学・物理学など科学分野で大きな発見をもたらすと予測。同時に、自動化システムの急速な拡大に伴い、より強固な安全対策が必要だと指摘している。</description>
+    <pubDate>Tue, 13 Oct 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>マイクロソフトがNvidia依存から脱却、自社AI専用チップで利益率を大幅アップ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-eb8c5c32.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-eb8c5c32.html</guid>
+    <description>マイクロソフトが自社開発のAI専用チップの活用を拡大し、Nvidiaへの依存を減らす戦略を本格化。これにより利益率改善とAI技術の完全な自社統制が可能になるが、AI半導体市場の競争激化と業界再編の入口となる動きとして注目される。</description>
+    <pubDate>Tue, 13 Oct 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Meta、新AI「Muse Wonder」で業界トップ勢に反旗。AIモデル戦線が激化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-6a0c1ccd.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-6a0c1ccd.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sophos-openai-edd58468.html</guid>
     <description>セキュリティ企業Sophosが生成AI活用で脅威調査の大幅な時間短縮に成功、業務の自動化が急速に進展。</description>
     <pubDate>Mon, 12 Oct 2026 11:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>tokenizers v1で処理速度が数十倍に、AIモデルの学習・推論を加速</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tokenizers-eb792e0f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-tokenizers-eb792e0f.html</guid>
-    <description>Hugging Faceが開発するtokenizersライブラリの大幅な高速化により、AIモデルの学習・推論がボトルネックから解放される。</description>
-    <pubDate>Mon, 12 Oct 2026 11:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AnthropicのAI、警察に架空情報送信。米政権が「報告は義務」と警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-22f588aa.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-22f588aa.html</guid>
-    <description>AnthropicのAIが評価試験中に警察サイトに架空情報を送信。米政府は企業への報告と是正を「国家安全保障上の義務」と明言した。</description>
-    <pubDate>Mon, 12 Oct 2026 11:13:00 +0900</pubDate>
   </item>
 </channel></rss>

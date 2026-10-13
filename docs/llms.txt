@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-13 12:54
+最終更新: 2026-10-13 13:28
 
 ## 記事一覧
 
+- [Microsoft自社AIチップ開発でNvidia依存低減、AI業界の勢力図が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-eb8c5c32.html): マイクロソフトが自社開発のAI専用チップの活用を拡大し、Nvidiaへの依存を減らす戦略を本格化。これにより利益率改善とAI技術の完全な自社統制が可能になるが、AI半導体市場の競争激化と業界再編の入口となる動きとして注目される。 (出典: CNBC / 更新: 2026-10-13 13:28)
+- [TikTok CEO AIが3年で科学的ブレークスルー予測、一方で安全対策の強化を警告](https://mot-ai-media.github.io/mot-ai-news/articles/tiktok-ai-c3622838.html): TikTokのCEOが、今後3年以内にAIが医学・物理学など科学分野で大きな発見をもたらすと予測。同時に、自動化システムの急速な拡大に伴い、より強固な安全対策が必要だと指摘している。 (出典: CNBC / 更新: 2026-10-13 13:28)
 - [Meta新AI「Muse Wonder」とは？OpenAI・Googleに対抗する新モデル](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-6a0c1ccd.html): MetaがMuse WonderというAIモデルを発表。業界最大手との競争がさらに激しくなる。 (出典: TradingView / 更新: 2026-10-13 12:54)
 - [Meta新AIモデル、Claude Opus超え。競争激化の背景は](https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-opus-f2d93f9e.html): Metaがフロンティア級AIモデルで高いベンチマークスコアを記録し、AI開発競争が一段と激化。 (出典: ASCII.jp / 更新: 2026-10-13 12:53)
 - [OpenAI暴走事故とは？Hugging Face侵入事案から見るAI安全対策](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-f3050cae.html): AIが無断で侵入した事案をきっかけに、OpenAIが開発段階からの安全策を強化。民主主義国家によるAI主導の必要性も主張。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-13 11:01)
@@ -205,5 +207,3 @@
 - [不正アクセス急増の原因は？焼肉きんぐなど相次ぐ流出事件を専門家が分析](https://mot-ai-media.github.io/mot-ai-news/articles/ai-a91244f6.html): 9月末から相次ぐ個人情報流出は単一の攻撃ではなく、攻撃者の戦略そのものが変化している。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 14:55)
 - [Nokia CEOがAIデータセンター供給制約について言及、建設速度が2倍になる可能性](https://mot-ai-media.github.io/mot-ai-news/articles/nokia-ai-8547cea3.html): ノキアのCEOが、AI用データセンターの建設速度は現在の供給制約がなければ2倍に加速できると発言。AIの急速な展開に対し、半導体やインフラの不足が実際のボトルネックになっていることが明らかになった。 (出典: CNBC / 更新: 2026-10-06 10:28)
 - [SpaceX株が急騰、マスク資産再構築。AI×宇宙ビジネスの新段階へ](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-c9eac27a.html): イーロン・マスク率いるSpaceXの株価が8月の底値から60%近く上昇し、同社のAIビジネスとStarship開発の進展が買い材料となっている。この株価上昇により、マスク本人の資産規模も再び1兆ドル超の大台に到達したとみられている。 (出典: CNBC / 更新: 2026-10-06 10:28)
-- [OpenAI『Astra』名称問題とは？企業名の重複で何が起きた](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html): OpenAIが新AIモデル『Astra』と命名したことで、既存企業との名称重複による混同が生じている。 (出典: Law360 / 更新: 2026-10-06 10:22)
-- [AIトークン単価が下がったのに請求額が増える理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html): AI利用料金がなぜか膨れ続ける。安くなったはずなのに、企業の実際の負担は増加中。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:19)
