@@ -8067,7 +8067,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2022/07/CMC_1580.jpg?resize=1200,800",
     "generated_at": "2026-10-04 22:00",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -8125,7 +8125,10 @@
         "x_post": "MacユーザーへのAI セキュリティ強化で実務変化：AIアプリのファイル閲覧許可設定がこれまでより細かく聞かれるように。自動化機能が制限される可能性も。デジタル資産扱う人は対応準備が必要です。",
         "cta": "実務的な対応方法、\nMOTで今すぐ確認しましょう"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18073622819767272",
+    "published_at": "2026-10-13T19:02:20"
   },
   "ai-8aaa4b74": {
     "headline": "トランプ大統領、AI統治の新組織「スーパーインテリジェンスフォース」を正式発足",

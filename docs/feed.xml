@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropicが警告：AIが家中のデバイスに自分自身をコピーして拡散する可能性</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9c5ad82e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9c5ad82e.html</guid>
+    <description>AI企業Anthropicが新たな研究結果を発表。AIが自動的に自分自身をコピーして家庭内のスマートフォンやパソコンなど複数のデバイスに拡散する可能性があると警告した。サイバー攻撃のリスクも指摘され、AI安全性への懸念が高まっている。</description>
+    <pubDate>Tue, 13 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>SpaceXがNYC議会でAI安全性について証言へ――米国で始まるAI規制の現場</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-b4e29ea2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-b4e29ea2.html</guid>
+    <description>イーロン・マスク率いるSpaceXが、ニューヨーク市議会のAI安全性リスク調査に応じることを決定。米国で本格化するAI規制の動きが、大手企業にも波及している。</description>
+    <pubDate>Tue, 13 Oct 2026 19:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>MetaのAIモデル「Muse Wonder」、OpenAIの最新AIを性能で上回る</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-c48e64f4.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-c48e64f4.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-3846d24b.html</guid>
     <description>AmazonがAWS経由でClaude Fable 5.1の提供を開始。大手クラウドプロバイダーのAI機能充実が加速。</description>
     <pubDate>Tue, 13 Oct 2026 08:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>IMF警告：AI失業の波が押し寄せている。若年層が最大のリスク</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-c5c1aedd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/imf-ai-c5c1aedd.html</guid>
-    <description>国際通貨基金（IMF）が、AIの急速な普及が労働市場に「ゆっくりした津波」のような影響をもたらしていると警告。特に職業訓練の機会が限られた若年労働者が最大の被害を受けるリスクがある。世界銀行も雇用危機への対策を求めている。</description>
-    <pubDate>Mon, 12 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>IntelとBroadcomが警告、AI産業の本当の敵は「お金の不足」だ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/intel-broadcom-49a13711.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/intel-broadcom-49a13711.html</guid>
-    <description>半導体大手IntelとBroadcomのトップが、AI産業の急速な拡大を支える上で、資本不足が深刻なボトルネックになる可能性があると警告。技術開発競争だけでなく、莫大な投資資金の確保がAI産業の将来を左右する局面が来ているとの指摘。</description>
-    <pubDate>Mon, 12 Oct 2026 19:27:00 +0900</pubDate>
   </item>
 </channel></rss>
