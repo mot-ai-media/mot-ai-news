@@ -1,55 +1,5 @@
 [
   {
-    "title": "OpenAI Says It Will Not Release Newest A.I. Model Over Safety Concerns",
-    "link": "https://www.nytimes.com/2026/09/28/technology/openai-astra-safety.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.nytimes.com/2026/09/28/technology/openai-astra-safety.html\nComments URL: https://news.ycombinator.com/item?id=49886416\nPoints: 24\n# Comments: 20",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AIの安全性懸念による非公開は既出だが、OpenAIの最新モデル規制は業界動向として日本でも注視される。",
-    "discovered_at": "2026-09-29T01:28:56.136478+00:00"
-  },
-  {
-    "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
-    "link": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/\nComments URL: https://news.ycombinator.com/item?id=49886005\nPoints: 63\n# Comments: 60",
-    "novelty_score": 45,
-    "japan_relevance_score": 75,
-    "reason": "大型AI企業のIPO情報は重要だが、企業財務開示は定期的なニュースのため新規性は中程度。",
-    "discovered_at": "2026-09-29T01:28:57.716916+00:00"
-  },
-  {
-    "title": "Who should be held accountable when an AI Agent (accidentally) acts maliciously?",
-    "link": "https://blog.greenpants.net/ai-accountability/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://blog.greenpants.net/ai-accountability/\nComments URL: https://news.ycombinator.com/item?id=49885109\nPoints: 33\n# Comments: 65",
-    "novelty_score": 62,
-    "japan_relevance_score": 75,
-    "reason": "AI規制が急速に進む中、責任問題は日本でも重要なテーマだが、議論自体はまだ発展途上。",
-    "discovered_at": "2026-09-29T01:28:59.408951+00:00"
-  },
-  {
-    "title": "Pacing the Frontier is not the actual goal for AI labs",
-    "link": "https://www.lesswrong.com/posts/Nm4ewbYovtjq69dvH/pacing-the-frontier-is-not-the-actual-goal-for-ai-labs",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.lesswrong.com/posts/Nm4ewbYovtjq69dvH/pacing-the-frontier-is-not-the-actual-goal-for-ai-labs\nComments URL: https://news.ycombinator.com/item?id=49884119\nPoints: 72\n# Comments: 76",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AI企業の目標設定についての既知の議論だが、規制動向との関連で継続的に注目される話題",
-    "discovered_at": "2026-09-29T01:29:00.963757+00:00"
-  },
-  {
-    "title": "It's Time to Investigate the AI Labs",
-    "link": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://calnewport.com/its-time-to-investigate-the-ai-labs/\nComments URL: https://news.ycombinator.com/item?id=49883471\nPoints: 277\n# Comments: 104",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "AI企業の規制・監視の必要性は既出だが、日本でも生成AI政策議論が活発化しており関連性は高い。",
-    "discovered_at": "2026-09-29T01:29:02.702512+00:00"
-  },
-  {
     "title": "OpenAI Scraps Release of New AI Model over Safety Concerns",
     "link": "https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42",
     "source": "Hacker News",
@@ -1278,5 +1228,55 @@
     "japan_relevance_score": 72,
     "reason": "AI利用が認知機能に与える影響は注目テーマだが、因果関係の実証レベルや具体的な応用は未確定。",
     "discovered_at": "2026-10-12T04:29:22.407663+00:00"
+  },
+  {
+    "title": "A look at OpenAI’s math that’s claimed computes faster Fourier transforms",
+    "link": "https://www.argmin.net/p/faster-fourier-transforms",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.argmin.net/p/faster-fourier-transforms\nComments URL: https://news.ycombinator.com/item?id=50065932\nPoints: 46\n# Comments: 31",
+    "novelty_score": 72,
+    "japan_relevance_score": 58,
+    "reason": "OpenAIの高速フーリエ変換に関する技術解析で新規性は高いが、日本での関心層が限定的。",
+    "discovered_at": "2026-10-13T04:28:49.576368+00:00"
+  },
+  {
+    "title": "Leaving Tech",
+    "link": "https://ryanbigg.com/2026/10/leaving-tech",
+    "source": "Hacker News",
+    "summary": "Article URL: https://ryanbigg.com/2026/10/leaving-tech\nComments URL: https://news.ycombinator.com/item?id=50065892\nPoints: 133\n# Comments: 126",
+    "novelty_score": 35,
+    "japan_relevance_score": 62,
+    "reason": "テック業界からの退職は珍しくない話題だが、個人の経験記は日本のキャリア観の多様化を反映する関心がある。",
+    "discovered_at": "2026-10-13T04:28:51.479946+00:00"
+  },
+  {
+    "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+    "link": "https://arxiv.org/abs/2610.13928",
+    "source": "Hacker News",
+    "summary": "Article URL: https://arxiv.org/abs/2610.13928\nComments URL: https://news.ycombinator.com/item?id=50065692\nPoints: 36\n# Comments: 13",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AIの能力隠蔽の理論的証明は新規性が高く、AI安全保障に関わる重要テーマで日本でも注目される可能性がある。",
+    "discovered_at": "2026-10-13T04:28:53.375930+00:00"
+  },
+  {
+    "title": "The CEO's of Broadcom and Intel Say the Quiet Part Out Loud about AI and ROI",
+    "link": "https://wolfstreet.com/2026/10/12/ceos-of-broadcom-intel-say-the-quiet-part-out-loud-about-ai-and-roi/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://wolfstreet.com/2026/10/12/ceos-of-broadcom-intel-say-the-quiet-part-out-loud-about-ai-and-roi/\nComments URL: https://news.ycombinator.com/item?id=50063707\nPoints: 22\n# Comments: 5",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AI投資のROI問題は既出だが、大手CEO発言は注目度高く、日本の企業経営層にも示唆的。",
+    "discovered_at": "2026-10-13T04:28:55.242549+00:00"
+  },
+  {
+    "title": "AI is a tool and using it well takes skill",
+    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://yyhh.org/blog/2026/10/ai-is-a-tool/\nComments URL: https://news.ycombinator.com/item?id=50063427\nPoints: 281\n# Comments: 234",
+    "novelty_score": 35,
+    "japan_relevance_score": 72,
+    "reason": "AIツール活用のスキル論は既出だが、日本の職場でAI導入が進む中で実務的な関心は高い。",
+    "discovered_at": "2026-10-13T04:28:57.064006+00:00"
   }
 ]
