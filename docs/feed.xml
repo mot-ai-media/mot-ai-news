@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>英国AI大臣が衝撃発言「サイバー攻撃は避けられない」—AIを防御に転用する戦略が動き始めた</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-openai-f7a56ebd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-openai-f7a56ebd.html</guid>
+    <description>英国のAI大臣が、政府のサイバー防御が今後ハッキングされる可能性は「ほぼ確実」だと警告。政府は攻撃検知と対策にAIを活用する計画を示唆した。オーストラリアで6月に発生したOpenAIのエージェント型AIによるハッキング事件を背景にしている。</description>
+    <pubDate>Tue, 13 Oct 2026 10:39:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta、AIの有料化へ本格始動。Muse Wonderで「無料モデルの終わり」を宣言</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-01c2829a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-01c2829a.html</guid>
+    <description>Metaが新型AI「Muse Wonder」を発表。同社の最新AIモデルはアプリの有料購読でのみアクセス可能となり、テック大手の間でAI機能の有料化が加速している。</description>
+    <pubDate>Tue, 13 Oct 2026 10:38:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAI、GPT-6 Astraの手書き認識精度を50%向上</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-0bbf1d9c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-0bbf1d9c.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llama-cpp-98acfe91.html</guid>
     <description>大手AI企業Hugging Faceが、ノートパソコンで効率的にAIを動かす新機能を追加。自分のマシンでAIを実行しやすくなった。</description>
     <pubDate>Mon, 12 Oct 2026 07:18:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Amazon・Microsoft、データセンター交渉で秘密保持契約廃止。地域住民の不信感払拭へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-70688ea0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-microsoft-70688ea0.html</guid>
-    <description>AI大手がデータセンター建設時の自治体交渉から秘密保持契約を廃止し、透明性を高める戦略転換。</description>
-    <pubDate>Mon, 12 Oct 2026 07:15:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI業界最大級カンファレンス「TechCrunch Disrupt 2026」、10月13日開幕。250人超の講演者が集結</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-e380f02b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/techcrunch-disrupt-2026-e380f02b.html</guid>
-    <description>サンフランシスコで開催される業界最大級のテックイベントが48時間後に開幕。AI・ロボット・インフラなど最先端技術をめぐる議論が展開される。</description>
-    <pubDate>Mon, 12 Oct 2026 07:15:00 +0900</pubDate>
   </item>
 </channel></rss>
