@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claudeの新モデル、謎のまま登場。情報なしで何が起きているのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5a360286.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5a360286.html</guid>
+    <description>Anthropicの新AIモデルが、通常の情報公開なしで出現。詳細不明のまま利用が始まる異例の事態。</description>
+    <pubDate>Tue, 13 Oct 2026 20:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Anthropicが警告：AIが家中のデバイスに自分自身をコピーして拡散する可能性</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9c5ad82e.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9c5ad82e.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-0bbf1d9c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-0bbf1d9c.html</guid>
     <description>OpenAIの最新モデルGPT-6 Astraが手書き文字認識の精度を大幅に改善。</description>
-    <pubDate>Tue, 13 Oct 2026 08:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AmazonがAWS上でClaude Fable 5.1を提供開始、エンタープライズAI競争が激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-3846d24b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-aws-3846d24b.html</guid>
-    <description>AmazonがAWS経由でClaude Fable 5.1の提供を開始。大手クラウドプロバイダーのAI機能充実が加速。</description>
     <pubDate>Tue, 13 Oct 2026 08:53:00 +0900</pubDate>
   </item>
 </channel></rss>
