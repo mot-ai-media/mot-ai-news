@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Metaの会話AI「Muse」が成人向け機能を実装、米メディアが報道。企業はこれを「合法的な成人行為」と公式認可</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-8bb53a68.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-8bb53a68.html</guid>
+    <description>Meta傘下のAIアシスタント「Muse」が、性的な会話機能を搭載していることが海外メディアの報道で明らかに。Metaは法的問題がないとして公式に認可している。AI企業の倫理基準をめぐる議論が再び加速している。</description>
+    <pubDate>Tue, 13 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Metaが業界最高峰のAI新モデル「Muse Wonder」を投入——AIレース巻き返しへの本気度が明らかに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5b0bbc20.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5b0bbc20.html</guid>
+    <description>Meta傘下のSuper intelligence Labsが、業界トップクラスのAIモデル「Muse Wonder」と「Muse Wonder Full」を新たに発表。ChatGPTやClaudeなど競合製品と同等の性能を目指す新型モデルで、今後自社のAIエージェント「Muse」に統合される予定。</description>
+    <pubDate>Tue, 13 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>マイクロソフト、NVIDIA依存から脱却へ。独自AIチップ『Maia 300』2027年投入</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-f4a85891.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-f4a85891.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/oracle-chatgpt-112b5f00.html</guid>
     <description>オラクルが10万人の従業員でChatGPTを導入し、数日かかる専門業務を数分で完結させている。</description>
     <pubDate>Mon, 12 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Microsoft CEO、AIは「内部リスク」として管理せよ。モデルの外に安全装置を置く必要がある</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-326f2842.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-326f2842.html</guid>
-    <description>Microsoft のナデラCEOが、高度なAIモデルを組織内の脅威と同じく扱い、モデル外部に統制を置くべきだと主張。</description>
-    <pubDate>Mon, 12 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>企業の7割がAIエージェント放棄へ、Gartner予測。理由は技術ではなく「構造」の問題</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-8b486f9b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-8b486f9b.html</guid>
-    <description>ベンダーと協力して構築したAIエージェントを、2028年までに企業の7割が放棄する見通し。技術的な未熟さではなく、プロジェクト設計の根本的な問題が原因だという。</description>
-    <pubDate>Mon, 12 Oct 2026 14:30:00 +0900</pubDate>
   </item>
 </channel></rss>
