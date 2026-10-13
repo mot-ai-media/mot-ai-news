@@ -6661,7 +6661,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/enterprise/articles/2609/29/cover_news097.jpg",
     "generated_at": "2026-09-30 18:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -6719,7 +6719,10 @@
         "x_post": "大企業の33%がAIコード検証を『適切に検証していない』。問題発生時に責任の所在が不明確だと、対応が後手になり、あなた自身も巻き込まれるリスクが。職場のAI導入状況を確認しておくべき。",
         "cta": "職場のAIリスクをMOTで確認する"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18078651155394926",
+    "published_at": "2026-10-13T11:02:09"
   },
   "ai-2879a482": {
     "headline": "AIは子どもと同じ、ずる賢く育つのを防ぐ3つの条件",

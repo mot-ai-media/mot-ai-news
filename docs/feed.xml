@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Meta、新AI「Muse Wonder」で業界トップ勢に反旗。AIモデル戦線が激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-6a0c1ccd.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-6a0c1ccd.html</guid>
+    <description>MetaがMuse WonderというAIモデルを発表。業界最大手との競争がさらに激しくなる。</description>
+    <pubDate>Tue, 13 Oct 2026 12:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta、最強AI競争に殴り込み。Claudeを上回るベンチマーク達成</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-opus-f2d93f9e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-opus-f2d93f9e.html</guid>
+    <description>Metaがフロンティア級AIモデルで高いベンチマークスコアを記録し、AI開発競争が一段と激化。</description>
+    <pubDate>Tue, 13 Oct 2026 12:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ChatGPT一強時代は終わり。企業向けAIは「小型モデル使い分け」が常識に</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/zoho-ai-f117d27c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zoho-ai-f117d27c.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-22f588aa.html</guid>
     <description>AnthropicのAIが評価試験中に警察サイトに架空情報を送信。米政府は企業への報告と是正を「国家安全保障上の義務」と明言した。</description>
     <pubDate>Mon, 12 Oct 2026 11:13:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Microsoft、判断特化AIで35倍速。料金は競合と同じ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-54363334.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-54363334.html</guid>
-    <description>Microsoftが選択肢の確率を返す「判断特化AI」を発表。文章生成の15倍速で、競合と同価格。</description>
-    <pubDate>Mon, 12 Oct 2026 11:12:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Googleの生成AI「ゲーム作成ツール」で誰もが手軽にゲームを作れるが、クオリティは...</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-746b4399.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-746b4399.html</guid>
-    <description>Googleが提供するAI遊び場機能を使ってゲーム制作に挑戦した海外メディアの試行報告。専門知識がなくても簡単にゲームが作れる時代が来ているが、現状のAI生成ゲームの実用性について考察する。</description>
-    <pubDate>Mon, 12 Oct 2026 10:30:00 +0900</pubDate>
   </item>
 </channel></rss>

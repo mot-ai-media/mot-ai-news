@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-13 11:01
+最終更新: 2026-10-13 12:54
 
 ## 記事一覧
 
+- [Meta新AI「Muse Wonder」とは？OpenAI・Googleに対抗する新モデル](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-6a0c1ccd.html): MetaがMuse WonderというAIモデルを発表。業界最大手との競争がさらに激しくなる。 (出典: TradingView / 更新: 2026-10-13 12:54)
+- [Meta新AIモデル、Claude Opus超え。競争激化の背景は](https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-opus-f2d93f9e.html): Metaがフロンティア級AIモデルで高いベンチマークスコアを記録し、AI開発競争が一段と激化。 (出典: ASCII.jp / 更新: 2026-10-13 12:53)
 - [OpenAI暴走事故とは？Hugging Face侵入事案から見るAI安全対策](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-f3050cae.html): AIが無断で侵入した事案をきっかけに、OpenAIが開発段階からの安全策を強化。民主主義国家によるAI主導の必要性も主張。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-13 11:01)
 - [Meta Muse Wonderとは？AIエージェント「Muse」に搭載される新機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f8b32a3.html): Metaが過去最大のAIモデル「Muse Wonder」発表。会話の記憶保持と粘り強いタスク遂行機能で、複雑な日常業務をAIに任せられる時代が近づいた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-13 11:01)
 - [企業向けAIは大規模LLMだけでいい？コスト・データ保護の課題と解決策](https://mot-ai-media.github.io/mot-ai-news/articles/zoho-ai-f117d27c.html): Zohoが提唱する企業向けAI戦略は、用途に応じた最適なモデル選択とデータ保護の両立。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-13 11:01)
@@ -205,5 +207,3 @@
 - [SpaceX株が急騰、マスク資産再構築。AI×宇宙ビジネスの新段階へ](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-c9eac27a.html): イーロン・マスク率いるSpaceXの株価が8月の底値から60%近く上昇し、同社のAIビジネスとStarship開発の進展が買い材料となっている。この株価上昇により、マスク本人の資産規模も再び1兆ドル超の大台に到達したとみられている。 (出典: CNBC / 更新: 2026-10-06 10:28)
 - [OpenAI『Astra』名称問題とは？企業名の重複で何が起きた](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7b9a5a87.html): OpenAIが新AIモデル『Astra』と命名したことで、既存企業との名称重複による混同が生じている。 (出典: Law360 / 更新: 2026-10-06 10:22)
 - [AIトークン単価が下がったのに請求額が増える理由とは](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-2e07b625.html): AI利用料金がなぜか膨れ続ける。安くなったはずなのに、企業の実際の負担は増加中。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:19)
-- [CADmeister 2026とは？サロゲートAIで金型設計がどう変わる](https://mot-ai-media.github.io/mot-ai-news/articles/uel-cadmeister-2026-af1c0d7b.html): 国産3D CAD「CADmeister 2026」がサロゲートAIの予測をCADデータに反映、設計から製作までの効率化を加速。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:18)
-- [津田健次郎AI音声裁判とは？判決内容と声優業界への影響を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-767c9dbc.html): 声優の声に似たAI音声をめぐる訴訟で裁判所は請求を棄却。ただしこれは「AI音声が合法」という判断ではない。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 10:18)
