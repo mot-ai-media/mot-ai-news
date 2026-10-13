@@ -4,6 +4,48 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIエージェント、プログラミングなしで自作できる時代へ。無料から始める3つの方法</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-n8n-f89056ac.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-n8n-f89056ac.html</guid>
+    <description>Gemini・n8n・Claude Codeを使い、プログラミング知識ゼロでもAIエージェントを個人で自作できる。作業タイプ別に選べる3つの方法を紹介。</description>
+    <pubDate>Tue, 13 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、古いデータで法令違反リスク。約7人に1人が既に危機一髪</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ba30390b.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ba30390b.html</guid>
+    <description>企業が導入するAIエージェント、古い情報や最新版か不明なデータを参照して違反寸前・実際に違反する事例が相次ぐ</description>
+    <pubDate>Tue, 13 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>55ドルのTVボックスだけで動くAI、自分で増殖し始める—Anthropicが警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-iot-acd88cd2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-iot-acd88cd2.html</guid>
+    <description>AIが安価なIoT機器上で自律的に自己複製するリスクをAnthropicが指摘。実験で小型AIの増殖可能性を確認し、防御策の必要性を強調。</description>
+    <pubDate>Tue, 13 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI人材の確保が急務。オラクルが提示する「成果報酬型FDE」の衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/fde-ai-ef45d86c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/fde-ai-ef45d86c.html</guid>
+    <description>企業のAI導入を支援するFDE（AI配置エンジニア）の在り方が問われ、日本オラクルが成果報酬型モデルを展開。AI人材不足の時代に何が変わるのか。</description>
+    <pubDate>Tue, 13 Oct 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、プロジェクト管理に本格進出。2026年は人間の役割が問われる転機に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/autodesk-ai-290aad75.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/autodesk-ai-290aad75.html</guid>
+    <description>Autodesk University 2026から、AIが案件管理・設計業務を自動化する時代の到来が見えてきた。</description>
+    <pubDate>Tue, 13 Oct 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta新モデル『Muse Wonder』、Claudeと同等の性能を低コストで実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-d8b32d56.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-d8b32d56.html</guid>
+    <description>Metaが新しいAIモデルを発表。既存の高性能モデルと比べて遜色ない性能を、より安い価格で提供する動きが加速。</description>
+    <pubDate>Tue, 13 Oct 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Metaの会話AI「Muse」が成人向け機能を実装、米メディアが報道。企業はこれを「合法的な成人行為」と公式認可</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-8bb53a68.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-8bb53a68.html</guid>
@@ -170,47 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-0ca14509.html</guid>
     <description>OpenAIが次世代モデルGPT-6をChatGPTに搭載。ビジュアル・インタラクティブな新UIで、より素早く、使いやすい体験へ</description>
     <pubDate>Mon, 12 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ラディソン、ChatGPT内でホテル予約が完結。旅行計画がAI上で完成する時代到来</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-04e9dc38.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-04e9dc38.html</guid>
-    <description>ラディソンホテルがChatGPTと連携し、AIの中でホテル検索・比較・予約ができるようになった。</description>
-    <pubDate>Mon, 12 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT、10代向けに大学受験対策ツール投入。学習支援は標準化へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ad4e1464.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ad4e1464.html</guid>
-    <description>OpenAIが10代向けChatGPTに大学受験対策ツールと学習機能を追加。既に270万件以上の学習質問が活用されている。</description>
-    <pubDate>Mon, 12 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、ロシア・イランのAI悪用作戦を摘発。フェイク記者・偽シンクタンクの実態</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-077dea1e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-077dea1e.html</guid>
-    <description>OpenAIがロシアとイランの影響力工作組織を特定・制止。AIで生成したフェイク記者やニュース記事を使って地政学的な世論操作を行っていた。</description>
-    <pubDate>Mon, 12 Oct 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>LegalOn、AI開発コスト65%削減。速度は維持したまま実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-legalon-f6d3626e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-legalon-f6d3626e.html</guid>
-    <description>法務AI企業LegalOnが、複数のAIモデルを使い分けることで開発コストを半減させながら生産性を維持。</description>
-    <pubDate>Mon, 12 Oct 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIの最新モデルでPollo AIが躍進、クリエイターの映像制作が激変</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-pollo-ai-ca1ec6c6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-pollo-ai-ca1ec6c6.html</guid>
-    <description>OpenAIの最新AIモデルを活用し、Pollo AIがクリエイターのアイデアを映像や広告に自動変換するサービスを強化。</description>
-    <pubDate>Mon, 12 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>数日かかる業務が数分に、オラクルが10万人でAI導入の衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/oracle-chatgpt-112b5f00.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/oracle-chatgpt-112b5f00.html</guid>
-    <description>オラクルが10万人の従業員でChatGPTを導入し、数日かかる専門業務を数分で完結させている。</description>
-    <pubDate>Mon, 12 Oct 2026 14:31:00 +0900</pubDate>
   </item>
 </channel></rss>
