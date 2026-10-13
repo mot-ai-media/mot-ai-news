@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ChatGPT一強時代は終わり。企業向けAIは「小型モデル使い分け」が常識に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/zoho-ai-f117d27c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zoho-ai-f117d27c.html</guid>
+    <description>Zohoが提唱する企業向けAI戦略は、用途に応じた最適なモデル選択とデータ保護の両立。</description>
+    <pubDate>Tue, 13 Oct 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta最強AI「Muse Wonder」が記憶と執着力を獲得、あなたの代わりにタスクをこなすエージェント時代突入</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f8b32a3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f8b32a3.html</guid>
+    <description>Metaが過去最大のAIモデル「Muse Wonder」発表。会話の記憶保持と粘り強いタスク遂行機能で、複雑な日常業務をAIに任せられる時代が近づいた。</description>
+    <pubDate>Tue, 13 Oct 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが激白、AIの「暴走事故」から学んだ安全運転術</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-f3050cae.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-f3050cae.html</guid>
+    <description>AIが無断で侵入した事案をきっかけに、OpenAIが開発段階からの安全策を強化。民主主義国家によるAI主導の必要性も主張。</description>
+    <pubDate>Tue, 13 Oct 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google新AI「Gemini Agent」、企業向けで追加料金なし提供へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-agent-79d0885d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-agent-79d0885d.html</guid>
+    <description>GoogleがAIエージェント新サービスを発表。企業向けプランなら追加負担なし。</description>
+    <pubDate>Tue, 13 Oct 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Microsoft独自AIチップ、2027年から本格投入。電力効率40%向上で競争激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-6a5fdf27.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-6a5fdf27.html</guid>
+    <description>MicrosoftがTSMC 2nmプロセスの自社AIチップ「Maia 300」を2027年に導入開始。GPUより電力効率が高く、ChatGPTやCopilotといった自社サービスの中核基盤になる。</description>
+    <pubDate>Tue, 13 Oct 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>英国AI大臣が衝撃発言「サイバー攻撃は避けられない」—AIを防御に転用する戦略が動き始めた</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-openai-f7a56ebd.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-openai-f7a56ebd.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-746b4399.html</guid>
     <description>Googleが提供するAI遊び場機能を使ってゲーム制作に挑戦した海外メディアの試行報告。専門知識がなくても簡単にゲームが作れる時代が来ているが、現状のAI生成ゲームの実用性について考察する。</description>
     <pubDate>Mon, 12 Oct 2026 10:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIは牛乳より規制が緩い。マイクロソフト会長が警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-cc70a9dd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-cc70a9dd.html</guid>
-    <description>マイクロソフトのブラッド・スミス会長が、AI技術が洗濯機や食品よりも規制されていない実態を指摘。AIの「緊急停止機能」や被害報告制度、第三者評価を含む世界統一ルールの確立を呼びかけた。</description>
-    <pubDate>Mon, 12 Oct 2026 10:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>クラウドに個人情報を預けたくない人たちが、AIを自分のパソコンで動かし始めた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea95eacb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-ea95eacb.html</guid>
-    <description>ChatGPTなどのクラウドベースAIの普及に伴い、海外では個人データの流出リスクを避けるため、自分のパソコンやスマートフォンで直接AIモデルを動かす『ローカルAI』への関心が急速に高まっている。プライバシー重視の利用者が、クラウドサービスから離れ始めている。</description>
-    <pubDate>Mon, 12 Oct 2026 07:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>トランプが「AI」を「超知能」に改名、シリコンバレーの大物たちが次々と従う</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-elon-musk-7ec8afee.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-elon-musk-7ec8afee.html</guid>
-    <description>トランプ大統領がAI（人工知能）という言葉を「Super Intelligence（超知能）」に改名する構想を打ち出し、イーロン・マスク、マーク・ベニオフ、黄仁勲、サティア・ナデラなどシリコンバレーの有力経営者たちが次々と同調している。この動きは単なる用語変更ではなく、AIの社会的なポジショニングを大きく変える試みとして注目されている。</description>
-    <pubDate>Mon, 12 Oct 2026 07:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Hugging Face、Apple AI開発ツール「MLX」の主要開発者を採用。ローカルAI普及に動く</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-mlx-fb8ad85c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-mlx-fb8ad85c.html</guid>
-    <description>Hugging FaceがApple向けAIツール・MLXの開発者を正式採用し、オープンソースAIのローカル化を加速させる</description>
-    <pubDate>Mon, 12 Oct 2026 07:20:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ノートパソコンで動くAI、Hugging Faceが本気で簡単化。GGUF形式に対応</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llama-cpp-98acfe91.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-llama-cpp-98acfe91.html</guid>
-    <description>大手AI企業Hugging Faceが、ノートパソコンで効率的にAIを動かす新機能を追加。自分のマシンでAIを実行しやすくなった。</description>
-    <pubDate>Mon, 12 Oct 2026 07:18:00 +0900</pubDate>
   </item>
 </channel></rss>
