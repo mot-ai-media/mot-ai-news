@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>デルCEOが警告：AIに安全装置が必須、企業と政府が協力しないと危ない</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dell-ai-ab5c9cb8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dell-ai-ab5c9cb8.html</guid>
+    <description>パソコン大手デルのマイケル・デルCEOが、AI技術には安全装置と統制が欠かせないと発言。企業と政府の両者が安全対策に関わるべき段階に来ていると指摘し、AIの野放し的な発展への危機感を表明している。</description>
+    <pubDate>Wed, 14 Oct 2026 13:29:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>米国防総省がAnthropicのAIを「ブラックリスト」化、企業が司法判断を求める</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-bf6ae984.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-bf6ae984.html</guid>
+    <description>AI企業Anthropicが、米国防総省によって自社のAIモデルが採用から除外された決定に対し、ワシントンD.C.の連邦裁判所に控訴の再審理を求める事態に。政府によるAI企業の規制が法廷で争われる初めてのケースとなる可能性がある。</description>
+    <pubDate>Wed, 14 Oct 2026 13:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIエージェント、失敗を避ける7ステップ構築法。40%が中止になる理由も明らかに</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/dify-copilot-studio-f73ff486.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dify-copilot-studio-f73ff486.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-63040305.html</guid>
     <description>ソフトバンク傘下がChatGPTの代替候補となる国産AI「Sarashina」の無料β版を公開。誰でも試せる。</description>
     <pubDate>Tue, 13 Oct 2026 14:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>SpaceX、AI部門を「超知能」に改名　トランプ政権の呼称変更に追随</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-03bbe806.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-tesla-03bbe806.html</guid>
-    <description>SpaceXのAI部門がXアカウント名を「SpaceXSI」に改名。トランプ政権が推し進める「AI」から「Super Intelligence」への呼称変更に対応した動き。</description>
-    <pubDate>Tue, 13 Oct 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT不要、PCで完全に動くAI「LLM Checker」で自分のマシンが最強化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-b1eff07f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-b1eff07f.html</guid>
-    <description>自分のパソコンで無料で動かせるAIモデルを探せるツール登場。クラウド不要の新しい選択肢。</description>
-    <pubDate>Tue, 13 Oct 2026 14:32:00 +0900</pubDate>
   </item>
 </channel></rss>

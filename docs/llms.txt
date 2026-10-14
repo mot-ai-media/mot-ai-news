@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-14 11:01
+最終更新: 2026-10-14 13:29
 
 ## 記事一覧
 
+- [Michael DellがAIの安全管理に言及、政府規制の必要性を主張](https://mot-ai-media.github.io/mot-ai-news/articles/dell-ai-ab5c9cb8.html): パソコン大手デルのマイケル・デルCEOが、AI技術には安全装置と統制が欠かせないと発言。企業と政府の両者が安全対策に関わるべき段階に来ていると指摘し、AIの野放し的な発展への危機感を表明している。 (出典: CNBC / 更新: 2026-10-14 13:29)
+- [Anthropic vs 米国防総省：ペンタゴンのAIブラックリスト問題が法廷へ](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-bf6ae984.html): AI企業Anthropicが、米国防総省によって自社のAIモデルが採用から除外された決定に対し、ワシントンD.C.の連邦裁判所に控訴の再審理を求める事態に。政府によるAI企業の規制が法廷で争われる初めてのケースとなる可能性がある。 (出典: CNBC / 更新: 2026-10-14 13:28)
 - [Google Gemini 4 Argonとは？料金プラン・利用方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-9c83062f.html): Googleの最先端AI「Gemini 4 Argon」が一般向けに提供開始。複数の料金プランで利用でき、APIでの活用も可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 11:01)
 - [Google PlayのAI機能、自作アプリ実行・ゲーム推薦・アプリ比較が新登場](https://mot-ai-media.github.io/mot-ai-news/articles/google-google-play-9c17d3cb.html): Googleがアプリ探しとゲーム発見をAI化。素人でもAI制作アプリが自分の端末で動作可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 11:01)
 - [AIエージェント構築の手順とは？7ステップ・基盤選び・本番運用を完全解説](https://mot-ai-media.github.io/mot-ai-news/articles/dify-copilot-studio-f73ff486.html): AIエージェント導入は、業務選定から基盤選び、安全設計まで計画的に進まないと失敗する。具体的な7ステップを解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-14 11:01)
@@ -205,5 +207,3 @@
 - [AIエージェント導入支援とは？費用相場・選び方・補助金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-copilot-studio-adf3f3c5.html): AIエージェント導入で失敗しないために、支援会社選びの判断軸と支援内容の相場を知ることが必須。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-07 11:01)
 - [FreeCAD×Claude/ChatGPT連携とは？MCPインターフェースの仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/claude-chatgpt-4a39bd0b.html): 大規模言語モデルがCAD設計ツールと直結し、AIの指示で3Dモデルを自動生成できる時代へ。 (出典: 3Druck.com / 更新: 2026-10-07 11:00)
 - [Anthropic Claude Startups プログラム拡大：スタートアップへの支援強化の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fad16983.html): AI企業Anthropicが、自社のAIモデル「Claude」をスタートアップ企業向けに提供するプログラムを拡大している。創業期の企業と急成長する企業をターゲットに、AIツールの普及を急速に進める戦略だ。 (出典: CNBC / 更新: 2026-10-07 10:28)
-- [AI産業の過度な投資は危険。BitMEX元CEO、仮想通貨との関係性を指摘](https://mot-ai-media.github.io/mot-ai-news/articles/ai-fd095d65.html): 暗号資産取引所BitMEXの元CEOが、現在のAI関連インフラへの莫大な投資が過剰だと警告。設備投資バブルの崩壊とそれに伴う金融危機がやってくると予測し、その後の相場変動に賭けている。 (出典: CNBC / 更新: 2026-10-07 10:27)
-- [PyMCとは？ベイズ統計モデルの可視化方法を初心者向けに解説](https://mot-ai-media.github.io/mot-ai-news/articles/pymc-python-d1ba134a.html): データ分析ツールPyMCのモデル構造を図で理解する方法が詳しく解説されています。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:27)

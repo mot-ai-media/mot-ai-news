@@ -1148,5 +1148,55 @@
     "japan_relevance_score": 58,
     "reason": "AIコード生成の品質を『コード簡潔性』で測る新しい視点だが、既存ベンチマークの拡張であり汎用性はやや限定的。",
     "discovered_at": "2026-10-14T01:28:59.115622+00:00"
+  },
+  {
+    "title": "I built a tool to track what AI leaders say and how their views change on video",
+    "link": "https://blumify.io/people",
+    "source": "Hacker News",
+    "summary": "Article URL: https://blumify.io/people\nComments URL: https://news.ycombinator.com/item?id=50081151\nPoints: 42\n# Comments: 24",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AIリーダーの発言追跡は新しいニッチだが、ツール自体の汎用性と日本での認知度は限定的。",
+    "discovered_at": "2026-10-14T04:29:14.260560+00:00"
+  },
+  {
+    "title": "Topgolf saved over $11.3M after leaving VMware",
+    "link": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/\nComments URL: https://news.ycombinator.com/item?id=50081054\nPoints: 41\n# Comments: 1",
+    "novelty_score": 35,
+    "japan_relevance_score": 28,
+    "reason": "VMware離脱による企業コスト削減事例は参考になるが、特定企業の個別事例でありやや局所的な話題",
+    "discovered_at": "2026-10-14T04:29:19.797446+00:00"
+  },
+  {
+    "title": "The Four Colour Theorem: The first time machines mogged mathematicians",
+    "link": "https://newsletter.pessimistsarchive.org/p/the-1st-time-machines-mogged-mathematicians",
+    "source": "Hacker News",
+    "summary": "https://celebratio.org/Appel_KI/article/796/#sender\n\nComments URL: https://news.ycombinator.com/item?id=50077096\nPoints: 54\n# Comments: 31",
+    "novelty_score": 25,
+    "japan_relevance_score": 35,
+    "reason": "四色定理の歴史的な記事だが、1976年の証明は既知で、新規性に欠ける。",
+    "discovered_at": "2026-10-14T04:29:28.654189+00:00"
+  },
+  {
+    "title": "Show HN: Deslop – Oxlint rules for AI-generated TypeScript",
+    "link": "https://github.com/maharshi365/deslop",
+    "source": "Hacker News",
+    "summary": "Catches unsafe types, duplicate code, and low-value tests.\n\nComments URL: https://news.ycombinator.com/item?id=50075809\nPoints: 28\n# Comments: 6",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI生成コード対応のlintルールは新しいが、Oxlintプラグイン自体は既存技術の応用であり、専門的すぎて一般向けニュース性は限定的。",
+    "discovered_at": "2026-10-14T04:29:32.325028+00:00"
+  },
+  {
+    "title": "Ukraine Is Successfully Bombing the Heart of Russia's Disinformation Machine",
+    "link": "https://cmarmitage.substack.com/p/ukraine-is-successfully-bombing-the",
+    "source": "Hacker News",
+    "summary": "Article URL: https://cmarmitage.substack.com/p/ukraine-is-successfully-bombing-the\nComments URL: https://news.ycombinator.com/item?id=50074091\nPoints: 53\n# Comments: 28",
+    "novelty_score": 35,
+    "japan_relevance_score": 25,
+    "reason": "ウクライナの軍事作戦は既報だが、情報戦への影響分析は限定的で日本への直接的な関連性は低い",
+    "discovered_at": "2026-10-14T04:29:34.145965+00:00"
   }
 ]
