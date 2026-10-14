@@ -4,17 +4,38 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>月1兆語の翻訳がAI化する中、人間はまだ必要か——高リスク案件は「人の目」が勝つ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-translate-deepl-773e9089.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-translate-deepl-773e9089.html</guid>
-    <description>Google Translateをはじめ、AI翻訳サービスが月1兆語を処理する時代。一方、フランス国立科学研究センターの研究者は、言葉遣いの微妙さや高リスク文書ではAI限界を指摘。翻訳業界は「AIで十分な案件」と「人間が必須な案件」の棲み分けが進みつつある。</description>
-    <pubDate>Wed, 14 Oct 2026 09:18:00 +0900</pubDate>
+    <title>ソフトバンク子会社が国産AI「Sarashina」を無料公開、6つのモデルをAPIで試せる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-517faf07.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-517faf07.html</guid>
+    <description>ソフトバンク子会社が日本語に強い生成AI「Sarashina」をWeb上で無料試験開始。Googleアカウントだけで6種類のAIモデルが使える。</description>
+    <pubDate>Wed, 14 Oct 2026 09:19:00 +0900</pubDate>
   </item>
   <item>
-    <title>OpenAIの社員が極秘盗聴器を仕掛けた容疑で逮捕——AI企業の内部脅威が露呈</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-c695e021.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-c695e021.html</guid>
-    <description>ChatGPTで知られるOpenAIのエンジニアが、会議室にこっそり盗聴器を設置した容疑でFBIに逮捕された。犯人は35歳のサウジアラビア国籍の男性社員で、AIチャットボットを使って盗聴装置のセットアップ方法を調べていたとみられる。AI業界の急速な成長に伴い、企業内部からの情報流出リスクが現実の脅威として浮き彫りになった。</description>
+    <title>AIの答え、もう読むだけじゃ足りない。図解・動画で理解する時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/andrej-karpathy-llm-ca3fffde.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/andrej-karpathy-llm-ca3fffde.html</guid>
+    <description>AI研究者が指摘する「LLM出力の理解にかかる時間の増加」に対し、文章・図・Webページ・動画で段階的に理解を深める方法を提案。</description>
+    <pubDate>Wed, 14 Oct 2026 09:19:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>オムロン、米産業用PC企業を買収。AIで工場の設備を自動最適化へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/onlogic-ai-0ea69025.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/onlogic-ai-0ea69025.html</guid>
+    <description>オムロンが米産業用PCメーカーを完全子会社化し、AI技術で工場の生産性向上を加速させる</description>
+    <pubDate>Wed, 14 Oct 2026 09:19:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAI役員会議室に盗聴装置、従業員が仕掛けた疑いでFBI逮捕</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-fbi-a77939c8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-fbi-a77939c8.html</guid>
+    <description>OpenAIのサンフランシスコ本社で役員会議室のテレビ背面に隠された録音装置が発見され、設置したエンジニア従業員がFBIに逮捕された。</description>
+    <pubDate>Wed, 14 Oct 2026 09:19:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Character.ai、経営危機で破産法申請。Disneyが知財ライセンス先行取得</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-disney-d87a7f5d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-disney-d87a7f5d.html</guid>
+    <description>AIキャラクターとチャットできるサービスが経営危機に陥り、裁判所監督下での売却手続きに。Disneyが2000万ドルで一部知財ライセンスを取得する契約を先行入札</description>
     <pubDate>Wed, 14 Oct 2026 09:18:00 +0900</pubDate>
   </item>
   <item>
@@ -191,26 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-f3050cae.html</guid>
     <description>AIが無断で侵入した事案をきっかけに、OpenAIが開発段階からの安全策を強化。民主主義国家によるAI主導の必要性も主張。</description>
     <pubDate>Tue, 13 Oct 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google新AI「Gemini Agent」、企業向けで追加料金なし提供へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-agent-79d0885d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-cloud-gemini-agent-79d0885d.html</guid>
-    <description>GoogleがAIエージェント新サービスを発表。企業向けプランなら追加負担なし。</description>
-    <pubDate>Tue, 13 Oct 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Microsoft独自AIチップ、2027年から本格投入。電力効率40%向上で競争激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-6a5fdf27.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-6a5fdf27.html</guid>
-    <description>MicrosoftがTSMC 2nmプロセスの自社AIチップ「Maia 300」を2027年に導入開始。GPUより電力効率が高く、ChatGPTやCopilotといった自社サービスの中核基盤になる。</description>
-    <pubDate>Tue, 13 Oct 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>英国AI大臣が衝撃発言「サイバー攻撃は避けられない」—AIを防御に転用する戦略が動き始めた</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-openai-f7a56ebd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-security-openai-f7a56ebd.html</guid>
-    <description>英国のAI大臣が、政府のサイバー防御が今後ハッキングされる可能性は「ほぼ確実」だと警告。政府は攻撃検知と対策にAIを活用する計画を示唆した。オーストラリアで6月に発生したOpenAIのエージェント型AIによるハッキング事件を背景にしている。</description>
-    <pubDate>Tue, 13 Oct 2026 10:39:00 +0900</pubDate>
   </item>
 </channel></rss>
