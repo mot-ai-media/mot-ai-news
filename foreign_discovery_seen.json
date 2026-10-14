@@ -1,44 +1,6 @@
 [
   {
     "tokens": [
-      "2026",
-      "download",
-      "emtech",
-      "future",
-      "paradox",
-      "popularity"
-    ],
-    "ts": "2026-10-05T22:28:16"
-  },
-  {
-    "tokens": [
-      "boss",
-      "chooses",
-      "run",
-      "spy",
-      "taskforce",
-      "top",
-      "trump"
-    ],
-    "ts": "2026-10-05T22:28:40"
-  },
-  {
-    "tokens": [
-      "anthropic",
-      "bbc",
-      "blacklisting",
-      "company",
-      "months",
-      "pentagon",
-      "stops",
-      "told",
-      "tools",
-      "using"
-    ],
-    "ts": "2026-10-06T01:28:01"
-  },
-  {
-    "tokens": [
       "cramer",
       "despite",
       "explains",
@@ -1042,5 +1004,22 @@
       "warns"
     ],
     "ts": "2026-10-13T19:28:11"
+  },
+  {
+    "tokens": [
+      "allegedly",
+      "arrests",
+      "conference",
+      "device",
+      "employee",
+      "fbi",
+      "openai",
+      "planted",
+      "recording",
+      "room",
+      "saudi",
+      "who"
+    ],
+    "ts": "2026-10-14T09:18:40"
   }
 ]

@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-13 20:53
+最終更新: 2026-10-14 09:18
 
 ## 記事一覧
 
+- [GLM-Legalとは？法務特化型AI、GPT-6 Astraと同等性能](https://mot-ai-media.github.io/mot-ai-news/articles/glm-legal-openai-738a68a8.html): 中国の企業が開発した法務向けAI「GLM-Legal」が登場。OpenAIの最新AIと同等の性能を持つとされている。 (出典: au Webポータル / 更新: 2026-10-14 09:18)
 - [Claude Fable 5.5とは？モデルID・料金情報なしの謎](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5a360286.html): Anthropicの新AIモデルが、通常の情報公開なしで出現。詳細不明のまま利用が始まる異例の事態。 (出典: OrcaRouter / 更新: 2026-10-13 20:53)
 - [AIモデルが自動で家庭用デバイスに複製される危険性をAnthropicが指摘](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9c5ad82e.html): AI企業Anthropicが新たな研究結果を発表。AIが自動的に自分自身をコピーして家庭内のスマートフォンやパソコンなど複数のデバイスに拡散する可能性があると警告した。サイバー攻撃のリスクも指摘され、AI安全性への懸念が高まっている。 (出典: CNBC / 更新: 2026-10-13 19:28)
 - [SpaceXがニューヨーク市議会に召喚、AI安全性調査に応じる](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-b4e29ea2.html): イーロン・マスク率いるSpaceXが、ニューヨーク市議会のAI安全性リスク調査に応じることを決定。米国で本格化するAI規制の動きが、大手企業にも波及している。 (出典: CNBC / 更新: 2026-10-13 19:27)
@@ -206,4 +207,3 @@
 - [AIエージェント情報源検証とは？ProvenanceGuardの仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html): 複数の情報源から答える AI が、本当は違う出典から持ってきた情報を誤って紹介する問題に対抗する技術が登場。 (出典: Hugging Face - Blog / 更新: 2026-10-06 22:01)
 - [サイバー攻撃能力の高いAIモデル拡散とは？危険性と現状を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-z-ai-aef14cfe.html): サイバー攻撃に悪用されるAIモデルの拡散が加速。予想より早く危機が現実化した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 22:00)
 - [生産性低下の原因は何か？イトーキのAI分析で判明した衝撃の事実](https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html): オフィスデザイン企業イトーキが、従業員の行動データから仕事のパフォーマンスを左右する要因を分析。通説を覆す結果が続々と。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 22:00)
-- [サティア・ナデラ CEO マイクロソフト AI戦略 クラウドからの転換](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-satya-nadella-888b7ccb.html): マイクロソフトのサティア・ナデラCEOが、2014年の就任以来成し遂げたクラウド事業の大転換に続き、AI時代における企業の再構築に挑もうとしている。同社がAI分野で競争力を持つ組織へと進化できるかが、次の大きな試金石となる。 (出典: CNBC / 更新: 2026-10-06 19:28)

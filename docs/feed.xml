@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>中国製AI「GLM-Legal」が法務の世界に殴り込み、OpenAIの最新モデルと肩を並べる</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/glm-legal-openai-738a68a8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/glm-legal-openai-738a68a8.html</guid>
+    <description>中国の企業が開発した法務向けAI「GLM-Legal」が登場。OpenAIの最新AIと同等の性能を持つとされている。</description>
+    <pubDate>Wed, 14 Oct 2026 09:18:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claudeの新モデル、謎のまま登場。情報なしで何が起きているのか</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5a360286.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5a360286.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-01c2829a.html</guid>
     <description>Metaが新型AI「Muse Wonder」を発表。同社の最新AIモデルはアプリの有料購読でのみアクセス可能となり、テック大手の間でAI機能の有料化が加速している。</description>
     <pubDate>Tue, 13 Oct 2026 10:38:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAI、GPT-6 Astraの手書き認識精度を50%向上</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-0bbf1d9c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-0bbf1d9c.html</guid>
-    <description>OpenAIの最新モデルGPT-6 Astraが手書き文字認識の精度を大幅に改善。</description>
-    <pubDate>Tue, 13 Oct 2026 08:53:00 +0900</pubDate>
   </item>
 </channel></rss>
