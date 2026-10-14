@@ -1,49 +1,6 @@
 [
   {
     "tokens": [
-      "cramer",
-      "despite",
-      "explains",
-      "hitting",
-      "records",
-      "stocks",
-      "surging",
-      "yields."
-    ],
-    "ts": "2026-10-06T10:22:04"
-  },
-  {
-    "tokens": [
-      "built",
-      "centers",
-      "ceo",
-      "constraints",
-      "data",
-      "faster'",
-      "nokia",
-      "supply",
-      "without",
-      "would"
-    ],
-    "ts": "2026-10-06T10:28:04"
-  },
-  {
-    "tokens": [
-      "climbs",
-      "highest",
-      "june",
-      "musk",
-      "returning",
-      "since",
-      "spacex",
-      "status",
-      "stock",
-      "trillionaire"
-    ],
-    "ts": "2026-10-06T10:28:21"
-  },
-  {
-    "tokens": [
       "alleging",
       "billion",
       "deal",
@@ -1030,5 +987,27 @@
       "translation"
     ],
     "ts": "2026-10-14T09:18:57"
+  },
+  {
+    "tokens": [
+      "employers",
+      "jobseekers",
+      "use"
+    ],
+    "ts": "2026-10-14T10:28:11"
+  },
+  {
+    "tokens": [
+      "cramer",
+      "here's",
+      "infrastructure",
+      "jim",
+      "newly",
+      "public",
+      "stands",
+      "stock",
+      "where"
+    ],
+    "ts": "2026-10-14T10:28:29"
   }
 ]

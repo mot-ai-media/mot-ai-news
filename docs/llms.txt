@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-14 09:20
+最終更新: 2026-10-14 10:28
 
 ## 記事一覧
 
+- [就職活動でAI利用が浸透、志望者と企業の「AI軍拡競争」が加速](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-3ba64607.html): イギリスの大学卒業生がAIを使って職務経歴書や志望理由書を作成する傾向が急速に広がっている。採用担当者の155社調査では多くの企業がAI利用を許容する一方、志望者は企業もAIで候補者を選別していることに違和感を感じており、両者の「綱渡り」状態が生まれている。 (出典: BBC / 更新: 2026-10-14 10:28)
+- [Accelevation Holdings上場、Jim Cramer注意喚起。AI関連株投資の判断材料](https://mot-ai-media.github.io/mot-ai-news/articles/accelevation-holdings-jim-cramer-3ffc6089.html): AI関連インフラ企業Accelevation Holdingsが新規上場したことを受け、CNBC のJim Cramer氏が投資家に対して買い急ぎを控えるよう提言。海外では新興AI企業の上場ラッシュに対する慎重論が広がり始めている。 (出典: CNBC / 更新: 2026-10-14 10:28)
 - [OpenAI盗聴事件とは？従業員逮捕の詳細と背景](https://mot-ai-media.github.io/mot-ai-news/articles/openai-fbi-a77939c8.html): OpenAIのサンフランシスコ本社で役員会議室のテレビ背面に隠された録音装置が発見され、設置したエンジニア従業員がFBIに逮捕された。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 09:19)
 - [オムロンがOnLogic買収、AIで工場設備の最適化へ](https://mot-ai-media.github.io/mot-ai-news/articles/onlogic-ai-0ea69025.html): オムロンが米産業用PCメーカーを完全子会社化し、AI技術で工場の生産性向上を加速させる (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 09:19)
 - [AIの出力を理解する時間が増加、効果的な4つの手段とは](https://mot-ai-media.github.io/mot-ai-news/articles/andrej-karpathy-llm-ca3fffde.html): AI研究者が指摘する「LLM出力の理解にかかる時間の増加」に対し、文章・図・Webページ・動画で段階的に理解を深める方法を提案。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 09:19)
@@ -205,5 +207,3 @@
 - [生成AIが間違える理由とは？ハルシネーション対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-4dd5c8f2.html): 生成AIは「次の言葉を確率で予測する」仕組みのため、毎回答えが変わり、存在しない情報を信じ込ませる危険性がある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:25)
 - [GPT-6 Astraがナポレオンの暗号書簡を解読、217年ぶりに内容判明](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7696047e.html): OpenAIの最新AI「GPT-6 Astra」が、200年以上前のナポレオンの暗号書簡を初めて解読。AIの能力の広がりを示す事例。 (出典: Yahoo!ニュース / 更新: 2026-10-06 22:53)
 - [Mistral Le Chonk AI 1兆パラメータ 中国対抗 日本への影響](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-le-chonk-49966735.html): フランスのAI企業Mistralが新型大規模言語モデル「Le Chonk」を発表。中国企業との競争が激化するなか、欧米系の独立系AI開発が新段階に入った。 (出典: CNBC / 更新: 2026-10-06 22:28)
-- [イタリア首相メローニが音声商標登録 AI deepfake対策 テイラー・スウィフトも](https://mot-ai-media.github.io/mot-ai-news/articles/ai-deepfake-euipo-1bed4d68.html): イタリアのジョルジア・メローニ首相が、自分の声をEU知的財産庁に商標登録申請した。AIによる音声合成技術の悪用を防ぐ防衛策で、テイラー・スウィフトやマシュー・マコノヒーら海外セレブに続く動きだ。日本でも同様の脅威が迫りつつある。 (出典: BBC / 更新: 2026-10-06 22:28)
-- [Falcon-Emiratiとは？UAE方言AIモデルの仕組みと何が違うのか](https://mot-ai-media.github.io/mot-ai-news/articles/falcon-hugging-face-085f7195.html): 標準アラビア語だけでなく、UAE特有の方言・文化・ニュアンスを理解するAI言語モデルが開発された。 (出典: Hugging Face - Blog / 更新: 2026-10-06 22:01)

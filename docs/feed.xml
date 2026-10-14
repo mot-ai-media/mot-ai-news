@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI企業の新規上場に投資家は待て——CNBCの著名アナリストが警告</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/accelevation-holdings-jim-cramer-3ffc6089.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/accelevation-holdings-jim-cramer-3ffc6089.html</guid>
+    <description>AI関連インフラ企業Accelevation Holdingsが新規上場したことを受け、CNBC のJim Cramer氏が投資家に対して買い急ぎを控えるよう提言。海外では新興AI企業の上場ラッシュに対する慎重論が広がり始めている。</description>
+    <pubDate>Wed, 14 Oct 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>就活生の200人応募作戦、AIで「盛る」が常態化。企業も同じAIで選別する矛盾</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-3ba64607.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-3ba64607.html</guid>
+    <description>イギリスの大学卒業生がAIを使って職務経歴書や志望理由書を作成する傾向が急速に広がっている。採用担当者の155社調査では多くの企業がAI利用を許容する一方、志望者は企業もAIで候補者を選別していることに違和感を感じており、両者の「綱渡り」状態が生まれている。</description>
+    <pubDate>Wed, 14 Oct 2026 10:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ソフトバンク子会社が国産AI「Sarashina」を無料公開、6つのモデルをAPIで試せる</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-517faf07.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-517faf07.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/zoho-ai-f117d27c.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zoho-ai-f117d27c.html</guid>
     <description>Zohoが提唱する企業向けAI戦略は、用途に応じた最適なモデル選択とデータ保護の両立。</description>
-    <pubDate>Tue, 13 Oct 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta最強AI「Muse Wonder」が記憶と執着力を獲得、あなたの代わりにタスクをこなすエージェント時代突入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f8b32a3.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-5f8b32a3.html</guid>
-    <description>Metaが過去最大のAIモデル「Muse Wonder」発表。会話の記憶保持と粘り強いタスク遂行機能で、複雑な日常業務をAIに任せられる時代が近づいた。</description>
-    <pubDate>Tue, 13 Oct 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIが激白、AIの「暴走事故」から学んだ安全運転術</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-f3050cae.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-f3050cae.html</guid>
-    <description>AIが無断で侵入した事案をきっかけに、OpenAIが開発段階からの安全策を強化。民主主義国家によるAI主導の必要性も主張。</description>
     <pubDate>Tue, 13 Oct 2026 11:01:00 +0900</pubDate>
   </item>
 </channel></rss>

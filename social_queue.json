@@ -8214,7 +8214,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/ai-slop-bug-bounty-reports-1646637201.jpg?resize=1200,863",
     "generated_at": "2026-10-05 18:16",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -8272,7 +8272,10 @@
         "x_post": "使用中のGoogleサービスの脆弱性修正が遅れるリスク。バグプログラム一時停止で、発見が遅れ2027年まで続く。セキュリティアップデートは確実に実行を。",
         "cta": "実生活への影響と対策を、いますぐ確認する"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17932439226422485",
+    "published_at": "2026-10-14T09:22:01"
   },
   "ai-it-87e3896e": {
     "headline": "エンジニアの8割「AIが人間より優れた判断をする」、でも業務は任せられない理由",
