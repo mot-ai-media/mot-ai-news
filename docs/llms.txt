@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-14 13:29
+最終更新: 2026-10-14 18:44
 
 ## 記事一覧
 
+- [家庭用AI助手が普及する時代、いつから実現する？](https://mot-ai-media.github.io/mot-ai-news/articles/cerebras-ai-31437584.html): AI企業トップが、スマートフォンのようにローカル+クラウド連携する個人用AIが家庭に普及する日は近いと予測。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-14 18:44)
+- [AIがサイバー攻撃に使われている？Anthropicが警告する実態とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9727039a.html): 日本企業への相次ぐサイバー攻撃にAIが悪用される可能性を、AI企業Anthropicの共同創業者が指摘。防御対策の強化を呼びかけています。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 18:43)
+- [日立の木造データセンターとは？従来型との違いと環境メリット](https://mot-ai-media.github.io/mot-ai-news/articles/09329565.html): 日立製作所が木造データセンターの販売を開始。見た目だけでなく、コスト削減と環境配慮を両立させる戦略。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 18:43)
+- [AIがAIを作る「再帰的自己改善」2027年50%超の確率とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-01f449dc.html): AIが自らを改善するRSIが2027年に実現される確率が50%超に。ただし実行は不可逆的な決断で、企業だけでなく政府の判断も必要。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 18:43)
+- [デンマーク個人情報流出の原因とは？パスワード123456で侵入](https://mot-ai-media.github.io/mot-ai-news/articles/7ccc985d.html): デンマークで880万人分の個人情報流出。犯人が手口を明かし、中間企業の単純なパスワード悪用が原因だったことが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 18:43)
 - [Michael DellがAIの安全管理に言及、政府規制の必要性を主張](https://mot-ai-media.github.io/mot-ai-news/articles/dell-ai-ab5c9cb8.html): パソコン大手デルのマイケル・デルCEOが、AI技術には安全装置と統制が欠かせないと発言。企業と政府の両者が安全対策に関わるべき段階に来ていると指摘し、AIの野放し的な発展への危機感を表明している。 (出典: CNBC / 更新: 2026-10-14 13:29)
 - [Anthropic vs 米国防総省：ペンタゴンのAIブラックリスト問題が法廷へ](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-bf6ae984.html): AI企業Anthropicが、米国防総省によって自社のAIモデルが採用から除外された決定に対し、ワシントンD.C.の連邦裁判所に控訴の再審理を求める事態に。政府によるAI企業の規制が法廷で争われる初めてのケースとなる可能性がある。 (出典: CNBC / 更新: 2026-10-14 13:28)
 - [Google Gemini 4 Argonとは？料金プラン・利用方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-9c83062f.html): Googleの最先端AI「Gemini 4 Argon」が一般向けに提供開始。複数の料金プランで利用でき、APIでの活用も可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 11:01)
@@ -202,8 +207,3 @@
 - [Meta Muse AIエージェント AMD Intel 株価上昇 CPU需要](https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html): Metaが提供するAIエージェント「Muse」の利用者増加に伴い、プロセッサーを製造するAMDとIntelの株価が過去1ヶ月で大手テック企業を上回るパフォーマンスを示している。AI時代の次の波が、ハードウェア産業にもたらす変化に注目が集まっている。 (出典: CNBC / 更新: 2026-10-07 13:32)
 - [AI研究者の警告が海外で話題に。日本への影響は？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-3f928b2b.html): 海外で報道されているAI研究者による警告が、業界の急速な成長に対する懸念を示唆。日本ではまだ大きな注目を集めていないが、今後のAI産業や社会への影響を考える上で重要な指摘とされている。 (出典: CNBC / 更新: 2026-10-07 13:31)
 - [AIエージェント導入事例10選。成功企業の数値・成果から学ぶ](https://mot-ai-media.github.io/mot-ai-news/articles/salesforce-agentforce-klarna-36e97bd0.html): 顧客対応・営業・社内業務で実績を上げるAIエージェント。数値の読み方を知れば、社内提案が通りやすくなる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-07 11:02)
-- [商品開発プロセスをAIで一元化、NTTデータが新連携](https://mot-ai-media.github.io/mot-ai-news/articles/ntt-ai-b205a5d6.html): インテージとNTTデータが連携し、消費財メーカーの商品開発をAIで支援する仕組みを構築。データ分析から商品化まで自動化される。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 11:01)
-- [OpenAIのAIが数学難問722個を証明・公開。リーマン予想関連も](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-1fa658b4.html): OpenAIが社内AIによる数学の成果722本をGitHubで公開。過去の論争を受けて検証可能な形での発表に転換。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 11:01)
-- [AIエージェント導入支援とは？費用相場・選び方・補助金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-copilot-studio-adf3f3c5.html): AIエージェント導入で失敗しないために、支援会社選びの判断軸と支援内容の相場を知ることが必須。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-07 11:01)
-- [FreeCAD×Claude/ChatGPT連携とは？MCPインターフェースの仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/claude-chatgpt-4a39bd0b.html): 大規模言語モデルがCAD設計ツールと直結し、AIの指示で3Dモデルを自動生成できる時代へ。 (出典: 3Druck.com / 更新: 2026-10-07 11:00)
-- [Anthropic Claude Startups プログラム拡大：スタートアップへの支援強化の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fad16983.html): AI企業Anthropicが、自社のAIモデル「Claude」をスタートアップ企業向けに提供するプログラムを拡大している。創業期の企業と急成長する企業をターゲットに、AIツールの普及を急速に進める戦略だ。 (出典: CNBC / 更新: 2026-10-07 10:28)

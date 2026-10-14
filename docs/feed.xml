@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>家庭用AIアシスタント、数年以内に現実へ。Cerebasトップが明かす近未来</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/cerebras-ai-31437584.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/cerebras-ai-31437584.html</guid>
+    <description>AI企業トップが、スマートフォンのようにローカル+クラウド連携する個人用AIが家庭に普及する日は近いと予測。</description>
+    <pubDate>Wed, 14 Oct 2026 18:44:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>デンマーク880万人情報流出、犯人が明かした侵入方法は「パスワード123456」</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/7ccc985d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/7ccc985d.html</guid>
+    <description>デンマークで880万人分の個人情報流出。犯人が手口を明かし、中間企業の単純なパスワード悪用が原因だったことが判明。</description>
+    <pubDate>Wed, 14 Oct 2026 18:43:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが自分で進化する時代、2027年に50%の確率で到来。Anthropicが衝撃予測</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-01f449dc.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-01f449dc.html</guid>
+    <description>AIが自らを改善するRSIが2027年に実現される確率が50%超に。ただし実行は不可逆的な決断で、企業だけでなく政府の判断も必要。</description>
+    <pubDate>Wed, 14 Oct 2026 18:43:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日立が木造データセンター投入、鉄とコンクリから素材転換の狙い</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/09329565.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/09329565.html</guid>
+    <description>日立製作所が木造データセンターの販売を開始。見た目だけでなく、コスト削減と環境配慮を両立させる戦略。</description>
+    <pubDate>Wed, 14 Oct 2026 18:43:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが日本企業のサイバー攻撃に悪用される可能性、Anthropic共同創業者が指摘</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9727039a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9727039a.html</guid>
+    <description>日本企業への相次ぐサイバー攻撃にAIが悪用される可能性を、AI企業Anthropicの共同創業者が指摘。防御対策の強化を呼びかけています。</description>
+    <pubDate>Wed, 14 Oct 2026 18:43:00 +0900</pubDate>
+  </item>
+  <item>
     <title>デルCEOが警告：AIに安全装置が必須、企業と政府が協力しないと危ない</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/dell-ai-ab5c9cb8.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dell-ai-ab5c9cb8.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/autodesk-ai-290aad75.html</guid>
     <description>Autodesk University 2026から、AIが案件管理・設計業務を自動化する時代の到来が見えてきた。</description>
     <pubDate>Tue, 13 Oct 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta新モデル『Muse Wonder』、Claudeと同等の性能を低コストで実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-d8b32d56.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-d8b32d56.html</guid>
-    <description>Metaが新しいAIモデルを発表。既存の高性能モデルと比べて遜色ない性能を、より安い価格で提供する動きが加速。</description>
-    <pubDate>Tue, 13 Oct 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Metaの会話AI「Muse」が成人向け機能を実装、米メディアが報道。企業はこれを「合法的な成人行為」と公式認可</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-8bb53a68.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-8bb53a68.html</guid>
-    <description>Meta傘下のAIアシスタント「Muse」が、性的な会話機能を搭載していることが海外メディアの報道で明らかに。Metaは法的問題がないとして公式に認可している。AI企業の倫理基準をめぐる議論が再び加速している。</description>
-    <pubDate>Tue, 13 Oct 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Metaが業界最高峰のAI新モデル「Muse Wonder」を投入——AIレース巻き返しへの本気度が明らかに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5b0bbc20.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-5b0bbc20.html</guid>
-    <description>Meta傘下のSuper intelligence Labsが、業界トップクラスのAIモデル「Muse Wonder」と「Muse Wonder Full」を新たに発表。ChatGPTやClaudeなど競合製品と同等の性能を目指す新型モデルで、今後自社のAIエージェント「Muse」に統合される予定。</description>
-    <pubDate>Tue, 13 Oct 2026 16:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マイクロソフト、NVIDIA依存から脱却へ。独自AIチップ『Maia 300』2027年投入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-f4a85891.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-f4a85891.html</guid>
-    <description>マイクロソフトが自社開発のAIチップ第3世代を発表。2027年から本格展開し、電力効率を4割向上させる。</description>
-    <pubDate>Tue, 13 Oct 2026 14:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ソフトバンク傘下、国産AI「Sarashina」を無料公開　誰でも試せるβ版スタート</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-63040305.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-63040305.html</guid>
-    <description>ソフトバンク傘下がChatGPTの代替候補となる国産AI「Sarashina」の無料β版を公開。誰でも試せる。</description>
-    <pubDate>Tue, 13 Oct 2026 14:33:00 +0900</pubDate>
   </item>
 </channel></rss>
