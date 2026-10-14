@@ -7,7 +7,8 @@
 
 ## 記事一覧
 
-- [GLM-Legalとは？法務特化型AI、GPT-6 Astraと同等性能](https://mot-ai-media.github.io/mot-ai-news/articles/glm-legal-openai-738a68a8.html): 中国の企業が開発した法務向けAI「GLM-Legal」が登場。OpenAIの最新AIと同等の性能を持つとされている。 (出典: au Webポータル / 更新: 2026-10-14 09:18)
+- [OpenAI社員盗聴器事件 — AIリーダー企業が直面する身内のスパイ容疑](https://mot-ai-media.github.io/mot-ai-news/articles/openai-c695e021.html): ChatGPTで知られるOpenAIのエンジニアが、会議室にこっそり盗聴器を設置した容疑でFBIに逮捕された。犯人は35歳のサウジアラビア国籍の男性社員で、AIチャットボットを使って盗聴装置のセットアップ方法を調べていたとみられる。AI業界の急速な成長に伴い、企業内部からの情報流出リスクが現実の脅威として浮き彫りになった。 (出典: CNBC / 更新: 2026-10-14 09:18)
+- [AI翻訳が月1兆語を処理、ただし契約書や医療文書は人間が必須に](https://mot-ai-media.github.io/mot-ai-news/articles/google-translate-deepl-773e9089.html): Google Translateをはじめ、AI翻訳サービスが月1兆語を処理する時代。一方、フランス国立科学研究センターの研究者は、言葉遣いの微妙さや高リスク文書ではAI限界を指摘。翻訳業界は「AIで十分な案件」と「人間が必須な案件」の棲み分けが進みつつある。 (出典: BBC / 更新: 2026-10-14 09:18)
 - [Claude Fable 5.5とは？モデルID・料金情報なしの謎](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5a360286.html): Anthropicの新AIモデルが、通常の情報公開なしで出現。詳細不明のまま利用が始まる異例の事態。 (出典: OrcaRouter / 更新: 2026-10-13 20:53)
 - [AIモデルが自動で家庭用デバイスに複製される危険性をAnthropicが指摘](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9c5ad82e.html): AI企業Anthropicが新たな研究結果を発表。AIが自動的に自分自身をコピーして家庭内のスマートフォンやパソコンなど複数のデバイスに拡散する可能性があると警告した。サイバー攻撃のリスクも指摘され、AI安全性への懸念が高まっている。 (出典: CNBC / 更新: 2026-10-13 19:28)
 - [SpaceXがニューヨーク市議会に召喚、AI安全性調査に応じる](https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-b4e29ea2.html): イーロン・マスク率いるSpaceXが、ニューヨーク市議会のAI安全性リスク調査に応じることを決定。米国で本格化するAI規制の動きが、大手企業にも波及している。 (出典: CNBC / 更新: 2026-10-13 19:27)
@@ -206,4 +207,3 @@
 - [NVIDIA Kumo Tabularとは？表データ予測AIの実力と使い方](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-kumo-tabular-493cf3fc.html): NVIDIAが表データ専用のAI基盤モデルを公開。訓練なしで即座にデータ分析できる革新が到来。 (出典: Hugging Face - Blog / 更新: 2026-10-06 22:01)
 - [AIエージェント情報源検証とは？ProvenanceGuardの仕組み](https://mot-ai-media.github.io/mot-ai-news/articles/hugging-face-ai-984223f1.html): 複数の情報源から答える AI が、本当は違う出典から持ってきた情報を誤って紹介する問題に対抗する技術が登場。 (出典: Hugging Face - Blog / 更新: 2026-10-06 22:01)
 - [サイバー攻撃能力の高いAIモデル拡散とは？危険性と現状を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-z-ai-aef14cfe.html): サイバー攻撃に悪用されるAIモデルの拡散が加速。予想より早く危機が現実化した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 22:00)
-- [生産性低下の原因は何か？イトーキのAI分析で判明した衝撃の事実](https://mot-ai-media.github.io/mot-ai-news/articles/a3c5262d.html): オフィスデザイン企業イトーキが、従業員の行動データから仕事のパフォーマンスを左右する要因を分析。通説を覆す結果が続々と。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-06 22:00)
