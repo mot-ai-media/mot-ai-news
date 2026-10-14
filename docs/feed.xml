@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIエージェント、失敗を避ける7ステップ構築法。40%が中止になる理由も明らかに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dify-copilot-studio-f73ff486.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dify-copilot-studio-f73ff486.html</guid>
+    <description>AIエージェント導入は、業務選定から基盤選び、安全設計まで計画的に進まないと失敗する。具体的な7ステップを解説。</description>
+    <pubDate>Wed, 14 Oct 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google Play、AIでアプリを自作できる時代へ。開発者登録なしで端末実行可能に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-play-9c17d3cb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-play-9c17d3cb.html</guid>
+    <description>Googleがアプリ探しとゲーム発見をAI化。素人でもAI制作アプリが自分の端末で動作可能に。</description>
+    <pubDate>Wed, 14 Oct 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Google最新AI「Gemini 4 Argon」一般提供開始、月額2900円から利用可能</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-9c83062f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-9c83062f.html</guid>
+    <description>Googleの最先端AI「Gemini 4 Argon」が一般向けに提供開始。複数の料金プランで利用でき、APIでの活用も可能に。</description>
+    <pubDate>Wed, 14 Oct 2026 11:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>BTSがGoogle Geminiと公式コラボ、専用機能で4つの体験が解放</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b0950a18.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b0950a18.html</guid>
+    <description>人気アイドルBTSがAIアシスタント「Gemini」とコラボ。特定のコマンド入力で限定体験が楽しめる。</description>
+    <pubDate>Wed, 14 Oct 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Geminiが使えない時の原因と対処法。動作不具合を自力で解決</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-087415d2.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-087415d2.html</guid>
+    <description>Googleの AI「Gemini」が使えなくなった時の原因と解決方法を実践的に解説。</description>
+    <pubDate>Wed, 14 Oct 2026 11:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI動画生成、1分から10分超へ。Higgsfield が長尺化実現</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-953fad93.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-953fad93.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-llm-b1eff07f.html</guid>
     <description>自分のパソコンで無料で動かせるAIモデルを探せるツール登場。クラウド不要の新しい選択肢。</description>
     <pubDate>Tue, 13 Oct 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>インテル、3000億パラメーターLLM対応の専用GPU発表。AI企業の競争激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/intel-nvidia-11327899.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/intel-nvidia-11327899.html</guid>
-    <description>インテルが大規模言語モデル対応のAI専用GPU「D270」を発表。生成AIの開発・運用を支えるハードウェア競争が本格化</description>
-    <pubDate>Tue, 13 Oct 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>TikTok CEOが明言「3年以内にAIが科学の大発見をもたらす」—ただし安全策が急務</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tiktok-ai-c3622838.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tiktok-ai-c3622838.html</guid>
-    <description>TikTokのCEOが、今後3年以内にAIが医学・物理学など科学分野で大きな発見をもたらすと予測。同時に、自動化システムの急速な拡大に伴い、より強固な安全対策が必要だと指摘している。</description>
-    <pubDate>Tue, 13 Oct 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>マイクロソフトがNvidia依存から脱却、自社AI専用チップで利益率を大幅アップ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-eb8c5c32.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-nvidia-eb8c5c32.html</guid>
-    <description>マイクロソフトが自社開発のAI専用チップの活用を拡大し、Nvidiaへの依存を減らす戦略を本格化。これにより利益率改善とAI技術の完全な自社統制が可能になるが、AI半導体市場の競争激化と業界再編の入口となる動きとして注目される。</description>
-    <pubDate>Tue, 13 Oct 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、新AI「Muse Wonder」で業界トップ勢に反旗。AIモデル戦線が激化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-6a0c1ccd.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-wonder-6a0c1ccd.html</guid>
-    <description>MetaがMuse WonderというAIモデルを発表。業界最大手との競争がさらに激しくなる。</description>
-    <pubDate>Tue, 13 Oct 2026 12:54:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Meta、最強AI競争に殴り込み。Claudeを上回るベンチマーク達成</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-opus-f2d93f9e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-opus-f2d93f9e.html</guid>
-    <description>Metaがフロンティア級AIモデルで高いベンチマークスコアを記録し、AI開発競争が一段と激化。</description>
-    <pubDate>Tue, 13 Oct 2026 12:53:00 +0900</pubDate>
   </item>
 </channel></rss>

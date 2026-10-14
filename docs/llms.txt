@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-14 10:53
+最終更新: 2026-10-14 11:01
 
 ## 記事一覧
 
+- [Google Gemini 4 Argonとは？料金プラン・利用方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-9c83062f.html): Googleの最先端AI「Gemini 4 Argon」が一般向けに提供開始。複数の料金プランで利用でき、APIでの活用も可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 11:01)
+- [Google PlayのAI機能、自作アプリ実行・ゲーム推薦・アプリ比較が新登場](https://mot-ai-media.github.io/mot-ai-news/articles/google-google-play-9c17d3cb.html): Googleがアプリ探しとゲーム発見をAI化。素人でもAI制作アプリが自分の端末で動作可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 11:01)
+- [AIエージェント構築の手順とは？7ステップ・基盤選び・本番運用を完全解説](https://mot-ai-media.github.io/mot-ai-news/articles/dify-copilot-studio-f73ff486.html): AIエージェント導入は、業務選定から基盤選び、安全設計まで計画的に進まないと失敗する。具体的な7ステップを解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-14 11:01)
+- [Gemini アプリ・ウェブサイトが動作しない原因と対処法](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-087415d2.html): Googleの AI「Gemini」が使えなくなった時の原因と解決方法を実践的に解説。 (出典: Windows Report / 更新: 2026-10-14 11:00)
+- [BTS×Google Gemini コラボ機能とは？体験内容・使い方を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b0950a18.html): 人気アイドルBTSがAIアシスタント「Gemini」とコラボ。特定のコマンド入力で限定体験が楽しめる。 (出典: ライブドアニュース / 更新: 2026-10-14 11:00)
 - [AI動画生成Higgsfield、1分から10分超に対応。何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-953fad93.html): AI動画生成の限界が大きく拡がり、より実用的な長さの映像制作が可能に。 (出典: OpenAI / 更新: 2026-10-14 10:53)
 - [就職活動でAI利用が浸透、志望者と企業の「AI軍拡競争」が加速](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-3ba64607.html): イギリスの大学卒業生がAIを使って職務経歴書や志望理由書を作成する傾向が急速に広がっている。採用担当者の155社調査では多くの企業がAI利用を許容する一方、志望者は企業もAIで候補者を選別していることに違和感を感じており、両者の「綱渡り」状態が生まれている。 (出典: BBC / 更新: 2026-10-14 10:28)
 - [Accelevation Holdings上場、Jim Cramer注意喚起。AI関連株投資の判断材料](https://mot-ai-media.github.io/mot-ai-news/articles/accelevation-holdings-jim-cramer-3ffc6089.html): AI関連インフラ企業Accelevation Holdingsが新規上場したことを受け、CNBC のJim Cramer氏が投資家に対して買い急ぎを控えるよう提言。海外では新興AI企業の上場ラッシュに対する慎重論が広がり始めている。 (出典: CNBC / 更新: 2026-10-14 10:28)
@@ -202,8 +207,3 @@
 - [Anthropic Claude Startups プログラム拡大：スタートアップへの支援強化の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-fad16983.html): AI企業Anthropicが、自社のAIモデル「Claude」をスタートアップ企業向けに提供するプログラムを拡大している。創業期の企業と急成長する企業をターゲットに、AIツールの普及を急速に進める戦略だ。 (出典: CNBC / 更新: 2026-10-07 10:28)
 - [AI産業の過度な投資は危険。BitMEX元CEO、仮想通貨との関係性を指摘](https://mot-ai-media.github.io/mot-ai-news/articles/ai-fd095d65.html): 暗号資産取引所BitMEXの元CEOが、現在のAI関連インフラへの莫大な投資が過剰だと警告。設備投資バブルの崩壊とそれに伴う金融危機がやってくると予測し、その後の相場変動に賭けている。 (出典: CNBC / 更新: 2026-10-07 10:27)
 - [PyMCとは？ベイズ統計モデルの可視化方法を初心者向けに解説](https://mot-ai-media.github.io/mot-ai-news/articles/pymc-python-d1ba134a.html): データ分析ツールPyMCのモデル構造を図で理解する方法が詳しく解説されています。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:27)
-- [ELYZA「RSI研究」とは？AIが自己改善する仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/elyza-ai-24d1ca55.html): AIが人間の指示なしに自動で学習・改善する技術の研究が本格始動。AIの進化が加速する可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:26)
-- [OpenAIアルトマン vs Anthropic、AI安全方針の対立が明らかに](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-16c9d8f2.html): AIの利便性と危険性のバランスについて、OpenAIとAnthropicの主張が真っ向から対立。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:26)
-- [OTセキュリティとは？AI時代に求められる防御戦略を解説](https://mot-ai-media.github.io/mot-ai-news/articles/txone-networks-ot-3e9518fb.html): AI技術の発展に伴い、工場やインフラなどの産業用システムへの攻撃が高度化。新しい防御モデルが注目を集めている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:26)
-- [生成AIが間違える理由とは？ハルシネーション対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-4dd5c8f2.html): 生成AIは「次の言葉を確率で予測する」仕組みのため、毎回答えが変わり、存在しない情報を信じ込ませる危険性がある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:25)
-- [GPT-6 Astraがナポレオンの暗号書簡を解読、217年ぶりに内容判明](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7696047e.html): OpenAIの最新AI「GPT-6 Astra」が、200年以上前のナポレオンの暗号書簡を初めて解読。AIの能力の広がりを示す事例。 (出典: Yahoo!ニュース / 更新: 2026-10-06 22:53)
