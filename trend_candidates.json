@@ -1,185 +1,5 @@
 [
   {
-    "title": "OpenAI Scraps Release of New AI Model over Safety Concerns",
-    "link": "https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42\nComments URL: https://news.ycombinator.com/item?id=49885133\nPoints: 24\n# Comments: 5",
-    "novelty_score": 35,
-    "japan_relevance_score": 60,
-    "reason": "AIの安全性懸念による開発中止は業界として重要だが、OpenAIの内部判断であり前例がある程度ある。",
-    "discovered_at": "2026-09-29T07:28:41.776873+00:00"
-  },
-  {
-    "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
-    "link": "https://stateofutopia.com/experiments/microllmlab/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://stateofutopia.com/experiments/microllmlab/\nComments URL: https://news.ycombinator.com/item?id=49882781\nPoints: 216\n# Comments: 79",
-    "novelty_score": 35,
-    "japan_relevance_score": 72,
-    "reason": "ブラウザで軽量LLMを試すデモは新しくないが、AIの民主化テーマは日本でも関心が高い。",
-    "discovered_at": "2026-09-29T07:28:43.497049+00:00"
-  },
-  {
-    "title": "I made a visual workspace for AI Automations",
-    "link": "https://www.biom.dev/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.biom.dev/\nComments URL: https://news.ycombinator.com/item?id=49881777\nPoints: 29\n# Comments: 24",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "ビジュアルワークフロー系AIツールは既に複数存在するが、実装の工夫次第で差別化可能性あり。",
-    "discovered_at": "2026-09-29T07:28:45.314016+00:00"
-  },
-  {
-    "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
-    "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/\nComments URL: https://news.ycombinator.com/item?id=49881484\nPoints: 106\n# Comments: 109",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "OpenAIの内部管理問題は継続的な懸念だが、具体的な新展開が不明確。AI規制への国際的関心から日本でも注視される。",
-    "discovered_at": "2026-09-29T07:28:47.262844+00:00"
-  },
-  {
-    "title": "How Pew Research Center is – and is not – using AI in our work",
-    "link": "https://www.pewresearch.org/decoded/2026/09/28/how-pew-research-center-is-and-is-not-using-ai-in-our-work-2/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.pewresearch.org/decoded/2026/09/28/how-pew-research-center-is-and-is-not-using-ai-in-our-work-2/\nComments URL: https://news.ycombinator.com/item?id=49881135\nPoints: 21\n# Comments: 3",
-    "novelty_score": 35,
-    "japan_relevance_score": 55,
-    "reason": "大手調査機関のAI活用事例紹介だが、新規性は低く、日本でも関心は限定的と予想。",
-    "discovered_at": "2026-09-29T07:28:49.018305+00:00"
-  },
-  {
-    "title": "AI companies leak data to advertisers [pdf]",
-    "link": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-    "source": "Hacker News",
-    "summary": "Article URL: https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf\nComments URL: https://news.ycombinator.com/item?id=49890226\nPoints: 32\n# Comments: 5",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AI企業のデータ漏洩は重要だが、具体的内容が不明で、HNでの反応も限定的なため新規性は中程度。",
-    "discovered_at": "2026-09-29T10:28:40.734455+00:00"
-  },
-  {
-    "title": "OpenAI: Tomorrow we are re-opening the Pro $200 subscription",
-    "link": "https://twitter.com/thsottiaux/status/2104823812042940713",
-    "source": "Hacker News",
-    "summary": "Article URL: https://twitter.com/thsottiaux/status/2104823812042940713\nComments URL: https://news.ycombinator.com/item?id=49889306\nPoints: 52\n# Comments: 61",
-    "novelty_score": 25,
-    "japan_relevance_score": 65,
-    "reason": "OpenAIの既存サブスク施策の再開で新規性は低いが、AIサービス価格戦略として日本でも関心は高い。",
-    "discovered_at": "2026-09-29T10:28:42.626122+00:00"
-  },
-  {
-    "title": "Uncensored and Offensive Security AI Models Benchmark",
-    "link": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
-    "source": "Hacker News",
-    "summary": "Article URL: https://github.com/JoasASantos/Offensive-Security-AI-Models\nComments URL: https://news.ycombinator.com/item?id=49888937\nPoints: 31\n# Comments: 9",
-    "novelty_score": 45,
-    "japan_relevance_score": 35,
-    "reason": "AIセキュリティベンチマークは重要だが、既存研究との差別化が不明確で、ポイント数・コメント数も限定的。",
-    "discovered_at": "2026-09-29T10:28:44.424373+00:00"
-  },
-  {
-    "title": "We Can't Let Enormous Weirdos Regulate AI",
-    "link": "https://little-flying-robots.ghost.io/why-we-cant-let-enormous-weirdos-regulate-ai/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://little-flying-robots.ghost.io/why-we-cant-let-enormous-weirdos-regulate-ai/\nComments URL: https://news.ycombinator.com/item?id=49880968\nPoints: 45\n# Comments: 8",
-    "novelty_score": 35,
-    "japan_relevance_score": 55,
-    "reason": "AI規制論は既出だが、個性的な論調は新しく、日本でも規制議論が進む中で参考になる可能性がある。",
-    "discovered_at": "2026-09-29T10:28:46.257140+00:00"
-  },
-  {
-    "title": "The problem is not AI code, but not knowing about system architecture or intent",
-    "link": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/\nComments URL: https://news.ycombinator.com/item?id=49880312\nPoints: 365\n# Comments: 233",
-    "novelty_score": 45,
-    "japan_relevance_score": 72,
-    "reason": "AIコード生成時のシステム理解不足という既知課題だが、開発現場での実践的な問題提起として日本でも関心高い。",
-    "discovered_at": "2026-09-29T10:28:49.072788+00:00"
-  },
-  {
-    "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
-    "link": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
-    "source": "Hacker News",
-    "summary": "Article URL: https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions\nComments URL: https://news.ycombinator.com/item?id=49893709\nPoints: 135\n# Comments: 28",
-    "novelty_score": 45,
-    "japan_relevance_score": 62,
-    "reason": "AIのプライバシー侵害は既知の問題だが、具体的な事例として報道価値あり、日本でも規制議論の参考になる。",
-    "discovered_at": "2026-09-29T16:28:44.662526+00:00"
-  },
-  {
-    "title": "AI risk is not sentience by computers, it is negligence by humans",
-    "link": "https://www.seattletimes.com/opinion/wa-needs-to-do-these-3-things-to-protect-us-from-ai-harm/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.seattletimes.com/opinion/wa-needs-to-do-these-3-things-to-protect-us-from-ai-harm/\nComments URL: https://news.ycombinator.com/item?id=49887963\nPoints: 29\n# Comments: 5",
-    "novelty_score": 35,
-    "japan_relevance_score": 65,
-    "reason": "AI規制と人間の責任という既出テーマだが、日本のAI安全政策議論では重要性が高い。",
-    "discovered_at": "2026-09-29T16:28:46.018416+00:00"
-  },
-  {
-    "title": "AI needs $6T in annual revenue to justify data centre boom",
-    "link": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/\nComments URL: https://news.ycombinator.com/item?id=49898952\nPoints: 38\n# Comments: 8",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AI投資収益性の議論は既出だが、具体的な6T予測は新しく、日本の技術投資判断に参考になる可能性がある。",
-    "discovered_at": "2026-09-29T19:56:03.284912+00:00"
-  },
-  {
-    "title": "DraftKings Is Using AI to Behaviorally Target Chronic Gamblers",
-    "link": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising\nComments URL: https://news.ycombinator.com/item?id=49896050\nPoints: 369\n# Comments: 243",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AIによるギャンブル依存者狙撃は既知の問題だが、DraftKingsの具体的手法は新しい。日本でのオンライン賭博規制議論との関連性は中程度。",
-    "discovered_at": "2026-09-29T19:56:05.700272+00:00"
-  },
-  {
-    "title": "Mistral CEO says U.S. AI safety debate masks competitors' 'negligence'",
-    "link": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html\nComments URL: https://news.ycombinator.com/item?id=49891721\nPoints: 29\n# Comments: 2",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "AI安全性を巡る企業間の対立構図は既出だが、Mistralの異論は視点が新しく、グローバルなAI規制議論の参考になる可能性がある。",
-    "discovered_at": "2026-09-29T19:56:08.167880+00:00"
-  },
-  {
-    "title": "McDonald's push to have AI price your Big Mac",
-    "link": "https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html\nComments URL: https://news.ycombinator.com/item?id=49899453\nPoints: 26\n# Comments: 5",
-    "novelty_score": 35,
-    "japan_relevance_score": 60,
-    "reason": "AI価格設定は既に議論されているが、大手チェーンの具体的導入事例として一定の注目度がある。日本でも価格戦略の新潮流として関心を持つ可能性がある。",
-    "discovered_at": "2026-09-29T22:29:27.985260+00:00"
-  },
-  {
-    "title": "OpenAI Targets $30B in New Funding at $1.4T Value",
-    "link": "https://www.bloomberg.com/news/articles/2026-09-29/openai-targets-30-billion-in-new-funding-at-1-4-trillion-value",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-09-29/openai-targets-30-billion-in-new-funding-at-1-4-trillion-value\nComments URL: https://news.ycombinator.com/item?id=49897336\nPoints: 29\n# Comments: 13",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AI企業の大型資金調達は既出テーマだが、OpenAIの時価総額1.4T達成は注目度が高く日本でも関心が集まりやすい。",
-    "discovered_at": "2026-09-29T22:29:32.038778+00:00"
-  },
-  {
-    "title": "Stupid Over-Reliance on Palantir AI Helped Lead to US Bombing of Iranian School",
-    "link": "https://www.techdirt.com/2026/09/29/reporting-confirms-stupid-over-reliance-on-palantir-ai-helped-lead-to-us-bombing-of-iranian-schoolgirls/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.techdirt.com/2026/09/29/reporting-confirms-stupid-over-reliance-on-palantir-ai-helped-lead-to-us-bombing-of-iranian-schoolgirls/\nComments URL: https://news.ycombinator.com/item?id=49893248\nPoints: 21\n# Comments: 0",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "AI兵器システムの過信による人道的被害という重要テーマだが、具体的な新情報や検証が不明確で、日本での関心度も限定的。",
-    "discovered_at": "2026-09-29T22:29:37.780061+00:00"
-  },
-  {
     "title": "Responsible Release of AI-Generated Mathematics",
     "link": "https://agmai.org/general-sep29/",
     "source": "Hacker News",
@@ -1278,5 +1098,55 @@
     "japan_relevance_score": 72,
     "reason": "AIツール活用のスキル論は既出だが、日本の職場でAI導入が進む中で実務的な関心は高い。",
     "discovered_at": "2026-10-13T04:28:57.064006+00:00"
+  },
+  {
+    "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+    "link": "https://pulseos.finance",
+    "source": "Hacker News",
+    "summary": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs.I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data.Features-wise, Pulse local is a complete budgeting app that offers an assistant built on top of a fine-tuned model and thousands of rules embedded in the code itself. I'm sharing it for free with options to help me continue experimenting with fine-tuning and expanding along this direction.How it works: you import a CSV from any bank, in any currency. When you ask a question, a tuned Qwen3 0.6B model reads it into a structured query, and code, not the model, does the money math against the ledger. A 4B checker model double-checks each money answer; when the two readings disagree, the app says it is not sure instead of guessing. That change took wrong answers from about one in five to 5 in 494 questions across our last three tests. The write-up covers how we test, the designs that failed, and the limits of the claim: https://pulseos.finance/pulse-local/writing/agree-or-not-sur...The tuned weights are on Hugging Face (PulseOS/pulse-local-qwen3-0.6b).Limitations: the first start downloads about 2.9 GB of models. With the checker on, a money answer takes 12 to 14 seconds (you can turn the checker off). Small models can still misread an open-ended question. The app answers in English. Mac only for now; Windows is next.The app is free. An optional Connected mode (Sync Pass, $29/year) syncs US banks through Plaid; transactions pass through our server's memory and are not stored.Feedback welcome, especially on wrong answers and on questions it should handle but does not.\n\nComments URL: https://news.ycombinator.com/item?id=50080275\nPoints: 40\n# Comments: 26",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "ローカルAI×家計管理は個人向けの新しい試みだが、予算管理アプリ自体は既存市場で、Mac限定かつベータ版での差別化は限定的。",
+    "discovered_at": "2026-10-14T01:28:50.251513+00:00"
+  },
+  {
+    "title": "OpenAI employee arrested by FBI over hidden listening device, company says",
+    "link": "https://www.reuters.com/world/us/fbi-arrests-former-openai-employee-planting-listening-device-2026-10-13/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.reuters.com/world/us/fbi-arrests-former-openai-employee-planting-listening-device-2026-10-13/\nComments URL: https://news.ycombinator.com/item?id=50078653\nPoints: 29\n# Comments: 6",
+    "novelty_score": 65,
+    "japan_relevance_score": 45,
+    "reason": "OpenAIの従業員による盗聴器事件は異例だが、Hacker Newsでの反応は限定的で、日本への波及可能性も低め。",
+    "discovered_at": "2026-10-14T01:28:53.184010+00:00"
+  },
+  {
+    "title": "OpenAI engineer arrested in bugging of executive conference room",
+    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+    "source": "Hacker News",
+    "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132\n\nComments URL: https://news.ycombinator.com/item?id=50078141\nPoints: 402\n# Comments: 350",
+    "novelty_score": 75,
+    "japan_relevance_score": 65,
+    "reason": "OpenAIという注目企業での盗聴事件は新規性が高く、企業セキュリティと倫理の問題として国内でも関心を集める可能性がある。",
+    "discovered_at": "2026-10-14T01:28:55.526402+00:00"
+  },
+  {
+    "title": "OpenAI finds recording device in one of their offices",
+    "link": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
+    "source": "Hacker News",
+    "summary": "Article URL: https://twitter.com/OpenAINewsroom/status/2110095403198849132\nComments URL: https://news.ycombinator.com/item?id=50077703\nPoints: 82\n# Comments: 2",
+    "novelty_score": 45,
+    "japan_relevance_score": 35,
+    "reason": "OpenAIのセキュリティ事件は注目だが、Xリンク切れで詳細不明、HNでの反応も限定的",
+    "discovered_at": "2026-10-14T01:28:57.313251+00:00"
+  },
+  {
+    "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+    "link": "https://parsimony.lasu.dev/",
+    "source": "Hacker News",
+    "summary": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects.Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-bench Verified, SWE-bench Live) and counts \"coding units\": syntax elements like statements, calls, names and literals. I didn't use lines of code, so cramming code isn't rewarded. Deleted code is subtracted, so it measures net units.GPT-6 and Claude 5.5 have no public patches yet, so I ran them myself on 3–10 tasks on my own subscriptions (shown as faded circles, not ranked).Any feedback or model contributions are welcome, especially public patch exports for newer models.GitHub: https://github.com/La5u/ParsimonyNot affiliated with any of the benchmarks.\n\nComments URL: https://news.ycombinator.com/item?id=50077619\nPoints: 45\n# Comments: 6",
+    "novelty_score": 72,
+    "japan_relevance_score": 58,
+    "reason": "AIコード生成の品質を『コード簡潔性』で測る新しい視点だが、既存ベンチマークの拡張であり汎用性はやや限定的。",
+    "discovered_at": "2026-10-14T01:28:59.115622+00:00"
   }
 ]
