@@ -1724,7 +1724,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/travis-kalanick-fii.jpg?resize=1200,800",
     "generated_at": "2026-09-07 07:01",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1782,7 +1782,10 @@
         "x_post": "ロボタクシーが普及すれば移動コスト低下・待ち時間短縮で利便性向上。ただ実現には技術完成と規制対応が必須。期待と現実のギャップを理解しておくことが大切。",
         "cta": "ロボタクシーの実現までの\nロードマップを知る"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18382295032234712",
+    "published_at": "2026-10-14T18:47:43"
   },
   "world-labs-atlas-3cb15e5d": {
     "headline": "少数の画像から3D空間を自動生成、World Labsの新型AI「Atlas」が実現",
