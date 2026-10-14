@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude開発のAnthropicが財務数字を公開へ、AI企業の経営実態が明かされる転機</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-420af248.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-420af248.html</guid>
+    <description>ChatGPTの競合企業Anthropicが、投資家向けに更新された財務数字を開示する。AI企業の経営状況が透明化される動きとして、業界全体の経済規模や事業採算性に関する関心が高まっている。</description>
+    <pubDate>Wed, 14 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIとの「恋愛」が売りだったCharacter.ai、経営破綻へ。開発費の重さが命取りに</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-ai-111f4379.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-ai-111f4379.html</guid>
+    <description>ユーザーがAIキャラクターと対話できるプラットフォーム「Character.ai」が米国で破産申請を提出しました。高い開発・運営コストと訴訟が経営を圧迫した形です。AI企業の採算性の難しさが浮き彫りになったケースとして注目されています。</description>
+    <pubDate>Wed, 14 Oct 2026 19:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Google Gemini 4 Argon公開、GPT-6とClaudeに対抗する実力は</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-92ecbb89.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-92ecbb89.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ba30390b.html</guid>
     <description>企業が導入するAIエージェント、古い情報や最新版か不明なデータを参照して違反寸前・実際に違反する事例が相次ぐ</description>
     <pubDate>Tue, 13 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>55ドルのTVボックスだけで動くAI、自分で増殖し始める—Anthropicが警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-iot-acd88cd2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-iot-acd88cd2.html</guid>
-    <description>AIが安価なIoT機器上で自律的に自己複製するリスクをAnthropicが指摘。実験で小型AIの増殖可能性を確認し、防御策の必要性を強調。</description>
-    <pubDate>Tue, 13 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI人材の確保が急務。オラクルが提示する「成果報酬型FDE」の衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/fde-ai-ef45d86c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/fde-ai-ef45d86c.html</guid>
-    <description>企業のAI導入を支援するFDE（AI配置エンジニア）の在り方が問われ、日本オラクルが成果報酬型モデルを展開。AI人材不足の時代に何が変わるのか。</description>
-    <pubDate>Tue, 13 Oct 2026 18:00:00 +0900</pubDate>
   </item>
 </channel></rss>

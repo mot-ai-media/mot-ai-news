@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-14 18:53
+最終更新: 2026-10-14 19:28
 
 ## 記事一覧
 
+- [Anthropic財務公開、AI企業の収益性が焦点に](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-420af248.html): ChatGPTの競合企業Anthropicが、投資家向けに更新された財務数字を開示する。AI企業の経営状況が透明化される動きとして、業界全体の経済規模や事業採算性に関する関心が高まっている。 (出典: CNBC / 更新: 2026-10-14 19:28)
+- [Character.ai破産申請｜AIチャットボット企業の経営危機から見える課題](https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-ai-111f4379.html): ユーザーがAIキャラクターと対話できるプラットフォーム「Character.ai」が米国で破産申請を提出しました。高い開発・運営コストと訴訟が経営を圧迫した形です。AI企業の採算性の難しさが浮き彫りになったケースとして注目されています。 (出典: CNBC / 更新: 2026-10-14 19:27)
 - [Gemini 4 Argon vs GPT-6・Claude比較｜性能の違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-92ecbb89.html): GoogleがGemini 4 Argonを公開。主要なAIモデル間での性能差が話題に。 (出典: Yellow.com / 更新: 2026-10-14 18:53)
 - [家庭用AI助手が普及する時代、いつから実現する？](https://mot-ai-media.github.io/mot-ai-news/articles/cerebras-ai-31437584.html): AI企業トップが、スマートフォンのようにローカル+クラウド連携する個人用AIが家庭に普及する日は近いと予測。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-14 18:44)
 - [AIがサイバー攻撃に使われている？Anthropicが警告する実態とは](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9727039a.html): 日本企業への相次ぐサイバー攻撃にAIが悪用される可能性を、AI企業Anthropicの共同創業者が指摘。防御対策の強化を呼びかけています。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 18:43)
@@ -205,5 +207,3 @@
 - [Melius（メリウス）とは？AI広告生成プラットフォーム、25M資金調達](https://mot-ai-media.github.io/mot-ai-news/articles/melius-ai-049bf6f5.html): 前職でのアイデアを全て捨て、AIで広告クリエイティブを自動生成するプロダクトに絞った結果、2ヶ月で100万ドル超の年間売上を達成。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 14:31)
 - [Anthropic「Cyber Verification Program」拡充とは？3段階アクセス新設の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-bf5bd898.html): Anthropicが、セキュリティ専門家向けプログラムを3段階のアクセス枠に整理。防御側により強力なツールを提供し、脆弱性検出の実績も公表した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:30)
 - [AIコーディングで作ったアプリの脆弱性とは？9割に欠陥](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-4fe914b2.html): AIが自動生成したWebアプリの91%から脆弱性が見つかった。プロンプトの工夫で改善できる可能性も。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:30)
-- [Meta Muse AIエージェント AMD Intel 株価上昇 CPU需要](https://mot-ai-media.github.io/mot-ai-news/articles/meta-amd-6cb6db48.html): Metaが提供するAIエージェント「Muse」の利用者増加に伴い、プロセッサーを製造するAMDとIntelの株価が過去1ヶ月で大手テック企業を上回るパフォーマンスを示している。AI時代の次の波が、ハードウェア産業にもたらす変化に注目が集まっている。 (出典: CNBC / 更新: 2026-10-07 13:32)
-- [AI研究者の警告が海外で話題に。日本への影響は？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-3f928b2b.html): 海外で報道されているAI研究者による警告が、業界の急速な成長に対する懸念を示唆。日本ではまだ大きな注目を集めていないが、今後のAI産業や社会への影響を考える上で重要な指摘とされている。 (出典: CNBC / 更新: 2026-10-07 13:31)

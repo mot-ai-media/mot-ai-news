@@ -1,50 +1,6 @@
 [
   {
     "tokens": [
-      "alleging",
-      "billion",
-      "deal",
-      "faces",
-      "groq",
-      "lawsuit",
-      "nvidia's",
-      "shortchanged",
-      "startup's",
-      "stockholders"
-    ],
-    "ts": "2026-10-06T14:55:34"
-  },
-  {
-    "tokens": [
-      "betting",
-      "chick-fil-a's",
-      "gen",
-      "growth",
-      "more",
-      "morning",
-      "plans",
-      "sports",
-      "squawk",
-      "wearables",
-      "z's"
-    ],
-    "ts": "2026-10-06T14:55:47"
-  },
-  {
-    "tokens": [
-      "again",
-      "can",
-      "era",
-      "microsoft",
-      "nadella",
-      "once.",
-      "reinvented",
-      "satya"
-    ],
-    "ts": "2026-10-06T19:28:11"
-  },
-  {
-    "tokens": [
       "adversary'",
       "build",
       "grow",
@@ -1036,5 +992,34 @@
       "safeguards"
     ],
     "ts": "2026-10-14T13:29:13"
+  },
+  {
+    "tokens": [
+      "bankruptcy",
+      "chapter",
+      "character.ai",
+      "citing",
+      "companion",
+      "costs",
+      "files",
+      "litigation",
+      "startup"
+    ],
+    "ts": "2026-10-14T19:27:58"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "become",
+      "central",
+      "disclose",
+      "financials",
+      "lab",
+      "numbers",
+      "revenue",
+      "tech",
+      "trade"
+    ],
+    "ts": "2026-10-14T19:28:13"
   }
 ]
