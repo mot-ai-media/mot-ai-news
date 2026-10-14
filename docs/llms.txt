@@ -3,10 +3,11 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-14 10:28
+最終更新: 2026-10-14 10:53
 
 ## 記事一覧
 
+- [AI動画生成Higgsfield、1分から10分超に対応。何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-953fad93.html): AI動画生成の限界が大きく拡がり、より実用的な長さの映像制作が可能に。 (出典: OpenAI / 更新: 2026-10-14 10:53)
 - [就職活動でAI利用が浸透、志望者と企業の「AI軍拡競争」が加速](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-3ba64607.html): イギリスの大学卒業生がAIを使って職務経歴書や志望理由書を作成する傾向が急速に広がっている。採用担当者の155社調査では多くの企業がAI利用を許容する一方、志望者は企業もAIで候補者を選別していることに違和感を感じており、両者の「綱渡り」状態が生まれている。 (出典: BBC / 更新: 2026-10-14 10:28)
 - [Accelevation Holdings上場、Jim Cramer注意喚起。AI関連株投資の判断材料](https://mot-ai-media.github.io/mot-ai-news/articles/accelevation-holdings-jim-cramer-3ffc6089.html): AI関連インフラ企業Accelevation Holdingsが新規上場したことを受け、CNBC のJim Cramer氏が投資家に対して買い急ぎを控えるよう提言。海外では新興AI企業の上場ラッシュに対する慎重論が広がり始めている。 (出典: CNBC / 更新: 2026-10-14 10:28)
 - [OpenAI盗聴事件とは？従業員逮捕の詳細と背景](https://mot-ai-media.github.io/mot-ai-news/articles/openai-fbi-a77939c8.html): OpenAIのサンフランシスコ本社で役員会議室のテレビ背面に隠された録音装置が発見され、設置したエンジニア従業員がFBIに逮捕された。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 09:19)
@@ -206,4 +207,3 @@
 - [OTセキュリティとは？AI時代に求められる防御戦略を解説](https://mot-ai-media.github.io/mot-ai-news/articles/txone-networks-ot-3e9518fb.html): AI技術の発展に伴い、工場やインフラなどの産業用システムへの攻撃が高度化。新しい防御モデルが注目を集めている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:26)
 - [生成AIが間違える理由とは？ハルシネーション対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-chatgpt-4dd5c8f2.html): 生成AIは「次の言葉を確率で予測する」仕組みのため、毎回答えが変わり、存在しない情報を信じ込ませる危険性がある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 09:25)
 - [GPT-6 Astraがナポレオンの暗号書簡を解読、217年ぶりに内容判明](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-7696047e.html): OpenAIの最新AI「GPT-6 Astra」が、200年以上前のナポレオンの暗号書簡を初めて解読。AIの能力の広がりを示す事例。 (出典: Yahoo!ニュース / 更新: 2026-10-06 22:53)
-- [Mistral Le Chonk AI 1兆パラメータ 中国対抗 日本への影響](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-le-chonk-49966735.html): フランスのAI企業Mistralが新型大規模言語モデル「Le Chonk」を発表。中国企業との競争が激化するなか、欧米系の独立系AI開発が新段階に入った。 (出典: CNBC / 更新: 2026-10-06 22:28)

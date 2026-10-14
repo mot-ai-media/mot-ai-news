@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI動画生成、1分から10分超へ。Higgsfield が長尺化実現</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-953fad93.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-953fad93.html</guid>
+    <description>AI動画生成の限界が大きく拡がり、より実用的な長さの映像制作が可能に。</description>
+    <pubDate>Wed, 14 Oct 2026 10:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI企業の新規上場に投資家は待て——CNBCの著名アナリストが警告</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/accelevation-holdings-jim-cramer-3ffc6089.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/accelevation-holdings-jim-cramer-3ffc6089.html</guid>
@@ -205,12 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-opus-f2d93f9e.html</guid>
     <description>Metaがフロンティア級AIモデルで高いベンチマークスコアを記録し、AI開発競争が一段と激化。</description>
     <pubDate>Tue, 13 Oct 2026 12:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ChatGPT一強時代は終わり。企業向けAIは「小型モデル使い分け」が常識に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/zoho-ai-f117d27c.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/zoho-ai-f117d27c.html</guid>
-    <description>Zohoが提唱する企業向けAI戦略は、用途に応じた最適なモデル選択とデータ保護の両立。</description>
-    <pubDate>Tue, 13 Oct 2026 11:01:00 +0900</pubDate>
   </item>
 </channel></rss>
