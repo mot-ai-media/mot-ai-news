@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-14 19:28
+最終更新: 2026-10-14 22:01
 
 ## 記事一覧
 
+- [AIエージェント自作方法7選！無料で始める手順と難易度別ガイド](https://mot-ai-media.github.io/mot-ai-news/articles/gemini-claude-fe8d96c8.html): プログラミング不要。GeminiやClaudeなら画面上の指示登録だけでAIエージェントを作成可能。難易度別7つの方法を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-14 22:01)
+- [AIエージェントの作り方｜Geminiで無料・初心者向け5ステップ](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-c23661f4.html): ChatGPTのGPTs廃止を受け、Geminiの「スキル」機能なら指示文を入力するだけでAIエージェントが作れる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-14 22:01)
+- [AIスタートアップ Scimplify とは？化学材料開発で中国依存を脱却](https://mot-ai-media.github.io/mot-ai-news/articles/scimplify-ai-ca567069.html): インドのAI企業が25百万ドルの資金調達で、特殊化学品・重要材料の開発を高速化。米国での事業拡大を目指す。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-14 22:01)
+- [視力回復チップPRIMAとは？失明治療の最新動向を解説](https://mot-ai-media.github.io/mot-ai-news/articles/science-corporation-prima-a2d00ff1.html): 脳インターフェース技術を応用した視力回復チップが、初めて患者に移植され、多くの失明疾患の治療に道を開く可能性が浮上。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-14 22:01)
+- [デジハリ大学がClaudeを全学導入。国内初、全学生・教職員が使い放題に](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5d9e3a3d.html): デジタルハリウッド大学が米Anthropicの生成AI「Claude」を11月から全学導入。国内の大学で初めて、全学生・教職員が利用量を気にせず使える環境が実現する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-14 22:00)
 - [Anthropic財務公開、AI企業の収益性が焦点に](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-420af248.html): ChatGPTの競合企業Anthropicが、投資家向けに更新された財務数字を開示する。AI企業の経営状況が透明化される動きとして、業界全体の経済規模や事業採算性に関する関心が高まっている。 (出典: CNBC / 更新: 2026-10-14 19:28)
 - [Character.ai破産申請｜AIチャットボット企業の経営危機から見える課題](https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-ai-111f4379.html): ユーザーがAIキャラクターと対話できるプラットフォーム「Character.ai」が米国で破産申請を提出しました。高い開発・運営コストと訴訟が経営を圧迫した形です。AI企業の採算性の難しさが浮き彫りになったケースとして注目されています。 (出典: CNBC / 更新: 2026-10-14 19:27)
 - [Gemini 4 Argon vs GPT-6・Claude比較｜性能の違いを解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-92ecbb89.html): GoogleがGemini 4 Argonを公開。主要なAIモデル間での性能差が話題に。 (出典: Yellow.com / 更新: 2026-10-14 18:53)
@@ -202,8 +207,3 @@
 - [Lambda IPO予定、44億ドル調達・企業価値145億ドルに](https://mot-ai-media.github.io/mot-ai-news/articles/lambda-nvidia-4e425615.html): AI企業向けGPU供給のLambdaが大型調達を実施、2027年の上場を控えて資金確保を急ぐ (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:25)
 - [AIエージェントがWebサイトで使用不可に。Amazon・Walmartの対応は](https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-a9ee6e88.html): ショッピングや予約を自動化するAIエージェントが、Webサイトのブロック機能で機能できなくなる事態が相次いでいる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:25)
 - [AI投稿審査ツール「PolicyLM-1.7B」とは？Musubiが発表した内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/musubi-c3d8360c.html): Musubiが新型AIモデルで、英語のルールをそのまま投稿チェックに使える仕組みを開発。従来より低コストで柔軟になる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:24)
-- [Google新型画像生成AI「Nano Banana 2.1」料金は前モデル比で半額に](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-90ba66cb.html): Googleが画像生成AIの新版を発表。性能向上と同時に、APIの画像出力料金がほぼ半額になった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:31)
-- [Mistral Large 4とは？1兆パラメータAIの性能・料金・公開時期を解説](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-llm-6016f5b1.html): フランスのMistral AIが最大規模モデルを発表。セキュリティとコーディング能力で他社モデルを上回り、月末にオープンウェイト公開予定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:31)
-- [Melius（メリウス）とは？AI広告生成プラットフォーム、25M資金調達](https://mot-ai-media.github.io/mot-ai-news/articles/melius-ai-049bf6f5.html): 前職でのアイデアを全て捨て、AIで広告クリエイティブを自動生成するプロダクトに絞った結果、2ヶ月で100万ドル超の年間売上を達成。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 14:31)
-- [Anthropic「Cyber Verification Program」拡充とは？3段階アクセス新設の狙い](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-bf5bd898.html): Anthropicが、セキュリティ専門家向けプログラムを3段階のアクセス枠に整理。防御側により強力なツールを提供し、脆弱性検出の実績も公表した。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:30)
-- [AIコーディングで作ったアプリの脆弱性とは？9割に欠陥](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-ai-4fe914b2.html): AIが自動生成したWebアプリの91%から脆弱性が見つかった。プロンプトの工夫で改善できる可能性も。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 14:30)

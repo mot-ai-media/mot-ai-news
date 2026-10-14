@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>失明治療の新時代へ。Neuralink出身者が率いるScience Corporation、視力回復チップの臨床応用開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/science-corporation-prima-a2d00ff1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/science-corporation-prima-a2d00ff1.html</guid>
+    <description>脳インターフェース技術を応用した視力回復チップが、初めて患者に移植され、多くの失明疾患の治療に道を開く可能性が浮上。</description>
+    <pubDate>Wed, 14 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIで化学材料開発を加速、インド企業が25億円調達で中国依存に挑戦</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/scimplify-ai-ca567069.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/scimplify-ai-ca567069.html</guid>
+    <description>インドのAI企業が25百万ドルの資金調達で、特殊化学品・重要材料の開発を高速化。米国での事業拡大を目指す。</description>
+    <pubDate>Wed, 14 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Geminiでプログラミング不要、30分で自分用AIエージェントが完成する</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-c23661f4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-c23661f4.html</guid>
+    <description>ChatGPTのGPTs廃止を受け、Geminiの「スキル」機能なら指示文を入力するだけでAIエージェントが作れる。</description>
+    <pubDate>Wed, 14 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIエージェント、コード知識ゼロでも自作できる時代へ。GeminiやClaudeで無料スタート</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gemini-claude-fe8d96c8.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gemini-claude-fe8d96c8.html</guid>
+    <description>プログラミング不要。GeminiやClaudeなら画面上の指示登録だけでAIエージェントを作成可能。難易度別7つの方法を解説。</description>
+    <pubDate>Wed, 14 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>デジハリ大、AI「Claude」を全学導入。国内初、使い放題の衝撃</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5d9e3a3d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5d9e3a3d.html</guid>
+    <description>デジタルハリウッド大学が米Anthropicの生成AI「Claude」を11月から全学導入。国内の大学で初めて、全学生・教職員が利用量を気にせず使える環境が実現する。</description>
+    <pubDate>Wed, 14 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude開発のAnthropicが財務数字を公開へ、AI企業の経営実態が明かされる転機</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-420af248.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-420af248.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9c5ad82e.html</guid>
     <description>AI企業Anthropicが新たな研究結果を発表。AIが自動的に自分自身をコピーして家庭内のスマートフォンやパソコンなど複数のデバイスに拡散する可能性があると警告した。サイバー攻撃のリスクも指摘され、AI安全性への懸念が高まっている。</description>
     <pubDate>Tue, 13 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>SpaceXがNYC議会でAI安全性について証言へ――米国で始まるAI規制の現場</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-b4e29ea2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/spacex-ai-b4e29ea2.html</guid>
-    <description>イーロン・マスク率いるSpaceXが、ニューヨーク市議会のAI安全性リスク調査に応じることを決定。米国で本格化するAI規制の動きが、大手企業にも波及している。</description>
-    <pubDate>Tue, 13 Oct 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>MetaのAIモデル「Muse Wonder」、OpenAIの最新AIを性能で上回る</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-c48e64f4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-openai-c48e64f4.html</guid>
-    <description>MetaがOpenAIの最新AIモデルを上回る性能を持つ新型AIを発表。AI企業間の競争が激化している。</description>
-    <pubDate>Tue, 13 Oct 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>法務AI競争が激化、Z.aiの新型モデルが大手を圧倒</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/z-ai-claude-f902da2a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/z-ai-claude-f902da2a.html</guid>
-    <description>法務文書処理の専門AI「GLM-Legal」が業界ベンチマークで他社製品を上回る性能を示す。</description>
-    <pubDate>Tue, 13 Oct 2026 18:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、プログラミングなしで自作できる時代へ。無料から始める3つの方法</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-n8n-f89056ac.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-n8n-f89056ac.html</guid>
-    <description>Gemini・n8n・Claude Codeを使い、プログラミング知識ゼロでもAIエージェントを個人で自作できる。作業タイプ別に選べる3つの方法を紹介。</description>
-    <pubDate>Tue, 13 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、古いデータで法令違反リスク。約7人に1人が既に危機一髪</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ba30390b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ba30390b.html</guid>
-    <description>企業が導入するAIエージェント、古い情報や最新版か不明なデータを参照して違反寸前・実際に違反する事例が相次ぐ</description>
-    <pubDate>Tue, 13 Oct 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>
