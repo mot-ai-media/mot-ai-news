@@ -8289,7 +8289,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/ait/articles/2610/05/cover_news017.jpg",
     "generated_at": "2026-10-05 14:53",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -8347,7 +8347,10 @@
         "x_post": "約半数の職場にAIエージェント導入済み。エンジニアの判断『人間による確認が必須』の実務化で、新しく『検証・承認の役割』が生まれている。仕事の内容は確実に変わります。",
         "cta": "AIと共働く新しい仕事、MOTで実務的に学ぶ"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17987162586074879",
+    "published_at": "2026-10-14T11:02:16"
   },
   "ai-dx-ae8a1f3f": {
     "headline": "ロボット導入しただけではダメ。フィジカルAI失敗の10の誤解をガートナーが指摘",
