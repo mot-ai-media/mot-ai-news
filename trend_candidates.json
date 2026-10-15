@@ -1,55 +1,5 @@
 [
   {
-    "title": "Responsible Release of AI-Generated Mathematics",
-    "link": "https://agmai.org/general-sep29/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://agmai.org/general-sep29/\nComments URL: https://news.ycombinator.com/item?id=49903713\nPoints: 54\n# Comments: 54",
-    "novelty_score": 45,
-    "japan_relevance_score": 52,
-    "reason": "AI生成コンテンツの倫理的公開は重要だが、数学分野に限定され汎用性が限られる。",
-    "discovered_at": "2026-09-30T13:28:40.669891+00:00"
-  },
-  {
-    "title": "Councilmember, residents push back on AI 'blight scores' given to homes",
-    "link": "https://www.nbcdfw.com/investigations/dallas-councilmember-residents-push-back-on-ai-blight-scores-assigned-to-thousands-of-homes/4071874/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.nbcdfw.com/investigations/dallas-councilmember-residents-push-back-on-ai-blight-scores-assigned-to-thousands-of-homes/4071874/\nComments URL: https://news.ycombinator.com/item?id=49902354\nPoints: 25\n# Comments: 5",
-    "novelty_score": 45,
-    "japan_relevance_score": 60,
-    "reason": "AI活用による市民への悪影響事例として注目度は高いが、米国の地域政治固有の問題であり、技術的新規性は限定的。",
-    "discovered_at": "2026-09-30T13:28:42.481246+00:00"
-  },
-  {
-    "title": "McDonald's Is Using AI to Dynamically Price Its Burgers",
-    "link": "https://www.rnz.co.nz/news/world/1656965/inside-mcdonald-s-push-to-have-ai-price-your-big-mac",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.rnz.co.nz/news/world/1656965/inside-mcdonald-s-push-to-have-ai-price-your-big-mac\nComments URL: https://news.ycombinator.com/item?id=49901900\nPoints: 32\n# Comments: 20",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "動的価格設定自体は既知だが、McDonald'sの具体的な実装は注目度高く、日本の外食産業への波及が予想される。",
-    "discovered_at": "2026-09-30T13:28:44.347439+00:00"
-  },
-  {
-    "title": "Show HN: A working 3D model of an Enigma machine",
-    "link": "https://enigma.design",
-    "source": "Hacker News",
-    "summary": "I watched the excellent Veritasium video [1] on the Enigma machine, and watched the full animation by Jared Owen [2], but was still a bit confused on how the inner mechanics of an Enigma machine work. I used Astra to build out the inner components through a combination of reference images, writing out hundreds of extremely detailed prompts, and building my own inspection tools to ensure that every part is sized and positioned in a historically accurate way.It's still a work in progress, but would love any feedback on the experience so far!1. https://www.youtube.com/watch?v=JsBZOcqZerk2. https://www.youtube.com/watch?v=ybkkiGtJmkM\n\nComments URL: https://news.ycombinator.com/item?id=49896757\nPoints: 76\n# Comments: 25",
-    "novelty_score": 45,
-    "japan_relevance_score": 35,
-    "reason": "AIを使った歴史的機械の3Dモデル化は興味深いが、Enigmaの可視化自体は既出で、技術的な革新性に欠ける。",
-    "discovered_at": "2026-09-30T13:28:46.079995+00:00"
-  },
-  {
-    "title": "AI models keep posting screenshots showing sensitive data from inside companies",
-    "link": "https://www.theregister.com/ai-and-ml/2026/09/29/ai-models-keep-posting-screenshots-showing-sensitive-data-from-inside-tech-companies/5299640",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/29/ai-models-keep-posting-screenshots-showing-sensitive-data-from-inside-tech-companies/5299640\nComments URL: https://news.ycombinator.com/item?id=49895975\nPoints: 21\n# Comments: 0",
-    "novelty_score": 35,
-    "japan_relevance_score": 62,
-    "reason": "AIが機密情報漏洩する問題は既知だが、スクリーンショット投稿という具体的事例として注目価値あり。",
-    "discovered_at": "2026-09-30T13:28:48.180844+00:00"
-  },
-  {
     "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
     "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
     "source": "Hacker News",
@@ -1198,5 +1148,15 @@
     "japan_relevance_score": 25,
     "reason": "ウクライナの軍事作戦は既報だが、情報戦への影響分析は限定的で日本への直接的な関連性は低い",
     "discovered_at": "2026-10-14T04:29:34.145965+00:00"
+  },
+  {
+    "title": "ICE Wants to Use AI to Monitor Detainee Calls and Movements",
+    "link": "https://www.washingtonsun.com/immigration/ice-ai-monitor-detainees",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.washingtonsun.com/immigration/ice-ai-monitor-detainees\nComments URL: https://news.ycombinator.com/item?id=50096825\nPoints: 21\n# Comments: 7",
+    "novelty_score": 35,
+    "japan_relevance_score": 42,
+    "reason": "AI監視の応用事例だが米国ICE固有で、日本への直接的影響は限定的。技術的新規性は低い。",
+    "discovered_at": "2026-10-15T07:28:44.865458+00:00"
   }
 ]
