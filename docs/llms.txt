@@ -7,8 +7,8 @@
 
 ## 記事一覧
 
-- [GPT-6 Astra・Sol・Lunaとは？用途別3モデルの使い分け](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-4436933e.html): エクサベース AIがOpenAIの最新モデル3種を提供開始。開発業務と専門分野に対応力を強化。 (出典: 株式会社エクサウィザーズ / 更新: 2026-10-15 14:16)
-- [Claude Fable 5・Mythos 5とは？Anthropicの新AIモデル](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b25e46d.html): Anthropicが新しいClaudeモデルを発表。具体的な性能や用途は今後詳細が明かされる予定。 (出典: Anthropic / 更新: 2026-10-15 14:16)
+- [OpenAI訴訟｜ChatGPTの児童安全問題で米8州が集団訴訟](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-018e7808.html): 米国の8州（アイオワ、カンザス、ネブラスカ、ウェストバージニア、アーカンソー、アリゾナ、アイダホ、モンタナ）がOpenAIを相手取り集団訴訟を提起。ChatGPTの安全性について消費者を誤解させ、児童に危害を加えたと主張。利益優先で安全対策を軽視したと指摘している。 (出典: CNBC / 更新: 2026-10-15 14:16)
+- [Google・Meta vs OpenAI・Anthropic、AI競争が再熱—2024年のAIガジェット戦線](https://mot-ai-media.github.io/mot-ai-news/articles/openai-google-63267807.html): これまでOpenAIとAnthropicが圧倒的優位にあったAI開発競争で、GoogleとMetaが急速に追い上げている。年末商戦を前に、各社がAIガジェット市場での存在感を高めようと動き出し、AI業界の勢力図が大きく塗り替わろうとしている。 (出典: CNBC / 更新: 2026-10-15 14:16)
 - [AIエージェント自作方法7選！無料で始める手順と難易度別ガイド](https://mot-ai-media.github.io/mot-ai-news/articles/gemini-claude-fe8d96c8.html): プログラミング不要。GeminiやClaudeなら画面上の指示登録だけでAIエージェントを作成可能。難易度別7つの方法を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-14 22:01)
 - [AIエージェントの作り方｜Geminiで無料・初心者向け5ステップ](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-c23661f4.html): ChatGPTのGPTs廃止を受け、Geminiの「スキル」機能なら指示文を入力するだけでAIエージェントが作れる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-14 22:01)
 - [AIスタートアップ Scimplify とは？化学材料開発で中国依存を脱却](https://mot-ai-media.github.io/mot-ai-news/articles/scimplify-ai-ca567069.html): インドのAI企業が25百万ドルの資金調達で、特殊化学品・重要材料の開発を高速化。米国での事業拡大を目指す。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-14 22:01)
