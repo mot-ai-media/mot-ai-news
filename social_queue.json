@@ -1799,7 +1799,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/02/2000001068/10004892/2048",
     "generated_at": "2026-09-02 15:00",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1857,7 +1857,10 @@
         "x_post": "実用的な変化が来る。『Atlas』とロボットの組み合わせで、機械の空間認識と自律動作が飛躍的に向上。配送・産業用ロボの精度UP、VRコンテンツの生成簡易化で遠隔操作の精度も向上。仕事現場への実装はもう遠くない。",
         "cta": "Atlasのロボット活用と仕事への具体的な影響を解説。MOTで実装シーンを読む。"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17989108644116105",
+    "published_at": "2026-10-15T14:18:42"
   },
   "ai-truth-social-591aaeb9": {
     "headline": "トランプ大統領がAI生成画像を投稿、「数千億ドルの株式利益を米国にもたらした」と主張",

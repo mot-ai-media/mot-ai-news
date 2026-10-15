@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('mot-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}if(localStorage.getItem('mot-presbyopia')==='on'){document.documentElement.setAttribute('data-presbyopia','on');}}catch(e){}</script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://mottainai.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI設計チップとは？Ricursive Intelligenceの挑戦と意味を解説 | AI特化メディアMOT</title>
+<meta name="description" content="AIスタートアップが自らチップを設計・改善するAIを開発し、急増する計算需要に対応する道を切り開こうとしている。">
+<link rel="canonical" href="https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23000000'/%3E%3Ctext x='50' y='63' font-size='34' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EMOT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script defer src="../share.js"></script>
+<script data-goatcounter="https://mottainai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI特化メディアMOT">
+<meta property="og:title" content="AIがチップ設計も自動化、年1万倍の計算需要にどう対抗するのか">
+<meta property="og:description" content="AIスタートアップが自らチップを設計・改善するAIを開発し、急増する計算需要に対応する道を切り開こうとしている。">
+<meta property="og:image" content="https://techcrunch.com/wp-content/uploads/2026/10/55590095286_7fe28ddb94_o.jpg?resize=1200,800">
+<meta property="og:url" content="https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html">
+<meta property="article:published_time" content="2026-10-15T14:31:00+09:00">
+<meta property="article:modified_time" content="2026-10-15T14:31:00+09:00">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "AIがチップ設計も自動化、年1万倍の計算需要にどう対抗するのか", "description": "AIスタートアップが自らチップを設計・改善するAIを開発し、急増する計算需要に対応する道を切り開こうとしている。", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html"}, "author": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "publisher": {"@type": "Organization", "name": "AI特化メディアMOT", "sameAs": ["https://x.com/MOT01AI"]}, "datePublished": "2026-10-15T14:31:00+09:00", "dateModified": "2026-10-15T14:31:00+09:00", "image": ["https://techcrunch.com/wp-content/uploads/2026/10/55590095286_7fe28ddb94_o.jpg?resize=1200,800"], "citation": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Ricursive Intelligenceは何をしている企業？", "acceptedAnswer": {"@type": "Answer", "text": "AIそのものがチップを設計し、試行結果から学習して次の設計を改善していく技術を開発している企業。チップ設計プロセス全体の自動化を目指しています。"}}, {"@type": "Question", "name": "なぜこのような技術が必要？", "acceptedAnswer": {"@type": "Answer", "text": "今後5年で計算需要が大幅に増加すると予想されており、従来のようにデータセンターを増やし続けるのは現実的ではありません。より効率的なチップ設計により、限られたリソースで高い性能を実現する必要があるからです。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mot-ai-media.github.io/mot-ai-news/index.html"}, {"@type": "ListItem", "position": 2, "name": "AI自動化", "item": "https://mot-ai-media.github.io/mot-ai-news/topics/a8eefc67ce.html"}, {"@type": "ListItem", "position": 3, "name": "AIがチップ設計も自動化、年1万倍の計算需要にどう対抗するのか", "item": "https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html"}]}</script>
+</head>
+<body class="article-page">
+<nav class="mot-nav">
+  <div class="mot-nav-inner">
+    <button type="button" class="mot-icon-btn mot-nav-hamburger" data-nav-toggle aria-label="メニュー">&#9776;</button>
+    <a class="mot-nav-logo" href="../index.html">MOT</a>
+    <ul class="mot-nav-links" id="mot-nav-menu">
+      <li><a href="../index.html#today">TODAY</a></li>
+      <li><a href="../index.html#latest">LATEST</a></li>
+      <li><a href="../topics/index.html">TOPICS</a></li>
+      <li><a href="../products.html">PRODUCTS</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mot-nav-actions">
+      <button type="button" class="mot-icon-btn" data-theme-toggle aria-label="ダークモード切替">&#9788;</button>
+      <button type="button" class="mot-icon-btn" data-presbyopia-toggle aria-pressed="false" aria-label="老眼モード: 文字を大きく見やすくする">
+        <svg viewBox="0 0 24 16" width="17" height="12" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" aria-hidden="true">
+          <circle cx="5.5" cy="8" r="4.6"/><circle cx="18.5" cy="8" r="4.6"/>
+          <path d="M10.1 8h3.8"/><path d="M0.6 6.2C1.3 5 2 4.6 2.3 5.6"/><path d="M23.4 6.2C22.7 5 22 4.6 21.7 5.6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <a class="back-link" href="../index.html">&laquo; 一覧に戻る</a>
+  <div class="thumb-link" style=""><img class="thumb" src="https://techcrunch.com/wp-content/uploads/2026/10/55590095286_7fe28ddb94_o.jpg?resize=1200,800" alt="" loading="lazy"><div class="thumb-overlay"><span class="thumb-overlay-text">AIがチップ設計も自動化、年1万倍の計算需要にどう対抗するのか</span></div></div>
+  <h1 class="headline">AIがチップ設計も自動化、年1万倍の計算需要にどう対抗するのか</h1>
+  <div class="trust-strip">
+    <span><span class="level-badge level-easy">&#128994; やさしい</span></span>
+    <span><span class="trust-label">SOURCE</span>AI News &amp; Artificial Intelligence | TechCrunch</span>
+    <span><span class="trust-label">UPDATED</span>2026-10-15 14:31</span>
+  </div>
+  <p class="mot-analysis-label">MOT ANALYSIS</p>
+  <div class="summary"><p class="tldr"><strong>TL;DR</strong> AIスタートアップ・Ricursive IntelligenceがAIでチップ設計を自動化する技術を開発。今後5年で1万倍増加する計算需要に、効率的なチップで対抗する構想。</p><h3>何が起きたか</h3><p>チップ設計企業Ricursive Intelligenceの創業者らが、自社で開発中のAI技術について公表しました。このAIはチップ設計を行うだけでなく、試行ごとに学習し、次の設計を改善していくというもの。チップ設計プロセス全体の自動化・高速化を目指しています。</p><h3>なぜ重要か</h3><p>世界的にAIやデータセンターの需要が爆発的に増えており、計算能力の確保が大きな課題になっています。データセンターを無限に増やすのは環境的にも経済的にも現実的ではなく、限られたリソースで最大限の性能を引き出すより効率的なチップが急務となっているからです。</p><h3>あなたへの影響</h3><p>チップの設計が効率化されれば、より高速で省エネなAIサービスが生まれ、スマートフォンやクラウドサービスの性能向上につながる可能性があります。また進捗次第で、AIが日常業務の自動化に本格的に携わる時代が加速するかもしれません。</p><h3>MOT読者が知っておくべき理由</h3><p>AIをめぐるハードウェアの進化が、今後のAI技術全体の発展スピードを左右するからです。チップ設計まで自動化されれば、AIの用途拡大や身近なデバイスの変化に直結します。</p><div class="risk-box"><h3>知らないと生まれる差</h3><p>AIが自ら次世代チップを設計・決定する仕組みが進めば、人間がそのプロセスを完全に理解・監視できなくなるリスクがあり、予期しない動作や判断が生じた際の対応が課題になります。</p></div><div class="opportunity-box"><h3>これを知ることで得られるチャンス</h3><p>チップ設計の自動化により、従来は専門家の手によってしか実現できなかった最適化が高速化・低コスト化され、より多くの組織が独自の高性能チップを持つことが可能になる機会があります。</p></div><div class="mot-take-box"><h3>MOTの見解</h3><p>「AIに仕事を奪われる」という議論は多いですが、この事例が示しているのは別の姿です。経営者の視点では『人間はアイデア出し、実行はAI』という分業が進み、それは設計領域でも起きているということ。つまり高度な専門職も『人間にしかできない創造的部分』と『AIが代替可能な実行部分』に分業化される傾向が加速する構造が見えてきます。</p></div><div class="watch-next-box"><h3>今後の注目ポイント</h3><p>実際にこのAI設計チップが市場で採用され、従来的なチップ設計と比べてどの程度の効率改善が実現できるのか、また既存のチップ設計企業やAI企業がこの動きにどう応じるのか注視する価値があります。</p></div></div>
+  <div class="tag-pills"><a class="tag-pill" href="../topics/a8eefc67ce.html">#AI自動化</a></div>
+  <script>window.motPageTags=["Ricursive Intelligence", "チップ設計", "AI自動化"];</script>
+  <div class="ad-slot-large"><article class="card sponsor-card"><div class="sponsor-card-body"><p class="sponsor-label">PR・Sponsored</p><h3 class="sponsor-title">アラミド繊維100%使用、日本製</h3><p class="sponsor-desc">耐久性に優れたアラミド繊維を100%使用した日本製プロダクト。</p><div class="sponsor-creative"><a href="https://px.a8.net/svt/ejp?a8mat=4BC3YK+1LR2GI+34VM+2T7WK2" rel="sponsored nofollow" target="_blank" class="sponsor-text-link">アラミド繊維100%使用 Made in Japan</a><img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4BC3YK+1LR2GI+34VM+2T7WK2" alt=""></div><span class="sponsor-cta">詳しく見る &rarr;</span><p class="sponsor-name">アラミド繊維プロダクト</p></div></article></div>
+  <blockquote class="fact-check" cite="https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/">
+    <span class="trust-label">FACT</span>
+    <p>本記事は<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>の報道をもとに、MOT編集部が独自の視点で要約・解説したものです。</p>
+    <footer><a class="source-link" href="https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/" target="_blank" rel="noopener noreferrer">元記事（<cite>AI News &amp; Artificial Intelligence | TechCrunch</cite>）を読む &rarr;</a></footer>
+  </blockquote>
+  <div class="article-faq">
+  <h2>よくある質問</h2>
+  <div class="faq-item">
+    <p class="faq-q">Q. Ricursive Intelligenceは何をしている企業？</p>
+    <p class="faq-a">AIそのものがチップを設計し、試行結果から学習して次の設計を改善していく技術を開発している企業。チップ設計プロセス全体の自動化を目指しています。</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Q. なぜこのような技術が必要？</p>
+    <p class="faq-a">今後5年で計算需要が大幅に増加すると予想されており、従来のようにデータセンターを増やし続けるのは現実的ではありません。より効率的なチップ設計により、限られたリソースで高い性能を実現する必要があるからです。</p>
+  </div>
+</div>
+  <div class="share-buttons">
+    <a class="share-btn share-x" href="https://twitter.com/intent/tweet?text=AI%E3%81%8C%E3%83%81%E3%83%83%E3%83%97%E8%A8%AD%E8%A8%88%E3%82%82%E8%87%AA%E5%8B%95%E5%8C%96%E3%80%81%E5%B9%B41%E4%B8%87%E5%80%8D%E3%81%AE%E8%A8%88%E7%AE%97%E9%9C%80%E8%A6%81%E3%81%AB%E3%81%A9%E3%81%86%E5%AF%BE%E6%8A%97%E3%81%99%E3%82%8B%E3%81%AE%E3%81%8B&url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html" target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn share-line" href="https://social-plugins.line.me/lineit/share?url=https%3A//mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html&text=AI%E3%81%8C%E3%83%81%E3%83%83%E3%83%97%E8%A8%AD%E8%A8%88%E3%82%82%E8%87%AA%E5%8B%95%E5%8C%96%E3%80%81%E5%B9%B41%E4%B8%87%E5%80%8D%E3%81%AE%E8%A8%88%E7%AE%97%E9%9C%80%E8%A6%81%E3%81%AB%E3%81%A9%E3%81%86%E5%AF%BE%E6%8A%97%E3%81%99%E3%82%8B%E3%81%AE%E3%81%8B" target="_blank" rel="noopener noreferrer">LINEで共有</a>
+    <button type="button" class="share-btn share-copy-btn" data-copy-url="https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html">リンクをコピー</button>
+    <button type="button" class="share-btn share-native-btn" data-native-share data-native-share-only data-share-url="https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html" data-share-title="AIがチップ設計も自動化、年1万倍の計算需要にどう対抗するのか">共有</button>
+  </div>
+  <div class="reactions" id="reactions" data-slug="ricursive-intelligence-ai-f86858c1">
+    <button type="button" class="reaction-btn" data-emoji="like">&#128077;</button>
+    <button type="button" class="reaction-btn" data-emoji="surprised">&#128558;</button>
+    <button type="button" class="reaction-btn" data-emoji="sad">&#128546;</button>
+    <button type="button" class="reaction-btn" data-emoji="fire">&#128293;</button>
+  </div>
+  <section class="next-insight">
+  <p class="section-label">NEXT INSIGHT</p>
+  <h2 class="section-title-lg">このニュースを理解したら、次に知りたいこと</h2>
+  <a class="next-up-card" href="science-corporation-prima-a2d00ff1.html">
+    <img src="https://techcrunch.com/wp-content/uploads/2026/10/55588371385_eb2e316d52_o.jpg?resize=1200,800" alt="" loading="lazy">
+    <span class="next-up-headline">失明治療の新時代へ。Neuralink出身者が率いるScience Corporation、視力回復チップの臨床応用開始</span>
+  </a>
+  <ul class="insight-list">
+  <li><a href="typesafe-ai-jev-ac2c5482.html">テキスト出力しないAI「Jev」、立ち上げ数週間で75億ドル企業に。フォーチュン500の3分の1が採用</a></li>
+  <li><a href="openai-decisions-api-c2747f33.html">OpenAI、高速で安価な判断機能を搭載した新API発表。AIエージェント時代が加速</a></li>
+  <li><a href="qualcomm-snapdragon-948ab460.html">Qualcomm新型チップ、スマホで30億パラメータのAIを動かせる時代へ</a></li>
+  </ul>
+</section>
+</main>
+<footer>
+  この要約はAIが元記事をもとに作成したものです。詳細は元記事をご確認ください。<br>
+  <a href="../about.html">運営者情報・プライバシーポリシー</a>
+</footer>
+<script>
+(function() {
+  var box = document.getElementById("reactions");
+  var slug = box.getAttribute("data-slug");
+  var key = "reaction_" + slug;
+  var saved = null;
+  try { saved = localStorage.getItem(key); } catch (e) {}
+
+  var buttons = box.querySelectorAll(".reaction-btn");
+  buttons.forEach(function(btn) {
+    if (btn.getAttribute("data-emoji") === saved) {
+      btn.classList.add("active");
+    }
+    btn.addEventListener("click", function() {
+      var isActive = btn.classList.contains("active");
+      buttons.forEach(function(b) { b.classList.remove("active"); });
+      try {
+        if (isActive) {
+          localStorage.removeItem(key);
+        } else {
+          btn.classList.add("active");
+          localStorage.setItem(key, btn.getAttribute("data-emoji"));
+        }
+      } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>

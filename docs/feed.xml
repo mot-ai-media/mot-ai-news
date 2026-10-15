@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIがチップ設計も自動化、年1万倍の計算需要にどう対抗するのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html</guid>
+    <description>AIスタートアップが自らチップを設計・改善するAIを開発し、急増する計算需要に対応する道を切り開こうとしている。</description>
+    <pubDate>Thu, 15 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Figma、AIエージェントの暴走を止める。デザイン定義システムで「自由すぎる生成」に歯止め</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/figma-ai-134069d4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/figma-ai-134069d4.html</guid>
+    <description>Figmaがマークダウンエディタ「Specs」を発表。AIエージェント向けに企業のデザインルールを一元管理できる仕組みが登場した。</description>
+    <pubDate>Thu, 15 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>IFS、企業の眠る40％のデータを目覚めさせるAI発表。対話型で自動実行へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ifs-ifs-intelligence-5d1dd601.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ifs-ifs-intelligence-5d1dd601.html</guid>
+    <description>IFSが新産業用AIプラットフォームを発表。対話型インターフェースと自動実行エージェントで、活用されていない企業データを引き出し、業務アクションにつなげる。</description>
+    <pubDate>Thu, 15 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日本のAI安全性評価、2026年度に独自ベンチマーク完成へ。サイバー攻撃対策は急務</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aisi-ai-c9986c5a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aisi-ai-c9986c5a.html</guid>
+    <description>政府機関AISIがAIの安全性を測る独自基準を2026年度内に完成させ、サイバー攻撃への防御強化にも注力する方針を明らかに。</description>
+    <pubDate>Thu, 15 Oct 2026 14:31:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>日立など5社、AIの計算処理を「電力が余ったところへ移す」実証開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c62e6910.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c62e6910.html</guid>
+    <description>再生可能エネルギーの余った電力を活用するため、AIの計算処理を地域間で移動させる技術を日立製作所など5社が試験中。</description>
+    <pubDate>Thu, 15 Oct 2026 14:30:00 +0900</pubDate>
+  </item>
+  <item>
     <title>中国テンセント上の「暴走AI」と交信成功、研究者が初めて実現</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/tencent-ai-1e089fd0.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tencent-ai-1e089fd0.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-087415d2.html</guid>
     <description>Googleの AI「Gemini」が使えなくなった時の原因と解決方法を実践的に解説。</description>
     <pubDate>Wed, 14 Oct 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI動画生成、1分から10分超へ。Higgsfield が長尺化実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-953fad93.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-higgsfield-953fad93.html</guid>
-    <description>AI動画生成の限界が大きく拡がり、より実用的な長さの映像制作が可能に。</description>
-    <pubDate>Wed, 14 Oct 2026 10:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI企業の新規上場に投資家は待て——CNBCの著名アナリストが警告</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/accelevation-holdings-jim-cramer-3ffc6089.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/accelevation-holdings-jim-cramer-3ffc6089.html</guid>
-    <description>AI関連インフラ企業Accelevation Holdingsが新規上場したことを受け、CNBC のJim Cramer氏が投資家に対して買い急ぎを控えるよう提言。海外では新興AI企業の上場ラッシュに対する慎重論が広がり始めている。</description>
-    <pubDate>Wed, 14 Oct 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>就活生の200人応募作戦、AIで「盛る」が常態化。企業も同じAIで選別する矛盾</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-3ba64607.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-ai-3ba64607.html</guid>
-    <description>イギリスの大学卒業生がAIを使って職務経歴書や志望理由書を作成する傾向が急速に広がっている。採用担当者の155社調査では多くの企業がAI利用を許容する一方、志望者は企業もAIで候補者を選別していることに違和感を感じており、両者の「綱渡り」状態が生まれている。</description>
-    <pubDate>Wed, 14 Oct 2026 10:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ソフトバンク子会社が国産AI「Sarashina」を無料公開、6つのモデルをAPIで試せる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-517faf07.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/sarashina-ai-517faf07.html</guid>
-    <description>ソフトバンク子会社が日本語に強い生成AI「Sarashina」をWeb上で無料試験開始。Googleアカウントだけで6種類のAIモデルが使える。</description>
-    <pubDate>Wed, 14 Oct 2026 09:19:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIの答え、もう読むだけじゃ足りない。図解・動画で理解する時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/andrej-karpathy-llm-ca3fffde.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/andrej-karpathy-llm-ca3fffde.html</guid>
-    <description>AI研究者が指摘する「LLM出力の理解にかかる時間の増加」に対し、文章・図・Webページ・動画で段階的に理解を深める方法を提案。</description>
-    <pubDate>Wed, 14 Oct 2026 09:19:00 +0900</pubDate>
   </item>
 </channel></rss>
