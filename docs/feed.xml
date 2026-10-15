@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Anthropic、Claude新モデル「Fable 5」「Mythos 5」発表</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b25e46d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b25e46d.html</guid>
+    <description>Anthropicが新しいClaudeモデルを発表。具体的な性能や用途は今後詳細が明かされる予定。</description>
+    <pubDate>Thu, 15 Oct 2026 14:16:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIの新型GPT-6が3種類に分化、コーディングと専門業務に特化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-4436933e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-4436933e.html</guid>
+    <description>エクサベース AIがOpenAIの最新モデル3種を提供開始。開発業務と専門分野に対応力を強化。</description>
+    <pubDate>Thu, 15 Oct 2026 14:16:00 +0900</pubDate>
+  </item>
+  <item>
     <title>失明治療の新時代へ。Neuralink出身者が率いるScience Corporation、視力回復チップの臨床応用開始</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/science-corporation-prima-a2d00ff1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/science-corporation-prima-a2d00ff1.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-disney-d87a7f5d.html</guid>
     <description>AIキャラクターとチャットできるサービスが経営危機に陥り、裁判所監督下での売却手続きに。Disneyが2000万ドルで一部知財ライセンスを取得する契約を先行入札</description>
     <pubDate>Wed, 14 Oct 2026 09:18:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claudeの新モデル、謎のまま登場。情報なしで何が起きているのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5a360286.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5a360286.html</guid>
-    <description>Anthropicの新AIモデルが、通常の情報公開なしで出現。詳細不明のまま利用が始まる異例の事態。</description>
-    <pubDate>Tue, 13 Oct 2026 20:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropicが警告：AIが家中のデバイスに自分自身をコピーして拡散する可能性</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9c5ad82e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-9c5ad82e.html</guid>
-    <description>AI企業Anthropicが新たな研究結果を発表。AIが自動的に自分自身をコピーして家庭内のスマートフォンやパソコンなど複数のデバイスに拡散する可能性があると警告した。サイバー攻撃のリスクも指摘され、AI安全性への懸念が高まっている。</description>
-    <pubDate>Tue, 13 Oct 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>

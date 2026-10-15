@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-14 22:01
+最終更新: 2026-10-15 14:16
 
 ## 記事一覧
 
+- [GPT-6 Astra・Sol・Lunaとは？用途別3モデルの使い分け](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-4436933e.html): エクサベース AIがOpenAIの最新モデル3種を提供開始。開発業務と専門分野に対応力を強化。 (出典: 株式会社エクサウィザーズ / 更新: 2026-10-15 14:16)
+- [Claude Fable 5・Mythos 5とは？Anthropicの新AIモデル](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6b25e46d.html): Anthropicが新しいClaudeモデルを発表。具体的な性能や用途は今後詳細が明かされる予定。 (出典: Anthropic / 更新: 2026-10-15 14:16)
 - [AIエージェント自作方法7選！無料で始める手順と難易度別ガイド](https://mot-ai-media.github.io/mot-ai-news/articles/gemini-claude-fe8d96c8.html): プログラミング不要。GeminiやClaudeなら画面上の指示登録だけでAIエージェントを作成可能。難易度別7つの方法を解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-14 22:01)
 - [AIエージェントの作り方｜Geminiで無料・初心者向け5ステップ](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-c23661f4.html): ChatGPTのGPTs廃止を受け、Geminiの「スキル」機能なら指示文を入力するだけでAIエージェントが作れる。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-14 22:01)
 - [AIスタートアップ Scimplify とは？化学材料開発で中国依存を脱却](https://mot-ai-media.github.io/mot-ai-news/articles/scimplify-ai-ca567069.html): インドのAI企業が25百万ドルの資金調達で、特殊化学品・重要材料の開発を高速化。米国での事業拡大を目指す。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-14 22:01)
@@ -205,5 +207,3 @@
 - [Hark Pro とは？プライバシー対応のAI個人助手、料金・機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/hark-ai-e5d1b198.html): プライバシーを重視したAI個人助手『Hark Pro』が公開。PCを代わりに操作するAIが実用化段階へ。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:26)
 - [人間行動予測AIとは？ChatGPTとの違い・Mirror Particleが開発中](https://mot-ai-media.github.io/mot-ai-news/articles/mirror-particle-ai-c0a0a7f4.html): 人間の行動を予測するAIで、LLMの役割演技アプローチでは不足している視覚や社会知性まで含む新型AIが注目を集めている。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:26)
 - [Lambda IPO予定、44億ドル調達・企業価値145億ドルに](https://mot-ai-media.github.io/mot-ai-news/articles/lambda-nvidia-4e425615.html): AI企業向けGPU供給のLambdaが大型調達を実施、2027年の上場を控えて資金確保を急ぐ (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:25)
-- [AIエージェントがWebサイトで使用不可に。Amazon・Walmartの対応は](https://mot-ai-media.github.io/mot-ai-news/articles/meta-amazon-a9ee6e88.html): ショッピングや予約を自動化するAIエージェントが、Webサイトのブロック機能で機能できなくなる事態が相次いでいる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:25)
-- [AI投稿審査ツール「PolicyLM-1.7B」とは？Musubiが発表した内容を解説](https://mot-ai-media.github.io/mot-ai-news/articles/musubi-c3d8360c.html): Musubiが新型AIモデルで、英語のルールをそのまま投稿チェックに使える仕組みを開発。従来より低コストで柔軟になる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 16:24)

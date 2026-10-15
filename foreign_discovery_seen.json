@@ -1,136 +1,6 @@
 [
   {
     "tokens": [
-      "adversary'",
-      "build",
-      "grow",
-      "hearing",
-      "nyc",
-      "our",
-      "own",
-      "racing",
-      "researcher",
-      "warns"
-    ],
-    "ts": "2026-10-06T19:28:25"
-  },
-  {
-    "tokens": [
-      "best",
-      "china",
-      "mistral",
-      "model",
-      "open",
-      "rivals",
-      "systems",
-      "unveils"
-    ],
-    "ts": "2026-10-06T22:28:02"
-  },
-  {
-    "tokens": [
-      "against",
-      "files",
-      "her",
-      "italian",
-      "threats",
-      "trademark",
-      "voice"
-    ],
-    "ts": "2026-10-06T22:28:19"
-  },
-  {
-    "tokens": [
-      "among",
-      "best",
-      "blue-chip",
-      "boom",
-      "cramer",
-      "invest",
-      "stocks",
-      "these",
-      "ways"
-    ],
-    "ts": "2026-10-07T09:25:25"
-  },
-  {
-    "tokens": [
-      "bots",
-      "business",
-      "chaos",
-      "companies",
-      "doing",
-      "group",
-      "joins",
-      "meta",
-      "tame"
-    ],
-    "ts": "2026-10-07T09:25:43"
-  },
-  {
-    "tokens": [
-      "arthur",
-      "being",
-      "betting",
-      "boom",
-      "comes",
-      "hayes",
-      "next",
-      "says.",
-      "trillions",
-      "wasted"
-    ],
-    "ts": "2026-10-07T10:27:55"
-  },
-  {
-    "tokens": [
-      "anthropic",
-      "bid",
-      "claude",
-      "companies",
-      "expands",
-      "fast-growing",
-      "founders",
-      "program",
-      "snag",
-      "startups"
-    ],
-    "ts": "2026-10-07T10:28:10"
-  },
-  {
-    "tokens": [
-      "merger",
-      "more",
-      "morning",
-      "musk's",
-      "paramount-wbd",
-      "researchers'",
-      "return",
-      "squawk",
-      "trillionaire",
-      "warning"
-    ],
-    "ts": "2026-10-07T13:31:40"
-  },
-  {
-    "tokens": [
-      "agents",
-      "amd",
-      "cpu",
-      "fresh",
-      "highs",
-      "juice",
-      "lifts",
-      "meta",
-      "muse",
-      "popularity",
-      "sales",
-      "stock"
-    ],
-    "ts": "2026-10-07T13:32:09"
-  },
-  {
-    "tokens": [
       "according",
       "both",
       "chief",
@@ -1021,5 +891,16 @@
       "trade"
     ],
     "ts": "2026-10-14T19:28:13"
+  },
+  {
+    "tokens": [
+      "chatgpt",
+      "concerns",
+      "openai",
+      "safety",
+      "states",
+      "sued"
+    ],
+    "ts": "2026-10-15T14:16:17"
   }
 ]
