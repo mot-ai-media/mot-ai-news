@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Deezer、AI生成曲をフィルタリング。年内に機能提供へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/deezer-ai-9c18b5e1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/deezer-ai-9c18b5e1.html</guid>
+    <description>音楽配信Deezerが、AI生成曲を自動的に除外するフィルタ機能を年内に導入。ユーザーの45%が希望していた。</description>
+    <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AIが詐欺師に化ける、銀行や政府が続々採用する新兵器</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apate-ai-ai-619d87b0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apate-ai-ai-619d87b0.html</guid>
+    <description>詐欺師を騙すAIエージェントが登場。銀行や政府機関が詐欺の手口を学ぶために活用中。</description>
+    <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>YouTube Music、AI生成楽曲に「ラベル表示」導入。作曲・ボーカルの関与も明記</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-music-ai-55222f29.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-music-ai-55222f29.html</guid>
+    <description>YouTube MusicがAI生成楽曲の透明性を強化。どの部分にAIが使われたかがプレイヤーで一目瞭然に。</description>
+    <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>銃声検知マイク、実は周辺音も記録か。Flockが公式説明と矛盾</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/flock-bd61b921.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/flock-bd61b921.html</guid>
+    <description>街頭監視企業Flockが銃声検知マイクの実際の機能を巡り、CEO発言と公式サイト説明で矛盾。プライバシー団体が懸念を強める。</description>
+    <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>SNS炎上を事前予測、Gudeaが「ネット嵐の早期警報システム」を展開開始</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gudea-sns-5abc04e0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gudea-sns-5abc04e0.html</guid>
+    <description>小さなSNS投稿が大炎上する前に、AIが兆候を察知し企業に警告するシステムが登場。</description>
+    <pubDate>Thu, 15 Oct 2026 18:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIがチップ設計も自動化、年1万倍の計算需要にどう対抗するのか</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-bf6ae984.html</guid>
     <description>AI企業Anthropicが、米国防総省によって自社のAIモデルが採用から除外された決定に対し、ワシントンD.C.の連邦裁判所に控訴の再審理を求める事態に。政府によるAI企業の規制が法廷で争われる初めてのケースとなる可能性がある。</description>
     <pubDate>Wed, 14 Oct 2026 13:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、失敗を避ける7ステップ構築法。40%が中止になる理由も明らかに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dify-copilot-studio-f73ff486.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dify-copilot-studio-f73ff486.html</guid>
-    <description>AIエージェント導入は、業務選定から基盤選び、安全設計まで計画的に進まないと失敗する。具体的な7ステップを解説。</description>
-    <pubDate>Wed, 14 Oct 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google Play、AIでアプリを自作できる時代へ。開発者登録なしで端末実行可能に</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-play-9c17d3cb.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-google-play-9c17d3cb.html</guid>
-    <description>Googleがアプリ探しとゲーム発見をAI化。素人でもAI制作アプリが自分の端末で動作可能に。</description>
-    <pubDate>Wed, 14 Oct 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google最新AI「Gemini 4 Argon」一般提供開始、月額2900円から利用可能</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-9c83062f.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-9c83062f.html</guid>
-    <description>Googleの最先端AI「Gemini 4 Argon」が一般向けに提供開始。複数の料金プランで利用でき、APIでの活用も可能に。</description>
-    <pubDate>Wed, 14 Oct 2026 11:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>BTSがGoogle Geminiと公式コラボ、専用機能で4つの体験が解放</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b0950a18.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-b0950a18.html</guid>
-    <description>人気アイドルBTSがAIアシスタント「Gemini」とコラボ。特定のコマンド入力で限定体験が楽しめる。</description>
-    <pubDate>Wed, 14 Oct 2026 11:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Geminiが使えない時の原因と対処法。動作不具合を自力で解決</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-087415d2.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-087415d2.html</guid>
-    <description>Googleの AI「Gemini」が使えなくなった時の原因と解決方法を実践的に解説。</description>
-    <pubDate>Wed, 14 Oct 2026 11:00:00 +0900</pubDate>
   </item>
 </channel></rss>

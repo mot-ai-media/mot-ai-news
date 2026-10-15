@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-15 14:31
+最終更新: 2026-10-15 18:01
 
 ## 記事一覧
 
+- [Flock銃声検知マイク、プライバシー問題。周辺音の検知範囲が明かす矛盾とは](https://mot-ai-media.github.io/mot-ai-news/articles/flock-bd61b921.html): 街頭監視企業Flockが銃声検知マイクの実際の機能を巡り、CEO発言と公式サイト説明で矛盾。プライバシー団体が懸念を強める。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-15 18:01)
+- [YouTube MusicのAI楽曲ラベルとは？何が変わる・確認方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/youtube-music-ai-55222f29.html): YouTube MusicがAI生成楽曲の透明性を強化。どの部分にAIが使われたかがプレイヤーで一目瞭然に。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-15 18:01)
+- [詐欺対策AI「Apate」とは？銀行が導入する理由](https://mot-ai-media.github.io/mot-ai-news/articles/apate-ai-ai-619d87b0.html): 詐欺師を騙すAIエージェントが登場。銀行や政府機関が詐欺の手口を学ぶために活用中。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-15 18:01)
+- [Deezerの新機能：AI生成音楽をフィルタリング、いつから利用可能？](https://mot-ai-media.github.io/mot-ai-news/articles/deezer-ai-9c18b5e1.html): 音楽配信Deezerが、AI生成曲を自動的に除外するフィルタ機能を年内に導入。ユーザーの45%が希望していた。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-15 18:01)
+- [SNS炎上を予測するAIツール「Gudea」とは？仕組みや効果を解説](https://mot-ai-media.github.io/mot-ai-news/articles/gudea-sns-5abc04e0.html): 小さなSNS投稿が大炎上する前に、AIが兆候を察知し企業に警告するシステムが登場。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-15 18:00)
 - [日本AISI、AIの安全性測定方法とは？2026年度の評価計画を発表](https://mot-ai-media.github.io/mot-ai-news/articles/aisi-ai-c9986c5a.html): 政府機関AISIがAIの安全性を測る独自基準を2026年度内に完成させ、サイバー攻撃への防御強化にも注力する方針を明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-15 14:31)
 - [IFS Intelligence とは？産業用AIプラットフォームの機能と活用法](https://mot-ai-media.github.io/mot-ai-news/articles/ifs-ifs-intelligence-5d1dd601.html): IFSが新産業用AIプラットフォームを発表。対話型インターフェースと自動実行エージェントで、活用されていない企業データを引き出し、業務アクションにつなげる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-15 14:31)
 - [Figmaの新機能Specsとは？AIエージェント対応デザイン管理](https://mot-ai-media.github.io/mot-ai-news/articles/figma-ai-134069d4.html): Figmaがマークダウンエディタ「Specs」を発表。AIエージェント向けに企業のデザインルールを一元管理できる仕組みが登場した。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-15 14:31)
@@ -202,8 +207,3 @@
 - [Surface Laptop Ultra 2599ドル Nvidia RTX Spark搭載 発売日10月16日](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-85d0ed30.html): マイクロソフトが独自開発のノートパソコン「Surface Laptop Ultra」を発表。Nvidiaの最新AI向けチップを搭載し、10月16日に2,599ドル（日本円で約26万円）から販売開始。WindowsにAI機能を統合した「Hybrid Intelligence」も同時展開される。 (出典: CNBC / 更新: 2026-10-08 11:28)
 - [Meta Muse iPad対応 AI競争 ChatGPT OpenAI](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-b8b3b1c5.html): Metaが開発するAIエージェント「Muse」がiPad向けのネイティブ対応を開始。ローンチから数週間でApp Storeの無料アプリトップを獲得し、Mac版に続くマルチデバイス展開で、OpenAIやその他のAIツールとの競争が加速している。 (出典: The Verge / 更新: 2026-10-08 01:28)
 - [ChatGPT College Planner：大学出願・奨学金情報を自動整理](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee6859a5.html): OpenAIが若年向けのChatGPT機能に大学進学支援ツール「College Planner」を追加。出願要件から締切、奨学金情報まで複数の大学の情報を一箇所で管理できるようになった。米国ではティーンモード利用者を中心に展開が始まっている。 (出典: The Verge / 更新: 2026-10-08 01:27)
-- [Pinterest Beauty Guides とは？AIで美容Pinがサロン準備ガイドに](https://mot-ai-media.github.io/mot-ai-news/articles/pinterest-ai-fcad74ce.html): PinterestのAI機能が、ヘアスタイルやネイルの画像を美容師の用語で説明し、料金や所要時間もセットで提案。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 22:02)
-- [Anthropic Claude for Startups プログラム拡大、料金・対象条件を解説](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-34171419.html): AI企業Anthropicが、スタートアップ向けに有料プランを1年無料で提供するプログラムを発表。AIアクセスの垣根が低くなる。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 22:01)
-- [LibreOfficeがAI機能を搭載しない理由。プライバシー重視の方針とは](https://mot-ai-media.github.io/mot-ai-news/articles/libreoffice-ai-f37dd1b5.html): オープンソースのLibreOfficeが、AIを搭載しない方針を明確に宣言。ユーザーデータの保護を優先する戦略。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 22:01)
-- [Mistral Large 4とは？フランスが開発した新型AI、性能・特徴を解説](https://mot-ai-media.github.io/mot-ai-news/articles/mistral-ai-mistral-large-4-dfb231c3.html): フランスのMistral AIが新型AI「Mistral Large 4」を発表。米国や中国の競合に対抗する独自路線を模索。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-07 22:01)
-- [AIエージェント7割が使われないとは？ガートナー予測の衝撃](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-6f7ce66e.html): 企業が導入したAIエージェントの7割が2028年までに放棄される見通し。単なるコンサルティングをAIソリューションとして売る危険性も指摘されている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-07 22:00)
