@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIエンジニアがトイレットペーパーで隠した盗聴器—AIの内部情報狙った産業スパイ事件の全貌</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32f880d6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32f880d6.html</guid>
+    <description>OpenAIで働いていたサウジアラビア国籍のエンジニアが、会議室にトイレットペーパーに包んだ盗聴器を仕掛けた容疑でFBIに逮捕された。AIチャットボットに盗聴器の製作方法を相談するなど、機密技術の盗難を意図していたとみられている。</description>
+    <pubDate>Thu, 15 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI企業アンスロピック、3ヶ月で168億ドルの急騰売上を武器に株式公開へ。半導体・データセンター企業の株価暴落も連鎖</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ebce4d43.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ebce4d43.html</guid>
+    <description>AI大手のアンスロピックが3ヶ月で売上45%増の168億ドルを記録し、年末までの株式公開を視野に入れている。一方で、AI開発に投じられる莫大な資金に対する懸念から、チップメーカーやテック企業の株価が世界的に下落。日本のソフトバンクやサムスン、SKハイニックスなども大幅に売られた。</description>
+    <pubDate>Thu, 15 Oct 2026 19:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Deezer、AI生成曲をフィルタリング。年内に機能提供へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/deezer-ai-9c18b5e1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/deezer-ai-9c18b5e1.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-9727039a.html</guid>
     <description>日本企業への相次ぐサイバー攻撃にAIが悪用される可能性を、AI企業Anthropicの共同創業者が指摘。防御対策の強化を呼びかけています。</description>
     <pubDate>Wed, 14 Oct 2026 18:43:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>デルCEOが警告：AIに安全装置が必須、企業と政府が協力しないと危ない</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/dell-ai-ab5c9cb8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/dell-ai-ab5c9cb8.html</guid>
-    <description>パソコン大手デルのマイケル・デルCEOが、AI技術には安全装置と統制が欠かせないと発言。企業と政府の両者が安全対策に関わるべき段階に来ていると指摘し、AIの野放し的な発展への危機感を表明している。</description>
-    <pubDate>Wed, 14 Oct 2026 13:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>米国防総省がAnthropicのAIを「ブラックリスト」化、企業が司法判断を求める</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-bf6ae984.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-bf6ae984.html</guid>
-    <description>AI企業Anthropicが、米国防総省によって自社のAIモデルが採用から除外された決定に対し、ワシントンD.C.の連邦裁判所に控訴の再審理を求める事態に。政府によるAI企業の規制が法廷で争われる初めてのケースとなる可能性がある。</description>
-    <pubDate>Wed, 14 Oct 2026 13:28:00 +0900</pubDate>
   </item>
 </channel></rss>

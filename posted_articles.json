@@ -1,13 +1,5 @@
 [
   {
-    "link": "https://www.cnbc.com/2026/09/15/investors-ai-slowdown-data-center-buildout.html",
-    "notified_at": "2026-09-15T10:27:56.331965+00:00"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/14/crowdstrike-ceo-anthropics-ai-safety-warning.html",
-    "notified_at": "2026-09-15T10:28:13.224015+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yM0ZVTXJWMi1fSEtXbTljVmwtTGphWGp2TFluX2dqbWtDU0s3SG4ySEV5NUM3cE5nNXFfSnpkNDU2SnJ3clFoVTRuLVJQN01wem1zVEs5RFhDaWREMmd1cnlXcGtHUW1welE?oc=5",
     "notified_at": "2026-09-15T11:53:14.941177+00:00"
   },
@@ -4522,5 +4514,13 @@
   {
     "link": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
     "notified_at": "2026-10-15T09:01:53.272684+00:00"
+  },
+  {
+    "link": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+    "notified_at": "2026-10-15T10:28:04.250625+00:00"
+  },
+  {
+    "link": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+    "notified_at": "2026-10-15T10:28:24.592920+00:00"
   }
 ]

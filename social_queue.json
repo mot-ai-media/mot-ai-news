@@ -2026,7 +2026,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/07/2000001207/10005368/2048",
     "generated_at": "2026-09-07 14:31",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -2084,7 +2084,10 @@
         "x_post": "9月11日からTeslaの『Cybercab』が日本で見学できます。東京・大阪・名古屋の4会場を巡る展示ツアー開催。完全自動運転の実車を自分の目で確認する絶好の機会です。",
         "cta": "ツアー詳細・見学の準備方法はMOT記事で確認。"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18105268613006065",
+    "published_at": "2026-10-15T19:02:56"
   },
   "gartner-ai-be6df0d7": {
     "headline": "Gartner発表、謎の新技術が初登場で「過度な期待」ピークに突入",
