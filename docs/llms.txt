@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-16 16:53
+最終更新: 2026-10-16 18:54
 
 ## 記事一覧
 
+- [GPTとClaudeの違いとは？ロボット制御能力比較評価](https://mot-ai-media.github.io/mot-ai-news/articles/openai-claude-fa1d3191.html): ChatGPTとClaudeのロボット制御性能を初めて比較評価するランキングが発表。 (出典: 36Kr / 更新: 2026-10-16 18:54)
+- [Claude Fable 5.5とは？Andrew Curranの最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6a711b29.html): AI開発に関する新しい示唆が業界で注目を集めている。 (出典: OrcaRouter / 更新: 2026-10-16 18:54)
 - [GitHub HydraFusionとは？GPT-6 Astra・Opus 5.5対応で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/github-openai-156d6a87.html): GitHubが複数のAIモデルを組み合わせる機能を拡張し、最新モデルに対応開始。開発者の選択肢が広がる。 (出典: CodeZine / 更新: 2026-10-16 16:53)
 - [GPT-6-Astra とは？物理研究問題解法の精度と料金を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-60db2b38.html): 最新のAIモデルが複雑な物理研究問題をほぼ完璧に解くことに成功。低コストでの問題解決が可能に。 (出典: The Decoder / 更新: 2026-10-16 16:53)
 - [Apple Meta Muse Spark Open Mac M5 Ultra対応でAIがローカル実行可能に](https://mot-ai-media.github.io/mot-ai-news/articles/meta-apple-d9d326be.html): MetaとAppleが協力し、高性能AI「Muse Spark Open」をMac上で直接動かせるようにした。クラウドに頼らずパソコンだけで最先端のAI機能が使える環境が整い始めている。 (出典: CNBC / 更新: 2026-10-16 16:29)
@@ -205,5 +207,3 @@
 - [Klang（クラング）とは？複数人の音声を正確に分離する文字起こしAI](https://mot-ai-media.github.io/mot-ai-news/articles/klang-plaud-693e8a23.html): 複数人が入り乱れる会話でも話者を正確に分離できるAI文字起こしサービスKlangが注目を集めている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 22:00)
 - [ArmのNeoverse CSS N4とは？2026年発表の新プロセッサ解説](https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-2d21ab4d.html): ArmがモバイルとPC向けの新プロセッサを発表。AI処理性能が大幅に向上し、スマートフォンやPCの性能競争が激化しそう。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 22:00)
 - [Anthropic IPO上場計画 投資家警告 2024年](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-d4986490.html): AI開発企業Anthropicが感謝祭前のNasdaq上場を計画しているとの報道に対し、海外の投資家向けアドバイス企業が「投資を見送るべき」と警告。AI企業の過度な評価に対する懸念が顕在化している。 (出典: CNBC / 更新: 2026-10-08 19:28)
-- [TSMC 9月売上 511.86億台湾ドル AI需要で前年比増加](https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-7af9cb19.html): 世界最大の半導体受託製造企業TSMCが9月の売上で大幅な増収を記録した。AI関連チップの需要が急速に伸びており、スマートフォンやデータセンター向けの半導体生産が加速している。この動きは日本の電子機器メーカーにも波及効果をもたらす可能性がある。 (出典: CNBC / 更新: 2026-10-08 19:27)
-- [富士通のCopilot導入成功事例：9割超利用率の実現方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6b2a86e1.html): 企業のAI導入でよくある「導入したのに使われない」問題。富士通は10万ライセンスで9割超の利用率達成の秘訣を語る。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)

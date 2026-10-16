@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Claude Fable 5.5、Andrew Curranの発言で新展開か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6a711b29.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6a711b29.html</guid>
+    <description>AI開発に関する新しい示唆が業界で注目を集めている。</description>
+    <pubDate>Fri, 16 Oct 2026 18:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GPT vs Claude、ロボット制御能力の初評価ランキング公開</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-claude-fa1d3191.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-claude-fa1d3191.html</guid>
+    <description>ChatGPTとClaudeのロボット制御性能を初めて比較評価するランキングが発表。</description>
+    <pubDate>Fri, 16 Oct 2026 18:54:00 +0900</pubDate>
+  </item>
+  <item>
     <title>GPT-6-Astra、物理研究の難題を1問2.40ドルで解く</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-60db2b38.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-60db2b38.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-39286926.html</guid>
     <description>YouTubeがAIで作られた楽曲に自動的にラベルを表示。リスナーが曲の成り立ちを透明に理解できる仕組みが始まった。</description>
     <pubDate>Thu, 15 Oct 2026 14:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、日本企業サイトへの攻撃に本格活用。8時間で10段階に進化する手口を観測</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-347c71ef.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-347c71ef.html</guid>
-    <description>セキュリティ企業が日本企業のWebサイトへのAIエージェント攻撃を確認。攻撃者が学習・適応するAIを武器に使い始めた実態が明らかに。</description>
-    <pubDate>Thu, 15 Oct 2026 14:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>ハッカーもAIを使う時代へ。Anthropic創業者が警告する悪用の現実と対策</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-8b00aa55.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-8b00aa55.html</guid>
-    <description>AI企業Anthropicの創業者が初来日し、ハッカーによるAI悪用の可能性を指摘。業界全体での対策が必要と強調した。</description>
-    <pubDate>Thu, 15 Oct 2026 14:16:00 +0900</pubDate>
   </item>
 </channel></rss>
