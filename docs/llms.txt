@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-15 19:28
+最終更新: 2026-10-16 14:03
 
 ## 記事一覧
 
+- [声優・俳優の声のAI利用ガイドラインとは？日俳連が発表した新ルールの内容](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-5a99a6dc.html): 声優・俳優の権利を守るため、日本俳優連合が音声AI利用の新ガイドラインを発表。事業者に事前許諾や適正対価を義務づけ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:03)
+- [AIエージェントのセキュリティ対策とは？NVIDIAが指摘する実装の原則](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-168efefe.html): AIが自動で会社のシステムを操作する時代、指示を制限するだけでなく、実行環境での権限管理が重要だとNVIDIAが指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:03)
+- [AIが買い物・決済を自動化する時代とは？完全自動化の課題と可能性を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-070afa9b.html): AIが最安値を探して自動で購入・決済する時代が来る一方、完全自動化には課題。AI同士の売買による超高速経済も出現。 (出典: TBS NEWS DIG / 更新: 2026-10-16 14:02)
+- [生成AI時代のデータ主権とは？企業のデータ保護戦略を解説](https://mot-ai-media.github.io/mot-ai-news/articles/ai-a837bf05.html): 生成AIの普及で企業データの扱い方が課題に。単純な禁止や放任ではなく、実践的な管理戦略が求められている。 (出典: ウイングアーク１ｓｔ / 更新: 2026-10-16 14:02)
+- [AIコーディングツール導入で生産性向上？Microsoftの実証研究が明かす実態](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-claude-code-316912d4.html): Microsoftが社内数万人のエンジニアで検証。AIコーディングツール導入で仕事量が24%増加し、その効果は4ヶ月間持続していた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:02)
 - [アンスロピック売上168億ドルで上場準備、AI業界の投資過熱が市場に波紋](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ebce4d43.html): AI大手のアンスロピックが3ヶ月で売上45%増の168億ドルを記録し、年末までの株式公開を視野に入れている。一方で、AI開発に投じられる莫大な資金に対する懸念から、チップメーカーやテック企業の株価が世界的に下落。日本のソフトバンクやサムスン、SKハイニックスなども大幅に売られた。 (出典: BBC / 更新: 2026-10-15 19:28)
 - [OpenAI盗聴器事件：サウジアラビア人エンジニアが会議室に仕掛けた秘密録音装置](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32f880d6.html): OpenAIで働いていたサウジアラビア国籍のエンジニアが、会議室にトイレットペーパーに包んだ盗聴器を仕掛けた容疑でFBIに逮捕された。AIチャットボットに盗聴器の製作方法を相談するなど、機密技術の盗難を意図していたとみられている。 (出典: BBC / 更新: 2026-10-15 19:28)
 - [Flock銃声検知マイク、プライバシー問題。周辺音の検知範囲が明かす矛盾とは](https://mot-ai-media.github.io/mot-ai-news/articles/flock-bd61b921.html): 街頭監視企業Flockが銃声検知マイクの実際の機能を巡り、CEO発言と公式サイト説明で矛盾。プライバシー団体が懸念を強める。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-15 18:01)
@@ -202,8 +207,3 @@
 - [Manus 5億ドル資金調達 Meta分離後 AI企業の独立戦略](https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html): メタが中国政府の圧力で約20億ドルの買収を撤回させられたAI企業Manusが、独立後の初めての大型資金調達として5億ドルを獲得。AI自動化技術の開発競争が国家間の規制対立を巻き込みながら加速している。 (出典: CNBC / 更新: 2026-10-08 16:28)
 - [ChatGPT for Teensの安全機能に問題、米団体が指摘する実態](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6ca63d61.html): OpenAIの10代向けサービに安全機能の不具合が指摘され、保護者への通知がほぼ機能していないことが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:31)
 - [サイバー攻撃とAI悪用の実態、セキュリティ専門家が見解](https://mot-ai-media.github.io/mot-ai-news/articles/ai-210555db.html): 今年夏からサイバー攻撃による情報漏えいが急増。セキュリティ専門家がAI悪用の可能性を指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:31)
-- [ChatGPT GPT-6とは？Intelligent UIの使い方・いつから使える](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-b69fb065.html): OpenAIがChatGPTに新モデルGPT-6と、テキストだけでなく操作可能な図やボタンを含む回答を生成する機能を追加。無料版からも利用可能に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:31)
-- [SynthID Detectorとは？AI生成コンテンツの判定ツール、使い方と対応企業](https://mot-ai-media.github.io/mot-ai-news/articles/google-openai-5163dda7.html): Googleが誰でも使えるAI生成判定ツールを公開。画像・動画・音声をアップロードするだけでAIの仕業が分かる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:30)
-- [不正アクセス多発の背景にAI？識者が指摘する攻撃手法の変化とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-d507fbcf.html): タイムズカーシェアや焼肉きんぐなど大手企業への不正アクセスが相次ぐ中、セキュリティ専門家は『AI使用が不自然ではない』と指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:30)
-- [Samsung利益80億ドル AI需要 チップ価格上昇](https://mot-ai-media.github.io/mot-ai-news/articles/samsung-ai-55dfc7be.html): AI開発の急速な拡大に伴い、メモリチップ需要が急増。Samsung Electronicsが3四半期連続で過去最高益を更新する見通しを発表。ただし需給逼迫により、スマートフォンやPCなどの消費者向け製品の価格上昇が懸念されている。 (出典: BBC / 更新: 2026-10-08 11:28)
-- [Surface Laptop Ultra 2599ドル Nvidia RTX Spark搭載 発売日10月16日](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-85d0ed30.html): マイクロソフトが独自開発のノートパソコン「Surface Laptop Ultra」を発表。Nvidiaの最新AI向けチップを搭載し、10月16日に2,599ドル（日本円で約26万円）から販売開始。WindowsにAI機能を統合した「Hybrid Intelligence」も同時展開される。 (出典: CNBC / 更新: 2026-10-08 11:28)
