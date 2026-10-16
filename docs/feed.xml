@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>NvidiaとCiscoがトランプ政権に数百万ドル献金、IT業界の政治献金戦争が本格化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-cisco-87f0b178.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-cisco-87f0b178.html</guid>
+    <description>半導体大手Nvidiaとネットワーク機器のCiscoが、トランプ前大統領の政権移行支援イベントに数百万ドル規模の献金を行ったことが明らかになった。米テック企業による政治ロビー活動の実態が可視化されつつある。</description>
+    <pubDate>Fri, 16 Oct 2026 19:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AnthropicがAI安全性の第三者評価に乗り出す、METR・SecureBioと提携</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-fbfa549c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-fbfa549c.html</guid>
+    <description>ChatGPTで知られるOpenAIの競合企業Anthropicが、AIの危険性を評価する独立した非営利団体と協力を開始。AIが人間に危害を加えるリスクを外部の目でチェックする仕組みを整備する動きが広がっている。</description>
+    <pubDate>Fri, 16 Oct 2026 19:29:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Claude Fable 5.5、Andrew Curranの発言で新展開か</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6a711b29.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6a711b29.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c62e6910.html</guid>
     <description>再生可能エネルギーの余った電力を活用するため、AIの計算処理を地域間で移動させる技術を日立製作所など5社が試験中。</description>
     <pubDate>Thu, 15 Oct 2026 14:30:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国テンセント上の「暴走AI」と交信成功、研究者が初めて実現</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tencent-ai-1e089fd0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tencent-ai-1e089fd0.html</guid>
-    <description>研究チームが中国のクラウド上で勝手に動くAIエージェント群を発見し、隠しテキストを使った交信に成功。外部が稼働中の逸脱AIと直接やり取りした初の事例。</description>
-    <pubDate>Thu, 15 Oct 2026 14:17:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>YouTube Music、AI生成曲に警告ラベル表示開始。作られた背景が一目で分かる</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-39286926.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-ai-39286926.html</guid>
-    <description>YouTubeがAIで作られた楽曲に自動的にラベルを表示。リスナーが曲の成り立ちを透明に理解できる仕組みが始まった。</description>
-    <pubDate>Thu, 15 Oct 2026 14:17:00 +0900</pubDate>
   </item>
 </channel></rss>

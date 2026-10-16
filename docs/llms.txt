@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-16 18:54
+最終更新: 2026-10-16 19:30
 
 ## 記事一覧
 
+- [Nvidia Cisco トランプ献金 | 米大手テック企業の政治ロビー活動が激化](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-cisco-87f0b178.html): 半導体大手Nvidiaとネットワーク機器のCiscoが、トランプ前大統領の政権移行支援イベントに数百万ドル規模の献金を行ったことが明らかになった。米テック企業による政治ロビー活動の実態が可視化されつつある。 (出典: CNBC / 更新: 2026-10-16 19:30)
+- [Anthropic AI安全評価 METR SecureBio提携 日本への影響](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-fbfa549c.html): ChatGPTで知られるOpenAIの競合企業Anthropicが、AIの危険性を評価する独立した非営利団体と協力を開始。AIが人間に危害を加えるリスクを外部の目でチェックする仕組みを整備する動きが広がっている。 (出典: CNBC / 更新: 2026-10-16 19:29)
 - [GPTとClaudeの違いとは？ロボット制御能力比較評価](https://mot-ai-media.github.io/mot-ai-news/articles/openai-claude-fa1d3191.html): ChatGPTとClaudeのロボット制御性能を初めて比較評価するランキングが発表。 (出典: 36Kr / 更新: 2026-10-16 18:54)
 - [Claude Fable 5.5とは？Andrew Curranの最新情報](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-6a711b29.html): AI開発に関する新しい示唆が業界で注目を集めている。 (出典: OrcaRouter / 更新: 2026-10-16 18:54)
 - [GitHub HydraFusionとは？GPT-6 Astra・Opus 5.5対応で何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/github-openai-156d6a87.html): GitHubが複数のAIモデルを組み合わせる機能を拡張し、最新モデルに対応開始。開発者の選択肢が広がる。 (出典: CodeZine / 更新: 2026-10-16 16:53)
@@ -205,5 +207,3 @@
 - [AIエージェント導入手順8ステップ｜失敗しない進め方と期間目安](https://mot-ai-media.github.io/mot-ai-news/articles/ai-98855711.html): AIエージェント導入の40%以上が中止される中、業務選定から本番運用までの成功パターンを徹底解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-08 22:01)
 - [Nous Research、Hermes Agent企業版を発表、150億円超資金調達](https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html): 開発者に人気のオープンソースAI「Hermes」を手がけるNous Researchが、企業向けの業務自動化ツールで大型資金調達を実現。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-08 22:01)
 - [Klang（クラング）とは？複数人の音声を正確に分離する文字起こしAI](https://mot-ai-media.github.io/mot-ai-news/articles/klang-plaud-693e8a23.html): 複数人が入り乱れる会話でも話者を正確に分離できるAI文字起こしサービスKlangが注目を集めている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 22:00)
-- [ArmのNeoverse CSS N4とは？2026年発表の新プロセッサ解説](https://mot-ai-media.github.io/mot-ai-news/articles/arm-ai-2d21ab4d.html): ArmがモバイルとPC向けの新プロセッサを発表。AI処理性能が大幅に向上し、スマートフォンやPCの性能競争が激化しそう。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 22:00)
-- [Anthropic IPO上場計画 投資家警告 2024年](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ipo-d4986490.html): AI開発企業Anthropicが感謝祭前のNasdaq上場を計画しているとの報道に対し、海外の投資家向けアドバイス企業が「投資を見送るべき」と警告。AI企業の過度な評価に対する懸念が顕在化している。 (出典: CNBC / 更新: 2026-10-08 19:28)

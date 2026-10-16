@@ -1,30 +1,6 @@
 [
   {
     "tokens": [
-      "chip",
-      "demand",
-      "drives",
-      "sales",
-      "september",
-      "surge",
-      "tsmc",
-      "year-over-year"
-    ],
-    "ts": "2026-10-08T19:27:54"
-  },
-  {
-    "tokens": [
-      "analyst",
-      "anthropic",
-      "ipo'",
-      "most",
-      "ridiculous",
-      "year"
-    ],
-    "ts": "2026-10-08T19:28:08"
-  },
-  {
-    "tokens": [
       "aging",
       "alexa",
       "amazon",
@@ -843,5 +819,34 @@
       "week's"
     ],
     "ts": "2026-10-16T16:29:57"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "assess",
+      "help",
+      "metr",
+      "nonprofits",
+      "practices",
+      "risks",
+      "safety",
+      "securebio",
+      "taps"
+    ],
+    "ts": "2026-10-16T19:29:51"
+  },
+  {
+    "tokens": [
+      "ballroom",
+      "cisco",
+      "confirm",
+      "donations",
+      "house",
+      "multimillion-dollar",
+      "nvidia",
+      "trump's",
+      "white"
+    ],
+    "ts": "2026-10-16T19:30:07"
   }
 ]
