@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-16 19:30
+最終更新: 2026-10-16 22:02
 
 ## 記事一覧
 
+- [ドイツの地方都市がAIベンチャー拠点に？成功の理由を解説](https://mot-ai-media.github.io/mot-ai-news/articles/d7b4a778.html): ドイツ南西部の地方都市が、大学の知財と地場産業を結びつけ、AIなどの先端技術ベンチャーの一大拠点へと成長。東京一極集中の日本への教訓となる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 22:02)
+- [不正アクセス対策とは？Gartnerが日本企業に推奨する7つのアクション](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-3195e876.html): AIエージェントの悪用で攻撃が急速化。セキュリティ体制の抜本的な見直しが急務に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 22:01)
+- [Meta「Muse Spark Open」とは？Mac対応AI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-open-ec004d87.html): Metaがオープンソースの高性能AI「Muse Spark Open」を発表。Apple Siliconに最適化され、Mac Studioでローカル動作する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 22:01)
+- [マルハニチロの販売計画自動化、AIが実現した業務削減とは](https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-33de965c.html): 食品大手が全支社の手作業業務をAIで自動化。年4200時間の工数削減に成功した仕組みを解説。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 22:01)
+- [iOS 27 Siri AI切り替え機能とは？Claude・ChatGPT対応の見通し](https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-6cd649a4.html): 次期iOSでSiriが複数のAIエンジンから選べる仕様が判明。一般提供時期は未定。 (出典: GIGAZINE / 更新: 2026-10-16 22:00)
 - [Nvidia Cisco トランプ献金 | 米大手テック企業の政治ロビー活動が激化](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-cisco-87f0b178.html): 半導体大手Nvidiaとネットワーク機器のCiscoが、トランプ前大統領の政権移行支援イベントに数百万ドル規模の献金を行ったことが明らかになった。米テック企業による政治ロビー活動の実態が可視化されつつある。 (出典: CNBC / 更新: 2026-10-16 19:30)
 - [Anthropic AI安全評価 METR SecureBio提携 日本への影響](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-fbfa549c.html): ChatGPTで知られるOpenAIの競合企業Anthropicが、AIの危険性を評価する独立した非営利団体と協力を開始。AIが人間に危害を加えるリスクを外部の目でチェックする仕組みを整備する動きが広がっている。 (出典: CNBC / 更新: 2026-10-16 19:29)
 - [GPTとClaudeの違いとは？ロボット制御能力比較評価](https://mot-ai-media.github.io/mot-ai-news/articles/openai-claude-fa1d3191.html): ChatGPTとClaudeのロボット制御性能を初めて比較評価するランキングが発表。 (出典: 36Kr / 更新: 2026-10-16 18:54)
@@ -202,8 +207,3 @@
 - [Google Gemini Enterprise エージェント、複数アプリ・デバイス対応で業務自動化](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html): Googleが企業向けの「Gemini」AIエージェントを発表。複数のアプリやデバイスを背景で自動制御し、ユーザーが1つのインターフェースから指示するだけで複数の業務をこなせる。従来は個別アプリごとにAIを使い分けていた作業が大きく変わる可能性がある。 (出典: The Verge / 更新: 2026-10-09 01:28)
 - [Google AI Edge Foresight オフライン会議録音アプリ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html): Googleが実験的なメモアプリ「Google AI Edge Foresight」をmacOSで公開。会議やオーディオファイルの録音・文字起こし・要約をすべてデバイス内で処理し、クラウドに送信しない。プライバシーを重視するビジネスユーザーの需要に対応する。 (出典: The Verge / 更新: 2026-10-09 01:27)
 - [金利上昇がAI株に有利に働く理由｜市場二極化が進む](https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html): アメリカの金利上昇により、市場が大きく二つに分かれようとしている。借り入れコストに敏感なセクターが圧力を受ける一方で、AI関連企業はこの逆風をほぼ受けないという指摘が、米著名投資家から出されている。 (出典: CNBC / 更新: 2026-10-08 22:28)
-- [Amazon Alexa タブレット値上げ 予算モデル廃止 2024](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-0e35835f.html): Amazonが低価格のFireタブレットラインを廃止し、AI機能とデザインを強化した高価格帯のAlexaタブレットへシフト。スマートデバイス市場全体が「安いだけ」から「性能が重視される」時代に移行する兆候が鮮明になった。 (出典: CNBC / 更新: 2026-10-08 22:27)
-- [AIエージェント導入方法の比較・選び方｜4つのパターンから企業向けガイド](https://mot-ai-media.github.io/mot-ai-news/articles/chatgpt-microsoft-copilot-2e28343d.html): 既製ツール・専用SaaS・ノーコード・開発と4つの導入方法。自社に合う選択肢をどう判断するか。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-08 22:01)
-- [AIエージェント導入手順8ステップ｜失敗しない進め方と期間目安](https://mot-ai-media.github.io/mot-ai-news/articles/ai-98855711.html): AIエージェント導入の40%以上が中止される中、業務選定から本番運用までの成功パターンを徹底解説。 (出典: AI専門ニュースメディア AINOW / 更新: 2026-10-08 22:01)
-- [Nous Research、Hermes Agent企業版を発表、150億円超資金調達](https://mot-ai-media.github.io/mot-ai-news/articles/nous-research-hermes-9b801200.html): 開発者に人気のオープンソースAI「Hermes」を手がけるNous Researchが、企業向けの業務自動化ツールで大型資金調達を実現。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-08 22:01)
-- [Klang（クラング）とは？複数人の音声を正確に分離する文字起こしAI](https://mot-ai-media.github.io/mot-ai-news/articles/klang-plaud-693e8a23.html): 複数人が入り乱れる会話でも話者を正確に分離できるAI文字起こしサービスKlangが注目を集めている。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 22:00)

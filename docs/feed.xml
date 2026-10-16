@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>ベルリンを圧倒するドイツの地方都市が、AIベンチャーの聖地に変貌</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/d7b4a778.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/d7b4a778.html</guid>
+    <description>ドイツ南西部の地方都市が、大学の知財と地場産業を結びつけ、AIなどの先端技術ベンチャーの一大拠点へと成長。東京一極集中の日本への教訓となる可能性。</description>
+    <pubDate>Fri, 16 Oct 2026 22:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>年4200時間の削減を実現、マルハニチロが販売計画をAI自動化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-33de965c.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-ai-33de965c.html</guid>
+    <description>食品大手が全支社の手作業業務をAIで自動化。年4200時間の工数削減に成功した仕組みを解説。</description>
+    <pubDate>Fri, 16 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Meta、米国製AI「Muse Spark Open」公開。MacでAIが丸ごと動く時代へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-open-ec004d87.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-open-ec004d87.html</guid>
+    <description>Metaがオープンソースの高性能AI「Muse Spark Open」を発表。Apple Siliconに最適化され、Mac Studioでローカル動作する。</description>
+    <pubDate>Fri, 16 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>攻撃時間が数週間から数分に。Gartnerが日本企業に示す不正アクセス対策の7つの緊急アクション</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-3195e876.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-3195e876.html</guid>
+    <description>AIエージェントの悪用で攻撃が急速化。セキュリティ体制の抜本的な見直しが急務に。</description>
+    <pubDate>Fri, 16 Oct 2026 22:01:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>iOS 27でSiriがClaudeやChatGPTに切り替え可能に、ついに複数AI対応へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-6cd649a4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-siri-6cd649a4.html</guid>
+    <description>次期iOSでSiriが複数のAIエンジンから選べる仕様が判明。一般提供時期は未定。</description>
+    <pubDate>Fri, 16 Oct 2026 22:00:00 +0900</pubDate>
+  </item>
+  <item>
     <title>NvidiaとCiscoがトランプ政権に数百万ドル献金、IT業界の政治献金戦争が本格化</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-cisco-87f0b178.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-cisco-87f0b178.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gudea-sns-5abc04e0.html</guid>
     <description>小さなSNS投稿が大炎上する前に、AIが兆候を察知し企業に警告するシステムが登場。</description>
     <pubDate>Thu, 15 Oct 2026 18:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIがチップ設計も自動化、年1万倍の計算需要にどう対抗するのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ricursive-intelligence-ai-f86858c1.html</guid>
-    <description>AIスタートアップが自らチップを設計・改善するAIを開発し、急増する計算需要に対応する道を切り開こうとしている。</description>
-    <pubDate>Thu, 15 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Figma、AIエージェントの暴走を止める。デザイン定義システムで「自由すぎる生成」に歯止め</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/figma-ai-134069d4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/figma-ai-134069d4.html</guid>
-    <description>Figmaがマークダウンエディタ「Specs」を発表。AIエージェント向けに企業のデザインルールを一元管理できる仕組みが登場した。</description>
-    <pubDate>Thu, 15 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>IFS、企業の眠る40％のデータを目覚めさせるAI発表。対話型で自動実行へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ifs-ifs-intelligence-5d1dd601.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ifs-ifs-intelligence-5d1dd601.html</guid>
-    <description>IFSが新産業用AIプラットフォームを発表。対話型インターフェースと自動実行エージェントで、活用されていない企業データを引き出し、業務アクションにつなげる。</description>
-    <pubDate>Thu, 15 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日本のAI安全性評価、2026年度に独自ベンチマーク完成へ。サイバー攻撃対策は急務</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aisi-ai-c9986c5a.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aisi-ai-c9986c5a.html</guid>
-    <description>政府機関AISIがAIの安全性を測る独自基準を2026年度内に完成させ、サイバー攻撃への防御強化にも注力する方針を明らかに。</description>
-    <pubDate>Thu, 15 Oct 2026 14:31:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>日立など5社、AIの計算処理を「電力が余ったところへ移す」実証開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c62e6910.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-c62e6910.html</guid>
-    <description>再生可能エネルギーの余った電力を活用するため、AIの計算処理を地域間で移動させる技術を日立製作所など5社が試験中。</description>
-    <pubDate>Thu, 15 Oct 2026 14:30:00 +0900</pubDate>
   </item>
 </channel></rss>
