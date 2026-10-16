@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>GPT-6-Astra、物理研究の難題を1問2.40ドルで解く</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-60db2b38.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-gpt-6-astra-60db2b38.html</guid>
+    <description>最新のAIモデルが複雑な物理研究問題をほぼ完璧に解くことに成功。低コストでの問題解決が可能に。</description>
+    <pubDate>Fri, 16 Oct 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>GitHub、最新AI複数モデル統合「HydraFusion」でGPT-6 Astra・Opus 5.5に対応</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/github-openai-156d6a87.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/github-openai-156d6a87.html</guid>
+    <description>GitHubが複数のAIモデルを組み合わせる機能を拡張し、最新モデルに対応開始。開発者の選択肢が広がる。</description>
+    <pubDate>Fri, 16 Oct 2026 16:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI株の急落が示す「危険な罠」—投資家が今、気づくべき教訓</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-cnbc-6171c9d6.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-cnbc-6171c9d6.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-8b00aa55.html</guid>
     <description>AI企業Anthropicの創業者が初来日し、ハッカーによるAI悪用の可能性を指摘。業界全体での対策が必要と強調した。</description>
     <pubDate>Thu, 15 Oct 2026 14:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生産性2倍達成も、AIが書くコード量が人間の確認能力を圧倒</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-03c68b86.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-03c68b86.html</guid>
-    <description>生産性目標は達成したものの、AIが生成するコード量が人間のレビュー能力を超過し、組織全体で新たなボトルネックが発生。</description>
-    <pubDate>Thu, 15 Oct 2026 14:16:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>失明治療の新時代へ。Neuralink出身者が率いるScience Corporation、視力回復チップの臨床応用開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/science-corporation-prima-a2d00ff1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/science-corporation-prima-a2d00ff1.html</guid>
-    <description>脳インターフェース技術を応用した視力回復チップが、初めて患者に移植され、多くの失明疾患の治療に道を開く可能性が浮上。</description>
-    <pubDate>Wed, 14 Oct 2026 22:01:00 +0900</pubDate>
   </item>
 </channel></rss>
