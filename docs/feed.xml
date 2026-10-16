@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>OpenAIの新モデルとClaudeの最新版、価格と性能で激突</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-claude-a42175c7.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-claude-a42175c7.html</guid>
+    <description>OpenAIとAnthropicの最新AIモデル、価格と処理能力の比較情報が浮上。</description>
+    <pubDate>Fri, 16 Oct 2026 22:53:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>MetaのMuse Wonder、Claude最新版に肉薄。AI言語モデルの競争激化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-d9e7c607.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-d9e7c607.html</guid>
+    <description>MetaとAnthropicの最新AI言語モデルの性能を比較した評価が話題に。</description>
+    <pubDate>Fri, 16 Oct 2026 22:53:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AI需要の爆発で半導体メーカーが供給不足。Nvidia・Apple・AMDが奪い合う</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-nvidia-f0b686d1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-nvidia-f0b686d1.html</guid>
@@ -197,20 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/deezer-ai-9c18b5e1.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/deezer-ai-9c18b5e1.html</guid>
     <description>音楽配信Deezerが、AI生成曲を自動的に除外するフィルタ機能を年内に導入。ユーザーの45%が希望していた。</description>
-    <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが詐欺師に化ける、銀行や政府が続々採用する新兵器</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apate-ai-ai-619d87b0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apate-ai-ai-619d87b0.html</guid>
-    <description>詐欺師を騙すAIエージェントが登場。銀行や政府機関が詐欺の手口を学ぶために活用中。</description>
-    <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>YouTube Music、AI生成楽曲に「ラベル表示」導入。作曲・ボーカルの関与も明記</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-music-ai-55222f29.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-music-ai-55222f29.html</guid>
-    <description>YouTube MusicがAI生成楽曲の透明性を強化。どの部分にAIが使われたかがプレイヤーで一目瞭然に。</description>
     <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>

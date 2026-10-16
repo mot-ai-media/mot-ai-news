@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-16 22:28
+最終更新: 2026-10-16 22:53
 
 ## 記事一覧
 
+- [Muse Wonder vs Claude Fable 5.1比較｜Metaの新モデル評価](https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-d9e7c607.html): MetaとAnthropicの最新AI言語モデルの性能を比較した評価が話題に。 (出典: The New Stack / 更新: 2026-10-16 22:53)
+- [Step 5 Preview vs Claude Fable 5：価格と性能を比較](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-claude-a42175c7.html): OpenAIとAnthropicの最新AIモデル、価格と処理能力の比較情報が浮上。 (出典: OrcaRouter / 更新: 2026-10-16 22:53)
 - [CoreWeave 経営危機 AI企業 債券市場 信用不安](https://mot-ai-media.github.io/mot-ai-news/articles/coreweave-ai-ba7679c3.html): AI企業CoreWeaveの信用不安が深刻化し、市場では経営破綻の可能性を反映した取引が活発化している。AI産業の過熱マネーが冷え込み始めた兆候として注目されている。 (出典: CNBC / 更新: 2026-10-16 22:28)
 - [TSMC供給不足。AI需要増加でNvidia等が争奪戦](https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-nvidia-f0b686d1.html): AI チップの急増需要により、世界最大の半導体受託製造企業TSMC（台湾積電）が供給能力の限界に直面。好況を背景にしても、NvidiaやApple、Broadcom、AMDといった大手顧客が限られたチップ生産枠を巡って競争を激化させている。 (出典: CNBC / 更新: 2026-10-16 22:28)
 - [ドイツの地方都市がAIベンチャー拠点に？成功の理由を解説](https://mot-ai-media.github.io/mot-ai-news/articles/d7b4a778.html): ドイツ南西部の地方都市が、大学の知財と地場産業を結びつけ、AIなどの先端技術ベンチャーの一大拠点へと成長。東京一極集中の日本への教訓となる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 22:02)
@@ -205,5 +207,3 @@
 - [ChatGPT Workの自動化機能とは？ログイン操作の安全な自動実行が開始](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-89ea0730.html): ChatGPT Workが新たに、ウェブサイトのログイン操作を安全に自動化する機能を提供開始。複雑な認証プロセスをAIが担当。 (出典: X / 更新: 2026-10-09 10:13)
 - [Google「Gemini Agent」とは？Claude対応、複数AI利用可能に](https://mot-ai-media.github.io/mot-ai-news/articles/google-claude-3842feda.html): GoogleがマルチAI対応の新サービスを発表。GeminiだけでなくClaudeなど複数モデルから最適なものを選べる時代に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 10:13)
 - [Anthropic、Claude利用ポリシー改定。AIへの虐待禁止やプロパガンダ対策](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-804b1fcf.html): Anthropicが生成AIの「Claude」の利用ルールを改定。AIへの継続的な虐待の禁止や影響工作対策を強化。11月12日から実施。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 10:13)
-- [WebMCPとは？ChatGPTデスクトップ版の新機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2c11e12c.html): デスクトップ版ChatGPTがWebMCPに対応し、AIとウェブサイトの連携がさらに強化される。 (出典: GIGAZINE / 更新: 2026-10-09 10:12)
-- [Google Gemini Enterprise エージェント、複数アプリ・デバイス対応で業務自動化](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html): Googleが企業向けの「Gemini」AIエージェントを発表。複数のアプリやデバイスを背景で自動制御し、ユーザーが1つのインターフェースから指示するだけで複数の業務をこなせる。従来は個別アプリごとにAIを使い分けていた作業が大きく変わる可能性がある。 (出典: The Verge / 更新: 2026-10-09 01:28)
