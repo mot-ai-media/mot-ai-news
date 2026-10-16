@@ -2250,7 +2250,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2245923419.jpg?resize=1200,800",
     "generated_at": "2026-09-04 18:01",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -2308,7 +2308,10 @@
         "x_post": "Crusoeの300億ドル資金調達でわかること：あなたが仕事で使うAIの快適性は、データセンター企業の競争力で決まってる。投資加速＝インフラ強化＝レスポンス速度と安定性向上。小さな違いが毎日積み重なる。",
         "cta": "AI時代の仕事術について、MOTで具体例をチェック"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18345090337267337",
+    "published_at": "2026-10-16T19:03:35"
   },
   "sony-ai-hakken-d6a8aa14": {
     "headline": "AIが「まだ発見されていない科学的真実」を予測する時代へ。ソニーAIが実証、がん研究で新知見も",
