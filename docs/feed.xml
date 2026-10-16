@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AWS・Anthropic・OpenAIが「AI専門エンジニア部隊」の配置競争を開始。企業のAI投資が本当に元を取れるか実証する段階へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-anthropic-8f47fa65.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-anthropic-8f47fa65.html</guid>
+    <description>AWSやAnthropicなどの大手テック企業が、顧客企業に専門エンジニアを常駐させる『フォワードデプロイド』チームの展開を加速している。企業が数百億円規模で導入したAI技術を実際に使いこなせるようサポートする体制が、今後の競争の鍵になる。</description>
+    <pubDate>Sat, 17 Oct 2026 01:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIが直面した「サウジ人による盗聴事件」が示す、米国のAI覇権危機</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-security-fd2c48c9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-security-fd2c48c9.html</guid>
+    <description>OpenAIで発生したサウジアラビア国籍者による盗聴事件が、米国の国家情報長官によってAI時代の新たなサイバー脅威として指摘された。AIが既存のセキュリティリスクを増幅させ、米国のAI産業の優位性を脅かす可能性が懸念されている。</description>
+    <pubDate>Sat, 17 Oct 2026 01:27:00 +0900</pubDate>
+  </item>
+  <item>
     <title>OpenAIの新モデルとClaudeの最新版、価格と性能で激突</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-claude-a42175c7.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-claude-a42175c7.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32f880d6.html</guid>
     <description>OpenAIで働いていたサウジアラビア国籍のエンジニアが、会議室にトイレットペーパーに包んだ盗聴器を仕掛けた容疑でFBIに逮捕された。AIチャットボットに盗聴器の製作方法を相談するなど、機密技術の盗難を意図していたとみられている。</description>
     <pubDate>Thu, 15 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI企業アンスロピック、3ヶ月で168億ドルの急騰売上を武器に株式公開へ。半導体・データセンター企業の株価暴落も連鎖</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ebce4d43.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-ebce4d43.html</guid>
-    <description>AI大手のアンスロピックが3ヶ月で売上45%増の168億ドルを記録し、年末までの株式公開を視野に入れている。一方で、AI開発に投じられる莫大な資金に対する懸念から、チップメーカーやテック企業の株価が世界的に下落。日本のソフトバンクやサムスン、SKハイニックスなども大幅に売られた。</description>
-    <pubDate>Thu, 15 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Deezer、AI生成曲をフィルタリング。年内に機能提供へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/deezer-ai-9c18b5e1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/deezer-ai-9c18b5e1.html</guid>
-    <description>音楽配信Deezerが、AI生成曲を自動的に除外するフィルタ機能を年内に導入。ユーザーの45%が希望していた。</description>
-    <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
   </item>
 </channel></rss>

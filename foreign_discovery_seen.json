@@ -1,30 +1,6 @@
 [
   {
     "tokens": [
-      "app",
-      "completely",
-      "google",
-      "meetings",
-      "note-taking",
-      "offline",
-      "transcribes"
-    ],
-    "ts": "2026-10-09T01:27:57"
-  },
-  {
-    "tokens": [
-      "agent",
-      "gemini",
-      "google",
-      "launching",
-      "one-stop",
-      "tasks",
-      "work"
-    ],
-    "ts": "2026-10-09T01:28:12"
-  },
-  {
-    "tokens": [
       "aussie",
       "citing",
       "firm",
@@ -845,5 +821,38 @@
       "tsmc"
     ],
     "ts": "2026-10-16T22:28:30"
+  },
+  {
+    "tokens": [
+      "bugging",
+      "case",
+      "clayton",
+      "dni",
+      "leadership",
+      "national",
+      "openai",
+      "saudi",
+      "shows",
+      "threat",
+      "u.s."
+    ],
+    "ts": "2026-10-17T01:27:58"
+  },
+  {
+    "tokens": [
+      "anthropic",
+      "army",
+      "aws",
+      "deploy",
+      "engineers",
+      "key",
+      "off",
+      "pay",
+      "proving",
+      "race",
+      "specialized",
+      "spending"
+    ],
+    "ts": "2026-10-17T01:28:16"
   }
 ]
