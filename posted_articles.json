@@ -1,17 +1,5 @@
 [
   {
-    "link": "https://www.itmedia.co.jp/news/article/2609/16/2000001524/",
-    "notified_at": "2026-09-16T05:33:43.137957+00:00"
-  },
-  {
-    "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyf?at_medium=RSS&at_campaign=rss",
-    "notified_at": "2026-09-16T07:27:42.415332+00:00"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/15/ai-destroy-humanity-extinction-risks.html",
-    "notified_at": "2026-09-16T07:27:42.428901+00:00"
-  },
-  {
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZTHBQS1c2YXpXWkZ5UE8yVDZoajZJaW9UdFFrNTVFc0hCMjBsSmdEN1MyVEZCUWE4SHdXV2lRLUpjdE54TzFsd1cyLXJscWFMLWxaNGlPX2VLNVZYN3FPb0luRUs?oc=5",
     "notified_at": "2026-09-16T07:53:29.824149+00:00"
   },
@@ -4490,5 +4478,17 @@
   {
     "link": "https://monoist.itmedia.co.jp/mn/articles/2610/16/news017.html",
     "notified_at": "2026-10-16T05:33:32.803804+00:00"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/10/15/apple-meta-partner-ai.html",
+    "notified_at": "2026-10-16T07:29:41.722590+00:00"
+  },
+  {
+    "link": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+    "notified_at": "2026-10-16T07:29:41.738893+00:00"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/10/15/jim-cramer-ai-stocks-diversification.html",
+    "notified_at": "2026-10-16T07:29:57.265311+00:00"
   }
 ]

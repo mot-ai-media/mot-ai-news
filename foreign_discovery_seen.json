@@ -1,92 +1,6 @@
 [
   {
     "tokens": [
-      "chatgpt",
-      "common",
-      "media",
-      "risk",
-      "sense",
-      "teens",
-      "unacceptable"
-    ],
-    "ts": "2026-10-07T19:28:27"
-  },
-  {
-    "tokens": [
-      "chatgpt",
-      "college",
-      "getting",
-      "planning",
-      "tools"
-    ],
-    "ts": "2026-10-08T01:27:59"
-  },
-  {
-    "tokens": [
-      "ipad",
-      "launches",
-      "muse"
-    ],
-    "ts": "2026-10-08T01:28:18"
-  },
-  {
-    "tokens": [
-      "80bn",
-      "boom",
-      "chip",
-      "profits",
-      "pushes",
-      "record",
-      "samsung"
-    ],
-    "ts": "2026-10-08T11:28:30"
-  },
-  {
-    "tokens": [
-      "599",
-      "chip",
-      "containing",
-      "laptop",
-      "microsoft",
-      "nvidia",
-      "sell",
-      "surface",
-      "ultra"
-    ],
-    "ts": "2026-10-08T11:28:48"
-  },
-  {
-    "tokens": [
-      "chatgpt",
-      "finds",
-      "limited",
-      "openai",
-      "research",
-      "risk'",
-      "teen",
-      "unacceptable",
-      "use"
-    ],
-    "ts": "2026-10-08T16:28:01"
-  },
-  {
-    "tokens": [
-      "500",
-      "breakup",
-      "first",
-      "funding",
-      "manus",
-      "meta",
-      "million",
-      "raises",
-      "round",
-      "since",
-      "startup"
-    ],
-    "ts": "2026-10-08T16:28:18"
-  },
-  {
-    "tokens": [
       "chip",
       "demand",
       "drives",
@@ -902,5 +816,32 @@
       "toilet"
     ],
     "ts": "2026-10-15T19:28:24"
+  },
+  {
+    "tokens": [
+      "apple",
+      "computers",
+      "mac",
+      "make",
+      "meta",
+      "model",
+      "muse",
+      "run",
+      "team"
+    ],
+    "ts": "2026-10-16T16:29:41"
+  },
+  {
+    "tokens": [
+      "cramer",
+      "crucial",
+      "investors",
+      "jim",
+      "lesson",
+      "offers",
+      "sell-off",
+      "week's"
+    ],
+    "ts": "2026-10-16T16:29:57"
   }
 ]

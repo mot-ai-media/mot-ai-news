@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-16 14:33
+最終更新: 2026-10-16 16:29
 
 ## 記事一覧
 
+- [Apple Meta Muse Spark Open Mac M5 Ultra対応でAIがローカル実行可能に](https://mot-ai-media.github.io/mot-ai-news/articles/meta-apple-d9d326be.html): MetaとAppleが協力し、高性能AI「Muse Spark Open」をMac上で直接動かせるようにした。クラウドに頼らずパソコンだけで最先端のAI機能が使える環境が整い始めている。 (出典: CNBC / 更新: 2026-10-16 16:29)
+- [AI株売却で学ぶ分散投資の重要性、CNBC著名解説者が警告](https://mot-ai-media.github.io/mot-ai-news/articles/ai-cnbc-6171c9d6.html): 米CNBCの著名投資解説者ジム・クレイマーが、先週のAI関連株の急落を受け、AI一辺倒の投資戦略の危険性を指摘。市場で最も注目される銘柄に投資を集中させるリスクについて警告を発している。 (出典: CNBC / 更新: 2026-10-16 16:29)
 - [Anthropic、METRに社内アクセス権付与とは？AI安全性評価の新しい取り組み](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-metr-2b2b8ec4.html): AI企業Anthropicが独立した評価機関に社内システムへの完全なアクセスを許可し、リスク公表を拒否できない仕組みを導入 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:33)
 - [ヒューマノイドロボット開発で中国に後れ、日本企業の勝機は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44bce91.html): 中国のヒューマノイド開発が加速する中、AIやセンサー、手といった部品レベルの分析から見える、日本が競争できる領域が明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:33)
 - [TSMC純利益68.7%増で過去最高。AI半導体需要が急伸](https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-fa00f70e.html): 世界最大の半導体受託メーカーTSMCが過去最高の業績を更新。AI需要の堅調さが成長を支える。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:32)
@@ -205,5 +207,3 @@
 - [富士通のCopilot導入成功事例：9割超利用率の実現方法とは](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-ai-6b2a86e1.html): 企業のAI導入でよくある「導入したのに使われない」問題。富士通は10万ライセンスで9割超の利用率達成の秘訣を語る。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
 - [Claude Haiku 5.5の料金・性能とは？前世代比10分の1に](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-303c3301.html): Anthropicが低価格AI「Claude Haiku 5.5」を発表。料金は前世代の10分の1で、一般ユーザーにも使いやすくなった。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
 - [田中耕一氏と東北大が質量分析の精度1000倍化に挑戦、病気の超早期発見へ](https://mot-ai-media.github.io/mot-ai-news/articles/976b515a.html): 東北大学と島津製作所が新拠点を開設、ノーベル賞受賞者と共に医療診断の精度革新に取り組む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
-- [フィジカルAI導入で日本企業が勝つには？Gartnerが指摘する10の誤解とは](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-b8d83b70.html): 日本企業が製造データと現場知識を活かせば有利というのは誤解。Gartnerが重要な落とし穴を指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
-- [サイバー攻撃でAIが活用される？企業の対策方法を専門家に聞いた](https://mot-ai-media.github.io/mot-ai-news/articles/ai-27bf7f0c.html): 相次ぐ情報漏えい事件の背景に攻撃者のAI活用が指摘される。防御側も同じようにAIを活用して対抗する必要が出てきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:00)
