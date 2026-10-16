@@ -54105,5 +54105,125 @@
     "image_kind": "real",
     "level": "easy",
     "generated_at": "2026-10-16 22:02"
+  },
+  {
+    "slug": "coreweave-ai-ba7679c3",
+    "link": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+    "headline": "AI企業CoreWeaveが経営危機か、債券市場で「破綻リスク」が急騰",
+    "seo_title": "CoreWeave 経営危機 AI企業 債券市場 信用不安",
+    "summary": "AI企業CoreWeaveの信用不安が深刻化し、市場では経営破綻の可能性を反映した取引が活発化している。AI産業の過熱マネーが冷え込み始めた兆候として注目されている。",
+    "importance_score": 68,
+    "buzz_score": 55,
+    "recommend_score": 62,
+    "content_format": "foreign_discovery",
+    "tldr": "AI企業CoreWeaveが投資家から信用を失い、破綻リスクを示す指標が急上昇。AI業界全体の資金調達環境が悪化している可能性。",
+    "what_happened": "GPU貸出などのAI向けインフラを手掛けるCoreWeaveについて、市場で経営破綻のリスクを示すデリバティブ商品（クレジット・デフォルト・スワップ）の取引が急増。この指標が上昇することは、投資家がその企業の経営悪化を懸念していることを意味しており、CoreWeaveへの投資家心理が冷え込んでいる状況が浮き彫りになった。",
+    "overseas_report": "欧米のテック系メディアは、CoreWeaveの信用不安をAI産業全体の過度な融資環境の転換点として報道。これまで潤沢だったAI関連企業への投資マネーが、選別段階に入ったことを示す出来事として受け取られている。",
+    "why_it_matters": "ここ数年、ChatGPTなどの生成AIブームに乗って、AI関連企業には投資マネーが殺到してきました。CoreWeaveのような『インフラ企業』も、その恩恵を受けてきた。しかし市場の冷え込みは、AI業界全体が適切な値付けをされていない企業が多いという懸念を実体化させ、今後の投資判断がより厳しくなる可能性を示唆しています。",
+    "japan_impact": "日本でもAIスタートアップが急増し、ベンチャーキャピタルからの資金流入が続いています。CoreWeaveの事例は、海外の一流投資家でも読み違える可能性があることを示唆。日本の投資家やAI企業も、単なるAIトレンドへの追従ではなく、より慎重な事業性評価を求められる環境へ転換する可能性があります。",
+    "outlook": "AI業界の『選別相場』がいつまで続くかが焦点。経営基盤が弱い企業の淘汰が進む一方、競争力を持つ企業への資金集中が加速するでしょう。今後、AI関連企業の業績報告や資金調達ニュースへの市場反応が一層厳しくなる傾向が予想されます。",
+    "mot_take": "",
+    "what_to_watch_next": "",
+    "tags": [
+      "CoreWeave",
+      "AI業界",
+      "投資リスク",
+      "クレジット市場"
+    ],
+    "faq": [
+      {
+        "q": "クレジット・デフォルト・スワップって何ですか？",
+        "a": "企業の経営破綻に備える『保険商品』のようなもの。この価格が上がることは、市場がその企業の破綻リスクを高く評価していることを意味します。"
+      },
+      {
+        "q": "CoreWeaveはどんな企業ですか？",
+        "a": "GPU（AI計算用の高性能チップ）をクラウド経由で貸し出すインフラ企業です。ChatGPTなどのAI開発に必要なコンピュータ資源を提供しています。"
+      },
+      {
+        "q": "日本の企業にも影響がありますか？",
+        "a": "直接的な影響は限定的ですが、AI投資全体が慎重モードになることで、日本のAI企業も資金調達がより難しくなる可能性があります。"
+      }
+    ],
+    "digest": {
+      "what": "AI企業CoreWeaveの破綻リスクを示す市場指標が急上昇し、投資家の信用が失われている",
+      "why": "AI業界への投資マネーが選別段階に入り、事業性が不十分な企業への不安が顕在化",
+      "impact": "AI関連企業全体の資金調達環境が悪化し、日本の投資判断基準も厳格化する可能性がある"
+    },
+    "source": "CNBC",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/108414312-1792071462734-gettyimages-2245498612-raa-coreweav251110_npSDI.jpeg?v=1792071500&w=1920&h=1080",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-10-16 22:28",
+    "source_country": "US",
+    "source_tier": 1,
+    "reliability_score": 85,
+    "speed_score": 80,
+    "novelty_score": 72,
+    "japan_relevance_score": 58,
+    "growth_potential_score": 65,
+    "seo_potential_score": 64,
+    "social_impact_score": 61,
+    "verification_status": "single_source",
+    "corroborating_sources": []
+  },
+  {
+    "slug": "tsmc-nvidia-f0b686d1",
+    "link": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html",
+    "headline": "AI需要の爆発で半導体メーカーが供給不足。Nvidia・Apple・AMDが奪い合う",
+    "seo_title": "TSMC供給不足。AI需要増加でNvidia等が争奪戦",
+    "summary": "AI チップの急増需要により、世界最大の半導体受託製造企業TSMC（台湾積電）が供給能力の限界に直面。好況を背景にしても、NvidiaやApple、Broadcom、AMDといった大手顧客が限られたチップ生産枠を巡って競争を激化させている。",
+    "importance_score": 72,
+    "buzz_score": 68,
+    "recommend_score": 70,
+    "content_format": "foreign_discovery",
+    "tldr": "AI需要の急増でTSMCの生産能力が追いつかず、大手テック企業が供給を巡って激しく競争している状況が明らかになった。",
+    "what_happened": "半導体受託製造の大手企業TSMCが過去最高の四半期決算を記録しましたが、需要がそれを上回る状況です。NvidiaやApple、Broadcom、AMDといった主要企業が、限られたチップ生産枠を求めて争っており、すべての顧客の需要に応えることができなくなっています。",
+    "overseas_report": "海外テック系メディアは、TSMC好調決算の裏側にある供給問題を注視しています。AI向けチップの爆発的需要を背景に、大手企業による生産枠の獲得競争が激化していることが報道の焦点です。",
+    "why_it_matters": "スマートフォンから自動運転、データセンターまで、現代のテクノロジーはすべてチップに依存しています。TSMCが最先端チップを作る数少ない企業だからこそ、ここで供給が止まれば、AI技術の進化や新製品投入が遅れる可能性があります。つまり、あなたが使うスマホやサービスの革新が影響を受ける可能性があるのです。",
+    "japan_impact": "日本企業の中にもTSMCのチップを使う企業が少なくありませんが、海外大手との競争で後回しになるリスクが生じています。また、AI関連の新サービス導入が遅れる可能性もあり、日本のAI活用が国際競争で一段と遅れる懸念も考えられます。",
+    "outlook": "TSMC は生産能力の拡大投資を進める見通しですが、実際の稼働には時間がかかります。当面、顧客間での供給争いが続く可能性が高く、チップの価格上昇にも影響する可能性があります。",
+    "mot_take": "AI時代の競争は、技術力だけでなく物理的な製造能力が大きなボトルネックになっていることが改めて明らかになりました。半導体の供給制約が今後のAI産業全体の進展を左右する重要な要因になるという認識が、業界で高まっていくでしょう。",
+    "what_to_watch_next": "TSMC の新工場の稼働時期、および各企業への生産割り当て方針の発表。また、他国での最先端チップ製造への投資動向。",
+    "tags": [
+      "TSMC",
+      "Nvidia",
+      "AI",
+      "半導体供給"
+    ],
+    "faq": [
+      {
+        "q": "TSMCって何ですか？",
+        "a": "台湾の企業で、世界の最先端チップの大半を製造しています。NvidiaやAppleなど大手テック企業のチップ生産を担っています。"
+      },
+      {
+        "q": "なぜチップが不足しているのですか？",
+        "a": "AI技術の急速な発展により、高性能チップの需要が劇的に増加。TSMCの生産能力では全ての需要に対応しきれない状況が生まれています。"
+      },
+      {
+        "q": "これは私たちの生活にどう影響しますか？",
+        "a": "スマートフォンやクラウドサービスなど、AI機能を使った新製品やサービスの提供が遅れる可能性があります。"
+      }
+    ],
+    "digest": {
+      "what": "AI需要の急増でTSMCの供給が追いつかず、Nvidia等が生産枠を争奪中",
+      "why": "最先端チップの製造は限定されており、AI時代の重要なボトルネックになっている",
+      "impact": "スマホやクラウド等の新機能導入の遅れ、日本企業の競争力低下のリスク"
+    },
+    "source": "CNBC",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/108287444-1775496466036-tsmc_cowos_chips.jpg?v=1775509400&w=1920&h=1080",
+    "image_kind": "real",
+    "level": "easy",
+    "generated_at": "2026-10-16 22:28",
+    "source_country": "US",
+    "source_tier": 1,
+    "reliability_score": 85,
+    "speed_score": 80,
+    "novelty_score": 45,
+    "japan_relevance_score": 62,
+    "growth_potential_score": 78,
+    "seo_potential_score": 65,
+    "social_impact_score": 75,
+    "verification_status": "single_source",
+    "corroborating_sources": []
   }
 ]

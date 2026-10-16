@@ -1,37 +1,6 @@
 [
   {
     "tokens": [
-      "aging",
-      "alexa",
-      "amazon",
-      "budget",
-      "devices",
-      "dumping",
-      "fire",
-      "higher",
-      "lineup",
-      "overhauls",
-      "priced",
-      "tablet"
-    ],
-    "ts": "2026-10-08T22:27:53"
-  },
-  {
-    "tokens": [
-      "advantage",
-      "big",
-      "cramer",
-      "higher",
-      "market",
-      "rates",
-      "splitting",
-      "stocks",
-      "two"
-    ],
-    "ts": "2026-10-08T22:28:09"
-  },
-  {
-    "tokens": [
       "app",
       "completely",
       "google",
@@ -848,5 +817,33 @@
       "white"
     ],
     "ts": "2026-10-16T19:30:07"
+  },
+  {
+    "tokens": [
+      "coreweave",
+      "credit",
+      "debt",
+      "default",
+      "distress",
+      "hit",
+      "investors",
+      "levels",
+      "sour",
+      "swaps"
+    ],
+    "ts": "2026-10-16T22:28:09"
+  },
+  {
+    "tokens": [
+      "battleground",
+      "capacity",
+      "chip",
+      "customers",
+      "fierce",
+      "quarter",
+      "record",
+      "tsmc"
+    ],
+    "ts": "2026-10-16T22:28:30"
   }
 ]

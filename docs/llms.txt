@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-16 22:02
+最終更新: 2026-10-16 22:28
 
 ## 記事一覧
 
+- [CoreWeave 経営危機 AI企業 債券市場 信用不安](https://mot-ai-media.github.io/mot-ai-news/articles/coreweave-ai-ba7679c3.html): AI企業CoreWeaveの信用不安が深刻化し、市場では経営破綻の可能性を反映した取引が活発化している。AI産業の過熱マネーが冷え込み始めた兆候として注目されている。 (出典: CNBC / 更新: 2026-10-16 22:28)
+- [TSMC供給不足。AI需要増加でNvidia等が争奪戦](https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-nvidia-f0b686d1.html): AI チップの急増需要により、世界最大の半導体受託製造企業TSMC（台湾積電）が供給能力の限界に直面。好況を背景にしても、NvidiaやApple、Broadcom、AMDといった大手顧客が限られたチップ生産枠を巡って競争を激化させている。 (出典: CNBC / 更新: 2026-10-16 22:28)
 - [ドイツの地方都市がAIベンチャー拠点に？成功の理由を解説](https://mot-ai-media.github.io/mot-ai-news/articles/d7b4a778.html): ドイツ南西部の地方都市が、大学の知財と地場産業を結びつけ、AIなどの先端技術ベンチャーの一大拠点へと成長。東京一極集中の日本への教訓となる可能性。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 22:02)
 - [不正アクセス対策とは？Gartnerが日本企業に推奨する7つのアクション](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-3195e876.html): AIエージェントの悪用で攻撃が急速化。セキュリティ体制の抜本的な見直しが急務に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 22:01)
 - [Meta「Muse Spark Open」とは？Mac対応AI、何ができる](https://mot-ai-media.github.io/mot-ai-news/articles/meta-muse-spark-open-ec004d87.html): Metaがオープンソースの高性能AI「Muse Spark Open」を発表。Apple Siliconに最適化され、Mac Studioでローカル動作する。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 22:01)
@@ -205,5 +207,3 @@
 - [Anthropic、Claude利用ポリシー改定。AIへの虐待禁止やプロパガンダ対策](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-804b1fcf.html): Anthropicが生成AIの「Claude」の利用ルールを改定。AIへの継続的な虐待の禁止や影響工作対策を強化。11月12日から実施。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 10:13)
 - [WebMCPとは？ChatGPTデスクトップ版の新機能を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-2c11e12c.html): デスクトップ版ChatGPTがWebMCPに対応し、AIとウェブサイトの連携がさらに強化される。 (出典: GIGAZINE / 更新: 2026-10-09 10:12)
 - [Google Gemini Enterprise エージェント、複数アプリ・デバイス対応で業務自動化](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-01ea6a09.html): Googleが企業向けの「Gemini」AIエージェントを発表。複数のアプリやデバイスを背景で自動制御し、ユーザーが1つのインターフェースから指示するだけで複数の業務をこなせる。従来は個別アプリごとにAIを使い分けていた作業が大きく変わる可能性がある。 (出典: The Verge / 更新: 2026-10-09 01:28)
-- [Google AI Edge Foresight オフライン会議録音アプリ](https://mot-ai-media.github.io/mot-ai-news/articles/google-ai-edge-foresight-472b20c3.html): Googleが実験的なメモアプリ「Google AI Edge Foresight」をmacOSで公開。会議やオーディオファイルの録音・文字起こし・要約をすべてデバイス内で処理し、クラウドに送信しない。プライバシーを重視するビジネスユーザーの需要に対応する。 (出典: The Verge / 更新: 2026-10-09 01:27)
-- [金利上昇がAI株に有利に働く理由｜市場二極化が進む](https://mot-ai-media.github.io/mot-ai-news/articles/ai-e7a1633d.html): アメリカの金利上昇により、市場が大きく二つに分かれようとしている。借り入れコストに敏感なセクターが圧力を受ける一方で、AI関連企業はこの逆風をほぼ受けないという指摘が、米著名投資家から出されている。 (出典: CNBC / 更新: 2026-10-08 22:28)

@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI需要の爆発で半導体メーカーが供給不足。Nvidia・Apple・AMDが奪い合う</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-nvidia-f0b686d1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-nvidia-f0b686d1.html</guid>
+    <description>AI チップの急増需要により、世界最大の半導体受託製造企業TSMC（台湾積電）が供給能力の限界に直面。好況を背景にしても、NvidiaやApple、Broadcom、AMDといった大手顧客が限られたチップ生産枠を巡って競争を激化させている。</description>
+    <pubDate>Fri, 16 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI企業CoreWeaveが経営危機か、債券市場で「破綻リスク」が急騰</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/coreweave-ai-ba7679c3.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/coreweave-ai-ba7679c3.html</guid>
+    <description>AI企業CoreWeaveの信用不安が深刻化し、市場では経営破綻の可能性を反映した取引が活発化している。AI産業の過熱マネーが冷え込み始めた兆候として注目されている。</description>
+    <pubDate>Fri, 16 Oct 2026 22:28:00 +0900</pubDate>
+  </item>
+  <item>
     <title>ベルリンを圧倒するドイツの地方都市が、AIベンチャーの聖地に変貌</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/d7b4a778.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/d7b4a778.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/youtube-music-ai-55222f29.html</guid>
     <description>YouTube MusicがAI生成楽曲の透明性を強化。どの部分にAIが使われたかがプレイヤーで一目瞭然に。</description>
     <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>銃声検知マイク、実は周辺音も記録か。Flockが公式説明と矛盾</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/flock-bd61b921.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/flock-bd61b921.html</guid>
-    <description>街頭監視企業Flockが銃声検知マイクの実際の機能を巡り、CEO発言と公式サイト説明で矛盾。プライバシー団体が懸念を強める。</description>
-    <pubDate>Thu, 15 Oct 2026 18:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>SNS炎上を事前予測、Gudeaが「ネット嵐の早期警報システム」を展開開始</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gudea-sns-5abc04e0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gudea-sns-5abc04e0.html</guid>
-    <description>小さなSNS投稿が大炎上する前に、AIが兆候を察知し企業に警告するシステムが登場。</description>
-    <pubDate>Thu, 15 Oct 2026 18:00:00 +0900</pubDate>
   </item>
 </channel></rss>
