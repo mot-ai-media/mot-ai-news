@@ -4,6 +4,41 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>中国がヒューマノイド開発で猛進、日本の勝ち筋はどこにあるのか</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44bce91.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44bce91.html</guid>
+    <description>中国のヒューマノイド開発が加速する中、AIやセンサー、手といった部品レベルの分析から見える、日本が競争できる領域が明らかに。</description>
+    <pubDate>Fri, 16 Oct 2026 14:33:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、AI評価機関に「従業員並み」のアクセス権を付与　拒否権なし</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-metr-2b2b8ec4.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-metr-2b2b8ec4.html</guid>
+    <description>AI企業Anthropicが独立した評価機関に社内システムへの完全なアクセスを許可し、リスク公表を拒否できない仕組みを導入</description>
+    <pubDate>Fri, 16 Oct 2026 14:33:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Claude Haiku 5.5は本当に安いのか、検証したら衝撃の事実が判明</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-204b73a1.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-204b73a1.html</guid>
+    <description>Anthropic最軽量モデルのコスパは、タスクの複雑さで大きく変わる。</description>
+    <pubDate>Fri, 16 Oct 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Amazonの新AIデバイス2機種、会話を自動要約して仕事を効率化</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-bee-fdf258d0.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-bee-fdf258d0.html</guid>
+    <description>Amazonが傘下Beeブランドのウェアラブルデバイス2機種を発表。会話を自動で要約し、ToDoやリマインダーを作成できる。</description>
+    <pubDate>Fri, 16 Oct 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>TSMC最高益更新、純利益68.7%増。AI需要が牽引</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-fa00f70e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-fa00f70e.html</guid>
+    <description>世界最大の半導体受託メーカーTSMCが過去最高の業績を更新。AI需要の堅調さが成長を支える。</description>
+    <pubDate>Fri, 16 Oct 2026 14:32:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIエージェント、「やらせない設計」がセキュリティの鍵――NVIDIAが示す重大な原則</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-168efefe.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-168efefe.html</guid>
@@ -177,40 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-c23661f4.html</guid>
     <description>ChatGPTのGPTs廃止を受け、Geminiの「スキル」機能なら指示文を入力するだけでAIエージェントが作れる。</description>
     <pubDate>Wed, 14 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、コード知識ゼロでも自作できる時代へ。GeminiやClaudeで無料スタート</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/gemini-claude-fe8d96c8.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/gemini-claude-fe8d96c8.html</guid>
-    <description>プログラミング不要。GeminiやClaudeなら画面上の指示登録だけでAIエージェントを作成可能。難易度別7つの方法を解説。</description>
-    <pubDate>Wed, 14 Oct 2026 22:01:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>デジハリ大、AI「Claude」を全学導入。国内初、使い放題の衝撃</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5d9e3a3d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-5d9e3a3d.html</guid>
-    <description>デジタルハリウッド大学が米Anthropicの生成AI「Claude」を11月から全学導入。国内の大学で初めて、全学生・教職員が利用量を気にせず使える環境が実現する。</description>
-    <pubDate>Wed, 14 Oct 2026 22:00:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude開発のAnthropicが財務数字を公開へ、AI企業の経営実態が明かされる転機</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-420af248.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-420af248.html</guid>
-    <description>ChatGPTの競合企業Anthropicが、投資家向けに更新された財務数字を開示する。AI企業の経営状況が透明化される動きとして、業界全体の経済規模や事業採算性に関する関心が高まっている。</description>
-    <pubDate>Wed, 14 Oct 2026 19:28:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIとの「恋愛」が売りだったCharacter.ai、経営破綻へ。開発費の重さが命取りに</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-ai-111f4379.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/character-ai-ai-111f4379.html</guid>
-    <description>ユーザーがAIキャラクターと対話できるプラットフォーム「Character.ai」が米国で破産申請を提出しました。高い開発・運営コストと訴訟が経営を圧迫した形です。AI企業の採算性の難しさが浮き彫りになったケースとして注目されています。</description>
-    <pubDate>Wed, 14 Oct 2026 19:27:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Google Gemini 4 Argon公開、GPT-6とClaudeに対抗する実力は</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-92ecbb89.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-92ecbb89.html</guid>
-    <description>GoogleがGemini 4 Argonを公開。主要なAIモデル間での性能差が話題に。</description>
-    <pubDate>Wed, 14 Oct 2026 18:53:00 +0900</pubDate>
   </item>
 </channel></rss>

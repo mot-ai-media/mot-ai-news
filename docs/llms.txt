@@ -3,10 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-16 14:03
+最終更新: 2026-10-16 14:33
 
 ## 記事一覧
 
+- [Anthropic、METRに社内アクセス権付与とは？AI安全性評価の新しい取り組み](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-metr-2b2b8ec4.html): AI企業Anthropicが独立した評価機関に社内システムへの完全なアクセスを許可し、リスク公表を拒否できない仕組みを導入 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:33)
+- [ヒューマノイドロボット開発で中国に後れ、日本企業の勝機は](https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44bce91.html): 中国のヒューマノイド開発が加速する中、AIやセンサー、手といった部品レベルの分析から見える、日本が競争できる領域が明らかに。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:33)
+- [TSMC純利益68.7%増で過去最高。AI半導体需要が急伸](https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-fa00f70e.html): 世界最大の半導体受託メーカーTSMCが過去最高の業績を更新。AI需要の堅調さが成長を支える。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:32)
+- [Amazon新型AIデバイス「Bee」2機種とは？機能・料金・使い方](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-bee-fdf258d0.html): Amazonが傘下Beeブランドのウェアラブルデバイス2機種を発表。会話を自動で要約し、ToDoやリマインダーを作成できる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:32)
+- [Claude Haiku 5.5の性能と料金を検証。本当にコスパいい？](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-204b73a1.html): Anthropic最軽量モデルのコスパは、タスクの複雑さで大きく変わる。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:32)
 - [声優・俳優の声のAI利用ガイドラインとは？日俳連が発表した新ルールの内容](https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-5a99a6dc.html): 声優・俳優の権利を守るため、日本俳優連合が音声AI利用の新ガイドラインを発表。事業者に事前許諾や適正対価を義務づけ。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:03)
 - [AIエージェントのセキュリティ対策とは？NVIDIAが指摘する実装の原則](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-168efefe.html): AIが自動で会社のシステムを操作する時代、指示を制限するだけでなく、実行環境での権限管理が重要だとNVIDIAが指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-16 14:03)
 - [AIが買い物・決済を自動化する時代とは？完全自動化の課題と可能性を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-070afa9b.html): AIが最安値を探して自動で購入・決済する時代が来る一方、完全自動化には課題。AI同士の売買による超高速経済も出現。 (出典: TBS NEWS DIG / 更新: 2026-10-16 14:02)
@@ -202,8 +207,3 @@
 - [田中耕一氏と東北大が質量分析の精度1000倍化に挑戦、病気の超早期発見へ](https://mot-ai-media.github.io/mot-ai-news/articles/976b515a.html): 東北大学と島津製作所が新拠点を開設、ノーベル賞受賞者と共に医療診断の精度革新に取り組む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
 - [フィジカルAI導入で日本企業が勝つには？Gartnerが指摘する10の誤解とは](https://mot-ai-media.github.io/mot-ai-news/articles/gartner-ai-b8d83b70.html): 日本企業が製造データと現場知識を活かせば有利というのは誤解。Gartnerが重要な落とし穴を指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:01)
 - [サイバー攻撃でAIが活用される？企業の対策方法を専門家に聞いた](https://mot-ai-media.github.io/mot-ai-news/articles/ai-27bf7f0c.html): 相次ぐ情報漏えい事件の背景に攻撃者のAI活用が指摘される。防御側も同じようにAIを活用して対抗する必要が出てきた。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 18:00)
-- [GPT-6 AstraとClaude Opus5がエニグマ暗号を解読](https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-3fd2bd88.html): 最新AIモデルが歴史的な暗号文を自力で解読し、AI能力の急速な進化を示す。 (出典: Yahoo!ニュース / 更新: 2026-10-08 16:53)
-- [ChatGPT teen版の安全機能は「不十分」。自傷行為の検知に失敗](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-ee1064a6.html): OpenAIが8月に導入した13～17歳向けのChatGPT安全機能は、親への通知機能を含む重要な保護機能がしばしば失敗していると、非営利団体が指摘した。使用時間は1日15分未満が平均だが、安全性は十分でないという課題が浮かんだ。 (出典: BBC / 更新: 2026-10-08 16:28)
-- [Manus 5億ドル資金調達 Meta分離後 AI企業の独立戦略](https://mot-ai-media.github.io/mot-ai-news/articles/manus-meta-f5412433.html): メタが中国政府の圧力で約20億ドルの買収を撤回させられたAI企業Manusが、独立後の初めての大型資金調達として5億ドルを獲得。AI自動化技術の開発競争が国家間の規制対立を巻き込みながら加速している。 (出典: CNBC / 更新: 2026-10-08 16:28)
-- [ChatGPT for Teensの安全機能に問題、米団体が指摘する実態](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-6ca63d61.html): OpenAIの10代向けサービに安全機能の不具合が指摘され、保護者への通知がほぼ機能していないことが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:31)
-- [サイバー攻撃とAI悪用の実態、セキュリティ専門家が見解](https://mot-ai-media.github.io/mot-ai-news/articles/ai-210555db.html): 今年夏からサイバー攻撃による情報漏えいが急増。セキュリティ専門家がAI悪用の可能性を指摘。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-08 14:31)
