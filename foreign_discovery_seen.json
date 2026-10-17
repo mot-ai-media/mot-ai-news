@@ -1,60 +1,6 @@
 [
   {
     "tokens": [
-      "aussie",
-      "citing",
-      "firm",
-      "firmus",
-      "historic",
-      "ipo",
-      "market",
-      "nvidia-backed",
-      "volatility",
-      "withdraws"
-    ],
-    "ts": "2026-10-09T10:12:46"
-  },
-  {
-    "tokens": [
-      "age-old",
-      "cramer",
-      "investing",
-      "proves",
-      "sell-off",
-      "strategy",
-      "thursday's",
-      "value"
-    ],
-    "ts": "2026-10-09T10:13:01"
-  },
-  {
-    "tokens": [
-      "coreweave",
-      "nvidia",
-      "openai",
-      "oracle",
-      "other",
-      "report",
-      "revenue",
-      "sink",
-      "stocks"
-    ],
-    "ts": "2026-10-09T10:27:53"
-  },
-  {
-    "tokens": [
-      "anthropic",
-      "free",
-      "launches",
-      "open-source",
-      "projects",
-      "scans",
-      "security"
-    ],
-    "ts": "2026-10-09T10:28:09"
-  },
-  {
-    "tokens": [
       "centre",
       "data",
       "due",
@@ -854,5 +800,30 @@
       "spending"
     ],
     "ts": "2026-10-17T01:28:16"
+  },
+  {
+    "tokens": [
+      "app",
+      "apple",
+      "apps",
+      "nudify",
+      "rules",
+      "store",
+      "updated"
+    ],
+    "ts": "2026-10-17T11:03:15"
+  },
+  {
+    "tokens": [
+      "everything",
+      "laptops",
+      "learned",
+      "nvidia",
+      "rtx",
+      "spark",
+      "using",
+      "week"
+    ],
+    "ts": "2026-10-17T11:03:36"
   }
 ]

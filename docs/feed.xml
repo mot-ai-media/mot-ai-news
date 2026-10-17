@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>Nvidia新型チップがノートPC戦争に参入、AppleやIntelに真っ向勝負</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rtx-spark-n1x-3d6f16cf.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rtx-spark-n1x-3d6f16cf.html</guid>
+    <description>Nvidiaが新しいノートパソコン向けプロセッサ「RTX Spark N1X」を発表。AppleやIntelなど既存メーカーとの競争に乗り出す動き。海外メディアが実機テストを開始。</description>
+    <pubDate>Sat, 17 Oct 2026 11:03:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Appleが「ヌード化AI」を明確に禁止へ。X上のGrokが生成した性的deepfakeが引き金に</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-deepfake-cb4458ca.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-deepfake-cb4458ca.html</guid>
+    <description>AppleがApp Store規約を改正し、AI技術を使って本人の同意なしに性的な画像を生成する「ヌード化」アプリを明確に禁止することを決めた。この決定は、SNS・Xのチャットボット「Grok」を使ったnonconsensual deepfake（同意なしディープフェイク）問題が引き金になった。</description>
+    <pubDate>Sat, 17 Oct 2026 11:03:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AWS・Anthropic・OpenAIが「AI専門エンジニア部隊」の配置競争を開始。企業のAI投資が本当に元を取れるか実証する段階へ</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/aws-anthropic-8f47fa65.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/aws-anthropic-8f47fa65.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a837bf05.html</guid>
     <description>生成AIの普及で企業データの扱い方が課題に。単純な禁止や放任ではなく、実践的な管理戦略が求められている。</description>
     <pubDate>Fri, 16 Oct 2026 14:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIが買い物から決済まで全自動化へ、でも完全自動は危険—超高速経済の時代突入</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-070afa9b.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-anthropic-070afa9b.html</guid>
-    <description>AIが最安値を探して自動で購入・決済する時代が来る一方、完全自動化には課題。AI同士の売買による超高速経済も出現。</description>
-    <pubDate>Fri, 16 Oct 2026 14:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>OpenAIエンジニアがトイレットペーパーで隠した盗聴器—AIの内部情報狙った産業スパイ事件の全貌</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32f880d6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-32f880d6.html</guid>
-    <description>OpenAIで働いていたサウジアラビア国籍のエンジニアが、会議室にトイレットペーパーに包んだ盗聴器を仕掛けた容疑でFBIに逮捕された。AIチャットボットに盗聴器の製作方法を相談するなど、機密技術の盗難を意図していたとみられている。</description>
-    <pubDate>Thu, 15 Oct 2026 19:28:00 +0900</pubDate>
   </item>
 </channel></rss>

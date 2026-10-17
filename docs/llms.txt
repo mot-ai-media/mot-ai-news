@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-17 01:28
+最終更新: 2026-10-17 11:03
 
 ## 記事一覧
 
+- [Apple App Store規約改正：ヌード化AI アプリ禁止、deepfake対策強化](https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-deepfake-cb4458ca.html): AppleがApp Store規約を改正し、AI技術を使って本人の同意なしに性的な画像を生成する「ヌード化」アプリを明確に禁止することを決めた。この決定は、SNS・Xのチャットボット「Grok」を使ったnonconsensual deepfake（同意なしディープフェイク）問題が引き金になった。 (出典: The Verge / 更新: 2026-10-17 11:03)
+- [RTX Spark N1Xとは？Nvidiaの新ノートパソコン用チップが海外で話題に](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rtx-spark-n1x-3d6f16cf.html): Nvidiaが新しいノートパソコン向けプロセッサ「RTX Spark N1X」を発表。AppleやIntelなど既存メーカーとの競争に乗り出す動き。海外メディアが実機テストを開始。 (出典: The Verge / 更新: 2026-10-17 11:03)
 - [AWS Anthropic OpenAI AI エンジニア派遣 企業投資回収](https://mot-ai-media.github.io/mot-ai-news/articles/aws-anthropic-8f47fa65.html): AWSやAnthropicなどの大手テック企業が、顧客企業に専門エンジニアを常駐させる『フォワードデプロイド』チームの展開を加速している。企業が数百億円規模で導入したAI技術を実際に使いこなせるようサポートする体制が、今後の競争の鍵になる。 (出典: CNBC / 更新: 2026-10-17 01:28)
 - [OpenAI盗聴事件から見えた、AIと国家安全保障の新しい脅威](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-security-fd2c48c9.html): OpenAIで発生したサウジアラビア国籍者による盗聴事件が、米国の国家情報長官によってAI時代の新たなサイバー脅威として指摘された。AIが既存のセキュリティリスクを増幅させ、米国のAI産業の優位性を脅かす可能性が懸念されている。 (出典: CNBC / 更新: 2026-10-17 01:27)
 - [Muse Wonder vs Claude Fable 5.1比較｜Metaの新モデル評価](https://mot-ai-media.github.io/mot-ai-news/articles/meta-claude-d9e7c607.html): MetaとAnthropicの最新AI言語モデルの性能を比較した評価が話題に。 (出典: The New Stack / 更新: 2026-10-16 22:53)
@@ -205,5 +207,3 @@
 - [Meta AI ロゴ デザイナー Jessica Hische 批判 炎上](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-b5137348.html): Metaの新しいAIロゴをデザインしたデザイナーのJessica Hischemが、想定以上の批判や悪意のある反応にさらされている。企業の顔となるビジュアル設計がもたらす社会的責任と、デザイナーの個人への影響について議論が起きている。 (出典: WIRED / 更新: 2026-10-09 13:28)
 - [Anthropic OSS Scanner 無料セキュリティ診断 オープンソース](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-df7e5433.html): AI企業Anthropicが、オープンソースソフトウェアの脆弱性を自動検出する「OSS Scanner」という無料サービスを開始した。参加するプロジェクトは定期的なセキュリティスキャンを無償で受けられる。 (出典: The Verge / 更新: 2026-10-09 10:28)
 - [OpenAI 500億ドル売上 AI株下落 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-7bdbb683.html): OpenAIが9月末時点で年間売上500億ドル（約7.5兆円）に達したと発表。この報道を受けてNvidiaやOracleなどAI関連銘柄が売られた。高い期待値に対して実績が限定的と判断された可能性を示唆する。 (出典: CNBC / 更新: 2026-10-09 10:27)
-- [中国のAIモデルが企業利用で急増、オープンモデルの勢力図が激変](https://mot-ai-media.github.io/mot-ai-news/articles/deepseek-ai-0794ff24.html): 企業が使うオープンなAIモデルの大半が中国製に。DeepSeekなどの台頭で、AIの主導権の構図が大きく変わりつつある。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 10:14)
-- [ChatGPT Workの自動化機能とは？ログイン操作の安全な自動実行が開始](https://mot-ai-media.github.io/mot-ai-news/articles/openai-chatgpt-work-89ea0730.html): ChatGPT Workが新たに、ウェブサイトのログイン操作を安全に自動化する機能を提供開始。複雑な認証プロセスをAIが担当。 (出典: X / 更新: 2026-10-09 10:13)
