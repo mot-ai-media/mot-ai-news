@@ -3,10 +3,12 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-17 11:06
+最終更新: 2026-10-17 13:32
 
 ## 記事一覧
 
+- [Katie Zacharia AI採掘企業顧問問題｜ホワイトハウス](https://mot-ai-media.github.io/mot-ai-news/articles/ai-kristi-noem-3287a3bb.html): 米ホワイトハウスの報道官がAIを使用したレアアース採掘を目指すスタートアップの顧問リストに名前を連ねていたことが発覚。しかし本人も企業も「実際には関わっていない」と否定している。政治家と不透明なAI企業の結びつきが問題視されている。 (出典: WIRED / 更新: 2026-10-17 13:32)
+- [Surface Laptop Ultra レビュー｜MacBook Pro対抗馬の実力とバッテリー問題](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-151e8c4a.html): マイクロソフトが発表した新型ノートパソコン「Surface Laptop Ultra」が、海外メディアから「Appleに最も近い競争力を持つWindows機」と評価されている。ただし致命的な弱点が残っているという。 (出典: WIRED / 更新: 2026-10-17 13:32)
 - [ロボット業界の現状とは？NVIDIA元幹部が語る「物理AI」の真実](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-3ee88886.html): NVIDIA出身の投資家が、ロボット業界はまだ基礎段階で、AIの急速な進化による革命的な転換は来ないと指摘。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-17 11:06)
 - [Elorian「Glimpse」とは？AIの画像理解を変える仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/elorian-glimpse-6f0ec75f.html): AIが画像を一度だけ見るのではなく、何度も見直しながら推論する新モデルが登場。GPT-6より高精度。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-17 11:06)
 - [Replit、Anthropicとの提携終了。OpenAIに切り替えた理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/replit-anthropic-d0f11237.html): AI開発企業Replitが、Claude提供元のAnthropicとの提携を打ち切りOpenAIへ移行。コストと性能が理由。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-17 11:05)
@@ -205,5 +207,3 @@
 - [トランプ米大統領、AI（人工知能）を「SI」に改称する方針とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-4f20a2dc.html): トランプ大統領が「AI」という言葉の使用を禁止し、「Super Intelligence（SI）」への統一を指示。政府サイトのロゴや大統領令で改称が進む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
 - [Amazon新タブレット「Amazon Alexa Tablet」とは？FireOSから何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-efc86905.html): AmazonがFireタブレットをリブランド。AI搭載で画面認識機能が登場し、GooglePlayにも対応。日本では子ども向けモデルが10月14日発売。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
 - [生成AI全社導入のリスク管理とは？損保ジャパンの運用方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html): 2万人へのGemini導入で、単なるライセンス配布ではなく「使われないこと」「不適切な使い方」をリスクとして対策。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
-- [履歴書のAI改ざん詐欺とは？1%の割合で発生、採用現場の最新脅威](https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa97718.html): 企業の採用AI審査をだます隠し文字入りの履歴書が、約100通に1通の割合で実際に提出されていることが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:00)
-- [AI専門家Meredith Whittaker、AIの本当のリスクは過度な懸念ではなく杜撰な利用にあると指摘](https://mot-ai-media.github.io/mot-ai-news/articles/signal-meredith-whittaker-3606b0f5.html): Signal財団トップで時代の人物100にも選ばれたMeredith Whittakerが、AIの「終末シナリオ」への懸念は科学的根拠に乏しく、むしろ現在のAIを不注意に運用することの方がはるかに危険だと主張。米情報機関の秘密契約による、ドローン攻撃システムの開発経験から語る。 (出典: BBC / 更新: 2026-10-09 16:28)

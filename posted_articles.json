@@ -1,17 +1,5 @@
 [
   {
-    "link": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
-    "notified_at": "2026-09-17T04:28:09.717290+00:00"
-  },
-  {
-    "link": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
-    "notified_at": "2026-09-17T04:28:09.736667+00:00"
-  },
-  {
-    "link": "https://www.bbc.co.uk/news/articles/cmpq0wj5g899o?at_medium=RSS&at_campaign=rss",
-    "notified_at": "2026-09-17T04:28:25.776423+00:00"
-  },
-  {
     "link": "https://www.itmedia.co.jp/news/article/2609/17/2000001570/",
     "notified_at": "2026-09-17T05:30:51.273852+00:00"
   },
@@ -4582,5 +4570,13 @@
   {
     "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
     "notified_at": "2026-10-17T02:06:37.973678+00:00"
+  },
+  {
+    "link": "https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/",
+    "notified_at": "2026-10-17T04:32:22.554229+00:00"
+  },
+  {
+    "link": "https://www.wired.com/review/microsoft-surface-laptop-ultra/",
+    "notified_at": "2026-10-17T04:32:38.363161+00:00"
   }
 ]

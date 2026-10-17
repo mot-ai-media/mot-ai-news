@@ -4,6 +4,20 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>マイクロソフトがついにApple超え？新型Surface Laptop Ultraが「真のライバル」と評価される</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-151e8c4a.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-151e8c4a.html</guid>
+    <description>マイクロソフトが発表した新型ノートパソコン「Surface Laptop Ultra」が、海外メディアから「Appleに最も近い競争力を持つWindows機」と評価されている。ただし致命的な弱点が残っているという。</description>
+    <pubDate>Sat, 17 Oct 2026 13:32:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ホワイトハウス報道官がAIレアアース採掘企業の顧問に？実は誰も働いていなかった</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-kristi-noem-3287a3bb.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-kristi-noem-3287a3bb.html</guid>
+    <description>米ホワイトハウスの報道官がAIを使用したレアアース採掘を目指すスタートアップの顧問リストに名前を連ねていたことが発覚。しかし本人も企業も「実際には関わっていない」と否定している。政治家と不透明なAI企業の結びつきが問題視されている。</description>
+    <pubDate>Sat, 17 Oct 2026 13:32:00 +0900</pubDate>
+  </item>
+  <item>
     <title>AIがついに「本当に見える」。新興企業Elorianが画像理解で革新的な仕組み</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/elorian-glimpse-6f0ec75f.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elorian-glimpse-6f0ec75f.html</guid>
@@ -198,19 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-metr-2b2b8ec4.html</guid>
     <description>AI企業Anthropicが独立した評価機関に社内システムへの完全なアクセスを許可し、リスク公表を拒否できない仕組みを導入</description>
     <pubDate>Fri, 16 Oct 2026 14:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Claude Haiku 5.5は本当に安いのか、検証したら衝撃の事実が判明</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-204b73a1.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-204b73a1.html</guid>
-    <description>Anthropic最軽量モデルのコスパは、タスクの複雑さで大きく変わる。</description>
-    <pubDate>Fri, 16 Oct 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Amazonの新AIデバイス2機種、会話を自動要約して仕事を効率化</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-bee-fdf258d0.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-bee-fdf258d0.html</guid>
-    <description>Amazonが傘下Beeブランドのウェアラブルデバイス2機種を発表。会話を自動で要約し、ToDoやリマインダーを作成できる。</description>
-    <pubDate>Fri, 16 Oct 2026 14:32:00 +0900</pubDate>
   </item>
 </channel></rss>
