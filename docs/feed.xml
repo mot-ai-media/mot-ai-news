@@ -4,6 +4,13 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AIが月額サブスク時代を終わらせる。SaaS代替が急速に進行</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/saas-ai-1658db8d.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/saas-ai-1658db8d.html</guid>
+    <description>AIが既存のサブスクリプション型ソフトウェアを代替し始めており、ソフト購入の形態が変わろうとしている。</description>
+    <pubDate>Sat, 17 Oct 2026 11:05:00 +0900</pubDate>
+  </item>
+  <item>
     <title>Nvidia新型チップがノートPC戦争に参入、AppleやIntelに真っ向勝負</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rtx-spark-n1x-3d6f16cf.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rtx-spark-n1x-3d6f16cf.html</guid>
@@ -204,13 +211,6 @@
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-claude-code-316912d4.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-claude-code-316912d4.html</guid>
     <description>Microsoftが社内数万人のエンジニアで検証。AIコーディングツール導入で仕事量が24%増加し、その効果は4ヶ月間持続していた。</description>
-    <pubDate>Fri, 16 Oct 2026 14:02:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生成AI時代、企業のデータ守り方が変わる。禁止でも放任でもない新戦略とは</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a837bf05.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-a837bf05.html</guid>
-    <description>生成AIの普及で企業データの扱い方が課題に。単純な禁止や放任ではなく、実践的な管理戦略が求められている。</description>
     <pubDate>Fri, 16 Oct 2026 14:02:00 +0900</pubDate>
   </item>
 </channel></rss>

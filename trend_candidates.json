@@ -1,55 +1,5 @@
 [
   {
-    "title": "Frog and Toad and the Increasingly Capable Machines",
-    "link": "https://www.frogandtoad.ai/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.frogandtoad.ai/\nComments URL: https://news.ycombinator.com/item?id=49927760\nPoints: 272\n# Comments: 62",
-    "novelty_score": 35,
-    "japan_relevance_score": 45,
-    "reason": "児童文学を題材にAIの進化を考察するエッセイだが、AIが人間を超える議論は既出で、日本でも一定層には関心がある。",
-    "discovered_at": "2026-10-02T13:28:41.956902+00:00"
-  },
-  {
-    "title": "Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it",
-    "link": "https://neow.in/NGxhb3d6",
-    "source": "Hacker News",
-    "summary": "Article URL: https://neow.in/NGxhb3d6\nComments URL: https://news.ycombinator.com/item?id=49927693\nPoints: 36\n# Comments: 45",
-    "novelty_score": 45,
-    "japan_relevance_score": 65,
-    "reason": "動的価格設定自体は既知だが、AIによる位置情報ベースの価格差別化は消費者心理的に注目度が高い。",
-    "discovered_at": "2026-10-02T13:28:43.449396+00:00"
-  },
-  {
-    "title": "Aweb – Communication for AI Agents",
-    "link": "https://aweb.ai",
-    "source": "Hacker News",
-    "summary": "Article URL: https://aweb.ai\nComments URL: https://news.ycombinator.com/item?id=49927587\nPoints: 38\n# Comments: 26",
-    "novelty_score": 45,
-    "japan_relevance_score": 55,
-    "reason": "AI Agent間通信は注目分野だが、具体的な差別化が不明で、HNでの反応も中程度。",
-    "discovered_at": "2026-10-02T13:28:45.065629+00:00"
-  },
-  {
-    "title": "Don't Be Fooled by this Summer of AI Hype",
-    "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-    "source": "Hacker News",
-    "summary": "Article URL: https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/\nComments URL: https://news.ycombinator.com/item?id=49927331\nPoints: 40\n# Comments: 33",
-    "novelty_score": 35,
-    "japan_relevance_score": 60,
-    "reason": "AIハイプへの警告は繰り返しされるテーマだが、2026年時点の現状分析として日本でも参考価値がある",
-    "discovered_at": "2026-10-02T13:28:46.763758+00:00"
-  },
-  {
-    "title": "US judge dismisses Chegg, Penske antitrust suits over Google AI Overviews",
-    "link": "https://reuters.com/legal/litigation/google-wins-dismissal-chegg-penske-media-lawsuits-over-ai-overviews-2026-10-01",
-    "source": "Hacker News",
-    "summary": "Article URL: https://reuters.com/legal/litigation/google-wins-dismissal-chegg-penske-media-lawsuits-over-ai-overviews-2026-10-01\nComments URL: https://news.ycombinator.com/item?id=49925606\nPoints: 20\n# Comments: 0",
-    "novelty_score": 35,
-    "japan_relevance_score": 65,
-    "reason": "Google AI Overviewsの訴訟動向は重要だが、却下という既知パターンの判例であり、国内でも同様の法的議論が今後発生する可能性がある。",
-    "discovered_at": "2026-10-02T13:28:48.464398+00:00"
-  },
-  {
     "title": "I Quit OpenAI Because Its Culture Is Broken",
     "link": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
     "source": "Hacker News",
@@ -1158,5 +1108,55 @@
     "japan_relevance_score": 72,
     "reason": "AI生成CSAMの法的扱いは国際的に未解決の重要課題であり、日本でも児童保護とAI規制の議論に直結する先例となる。",
     "discovered_at": "2026-10-16T10:29:42.350017+00:00"
+  },
+  {
+    "title": "Anthropic assigned highest junk credit rating in June",
+    "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+    "source": "Hacker News",
+    "summary": "https://finance.yahoo.com/technology/ai/articles/anthropic-s...\n\nComments URL: https://news.ycombinator.com/item?id=50122112\nPoints: 217\n# Comments: 70",
+    "novelty_score": 35,
+    "japan_relevance_score": 45,
+    "reason": "Anthropicの信用格付けは企業ニュースとしては一般的だが、AI業界の資金調達動向として技術者層には関連性がある。",
+    "discovered_at": "2026-10-17T02:05:10.301367+00:00"
+  },
+  {
+    "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
+    "link": "https://news.ycombinator.com/item?id=50121562",
+    "source": "Hacker News",
+    "summary": "I am a LegalTech Attorney leading a developer team from Costa Rica. While trying to load credits onto my Anthropic API account (claude.com), I experienced a critical internationalization (i18n) and UX failure that has placed an unfair financial burden on me due to a severe oversight in their payment pipeline.The platform prompted me for a payment. Since I am in a Spanish-speaking region where localized systems and keyboards handle dots and commas differently, I typed 5.04.Anthropic’s input system completely failed to sanitize or validate the data. Instead of throwing a formatting error or converting it properly, it silently stripped the decimal internally and instantly charged my credit card $504.00 USD instead of $5.04 USD.To make matters worse, there was no confirmation modal or review screen summarizing the final amount before processing the transaction. It was a single-click, instantaneous overcharge.Anticipating the Obvious Skepticism:\nBefore anyone suggests \"you should have checked your regional settings\" or \"just wait for the chargeback\":1. Users are not the QA team: In financial software, a system is never supposed to guess or automatically manipulate a numerical input without explicit validation. If an input is ambiguous due to locale differences, the application must reject it or ask for clarification, not execute a 100x overcharge.2. Scale of the vulnerability: This time it was $504.00, which is an unfair and frustrating burden for independent developers. But because this pipeline completely lacks a confirmation screen and basic input sanitization, the exact same bug could happen to someone typing 50.00 and end up charging them $5,000.00 or more instantly. It is a systemic financial risk.3. The Chargeback Illusion: Yes, I have already initiated a chargeback with my bank in Costa Rica. However, banking processes here are slow and take up to 120 days to resolve. In the meantime, the $504.00 has already been deducted and charged to my credit card statement. I am forced to pay for Anthropic’s engineering mistake out of my own pocket right now.The Support Wall:\nI filed an official complaint on the exact same day, minutes after it happened. I wasn't met with a human; I was blocked by an automated support BOT. The bot repeatedly and rigidly denied the refund, closing the ticket by citing generic policies without a single human ever looking at the fact that the overcharge was caused by a technical bug in their own platform.As developers, we build systems that process people's money. Omitting a confirmation screen on a financial transaction, failing to sanitize localized numerical inputs, and then hiding behind unyielding AI support bots to keep money that doesn't belong to you is completely unacceptable.If anyone from Anthropic's billing or engineering team is reading this, please look into this bug and review my case. It is a critical flaw that is actively harming international developers who are just trying to build on your ecosystem.Pura vida!R.S.G.\n\nComments URL: https://news.ycombinator.com/item?id=50121562\nPoints: 86\n# Comments: 33",
+    "novelty_score": 65,
+    "japan_relevance_score": 78,
+    "reason": "国際化対応の不具合による過請求は技術的興味深いが、個別事例であり、日本の多言語ユーザーにも関連性が高い。",
+    "discovered_at": "2026-10-17T02:05:12.574940+00:00"
+  },
+  {
+    "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+    "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/\nComments URL: https://news.ycombinator.com/item?id=50121179\nPoints: 406\n# Comments: 339",
+    "novelty_score": 72,
+    "japan_relevance_score": 78,
+    "reason": "AI能力評価と実務のギャップを実証的に示す重要な指摘で、日本の労働市場分析にも直結する知見。",
+    "discovered_at": "2026-10-17T02:05:14.717242+00:00"
+  },
+  {
+    "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+    "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+    "source": "Hacker News",
+    "summary": "Article URL: https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471\nComments URL: https://news.ycombinator.com/item?id=50119991\nPoints: 178\n# Comments: 68",
+    "novelty_score": 72,
+    "japan_relevance_score": 68,
+    "reason": "AIがバグレビューで人間を上回る事例は新しく、DB開発の未来を示す重要なトレンド。",
+    "discovered_at": "2026-10-17T02:05:17.649438+00:00"
+  },
+  {
+    "title": "Show HN: rStation – A shared research lab for your AI agents",
+    "link": "https://rstation.ai/",
+    "source": "Hacker News",
+    "summary": "Article URL: https://rstation.ai/\nComments URL: https://news.ycombinator.com/item?id=50118876\nPoints: 50\n# Comments: 19",
+    "novelty_score": 45,
+    "japan_relevance_score": 55,
+    "reason": "AI agentの協働環境は注目だが、類似プロダクトが既に複数存在し、初期段階の認知度に留まっている。",
+    "discovered_at": "2026-10-17T02:05:19.722268+00:00"
   }
 ]
