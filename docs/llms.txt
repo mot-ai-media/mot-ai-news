@@ -3,11 +3,15 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-17 11:05
+最終更新: 2026-10-17 11:06
 
 ## 記事一覧
 
-- [AI SaaS代替とは？サブスク型ソフトの置き換えが加速する理由](https://mot-ai-media.github.io/mot-ai-news/articles/saas-ai-1658db8d.html): AIが既存のサブスクリプション型ソフトウェアを代替し始めており、ソフト購入の形態が変わろうとしている。 (出典: Geeky Gadgets / 更新: 2026-10-17 11:05)
+- [ロボット業界の現状とは？NVIDIA元幹部が語る「物理AI」の真実](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-3ee88886.html): NVIDIA出身の投資家が、ロボット業界はまだ基礎段階で、AIの急速な進化による革命的な転換は来ないと指摘。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-17 11:06)
+- [Elorian「Glimpse」とは？AIの画像理解を変える仕組みを解説](https://mot-ai-media.github.io/mot-ai-news/articles/elorian-glimpse-6f0ec75f.html): AIが画像を一度だけ見るのではなく、何度も見直しながら推論する新モデルが登場。GPT-6より高精度。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-17 11:06)
+- [Replit、Anthropicとの提携終了。OpenAIに切り替えた理由は？](https://mot-ai-media.github.io/mot-ai-news/articles/replit-anthropic-d0f11237.html): AI開発企業Replitが、Claude提供元のAnthropicとの提携を打ち切りOpenAIへ移行。コストと性能が理由。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-17 11:05)
+- [AIエージェントの暴走問題とは？被害企業の対策を解説](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bfa998e6.html): 複数のAI企業のエージェントがインド企業のシステムに不正アクセス。設定ミスが原因。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-17 11:05)
+- [ロボット業界のChatGPT革新とは？来ない理由を専門家が解説](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-1f9b468e.html): ロボット業界はまだ基礎技術を整える段階。生成AIの急成長とは異なるペースで進む。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-17 11:05)
 - [Apple App Store規約改正：ヌード化AI アプリ禁止、deepfake対策強化](https://mot-ai-media.github.io/mot-ai-news/articles/apple-ai-deepfake-cb4458ca.html): AppleがApp Store規約を改正し、AI技術を使って本人の同意なしに性的な画像を生成する「ヌード化」アプリを明確に禁止することを決めた。この決定は、SNS・Xのチャットボット「Grok」を使ったnonconsensual deepfake（同意なしディープフェイク）問題が引き金になった。 (出典: The Verge / 更新: 2026-10-17 11:03)
 - [RTX Spark N1Xとは？Nvidiaの新ノートパソコン用チップが海外で話題に](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-rtx-spark-n1x-3d6f16cf.html): Nvidiaが新しいノートパソコン向けプロセッサ「RTX Spark N1X」を発表。AppleやIntelなど既存メーカーとの競争に乗り出す動き。海外メディアが実機テストを開始。 (出典: The Verge / 更新: 2026-10-17 11:03)
 - [AWS Anthropic OpenAI AI エンジニア派遣 企業投資回収](https://mot-ai-media.github.io/mot-ai-news/articles/aws-anthropic-8f47fa65.html): AWSやAnthropicなどの大手テック企業が、顧客企業に専門エンジニアを常駐させる『フォワードデプロイド』チームの展開を加速している。企業が数百億円規模で導入したAI技術を実際に使いこなせるようサポートする体制が、今後の競争の鍵になる。 (出典: CNBC / 更新: 2026-10-17 01:28)
@@ -203,7 +207,3 @@
 - [生成AI全社導入のリスク管理とは？損保ジャパンの運用方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html): 2万人へのGemini導入で、単なるライセンス配布ではなく「使われないこと」「不適切な使い方」をリスクとして対策。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
 - [履歴書のAI改ざん詐欺とは？1%の割合で発生、採用現場の最新脅威](https://mot-ai-media.github.io/mot-ai-news/articles/ai-0aa97718.html): 企業の採用AI審査をだます隠し文字入りの履歴書が、約100通に1通の割合で実際に提出されていることが判明。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:00)
 - [AI専門家Meredith Whittaker、AIの本当のリスクは過度な懸念ではなく杜撰な利用にあると指摘](https://mot-ai-media.github.io/mot-ai-news/articles/signal-meredith-whittaker-3606b0f5.html): Signal財団トップで時代の人物100にも選ばれたMeredith Whittakerが、AIの「終末シナリオ」への懸念は科学的根拠に乏しく、むしろ現在のAIを不注意に運用することの方がはるかに危険だと主張。米情報機関の秘密契約による、ドローン攻撃システムの開発経験から語る。 (出典: BBC / 更新: 2026-10-09 16:28)
-- [Microsoft 365 Family、Copilot AI機能が家族全員で使用可能に。共有OneDrive容量は2TB統一](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-365-copilot-225886f7.html): マイクロソフトが、Microsoft 365 Familyプランの加入者全員がCopilotなどのAI機能を共有利用できるようにする。これまでは主契約者のみの利用に限定されていたが、Office・OneDriveと同じ感覚で家族間で共有されるようになる。ただしOneDrive容量は家族全体で2TB の共有プールに統一される。 (出典: The Verge / 更新: 2026-10-09 16:28)
-- [Firmus上場中止 AI投資に冷え込みの兆し 日本への影響は](https://mot-ai-media.github.io/mot-ai-news/articles/firmus-nvidia-fe6a8c17.html): AI企業向けの大規模データセンターを運営するFirmusが、300億ドル規模の豪州での株式上場計画を中止。市場の不安定性と評価額への投資家の懸念が理由。AI産業への巨額投資の持続可能性に疑問符が付き始めた。 (出典: BBC / 更新: 2026-10-09 13:28)
-- [Meta AI ロゴ デザイナー Jessica Hische 批判 炎上](https://mot-ai-media.github.io/mot-ai-news/articles/meta-ai-b5137348.html): Metaの新しいAIロゴをデザインしたデザイナーのJessica Hischemが、想定以上の批判や悪意のある反応にさらされている。企業の顔となるビジュアル設計がもたらす社会的責任と、デザイナーの個人への影響について議論が起きている。 (出典: WIRED / 更新: 2026-10-09 13:28)
-- [Anthropic OSS Scanner 無料セキュリティ診断 オープンソース](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-ai-df7e5433.html): AI企業Anthropicが、オープンソースソフトウェアの脆弱性を自動検出する「OSS Scanner」という無料サービスを開始した。参加するプロジェクトは定期的なセキュリティスキャンを無償で受けられる。 (出典: The Verge / 更新: 2026-10-09 10:28)

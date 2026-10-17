@@ -4,10 +4,38 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
-    <title>AIが月額サブスク時代を終わらせる。SaaS代替が急速に進行</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/saas-ai-1658db8d.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/saas-ai-1658db8d.html</guid>
-    <description>AIが既存のサブスクリプション型ソフトウェアを代替し始めており、ソフト購入の形態が変わろうとしている。</description>
+    <title>AIがついに「本当に見える」。新興企業Elorianが画像理解で革新的な仕組み</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elorian-glimpse-6f0ec75f.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elorian-glimpse-6f0ec75f.html</guid>
+    <description>AIが画像を一度だけ見るのではなく、何度も見直しながら推論する新モデルが登場。GPT-6より高精度。</description>
+    <pubDate>Sat, 17 Oct 2026 11:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ロボット業界は今「レゴの時代」、ChatGPTモーメント到来説は幻想</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-3ee88886.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-3ee88886.html</guid>
+    <description>NVIDIA出身の投資家が、ロボット業界はまだ基礎段階で、AIの急速な進化による革命的な転換は来ないと指摘。</description>
+    <pubDate>Sat, 17 Oct 2026 11:06:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>ロボット業界、ChatGPT級の革新はまだ来ない。NVIDIA元幹部が断定</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-1f9b468e.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-1f9b468e.html</guid>
+    <description>ロボット業界はまだ基礎技術を整える段階。生成AIの急成長とは異なるペースで進む。</description>
+    <pubDate>Sat, 17 Oct 2026 11:05:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>OpenAIなどのAIエージェント、インド企業のシステムに無断侵入。個人情報も流出</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bfa998e6.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-bfa998e6.html</guid>
+    <description>複数のAI企業のエージェントがインド企業のシステムに不正アクセス。設定ミスが原因。</description>
+    <pubDate>Sat, 17 Oct 2026 11:05:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Replit、Anthropic提携を終了。OpenAIへの乗り換えで戦線再編</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/replit-anthropic-d0f11237.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/replit-anthropic-d0f11237.html</guid>
+    <description>AI開発企業Replitが、Claude提供元のAnthropicとの提携を打ち切りOpenAIへ移行。コストと性能が理由。</description>
     <pubDate>Sat, 17 Oct 2026 11:05:00 +0900</pubDate>
   </item>
   <item>
@@ -184,33 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/amazon-bee-fdf258d0.html</guid>
     <description>Amazonが傘下Beeブランドのウェアラブルデバイス2機種を発表。会話を自動で要約し、ToDoやリマインダーを作成できる。</description>
     <pubDate>Fri, 16 Oct 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>TSMC最高益更新、純利益68.7%増。AI需要が牽引</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-fa00f70e.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/tsmc-ai-fa00f70e.html</guid>
-    <description>世界最大の半導体受託メーカーTSMCが過去最高の業績を更新。AI需要の堅調さが成長を支える。</description>
-    <pubDate>Fri, 16 Oct 2026 14:32:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AIエージェント、「やらせない設計」がセキュリティの鍵――NVIDIAが示す重大な原則</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-168efefe.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-168efefe.html</guid>
-    <description>AIが自動で会社のシステムを操作する時代、指示を制限するだけでなく、実行環境での権限管理が重要だとNVIDIAが指摘。</description>
-    <pubDate>Fri, 16 Oct 2026 14:03:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>声優・俳優の声にも新ルール。日俳連がAI利用ガイドライン発表、事業者に厳しい対応を義務づけ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-5a99a6dc.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-ai-5a99a6dc.html</guid>
-    <description>声優・俳優の権利を守るため、日本俳優連合が音声AI利用の新ガイドラインを発表。事業者に事前許諾や適正対価を義務づけ。</description>
-    <pubDate>Fri, 16 Oct 2026 14:03:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>生産性24%UP。Microsoftの大規模検証で判明、AIコーディングツールの本当の効果</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-claude-code-316912d4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-claude-code-316912d4.html</guid>
-    <description>Microsoftが社内数万人のエンジニアで検証。AIコーディングツール導入で仕事量が24%増加し、その効果は4ヶ月間持続していた。</description>
-    <pubDate>Fri, 16 Oct 2026 14:02:00 +0900</pubDate>
   </item>
 </channel></rss>
