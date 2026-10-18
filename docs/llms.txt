@@ -3,10 +3,14 @@
 > AIの最新ニュースを日本語で要約・解説するメディア。RSSで集めた一次情報をもとに、編集部が見出し・要約・解説を作成しています(生成AIによる要約を含む。各記事のSOURCE/FACT表記に元記事URLを明記)。
 
 サイトURL: https://mot-ai-media.github.io/mot-ai-news/
-最終更新: 2026-10-17 13:32
+最終更新: 2026-10-18 16:28
 
 ## 記事一覧
 
+- [AI導入で従業員を選別する企業戦略が浮上。Paysend CEOの判断が示す課題](https://mot-ai-media.github.io/mot-ai-news/articles/paysend-ai-2c9e6fa9.html): 英国の送金企業Paysend のCEOが、AI導入の新しいアプローチを取っている。他社が全社員にAIツールを配布する中、このCEOは高パフォーマンス層に限定して導入。職場のAI活用の効率性か公平性かという問題が浮き彫りになっている。 (出典: CNBC / 更新: 2026-10-18 16:28)
+- [AI株急落とインフレの影響：投資家が次に注目する分野とは](https://mot-ai-media.github.io/mot-ai-news/articles/ai-35c09364.html): 米国市場でAI関連株が大きく下げ、投資家心理が冷え込んでいる。一方で銀行セクターの好調や技術セクター外への資金シフトが観察され、市場が多角化する兆しも見えている。 (出典: CNBC / 更新: 2026-10-18 16:27)
+- [Anthropic Claude Fable 5.5とは？来週リリース予定](https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b5bbf5af.html): Anthropicが新バージョンのClaude Fable 5.5を近く発表する見込み。 (出典: TestingCatalog AI News / 更新: 2026-10-18 16:05)
+- [Elorian Glimpse API料金比較：GPT-6 Astraより圧倒的に安い理由](https://mot-ai-media.github.io/mot-ai-news/articles/elorian-api-a4e74c61.html): ElorianのAI API『Glimpse』がGPT-6 Astraの94%安い価格で登場も、精度面に課題が残る。 (出典: www.tokenpost.com / 更新: 2026-10-18 16:05)
 - [Katie Zacharia AI採掘企業顧問問題｜ホワイトハウス](https://mot-ai-media.github.io/mot-ai-news/articles/ai-kristi-noem-3287a3bb.html): 米ホワイトハウスの報道官がAIを使用したレアアース採掘を目指すスタートアップの顧問リストに名前を連ねていたことが発覚。しかし本人も企業も「実際には関わっていない」と否定している。政治家と不透明なAI企業の結びつきが問題視されている。 (出典: WIRED / 更新: 2026-10-17 13:32)
 - [Surface Laptop Ultra レビュー｜MacBook Pro対抗馬の実力とバッテリー問題](https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-151e8c4a.html): マイクロソフトが発表した新型ノートパソコン「Surface Laptop Ultra」が、海外メディアから「Appleに最も近い競争力を持つWindows機」と評価されている。ただし致命的な弱点が残っているという。 (出典: WIRED / 更新: 2026-10-17 13:32)
 - [ロボット業界の現状とは？NVIDIA元幹部が語る「物理AI」の真実](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-ai-3ee88886.html): NVIDIA出身の投資家が、ロボット業界はまだ基礎段階で、AIの急速な進化による革命的な転換は来ないと指摘。 (出典: AI News & Artificial Intelligence | TechCrunch / 更新: 2026-10-17 11:06)
@@ -203,7 +207,3 @@
 - [AIが犯罪に使われた事例：韓国銀行狙ったサイバー攻撃の手口とは](https://mot-ai-media.github.io/mot-ai-news/articles/claude-ai-5d5f9ae2.html): Claudeなどの生成AIを悪用した韓国銀行への大規模サイバー攻撃。攻撃者はAIの利用記録から身元が特定される可能性に。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 22:01)
 - [OpenAI安全研究者解雇事件とは？AI業界に何をもたらすのか](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-c8f23c5b.html): AI大手OpenAIが安全性研究者3名を解雇。機密情報の扱いを巡る「信頼侵害」が理由とされるが、解雇の背景が安全性への異議申し立てではないと強調する発表が、業界内で議論を呼んでいる。 (出典: CNBC / 更新: 2026-10-09 19:28)
 - [OpenAI研究者解雇事件：AI安全問題を懸念した従業員が相次ぎ退職](https://mot-ai-media.github.io/mot-ai-news/articles/openai-ai-8e250ba0.html): OpenAIがAI安全性に関する懸念を上げていた研究者3人を「機密情報の不適切な取り扱い」を理由に解雇。本人たちは「安全性を優先させたために報復された」と主張。BBCなど海外メディアが報道する中、AI企業の内部統制と言論の自由をめぐる議論が勃発している。 (出典: BBC / 更新: 2026-10-09 19:28)
-- [トランプ大統領、マスク氏ら6人に国家科学賞授与。何が評価された？](https://mot-ai-media.github.io/mot-ai-news/articles/nvidia-elon-musk-6147f31c.html): マスク氏やNVIDIAのフアン氏ら6人が米国の科学技術分野の最高栄誉を受賞。半導体やAI、クラウドなど戦略産業での貢献を認定。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
-- [トランプ米大統領、AI（人工知能）を「SI」に改称する方針とは？](https://mot-ai-media.github.io/mot-ai-news/articles/ai-super-intelligence-4f20a2dc.html): トランプ大統領が「AI」という言葉の使用を禁止し、「Super Intelligence（SI）」への統一を指示。政府サイトのロゴや大統領令で改称が進む。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
-- [Amazon新タブレット「Amazon Alexa Tablet」とは？FireOSから何が変わる](https://mot-ai-media.github.io/mot-ai-news/articles/amazon-alexa-efc86905.html): AmazonがFireタブレットをリブランド。AI搭載で画面認識機能が登場し、GooglePlayにも対応。日本では子ども向けモデルが10月14日発売。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)
-- [生成AI全社導入のリスク管理とは？損保ジャパンの運用方法を解説](https://mot-ai-media.github.io/mot-ai-news/articles/google-gemini-ai-a2cf0cc3.html): 2万人へのGemini導入で、単なるライセンス配布ではなく「使われないこと」「不適切な使い方」をリスクとして対策。 (出典: ITmedia AI＋ 最新記事一覧 / 更新: 2026-10-09 18:01)

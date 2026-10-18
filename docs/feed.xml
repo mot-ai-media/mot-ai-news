@@ -4,6 +4,34 @@
   <link>https://mot-ai-media.github.io/mot-ai-news/index.html</link>
   <description>生成AI・ChatGPT・Claude最新ニュースまとめ</description>
   <item>
+    <title>AI導入で「選別」が始まった。優秀な社員だけにAIを使わせるCEOの戦略</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/paysend-ai-2c9e6fa9.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/paysend-ai-2c9e6fa9.html</guid>
+    <description>英国の送金企業Paysend のCEOが、AI導入の新しいアプローチを取っている。他社が全社員にAIツールを配布する中、このCEOは高パフォーマンス層に限定して導入。職場のAI活用の効率性か公平性かという問題が浮き彫りになっている。</description>
+    <pubDate>Sun, 18 Oct 2026 16:28:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>AI株が急落、インフレ圧力も――市場は「AIバブル調整」の局面へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-35c09364.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-35c09364.html</guid>
+    <description>米国市場でAI関連株が大きく下げ、投資家心理が冷え込んでいる。一方で銀行セクターの好調や技術セクター外への資金シフトが観察され、市場が多角化する兆しも見えている。</description>
+    <pubDate>Sun, 18 Oct 2026 16:27:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>新型API『Glimpse』、GPT-6 Astraより94%安い衝撃—精度は課題か</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/elorian-api-a4e74c61.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/elorian-api-a4e74c61.html</guid>
+    <description>ElorianのAI API『Glimpse』がGPT-6 Astraの94%安い価格で登場も、精度面に課題が残る。</description>
+    <pubDate>Sun, 18 Oct 2026 16:05:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>Anthropic、次世代AI「Claude Fable 5.5」来週公開へ</title>
+    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b5bbf5af.html</link>
+    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-claude-b5bbf5af.html</guid>
+    <description>Anthropicが新バージョンのClaude Fable 5.5を近く発表する見込み。</description>
+    <pubDate>Sun, 18 Oct 2026 16:05:00 +0900</pubDate>
+  </item>
+  <item>
     <title>マイクロソフトがついにApple超え？新型Surface Laptop Ultraが「真のライバル」と評価される</title>
     <link>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-151e8c4a.html</link>
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/microsoft-surface-laptop-ultra-151e8c4a.html</guid>
@@ -184,33 +212,5 @@
     <guid>https://mot-ai-media.github.io/mot-ai-news/articles/github-openai-156d6a87.html</guid>
     <description>GitHubが複数のAIモデルを組み合わせる機能を拡張し、最新モデルに対応開始。開発者の選択肢が広がる。</description>
     <pubDate>Fri, 16 Oct 2026 16:53:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AI株の急落が示す「危険な罠」—投資家が今、気づくべき教訓</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-cnbc-6171c9d6.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-cnbc-6171c9d6.html</guid>
-    <description>米CNBCの著名投資解説者ジム・クレイマーが、先週のAI関連株の急落を受け、AI一辺倒の投資戦略の危険性を指摘。市場で最も注目される銘柄に投資を集中させるリスクについて警告を発している。</description>
-    <pubDate>Fri, 16 Oct 2026 16:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>AppleとMetaが手を組んだ。高性能AI、今あなたのMacで動く時代へ</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/meta-apple-d9d326be.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/meta-apple-d9d326be.html</guid>
-    <description>MetaとAppleが協力し、高性能AI「Muse Spark Open」をMac上で直接動かせるようにした。クラウドに頼らずパソコンだけで最先端のAI機能が使える環境が整い始めている。</description>
-    <pubDate>Fri, 16 Oct 2026 16:29:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>中国がヒューマノイド開発で猛進、日本の勝ち筋はどこにあるのか</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44bce91.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/ai-d44bce91.html</guid>
-    <description>中国のヒューマノイド開発が加速する中、AIやセンサー、手といった部品レベルの分析から見える、日本が競争できる領域が明らかに。</description>
-    <pubDate>Fri, 16 Oct 2026 14:33:00 +0900</pubDate>
-  </item>
-  <item>
-    <title>Anthropic、AI評価機関に「従業員並み」のアクセス権を付与　拒否権なし</title>
-    <link>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-metr-2b2b8ec4.html</link>
-    <guid>https://mot-ai-media.github.io/mot-ai-news/articles/anthropic-metr-2b2b8ec4.html</guid>
-    <description>AI企業Anthropicが独立した評価機関に社内システムへの完全なアクセスを許可し、リスク公表を拒否できない仕組みを導入</description>
-    <pubDate>Fri, 16 Oct 2026 14:33:00 +0900</pubDate>
   </item>
 </channel></rss>

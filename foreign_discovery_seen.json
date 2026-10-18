@@ -1,116 +1,6 @@
 [
   {
     "tokens": [
-      "careless",
-      "ghost",
-      "not",
-      "real",
-      "stories'",
-      "threat",
-      "use"
-    ],
-    "ts": "2026-10-09T16:28:08"
-  },
-  {
-    "tokens": [
-      "365",
-      "able",
-      "benefits",
-      "family",
-      "finally",
-      "microsoft",
-      "share",
-      "subscribers"
-    ],
-    "ts": "2026-10-09T16:28:27"
-  },
-  {
-    "tokens": [
-      "concerns",
-      "decision",
-      "decisions",
-      "defends",
-      "fire",
-      "not",
-      "openai",
-      "out'",
-      "raising",
-      "researchers",
-      "safety",
-      "speaking",
-      "these"
-    ],
-    "ts": "2026-10-09T19:28:05"
-  },
-  {
-    "tokens": [
-      "fired",
-      "let",
-      "openai",
-      "prioritising",
-      "researchers",
-      "safety'",
-      "they"
-    ],
-    "ts": "2026-10-09T19:28:23"
-  },
-  {
-    "tokens": [
-      "ai-generated",
-      "backlash",
-      "image",
-      "nikon",
-      "prize-winning",
-      "rules",
-      "sparked",
-      "which"
-    ],
-    "ts": "2026-10-10T01:28:01"
-  },
-  {
-    "tokens": [
-      "anthropic",
-      "bans",
-      "being",
-      "cruel'",
-      "systems",
-      "users"
-    ],
-    "ts": "2026-10-10T01:28:21"
-  },
-  {
-    "tokens": [
-      "ahead",
-      "banks",
-      "big",
-      "chipmakers",
-      "cramer",
-      "earnings",
-      "face",
-      "kick",
-      "off",
-      "tests",
-      "week"
-    ],
-    "ts": "2026-10-10T13:49:27"
-  },
-  {
-    "tokens": [
-      "agents",
-      "can",
-      "here's",
-      "like",
-      "means",
-      "muse",
-      "retail",
-      "shop",
-      "stocks",
-      "you."
-    ],
-    "ts": "2026-10-10T13:49:46"
-  },
-  {
-    "tokens": [
       "agent",
       "anthropic",
       "case",
@@ -824,5 +714,32 @@
       "ultra"
     ],
     "ts": "2026-10-17T13:32:38"
+  },
+  {
+    "tokens": [
+      "finding",
+      "heats",
+      "inflation",
+      "opportunities",
+      "plunge.",
+      "still",
+      "stocks",
+      "up.",
+      "we're",
+      "where"
+    ],
+    "ts": "2026-10-18T16:27:58"
+  },
+  {
+    "tokens": [
+      "ceo",
+      "companies",
+      "doing",
+      "everyone.",
+      "give",
+      "opposite",
+      "some"
+    ],
+    "ts": "2026-10-18T16:28:17"
   }
 ]
