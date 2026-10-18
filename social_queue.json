@@ -2771,7 +2771,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
     "generated_at": "2026-09-09 22:02",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -2829,7 +2829,10 @@
         "x_post": "Claude有料ユーザー必読：月1回のアカウント確認と請求額監視で、不正アクセスの被害を防げます。強力なパスワード設定も基本。今からできる実践的対策をまとめました。",
         "cta": "AI利用者のセキュリティ対策ガイドを読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18015901943986864",
+    "published_at": "2026-10-18T19:02:15"
   },
   "besxar-spacex-646e8eb9": {
     "headline": "宇宙工場、SpaceXロケットで実現へ。半導体製造がついに軌道上で始まる",
