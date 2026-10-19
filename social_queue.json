@@ -3143,7 +3143,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/news/article/ogp/2609/15/2000001470/10006455/2048",
     "generated_at": "2026-09-15 09:38",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -3201,7 +3201,10 @@
         "x_post": "使っているAIサービスの料金・機能は規制ルール次第。勤務先のAI導入計画も規制環境の変化で左右される可能性があります。今から動向を理解しておくと、後の判断がブレにくくなります。",
         "cta": "AIサービス継続性\nのリスク、\n詳しく理解する"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17869082202662837",
+    "published_at": "2026-10-19T11:55:13"
   },
   "ai-ai-2882773e": {
     "headline": "AI が人類を脅かす可能性は本当か？BBC が改めて問う「実在する危機」の正体",
