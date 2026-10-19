@@ -3436,7 +3436,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2609/17/2000001584/10006864/2048",
     "generated_at": "2026-09-17 18:00",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -3494,7 +3494,10 @@
         "x_post": "ブログ運営者の現実的な課題が解決へ。Cloudflareで検索流入を保ちながらAI学習だけ拒否可能に。Google・Apple・Microsoftが対応開始。",
         "cta": "運営中のサイトで設定する手順をMOTで確認。"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18153376045556108",
+    "published_at": "2026-10-20T07:06:34"
   },
   "ai-7f6136d1": {
     "headline": "AI導入した企業の8割が『チャットだけ』、業務自動化に進めない理由",
