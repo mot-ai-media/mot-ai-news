@@ -3956,7 +3956,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/Screenshot-2026-03-11-at-3.22.19-PM.png?resize=1200,672",
     "generated_at": "2026-09-20 18:00",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4014,7 +4014,10 @@
         "x_post": "Tilly Norwoodの記者会見で何が起きたか。企業は「AIが失敗する可能性」を想定し、従業員も「AIを見分けるスキル」を持つ必要がある。AI時代の仕事は、判定力なしに成立しない。",
         "cta": "AI判定スキルが必須に。実務への影響をMOTで確認"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18064177439627079",
+    "published_at": "2026-10-20T11:07:02"
   },
   "u-s-military-llm-45094031": {
     "headline": "米軍の武装作戦、AIの幻覚データで寸前に中止。指揮官の盲信が招いた危機",
