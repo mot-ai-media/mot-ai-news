@@ -4106,7 +4106,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/flock-protest.jpg?resize=1131,1200",
     "generated_at": "2026-09-20 11:00",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4164,7 +4164,10 @@
         "x_post": "あなたの街の防犯システムも実は今変わろうとしています。90都市の導入中止で、代替システム検討中。短期的には公安インフラが不安定になる可能性。地域の自治体ニュースをチェックしてみては。",
         "cta": "導入中止による地域への\n実質的な影響を理解する"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17905664094348808",
+    "published_at": "2026-10-21T09:16:00"
   },
   "scrolled-ai-c1355961": {
     "headline": "教科書がTikTok化する。ScrollEdが「退屈な勉強」を動画フィードに変える",
