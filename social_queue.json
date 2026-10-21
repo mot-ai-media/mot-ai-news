@@ -4635,7 +4635,7 @@
     ],
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Mitsotakis_c8978d.jpg?resize=1200,800",
     "generated_at": "2026-09-23 18:01",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -4693,7 +4693,10 @@
         "x_post": "政府が確固たる戦略を持たないままAI政策を決めるから、企業や個人が投資・キャリア計画を立てる際の判断材料が不足している。規制変更に後手で対応するか、先手の知識で選択肢を守るか。今の準備が分岐点。",
         "cta": "実用的なAI知識を今から。MOTで"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18108607181256667",
+    "published_at": "2026-10-21T19:02:34"
   },
   "ai-ai-60695165": {
     "headline": "AIが新卒の仕事を奪い始めた。企業の採用戦略が大転換へ",
