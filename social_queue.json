@@ -5003,7 +5003,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/ait/articles/2609/26/cover_news013.jpg",
     "generated_at": "2026-09-27 14:31",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -5061,7 +5061,10 @@
         "x_post": "『Android Bench 2.0』から学ぶ実務的AI活用：複雑タスク28%→人間の「修正と判断」が何度も必要。「AIが全部やる」は幻想。AIと人間の分業体制が正解。",
         "cta": "仕事に活かせるAI活用法、詳しく読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18051428684607640",
+    "published_at": "2026-10-22T19:02:51"
   },
   "meta-ai-ca6c0248": {
     "headline": "Metaの新AI助手が定期購入の落とし穴を狙う——あなたのクレカ管理が自動化される時代へ",
