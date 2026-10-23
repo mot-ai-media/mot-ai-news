@@ -5371,7 +5371,7 @@
     ],
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
     "generated_at": "2026-09-28 13:27",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -5429,7 +5429,10 @@
         "x_post": "OpenAIの事件で、企業のAI導入基準が急速に厳しくなる。AI安全性の検証に時間がかかるようになり、セキュリティ対策の専門家の需要も増加。あなたの職場でも、この変化に対応する準備が必要になってくる。",
         "cta": "職場でのAI対応、実践的ガイドをMOTで読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18016549838753203",
+    "published_at": "2026-10-23T11:03:52"
   },
   "microsoft-copilot-2d804fa5": {
     "headline": "Microsoft「Copilot」が仕事のOSに進化、AIが勝手に業務をこなす時代へ",
