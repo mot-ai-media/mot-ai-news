@@ -6332,7 +6332,7 @@
     ],
     "image_url": "https://image.itmedia.co.jp/mn/articles/2609/25/cover_news063.jpg",
     "generated_at": "2026-09-25 22:01",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -6390,7 +6390,10 @@
         "x_post": "日常への直結。AIチップ『RAIDEN』が2027年量産開始で、スマートフォンの反応速度向上、バッテリー持ち改善、AI機能の拡充が加速。チップの進化が、あなたの『使い心地』を確実に変える。",
         "cta": "スマートフォンが変わる理由。\nMOTで仕組みを詳しく解説"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18478477591113740",
+    "published_at": "2026-10-23T19:03:29"
   },
   "ecfe4122": {
     "headline": "日本の職人気質がAI時代に裏目になる理由。暗黙知の呪縛から脱却せよ",
