@@ -6631,7 +6631,7 @@
     ],
     "image_url": "https://kn.itmedia.co.jp/kn/article/ogp/2609/30/2000001811/10007734/2048",
     "generated_at": "2026-09-30 18:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -6689,7 +6689,10 @@
         "x_post": "新時代の職場管理：返信速度、投稿量、DM比率の変化からAIが疲弊を検知し、上司が先制フォロー。プライバシーの課題はあるが「無理に気づかれない」という時代は終わった。",
         "cta": "職場の見える化、あなたへの影響"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18017265806748845",
+    "published_at": "2026-10-24T12:36:22"
   },
   "ai-it-db6d41e5": {
     "headline": "大企業の過半数が非エンジニアにAI開発させているのに、品質検査の体制が追いついていない",
