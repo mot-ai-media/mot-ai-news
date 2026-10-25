@@ -6856,7 +6856,7 @@
     ],
     "image_url": "https://image.cnbcfm.com/api/v1/image/108364889-1789736603272-gettyimages-2228237243-AA_08082025_2362699.jpeg?v=1789736677&w=1920&h=1080",
     "generated_at": "2026-10-01 10:28",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -6914,7 +6914,10 @@
         "x_post": "🌍 米国初のAI労働規制が日本企業に波及へ。採用・昇進判断にAIを使う企業は、人間確認と透明性が法的要件に。数年で業界基準が変わる可能性も。今から準備する企業が有利に。",
         "cta": "日本企業への実的影響、MOTで解説。"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18110174344924315",
+    "published_at": "2026-10-25T19:02:30"
   },
   "palantir-sier-0641faf8": {
     "headline": "Palantir流「AI常駐エンジニア」が日本SIer業界を激変させる",
