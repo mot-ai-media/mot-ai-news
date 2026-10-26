@@ -7005,7 +7005,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/aiplus/article/ogp/2610/01/2000001909/10008071/2048",
     "generated_at": "2026-10-01 09:09",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -7063,7 +7063,10 @@
         "x_post": "会社が使ってるChatGPTやクラウドにデータを入力してるけど、どこに保存されてるか確認してますか？規制変更やサービス停止で一気にリスクが変わります。今が対策のタイミング。",
         "cta": "企業が今すぐ確認すべきデータ管理のポイント、MOTで解説"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17875913787650479",
+    "published_at": "2026-10-26T19:02:47"
   },
   "gmo-ai-674dbca6": {
     "headline": "パナソニック・トヨタ・GMOが実績公開、AIエージェント導入で業務時間を激減させている",
