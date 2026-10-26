@@ -7081,7 +7081,7 @@
     ],
     "image_url": "https://ainow.ai/wp-content/uploads/2026/09/thumbnail-19.jpg",
     "generated_at": "2026-10-01 18:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -7139,7 +7139,10 @@
         "x_post": "あなたの職場も例外ではない。大手企業の導入で給与・人員配置・業務内容が変わり始めている。未導入企業との生産性格差は今後、さらに広がる可能性があります。",
         "cta": "自分の職場で起きうる変化を、実例から先読みする"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17925563820435662",
+    "published_at": "2026-10-27T07:04:09"
   },
   "openai-moonshot-ai-bbb7c212": {
     "headline": "OpenAI、中国企業による「AI盗用作戦」を摘発。推論プロセス1万6000件を違法抽出",
