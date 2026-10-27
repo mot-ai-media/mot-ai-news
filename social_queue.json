@@ -7459,7 +7459,7 @@
     ],
     "image_url": null,
     "generated_at": "2026-10-02 18:02",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -7517,7 +7517,10 @@
         "x_post": "Geminiユーザーへ。『Unlock BTS』か『7777』でBTS限定体験4つが即座に利用可能。難しくない、キーワード入力だけ。試す価値あり。",
         "cta": "実用的な推し活×AI、MOTで今すぐチェック"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17879260116562156",
+    "published_at": "2026-10-28T07:04:04"
   },
   "interpol-ai-1d278d84": {
     "headline": "Interpol警告：AIが犯人の手口を高速化・ステルス化、サイバー攻撃が防ぎづらくなっている",
