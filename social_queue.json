@@ -7380,7 +7380,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/news/article/ogp/2610/02/2000001946/10008211/2048",
     "generated_at": "2026-10-02 22:01",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -7442,7 +7442,10 @@
         "x_post": "10月1日、あなたのPS5が進化する。ソニー「QSSR」で『Marvel's Wolverine』『Ghost of Yōtei』の映像が鮮明・滑らかに。アップデートだけで、持ってる機械の価値が上がる。",
         "cta": "PS5の画質向上、今月から始まる詳細"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17988345125878329",
+    "published_at": "2026-10-27T19:03:02"
   },
   "google-gemini-bts-b7809ea2": {
     "headline": "BTS×Google Gemini、特別コラボ機能がついに解禁。4つの体験が楽しめる",
