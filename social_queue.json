@@ -7832,7 +7832,7 @@
     ],
     "image_url": null,
     "generated_at": "2026-10-04 18:00",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -7890,7 +7890,10 @@
         "x_post": "テスラ・スペースX・xAI統合で、利用者のサービス体験が変わる可能性。技術加速のメリット、経営不確実性のリスク、両方を視野に戦略を見守る必要があります。",
         "cta": "自分への影響をMOTで\n事前に整理しておく"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18211696714368560",
+    "published_at": "2026-10-28T11:04:01"
   },
   "ai-re-engine-f1c80105": {
     "headline": "カプコンがAIとの共同開発宣言。ゲーム制作の未来は人間とAIで一緒に作る時代へ",
