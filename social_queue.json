@@ -8500,7 +8500,7 @@
     ],
     "image_url": "https://www.itmedia.co.jp/news/article/ogp/2610/06/2000002010/10008434/2048",
     "generated_at": "2026-10-06 10:18",
-    "status": "draft",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -8558,7 +8558,10 @@
         "x_post": "企業のAI音声利用、実務判断が難しい。津田健次郎訴訟の請求棄却も、法的ルール確定ではなく、グレーゾーンのまま。ビジネス進行時の具体的な判断基準が欲しい状況です。",
         "cta": "実務判断に必要な知識、MOTでチェック。"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "17955336777276774",
+    "published_at": "2026-10-28T19:03:08"
   },
   "google-gemini-openai-chatgpt-b3b25388": {
     "headline": "Gemini 4 Argon、ChatGPT 6 Astra、Claude Fable 5.1が激突。次世代AI対決",
