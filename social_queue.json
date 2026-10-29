@@ -8575,7 +8575,7 @@
     ],
     "image_url": null,
     "generated_at": "2026-10-06 00:53",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -8633,6 +8633,9 @@
         "x_post": "日常業務のAIサービスの基盤が次世代モデルに。Gemini 4 ArgonなどがメールやWord資料作成で使われ始めたら、あなたの仕事効率も変わる。今から準備を。",
         "cta": "仕事別AI選びガイド。今すぐ読む"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18642095044048698",
+    "published_at": "2026-10-29T19:03:37"
   }
 }
