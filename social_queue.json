@@ -1050,7 +1050,7 @@
     ],
     "image_url": "https://image.cnbcfm.com/api/v1/image/108353993-1787677585886-108353993-1787675816989-gettyimages-2266718431-NVIDIA_GTC.jpg?v=1787832050&w=1920&h=1080",
     "generated_at": "2026-09-04 22:28",
-    "status": "approved",
+    "status": "published",
     "angles": [
       {
         "type": "fear",
@@ -1108,7 +1108,10 @@
         "x_post": "Nvidiaの99億ドル投資の実は『チップ+資金支配で業界支配』。企業のAI導入意思決定が必然的にNvidiaの投資ポートフォリオに影響される構図に。実務レベルの影響が目前に迫っています。",
         "cta": "企業AI戦略への影響を深掘り"
       }
-    ]
+    ],
+    "published_angle": "surprise",
+    "published_media_id": "18134554732782741",
+    "published_at": "2026-10-30T07:03:55"
   },
   "ai-chatgpt-73d7f7bb": {
     "headline": "AIが作ったメニューは「何か違う」。客が無意識に感じ取る違和感の正体",
